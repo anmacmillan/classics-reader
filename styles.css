@@ -24,6 +24,55 @@
   --backdrop-blur: 4px;
 }
 
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Georgia', 'Palatino', serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1208 0%, #2a1f0c 50%, #1a1208 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+/* ─── Fire Glow ────────────────────────────────────────────────────────────── */
+.app-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 80%, rgba(247,168,57,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(247,168,57,0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ─── Splash ────────────────────────────────────────────────────────────────── */
+#splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 16px;
+  padding: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
