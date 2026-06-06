@@ -1,0 +1,187 @@
+/* ─── Calcifer — Classics Reader ───────────────────────────────────────
+   A warm, golden, fire-lit theme for reading Latin and Ancient Greek.
+   ─────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --bg-primary: #1a1208;
+  --bg-secondary: #2a1f0c;
+  --bg-card: #332516;
+  --bg-control: #3d2e1b;
+  --bg-elevated: #4a3824;
+  --text-primary: #fbebc8;
+  --text-secondary: #c9aa6e;
+  --text-muted: #8b7346;
+  --accent-primary: #f7a839;
+  --accent-secondary: #e07c26;
+  --accent-glow: #ffb347;
+  --border-color: #5a4228;
+  --border-glow: #e07c26;
+  --shadow-glow: rgba(247, 168, 57, 0.25);
+  --shadow-premium: 0 4px 20px rgba(247, 168, 57, 0.15);
+  --font-size: 1rem;
+  --font-ui: 'Georgia', 'Palatino', serif;
+  --reading-font-size: 1.12rem;
+  --backdrop-blur: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Georgia', 'Palatino', serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1208 0%, #2a1f0c 50%, #1a1208 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+/* ─── Fire Glow ──────────────────────────────────────────────────── */
+.app-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 80%, rgba(247,168,57,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(247,168,57,0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ─── Header ──────────────────────────────────────────────────────────── */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: linear-gradient(180deg, #2a1f0c 0%, #332516 100%);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  z-index: 100;
+  min-height: 44px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ─── Workspace ────────────────────────────────────────────────────── */
+.workspace-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.reader-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 16px;
+  background: linear-gradient(180deg, #1a1208 0%, #2a1f0c 100%);
+}
+
+/* ─── Page Controls ──────────────────────────────────────────────── */
+.footer-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+}
+
+.footer-page-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 12px;
+}
+
+/* ─── Buttons ──────────────────────────────────────────────────────────── */
+.btn-icon, .btn-action {
+  background: var(--bg-control);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  box-shadow: 0 0 4px rgba(247,168,57,0.1);
+}
+
+.btn-icon:hover, .btn-action:hover {
+  background: var(--bg-elevated);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 8px rgba(247,168,57,0.2);
+}
+
+/* ─── Reading ──────────────────────────────────────────────────────────── */
+.reader-pane .chunks-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  line-height: 1.6;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--accent-primary); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent-secondary); }
+
+/* ─── Splash / Library ─────────────────────────────────────────────────────── */
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 16px;
+}
+
+.book-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 0 4px var(--shadow-glow);
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 12px var(--shadow-glow);
+}
