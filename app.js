@@ -87,6 +87,11 @@ function showLibrary() {
   const footer = document.getElementById("app-footer");
   if (footer) footer.style.display = "none";
 
+  // Save progress before returning to library
+  if (state.currentBookIndex >= 0 && state.currentBookIndex < state.books.length) {
+    saveProgressToStorage();
+  }
+  
   renderLibrary();
 }
 
@@ -263,6 +268,7 @@ function prevPage() {
   if (state.currentPageIndex > 0) {
     state.currentPageIndex--;
     translatePane();
+    syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
   }
 }
 
@@ -270,6 +276,7 @@ function nextPage() {
   if (state.currentPageIndex < state.totalPages - 1) {
     state.currentPageIndex++;
     translatePane();
+    syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
   }
 }
 
@@ -438,7 +445,7 @@ async function syncProgressToGist() {
   }
 }
 
-async function loadProgressFromGist() {
+async async function loadProgressFromGist() {
   let gistId = localStorage.getItem("slovo_gist_id");
   let progressData = null;
 
@@ -473,13 +480,19 @@ async function loadProgressFromGist() {
       state.currentChapterIndex = cl.currentChapterIndex || 0;
       state.currentPageIndex = cl.currentPageIndex || 0;
 
-      // Restore progress to storage
-      state.books.forEach((book, idx) => {
-        book.chaptersRead = 0;
-      });
-      if (cl.currentBookIndex < state.books.length) {
-        state.books[cl.currentBookIndex].chaptersRead = cl.currentChapterIndex || 0;
+      // Restore progress to storage (per-book chaptersRead)
+      if (cl.books) {
+        cl.books.forEach((gistBook, idx) => {
+          if (idx < state.books.length) {
+            state.books[idx].chaptersRead = gistBook.chaptersRead || 0;
+          }
+        });
       }
+
+      // Persist restored chaptersRead to localStorage
+      state.books.forEach((book, idx) => {
+        localStorage.setItem("book_" + idx + "_progress", book.chaptersRead || 0);
+      });
 
       // Navigate to the restored book
       selectBook(cl.currentBookIndex);
