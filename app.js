@@ -445,7 +445,7 @@ async function syncProgressToGist() {
   }
 }
 
-async async function loadProgressFromGist() {
+async function loadProgressFromGist() {
   let gistId = localStorage.getItem("slovo_gist_id");
   let progressData = null;
 
