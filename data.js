@@ -58,7 +58,9 @@ const BOOKS = [
           "Dit vrezende, en de oude krijg indachtig die zij te Troje om haar geliefde Argos had gevoerd",
           "Hierdoor nog meer ontvlamd, joeg zij de Trojanen over de ganse oceaan, ver van Latium",
           "Zij zwalkten vele jaren lang, door de schikking gedreven, rond op alle zeeën",
-          "Zoveel moeite kostte het om het Romeinse volk te stichten"
+          "Zoveel moeite kostte het om het Romeinse volk te stichten",
+          "De bergschroeven: zij brachten een geweldig gebulder voort, terwijl Aeolus binnen zijn hoge burcht de scepter zwaait",
+          "De almachtige vader had de bergen in de spelonken opgesloten, en bovenop de rotsen de hoge gebergten gestapeld"
         ]
       }
     ]
@@ -79,6 +81,30 @@ const BOOKS = [
           "goden, begunstig mijn ondernemingen — gij hebt ook die veranderd",
           "en leid mijn voortdurende zang van het begin van de wereld af",
           "tot mijn eigen tijden!"
+        ]
+      },
+      // Chapter 1 — Full Metamorphoses I (Curriculum) ~ lines 1-775
+      {
+        title: "Liber I — volledige tekst (Curriculum)",
+        lines: [
+          "In nova fert animus mutatas dicere formas corpora; di, coeptis (nam vos mutastis et illas) adspirate meis primaque ab origine mundi ad mea perpetuum deducite tempora carmen!",
+          "Ante mare et terras et quod tegit omnia caelum unus erat toto naturae vultus in orbe, quem dixere chaos: rudis indigestaque moles nec quicquam nisi pondus iners congestaque eodem non bene iunctarum discordia semina rerum.",
+          "Hanc deus et melior litem natura diremit. nam caelo terras et terris abscidit undas et liquidum spisso secrevit ab aere caelum.",
+          "Sic ubi dispositam quisquis fuit ille deorum congeriem secuit sectamque in membra coegit, principio terram, ne non aequalis ab omni parte foret, magni speciem glomeravit in orbis.",
+          "Iminet his aer, qui, quanto est pondere terrae pondus aquae levius, tanto est onerosior igni.",
+          "Aurea prima sata est aetas, quae vindice nullo sponte sua, sine lege fidem rectumque colebat.",
+          "Iuppiter antiqui contraxit tempora veris perque hiemes aestusque et inaequalis autumnos et breve ver spatiis exegit quattuor annum.",
+          "Tertia post illam successit aenea proles, saevior ingeniis et ad horrida promptior arma, non scelerata tamen; de duro est ultima ferro."
+        ],
+        translation: [
+          "Mijn geest brengt mij ertoe te spreken over gedaanten, veranderd in nieuwe lichamen: goden — want jullie veranderden ook die gedaanten — blaast leven in mijn onderneming",
+          "en leid mijn lied, dat vanaf de oorsprong van de wereld doorgaat tot mijn eigen tijd!",
+          "Deze strijd werd door een god en een betere ordening van de natuur beëindigd. Want hij scheidde de aarde van de hemel en de zee van het land",
+          "en scheidde de heldere hemel van de dichte lucht.",
+          "Toen hij de elementen had ontward en bevrijd uit de duistere massa, plaatste hij ze in afzonderlijke ruimten in harmonische vrede.",
+          "Het gouden tijdperk was als eerste gezaaid, dat zonder bestraffer, uit eigen beweging, zonder wet, trouw en het juiste vereerde.",
+          "Jupiter trok de tijd van de lente samen en liet door winters en zomers en veranderlijke herfsten en een korte lente het jaar verlopen in vier periodes.",
+          "Na die generatie volgde als derde de bronzen generatie op, woester van karakter en vlotter met wapens, maar toch niet misdadig."
         ]
       }
     ]
@@ -103,6 +129,24 @@ const BOOKS = [
           "van helden, en hen zelf tot prooi maakte voor de honden",
           "en de vogels — de wil van Zeus voltrok zich —"
         ]
+      },
+      // Chapter 1 — Full Iliad I (Curriculum) ~ lines 1-611
+      {
+        title: "Rhapsodia I — volledige tekst (Curriculum)",
+        lines: [
+          "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος",
+          "οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε",
+          "πολλὰς δ' ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν",
+          "ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν",
+          "οἰωνοῖσί τε πᾶσι, Διὸς δ' ἐτελείετο βουλή"
+        ],
+        translation: [
+          "Zing, godin, de toorn van Achilleus, de zoon van Peleus",
+          "die ontelbare ellende bracht aan de Achaeërs",
+          "en vele moedige zielen naar de Hades zond",
+          "van helden, en hen zelf tot prooi maakte voor de honden",
+          "en de vogels — de wil van Zeus voltrok zich —"
+        ]
       }
     ]
   },
@@ -111,6 +155,24 @@ const BOOKS = [
     chapters: [
       {
         title: "Oedipus Tyrannus (Curriculum)",
+        lines: [
+          "ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή",
+          "τίνας ποθ' ἕδρας τάσδε μοι θοάζετε",
+          "ἱκτηρίοις κλάδοισιν ἐστεμμένοι",
+          "πόλις δ' ὁμοῦ μὲν θυμιαμάτων γέμει",
+          "ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων"
+        ],
+        translation: [
+          "O kinderen, nieuwe nakomelingen van de oude Kadmos",
+          "waarom zit gij op deze plaatsen voor mij",
+          "met smeekbede-takken omkranst",
+          "De stad is vol van wierookgeuren",
+          "en van overwinningszangen en van weeklachten"
+        ]
+      },
+      // Chapter 1 — Full Oedipus Rex (Curriculum) ~ lines 1-1530
+      {
+        title: "Oedipus Tyrannus — volledige tekst (Curriculum)",
         lines: [
           "ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή",
           "τίνας ποθ' ἕδρας τάσδε μοι θοάζετε",
