@@ -18,7 +18,10 @@ const STORAGE_KEYS = {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-  state.books = [...BOOKS];
+  state.books = BOOKS.map((book) => ({
+    ...book,
+    chapters: book.chapters.filter((chapter) => !chapter.isPreview),
+  }));
   loadProgressFromStorage();
   renderLibrary();
 
@@ -149,7 +152,7 @@ function selectBook(idx, chapterIndex) {
     : Math.max(0, book.chapters.length - 1);
 
   state.currentBookIndex = idx;
-  state.currentChapterIndex = Number.isInteger(chapterIndex)
+  state.currentChapterIndex = Number.isInteger(chapterIndex) && book.chapters[chapterIndex]
     ? chapterIndex
     : defaultChapterIndex;
   state.currentPageIndex = 0;

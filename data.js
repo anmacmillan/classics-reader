@@ -2307,6 +2307,7 @@ const BOOKS = [
     chapters: [
       {
         title: "Liber I — Prooemium (Curriculum)",
+        isPreview: true,
         translationCredit: "EN: Brookes More (1922), via ToposText · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://topostext.org/work/141",
@@ -2331,7 +2332,7 @@ const BOOKS = [
       },
       // Chapter 1 — Full Metamorphoses I (Curriculum) ~ lines 1-150
       {
-        title: "Liber I — volledige tekst (Curriculum)",
+        title: "Liber I — regels 1–150 (Curriculum)",
         translationCredit: "EN: Brookes More (1922), via ToposText · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://topostext.org/work/141",
@@ -2801,6 +2802,7 @@ const BOOKS = [
     chapters: [
       {
         title: "Rhapsodia I — De toorn van Achilleus (Curriculum)",
+        isPreview: true,
         translationCredit: "EN: A. S. Kline · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://www.poetryintranslation.com/PITBR/Greek/Iliad1.php",
@@ -2828,7 +2830,7 @@ const BOOKS = [
       },
       // Chapter 1 — Full Iliad I (Curriculum) ~ lines 1-100
       {
-        title: "Rhapsodia I — volledige tekst (Curriculum)",
+        title: "Rhapsodia I — regels 1–100 (Curriculum)",
         translationCredit: "EN: A. S. Kline · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://www.poetryintranslation.com/PITBR/Greek/Iliad1.php",
@@ -3147,6 +3149,7 @@ const BOOKS = [
     chapters: [
       {
         title: "Oedipus Tyrannus (Curriculum)",
+        isPreview: true,
         translationCredit: "EN: Francis Storr, public domain · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://topostext.org/work/29",
@@ -3177,7 +3180,7 @@ const BOOKS = [
       },
       // Chapter 1 — Full Oedipus Rex (Curriculum) ~ lines 1-77
       {
-        title: "Oedipus Tyrannus — volledige tekst (Curriculum)",
+        title: "Oedipus Tyrannus — regels 1–77 (Curriculum)",
         translationCredit: "EN: Francis Storr, public domain · NL: Nederlandse studievertaling",
         translationCreditLanguage: "Bronnen",
         translationUrl: "https://topostext.org/work/29",
