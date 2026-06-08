@@ -1,0 +1,18 @@
+{
+  "id": "example-greek-work",
+  "title": "Example - Greek Work",
+  "author": "Example",
+  "year": -400,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Opening",
+      "startLine": 1,
+      "original": "greek.txt",
+      "english": "english.txt",
+      "dutch": "dutch.txt",
+      "translationCredit": "Example only - remove this import before publishing",
+      "translationCreditLanguage": "Sources"
+    }
+  ]
+}
