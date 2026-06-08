@@ -16,6 +16,7 @@ IMPORTS_DIR = ROOT / "imports"
 OUTPUT_PATH = ROOT / "generated" / "imported-books.js"
 DATA_PATH = ROOT / "data.js"
 DICTIONARY_PATH = ROOT / "dictionary.js"
+IMPORTED_LATIN_DICTIONARY_PATH = ROOT / "generated" / "imported-latin-dictionary.js"
 
 
 def read_lines(path: Path) -> list[str]:
@@ -36,7 +37,11 @@ def load_dictionary_keys(dictionary_name: str) -> set[str]:
     text = DICTIONARY_PATH.read_text(encoding="utf-8")
     start = text.index(f"const {dictionary_name} = {{")
     end = text.index("\n};", start)
-    return set(re.findall(r'^\s*"([^"]+)":', text[start:end], flags=re.MULTILINE))
+    keys = set(re.findall(r'^\s*"([^"]+)":', text[start:end], flags=re.MULTILINE))
+    if dictionary_name == "LATIN_DICT" and IMPORTED_LATIN_DICTIONARY_PATH.exists():
+        supplement = IMPORTED_LATIN_DICTIONARY_PATH.read_text(encoding="utf-8")
+        keys.update(re.findall(r'^\s*"([^"]+)":', supplement, flags=re.MULTILINE))
+    return keys
 
 
 def normalise_word(value: str) -> str:

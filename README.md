@@ -17,8 +17,10 @@ In summary:
 
 ```bash
 make import
+make dictionary
 make check
 ```
 
-Commit the import folder and `generated/imported-books.js`. No manual editing of
-the large `data.js` file is required.
+Commit the import folder, `generated/imported-books.js`, and for Latin imports
+`generated/imported-latin-dictionary.js`. No manual editing of the large
+`data.js` file is required.

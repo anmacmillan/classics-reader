@@ -1,0 +1,10 @@
+{
+  "name": "classics-reader",
+  "private": true,
+  "scripts": {
+    "latin-dictionary": "node scripts/build_latin_import_dictionary.mjs"
+  },
+  "dependencies": {
+    "whitakers-words": "0.1.1"
+  }
+}

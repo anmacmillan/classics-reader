@@ -40,6 +40,7 @@ Build and validate:
 
 ```bash
 python3 scripts/import_texts.py
+make dictionary
 python3 scripts/import_texts.py --check
 ```
 
@@ -77,3 +78,8 @@ The importer rejects:
 For Greek and Latin imports it also reports current dictionary coverage. Low
 coverage does not block the import, but indicates that word-click lookup needs
 extending.
+
+Run `npm install` once, then `make dictionary` after adding Latin imports. This
+uses Whitaker's Words to generate morphological entries for Latin forms not
+already present in `dictionary.js`. Unrecognised or incorrectly parsed forms
+must be added as reviewed overrides in `scripts/build_latin_import_dictionary.mjs`.
