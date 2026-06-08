@@ -1,0 +1,18 @@
+{
+  "id": "seneca-letter-3",
+  "title": "Seneca - Letter III",
+  "author": "Seneca",
+  "year": 65,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Epistula III - On true and false friendship",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: The Latin Library · EN: Richard Mott Gummere, public domain, via Wikisource",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_3"
+    }
+  ]
+}

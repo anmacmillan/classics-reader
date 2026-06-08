@@ -65,9 +65,8 @@ def greek_words(lines: list[str]) -> list[str]:
 
 
 def dictionary_coverage(lines: list[str], dictionary_keys: set[str]) -> tuple[int, int]:
-    normalised_keys = {normalise_word(key) for key in dictionary_keys}
     words = greek_words(lines)
-    covered = sum(word in dictionary_keys or normalise_word(word) in normalised_keys for word in words)
+    covered = sum(word in dictionary_keys or normalise_word(word) in dictionary_keys for word in words)
     return covered, len(words)
 
 

@@ -11,6 +11,21 @@ const BASE_DICTIONARY = path.join(ROOT, "dictionary.js");
 const OUTPUT = path.join(ROOT, "generated", "imported-latin-dictionary.js");
 
 const OVERRIDES = {
+  abierit: { lemma: "abeo, abire, abii, abitus", en: "will have gone away; has departed", grammar: "V FUTP ACTIVE IND 3 S" },
+  chaereae: { lemma: "Chaerea, Chaereae", en: "of Chaerea", grammar: "N GEN S M (proper name)" },
+  desieris: { lemma: "desino, desinere, desii, desitus", en: "you will have ceased; you stop", grammar: "V FUTP ACTIVE IND 2 S" },
+  epicurum: { lemma: "Epicurus, Epicuri", en: "Epicurus", grammar: "N ACC S M (proper name)" },
+  hecatonem: { lemma: "Hecato, Hecatonis", en: "Hecato", grammar: "N ACC S M (proper name)" },
+  hostium: { lemma: "hostis, hostis", en: "of enemies", grammar: "N GEN P C" },
+  negasti: { lemma: "nego, negare, negavi, negatus", en: "you denied; you said no", grammar: "V PERF ACTIVE IND 2 S" },
+  nosti: { lemma: "nosco, noscere, novi, notus", en: "you know", grammar: "V PERF ACTIVE IND 2 S" },
+  perierunt: { lemma: "pereo, perire, perii, peritus", en: "they perished; they were lost", grammar: "V PERF ACTIVE IND 3 P" },
+  pomponium: { lemma: "Pomponius, Pomponii", en: "Pomponius", grammar: "N ACC S M (proper name)" },
+  puerorum: { lemma: "puer, pueri", en: "of boys; of children", grammar: "N GEN P M" },
+  quidam: { lemma: "quidam, quaedam, quoddam", en: "a certain man; someone", grammar: "PRON NOM S M" },
+  regum: { lemma: "rex, regis", en: "of kings", grammar: "N GEN P M" },
+  theophrasti: { lemma: "Theophrastus, Theophrasti", en: "of Theophrastus", grammar: "N GEN S M (proper name)" },
+  vocasti: { lemma: "voco, vocare, vocavi, vocatus", en: "you called; you named", grammar: "V PERF ACTIVE IND 2 S" },
   agentibus: {
     lemma: "ago, agere, egi, actus",
     en: "doing; acting",
@@ -289,8 +304,7 @@ function entryFor(engine, word) {
 }
 
 const baseKeys = existingKeys();
-const normalisedBaseKeys = new Set([...baseKeys].map(normalise));
-const missing = importedLatinWords().filter((word) => !baseKeys.has(word) && !normalisedBaseKeys.has(normalise(word)));
+const missing = importedLatinWords().filter((word) => !baseKeys.has(word) && !baseKeys.has(normalise(word)));
 const engine = createEngine();
 const entries = Object.fromEntries(missing.map((word) => [word, entryFor(engine, word)]));
 const payload = JSON.stringify(entries, null, 2);

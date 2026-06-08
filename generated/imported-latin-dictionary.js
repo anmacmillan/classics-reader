@@ -2,10 +2,115 @@
 // Adds morphological lookup entries required by imported Latin texts.
 
 Object.assign(LATIN_DICT, {
+  "a": {
+    "lemma": "a PREP ABL",
+    "en": "by (agent), from (departure, cause, remote origin/time); after (reference)",
+    "grammar": "PREP"
+  },
+  "abierit": {
+    "lemma": "abeo, abire, abii, abitus",
+    "en": "will have gone away; has departed",
+    "grammar": "V FUTP ACTIVE IND 3 S"
+  },
+  "absit": {
+    "lemma": "absum, abesse, afui, afuturus V (5th) TO_BEING",
+    "en": "be away/absent/distant/missing; be free/removed from; be lacking; be distinct",
+    "grammar": "V 5 1 PRES ACTIVE SUB 3 S"
+  },
+  "accedit": {
+    "lemma": "accedo, accedere, accessi, accessus V (3rd)",
+    "en": "come near, approach; agree with; be added to (w/ad or in + ACC); constitute",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
   "accepit": {
     "lemma": "accipio, accipere, accepi, acceptus V (3rd) TRANS",
     "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "accidat": {
+    "lemma": "accido, accidere, accidi, - V (3rd)",
+    "en": "fall upon/down/to/at or near, descend, alight; happen, occur; happen to (DAT)",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
+  "accipe": {
+    "lemma": "accipio, accipere, accepi, acceptus V (3rd) TRANS",
+    "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "acquirenda": {
+    "lemma": "acquiro, acquirere, acquisivi, acquisitus V (3rd) TRANS",
+    "en": "acquire (goods/money/adherents), obtain, gain, get; add to stock; accrue",
+    "grammar": "VPAR 3 1 NOM S F FUT PASSIVE PPL"
+  },
+  "acquisita": {
+    "lemma": "acquiro, acquirere, acquisivi, acquisitus V (3rd) TRANS",
+    "en": "acquire (goods/money/adherents), obtain, gain, get; add to stock; accrue",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "adegit": {
+    "lemma": "adigo, adigere, adegi, adactus V (3rd) TRANS",
+    "en": "drive in/to (cattle), force, impel; cast, hurl; consign (curse); bind (oath)",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "adeo": {
+    "lemma": "adeo, adire, adivi(ii), aditus V",
+    "en": "approach; attack; visit, address; undertake; take possession (inheritance)",
+    "grammar": "V 6 1 PRES ACTIVE IND 1 S"
+  },
+  "adhortare": {
+    "lemma": "adhortor, adhortari, adhortatus sum V (1st) DEP",
+    "en": "encourage, urge on; rally; exhort",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "adiuvat": {
+    "lemma": "adjuvo, adjuvare, adjuvi, adjutus V (1st) TRANS",
+    "en": "help, aid, abet, encourage, favor; cherish, sustain; be of use, be profitable",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "admirationem": {
+    "lemma": "admiratio, admirationis N (3rd) F",
+    "en": "wonder, surprise, astonishment; admiration, veneration, regard; marvel",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "admitte": {
+    "lemma": "admitto, admittere, admisi, admissus V (3rd) TRANS",
+    "en": "urge on, put to a gallop; let in, admit, receive; grant, permit, let go",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "admoneo": {
+    "lemma": "admoneo, admonere, admonui, admonitus V (2nd) TRANS",
+    "en": "admonish, remind, prompt; suggest, advise, raise; persuade, urge; warn, caution",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 S"
+  },
+  "admones": {
+    "lemma": "admoneo, admonere, admonui, admonitus V (2nd) TRANS",
+    "en": "admonish, remind, prompt; suggest, advise, raise; persuade, urge; warn, caution",
+    "grammar": "V 2 1 PRES ACTIVE IND 2 S"
+  },
+  "admovere": {
+    "lemma": "admoveo, admovere, admovi, admotus V (2nd) TRANS",
+    "en": "move up, bring up/near; lean on, conduct; draw near, approach; apply, add",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "adversus": {
+    "lemma": "adverto, advertere, adverti, adversus V (3rd)",
+    "en": "turn/face to/towards; direct/draw one's attention to; steer/pilot (ship)",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "aegri": {
+    "lemma": "aeger, aegra -um, aegrior -or -us, aegerrimus -a -um ADJ",
+    "en": "sick/ill, infirm; unsound, injured; painful, grievous; corrupt; sad/sorrowful",
+    "grammar": "ADJ 1 2 GEN S M POS"
+  },
+  "aeque": {
+    "lemma": "aequus, aequa -um, aequior -or -us, aequissimus -a -um ADJ",
+    "en": "level, even, equal, like; just, kind, impartial, fair; patient, contented",
+    "grammar": "ADJ 1 1 VOC S M POS"
+  },
+  "aequo": {
+    "lemma": "aequo, aequare, aequavi, aequatus V (1st) TRANS",
+    "en": "level, make even/straight; equal; compare; reach as high or deep as",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 S"
   },
   "aestimet": {
     "lemma": "aestimo, aestimare, aestimavi, aestimatus V (1st) TRANS",
@@ -17,65 +122,755 @@ Object.assign(LATIN_DICT, {
     "en": "lifetime, age, generation; period; stage, period of life, time, era",
     "grammar": "N 3 1 GEN S F"
   },
+  "afferunt": {
+    "lemma": "affero, afferre, attuli, allatus V (3rd) TRANS",
+    "en": "bring to (word/food), carry, convey; report, allege, announce; produce, cause",
+    "grammar": "V 3 2 PRES ACTIVE IND 3 P"
+  },
+  "agamus": {
+    "lemma": "ago, agere, egi, actus V (3rd)",
+    "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
+    "grammar": "V 3 1 PRES ACTIVE SUB 1 P"
+  },
+  "agendum": {
+    "lemma": "ago, agere, egi, actus V (3rd)",
+    "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
+    "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "agenti": {
+    "lemma": "ago, agere, egi, actus V (3rd)",
+    "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
+    "grammar": "VPAR 3 1 DAT S X PRES ACTIVE PPL"
+  },
   "agentibus": {
     "lemma": "ago, agere, egi, actus",
     "en": "doing; acting",
     "grammar": "VPAR PRES ACTIVE ABL P"
+  },
+  "agis": {
+    "lemma": "ago, agere, egi, actus V (3rd)",
+    "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "agnoscant": {
+    "lemma": "agnosco, agnoscere, agnovi, agnitus V (3rd)",
+    "en": "recognize, realize, discern; acknowledge, claim, admit to/responsibility",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
+  },
+  "algere": {
+    "lemma": "algeo, algere, alsi, - V (2nd) INTRANS",
+    "en": "be/feel/become cold/chilly/cool; endure cold; be neglected/left in the cold",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "alia": {
+    "lemma": "alius, alia, alium ADJ",
+    "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
+    "grammar": "ADJ 1 5 NOM S F POS"
+  },
+  "alias": {
+    "lemma": "alius, alia, alium ADJ",
+    "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
+    "grammar": "ADJ 1 5 ACC P F POS"
   },
   "aliena": {
     "lemma": "alienus, aliena, alienum",
     "en": "belonging to another; another's",
     "grammar": "ADJ NOM P N"
   },
+  "alienis": {
+    "lemma": "alienus, aliena -um, alienior -or -us, alienissimus -a -um ADJ",
+    "en": "foreign; unconnected; another's; contrary; unworthy; averse, hostile; mad",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "alieno": {
+    "lemma": "alieno, alienare, alienavi, alienatus V (1st) TRANS",
+    "en": "alienate, give up, lose possession, transfer by sale, estrange; become numb",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 S"
+  },
+  "alioquin": {
+    "lemma": "alioquin ADV",
+    "en": "otherwise, in other/some respects; besides, else; in any case; in general",
+    "grammar": "ADV"
+  },
+  "aliqua": {
+    "lemma": "aliqu PRON",
+    "en": "anyone/anybody/anything; someone; some/few; some (particular) thing",
+    "grammar": "PRON 1 0 NOM S F"
+  },
+  "aliquem": {
+    "lemma": "aliqu PRON",
+    "en": "anyone/anybody/anything; someone; some/few; some (particular) thing",
+    "grammar": "PRON 1 0 ACC S M"
+  },
+  "aliquid": {
+    "lemma": "aliqu PRON",
+    "en": "anyone/anybody/anything; someone; some/few; some (particular) thing",
+    "grammar": "PRON 1 0 NOM S N"
+  },
+  "aliquis": {
+    "lemma": "aliqu PRON",
+    "en": "anyone/anybody/anything; someone; some/few; some (particular) thing",
+    "grammar": "PRON 1 0 NOM S C"
+  },
   "aliquod": {
     "lemma": "aliquis, aliquid",
     "en": "some; any",
     "grammar": "PRON ACC S N"
+  },
+  "alius": {
+    "lemma": "alius, alia, alium ADJ",
+    "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
+    "grammar": "ADJ 1 5 NOM S M POS"
+  },
+  "alterum": {
+    "lemma": "alter, altera, alterum ADJ",
+    "en": "one (of two); second/another; former/latter; [unus et ~=> one or two/other]",
+    "grammar": "ADJ 1 4 NOM S N POS"
+  },
+  "alunt": {
+    "lemma": "alo, alere, alui, alitus V (3rd) TRANS",
+    "en": "feed, nourish, rear, nurse, suckle; cherish; support, maintain, develop",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "amant": {
+    "lemma": "amo, amare, amavi, amatus V (1st)",
+    "en": "love, like; fall in love with; be fond of; have a tendency to",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "amaverunt": {
+    "lemma": "amo, amare, amavi, amatus V (1st)",
+    "en": "love, like; fall in love with; be fond of; have a tendency to",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 P"
+  },
+  "ambitionem": {
+    "lemma": "ambitio, ambitionis N (3rd) F",
+    "en": "ambition; desire for/currying favor/popularity, flattery; vote canvassing; pomp",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "amicae": {
+    "lemma": "amicus, amica -um, amicior -or -us, amicissimus -a -um ADJ",
+    "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "amicis": {
+    "lemma": "amicus, amica -um, amicior -or -us, amicissimus -a -um ADJ",
+    "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "amicitiae": {
+    "lemma": "amicitia, amicitiae N (1st) F",
+    "en": "friendship, bond between friends; alliance, association; friendly relations",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "amicitiam": {
+    "lemma": "amicitia, amicitiae N (1st) F",
+    "en": "friendship, bond between friends; alliance, association; friendly relations",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "amicitias": {
+    "lemma": "amicitia, amicitiae N (1st) F",
+    "en": "friendship, bond between friends; alliance, association; friendly relations",
+    "grammar": "N 1 1 ACC P F"
+  },
+  "amico": {
+    "lemma": "amicus, amica -um, amicior -or -us, amicissimus -a -um ADJ",
+    "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "amicum": {
+    "lemma": "amicus, amica -um, amicior -or -us, amicissimus -a -um ADJ",
+    "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "amissa": {
+    "lemma": "amitto, amittere, amisi, amissus V (3rd) TRANS",
+    "en": "lose; lose by death; send away, dismiss; part with; let go/slip/fall, drop",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "amissio": {
+    "lemma": "amissio, amissionis N (3rd) F",
+    "en": "loss (possessions/faculty/quality/persons/town/military force), deprivation",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "amissionem": {
+    "lemma": "amissio, amissionis N (3rd) F",
+    "en": "loss (possessions/faculty/quality/persons/town/military force), deprivation",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "animae": {
+    "lemma": "anima, animae N (1st) F",
+    "en": "soul, spirit, vital principle; life; breathing; wind, breeze; air (element)",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "animi": {
+    "lemma": "animus, animi N (2nd) M",
+    "en": "mind; intellect; soul; feelings; heart; spirit, courage, character, pride; air",
+    "grammar": "N 2 1 GEN S M"
+  },
+  "animo": {
+    "lemma": "animus, animi N (2nd) M",
+    "en": "mind; intellect; soul; feelings; heart; spirit, courage, character, pride; air",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "anticipat": {
+    "lemma": "anticipo, anticipare, anticipavi, anticipatus V (1st)",
+    "en": "occupy beforehand; anticipate, get the lead, get ahead of; have preconception",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "aperta": {
+    "lemma": "aperio, aperire, aperui, apertus V (4th) TRANS",
+    "en": "uncover, open, disclose; explain, recount; reveal; found; excavate; spread out",
+    "grammar": "VPAR 3 4 NOM S F PERF PASSIVE PPL"
+  },
+  "appetere": {
+    "lemma": "appeto, appetere, appetivi, appetitus V (3rd) TRANS",
+    "en": "seek/grasp after, desire; assail; strive eagerly/long for; approach, near",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "applicant": {
+    "lemma": "applico, applicare, applicavi, applicatus V (1st) TRANS",
+    "en": "connect, place near, bring into contact; land (ship); adapt; apply/devote to",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "appositum": {
+    "lemma": "appono, apponere, apposui, appositus V (3rd) TRANS",
+    "en": "place near, set before/on table, serve up; put/apply/add to; appoint/assign",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "apprehendo": {
+    "lemma": "apprehendo, apprehendere, apprehendi, apprehensus V (3rd) TRANS",
+    "en": "seize (upon), grasp, cling to, lay hold of; apprehend; embrace; overtake",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
+  "aptamur": {
+    "lemma": "apto, aptare, aptavi, aptatus V (1st) TRANS",
+    "en": "adapt, fit, apply, adjust, accommodate; put on, fasten; prepare, furnish",
+    "grammar": "V 1 1 PRES PASSIVE IND 1 P"
   },
   "apud": {
     "lemma": "apud PREP ACC",
     "en": "at, by, near, among; at the house of; before, in the presence/writings/view of",
     "grammar": "PREP"
   },
+  "aqua": {
+    "lemma": "aqua, aquae N (1st) F",
+    "en": "water; sea, lake; river, stream; rain, rainfall (pl.), rainwater; spa; urine",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "arbitrium": {
+    "lemma": "arbitrium, arbitri(i) N (2nd) N",
+    "en": "arbitration; choice, judgment, decision; sentence; will, mastery, authority",
+    "grammar": "N 2 4 NOM S N"
+  },
+  "arca": {
+    "lemma": "arca, arcae N (1st) F",
+    "en": "box, chest; strong-box, coffer; wealth, money; coffin, bier; cell, cage; ark",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "argento": {
+    "lemma": "argentum, argenti N (2nd) N",
+    "en": "silver; money, cash; silver-plate; [argentum vivum => quicksilver/mercury]",
+    "grammar": "N 2 2 DAT S N"
+  },
+  "argentoque": {
+    "lemma": "argentum, argenti N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT S N + TACKON"
+  },
+  "argentum": {
+    "lemma": "argentum, argenti N (2nd) N",
+    "en": "silver; money, cash; silver-plate; [argentum vivum => quicksilver/mercury]",
+    "grammar": "N 2 2 NOM S N"
+  },
+  "argumentum": {
+    "lemma": "argumentum, argumenti N (2nd) N",
+    "en": "proof; evidence, fact; argument; conclusion; reason, basis; subject/plot (play)",
+    "grammar": "N 2 2 NOM S N"
+  },
+  "asperum": {
+    "lemma": "asper, aspera -um, asperior -or -us, asperrimus -a -um ADJ",
+    "en": "rude/unrefined; cruel/violent/savage/raging/drastic; stern/severe/bitter; hard",
+    "grammar": "ADJ 1 2 NOM S N POS"
+  },
+  "assidere": {
+    "lemma": "assideo, assidere, assedi, assessus V (2nd)",
+    "en": "sit by/in council/as assessor; watch over; camp near, besiege; resemble (w/DAT)",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
   "attendere": {
     "lemma": "attendo, attendere, attendi, attentus",
     "en": "to pay attention; to notice",
     "grammar": "V PRES ACTIVE INF"
+  },
+  "auctoritatem": {
+    "lemma": "auctoritas, auctoritatis N (3rd) F",
+    "en": "title (legal), ownership; right to authorize/sanction, power; decree, order",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "auctorum": {
+    "lemma": "augeo, augere, auxi, auctus V (2nd) TRANS",
+    "en": "increase, enlarge, augment; spread; honor, promote, raise; exalt; make a lot of",
+    "grammar": "VPAR 2 1 GEN P M PERF PASSIVE PPL"
+  },
+  "audaciter": {
+    "lemma": "audaciter, audacius, audacissime ADV",
+    "en": "boldly, audaciously, confidently, proudly, fearlessly; impudently, rashly",
+    "grammar": "ADV"
+  },
+  "audio": {
+    "lemma": "audio, audire, audivi, auditus V (4th)",
+    "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
+    "grammar": "V 4 1 PRES ACTIVE IND 1 S"
+  },
+  "audiret": {
+    "lemma": "audio, audire, audivi, auditus V (4th)",
+    "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
+    "grammar": "V 4 1 IMPF ACTIVE SUB 3 S"
   },
   "auferebatur": {
     "lemma": "aufero, auferre, abstuli, ablatus V (3rd) TRANS",
     "en": "bear/carry/take/fetch/sweep/snatch away/off, remove, withdraw; steal, obtain",
     "grammar": "V 3 2 IMPF PASSIVE IND 3 S"
   },
+  "aures": {
+    "lemma": "auris, auris N (3rd) F",
+    "en": "ear; hearing; a discriminating sense of hearing, \"ear\" (for); pin on plow",
+    "grammar": "N 3 3 NOM P F"
+  },
+  "autem": {
+    "lemma": "autem CONJ",
+    "en": "but (postpositive), on the other hand/contrary; while, however; moreover, also",
+    "grammar": "CONJ"
+  },
+  "auxili": {
+    "lemma": "auxilium, auxili(i) N (2nd) N",
+    "en": "help, assistance; remedy/antidote; supporting resource/force; auxiliaries (pl.)",
+    "grammar": "N 2 4 GEN S N"
+  },
+  "avertimus": {
+    "lemma": "averto, avertere, averti, aversus V (3rd)",
+    "en": "turn away from/aside, divert, rout; disturb; withdraw; steal, misappropriate",
+    "grammar": "V 3 1 PERF ACTIVE IND 1 P"
+  },
+  "barbam": {
+    "lemma": "barba, barbae N (1st) F",
+    "en": "beard/ whiskers; large unkempt beard (pl.); [Jovis ~ => shrub Anthyllis barba]",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "bona": {
+    "lemma": "bonum, boni N (2nd) N",
+    "en": "good, good thing, profit, advantage; goods (pl.), possessions, wealth, estate",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "bonam": {
+    "lemma": "bonus, bona -um, melior -or -us, optimus -a -um ADJ",
+    "en": "good, honest, brave, noble, kind, pleasant, right, useful; valid; healthy",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
   "bono": {
     "lemma": "bonus, bona, bonum",
     "en": "good; favourable",
     "grammar": "ADJ ABL S N"
+  },
+  "bonos": {
+    "lemma": "bonus, bona -um, melior -or -us, optimus -a -um ADJ",
+    "en": "good, honest, brave, noble, kind, pleasant, right, useful; valid; healthy",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "bonum": {
+    "lemma": "bonum, boni N (2nd) N",
+    "en": "good, good thing, profit, advantage; goods (pl.), possessions, wealth, estate",
+    "grammar": "N 2 2 NOM S N"
+  },
+  "caelatura": {
+    "lemma": "caelo, caelare, caelavi, caelatus V (1st) TRANS",
+    "en": "carve, make raised work/relief; engrave, emboss; chase, finish; embroider",
+    "grammar": "VPAR 1 1 NOM S F FUT ACTIVE PPL"
+  },
+  "candidatos": {
+    "lemma": "candidatus, candidati N (2nd) M",
+    "en": "candidate (office) (white toga); aspirant/office seeker; one who strives for",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "capite": {
+    "lemma": "caput, capitis N (3rd) N",
+    "en": "head; person; life; leader; top; source/mouth (river); capital (punishment)",
+    "grammar": "N 3 2 DAT S N"
+  },
+  "carissimorum": {
+    "lemma": "carus, cara -um, carior -or -us, carissimus -a -um ADJ",
+    "en": "dear, beloved; costly, precious, valued; high-priced, expensive",
+    "grammar": "ADJ 1 1 GEN P M SUPER"
+  },
+  "caruisse": {
+    "lemma": "careo, carere, carui, caritus V (2nd)",
+    "en": "be without/absent from/devoid of/free from; miss; abstain from, lack, lose",
+    "grammar": "V 2 1 PERF ACTIVE INF 0 X"
+  },
+  "castra": {
+    "lemma": "castrum, castri N (2nd) N",
+    "en": "fort/fortress; camp (pl.), military camp/field; army; war service; day's march",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "catena": {
+    "lemma": "catena, catenae N (1st) F",
+    "en": "chain; series; fetter, bond, restraint; imprisonment, captivity; (chain mail)",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "causa": {
+    "lemma": "causa, causae N (1st) F",
+    "en": "cause/reason/motive; origin, source, derivation; responsibility/blame; symptom",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "causis": {
+    "lemma": "causa, causae N (1st) F",
+    "en": "cause/reason/motive; origin, source, derivation; responsibility/blame; symptom",
+    "grammar": "N 1 1 DAT P F"
+  },
+  "cecidisse": {
+    "lemma": "cado, cadere, cecidi, casus V (3rd) INTRANS",
+    "en": "fall, sink, drop, plummet, topple; be slain, die; end, cease, abate; decay",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
+  "cervicem": {
+    "lemma": "cervix, cervicis N (3rd) F",
+    "en": "neck (sg/pl.), nape; severed neck/head; cervix, neck (bladder/uterus/jar/land)",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "ceteras": {
+    "lemma": "ceterus, cetera, ceterum ADJ",
+    "en": "the_other; the_others (pl.). the_remaining/rest, all the_rest",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "ceteri": {
+    "lemma": "ceterus, cetera, ceterum ADJ",
+    "en": "the_other; the_others (pl.). the_remaining/rest, all the_rest",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "chaereae": {
+    "lemma": "Chaerea, Chaereae",
+    "en": "of Chaerea",
+    "grammar": "N GEN S M (proper name)"
+  },
+  "cibus": {
+    "lemma": "cibus, cibi N (2nd) M",
+    "en": "food; fare, rations; nutriment, sustenance, fuel; eating, a meal; bait",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "cicatricem": {
+    "lemma": "cicatrix, cicatricis N (3rd) F",
+    "en": "scar/cicatrice; wound/bruise; emotional scar; prune mark on plant/tool on work",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "coeperimus": {
+    "lemma": "coepio, coepere, coepi, coeptus V (3rd)",
+    "en": "begin, commence, initiate; set foot on; (usu. PERF PASS w/PASS INF; PRES early)",
+    "grammar": "V 3 1 FUTP ACTIVE IND 1 P"
+  },
+  "coepisti": {
+    "lemma": "coepio, coepere, coepi, coeptus V (3rd)",
+    "en": "begin, commence, initiate; set foot on; (usu. PERF PASS w/PASS INF; PRES early)",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
+  },
+  "cogita": {
+    "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
+    "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "cogitat": {
+    "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
+    "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "cogitationes": {
+    "lemma": "cogitatio, cogitationis N (3rd) F",
+    "en": "thinking, meditation, reflection; thought; intention; plan; opinion, reasoning",
+    "grammar": "N 3 1 NOM P F"
+  },
+  "cogunt": {
+    "lemma": "cogo, cogere, coegi, coactus V (3rd) TRANS",
+    "en": "collect/gather, round up, restrict/confine; force/compel; convene; congeal",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "collige": {
     "lemma": "colligo, colligere, collegi, collectus V (3rd) TRANS",
     "en": "collect, assemble, bring/gather/hold/keep together; combine; harvest; pick up",
     "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
   },
+  "committas": {
+    "lemma": "committo, committere, commisi, commissus V (3rd)",
+    "en": "bring together, unite/join, connect/attach; put together, construct; entrust",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "committenda": {
+    "lemma": "committo, committere, commisi, commissus V (3rd)",
+    "en": "bring together, unite/join, connect/attach; put together, construct; entrust",
+    "grammar": "VPAR 3 1 NOM S F FUT PASSIVE PPL"
+  },
+  "communem": {
+    "lemma": "communis, communis, commune ADJ",
+    "en": "common/joint/public; general/universal; [Doctor Communis => St.Thomas Aquinas]:",
+    "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "communicem": {
+    "lemma": "communico, communicare, communicavi, communicatus V (1st) TRANS",
+    "en": "share; share/divide with/out; receive/take a share of; receive; join with",
+    "grammar": "V 1 1 PRES ACTIVE SUB 1 S"
+  },
+  "compara": {
+    "lemma": "comparo, comparare, comparavi, comparatus V (1st) TRANS",
+    "en": "prepare; provide; compose; collect, get together/hold of; raise (force); unite",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
   "complectere": {
     "lemma": "complector, complecti, complexus sum",
     "en": "embrace; seize; hold fast",
     "grammar": "V PRES IMP 2 S DEP"
+  },
+  "complectuntur": {
+    "lemma": "complector, complecti, complexus sum V (3rd) DEP",
+    "en": "embrace, hug; welcome; encircle, encompass; attain; include, bring in, involve",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
+  "componis": {
+    "lemma": "compono, componere, composui, compositus V (3rd) TRANS",
+    "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "composita": {
+    "lemma": "compono, componere, composui, compositus V (3rd) TRANS",
+    "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "compositae": {
+    "lemma": "compono, componere, composui, compositus V (3rd) TRANS",
+    "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
+    "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL"
+  },
+  "composito": {
+    "lemma": "compono, componere, composui, compositus V (3rd) TRANS",
+    "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
+    "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "computat": {
+    "lemma": "computo, computare, computavi, computatus V (1st) TRANS",
+    "en": "reckon/compute/calculate, sum/count (up); take/include in reckoning; work out",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "concipio": {
+    "lemma": "concipio, concipere, concepi, conceptus V (3rd) TRANS",
+    "en": "take in/up, receive, catch; derive/draw (from); contain/hold; grasp; adopt; wed",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
+  "concoquas": {
+    "lemma": "concoquo, concoquere, concoxi, concoctus V (3rd) TRANS",
+    "en": "cook down; heat/burn thoroughly; concoct from various ingredients; ripen/mature",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "concursatio": {
+    "lemma": "concursatio, concursationis N (3rd) F",
+    "en": "running/pushing together; journeying to and fro; skirmish; disorderly meeting",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "condicionis": {
+    "lemma": "condicio, condicionis N (3rd) F",
+    "en": "agreement/contract; terms, proposal/option/alternative; situation; stipulation",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "confidere": {
+    "lemma": "confido, confidere, confisus sum V (3rd) SEMIDEP",
+    "en": "have confidence in, rely on, trust (to); believe, be confident/assured; be sure",
+    "grammar": "V 3 1 PRES ACTIVE INF 0 X"
+  },
+  "congregationem": {
+    "lemma": "congregatio, congregationis N (3rd) F",
+    "en": "act of forming social group; association, community; brotherhood; congregation",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "coniuncta": {
+    "lemma": "conjungo, conjungere, conjunxi, conjunctus V (3rd) TRANS",
+    "en": "connect, join/yoke together; marry; connect/compound (words) (w/conjunctions)",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "conscientiam": {
+    "lemma": "conscientia, conscientiae N (1st) F",
+    "en": "(joint) knowledge, complicity (of crime); conscience; sense of guilt, remorse",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "conspici": {
+    "lemma": "conspicio, conspicere, conspexi, conspectus V (3rd) TRANS",
+    "en": "observe/see/witness; notice; watch; gaze/stare on; catch/be in sight of; face",
+    "grammar": "V 3 1 PRES PASSIVE INF 0 X"
   },
   "constat": {
     "lemma": "consto, constare, constiti, constatus V (1st) INTRANS",
     "en": "agree/correspond/fit, be correct; be dependent/based upon; exist/continue/last",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
+  "consuetudini": {
+    "lemma": "consuetudo, consuetudinis N (3rd) F",
+    "en": "habit/custom/usage/way; normal/general/customary practice, tradition/convention",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "consuetudo": {
+    "lemma": "consuetudo, consuetudinis N (3rd) F",
+    "en": "habit/custom/usage/way; normal/general/customary practice, tradition/convention",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "consules": {
+    "lemma": "consulo, consulere, consului, consultus V (3rd)",
+    "en": "ask information/advice of; consult, take counsel; deliberate/consider; advise",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "contemnatur": {
+    "lemma": "contemno, contemnere, contempsi, contemptus V (3rd) TRANS",
+    "en": "think little of; look down on, take poor view of; pay no heed/disregard/slight",
+    "grammar": "V 3 1 PRES PASSIVE SUB 3 S"
+  },
+  "contemplatione": {
+    "lemma": "contemplatio, contemplationis N (3rd) F",
+    "en": "view, survey; taking aim; contemplation, consideration, study; meditation",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "contempsit": {
+    "lemma": "contemno, contemnere, contempsi, contemptus V (3rd) TRANS",
+    "en": "think little of; look down on, take poor view of; pay no heed/disregard/slight",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "contemptionem": {
+    "lemma": "contemptio, contemptionis N (3rd) F",
+    "en": "contempt/scorn/destain (act/state); (act) disregard/paying no attention to",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "conterunt": {
+    "lemma": "contero, conterere, contrivi, contritus V (3rd) TRANS",
+    "en": "grind, crush, pound to pieces; bruise, crumble; rub/wipe away/out/off, expunge",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "contrariam": {
+    "lemma": "contrarius, contraria, contrarium ADJ",
+    "en": "opposite, contrary, in contradiction; antithetical; opposed/hostile/adverse",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
+  "contumeliosam": {
+    "lemma": "contumeliosus, contumeliosa -um, contumeliosior -or -us, contumeliosissimus -a -um ADJ",
+    "en": "insulting, outrageous, humiliating; rude, insolent, abusive; reproachful (L+S)",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
+  "convalescit": {
+    "lemma": "convalesco, convalescere, convalui, convalitus V (3rd) INTRANS",
+    "en": "grow strong/thrive/gain power; regain health/strength, recover, get well/better",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "conveniat": {
+    "lemma": "convenio, convenire, conveni, conventus V (4th)",
+    "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
+  },
+  "convenit": {
+    "lemma": "convenio, convenire, conveni, conventus V (4th)",
+    "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
+    "grammar": "V 4 1 PERF ACTIVE IND 3 S"
+  },
+  "copulat": {
+    "lemma": "copulo, copulare, copulavi, copulatus V (1st) TRANS",
+    "en": "connect, join physically, couple; bind/tie together, associate, unite, ally",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "coram": {
+    "lemma": "coram ADV",
+    "en": "in person, face-to-face; in one's presence, before one's eyes; publicly/openly",
+    "grammar": "ADV"
+  },
+  "corpori": {
+    "lemma": "corpus, corporis N (3rd) N",
+    "en": "body; person, self; virility; flesh; corpse; trunk; frame(work); collection/sum",
+    "grammar": "N 3 2 DAT S N"
+  },
+  "corpus": {
+    "lemma": "corpus, corporis N (3rd) N",
+    "en": "body; person, self; virility; flesh; corpse; trunk; frame(work); collection/sum",
+    "grammar": "N 3 2 NOM S N"
+  },
   "cotidie": {
     "lemma": "cotidie ADV",
     "en": "daily, every day; day by day; usually, ordinarily, commonly",
     "grammar": "ADV"
   },
+  "crasso": {
+    "lemma": "crassus, crassa -um, crassior -or -us, crassissimus -a -um ADJ",
+    "en": "thick/deep; thick coated (w/ABL); turbid/muddy (river); dense/concentrated/solid",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "crastino": {
     "lemma": "crastinus, crastina, crastinum",
     "en": "tomorrow; the future",
     "grammar": "ADJ ABL S N"
+  },
+  "crebra": {
+    "lemma": "creber, crebra -um, crebrior -or -us, creberrimus -a -um ADJ",
+    "en": "thick/crowded/packed/close set; frequent/repeated, constant; numerous/abundant",
+    "grammar": "ADJ 1 2 NOM S F POS"
+  },
+  "credendum": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "credere": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "credis": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "credituri": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "VPAR 3 1 GEN S M FUT ACTIVE PPL"
+  },
+  "cubile": {
+    "lemma": "cubile, cubilis N (3rd) N",
+    "en": "bed, couch, seat; marriage bed; lair, den, nest, pen, hive of bees; base, bed",
+    "grammar": "N 3 4 NOM S N"
+  },
+  "cuius": {
+    "lemma": "cujus, cuja, cujum ADJ",
+    "en": "of whom?, whose?; (interrogative); of/to whom, whose (relative)",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "cultum": {
+    "lemma": "cultus, cultus N (4th) M",
+    "en": "habitation; cultivation (land); civilization, refinement; polish, elegance",
+    "grammar": "N 4 1 ACC S M"
+  },
+  "cupiditatum": {
+    "lemma": "cupiditas, cupiditatis N (3rd) F",
+    "en": "enthusiasm/eagerness/passion; (carnal) desire; lust; greed/usury/fraud; ambition",
+    "grammar": "N 3 1 GEN P F"
+  },
+  "cupit": {
+    "lemma": "cupio, cupere, cupivi, cupitus V (3rd) TRANS",
+    "en": "wish/long/be eager for; desire/want, covet; desire as a lover; favor, wish well",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "cupiunt": {
+    "lemma": "cupio, cupere, cupivi, cupitus V (3rd) TRANS",
+    "en": "wish/long/be eager for; desire/want, covet; desire as a lover; favor, wish well",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "cursim": {
+    "lemma": "cursim ADV",
+    "en": "swiftly/rapidly; hastily, without great pain, cursorily; in passing; at the run",
+    "grammar": "ADV"
+  },
+  "custodiam": {
+    "lemma": "custodia, custodiae N (1st) F",
+    "en": "protection, safe-keeping, defense, preservation; custody, charge; prisoner",
+    "grammar": "N 1 1 ACC S F"
   },
   "dabis": {
     "lemma": "do, dare, dedi, datus V (1st) TRANS",
@@ -87,35 +882,330 @@ Object.assign(LATIN_DICT, {
     "en": "to owe; to be obliged",
     "grammar": "V PRES ACTIVE INF"
   },
+  "decipis": {
+    "lemma": "decipio, decipere, decepi, deceptus V (3rd) TRANS",
+    "en": "cheat/deceive/mislead/dupe/trap; elude/escape notice; disappoint/frustrate/foil",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "deductus": {
+    "lemma": "deduco, deducere, deduxi, deductus V (3rd) TRANS",
+    "en": "lead/draw//pull/bring/stretch down/away/out/off; escort; eject/evict (claimant)",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "degustare": {
+    "lemma": "degusto, degustare, degustavi, degustatus V (1st) TRANS",
+    "en": "taste; taste/try/eat/drink a little of; glance at; graze; sip; test; judge",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "delibera": {
+    "lemma": "delibero, deliberare, deliberavi, deliberatus V (1st)",
+    "en": "weigh/consider/deliberate/consult (oracle); ponder/think over; resolve/decide on",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "delicatas": {
+    "lemma": "delicatus, delicata -um, delicatior -or -us, delicatissimus -a -um ADJ",
+    "en": "luxurious/sumptuous, addicted to pleasure; self-indulgent/comfortable; pampered",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "dementiae": {
+    "lemma": "dementia, dementiae N (1st) F",
+    "en": "madness, insanity; derangement of the mind; distraction, folly",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "depellas": {
+    "lemma": "depello, depellere, depuli, depulsus V (3rd)",
+    "en": "drive/push out//off/away/aside, repel; expel; remove, wean; banish utterly",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "deponendo": {
+    "lemma": "depono, deponere, deposui, depostus V (3rd) TRANS",
+    "en": "put/lay down/aside/away; let drop/fall; give up; resign; deposit/entrust/commit",
+    "grammar": "VPAR 3 1 DAT S M FUT PASSIVE PPL"
+  },
+  "deposueris": {
+    "lemma": "depono, deponere, deposui, depostus V (3rd) TRANS",
+    "en": "put/lay down/aside/away; let drop/fall; give up; resign; deposit/entrust/commit",
+    "grammar": "V 3 1 FUTP ACTIVE IND 2 S"
+  },
+  "descenderit": {
+    "lemma": "descendo, descendere, descendi, descensus V (3rd) INTRANS",
+    "en": "descend, climb/march/come/go/flow/run/hang down; dismount; penetrate/sink",
+    "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
+  },
+  "desiderare": {
+    "lemma": "desidero, desiderare, desideravi, desideratus V (1st) TRANS",
+    "en": "desire/want, long/wish for, request, require/need; miss, lack; lose",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "desiderari": {
+    "lemma": "desidero, desiderare, desideravi, desideratus V (1st) TRANS",
+    "en": "desire/want, long/wish for, request, require/need; miss, lack; lose",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "desiderat": {
+    "lemma": "desidero, desiderare, desideravi, desideratus V (1st) TRANS",
+    "en": "desire/want, long/wish for, request, require/need; miss, lack; lose",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "desieris": {
+    "lemma": "desino, desinere, desii, desitus",
+    "en": "you will have ceased; you stop",
+    "grammar": "V FUTP ACTIVE IND 2 S"
+  },
+  "desines": {
+    "lemma": "desino, desinere, desivi, desitus V (3rd)",
+    "en": "stop/end/finish, abandon/leave/break off, desist/cease; come to/at end/close",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "deverti": {
+    "lemma": "deverto, devertere, deverti, deversus V (3rd)",
+    "en": "divert, turn away/aside/in/off; detour/digress/branch off; lodge/put up",
+    "grammar": "V 3 1 PERF ACTIVE IND 1 S"
+  },
+  "dextro": {
+    "lemma": "dexter, dextra -um, dexterior -or -us, dextimus -a -um ADJ",
+    "en": "right, on/to the right hand/side; skillful/dexterous/handy",
+    "grammar": "ADJ 1 2 DAT S M POS"
+  },
   "dicam": {
     "lemma": "dico, dicere, dixi, dictus V (3rd)",
     "en": "say, declare, state; allege, declare positively; assert; plead (case)",
     "grammar": "V 3 1 FUT ACTIVE IND 1 S"
+  },
+  "dices": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "dicimus": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 P"
+  },
+  "dico": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
+  "die": {
+    "lemma": "dies, diei N (5th) C",
+    "en": "day; daylight; (sunlit hours); (24 hours from midnight); open sky; weather",
+    "grammar": "N 5 1 GEN S C"
+  },
+  "diei": {
+    "lemma": "dies, diei N (5th) C",
+    "en": "day; daylight; (sunlit hours); (24 hours from midnight); open sky; weather",
+    "grammar": "N 5 1 GEN S C"
   },
   "differtur": {
     "lemma": "differo, differre, distuli, dilatus V (3rd)",
     "en": "postpone/delay/differ; put off, keep waiting; give respite to; differ, disagree",
     "grammar": "V 3 2 PRES PASSIVE IND 3 S"
   },
+  "difficile": {
+    "lemma": "difficilis, difficile, difficilior -or -us, difficillimus -a -um ADJ",
+    "en": "difficult, troublesome; hard; hard to please/manage/deal with/carry out",
+    "grammar": "ADJ 3 2 NOM S N POS"
+  },
   "diligentem": {
     "lemma": "diligens, diligentis",
     "en": "careful; diligent",
     "grammar": "ADJ ACC S M"
+  },
+  "discurris": {
+    "lemma": "discurro, discurrere, discurri, discursus V (3rd) INTRANS",
+    "en": "run off in different directions; run/dash around/about; wander; roam",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "dissidere": {
+    "lemma": "dissideo, dissidere, dissedi, dissessus V (2nd)",
+    "en": "disagree, be at variance; be separated",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "dissimiles": {
+    "lemma": "dissimilis, dissimile, dissimilior -or -us, dissimillimus -a -um ADJ",
+    "en": "unlike, different, dissimilar",
+    "grammar": "ADJ 3 2 NOM P C POS"
+  },
+  "dissimilia": {
+    "lemma": "dissimilis, dissimile, dissimilior -or -us, dissimillimus -a -um ADJ",
+    "en": "unlike, different, dissimilar",
+    "grammar": "ADJ 3 2 NOM P N POS"
+  },
+  "dissimilitudo": {
+    "lemma": "dissimilitudo, dissimilitudinis N (3rd) F",
+    "en": "unlikeness, difference",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "dissolutio": {
+    "lemma": "dissolutio, dissolutionis N (3rd) F",
+    "en": "disintegration, dissolution; destruction; disconnection; refutation",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "distringit": {
+    "lemma": "distringo, distringere, distrinxi, districtus V (3rd) TRANS",
+    "en": "stretch out/apart; detain; distract; pull in different directions",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "diutius": {
+    "lemma": "diu, diutius, diutissime ADV",
+    "en": "(for) a long/considerable time/while; long since; [quam diu => as long as]",
+    "grammar": "ADV"
+  },
+  "divitiae": {
+    "lemma": "divitia, divitiae N (1st) F",
+    "en": "riches (pl.), wealth",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "divitiarum": {
+    "lemma": "divitia, divitiae N (1st) F",
+    "en": "riches (pl.), wealth",
+    "grammar": "N 1 1 GEN P F"
+  },
+  "divitias": {
+    "lemma": "divitia, divitiae N (1st) F",
+    "en": "riches (pl.), wealth",
+    "grammar": "N 1 1 ACC P F"
+  },
+  "dixerim": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 PERF ACTIVE SUB 1 S"
+  },
+  "dixisti": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
+  },
+  "docuerunt": {
+    "lemma": "doceo, docere, docui, doctus V (2nd)",
+    "en": "teach, show, point out",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 P"
+  },
+  "dolo": {
+    "lemma": "dolus, doli N (2nd) M",
+    "en": "trick, device, deceit, treachery, trickery, cunning, fraud",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "domesticis": {
+    "lemma": "domesticus, domestica, domesticum ADJ",
+    "en": "domestic, of the house; familiar, native; civil, private, personal",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "dominum": {
+    "lemma": "dominus, domini N (2nd) M",
+    "en": "owner, lord, master; the Lord; title for ecclesiastics/gentlemen",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "dominus": {
+    "lemma": "dominus, domini N (2nd) M",
+    "en": "owner, lord, master; the Lord; title for ecclesiastics/gentlemen",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "domum": {
+    "lemma": "domus, domus N (4th) F",
+    "en": "house, building; home, household; (N 4 1, older N 2 1); [domu => at home]",
+    "grammar": "N 4 1 ACC S F"
+  },
+  "duceris": {
+    "lemma": "duco, ducere, duxi, ductus V (3rd)",
+    "en": "lead, command; think, consider, regard; prolong",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "duci": {
+    "lemma": "dux, ducis N (3rd) M",
+    "en": "leader, guide; commander, general; Duke (medieval, Bee)",
+    "grammar": "N 3 1 DAT S M"
+  },
+  "e": {
+    "lemma": "e PREP ABL",
+    "en": "out of, from; by reason of; according to; because of, as a result of",
+    "grammar": "PREP"
+  },
+  "effecturam": {
+    "lemma": "efficio, efficere, effeci, effectus V (3rd)",
+    "en": "bring about; effect, execute, cause; accomplish; make, produce; prove",
+    "grammar": "VPAR 3 1 ACC S F FUT ACTIVE PPL"
+  },
+  "efficimus": {
+    "lemma": "efficio, efficere, effeci, effectus V (3rd)",
+    "en": "bring about; effect, execute, cause; accomplish; make, produce; prove",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 P"
   },
   "effluunt": {
     "lemma": "effluo, effluere, effluxi, - V (3rd)",
     "en": "flow out, flow forth; disappear, vanish, escape; be forgotten",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
+  "effugere": {
+    "lemma": "effugio, effugere, effugi, effugitus V (3rd)",
+    "en": "flee/escape; run/slip/keep away (from), eschew/avoid; baffle, escape notice",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "eius": {
     "lemma": "is, ea, id PRON",
     "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
     "grammar": "PRON 4 1 GEN S X"
   },
+  "eiusmodi": {
+    "lemma": "ejusmodi ADV",
+    "en": "of this sort; of such kind; [et ~ => and the like]",
+    "grammar": "ADV"
+  },
   "elabitur": {
     "lemma": "elabor, elabi, elapsus sum V (3rd) DEP",
     "en": "slip away; escape; elapse",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "emendari": {
+    "lemma": "emendo, emendare, emendavi, emendatus V (1st)",
+    "en": "correct, emend, repair; improve, free from errors",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "emendas": {
+    "lemma": "emendo, emendare, emendavi, emendatus V (1st)",
+    "en": "correct, emend, repair; improve, free from errors",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
+  "emendato": {
+    "lemma": "emendo, emendare, emendavi, emendatus V (1st)",
+    "en": "correct, emend, repair; improve, free from errors",
+    "grammar": "V 1 1 FUT ACTIVE IMP 2 S"
+  },
+  "emittitur": {
+    "lemma": "emitto, emittere, emisi, emissus V (3rd)",
+    "en": "hurl; let go; utter; send out; drive; force; cast; discharge; expel; publish",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "eo": {
+    "lemma": "is, ea, id PRON",
+    "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
+    "grammar": "PRON 4 1 ABL S M"
+  },
+  "eorum": {
+    "lemma": "is, ea, id PRON",
+    "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
+    "grammar": "PRON 4 1 GEN P M"
+  },
+  "epicurum": {
+    "lemma": "Epicurus, Epicuri",
+    "en": "Epicurus",
+    "grammar": "N ACC S M (proper name)"
+  },
+  "epistula": {
+    "lemma": "epistula, epistulae N (1st) F",
+    "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "epistulae": {
+    "lemma": "epistula, epistulae N (1st) F",
+    "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "epistulas": {
+    "lemma": "epistula, epistulae N (1st) F",
+    "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
+    "grammar": "N 1 1 ACC P F"
   },
   "ergo": {
     "lemma": "ergo ADV",
@@ -127,20 +1217,115 @@ Object.assign(LATIN_DICT, {
     "en": "snatch away, take by force; rescue",
     "grammar": "V 3 1 PRES PASSIVE IND 3 P"
   },
+  "erras": {
+    "lemma": "erro, errare, erravi, erratus V (1st)",
+    "en": "wander, go astray; make a mistake, err; vacillate",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
+  "esurire": {
+    "lemma": "esurio, esurire, esurivi, esuritus V (4th)",
+    "en": "be hungry, hunger; want to eat, desire food; desire eagerly",
+    "grammar": "V 4 1 PRES PASSIVE IND 2 S"
+  },
   "evenit": {
     "lemma": "evenio, evenire, eveni, eventus",
     "en": "happens; occurs",
     "grammar": "V PRES ACTIVE IND 3 S"
+  },
+  "evertitur": {
+    "lemma": "everto, evertere, everti, eversus V (3rd)",
+    "en": "overturn, turn upside down; overthrow, destroy, ruin",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "evita": {
+    "lemma": "evito, evitare, evitavi, evitatus V (1st)",
+    "en": "shun, avoid",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "evolvere": {
+    "lemma": "evolvo, evolvere, evolvi, evolutus V (3rd)",
+    "en": "roll out, unroll; disclose, unfold; extricate; pursue; explain",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "exagitatae": {
+    "lemma": "exagito, exagitare, exagitavi, exagitatus V (1st)",
+    "en": "drive out; stir up, disturb continually, harass; attack, scold, discuss",
+    "grammar": "VPAR 1 1 GEN S F PERF PASSIVE PPL"
+  },
+  "excerpe": {
+    "lemma": "excerpo, excerpere, excerpsi, excerptus V (3rd)",
+    "en": "pick out; select",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "excerpere": {
+    "lemma": "excerpo, excerpere, excerpsi, excerptus V (3rd)",
+    "en": "pick out; select",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "excidebat": {
     "lemma": "excido, excidere, excidi, - V (3rd)",
     "en": "perish; disappear; escape, fall out; be deprived of; lose control of senses",
     "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
   },
+  "exempla": {
+    "lemma": "exemplum, exempli N (2nd) N",
+    "en": "example, sample, specimen; instance; precedent, case; warning, deterrent",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "exigentibus": {
+    "lemma": "exigo, exigere, exegi, exactus V (3rd)",
+    "en": "drive out, expel; finish; examine, weigh",
+    "grammar": "VPAR 3 1 DAT P X PRES ACTIVE PPL"
+  },
+  "exigit": {
+    "lemma": "exigo, exigere, exegi, exactus V (3rd)",
+    "en": "drive out, expel; finish; examine, weigh",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "existimas": {
+    "lemma": "existimo, existimare, existimavi, existimatus V (1st) TRANS",
+    "en": "value/esteem; form/hold opinion/view; think/suppose; estimate; judge/consider",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
+  "existimo": {
+    "lemma": "existimo, existimare, existimavi, existimatus V (1st) TRANS",
+    "en": "value/esteem; form/hold opinion/view; think/suppose; estimate; judge/consider",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 S"
+  },
+  "exonerant": {
+    "lemma": "exonero, exonerare, exoneravi, exoneratus V (1st)",
+    "en": "unload, disburden, discharge",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "expecta": {
+    "lemma": "expecto, expectare, expectavi, expectatus V (1st)",
+    "en": "await, expect; anticipate; hope for",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
   "expellit": {
     "lemma": "expello, expellere, expuli, expulsus V (3rd)",
     "en": "drive out, expel, banish; disown, reject",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "explorator": {
+    "lemma": "exploro, explorare, exploravi, exploratus V (1st)",
+    "en": "search out, explore; test, try out; reconnoiter, investigate",
+    "grammar": "V 1 1 FUT PASSIVE IMP 2 S"
+  },
+  "exspectare": {
+    "lemma": "exspecto, exspectare, exspectavi, exspectatus V (1st)",
+    "en": "lookout for, await; expect, anticipate, hope for",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "exspectatione": {
+    "lemma": "exspectatio, exspectationis N (3rd) F",
+    "en": "expectation; suspense",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "extremum": {
+    "lemma": "extremus, extremi N (2nd) M",
+    "en": "rear (pl.)",
+    "grammar": "N 2 1 ACC S M"
   },
   "fac": {
     "lemma": "facio, facere, feci, factus V (3rd) TRANS",
@@ -157,15 +1342,120 @@ Object.assign(LATIN_DICT, {
     "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
     "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
+  "facias": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "faciemus": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 P"
+  },
+  "faciendum": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "facies": {
+    "lemma": "facies, faciei N (5th) F",
+    "en": "shape, face, look; presence, appearance; beauty; achievement",
+    "grammar": "N 5 1 NOM S F"
+  },
+  "faciles": {
+    "lemma": "facilis, facile, facilior -or -us, facillimus -a -um ADJ",
+    "en": "easy, easy to do, without difficulty, ready, quick, good natured, courteous",
+    "grammar": "ADJ 3 2 NOM P C POS"
+  },
+  "facilior": {
+    "lemma": "facilis, facile, facilior -or -us, facillimus -a -um ADJ",
+    "en": "easy, easy to do, without difficulty, ready, quick, good natured, courteous",
+    "grammar": "ADJ 3 2 NOM S C COMP"
+  },
+  "facio": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
+  "fallere": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "falli": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
   "fallimur": {
     "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
     "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
     "grammar": "V 3 1 PRES PASSIVE IND 1 P"
   },
+  "falsa": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "famem": {
+    "lemma": "fames, famis N (3rd) F",
+    "en": "hunger; famine; want; craving",
+    "grammar": "N 3 3 ACC S F"
+  },
+  "familiariter": {
+    "lemma": "familiariter ADV",
+    "en": "on friendly terms",
+    "grammar": "ADV"
+  },
+  "fastidientis": {
+    "lemma": "fastidio, fastidire, fastidivi, fastiditus V (4th)",
+    "en": "disdain; be scornful; feel aversion to, be squeamish",
+    "grammar": "VPAR 3 4 GEN S X PRES ACTIVE PPL"
+  },
   "fatebor": {
     "lemma": "fateor, fateri, fassus sum V (2nd) DEP",
     "en": "admit, confess (w/ACC); disclose; acknowledge; praise (w/DAT)",
     "grammar": "V 2 1 FUT PASSIVE IND 1 S"
+  },
+  "fecerunt": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "fecisse": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
+  "feneret": {
+    "lemma": "fenero, fenerare, feneravi, feneratus V (1st)",
+    "en": "lend money at interest; make interest/profit; invest/finance/supply; borrow",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
+  },
+  "ferae": {
+    "lemma": "ferus, fera, ferum ADJ",
+    "en": "wild, savage; uncivilized; untamed; fierce",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "fictilibus": {
+    "lemma": "fictile, fictilis N (3rd) N",
+    "en": "earthenware vessel or statue",
+    "grammar": "N 3 4 DAT P N"
+  },
+  "fidelem": {
+    "lemma": "fidelis, fidele, fidelior -or -us, fidelissimus -a -um ADJ",
+    "en": "faithful/loyal/devoted; true/trustworthy/dependable/reliable; constant/lasting",
+    "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "fideliter": {
+    "lemma": "fideliter, fidelius, fidelissime ADV",
+    "en": "faithfully/constantly/loyally; earnestly; reliably/accurately; securely/firmly",
+    "grammar": "ADV"
+  },
+  "fieri": {
+    "lemma": "fio, fere, factus sum V (3rd) SEMIDEP",
+    "en": "happen, come about; result (from); take place, be held, occur, arise (event)",
+    "grammar": "V 3 3 PRES ACTIVE INF 0 X"
   },
   "fiet": {
     "lemma": "fio, fere, factus sum V (3rd) SEMIDEP",
@@ -177,55 +1467,340 @@ Object.assign(LATIN_DICT, {
     "en": "happen, come about; result (from); take place, be held, occur, arise (event)",
     "grammar": "V 3 3 PRES ACTIVE IND 3 S"
   },
+  "fluctuantur": {
+    "lemma": "fluctuo, fluctuare, fluctuavi, fluctuatus V (1st)",
+    "en": "rise in waves, surge, swell, undulate, fluctuate; float; be agitated/restless",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 P"
+  },
+  "fores": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 IMPF ACTIVE SUB 2 S"
+  },
+  "formidant": {
+    "lemma": "formido, formidare, formidavi, formidatus V (1st)",
+    "en": "dread, fear, be afraid of; be afraid for (the safety of) (w/DAT)",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "formido": {
+    "lemma": "formido, formidinis N (3rd) F",
+    "en": "fear/terror/alarm; religious dread/awe; thing/reason which scares, bogy/horror",
+    "grammar": "N 3 1 NOM S F"
+  },
   "fortasse": {
     "lemma": "fortasse ADV",
     "en": "perhaps, possibly; it may be",
     "grammar": "ADV"
+  },
+  "forum": {
+    "lemma": "forum, fori N (2nd) N",
+    "en": "market; forum (in Rome); court of justice",
+    "grammar": "N 2 2 NOM S N"
+  },
+  "frivolis": {
+    "lemma": "frivolus, frivola, frivolum ADJ",
+    "en": "frivolous, trifling; silly, worthless; trashy",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "frons": {
+    "lemma": "frons, frontis N (3rd) C",
+    "en": "forehead, brow; face; look; front; fore part of anything",
+    "grammar": "N 3 3 NOM S C"
+  },
+  "frueris": {
+    "lemma": "fruor, fruari, fruitus sum V (1st) DEP",
+    "en": "enjoy, profit by, delight in (w/ABL)",
+    "grammar": "V 1 1 PRES PASSIVE SUB 2 S"
+  },
+  "frugalitas": {
+    "lemma": "frugalitas, frugalitatis N (3rd) F",
+    "en": "frugality; economy; honesty",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "frugalitatem": {
+    "lemma": "frugalitas, frugalitatis N (3rd) F",
+    "en": "frugality; economy; honesty",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "frugalitatis": {
+    "lemma": "frugalitas, frugalitatis N (3rd) F",
+    "en": "frugality; economy; honesty",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "frui": {
+    "lemma": "fruor, frui, fructus sum V (3rd) DEP",
+    "en": "enjoy (proceeds/socially/sexually), profit by, delight in (w/ABL)",
+    "grammar": "V 3 1 PRES PASSIVE INF 0 X"
   },
   "fugacis": {
     "lemma": "fugax, (gen.), fugacis ADJ",
     "en": "flying swiftly; swift; avoiding, transitory",
     "grammar": "ADJ 3 1 GEN S X POS"
   },
+  "fugamus": {
+    "lemma": "fugo, fugare, fugavi, fugatus V (1st)",
+    "en": "put to flight, rout; chase away; drive into exile",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 P"
+  },
+  "fugiunt": {
+    "lemma": "fugio, fugere, fugi, fugitus V (3rd)",
+    "en": "flee, fly, run away; avoid, shun; go into exile",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
   "fundo": {
     "lemma": "fundus, fundi",
     "en": "bottom; lowest part",
     "grammar": "N ABL S M"
+  },
+  "futuri": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "VPAR 5 1 GEN S M FUT ACTIVE PPL"
+  },
+  "gaius": {
+    "lemma": "Gaius, Gai N (2nd) M",
+    "en": "Gaius (Roman praenomen); (abb. C.)",
+    "grammar": "N 2 5 NOM S M"
+  },
+  "gaudens": {
+    "lemma": "gaudeo, gaudere, gavisus sum V (2nd) SEMIDEP",
+    "en": "be glad, rejoice",
+    "grammar": "VPAR 2 1 NOM S X PRES ACTIVE PPL"
+  },
+  "gaudeo": {
+    "lemma": "gaudeo, gaudere, gavisus sum V (2nd) SEMIDEP",
+    "en": "be glad, rejoice",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 S"
+  },
+  "gaudium": {
+    "lemma": "gaudium, gaudi(i) N (2nd) N",
+    "en": "joy, delight, gladness; source/cause of joy; physical/sensual delight",
+    "grammar": "N 2 4 NOM S N"
+  },
+  "genere": {
+    "lemma": "genus, generis N (3rd) N",
+    "en": "birth/descent/origin; race/family/house/stock/ancestry; offspring/descent",
+    "grammar": "N 3 2 DAT S N"
+  },
+  "gladium": {
+    "lemma": "gladius, gladi(i) N (2nd) M",
+    "en": "sword",
+    "grammar": "N 2 4 ACC S M"
   },
   "gratus": {
     "lemma": "gratus, grata -um, gratior -or -us, gratissimus -a -um ADJ",
     "en": "pleasing, acceptable, agreeable, welcome; dear, beloved; grateful, thankful",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "grave": {
+    "lemma": "gravis, grave, gravior -or -us, gravissimus -a -um ADJ",
+    "en": "heavy; painful; important; serious; pregnant; grave, oppressive, burdensome",
+    "grammar": "ADJ 3 2 NOM S N POS"
+  },
+  "gravius": {
+    "lemma": "gravis, grave, gravior -or -us, gravissimus -a -um ADJ",
+    "en": "heavy; painful; important; serious; pregnant; grave, oppressive, burdensome",
+    "grammar": "ADJ 3 2 NOM S N COMP"
+  },
+  "habeamus": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES ACTIVE SUB 1 P"
+  },
+  "habeant": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 P"
+  },
+  "habeat": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "habemus": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 P"
+  },
+  "habere": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "habet": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
+  },
+  "habitu": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "SUPINE"
+  },
+  "habueris": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 FUTP ACTIVE IND 2 S"
+  },
+  "hac": {
+    "lemma": "hic, haec, hoc PRON",
+    "en": "this; these (pl.); (also DEMONST)",
+    "grammar": "PRON 3 1 ABL S F"
+  },
+  "hecatonem": {
+    "lemma": "Hecato, Hecatonis",
+    "en": "Hecato",
+    "grammar": "N ACC S M (proper name)"
+  },
   "hodierno": {
     "lemma": "hodiernus, hodierna, hodiernum",
     "en": "today; the present day",
     "grammar": "ADJ ABL S N"
+  },
+  "hodiernum": {
+    "lemma": "hodiernus, hodierna, hodiernum ADJ",
+    "en": "today's, of/belonging to today; present, existing now; [~ die => on this day]",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "honesta": {
+    "lemma": "honestus, honesta -um, honestior -or -us, honestissimus -a -um ADJ",
+    "en": "distinguished, reputable, respected, honorable, upright, honest; worthy",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "honestius": {
+    "lemma": "honestus, honesta -um, honestior -or -us, honestissimus -a -um ADJ",
+    "en": "distinguished, reputable, respected, honorable, upright, honest; worthy",
+    "grammar": "ADJ 1 1 NOM S N COMP"
+  },
+  "horam": {
+    "lemma": "hora, horae N (1st) F",
+    "en": "hour; time; season; [Horae => Seasons]",
+    "grammar": "N 1 1 ACC S F"
   },
   "horas": {
     "lemma": "hora, horae N (1st) F",
     "en": "hour; time; season; [Horae => Seasons]",
     "grammar": "N 1 1 ACC P F"
   },
+  "horreis": {
+    "lemma": "horreum, horrei N (2nd) N",
+    "en": "storehouse; barn",
+    "grammar": "N 2 2 DAT P N"
+  },
+  "horridis": {
+    "lemma": "horridus, horrida, horridum ADJ",
+    "en": "wild, frightful, rough, bristly, standing on end, unkempt; grim; horrible",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "hortor": {
+    "lemma": "hortor, hortari, hortatus sum V (1st) DEP",
+    "en": "encourage; cheer; incite; urge; exhort",
+    "grammar": "V 1 1 PRES PASSIVE IND 1 S"
+  },
+  "hortulis": {
+    "lemma": "hortulus, hortuli N (2nd) M",
+    "en": "small/little garden; park (pl.); pleasure grounds",
+    "grammar": "N 2 1 DAT P M"
+  },
+  "hospitia": {
+    "lemma": "hospitium, hospiti(i) N (2nd) N",
+    "en": "hospitality, entertainment; lodging; guest room/lodging; inn",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "hostem": {
+    "lemma": "hostis, hostis N (3rd) C",
+    "en": "enemy (of the state); stranger, foreigner; the enemy (pl.)",
+    "grammar": "N 3 3 ACC S C"
+  },
+  "hostium": {
+    "lemma": "hostis, hostis",
+    "en": "of enemies",
+    "grammar": "N GEN P C"
+  },
   "huius": {
     "lemma": "hic, haec, hoc PRON",
     "en": "this; these (pl.); (also DEMONST)",
     "grammar": "PRON 3 1 GEN S X"
+  },
+  "humanae": {
+    "lemma": "humanus, humana -um, humanior -or -us, humanissimus -a -um ADJ",
+    "en": "human; kind; humane, civilized, refined; [~ hostiae => human sacrifice]",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "humanitatem": {
+    "lemma": "humanitas, humanitatis N (3rd) F",
+    "en": "human nature/character/feeling; kindness/courtesy; culture/civilization",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "iaceat": {
+    "lemma": "jaceo, jacere, jacui, jacitus V (2nd) INTRANS",
+    "en": "lie; lie down; lie ill/in ruins/prostrate/dead; sleep; be situated",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "iactatio": {
+    "lemma": "jactatio, jactationis N (3rd) F",
+    "en": "shaking; boasting; showing off",
+    "grammar": "N 3 1 NOM S F"
   },
   "iactura": {
     "lemma": "iactura, iacturae",
     "en": "loss; waste",
     "grammar": "N NOM S F"
   },
+  "idem": {
+    "lemma": "idem, eadem, idem PRON",
+    "en": "TACKON w/i-ea-id idem => same",
+    "grammar": "PRON 4 2 NOM S M + TACKON"
+  },
+  "ideo": {
+    "lemma": "ideo ADV",
+    "en": "therefore, for the reason that, for that reason",
+    "grammar": "ADV"
+  },
   "ignoscunt": {
     "lemma": "ignosco, ignoscere, ignovi, ignotus V (3rd)",
     "en": "pardon, forgive (with DAT)",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
+  "iis": {
+    "lemma": "is, ea, id PRON",
+    "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
+    "grammar": "PRON 4 1 DAT P X"
+  },
+  "illo": {
+    "lemma": "ille, illa, illud PRON",
+    "en": "that; those (pl.); also DEMONST; that person/thing; the well known; the former",
+    "grammar": "PRON 6 1 ABL S M"
+  },
+  "illud": {
+    "lemma": "ille, illa, illud PRON",
+    "en": "that; those (pl.); also DEMONST; that person/thing; the well known; the former",
+    "grammar": "PRON 6 1 NOM S N"
+  },
+  "imitanda": {
+    "lemma": "imitor, imitari, imitatus sum V (1st) DEP",
+    "en": "imitate/copy/mimic; follow; make an imitation/reproduction; resemble; simulate",
+    "grammar": "VPAR 1 1 NOM S F FUT PASSIVE PPL"
+  },
+  "imitari": {
+    "lemma": "imitor, imitari, imitatus sum V (1st) DEP",
+    "en": "imitate/copy/mimic; follow; make an imitation/reproduction; resemble; simulate",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "immorari": {
+    "lemma": "moror, morari, moratus sum V (1st) DEP",
+    "en": "delay; stay, stay behind; devote attention to; - in, - on, - against; not -, un-",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X + PREFIX"
+  },
   "imo": {
     "lemma": "imus, ima, imum",
     "en": "lowest; bottom",
     "grammar": "ADJ ABL S N SUPER"
+  },
+  "impedit": {
+    "lemma": "impedio, impedire, impedivi, impeditus V (4th)",
+    "en": "hinder, impede, hamper, obstruct, prevent from (w/ne, quin, or quominus)",
+    "grammar": "V 4 1 PRES ACTIVE IND 3 S"
   },
   "impensae": {
     "lemma": "impensa, impensae N (1st) F",
@@ -237,15 +1812,80 @@ Object.assign(LATIN_DICT, {
     "en": "obtain/procure (by asking/request/entreaty); succeed/achieve/be granted; obtain",
     "grammar": "V 1 1 PERF ACTIVE IND 3 P"
   },
+  "impingunt": {
+    "lemma": "impingo, impingere, impegi, impactus V (3rd)",
+    "en": "thrust, strike or dash against",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "imponam": {
+    "lemma": "impono, imponere, imposui, impositus V (3rd)",
+    "en": "impose, put upon; establish; inflict; assign/place in command; set",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
+  },
   "imputari": {
     "lemma": "imputo, imputare, imputavi, imputatus V (1st)",
     "en": "charge, enter as debt/credit; take into account; impute, ascribe; lay to charge",
     "grammar": "V 1 1 PRES PASSIVE INF 0 X"
   },
+  "incedunt": {
+    "lemma": "incedo, incedere, incessi, incessus V (3rd)",
+    "en": "advance, march; approach; step, walk, march along",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "incidere": {
+    "lemma": "incido, incidere, incidi, incasus V (3rd)",
+    "en": "happen; fall into, fall in with, meet; fall upon, assail",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "incideris": {
+    "lemma": "incido, incidere, incidi, incasus V (3rd)",
+    "en": "happen; fall into, fall in with, meet; fall upon, assail",
+    "grammar": "V 3 1 FUTP ACTIVE IND 2 S"
+  },
   "incipies": {
     "lemma": "incipio, incipere, incepi, inceptus V (3rd)",
     "en": "begin; start, undertake",
     "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "incompta": {
+    "lemma": "incomptus, incompta, incomptum ADJ",
+    "en": "disheveled; untidy; unpolished",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "indicium": {
+    "lemma": "indicium, indici(i) N (2nd) N",
+    "en": "evidence (before a court); information, proof; indication",
+    "grammar": "N 2 4 NOM S N"
+  },
+  "indictum": {
+    "lemma": "indico, indicere, indixi, indictus V (3rd)",
+    "en": "declare publicly; proclaim, announce; appoint; summon",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "indura": {
+    "lemma": "induro, indurare, induravi, induratus V (1st)",
+    "en": "make hard",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "industria": {
+    "lemma": "industria, industriae N (1st) F",
+    "en": "industry; purpose/diligence; purposeful/diligent activity; purposefulness (pl.)",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "infantum": {
+    "lemma": "infans, (gen.), infantis ADJ",
+    "en": "speechless, inarticulate; new born; childish, foolish",
+    "grammar": "ADJ 3 1 GEN P X POS"
+  },
+  "infirmi": {
+    "lemma": "infirmus, infirma -um, infirmior -or -us, infirmissimus -a -um ADJ",
+    "en": "fragile/frail/feeble; unwell/sick/infirm",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "ingenio": {
+    "lemma": "ingenium, ingeni(i) N (2nd) N",
+    "en": "nature, innate quality; natural disposition/capacity; character; talent",
+    "grammar": "N 2 4 DAT S N"
   },
   "ingenue": {
     "lemma": "ingenue",
@@ -257,19 +1897,94 @@ Object.assign(LATIN_DICT, {
     "en": "hurl/throw/strike in/into; inject; put on; inspire, instill (feeling, etc)",
     "grammar": "V 3 1 FUTP ACTIVE IND 2 S"
   },
+  "inimico": {
+    "lemma": "inimicus, inimica -um, inimicior -or -us, inimicissimus -a -um ADJ",
+    "en": "unfriendly, hostile, harmful",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "innutriri": {
+    "lemma": "innutrio, innutrire, innutrivi, innutritus V (4th) TRANS",
+    "en": "nourish",
+    "grammar": "V 4 1 PRES PASSIVE INF 0 X"
+  },
   "inopiam": {
     "lemma": "inopia, inopiae N (1st) F",
     "en": "lack, need; poverty, destitution, dearth, want, scarcity",
     "grammar": "N 1 1 ACC S F"
+  },
+  "inquietaris": {
+    "lemma": "inquieto, inquietare, inquietavi, inquietatus V (1st) TRANS",
+    "en": "disturb, trouble, molest, harass; press legal claim against; fidget, twiddle",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "inquietas": {
+    "lemma": "inquieto, inquietare, inquietavi, inquietatus V (1st) TRANS",
+    "en": "disturb, trouble, molest, harass; press legal claim against; fidget, twiddle",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
+  "inquieti": {
+    "lemma": "inquies, (gen.), inquietis ADJ",
+    "en": "restless, impatient; full of tumult",
+    "grammar": "ADJ 3 1 DAT S X POS"
+  },
+  "inquinant": {
+    "lemma": "inquino, inquinare, inquinavi, inquinatus V (1st)",
+    "en": "daub; stain, pollute; soil; \"smear\"",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "inquis": {
+    "lemma": "inquiam, -, - V",
+    "en": "say (defective); (postpositive - for direct quote); [inquiens => saying]",
+    "grammar": "V 7 2 PRES ACTIVE IND 2 S"
+  },
+  "insidiis": {
+    "lemma": "insidia, insidiae N (1st) F",
+    "en": "ambush/ambuscade (pl.); plot; treachery, treacherous attack/device; trap/snare",
+    "grammar": "N 1 1 DAT P F"
+  },
+  "insolens": {
+    "lemma": "insolens, (gen.), insolentis ADJ",
+    "en": "haughty, arrogant, insolent; immoderate, extravagant",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
+  "inspexerit": {
+    "lemma": "inspicio, inspicere, inspexi, inspectus V (3rd)",
+    "en": "examine, inspect; consider, look into/at, observe",
+    "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
+  },
+  "instabile": {
+    "lemma": "instabilis, instabilis, instabile ADJ",
+    "en": "unsteady, shaky; unstable; inconstant",
+    "grammar": "ADJ 3 2 NOM S N POS"
   },
   "intellegat": {
     "lemma": "intellego, intellegere, intellexi, intellectus V (3rd)",
     "en": "understand; realize",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "intelleges": {
+    "lemma": "intellego, intellegere, intellexi, intellectus V (3rd)",
+    "en": "understand; realize",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "intellegis": {
+    "lemma": "intellego, intellegere, intellexi, intellectus V (3rd)",
+    "en": "understand; realize",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "intererit": {
+    "lemma": "intersum, interesse, interfui, interfuturus V (5th) TO_BEING",
+    "en": "be/lie between, be in the midst; be present; take part in; be different",
+    "grammar": "V 5 1 FUT ACTIVE IND 3 S"
+  },
   "interim": {
     "lemma": "interim ADV",
     "en": "meanwhile, in the meantime; at the same time; however, nevertheless",
+    "grammar": "ADV"
+  },
+  "interius": {
+    "lemma": "intra, interius, intime ADV",
+    "en": "within, inside, on the inside; during; under; fewer than",
     "grammar": "ADV"
   },
   "interrogabis": {
@@ -277,25 +1992,235 @@ Object.assign(LATIN_DICT, {
     "en": "ask, question, interrogate, examine; indict; go to law with, sue",
     "grammar": "V 1 1 FUT ACTIVE IND 2 S"
   },
+  "interveniunt": {
+    "lemma": "intervenio, intervenire, interveni, interventus V (4th)",
+    "en": "come between, intervene; occur, crop up",
+    "grammar": "V 4 1 PRES ACTIVE IND 3 P"
+  },
+  "intonsum": {
+    "lemma": "intonsus, intonsa, intonsum ADJ",
+    "en": "uncut; unshaven, unshorn; not stripped of foliage",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "intraverit": {
+    "lemma": "intro, intrare, intravi, intratus V (1st)",
+    "en": "enter; go into, penetrate; reach",
+    "grammar": "V 1 1 FUTP ACTIVE IND 3 S"
+  },
+  "inveni": {
+    "lemma": "invenio, invenire, inveni, inventus V (4th)",
+    "en": "come upon; discover, find; invent, contrive; reach, manage to get",
+    "grammar": "V 4 1 PERF ACTIVE IND 1 S"
+  },
+  "invidiosum": {
+    "lemma": "invidiosus, invidiosa -um, invidiosior -or -us, invidiosissimus -a -um ADJ",
+    "en": "arousing hatred/odium/envy; odious, invidious; enviable; envious, jealous",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "ipso": {
+    "lemma": "ipse, ipsa, ipsum PRON",
+    "en": "himself/herself/itself; the very/real/actual one; in person; themselves (pl.)",
+    "grammar": "PRON 6 2 ABL S M"
+  },
+  "ipsum": {
+    "lemma": "ipse, ipsa, ipsum PRON",
+    "en": "himself/herself/itself; the very/real/actual one; in person; themselves (pl.)",
+    "grammar": "PRON 6 2 NOM S N"
+  },
+  "ira": {
+    "lemma": "ira, irae N (1st) F",
+    "en": "anger; ire, wrath; resentment; indignation; rage/fury/violence; bad blood",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "ire": {
+    "lemma": "eo, ire, ivi(ii), itus V",
+    "en": "go, walk; march, advance; pass; flow; pass (time); ride; sail",
+    "grammar": "V 6 1 PRES PASSIVE IND 2 S"
+  },
   "ista": {
     "lemma": "iste, ista, istud",
     "en": "those things; these teachings",
     "grammar": "PRON ACC P N"
+  },
+  "isti": {
+    "lemma": "iste, ista, istud PRON",
+    "en": "that, that of yours, that which you refer to; such",
+    "grammar": "PRON 6 1 DAT S X"
+  },
+  "itaque": {
+    "lemma": "itaque ADV",
+    "en": "and so, accordingly; thus, therefore, consequently",
+    "grammar": "ADV"
+  },
+  "iubebit": {
+    "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
+    "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
+    "grammar": "V 2 1 FUT ACTIVE IND 3 S"
+  },
+  "iucundam": {
+    "lemma": "jucundus, jucunda -um, jucundior -or -us, jucundissimus -a -um ADJ",
+    "en": "pleasant/agreeable/delightful/pleasing (experience/person/senses); congenial",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
+  "iudicandum": {
+    "lemma": "judico, judicare, judicavi, judicatus V (1st)",
+    "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
+    "grammar": "VPAR 1 1 NOM S N FUT PASSIVE PPL"
+  },
+  "iudicant": {
+    "lemma": "judico, judicare, judicavi, judicatus V (1st)",
+    "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "iudicat": {
+    "lemma": "judico, judicare, judicavi, judicatus V (1st)",
+    "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "iudicaverunt": {
+    "lemma": "judico, judicare, judicavi, judicatus V (1st)",
+    "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 P"
   },
   "iudicet": {
     "lemma": "judico, judicare, judicavi, judicatus V (1st)",
     "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
     "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
   },
+  "iugulo": {
+    "lemma": "jugulus, juguli N (2nd) M",
+    "en": "throat, neck; collarbone",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "ius": {
+    "lemma": "jus, juris N (3rd) N",
+    "en": "law; legal system; code; right; duty; justice; court; binding decision; oath",
+    "grammar": "N 3 2 NOM S N"
+  },
+  "labe": {
+    "lemma": "labes, labis N (3rd) F",
+    "en": "landslip/subsidence; disaster/debacle; fault/defect/blot/stain/blemish/dishonor",
+    "grammar": "N 3 3 DAT S F"
+  },
+  "languor": {
+    "lemma": "languor, languoris N (3rd) M",
+    "en": "faintness, feebleness; languor apathy",
+    "grammar": "N 3 1 NOM S M"
+  },
+  "laqueo": {
+    "lemma": "laqueus, laquei N (2nd) M",
+    "en": "noose; snare, trap",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "latebras": {
+    "lemma": "latebra, latebrae N (1st) F",
+    "en": "hiding place, retreat, lair; subterfuge",
+    "grammar": "N 1 1 ACC P F"
+  },
+  "latronem": {
+    "lemma": "latro, latronis N (3rd) M",
+    "en": "robber, brigand, bandit; plunderer",
+    "grammar": "N 3 1 ACC S M"
+  },
+  "lectio": {
+    "lemma": "lectio, lectionis N (3rd) F",
+    "en": "reading (aloud); perusal; choosing; lecture (Bee); narrative",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "legas": {
+    "lemma": "lego, legere, legi, lectus V (3rd)",
+    "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "legere": {
+    "lemma": "lego, legere, legi, lectus V (3rd)",
+    "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "legi": {
+    "lemma": "lex, legis N (3rd) F",
+    "en": "law; motion, bill, statute; principle; condition",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "lepidum": {
+    "lemma": "lepidus, lepida -um, lepidior -or -us, lepidissimus -a -um ADJ",
+    "en": "agreeable, charming, delightful, nice; amusing, witty (remarks/books)",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "levia": {
+    "lemma": "levis, leve, levior -or -us, levissimus -a -um ADJ",
+    "en": "|smooth; slippery, polished, plain; free from coarse hair/harsh sounds",
+    "grammar": "ADJ 3 2 NOM P N POS"
+  },
+  "lex": {
+    "lemma": "lex, legis N (3rd) F",
+    "en": "law; motion, bill, statute; principle; condition",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "librorum": {
+    "lemma": "liber, libri N (2nd) M",
+    "en": "book, volume; inner bark of a tree",
+    "grammar": "N 2 3 GEN P M"
+  },
+  "librum": {
+    "lemma": "libra, librae N (1st) F",
+    "en": "scales, balance; level; Roman pound, 12 unciae/ounces; (3/4 pound avoirdupois)",
+    "grammar": "N 1 1 GEN P F"
+  },
+  "libuerit": {
+    "lemma": "libet, libere, libuit, libitus est V (2nd) IMPERS",
+    "en": "it pleases, is pleasing/agreeable; (w/qui whatever, whichever, no matter)",
+    "grammar": "V 2 1 FUTP ACTIVE IND 3 S"
+  },
+  "liminibus": {
+    "lemma": "limen, liminis N (3rd) N",
+    "en": "threshold, entrance; lintel; house",
+    "grammar": "N 3 2 DAT P N"
+  },
+  "locorum": {
+    "lemma": "locus, loci N (2nd) M",
+    "en": "seat, rank, position; soldier's post; quarters; category; book passage, topic",
+    "grammar": "N 2 1 GEN P M"
+  },
+  "longinqua": {
+    "lemma": "longinquus, longinqua -um, longinquior -or -us, longinquissimus -a -um ADJ",
+    "en": "remote, distant, far off; lasting, of long duration",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "loquere": {
+    "lemma": "loquor, loqui, locutus sum V (3rd) DEP",
+    "en": "speak, tell; talk; mention; say, utter; phrase",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "lubricae": {
     "lemma": "lubricus, lubrica, lubricum ADJ",
     "en": "slippery; sinuous; inconstant; hazardous, ticklish; deceitful",
     "grammar": "ADJ 1 1 GEN S F POS"
   },
+  "luce": {
+    "lemma": "lucus, luci N (2nd) M",
+    "en": "grove; sacred grove",
+    "grammar": "N 2 1 VOC S M"
+  },
+  "lucellum": {
+    "lemma": "lucellum, lucelli N (2nd) N",
+    "en": "small or petty gain",
+    "grammar": "N 2 2 NOM S N"
+  },
   "lucili": {
     "lemma": "Lucilius",
     "en": "Lucilius",
     "grammar": "N 2 VOC S M (proper name)"
+  },
+  "luserunt": {
+    "lemma": "ludo, ludere, lusi, lusus V (3rd)",
+    "en": "play, mock, tease, trick",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "luxuriae": {
+    "lemma": "luxuria, luxuriae N (1st) F",
+    "en": "luxury; extravagance; thriving condition",
+    "grammar": "N 1 1 GEN S F"
   },
   "luxuriosum": {
     "lemma": "luxuriosus, luxuriosa, luxuriosum",
@@ -307,10 +2232,30 @@ Object.assign(LATIN_DICT, {
     "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "magnae": {
+    "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
+    "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "magnus": {
+    "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
+    "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "maior": {
+    "lemma": "major, majoris N (3rd) M",
+    "en": "ancestors (pl.)",
+    "grammar": "N 3 1 NOM S M"
+  },
   "maioribus": {
     "lemma": "major, majoris N (3rd) M",
     "en": "ancestors (pl.)",
     "grammar": "N 3 1 DAT P M"
+  },
+  "maius": {
+    "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
+    "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
+    "grammar": "ADJ 1 1 NOM S N COMP"
   },
   "male": {
     "lemma": "male",
@@ -322,25 +2267,85 @@ Object.assign(LATIN_DICT, {
     "en": "prefer; incline toward, wish rather",
     "grammar": "V 6 2 PRES ACTIVE IND 1 S"
   },
+  "malum": {
+    "lemma": "malus, mala -um, pejor -or -us, - ADJ",
+    "en": "bad, evil, wicked; ugly; unlucky",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "mandabitur": {
+    "lemma": "mando, mandare, mandavi, mandatus V (1st)",
+    "en": "entrust, commit to one's charge, deliver over; commission; order, command",
+    "grammar": "V 1 1 FUT PASSIVE IND 3 S"
+  },
   "manum": {
     "lemma": "manus, manus N (4th) F",
     "en": "hand, fist; team; gang, band of soldiers; handwriting; (elephant's) trunk",
     "grammar": "N 4 1 ACC S F"
+  },
+  "manus": {
+    "lemma": "manus, manus N (4th) F",
+    "en": "hand, fist; team; gang, band of soldiers; handwriting; (elephant's) trunk",
+    "grammar": "N 4 1 NOM S F"
   },
   "maxima": {
     "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
     "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
     "grammar": "ADJ 1 1 NOM S F SUPER"
   },
+  "maximum": {
+    "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
+    "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
+    "grammar": "ADJ 1 1 NOM S N SUPER"
+  },
   "meae": {
     "lemma": "meus, mea, meum ADJ",
     "en": "my (personal possession); mine, of me, belonging to me; my own; to me",
     "grammar": "ADJ 1 1 GEN S F POS"
   },
+  "medicamenta": {
+    "lemma": "medicamentum, medicamenti N (2nd) N",
+    "en": "drug, remedy, medicine",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "meditare": {
+    "lemma": "meditor, meditari, meditatus sum V (1st) DEP",
+    "en": "consider/contemplate/ponder; meditate, think about; reflect on; devise/plan",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "meliorem": {
+    "lemma": "bonus, bona -um, melior -or -us, optimus -a -um ADJ",
+    "en": "good, honest, brave, noble, kind, pleasant, right, useful; valid; healthy",
+    "grammar": "ADJ 1 1 ACC S C COMP"
+  },
+  "memoria": {
+    "lemma": "memoria, memoriae N (1st) F",
+    "en": "memory, recollection; history; time within memory [~ tenere => to remember]",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "mentis": {
+    "lemma": "mens, mentis N (3rd) F",
+    "en": "mind; reason, intellect, judgment; plan, intention, frame of mind; courage",
+    "grammar": "N 3 3 GEN S F"
+  },
+  "metum": {
+    "lemma": "metus, metus N (4th) M",
+    "en": "fear, anxiety; dread, awe; object of awe/dread",
+    "grammar": "N 4 1 ACC S M"
+  },
   "mi": {
     "lemma": "ego PRON",
     "en": "I, me (PERS); myself (REFLEX)",
     "grammar": "PRON 5 1 VOC S C"
+  },
+  "militem": {
+    "lemma": "miles, militis N (3rd) M",
+    "en": "soldier; foot soldier; soldiery; knight (Latham); knight's fee/service",
+    "grammar": "N 3 1 ACC S M"
+  },
+  "minaretur": {
+    "lemma": "minor, minari, minatus sum V (1st) DEP",
+    "en": "threaten, speak/act menacingly; make threatening movement; give indication of",
+    "grammar": "V 1 1 IMPF PASSIVE SUB 3 S"
   },
   "minima": {
     "lemma": "parvus, parva, parvum",
@@ -352,15 +2357,80 @@ Object.assign(LATIN_DICT, {
     "en": "small, little, cheap; unimportant; (SUPER) smallest, least",
     "grammar": "ADJ 1 1 NOM S N SUPER"
   },
+  "minor": {
+    "lemma": "parvus, parva -um, minor -or -us, minimus -a -um ADJ",
+    "en": "small, little, cheap; unimportant; (SUPER) smallest, least",
+    "grammar": "ADJ 1 1 NOM S C COMP"
+  },
   "minus": {
     "lemma": "minus",
     "en": "less",
     "grammar": "ADV COMP"
   },
+  "miretur": {
+    "lemma": "miror, mirari, miratus sum V (1st) DEP",
+    "en": "be amazed/surprised/bewildered (at); look in wonder/awe/admiration at",
+    "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
+  },
+  "miror": {
+    "lemma": "miror, mirari, miratus sum V (1st) DEP",
+    "en": "be amazed/surprised/bewildered (at); look in wonder/awe/admiration at",
+    "grammar": "V 1 1 PRES PASSIVE IND 1 S"
+  },
+  "misce": {
+    "lemma": "misceo, miscere, miscui, mixtus V (2nd)",
+    "en": "mix, mingle; embroil; confound; stir up",
+    "grammar": "V 2 1 PRES ACTIVE IMP 2 S"
+  },
+  "miscenda": {
+    "lemma": "misceo, miscere, miscui, mixtus V (2nd)",
+    "en": "mix, mingle; embroil; confound; stir up",
+    "grammar": "VPAR 2 1 NOM S F FUT PASSIVE PPL"
+  },
+  "miser": {
+    "lemma": "miser, misera -um, miserior -or -us, miserrimus -a -um ADJ",
+    "en": "poor, miserable, wretched, unfortunate, unhappy, distressing",
+    "grammar": "ADJ 1 2 NOM S M POS"
+  },
+  "miseri": {
+    "lemma": "miser, misera -um, miserior -or -us, miserrimus -a -um ADJ",
+    "en": "poor, miserable, wretched, unfortunate, unhappy, distressing",
+    "grammar": "ADJ 1 2 GEN S M POS"
+  },
   "misit": {
     "lemma": "mitto, mittere, misi, missus V (3rd)",
     "en": "send, throw, hurl, cast; let out, release, dismiss; disregard",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "modeste": {
+    "lemma": "modestus, modesta, modestum ADJ",
+    "en": "restrained, mild; modest; reserved; disciplined",
+    "grammar": "ADJ 1 1 VOC S M POS"
+  },
+  "modus": {
+    "lemma": "modus, modi N (2nd) M",
+    "en": "manner, mode, way, method; rule, rhythm, beat, measure, size; bound, limit",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "molestiam": {
+    "lemma": "molestia, molestiae N (1st) F",
+    "en": "trouble, annoyance",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "momento": {
+    "lemma": "momentum, momenti N (2nd) N",
+    "en": "moment, importance, influence; motion, movement; impulse, effort",
+    "grammar": "N 2 2 DAT S N"
+  },
+  "morari": {
+    "lemma": "moror, morari, moratus sum V (1st) DEP",
+    "en": "delay; stay, stay behind; devote attention to",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "mores": {
+    "lemma": "mos, moris N (3rd) M",
+    "en": "custom, habit; mood, manner, fashion; character (pl.), behavior, morals",
+    "grammar": "N 3 1 NOM P M"
   },
   "mori": {
     "lemma": "morior, mori, mortuus sum",
@@ -377,25 +2447,170 @@ Object.assign(LATIN_DICT, {
     "en": "mortal, transient; human, of human origin",
     "grammar": "ADJ 3 2 GEN P X POS"
   },
+  "mortis": {
+    "lemma": "mors, mortis N (3rd) F",
+    "en": "death; corpse; annihilation",
+    "grammar": "N 3 3 GEN S F"
+  },
+  "motum": {
+    "lemma": "moveo, movere, movi, motus V (2nd)",
+    "en": "move, stir, agitate, affect, provoke, disturb; [movere se => dance]",
+    "grammar": "VPAR 2 1 NOM S N PERF PASSIVE PPL"
+  },
+  "multi": {
+    "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
+    "en": "much, many, great, many a; large, intense, assiduous; tedious",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "multitudo": {
+    "lemma": "multitudo, multitudinis N (3rd) F",
+    "en": "multitude, great number; crowd; rabble, mob",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "multorum": {
+    "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
+    "en": "much, many, great, many a; large, intense, assiduous; tedious",
+    "grammar": "ADJ 1 1 GEN P M POS"
+  },
+  "multos": {
+    "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
+    "en": "much, many, great, many a; large, intense, assiduous; tedious",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "munditias": {
+    "lemma": "munditia, munditiae N (1st) F",
+    "en": "cleanness, elegance of appearance, manners or taste",
+    "grammar": "N 1 1 ACC P F"
+  },
+  "mutatio": {
+    "lemma": "mutatio, mutationis N (3rd) F",
+    "en": "change, alteration; interchange, exchange",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "mutationibus": {
+    "lemma": "mutatio, mutationis N (3rd) F",
+    "en": "change, alteration; interchange, exchange",
+    "grammar": "N 3 1 DAT P F"
+  },
+  "nanctus": {
+    "lemma": "nanciscor, nancisci, nanctus sum V (3rd) DEP",
+    "en": "obtain, get; find, meet with, receive, stumble on, light on",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "narrant": {
+    "lemma": "narro, narrare, narravi, narratus V (1st)",
+    "en": "tell, tell about, relate, narrate, recount, describe",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "naturam": {
+    "lemma": "natura, naturae N (1st) F",
+    "en": "nature; birth; character",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "navigia": {
+    "lemma": "navigium, navigi(i) N (2nd) N",
+    "en": "vessel, ship",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "necesse": {
+    "lemma": "necesseus, necessea, necesseum ADJ",
+    "en": "necessary, essential; unavoidable, compulsory, inevitable; a natural law; true",
+    "grammar": "ADJ 9 9 X X X POS"
+  },
+  "necisque": {
+    "lemma": "nex, necis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 GEN S F + TACKON"
+  },
+  "negasti": {
+    "lemma": "nego, negare, negavi, negatus",
+    "en": "you denied; you said no",
+    "grammar": "V PERF ACTIVE IND 2 S"
+  },
   "neglegentiam": {
     "lemma": "neglegentia, neglegentiae N (1st) F",
     "en": "heedlessness, neglect; carelessness, negligence; coldness; disrespect",
     "grammar": "N 1 1 ACC S F"
+  },
+  "neglegentiorem": {
+    "lemma": "neglegens, neglegentis (gen.), neglegentior -or -us, neglegentissimus -a -um ADJ",
+    "en": "heedless, neglectful, careless; unconcerned, indifferent; slovenly; unruly",
+    "grammar": "ADJ 3 1 ACC S C COMP"
+  },
+  "neminem": {
+    "lemma": "nemo, neminis N (3rd) C",
+    "en": "no one, nobody",
+    "grammar": "N 3 1 ACC S C"
   },
   "nemo": {
     "lemma": "nemo, neminis N (3rd) C",
     "en": "no one, nobody",
     "grammar": "N 3 1 NOM S C"
   },
+  "nempe": {
+    "lemma": "nempe CONJ",
+    "en": "truly, certainly, of course",
+    "grammar": "CONJ"
+  },
+  "nesciunt": {
+    "lemma": "nescio, nescire, nescivi, nescitus V (4th)",
+    "en": "not know (how); be ignorant/unfamiliar/unaware/unacquainted/unable/unwilling",
+    "grammar": "V 4 1 PRES ACTIVE IND 3 P"
+  },
+  "neutrum": {
+    "lemma": "neuter, neutra, neutrum ADJ",
+    "en": "neither",
+    "grammar": "ADJ 1 4 NOM S N POS"
+  },
   "nihil": {
     "lemma": "nihil, undeclined N N",
     "en": "nothing; no; trifle/thing not worth mentioning; nonentity; nonsense; no concern",
     "grammar": "N 9 9 X X N"
   },
+  "nimia": {
+    "lemma": "nimius, nimia, nimium ADJ",
+    "en": "excessive, too great",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "nimis": {
+    "lemma": "nimis ADV",
+    "en": "very much; too much; exceedingly",
+    "grammar": "ADV"
+  },
   "nobis": {
     "lemma": "n PRON",
     "en": "we (pl.), us",
     "grammar": "PRON 5 3 DAT P C"
+  },
+  "nocent": {
+    "lemma": "noceo, nocere, nocui, nocitus V (2nd)",
+    "en": "harm, hurt; injure (with DAT)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "noli": {
+    "lemma": "nolo, nolle, nolui, - V",
+    "en": "be unwilling; wish not to; refuse to",
+    "grammar": "V 6 2 PRES ACTIVE IMP 2 S"
+  },
+  "nolunt": {
+    "lemma": "nolo, nolle, nolui, - V",
+    "en": "be unwilling; wish not to; refuse to",
+    "grammar": "V 6 2 PRES ACTIVE IND 3 P"
+  },
+  "nosti": {
+    "lemma": "nosco, noscere, novi, notus",
+    "en": "you know",
+    "grammar": "V PERF ACTIVE IND 2 S"
+  },
+  "nostram": {
+    "lemma": "noster, nostra, nostrum ADJ",
+    "en": "our",
+    "grammar": "ADJ 1 2 ACC S F POS"
+  },
+  "nostri": {
+    "lemma": "n PRON",
+    "en": "we (pl.), us",
+    "grammar": "PRON 5 3 GEN P C"
   },
   "nostris": {
     "lemma": "noster, nostra, nostrum ADJ",
@@ -407,30 +2622,185 @@ Object.assign(LATIN_DICT, {
     "en": "we (pl.), us",
     "grammar": "PRON 5 3 GEN P C"
   },
+  "notabilia": {
+    "lemma": "notabilis, notabilis, notabile ADJ",
+    "en": "remarkable, notable",
+    "grammar": "ADJ 3 2 NOM P N POS"
+  },
+  "nullas": {
+    "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
+    "en": "no; none, not any; (PRONominal ADJ)",
+    "grammar": "ADJ 1 3 ACC P F POS"
+  },
+  "nullius": {
+    "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
+    "en": "no; none, not any; (PRONominal ADJ)",
+    "grammar": "ADJ 1 3 GEN S X POS"
+  },
+  "nullum": {
+    "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
+    "en": "no; none, not any; (PRONominal ADJ)",
+    "grammar": "ADJ 1 3 NOM S N POS"
+  },
+  "numerat": {
+    "lemma": "numero, numerare, numeravi, numeratus V (1st) TRANS",
+    "en": "count, add up, reckon/compute; consider; relate; number/enumerate, catalog; pay",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "nusquam": {
+    "lemma": "nusquam ADV",
+    "en": "nowhere; on no occasion",
+    "grammar": "ADV"
+  },
+  "obviis": {
+    "lemma": "obvius, obvia, obvium ADJ",
+    "en": "in the way, easy; hostile; exposed (to)",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "obvios": {
+    "lemma": "obvius, obvia, obvium ADJ",
+    "en": "in the way, easy; hostile; exposed (to)",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "odiosa": {
+    "lemma": "odiosus, odiosa -um, odiosior -or -us, odiosissimus -a -um ADJ",
+    "en": "distasteful. disagreeable, offensive; tiresome, boring, troublesome, annoying",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "odisse": {
+    "lemma": "odi, odisse, osus V (3rd) PERFDEF",
+    "en": "hate (PERF form, PRES force), dislike; be disinclined/reluctant/adverse to",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
+  "officia": {
+    "lemma": "officium, offici(i) N (2nd) N",
+    "en": "duty, obligation; kindness; service, office",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "omissis": {
+    "lemma": "omitto, omittere, omisi, omissus V (3rd)",
+    "en": "lay aside; omit; let go; disregard",
+    "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
+  },
+  "oportet": {
+    "lemma": "oportet, oportere, oportuit, - V (2nd) IMPERS",
+    "en": "it is right/proper/necessary; it is becoming; it behooves; ought",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
+  },
+  "parabile": {
+    "lemma": "parabilis, parabilis, parabile ADJ",
+    "en": "procurable, easily obtainable",
+    "grammar": "ADJ 3 2 NOM S N POS"
+  },
+  "parabiles": {
+    "lemma": "parabilis, parabilis, parabile ADJ",
+    "en": "procurable, easily obtainable",
+    "grammar": "ADJ 3 2 NOM P C POS"
+  },
+  "parare": {
+    "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
+    "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "pariter": {
+    "lemma": "pariter ADV",
+    "en": "equally; together",
+    "grammar": "ADV"
+  },
   "parsimonia": {
     "lemma": "parsimonia, parsimoniae N (1st) F",
     "en": "frugality, thrift, parsimony, temperance",
     "grammar": "N 1 1 NOM S F"
+  },
+  "parthus": {
+    "lemma": "Parthus, Parthi N (2nd) M",
+    "en": "Parthian; inhabitant of Parthia (country south of Caspian Sea)",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "parum": {
+    "lemma": "par, paris (gen.), -, parissimus -a -um ADJ",
+    "en": "equal (to); a match for; of equal size/rank/age; fit/suitable/right/proper",
+    "grammar": "ADJ 3 1 GEN P X POS"
+  },
+  "pascat": {
+    "lemma": "pasco, pascere, pavi, pastus V (3rd)",
+    "en": "feed, feed on; graze",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
   "patiantur": {
     "lemma": "patior, pati, passus sum V (3rd) DEP",
     "en": "suffer; allow; undergo, endure; permit",
     "grammar": "V 3 1 PRES PASSIVE SUB 3 P"
   },
+  "patiebaris": {
+    "lemma": "patior, pati, passus sum V (3rd) DEP",
+    "en": "suffer; allow; undergo, endure; permit",
+    "grammar": "V 3 1 IMPF PASSIVE IND 2 S"
+  },
+  "pauciores": {
+    "lemma": "paucus, pauca -um, paucior -or -us, paucissimus -a -um ADJ",
+    "en": "little, small in quantity/extent; few (usu. pl.); just a few; small number of",
+    "grammar": "ADJ 1 1 NOM P C COMP"
+  },
+  "pauper": {
+    "lemma": "pauper, pauperis (gen.), pauperior -or -us, pauperrimus -a -um ADJ",
+    "en": "poor/meager/unproductive; scantily endowed; cheap, of little worth; of poor man",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
   "pauperem": {
     "lemma": "pauper, pauperis (gen.), pauperior -or -us, pauperrimus -a -um ADJ",
     "en": "poor/meager/unproductive; scantily endowed; cheap, of little worth; of poor man",
     "grammar": "ADJ 3 1 ACC S C POS"
+  },
+  "paupertas": {
+    "lemma": "paupertas, paupertatis N (3rd) F",
+    "en": "poverty, need; humble circumstances",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "paupertate": {
+    "lemma": "paupertas, paupertatis N (3rd) F",
+    "en": "poverty, need; humble circumstances",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "paupertatem": {
+    "lemma": "paupertas, paupertatis N (3rd) F",
+    "en": "poverty, need; humble circumstances",
+    "grammar": "N 3 1 ACC S F"
   },
   "paupertatis": {
     "lemma": "paupertas, paupertatis N (3rd) F",
     "en": "poverty, need; humble circumstances",
     "grammar": "N 3 1 GEN S F"
   },
+  "peccandi": {
+    "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
+    "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
+    "grammar": "VPAR 1 1 GEN S M FUT PASSIVE PPL"
+  },
+  "peior": {
+    "lemma": "malus, mala -um, pejor -or -us, - ADJ",
+    "en": "bad, evil, wicked; ugly; unlucky",
+    "grammar": "ADJ 1 1 NOM S C COMP"
+  },
   "pendeas": {
     "lemma": "pendeo, pendere, pependi, - V (2nd)",
     "en": "hang, hang down; depend; [~ ab ore => hang upon the lips, listen attentively]",
     "grammar": "V 2 1 PRES ACTIVE SUB 2 S"
+  },
+  "pendentis": {
+    "lemma": "pendo, pendere, pependi, pensus V (3rd)",
+    "en": "weigh out; pay, pay out",
+    "grammar": "VPAR 3 1 GEN S X PRES ACTIVE PPL"
+  },
+  "percipitur": {
+    "lemma": "percipio, percipere, percepi, perceptus V (3rd)",
+    "en": "secure, gain; perceive, learn, feel",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "percurreris": {
+    "lemma": "percurro, percurrere, percucurri, percursus V (3rd)",
+    "en": "quickly move/run/travel/hasten/pass through/over; form continuous line; stroke",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "perdam": {
     "lemma": "perdo, perdere, perdidi, perditus V (3rd)",
@@ -442,60 +2812,465 @@ Object.assign(LATIN_DICT, {
     "en": "ruin, destroy; lose; waste",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
+  "perducere": {
+    "lemma": "perduco, perducere, perduxi, perductus V (3rd)",
+    "en": "lead, guide; prolong; induce, conduct, bring through",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "peregrinatione": {
+    "lemma": "peregrinatio, peregrinationis N (3rd) F",
+    "en": "traveling/staying/living abroad, sojourn abroad; travel; pilgrimage",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "perferendas": {
+    "lemma": "perfero, perferre, pertuli, perlatus V (3rd)",
+    "en": "carry through; bear, endure to the end, suffer; announce",
+    "grammar": "VPAR 3 2 ACC P F FUT PASSIVE PPL"
+  },
+  "pericula": {
+    "lemma": "periculum, periculi N (2nd) N",
+    "en": "danger, peril; trial, attempt; risk; responsibility for damage, liability",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "perierunt": {
+    "lemma": "pereo, perire, perii, peritus",
+    "en": "they perished; they were lost",
+    "grammar": "V PERF ACTIVE IND 3 P"
+  },
+  "permiscent": {
+    "lemma": "permisceo, permiscere, permiscui, permixtus V (2nd)",
+    "en": "mix or mingle together; confound; embroil; disturb thoroughly",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "permiserat": {
+    "lemma": "permitto, permittere, permisi, permissus V (3rd)",
+    "en": "let through; let go through; relinquish; permit, allow; entrust; hurl",
+    "grammar": "V 3 1 PLUP ACTIVE IND 3 S"
+  },
+  "persevera": {
+    "lemma": "persevero, perseverare, perseveravi, perseveratus V (1st)",
+    "en": "persist, persevere; continue",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "perseveres": {
+    "lemma": "persevero, perseverare, perseveravi, perseveratus V (1st)",
+    "en": "persist, persevere; continue",
+    "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
+  },
   "persuade": {
     "lemma": "persuadeo, persuadere, persuasi, persuasus V (2nd)",
     "en": "persuade, convince (with dat.)",
     "grammar": "V 2 1 PRES ACTIVE IMP 2 S"
+  },
+  "pertinaciter": {
+    "lemma": "pertinaciter ADV",
+    "en": "tenaciously; obstinately, stubbornly, determinedly; through thick and thin",
+    "grammar": "ADV"
+  },
+  "pertinentia": {
+    "lemma": "pertineo, pertinere, pertinui, pertentus V (2nd)",
+    "en": "reach; extend; relate to; concerns, pertain to",
+    "grammar": "VPAR 2 1 NOM P N PRES ACTIVE PPL"
+  },
+  "perveniat": {
+    "lemma": "pervenio, pervenire, perveni, perventus V (4th)",
+    "en": "come to; reach; arrive",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
+  },
+  "perversa": {
+    "lemma": "perverto, pervertere, perverti, perversus V (3rd)",
+    "en": "overthrow; subvert; destroy, ruin, corrupt",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
   "pessimum": {
     "lemma": "malus, mala, malum",
     "en": "worst; the worst thing",
     "grammar": "ADJ SUPER NOM S N"
   },
+  "pestes": {
+    "lemma": "pestis, pestis N (3rd) F",
+    "en": "plague, pestilence, curse, destruction",
+    "grammar": "N 3 3 NOM P F"
+  },
+  "philosophia": {
+    "lemma": "philosophia, philosophiae N (1st) F",
+    "en": "philosophy, love of wisdom",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "philosophiae": {
+    "lemma": "philosophia, philosophiae N (1st) F",
+    "en": "philosophy, love of wisdom",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "placet": {
+    "lemma": "placeo, placere, placui, placitus V (2nd) DAT",
+    "en": "please, satisfy, give pleasure to (with dat.)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
+  },
+  "placidi": {
+    "lemma": "placidus, placida, placidum ADJ",
+    "en": "gentle, calm, mild, peaceful, placid",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "placuerit": {
+    "lemma": "placeo, placere, placui, placitus V (2nd) DAT",
+    "en": "please, satisfy, give pleasure to (with dat.)",
+    "grammar": "V 2 1 FUTP ACTIVE IND 3 S"
+  },
+  "placuit": {
+    "lemma": "placeo, placere, placui, placitus V (2nd) DAT",
+    "en": "please, satisfy, give pleasure to (with dat.)",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 S"
+  },
+  "planta": {
+    "lemma": "planta, plantae N (1st) F",
+    "en": "cutting, heel, young shoot detached for propagation; seedling, young plant",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "plerique": {
+    "lemma": "plerus, plera, plerum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 GEN S M POS + TACKON"
+  },
   "plerisque": {
     "lemma": "plerus, plera, plerum ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 1 1 DAT P X POS + TACKON"
+  },
+  "pluribus": {
+    "lemma": "plus, (gen.), pluris ADJ",
+    "en": "more; several. many; (COMP of multus)",
+    "grammar": "ADJ 3 1 DAT P X POS"
+  },
+  "plurimum": {
+    "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
+    "en": "much, many, great, many a; large, intense, assiduous; tedious",
+    "grammar": "ADJ 1 1 NOM S N SUPER"
+  },
+  "plus": {
+    "lemma": "plus, (gen.), pluris ADJ",
+    "en": "more; several. many; (COMP of multus)",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
+  "poenam": {
+    "lemma": "poena, poenae N (1st) F",
+    "en": "penalty, punishment; revenge/retribution; [poena dare => to pay the penalty]",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "pompei": {
+    "lemma": "Pompeius, Pompei N (2nd) M",
+    "en": "Pompeius; (Roman gens name); (Cn. Pompeius Magnus (Pompey), triumvir)",
+    "grammar": "N 2 5 VOC S M"
+  },
+  "pomponium": {
+    "lemma": "Pomponius, Pomponii",
+    "en": "Pomponius",
+    "grammar": "N ACC S M (proper name)"
   },
   "ponat": {
     "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
     "en": "put/place/set; station/post (troops); pitch (camp); situate; set up; erect",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "posita": {
+    "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
+    "en": "put/place/set; station/post (troops); pitch (camp); situate; set up; erect",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "positum": {
+    "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
+    "en": "put/place/set; station/post (troops); pitch (camp); situate; set up; erect",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
   "possessionem": {
     "lemma": "possessio, possessionis N (3rd) F",
     "en": "possession, property",
     "grammar": "N 3 1 ACC S F"
+  },
+  "possis": {
+    "lemma": "possum, posse, potui, - V (5th) TO_BEING",
+    "en": "be able, can; [multum posse => have much/more/most influence/power]",
+    "grammar": "V 5 2 PRES ACTIVE SUB 2 S"
+  },
+  "possit": {
+    "lemma": "possum, posse, potui, - V (5th) TO_BEING",
+    "en": "be able, can; [multum posse => have much/more/most influence/power]",
+    "grammar": "V 5 2 PRES ACTIVE SUB 3 S"
   },
   "possum": {
     "lemma": "possum, posse, potui, - V (5th) TO_BEING",
     "en": "be able, can; [multum posse => have much/more/most influence/power]",
     "grammar": "V 5 2 PRES ACTIVE IND 1 S"
   },
+  "possunt": {
+    "lemma": "possum, posse, potui, - V (5th) TO_BEING",
+    "en": "be able, can; [multum posse => have much/more/most influence/power]",
+    "grammar": "V 5 2 PRES ACTIVE IND 3 P"
+  },
+  "potens": {
+    "lemma": "potens, potentis (gen.), potentior -or -us, potentissimus -a -um ADJ",
+    "en": "powerful, strong; capable; mighty",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
+  "potentissimis": {
+    "lemma": "potens, potentis (gen.), potentior -or -us, potentissimus -a -um ADJ",
+    "en": "powerful, strong; capable; mighty",
+    "grammar": "ADJ 3 1 DAT P X SUPER"
+  },
+  "potes": {
+    "lemma": "possum, posse, potui, - V (5th) TO_BEING",
+    "en": "be able, can; [multum posse => have much/more/most influence/power]",
+    "grammar": "V 5 2 PRES ACTIVE IND 2 S"
+  },
   "potest": {
     "lemma": "possum, posse, potui, - V (5th) TO_BEING",
     "en": "be able, can; [multum posse => have much/more/most influence/power]",
     "grammar": "V 5 2 PRES ACTIVE IND 3 S"
+  },
+  "potestas": {
+    "lemma": "potestas, potestatis N (3rd) F",
+    "en": "power, rule, force; strength, ability; chance, opportunity",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "potius": {
+    "lemma": "potius ADV",
+    "en": "rather, more, preferably",
+    "grammar": "ADV"
+  },
+  "praebere": {
+    "lemma": "praebeo, praebere, praebui, praebitus V (2nd) TRANS",
+    "en": "present/show/put forward; offer; expose physically oneself; expose/submit/allow",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "praecepta": {
+    "lemma": "praecipio, praecipere, praecepi, praeceptus V (3rd)",
+    "en": "take or receive in advance; anticipate; warn; order; teach, instruct",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
   "praecipio": {
     "lemma": "praecipio, praecipere, praecepi, praeceptus V (3rd)",
     "en": "take or receive in advance; anticipate; warn; order; teach, instruct",
     "grammar": "V 3 1 PRES ACTIVE IND 1 S"
   },
+  "praecipitavit": {
+    "lemma": "praecipito, praecipitare, praecipitavi, praecipitatus V (1st)",
+    "en": "throw headlong, cast down",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 S"
+  },
+  "praemittimus": {
+    "lemma": "praemitto, praemittere, praemisi, praemissus V (3rd)",
+    "en": "send ahead or forward",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 P"
+  },
+  "praeparatus": {
+    "lemma": "praeparo, praeparare, praeparavi, praeparatus V (1st)",
+    "en": "prepare",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
+  "praepostero": {
+    "lemma": "praeposterus, praepostera, praeposterum ADJ",
+    "en": "in the wrong order; wrong-headed; topsy-turvy",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "praesentia": {
+    "lemma": "praesens, (gen.), praesentis ADJ",
+    "en": "present; at hand; existing; prompt, in person; propitious",
+    "grammar": "ADJ 3 1 NOM P N POS"
+  },
+  "praesentibus": {
+    "lemma": "praesens, (gen.), praesentis ADJ",
+    "en": "present; at hand; existing; prompt, in person; propitious",
+    "grammar": "ADJ 3 1 DAT P X POS"
+  },
+  "praestitit": {
+    "lemma": "praesto, praestare, praestiti, praestitus V (1st)",
+    "en": "excel, surpass, be outstanding/superior/best/greater/preferable (to); prevail",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 S"
+  },
   "praeterit": {
     "lemma": "praetereo, praeterire, praeterii, praeteritus",
     "en": "has passed; has gone by",
     "grammar": "V PERF ACTIVE IND 3 S"
+  },
+  "praeterito": {
+    "lemma": "praetereo, praeterire, praeterivi(ii), praeteritus V",
+    "en": "pass/go by; disregard/neglect/omit/miss; surpass/excel; go overdue; pass over",
+    "grammar": "V 6 1 FUT ACTIVE IMP 2 S"
+  },
+  "praetexta": {
+    "lemma": "praetexta, praetextae N (1st) F",
+    "en": "toga bordered with purple worn by children over 16 and magistrates",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "premunt": {
+    "lemma": "premo, premere, pressi, pressus V (3rd)",
+    "en": "press, press hard, pursue; oppress; overwhelm",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "pretium": {
     "lemma": "pretium, pretii",
     "en": "value; price; worth",
     "grammar": "N ACC S N"
   },
+  "priores": {
+    "lemma": "prior, prioris N (3rd) M",
+    "en": "superior/elder monk; (later) second in dignity to abbot/head of priory, prior; result of; place of; (abstract noun)",
+    "grammar": "N 2 3 NOM S X + SUFFIX"
+  },
+  "probatos": {
+    "lemma": "probo, probare, probavi, probatus V (1st) TRANS",
+    "en": "approve (of), esteem/commend/recommend/certify; give assent/approval/sanction",
+    "grammar": "VPAR 1 1 ACC P M PERF PASSIVE PPL"
+  },
+  "probo": {
+    "lemma": "probo, probare, probavi, probatus V (1st) TRANS",
+    "en": "approve (of), esteem/commend/recommend/certify; give assent/approval/sanction",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 S"
+  },
+  "prodest": {
+    "lemma": "prosum, prodesse, profui, profuturus V (5th) TO_BEING",
+    "en": "be useful, be advantageous, benefit, profit (with DAT)",
+    "grammar": "V 5 1 PRES ACTIVE IND 3 S"
+  },
+  "producenda": {
+    "lemma": "produco, producere, produxi, productus V (3rd)",
+    "en": "lead forward, bring out; reveal; induce; promote; stretch out; prolong; bury",
+    "grammar": "VPAR 3 1 NOM S F FUT PASSIVE PPL"
+  },
+  "professione": {
+    "lemma": "professio, professionis N (3rd) F",
+    "en": "declaration/avowal/profession; formal declaration/return; profession/occupation",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "profice": {
+    "lemma": "proficio, proficere, profeci, profectus V (3rd)",
+    "en": "make, accomplish, effect",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "proficere": {
+    "lemma": "proficio, proficere, profeci, profectus V (3rd)",
+    "en": "make, accomplish, effect",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "promittit": {
+    "lemma": "promitto, promittere, promisi, promissus V (3rd)",
+    "en": "promise",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "propera": {
+    "lemma": "propero, properare, properavi, properatus V (1st)",
+    "en": "hurry, speed up; be quick",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "properantes": {
+    "lemma": "propero, properare, properavi, properatus V (1st)",
+    "en": "hurry, speed up; be quick",
+    "grammar": "VPAR 1 1 NOM P C PRES ACTIVE PPL"
+  },
+  "propius": {
+    "lemma": "prope, propius, proxime ADV",
+    "en": "near, nearly; close by; almost",
+    "grammar": "ADV"
+  },
+  "propositum": {
+    "lemma": "propono, proponere, proposui, propositus V (3rd)",
+    "en": "display; propose; relate; put or place forward",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "proprio": {
+    "lemma": "proprius, propria, proprium ADJ",
+    "en": "own, very own; individual; special, particular, characteristic",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "propter": {
+    "lemma": "propter PREP ACC",
+    "en": "near; on account of; by means of; because of",
+    "grammar": "PREP"
+  },
+  "prosit": {
+    "lemma": "prosum, prodesse, profui, profuturus V (5th) TO_BEING",
+    "en": "be useful, be advantageous, benefit, profit (with DAT)",
+    "grammar": "V 5 1 PRES ACTIVE SUB 3 S"
+  },
   "prospicimus": {
     "lemma": "prospicio, prospicere, prospexi, prospectus V (3rd)",
     "en": "foresee; see far off; watch for, provide for, look out for",
     "grammar": "V 3 1 PRES ACTIVE IND 1 P"
+  },
+  "provexit": {
+    "lemma": "proveho, provehere, provexi, provectus V (3rd)",
+    "en": "carry; pass, be carried, ride, sail",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "providentia": {
+    "lemma": "provideo, providere, providi, provisus V (2nd)",
+    "en": "foresee; provide for, make provision; with DAT",
+    "grammar": "VPAR 2 1 NOM P N PRES ACTIVE PPL"
+  },
+  "publico": {
+    "lemma": "publicus, publica, publicum ADJ",
+    "en": "public; common, of the people/state; official; [res publica => the state]",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "publicos": {
+    "lemma": "publicus, publica, publicum ADJ",
+    "en": "public; common, of the people/state; official; [res publica => the state]",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "puerilem": {
+    "lemma": "puerilis, puerilis, puerile ADJ",
+    "en": "boyish; youthful, childish",
+    "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "puerilitas": {
+    "lemma": "puerilis, puerilis, puerile ADJ",
+    "en": "boyish; youthful, childish; -ity; -ness, makes abstract noun of quality or condition",
+    "grammar": "N 2 3 NOM S X + SUFFIX"
+  },
+  "pueritia": {
+    "lemma": "pueritia, pueritiae N (1st) F",
+    "en": "childhood, boyhood; callowness, childish nature; state/fact of being boy",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "puerorum": {
+    "lemma": "puer, pueri",
+    "en": "of boys; of children",
+    "grammar": "N GEN P M"
+  },
+  "pupillus": {
+    "lemma": "pupillus, pupilli N (2nd) M",
+    "en": "orphan, ward",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "purae": {
+    "lemma": "purus, pura -um, purior -or -us, purissimus -a -um ADJ",
+    "en": "pure, clean, unsoiled; free from defilement/taboo/stain; blameless, innocent",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "putas": {
+    "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
+    "en": "think, believe, suppose, hold; reckon, estimate, value; clear up, settle",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
+  "putaveris": {
+    "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
+    "en": "think, believe, suppose, hold; reckon, estimate, value; clear up, settle",
+    "grammar": "V 1 1 FUTP ACTIVE IND 2 S"
+  },
+  "putem": {
+    "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
+    "en": "think, believe, suppose, hold; reckon, estimate, value; clear up, settle",
+    "grammar": "V 1 1 PRES ACTIVE SUB 1 S"
+  },
+  "putemus": {
+    "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
+    "en": "think, believe, suppose, hold; reckon, estimate, value; clear up, settle",
+    "grammar": "V 1 1 PRES ACTIVE SUB 1 P"
+  },
+  "putent": {
+    "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
+    "en": "think, believe, suppose, hold; reckon, estimate, value; clear up, settle",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 P"
   },
   "puto": {
     "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
@@ -507,6 +3282,11 @@ Object.assign(LATIN_DICT, {
     "en": "certain; some",
     "grammar": "PRON NOM P N"
   },
+  "quaeris": {
+    "lemma": "quaero, quaerere, quaesivi, quaesitus V (3rd)",
+    "en": "search for, seek, strive for; obtain; ask, inquire, demand",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
   "quantulumcumque": {
     "lemma": "quantulus, quantula, quantulum ADJ",
     "en": "-ever/-soever; (for generalized/indefinite force); (what/how -> what/however)",
@@ -516,6 +3296,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "quare ADV",
     "en": "in what way? how? by which means, whereby; why; wherefore, therefore, hence",
     "grammar": "ADV"
+  },
+  "quasi": {
+    "lemma": "quasi ADV",
+    "en": "as if, just as if, as though; as it were; about",
+    "grammar": "ADV"
+  },
+  "quaslibet": {
+    "lemma": "qu PRON",
+    "en": "PACKON w/qui-anyone; -whatever; what you will; no matter which",
+    "grammar": "PRON 1 0 ACC P F + TACKON"
   },
   "quemadmodum": {
     "lemma": "quemadmodum ADV",
@@ -527,6 +3317,11 @@ Object.assign(LATIN_DICT, {
     "en": "PACKON w/qui => whoever; whatever; everyone who, all that, anything that",
     "grammar": "PRON 1 0 NOM S M + TACKON"
   },
+  "quidam": {
+    "lemma": "quidam, quaedam, quoddam",
+    "en": "a certain man; someone",
+    "grammar": "PRON NOM S M"
+  },
   "quidem": {
     "lemma": "quidem ADV",
     "en": "indeed (postpositive), certainly, even, at least; ne...quidem -- not...even",
@@ -537,10 +3332,50 @@ Object.assign(LATIN_DICT, {
     "en": "whatever, whatsoever; everything which; each one; each; everything; anything",
     "grammar": "PRON 1 6 NOM S N"
   },
+  "quies": {
+    "lemma": "quies, quietis N (3rd) F",
+    "en": "quiet, calm, rest, peace; sleep",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "quiescendum": {
+    "lemma": "quiesco, quiescere, quievi, quietus V (3rd)",
+    "en": "rest, keep quiet/calm, be at peace/rest; be inactive/neutral; permit; sleep",
+    "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "quiescenti": {
+    "lemma": "quiesco, quiescere, quievi, quietus V (3rd)",
+    "en": "rest, keep quiet/calm, be at peace/rest; be inactive/neutral; permit; sleep",
+    "grammar": "VPAR 3 1 DAT S X PRES ACTIVE PPL"
+  },
+  "quiescunt": {
+    "lemma": "quiesco, quiescere, quievi, quietus V (3rd)",
+    "en": "rest, keep quiet/calm, be at peace/rest; be inactive/neutral; permit; sleep",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "quomodo": {
+    "lemma": "quomodo ADV",
+    "en": "how, in what way; just as",
+    "grammar": "ADV"
+  },
+  "rapiuntur": {
+    "lemma": "rapio, rapere, rapui, raptus V (3rd)",
+    "en": "drag off; snatch; destroy; seize, carry off; pillage; hurry",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
   "ratio": {
     "lemma": "ratio, rationis N (3rd) F",
     "en": "account, reckoning, invoice; plan; prudence; method; reasoning; rule; regard",
     "grammar": "N 3 1 NOM S F"
+  },
+  "recipiendus": {
+    "lemma": "recipio, recipere, recepi, receptus V (3rd)",
+    "en": "keep back; recover; undertake; guarantee; accept, take in; take back",
+    "grammar": "VPAR 3 1 NOM S M FUT PASSIVE PPL"
+  },
+  "recognosce": {
+    "lemma": "recognosco, recognoscere, recognovi, recognitus V (3rd)",
+    "en": "recognize, recollect",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
   },
   "redactis": {
     "lemma": "redigo, redigere, redegi, redactus V (3rd)",
@@ -552,30 +3387,120 @@ Object.assign(LATIN_DICT, {
     "en": "return; restore; deliver; hand over, pay back, render, give back; translate",
     "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
+  "redi": {
+    "lemma": "redeo, redire, redivi(ii), reditus V",
+    "en": "return, go back, give back; fall back on, revert to; respond, pay back",
+    "grammar": "V 6 1 PRES ACTIVE IMP 2 S"
+  },
+  "reduceretur": {
+    "lemma": "reduco, reducere, reduxi, reductus V (3rd)",
+    "en": "lead back, bring back; restore; reduce",
+    "grammar": "V 3 1 IMPF PASSIVE SUB 3 S"
+  },
+  "reformidant": {
+    "lemma": "reformido, reformidare, reformidavi, reformidatus V (1st)",
+    "en": "dread; shun; shrink from; recoil at the sight of",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "refugerunt": {
+    "lemma": "refugio, refugere, refugi, - V (3rd)",
+    "en": "flee back; run away, escape",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "regum": {
+    "lemma": "rex, regis",
+    "en": "of kings",
+    "grammar": "N GEN P M"
+  },
   "rei": {
     "lemma": "res, rei N (5th) F",
     "en": "thing; event/affair/business; fact; cause; property; [~ familiaris => property]",
     "grammar": "N 5 1 GEN S F"
+  },
+  "relinquere": {
+    "lemma": "relinquo, relinquere, reliqui, relictus V (3rd)",
+    "en": "leave behind, abandon; (pass.) be left, remain; bequeath",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "remanet": {
     "lemma": "remaneo, remanere, remansi, remansus V (2nd)",
     "en": "stay behind; continue, remain",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "remedia": {
+    "lemma": "remedium, remedi(i) N (2nd) N",
+    "en": "remedy, cure; medicine",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "remediorum": {
+    "lemma": "remedium, remedi(i) N (2nd) N",
+    "en": "remedy, cure; medicine",
+    "grammar": "N 2 4 GEN P N"
+  },
   "reparabilia": {
     "lemma": "reparabilis, reparabile",
     "en": "replaceable; recoverable",
     "grammar": "ADJ NOM P N"
+  },
+  "reprehendas": {
+    "lemma": "reprehendo, reprehendere, reprehendi, reprehensus V (3rd)",
+    "en": "hold back, seize, catch; blame",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "retraham": {
+    "lemma": "retraho, retrahere, retraxi, retractus V (3rd)",
+    "en": "draw back, withdraw; make known again, divert; bring back",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
   "retro": {
     "lemma": "retro ADV",
     "en": "backwards, back, to the rear; behind, on the back side; back (time), formerly",
     "grammar": "ADV"
   },
+  "ridicula": {
+    "lemma": "ridicula, ridiculae N (1st) F",
+    "en": "small wooden stake for supporting vines; small vine prop",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "rogo": {
+    "lemma": "rogus, rogi N (2nd) M",
+    "en": "funeral pyre",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "rursus": {
+    "lemma": "rursus ADV",
+    "en": "turned back, backward; on the contrary/other hand, in return, in turn, again",
+    "grammar": "ADV"
+  },
+  "salutamus": {
+    "lemma": "saluto, salutare, salutavi, salutatus V (1st)",
+    "en": "greet; wish well; visit; hail, salute",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 P"
+  },
+  "sanitatem": {
+    "lemma": "sanitas, sanitatis N (3rd) F",
+    "en": "sanity, reason; health",
+    "grammar": "N 3 1 ACC S F"
+  },
   "sat": {
     "lemma": "sat",
     "en": "enough; sufficiently",
     "grammar": "ADV"
+  },
+  "satis": {
+    "lemma": "satisus, satisa, satisum ADJ",
+    "en": "enough, adequate, sufficient; satisfactory",
+    "grammar": "ADJ 9 9 X X X POS"
+  },
+  "sciat": {
+    "lemma": "scio, scire, scivi, scitus V (4th) TRANS",
+    "en": "know, understand",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
+  },
+  "scis": {
+    "lemma": "scio, scire, scivi, scitus V (4th) TRANS",
+    "en": "know, understand",
+    "grammar": "V 4 1 PRES ACTIVE IND 2 S"
   },
   "scribis": {
     "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
@@ -586,6 +3511,71 @@ Object.assign(LATIN_DICT, {
     "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
     "en": "write; compose",
     "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
+  "secretum": {
+    "lemma": "secretus, secreta -um, secretior -or -us, secretissimus -a -um ADJ",
+    "en": "separate, apart (from); private, secret; remote; hidden",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "secundum": {
+    "lemma": "secor, seci, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "sedeat": {
+    "lemma": "sedeo, sedere, sedi, sessus V (2nd)",
+    "en": "sit, remain; settle; encamp",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "semper": {
+    "lemma": "semper ADV",
+    "en": "always",
+    "grammar": "ADV"
+  },
+  "senescere": {
+    "lemma": "senesco, senescere, senui, - V (3rd)",
+    "en": "grow old; grow weak, be in a decline; become exhausted",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "senseris": {
+    "lemma": "sentio, sentire, sensi, sensus V (4th)",
+    "en": "perceive, feel, experience; think, realize, see, understand",
+    "grammar": "V 4 1 FUTP ACTIVE IND 2 S"
+  },
+  "sensum": {
+    "lemma": "sensus, sensus N (4th) M",
+    "en": "feeling, sense",
+    "grammar": "N 4 1 ACC S M"
+  },
+  "sententiam": {
+    "lemma": "sententia, sententiae N (1st) F",
+    "en": "opinion, feeling, way of thinking; thought, meaning, sentence/period; purpose",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "senum": {
+    "lemma": "senex, senis (gen.), senior -or -us, - ADJ",
+    "en": "aged, old; [senior => Roman over 45]",
+    "grammar": "ADJ 3 1 GEN P X POS"
+  },
+  "separabit": {
+    "lemma": "separo, separare, separavi, separatus V (1st)",
+    "en": "divide, distinguish; separate",
+    "grammar": "V 1 1 FUT ACTIVE IND 3 S"
+  },
+  "sequamur": {
+    "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "V 3 1 PRES PASSIVE SUB 1 P"
+  },
+  "sequi": {
+    "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
+  "sequitur": {
+    "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "sera": {
     "lemma": "serus, sera -um, serior -or -us, serissimus -a -um ADJ",
@@ -602,10 +3592,130 @@ Object.assign(LATIN_DICT, {
     "en": "watch over; protect, store, keep, guard, preserve, save",
     "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
   },
+  "servorum": {
+    "lemma": "servo, servare, servavi, servatus V (1st)",
+    "en": "watch over; protect, store, keep, guard, preserve, save; the thing of the verb; result of; (abstract noun) amor = love, timor = fear",
+    "grammar": "N 2 2 NOM S N + SUFFIX"
+  },
+  "servus": {
+    "lemma": "servus, servi N (2nd) M",
+    "en": "slave; servant",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "sint": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 PRES ACTIVE SUB 3 P"
+  },
+  "sit": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 PRES ACTIVE SUB 3 S"
+  },
+  "sitimque": {
+    "lemma": "sitis, sitis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 3 ACC S F + TACKON"
+  },
+  "sitire": {
+    "lemma": "sitio, sitire, sitivi, - V (4th)",
+    "en": "be thirsty",
+    "grammar": "V 4 1 PRES PASSIVE IND 2 S"
+  },
+  "soleas": {
+    "lemma": "soleo, solere, solitus sum V (2nd) SEMIDEP",
+    "en": "be in the habit of; become accustomed to",
+    "grammar": "V 2 1 PRES ACTIVE SUB 2 S"
+  },
+  "soleo": {
+    "lemma": "soleo, solere, solitus sum V (2nd) SEMIDEP",
+    "en": "be in the habit of; become accustomed to",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 S"
+  },
+  "solidi": {
+    "lemma": "solidus, solida -um, solidior -or -us, solidissimus -a -um ADJ",
+    "en": "solid; same material throughout, unalloyed; not hollow; dense; unbroken/whole",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "solliciti": {
+    "lemma": "sollicitus, sollicita, sollicitum ADJ",
+    "en": "concerned, worried; upset, troubled, disturbed, anxious, apprehensive",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "sollicitudinem": {
+    "lemma": "sollicitudo, sollicitudinis N (3rd) F",
+    "en": "anxiety, concern, solicitude",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "sordeat": {
+    "lemma": "sordeo, sordere, sordui, sorditus V (2nd)",
+    "en": "be dirty/soiled; seem mean/unworthy/not good enough/common/coarse/vile/ignoble",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "spado": {
+    "lemma": "spado, spadonis N (3rd) M",
+    "en": "eunuch",
+    "grammar": "N 3 1 NOM S M"
+  },
+  "sperare": {
+    "lemma": "spero, sperare, speravi, speratus V (1st)",
+    "en": "hope for; trust; look forward to; hope",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "spinas": {
+    "lemma": "spina, spinae N (1st) F",
+    "en": "thorn/spine/prickle (plant/animal); spike (asparagus); thorn-bush; blackthorn",
+    "grammar": "N 1 1 ACC P F"
+  },
+  "splendeat": {
+    "lemma": "splendeo, splendere, splendui, - V (2nd) INTRANS",
+    "en": "shine/gleam/glitter, be bright/radiant/resplendent (white/color)/distinguished",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "splendidae": {
+    "lemma": "splendidus, splendida, splendidum ADJ",
+    "en": "splendid, glittering",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "squalorem": {
+    "lemma": "squalor, squaloris N (3rd) M",
+    "en": "squalor, filth",
+    "grammar": "N 3 1 ACC S M"
+  },
+  "statim": {
+    "lemma": "statim ADV",
+    "en": "at once, immediately",
+    "grammar": "ADV"
+  },
+  "statuat": {
+    "lemma": "statuo, statuere, statui, statutus V (3rd)",
+    "en": "set up, establish, set, place, build; decide, think",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
+  "stomachantem": {
+    "lemma": "stomachor, stomachari, stomachatus sum V (1st) DEP",
+    "en": "be angry, boil with rage",
+    "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
+  },
+  "stomachi": {
+    "lemma": "stomachus, stomachi N (2nd) M",
+    "en": "gullet; stomach; annoyance; ill-temper",
+    "grammar": "N 2 1 GEN S M"
+  },
+  "studes": {
+    "lemma": "studeo, studere, studui, - V (2nd)",
+    "en": "desire, be eager for; busy oneself with; strive",
+    "grammar": "V 2 1 PRES ACTIVE IND 2 S"
+  },
   "stultitia": {
     "lemma": "stultitia, stultitiae N (1st) F",
     "en": "folly, stupidity",
     "grammar": "N 1 1 NOM S F"
+  },
+  "suam": {
+    "lemma": "suo, suere, sui, sutus V (3rd)",
+    "en": "sew together/up, stitch",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
   "subducuntur": {
     "lemma": "subduco, subducere, subduxi, subductus V (3rd)",
@@ -622,10 +3732,90 @@ Object.assign(LATIN_DICT, {
     "en": "run to the aid of, help",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "sudatur": {
+    "lemma": "sudo, sudare, sudavi, sudatus V (1st)",
+    "en": "sweat, perspire",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
+  "sumpsisti": {
+    "lemma": "sumo, sumere, sumpsi, sumptus V (3rd)",
+    "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
+  },
+  "sumptum": {
+    "lemma": "sumo, sumere, sumpsi, sumptus V (3rd)",
+    "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "sumptus": {
+    "lemma": "sumo, sumere, sumpsi, sumptus V (3rd)",
+    "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "supellectilem": {
+    "lemma": "supellex, supellectilis N (3rd) F",
+    "en": "furniture, house furnishings; paraphernalia, articles necessary for business",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "superbis": {
+    "lemma": "superbus, superba, superbum ADJ",
+    "en": "arrogant, overbearing, haughty, proud",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "supercilium": {
+    "lemma": "supercilium, supercili(i) N (2nd) N",
+    "en": "eyebrow; frown; arrogance",
+    "grammar": "N 2 4 NOM S N"
+  },
   "superest": {
     "lemma": "supersum, superesse, superfui, superfuturus V (5th) TO_BEING",
     "en": "be left over; survive; be in excess/superfluous (to); remain to be performed",
     "grammar": "V 5 1 PRES ACTIVE IND 3 S"
+  },
+  "supervacua": {
+    "lemma": "supervacuus, supervacua, supervacuum ADJ",
+    "en": "superfluous, redundant, more than needed; unnecessary, pointless, purposeless",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "suspicando": {
+    "lemma": "suspicor, suspicari, suspicatus sum V (1st) DEP",
+    "en": "mistrust, suspect; suppose",
+    "grammar": "VPAR 1 1 DAT S M FUT PASSIVE PPL"
+  },
+  "suspiciant": {
+    "lemma": "suspicio, suspicere, suspexi, suspectus V (3rd)",
+    "en": "look up to; admire",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
+  },
+  "suum": {
+    "lemma": "suus, sui N (2nd) M",
+    "en": "his men (pl.), his friends",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "taetris": {
+    "lemma": "taeter, taetra, taetrum ADJ",
+    "en": "foul, offensive;, ugly; disgraceful; black, blackish (Souter)",
+    "grammar": "ADJ 1 2 DAT P X POS"
+  },
+  "tam": {
+    "lemma": "tam ADV",
+    "en": "so, so much (as); to such an extent/degree; nevertheless, all the same",
+    "grammar": "ADV"
+  },
+  "tamquam": {
+    "lemma": "tamquam CONJ",
+    "en": "as, just as, just as if; as it were, so to speak; as much as; so as",
+    "grammar": "CONJ"
+  },
+  "tantundem": {
+    "lemma": "tantundem ADV",
+    "en": "just as much",
+    "grammar": "ADV"
+  },
+  "temperetur": {
+    "lemma": "tempero, temperare, temperavi, temperatus V (1st)",
+    "en": "combine, blend, temper; make mild; refrain from; control oneself",
+    "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
   },
   "tempore": {
     "lemma": "tempus, temporis",
@@ -637,30 +3827,355 @@ Object.assign(LATIN_DICT, {
     "en": "time, condition, right time; season, occasion; necessity",
     "grammar": "N 3 2 DAT S N"
   },
+  "temptantur": {
+    "lemma": "tempto, temptare, temptavi, temptatus V (1st)",
+    "en": "test, try; urge; worry; bribe",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 P"
+  },
+  "temptare": {
+    "lemma": "tempto, temptare, temptavi, temptatus V (1st)",
+    "en": "test, try; urge; worry; bribe",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
   "tempus": {
     "lemma": "tempus, temporis N (3rd) N",
     "en": "time, condition, right time; season, occasion; necessity",
     "grammar": "N 3 2 NOM S N"
+  },
+  "tenes": {
+    "lemma": "teneo, tenere, tenui, tentus V (2nd)",
+    "en": "hold, keep; comprehend; possess; master; preserve; [tenere memoria => remember]",
+    "grammar": "V 2 1 PRES ACTIVE IND 2 S"
+  },
+  "tentorio": {
+    "lemma": "tentorium, tentori(i) N (2nd) N",
+    "en": "tent",
+    "grammar": "N 2 4 DAT S N"
+  },
+  "terminos": {
+    "lemma": "terminus, termini N (2nd) M",
+    "en": "boundary, limit, end; terminus",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "theophrasti": {
+    "lemma": "Theophrastus, Theophrasti",
+    "en": "of Theophrastus",
+    "grammar": "N GEN S M (proper name)"
+  },
+  "timenda": {
+    "lemma": "timeo, timere, timui, - V (2nd)",
+    "en": "fear, dread, be afraid (ne + SUB = lest; ut or ne non + SUB = that ... not)",
+    "grammar": "VPAR 2 1 NOM S F FUT PASSIVE PPL"
+  },
+  "timent": {
+    "lemma": "timeo, timere, timui, - V (2nd)",
+    "en": "fear, dread, be afraid (ne + SUB = lest; ut or ne non + SUB = that ... not)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "timere": {
+    "lemma": "timeo, timere, timui, - V (2nd)",
+    "en": "fear, dread, be afraid (ne + SUB = lest; ut or ne non + SUB = that ... not)",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "times": {
+    "lemma": "timeo, timere, timui, - V (2nd)",
+    "en": "fear, dread, be afraid (ne + SUB = lest; ut or ne non + SUB = that ... not)",
+    "grammar": "V 2 1 PRES ACTIVE IND 2 S"
+  },
+  "timoris": {
+    "lemma": "timor, timoris N (3rd) M",
+    "en": "fear; dread",
+    "grammar": "N 3 1 GEN S M"
+  },
+  "toga": {
+    "lemma": "toga, togae N (1st) F",
+    "en": "toga; (outer garment of Roman citizen)",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "togam": {
+    "lemma": "toga, togae N (1st) F",
+    "en": "toga; (outer garment of Roman citizen)",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "tormenta": {
+    "lemma": "tormentum, tormenti N (2nd) N",
+    "en": "windlass; instrument for twisting/winding; engine for hurling stones; missile",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "tormentum": {
+    "lemma": "tormentum, tormenti N (2nd) N",
+    "en": "windlass; instrument for twisting/winding; engine for hurling stones; missile",
+    "grammar": "N 2 2 NOM S N"
+  },
+  "torquemur": {
+    "lemma": "torqueo, torquere, torsi, tortus V (2nd)",
+    "en": "turn, twist; hurl; torture; torment; bend, distort; spin, whirl; wind (round)",
+    "grammar": "V 2 1 PRES PASSIVE IND 1 P"
+  },
+  "torquere": {
+    "lemma": "torqueo, torquere, torsi, tortus V (2nd)",
+    "en": "turn, twist; hurl; torture; torment; bend, distort; spin, whirl; wind (round)",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "torrente": {
+    "lemma": "torreo, torrere, torrui, tostus V (2nd) TRANS",
+    "en": "parch, roast, scorch, bake, burn; dry up; begin to burn; harden by charring",
+    "grammar": "VPAR 2 1 ABL S X PRES ACTIVE PPL"
+  },
+  "tractetur": {
+    "lemma": "tracto, tractare, tractavi, tractatus V (1st)",
+    "en": "draw, haul, pull, drag about; handle, manage, treat, discuss",
+    "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
+  },
+  "tradidisti": {
+    "lemma": "trado, tradere, tradidi, traditus V (3rd)",
+    "en": "hand over, surrender; deliver; bequeath; relate",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
+  },
+  "trahere": {
+    "lemma": "traho, trahere, traxi, tractus V (3rd)",
+    "en": "draw, drag, haul; derive, get",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "tranquillitati": {
+    "lemma": "tranquillitas, tranquillitatis N (3rd) F",
+    "en": "stillness; tranquility",
+    "grammar": "N 3 1 DAT S F"
   },
   "transcurrit": {
     "lemma": "transcurro, transcurrere, transcucurri, transcursus V (3rd)",
     "en": "run across; run or hasten through",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "transeat": {
+    "lemma": "transeo, transire, transivi(ii), transitus V",
+    "en": "go over, cross",
+    "grammar": "V 6 1 PRES ACTIVE SUB 3 S"
+  },
+  "transfertur": {
+    "lemma": "transfero, transferre, transtuli, translatus V (3rd) TRANS",
+    "en": "transport/convey/transfer/shift; transpose; carry/bring across/over; transplant",
+    "grammar": "V 3 2 PRES PASSIVE IND 3 S"
+  },
+  "transfuga": {
+    "lemma": "transfuga, transfugae N (1st) F",
+    "en": "deserter",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "transire": {
+    "lemma": "transeo, transire, transivi(ii), transitus V",
+    "en": "go over, cross",
+    "grammar": "V 6 1 PRES PASSIVE IND 2 S"
+  },
+  "transitu": {
+    "lemma": "transeo, transire, transivi(ii), transitus V",
+    "en": "go over, cross",
+    "grammar": "SUPINE"
+  },
+  "transmittunt": {
+    "lemma": "transmitto, transmittere, transmisi, transmissus V (3rd)",
+    "en": "send across; go across; transmit",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "transscripserit": {
+    "lemma": "transscribo, transscribere, transscripsi, transscriptus V (3rd)",
+    "en": "copy (from book/tablet to another); transcribe; transfer (enrollment); forge",
+    "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
+  },
+  "tribuno": {
+    "lemma": "tribunus, tribuni N (2nd) M",
+    "en": "tribune; [~ plebis => tribune of the people; ~ mllitum => soldier's tribune]",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "tuas": {
+    "lemma": "tuus, tua, tuum ADJ",
+    "en": "your (sing.)",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "tulere": {
+    "lemma": "fero, ferre, tuli, latus V (3rd)",
+    "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
+    "grammar": "V 3 2 PERF ACTIVE IND 3 P"
+  },
+  "tumultu": {
+    "lemma": "tumultus, tumultus N (4th) M",
+    "en": "commotion, confusion, uproar; rebellion, uprising, disturbance",
+    "grammar": "N 4 1 DAT S M"
+  },
+  "tuo": {
+    "lemma": "tuus, tua, tuum ADJ",
+    "en": "your (sing.)",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "turbido": {
+    "lemma": "turbidus, turbida, turbidum ADJ",
+    "en": "wild/stormy; muddy/turbid; murky/foggy/clouded/opaque; gloomy, frowning",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "turpissima": {
     "lemma": "turpis, turpe",
     "en": "most disgraceful",
     "grammar": "ADJ SUPER NOM S F"
+  },
+  "tutius": {
+    "lemma": "tutus, tuta -um, tutior -or -us, tutissimus -a -um ADJ",
+    "en": "safe, prudent; secure; protected",
+    "grammar": "ADJ 1 1 NOM S N COMP"
+  },
+  "ubique": {
+    "lemma": "ubique ADV",
+    "en": "anywhere, everywhere (ubiquitous)",
+    "grammar": "ADV"
+  },
+  "ultimam": {
+    "lemma": "zzz, zzzis (gen.), ulterior -or -us, ultimus -a -um ADJ",
+    "en": "far; farther; farthest, latest; last; highest, greatest",
+    "grammar": "ADJ 3 1 ACC S F SUPER"
   },
   "unum": {
     "lemma": "unus, una, unum",
     "en": "one; the only thing",
     "grammar": "ADJ NOM S N"
   },
+  "urit": {
+    "lemma": "uro, urere, ussi, ustus V (3rd)",
+    "en": "burn",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "usitatas": {
+    "lemma": "usitatus, usitata -um, usitatior -or -us, usitatissimus -a -um ADJ",
+    "en": "usual, customary, ordinary, common, familiar, everyday; commonly used/practiced",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "usus": {
+    "lemma": "usus, usus N (4th) M",
+    "en": "use, enjoyment; experience, skill, advantage; custom",
+    "grammar": "N 4 1 NOM S M"
+  },
+  "uti": {
+    "lemma": "utor, uti, usus sum V (3rd) DEP",
+    "en": "use, make use of, enjoy; enjoy the friendship of (with ABL)",
+    "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
+  "utile": {
+    "lemma": "utilis, utilis, utile ADJ",
+    "en": "useful, profitable, practical, helpful, advantageous",
+    "grammar": "ADJ 3 2 NOM S N POS"
+  },
+  "utique": {
+    "lemma": "utique ADV",
+    "en": "certainly, by all means; at any rate",
+    "grammar": "ADV"
+  },
+  "utitur": {
+    "lemma": "utor, uti, usus sum V (3rd) DEP",
+    "en": "use, make use of, enjoy; enjoy the friendship of (with ABL)",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "utraque": {
+    "lemma": "uter, utra, utrum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 4 NOM S F POS + TACKON"
+  },
+  "utriusque": {
+    "lemma": "uter, utra, utrum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 4 GEN S X POS + TACKON"
+  },
+  "utrosque": {
+    "lemma": "uter, utra, utrum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 4 ACC P M POS + TACKON"
+  },
+  "utrumque": {
+    "lemma": "uter, utra, utrum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 4 NOM S N POS + TACKON"
+  },
+  "vagum": {
+    "lemma": "vagus, vaga, vagum ADJ",
+    "en": "roving, wandering",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "vale": {
     "lemma": "valeo, valere, valui, valitus V (2nd)",
     "en": "be strong/powerful/influential/healthy; prevail; [vale => goodbye/farewell]",
     "grammar": "V 2 1 PRES ACTIVE IMP 2 S"
+  },
+  "varia": {
+    "lemma": "varius, varia, varium ADJ",
+    "en": "different; various, diverse; changing; colored; party colored, variegated",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "vehementer": {
+    "lemma": "vehementer, vehementius, vehementissime ADV",
+    "en": "vehemently, vigorously; exceedingly, very much",
+    "grammar": "ADV"
+  },
+  "velint": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PRES ACTIVE SUB 3 P"
+  },
+  "velis": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PRES ACTIVE SUB 2 S"
+  },
+  "venturo": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "VPAR 3 4 DAT S M FUT ACTIVE PPL"
+  },
+  "verae": {
+    "lemma": "verus, vera -um, verior -or -us, verissimus -a -um ADJ",
+    "en": "true, real, genuine, actual; properly named; well founded; right, fair, proper",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "verbo": {
+    "lemma": "verbum, verbi N (2nd) N",
+    "en": "word; proverb; [verba dare alicui => cheat/deceive someone]",
+    "grammar": "N 2 2 DAT S N"
+  },
+  "vero": {
+    "lemma": "verus, vera -um, verior -or -us, verissimus -a -um ADJ",
+    "en": "true, real, genuine, actual; properly named; well founded; right, fair, proper",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "versa": {
+    "lemma": "verso, versare, versavi, versatus V (1st)",
+    "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "versanda": {
+    "lemma": "verso, versare, versavi, versatus V (1st)",
+    "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
+    "grammar": "VPAR 1 1 NOM S F FUT PASSIVE PPL"
+  },
+  "vide": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 PRES ACTIVE IMP 2 S"
+  },
+  "videamus": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 PRES ACTIVE SUB 1 P"
+  },
+  "videantur": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 PRES PASSIVE SUB 3 P"
+  },
+  "vident": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "vilibus": {
+    "lemma": "vilis, vilis, vile ADJ",
+    "en": "cheap, common, mean, worthless",
+    "grammar": "ADJ 3 2 DAT P X POS"
   },
   "vilissima": {
     "lemma": "vilis, vile",
@@ -671,6 +4186,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "vindico, vindicare, vindicavi, vindicatus V (1st)",
     "en": "claim, vindicate; punish, avenge",
     "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "virilem": {
+    "lemma": "virilis, virilis, virile ADJ",
+    "en": "manly, virile; mature",
+    "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "virtutem": {
+    "lemma": "virtus, virtutis N (3rd) F",
+    "en": "strength/power; courage/bravery; worth/manliness/virtue/character/excellence",
+    "grammar": "N 3 1 ACC S F"
   },
   "visum": {
     "lemma": "video, videre, vidi, visus",
@@ -687,15 +4212,75 @@ Object.assign(LATIN_DICT, {
     "en": "life, career, livelihood; mode of life",
     "grammar": "N 1 1 GEN S F"
   },
+  "vitam": {
+    "lemma": "vita, vitae N (1st) F",
+    "en": "life, career, livelihood; mode of life",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "vitia": {
+    "lemma": "vitium, viti(i) N (2nd) N",
+    "en": "fault, vice, crime, sin; defect",
+    "grammar": "N 2 4 NOM P N"
+  },
   "vitio": {
     "lemma": "vitium, vitii",
     "en": "fault; blame",
     "grammar": "N ABL S N"
   },
+  "vitium": {
+    "lemma": "vitium, viti(i) N (2nd) N",
+    "en": "fault, vice, crime, sin; defect",
+    "grammar": "N 2 4 NOM S N"
+  },
+  "vive": {
+    "lemma": "vivo, vivere, vixi, victus V (3rd)",
+    "en": "be alive, live; survive; reside",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "vocasti": {
+    "lemma": "voco, vocare, vocavi, vocatus",
+    "en": "you called; you named",
+    "grammar": "V PERF ACTIVE IND 2 S"
+  },
+  "volo": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PRES ACTIVE IND 1 S"
+  },
   "volueris": {
     "lemma": "volo, velle, volui, - V",
     "en": "wish, want, prefer; be willing, will",
     "grammar": "V 6 2 FUTP ACTIVE IND 2 S"
+  },
+  "voluminum": {
+    "lemma": "volumen, voluminis N (3rd) N",
+    "en": "book, chapter, fold",
+    "grammar": "N 3 2 GEN P N"
+  },
+  "volumus": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PRES ACTIVE IND 1 P"
+  },
+  "voluptas": {
+    "lemma": "voluptas, voluptatis N (3rd) F",
+    "en": "pleasure, delight, enjoyment",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "vulgo": {
+    "lemma": "vulgus, vulgi N (2nd) N",
+    "en": "common people/general public/multitude/common herd/rabble/crowd/mob; flock",
+    "grammar": "N 2 1 DAT S N"
+  },
+  "vulgus": {
+    "lemma": "vulgus, vulgi N (2nd) N",
+    "en": "common people/general public/multitude/common herd/rabble/crowd/mob; flock",
+    "grammar": "N 2 1 NOM S N"
+  },
+  "vulnus": {
+    "lemma": "vulnus, vulneris N (3rd) N",
+    "en": "wound; mental/emotional hurt; injury to one's interests; wound of love",
+    "grammar": "N 3 2 NOM S N"
   },
   "vult": {
     "lemma": "volo, velle, volui",
