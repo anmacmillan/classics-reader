@@ -49,6 +49,10 @@ def normalise_word(value: str) -> str:
     return "".join(char for char in decomposed if unicodedata.category(char) != "Mn")
 
 
+def natural_sort_key(value: Path) -> list[str | int]:
+    return [int(part) if part.isdigit() else part for part in re.split(r"(\d+)", str(value))]
+
+
 def greek_words(lines: list[str]) -> list[str]:
     words: list[str] = []
     for line in lines:
@@ -179,7 +183,7 @@ def main() -> int:
     books = []
     seen_ids = set()
 
-    for manifest_path in sorted(IMPORTS_DIR.glob("*/manifest.json")):
+    for manifest_path in sorted(IMPORTS_DIR.glob("*/manifest.json"), key=natural_sort_key):
         import_dir = manifest_path.parent
         if import_dir.name.startswith("_"):
             continue

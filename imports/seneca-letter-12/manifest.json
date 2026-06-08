@@ -1,0 +1,19 @@
+{
+  "id": "seneca-letter-12",
+  "title": "Seneca - Letter XII",
+  "shortTitle": "On old age",
+  "author": "Seneca the Younger",
+  "year": 65,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Epistula XII - On old age",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: The Latin Library · EN: Richard Mott Gummere, public domain, via Wikisource",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_12"
+    }
+  ]
+}
