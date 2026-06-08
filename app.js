@@ -419,9 +419,11 @@ function renderInteractiveLine(line, lang) {
     const entry = getDictionaryEntry(word, lang);
     const safeWord = htmlEscape(word);
     if (!entry) return `${before}${safeWord}${after}`;
-    const safeDef = htmlEscape(entry.def);
+    const safeLemma = htmlEscape(entry.lemma || entry.def);
+    const safeEn = htmlEscape(entry.en || entry.def);
+    const safeNl = htmlEscape(entry.nl || "");
     const safeGrammar = htmlEscape(entry.grammar);
-    return `${before}<span class="dict-word" data-word="${safeWord}" data-def="${safeDef}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
+    return `${before}<span class="dict-word" data-word="${safeWord}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
   }).join("");
 }
 
@@ -435,12 +437,16 @@ function setupWordHover() {
     wordSpan.classList.add("selected-word");
 
     const rawWord = wordSpan.getAttribute("data-word");
-    const def = wordSpan.getAttribute("data-def");
+    const lemma = wordSpan.getAttribute("data-lemma");
+    const en = wordSpan.getAttribute("data-en");
+    const nl = wordSpan.getAttribute("data-nl");
     const grammar = wordSpan.getAttribute("data-grammar");
     showTooltip(
       wordSpan,
       rawWord,
-      def || "Vertaling niet gevonden",
+      lemma || rawWord,
+      en,
+      nl,
       grammar || "Grammatica onbekend"
     );
   };
@@ -472,7 +478,7 @@ function setupWordHover() {
   });
 }
 
-function showTooltip(anchorEl, word, definition, grammar) {
+function showTooltip(anchorEl, word, lemma, en, nl, grammar) {
   const tooltip = document.getElementById("word-tooltip");
   const content = document.getElementById("tooltip-content");
   if (!tooltip || !content) return;
@@ -481,8 +487,12 @@ function showTooltip(anchorEl, word, definition, grammar) {
     <div class="tooltip-header">
       <h4>${word}</h4>
     </div>
+    <div class="tooltip-lemma">${lemma}</div>
     <div class="tooltip-grammar">${grammar}</div>
-    <div class="tooltip-definition">${definition}</div>
+    <div class="tooltip-definition">
+      <div><strong>EN</strong> ${en || "Translation not found"}</div>
+      <div><strong>NL</strong> ${nl || "Vertaling niet gevonden"}</div>
+    </div>
   `;
 
   tooltip.classList.remove("hidden");

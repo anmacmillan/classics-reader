@@ -434,6 +434,13 @@ body {
   color: var(--text);
 }
 
+.tooltip-lemma {
+  margin-top: 3px;
+  font-family: var(--font-reading);
+  font-size: 0.88rem;
+  color: var(--text-dim);
+}
+
 .tooltip-grammar {
   font-size: 0.72rem;
   color: var(--accent);
@@ -453,6 +460,17 @@ body {
   color: var(--text-dim);
   border-top: 1px solid var(--border);
   padding-top: 8px;
+}
+
+.tooltip-definition div + div {
+  margin-top: 4px;
+}
+
+.tooltip-definition strong {
+  display: inline-block;
+  width: 24px;
+  color: var(--text-muted);
+  font-size: 0.68rem;
 }
 
 /* ─── Scrollbars ──────────────────────────────────────────────────────────── */
