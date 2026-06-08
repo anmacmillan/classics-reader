@@ -230,10 +230,10 @@ function renderChapter() {
     const row = document.createElement("div");
     row.className = "chunk-row";
 
-    // Original line with word-span wrapping
+    // Original line with interactive word wrapping
     const origEl = document.createElement("div");
     origEl.className = "original-line";
-    origEl.innerHTML = tokenizeText(line, book.lang);
+    origEl.innerHTML = renderInteractiveLine(line, book.lang);
     row.appendChild(origEl);
 
     // Translation line
