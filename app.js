@@ -211,6 +211,11 @@ function renderChapter() {
   const ch = book.chapters[state.currentChapterIndex];
   const content = document.getElementById("reader-content");
   if (!content) return;
+  const startLine = Number.isInteger(ch.startLine) ? ch.startLine : 1;
+  const hasUsableTranslation = ch.lines.some((line, lineIdx) => {
+    const translation = ch.translation?.[lineIdx];
+    return translation && translation.trim() !== line.trim();
+  });
 
   content.innerHTML = "";
   const wrapper = document.createElement("div");
@@ -225,10 +230,42 @@ function renderChapter() {
   `;
   wrapper.appendChild(titleRow);
 
+  if (ch.translationCredit) {
+    const credit = document.createElement("p");
+    credit.className = "translation-credit";
+    credit.append("Vertaling: ");
+
+    if (ch.translationUrl) {
+      const link = document.createElement("a");
+      link.href = ch.translationUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = ch.translationCredit;
+      credit.appendChild(link);
+    } else {
+      credit.append(ch.translationCredit);
+    }
+
+    wrapper.appendChild(credit);
+  }
+
+  if (!hasUsableTranslation) {
+    const notice = document.createElement("p");
+    notice.className = "translation-notice";
+    notice.textContent = "Vertaling nog niet beschikbaar.";
+    wrapper.appendChild(notice);
+  }
+
   // Render parallel lines
   ch.lines.forEach((line, lineIdx) => {
     const row = document.createElement("div");
     row.className = "chunk-row";
+
+    const lineNumber = document.createElement("span");
+    lineNumber.className = "line-number";
+    lineNumber.textContent = startLine + lineIdx;
+    lineNumber.setAttribute("aria-hidden", "true");
+    row.appendChild(lineNumber);
 
     // Original line with interactive word wrapping
     const origEl = document.createElement("div");
@@ -237,10 +274,12 @@ function renderChapter() {
     row.appendChild(origEl);
 
     // Translation line
-    const transEl = document.createElement("div");
-    transEl.className = "translation-line";
-    transEl.textContent = ch.translation[lineIdx] || "";
-    row.appendChild(transEl);
+    if (hasUsableTranslation) {
+      const transEl = document.createElement("div");
+      transEl.className = "translation-line";
+      transEl.textContent = ch.translation?.[lineIdx] || "";
+      row.appendChild(transEl);
+    }
 
     wrapper.appendChild(row);
   });

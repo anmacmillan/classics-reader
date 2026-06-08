@@ -265,13 +265,28 @@ body {
 }
 
 .chunk-row {
+  position: relative;
   margin-bottom: 28px;
+  padding-left: 42px;
   padding-bottom: 20px;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.05);
 }
 
 .chunk-row:last-child {
   border-bottom: none;
+}
+
+.line-number {
+  position: absolute;
+  top: 0.55rem;
+  left: 0;
+  width: 28px;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  line-height: 1;
+  text-align: right;
+  color: var(--text-muted);
+  user-select: none;
 }
 
 .original-line {
@@ -288,6 +303,30 @@ body {
   font-size: 0.95rem;
   line-height: 1.5;
   color: var(--text-dim);
+}
+
+.translation-notice {
+  margin: -12px 0 24px;
+  padding: 10px 12px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.translation-credit {
+  margin: -16px 0 24px;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.translation-credit a {
+  color: inherit;
+}
+
+.translation-credit a:hover {
+  color: var(--accent);
 }
 
 /* ─── Interactive Words ───────────────────────────────────────────────────── */
