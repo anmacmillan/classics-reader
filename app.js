@@ -19,7 +19,8 @@ const STORAGE_KEYS = {
   PROGRESS: "classics_book_progress",
   GIST_ID: "slovo_gist_id",
   GIST_FILE: "slovo_progress.json",
-  VOCABULARY: "classics_personal_vocabulary"
+  VOCABULARY: "classics_personal_vocabulary",
+  THEME: "classics_theme"
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }));
   loadProgressFromStorage();
   loadVocabularyFromStorage();
+  setupTheme();
   renderLibrary();
   setupFocusHeader();
   setupVocabulary();
@@ -75,6 +77,42 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
 });
+
+/* ─── Theme ─────────────────────────────────────────────────────────────── */
+
+function systemTheme() {
+  return window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+}
+
+function getThemeSetting() {
+  return localStorage.getItem(STORAGE_KEYS.THEME) || "dark";
+}
+
+function applyTheme(setting) {
+  const theme = setting === "auto" ? systemTheme() : setting;
+  document.documentElement.setAttribute("data-theme", theme);
+  const button = document.getElementById("theme-btn");
+  if (button) {
+    button.textContent = setting === "auto"
+      ? `Auto · ${theme === "light" ? "Light" : "Dark"}`
+      : setting.charAt(0).toUpperCase() + setting.slice(1);
+  }
+}
+
+function setupTheme() {
+  applyTheme(getThemeSetting());
+
+  const media = window.matchMedia?.("(prefers-color-scheme: light)");
+  media?.addEventListener?.("change", () => {
+    if (getThemeSetting() === "auto") applyTheme("auto");
+  });
+
+  document.getElementById("theme-btn")?.addEventListener("click", () => {
+    const next = ({ dark: "light", light: "auto", auto: "dark" })[getThemeSetting()] || "dark";
+    localStorage.setItem(STORAGE_KEYS.THEME, next);
+    applyTheme(next);
+  });
+}
 
 /* ─── Context Header / Focus Mode ───────────────────────────────────────── */
 

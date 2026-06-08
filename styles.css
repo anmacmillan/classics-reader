@@ -24,6 +24,25 @@
   --backdrop-blur: blur(16px);
 }
 
+:root[data-theme="light"] {
+  --bg: #f5f1ea;
+  --bg-card: rgba(255, 255, 255, 0.82);
+  --bg-card-hover: rgba(255, 255, 255, 0.96);
+  --bg-control: #fffaf3;
+  --text: #1f2430;
+  --text-dim: #606573;
+  --text-primary: #1f2430;
+  --text-secondary: #606573;
+  --text-muted: #7a808d;
+  --accent: #9a5a12;
+  --accent-primary: #7c4dff;
+  --accent-secondary: #9a5a12;
+  --accent-glow: rgba(154, 90, 18, 0.12);
+  --border: rgba(31, 36, 48, 0.12);
+  --border-color: rgba(31, 36, 48, 0.08);
+  --glow-card: 0 8px 32px 0 rgba(31, 36, 48, 0.08);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -88,6 +107,11 @@ body.reader-mode .reader-pane {
 
 .header-vocabulary {
   right: 16px;
+}
+
+.header-theme {
+  position: absolute;
+  right: 96px;
 }
 
 .header-context {
@@ -720,9 +744,14 @@ body.reader-mode .reader-pane {
   }
 
   .header-back,
+  .header-theme,
   .header-vocabulary {
     padding: 6px 9px;
     font-size: 0.72rem;
+  }
+
+  .header-theme {
+    right: 84px;
   }
 }
 
