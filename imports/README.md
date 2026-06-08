@@ -74,5 +74,6 @@ The importer rejects:
 - speaker ranges outside the chapter;
 - invalid language values.
 
-For Greek imports it also reports current dictionary coverage. Low coverage
-does not block the import, but indicates that word-click lookup needs extending.
+For Greek and Latin imports it also reports current dictionary coverage. Low
+coverage does not block the import, but indicates that word-click lookup needs
+extending.

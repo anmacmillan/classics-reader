@@ -32,10 +32,11 @@ def load_existing_ids() -> set[str]:
     return set(re.findall(r'\bid:\s*"([^"]+)"', DATA_PATH.read_text(encoding="utf-8")))
 
 
-def load_greek_dictionary_keys() -> set[str]:
+def load_dictionary_keys(dictionary_name: str) -> set[str]:
     text = DICTIONARY_PATH.read_text(encoding="utf-8")
-    greek_start = text.index("const GREEK_DICT = {")
-    return set(re.findall(r'^\s*"([^"]+)":', text[greek_start:], flags=re.MULTILINE))
+    start = text.index(f"const {dictionary_name} = {{")
+    end = text.index("\n};", start)
+    return set(re.findall(r'^\s*"([^"]+)":', text[start:end], flags=re.MULTILINE))
 
 
 def normalise_word(value: str) -> str:
@@ -165,7 +166,10 @@ def main() -> int:
     args = parser.parse_args()
 
     existing_ids = load_existing_ids()
-    dictionary_keys = load_greek_dictionary_keys()
+    dictionary_keys = {
+        "greek": load_dictionary_keys("GREEK_DICT"),
+        "latin": load_dictionary_keys("LATIN_DICT"),
+    }
     books = []
     seen_ids = set()
 
@@ -187,10 +191,14 @@ def main() -> int:
 
         line_count = sum(len(lines) for lines in originals)
         message = f"OK {book['id']}: {len(book['chapters'])} chapter(s), {line_count} source lines"
-        if book["lang"] == "greek":
-            covered, total = dictionary_coverage([line for lines in originals for line in lines], dictionary_keys)
+        if book["lang"] in dictionary_keys:
+            covered, total = dictionary_coverage(
+                [line for lines in originals for line in lines],
+                dictionary_keys[book["lang"]],
+            )
             percentage = round(covered / total * 100) if total else 0
-            message += f", Greek dictionary coverage {covered}/{total} ({percentage}%)"
+            language = book["lang"].title()
+            message += f", {language} dictionary coverage {covered}/{total} ({percentage}%)"
         print(message)
 
     output = render_output(books)
