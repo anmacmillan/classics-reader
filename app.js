@@ -301,38 +301,79 @@ function translatePane() {
   }
 }
 
+/* ─── Word Lookup Helpers ───────────────────────────────────────────────── */
+
+function stripDiacritics(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .normalize("NFC");
+}
+
+function normaliseLookupKey(value) {
+  return stripDiacritics(value)
+    .toLowerCase()
+    .replace(/['\u2019]/g, "")
+    .replace(/^\W+|\W+$/gu, "");
+}
+
+function getDictionaryEntry(rawWord, lang) {
+  const original = String(rawWord || "").toLowerCase().replace(/^\W+|\W+$/gu, "");
+  const normalised = normaliseLookupKey(rawWord);
+  const dict = lang === "greek" ? GREEK_DICT : LATIN_DICT;
+  return dict[original] || dict[normalised] || null;
+}
+
+function splitIntoWordAndPunctuation(token) {
+  const match = String(token).match(/^(\P{L}*)([\p{L}\p{M}]+(?:['\u2019][\p{L}\p{M}]+)?)(\P{L}*)$/u);
+  if (!match) {
+    return { before: "", word: String(token), after: "" };
+  }
+  return { before: match[1], word: match[2], after: match[3] };
+}
+
+function htmlEscape(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderInteractiveLine(line, lang) {
+  return String(line).split(/(\s+)/).map((part) => {
+    if (/^\s+$/.test(part)) return part;
+    const { before, word, after } = splitIntoWordAndPunctuation(part);
+    const entry = getDictionaryEntry(word, lang);
+    const safeWord = htmlEscape(word);
+    if (!entry) return `${before}${safeWord}${after}`;
+    const safeDef = htmlEscape(entry.def);
+    const safeGrammar = htmlEscape(entry.grammar);
+    return `${before}<span class="dict-word" data-word="${safeWord}" data-def="${safeDef}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
+  }).join("");
+}
+
 /* ─── Word Hover & Tooltip ───────────────────────────────────────────────── */
 
 function setupWordHover() {
   document.addEventListener("mouseover", (e) => {
-    const wordSpan = e.target.closest(".word-span");
+    const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
 
     wordSpan.classList.add("selected-word");
 
-    const rawWord = wordSpan.textContent;
-    const cleanWord = rawWord.toLowerCase().replace(/[^a-zA-Z\u0370-\u03FF\u1F00-\u1FFF']/g, "");
-
-    const book = state.books[state.currentBookIndex];
-    const dict = book.lang === "greek" ? GREEK_DICT : LATIN_DICT;
-    const entry = dict[cleanWord];
-
-    if (entry) {
-      showTooltip(wordSpan, rawWord, entry.def, entry.grammar);
+    const rawWord = wordSpan.getAttribute("data-word");
+    const def = wordSpan.getAttribute("data-def");
+    const grammar = wordSpan.getAttribute("data-grammar");
+    if (def) {
+      showTooltip(wordSpan, rawWord, def, grammar || "");
     } else {
-      // Fallback: strip trailing accents
-      const stripped = cleanWord.replace(/['']$/, "");
-      const fallback = dict[stripped];
-      if (fallback) {
-        showTooltip(wordSpan, rawWord, fallback.def, fallback.grammar);
-      } else {
-        showTooltip(wordSpan, rawWord, "Vertaling niet gevonden", "Grammatica onbekend");
-      }
+      showTooltip(wordSpan, rawWord, "Vertaling niet gevonden", "Grammatica onbekend");
     }
   });
 
   document.addEventListener("mouseout", (e) => {
-    const wordSpan = e.target.closest(".word-span");
+    const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
     wordSpan.classList.remove("selected-word");
     hideTooltip();
