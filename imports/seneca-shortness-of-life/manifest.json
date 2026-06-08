@@ -1,0 +1,19 @@
+{
+  "id": "seneca-shortness-of-life",
+  "title": "Seneca - De Brevitate Vitae",
+  "shortTitle": "On the shortness of life",
+  "author": "Seneca the Younger",
+  "year": 49,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "De Brevitate Vitae - complete work",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: The Latin Library · EN: Aubrey Stewart, public domain, via Project Gutenberg",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://www.gutenberg.org/ebooks/64576"
+    }
+  ]
+}
