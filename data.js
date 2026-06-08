@@ -1536,7 +1536,11 @@ const BOOKS = [
           "erroresque tuos; nam te iam septima portat",
           "omnibus errantem terris et fluctibus aestas.'"
         ]
-      },  // BOOK 2: Ovidius — Metamorphoses I
+      }
+
+    ]
+  },
+  // BOOK 2: Ovidius — Metamorphoses I
   { id: "ovid-met-1", title: "Ovidius — Metamorphoses I", author: "Ovidius", year: 8, lang: "latin",
     chapters: [
       {
