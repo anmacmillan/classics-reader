@@ -299,10 +299,29 @@ body {
 }
 
 .translation-line {
+  display: flex;
+  gap: 8px;
   font-family: var(--font-ui);
   font-size: 0.95rem;
   line-height: 1.5;
   color: var(--text-dim);
+}
+
+.translation-line + .translation-line {
+  margin-top: 3px;
+}
+
+.translation-language {
+  flex: 0 0 20px;
+  padding-top: 0.15rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.translation-nl {
+  color: var(--text);
 }
 
 .translation-notice {
@@ -331,14 +350,15 @@ body {
 
 /* ─── Interactive Words ───────────────────────────────────────────────────── */
 
-.word-span {
+.dict-word {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   transition: var(--transition-smooth);
   display: inline-block;
+  touch-action: manipulation;
 }
 
-.word-span:hover, .word-span.selected-word {
+.dict-word:hover, .dict-word.selected-word {
   color: var(--accent);
   border-bottom-color: var(--accent);
   text-shadow: 0 0 8px var(--accent-glow);
@@ -363,17 +383,6 @@ body {
   border-color: var(--accent);
   background: var(--bg-card);
   box-shadow: 0 0 12px var(--accent-glow);
-}
-
-.btn-nav {
-  padding: 0;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.1rem;
 }
 
 /* ─── Floating Word Tooltip ───────────────────────────────────────────────── */

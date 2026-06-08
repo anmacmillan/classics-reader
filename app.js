@@ -9,6 +9,7 @@ const state = {
 };
 
 const GIST_FILE = "slovo_progress.json";
+let scrollSyncTimer;
 
 const STORAGE_KEYS = {
   PROGRESS: "classics_book_progress",
@@ -34,19 +35,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (chSelect) {
     chSelect.addEventListener("change", (e) => {
       state.currentChapterIndex = parseInt(e.target.value);
+      state.currentPageIndex = 0;
       renderChapter();
     });
   }
 
-  // Setup word hovers
+  // Setup word hover/tap lookup
   setupWordHover();
+
+  const readerPane = document.querySelector(".reader-pane");
+  if (readerPane) {
+    readerPane.addEventListener("scroll", syncPageFromScroll, { passive: true });
+  }
 
   // Load from Gist
   await loadProgressFromGist();
 
   // Resize handler
   window.addEventListener("resize", () => {
-    if (document.querySelector(".reader-pane") && !document.getElementById("splash-screen").hasAttribute("hidden")) {
+    if (document.querySelector(".reader-pane") && document.getElementById("splash-screen").hasAttribute("hidden")) {
       // Only recalc if reader is visible
       recalcPages();
     }
@@ -83,9 +90,6 @@ function showLibrary() {
 
   const backBtn = document.getElementById("back-btn");
   if (backBtn) backBtn.style.display = "none";
-
-  const footer = document.getElementById("app-footer");
-  if (footer) footer.style.display = "none";
 
   // Save progress before returning to library
   if (state.currentBookIndex >= 0 && state.currentBookIndex < state.books.length) {
@@ -151,9 +155,6 @@ function selectBook(idx) {
   const backBtn = document.getElementById("back-btn");
   if (backBtn) backBtn.style.display = "block";
 
-  const footer = document.getElementById("app-footer");
-  if (footer) footer.style.display = "flex";
-
   // Populate chapter selector
   const chSelect = document.getElementById("chapter-select");
   if (chSelect) {
@@ -174,36 +175,6 @@ function selectBook(idx) {
   syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
 }
 
-/* ─── Tokenizer (word-span wrapping) ─────────────────────────────────────── */
-
-function tokenizeText(text, lang) {
-  const regex = lang === "greek"
-    ? /([\u0370-\u03FF\u1F00-\u1FFF']+)/g
-    : /([a-zA-Z'-]+)/g;
-
-  let lastIndex = 0;
-  let html = "";
-  let match;
-
-  while ((match = regex.exec(text)) !== null) {
-    const word = match[0];
-    const startIndex = match.index;
-
-    if (startIndex > lastIndex) {
-      html += text.slice(lastIndex, startIndex);
-    }
-
-    html += `<span class="word-span">${word}</span>`;
-    lastIndex = regex.lastIndex;
-  }
-
-  if (lastIndex < text.length) {
-    html += text.slice(lastIndex);
-  }
-
-  return html;
-}
-
 /* ─── Chapter Renderer ──────────────────────────────────────────────────── */
 
 function renderChapter() {
@@ -212,10 +183,24 @@ function renderChapter() {
   const content = document.getElementById("reader-content");
   if (!content) return;
   const startLine = Number.isInteger(ch.startLine) ? ch.startLine : 1;
-  const hasUsableTranslation = ch.lines.some((line, lineIdx) => {
-    const translation = ch.translation?.[lineIdx];
-    return translation && translation.trim() !== line.trim();
-  });
+  const translationTracks = [
+    { language: "EN", lines: ch.translationEn },
+    { language: "NL", lines: ch.translationNl },
+  ];
+
+  if (ch.translation) {
+    translationTracks.push({
+      language: ch.translationLanguage || "NL",
+      lines: ch.translation,
+    });
+  }
+
+  const usableTranslationTracks = translationTracks.filter((track) =>
+    ch.lines.some((line, lineIdx) => {
+      const translation = track.lines?.[lineIdx];
+      return translation && translation.trim() !== line.trim();
+    })
+  );
 
   content.innerHTML = "";
   const wrapper = document.createElement("div");
@@ -233,7 +218,7 @@ function renderChapter() {
   if (ch.translationCredit) {
     const credit = document.createElement("p");
     credit.className = "translation-credit";
-    credit.append("Vertaling: ");
+    credit.append(`${ch.translationCreditLanguage || "Vertaling"}: `);
 
     if (ch.translationUrl) {
       const link = document.createElement("a");
@@ -249,7 +234,7 @@ function renderChapter() {
     wrapper.appendChild(credit);
   }
 
-  if (!hasUsableTranslation) {
+  if (!usableTranslationTracks.length) {
     const notice = document.createElement("p");
     notice.className = "translation-notice";
     notice.textContent = "Vertaling nog niet beschikbaar.";
@@ -273,13 +258,19 @@ function renderChapter() {
     origEl.innerHTML = renderInteractiveLine(line, book.lang);
     row.appendChild(origEl);
 
-    // Translation line
-    if (hasUsableTranslation) {
+    // Translation lines
+    usableTranslationTracks.forEach((track) => {
       const transEl = document.createElement("div");
-      transEl.className = "translation-line";
-      transEl.textContent = ch.translation?.[lineIdx] || "";
+      transEl.className = `translation-line translation-${track.language.toLowerCase()}`;
+
+      const label = document.createElement("span");
+      label.className = "translation-language";
+      label.textContent = track.language;
+      transEl.appendChild(label);
+      transEl.append(track.lines?.[lineIdx] || "");
+
       row.appendChild(transEl);
-    }
+    });
 
     wrapper.appendChild(row);
   });
@@ -332,12 +323,29 @@ function translatePane() {
   if (indicator) {
     indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
   }
+}
 
-  // Also update footer indicator
-  const footerIndicator = document.querySelector(".app-footer #page-indicator");
-  if (footerIndicator) {
-    footerIndicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
+function syncPageFromScroll() {
+  const pane = document.querySelector(".reader-pane");
+  if (!pane || pane.clientHeight === 0) return;
+
+  const pageIndex = Math.min(
+    state.totalPages - 1,
+    Math.max(0, Math.round(pane.scrollTop / pane.clientHeight))
+  );
+
+  if (pageIndex === state.currentPageIndex) return;
+  state.currentPageIndex = pageIndex;
+
+  const indicator = document.getElementById("page-indicator");
+  if (indicator) {
+    indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
   }
+
+  clearTimeout(scrollSyncTimer);
+  scrollSyncTimer = setTimeout(() => {
+    syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
+  }, 500);
 }
 
 /* ─── Word Lookup Helpers ───────────────────────────────────────────────── */
@@ -395,26 +403,46 @@ function renderInteractiveLine(line, lang) {
 /* ─── Word Hover & Tooltip ───────────────────────────────────────────────── */
 
 function setupWordHover() {
-  document.addEventListener("mouseover", (e) => {
-    const wordSpan = e.target.closest(".dict-word");
-    if (!wordSpan) return;
-
+  const activateWord = (wordSpan) => {
+    document.querySelectorAll(".dict-word.selected-word").forEach((selected) => {
+      if (selected !== wordSpan) selected.classList.remove("selected-word");
+    });
     wordSpan.classList.add("selected-word");
 
     const rawWord = wordSpan.getAttribute("data-word");
     const def = wordSpan.getAttribute("data-def");
     const grammar = wordSpan.getAttribute("data-grammar");
-    if (def) {
-      showTooltip(wordSpan, rawWord, def, grammar || "");
-    } else {
-      showTooltip(wordSpan, rawWord, "Vertaling niet gevonden", "Grammatica onbekend");
-    }
+    showTooltip(
+      wordSpan,
+      rawWord,
+      def || "Vertaling niet gevonden",
+      grammar || "Grammatica onbekend"
+    );
+  };
+
+  document.addEventListener("mouseover", (e) => {
+    const wordSpan = e.target.closest(".dict-word");
+    if (!wordSpan) return;
+    activateWord(wordSpan);
   });
 
   document.addEventListener("mouseout", (e) => {
     const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
     wordSpan.classList.remove("selected-word");
+    hideTooltip();
+  });
+
+  document.addEventListener("click", (e) => {
+    const wordSpan = e.target.closest(".dict-word");
+    if (wordSpan) {
+      activateWord(wordSpan);
+      return;
+    }
+
+    document.querySelectorAll(".dict-word.selected-word").forEach((selected) => {
+      selected.classList.remove("selected-word");
+    });
     hideTooltip();
   });
 }
