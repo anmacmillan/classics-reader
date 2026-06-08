@@ -1,0 +1,18 @@
+{
+  "id": "seneca-letter-1",
+  "title": "Seneca - Letter I",
+  "author": "Seneca",
+  "year": 65,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Epistula I - De tempore servando",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: The Latin Library · EN: Richard Mott Gummere, public domain, via Wikisource",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1"
+    }
+  ]
+}
