@@ -352,7 +352,7 @@ body {
 
 .dict-word {
   cursor: pointer;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dotted rgba(245, 158, 11, 0.35);
   transition: var(--transition-smooth);
   display: inline-block;
   touch-action: manipulation;

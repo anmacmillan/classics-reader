@@ -142,9 +142,16 @@ function renderLibrary() {
   });
 }
 
-function selectBook(idx) {
+function selectBook(idx, chapterIndex) {
+  const book = state.books[idx];
+  const defaultChapterIndex = Number.isInteger(book.defaultChapterIndex)
+    ? book.defaultChapterIndex
+    : Math.max(0, book.chapters.length - 1);
+
   state.currentBookIndex = idx;
-  state.currentChapterIndex = 0;
+  state.currentChapterIndex = Number.isInteger(chapterIndex)
+    ? chapterIndex
+    : defaultChapterIndex;
   state.currentPageIndex = 0;
 
   const splash = document.getElementById("splash-screen");
@@ -159,14 +166,13 @@ function selectBook(idx) {
   const chSelect = document.getElementById("chapter-select");
   if (chSelect) {
     chSelect.innerHTML = "";
-    const book = state.books[idx];
     book.chapters.forEach((ch, ci) => {
       const opt = document.createElement("option");
       opt.value = ci;
       opt.textContent = ch.title || `Hoofdstuk ${ci + 1}`;
       chSelect.appendChild(opt);
     });
-    chSelect.value = 0; // first chapter
+    chSelect.value = state.currentChapterIndex;
   }
 
   renderChapter();
@@ -602,8 +608,12 @@ async function loadProgressFromGist() {
         localStorage.setItem("book_" + idx + "_progress", book.chaptersRead || 0);
       });
 
-      // Navigate to the restored book
-      selectBook(cl.currentBookIndex);
+      // Older saved sessions point at the short preview (chapter 0).
+      // Open the full chapter by default, while preserving later chapters.
+      const savedChapterIndex = cl.currentChapterIndex > 0
+        ? cl.currentChapterIndex
+        : undefined;
+      selectBook(cl.currentBookIndex, savedChapterIndex);
 
       // Restore page after render
       setTimeout(() => {
