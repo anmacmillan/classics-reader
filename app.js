@@ -11,11 +11,15 @@ const state = {
 
 const GIST_FILE = "slovo_progress.json";
 let scrollSyncTimer;
+let focusHeaderTimer;
+let tooltipHideTimer;
+let activeVocabularyCandidate;
 
 const STORAGE_KEYS = {
   PROGRESS: "classics_book_progress",
   GIST_ID: "slovo_gist_id",
-  GIST_FILE: "slovo_progress.json"
+  GIST_FILE: "slovo_progress.json",
+  VOCABULARY: "classics_personal_vocabulary"
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -24,7 +28,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     chapters: book.chapters.filter((chapter) => !chapter.isPreview),
   }));
   loadProgressFromStorage();
+  loadVocabularyFromStorage();
   renderLibrary();
+  setupFocusHeader();
+  setupVocabulary();
 
   // Back button
   const backBtn = document.getElementById("back-btn");
@@ -69,6 +76,47 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
+/* ─── Context Header / Focus Mode ───────────────────────────────────────── */
+
+function updateHeaderContext() {
+  const primary = document.getElementById("header-primary");
+  const secondary = document.getElementById("header-secondary");
+  if (!primary || !secondary) return;
+
+  if (!document.body.classList.contains("reader-mode")) {
+    primary.textContent = state.libraryAuthor || "Library";
+    secondary.textContent = state.libraryAuthor ? authorSummary(state.libraryAuthor) : "Latin · Greek";
+    return;
+  }
+
+  const book = state.books[state.currentBookIndex];
+  const chapter = book?.chapters[state.currentChapterIndex];
+  primary.textContent = `${book.author} · ${workDisplayTitle(book)}`;
+  secondary.textContent = chapter?.title || `Section ${state.currentChapterIndex + 1}`;
+}
+
+function showFocusHeader(scheduleFade = true) {
+  const header = document.querySelector(".app-header");
+  if (!header) return;
+  header.classList.remove("focus-hidden");
+  clearTimeout(focusHeaderTimer);
+  if (scheduleFade && document.body.classList.contains("reader-mode")) {
+    focusHeaderTimer = setTimeout(() => header.classList.add("focus-hidden"), 5000);
+  }
+}
+
+function setupFocusHeader() {
+  const reveal = () => showFocusHeader();
+  document.addEventListener("pointermove", reveal, { passive: true });
+  document.addEventListener("touchstart", reveal, { passive: true });
+  document.addEventListener("keydown", reveal);
+  document.querySelector(".reader-pane")?.addEventListener("scroll", reveal, { passive: true });
+  document.querySelector(".app-header")?.addEventListener("mouseenter", () => {
+    clearTimeout(focusHeaderTimer);
+  });
+  document.querySelector(".app-header")?.addEventListener("mouseleave", reveal);
+}
+
 /* ─── Book Progress Persistence ─────────────────────────────────────────── */
 
 function loadProgressFromStorage() {
@@ -97,6 +145,8 @@ function showLibrary(author = null) {
   const workspace = document.getElementById("app-workspace");
   if (splash) splash.removeAttribute("hidden");
   if (workspace) workspace.setAttribute("hidden", "");
+  document.body.classList.remove("reader-mode");
+  showFocusHeader(false);
 
   // Save progress before returning to library
   if (state.currentBookIndex >= 0 && state.currentBookIndex < state.books.length) {
@@ -116,6 +166,7 @@ function renderLibrary() {
     backBtn.style.display = state.libraryAuthor ? "block" : "none";
     backBtn.textContent = "← Authors";
   }
+  updateHeaderContext();
 
   if (!state.libraryAuthor) {
     renderAuthorLibrary(grid);
@@ -222,6 +273,7 @@ function selectBook(idx, chapterIndex) {
   const workspace = document.getElementById("app-workspace");
   if (splash) splash.setAttribute("hidden", "");
   if (workspace) workspace.removeAttribute("hidden");
+  document.body.classList.add("reader-mode");
 
   const backBtn = document.getElementById("back-btn");
   if (backBtn) {
@@ -243,6 +295,8 @@ function selectBook(idx, chapterIndex) {
   }
 
   renderChapter();
+  updateHeaderContext();
+  showFocusHeader();
 
   // Sync to Gist
   syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
@@ -255,6 +309,8 @@ function renderChapter() {
   const ch = book.chapters[state.currentChapterIndex];
   const content = document.getElementById("reader-content");
   if (!content) return;
+  updateHeaderContext();
+  showFocusHeader();
   const startLine = Number.isInteger(ch.startLine) ? ch.startLine : 1;
   const translationTracks = [
     { language: "EN", lines: ch.translationEn },
@@ -487,7 +543,7 @@ function renderInteractiveLine(line, lang) {
     const safeEn = htmlEscape(entry.en || entry.def);
     const safeNl = htmlEscape(entry.nl || "");
     const safeGrammar = htmlEscape(entry.grammar);
-    return `${before}<span class="dict-word" data-word="${safeWord}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
+    return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
   }).join("");
 }
 
@@ -505,13 +561,16 @@ function setupWordHover() {
     const en = wordSpan.getAttribute("data-en");
     const nl = wordSpan.getAttribute("data-nl");
     const grammar = wordSpan.getAttribute("data-grammar");
+    const lang = wordSpan.getAttribute("data-lang");
+    activeVocabularyCandidate = vocabularyEntryFor(rawWord, lemma || rawWord, en, nl, grammar, lang);
     showTooltip(
       wordSpan,
       rawWord,
       lemma || rawWord,
       en,
       nl,
-      grammar || "Grammatica onbekend"
+      grammar || "Grammatica onbekend",
+      activeVocabularyCandidate
     );
   };
 
@@ -524,8 +583,10 @@ function setupWordHover() {
   document.addEventListener("mouseout", (e) => {
     const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
+    if (e.relatedTarget?.closest?.("#word-tooltip")) return;
     wordSpan.classList.remove("selected-word");
-    hideTooltip();
+    clearTimeout(tooltipHideTimer);
+    tooltipHideTimer = setTimeout(hideTooltip, 180);
   });
 
   document.addEventListener("click", (e) => {
@@ -534,18 +595,23 @@ function setupWordHover() {
       activateWord(wordSpan);
       return;
     }
+    if (e.target.closest("#word-tooltip")) return;
 
     document.querySelectorAll(".dict-word.selected-word").forEach((selected) => {
       selected.classList.remove("selected-word");
     });
     hideTooltip();
   });
+
+  document.getElementById("word-tooltip")?.addEventListener("mouseenter", () => clearTimeout(tooltipHideTimer));
+  document.getElementById("word-tooltip")?.addEventListener("mouseleave", hideTooltip);
 }
 
-function showTooltip(anchorEl, word, lemma, en, nl, grammar) {
+function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry) {
   const tooltip = document.getElementById("word-tooltip");
   const content = document.getElementById("tooltip-content");
   if (!tooltip || !content) return;
+  const saved = isVocabularyEntrySaved(vocabularyEntry);
 
   content.innerHTML = `
     <div class="tooltip-header">
@@ -557,7 +623,15 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar) {
       <div><strong>EN</strong> ${en || "Translation not found"}</div>
       <div><strong>NL</strong> ${nl || "Vertaling niet gevonden"}</div>
     </div>
+    <div class="tooltip-actions">
+      <button class="btn tooltip-save${saved ? " saved" : ""}" type="button">${saved ? "Saved" : "Save word"}</button>
+    </div>
   `;
+  content.querySelector(".tooltip-save")?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleVocabularyEntry(vocabularyEntry);
+    showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry);
+  });
 
   tooltip.classList.remove("hidden");
 
@@ -582,10 +656,132 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar) {
 }
 
 function hideTooltip() {
+  clearTimeout(tooltipHideTimer);
   const tooltip = document.getElementById("word-tooltip");
   if (tooltip) {
     tooltip.classList.add("hidden");
   }
+}
+
+/* ─── Personal Vocabulary ───────────────────────────────────────────────── */
+
+function loadVocabularyFromStorage() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEYS.VOCABULARY) || "[]");
+    state.vocabulary = Array.isArray(saved) ? saved : [];
+  } catch {
+    state.vocabulary = [];
+  }
+  updateVocabularyUI();
+}
+
+function saveVocabularyToStorage() {
+  localStorage.setItem(STORAGE_KEYS.VOCABULARY, JSON.stringify(state.vocabulary));
+  updateVocabularyUI();
+}
+
+function vocabularyEntryFor(word, lemma, en, nl, grammar, lang) {
+  const book = state.books[state.currentBookIndex];
+  const chapter = book?.chapters[state.currentChapterIndex];
+  return {
+    id: `${lang}:${normaliseLookupKey(lemma)}`,
+    word,
+    lemma,
+    en: en || "",
+    nl: nl || "",
+    grammar: grammar || "",
+    lang,
+    author: book?.author || "",
+    work: book ? workDisplayTitle(book) : "",
+    chapter: chapter?.title || "",
+    addedAt: new Date().toISOString()
+  };
+}
+
+function isVocabularyEntrySaved(entry) {
+  return Boolean(entry && state.vocabulary?.some((saved) => saved.id === entry.id));
+}
+
+function toggleVocabularyEntry(entry) {
+  if (!entry) return;
+  const existingIndex = state.vocabulary.findIndex((saved) => saved.id === entry.id);
+  if (existingIndex >= 0) {
+    state.vocabulary.splice(existingIndex, 1);
+  } else {
+    state.vocabulary.unshift(entry);
+  }
+  saveVocabularyToStorage();
+  syncProgressToGist().catch((err) => console.log("Gist sync skipped:", err.message));
+}
+
+function updateVocabularyUI() {
+  const count = state.vocabulary?.length || 0;
+  const countEl = document.getElementById("vocabulary-count");
+  const summary = document.getElementById("vocabulary-summary");
+  const list = document.getElementById("vocabulary-list");
+  if (countEl) countEl.textContent = count;
+  if (summary) summary.textContent = `${count} saved word${count === 1 ? "" : "s"}`;
+  if (!list) return;
+
+  if (!count) {
+    list.innerHTML = '<p class="vocabulary-empty">Select a word in any text and choose “Save word”.</p>';
+    return;
+  }
+
+  list.innerHTML = state.vocabulary.map((entry) => `
+    <article class="vocabulary-entry">
+      <h3>${htmlEscape(entry.lemma || entry.word)} <span>${htmlEscape(entry.lang)}</span></h3>
+      <p class="vocabulary-meaning">${htmlEscape(entry.en || entry.nl || "No translation")}</p>
+      <p class="vocabulary-context">${htmlEscape([entry.author, entry.work, entry.chapter].filter(Boolean).join(" · "))}</p>
+      <button class="btn vocabulary-remove" data-vocabulary-id="${htmlEscape(entry.id)}" aria-label="Remove ${htmlEscape(entry.lemma || entry.word)}">×</button>
+    </article>
+  `).join("");
+}
+
+function setVocabularyPanel(open) {
+  document.getElementById("vocabulary-panel")?.classList.toggle("hidden", !open);
+  document.getElementById("vocabulary-backdrop")?.classList.toggle("hidden", !open);
+  if (open) {
+    hideTooltip();
+    showFocusHeader(false);
+  }
+}
+
+function setupVocabulary() {
+  document.getElementById("vocabulary-btn")?.addEventListener("click", () => setVocabularyPanel(true));
+  document.getElementById("vocabulary-close")?.addEventListener("click", () => setVocabularyPanel(false));
+  document.getElementById("vocabulary-backdrop")?.addEventListener("click", () => setVocabularyPanel(false));
+  document.getElementById("vocabulary-list")?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-vocabulary-id]");
+    if (!button) return;
+    state.vocabulary = state.vocabulary.filter((entry) => entry.id !== button.dataset.vocabularyId);
+    saveVocabularyToStorage();
+    syncProgressToGist().catch((err) => console.log("Gist sync skipped:", err.message));
+  });
+  document.getElementById("export-vocabulary-csv")?.addEventListener("click", () => exportVocabulary("csv"));
+  document.getElementById("export-vocabulary-json")?.addEventListener("click", () => exportVocabulary("json"));
+}
+
+function downloadTextFile(filename, content, type) {
+  const url = URL.createObjectURL(new Blob([content], { type }));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportVocabulary(format) {
+  const entries = state.vocabulary || [];
+  if (format === "json") {
+    downloadTextFile("classics-vocabulary.json", JSON.stringify(entries, null, 2), "application/json");
+    return;
+  }
+
+  const fields = ["word", "lemma", "lang", "grammar", "en", "nl", "author", "work", "chapter", "addedAt"];
+  const csvCell = (value) => `"${String(value || "").replace(/"/g, '""')}"`;
+  const rows = [fields.map(csvCell), ...entries.map((entry) => fields.map((field) => csvCell(entry[field])))];
+  downloadTextFile("classics-vocabulary.csv", rows.map((row) => row.join(",")).join("\n"), "text/csv");
 }
 
 /* ─── Gist Sync ──────────────────────────────────────────────────────────── */
@@ -627,6 +823,7 @@ async function syncProgressToGist() {
     currentChapterIndex: state.currentChapterIndex,
     currentPageIndex: state.currentPageIndex,
     lastUpdated: new Date().toISOString(),
+    vocabulary: state.vocabulary,
     books: state.books.map((book, idx) => ({
       title: book.title,
       chaptersRead: idx === state.currentBookIndex ? state.currentChapterIndex : (book.chaptersRead || 0),
@@ -682,6 +879,12 @@ async function loadProgressFromGist() {
 
   if (progressData && progressData.classics) {
     const cl = progressData.classics;
+    if (Array.isArray(cl.vocabulary)) {
+      const localEntries = new Map((state.vocabulary || []).map((entry) => [entry.id, entry]));
+      cl.vocabulary.forEach((entry) => localEntries.set(entry.id, entry));
+      state.vocabulary = [...localEntries.values()];
+      saveVocabularyToStorage();
+    }
     if (cl.currentBookIndex !== undefined) {
       state.currentBookIndex = cl.currentBookIndex;
       state.currentChapterIndex = cl.currentChapterIndex || 0;

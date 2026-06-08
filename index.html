@@ -8,14 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260608-7">
+  <link rel="stylesheet" href="styles.css?v=20260608-8">
 </head>
 <body>
   <header class="app-header">
-    <button id="back-btn" class="btn" style="display: none; position: absolute; left: 16px;">← Bibliotheek</button>
-    <span style="font-size: 1.2rem; color: var(--accent);">🔥</span>
-    <span style="font-size: 1.2rem; font-weight: 700; font-family: 'Inter', sans-serif; letter-spacing: 0.5px;">Classics</span>
-    <span style="font-size: 0.8rem; color: var(--text-dim); font-family: 'Inter', sans-serif;">· Latijn · Grieks</span>
+    <button id="back-btn" class="btn header-back" style="display: none;">← Bibliotheek</button>
+    <div id="header-context" class="header-context">
+      <strong id="header-primary">Library</strong>
+      <span id="header-secondary">Latin · Greek</span>
+    </div>
+    <button id="vocabulary-btn" class="btn header-vocabulary" aria-controls="vocabulary-panel">
+      Words <span id="vocabulary-count">0</span>
+    </button>
   </header>
   
   <!-- Splash Screen: tesselated book selector -->
@@ -50,10 +54,26 @@
     <div class="tooltip-content" id="tooltip-content"></div>
   </div>
 
+  <aside id="vocabulary-panel" class="vocabulary-panel hidden" aria-label="Personal vocabulary">
+    <div class="vocabulary-panel-header">
+      <div>
+        <h2>My words</h2>
+        <p id="vocabulary-summary">0 saved words</p>
+      </div>
+      <button id="vocabulary-close" class="btn vocabulary-close" aria-label="Close vocabulary">×</button>
+    </div>
+    <div id="vocabulary-list" class="vocabulary-list"></div>
+    <div class="vocabulary-actions">
+      <button id="export-vocabulary-csv" class="btn">Export CSV</button>
+      <button id="export-vocabulary-json" class="btn">Export JSON</button>
+    </div>
+  </aside>
+  <div id="vocabulary-backdrop" class="vocabulary-backdrop hidden"></div>
+
   <script src="data.js?v=20260608-6"></script>
   <script src="generated/imported-books.js?v=20260608-13"></script>
   <script src="dictionary.js?v=20260608-6"></script>
   <script src="generated/imported-latin-dictionary.js?v=20260608-5"></script>
-  <script src="app.js?v=20260608-7"></script>
+  <script src="app.js?v=20260608-8"></script>
 </body>
 </html>
