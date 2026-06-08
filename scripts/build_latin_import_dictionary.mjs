@@ -281,7 +281,71 @@ const OVERRIDES = {
     lemma: "volo, velle, volui",
     en: "wishes; wants",
     grammar: "V PRES ACTIVE IND 3 S"
-  }
+  },
+  agrigentinum: { lemma: "Agrigentinus, Agrigentina, Agrigentinum", en: "of Agrigentum; Agrigentine", grammar: "ADJ ACC S M (proper name)" },
+  andria: { lemma: "Andria, Andriae", en: "The Woman of Andros; the Andria", grammar: "N NOM S F (title)" },
+  archyta: { lemma: "Archytas, Archytae", en: "Archytas", grammar: "N ABL S M (proper name)" },
+  audisse: { lemma: "audio, audire, audivi, auditus", en: "to have heard", grammar: "V PERF ACTIVE INF (syncopated)" },
+  blossius: { lemma: "Blossius, Blossii", en: "Blossius", grammar: "N NOM S M (proper name)" },
+  coruncanium: { lemma: "Coruncanius, Coruncanii", en: "Coruncanius", grammar: "N ACC S M (proper name)" },
+  cuiusdam: { lemma: "quidam, quaedam, quoddam", en: "of a certain person; of someone", grammar: "PRON GEN S" },
+  ennius: { lemma: "Ennius, Ennii", en: "Ennius", grammar: "N NOM S M (proper name)" },
+  errasse: { lemma: "erro, errare, erravi, erratus", en: "to have erred; to have gone astray", grammar: "V PERF ACTIVE INF (syncopated)" },
+  erudierunt: { lemma: "erudio, erudire, erudivi, eruditus", en: "they educated; they instructed", grammar: "V PERF ACTIVE IND 3 P" },
+  fanni: { lemma: "Fannius, Fannii", en: "of Fannius", grammar: "N GEN S M (proper name)" },
+  fannio: { lemma: "Fannius, Fannii", en: "Fannius", grammar: "N DAT/ABL S M (proper name)" },
+  fannius: { lemma: "Fannius, Fannii", en: "Fannius", grammar: "N NOM S M (proper name)" },
+  galos: { lemma: "Galus, Gali", en: "men named Galus", grammar: "N ACC P M (proper name)" },
+  galum: { lemma: "Galus, Gali", en: "Galus", grammar: "N ACC S M (proper name)" },
+  gnathonis: { lemma: "Gnatho, Gnathonis", en: "of Gnatho", grammar: "N GEN S M (proper name)" },
+  gnathonum: { lemma: "Gnatho, Gnathonis", en: "of men like Gnatho", grammar: "N GEN P M (proper name)" },
+  gracchi: { lemma: "Gracchus, Gracchi", en: "of Gracchus", grammar: "N GEN S M (proper name)" },
+  gracchum: { lemma: "Gracchus, Gracchi", en: "Gracchus", grammar: "N ACC S M (proper name)" },
+  gracchus: { lemma: "Gracchus, Gracchi", en: "Gracchus", grammar: "N NOM S M (proper name)" },
+  idemque: { lemma: "idem, eadem, idem", en: "the same, and; likewise", grammar: "PRON NOM S M + TACKON" },
+  inlusseris: { lemma: "inludo, inludere, inlusi, inlusus", en: "you have mocked; you have made sport of", grammar: "V PERF ACTIVE SUB 2 S" },
+  introieram: { lemma: "introeo, introire, introii, introitus", en: "I had entered", grammar: "V PLUP ACTIVE IND 1 S" },
+  laeli: { lemma: "Laelius, Laelii", en: "Laelius", grammar: "N VOC S M (proper name)" },
+  laelius: { lemma: "Laelius, Laelii", en: "Laelius", grammar: "N NOM S M (proper name)" },
+  lautissume: { lemma: "lautissime", en: "most splendidly; most elegantly", grammar: "ADV SUPER (archaic spelling)" },
+  licini: { lemma: "Licinius, Licinii", en: "of Licinius", grammar: "N GEN S M (proper name)" },
+  luscino: { lemma: "Luscinus, Luscini", en: "Luscinus", grammar: "N DAT/ABL S M (proper name)" },
+  lycomedem: { lemma: "Lycomedes, Lycomedis", en: "Lycomedes", grammar: "N ACC S M (proper name)" },
+  maelium: { lemma: "Maelius, Maelii", en: "Maelius", grammar: "N ACC S M (proper name)" },
+  mancino: { lemma: "Mancinus, Mancini", en: "Mancinus", grammar: "N DAT/ABL S M (proper name)" },
+  mummio: { lemma: "Mummius, Mummii", en: "Mummius", grammar: "N DAT/ABL S M (proper name)" },
+  mummium: { lemma: "Mummius, Mummii", en: "Mummius", grammar: "N ACC S M (proper name)" },
+  neoptolemus: { lemma: "Neoptolemus, Neoptolemi", en: "Neoptolemus", grammar: "N NOM S M (proper name)" },
+  norunt: { lemma: "nosco, noscere, novi, notus", en: "they know", grammar: "V PERF ACTIVE IND 3 P (syncopated)" },
+  optumus: { lemma: "optimus, optima, optimum", en: "best; excellent", grammar: "ADJ NOM S M SUPER (archaic spelling)" },
+  pacuvi: { lemma: "Pacuvius, Pacuvii", en: "of Pacuvius", grammar: "N GEN S M (proper name)" },
+  papirius: { lemma: "Papirius, Papirii", en: "Papirius", grammar: "N NOM S M (proper name)" },
+  papum: { lemma: "Papus, Papi", en: "Papus", grammar: "N ACC S M (proper name)" },
+  parasitorum: { lemma: "parasitus, parasiti", en: "of parasites; of flatterers", grammar: "N GEN P M" },
+  patribus: { lemma: "pater, patris", en: "to or among fathers; ancestors; senators", grammar: "N DAT/ABL P M" },
+  peccasse: { lemma: "pecco, peccare, peccavi, peccatus", en: "to have done wrong; to have sinned", grammar: "V PERF ACTIVE INF (syncopated)" },
+  phili: { lemma: "Philus, Phili", en: "of Philus", grammar: "N GEN S M (proper name)" },
+  philo: { lemma: "Philus, Phili", en: "Philus", grammar: "N DAT/ABL S M (proper name)" },
+  philos: { lemma: "Philus, Phili", en: "men named Philus", grammar: "N ACC P M (proper name)" },
+  philus: { lemma: "Philus, Phili", en: "Philus", grammar: "N NOM S M (proper name)" },
+  propensioresque: { lemma: "propensus, propensa, propensum", en: "more inclined, and; readier, and", grammar: "ADJ NOM P C COMP + TACKON" },
+  pylades: { lemma: "Pylades, Pyladis", en: "Pylades", grammar: "N NOM S M (proper name)" },
+  pyrrho: { lemma: "Pyrrhus, Pyrrhi", en: "Pyrrhus", grammar: "N DAT/ABL S M (proper name)" },
+  quandam: { lemma: "quidam, quaedam, quoddam", en: "a certain; some", grammar: "PRON ACC S F" },
+  rupilio: { lemma: "Rupilius, Rupilii", en: "Rupilius", grammar: "N DAT/ABL S M (proper name)" },
+  scaevola: { lemma: "Scaevola, Scaevolae", en: "Scaevola", grammar: "N NOM/ABL S M (proper name)" },
+  scaevolae: { lemma: "Scaevola, Scaevolae", en: "of or to Scaevola", grammar: "N GEN/DAT S M (proper name)" },
+  scaevolam: { lemma: "Scaevola, Scaevolae", en: "Scaevola", grammar: "N ACC S M (proper name)" },
+  tarentino: { lemma: "Tarentinus, Tarentina, Tarentinum", en: "of Tarentum; Tarentine", grammar: "ADJ DAT/ABL S M (proper name)" },
+  terentiano: { lemma: "Terentianus, Terentiana, Terentianum", en: "of Terence; Terentian", grammar: "ADJ DAT/ABL S M (proper name)" },
+  thais: { lemma: "Thais, Thaidis", en: "Thais", grammar: "N NOM S F (proper name)" },
+  themistocle: { lemma: "Themistocles, Themistoclis", en: "Themistocles", grammar: "N ABL S M (proper name)" },
+  timonem: { lemma: "Timon, Timonis", en: "Timon", grammar: "N ACC S M (proper name)" },
+  tyrannorum: { lemma: "tyrannus, tyranni", en: "of tyrants", grammar: "N GEN P M" },
+  vecellinum: { lemma: "Vecellinus, Vecellini", en: "Vecellinus", grammar: "N ACC S M (proper name)" },
+  vergini: { lemma: "Verginius, Verginii", en: "Verginius", grammar: "N DAT S M (proper name)" },
+  virosque: { lemma: "vir, viri", en: "men, and", grammar: "N ACC P M + TACKON" },
+  xx: { lemma: "viginti", en: "twenty", grammar: "NUM (Roman numeral)" }
 };
 
 function normalise(value) {
@@ -382,7 +446,20 @@ function entryFor(engine, word) {
 const baseKeys = existingKeys();
 const missing = importedLatinWords().filter((word) => !baseKeys.has(word) && !baseKeys.has(normalise(word)));
 const engine = createEngine();
-const entries = Object.fromEntries(missing.map((word) => [word, entryFor(engine, word)]));
+const entries = {};
+const unresolved = [];
+for (const word of missing) {
+  try {
+    entries[word] = entryFor(engine, word);
+  } catch {
+    unresolved.push(word);
+  }
+}
+if (unresolved.length) {
+  throw new Error(
+    `No Latin analysis for ${unresolved.length} form(s); add reviewed OVERRIDES entries:\n${unresolved.join("\n")}`
+  );
+}
 const payload = JSON.stringify(entries, null, 2);
 const output = [
   "// AUTO-GENERATED by scripts/build_latin_import_dictionary.mjs. Do not edit manually.",

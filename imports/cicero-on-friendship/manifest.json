@@ -1,0 +1,19 @@
+{
+  "id": "cicero-on-friendship",
+  "title": "Cicero - Laelius de Amicitia",
+  "shortTitle": "On friendship",
+  "author": "Cicero",
+  "year": -44,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Laelius de Amicitia - complete work",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: The Latin Library · EN: William Armistead Falconer, public domain, via Perseus",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://archive.org/details/desenectutedeami0000cice/page/108"
+    }
+  ]
+}
