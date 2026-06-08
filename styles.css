@@ -289,6 +289,16 @@ body {
   user-select: none;
 }
 
+.speaker-label {
+  margin-bottom: 6px;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
 .original-line {
   font-family: var(--font-reading);
   font-size: 1.45rem;

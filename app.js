@@ -251,10 +251,24 @@ function renderChapter() {
   ch.lines.forEach((line, lineIdx) => {
     const row = document.createElement("div");
     row.className = "chunk-row";
+    const currentLineNumber = startLine + lineIdx;
+    const speaker = ch.speakers?.find(({ start, end }) =>
+      currentLineNumber >= start && currentLineNumber <= end
+    );
+    const previousSpeaker = ch.speakers?.find(({ start, end }) =>
+      currentLineNumber - 1 >= start && currentLineNumber - 1 <= end
+    );
+
+    if (speaker && speaker.name !== previousSpeaker?.name) {
+      const speakerLabel = document.createElement("div");
+      speakerLabel.className = "speaker-label";
+      speakerLabel.textContent = speaker.name;
+      row.appendChild(speakerLabel);
+    }
 
     const lineNumber = document.createElement("span");
     lineNumber.className = "line-number";
-    lineNumber.textContent = startLine + lineIdx;
+    lineNumber.textContent = currentLineNumber;
     lineNumber.setAttribute("aria-hidden", "true");
     row.appendChild(lineNumber);
 
