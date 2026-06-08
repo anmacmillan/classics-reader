@@ -6,6 +6,7 @@ const state = {
   currentChapterIndex: 0,
   currentPageIndex: 0,
   totalPages: 1,
+  libraryAuthor: null,
 };
 
 const GIST_FILE = "slovo_progress.json";
@@ -29,7 +30,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const backBtn = document.getElementById("back-btn");
   if (backBtn) {
     backBtn.addEventListener("click", () => {
-      showLibrary();
+      if (document.getElementById("app-workspace").hasAttribute("hidden") && state.libraryAuthor) {
+        state.libraryAuthor = null;
+        renderLibrary();
+      } else {
+        showLibrary(state.books[state.currentBookIndex]?.author);
+      }
     });
   }
 
@@ -85,14 +91,12 @@ function saveProgressToStorage() {
 
 /* ─── Library / Splash ───────────────────────────────────────────────────── */
 
-function showLibrary() {
+function showLibrary(author = null) {
+  state.libraryAuthor = author;
   const splash = document.getElementById("splash-screen");
   const workspace = document.getElementById("app-workspace");
   if (splash) splash.removeAttribute("hidden");
   if (workspace) workspace.setAttribute("hidden", "");
-
-  const backBtn = document.getElementById("back-btn");
-  if (backBtn) backBtn.style.display = "none";
 
   // Save progress before returning to library
   if (state.currentBookIndex >= 0 && state.currentBookIndex < state.books.length) {
@@ -107,7 +111,24 @@ function renderLibrary() {
   if (!grid) return;
   grid.innerHTML = "";
 
+  const backBtn = document.getElementById("back-btn");
+  if (backBtn) {
+    backBtn.style.display = state.libraryAuthor ? "block" : "none";
+    backBtn.textContent = "← Authors";
+  }
+
+  if (!state.libraryAuthor) {
+    renderAuthorLibrary(grid);
+    return;
+  }
+
+  const heading = document.createElement("div");
+  heading.className = "catalogue-heading";
+  heading.innerHTML = `<h1>${state.libraryAuthor}</h1><p>${authorSummary(state.libraryAuthor)}</p>`;
+  grid.appendChild(heading);
+
   state.books.forEach((book, idx) => {
+    if (book.author !== state.libraryAuthor) return;
     const card = document.createElement("div");
     card.className = "book-card";
 
@@ -118,12 +139,15 @@ function renderLibrary() {
     const langIcon = book.lang === "latin" ? "\u{1F4DC}" : "\u{1F525}";
     const langLabel = book.lang === "latin" ? "Latijn" : "Grieks";
 
+    const displayTitle = workDisplayTitle(book);
+    const shortTitle = book.shortTitle ? `<p class="book-short-title">${book.shortTitle}</p>` : "";
+
     card.innerHTML = `
       <div class="book-icon">${langIcon}</div>
-      <h3>${book.title}</h3>
+      <h3>${displayTitle}</h3>
+      ${shortTitle}
       <div class="book-meta">
-        <span>${book.author}</span>
-        <span>· ${book.year < 0 ? Math.abs(book.year) + " v.Chr." : book.year}</span>
+        <span>${book.year < 0 ? Math.abs(book.year) + " v.Chr." : book.year}</span>
         <span>· ${totalCh} hoofdstuk${totalCh !== 1 ? "ken" : ""}</span>
       </div>
       <div class="book-progress">
@@ -145,6 +169,43 @@ function renderLibrary() {
   });
 }
 
+function renderAuthorLibrary(grid) {
+  const authors = [...new Set(state.books.map((book) => book.author))];
+  authors.forEach((author) => {
+    const works = state.books.filter((book) => book.author === author);
+    const card = document.createElement("div");
+    card.className = "book-card author-card";
+    const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latijn" : "Grieks"))];
+    const sections = works.reduce((total, book) => total + book.chapters.length, 0);
+
+    card.innerHTML = `
+      <div class="book-icon">${works[0].lang === "latin" ? "\u{1F4DC}" : "\u{1F525}"}</div>
+      <h3>${author}</h3>
+      <p class="author-work-count">${works.length} ${works.length === 1 ? "text" : "texts"}</p>
+      <div class="book-meta"><span>${languages.join(" · ")}</span><span>· ${sections} sections</span></div>
+    `;
+    card.addEventListener("click", () => {
+      state.libraryAuthor = author;
+      renderLibrary();
+    });
+    grid.appendChild(card);
+  });
+}
+
+function workDisplayTitle(book) {
+  const separators = [" — ", " - "];
+  for (const separator of separators) {
+    if (book.title.includes(separator)) return book.title.split(separator).slice(1).join(separator);
+  }
+  return book.title;
+}
+
+function authorSummary(author) {
+  const works = state.books.filter((book) => book.author === author);
+  const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latin" : "Greek"))];
+  return `${works.length} ${works.length === 1 ? "text" : "texts"} · ${languages.join(" · ")}`;
+}
+
 function selectBook(idx, chapterIndex) {
   const book = state.books[idx];
   const defaultChapterIndex = Number.isInteger(book.defaultChapterIndex)
@@ -163,7 +224,10 @@ function selectBook(idx, chapterIndex) {
   if (workspace) workspace.removeAttribute("hidden");
 
   const backBtn = document.getElementById("back-btn");
-  if (backBtn) backBtn.style.display = "block";
+  if (backBtn) {
+    backBtn.style.display = "block";
+    backBtn.textContent = `← ${book.author}`;
+  }
 
   // Populate chapter selector
   const chSelect = document.getElementById("chapter-select");

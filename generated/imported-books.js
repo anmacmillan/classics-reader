@@ -5,7 +5,7 @@ BOOKS.push(...[
   {
     "id": "seneca-letter-1",
     "title": "Seneca - Letter I",
-    "author": "Seneca",
+    "author": "Seneca the Younger",
     "year": 65,
     "lang": "latin",
     "chapters": [
@@ -30,12 +30,13 @@ BOOKS.push(...[
         "translationCreditLanguage": "Sources",
         "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1"
       }
-    ]
+    ],
+    "shortTitle": "On saving time"
   },
   {
     "id": "seneca-letter-2",
     "title": "Seneca - Letter II",
-    "author": "Seneca",
+    "author": "Seneca the Younger",
     "year": 65,
     "lang": "latin",
     "chapters": [
@@ -62,12 +63,13 @@ BOOKS.push(...[
         "translationCreditLanguage": "Sources",
         "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_2"
       }
-    ]
+    ],
+    "shortTitle": "On discursiveness in reading"
   },
   {
     "id": "seneca-letter-3",
     "title": "Seneca - Letter III",
-    "author": "Seneca",
+    "author": "Seneca the Younger",
     "year": 65,
     "lang": "latin",
     "chapters": [
@@ -94,12 +96,13 @@ BOOKS.push(...[
         "translationCreditLanguage": "Sources",
         "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_3"
       }
-    ]
+    ],
+    "shortTitle": "On true and false friendship"
   },
   {
     "id": "seneca-letter-4",
     "title": "Seneca - Letter IV",
-    "author": "Seneca",
+    "author": "Seneca the Younger",
     "year": 65,
     "lang": "latin",
     "chapters": [
@@ -136,12 +139,13 @@ BOOKS.push(...[
         "translationCreditLanguage": "Sources",
         "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_4"
       }
-    ]
+    ],
+    "shortTitle": "On the terrors of death"
   },
   {
     "id": "seneca-letter-5",
     "title": "Seneca - Letter V",
-    "author": "Seneca",
+    "author": "Seneca the Younger",
     "year": 65,
     "lang": "latin",
     "chapters": [
@@ -174,6 +178,7 @@ BOOKS.push(...[
         "translationCreditLanguage": "Sources",
         "translationUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_5"
       }
-    ]
+    ],
+    "shortTitle": "On the philosopher's mean"
   }
 ]);

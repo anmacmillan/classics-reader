@@ -89,6 +89,29 @@ body {
   margin: 0 auto;
 }
 
+.catalogue-heading {
+  grid-column: 1 / -1;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.catalogue-heading h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
+  color: var(--text-primary);
+}
+
+.catalogue-heading p,
+.author-work-count,
+.book-short-title {
+  color: var(--text-secondary);
+}
+
+.catalogue-heading p {
+  margin-top: 6px;
+  font-size: 0.85rem;
+}
+
 /* ─── Book Card (Tesselated) ──────────────────────────────────────────────── */
 
 .book-card {
@@ -130,6 +153,28 @@ body {
   font-size: 1.1rem;
   color: var(--text-primary);
   margin: 0;
+}
+
+.book-short-title {
+  min-height: 2.5em;
+  font-family: var(--font-reading);
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.author-card {
+  min-height: 190px;
+  justify-content: center;
+}
+
+.author-card h3 {
+  font-size: 1.35rem;
+}
+
+.author-work-count {
+  font-family: var(--font-reading);
+  font-size: 0.9rem;
 }
 
 .book-meta {
