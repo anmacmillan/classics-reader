@@ -381,11 +381,13 @@ function normaliseLookupKey(value) {
   return stripDiacritics(value)
     .toLowerCase()
     .replace(/['\u2019]/g, "")
-    .replace(/^\W+|\W+$/gu, "");
+    .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
 }
 
 function getDictionaryEntry(rawWord, lang) {
-  const original = String(rawWord || "").toLowerCase().replace(/^\W+|\W+$/gu, "");
+  const original = String(rawWord || "")
+    .toLowerCase()
+    .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
   const normalised = normaliseLookupKey(rawWord);
   const dict = lang === "greek" ? GREEK_DICT : LATIN_DICT;
   return dict[original] || dict[normalised] || null;
