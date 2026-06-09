@@ -4,8 +4,11 @@
 from __future__ import annotations
 
 import json
+import html
 import re
 import unicodedata
+import urllib.parse
+import urllib.request
 import zipfile
 from pathlib import Path
 
@@ -13,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = Path("/Users/alexandermacmillan/Downloads/doi-10.34894-totfgz.zip")
 OUTPUT = ROOT / "generated" / "imported-old-english-dictionary.js"
+SEARCH_URL = "https://oldenglishthesaurus.arts.gla.ac.uk/category-selection"
 
 
 def strip_diacritics(value: str) -> str:
@@ -87,6 +91,30 @@ def clean_gloss(entry: str, lemma: str) -> str:
     return text or "Old English word"
 
 
+def fetch_search_gloss(word: str) -> tuple[str, str] | None:
+    params = urllib.parse.urlencode({"word": word})
+    url = f"{SEARCH_URL}?{params}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=20) as response:
+        page = response.read().decode("utf-8", errors="replace")
+
+    # Prefer the first explicit "Word results" entry.
+    match = re.search(r"<h4 class=\"catList\">Word results:</h4>(.*?)<div id=\"recommended\">", page, flags=re.S)
+    if not match:
+        match = re.search(r"<h4 class=\"catList\">Word results:</h4>(.*)</div>\s*</div>\s*<div class=\"clear\">", page, flags=re.S)
+    if not match:
+        return None
+
+    block = match.group(1)
+    item = re.search(r"<p class=\"cat(?:Odd|Even)\">.*?<span class=\"small\">([^<]+)</span><br />.*?<b>([^<]+)</b>", block, flags=re.S)
+    if not item:
+        return None
+
+    category = html.unescape(item.group(1)).strip()
+    label = html.unescape(item.group(2)).strip()
+    return category, label
+
+
 def main() -> int:
     if not ARCHIVE.exists():
         raise SystemExit(f"Missing archive: {ARCHIVE}")
@@ -95,6 +123,7 @@ def main() -> int:
         data = json.loads(zf.read("Beowulf_Thesaurus_1.0.json"))
 
     entries: dict[str, dict[str, str]] = {}
+    unresolved: set[str] = set()
     for page_entries in data.values():
         for item in page_entries:
             lemma = str(item.get("lemma", "") or "").strip()
@@ -115,6 +144,37 @@ def main() -> int:
             add_entry(entries, compact, value)
             for alias in alias_forms(lemma):
                 add_entry(entries, alias, value)
+
+    # Limited online fill for unresolved forms, using the site's own search endpoint.
+    # This keeps the traffic bounded and only queries entries still missing after the
+    # local thesaurus pass.
+    unresolved_words = []
+    seen = set(entries)
+    for page_entries in data.values():
+        for item in page_entries:
+            lemma = str(item.get("lemma", "") or "").strip()
+            if not lemma:
+                continue
+            for alias in alias_forms(lemma):
+                if alias in seen or alias in unresolved:
+                    continue
+                unresolved.add(alias)
+                unresolved_words.append(alias)
+    unresolved_words = unresolved_words[:250]
+
+    for word in unresolved_words:
+        try:
+            result = fetch_search_gloss(word)
+        except Exception:
+            result = None
+        if not result:
+            continue
+        category, label = result
+        add_entry(entries, word, {
+            "def": f"See TOE category {category}: {label}",
+            "grammar": "TOE",
+            "lemma": word,
+        })
 
     payload = json.dumps(entries, ensure_ascii=False, indent=2, sort_keys=True)
     OUTPUT.write_text(
