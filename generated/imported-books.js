@@ -5,7 +5,7 @@ BOOKS.push(...[
   {
     "id": "beowulf",
     "title": "Beowulf",
-    "author": "Anonymous",
+    "author": "The Beowulf Poet",
     "year": 1000,
     "lang": "old_english",
     "chapters": [
