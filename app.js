@@ -14,13 +14,20 @@ let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
 let activeVocabularyCandidate;
+let oldEnglishLookupCache = {};
+try {
+  oldEnglishLookupCache = JSON.parse(localStorage.getItem(STORAGE_KEYS.OLD_ENGLISH_CACHE) || "{}") || {};
+} catch {
+  oldEnglishLookupCache = {};
+}
 
 const STORAGE_KEYS = {
   PROGRESS: "classics_book_progress",
   GIST_ID: "slovo_gist_id",
   GIST_FILE: "slovo_progress.json",
   VOCABULARY: "classics_personal_vocabulary",
-  THEME: "classics_theme"
+  THEME: "classics_theme",
+  OLD_ENGLISH_CACHE: "classics_old_english_toe_cache"
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -559,6 +566,37 @@ function getDictionaryEntry(rawWord, lang) {
   return dict[original] || dict[normalised] || null;
 }
 
+function saveOldEnglishLookupCache() {
+  localStorage.setItem(STORAGE_KEYS.OLD_ENGLISH_CACHE, JSON.stringify(oldEnglishLookupCache));
+}
+
+async function lookupOldEnglishTOE(rawWord) {
+  const key = normaliseLookupKey(rawWord);
+  if (!key) return null;
+  if (oldEnglishLookupCache[key]) return oldEnglishLookupCache[key];
+
+  const url = `https://oldenglishthesaurus.arts.gla.ac.uk/category-selection?word=${encodeURIComponent(rawWord)}`;
+  const res = await fetch(url, { credentials: "omit" });
+  if (!res.ok) return null;
+  const html = await res.text();
+  const match = html.match(/<h4 class="catList">Word results:<\/h4>([\s\S]*?)<div id="jump">/i) ||
+                html.match(/<h4 class="catList">Word results:<\/h4>([\s\S]*?)<div id="footer">/i);
+  if (!match) return null;
+  const block = match[1];
+  const item = block.match(/<p class="cat(?:Odd|Even)">[\s\S]*?<span class="small">([^<]+)<\/span>[\s\S]*?<b>([^<]+)<\/b>/i);
+  if (!item) return null;
+  const category = item[1].replace(/\s+/g, " ").trim();
+  const label = item[2].replace(/\s+/g, " ").trim();
+  const entry = {
+    lemma: rawWord,
+    def: `${category}: ${label}`,
+    grammar: "TOE",
+  };
+  oldEnglishLookupCache[key] = entry;
+  saveOldEnglishLookupCache();
+  return entry;
+}
+
 function splitIntoWordAndPunctuation(token) {
   const match = String(token).match(/^(\P{L}*)([\p{L}\p{M}]+(?:['\u2019][\p{L}\p{M}]+)?)(\P{L}*)$/u);
   if (!match) {
@@ -615,6 +653,35 @@ function setupWordHover() {
       grammar || "Grammatica onbekend",
       activeVocabularyCandidate
     );
+
+    if (!en && lang === "old_english") {
+      lookupOldEnglishTOE(rawWord).then((entry) => {
+        if (!entry) return;
+        if (wordSpan.getAttribute("data-word") !== rawWord) return;
+        wordSpan.setAttribute("data-lemma", entry.lemma || rawWord);
+        wordSpan.setAttribute("data-en", entry.def || "");
+        wordSpan.setAttribute("data-grammar", entry.grammar || "TOE");
+        if (wordSpan.classList.contains("selected-word")) {
+          activeVocabularyCandidate = vocabularyEntryFor(
+            rawWord,
+            entry.lemma || rawWord,
+            entry.def || "",
+            "",
+            entry.grammar || "TOE",
+            lang
+          );
+          showTooltip(
+            wordSpan,
+            rawWord,
+            entry.lemma || rawWord,
+            entry.def || "",
+            "",
+            entry.grammar || "TOE",
+            activeVocabularyCandidate
+          );
+        }
+      }).catch(() => {});
+    }
   };
 
   document.addEventListener("mouseover", (e) => {
