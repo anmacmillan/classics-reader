@@ -1,0 +1,19 @@
+{
+  "id": "isotta-nogarola",
+  "title": "Isotta Nogarola - On the Equal or Unequal Sin of Eve and Adam",
+  "shortTitle": "On Eve and Adam",
+  "author": "Isotta Nogarola",
+  "year": 1451,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "De pari aut impari Evae atque Adae peccato",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Wikisource; EN: working translation generated for the reader",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://la.wikisource.org/wiki/De_pari_aut_impari_Evae_atque_Adae_peccato"
+    }
+  ]
+}

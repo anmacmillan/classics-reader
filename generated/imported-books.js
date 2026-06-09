@@ -6623,6 +6623,47 @@ BOOKS.push(...[
     "shortTitle": "On friendship"
   },
   {
+    "id": "isotta-nogarola",
+    "title": "Isotta Nogarola - On the Equal or Unequal Sin of Eve and Adam",
+    "author": "Isotta Nogarola",
+    "year": 1451,
+    "lang": "latin",
+    "chapters": [
+      {
+        "title": "De pari aut impari Evae atque Adae peccato",
+        "startLine": 1,
+        "lines": [
+          "Si qua tamen peccati gravitas maior esse potest, Eva damnabilior fuit, quia a iusto iudice duriori poena damnata, quia Dei se similem fieri magis credidit.",
+          "Quod ad species irremissibilium peccatorum in Spiritum Sanctum accedit, quia suggessit et fuit causa peccati Adae, non e contra.",
+          "Item quia, licet turpis sit excusatio amici causa peccare, nulla tamen tolerabilior qua ductus est Adam.",
+          "Mihi autem, postquam me provocas, longe aliter contraque videtur; nam ubi minor sensus minorque constantia, ibi minus peccatum; et hoc in Eva, ergo minus peccavit.",
+          "Unde hoc cognoscens serpens ille callidus initium tentationis sumpsit a femina, dubitans quidem hominem propter constantiam non posse superari.",
+          "Stans coram femina, hostis antiquus non est ausus in verba persuasionis prorumpere, sed sub interrogatione eam alloquitur.",
+          "Cur praecepit vobis Deus ne comederetis de ligno paradisi? At illa: Ne forte moriamur.",
+          "Videns autem diabolus eam de verbis domini dubitare, inquit: Nequaquam moriemini, sed eritis sicut dii, scientes bonum et malum.",
+          "Nec videtur id fecisse mulierem quia Dei similem se fieri magis crediderit, sed propter fragilitatem potius et voluptatem.",
+          "Et nisi Adam comedisset, peccatum ultra progressum non fuisset."
+        ],
+        "translationEn": [
+          "Yet if there can be a greater gravity of sin, Eve was more blameworthy, because she was condemned by a just judge to a harsher penalty and because she believed herself more strongly to be made like God.",
+          "That too borders on the class of sins not easily pardoned, because she prompted Adam and was the cause of his sin, not the other way round.",
+          "Also because, although it is a shameful excuse to sin for a friend’s sake, still there is none more tolerable than the one by which Adam was led.",
+          "But to me, since you challenge me, the matter seems quite otherwise and contrary; for where there is less sense and less steadiness, there is less sin, and this was so in Eve, therefore she sinned less.",
+          "Knowing this, that crafty serpent took the first step of temptation from the woman, doubting indeed that a man could not be overcome because of his constancy.",
+          "Standing before the woman, the ancient enemy did not dare break into words of persuasion, but addressed her with a question.",
+          "Why has God commanded you not to eat of the tree of paradise? And she: Lest perhaps we die.",
+          "But when the devil saw her wavering over the Lord’s words, he said: You shall certainly not die, but you shall be like gods, knowing good and evil.",
+          "Nor does it seem that the woman did this because she believed herself more strongly to be made like God, but rather because of weakness and desire.",
+          "And unless Adam had eaten, the sin would not have gone further."
+        ],
+        "translationCredit": "Latin: Wikisource; EN: working translation generated for the reader",
+        "translationCreditLanguage": "Sources",
+        "translationUrl": "https://la.wikisource.org/wiki/De_pari_aut_impari_Evae_atque_Adae_peccato"
+      }
+    ],
+    "shortTitle": "On Eve and Adam"
+  },
+  {
     "id": "petrarch-cicero",
     "title": "Petrarch - To Cicero",
     "author": "Francesco Petrarch",
