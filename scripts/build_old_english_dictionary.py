@@ -24,6 +24,59 @@ def normalise_key(value: str) -> str:
     return strip_diacritics(value.lower()).replace("’", "").replace("'", "")
 
 
+def add_entry(entries: dict[str, dict[str, str]], key: str, value: dict[str, str]) -> None:
+    if not key:
+        return
+    if key not in entries or len(value["def"]) < len(entries[key]["def"]):
+        entries[key] = value
+
+
+def alias_forms(lemma: str) -> set[str]:
+    base = normalise_key(lemma)
+    forms = {base}
+    forms.add(base.replace("-", ""))
+    forms.add(base.replace("-", " "))
+    if base.endswith("an"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("on"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("en"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("um"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("a"):
+        forms.add(base[:-1])
+        forms.add(base[:-1] + "e")
+    if base.endswith("e"):
+        forms.add(base[:-1])
+    if base.endswith("as"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("es"):
+        forms.add(base[:-2])
+        forms.add(base[:-2] + "e")
+    if base.endswith("ne"):
+        forms.add(base[:-2])
+    if base.endswith("re"):
+        forms.add(base[:-2])
+    if base.endswith("de"):
+        forms.add(base[:-2])
+    if base.endswith("te"):
+        forms.add(base[:-2])
+    if base.endswith("ig"):
+        forms.add(base[:-2] + "e")
+    if base.endswith("ra"):
+        forms.add(base[:-2] + "re")
+        forms.add(base[:-2])
+    if base.endswith("um") and "-" in base:
+        forms.add(base.replace("-", ""))
+    return {f for f in forms if f}
+
+
 def clean_gloss(entry: str, lemma: str) -> str:
     text = entry.replace("\n", " ").strip()
     text = re.sub(rf"^\s*{re.escape(lemma)}\s*,\s*", "", text, flags=re.IGNORECASE)
@@ -57,12 +110,11 @@ def main() -> int:
                 "grammar": grammar,
                 "lemma": lemma,
             }
-            if key not in entries or len(gloss) < len(entries[key]["def"]):
-                entries[key] = value
-
+            add_entry(entries, key, value)
             compact = normalise_key(strip_diacritics(lemma).replace(" ", ""))
-            if compact and compact not in entries:
-                entries[compact] = value
+            add_entry(entries, compact, value)
+            for alias in alias_forms(lemma):
+                add_entry(entries, alias, value)
 
     payload = json.dumps(entries, ensure_ascii=False, indent=2, sort_keys=True)
     OUTPUT.write_text(

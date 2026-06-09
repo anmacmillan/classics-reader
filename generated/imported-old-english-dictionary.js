@@ -2,6 +2,36 @@
 // Source: Beowulf Thesaurus archive.
 
 const OLD_ENGLISH_DICT = {
+  "(e)aldor bealu": {
+    "def": "injury to life, death",
+    "grammar": "nwa.",
+    "lemma": "(e)aldor-bealu"
+  },
+  "(e)aldor cearu": {
+    "def": "life-CARE, great sorrow",
+    "grammar": "f.",
+    "lemma": "(e)aldor-cearu"
+  },
+  "(e)aldor dagas": {
+    "def": "DAYS of life",
+    "grammar": "m.",
+    "lemma": "(e)aldor-dagas"
+  },
+  "(e)aldor gedal": {
+    "def": "separation from life, death",
+    "grammar": "n.",
+    "lemma": "(e)aldor-ġedāl"
+  },
+  "(e)aldor leas": {
+    "def": "‡lord-LESS, lacking a king",
+    "grammar": "adj.",
+    "lemma": "(e)aldor-lēas"
+  },
+  "(e)aldor þegn": {
+    "def": "chief THEGN",
+    "grammar": "m.",
+    "lemma": "(e)aldor-þeġn"
+  },
   "(e)aldor-bealu": {
     "def": "injury to life, death",
     "grammar": "nwa.",
@@ -12,7 +42,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "(e)aldor-cearu"
   },
+  "(e)aldor-dag": {
+    "def": "DAYS of life",
+    "grammar": "m.",
+    "lemma": "(e)aldor-dagas"
+  },
   "(e)aldor-dagas": {
+    "def": "DAYS of life",
+    "grammar": "m.",
+    "lemma": "(e)aldor-dagas"
+  },
+  "(e)aldor-dage": {
     "def": "DAYS of life",
     "grammar": "m.",
     "lemma": "(e)aldor-dagas"
@@ -22,7 +62,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "(e)aldor-ġedāl"
   },
+  "(e)aldor-le": {
+    "def": "‡lord-LESS, lacking a king",
+    "grammar": "adj.",
+    "lemma": "(e)aldor-lēas"
+  },
   "(e)aldor-leas": {
+    "def": "‡lord-LESS, lacking a king",
+    "grammar": "adj.",
+    "lemma": "(e)aldor-lēas"
+  },
+  "(e)aldor-lee": {
     "def": "‡lord-LESS, lacking a king",
     "grammar": "adj.",
     "lemma": "(e)aldor-lēas"
@@ -32,22 +82,322 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "(e)aldor-þeġn"
   },
+  "(e)aldorbealu": {
+    "def": "injury to life, death",
+    "grammar": "nwa.",
+    "lemma": "(e)aldor-bealu"
+  },
+  "(e)aldorcearu": {
+    "def": "life-CARE, great sorrow",
+    "grammar": "f.",
+    "lemma": "(e)aldor-cearu"
+  },
+  "(e)aldordagas": {
+    "def": "DAYS of life",
+    "grammar": "m.",
+    "lemma": "(e)aldor-dagas"
+  },
+  "(e)aldorgedal": {
+    "def": "separation from life, death",
+    "grammar": "n.",
+    "lemma": "(e)aldor-ġedāl"
+  },
+  "(e)aldorleas": {
+    "def": "‡lord-LESS, lacking a king",
+    "grammar": "adj.",
+    "lemma": "(e)aldor-lēas"
+  },
+  "(e)aldorþegn": {
+    "def": "chief THEGN",
+    "grammar": "m.",
+    "lemma": "(e)aldor-þeġn"
+  },
+  "(ge )beacnian": {
+    "def": "point out, show",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)bēacnian"
+  },
+  "(ge )belgan": {
+    "def": "offend, 2331",
+    "grammar": "vb. 3",
+    "lemma": "(ġe-)belgan"
+  },
+  "(ge )bætan": {
+    "def": "BIT, (saddle?)",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)bǣtan"
+  },
+  "(ge )ceapian": {
+    "def": "purchase",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)ċēapian"
+  },
+  "(ge )driht ": {
+    "def": "see (ġe-)dryht-",
+    "grammar": "",
+    "lemma": "(ġe-)driht-"
+  },
+  "(ge )eawan": {
+    "def": "see (ġe-)ӯwan",
+    "grammar": "",
+    "lemma": "(ġe-)ēawan"
+  },
+  "(ge )endian": {
+    "def": "2311",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)endian"
+  },
+  "(ge )eode": {
+    "def": "see (ġe-)gān",
+    "grammar": "",
+    "lemma": "(ġe-)ēode"
+  },
+  "(ge )fandian": {
+    "def": "test, tamper with (w",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)fandian"
+  },
+  "(ge )feng": {
+    "def": "see (ġe-)fōn",
+    "grammar": "",
+    "lemma": "(ġe-)fēng"
+  },
+  "(ge )feormian": {
+    "def": "eat up",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)feormian"
+  },
+  "(ge )flуman": {
+    "def": "846, 1370",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)flӯman"
+  },
+  "(ge )frægn": {
+    "def": "see (ġe-)friġnan",
+    "grammar": "",
+    "lemma": "(ġe-)fræġn"
+  },
+  "(ge )fyrðran": {
+    "def": "advance, impel",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)fyrðran"
+  },
+  "(ge )fуsan": {
+    "def": "impel, incite",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)fӯsan"
+  },
+  "(ge )gongan": {
+    "def": "see (ġe-)gangan",
+    "grammar": "",
+    "lemma": "(ġe-)gongan"
+  },
+  "(ge )hogode": {
+    "def": "see (ġe-)hycgan",
+    "grammar": "",
+    "lemma": "(ġe-)hogode"
+  },
+  "(ge )niwian": {
+    "def": "1303, 1322, ġenīwad, 2287 (n",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)nīwian"
+  },
+  "(ge )nуdan": {
+    "def": "force",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)nӯdan"
+  },
+  "(ge )rуman": {
+    "def": "vacate, yield",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)rӯman"
+  },
+  "(ge )sc(e)op": {
+    "def": "see (ġe-)scyppan",
+    "grammar": "",
+    "lemma": "(ġe-)sc(e)ōp"
+  },
+  "(ge )scod": {
+    "def": "see (ġe-)sceþðan",
+    "grammar": "",
+    "lemma": "(ġe-)scōd"
+  },
+  "(ge )wergian": {
+    "def": "fatigue",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)wērgian"
+  },
+  "(ge)beacnian": {
+    "def": "point out, show",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)bēacnian"
+  },
+  "(ge)belgan": {
+    "def": "offend, 2331",
+    "grammar": "vb. 3",
+    "lemma": "(ġe-)belgan"
+  },
+  "(ge)bætan": {
+    "def": "BIT, (saddle?)",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)bǣtan"
+  },
+  "(ge)ceapian": {
+    "def": "purchase",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)ċēapian"
+  },
+  "(ge)driht": {
+    "def": "see (ġe-)dryht-",
+    "grammar": "",
+    "lemma": "(ġe-)driht-"
+  },
+  "(ge)eawan": {
+    "def": "see (ġe-)ӯwan",
+    "grammar": "",
+    "lemma": "(ġe-)ēawan"
+  },
+  "(ge)endian": {
+    "def": "2311",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)endian"
+  },
+  "(ge)eode": {
+    "def": "see (ġe-)gān",
+    "grammar": "",
+    "lemma": "(ġe-)ēode"
+  },
+  "(ge)fandian": {
+    "def": "test, tamper with (w",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)fandian"
+  },
+  "(ge)feng": {
+    "def": "see (ġe-)fōn",
+    "grammar": "",
+    "lemma": "(ġe-)fēng"
+  },
+  "(ge)feormian": {
+    "def": "eat up",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)feormian"
+  },
+  "(ge)flуman": {
+    "def": "846, 1370",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)flӯman"
+  },
+  "(ge)frægn": {
+    "def": "see (ġe-)friġnan",
+    "grammar": "",
+    "lemma": "(ġe-)fræġn"
+  },
+  "(ge)fyrðran": {
+    "def": "advance, impel",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)fyrðran"
+  },
+  "(ge)fуsan": {
+    "def": "impel, incite",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)fӯsan"
+  },
+  "(ge)gongan": {
+    "def": "see (ġe-)gangan",
+    "grammar": "",
+    "lemma": "(ġe-)gongan"
+  },
+  "(ge)hogode": {
+    "def": "see (ġe-)hycgan",
+    "grammar": "",
+    "lemma": "(ġe-)hogode"
+  },
+  "(ge)niwian": {
+    "def": "1303, 1322, ġenīwad, 2287 (n",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)nīwian"
+  },
+  "(ge)nуdan": {
+    "def": "force",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)nӯdan"
+  },
+  "(ge)rуman": {
+    "def": "vacate, yield",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)rӯman"
+  },
+  "(ge)sc(e)op": {
+    "def": "see (ġe-)scyppan",
+    "grammar": "",
+    "lemma": "(ġe-)sc(e)ōp"
+  },
+  "(ge)scod": {
+    "def": "see (ġe-)sceþðan",
+    "grammar": "",
+    "lemma": "(ġe-)scōd"
+  },
+  "(ge)wergian": {
+    "def": "fatigue",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)wērgian"
+  },
+  "(ge-)beacni": {
+    "def": "point out, show",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)bēacnian"
+  },
   "(ge-)beacnian": {
     "def": "point out, show",
     "grammar": "vb. II",
     "lemma": "(ġe-)bēacnian"
+  },
+  "(ge-)beacnie": {
+    "def": "point out, show",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)bēacnian"
+  },
+  "(ge-)belg": {
+    "def": "offend, 2331",
+    "grammar": "vb. 3",
+    "lemma": "(ġe-)belgan"
   },
   "(ge-)belgan": {
     "def": "offend, 2331",
     "grammar": "vb. 3",
     "lemma": "(ġe-)belgan"
   },
+  "(ge-)belge": {
+    "def": "offend, 2331",
+    "grammar": "vb. 3",
+    "lemma": "(ġe-)belgan"
+  },
+  "(ge-)bæt": {
+    "def": "BIT, (saddle?)",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)bǣtan"
+  },
   "(ge-)bætan": {
     "def": "BIT, (saddle?)",
     "grammar": "vb. I",
     "lemma": "(ġe-)bǣtan"
   },
+  "(ge-)bæte": {
+    "def": "BIT, (saddle?)",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)bǣtan"
+  },
+  "(ge-)ceapi": {
+    "def": "purchase",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)ċēapian"
+  },
   "(ge-)ceapian": {
+    "def": "purchase",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)ċēapian"
+  },
+  "(ge-)ceapie": {
     "def": "purchase",
     "grammar": "vb. II",
     "lemma": "(ġe-)ċēapian"
@@ -57,22 +407,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "(ġe-)driht-"
   },
+  "(ge-)eaw": {
+    "def": "see (ġe-)ӯwan",
+    "grammar": "",
+    "lemma": "(ġe-)ēawan"
+  },
   "(ge-)eawan": {
     "def": "see (ġe-)ӯwan",
     "grammar": "",
     "lemma": "(ġe-)ēawan"
+  },
+  "(ge-)eawe": {
+    "def": "see (ġe-)ӯwan",
+    "grammar": "",
+    "lemma": "(ġe-)ēawan"
+  },
+  "(ge-)endi": {
+    "def": "2311",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)endian"
   },
   "(ge-)endian": {
     "def": "2311",
     "grammar": "vb. II",
     "lemma": "(ġe-)endian"
   },
+  "(ge-)endie": {
+    "def": "2311",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)endian"
+  },
+  "(ge-)eo": {
+    "def": "see (ġe-)gān",
+    "grammar": "",
+    "lemma": "(ġe-)ēode"
+  },
+  "(ge-)eod": {
+    "def": "see (ġe-)gān",
+    "grammar": "",
+    "lemma": "(ġe-)ēode"
+  },
   "(ge-)eode": {
     "def": "see (ġe-)gān",
     "grammar": "",
     "lemma": "(ġe-)ēode"
   },
+  "(ge-)fandi": {
+    "def": "test, tamper with (w",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)fandian"
+  },
   "(ge-)fandian": {
+    "def": "test, tamper with (w",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)fandian"
+  },
+  "(ge-)fandie": {
     "def": "test, tamper with (w",
     "grammar": "vb. II",
     "lemma": "(ġe-)fandian"
@@ -82,12 +472,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "(ġe-)fēng"
   },
+  "(ge-)feormi": {
+    "def": "eat up",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)feormian"
+  },
   "(ge-)feormian": {
     "def": "eat up",
     "grammar": "vb. II",
     "lemma": "(ġe-)feormian"
   },
+  "(ge-)feormie": {
+    "def": "eat up",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)feormian"
+  },
+  "(ge-)flуm": {
+    "def": "846, 1370",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)flӯman"
+  },
   "(ge-)flуman": {
+    "def": "846, 1370",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)flӯman"
+  },
+  "(ge-)flуme": {
     "def": "846, 1370",
     "grammar": "vb.  I",
     "lemma": "(ġe-)flӯman"
@@ -97,37 +507,107 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "(ġe-)fræġn"
   },
+  "(ge-)fyrðr": {
+    "def": "advance, impel",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)fyrðran"
+  },
   "(ge-)fyrðran": {
     "def": "advance, impel",
     "grammar": "vb. I",
     "lemma": "(ġe-)fyrðran"
+  },
+  "(ge-)fyrðre": {
+    "def": "advance, impel",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)fyrðran"
+  },
+  "(ge-)fуs": {
+    "def": "impel, incite",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)fӯsan"
   },
   "(ge-)fуsan": {
     "def": "impel, incite",
     "grammar": "vb.  I",
     "lemma": "(ġe-)fӯsan"
   },
+  "(ge-)fуse": {
+    "def": "impel, incite",
+    "grammar": "vb.  I",
+    "lemma": "(ġe-)fӯsan"
+  },
+  "(ge-)gong": {
+    "def": "see (ġe-)gangan",
+    "grammar": "",
+    "lemma": "(ġe-)gongan"
+  },
   "(ge-)gongan": {
     "def": "see (ġe-)gangan",
     "grammar": "",
     "lemma": "(ġe-)gongan"
+  },
+  "(ge-)gonge": {
+    "def": "see (ġe-)gangan",
+    "grammar": "",
+    "lemma": "(ġe-)gongan"
+  },
+  "(ge-)hogo": {
+    "def": "see (ġe-)hycgan",
+    "grammar": "",
+    "lemma": "(ġe-)hogode"
+  },
+  "(ge-)hogod": {
+    "def": "see (ġe-)hycgan",
+    "grammar": "",
+    "lemma": "(ġe-)hogode"
   },
   "(ge-)hogode": {
     "def": "see (ġe-)hycgan",
     "grammar": "",
     "lemma": "(ġe-)hogode"
   },
+  "(ge-)niwi": {
+    "def": "1303, 1322, ġenīwad, 2287 (n",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)nīwian"
+  },
   "(ge-)niwian": {
     "def": "1303, 1322, ġenīwad, 2287 (n",
     "grammar": "vb. II",
     "lemma": "(ġe-)nīwian"
+  },
+  "(ge-)niwie": {
+    "def": "1303, 1322, ġenīwad, 2287 (n",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)nīwian"
+  },
+  "(ge-)nуd": {
+    "def": "force",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)nӯdan"
   },
   "(ge-)nуdan": {
     "def": "force",
     "grammar": "vb. I",
     "lemma": "(ġe-)nӯdan"
   },
+  "(ge-)nуde": {
+    "def": "force",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)nӯdan"
+  },
+  "(ge-)rуm": {
+    "def": "vacate, yield",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)rӯman"
+  },
   "(ge-)rуman": {
+    "def": "vacate, yield",
+    "grammar": "vb. I",
+    "lemma": "(ġe-)rӯman"
+  },
+  "(ge-)rуme": {
     "def": "vacate, yield",
     "grammar": "vb. I",
     "lemma": "(ġe-)rӯman"
@@ -142,7 +622,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "(ġe-)scōd"
   },
+  "(ge-)wergi": {
+    "def": "fatigue",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)wērgian"
+  },
   "(ge-)wergian": {
+    "def": "fatigue",
+    "grammar": "vb. II",
+    "lemma": "(ġe-)wērgian"
+  },
+  "(ge-)wergie": {
     "def": "fatigue",
     "grammar": "vb. II",
     "lemma": "(ġe-)wērgian"
@@ -157,112 +647,552 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ā"
   },
+  "a ": {
+    "def": "OHG ir- (: ̄ur-), NHG er- (: ur-)",
+    "grammar": "prefix",
+    "lemma": "ā-"
+  },
+  "a belgan": {
+    "def": "2280",
+    "grammar": "vb.  3",
+    "lemma": "ā-belgan"
+  },
+  "a beodan": {
+    "def": "390 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-bēodan"
+  },
+  "a bidan": {
+    "def": "await, ABIDE",
+    "grammar": "vb. 1",
+    "lemma": "ā-bīdan"
+  },
+  "a brecan": {
+    "def": "break",
+    "grammar": "vb. 4",
+    "lemma": "ā-brecan"
+  },
+  "a bredwian": {
+    "def": "kill",
+    "grammar": "vb. II",
+    "lemma": "ā-bredwian"
+  },
+  "a bregdan": {
+    "def": "raise",
+    "grammar": "vb. 3",
+    "lemma": "ā-breġdan"
+  },
+  "a breotan": {
+    "def": "destroy, cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "ā-brēotan"
+  },
+  "a bugan": {
+    "def": "775 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-būgan"
+  },
+  "a cennan": {
+    "def": "bear",
+    "grammar": "vb.  I",
+    "lemma": "ā-cennan"
+  },
+  "a cigan": {
+    "def": "summon",
+    "grammar": "vb. I",
+    "lemma": "ā-ċīġan"
+  },
+  "a cwellan": {
+    "def": "886, 1055, 2121",
+    "grammar": "vb.  I",
+    "lemma": "ā-cwellan"
+  },
+  "a cweðan": {
+    "def": "utter",
+    "grammar": "vb. 5",
+    "lemma": "ā-cweðan"
+  },
+  "a dreogan": {
+    "def": "vb",
+    "grammar": "vb. 2",
+    "lemma": "ā-drēogan"
+  },
+  "a fedan": {
+    "def": "bring up",
+    "grammar": "vb. I",
+    "lemma": "ā-fēdan"
+  },
+  "a fyllan": {
+    "def": "with)",
+    "grammar": "vb. I",
+    "lemma": "ā-fyllan"
+  },
+  "a galan": {
+    "def": "1521",
+    "grammar": "vb. 6",
+    "lemma": "ā-galan"
+  },
+  "a gangan": {
+    "def": "happen (to, dat",
+    "grammar": "vb. 7",
+    "lemma": "ā-gangan"
+  },
+  "a gifan": {
+    "def": "2929",
+    "grammar": "vb. 5",
+    "lemma": "ā-ġifan"
+  },
+  "a gyldan": {
+    "def": "make pos-sible",
+    "grammar": "vb. 3",
+    "lemma": "ā-ġyldan"
+  },
+  "a hebban": {
+    "def": "lift, extract",
+    "grammar": "vb. 6",
+    "lemma": "ā-hebban"
+  },
+  "a hleapan": {
+    "def": "1397",
+    "grammar": "vb. 7",
+    "lemma": "ā-hlēapan"
+  },
+  "a hli(e)hhan(a hlæhhan)": {
+    "def": "LAUGH, exult",
+    "grammar": "vb.  6",
+    "lemma": "ā-hli(e)hhan(ā-hlæhhan)"
+  },
+  "a hreddan": {
+    "def": "2930",
+    "grammar": "vb.  I",
+    "lemma": "ā-hreddan"
+  },
+  "a hyrdan": {
+    "def": "1460",
+    "grammar": "vb. I",
+    "lemma": "ā-hyrdan"
+  },
+  "a lecgan": {
+    "def": "lay down",
+    "grammar": "vb. I",
+    "lemma": "ā-lecgan"
+  },
+  "a leh": {
+    "def": "see ā-lēogan",
+    "grammar": "",
+    "lemma": "ā-lēh"
+  },
+  "a leogan": {
+    "def": "fail to perform or leave unfulfilled (a promise)",
+    "grammar": "vb. 2",
+    "lemma": "ā-lēogan"
+  },
+  "a licgan": {
+    "def": "fail, cease",
+    "grammar": "vb. 5",
+    "lemma": "ā-licgan"
+  },
+  "a limpan": {
+    "def": "occur, arise, come (to pass)",
+    "grammar": "vb. 3",
+    "lemma": "ā-limpan"
+  },
+  "a lætan": {
+    "def": "give up",
+    "grammar": "vb. 7",
+    "lemma": "ā-lǣtan"
+  },
+  "a lуfan": {
+    "def": "grant, entrust",
+    "grammar": "vb. I",
+    "lemma": "ā-lӯfan"
+  },
+  "a lуsan": {
+    "def": "take off, pp",
+    "grammar": "vb.  I",
+    "lemma": "ā-lӯsan"
+  },
+  "a nyman( niman)": {
+    "def": "take away",
+    "grammar": "vb.  4",
+    "lemma": "ā-nyman(-niman)"
+  },
+  "a risan": {
+    "def": "ARISE (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-rīsan"
+  },
+  "a ræran": {
+    "def": "establish, exalt",
+    "grammar": "vb. I",
+    "lemma": "ā-rǣran"
+  },
+  "a secgan": {
+    "def": "declare",
+    "grammar": "vb. III",
+    "lemma": "ā-secgan"
+  },
+  "a settan": {
+    "def": "place, appoint",
+    "grammar": "vb. I",
+    "lemma": "ā-settan"
+  },
+  "a singan": {
+    "def": "1159",
+    "grammar": "vb. 3",
+    "lemma": "ā-singan"
+  },
+  "a standan": {
+    "def": "get up",
+    "grammar": "vb. 6",
+    "lemma": "ā-standan"
+  },
+  "a stigan": {
+    "def": "arise (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-stīgan"
+  },
+  "a swebban": {
+    "def": "(put to sleep), kill",
+    "grammar": "vb. I",
+    "lemma": "ā-swebban"
+  },
+  "a teon": {
+    "def": "take a journey",
+    "grammar": "vb. 2",
+    "lemma": "ā-tēon"
+  },
+  "a wrecan": {
+    "def": "tell",
+    "grammar": "vb. 5",
+    "lemma": "ā-wrecan"
+  },
+  "a wyrdan": {
+    "def": "destroy",
+    "grammar": "vb.  I",
+    "lemma": "ā-wyrdan"
+  },
+  "a ðencan": {
+    "def": "intend",
+    "grammar": "vb. I",
+    "lemma": "ā-ðenċan"
+  },
   "a-": {
     "def": "OHG ir- (: ̄ur-), NHG er- (: ur-)",
     "grammar": "prefix",
     "lemma": "ā-"
+  },
+  "a-belg": {
+    "def": "2280",
+    "grammar": "vb.  3",
+    "lemma": "ā-belgan"
   },
   "a-belgan": {
     "def": "2280",
     "grammar": "vb.  3",
     "lemma": "ā-belgan"
   },
+  "a-belge": {
+    "def": "2280",
+    "grammar": "vb.  3",
+    "lemma": "ā-belgan"
+  },
+  "a-beod": {
+    "def": "390 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-bēodan"
+  },
   "a-beodan": {
     "def": "390 (n",
     "grammar": "vb. 2",
     "lemma": "ā-bēodan"
+  },
+  "a-beode": {
+    "def": "390 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-bēodan"
+  },
+  "a-bid": {
+    "def": "await, ABIDE",
+    "grammar": "vb. 1",
+    "lemma": "ā-bīdan"
   },
   "a-bidan": {
     "def": "await, ABIDE",
     "grammar": "vb. 1",
     "lemma": "ā-bīdan"
   },
+  "a-bide": {
+    "def": "await, ABIDE",
+    "grammar": "vb. 1",
+    "lemma": "ā-bīdan"
+  },
+  "a-brec": {
+    "def": "break",
+    "grammar": "vb. 4",
+    "lemma": "ā-brecan"
+  },
   "a-brecan": {
     "def": "break",
     "grammar": "vb. 4",
     "lemma": "ā-brecan"
+  },
+  "a-brece": {
+    "def": "break",
+    "grammar": "vb. 4",
+    "lemma": "ā-brecan"
+  },
+  "a-bredwi": {
+    "def": "kill",
+    "grammar": "vb. II",
+    "lemma": "ā-bredwian"
   },
   "a-bredwian": {
     "def": "kill",
     "grammar": "vb. II",
     "lemma": "ā-bredwian"
   },
+  "a-bredwie": {
+    "def": "kill",
+    "grammar": "vb. II",
+    "lemma": "ā-bredwian"
+  },
+  "a-bregd": {
+    "def": "raise",
+    "grammar": "vb. 3",
+    "lemma": "ā-breġdan"
+  },
   "a-bregdan": {
     "def": "raise",
     "grammar": "vb. 3",
     "lemma": "ā-breġdan"
+  },
+  "a-bregde": {
+    "def": "raise",
+    "grammar": "vb. 3",
+    "lemma": "ā-breġdan"
+  },
+  "a-breot": {
+    "def": "destroy, cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "ā-brēotan"
   },
   "a-breotan": {
     "def": "destroy, cut down, kill",
     "grammar": "vb. 2",
     "lemma": "ā-brēotan"
   },
+  "a-breote": {
+    "def": "destroy, cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "ā-brēotan"
+  },
+  "a-bug": {
+    "def": "775 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-būgan"
+  },
   "a-bugan": {
     "def": "775 (n",
     "grammar": "vb. 2",
     "lemma": "ā-būgan"
+  },
+  "a-buge": {
+    "def": "775 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-būgan"
+  },
+  "a-cenn": {
+    "def": "bear",
+    "grammar": "vb.  I",
+    "lemma": "ā-cennan"
   },
   "a-cennan": {
     "def": "bear",
     "grammar": "vb.  I",
     "lemma": "ā-cennan"
   },
+  "a-cenne": {
+    "def": "bear",
+    "grammar": "vb.  I",
+    "lemma": "ā-cennan"
+  },
+  "a-cig": {
+    "def": "summon",
+    "grammar": "vb. I",
+    "lemma": "ā-ċīġan"
+  },
   "a-cigan": {
     "def": "summon",
     "grammar": "vb. I",
     "lemma": "ā-ċīġan"
+  },
+  "a-cige": {
+    "def": "summon",
+    "grammar": "vb. I",
+    "lemma": "ā-ċīġan"
+  },
+  "a-cwell": {
+    "def": "886, 1055, 2121",
+    "grammar": "vb.  I",
+    "lemma": "ā-cwellan"
   },
   "a-cwellan": {
     "def": "886, 1055, 2121",
     "grammar": "vb.  I",
     "lemma": "ā-cwellan"
   },
+  "a-cwelle": {
+    "def": "886, 1055, 2121",
+    "grammar": "vb.  I",
+    "lemma": "ā-cwellan"
+  },
+  "a-cweð": {
+    "def": "utter",
+    "grammar": "vb. 5",
+    "lemma": "ā-cweðan"
+  },
   "a-cweðan": {
     "def": "utter",
     "grammar": "vb. 5",
     "lemma": "ā-cweðan"
+  },
+  "a-cweðe": {
+    "def": "utter",
+    "grammar": "vb. 5",
+    "lemma": "ā-cweðan"
+  },
+  "a-dreog": {
+    "def": "vb",
+    "grammar": "vb. 2",
+    "lemma": "ā-drēogan"
   },
   "a-dreogan": {
     "def": "vb",
     "grammar": "vb. 2",
     "lemma": "ā-drēogan"
   },
+  "a-dreoge": {
+    "def": "vb",
+    "grammar": "vb. 2",
+    "lemma": "ā-drēogan"
+  },
+  "a-fed": {
+    "def": "bring up",
+    "grammar": "vb. I",
+    "lemma": "ā-fēdan"
+  },
   "a-fedan": {
     "def": "bring up",
     "grammar": "vb. I",
     "lemma": "ā-fēdan"
+  },
+  "a-fede": {
+    "def": "bring up",
+    "grammar": "vb. I",
+    "lemma": "ā-fēdan"
+  },
+  "a-fyll": {
+    "def": "with)",
+    "grammar": "vb. I",
+    "lemma": "ā-fyllan"
   },
   "a-fyllan": {
     "def": "with)",
     "grammar": "vb. I",
     "lemma": "ā-fyllan"
   },
+  "a-fylle": {
+    "def": "with)",
+    "grammar": "vb. I",
+    "lemma": "ā-fyllan"
+  },
+  "a-gal": {
+    "def": "1521",
+    "grammar": "vb. 6",
+    "lemma": "ā-galan"
+  },
   "a-galan": {
     "def": "1521",
     "grammar": "vb. 6",
     "lemma": "ā-galan"
+  },
+  "a-gale": {
+    "def": "1521",
+    "grammar": "vb. 6",
+    "lemma": "ā-galan"
+  },
+  "a-gang": {
+    "def": "happen (to, dat",
+    "grammar": "vb. 7",
+    "lemma": "ā-gangan"
   },
   "a-gangan": {
     "def": "happen (to, dat",
     "grammar": "vb. 7",
     "lemma": "ā-gangan"
   },
+  "a-gange": {
+    "def": "happen (to, dat",
+    "grammar": "vb. 7",
+    "lemma": "ā-gangan"
+  },
+  "a-gif": {
+    "def": "2929",
+    "grammar": "vb. 5",
+    "lemma": "ā-ġifan"
+  },
   "a-gifan": {
     "def": "2929",
     "grammar": "vb. 5",
     "lemma": "ā-ġifan"
+  },
+  "a-gife": {
+    "def": "2929",
+    "grammar": "vb. 5",
+    "lemma": "ā-ġifan"
+  },
+  "a-gyld": {
+    "def": "make pos-sible",
+    "grammar": "vb. 3",
+    "lemma": "ā-ġyldan"
   },
   "a-gyldan": {
     "def": "make pos-sible",
     "grammar": "vb. 3",
     "lemma": "ā-ġyldan"
   },
+  "a-gylde": {
+    "def": "make pos-sible",
+    "grammar": "vb. 3",
+    "lemma": "ā-ġyldan"
+  },
+  "a-hebb": {
+    "def": "lift, extract",
+    "grammar": "vb. 6",
+    "lemma": "ā-hebban"
+  },
   "a-hebban": {
     "def": "lift, extract",
     "grammar": "vb. 6",
     "lemma": "ā-hebban"
   },
+  "a-hebbe": {
+    "def": "lift, extract",
+    "grammar": "vb. 6",
+    "lemma": "ā-hebban"
+  },
+  "a-hleap": {
+    "def": "1397",
+    "grammar": "vb. 7",
+    "lemma": "ā-hlēapan"
+  },
   "a-hleapan": {
+    "def": "1397",
+    "grammar": "vb. 7",
+    "lemma": "ā-hlēapan"
+  },
+  "a-hleape": {
     "def": "1397",
     "grammar": "vb. 7",
     "lemma": "ā-hlēapan"
@@ -272,17 +1202,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  6",
     "lemma": "ā-hli(e)hhan(ā-hlæhhan)"
   },
+  "a-hredd": {
+    "def": "2930",
+    "grammar": "vb.  I",
+    "lemma": "ā-hreddan"
+  },
   "a-hreddan": {
     "def": "2930",
     "grammar": "vb.  I",
     "lemma": "ā-hreddan"
+  },
+  "a-hredde": {
+    "def": "2930",
+    "grammar": "vb.  I",
+    "lemma": "ā-hreddan"
+  },
+  "a-hyrd": {
+    "def": "1460",
+    "grammar": "vb. I",
+    "lemma": "ā-hyrdan"
   },
   "a-hyrdan": {
     "def": "1460",
     "grammar": "vb. I",
     "lemma": "ā-hyrdan"
   },
+  "a-hyrde": {
+    "def": "1460",
+    "grammar": "vb. I",
+    "lemma": "ā-hyrdan"
+  },
+  "a-lecg": {
+    "def": "lay down",
+    "grammar": "vb. I",
+    "lemma": "ā-lecgan"
+  },
   "a-lecgan": {
+    "def": "lay down",
+    "grammar": "vb. I",
+    "lemma": "ā-lecgan"
+  },
+  "a-lecge": {
     "def": "lay down",
     "grammar": "vb. I",
     "lemma": "ā-lecgan"
@@ -292,32 +1252,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ā-lēh"
   },
+  "a-leog": {
+    "def": "fail to perform or leave unfulfilled (a promise)",
+    "grammar": "vb. 2",
+    "lemma": "ā-lēogan"
+  },
   "a-leogan": {
     "def": "fail to perform or leave unfulfilled (a promise)",
     "grammar": "vb. 2",
     "lemma": "ā-lēogan"
+  },
+  "a-leoge": {
+    "def": "fail to perform or leave unfulfilled (a promise)",
+    "grammar": "vb. 2",
+    "lemma": "ā-lēogan"
+  },
+  "a-licg": {
+    "def": "fail, cease",
+    "grammar": "vb. 5",
+    "lemma": "ā-licgan"
   },
   "a-licgan": {
     "def": "fail, cease",
     "grammar": "vb. 5",
     "lemma": "ā-licgan"
   },
+  "a-licge": {
+    "def": "fail, cease",
+    "grammar": "vb. 5",
+    "lemma": "ā-licgan"
+  },
+  "a-limp": {
+    "def": "occur, arise, come (to pass)",
+    "grammar": "vb. 3",
+    "lemma": "ā-limpan"
+  },
   "a-limpan": {
     "def": "occur, arise, come (to pass)",
     "grammar": "vb. 3",
     "lemma": "ā-limpan"
+  },
+  "a-limpe": {
+    "def": "occur, arise, come (to pass)",
+    "grammar": "vb. 3",
+    "lemma": "ā-limpan"
+  },
+  "a-læt": {
+    "def": "give up",
+    "grammar": "vb. 7",
+    "lemma": "ā-lǣtan"
   },
   "a-lætan": {
     "def": "give up",
     "grammar": "vb. 7",
     "lemma": "ā-lǣtan"
   },
+  "a-læte": {
+    "def": "give up",
+    "grammar": "vb. 7",
+    "lemma": "ā-lǣtan"
+  },
+  "a-lуf": {
+    "def": "grant, entrust",
+    "grammar": "vb. I",
+    "lemma": "ā-lӯfan"
+  },
   "a-lуfan": {
     "def": "grant, entrust",
     "grammar": "vb. I",
     "lemma": "ā-lӯfan"
   },
+  "a-lуfe": {
+    "def": "grant, entrust",
+    "grammar": "vb. I",
+    "lemma": "ā-lӯfan"
+  },
+  "a-lуs": {
+    "def": "take off, pp",
+    "grammar": "vb.  I",
+    "lemma": "ā-lӯsan"
+  },
   "a-lуsan": {
+    "def": "take off, pp",
+    "grammar": "vb.  I",
+    "lemma": "ā-lӯsan"
+  },
+  "a-lуse": {
     "def": "take off, pp",
     "grammar": "vb.  I",
     "lemma": "ā-lӯsan"
@@ -327,77 +1347,267 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  4",
     "lemma": "ā-nyman(-niman)"
   },
+  "a-ris": {
+    "def": "ARISE (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-rīsan"
+  },
   "a-risan": {
     "def": "ARISE (lit",
     "grammar": "vb. 1",
     "lemma": "ā-rīsan"
+  },
+  "a-rise": {
+    "def": "ARISE (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-rīsan"
+  },
+  "a-rær": {
+    "def": "establish, exalt",
+    "grammar": "vb. I",
+    "lemma": "ā-rǣran"
   },
   "a-ræran": {
     "def": "establish, exalt",
     "grammar": "vb. I",
     "lemma": "ā-rǣran"
   },
+  "a-rære": {
+    "def": "establish, exalt",
+    "grammar": "vb. I",
+    "lemma": "ā-rǣran"
+  },
+  "a-secg": {
+    "def": "declare",
+    "grammar": "vb. III",
+    "lemma": "ā-secgan"
+  },
   "a-secgan": {
     "def": "declare",
     "grammar": "vb. III",
     "lemma": "ā-secgan"
+  },
+  "a-secge": {
+    "def": "declare",
+    "grammar": "vb. III",
+    "lemma": "ā-secgan"
+  },
+  "a-sett": {
+    "def": "place, appoint",
+    "grammar": "vb. I",
+    "lemma": "ā-settan"
   },
   "a-settan": {
     "def": "place, appoint",
     "grammar": "vb. I",
     "lemma": "ā-settan"
   },
+  "a-sette": {
+    "def": "place, appoint",
+    "grammar": "vb. I",
+    "lemma": "ā-settan"
+  },
+  "a-sing": {
+    "def": "1159",
+    "grammar": "vb. 3",
+    "lemma": "ā-singan"
+  },
   "a-singan": {
     "def": "1159",
     "grammar": "vb. 3",
     "lemma": "ā-singan"
+  },
+  "a-singe": {
+    "def": "1159",
+    "grammar": "vb. 3",
+    "lemma": "ā-singan"
+  },
+  "a-stand": {
+    "def": "get up",
+    "grammar": "vb. 6",
+    "lemma": "ā-standan"
   },
   "a-standan": {
     "def": "get up",
     "grammar": "vb. 6",
     "lemma": "ā-standan"
   },
+  "a-stande": {
+    "def": "get up",
+    "grammar": "vb. 6",
+    "lemma": "ā-standan"
+  },
+  "a-stig": {
+    "def": "arise (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-stīgan"
+  },
   "a-stigan": {
     "def": "arise (lit",
     "grammar": "vb. 1",
     "lemma": "ā-stīgan"
+  },
+  "a-stige": {
+    "def": "arise (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-stīgan"
+  },
+  "a-swebb": {
+    "def": "(put to sleep), kill",
+    "grammar": "vb. I",
+    "lemma": "ā-swebban"
   },
   "a-swebban": {
     "def": "(put to sleep), kill",
     "grammar": "vb. I",
     "lemma": "ā-swebban"
   },
+  "a-swebbe": {
+    "def": "(put to sleep), kill",
+    "grammar": "vb. I",
+    "lemma": "ā-swebban"
+  },
+  "a-te": {
+    "def": "take a journey",
+    "grammar": "vb. 2",
+    "lemma": "ā-tēon"
+  },
+  "a-tee": {
+    "def": "take a journey",
+    "grammar": "vb. 2",
+    "lemma": "ā-tēon"
+  },
   "a-teon": {
     "def": "take a journey",
     "grammar": "vb. 2",
     "lemma": "ā-tēon"
+  },
+  "a-wrec": {
+    "def": "tell",
+    "grammar": "vb. 5",
+    "lemma": "ā-wrecan"
   },
   "a-wrecan": {
     "def": "tell",
     "grammar": "vb. 5",
     "lemma": "ā-wrecan"
   },
+  "a-wrece": {
+    "def": "tell",
+    "grammar": "vb. 5",
+    "lemma": "ā-wrecan"
+  },
+  "a-wyrd": {
+    "def": "destroy",
+    "grammar": "vb.  I",
+    "lemma": "ā-wyrdan"
+  },
   "a-wyrdan": {
     "def": "destroy",
     "grammar": "vb.  I",
     "lemma": "ā-wyrdan"
+  },
+  "a-wyrde": {
+    "def": "destroy",
+    "grammar": "vb.  I",
+    "lemma": "ā-wyrdan"
+  },
+  "a-ðenc": {
+    "def": "intend",
+    "grammar": "vb. I",
+    "lemma": "ā-ðenċan"
   },
   "a-ðencan": {
     "def": "intend",
     "grammar": "vb. I",
     "lemma": "ā-ðenċan"
   },
+  "a-ðence": {
+    "def": "intend",
+    "grammar": "vb. I",
+    "lemma": "ā-ðenċan"
+  },
+  "abelgan": {
+    "def": "2280",
+    "grammar": "vb.  3",
+    "lemma": "ā-belgan"
+  },
+  "abeodan": {
+    "def": "390 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-bēodan"
+  },
+  "abidan": {
+    "def": "await, ABIDE",
+    "grammar": "vb. 1",
+    "lemma": "ā-bīdan"
+  },
+  "abrecan": {
+    "def": "break",
+    "grammar": "vb. 4",
+    "lemma": "ā-brecan"
+  },
+  "abredwian": {
+    "def": "kill",
+    "grammar": "vb. II",
+    "lemma": "ā-bredwian"
+  },
+  "abregdan": {
+    "def": "raise",
+    "grammar": "vb. 3",
+    "lemma": "ā-breġdan"
+  },
+  "abreotan": {
+    "def": "destroy, cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "ā-brēotan"
+  },
+  "abugan": {
+    "def": "775 (n",
+    "grammar": "vb. 2",
+    "lemma": "ā-būgan"
+  },
   "ac": {
     "def": "1448)",
     "grammar": "conj.",
     "lemma": "ac"
+  },
+  "acennan": {
+    "def": "bear",
+    "grammar": "vb.  I",
+    "lemma": "ā-cennan"
+  },
+  "acigan": {
+    "def": "summon",
+    "grammar": "vb. I",
+    "lemma": "ā-ċīġan"
+  },
+  "acwellan": {
+    "def": "886, 1055, 2121",
+    "grammar": "vb.  I",
+    "lemma": "ā-cwellan"
+  },
+  "acweðan": {
+    "def": "utter",
+    "grammar": "vb. 5",
+    "lemma": "ā-cweðan"
   },
   "ad": {
     "def": "funeral pile or fire",
     "grammar": "m.",
     "lemma": "ād"
   },
+  "ad faru": {
+    "def": "way to (onto) the funeral pile",
+    "grammar": "f.",
+    "lemma": "ād-faru"
+  },
   "ad-faru": {
+    "def": "way to (onto) the funeral pile",
+    "grammar": "f.",
+    "lemma": "ād-faru"
+  },
+  "adfaru": {
     "def": "way to (onto) the funeral pile",
     "grammar": "f.",
     "lemma": "ād-faru"
@@ -406,6 +1616,41 @@ const OLD_ENGLISH_DICT = {
     "def": "disease",
     "grammar": "f.",
     "lemma": "ādl"
+  },
+  "adreogan": {
+    "def": "vb",
+    "grammar": "vb. 2",
+    "lemma": "ā-drēogan"
+  },
+  "afedan": {
+    "def": "bring up",
+    "grammar": "vb. I",
+    "lemma": "ā-fēdan"
+  },
+  "afyllan": {
+    "def": "with)",
+    "grammar": "vb. I",
+    "lemma": "ā-fyllan"
+  },
+  "ag": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "āgen"
+  },
+  "ag læc wif": {
+    "def": "troublemaker, female adversary",
+    "grammar": "n.",
+    "lemma": "āg-lǣċ-wīf"
+  },
+  "ag læca": {
+    "def": "wk",
+    "grammar": "",
+    "lemma": "āg-lǣċa"
+  },
+  "ag-læc": {
+    "def": "wk",
+    "grammar": "",
+    "lemma": "āg-lǣċa"
   },
   "ag-læc-wif": {
     "def": "troublemaker, female adversary",
@@ -417,10 +1662,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "āg-lǣċa"
   },
+  "ag-læce": {
+    "def": "wk",
+    "grammar": "",
+    "lemma": "āg-lǣċa"
+  },
+  "agalan": {
+    "def": "1521",
+    "grammar": "vb. 6",
+    "lemma": "ā-galan"
+  },
   "agan": {
     "def": "have",
     "grammar": "prp.",
     "lemma": "āgan"
+  },
+  "agangan": {
+    "def": "happen (to, dat",
+    "grammar": "vb. 7",
+    "lemma": "ā-gangan"
+  },
+  "age": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "āgen"
   },
   "agen": {
     "def": "adj",
@@ -432,20 +1697,100 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "āgend"
   },
+  "agend frea": {
+    "def": "lord",
+    "grammar": "wk.",
+    "lemma": "āgend-frēa"
+  },
+  "agend-fre": {
+    "def": "lord",
+    "grammar": "wk.",
+    "lemma": "āgend-frēa"
+  },
   "agend-frea": {
     "def": "lord",
     "grammar": "wk.",
     "lemma": "āgend-frēa"
+  },
+  "agend-free": {
+    "def": "lord",
+    "grammar": "wk.",
+    "lemma": "āgend-frēa"
+  },
+  "agendfrea": {
+    "def": "lord",
+    "grammar": "wk.",
+    "lemma": "āgend-frēa"
+  },
+  "agifan": {
+    "def": "2929",
+    "grammar": "vb. 5",
+    "lemma": "ā-ġifan"
+  },
+  "aglæca": {
+    "def": "wk",
+    "grammar": "",
+    "lemma": "āg-lǣċa"
+  },
+  "aglæcwif": {
+    "def": "troublemaker, female adversary",
+    "grammar": "n.",
+    "lemma": "āg-lǣċ-wīf"
+  },
+  "agyldan": {
+    "def": "make pos-sible",
+    "grammar": "vb. 3",
+    "lemma": "ā-ġyldan"
   },
   "ah": {
     "def": "āhte, see āgan",
     "grammar": "",
     "lemma": "āh"
   },
+  "ah læca": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "āh-lǣċa"
+  },
+  "ah-læc": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "āh-lǣċa"
+  },
   "ah-læca": {
     "def": "see āg-lǣċa",
     "grammar": "",
     "lemma": "āh-lǣċa"
+  },
+  "ah-læce": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "āh-lǣċa"
+  },
+  "ahebban": {
+    "def": "lift, extract",
+    "grammar": "vb. 6",
+    "lemma": "ā-hebban"
+  },
+  "ahleapan": {
+    "def": "1397",
+    "grammar": "vb. 7",
+    "lemma": "ā-hlēapan"
+  },
+  "ahli(e)hhan(ahlæhhan)": {
+    "def": "LAUGH, exult",
+    "grammar": "vb.  6",
+    "lemma": "ā-hli(e)hhan(ā-hlæhhan)"
+  },
+  "ahlæca": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "āh-lǣċa"
+  },
+  "ahreddan": {
+    "def": "2930",
+    "grammar": "vb.  I",
+    "lemma": "ā-hreddan"
   },
   "ahsian(ascian)": {
     "def": "ASK, go in search of, seek",
@@ -457,20 +1802,170 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "āht"
   },
+  "ahyrdan": {
+    "def": "1460",
+    "grammar": "vb. I",
+    "lemma": "ā-hyrdan"
+  },
+  "al walda": {
+    "def": "omnipotent (one), God",
+    "grammar": "wk.",
+    "lemma": "al-walda"
+  },
+  "al-wald": {
+    "def": "omnipotent (one), God",
+    "grammar": "wk.",
+    "lemma": "al-walda"
+  },
   "al-walda": {
     "def": "omnipotent (one), God",
     "grammar": "wk.",
     "lemma": "al-walda"
+  },
+  "al-walde": {
+    "def": "omnipotent (one), God",
+    "grammar": "wk.",
+    "lemma": "al-walda"
+  },
+  "aldor( )": {
+    "def": "see ealdor(-)",
+    "grammar": "",
+    "lemma": "aldor(-)"
+  },
+  "aldor()": {
+    "def": "see ealdor(-)",
+    "grammar": "",
+    "lemma": "aldor(-)"
   },
   "aldor(-)": {
     "def": "see ealdor(-)",
     "grammar": "",
     "lemma": "aldor(-)"
   },
+  "alecgan": {
+    "def": "lay down",
+    "grammar": "vb. I",
+    "lemma": "ā-lecgan"
+  },
+  "aleh": {
+    "def": "see ā-lēogan",
+    "grammar": "",
+    "lemma": "ā-lēh"
+  },
+  "aleogan": {
+    "def": "fail to perform or leave unfulfilled (a promise)",
+    "grammar": "vb. 2",
+    "lemma": "ā-lēogan"
+  },
+  "alicgan": {
+    "def": "fail, cease",
+    "grammar": "vb. 5",
+    "lemma": "ā-licgan"
+  },
+  "alimpan": {
+    "def": "occur, arise, come (to pass)",
+    "grammar": "vb. 3",
+    "lemma": "ā-limpan"
+  },
+  "alwalda": {
+    "def": "omnipotent (one), God",
+    "grammar": "wk.",
+    "lemma": "al-walda"
+  },
+  "alætan": {
+    "def": "give up",
+    "grammar": "vb. 7",
+    "lemma": "ā-lǣtan"
+  },
+  "alуfan": {
+    "def": "grant, entrust",
+    "grammar": "vb. I",
+    "lemma": "ā-lӯfan"
+  },
+  "alуsan": {
+    "def": "take off, pp",
+    "grammar": "vb.  I",
+    "lemma": "ā-lӯsan"
+  },
   "an": {
     "def": "prep",
     "grammar": "prep.",
     "lemma": "an"
+  },
+  "an ": {
+    "def": "prefix, see also on-",
+    "grammar": "prefix",
+    "lemma": "an-"
+  },
+  "an feald": {
+    "def": "simple, plain",
+    "grammar": "adj.",
+    "lemma": "ān-feald"
+  },
+  "an geat": {
+    "def": "see on-ġitan",
+    "grammar": "",
+    "lemma": "an-ġeat"
+  },
+  "an genga": {
+    "def": "one who goes alONE, solitary one (Grendel)",
+    "grammar": "wk.",
+    "lemma": "ān-genġa"
+  },
+  "an gyldan": {
+    "def": "pay (a pen-alty) for",
+    "grammar": "vb. 3",
+    "lemma": "an-ġyldan"
+  },
+  "an haga": {
+    "def": "solitary being, loner",
+    "grammar": "wk.",
+    "lemma": "ān-haga"
+  },
+  "an har": {
+    "def": "very HOARy",
+    "grammar": "adj.",
+    "lemma": "an-hār"
+  },
+  "an hуdig": {
+    "def": "resolute, strong-minded",
+    "grammar": "adj.",
+    "lemma": "ān-hӯdiġ"
+  },
+  "an pæð": {
+    "def": "ONE-by-one PATH, narrow path (Bu",
+    "grammar": "m.",
+    "lemma": "ān-pæð"
+  },
+  "an ræd": {
+    "def": "1575",
+    "grammar": "adj.",
+    "lemma": "ān-rǣd"
+  },
+  "an sund": {
+    "def": "uninjured",
+    "grammar": "adj.",
+    "lemma": "an-sund"
+  },
+  "an sуn": {
+    "def": "form, sight",
+    "grammar": "fi.",
+    "lemma": "an-sӯn"
+  },
+  "an tid": {
+    "def": "fixed or appropriate time, time when something is due",
+    "grammar": "fi.",
+    "lemma": "ān-tīd"
+  },
+  "an walda": {
+    "def": "God",
+    "grammar": "wk.",
+    "lemma": "an-walda"
+  },
+  "an wig gearo": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "an-wīġ-ġearo"
   },
   "an-": {
     "def": "prefix, see also on-",
@@ -487,17 +1982,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "an-ġeat"
   },
+  "an-geng": {
+    "def": "one who goes alONE, solitary one (Grendel)",
+    "grammar": "wk.",
+    "lemma": "ān-genġa"
+  },
   "an-genga": {
     "def": "one who goes alONE, solitary one (Grendel)",
     "grammar": "wk.",
     "lemma": "ān-genġa"
+  },
+  "an-genge": {
+    "def": "one who goes alONE, solitary one (Grendel)",
+    "grammar": "wk.",
+    "lemma": "ān-genġa"
+  },
+  "an-gyld": {
+    "def": "pay (a pen-alty) for",
+    "grammar": "vb. 3",
+    "lemma": "an-ġyldan"
   },
   "an-gyldan": {
     "def": "pay (a pen-alty) for",
     "grammar": "vb. 3",
     "lemma": "an-ġyldan"
   },
+  "an-gylde": {
+    "def": "pay (a pen-alty) for",
+    "grammar": "vb. 3",
+    "lemma": "an-ġyldan"
+  },
+  "an-hag": {
+    "def": "solitary being, loner",
+    "grammar": "wk.",
+    "lemma": "ān-haga"
+  },
   "an-haga": {
+    "def": "solitary being, loner",
+    "grammar": "wk.",
+    "lemma": "ān-haga"
+  },
+  "an-hage": {
     "def": "solitary being, loner",
     "grammar": "wk.",
     "lemma": "ān-haga"
@@ -506,6 +2031,11 @@ const OLD_ENGLISH_DICT = {
     "def": "very HOARy",
     "grammar": "adj.",
     "lemma": "an-hār"
+  },
+  "an-hуde": {
+    "def": "resolute, strong-minded",
+    "grammar": "adj.",
+    "lemma": "ān-hӯdiġ"
   },
   "an-hуdig": {
     "def": "resolute, strong-minded",
@@ -537,7 +2067,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "ān-tīd"
   },
+  "an-wald": {
+    "def": "God",
+    "grammar": "wk.",
+    "lemma": "an-walda"
+  },
   "an-walda": {
+    "def": "God",
+    "grammar": "wk.",
+    "lemma": "an-walda"
+  },
+  "an-walde": {
     "def": "God",
     "grammar": "wk.",
     "lemma": "an-walda"
@@ -552,10 +2092,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ancor"
   },
+  "ancor bend": {
+    "def": "ANCHOR-rope",
+    "grammar": "fj",
+    "lemma": "ancor-bend"
+  },
   "ancor-bend": {
     "def": "ANCHOR-rope",
     "grammar": "fj",
     "lemma": "ancor-bend"
+  },
+  "ancorbend": {
+    "def": "ANCHOR-rope",
+    "grammar": "fj",
+    "lemma": "ancor-bend"
+  },
+  "and": {
+    "def": "cf",
+    "grammar": "ond",
+    "lemma": "and-"
+  },
+  "and ": {
+    "def": "cf",
+    "grammar": "ond",
+    "lemma": "and-"
+  },
+  "and drysno": {
+    "def": "reverence",
+    "grammar": "f",
+    "lemma": "and-drysno"
+  },
+  "and git": {
+    "def": "discernment",
+    "grammar": "n.",
+    "lemma": "and-ġit"
+  },
+  "and lean": {
+    "def": "n",
+    "grammar": "ond",
+    "lemma": "and-lēan"
+  },
+  "and long": {
+    "def": "extending away in the opposite direction (OED)",
+    "grammar": "adj.",
+    "lemma": "and-long"
+  },
+  "and saca": {
+    "def": "enemy, adversary",
+    "grammar": "wk.",
+    "lemma": "and-saca"
+  },
+  "and swarian(w.chiefstressonprefix)": {
+    "def": "ANSWER",
+    "grammar": "vb. II",
+    "lemma": "and-swarian(w.chiefstressonprefix)"
+  },
+  "and swaru": {
+    "def": "1493",
+    "grammar": "f.",
+    "lemma": "and-swaru"
+  },
+  "and weard": {
+    "def": "standing over against",
+    "grammar": "adj.",
+    "lemma": "and-weard"
+  },
+  "and wlita": {
+    "def": "689",
+    "grammar": "wk.",
+    "lemma": "and-wlita"
   },
   "and-": {
     "def": "cf",
@@ -572,7 +2177,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "and-ġit"
   },
+  "and-le": {
+    "def": "n",
+    "grammar": "ond",
+    "lemma": "and-lēan"
+  },
   "and-lean": {
+    "def": "n",
+    "grammar": "ond",
+    "lemma": "and-lēan"
+  },
+  "and-lee": {
     "def": "n",
     "grammar": "ond",
     "lemma": "and-lēan"
@@ -582,7 +2197,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "and-long"
   },
+  "and-sac": {
+    "def": "enemy, adversary",
+    "grammar": "wk.",
+    "lemma": "and-saca"
+  },
   "and-saca": {
+    "def": "enemy, adversary",
+    "grammar": "wk.",
+    "lemma": "and-saca"
+  },
+  "and-sace": {
     "def": "enemy, adversary",
     "grammar": "wk.",
     "lemma": "and-saca"
@@ -602,7 +2227,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "and-weard"
   },
+  "and-wlit": {
+    "def": "689",
+    "grammar": "wk.",
+    "lemma": "and-wlita"
+  },
   "and-wlita": {
+    "def": "689",
+    "grammar": "wk.",
+    "lemma": "and-wlita"
+  },
+  "and-wlite": {
     "def": "689",
     "grammar": "wk.",
     "lemma": "and-wlita"
@@ -612,47 +2247,317 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "anda"
   },
+  "anddrysno": {
+    "def": "reverence",
+    "grammar": "f",
+    "lemma": "and-drysno"
+  },
+  "ande": {
+    "def": "indignation, enmity",
+    "grammar": "wk.",
+    "lemma": "anda"
+  },
+  "andgit": {
+    "def": "discernment",
+    "grammar": "n.",
+    "lemma": "and-ġit"
+  },
+  "andlean": {
+    "def": "n",
+    "grammar": "ond",
+    "lemma": "and-lēan"
+  },
+  "andlong": {
+    "def": "extending away in the opposite direction (OED)",
+    "grammar": "adj.",
+    "lemma": "and-long"
+  },
+  "andrysn": {
+    "def": "see and-drysno",
+    "grammar": "",
+    "lemma": "andrysnum"
+  },
+  "andrysne": {
+    "def": "see and-drysno",
+    "grammar": "",
+    "lemma": "andrysnum"
+  },
   "andrysnum": {
     "def": "see and-drysno",
     "grammar": "",
     "lemma": "andrysnum"
+  },
+  "andsaca": {
+    "def": "enemy, adversary",
+    "grammar": "wk.",
+    "lemma": "and-saca"
+  },
+  "andswarian(w.chiefstressonprefix)": {
+    "def": "ANSWER",
+    "grammar": "vb. II",
+    "lemma": "and-swarian(w.chiefstressonprefix)"
+  },
+  "andswaru": {
+    "def": "1493",
+    "grammar": "f.",
+    "lemma": "and-swaru"
+  },
+  "andweard": {
+    "def": "standing over against",
+    "grammar": "adj.",
+    "lemma": "and-weard"
+  },
+  "andwlita": {
+    "def": "689",
+    "grammar": "wk.",
+    "lemma": "and-wlita"
+  },
+  "anfeald": {
+    "def": "simple, plain",
+    "grammar": "adj.",
+    "lemma": "ān-feald"
+  },
+  "ang": {
+    "def": "ONly",
+    "grammar": "wk.",
+    "lemma": "ānga"
   },
   "anga": {
     "def": "ONly",
     "grammar": "wk.",
     "lemma": "ānga"
   },
+  "ange": {
+    "def": "ONly",
+    "grammar": "wk.",
+    "lemma": "ānga"
+  },
+  "angeat": {
+    "def": "see on-ġitan",
+    "grammar": "",
+    "lemma": "an-ġeat"
+  },
+  "angenga": {
+    "def": "one who goes alONE, solitary one (Grendel)",
+    "grammar": "wk.",
+    "lemma": "ān-genġa"
+  },
+  "angyldan": {
+    "def": "pay (a pen-alty) for",
+    "grammar": "vb. 3",
+    "lemma": "an-ġyldan"
+  },
+  "anhaga": {
+    "def": "solitary being, loner",
+    "grammar": "wk.",
+    "lemma": "ān-haga"
+  },
+  "anhar": {
+    "def": "very HOARy",
+    "grammar": "adj.",
+    "lemma": "an-hār"
+  },
+  "anhуdig": {
+    "def": "resolute, strong-minded",
+    "grammar": "adj.",
+    "lemma": "ān-hӯdiġ"
+  },
+  "anpæð": {
+    "def": "ONE-by-one PATH, narrow path (Bu",
+    "grammar": "m.",
+    "lemma": "ān-pæð"
+  },
+  "anræd": {
+    "def": "1575",
+    "grammar": "adj.",
+    "lemma": "ān-rǣd"
+  },
+  "ansund": {
+    "def": "uninjured",
+    "grammar": "adj.",
+    "lemma": "an-sund"
+  },
+  "ansуn": {
+    "def": "form, sight",
+    "grammar": "fi.",
+    "lemma": "an-sӯn"
+  },
+  "antid": {
+    "def": "fixed or appropriate time, time when something is due",
+    "grammar": "fi.",
+    "lemma": "ān-tīd"
+  },
+  "anung": {
+    "def": "by all means, certainly",
+    "grammar": "adv.",
+    "lemma": "ānunga"
+  },
   "anunga": {
     "def": "by all means, certainly",
     "grammar": "adv.",
     "lemma": "ānunga"
+  },
+  "anunge": {
+    "def": "by all means, certainly",
+    "grammar": "adv.",
+    "lemma": "ānunga"
+  },
+  "anwalda": {
+    "def": "God",
+    "grammar": "wk.",
+    "lemma": "an-walda"
+  },
+  "anwiggearo": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "an-wīġ-ġearo"
+  },
+  "anyman(niman)": {
+    "def": "take away",
+    "grammar": "vb.  4",
+    "lemma": "ā-nyman(-niman)"
   },
   "ar": {
     "def": "benefit, help",
     "grammar": "f.",
     "lemma": "ār"
   },
+  "ar fæst": {
+    "def": "merciful",
+    "grammar": "adj.",
+    "lemma": "ār-fæst"
+  },
+  "ar stafas": {
+    "def": "generosity, favor, grace",
+    "grammar": "m.",
+    "lemma": "ār-stafas"
+  },
   "ar-fæst": {
     "def": "merciful",
     "grammar": "adj.",
     "lemma": "ār-fæst"
+  },
+  "ar-staf": {
+    "def": "generosity, favor, grace",
+    "grammar": "m.",
+    "lemma": "ār-stafas"
   },
   "ar-stafas": {
     "def": "generosity, favor, grace",
     "grammar": "m.",
     "lemma": "ār-stafas"
   },
+  "ar-stafe": {
+    "def": "generosity, favor, grace",
+    "grammar": "m.",
+    "lemma": "ār-stafas"
+  },
+  "arfæst": {
+    "def": "merciful",
+    "grammar": "adj.",
+    "lemma": "ār-fæst"
+  },
+  "ari": {
+    "def": "show mercy, spare",
+    "grammar": "vb. II",
+    "lemma": "ārian"
+  },
   "arian": {
     "def": "show mercy, spare",
     "grammar": "vb. II",
     "lemma": "ārian"
+  },
+  "arie": {
+    "def": "show mercy, spare",
+    "grammar": "vb. II",
+    "lemma": "ārian"
+  },
+  "arisan": {
+    "def": "ARISE (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-rīsan"
+  },
+  "arstafas": {
+    "def": "generosity, favor, grace",
+    "grammar": "m.",
+    "lemma": "ār-stafas"
+  },
+  "aræran": {
+    "def": "establish, exalt",
+    "grammar": "vb. I",
+    "lemma": "ā-rǣran"
+  },
+  "asecgan": {
+    "def": "declare",
+    "grammar": "vb. III",
+    "lemma": "ā-secgan"
+  },
+  "asettan": {
+    "def": "place, appoint",
+    "grammar": "vb. I",
+    "lemma": "ā-settan"
+  },
+  "asingan": {
+    "def": "1159",
+    "grammar": "vb. 3",
+    "lemma": "ā-singan"
+  },
+  "astandan": {
+    "def": "get up",
+    "grammar": "vb. 6",
+    "lemma": "ā-standan"
+  },
+  "astigan": {
+    "def": "arise (lit",
+    "grammar": "vb. 1",
+    "lemma": "ā-stīgan"
+  },
+  "aswebban": {
+    "def": "(put to sleep), kill",
+    "grammar": "vb. I",
+    "lemma": "ā-swebban"
+  },
+  "atelic(=atol lic)": {
+    "def": "horrible, dreaded",
+    "grammar": "adj.",
+    "lemma": "ateliċ(=atol-liċ)"
   },
   "atelic(=atol-lic)": {
     "def": "horrible, dreaded",
     "grammar": "adj.",
     "lemma": "ateliċ(=atol-liċ)"
   },
+  "atelic(=atollic)": {
+    "def": "horrible, dreaded",
+    "grammar": "adj.",
+    "lemma": "ateliċ(=atol-liċ)"
+  },
+  "ateon": {
+    "def": "take a journey",
+    "grammar": "vb. 2",
+    "lemma": "ā-tēon"
+  },
+  "ater tan": {
+    "def": "(‘poison twig’), poison stripe (ref",
+    "grammar": "m.",
+    "lemma": "āter-tān"
+  },
+  "ater-t": {
+    "def": "(‘poison twig’), poison stripe (ref",
+    "grammar": "m.",
+    "lemma": "āter-tān"
+  },
   "ater-tan": {
+    "def": "(‘poison twig’), poison stripe (ref",
+    "grammar": "m.",
+    "lemma": "āter-tān"
+  },
+  "ater-te": {
+    "def": "(‘poison twig’), poison stripe (ref",
+    "grammar": "m.",
+    "lemma": "āter-tān"
+  },
+  "atertan": {
     "def": "(‘poison twig’), poison stripe (ref",
     "grammar": "m.",
     "lemma": "āter-tān"
@@ -662,35 +2567,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "atol"
   },
+  "attor sceaða": {
+    "def": "venomous enemy (dragon)",
+    "grammar": "wk.",
+    "lemma": "āttor-sceaða"
+  },
   "attor(ator)": {
     "def": "poison, venom",
     "grammar": "n.",
     "lemma": "āttor(ātor)"
+  },
+  "attor-sceað": {
+    "def": "venomous enemy (dragon)",
+    "grammar": "wk.",
+    "lemma": "āttor-sceaða"
   },
   "attor-sceaða": {
     "def": "venomous enemy (dragon)",
     "grammar": "wk.",
     "lemma": "āttor-sceaða"
   },
+  "attor-sceaðe": {
+    "def": "venomous enemy (dragon)",
+    "grammar": "wk.",
+    "lemma": "āttor-sceaða"
+  },
+  "attorsceaða": {
+    "def": "venomous enemy (dragon)",
+    "grammar": "wk.",
+    "lemma": "āttor-sceaða"
+  },
+  "aw": {
+    "def": "always",
+    "grammar": "adv.",
+    "lemma": "āwa"
+  },
   "awa": {
     "def": "always",
     "grammar": "adv.",
     "lemma": "āwa"
+  },
+  "awe": {
+    "def": "always",
+    "grammar": "adv.",
+    "lemma": "āwa"
+  },
+  "awrecan": {
+    "def": "tell",
+    "grammar": "vb. 5",
+    "lemma": "ā-wrecan"
+  },
+  "awyrdan": {
+    "def": "destroy",
+    "grammar": "vb.  I",
+    "lemma": "ā-wyrdan"
   },
   "að": {
     "def": "2739",
     "grammar": "m.",
     "lemma": "āð"
   },
+  "að sweord": {
+    "def": "OATH",
+    "grammar": "n.",
+    "lemma": "āð-sweord"
+  },
   "að-sweord": {
     "def": "OATH",
     "grammar": "n.",
     "lemma": "āð-sweord"
   },
+  "aðencan": {
+    "def": "intend",
+    "grammar": "vb. I",
+    "lemma": "ā-ðenċan"
+  },
+  "aðsweord": {
+    "def": "OATH",
+    "grammar": "n.",
+    "lemma": "āð-sweord"
+  },
+  "aþum sweoras": {
+    "def": "son-in-law and father-in-law",
+    "grammar": "m.",
+    "lemma": "āþum-swēoras"
+  },
+  "aþum-sweor": {
+    "def": "son-in-law and father-in-law",
+    "grammar": "m.",
+    "lemma": "āþum-swēoras"
+  },
   "aþum-sweoras": {
     "def": "son-in-law and father-in-law",
     "grammar": "m.",
     "lemma": "āþum-swēoras"
+  },
+  "aþum-sweore": {
+    "def": "son-in-law and father-in-law",
+    "grammar": "m.",
+    "lemma": "āþum-swēoras"
+  },
+  "aþumsweoras": {
+    "def": "son-in-law and father-in-law",
+    "grammar": "m.",
+    "lemma": "āþum-swēoras"
+  },
+  "b": {
+    "def": "2578",
+    "grammar": "n.",
+    "lemma": "bān"
   },
   "ba": {
     "def": "see bēġen",
@@ -717,7 +2702,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bān"
   },
+  "ban cofa": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "bān-cofa"
+  },
+  "ban fag": {
+    "def": "decorated with BONE, i",
+    "grammar": "adj.",
+    "lemma": "bān-fāg"
+  },
+  "ban fæt": {
+    "def": "body",
+    "grammar": "n.",
+    "lemma": "bān-fæt"
+  },
+  "ban helm": {
+    "def": "BONE-HELMet (or -protection), i",
+    "grammar": "m.",
+    "lemma": "bān-helm"
+  },
+  "ban hring": {
+    "def": "(BONE RING), vertebra",
+    "grammar": "m.",
+    "lemma": "bān-hrinġ"
+  },
+  "ban hus": {
+    "def": "body",
+    "grammar": "n.",
+    "lemma": "bān-hūs"
+  },
+  "ban loca": {
+    "def": "(BONE LOCKer), joint",
+    "grammar": "wk.",
+    "lemma": "bān-loca"
+  },
+  "ban-cof": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "bān-cofa"
+  },
   "ban-cofa": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "bān-cofa"
+  },
+  "ban-cofe": {
     "def": "body",
     "grammar": "wk.",
     "lemma": "bān-cofa"
@@ -747,7 +2777,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bān-hūs"
   },
+  "ban-loc": {
+    "def": "(BONE LOCKer), joint",
+    "grammar": "wk.",
+    "lemma": "bān-loca"
+  },
   "ban-loca": {
+    "def": "(BONE LOCKer), joint",
+    "grammar": "wk.",
+    "lemma": "bān-loca"
+  },
+  "ban-loce": {
     "def": "(BONE LOCKer), joint",
     "grammar": "wk.",
     "lemma": "bān-loca"
@@ -757,65 +2797,470 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "bana"
   },
+  "bancofa": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "bān-cofa"
+  },
+  "bane": {
+    "def": "murderer",
+    "grammar": "wk.",
+    "lemma": "bana"
+  },
+  "banfag": {
+    "def": "decorated with BONE, i",
+    "grammar": "adj.",
+    "lemma": "bān-fāg"
+  },
+  "banfæt": {
+    "def": "body",
+    "grammar": "n.",
+    "lemma": "bān-fæt"
+  },
+  "banhelm": {
+    "def": "BONE-HELMet (or -protection), i",
+    "grammar": "m.",
+    "lemma": "bān-helm"
+  },
+  "banhring": {
+    "def": "(BONE RING), vertebra",
+    "grammar": "m.",
+    "lemma": "bān-hrinġ"
+  },
+  "banhus": {
+    "def": "body",
+    "grammar": "n.",
+    "lemma": "bān-hūs"
+  },
+  "banloca": {
+    "def": "(BONE LOCKer), joint",
+    "grammar": "wk.",
+    "lemma": "bān-loca"
+  },
   "bat": {
     "def": "ship",
     "grammar": "m.",
     "lemma": "bāt"
+  },
+  "bat weard": {
+    "def": "BOAT-GUARD, boat-keeper",
+    "grammar": "m.",
+    "lemma": "bāt-weard"
   },
   "bat-weard": {
     "def": "BOAT-GUARD, boat-keeper",
     "grammar": "m.",
     "lemma": "bāt-weard"
   },
+  "batweard": {
+    "def": "BOAT-GUARD, boat-keeper",
+    "grammar": "m.",
+    "lemma": "bāt-weard"
+  },
   "be": {
-    "def": "2538, 2716, 2756, biġ 3047), prep",
-    "grammar": "b",
-    "lemma": "be"
+    "def": "2578",
+    "grammar": "n.",
+    "lemma": "bān"
+  },
+  "be arn": {
+    "def": "67, see be-irnan",
+    "grammar": "67",
+    "lemma": "be-arn"
+  },
+  "be beodan": {
+    "def": "order",
+    "grammar": "vb. 2",
+    "lemma": "be-bēodan"
+  },
+  "be beorgan": {
+    "def": "protect or guard oneself, 1746",
+    "grammar": "vb. 3",
+    "lemma": "be-beorgan"
+  },
+  "be bugan": {
+    "def": "surround",
+    "grammar": "vb. 2",
+    "lemma": "be-būgan"
+  },
+  "be bycgan": {
+    "def": "for)",
+    "grammar": "vb. I",
+    "lemma": "be-bycgan"
+  },
+  "be ceorfan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ċeorfan"
+  },
+  "be cuman": {
+    "def": "115, 192, 2552 (w",
+    "grammar": "vb.  4",
+    "lemma": "be-cuman"
+  },
+  "be dælan": {
+    "def": "deprive",
+    "grammar": "vb. I",
+    "lemma": "be-dǣlan"
+  },
+  "be feallan": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "be-feallan"
+  },
+  "be fleon": {
+    "def": "escape",
+    "grammar": "vb. 2",
+    "lemma": "be-flēon"
+  },
+  "be fon": {
+    "def": "encompass, encircle, envelop",
+    "grammar": "vb. 7",
+    "lemma": "be-fōn"
+  },
+  "be foran": {
+    "def": "in front",
+    "grammar": "I.",
+    "lemma": "be-foran"
+  },
+  "be fæstan": {
+    "def": "commit, give over",
+    "grammar": "vb. I",
+    "lemma": "be-fæstan"
+  },
+  "be gang": {
+    "def": "see be-gong",
+    "grammar": "",
+    "lemma": "be-gang"
+  },
+  "be gitan": {
+    "def": "obtain",
+    "grammar": "vb. 5",
+    "lemma": "be-ġitan"
+  },
+  "be gnornian": {
+    "def": "lament, grieve over",
+    "grammar": "vb. II",
+    "lemma": "be-gnornian"
+  },
+  "be gong": {
+    "def": "compass, expanse, region",
+    "grammar": "m.",
+    "lemma": "be-gong"
+  },
+  "be gylpan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ġylpan"
+  },
+  "be healdan": {
+    "def": "HOLD, occupy",
+    "grammar": "vb. 7",
+    "lemma": "be-healdan"
+  },
+  "be helan": {
+    "def": "414",
+    "grammar": "vb. 4",
+    "lemma": "be-helan"
+  },
+  "be hofian": {
+    "def": "have need of, require",
+    "grammar": "vb. II",
+    "lemma": "be-hōfian"
+  },
+  "be hon": {
+    "def": "instr",
+    "grammar": "vb. 7",
+    "lemma": "be-hōn"
+  },
+  "be hreosan": {
+    "def": "apm",
+    "grammar": "vb.  2",
+    "lemma": "be-hrēosan"
+  },
+  "be irnan": {
+    "def": "‘came into his mind’ (‘occurred’ to him), 67",
+    "grammar": "vb. 3",
+    "lemma": "be-irnan"
+  },
+  "be lean": {
+    "def": "dissuade or keep from",
+    "grammar": "vb. 6",
+    "lemma": "be-lēan"
+  },
+  "be leosan": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "be-lēosan"
+  },
+  "be limpan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-limpan"
+  },
+  "be lucan": {
+    "def": "close",
+    "grammar": "vb. 2",
+    "lemma": "be-lūcan"
+  },
+  "be miðan": {
+    "def": "[2217]",
+    "grammar": "vb. 1",
+    "lemma": "be-mīðan"
+  },
+  "be murnan": {
+    "def": "MOURN over, bewail, deplore",
+    "grammar": "vb.  3",
+    "lemma": "be-murnan"
+  },
+  "be nemnanvb.i": {
+    "def": "1097",
+    "grammar": "declare",
+    "lemma": "be-nemnanvb.I"
+  },
+  "be neotan": {
+    "def": "deprive of (dat",
+    "grammar": "vb.  2",
+    "lemma": "be-nēotan"
+  },
+  "be niman": {
+    "def": "deprive of (dat",
+    "grammar": "vb. 4",
+    "lemma": "be-niman"
+  },
+  "be reafian": {
+    "def": "BE-REAVE, despoil, deprive",
+    "grammar": "vb. II",
+    "lemma": "be-rēafian"
+  },
+  "be reofan": {
+    "def": "w",
+    "grammar": "vb.  2",
+    "lemma": "be-rēofan"
+  },
+  "be scufan": {
+    "def": "thrust",
+    "grammar": "vb. 2",
+    "lemma": "be-scūfan"
+  },
+  "be settan": {
+    "def": "embellish",
+    "grammar": "vb. I",
+    "lemma": "be-settan"
+  },
+  "be sittan": {
+    "def": "2936",
+    "grammar": "vb.  5",
+    "lemma": "be-sittan"
+  },
+  "be smiþian": {
+    "def": "(surround with the SMITH’s iron work), fasten",
+    "grammar": "vb.  II",
+    "lemma": "be-smiþian"
+  },
+  "be snyððan": {
+    "def": "deprive (dat",
+    "grammar": "vb.  I",
+    "lemma": "be-snyððan"
+  },
+  "be stуman": {
+    "def": "wet, suffuse",
+    "grammar": "vb. I",
+    "lemma": "be-stӯman"
+  },
+  "be swælan": {
+    "def": "burn",
+    "grammar": "vb.  I",
+    "lemma": "be-swǣlan"
+  },
+  "be syrwan": {
+    "def": "entrap, trick",
+    "grammar": "vb. I",
+    "lemma": "be-syrwan"
+  },
+  "be timbran": {
+    "def": "build, complete the building of",
+    "grammar": "vb. I",
+    "lemma": "be-timbran"
+  },
+  "be wennan": {
+    "def": "attend to, entertain",
+    "grammar": "vb. I",
+    "lemma": "be-wennan"
+  },
+  "be weotian": {
+    "def": "see be-witian",
+    "grammar": "",
+    "lemma": "be-weotian"
+  },
+  "be werian": {
+    "def": "defend against (dat",
+    "grammar": "vb. I",
+    "lemma": "be-werian"
+  },
+  "be windan": {
+    "def": "grasp, Copyright ӯ 2008",
+    "grammar": "vb. 3",
+    "lemma": "be-windan"
+  },
+  "be witian": {
+    "def": "observe, attend to, watch over",
+    "grammar": "vb. II",
+    "lemma": "be-witian"
+  },
+  "be wyrcan": {
+    "def": "sur-round",
+    "grammar": "vb.  I",
+    "lemma": "be-wyrċan"
+  },
+  "be wægnan": {
+    "def": "offer",
+    "grammar": "vb.  I",
+    "lemma": "be-wæġnan"
   },
   "be-arn": {
     "def": "67, see be-irnan",
     "grammar": "67",
     "lemma": "be-arn"
   },
+  "be-beod": {
+    "def": "order",
+    "grammar": "vb. 2",
+    "lemma": "be-bēodan"
+  },
   "be-beodan": {
     "def": "order",
     "grammar": "vb. 2",
     "lemma": "be-bēodan"
+  },
+  "be-beode": {
+    "def": "order",
+    "grammar": "vb. 2",
+    "lemma": "be-bēodan"
+  },
+  "be-beorg": {
+    "def": "protect or guard oneself, 1746",
+    "grammar": "vb. 3",
+    "lemma": "be-beorgan"
   },
   "be-beorgan": {
     "def": "protect or guard oneself, 1746",
     "grammar": "vb. 3",
     "lemma": "be-beorgan"
   },
+  "be-beorge": {
+    "def": "protect or guard oneself, 1746",
+    "grammar": "vb. 3",
+    "lemma": "be-beorgan"
+  },
+  "be-bug": {
+    "def": "surround",
+    "grammar": "vb. 2",
+    "lemma": "be-būgan"
+  },
   "be-bugan": {
     "def": "surround",
     "grammar": "vb. 2",
     "lemma": "be-būgan"
+  },
+  "be-buge": {
+    "def": "surround",
+    "grammar": "vb. 2",
+    "lemma": "be-būgan"
+  },
+  "be-bycg": {
+    "def": "for)",
+    "grammar": "vb. I",
+    "lemma": "be-bycgan"
   },
   "be-bycgan": {
     "def": "for)",
     "grammar": "vb. I",
     "lemma": "be-bycgan"
   },
+  "be-bycge": {
+    "def": "for)",
+    "grammar": "vb. I",
+    "lemma": "be-bycgan"
+  },
+  "be-ceorf": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ċeorfan"
+  },
   "be-ceorfan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "be-ċeorfan"
+  },
+  "be-ceorfe": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ċeorfan"
+  },
+  "be-cum": {
+    "def": "115, 192, 2552 (w",
+    "grammar": "vb.  4",
+    "lemma": "be-cuman"
   },
   "be-cuman": {
     "def": "115, 192, 2552 (w",
     "grammar": "vb.  4",
     "lemma": "be-cuman"
   },
+  "be-cume": {
+    "def": "115, 192, 2552 (w",
+    "grammar": "vb.  4",
+    "lemma": "be-cuman"
+  },
+  "be-dæl": {
+    "def": "deprive",
+    "grammar": "vb. I",
+    "lemma": "be-dǣlan"
+  },
   "be-dælan": {
     "def": "deprive",
     "grammar": "vb. I",
     "lemma": "be-dǣlan"
   },
+  "be-dæle": {
+    "def": "deprive",
+    "grammar": "vb. I",
+    "lemma": "be-dǣlan"
+  },
+  "be-f": {
+    "def": "encompass, encircle, envelop",
+    "grammar": "vb. 7",
+    "lemma": "be-fōn"
+  },
+  "be-fe": {
+    "def": "encompass, encircle, envelop",
+    "grammar": "vb. 7",
+    "lemma": "be-fōn"
+  },
+  "be-feall": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "be-feallan"
+  },
   "be-feallan": {
     "def": "w",
     "grammar": "vb. 7",
     "lemma": "be-feallan"
+  },
+  "be-fealle": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "be-feallan"
+  },
+  "be-fle": {
+    "def": "escape",
+    "grammar": "vb. 2",
+    "lemma": "be-flēon"
+  },
+  "be-flee": {
+    "def": "escape",
+    "grammar": "vb. 2",
+    "lemma": "be-flēon"
   },
   "be-fleon": {
     "def": "escape",
@@ -827,12 +3272,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "be-fōn"
   },
+  "be-for": {
+    "def": "in front",
+    "grammar": "I.",
+    "lemma": "be-foran"
+  },
   "be-foran": {
     "def": "in front",
     "grammar": "I.",
     "lemma": "be-foran"
   },
+  "be-fore": {
+    "def": "in front",
+    "grammar": "I.",
+    "lemma": "be-foran"
+  },
+  "be-fæst": {
+    "def": "commit, give over",
+    "grammar": "vb. I",
+    "lemma": "be-fæstan"
+  },
   "be-fæstan": {
+    "def": "commit, give over",
+    "grammar": "vb. I",
+    "lemma": "be-fæstan"
+  },
+  "be-fæste": {
     "def": "commit, give over",
     "grammar": "vb. I",
     "lemma": "be-fæstan"
@@ -842,12 +3307,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "be-gang"
   },
+  "be-git": {
+    "def": "obtain",
+    "grammar": "vb. 5",
+    "lemma": "be-ġitan"
+  },
   "be-gitan": {
     "def": "obtain",
     "grammar": "vb. 5",
     "lemma": "be-ġitan"
   },
+  "be-gite": {
+    "def": "obtain",
+    "grammar": "vb. 5",
+    "lemma": "be-ġitan"
+  },
+  "be-gnorni": {
+    "def": "lament, grieve over",
+    "grammar": "vb. II",
+    "lemma": "be-gnornian"
+  },
   "be-gnornian": {
+    "def": "lament, grieve over",
+    "grammar": "vb. II",
+    "lemma": "be-gnornian"
+  },
+  "be-gnornie": {
     "def": "lament, grieve over",
     "grammar": "vb. II",
     "lemma": "be-gnornian"
@@ -857,22 +3342,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "be-gong"
   },
+  "be-gylp": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ġylpan"
+  },
   "be-gylpan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "be-ġylpan"
+  },
+  "be-gylpe": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ġylpan"
+  },
+  "be-h": {
+    "def": "instr",
+    "grammar": "vb. 7",
+    "lemma": "be-hōn"
+  },
+  "be-he": {
+    "def": "instr",
+    "grammar": "vb. 7",
+    "lemma": "be-hōn"
+  },
+  "be-heald": {
+    "def": "HOLD, occupy",
+    "grammar": "vb. 7",
+    "lemma": "be-healdan"
   },
   "be-healdan": {
     "def": "HOLD, occupy",
     "grammar": "vb. 7",
     "lemma": "be-healdan"
   },
+  "be-healde": {
+    "def": "HOLD, occupy",
+    "grammar": "vb. 7",
+    "lemma": "be-healdan"
+  },
+  "be-hel": {
+    "def": "414",
+    "grammar": "vb. 4",
+    "lemma": "be-helan"
+  },
   "be-helan": {
     "def": "414",
     "grammar": "vb. 4",
     "lemma": "be-helan"
   },
+  "be-hele": {
+    "def": "414",
+    "grammar": "vb. 4",
+    "lemma": "be-helan"
+  },
+  "be-hofi": {
+    "def": "have need of, require",
+    "grammar": "vb. II",
+    "lemma": "be-hōfian"
+  },
   "be-hofian": {
+    "def": "have need of, require",
+    "grammar": "vb. II",
+    "lemma": "be-hōfian"
+  },
+  "be-hofie": {
     "def": "have need of, require",
     "grammar": "vb. II",
     "lemma": "be-hōfian"
@@ -882,42 +3417,122 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "be-hōn"
   },
+  "be-hreos": {
+    "def": "apm",
+    "grammar": "vb.  2",
+    "lemma": "be-hrēosan"
+  },
   "be-hreosan": {
     "def": "apm",
     "grammar": "vb.  2",
     "lemma": "be-hrēosan"
+  },
+  "be-hreose": {
+    "def": "apm",
+    "grammar": "vb.  2",
+    "lemma": "be-hrēosan"
+  },
+  "be-irn": {
+    "def": "‘came into his mind’ (‘occurred’ to him), 67",
+    "grammar": "vb. 3",
+    "lemma": "be-irnan"
   },
   "be-irnan": {
     "def": "‘came into his mind’ (‘occurred’ to him), 67",
     "grammar": "vb. 3",
     "lemma": "be-irnan"
   },
+  "be-irne": {
+    "def": "‘came into his mind’ (‘occurred’ to him), 67",
+    "grammar": "vb. 3",
+    "lemma": "be-irnan"
+  },
+  "be-le": {
+    "def": "dissuade or keep from",
+    "grammar": "vb. 6",
+    "lemma": "be-lēan"
+  },
   "be-lean": {
     "def": "dissuade or keep from",
     "grammar": "vb. 6",
     "lemma": "be-lēan"
+  },
+  "be-lee": {
+    "def": "dissuade or keep from",
+    "grammar": "vb. 6",
+    "lemma": "be-lēan"
+  },
+  "be-leos": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "be-lēosan"
   },
   "be-leosan": {
     "def": "LOSE",
     "grammar": "vb. 2",
     "lemma": "be-lēosan"
   },
+  "be-leose": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "be-lēosan"
+  },
+  "be-limp": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-limpan"
+  },
   "be-limpan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "be-limpan"
+  },
+  "be-limpe": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-limpan"
+  },
+  "be-luc": {
+    "def": "close",
+    "grammar": "vb. 2",
+    "lemma": "be-lūcan"
   },
   "be-lucan": {
     "def": "close",
     "grammar": "vb. 2",
     "lemma": "be-lūcan"
   },
+  "be-luce": {
+    "def": "close",
+    "grammar": "vb. 2",
+    "lemma": "be-lūcan"
+  },
+  "be-mið": {
+    "def": "[2217]",
+    "grammar": "vb. 1",
+    "lemma": "be-mīðan"
+  },
   "be-miðan": {
     "def": "[2217]",
     "grammar": "vb. 1",
     "lemma": "be-mīðan"
   },
+  "be-miðe": {
+    "def": "[2217]",
+    "grammar": "vb. 1",
+    "lemma": "be-mīðan"
+  },
+  "be-murn": {
+    "def": "MOURN over, bewail, deplore",
+    "grammar": "vb.  3",
+    "lemma": "be-murnan"
+  },
   "be-murnan": {
+    "def": "MOURN over, bewail, deplore",
+    "grammar": "vb.  3",
+    "lemma": "be-murnan"
+  },
+  "be-murne": {
     "def": "MOURN over, bewail, deplore",
     "grammar": "vb.  3",
     "lemma": "be-murnan"
@@ -927,105 +3542,315 @@ const OLD_ENGLISH_DICT = {
     "grammar": "declare",
     "lemma": "be-nemnanvb.I"
   },
+  "be-neot": {
+    "def": "deprive of (dat",
+    "grammar": "vb.  2",
+    "lemma": "be-nēotan"
+  },
   "be-neotan": {
     "def": "deprive of (dat",
     "grammar": "vb.  2",
     "lemma": "be-nēotan"
+  },
+  "be-neote": {
+    "def": "deprive of (dat",
+    "grammar": "vb.  2",
+    "lemma": "be-nēotan"
+  },
+  "be-nim": {
+    "def": "deprive of (dat",
+    "grammar": "vb. 4",
+    "lemma": "be-niman"
   },
   "be-niman": {
     "def": "deprive of (dat",
     "grammar": "vb. 4",
     "lemma": "be-niman"
   },
+  "be-nime": {
+    "def": "deprive of (dat",
+    "grammar": "vb. 4",
+    "lemma": "be-niman"
+  },
+  "be-reafi": {
+    "def": "BE-REAVE, despoil, deprive",
+    "grammar": "vb. II",
+    "lemma": "be-rēafian"
+  },
   "be-reafian": {
     "def": "BE-REAVE, despoil, deprive",
     "grammar": "vb. II",
     "lemma": "be-rēafian"
+  },
+  "be-reafie": {
+    "def": "BE-REAVE, despoil, deprive",
+    "grammar": "vb. II",
+    "lemma": "be-rēafian"
+  },
+  "be-reof": {
+    "def": "w",
+    "grammar": "vb.  2",
+    "lemma": "be-rēofan"
   },
   "be-reofan": {
     "def": "w",
     "grammar": "vb.  2",
     "lemma": "be-rēofan"
   },
+  "be-reofe": {
+    "def": "w",
+    "grammar": "vb.  2",
+    "lemma": "be-rēofan"
+  },
+  "be-scuf": {
+    "def": "thrust",
+    "grammar": "vb. 2",
+    "lemma": "be-scūfan"
+  },
   "be-scufan": {
     "def": "thrust",
     "grammar": "vb. 2",
     "lemma": "be-scūfan"
+  },
+  "be-scufe": {
+    "def": "thrust",
+    "grammar": "vb. 2",
+    "lemma": "be-scūfan"
+  },
+  "be-sett": {
+    "def": "embellish",
+    "grammar": "vb. I",
+    "lemma": "be-settan"
   },
   "be-settan": {
     "def": "embellish",
     "grammar": "vb. I",
     "lemma": "be-settan"
   },
+  "be-sette": {
+    "def": "embellish",
+    "grammar": "vb. I",
+    "lemma": "be-settan"
+  },
+  "be-sitt": {
+    "def": "2936",
+    "grammar": "vb.  5",
+    "lemma": "be-sittan"
+  },
   "be-sittan": {
     "def": "2936",
     "grammar": "vb.  5",
     "lemma": "be-sittan"
+  },
+  "be-sitte": {
+    "def": "2936",
+    "grammar": "vb.  5",
+    "lemma": "be-sittan"
+  },
+  "be-smiþi": {
+    "def": "(surround with the SMITH’s iron work), fasten",
+    "grammar": "vb.  II",
+    "lemma": "be-smiþian"
   },
   "be-smiþian": {
     "def": "(surround with the SMITH’s iron work), fasten",
     "grammar": "vb.  II",
     "lemma": "be-smiþian"
   },
+  "be-smiþie": {
+    "def": "(surround with the SMITH’s iron work), fasten",
+    "grammar": "vb.  II",
+    "lemma": "be-smiþian"
+  },
+  "be-snyðð": {
+    "def": "deprive (dat",
+    "grammar": "vb.  I",
+    "lemma": "be-snyððan"
+  },
   "be-snyððan": {
     "def": "deprive (dat",
     "grammar": "vb.  I",
     "lemma": "be-snyððan"
+  },
+  "be-snyððe": {
+    "def": "deprive (dat",
+    "grammar": "vb.  I",
+    "lemma": "be-snyððan"
+  },
+  "be-stуm": {
+    "def": "wet, suffuse",
+    "grammar": "vb. I",
+    "lemma": "be-stӯman"
   },
   "be-stуman": {
     "def": "wet, suffuse",
     "grammar": "vb. I",
     "lemma": "be-stӯman"
   },
+  "be-stуme": {
+    "def": "wet, suffuse",
+    "grammar": "vb. I",
+    "lemma": "be-stӯman"
+  },
+  "be-swæl": {
+    "def": "burn",
+    "grammar": "vb.  I",
+    "lemma": "be-swǣlan"
+  },
   "be-swælan": {
     "def": "burn",
     "grammar": "vb.  I",
     "lemma": "be-swǣlan"
+  },
+  "be-swæle": {
+    "def": "burn",
+    "grammar": "vb.  I",
+    "lemma": "be-swǣlan"
+  },
+  "be-syrw": {
+    "def": "entrap, trick",
+    "grammar": "vb. I",
+    "lemma": "be-syrwan"
   },
   "be-syrwan": {
     "def": "entrap, trick",
     "grammar": "vb. I",
     "lemma": "be-syrwan"
   },
+  "be-syrwe": {
+    "def": "entrap, trick",
+    "grammar": "vb. I",
+    "lemma": "be-syrwan"
+  },
+  "be-timbr": {
+    "def": "build, complete the building of",
+    "grammar": "vb. I",
+    "lemma": "be-timbran"
+  },
   "be-timbran": {
     "def": "build, complete the building of",
     "grammar": "vb. I",
     "lemma": "be-timbran"
+  },
+  "be-timbre": {
+    "def": "build, complete the building of",
+    "grammar": "vb. I",
+    "lemma": "be-timbran"
+  },
+  "be-wenn": {
+    "def": "attend to, entertain",
+    "grammar": "vb. I",
+    "lemma": "be-wennan"
   },
   "be-wennan": {
     "def": "attend to, entertain",
     "grammar": "vb. I",
     "lemma": "be-wennan"
   },
+  "be-wenne": {
+    "def": "attend to, entertain",
+    "grammar": "vb. I",
+    "lemma": "be-wennan"
+  },
+  "be-weoti": {
+    "def": "see be-witian",
+    "grammar": "",
+    "lemma": "be-weotian"
+  },
   "be-weotian": {
     "def": "see be-witian",
     "grammar": "",
     "lemma": "be-weotian"
+  },
+  "be-weotie": {
+    "def": "see be-witian",
+    "grammar": "",
+    "lemma": "be-weotian"
+  },
+  "be-weri": {
+    "def": "defend against (dat",
+    "grammar": "vb. I",
+    "lemma": "be-werian"
   },
   "be-werian": {
     "def": "defend against (dat",
     "grammar": "vb. I",
     "lemma": "be-werian"
   },
+  "be-werie": {
+    "def": "defend against (dat",
+    "grammar": "vb. I",
+    "lemma": "be-werian"
+  },
+  "be-wind": {
+    "def": "grasp, Copyright ӯ 2008",
+    "grammar": "vb. 3",
+    "lemma": "be-windan"
+  },
   "be-windan": {
     "def": "grasp, Copyright ӯ 2008",
     "grammar": "vb. 3",
     "lemma": "be-windan"
+  },
+  "be-winde": {
+    "def": "grasp, Copyright ӯ 2008",
+    "grammar": "vb. 3",
+    "lemma": "be-windan"
+  },
+  "be-witi": {
+    "def": "observe, attend to, watch over",
+    "grammar": "vb. II",
+    "lemma": "be-witian"
   },
   "be-witian": {
     "def": "observe, attend to, watch over",
     "grammar": "vb. II",
     "lemma": "be-witian"
   },
+  "be-witie": {
+    "def": "observe, attend to, watch over",
+    "grammar": "vb. II",
+    "lemma": "be-witian"
+  },
+  "be-wyrc": {
+    "def": "sur-round",
+    "grammar": "vb.  I",
+    "lemma": "be-wyrċan"
+  },
   "be-wyrcan": {
     "def": "sur-round",
     "grammar": "vb.  I",
     "lemma": "be-wyrċan"
   },
+  "be-wyrce": {
+    "def": "sur-round",
+    "grammar": "vb.  I",
+    "lemma": "be-wyrċan"
+  },
+  "be-wægn": {
+    "def": "offer",
+    "grammar": "vb.  I",
+    "lemma": "be-wæġnan"
+  },
   "be-wægnan": {
     "def": "offer",
     "grammar": "vb.  I",
     "lemma": "be-wæġnan"
+  },
+  "be-wægne": {
+    "def": "offer",
+    "grammar": "vb.  I",
+    "lemma": "be-wæġnan"
+  },
+  "beac": {
+    "def": "see Kl",
+    "grammar": "n.",
+    "lemma": "bēacen"
+  },
+  "beace": {
+    "def": "see Kl",
+    "grammar": "n.",
+    "lemma": "bēacen"
   },
   "beacen": {
     "def": "see Kl",
@@ -1037,7 +3862,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "beado"
   },
+  "beado grima": {
+    "def": "war-mask, hel-met",
+    "grammar": "wk.",
+    "lemma": "beado-grīma"
+  },
+  "beado hrægl": {
+    "def": "war-garment, shirt (or coat) of mail",
+    "grammar": "n.",
+    "lemma": "beado-hræġl"
+  },
+  "beado leoma": {
+    "def": "battle-light, i",
+    "grammar": "wk.",
+    "lemma": "beado-lēoma"
+  },
+  "beado mece": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "beado-mēċe"
+  },
+  "beado rinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "beado-rinċ"
+  },
+  "beado-grim": {
+    "def": "war-mask, hel-met",
+    "grammar": "wk.",
+    "lemma": "beado-grīma"
+  },
   "beado-grima": {
+    "def": "war-mask, hel-met",
+    "grammar": "wk.",
+    "lemma": "beado-grīma"
+  },
+  "beado-grime": {
     "def": "war-mask, hel-met",
     "grammar": "wk.",
     "lemma": "beado-grīma"
@@ -1047,10 +3907,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "beado-hræġl"
   },
+  "beado-leom": {
+    "def": "battle-light, i",
+    "grammar": "wk.",
+    "lemma": "beado-lēoma"
+  },
   "beado-leoma": {
     "def": "battle-light, i",
     "grammar": "wk.",
     "lemma": "beado-lēoma"
+  },
+  "beado-leome": {
+    "def": "battle-light, i",
+    "grammar": "wk.",
+    "lemma": "beado-lēoma"
+  },
+  "beado-mec": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "beado-mēċe"
   },
   "beado-mece": {
     "def": "battle-sword",
@@ -1061,6 +3936,66 @@ const OLD_ENGLISH_DICT = {
     "def": "warrior",
     "grammar": "m.",
     "lemma": "beado-rinċ"
+  },
+  "beadogrima": {
+    "def": "war-mask, hel-met",
+    "grammar": "wk.",
+    "lemma": "beado-grīma"
+  },
+  "beadohrægl": {
+    "def": "war-garment, shirt (or coat) of mail",
+    "grammar": "n.",
+    "lemma": "beado-hræġl"
+  },
+  "beadoleoma": {
+    "def": "battle-light, i",
+    "grammar": "wk.",
+    "lemma": "beado-lēoma"
+  },
+  "beadomece": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "beado-mēċe"
+  },
+  "beadorinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "beado-rinċ"
+  },
+  "beadu folm": {
+    "def": "battle-hand",
+    "grammar": "f.",
+    "lemma": "beadu-folm"
+  },
+  "beadu lac": {
+    "def": "(battle-sport, -exercise), battle",
+    "grammar": "n.",
+    "lemma": "beadu-lāc"
+  },
+  "beadu rof": {
+    "def": "bold in battle",
+    "grammar": "adj.",
+    "lemma": "beadu-rōf"
+  },
+  "beadu run": {
+    "def": "battle-counsel (-RUNE), hostile speech",
+    "grammar": "f.",
+    "lemma": "beadu-rūn"
+  },
+  "beadu scearp": {
+    "def": "battle-SHARP",
+    "grammar": "adj.",
+    "lemma": "beadu-scearp"
+  },
+  "beadu scrud": {
+    "def": "war-garment, armor, 2660",
+    "grammar": "n.",
+    "lemma": "beadu-scrūd"
+  },
+  "beadu serce": {
+    "def": "(battle-SARK), coat of mail",
+    "grammar": "wk.",
+    "lemma": "beadu-serċe"
   },
   "beadu-folm": {
     "def": "battle-hand",
@@ -1092,7 +4027,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "beadu-scrūd"
   },
+  "beadu-serc": {
+    "def": "(battle-SARK), coat of mail",
+    "grammar": "wk.",
+    "lemma": "beadu-serċe"
+  },
   "beadu-serce": {
+    "def": "(battle-SARK), coat of mail",
+    "grammar": "wk.",
+    "lemma": "beadu-serċe"
+  },
+  "beadufolm": {
+    "def": "battle-hand",
+    "grammar": "f.",
+    "lemma": "beadu-folm"
+  },
+  "beadulac": {
+    "def": "(battle-sport, -exercise), battle",
+    "grammar": "n.",
+    "lemma": "beadu-lāc"
+  },
+  "beadurof": {
+    "def": "bold in battle",
+    "grammar": "adj.",
+    "lemma": "beadu-rōf"
+  },
+  "beadurun": {
+    "def": "battle-counsel (-RUNE), hostile speech",
+    "grammar": "f.",
+    "lemma": "beadu-rūn"
+  },
+  "beaduscearp": {
+    "def": "battle-SHARP",
+    "grammar": "adj.",
+    "lemma": "beadu-scearp"
+  },
+  "beaduscrud": {
+    "def": "war-garment, armor, 2660",
+    "grammar": "n.",
+    "lemma": "beadu-scrūd"
+  },
+  "beaduserce": {
     "def": "(battle-SARK), coat of mail",
     "grammar": "wk.",
     "lemma": "beadu-serċe"
@@ -1102,12 +4077,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "b",
     "lemma": "bēag"
   },
+  "beag gyfa": {
+    "def": "ring-GIVer, lord, king",
+    "grammar": "wk.",
+    "lemma": "bēag-ġyfa"
+  },
+  "beag hroden": {
+    "def": "ring-adorned (cf",
+    "grammar": "adj.",
+    "lemma": "bēag-hroden"
+  },
+  "beag-gyf": {
+    "def": "ring-GIVer, lord, king",
+    "grammar": "wk.",
+    "lemma": "bēag-ġyfa"
+  },
   "beag-gyfa": {
     "def": "ring-GIVer, lord, king",
     "grammar": "wk.",
     "lemma": "bēag-ġyfa"
   },
+  "beag-gyfe": {
+    "def": "ring-GIVer, lord, king",
+    "grammar": "wk.",
+    "lemma": "bēag-ġyfa"
+  },
+  "beag-hrod": {
+    "def": "ring-adorned (cf",
+    "grammar": "adj.",
+    "lemma": "bēag-hroden"
+  },
+  "beag-hrode": {
+    "def": "ring-adorned (cf",
+    "grammar": "adj.",
+    "lemma": "bēag-hroden"
+  },
   "beag-hroden": {
+    "def": "ring-adorned (cf",
+    "grammar": "adj.",
+    "lemma": "bēag-hroden"
+  },
+  "beaggyfa": {
+    "def": "ring-GIVer, lord, king",
+    "grammar": "wk.",
+    "lemma": "bēag-ġyfa"
+  },
+  "beaghroden": {
     "def": "ring-adorned (cf",
     "grammar": "adj.",
     "lemma": "bēag-hroden"
@@ -1117,17 +4132,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bēah"
   },
+  "beah hord": {
+    "def": "ring-HOARD, treasure",
+    "grammar": "n.",
+    "lemma": "bēah-hord"
+  },
+  "beah sele": {
+    "def": "ring-hall, hall (in which rings are given)",
+    "grammar": "mi.",
+    "lemma": "bēah-sele"
+  },
+  "beah wriða": {
+    "def": "ring-band, ring, circlet",
+    "grammar": "wk.",
+    "lemma": "bēah-wriða"
+  },
+  "beah ðegu": {
+    "def": "receiving of a ring",
+    "grammar": "f.",
+    "lemma": "bēah-ðegu"
+  },
   "beah-hord": {
     "def": "ring-HOARD, treasure",
     "grammar": "n.",
     "lemma": "bēah-hord"
+  },
+  "beah-sel": {
+    "def": "ring-hall, hall (in which rings are given)",
+    "grammar": "mi.",
+    "lemma": "bēah-sele"
   },
   "beah-sele": {
     "def": "ring-hall, hall (in which rings are given)",
     "grammar": "mi.",
     "lemma": "bēah-sele"
   },
+  "beah-wrið": {
+    "def": "ring-band, ring, circlet",
+    "grammar": "wk.",
+    "lemma": "bēah-wriða"
+  },
   "beah-wriða": {
+    "def": "ring-band, ring, circlet",
+    "grammar": "wk.",
+    "lemma": "bēah-wriða"
+  },
+  "beah-wriðe": {
     "def": "ring-band, ring, circlet",
     "grammar": "wk.",
     "lemma": "bēah-wriða"
@@ -1137,7 +4187,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "bēah-ðegu"
   },
+  "beahhord": {
+    "def": "ring-HOARD, treasure",
+    "grammar": "n.",
+    "lemma": "bēah-hord"
+  },
+  "beahsele": {
+    "def": "ring-hall, hall (in which rings are given)",
+    "grammar": "mi.",
+    "lemma": "bēah-sele"
+  },
+  "beahwriða": {
+    "def": "ring-band, ring, circlet",
+    "grammar": "wk.",
+    "lemma": "bēah-wriða"
+  },
+  "beahðegu": {
+    "def": "receiving of a ring",
+    "grammar": "f.",
+    "lemma": "bēah-ðegu"
+  },
+  "bealdi": {
+    "def": "show oneself brave (BOLD)",
+    "grammar": "vb. II",
+    "lemma": "bealdian"
+  },
   "bealdian": {
+    "def": "show oneself brave (BOLD)",
+    "grammar": "vb. II",
+    "lemma": "bealdian"
+  },
+  "bealdie": {
     "def": "show oneself brave (BOLD)",
     "grammar": "vb. II",
     "lemma": "bealdian"
@@ -1152,15 +4232,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "bealu",
     "lemma": "bealo"
   },
+  "bealo cwealm": {
+    "def": "BALEful death, death resulting from hostility",
+    "grammar": "m.",
+    "lemma": "bealo-cwealm"
+  },
+  "bealo hycgende": {
+    "def": "in-tending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hycgende"
+  },
+  "bealo hуdig": {
+    "def": "intending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hӯdiġ"
+  },
+  "bealo nið": {
+    "def": "pernicious enmity, grave offense",
+    "grammar": "m.",
+    "lemma": "bealo-nīð"
+  },
   "bealo-cwealm": {
     "def": "BALEful death, death resulting from hostility",
     "grammar": "m.",
     "lemma": "bealo-cwealm"
   },
+  "bealo-hycgen": {
+    "def": "in-tending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hycgende"
+  },
+  "bealo-hycgend": {
+    "def": "in-tending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hycgende"
+  },
   "bealo-hycgende": {
     "def": "in-tending harm, hostile",
     "grammar": "adj.",
     "lemma": "bealo-hycgende"
+  },
+  "bealo-hуde": {
+    "def": "intending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hӯdiġ"
   },
   "bealo-hуdig": {
     "def": "intending harm, hostile",
@@ -1168,6 +4283,26 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bealo-hӯdiġ"
   },
   "bealo-nið": {
+    "def": "pernicious enmity, grave offense",
+    "grammar": "m.",
+    "lemma": "bealo-nīð"
+  },
+  "bealocwealm": {
+    "def": "BALEful death, death resulting from hostility",
+    "grammar": "m.",
+    "lemma": "bealo-cwealm"
+  },
+  "bealohycgende": {
+    "def": "in-tending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hycgende"
+  },
+  "bealohуdig": {
+    "def": "intending harm, hostile",
+    "grammar": "adj.",
+    "lemma": "bealo-hӯdiġ"
+  },
+  "bealonið": {
     "def": "pernicious enmity, grave offense",
     "grammar": "m.",
     "lemma": "bealo-nīð"
@@ -1187,7 +4322,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bearn"
   },
+  "bearn gebyrdo": {
+    "def": "OEG §589",
+    "grammar": "f",
+    "lemma": "bearn-ġebyrdo"
+  },
   "bearn-gebyrdo": {
+    "def": "OEG §589",
+    "grammar": "f",
+    "lemma": "bearn-ġebyrdo"
+  },
+  "bearngebyrdo": {
     "def": "OEG §589",
     "grammar": "f",
     "lemma": "bearn-ġebyrdo"
@@ -1197,40 +4342,210 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mwa.",
     "lemma": "bearu"
   },
+  "beat": {
+    "def": "strike, stamp",
+    "grammar": "vb. 7",
+    "lemma": "bēatan"
+  },
   "beatan": {
     "def": "strike, stamp",
     "grammar": "vb. 7",
     "lemma": "bēatan"
+  },
+  "beate": {
+    "def": "strike, stamp",
+    "grammar": "vb. 7",
+    "lemma": "bēatan"
+  },
+  "bebeodan": {
+    "def": "order",
+    "grammar": "vb. 2",
+    "lemma": "be-bēodan"
+  },
+  "bebeorgan": {
+    "def": "protect or guard oneself, 1746",
+    "grammar": "vb. 3",
+    "lemma": "be-beorgan"
+  },
+  "bebugan": {
+    "def": "surround",
+    "grammar": "vb. 2",
+    "lemma": "be-būgan"
+  },
+  "bebycgan": {
+    "def": "for)",
+    "grammar": "vb. I",
+    "lemma": "be-bycgan"
+  },
+  "beceorfan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ċeorfan"
   },
   "becn": {
     "def": "see bēacen",
     "grammar": "",
     "lemma": "bēcn"
   },
+  "becuman": {
+    "def": "115, 192, 2552 (w",
+    "grammar": "vb.  4",
+    "lemma": "be-cuman"
+  },
   "bed(d)": {
     "def": "1791",
     "grammar": "nja.",
     "lemma": "bed(d)"
+  },
+  "bedælan": {
+    "def": "deprive",
+    "grammar": "vb. I",
+    "lemma": "be-dǣlan"
+  },
+  "bee": {
+    "def": "bēo(ð), see eom",
+    "grammar": "b",
+    "lemma": "bēon"
+  },
+  "befeallan": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "be-feallan"
+  },
+  "befleon": {
+    "def": "escape",
+    "grammar": "vb. 2",
+    "lemma": "be-flēon"
+  },
+  "befon": {
+    "def": "encompass, encircle, envelop",
+    "grammar": "vb. 7",
+    "lemma": "be-fōn"
+  },
+  "beforan": {
+    "def": "in front",
+    "grammar": "I.",
+    "lemma": "be-foran"
+  },
+  "befæstan": {
+    "def": "commit, give over",
+    "grammar": "vb. I",
+    "lemma": "be-fæstan"
   },
   "beg": {
     "def": "see bēag",
     "grammar": "",
     "lemma": "bēg"
   },
+  "begang": {
+    "def": "see be-gong",
+    "grammar": "",
+    "lemma": "be-gang"
+  },
+  "bege": {
+    "def": "769, 2707",
+    "grammar": "num.",
+    "lemma": "bēġen"
+  },
   "begen": {
     "def": "769, 2707",
     "grammar": "num.",
     "lemma": "bēġen"
+  },
+  "begitan": {
+    "def": "obtain",
+    "grammar": "vb. 5",
+    "lemma": "be-ġitan"
+  },
+  "begnornian": {
+    "def": "lament, grieve over",
+    "grammar": "vb. II",
+    "lemma": "be-gnornian"
+  },
+  "begong": {
+    "def": "compass, expanse, region",
+    "grammar": "m.",
+    "lemma": "be-gong"
+  },
+  "begylpan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-ġylpan"
+  },
+  "behealdan": {
+    "def": "HOLD, occupy",
+    "grammar": "vb. 7",
+    "lemma": "be-healdan"
+  },
+  "behelan": {
+    "def": "414",
+    "grammar": "vb. 4",
+    "lemma": "be-helan"
+  },
+  "behofian": {
+    "def": "have need of, require",
+    "grammar": "vb. II",
+    "lemma": "be-hōfian"
+  },
+  "behon": {
+    "def": "instr",
+    "grammar": "vb. 7",
+    "lemma": "be-hōn"
+  },
+  "behreosan": {
+    "def": "apm",
+    "grammar": "vb.  2",
+    "lemma": "be-hrēosan"
+  },
+  "beirnan": {
+    "def": "‘came into his mind’ (‘occurred’ to him), 67",
+    "grammar": "vb. 3",
+    "lemma": "be-irnan"
   },
   "bel": {
     "def": "see bǣl",
     "grammar": "",
     "lemma": "bēl"
   },
+  "belean": {
+    "def": "dissuade or keep from",
+    "grammar": "vb. 6",
+    "lemma": "be-lēan"
+  },
+  "beleosan": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "be-lēosan"
+  },
+  "belimpan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "be-limpan"
+  },
+  "belucan": {
+    "def": "close",
+    "grammar": "vb. 2",
+    "lemma": "be-lūcan"
+  },
+  "bemiðan": {
+    "def": "[2217]",
+    "grammar": "vb. 1",
+    "lemma": "be-mīðan"
+  },
+  "bemurnan": {
+    "def": "MOURN over, bewail, deplore",
+    "grammar": "vb.  3",
+    "lemma": "be-murnan"
+  },
   "ben": {
-    "def": "request, favor",
-    "grammar": "fi.",
-    "lemma": "bēn"
+    "def": "petitioning",
+    "grammar": "wk.",
+    "lemma": "bēna"
+  },
+  "ben geat": {
+    "def": "wound-opening (-GATE), gash",
+    "grammar": "n.",
+    "lemma": "ben-ġeat"
   },
   "ben(n)": {
     "def": "wound",
@@ -1252,6 +4567,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "benċ"
   },
+  "benc sweg": {
+    "def": "BENCH-noise, conviv-ial sound",
+    "grammar": "mi.",
+    "lemma": "benċ-swēġ"
+  },
+  "benc þel": {
+    "def": "BENCH-plank, pl",
+    "grammar": "n.",
+    "lemma": "benċ-þel"
+  },
   "benc-sweg": {
     "def": "BENCH-noise, conviv-ial sound",
     "grammar": "mi.",
@@ -1262,10 +4587,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "benċ-þel"
   },
+  "bencsweg": {
+    "def": "BENCH-noise, conviv-ial sound",
+    "grammar": "mi.",
+    "lemma": "benċ-swēġ"
+  },
+  "bencþel": {
+    "def": "BENCH-plank, pl",
+    "grammar": "n.",
+    "lemma": "benċ-þel"
+  },
   "bend": {
     "def": "fetter",
     "grammar": "fj",
     "lemma": "bend"
+  },
+  "bene": {
+    "def": "petitioning",
+    "grammar": "wk.",
+    "lemma": "bēna"
+  },
+  "benemnanvb.i": {
+    "def": "1097",
+    "grammar": "declare",
+    "lemma": "be-nemnanvb.I"
+  },
+  "beneotan": {
+    "def": "deprive of (dat",
+    "grammar": "vb.  2",
+    "lemma": "be-nēotan"
+  },
+  "bengeat": {
+    "def": "wound-opening (-GATE), gash",
+    "grammar": "n.",
+    "lemma": "ben-ġeat"
+  },
+  "beniman": {
+    "def": "deprive of (dat",
+    "grammar": "vb. 4",
+    "lemma": "be-niman"
+  },
+  "beod": {
+    "def": "tender, give",
+    "grammar": "vb. 2",
+    "lemma": "bēodan"
+  },
+  "beod geneat": {
+    "def": "table-companion",
+    "grammar": "m.",
+    "lemma": "bēod-ġenēat"
   },
   "beod-geneat": {
     "def": "table-companion",
@@ -1277,6 +4647,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "bēodan"
   },
+  "beode": {
+    "def": "tender, give",
+    "grammar": "vb. 2",
+    "lemma": "bēodan"
+  },
+  "beodgeneat": {
+    "def": "table-companion",
+    "grammar": "m.",
+    "lemma": "bēod-ġenēat"
+  },
   "beon": {
     "def": "bēo(ð), see eom",
     "grammar": "b",
@@ -1287,10 +4667,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bēor"
   },
+  "beor scealc": {
+    "def": "‘BEER’-drinker, feaster (see Kl",
+    "grammar": "m.",
+    "lemma": "bēor-scealc"
+  },
+  "beor sele": {
+    "def": "‘BEER’-hall, banquet-hall",
+    "grammar": "mi.",
+    "lemma": "bēor-sele"
+  },
+  "beor þegu": {
+    "def": "(‘BEER’-taking), liquor-drinking",
+    "grammar": "f.",
+    "lemma": "bēor-þegu"
+  },
   "beor-scealc": {
     "def": "‘BEER’-drinker, feaster (see Kl",
     "grammar": "m.",
     "lemma": "bēor-scealc"
+  },
+  "beor-sel": {
+    "def": "‘BEER’-hall, banquet-hall",
+    "grammar": "mi.",
+    "lemma": "bēor-sele"
   },
   "beor-sele": {
     "def": "‘BEER’-hall, banquet-hall",
@@ -1303,31 +4703,46 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēor-þegu"
   },
   "beorg": {
-    "def": "(1) hill, cliff, headland, elevated shore",
-    "grammar": "beorh",
-    "lemma": "beorg"
+    "def": "preserve, save, protect",
+    "grammar": "vb. 3",
+    "lemma": "beorgan"
   },
   "beorgan": {
     "def": "preserve, save, protect",
     "grammar": "vb. 3",
     "lemma": "beorgan"
   },
+  "beorge": {
+    "def": "preserve, save, protect",
+    "grammar": "vb. 3",
+    "lemma": "beorgan"
+  },
   "beorh": {
-    "def": "see beorg",
-    "grammar": "",
-    "lemma": "beorh"
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "beorhte"
   },
   "beorht": {
-    "def": "shining, splendid, glorious, magnificent",
-    "grammar": "adj.",
-    "lemma": "beorht"
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "beorhte"
   },
   "beorhte": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "beorhte"
   },
+  "beorhti": {
+    "def": "1161",
+    "grammar": "vb.  II",
+    "lemma": "beorhtian"
+  },
   "beorhtian": {
+    "def": "1161",
+    "grammar": "vb.  II",
+    "lemma": "beorhtian"
+  },
+  "beorhtie": {
     "def": "1161",
     "grammar": "vb.  II",
     "lemma": "beorhtian"
@@ -1337,50 +4752,260 @@ const OLD_ENGLISH_DICT = {
     "grammar": "1880",
     "lemma": "beorn"
   },
+  "beorn cyning": {
+    "def": "(warrior-) KING",
+    "grammar": "m.",
+    "lemma": "beorn-cyning"
+  },
   "beorn-cyning": {
     "def": "(warrior-) KING",
     "grammar": "m.",
     "lemma": "beorn-cyning"
+  },
+  "beorncyning": {
+    "def": "(warrior-) KING",
+    "grammar": "m.",
+    "lemma": "beorn-cyning"
+  },
+  "beorscealc": {
+    "def": "‘BEER’-drinker, feaster (see Kl",
+    "grammar": "m.",
+    "lemma": "bēor-scealc"
+  },
+  "beorsele": {
+    "def": "‘BEER’-hall, banquet-hall",
+    "grammar": "mi.",
+    "lemma": "bēor-sele"
+  },
+  "beorþegu": {
+    "def": "(‘BEER’-taking), liquor-drinking",
+    "grammar": "f.",
+    "lemma": "bēor-þegu"
   },
   "beot": {
     "def": "promise",
     "grammar": "n.",
     "lemma": "bēot"
   },
+  "beot word": {
+    "def": "WORD of promise, pledge",
+    "grammar": "n.",
+    "lemma": "bēot-word"
+  },
   "beot-word": {
     "def": "WORD of promise, pledge",
     "grammar": "n.",
     "lemma": "bēot-word"
+  },
+  "beotword": {
+    "def": "WORD of promise, pledge",
+    "grammar": "n.",
+    "lemma": "bēot-word"
+  },
+  "ber": {
+    "def": "carry, wear, bring",
+    "grammar": "vb. 4",
+    "lemma": "beran"
   },
   "beran": {
     "def": "carry, wear, bring",
     "grammar": "vb. 4",
     "lemma": "beran"
   },
+  "bere": {
+    "def": "carry, wear, bring",
+    "grammar": "vb. 4",
+    "lemma": "beran"
+  },
+  "bereafian": {
+    "def": "BE-REAVE, despoil, deprive",
+    "grammar": "vb. II",
+    "lemma": "be-rēafian"
+  },
+  "bereofan": {
+    "def": "w",
+    "grammar": "vb.  2",
+    "lemma": "be-rēofan"
+  },
+  "beri": {
+    "def": "BARE, make clear",
+    "grammar": "vb. I",
+    "lemma": "berian"
+  },
   "berian": {
     "def": "BARE, make clear",
     "grammar": "vb. I",
     "lemma": "berian"
+  },
+  "berie": {
+    "def": "BARE, make clear",
+    "grammar": "vb. I",
+    "lemma": "berian"
+  },
+  "berst": {
+    "def": "BURST (intr",
+    "grammar": "vb. 3",
+    "lemma": "berstan"
   },
   "berstan": {
     "def": "BURST (intr",
     "grammar": "vb. 3",
     "lemma": "berstan"
   },
+  "berste": {
+    "def": "BURST (intr",
+    "grammar": "vb. 3",
+    "lemma": "berstan"
+  },
+  "bescufan": {
+    "def": "thrust",
+    "grammar": "vb. 2",
+    "lemma": "be-scūfan"
+  },
+  "besettan": {
+    "def": "embellish",
+    "grammar": "vb. I",
+    "lemma": "be-settan"
+  },
+  "besittan": {
+    "def": "2936",
+    "grammar": "vb.  5",
+    "lemma": "be-sittan"
+  },
+  "besmiþian": {
+    "def": "(surround with the SMITH’s iron work), fasten",
+    "grammar": "vb.  II",
+    "lemma": "be-smiþian"
+  },
+  "besnyððan": {
+    "def": "deprive (dat",
+    "grammar": "vb.  I",
+    "lemma": "be-snyððan"
+  },
+  "bestуman": {
+    "def": "wet, suffuse",
+    "grammar": "vb. I",
+    "lemma": "be-stӯman"
+  },
+  "beswælan": {
+    "def": "burn",
+    "grammar": "vb.  I",
+    "lemma": "be-swǣlan"
+  },
+  "besyrwan": {
+    "def": "entrap, trick",
+    "grammar": "vb. I",
+    "lemma": "be-syrwan"
+  },
+  "bet lic": {
+    "def": "excellent, splendid",
+    "grammar": "adj.",
+    "lemma": "bet-liċ"
+  },
   "bet-lic": {
     "def": "excellent, splendid",
     "grammar": "adj.",
     "lemma": "bet-liċ"
+  },
+  "bete": {
+    "def": "betst, see gōd",
+    "grammar": "betost",
+    "lemma": "betera"
+  },
+  "beter": {
+    "def": "betst, see gōd",
+    "grammar": "betost",
+    "lemma": "betera"
   },
   "betera": {
     "def": "betst, see gōd",
     "grammar": "betost",
     "lemma": "betera"
   },
-  "bi": {
-    "def": "see be",
+  "betere": {
+    "def": "betst, see gōd",
+    "grammar": "betost",
+    "lemma": "betera"
+  },
+  "betimbran": {
+    "def": "build, complete the building of",
+    "grammar": "vb. I",
+    "lemma": "be-timbran"
+  },
+  "betlic": {
+    "def": "excellent, splendid",
+    "grammar": "adj.",
+    "lemma": "bet-liċ"
+  },
+  "bewennan": {
+    "def": "attend to, entertain",
+    "grammar": "vb. I",
+    "lemma": "be-wennan"
+  },
+  "beweotian": {
+    "def": "see be-witian",
     "grammar": "",
-    "lemma": "bī"
+    "lemma": "be-weotian"
+  },
+  "bewerian": {
+    "def": "defend against (dat",
+    "grammar": "vb. I",
+    "lemma": "be-werian"
+  },
+  "bewindan": {
+    "def": "grasp, Copyright ӯ 2008",
+    "grammar": "vb. 3",
+    "lemma": "be-windan"
+  },
+  "bewitian": {
+    "def": "observe, attend to, watch over",
+    "grammar": "vb. II",
+    "lemma": "be-witian"
+  },
+  "bewyrcan": {
+    "def": "sur-round",
+    "grammar": "vb.  I",
+    "lemma": "be-wyrċan"
+  },
+  "bewægnan": {
+    "def": "offer",
+    "grammar": "vb.  I",
+    "lemma": "be-wæġnan"
+  },
+  "bi": {
+    "def": "cut",
+    "grammar": "mi.",
+    "lemma": "bite"
+  },
+  "bi fon": {
+    "def": "see be-fōn",
+    "grammar": "",
+    "lemma": "bi-fōn"
+  },
+  "bi gong": {
+    "def": "see be-gong",
+    "grammar": "",
+    "lemma": "bi-gong"
+  },
+  "bi neotan": {
+    "def": "see be-nēotan",
+    "grammar": "",
+    "lemma": "bi-nēotan"
+  },
+  "bi wennan": {
+    "def": "see be-wennan",
+    "grammar": "",
+    "lemma": "bi-wennan"
+  },
+  "bi-f": {
+    "def": "see be-fōn",
+    "grammar": "",
+    "lemma": "bi-fōn"
+  },
+  "bi-fe": {
+    "def": "see be-fōn",
+    "grammar": "",
+    "lemma": "bi-fōn"
   },
   "bi-fon": {
     "def": "see be-fōn",
@@ -1392,17 +5017,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bi-gong"
   },
+  "bi-neot": {
+    "def": "see be-nēotan",
+    "grammar": "",
+    "lemma": "bi-nēotan"
+  },
   "bi-neotan": {
     "def": "see be-nēotan",
     "grammar": "",
     "lemma": "bi-nēotan"
+  },
+  "bi-neote": {
+    "def": "see be-nēotan",
+    "grammar": "",
+    "lemma": "bi-nēotan"
+  },
+  "bi-wenn": {
+    "def": "see be-wennan",
+    "grammar": "",
+    "lemma": "bi-wennan"
   },
   "bi-wennan": {
     "def": "see be-wennan",
     "grammar": "",
     "lemma": "bi-wennan"
   },
+  "bi-wenne": {
+    "def": "see be-wennan",
+    "grammar": "",
+    "lemma": "bi-wennan"
+  },
+  "bicg": {
+    "def": "see bycgan",
+    "grammar": "",
+    "lemma": "bicgan"
+  },
   "bicgan": {
+    "def": "see bycgan",
+    "grammar": "",
+    "lemma": "bicgan"
+  },
+  "bicge": {
     "def": "see bycgan",
     "grammar": "",
     "lemma": "bicgan"
@@ -1417,35 +5072,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "bīdan"
   },
+  "bidd": {
+    "def": "request",
+    "grammar": "vb. 5",
+    "lemma": "biddan"
+  },
   "biddan": {
     "def": "request",
     "grammar": "vb. 5",
     "lemma": "biddan"
+  },
+  "bidde": {
+    "def": "request",
+    "grammar": "vb. 5",
+    "lemma": "biddan"
+  },
+  "bide": {
+    "def": "wait, stay, remain, linger",
+    "grammar": "vb. 1",
+    "lemma": "bīdan"
+  },
+  "bifon": {
+    "def": "see be-fōn",
+    "grammar": "",
+    "lemma": "bi-fōn"
   },
   "big": {
     "def": "see be",
     "grammar": "",
     "lemma": "biġ"
   },
+  "bigong": {
+    "def": "see be-gong",
+    "grammar": "",
+    "lemma": "bi-gong"
+  },
   "bil(l)": {
     "def": "blade",
     "grammar": "n.",
     "lemma": "bil(l)"
+  },
+  "bind": {
+    "def": "join",
+    "grammar": "vb. 3",
+    "lemma": "bindan"
   },
   "bindan": {
     "def": "join",
     "grammar": "vb. 3",
     "lemma": "bindan"
   },
+  "binde": {
+    "def": "join",
+    "grammar": "vb. 3",
+    "lemma": "bindan"
+  },
+  "bineotan": {
+    "def": "see be-nēotan",
+    "grammar": "",
+    "lemma": "bi-nēotan"
+  },
   "bio(ð)": {
     "def": "see bēon",
     "grammar": "",
     "lemma": "bīo(ð)"
   },
+  "biod": {
+    "def": "see bēodan",
+    "grammar": "",
+    "lemma": "bīodan"
+  },
   "biodan": {
     "def": "see bēodan",
     "grammar": "",
     "lemma": "bīodan"
+  },
+  "biode": {
+    "def": "see bēodan",
+    "grammar": "",
+    "lemma": "bīodan"
+  },
+  "bior": {
+    "def": "see bēor-",
+    "grammar": "",
+    "lemma": "bīor-"
+  },
+  "bior ": {
+    "def": "see bēor-",
+    "grammar": "",
+    "lemma": "bīor-"
   },
   "bior-": {
     "def": "see bēor-",
@@ -1457,6 +5172,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "biorh"
   },
+  "biorn( )": {
+    "def": "see beorn(-)",
+    "grammar": "",
+    "lemma": "biorn(-)"
+  },
+  "biorn()": {
+    "def": "see beorn(-)",
+    "grammar": "",
+    "lemma": "biorn(-)"
+  },
   "biorn(-)": {
     "def": "see beorn(-)",
     "grammar": "",
@@ -1466,6 +5191,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see bysigu",
     "grammar": "",
     "lemma": "bis(i)gu"
+  },
+  "bit": {
+    "def": "cut",
+    "grammar": "mi.",
+    "lemma": "bite"
   },
   "bitan": {
     "def": "BITE",
@@ -1482,10 +5212,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "biter"
   },
+  "bitr": {
+    "def": "sorely",
+    "grammar": "adv.",
+    "lemma": "bitre"
+  },
   "bitre": {
     "def": "sorely",
     "grammar": "adv.",
     "lemma": "bitre"
+  },
+  "biwennan": {
+    "def": "see be-wennan",
+    "grammar": "",
+    "lemma": "bi-wennan"
   },
   "bið": {
     "def": "see eom",
@@ -1497,20 +5237,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blāc"
   },
+  "blanc": {
+    "def": "(white or grey?, cf",
+    "grammar": "wk.",
+    "lemma": "blanca"
+  },
   "blanca": {
     "def": "(white or grey?, cf",
     "grammar": "wk.",
     "lemma": "blanca"
+  },
+  "blance": {
+    "def": "(white or grey?, cf",
+    "grammar": "wk.",
+    "lemma": "blanca"
+  },
+  "blea": {
+    "def": "wretchedly, pitiably",
+    "grammar": "adv.",
+    "lemma": "blēate"
+  },
+  "bleat": {
+    "def": "wretchedly, pitiably",
+    "grammar": "adv.",
+    "lemma": "blēate"
   },
   "bleate": {
     "def": "wretchedly, pitiably",
     "grammar": "adv.",
     "lemma": "blēate"
   },
+  "blic": {
+    "def": "gleam",
+    "grammar": "vb. 1",
+    "lemma": "blīcan"
+  },
   "blican": {
     "def": "gleam",
     "grammar": "vb. 1",
     "lemma": "blīcan"
+  },
+  "blice": {
+    "def": "gleam",
+    "grammar": "vb. 1",
+    "lemma": "blīcan"
+  },
+  "blið": {
+    "def": "well disposed, kind, BLITHE",
+    "grammar": "adj.",
+    "lemma": "blīðe"
+  },
+  "blið heort": {
+    "def": "BLITHE of HEART, cheerful",
+    "grammar": "adj.",
+    "lemma": "blīð-heort"
   },
   "blið-heort": {
     "def": "BLITHE of HEART, cheerful",
@@ -1522,12 +5302,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blīðe"
   },
+  "bliðheort": {
+    "def": "BLITHE of HEART, cheerful",
+    "grammar": "adj.",
+    "lemma": "blīð-heort"
+  },
   "blod": {
     "def": "1616, 1667",
     "grammar": "n.",
     "lemma": "blōd"
   },
+  "blod fag": {
+    "def": "BLOOD-stained",
+    "grammar": "adj.",
+    "lemma": "blōd-fāg"
+  },
+  "blod reow": {
+    "def": "BLOOD-thirsty",
+    "grammar": "adj.",
+    "lemma": "blōd-rēow"
+  },
+  "blod(e)gi": {
+    "def": "make BLOODY",
+    "grammar": "vb. II",
+    "lemma": "blōd(e)gian"
+  },
   "blod(e)gian": {
+    "def": "make BLOODY",
+    "grammar": "vb. II",
+    "lemma": "blōd(e)gian"
+  },
+  "blod(e)gie": {
     "def": "make BLOODY",
     "grammar": "vb. II",
     "lemma": "blōd(e)gian"
@@ -1542,17 +5347,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blōd-rēow"
   },
+  "blode": {
+    "def": "blood-stained",
+    "grammar": "adj.",
+    "lemma": "blōdiġ"
+  },
+  "blodfag": {
+    "def": "BLOOD-stained",
+    "grammar": "adj.",
+    "lemma": "blōd-fāg"
+  },
   "blodig": {
     "def": "blood-stained",
     "grammar": "adj.",
     "lemma": "blōdiġ"
+  },
+  "blodig toð": {
+    "def": "with BLOODY (TOOTH) teeth",
+    "grammar": "adj.",
+    "lemma": "blōdiġ-tōð"
   },
   "blodig-toð": {
     "def": "with BLOODY (TOOTH) teeth",
     "grammar": "adj.",
     "lemma": "blōdiġ-tōð"
   },
+  "blodigtoð": {
+    "def": "with BLOODY (TOOTH) teeth",
+    "grammar": "adj.",
+    "lemma": "blōdiġ-tōð"
+  },
+  "blodreow": {
+    "def": "BLOOD-thirsty",
+    "grammar": "adj.",
+    "lemma": "blōd-rēow"
+  },
+  "blonden feax": {
+    "def": "(having mixed hair, i",
+    "grammar": "adj.",
+    "lemma": "blonden-feax"
+  },
   "blonden-feax": {
+    "def": "(having mixed hair, i",
+    "grammar": "adj.",
+    "lemma": "blonden-feax"
+  },
+  "blondenfeax": {
     "def": "(having mixed hair, i",
     "grammar": "adj.",
     "lemma": "blonden-feax"
@@ -1567,6 +5407,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "blǣd"
   },
+  "blæd agande": {
+    "def": "prosper-ous, glorious",
+    "grammar": "pres.",
+    "lemma": "blǣd-āgande"
+  },
+  "blæd fæst": {
+    "def": "glorious",
+    "grammar": "adj.",
+    "lemma": "blǣd-fæst"
+  },
+  "blæd-agan": {
+    "def": "prosper-ous, glorious",
+    "grammar": "pres.",
+    "lemma": "blǣd-āgande"
+  },
+  "blæd-agand": {
+    "def": "prosper-ous, glorious",
+    "grammar": "pres.",
+    "lemma": "blǣd-āgande"
+  },
   "blæd-agande": {
     "def": "prosper-ous, glorious",
     "grammar": "pres.",
@@ -1577,12 +5437,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blǣd-fæst"
   },
+  "blædagande": {
+    "def": "prosper-ous, glorious",
+    "grammar": "pres.",
+    "lemma": "blǣd-āgande"
+  },
+  "blædfæst": {
+    "def": "glorious",
+    "grammar": "adj.",
+    "lemma": "blǣd-fæst"
+  },
+  "bodi": {
+    "def": "1802",
+    "grammar": "vb. II",
+    "lemma": "bodian"
+  },
   "bodian": {
     "def": "1802",
     "grammar": "vb. II",
     "lemma": "bodian"
   },
+  "bodie": {
+    "def": "1802",
+    "grammar": "vb. II",
+    "lemma": "bodian"
+  },
+  "bolc": {
+    "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
+    "grammar": "wk.",
+    "lemma": "bolca"
+  },
   "bolca": {
+    "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
+    "grammar": "wk.",
+    "lemma": "bolca"
+  },
+  "bolce": {
     "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
     "grammar": "wk.",
     "lemma": "bolca"
@@ -1592,12 +5482,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bold"
   },
+  "bold agend(e)": {
+    "def": "house-OWner (-owning)",
+    "grammar": "mc.",
+    "lemma": "bold-āgend(e)"
+  },
   "bold-agend(e)": {
     "def": "house-OWner (-owning)",
     "grammar": "mc.",
     "lemma": "bold-āgend(e)"
   },
+  "boldagend(e)": {
+    "def": "house-OWner (-owning)",
+    "grammar": "mc.",
+    "lemma": "bold-āgend(e)"
+  },
+  "bolgen mod": {
+    "def": "enraged",
+    "grammar": "adj.",
+    "lemma": "bolgen-mōd"
+  },
   "bolgen-mod": {
+    "def": "enraged",
+    "grammar": "adj.",
+    "lemma": "bolgen-mōd"
+  },
+  "bolgenmod": {
     "def": "enraged",
     "grammar": "adj.",
     "lemma": "bolgen-mōd"
@@ -1606,6 +5516,16 @@ const OLD_ENGLISH_DICT = {
     "def": "BOLSTER, cushion",
     "grammar": "m.",
     "lemma": "bolster"
+  },
+  "bon": {
+    "def": "see bana",
+    "grammar": "",
+    "lemma": "bona"
+  },
+  "bon gar": {
+    "def": "deadly spear",
+    "grammar": "m.",
+    "lemma": "bon-gār"
   },
   "bon-gar": {
     "def": "deadly spear",
@@ -1617,12 +5537,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bona"
   },
+  "bone": {
+    "def": "see bana",
+    "grammar": "",
+    "lemma": "bona"
+  },
+  "bongar": {
+    "def": "deadly spear",
+    "grammar": "m.",
+    "lemma": "bon-gār"
+  },
   "bord": {
     "def": "†shield",
     "grammar": "n.",
     "lemma": "bord"
   },
+  "bord hreoða": {
+    "def": "shield-covering, shield, phalanx",
+    "grammar": "wk.",
+    "lemma": "bord-hrēoða"
+  },
+  "bord hæbbend(e)": {
+    "def": "(BOARD-HAVing), shield-bearer",
+    "grammar": "mc.",
+    "lemma": "bord-hæbbend(e)"
+  },
+  "bord rand": {
+    "def": "shield",
+    "grammar": "m.",
+    "lemma": "bord-rand"
+  },
+  "bord weal(l)": {
+    "def": "‘shield-WALL,’ (pro-tecting) shield or formation of shields",
+    "grammar": "m.",
+    "lemma": "bord-weal(l)"
+  },
+  "bord wudu": {
+    "def": "shield",
+    "grammar": "mu.",
+    "lemma": "bord-wudu"
+  },
+  "bord-hreoð": {
+    "def": "shield-covering, shield, phalanx",
+    "grammar": "wk.",
+    "lemma": "bord-hrēoða"
+  },
   "bord-hreoða": {
+    "def": "shield-covering, shield, phalanx",
+    "grammar": "wk.",
+    "lemma": "bord-hrēoða"
+  },
+  "bord-hreoðe": {
     "def": "shield-covering, shield, phalanx",
     "grammar": "wk.",
     "lemma": "bord-hrēoða"
@@ -1643,6 +5608,31 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-weal(l)"
   },
   "bord-wudu": {
+    "def": "shield",
+    "grammar": "mu.",
+    "lemma": "bord-wudu"
+  },
+  "bordhreoða": {
+    "def": "shield-covering, shield, phalanx",
+    "grammar": "wk.",
+    "lemma": "bord-hrēoða"
+  },
+  "bordhæbbend(e)": {
+    "def": "(BOARD-HAVing), shield-bearer",
+    "grammar": "mc.",
+    "lemma": "bord-hæbbend(e)"
+  },
+  "bordrand": {
+    "def": "shield",
+    "grammar": "m.",
+    "lemma": "bord-rand"
+  },
+  "bordweal(l)": {
+    "def": "‘shield-WALL,’ (pro-tecting) shield or formation of shields",
+    "grammar": "m.",
+    "lemma": "bord-weal(l)"
+  },
+  "bordwudu": {
     "def": "shield",
     "grammar": "mu.",
     "lemma": "bord-wudu"
@@ -1672,7 +5662,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "brand"
   },
+  "brec": {
+    "def": "1511, 1567",
+    "grammar": "vb. 4",
+    "lemma": "brecan"
+  },
   "brecan": {
+    "def": "1511, 1567",
+    "grammar": "vb. 4",
+    "lemma": "brecan"
+  },
+  "brece": {
     "def": "1511, 1567",
     "grammar": "vb. 4",
     "lemma": "brecan"
@@ -1682,7 +5682,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "brecð"
   },
+  "bregd": {
+    "def": "draw, swing, fling",
+    "grammar": "vb. 3",
+    "lemma": "breġdan"
+  },
   "bregdan": {
+    "def": "draw, swing, fling",
+    "grammar": "vb. 3",
+    "lemma": "breġdan"
+  },
+  "bregde": {
     "def": "draw, swing, fling",
     "grammar": "vb. 3",
     "lemma": "breġdan"
@@ -1691,6 +5701,16 @@ const OLD_ENGLISH_DICT = {
     "def": "chief, lord (w",
     "grammar": "m.",
     "lemma": "brego"
+  },
+  "brego rof": {
+    "def": "very valiant",
+    "grammar": "adj.",
+    "lemma": "brego-rōf"
+  },
+  "brego stol": {
+    "def": "princely seat, throne, Copyright ӯ 2008",
+    "grammar": "m.",
+    "lemma": "brego-stōl"
   },
   "brego-rof": {
     "def": "very valiant",
@@ -1701,6 +5721,21 @@ const OLD_ENGLISH_DICT = {
     "def": "princely seat, throne, Copyright ӯ 2008",
     "grammar": "m.",
     "lemma": "brego-stōl"
+  },
+  "bregorof": {
+    "def": "very valiant",
+    "grammar": "adj.",
+    "lemma": "brego-rōf"
+  },
+  "bregostol": {
+    "def": "princely seat, throne, Copyright ӯ 2008",
+    "grammar": "m.",
+    "lemma": "brego-stōl"
+  },
+  "brem": {
+    "def": "renowned",
+    "grammar": "adj.",
+    "lemma": "brēme"
   },
   "breme": {
     "def": "renowned",
@@ -1717,10 +5752,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "brēost"
   },
+  "breost gehygd": {
+    "def": "thought of the heart",
+    "grammar": "fni.",
+    "lemma": "brēost-ġehyġd"
+  },
+  "breost gewæde": {
+    "def": "BREAST-garment, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-ġewǣde"
+  },
+  "breost hord": {
+    "def": "(BREAST-HOARD), breast, mind, heart",
+    "grammar": "n.",
+    "lemma": "brēost-hord"
+  },
+  "breost net(t)": {
+    "def": "BREAST-NET, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-net(t)"
+  },
+  "breost weorðung": {
+    "def": "BREAST-orna-ment",
+    "grammar": "f.",
+    "lemma": "brēost-weorðung"
+  },
+  "breost wylm": {
+    "def": "(BREAST-WELLing), emotion",
+    "grammar": "mi.",
+    "lemma": "brēost-wylm"
+  },
   "breost-gehygd": {
     "def": "thought of the heart",
     "grammar": "fni.",
     "lemma": "brēost-ġehyġd"
+  },
+  "breost-gewæ": {
+    "def": "BREAST-garment, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-ġewǣde"
+  },
+  "breost-gewæd": {
+    "def": "BREAST-garment, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-ġewǣde"
   },
   "breost-gewæde": {
     "def": "BREAST-garment, mail shirt (or coat)",
@@ -1747,7 +5822,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "brēost-wylm"
   },
+  "breostgehygd": {
+    "def": "thought of the heart",
+    "grammar": "fni.",
+    "lemma": "brēost-ġehyġd"
+  },
+  "breostgewæde": {
+    "def": "BREAST-garment, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-ġewǣde"
+  },
+  "breosthord": {
+    "def": "(BREAST-HOARD), breast, mind, heart",
+    "grammar": "n.",
+    "lemma": "brēost-hord"
+  },
+  "breostnet(t)": {
+    "def": "BREAST-NET, mail shirt (or coat)",
+    "grammar": "nja.",
+    "lemma": "brēost-net(t)"
+  },
+  "breostweorðung": {
+    "def": "BREAST-orna-ment",
+    "grammar": "f.",
+    "lemma": "brēost-weorðung"
+  },
+  "breostwylm": {
+    "def": "(BREAST-WELLing), emotion",
+    "grammar": "mi.",
+    "lemma": "brēost-wylm"
+  },
+  "breot": {
+    "def": "(break), cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "brēotan"
+  },
   "breotan": {
+    "def": "(break), cut down, kill",
+    "grammar": "vb. 2",
+    "lemma": "brēotan"
+  },
+  "breote": {
     "def": "(break), cut down, kill",
     "grammar": "vb. 2",
     "lemma": "brēotan"
@@ -1756,6 +5871,41 @@ const OLD_ENGLISH_DICT = {
     "def": "sea, water (of sea, lake)",
     "grammar": "n.",
     "lemma": "brim"
+  },
+  "brim clif": {
+    "def": "sea-CLIFF",
+    "grammar": "n.",
+    "lemma": "brim-clif"
+  },
+  "brim lad": {
+    "def": "sea-passage, voyage",
+    "grammar": "f.",
+    "lemma": "brim-lād"
+  },
+  "brim liðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "brim-līðend(e)"
+  },
+  "brim stream": {
+    "def": "ocean-STREAM, sea’s current, sea",
+    "grammar": "m.",
+    "lemma": "brim-strēam"
+  },
+  "brim wisa": {
+    "def": "sea-leader, -king",
+    "grammar": "wk.",
+    "lemma": "brim-wīsa"
+  },
+  "brim wylf": {
+    "def": "she-WOLF of the sea or lake",
+    "grammar": "fj",
+    "lemma": "brim-wylf"
+  },
+  "brim wylm": {
+    "def": "surge of the sea or lake",
+    "grammar": "mi.",
+    "lemma": "brim-wylm"
   },
   "brim-clif": {
     "def": "sea-CLIFF",
@@ -1777,7 +5927,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "brim-strēam"
   },
+  "brim-wis": {
+    "def": "sea-leader, -king",
+    "grammar": "wk.",
+    "lemma": "brim-wīsa"
+  },
   "brim-wisa": {
+    "def": "sea-leader, -king",
+    "grammar": "wk.",
+    "lemma": "brim-wīsa"
+  },
+  "brim-wise": {
     "def": "sea-leader, -king",
     "grammar": "wk.",
     "lemma": "brim-wīsa"
@@ -1792,30 +5952,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "brim-wylm"
   },
+  "brimclif": {
+    "def": "sea-CLIFF",
+    "grammar": "n.",
+    "lemma": "brim-clif"
+  },
+  "brimlad": {
+    "def": "sea-passage, voyage",
+    "grammar": "f.",
+    "lemma": "brim-lād"
+  },
+  "brimliðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "brim-līðend(e)"
+  },
+  "brimstream": {
+    "def": "ocean-STREAM, sea’s current, sea",
+    "grammar": "m.",
+    "lemma": "brim-strēam"
+  },
+  "brimwisa": {
+    "def": "sea-leader, -king",
+    "grammar": "wk.",
+    "lemma": "brim-wīsa"
+  },
+  "brimwylf": {
+    "def": "she-WOLF of the sea or lake",
+    "grammar": "fj",
+    "lemma": "brim-wylf"
+  },
+  "brimwylm": {
+    "def": "surge of the sea or lake",
+    "grammar": "mi.",
+    "lemma": "brim-wylm"
+  },
+  "bring": {
+    "def": "2148, 2504",
+    "grammar": "vb. I",
+    "lemma": "bringan"
+  },
   "bringan": {
     "def": "2148, 2504",
     "grammar": "vb. I",
     "lemma": "bringan"
+  },
+  "bringe": {
+    "def": "2148, 2504",
+    "grammar": "vb. I",
+    "lemma": "bringan"
+  },
+  "brod": {
+    "def": "see breġdan",
+    "grammar": "",
+    "lemma": "brōden"
+  },
+  "brode": {
+    "def": "see breġdan",
+    "grammar": "",
+    "lemma": "brōden"
   },
   "broden": {
     "def": "see breġdan",
     "grammar": "",
     "lemma": "brōden"
   },
+  "broden mæl": {
+    "def": "see brogden-mǣl",
+    "grammar": "",
+    "lemma": "brōden-mǣl"
+  },
   "broden-mæl": {
     "def": "see brogden-mǣl",
     "grammar": "",
     "lemma": "brōden-mǣl"
+  },
+  "brodenmæl": {
+    "def": "see brogden-mǣl",
+    "grammar": "",
+    "lemma": "brōden-mǣl"
+  },
+  "brog": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "brōga"
   },
   "broga": {
     "def": "horror",
     "grammar": "wk.",
     "lemma": "brōga"
   },
+  "brogden mæl": {
+    "def": "(ornamented with a wavy pattern, i",
+    "grammar": "n.",
+    "lemma": "brogden-mǣl"
+  },
   "brogden-mæl": {
     "def": "(ornamented with a wavy pattern, i",
     "grammar": "n.",
     "lemma": "brogden-mǣl"
+  },
+  "brogdenmæl": {
+    "def": "(ornamented with a wavy pattern, i",
+    "grammar": "n.",
+    "lemma": "brogden-mǣl"
+  },
+  "broge": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "brōga"
   },
   "brond": {
     "def": "fire",
@@ -1827,7 +6072,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "bront"
   },
+  "brosni": {
+    "def": "fall to pieces",
+    "grammar": "vb. II",
+    "lemma": "brosnian"
+  },
   "brosnian": {
+    "def": "fall to pieces",
+    "grammar": "vb. II",
+    "lemma": "brosnian"
+  },
+  "brosnie": {
     "def": "fall to pieces",
     "grammar": "vb. II",
     "lemma": "brosnian"
@@ -1837,7 +6092,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "brōðor"
   },
+  "bruc": {
+    "def": "make use of, enjoy",
+    "grammar": "vb. 2",
+    "lemma": "brūcan"
+  },
   "brucan": {
+    "def": "make use of, enjoy",
+    "grammar": "vb. 2",
+    "lemma": "brūcan"
+  },
+  "bruce": {
     "def": "make use of, enjoy",
     "grammar": "vb. 2",
     "lemma": "brūcan"
@@ -1846,6 +6111,16 @@ const OLD_ENGLISH_DICT = {
     "def": "bright, reflective (sword)",
     "grammar": "adj.",
     "lemma": "brūn"
+  },
+  "brun ecg": {
+    "def": "with bright (BROWN) EDGE",
+    "grammar": "adj.",
+    "lemma": "brūn-ecg"
+  },
+  "brun fag": {
+    "def": "of a (BROWN or) reflec-tive color, shining",
+    "grammar": "adj.",
+    "lemma": "brūn-fāg"
   },
   "brun-ecg": {
     "def": "with bright (BROWN) EDGE",
@@ -1857,7 +6132,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "brūn-fāg"
   },
+  "brunecg": {
+    "def": "with bright (BROWN) EDGE",
+    "grammar": "adj.",
+    "lemma": "brūn-ecg"
+  },
+  "brunfag": {
+    "def": "of a (BROWN or) reflec-tive color, shining",
+    "grammar": "adj.",
+    "lemma": "brūn-fāg"
+  },
+  "bryne leoma": {
+    "def": "gleam of fire",
+    "grammar": "wk.",
+    "lemma": "bryne-lēoma"
+  },
+  "bryne wylm": {
+    "def": "surge of fire",
+    "grammar": "mi.",
+    "lemma": "bryne-wylm"
+  },
+  "bryne-leom": {
+    "def": "gleam of fire",
+    "grammar": "wk.",
+    "lemma": "bryne-lēoma"
+  },
   "bryne-leoma": {
+    "def": "gleam of fire",
+    "grammar": "wk.",
+    "lemma": "bryne-lēoma"
+  },
+  "bryne-leome": {
     "def": "gleam of fire",
     "grammar": "wk.",
     "lemma": "bryne-lēoma"
@@ -1867,17 +6172,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "bryne-wylm"
   },
+  "bryneleoma": {
+    "def": "gleam of fire",
+    "grammar": "wk.",
+    "lemma": "bryne-lēoma"
+  },
+  "brynewylm": {
+    "def": "surge of fire",
+    "grammar": "mi.",
+    "lemma": "bryne-wylm"
+  },
+  "brytni": {
+    "def": "dispense",
+    "grammar": "vb. II",
+    "lemma": "brytnian"
+  },
   "brytnian": {
     "def": "dispense",
     "grammar": "vb. II",
     "lemma": "brytnian"
+  },
+  "brytnie": {
+    "def": "dispense",
+    "grammar": "vb. II",
+    "lemma": "brytnian"
+  },
+  "brytt": {
+    "def": "distributor, dispenser",
+    "grammar": "wk.",
+    "lemma": "brytta"
   },
   "brytta": {
     "def": "distributor, dispenser",
     "grammar": "wk.",
     "lemma": "brytta"
   },
+  "brytte": {
+    "def": "distributor, dispenser",
+    "grammar": "wk.",
+    "lemma": "brytta"
+  },
+  "brytti": {
+    "def": "dispense",
+    "grammar": "vb.  II",
+    "lemma": "bryttian"
+  },
   "bryttian": {
+    "def": "dispense",
+    "grammar": "vb.  II",
+    "lemma": "bryttian"
+  },
+  "bryttie": {
     "def": "dispense",
     "grammar": "vb.  II",
     "lemma": "bryttian"
@@ -1887,10 +6232,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "brӯd"
   },
+  "brуd bur": {
+    "def": "woman’s apartment",
+    "grammar": "m.",
+    "lemma": "brӯd-būr"
+  },
   "brуd-bur": {
     "def": "woman’s apartment",
     "grammar": "m.",
     "lemma": "brӯd-būr"
+  },
+  "brуdbur": {
+    "def": "woman’s apartment",
+    "grammar": "m.",
+    "lemma": "brӯd-būr"
+  },
+  "bu": {
+    "def": "(1) reside",
+    "grammar": "vb. 7",
+    "lemma": "būan"
+  },
+  "bu folc": {
+    "def": "inhabitants",
+    "grammar": "n.",
+    "lemma": "bū-folc"
   },
   "bu-folc": {
     "def": "inhabitants",
@@ -1902,17 +6267,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "būan"
   },
+  "bue": {
+    "def": "(1) reside",
+    "grammar": "vb. 7",
+    "lemma": "būan"
+  },
+  "bufolc": {
+    "def": "inhabitants",
+    "grammar": "n.",
+    "lemma": "bū-folc"
+  },
+  "bug": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "būgan"
+  },
   "bugan": {
     "def": "fall",
     "grammar": "vb. 2",
     "lemma": "būgan"
+  },
+  "buge": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "būgan"
+  },
+  "bun": {
+    "def": "drinking vessel",
+    "grammar": "wk.",
+    "lemma": "bune"
+  },
+  "bunden heord": {
+    "def": "with hair BOUND up",
+    "grammar": "adj.",
+    "lemma": "bunden-heord"
+  },
+  "bunden stefna": {
+    "def": "ship with BOUND prow",
+    "grammar": "wk.",
+    "lemma": "bunden-stefna"
   },
   "bunden-heord": {
     "def": "with hair BOUND up",
     "grammar": "adj.",
     "lemma": "bunden-heord"
   },
+  "bunden-stefn": {
+    "def": "ship with BOUND prow",
+    "grammar": "wk.",
+    "lemma": "bunden-stefna"
+  },
   "bunden-stefna": {
+    "def": "ship with BOUND prow",
+    "grammar": "wk.",
+    "lemma": "bunden-stefna"
+  },
+  "bunden-stefne": {
+    "def": "ship with BOUND prow",
+    "grammar": "wk.",
+    "lemma": "bunden-stefna"
+  },
+  "bundenheord": {
+    "def": "with hair BOUND up",
+    "grammar": "adj.",
+    "lemma": "bunden-heord"
+  },
+  "bundenstefna": {
     "def": "ship with BOUND prow",
     "grammar": "wk.",
     "lemma": "bunden-stefna"
@@ -1923,36 +6343,111 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bune"
   },
   "bur": {
-    "def": "apartment, room",
-    "grammar": "m.",
-    "lemma": "būr"
+    "def": "2546",
+    "grammar": "wk.",
+    "lemma": "burne"
   },
   "burh": {
     "def": "residence, ‘man-or,’ hence fortified place, stronghold, town",
     "grammar": "fc.",
     "lemma": "burh"
   },
+  "burh loca": {
+    "def": "stronghold (LOCK)",
+    "grammar": "wk.",
+    "lemma": "burh-loca"
+  },
+  "burh stede": {
+    "def": "fortified place",
+    "grammar": "mi.",
+    "lemma": "burh-stede"
+  },
+  "burh wela": {
+    "def": "WEALth of a citadel (town)",
+    "grammar": "wk.",
+    "lemma": "burh-wela"
+  },
+  "burh-loc": {
+    "def": "stronghold (LOCK)",
+    "grammar": "wk.",
+    "lemma": "burh-loca"
+  },
   "burh-loca": {
     "def": "stronghold (LOCK)",
     "grammar": "wk.",
     "lemma": "burh-loca"
+  },
+  "burh-loce": {
+    "def": "stronghold (LOCK)",
+    "grammar": "wk.",
+    "lemma": "burh-loca"
+  },
+  "burh-ste": {
+    "def": "fortified place",
+    "grammar": "mi.",
+    "lemma": "burh-stede"
+  },
+  "burh-sted": {
+    "def": "fortified place",
+    "grammar": "mi.",
+    "lemma": "burh-stede"
   },
   "burh-stede": {
     "def": "fortified place",
     "grammar": "mi.",
     "lemma": "burh-stede"
   },
+  "burh-wel": {
+    "def": "WEALth of a citadel (town)",
+    "grammar": "wk.",
+    "lemma": "burh-wela"
+  },
   "burh-wela": {
     "def": "WEALth of a citadel (town)",
     "grammar": "wk.",
     "lemma": "burh-wela"
+  },
+  "burh-wele": {
+    "def": "WEALth of a citadel (town)",
+    "grammar": "wk.",
+    "lemma": "burh-wela"
+  },
+  "burhloca": {
+    "def": "stronghold (LOCK)",
+    "grammar": "wk.",
+    "lemma": "burh-loca"
+  },
+  "burhstede": {
+    "def": "fortified place",
+    "grammar": "mi.",
+    "lemma": "burh-stede"
+  },
+  "burhwela": {
+    "def": "WEALth of a citadel (town)",
+    "grammar": "wk.",
+    "lemma": "burh-wela"
+  },
+  "burn": {
+    "def": "2546",
+    "grammar": "wk.",
+    "lemma": "burne"
   },
   "burne": {
     "def": "2546",
     "grammar": "wk.",
     "lemma": "burne"
   },
+  "buruh ðelu": {
+    "def": "stronghold-floor",
+    "grammar": "f.",
+    "lemma": "buruh-ðelu"
+  },
   "buruh-ðelu": {
+    "def": "stronghold-floor",
+    "grammar": "f.",
+    "lemma": "buruh-ðelu"
+  },
+  "buruhðelu": {
     "def": "stronghold-floor",
     "grammar": "f.",
     "lemma": "buruh-ðelu"
@@ -1962,20 +6457,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "būton(būtan)"
   },
+  "by": {
+    "def": "son",
+    "grammar": "mi.",
+    "lemma": "byre"
+  },
+  "bycg": {
+    "def": "pay for",
+    "grammar": "vb. I",
+    "lemma": "bycgan"
+  },
   "bycgan": {
     "def": "pay for",
     "grammar": "vb. I",
     "lemma": "bycgan"
+  },
+  "bycge": {
+    "def": "pay for",
+    "grammar": "vb. I",
+    "lemma": "bycgan"
+  },
+  "byld": {
+    "def": "cheer",
+    "grammar": "vb. I",
+    "lemma": "byldan"
   },
   "byldan": {
     "def": "cheer",
     "grammar": "vb. I",
     "lemma": "byldan"
   },
+  "bylde": {
+    "def": "cheer",
+    "grammar": "vb. I",
+    "lemma": "byldan"
+  },
+  "byr": {
+    "def": "son",
+    "grammar": "mi.",
+    "lemma": "byre"
+  },
   "byre": {
     "def": "son",
     "grammar": "mi.",
     "lemma": "byre"
+  },
+  "byrel": {
+    "def": "1161",
+    "grammar": "mi.",
+    "lemma": "byrele"
   },
   "byrele": {
     "def": "1161",
@@ -1987,7 +6517,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "byreð"
   },
+  "byrg": {
+    "def": "eat",
+    "grammar": "vb. I",
+    "lemma": "byrġan"
+  },
   "byrgan": {
+    "def": "eat",
+    "grammar": "vb. I",
+    "lemma": "byrġan"
+  },
+  "byrge": {
     "def": "eat",
     "grammar": "vb. I",
     "lemma": "byrġan"
@@ -2002,7 +6542,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "byriġ"
   },
+  "byrn": {
+    "def": "F",
+    "grammar": "vb. 3",
+    "lemma": "byrnan"
+  },
+  "byrn wiga": {
+    "def": "mailed warrior",
+    "grammar": "wk.",
+    "lemma": "byrn-wiga"
+  },
+  "byrn-wig": {
+    "def": "mailed warrior",
+    "grammar": "wk.",
+    "lemma": "byrn-wiga"
+  },
   "byrn-wiga": {
+    "def": "mailed warrior",
+    "grammar": "wk.",
+    "lemma": "byrn-wiga"
+  },
+  "byrn-wige": {
     "def": "mailed warrior",
     "grammar": "wk.",
     "lemma": "byrn-wiga"
@@ -2013,9 +6573,14 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byrnan"
   },
   "byrne": {
-    "def": "1245, 1629, 2660, 2673, [F",
+    "def": "F",
+    "grammar": "vb. 3",
+    "lemma": "byrnan"
+  },
+  "byrnwiga": {
+    "def": "mailed warrior",
     "grammar": "wk.",
-    "lemma": "byrne"
+    "lemma": "byrn-wiga"
   },
   "bysigu": {
     "def": "distress, trouble, care",
@@ -2027,7 +6592,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "byð"
   },
+  "bæd": {
+    "def": "urge on",
+    "grammar": "vb. I",
+    "lemma": "bǣdan"
+  },
   "bædan": {
+    "def": "urge on",
+    "grammar": "vb. I",
+    "lemma": "bǣdan"
+  },
+  "bæde": {
     "def": "urge on",
     "grammar": "vb. I",
     "lemma": "bǣdan"
@@ -2037,10 +6612,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bǣl"
   },
+  "bæl fуr": {
+    "def": "funeral FIRE",
+    "grammar": "n.",
+    "lemma": "bǣl-fӯr"
+  },
+  "bæl stede": {
+    "def": "place of the pyre",
+    "grammar": "mi.",
+    "lemma": "bǣl-stede"
+  },
+  "bæl wudu": {
+    "def": "WOOD for the funeral pyre",
+    "grammar": "mu.",
+    "lemma": "bǣl-wudu"
+  },
   "bæl-fуr": {
     "def": "funeral FIRE",
     "grammar": "n.",
     "lemma": "bǣl-fӯr"
+  },
+  "bæl-ste": {
+    "def": "place of the pyre",
+    "grammar": "mi.",
+    "lemma": "bǣl-stede"
+  },
+  "bæl-sted": {
+    "def": "place of the pyre",
+    "grammar": "mi.",
+    "lemma": "bǣl-stede"
   },
   "bæl-stede": {
     "def": "place of the pyre",
@@ -2052,12 +6652,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "bǣl-wudu"
   },
+  "bælfуr": {
+    "def": "funeral FIRE",
+    "grammar": "n.",
+    "lemma": "bǣl-fӯr"
+  },
+  "bælstede": {
+    "def": "place of the pyre",
+    "grammar": "mi.",
+    "lemma": "bǣl-stede"
+  },
+  "bælwudu": {
+    "def": "WOOD for the funeral pyre",
+    "grammar": "mu.",
+    "lemma": "bǣl-wudu"
+  },
   "bær": {
     "def": "f",
     "grammar": "f.",
     "lemma": "bǣr"
   },
+  "bærn": {
+    "def": "2313",
+    "grammar": "vb. I",
+    "lemma": "bærnan"
+  },
   "bærnan": {
+    "def": "2313",
+    "grammar": "vb. I",
+    "lemma": "bærnan"
+  },
+  "bærne": {
     "def": "2313",
     "grammar": "vb. I",
     "lemma": "bærnan"
@@ -2067,15 +6692,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bæð"
   },
+  "bуm": {
+    "def": "2943",
+    "grammar": "wk.",
+    "lemma": "bӯme"
+  },
   "bуme": {
     "def": "2943",
     "grammar": "wk.",
     "lemma": "bӯme"
   },
+  "bуw": {
+    "def": "polish, furbish up, prepare",
+    "grammar": "vb.  I",
+    "lemma": "bӯwan"
+  },
   "bуwan": {
     "def": "polish, furbish up, prepare",
     "grammar": "vb.  I",
     "lemma": "bӯwan"
+  },
+  "bуwe": {
+    "def": "polish, furbish up, prepare",
+    "grammar": "vb.  I",
+    "lemma": "bӯwan"
+  },
+  "c": {
+    "def": "see cunnan",
+    "grammar": "",
+    "lemma": "can"
   },
   "camp": {
     "def": "fight",
@@ -2097,6 +6742,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "caru"
   },
+  "ce": {
+    "def": "F",
+    "grammar": "adj.",
+    "lemma": "cēne"
+  },
   "ceald": {
     "def": "1261",
     "grammar": "adj.",
@@ -2106,6 +6756,16 @@ const OLD_ENGLISH_DICT = {
     "def": "purchase",
     "grammar": "m.",
     "lemma": "ċēap"
+  },
+  "cear sið": {
+    "def": "expedition that brings sorrow (CARE)",
+    "grammar": "m.",
+    "lemma": "ċear-sīð"
+  },
+  "cear wælm": {
+    "def": "mi",
+    "grammar": "",
+    "lemma": "ċear-wælm"
   },
   "cear-sið": {
     "def": "expedition that brings sorrow (CARE)",
@@ -2117,17 +6777,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ċear-wælm"
   },
+  "ceari": {
+    "def": "be anxious",
+    "grammar": "vb. II",
+    "lemma": "cearian"
+  },
   "cearian": {
     "def": "be anxious",
     "grammar": "vb. II",
     "lemma": "cearian"
+  },
+  "cearie": {
+    "def": "be anxious",
+    "grammar": "vb. II",
+    "lemma": "cearian"
+  },
+  "cearsið": {
+    "def": "expedition that brings sorrow (CARE)",
+    "grammar": "m.",
+    "lemma": "ċear-sīð"
   },
   "cearu": {
     "def": "sorrow, grief, 1303",
     "grammar": "f.",
     "lemma": "cearu"
   },
+  "cearwælm": {
+    "def": "mi",
+    "grammar": "",
+    "lemma": "ċear-wælm"
+  },
+  "ceaster buend": {
+    "def": "town-dweller, fortress-dweller",
+    "grammar": "mc.",
+    "lemma": "ċeaster-būend"
+  },
   "ceaster-buend": {
+    "def": "town-dweller, fortress-dweller",
+    "grammar": "mc.",
+    "lemma": "ċeaster-būend"
+  },
+  "ceasterbuend": {
     "def": "town-dweller, fortress-dweller",
     "grammar": "mc.",
     "lemma": "ċeaster-būend"
@@ -2137,17 +6827,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "celæs"
   },
+  "cemp": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "cempa"
+  },
   "cempa": {
     "def": "warrior",
     "grammar": "wk.",
     "lemma": "cempa"
+  },
+  "cempe": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "cempa"
+  },
+  "cen": {
+    "def": "F",
+    "grammar": "adj.",
+    "lemma": "cēne"
   },
   "cene": {
     "def": "F",
     "grammar": "adj.",
     "lemma": "cēne"
   },
+  "cenn": {
+    "def": "show",
+    "grammar": "vb. I",
+    "lemma": "cennan"
+  },
   "cennan": {
+    "def": "show",
+    "grammar": "vb. I",
+    "lemma": "cennan"
+  },
+  "cenne": {
     "def": "show",
     "grammar": "vb. I",
     "lemma": "cennan"
@@ -2167,7 +6882,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ċeorl"
   },
+  "ceos": {
+    "def": "CHOOSE, taste, try",
+    "grammar": "",
+    "lemma": "ċēosan"
+  },
   "ceosan": {
+    "def": "CHOOSE, taste, try",
+    "grammar": "",
+    "lemma": "ċēosan"
+  },
+  "ceose": {
     "def": "CHOOSE, taste, try",
     "grammar": "",
     "lemma": "ċēosan"
@@ -2182,7 +6907,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "clif"
   },
+  "cniht wesende": {
+    "def": "being a boy or young man",
+    "grammar": "adj.",
+    "lemma": "cniht-wesende"
+  },
+  "cniht-wesen": {
+    "def": "being a boy or young man",
+    "grammar": "adj.",
+    "lemma": "cniht-wesende"
+  },
+  "cniht-wesend": {
+    "def": "being a boy or young man",
+    "grammar": "adj.",
+    "lemma": "cniht-wesende"
+  },
   "cniht-wesende": {
+    "def": "being a boy or young man",
+    "grammar": "adj.",
+    "lemma": "cniht-wesende"
+  },
+  "cnihtwesende": {
     "def": "being a boy or young man",
     "grammar": "adj.",
     "lemma": "cniht-wesende"
@@ -2192,7 +6937,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "cnyht"
   },
+  "cnyss": {
+    "def": "strike",
+    "grammar": "vb. I",
+    "lemma": "cnyssan"
+  },
   "cnyssan": {
+    "def": "strike",
+    "grammar": "vb. I",
+    "lemma": "cnyssan"
+  },
+  "cnysse": {
     "def": "strike",
     "grammar": "vb. I",
     "lemma": "cnyssan"
@@ -2202,7 +6957,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "cōl"
   },
+  "collen ferhð": {
+    "def": "bold of spirit, excited",
+    "grammar": "adj.",
+    "lemma": "collen-ferhð"
+  },
   "collen-ferhð": {
+    "def": "bold of spirit, excited",
+    "grammar": "adj.",
+    "lemma": "collen-ferhð"
+  },
+  "collenferhð": {
     "def": "bold of spirit, excited",
     "grammar": "adj.",
     "lemma": "collen-ferhð"
@@ -2222,12 +6987,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "corðor"
   },
+  "costi": {
+    "def": "try, make trial of",
+    "grammar": "vb. II",
+    "lemma": "costian"
+  },
   "costian": {
     "def": "try, make trial of",
     "grammar": "vb. II",
     "lemma": "costian"
   },
+  "costie": {
+    "def": "try, make trial of",
+    "grammar": "vb. II",
+    "lemma": "costian"
+  },
+  "cring": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "cringan"
+  },
   "cringan": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "cringan"
+  },
+  "cringe": {
     "def": "fall (in battle), die",
     "grammar": "vb. 3",
     "lemma": "cringan"
@@ -2237,10 +7022,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "cræft"
   },
+  "cræfte": {
+    "def": "powerful",
+    "grammar": "adj.",
+    "lemma": "cræftiġ"
+  },
   "cræftig": {
     "def": "powerful",
     "grammar": "adj.",
     "lemma": "cræftiġ"
+  },
+  "cu": {
+    "def": "see ċēosan",
+    "grammar": "",
+    "lemma": "cure"
+  },
+  "cum": {
+    "def": "visitor",
+    "grammar": "wk.",
+    "lemma": "cuma"
   },
   "cuma": {
     "def": "visitor",
@@ -2257,15 +7057,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "cumbol"
   },
+  "cume": {
+    "def": "visitor",
+    "grammar": "wk.",
+    "lemma": "cuma"
+  },
+  "cunn": {
+    "def": "1180",
+    "grammar": "prp.",
+    "lemma": "cunnan"
+  },
   "cunnan": {
     "def": "1180",
     "grammar": "prp.",
     "lemma": "cunnan"
   },
+  "cunne": {
+    "def": "1180",
+    "grammar": "prp.",
+    "lemma": "cunnan"
+  },
+  "cunni": {
+    "def": "try, make trial of, tempt, explore",
+    "grammar": "vb. II",
+    "lemma": "cunnian"
+  },
   "cunnian": {
     "def": "try, make trial of, tempt, explore",
     "grammar": "vb. II",
     "lemma": "cunnian"
+  },
+  "cunnie": {
+    "def": "try, make trial of, tempt, explore",
+    "grammar": "vb. II",
+    "lemma": "cunnian"
+  },
+  "cur": {
+    "def": "see ċēosan",
+    "grammar": "",
+    "lemma": "cure"
   },
   "cure": {
     "def": "see ċēosan",
@@ -2277,32 +7107,107 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "cūð"
   },
+  "cuð lice": {
+    "def": "familiarly",
+    "grammar": "adv.",
+    "lemma": "cūð-līċe"
+  },
+  "cuð-lic": {
+    "def": "familiarly",
+    "grammar": "adv.",
+    "lemma": "cūð-līċe"
+  },
   "cuð-lice": {
     "def": "familiarly",
     "grammar": "adv.",
     "lemma": "cūð-līċe"
+  },
+  "cuðlice": {
+    "def": "familiarly",
+    "grammar": "adv.",
+    "lemma": "cūð-līċe"
+  },
+  "cw": {
+    "def": "613, 923",
+    "grammar": "fi.",
+    "lemma": "cwēn"
+  },
+  "cwe": {
+    "def": "613, 923",
+    "grammar": "fi.",
+    "lemma": "cwēn"
   },
   "cwealm": {
     "def": "killing",
     "grammar": "m.",
     "lemma": "cwealm"
   },
+  "cwealm bealu": {
+    "def": "death-aggression (-BALE), mortal attack",
+    "grammar": "nwa.",
+    "lemma": "cwealm-bealu"
+  },
+  "cwealm cuma": {
+    "def": "murderous visitor",
+    "grammar": "wk.",
+    "lemma": "cwealm-cuma"
+  },
   "cwealm-bealu": {
     "def": "death-aggression (-BALE), mortal attack",
     "grammar": "nwa.",
     "lemma": "cwealm-bealu"
+  },
+  "cwealm-cum": {
+    "def": "murderous visitor",
+    "grammar": "wk.",
+    "lemma": "cwealm-cuma"
   },
   "cwealm-cuma": {
     "def": "murderous visitor",
     "grammar": "wk.",
     "lemma": "cwealm-cuma"
   },
+  "cwealm-cume": {
+    "def": "murderous visitor",
+    "grammar": "wk.",
+    "lemma": "cwealm-cuma"
+  },
+  "cwealmbealu": {
+    "def": "death-aggression (-BALE), mortal attack",
+    "grammar": "nwa.",
+    "lemma": "cwealm-bealu"
+  },
+  "cwealmcuma": {
+    "def": "murderous visitor",
+    "grammar": "wk.",
+    "lemma": "cwealm-cuma"
+  },
+  "cwecc": {
+    "def": "brandish",
+    "grammar": "vb. I",
+    "lemma": "cweċċan"
+  },
   "cweccan": {
     "def": "brandish",
     "grammar": "vb. I",
     "lemma": "cweċċan"
   },
+  "cwecce": {
+    "def": "brandish",
+    "grammar": "vb. I",
+    "lemma": "cweċċan"
+  },
+  "cwell": {
+    "def": "1334",
+    "grammar": "vb. I",
+    "lemma": "cwellan"
+  },
   "cwellan": {
+    "def": "1334",
+    "grammar": "vb. I",
+    "lemma": "cwellan"
+  },
+  "cwelle": {
     "def": "1334",
     "grammar": "vb. I",
     "lemma": "cwellan"
@@ -2312,12 +7217,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "cwēn"
   },
+  "cwen lic": {
+    "def": "QUEENLY, ladylike",
+    "grammar": "adj.",
+    "lemma": "cwēn-liċ"
+  },
   "cwen-lic": {
     "def": "QUEENLY, ladylike",
     "grammar": "adj.",
     "lemma": "cwēn-liċ"
   },
+  "cwenlic": {
+    "def": "QUEENLY, ladylike",
+    "grammar": "adj.",
+    "lemma": "cwēn-liċ"
+  },
+  "cweð": {
+    "def": "say",
+    "grammar": "vb. 5",
+    "lemma": "cweðan"
+  },
   "cweðan": {
+    "def": "say",
+    "grammar": "vb. 5",
+    "lemma": "cweðan"
+  },
+  "cweðe": {
     "def": "say",
     "grammar": "vb. 5",
     "lemma": "cweðan"
@@ -2327,10 +7252,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "cwic(o)"
   },
+  "cwið": {
+    "def": "bewail, lament, mourn for",
+    "grammar": "vb. I",
+    "lemma": "cwīðan"
+  },
   "cwiðan": {
     "def": "bewail, lament, mourn for",
     "grammar": "vb. I",
     "lemma": "cwīðan"
+  },
+  "cwiðe": {
+    "def": "bewail, lament, mourn for",
+    "grammar": "vb. I",
+    "lemma": "cwīðan"
+  },
+  "cym": {
+    "def": "257",
+    "grammar": "mi.",
+    "lemma": "cyme"
   },
   "cyme": {
     "def": "257",
@@ -2347,7 +7287,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "cyn(n)"
   },
+  "cyne dom": {
+    "def": "2376",
+    "grammar": "m.",
+    "lemma": "cyne-dōm"
+  },
   "cyne-dom": {
+    "def": "2376",
+    "grammar": "m.",
+    "lemma": "cyne-dōm"
+  },
+  "cynedom": {
     "def": "2376",
     "grammar": "m.",
     "lemma": "cyne-dōm"
@@ -2357,7 +7307,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "cyning"
   },
+  "cyning bald": {
+    "def": "‘royally BOLD,’ very brave",
+    "grammar": "adj.",
+    "lemma": "cyning-bald"
+  },
   "cyning-bald": {
+    "def": "‘royally BOLD,’ very brave",
+    "grammar": "adj.",
+    "lemma": "cyning-bald"
+  },
+  "cyningbald": {
     "def": "‘royally BOLD,’ very brave",
     "grammar": "adj.",
     "lemma": "cyning-bald"
@@ -2367,17 +7327,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "cyst"
   },
+  "cуm lice": {
+    "def": "beautifully, splendidly, nobly",
+    "grammar": "adv.",
+    "lemma": "cӯm-līċe"
+  },
+  "cуm-lic": {
+    "def": "beautifully, splendidly, nobly",
+    "grammar": "adv.",
+    "lemma": "cӯm-līċe"
+  },
   "cуm-lice": {
     "def": "beautifully, splendidly, nobly",
     "grammar": "adv.",
     "lemma": "cӯm-līċe"
+  },
+  "cуmlice": {
+    "def": "beautifully, splendidly, nobly",
+    "grammar": "adv.",
+    "lemma": "cӯm-līċe"
+  },
+  "cуð": {
+    "def": "show",
+    "grammar": "vb. I",
+    "lemma": "cӯðan"
   },
   "cуðan": {
     "def": "show",
     "grammar": "vb. I",
     "lemma": "cӯðan"
   },
+  "cуðe": {
+    "def": "show",
+    "grammar": "vb. I",
+    "lemma": "cӯðan"
+  },
+  "d": {
+    "def": "act",
+    "grammar": "anv.",
+    "lemma": "dōn"
+  },
+  "dagi": {
+    "def": "DAWn",
+    "grammar": "vb. II",
+    "lemma": "dagian"
+  },
   "dagian": {
+    "def": "DAWn",
+    "grammar": "vb. II",
+    "lemma": "dagian"
+  },
+  "dagie": {
     "def": "DAWn",
     "grammar": "vb. II",
     "lemma": "dagian"
@@ -2387,12 +7387,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "daroð"
   },
+  "de": {
+    "def": "act",
+    "grammar": "anv.",
+    "lemma": "dōn"
+  },
   "dead": {
     "def": "1323, 2372",
     "grammar": "adj.",
     "lemma": "dēad"
   },
+  "deag": {
+    "def": "conceal (be con-cealed?)",
+    "grammar": "vb.  7",
+    "lemma": "dēagan"
+  },
   "deagan": {
+    "def": "conceal (be con-cealed?)",
+    "grammar": "vb.  7",
+    "lemma": "dēagan"
+  },
+  "deage": {
     "def": "conceal (be con-cealed?)",
     "grammar": "vb.  7",
     "lemma": "dēagan"
@@ -2417,6 +7432,46 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "dēað"
   },
+  "deað bed(d)": {
+    "def": "DEATH-BED",
+    "grammar": "nja.",
+    "lemma": "dēað-bed(d)"
+  },
+  "deað cwalu": {
+    "def": "DEATH, destruction",
+    "grammar": "f.",
+    "lemma": "dēað-cwalu"
+  },
+  "deað cwealm": {
+    "def": "DEATH, slaughter",
+    "grammar": "m.",
+    "lemma": "dēað-cwealm"
+  },
+  "deað dæg": {
+    "def": "DEATH-DAY",
+    "grammar": "m.",
+    "lemma": "dēað-dæġ"
+  },
+  "deað fæge": {
+    "def": "doomed to DEATH",
+    "grammar": "adj.",
+    "lemma": "dēað-fǣġe"
+  },
+  "deað scua": {
+    "def": "DEATH-shadow",
+    "grammar": "wk.",
+    "lemma": "dēað-scua"
+  },
+  "deað werig": {
+    "def": "(DEATH-WEARY), dead",
+    "grammar": "adj.",
+    "lemma": "dēað-wēriġ"
+  },
+  "deað wic": {
+    "def": "1275",
+    "grammar": "n.",
+    "lemma": "dēað-wīċ"
+  },
   "deað-bed(d)": {
     "def": "DEATH-BED",
     "grammar": "nja.",
@@ -2437,15 +7492,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "dēað-dæġ"
   },
+  "deað-fæg": {
+    "def": "doomed to DEATH",
+    "grammar": "adj.",
+    "lemma": "dēað-fǣġe"
+  },
   "deað-fæge": {
     "def": "doomed to DEATH",
     "grammar": "adj.",
     "lemma": "dēað-fǣġe"
   },
+  "deað-scu": {
+    "def": "DEATH-shadow",
+    "grammar": "wk.",
+    "lemma": "dēað-scua"
+  },
   "deað-scua": {
     "def": "DEATH-shadow",
     "grammar": "wk.",
     "lemma": "dēað-scua"
+  },
+  "deað-scue": {
+    "def": "DEATH-shadow",
+    "grammar": "wk.",
+    "lemma": "dēað-scua"
+  },
+  "deað-were": {
+    "def": "(DEATH-WEARY), dead",
+    "grammar": "adj.",
+    "lemma": "dēað-wēriġ"
   },
   "deað-werig": {
     "def": "(DEATH-WEARY), dead",
@@ -2457,7 +7532,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dēað-wīċ"
   },
+  "deaðbed(d)": {
+    "def": "DEATH-BED",
+    "grammar": "nja.",
+    "lemma": "dēað-bed(d)"
+  },
+  "deaðcwalu": {
+    "def": "DEATH, destruction",
+    "grammar": "f.",
+    "lemma": "dēað-cwalu"
+  },
+  "deaðcwealm": {
+    "def": "DEATH, slaughter",
+    "grammar": "m.",
+    "lemma": "dēað-cwealm"
+  },
+  "deaðdæg": {
+    "def": "DEATH-DAY",
+    "grammar": "m.",
+    "lemma": "dēað-dæġ"
+  },
+  "deaðfæge": {
+    "def": "doomed to DEATH",
+    "grammar": "adj.",
+    "lemma": "dēað-fǣġe"
+  },
+  "deaðscua": {
+    "def": "DEATH-shadow",
+    "grammar": "wk.",
+    "lemma": "dēað-scua"
+  },
+  "deaðwerig": {
+    "def": "(DEATH-WEARY), dead",
+    "grammar": "adj.",
+    "lemma": "dēað-wēriġ"
+  },
+  "deaðwic": {
+    "def": "1275",
+    "grammar": "n.",
+    "lemma": "dēað-wīċ"
+  },
+  "dem": {
+    "def": "assign",
+    "grammar": "vb. I",
+    "lemma": "dēman"
+  },
   "deman": {
+    "def": "assign",
+    "grammar": "vb. I",
+    "lemma": "dēman"
+  },
+  "deme": {
     "def": "assign",
     "grammar": "vb. I",
     "lemma": "dēman"
@@ -2471,6 +7596,11 @@ const OLD_ENGLISH_DICT = {
     "def": "lair",
     "grammar": "nja.",
     "lemma": "den(n)"
+  },
+  "deo": {
+    "def": "precious, excellent, beloved",
+    "grammar": "adj.",
+    "lemma": "dēore"
   },
   "deofol": {
     "def": "demon",
@@ -2502,6 +7632,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dēor"
   },
+  "deor lic": {
+    "def": "bold",
+    "grammar": "adj.",
+    "lemma": "dēor-liċ"
+  },
+  "deor mod": {
+    "def": "bold, brave",
+    "grammar": "adj.",
+    "lemma": "dēor-mōd"
+  },
   "deor-lic": {
     "def": "bold",
     "grammar": "adj.",
@@ -2522,6 +7662,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dēore"
   },
+  "deorlic": {
+    "def": "bold",
+    "grammar": "adj.",
+    "lemma": "dēor-liċ"
+  },
+  "deormod": {
+    "def": "bold, brave",
+    "grammar": "adj.",
+    "lemma": "dēor-mōd"
+  },
   "deoð": {
     "def": "see dēað",
     "grammar": "",
@@ -2531,6 +7681,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see dōn",
     "grammar": "",
     "lemma": "dēð"
+  },
+  "dio": {
+    "def": "see dēore",
+    "grammar": "",
+    "lemma": "dīore"
+  },
+  "diop": {
+    "def": "see dēope",
+    "grammar": "",
+    "lemma": "dīope"
   },
   "diope": {
     "def": "see dēope",
@@ -2557,7 +7717,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dōgor"
   },
+  "dogor gerim": {
+    "def": "number of days",
+    "grammar": "n.",
+    "lemma": "dōgor-ġerīm"
+  },
   "dogor-gerim": {
+    "def": "number of days",
+    "grammar": "n.",
+    "lemma": "dōgor-ġerīm"
+  },
+  "dogorgerim": {
     "def": "number of days",
     "grammar": "n.",
     "lemma": "dōgor-ġerīm"
@@ -2572,6 +7742,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "dohtor"
   },
+  "dol gilp": {
+    "def": "foolish boasting, fool-hardiness",
+    "grammar": "n.",
+    "lemma": "dol-ġilp"
+  },
+  "dol lic": {
+    "def": "daring, fool-hardy",
+    "grammar": "adj.",
+    "lemma": "dol-liċ"
+  },
+  "dol scaða": {
+    "def": "mad ravager, des-perate foe",
+    "grammar": "wk.",
+    "lemma": "dol-scaða"
+  },
   "dol-gilp": {
     "def": "foolish boasting, fool-hardiness",
     "grammar": "n.",
@@ -2582,7 +7767,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dol-liċ"
   },
+  "dol-scað": {
+    "def": "mad ravager, des-perate foe",
+    "grammar": "wk.",
+    "lemma": "dol-scaða"
+  },
   "dol-scaða": {
+    "def": "mad ravager, des-perate foe",
+    "grammar": "wk.",
+    "lemma": "dol-scaða"
+  },
+  "dol-scaðe": {
+    "def": "mad ravager, des-perate foe",
+    "grammar": "wk.",
+    "lemma": "dol-scaða"
+  },
+  "dolgilp": {
+    "def": "foolish boasting, fool-hardiness",
+    "grammar": "n.",
+    "lemma": "dol-ġilp"
+  },
+  "dollic": {
+    "def": "daring, fool-hardy",
+    "grammar": "adj.",
+    "lemma": "dol-liċ"
+  },
+  "dolscaða": {
     "def": "mad ravager, des-perate foe",
     "grammar": "wk.",
     "lemma": "dol-scaða"
@@ -2592,7 +7802,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "dōm"
   },
+  "dom leas": {
+    "def": "inglorious",
+    "grammar": "adj.",
+    "lemma": "dōm-lēas"
+  },
+  "dom-le": {
+    "def": "inglorious",
+    "grammar": "adj.",
+    "lemma": "dōm-lēas"
+  },
   "dom-leas": {
+    "def": "inglorious",
+    "grammar": "adj.",
+    "lemma": "dōm-lēas"
+  },
+  "dom-lee": {
+    "def": "inglorious",
+    "grammar": "adj.",
+    "lemma": "dōm-lēas"
+  },
+  "domleas": {
     "def": "inglorious",
     "grammar": "adj.",
     "lemma": "dōm-lēas"
@@ -2602,12 +7832,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "dōn"
   },
+  "dors": {
+    "def": "see durran",
+    "grammar": "",
+    "lemma": "dorste"
+  },
+  "dorst": {
+    "def": "see durran",
+    "grammar": "",
+    "lemma": "dorste"
+  },
   "dorste": {
     "def": "see durran",
     "grammar": "",
     "lemma": "dorste"
   },
+  "drac": {
+    "def": "2211, [F",
+    "grammar": "wk.",
+    "lemma": "draca"
+  },
   "draca": {
+    "def": "2211, [F",
+    "grammar": "wk.",
+    "lemma": "draca"
+  },
+  "drace": {
     "def": "2211, [F",
     "grammar": "wk.",
     "lemma": "draca"
@@ -2617,22 +7867,82 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "drēam"
   },
+  "dream healdende": {
+    "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
+    "grammar": "adj.",
+    "lemma": "drēam-healdende"
+  },
+  "dream leas": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "drēam-lēas"
+  },
+  "dream-healden": {
+    "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
+    "grammar": "adj.",
+    "lemma": "drēam-healdende"
+  },
+  "dream-healdend": {
+    "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
+    "grammar": "adj.",
+    "lemma": "drēam-healdende"
+  },
   "dream-healdende": {
     "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
     "grammar": "adj.",
     "lemma": "drēam-healdende"
+  },
+  "dream-le": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "drēam-lēas"
   },
   "dream-leas": {
     "def": "joyLESS",
     "grammar": "adj.",
     "lemma": "drēam-lēas"
   },
+  "dream-lee": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "drēam-lēas"
+  },
+  "dreamhealdende": {
+    "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
+    "grammar": "adj.",
+    "lemma": "drēam-healdende"
+  },
+  "dreamleas": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "drēam-lēas"
+  },
+  "dref": {
+    "def": "make turbid",
+    "grammar": "vb. I",
+    "lemma": "drēfan"
+  },
   "drefan": {
     "def": "make turbid",
     "grammar": "vb. I",
     "lemma": "drēfan"
   },
+  "drefe": {
+    "def": "make turbid",
+    "grammar": "vb. I",
+    "lemma": "drēfan"
+  },
+  "dreog": {
+    "def": "bear oneself",
+    "grammar": "vb. 2",
+    "lemma": "drēogan"
+  },
   "dreogan": {
+    "def": "bear oneself",
+    "grammar": "vb. 2",
+    "lemma": "drēogan"
+  },
+  "dreoge": {
     "def": "bear oneself",
     "grammar": "vb. 2",
     "lemma": "drēogan"
@@ -2642,7 +7952,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "drēor"
   },
+  "dreor fah": {
+    "def": "stained with gore",
+    "grammar": "adj.",
+    "lemma": "drēor-fāh"
+  },
   "dreor-fah": {
+    "def": "stained with gore",
+    "grammar": "adj.",
+    "lemma": "drēor-fāh"
+  },
+  "dreore": {
+    "def": "gory",
+    "grammar": "adj.",
+    "lemma": "drēoriġ"
+  },
+  "dreorfah": {
     "def": "stained with gore",
     "grammar": "adj.",
     "lemma": "drēor-fāh"
@@ -2651,6 +7976,11 @@ const OLD_ENGLISH_DICT = {
     "def": "gory",
     "grammar": "adj.",
     "lemma": "drēoriġ"
+  },
+  "drep": {
+    "def": "blow",
+    "grammar": "mi.",
+    "lemma": "drepe"
   },
   "drepan": {
     "def": "strike, hit",
@@ -2662,15 +7992,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "drepe"
   },
+  "drif": {
+    "def": "2808",
+    "grammar": "vb. 1",
+    "lemma": "drīfan"
+  },
   "drifan": {
     "def": "2808",
     "grammar": "vb. 1",
     "lemma": "drīfan"
   },
+  "drife": {
+    "def": "2808",
+    "grammar": "vb. 1",
+    "lemma": "drīfan"
+  },
+  "driht": {
+    "def": "see dryhten",
+    "grammar": "",
+    "lemma": "drihten"
+  },
+  "drihte": {
+    "def": "see dryhten",
+    "grammar": "",
+    "lemma": "drihten"
+  },
   "drihten": {
     "def": "see dryhten",
     "grammar": "",
     "lemma": "drihten"
+  },
+  "drinc": {
+    "def": "1648",
+    "grammar": "vb. 3",
+    "lemma": "drincan"
+  },
+  "drinc fæt": {
+    "def": "see drynċ-fæt",
+    "grammar": "",
+    "lemma": "drinċ-fæt"
   },
   "drinc-fæt": {
     "def": "see drynċ-fæt",
@@ -2682,6 +8042,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "drincan"
   },
+  "drince": {
+    "def": "1648",
+    "grammar": "vb. 3",
+    "lemma": "drincan"
+  },
+  "drincfæt": {
+    "def": "see drynċ-fæt",
+    "grammar": "",
+    "lemma": "drinċ-fæt"
+  },
+  "driore": {
+    "def": "see drēoriġ",
+    "grammar": "",
+    "lemma": "drīoriġ"
+  },
   "driorig": {
     "def": "see drēoriġ",
     "grammar": "",
@@ -2692,15 +8067,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "drohtoð"
   },
+  "drop": {
+    "def": "see drepan",
+    "grammar": "",
+    "lemma": "dropen"
+  },
+  "drope": {
+    "def": "see drepan",
+    "grammar": "",
+    "lemma": "dropen"
+  },
   "dropen": {
     "def": "see drepan",
     "grammar": "",
     "lemma": "dropen"
   },
+  "drusi": {
+    "def": "stagnate, subside",
+    "grammar": "vb. II",
+    "lemma": "drūsian"
+  },
   "drusian": {
     "def": "stagnate, subside",
     "grammar": "vb. II",
     "lemma": "drūsian"
+  },
+  "drusie": {
+    "def": "stagnate, subside",
+    "grammar": "vb. II",
+    "lemma": "drūsian"
+  },
+  "dryht": {
+    "def": "prince (mostly w",
+    "grammar": "m.",
+    "lemma": "dryhten"
+  },
+  "dryht bearn": {
+    "def": "son (lit",
+    "grammar": "n.",
+    "lemma": "dryht-bearn"
+  },
+  "dryht gesið": {
+    "def": "retainer, comrade",
+    "grammar": "m.",
+    "lemma": "dryht-ġesīð"
+  },
+  "dryht guma": {
+    "def": "warrior, man",
+    "grammar": "wk.",
+    "lemma": "dryht-guma"
+  },
+  "dryht lic": {
+    "def": "noble, lordly, splen-did",
+    "grammar": "adj.",
+    "lemma": "dryht-liċ"
+  },
+  "dryht maððum": {
+    "def": "noble treasure, splendid jewel",
+    "grammar": "m.",
+    "lemma": "dryht-māððum"
+  },
+  "dryht scype": {
+    "def": "valor, bravery",
+    "grammar": "mi.",
+    "lemma": "dryht-scype"
+  },
+  "dryht sele": {
+    "def": "splendid hall (orig",
+    "grammar": "mi.",
+    "lemma": "dryht-sele"
+  },
+  "dryht sib(b)": {
+    "def": "peace, alliance",
+    "grammar": "fj",
+    "lemma": "dryht-sib(b)"
   },
   "dryht-bearn": {
     "def": "son (lit",
@@ -2712,7 +8152,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "dryht-ġesīð"
   },
+  "dryht-gum": {
+    "def": "warrior, man",
+    "grammar": "wk.",
+    "lemma": "dryht-guma"
+  },
   "dryht-guma": {
+    "def": "warrior, man",
+    "grammar": "wk.",
+    "lemma": "dryht-guma"
+  },
+  "dryht-gume": {
     "def": "warrior, man",
     "grammar": "wk.",
     "lemma": "dryht-guma"
@@ -2722,15 +8172,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dryht-liċ"
   },
+  "dryht-maðð": {
+    "def": "noble treasure, splendid jewel",
+    "grammar": "m.",
+    "lemma": "dryht-māððum"
+  },
+  "dryht-maððe": {
+    "def": "noble treasure, splendid jewel",
+    "grammar": "m.",
+    "lemma": "dryht-māððum"
+  },
   "dryht-maððum": {
     "def": "noble treasure, splendid jewel",
     "grammar": "m.",
     "lemma": "dryht-māððum"
   },
+  "dryht-scyp": {
+    "def": "valor, bravery",
+    "grammar": "mi.",
+    "lemma": "dryht-scype"
+  },
   "dryht-scype": {
     "def": "valor, bravery",
     "grammar": "mi.",
     "lemma": "dryht-scype"
+  },
+  "dryht-sel": {
+    "def": "splendid hall (orig",
+    "grammar": "mi.",
+    "lemma": "dryht-sele"
   },
   "dryht-sele": {
     "def": "splendid hall (orig",
@@ -2742,17 +8212,82 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "dryht-sib(b)"
   },
+  "dryhtbearn": {
+    "def": "son (lit",
+    "grammar": "n.",
+    "lemma": "dryht-bearn"
+  },
+  "dryhte": {
+    "def": "prince (mostly w",
+    "grammar": "m.",
+    "lemma": "dryhten"
+  },
   "dryhten": {
     "def": "prince (mostly w",
     "grammar": "m.",
     "lemma": "dryhten"
+  },
+  "dryhtgesið": {
+    "def": "retainer, comrade",
+    "grammar": "m.",
+    "lemma": "dryht-ġesīð"
+  },
+  "dryhtguma": {
+    "def": "warrior, man",
+    "grammar": "wk.",
+    "lemma": "dryht-guma"
+  },
+  "dryhtlic": {
+    "def": "noble, lordly, splen-did",
+    "grammar": "adj.",
+    "lemma": "dryht-liċ"
+  },
+  "dryhtmaððum": {
+    "def": "noble treasure, splendid jewel",
+    "grammar": "m.",
+    "lemma": "dryht-māððum"
+  },
+  "dryhtscype": {
+    "def": "valor, bravery",
+    "grammar": "mi.",
+    "lemma": "dryht-scype"
+  },
+  "dryhtsele": {
+    "def": "splendid hall (orig",
+    "grammar": "mi.",
+    "lemma": "dryht-sele"
+  },
+  "dryhtsib(b)": {
+    "def": "peace, alliance",
+    "grammar": "fj",
+    "lemma": "dryht-sib(b)"
+  },
+  "drync fæt": {
+    "def": "DRINKing-vessel, cup",
+    "grammar": "n.",
+    "lemma": "drynċ-fæt"
   },
   "drync-fæt": {
     "def": "DRINKing-vessel, cup",
     "grammar": "n.",
     "lemma": "drynċ-fæt"
   },
+  "dryncfæt": {
+    "def": "DRINKing-vessel, cup",
+    "grammar": "n.",
+    "lemma": "drynċ-fæt"
+  },
+  "dug": {
+    "def": "do well, be good, be strong",
+    "grammar": "prp.",
+    "lemma": "dugan"
+  },
   "dugan": {
+    "def": "do well, be good, be strong",
+    "grammar": "prp.",
+    "lemma": "dugan"
+  },
+  "duge": {
     "def": "do well, be good, be strong",
     "grammar": "prp.",
     "lemma": "dugan"
@@ -2762,7 +8297,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "duguð"
   },
+  "durr": {
+    "def": "DARE (in neg",
+    "grammar": "prp.",
+    "lemma": "durran"
+  },
   "durran": {
+    "def": "DARE (in neg",
+    "grammar": "prp.",
+    "lemma": "durran"
+  },
+  "durre": {
     "def": "DARE (in neg",
     "grammar": "prp.",
     "lemma": "durran"
@@ -2772,35 +8317,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fu.",
     "lemma": "duru"
   },
+  "dwell": {
+    "def": "hinder, stand in one’s way",
+    "grammar": "vb. I",
+    "lemma": "dwellan"
+  },
   "dwellan": {
     "def": "hinder, stand in one’s way",
     "grammar": "vb. I",
     "lemma": "dwellan"
+  },
+  "dwelle": {
+    "def": "hinder, stand in one’s way",
+    "grammar": "vb. I",
+    "lemma": "dwellan"
+  },
+  "dy": {
+    "def": "dydon, see dōn",
+    "grammar": "dydon",
+    "lemma": "dyde"
+  },
+  "dyd": {
+    "def": "dydon, see dōn",
+    "grammar": "dydon",
+    "lemma": "dyde"
   },
   "dyde": {
     "def": "dydon, see dōn",
     "grammar": "dydon",
     "lemma": "dyde"
   },
+  "dyhte": {
+    "def": "strong, good",
+    "grammar": "adj.",
+    "lemma": "dyhtiġ"
+  },
   "dyhtig": {
     "def": "strong, good",
     "grammar": "adj.",
     "lemma": "dyhtiġ"
+  },
+  "dynn": {
+    "def": "767, 1317, 2558, [F",
+    "grammar": "vb.  I",
+    "lemma": "dynnan"
   },
   "dynnan": {
     "def": "767, 1317, 2558, [F",
     "grammar": "vb.  I",
     "lemma": "dynnan"
   },
+  "dynne": {
+    "def": "767, 1317, 2558, [F",
+    "grammar": "vb.  I",
+    "lemma": "dynnan"
+  },
+  "dyr": {
+    "def": "hidden",
+    "grammar": "adj.",
+    "lemma": "dyrne"
+  },
+  "dyrn": {
+    "def": "hidden",
+    "grammar": "adj.",
+    "lemma": "dyrne"
+  },
   "dyrne": {
     "def": "hidden",
     "grammar": "adj.",
     "lemma": "dyrne"
   },
+  "dyrr": {
+    "def": "see durran",
+    "grammar": "",
+    "lemma": "dyrre"
+  },
   "dyrre": {
     "def": "see durran",
     "grammar": "",
     "lemma": "dyrre"
+  },
+  "dyrste": {
+    "def": "DARing, bold",
+    "grammar": "adj.",
+    "lemma": "dyrstiġ"
   },
   "dyrstig": {
     "def": "DARing, bold",
@@ -2812,17 +8412,77 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "dǣd"
   },
+  "dæd cene": {
+    "def": "daring in DEEDs",
+    "grammar": "adj.",
+    "lemma": "dǣd-cēne"
+  },
+  "dæd fruma": {
+    "def": "doer of (evil) DEEDs",
+    "grammar": "wk.",
+    "lemma": "dǣd-fruma"
+  },
+  "dæd hata": {
+    "def": "one who shows his HATred by DEEDs, persecutor",
+    "grammar": "wk.",
+    "lemma": "dǣd-hata"
+  },
+  "dæd-ce": {
+    "def": "daring in DEEDs",
+    "grammar": "adj.",
+    "lemma": "dǣd-cēne"
+  },
+  "dæd-cen": {
+    "def": "daring in DEEDs",
+    "grammar": "adj.",
+    "lemma": "dǣd-cēne"
+  },
   "dæd-cene": {
     "def": "daring in DEEDs",
     "grammar": "adj.",
     "lemma": "dǣd-cēne"
+  },
+  "dæd-frum": {
+    "def": "doer of (evil) DEEDs",
+    "grammar": "wk.",
+    "lemma": "dǣd-fruma"
   },
   "dæd-fruma": {
     "def": "doer of (evil) DEEDs",
     "grammar": "wk.",
     "lemma": "dǣd-fruma"
   },
+  "dæd-frume": {
+    "def": "doer of (evil) DEEDs",
+    "grammar": "wk.",
+    "lemma": "dǣd-fruma"
+  },
+  "dæd-hat": {
+    "def": "one who shows his HATred by DEEDs, persecutor",
+    "grammar": "wk.",
+    "lemma": "dǣd-hata"
+  },
   "dæd-hata": {
+    "def": "one who shows his HATred by DEEDs, persecutor",
+    "grammar": "wk.",
+    "lemma": "dǣd-hata"
+  },
+  "dæd-hate": {
+    "def": "one who shows his HATred by DEEDs, persecutor",
+    "grammar": "wk.",
+    "lemma": "dǣd-hata"
+  },
+  "dædcene": {
+    "def": "daring in DEEDs",
+    "grammar": "adj.",
+    "lemma": "dǣd-cēne"
+  },
+  "dædfruma": {
+    "def": "doer of (evil) DEEDs",
+    "grammar": "wk.",
+    "lemma": "dǣd-fruma"
+  },
+  "dædhata": {
     "def": "one who shows his HATred by DEEDs, persecutor",
     "grammar": "wk.",
     "lemma": "dǣd-hata"
@@ -2831,6 +8491,16 @@ const OLD_ENGLISH_DICT = {
     "def": "731, 2306, 2646",
     "grammar": "m.",
     "lemma": "dæġ"
+  },
+  "dæg hwil": {
+    "def": "DAY-WHILE, (space of a) day",
+    "grammar": "f.",
+    "lemma": "dæġ-hwīl"
+  },
+  "dæg rim": {
+    "def": "number of DAYs",
+    "grammar": "n.",
+    "lemma": "dæġ-rīm"
   },
   "dæg-hwil": {
     "def": "DAY-WHILE, (space of a) day",
@@ -2842,25 +8512,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dæġ-rīm"
   },
+  "dæghwil": {
+    "def": "DAY-WHILE, (space of a) day",
+    "grammar": "f.",
+    "lemma": "dæġ-hwīl"
+  },
+  "dægrim": {
+    "def": "number of DAYs",
+    "grammar": "n.",
+    "lemma": "dæġ-rīm"
+  },
   "dæl": {
-    "def": "portion, share, measure, a (great) DEAL (e",
-    "grammar": "mi.",
-    "lemma": "dǣl"
+    "def": "distribute, dispense",
+    "grammar": "vb. I",
+    "lemma": "dǣlan"
   },
   "dælan": {
     "def": "distribute, dispense",
     "grammar": "vb. I",
     "lemma": "dǣlan"
   },
+  "dæle": {
+    "def": "distribute, dispense",
+    "grammar": "vb. I",
+    "lemma": "dǣlan"
+  },
+  "dу": {
+    "def": "see dēore",
+    "grammar": "",
+    "lemma": "dӯre"
+  },
   "dуgel": {
     "def": "see dēogol",
     "grammar": "",
     "lemma": "dӯġel"
   },
+  "dуr": {
+    "def": "see dēore",
+    "grammar": "",
+    "lemma": "dӯre"
+  },
   "dуre": {
     "def": "see dēore",
     "grammar": "",
     "lemma": "dӯre"
+  },
+  "e": {
+    "def": "1478",
+    "grammar": "adv.",
+    "lemma": "ā"
+  },
+  "ea lond": {
+    "def": "‡seaboard",
+    "grammar": "n.",
+    "lemma": "ēa-lond"
   },
   "ea-lond": {
     "def": "‡seaboard",
@@ -2868,29 +8573,84 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēa-lond"
   },
   "eac": {
-    "def": "also, more-over",
-    "grammar": "adv.",
-    "lemma": "ēac"
+    "def": "vast",
+    "grammar": "adj.",
+    "lemma": "ēacen"
+  },
+  "eace": {
+    "def": "vast",
+    "grammar": "adj.",
+    "lemma": "ēacen"
   },
   "eacen": {
     "def": "vast",
     "grammar": "adj.",
     "lemma": "ēacen"
   },
+  "eacen cræftig": {
+    "def": "exceedingly pow-erful, huge",
+    "grammar": "adj.",
+    "lemma": "ēacen-cræftiġ"
+  },
+  "eacen-cræfte": {
+    "def": "exceedingly pow-erful, huge",
+    "grammar": "adj.",
+    "lemma": "ēacen-cræftiġ"
+  },
   "eacen-cræftig": {
     "def": "exceedingly pow-erful, huge",
     "grammar": "adj.",
     "lemma": "ēacen-cræftiġ"
+  },
+  "eacencræftig": {
+    "def": "exceedingly pow-erful, huge",
+    "grammar": "adj.",
+    "lemma": "ēacen-cræftiġ"
+  },
+  "eade": {
+    "def": "fortunate, blessed",
+    "grammar": "adj.",
+    "lemma": "ēadiġ"
   },
   "eadig": {
     "def": "fortunate, blessed",
     "grammar": "adj.",
     "lemma": "ēadiġ"
   },
+  "eadig lice": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ēadiġ-līċe"
+  },
+  "eadig-lic": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ēadiġ-līċe"
+  },
   "eadig-lice": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "ēadiġ-līċe"
+  },
+  "eadiglice": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ēadiġ-līċe"
+  },
+  "eafo": {
+    "def": "wk",
+    "grammar": "eafera",
+    "lemma": "eafora"
+  },
+  "eafor": {
+    "def": "wk",
+    "grammar": "eafera",
+    "lemma": "eafora"
+  },
+  "eafor ": {
+    "def": "see eofor-",
+    "grammar": "",
+    "lemma": "eafor-"
   },
   "eafor-": {
     "def": "see eofor-",
@@ -2902,27 +8662,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "eafera",
     "lemma": "eafora"
   },
+  "eafore": {
+    "def": "wk",
+    "grammar": "eafera",
+    "lemma": "eafora"
+  },
   "eafoð": {
     "def": "strength, power",
     "grammar": "n.",
     "lemma": "eafoð"
+  },
+  "eag": {
+    "def": "1766",
+    "grammar": "wk.",
+    "lemma": "ēaġe"
   },
   "eage": {
     "def": "1766",
     "grammar": "wk.",
     "lemma": "ēaġe"
   },
+  "eagor stream": {
+    "def": "sea-STREAM, sea",
+    "grammar": "m.",
+    "lemma": "ēagor-strēam"
+  },
   "eagor-stream": {
     "def": "sea-STREAM, sea",
     "grammar": "m.",
     "lemma": "ēagor-strēam"
+  },
+  "eagorstream": {
+    "def": "sea-STREAM, sea",
+    "grammar": "m.",
+    "lemma": "ēagor-strēam"
+  },
+  "eaht": {
+    "def": "3123",
+    "grammar": "num.",
+    "lemma": "eahta"
   },
   "eahta": {
     "def": "3123",
     "grammar": "num.",
     "lemma": "eahta"
   },
+  "eahte": {
+    "def": "3123",
+    "grammar": "num.",
+    "lemma": "eahta"
+  },
+  "eahti": {
+    "def": "deliberate (about something)",
+    "grammar": "vb.  II",
+    "lemma": "eahtian"
+  },
   "eahtian": {
+    "def": "deliberate (about something)",
+    "grammar": "vb.  II",
+    "lemma": "eahtian"
+  },
+  "eahtie": {
     "def": "deliberate (about something)",
     "grammar": "vb.  II",
     "lemma": "eahtian"
@@ -2937,10 +8737,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "eald"
   },
+  "eald fæder": {
+    "def": "late FATHER, ancestor",
+    "grammar": "mc.",
+    "lemma": "eald-fæder"
+  },
+  "eald gesegen": {
+    "def": "OLD tradition (SAGA)",
+    "grammar": "f.",
+    "lemma": "eald-ġeseġen"
+  },
+  "eald gesið": {
+    "def": "OLD associate or re-tainer",
+    "grammar": "m.",
+    "lemma": "eald-ġesīð"
+  },
+  "eald gestreon": {
+    "def": "1458",
+    "grammar": "n.",
+    "lemma": "eald-ġestrēon"
+  },
+  "eald gewinna": {
+    "def": "OLD adversary (‘hostis antiquus,’ see Kl",
+    "grammar": "wk.",
+    "lemma": "eald-ġewinna"
+  },
+  "eald gewyrht": {
+    "def": "desert for former deeds",
+    "grammar": "ni.",
+    "lemma": "eald-ġewyrht"
+  },
+  "eald hlaford": {
+    "def": "2778 (i",
+    "grammar": "m.",
+    "lemma": "eald-hlāford"
+  },
+  "eald metod": {
+    "def": "God of OLD",
+    "grammar": "m.",
+    "lemma": "eald-metod"
+  },
+  "eald sweord": {
+    "def": "ancient SWORD",
+    "grammar": "n.",
+    "lemma": "eald-sweord"
+  },
   "eald-fæder": {
     "def": "late FATHER, ancestor",
     "grammar": "mc.",
     "lemma": "eald-fæder"
+  },
+  "eald-geseg": {
+    "def": "OLD tradition (SAGA)",
+    "grammar": "f.",
+    "lemma": "eald-ġeseġen"
+  },
+  "eald-gesege": {
+    "def": "OLD tradition (SAGA)",
+    "grammar": "f.",
+    "lemma": "eald-ġeseġen"
   },
   "eald-gesegen": {
     "def": "OLD tradition (SAGA)",
@@ -2952,12 +8807,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eald-ġesīð"
   },
+  "eald-gestre": {
+    "def": "1458",
+    "grammar": "n.",
+    "lemma": "eald-ġestrēon"
+  },
+  "eald-gestree": {
+    "def": "1458",
+    "grammar": "n.",
+    "lemma": "eald-ġestrēon"
+  },
   "eald-gestreon": {
     "def": "1458",
     "grammar": "n.",
     "lemma": "eald-ġestrēon"
   },
+  "eald-gewinn": {
+    "def": "OLD adversary (‘hostis antiquus,’ see Kl",
+    "grammar": "wk.",
+    "lemma": "eald-ġewinna"
+  },
   "eald-gewinna": {
+    "def": "OLD adversary (‘hostis antiquus,’ see Kl",
+    "grammar": "wk.",
+    "lemma": "eald-ġewinna"
+  },
+  "eald-gewinne": {
     "def": "OLD adversary (‘hostis antiquus,’ see Kl",
     "grammar": "wk.",
     "lemma": "eald-ġewinna"
@@ -2982,30 +8857,150 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "eald-sweord"
   },
+  "ealder": {
+    "def": "see ealdor-dagas",
+    "grammar": "",
+    "lemma": "ealder-"
+  },
+  "ealder ": {
+    "def": "see ealdor-dagas",
+    "grammar": "",
+    "lemma": "ealder-"
+  },
   "ealder-": {
     "def": "see ealdor-dagas",
     "grammar": "",
     "lemma": "ealder-"
+  },
+  "ealdfæder": {
+    "def": "late FATHER, ancestor",
+    "grammar": "mc.",
+    "lemma": "eald-fæder"
+  },
+  "ealdgesegen": {
+    "def": "OLD tradition (SAGA)",
+    "grammar": "f.",
+    "lemma": "eald-ġeseġen"
+  },
+  "ealdgesið": {
+    "def": "OLD associate or re-tainer",
+    "grammar": "m.",
+    "lemma": "eald-ġesīð"
+  },
+  "ealdgestreon": {
+    "def": "1458",
+    "grammar": "n.",
+    "lemma": "eald-ġestrēon"
+  },
+  "ealdgewinna": {
+    "def": "OLD adversary (‘hostis antiquus,’ see Kl",
+    "grammar": "wk.",
+    "lemma": "eald-ġewinna"
+  },
+  "ealdgewyrht": {
+    "def": "desert for former deeds",
+    "grammar": "ni.",
+    "lemma": "eald-ġewyrht"
+  },
+  "ealdhlaford": {
+    "def": "2778 (i",
+    "grammar": "m.",
+    "lemma": "eald-hlāford"
+  },
+  "ealdmetod": {
+    "def": "God of OLD",
+    "grammar": "m.",
+    "lemma": "eald-metod"
   },
   "ealdor": {
     "def": "n",
     "grammar": "aldor",
     "lemma": "ealdor"
   },
+  "ealdor gewinna": {
+    "def": "life-enemy, deadly enemy",
+    "grammar": "wk.",
+    "lemma": "ealdor-ġewinna"
+  },
+  "ealdor leas": {
+    "def": "lifeLESS, dead",
+    "grammar": "adj.",
+    "lemma": "ealdor-lēas"
+  },
+  "ealdor-gewinn": {
+    "def": "life-enemy, deadly enemy",
+    "grammar": "wk.",
+    "lemma": "ealdor-ġewinna"
+  },
   "ealdor-gewinna": {
     "def": "life-enemy, deadly enemy",
     "grammar": "wk.",
     "lemma": "ealdor-ġewinna"
+  },
+  "ealdor-gewinne": {
+    "def": "life-enemy, deadly enemy",
+    "grammar": "wk.",
+    "lemma": "ealdor-ġewinna"
+  },
+  "ealdor-le": {
+    "def": "lifeLESS, dead",
+    "grammar": "adj.",
+    "lemma": "ealdor-lēas"
   },
   "ealdor-leas": {
     "def": "lifeLESS, dead",
     "grammar": "adj.",
     "lemma": "ealdor-lēas"
   },
+  "ealdor-lee": {
+    "def": "lifeLESS, dead",
+    "grammar": "adj.",
+    "lemma": "ealdor-lēas"
+  },
+  "ealdorgewinna": {
+    "def": "life-enemy, deadly enemy",
+    "grammar": "wk.",
+    "lemma": "ealdor-ġewinna"
+  },
+  "ealdorleas": {
+    "def": "lifeLESS, dead",
+    "grammar": "adj.",
+    "lemma": "ealdor-lēas"
+  },
+  "ealdsweord": {
+    "def": "ancient SWORD",
+    "grammar": "n.",
+    "lemma": "eald-sweord"
+  },
+  "ealgi": {
+    "def": "defend",
+    "grammar": "vb. II",
+    "lemma": "ealgian"
+  },
   "ealgian": {
     "def": "defend",
     "grammar": "vb. II",
     "lemma": "ealgian"
+  },
+  "ealgie": {
+    "def": "defend",
+    "grammar": "vb. II",
+    "lemma": "ealgian"
+  },
+  "ealo": {
+    "def": "nja",
+    "grammar": "ealu",
+    "lemma": "ealo-"
+  },
+  "ealo ": {
+    "def": "nja",
+    "grammar": "ealu",
+    "lemma": "ealo-"
+  },
+  "ealo drincend(e)": {
+    "def": "ALE-DRINKer",
+    "grammar": "mc.",
+    "lemma": "ealo-drincend(e)"
   },
   "ealo-": {
     "def": "nja",
@@ -3017,7 +9012,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "ealo-drincend(e)"
   },
+  "ealodrincend(e)": {
+    "def": "ALE-DRINKer",
+    "grammar": "mc.",
+    "lemma": "ealo-drincend(e)"
+  },
+  "ealond": {
+    "def": "‡seaboard",
+    "grammar": "n.",
+    "lemma": "ēa-lond"
+  },
+  "ealu scerwen": {
+    "def": "(dispensing of ALE [bitter drink], i",
+    "grammar": "fj",
+    "lemma": "ealu-scerwen"
+  },
+  "ealu-scerw": {
+    "def": "(dispensing of ALE [bitter drink], i",
+    "grammar": "fj",
+    "lemma": "ealu-scerwen"
+  },
+  "ealu-scerwe": {
+    "def": "(dispensing of ALE [bitter drink], i",
+    "grammar": "fj",
+    "lemma": "ealu-scerwen"
+  },
   "ealu-scerwen": {
+    "def": "(dispensing of ALE [bitter drink], i",
+    "grammar": "fj",
+    "lemma": "ealu-scerwen"
+  },
+  "ealuscerwen": {
     "def": "(dispensing of ALE [bitter drink], i",
     "grammar": "fj",
     "lemma": "ealu-scerwen"
@@ -3032,15 +9057,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eard"
   },
+  "eard lufu( lufe)": {
+    "def": "(home-LOVE), dear home",
+    "grammar": "",
+    "lemma": "eard-lufu(-lufe)"
+  },
   "eard-lufu(-lufe)": {
     "def": "(home-LOVE), dear home",
     "grammar": "",
     "lemma": "eard-lufu(-lufe)"
   },
+  "eardi": {
+    "def": "remain",
+    "grammar": "vb. II",
+    "lemma": "eardian"
+  },
   "eardian": {
     "def": "remain",
     "grammar": "vb. II",
     "lemma": "eardian"
+  },
+  "eardie": {
+    "def": "remain",
+    "grammar": "vb. II",
+    "lemma": "eardian"
+  },
+  "eardlufu(lufe)": {
+    "def": "(home-LOVE), dear home",
+    "grammar": "",
+    "lemma": "eard-lufu(-lufe)"
+  },
+  "earfoð lice": {
+    "def": "pain-fully, sorrowfully",
+    "grammar": "adv.",
+    "lemma": "earfoð-līċe"
+  },
+  "earfoð þrag": {
+    "def": "(time of tribulation), distress",
+    "grammar": "f.",
+    "lemma": "earfoð-þrāg"
+  },
+  "earfoð-lic": {
+    "def": "pain-fully, sorrowfully",
+    "grammar": "adv.",
+    "lemma": "earfoð-līċe"
   },
   "earfoð-lice": {
     "def": "pain-fully, sorrowfully",
@@ -3048,6 +9108,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earfoð-līċe"
   },
   "earfoð-þrag": {
+    "def": "(time of tribulation), distress",
+    "grammar": "f.",
+    "lemma": "earfoð-þrāg"
+  },
+  "earfoðlice": {
+    "def": "pain-fully, sorrowfully",
+    "grammar": "adv.",
+    "lemma": "earfoð-līċe"
+  },
+  "earfoðþrag": {
     "def": "(time of tribulation), distress",
     "grammar": "f.",
     "lemma": "earfoð-þrāg"
@@ -3061,6 +9131,26 @@ const OLD_ENGLISH_DICT = {
     "def": "2361",
     "grammar": "m.",
     "lemma": "earm"
+  },
+  "earm beag": {
+    "def": "ARM-ring, brace-let",
+    "grammar": "m.",
+    "lemma": "earm-bēag"
+  },
+  "earm lic": {
+    "def": "pitiable",
+    "grammar": "adj.",
+    "lemma": "earm-liċ"
+  },
+  "earm read( hread)": {
+    "def": "ARM-ornament",
+    "grammar": "f.",
+    "lemma": "earm-rēad(-hrēad)"
+  },
+  "earm sceapen": {
+    "def": "miserable",
+    "grammar": "adj.",
+    "lemma": "earm-sceapen"
   },
   "earm-beag": {
     "def": "ARM-ring, brace-let",
@@ -3077,7 +9167,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "earm-rēad(-hrēad)"
   },
+  "earm-sceap": {
+    "def": "miserable",
+    "grammar": "adj.",
+    "lemma": "earm-sceapen"
+  },
+  "earm-sceape": {
+    "def": "miserable",
+    "grammar": "adj.",
+    "lemma": "earm-sceapen"
+  },
   "earm-sceapen": {
+    "def": "miserable",
+    "grammar": "adj.",
+    "lemma": "earm-sceapen"
+  },
+  "earmbeag": {
+    "def": "ARM-ring, brace-let",
+    "grammar": "m.",
+    "lemma": "earm-bēag"
+  },
+  "earmlic": {
+    "def": "pitiable",
+    "grammar": "adj.",
+    "lemma": "earm-liċ"
+  },
+  "earmread(hread)": {
+    "def": "ARM-ornament",
+    "grammar": "f.",
+    "lemma": "earm-rēad(-hrēad)"
+  },
+  "earmsceapen": {
     "def": "miserable",
     "grammar": "adj.",
     "lemma": "earm-sceapen"
@@ -3092,7 +9212,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "eart"
   },
+  "east": {
+    "def": "[F",
+    "grammar": "adv.",
+    "lemma": "ēastan"
+  },
   "eastan": {
+    "def": "[F",
+    "grammar": "adv.",
+    "lemma": "ēastan"
+  },
+  "easte": {
     "def": "[F",
     "grammar": "adv.",
     "lemma": "ēastan"
@@ -3107,10 +9237,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "eaxl"
   },
+  "eaxl gestealla": {
+    "def": "shoulder-companion, fellow, associate",
+    "grammar": "wk.",
+    "lemma": "eaxl-ġestealla"
+  },
+  "eaxl-gesteall": {
+    "def": "shoulder-companion, fellow, associate",
+    "grammar": "wk.",
+    "lemma": "eaxl-ġestealla"
+  },
   "eaxl-gestealla": {
     "def": "shoulder-companion, fellow, associate",
     "grammar": "wk.",
     "lemma": "eaxl-ġestealla"
+  },
+  "eaxl-gestealle": {
+    "def": "shoulder-companion, fellow, associate",
+    "grammar": "wk.",
+    "lemma": "eaxl-ġestealla"
+  },
+  "eaxlgestealla": {
+    "def": "shoulder-companion, fellow, associate",
+    "grammar": "wk.",
+    "lemma": "eaxl-ġestealla"
+  },
+  "eað": {
+    "def": "478, 2291, 2764",
+    "grammar": "adv.",
+    "lemma": "ēaðe"
+  },
+  "eað fynde": {
+    "def": "easy to FIND",
+    "grammar": "adj.",
+    "lemma": "ēað-fynde"
+  },
+  "eað-fyn": {
+    "def": "easy to FIND",
+    "grammar": "adj.",
+    "lemma": "ēað-fynde"
+  },
+  "eað-fynd": {
+    "def": "easy to FIND",
+    "grammar": "adj.",
+    "lemma": "ēað-fynde"
   },
   "eað-fynde": {
     "def": "easy to FIND",
@@ -3122,10 +9292,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ēaðe"
   },
+  "eaðe(properlyeð": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "ēaðe(properlyēðe"
+  },
   "eaðe(properlyeðe": {
     "def": "adj",
     "grammar": "",
     "lemma": "ēaðe(properlyēðe"
+  },
+  "eaðfynde": {
+    "def": "easy to FIND",
+    "grammar": "adj.",
+    "lemma": "ēað-fynde"
   },
   "ec": {
     "def": "see ēac",
@@ -3142,7 +9322,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ecg"
   },
+  "ecg bana": {
+    "def": "slayer with the sword",
+    "grammar": "wk.",
+    "lemma": "ecg-bana"
+  },
+  "ecg clif": {
+    "def": "sea-CLIFF (= ēġ-clif: EStn",
+    "grammar": "n.",
+    "lemma": "ecg-clif"
+  },
+  "ecg hete": {
+    "def": "sword-HATE, hostility, war",
+    "grammar": "mi.",
+    "lemma": "ecg-hete"
+  },
+  "ecg þracu": {
+    "def": "sword-storm, fight",
+    "grammar": "f.",
+    "lemma": "ecg-þracu"
+  },
+  "ecg-ban": {
+    "def": "slayer with the sword",
+    "grammar": "wk.",
+    "lemma": "ecg-bana"
+  },
   "ecg-bana": {
+    "def": "slayer with the sword",
+    "grammar": "wk.",
+    "lemma": "ecg-bana"
+  },
+  "ecg-bane": {
     "def": "slayer with the sword",
     "grammar": "wk.",
     "lemma": "ecg-bana"
@@ -3151,6 +9361,16 @@ const OLD_ENGLISH_DICT = {
     "def": "sea-CLIFF (= ēġ-clif: EStn",
     "grammar": "n.",
     "lemma": "ecg-clif"
+  },
+  "ecg-he": {
+    "def": "sword-HATE, hostility, war",
+    "grammar": "mi.",
+    "lemma": "ecg-hete"
+  },
+  "ecg-het": {
+    "def": "sword-HATE, hostility, war",
+    "grammar": "mi.",
+    "lemma": "ecg-hete"
   },
   "ecg-hete": {
     "def": "sword-HATE, hostility, war",
@@ -3162,6 +9382,41 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ecg-þracu"
   },
+  "ecgbana": {
+    "def": "slayer with the sword",
+    "grammar": "wk.",
+    "lemma": "ecg-bana"
+  },
+  "ecgclif": {
+    "def": "sea-CLIFF (= ēġ-clif: EStn",
+    "grammar": "n.",
+    "lemma": "ecg-clif"
+  },
+  "ecghete": {
+    "def": "sword-HATE, hostility, war",
+    "grammar": "mi.",
+    "lemma": "ecg-hete"
+  },
+  "ecgþracu": {
+    "def": "sword-storm, fight",
+    "grammar": "f.",
+    "lemma": "ecg-þracu"
+  },
+  "ed hwyrft": {
+    "def": "change, reversal (of fortune)",
+    "grammar": "mi.",
+    "lemma": "ed-hwyrft"
+  },
+  "ed wenden": {
+    "def": "turning back, rever-sal, change (of fortune)",
+    "grammar": "fj",
+    "lemma": "ed-wenden"
+  },
+  "ed wit lif": {
+    "def": "LIFE of disgrace",
+    "grammar": "n.",
+    "lemma": "ed-wīt-līf"
+  },
   "ed(e)r": {
     "def": "see ǣd(e)r",
     "grammar": "",
@@ -3172,6 +9427,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ed-hwyrft"
   },
+  "ed-wend": {
+    "def": "turning back, rever-sal, change (of fortune)",
+    "grammar": "fj",
+    "lemma": "ed-wenden"
+  },
+  "ed-wende": {
+    "def": "turning back, rever-sal, change (of fortune)",
+    "grammar": "fj",
+    "lemma": "ed-wenden"
+  },
   "ed-wenden": {
     "def": "turning back, rever-sal, change (of fortune)",
     "grammar": "fj",
@@ -3181,6 +9446,26 @@ const OLD_ENGLISH_DICT = {
     "def": "LIFE of disgrace",
     "grammar": "n.",
     "lemma": "ed-wīt-līf"
+  },
+  "edhwyrft": {
+    "def": "change, reversal (of fortune)",
+    "grammar": "mi.",
+    "lemma": "ed-hwyrft"
+  },
+  "edwenden": {
+    "def": "turning back, rever-sal, change (of fortune)",
+    "grammar": "fj",
+    "lemma": "ed-wenden"
+  },
+  "edwitlif": {
+    "def": "LIFE of disgrace",
+    "grammar": "n.",
+    "lemma": "ed-wīt-līf"
+  },
+  "ef": {
+    "def": "just",
+    "grammar": "adv.",
+    "lemma": "efne"
   },
   "efn": {
     "def": "w",
@@ -3197,7 +9482,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "efne"
   },
+  "efst": {
+    "def": "hurry (intr",
+    "grammar": "vb. I",
+    "lemma": "efstan"
+  },
   "efstan": {
+    "def": "hurry (intr",
+    "grammar": "vb. I",
+    "lemma": "efstan"
+  },
+  "efste": {
     "def": "hurry (intr",
     "grammar": "vb. I",
     "lemma": "efstan"
@@ -3206,6 +9501,21 @@ const OLD_ENGLISH_DICT = {
     "def": "back, again",
     "grammar": "adv.",
     "lemma": "eft"
+  },
+  "eft cyme": {
+    "def": "return",
+    "grammar": "mi.",
+    "lemma": "eft-cyme"
+  },
+  "eft sið": {
+    "def": "going (or coming) back, return",
+    "grammar": "m.",
+    "lemma": "eft-sīð"
+  },
+  "eft-cym": {
+    "def": "return",
+    "grammar": "mi.",
+    "lemma": "eft-cyme"
   },
   "eft-cyme": {
     "def": "return",
@@ -3217,10 +9527,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eft-sīð"
   },
+  "eftcyme": {
+    "def": "return",
+    "grammar": "mi.",
+    "lemma": "eft-cyme"
+  },
+  "eftsið": {
+    "def": "going (or coming) back, return",
+    "grammar": "m.",
+    "lemma": "eft-sīð"
+  },
+  "eg stream": {
+    "def": "water-STREAM, (pl",
+    "grammar": "m.",
+    "lemma": "ēg-strēam"
+  },
   "eg-stream": {
     "def": "water-STREAM, (pl",
     "grammar": "m.",
     "lemma": "ēg-strēam"
+  },
+  "eges": {
+    "def": "fear, horror",
+    "grammar": "wk.",
+    "lemma": "eġesa"
+  },
+  "eges ful(l)": {
+    "def": "2929",
+    "grammar": "adj.",
+    "lemma": "eġes-ful(l)"
+  },
+  "eges lic": {
+    "def": "2309, 2825",
+    "grammar": "adj.",
+    "lemma": "eġes-liċ"
   },
   "eges-ful(l)": {
     "def": "2929",
@@ -3237,50 +9577,190 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "eġesa"
   },
+  "egese": {
+    "def": "fear, horror",
+    "grammar": "wk.",
+    "lemma": "eġesa"
+  },
+  "egesful(l)": {
+    "def": "2929",
+    "grammar": "adj.",
+    "lemma": "eġes-ful(l)"
+  },
+  "egeslic": {
+    "def": "2309, 2825",
+    "grammar": "adj.",
+    "lemma": "eġes-liċ"
+  },
+  "egl": {
+    "def": "hideous, horrible",
+    "grammar": "adj.",
+    "lemma": "eġle"
+  },
   "egle": {
     "def": "hideous, horrible",
     "grammar": "adj.",
     "lemma": "eġle"
+  },
+  "egs": {
+    "def": "see eġesa",
+    "grammar": "",
+    "lemma": "eġsa"
   },
   "egsa": {
     "def": "see eġesa",
     "grammar": "",
     "lemma": "eġsa"
   },
+  "egse": {
+    "def": "see eġesa",
+    "grammar": "",
+    "lemma": "eġsa"
+  },
+  "egsi": {
+    "def": "terrify",
+    "grammar": "vb. II",
+    "lemma": "eġsian"
+  },
   "egsian": {
     "def": "terrify",
     "grammar": "vb. II",
     "lemma": "eġsian"
+  },
+  "egsie": {
+    "def": "terrify",
+    "grammar": "vb. II",
+    "lemma": "eġsian"
+  },
+  "egstream": {
+    "def": "water-STREAM, (pl",
+    "grammar": "m.",
+    "lemma": "ēg-strēam"
+  },
+  "eht": {
+    "def": "pursue, persecute",
+    "grammar": "vb. I",
+    "lemma": "ēhtan"
   },
   "ehtan": {
     "def": "pursue, persecute",
     "grammar": "vb. I",
     "lemma": "ēhtan"
   },
+  "ehte": {
+    "def": "pursue, persecute",
+    "grammar": "vb. I",
+    "lemma": "ēhtan"
+  },
+  "ehti(g)": {
+    "def": "see eahtian",
+    "grammar": "",
+    "lemma": "ehti(ġ)an"
+  },
   "ehti(g)an": {
     "def": "see eahtian",
     "grammar": "",
     "lemma": "ehti(ġ)an"
+  },
+  "ehti(g)e": {
+    "def": "see eahtian",
+    "grammar": "",
+    "lemma": "ehti(ġ)an"
+  },
+  "el": {
+    "def": "yldo",
+    "grammar": "eldo",
+    "lemma": "elde"
+  },
+  "el land": {
+    "def": "foreign country",
+    "grammar": "n.",
+    "lemma": "el-land"
+  },
+  "el þeodig": {
+    "def": "336",
+    "grammar": "adj.",
+    "lemma": "el-þēodiġ"
   },
   "el-land": {
     "def": "foreign country",
     "grammar": "n.",
     "lemma": "el-land"
   },
+  "el-þeode": {
+    "def": "336",
+    "grammar": "adj.",
+    "lemma": "el-þēodiġ"
+  },
   "el-þeodig": {
     "def": "336",
     "grammar": "adj.",
     "lemma": "el-þēodiġ"
+  },
+  "eld": {
+    "def": "yldo",
+    "grammar": "eldo",
+    "lemma": "elde"
   },
   "elde": {
     "def": "yldo",
     "grammar": "eldo",
     "lemma": "elde"
   },
+  "ell": {
+    "def": "otherwise",
+    "grammar": "adv.",
+    "lemma": "elles"
+  },
+  "elland": {
+    "def": "foreign country",
+    "grammar": "n.",
+    "lemma": "el-land"
+  },
+  "elle": {
+    "def": "otherwise",
+    "grammar": "adv.",
+    "lemma": "elles"
+  },
   "ellen": {
     "def": "valor, strength, exer-tion, dedication",
     "grammar": "n.",
     "lemma": "ellen"
+  },
+  "ellen dæd": {
+    "def": "DEED of valor",
+    "grammar": "fi.",
+    "lemma": "ellen-dǣd"
+  },
+  "ellen gæst": {
+    "def": "powerful or bold demon",
+    "grammar": "mi.",
+    "lemma": "ellen-gǣst"
+  },
+  "ellen lice": {
+    "def": "valiantly, boldly",
+    "grammar": "adv.",
+    "lemma": "ellen-līċe"
+  },
+  "ellen mærþu": {
+    "def": "fame for courage",
+    "grammar": "f.",
+    "lemma": "ellen-mǣrþu"
+  },
+  "ellen rof": {
+    "def": "strong",
+    "grammar": "adj.",
+    "lemma": "ellen-rōf"
+  },
+  "ellen sioc": {
+    "def": "(strength-SICK), Copyright ӯ 2008",
+    "grammar": "adj.",
+    "lemma": "ellen-sīoc"
+  },
+  "ellen weorc": {
+    "def": "WORK of valor, cou-rageous deed",
+    "grammar": "n.",
+    "lemma": "ellen-weorc"
   },
   "ellen-dæd": {
     "def": "DEED of valor",
@@ -3291,6 +9771,11 @@ const OLD_ENGLISH_DICT = {
     "def": "powerful or bold demon",
     "grammar": "mi.",
     "lemma": "ellen-gǣst"
+  },
+  "ellen-lic": {
+    "def": "valiantly, boldly",
+    "grammar": "adv.",
+    "lemma": "ellen-līċe"
   },
   "ellen-lice": {
     "def": "valiantly, boldly",
@@ -3317,6 +9802,41 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ellen-weorc"
   },
+  "ellendæd": {
+    "def": "DEED of valor",
+    "grammar": "fi.",
+    "lemma": "ellen-dǣd"
+  },
+  "ellengæst": {
+    "def": "powerful or bold demon",
+    "grammar": "mi.",
+    "lemma": "ellen-gǣst"
+  },
+  "ellenlice": {
+    "def": "valiantly, boldly",
+    "grammar": "adv.",
+    "lemma": "ellen-līċe"
+  },
+  "ellenmærþu": {
+    "def": "fame for courage",
+    "grammar": "f.",
+    "lemma": "ellen-mǣrþu"
+  },
+  "ellenrof": {
+    "def": "strong",
+    "grammar": "adj.",
+    "lemma": "ellen-rōf"
+  },
+  "ellensioc": {
+    "def": "(strength-SICK), Copyright ӯ 2008",
+    "grammar": "adj.",
+    "lemma": "ellen-sīoc"
+  },
+  "ellenweorc": {
+    "def": "WORK of valor, cou-rageous deed",
+    "grammar": "n.",
+    "lemma": "ellen-weorc"
+  },
   "elles": {
     "def": "otherwise",
     "grammar": "adv.",
@@ -3326,6 +9846,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(ELsewhither), to another place",
     "grammar": "adv.",
     "lemma": "ellor"
+  },
+  "ellor gast": {
+    "def": "ma",
+    "grammar": "",
+    "lemma": "ellor-gāst"
+  },
+  "ellor sið": {
+    "def": "journey ELsewhere, death",
+    "grammar": "m.",
+    "lemma": "ellor-sīð"
   },
   "ellor-gast": {
     "def": "ma",
@@ -3337,20 +9867,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ellor-sīð"
   },
+  "ellorgast": {
+    "def": "ma",
+    "grammar": "",
+    "lemma": "ellor-gāst"
+  },
+  "ellorsið": {
+    "def": "journey ELsewhere, death",
+    "grammar": "m.",
+    "lemma": "ellor-sīð"
+  },
   "elne(s)": {
     "def": "see ellen",
     "grammar": "",
     "lemma": "elne(s)"
+  },
+  "elr": {
+    "def": "another",
+    "grammar": "comp.",
+    "lemma": "elra"
   },
   "elra": {
     "def": "another",
     "grammar": "comp.",
     "lemma": "elra"
   },
+  "elre": {
+    "def": "another",
+    "grammar": "comp.",
+    "lemma": "elra"
+  },
+  "elþeodig": {
+    "def": "336",
+    "grammar": "adj.",
+    "lemma": "el-þēodiġ"
+  },
+  "en": {
+    "def": "1254",
+    "grammar": "mja.",
+    "lemma": "ende"
+  },
+  "end": {
+    "def": "1254",
+    "grammar": "mja.",
+    "lemma": "ende"
+  },
   "ende": {
     "def": "1254",
     "grammar": "mja.",
     "lemma": "ende"
+  },
+  "ende dogor": {
+    "def": "last day, death",
+    "grammar": "n.",
+    "lemma": "ende-dōgor"
+  },
+  "ende dæg": {
+    "def": "death",
+    "grammar": "m.",
+    "lemma": "ende-dæġ"
+  },
+  "ende laf": {
+    "def": "last remnant",
+    "grammar": "f.",
+    "lemma": "ende-lāf"
+  },
+  "ende lean": {
+    "def": "final reward or retribu-tion",
+    "grammar": "n.",
+    "lemma": "ende-lēan"
+  },
+  "ende stæf": {
+    "def": "END",
+    "grammar": "m.",
+    "lemma": "ende-stæf"
+  },
+  "ende sæta": {
+    "def": "ende-sǣta ‡, wk",
+    "grammar": "wk.",
+    "lemma": "ende-sǣta"
   },
   "ende-dogor": {
     "def": "last day, death",
@@ -3367,7 +9962,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ende-lāf"
   },
+  "ende-le": {
+    "def": "final reward or retribu-tion",
+    "grammar": "n.",
+    "lemma": "ende-lēan"
+  },
   "ende-lean": {
+    "def": "final reward or retribu-tion",
+    "grammar": "n.",
+    "lemma": "ende-lēan"
+  },
+  "ende-lee": {
     "def": "final reward or retribu-tion",
     "grammar": "n.",
     "lemma": "ende-lēan"
@@ -3377,10 +9982,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ende-stæf"
   },
+  "ende-sæt": {
+    "def": "ende-sǣta ‡, wk",
+    "grammar": "wk.",
+    "lemma": "ende-sǣta"
+  },
   "ende-sæta": {
     "def": "ende-sǣta ‡, wk",
     "grammar": "wk.",
     "lemma": "ende-sǣta"
+  },
+  "ende-sæte": {
+    "def": "ende-sǣta ‡, wk",
+    "grammar": "wk.",
+    "lemma": "ende-sǣta"
+  },
+  "endedogor": {
+    "def": "last day, death",
+    "grammar": "n.",
+    "lemma": "ende-dōgor"
+  },
+  "endedæg": {
+    "def": "death",
+    "grammar": "m.",
+    "lemma": "ende-dæġ"
+  },
+  "endelaf": {
+    "def": "last remnant",
+    "grammar": "f.",
+    "lemma": "ende-lāf"
+  },
+  "endelean": {
+    "def": "final reward or retribu-tion",
+    "grammar": "n.",
+    "lemma": "ende-lēan"
+  },
+  "endestæf": {
+    "def": "END",
+    "grammar": "m.",
+    "lemma": "ende-stæf"
+  },
+  "endesæta": {
+    "def": "ende-sǣta ‡, wk",
+    "grammar": "wk.",
+    "lemma": "ende-sǣta"
+  },
+  "eng": {
+    "def": "1410 (cheer-less? see Schü",
+    "grammar": "adj.",
+    "lemma": "enġe"
   },
   "enge": {
     "def": "1410 (cheer-less? see Schü",
@@ -3407,10 +10057,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "eofor",
     "lemma": "eofer"
   },
+  "eofer spreot": {
+    "def": "boar-spear",
+    "grammar": "m.",
+    "lemma": "eofer-sprēot"
+  },
   "eofer-spreot": {
     "def": "boar-spear",
     "grammar": "m.",
     "lemma": "eofer-sprēot"
+  },
+  "eoferspreot": {
+    "def": "boar-spear",
+    "grammar": "m.",
+    "lemma": "eofer-sprēot"
+  },
+  "eofor heafod segn": {
+    "def": "boar’s-HEAD-SIGN, banner",
+    "grammar": "m.",
+    "lemma": "eofor-hēafod-seġn"
+  },
+  "eofor lic": {
+    "def": "303",
+    "grammar": "n.",
+    "lemma": "eofor-līċ"
   },
   "eofor-heafod-segn": {
     "def": "boar’s-HEAD-SIGN, banner",
@@ -3418,6 +10088,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eofor-hēafod-seġn"
   },
   "eofor-lic": {
+    "def": "303",
+    "grammar": "n.",
+    "lemma": "eofor-līċ"
+  },
+  "eoforheafodsegn": {
+    "def": "boar’s-HEAD-SIGN, banner",
+    "grammar": "m.",
+    "lemma": "eofor-hēafod-seġn"
+  },
+  "eoforlic": {
     "def": "303",
     "grammar": "n.",
     "lemma": "eofor-līċ"
@@ -3437,12 +10117,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "eom"
   },
+  "eor": {
+    "def": "see yrre",
+    "grammar": "",
+    "lemma": "eorre"
+  },
+  "eorclan stan": {
+    "def": "1208",
+    "grammar": "m.",
+    "lemma": "eorclan-stān"
+  },
+  "eorclan-st": {
+    "def": "1208",
+    "grammar": "m.",
+    "lemma": "eorclan-stān"
+  },
   "eorclan-stan": {
     "def": "1208",
     "grammar": "m.",
     "lemma": "eorclan-stān"
   },
+  "eorclan-ste": {
+    "def": "1208",
+    "grammar": "m.",
+    "lemma": "eorclan-stān"
+  },
+  "eorclanstan": {
+    "def": "1208",
+    "grammar": "m.",
+    "lemma": "eorclan-stān"
+  },
+  "eored geatwe": {
+    "def": "warlike equip-ment",
+    "grammar": "fw",
+    "lemma": "ēored-ġeatwe"
+  },
+  "eored-geatw": {
+    "def": "warlike equip-ment",
+    "grammar": "fw",
+    "lemma": "ēored-ġeatwe"
+  },
   "eored-geatwe": {
+    "def": "warlike equip-ment",
+    "grammar": "fw",
+    "lemma": "ēored-ġeatwe"
+  },
+  "eoredgeatwe": {
     "def": "warlike equip-ment",
     "grammar": "fw",
     "lemma": "ēored-ġeatwe"
@@ -3452,15 +10172,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eorl"
   },
+  "eorl gestreon": {
+    "def": "(warriors’) treasure, riches",
+    "grammar": "n.",
+    "lemma": "eorl-ġestrēon"
+  },
+  "eorl gewæde": {
+    "def": "dress of a warrior, armor",
+    "grammar": "nja.",
+    "lemma": "eorl-ġewǣde"
+  },
+  "eorl scipe": {
+    "def": "nobility, rank",
+    "grammar": "mi.",
+    "lemma": "eorl-scipe"
+  },
+  "eorl weorod": {
+    "def": "band of warriors",
+    "grammar": "n.",
+    "lemma": "eorl-weorod"
+  },
+  "eorl-gestre": {
+    "def": "(warriors’) treasure, riches",
+    "grammar": "n.",
+    "lemma": "eorl-ġestrēon"
+  },
+  "eorl-gestree": {
+    "def": "(warriors’) treasure, riches",
+    "grammar": "n.",
+    "lemma": "eorl-ġestrēon"
+  },
   "eorl-gestreon": {
     "def": "(warriors’) treasure, riches",
     "grammar": "n.",
     "lemma": "eorl-ġestrēon"
   },
+  "eorl-gewæ": {
+    "def": "dress of a warrior, armor",
+    "grammar": "nja.",
+    "lemma": "eorl-ġewǣde"
+  },
+  "eorl-gewæd": {
+    "def": "dress of a warrior, armor",
+    "grammar": "nja.",
+    "lemma": "eorl-ġewǣde"
+  },
   "eorl-gewæde": {
     "def": "dress of a warrior, armor",
     "grammar": "nja.",
     "lemma": "eorl-ġewǣde"
+  },
+  "eorl-scip": {
+    "def": "nobility, rank",
+    "grammar": "mi.",
+    "lemma": "eorl-scipe"
   },
   "eorl-scipe": {
     "def": "nobility, rank",
@@ -3472,10 +10237,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "eorl-weorod"
   },
+  "eorlgestreon": {
+    "def": "(warriors’) treasure, riches",
+    "grammar": "n.",
+    "lemma": "eorl-ġestrēon"
+  },
+  "eorlgewæde": {
+    "def": "dress of a warrior, armor",
+    "grammar": "nja.",
+    "lemma": "eorl-ġewǣde"
+  },
+  "eorlic(=eorl lic)": {
+    "def": "manly, heroic",
+    "grammar": "adj.",
+    "lemma": "eorliċ(=eorl-liċ)"
+  },
   "eorlic(=eorl-lic)": {
     "def": "manly, heroic",
     "grammar": "adj.",
     "lemma": "eorliċ(=eorl-liċ)"
+  },
+  "eorlic(=eorllic)": {
+    "def": "manly, heroic",
+    "grammar": "adj.",
+    "lemma": "eorliċ(=eorl-liċ)"
+  },
+  "eorlscipe": {
+    "def": "nobility, rank",
+    "grammar": "mi.",
+    "lemma": "eorl-scipe"
+  },
+  "eorlweorod": {
+    "def": "band of warriors",
+    "grammar": "n.",
+    "lemma": "eorl-weorod"
+  },
+  "eormen cyn(n)": {
+    "def": "humanKIND",
+    "grammar": "nja.",
+    "lemma": "eormen-cyn(n)"
+  },
+  "eormen grund": {
+    "def": "spacious (GROUND) earth",
+    "grammar": "m.",
+    "lemma": "eormen-grund"
+  },
+  "eormen laf": {
+    "def": "immense legacy",
+    "grammar": "f.",
+    "lemma": "eormen-lāf"
   },
   "eormen-cyn(n)": {
     "def": "humanKIND",
@@ -3492,10 +10302,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "eormen-lāf"
   },
+  "eormencyn(n)": {
+    "def": "humanKIND",
+    "grammar": "nja.",
+    "lemma": "eormen-cyn(n)"
+  },
+  "eormengrund": {
+    "def": "spacious (GROUND) earth",
+    "grammar": "m.",
+    "lemma": "eormen-grund"
+  },
+  "eormenlaf": {
+    "def": "immense legacy",
+    "grammar": "f.",
+    "lemma": "eormen-lāf"
+  },
+  "eorr": {
+    "def": "see yrre",
+    "grammar": "",
+    "lemma": "eorre"
+  },
   "eorre": {
     "def": "see yrre",
     "grammar": "",
     "lemma": "eorre"
+  },
+  "eorð": {
+    "def": "752, 1730, 2727, 3049",
+    "grammar": "wk.",
+    "lemma": "eorðe"
+  },
+  "eorð buend(e)": {
+    "def": "(EARTH-dweller,) man, native",
+    "grammar": "mc.",
+    "lemma": "eorð-būend(e)"
+  },
+  "eorð cyning": {
+    "def": "1155",
+    "grammar": "m.",
+    "lemma": "eorð-cyning"
+  },
+  "eorð draca": {
+    "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
+    "grammar": "wk.",
+    "lemma": "eorð-draca"
+  },
+  "eorð reced": {
+    "def": "EARTH-house",
+    "grammar": "m.",
+    "lemma": "eorð-reċed"
+  },
+  "eorð scræf": {
+    "def": "subterra-nean chamber",
+    "grammar": "n.",
+    "lemma": "eorð-scræf"
+  },
+  "eorð sele": {
+    "def": "EARTH-hall, subterra-nean chamber",
+    "grammar": "mi.",
+    "lemma": "eorð-sele"
+  },
+  "eorð weal(l)": {
+    "def": "EARTH-WALL, mound",
+    "grammar": "m.",
+    "lemma": "eorð-weal(l)"
+  },
+  "eorð weard": {
+    "def": "region of EARTH",
+    "grammar": "m.",
+    "lemma": "eorð-weard"
   },
   "eorð-buend(e)": {
     "def": "(EARTH-dweller,) man, native",
@@ -3507,7 +10382,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eorð-cyning"
   },
+  "eorð-drac": {
+    "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
+    "grammar": "wk.",
+    "lemma": "eorð-draca"
+  },
   "eorð-draca": {
+    "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
+    "grammar": "wk.",
+    "lemma": "eorð-draca"
+  },
+  "eorð-drace": {
     "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
     "grammar": "wk.",
     "lemma": "eorð-draca"
@@ -3521,6 +10406,11 @@ const OLD_ENGLISH_DICT = {
     "def": "subterra-nean chamber",
     "grammar": "n.",
     "lemma": "eorð-scræf"
+  },
+  "eorð-sel": {
+    "def": "EARTH-hall, subterra-nean chamber",
+    "grammar": "mi.",
+    "lemma": "eorð-sele"
   },
   "eorð-sele": {
     "def": "EARTH-hall, subterra-nean chamber",
@@ -3537,10 +10427,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eorð-weard"
   },
+  "eorðbuend(e)": {
+    "def": "(EARTH-dweller,) man, native",
+    "grammar": "mc.",
+    "lemma": "eorð-būend(e)"
+  },
+  "eorðcyning": {
+    "def": "1155",
+    "grammar": "m.",
+    "lemma": "eorð-cyning"
+  },
+  "eorðdraca": {
+    "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
+    "grammar": "wk.",
+    "lemma": "eorð-draca"
+  },
   "eorðe": {
     "def": "752, 1730, 2727, 3049",
     "grammar": "wk.",
     "lemma": "eorðe"
+  },
+  "eorðreced": {
+    "def": "EARTH-house",
+    "grammar": "m.",
+    "lemma": "eorð-reċed"
+  },
+  "eorðscræf": {
+    "def": "subterra-nean chamber",
+    "grammar": "n.",
+    "lemma": "eorð-scræf"
+  },
+  "eorðsele": {
+    "def": "EARTH-hall, subterra-nean chamber",
+    "grammar": "mi.",
+    "lemma": "eorð-sele"
+  },
+  "eorðweal(l)": {
+    "def": "EARTH-WALL, mound",
+    "grammar": "m.",
+    "lemma": "eorð-weal(l)"
+  },
+  "eorðweard": {
+    "def": "region of EARTH",
+    "grammar": "m.",
+    "lemma": "eorð-weard"
+  },
+  "eot": {
+    "def": "giant",
+    "grammar": "m.",
+    "lemma": "eoten"
+  },
+  "eote": {
+    "def": "giant",
+    "grammar": "m.",
+    "lemma": "eoten"
   },
   "eoten": {
     "def": "giant",
@@ -3552,7 +10492,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "eotenisc"
   },
+  "eoton weard": {
+    "def": "watch against a giant",
+    "grammar": "f.",
+    "lemma": "eoton-weard"
+  },
   "eoton-weard": {
+    "def": "watch against a giant",
+    "grammar": "f.",
+    "lemma": "eoton-weard"
+  },
+  "eotonweard": {
     "def": "watch against a giant",
     "grammar": "f.",
     "lemma": "eoton-weard"
@@ -3563,6 +10513,11 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēow"
   },
   "eowan": {
+    "def": "see ӯwan",
+    "grammar": "",
+    "lemma": "ēowan"
+  },
+  "eowe": {
     "def": "see ӯwan",
     "grammar": "",
     "lemma": "ēowan"
@@ -3582,7 +10537,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "etonisc"
   },
+  "eð": {
+    "def": "see ēaðe",
+    "grammar": "",
+    "lemma": "ēðe"
+  },
+  "eð begete": {
+    "def": "easy to obtain (GET)",
+    "grammar": "adj.",
+    "lemma": "ēð-beġēte"
+  },
+  "eð-bege": {
+    "def": "easy to obtain (GET)",
+    "grammar": "adj.",
+    "lemma": "ēð-beġēte"
+  },
+  "eð-beget": {
+    "def": "easy to obtain (GET)",
+    "grammar": "adj.",
+    "lemma": "ēð-beġēte"
+  },
   "eð-begete": {
+    "def": "easy to obtain (GET)",
+    "grammar": "adj.",
+    "lemma": "ēð-beġēte"
+  },
+  "eðbegete": {
     "def": "easy to obtain (GET)",
     "grammar": "adj.",
     "lemma": "ēð-beġēte"
@@ -3591,6 +10571,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see ēaðe",
     "grammar": "",
     "lemma": "ēðe"
+  },
+  "eðel riht": {
+    "def": "ancestral RIGHT, privi-leges belonging to a hereditary estate, ancestral domain",
+    "grammar": "n.",
+    "lemma": "ēðel-riht"
+  },
+  "eðel wyn(n)": {
+    "def": "enjoyment of hered-itary estate, delightful home",
+    "grammar": "fi.",
+    "lemma": "ēðel-wyn(n)"
   },
   "eðel-riht": {
     "def": "ancestral RIGHT, privi-leges belonging to a hereditary estate, ancestral domain",
@@ -3602,6 +10592,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "ēðel-wyn(n)"
   },
+  "eðelriht": {
+    "def": "ancestral RIGHT, privi-leges belonging to a hereditary estate, ancestral domain",
+    "grammar": "n.",
+    "lemma": "ēðel-riht"
+  },
+  "eðelwyn(n)": {
+    "def": "enjoyment of hered-itary estate, delightful home",
+    "grammar": "fi.",
+    "lemma": "ēðel-wyn(n)"
+  },
+  "eþ gesуne": {
+    "def": "easily visible (with the connotation of ‘in abundance’)",
+    "grammar": "adj.",
+    "lemma": "ēþ-ġesӯne"
+  },
+  "eþ-gesу": {
+    "def": "easily visible (with the connotation of ‘in abundance’)",
+    "grammar": "adj.",
+    "lemma": "ēþ-ġesӯne"
+  },
+  "eþ-gesуn": {
+    "def": "easily visible (with the connotation of ‘in abundance’)",
+    "grammar": "adj.",
+    "lemma": "ēþ-ġesӯne"
+  },
   "eþ-gesуne": {
     "def": "easily visible (with the connotation of ‘in abundance’)",
     "grammar": "adj.",
@@ -3611,6 +10626,21 @@ const OLD_ENGLISH_DICT = {
     "def": "home",
     "grammar": "m.",
     "lemma": "ēþel"
+  },
+  "eþel stol": {
+    "def": "native seat, ancestral throne",
+    "grammar": "m.",
+    "lemma": "ēþel-stōl"
+  },
+  "eþel turf": {
+    "def": "native soil, country",
+    "grammar": "fc.",
+    "lemma": "ēþel-turf"
+  },
+  "eþel weard": {
+    "def": "GUARDian of the na-tive land, king",
+    "grammar": "m.",
+    "lemma": "ēþel-weard"
   },
   "eþel-stol": {
     "def": "native seat, ancestral throne",
@@ -3627,7 +10657,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ēþel-weard"
   },
+  "eþelstol": {
+    "def": "native seat, ancestral throne",
+    "grammar": "m.",
+    "lemma": "ēþel-stōl"
+  },
+  "eþelturf": {
+    "def": "native soil, country",
+    "grammar": "fc.",
+    "lemma": "ēþel-turf"
+  },
+  "eþelweard": {
+    "def": "GUARDian of the na-tive land, king",
+    "grammar": "m.",
+    "lemma": "ēþel-weard"
+  },
+  "eþgesуne": {
+    "def": "easily visible (with the connotation of ‘in abundance’)",
+    "grammar": "adj.",
+    "lemma": "ēþ-ġesӯne"
+  },
+  "f": {
+    "def": "grapple, seize",
+    "grammar": "vb. 7",
+    "lemma": "fōn"
+  },
+  "fa": {
+    "def": "fāra, see fāh",
+    "grammar": "f",
+    "lemma": "fāne"
+  },
+  "facen stafas": {
+    "def": "(deceit-STAVES), acts of malice (treachery?)",
+    "grammar": "m.",
+    "lemma": "fācen-stafas"
+  },
+  "facen-staf": {
+    "def": "(deceit-STAVES), acts of malice (treachery?)",
+    "grammar": "m.",
+    "lemma": "fācen-stafas"
+  },
   "facen-stafas": {
+    "def": "(deceit-STAVES), acts of malice (treachery?)",
+    "grammar": "m.",
+    "lemma": "fācen-stafas"
+  },
+  "facen-stafe": {
+    "def": "(deceit-STAVES), acts of malice (treachery?)",
+    "grammar": "m.",
+    "lemma": "fācen-stafas"
+  },
+  "facenstafas": {
     "def": "(deceit-STAVES), acts of malice (treachery?)",
     "grammar": "m.",
     "lemma": "fācen-stafas"
@@ -3642,17 +10722,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "fāh"
   },
+  "famig heals": {
+    "def": "FOAMY-necked",
+    "grammar": "adj.",
+    "lemma": "fāmiġ-heals"
+  },
   "famig-heals": {
     "def": "FOAMY-necked",
     "grammar": "adj.",
     "lemma": "fāmiġ-heals"
+  },
+  "famigheals": {
+    "def": "FOAMY-necked",
+    "grammar": "adj.",
+    "lemma": "fāmiġ-heals"
+  },
+  "fan": {
+    "def": "fāra, see fāh",
+    "grammar": "f",
+    "lemma": "fāne"
   },
   "fane": {
     "def": "fāra, see fāh",
     "grammar": "f",
     "lemma": "fāne"
   },
+  "far": {
+    "def": "proceed, FARE",
+    "grammar": "vb. 6",
+    "lemma": "faran"
+  },
   "faran": {
+    "def": "proceed, FARE",
+    "grammar": "vb. 6",
+    "lemma": "faran"
+  },
+  "fare": {
     "def": "proceed, FARE",
     "grammar": "vb. 6",
     "lemma": "faran"
@@ -3662,10 +10767,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "faroð"
   },
+  "fe": {
+    "def": "FEW, a few",
+    "grammar": "adj.",
+    "lemma": "fēa"
+  },
   "fea": {
     "def": "FEW, a few",
     "grammar": "adj.",
     "lemma": "fēa"
+  },
+  "fea sceaft": {
+    "def": "destitute, poor, wretched",
+    "grammar": "adj.",
+    "lemma": "fēa-sceaft"
   },
   "fea-sceaft": {
     "def": "destitute, poor, wretched",
@@ -3677,7 +10792,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fealh"
   },
+  "feall": {
+    "def": "Scholarly Publishing Division",
+    "grammar": "vb. 7",
+    "lemma": "feallan"
+  },
   "feallan": {
+    "def": "Scholarly Publishing Division",
+    "grammar": "vb. 7",
+    "lemma": "feallan"
+  },
+  "fealle": {
     "def": "Scholarly Publishing Division",
     "grammar": "vb. 7",
     "lemma": "feallan"
@@ -3692,15 +10817,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fealu"
   },
+  "feasceaft": {
+    "def": "destitute, poor, wretched",
+    "grammar": "adj.",
+    "lemma": "fēa-sceaft"
+  },
   "feax": {
     "def": "1647, fexe 2967",
     "grammar": "n.",
     "lemma": "feax"
   },
+  "fee": {
+    "def": "FEW, a few",
+    "grammar": "adj.",
+    "lemma": "fēa"
+  },
   "fehð": {
     "def": "see fōn",
     "grammar": "",
     "lemma": "fēhð"
+  },
+  "fel": {
+    "def": "many, nearly always w",
+    "grammar": "nu.",
+    "lemma": "fela"
   },
   "fel(l)": {
     "def": "skin",
@@ -3711,6 +10851,36 @@ const OLD_ENGLISH_DICT = {
     "def": "many, nearly always w",
     "grammar": "nu.",
     "lemma": "fela"
+  },
+  "fela fricgende": {
+    "def": "well informed, wise",
+    "grammar": "adj.",
+    "lemma": "fela-fricgende"
+  },
+  "fela geomor": {
+    "def": "very sad, solemn",
+    "grammar": "adj.",
+    "lemma": "fela-ġeōmor"
+  },
+  "fela hror": {
+    "def": "very vigorous, strong",
+    "grammar": "adj.",
+    "lemma": "fela-hrōr"
+  },
+  "fela modig": {
+    "def": "very brave",
+    "grammar": "adj.",
+    "lemma": "fela-mōdiġ"
+  },
+  "fela-fricgen": {
+    "def": "well informed, wise",
+    "grammar": "adj.",
+    "lemma": "fela-fricgende"
+  },
+  "fela-fricgend": {
+    "def": "well informed, wise",
+    "grammar": "adj.",
+    "lemma": "fela-fricgende"
   },
   "fela-fricgende": {
     "def": "well informed, wise",
@@ -3727,10 +10897,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fela-hrōr"
   },
+  "fela-mode": {
+    "def": "very brave",
+    "grammar": "adj.",
+    "lemma": "fela-mōdiġ"
+  },
   "fela-modig": {
     "def": "very brave",
     "grammar": "adj.",
     "lemma": "fela-mōdiġ"
+  },
+  "felafricgende": {
+    "def": "well informed, wise",
+    "grammar": "adj.",
+    "lemma": "fela-fricgende"
+  },
+  "felageomor": {
+    "def": "very sad, solemn",
+    "grammar": "adj.",
+    "lemma": "fela-ġeōmor"
+  },
+  "felahror": {
+    "def": "very vigorous, strong",
+    "grammar": "adj.",
+    "lemma": "fela-hrōr"
+  },
+  "felamodig": {
+    "def": "very brave",
+    "grammar": "adj.",
+    "lemma": "fela-mōdiġ"
+  },
+  "fele": {
+    "def": "many, nearly always w",
+    "grammar": "nu.",
+    "lemma": "fela"
+  },
+  "fen freoðo": {
+    "def": "280), FEN-refuge",
+    "grammar": "wk.",
+    "lemma": "fen-freoðo"
+  },
+  "fen gelad": {
+    "def": "(treacherous) passage across a FEN",
+    "grammar": "n.",
+    "lemma": "fen-ġelād"
+  },
+  "fen hlið": {
+    "def": "FEN-slope, marshy tract",
+    "grammar": "n.",
+    "lemma": "fen-hlið"
+  },
+  "fen hop": {
+    "def": "FEN-retreat, i",
+    "grammar": "n.",
+    "lemma": "fen-hop"
   },
   "fen(n)": {
     "def": "marshy region",
@@ -3757,6 +10977,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fen-hop"
   },
+  "fenfreoðo": {
+    "def": "280), FEN-refuge",
+    "grammar": "wk.",
+    "lemma": "fen-freoðo"
+  },
   "feng": {
     "def": "grip",
     "grammar": "mi.",
@@ -3767,25 +10992,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fenġel"
   },
+  "fengelad": {
+    "def": "(treacherous) passage across a FEN",
+    "grammar": "n.",
+    "lemma": "fen-ġelād"
+  },
+  "fenhlið": {
+    "def": "FEN-slope, marshy tract",
+    "grammar": "n.",
+    "lemma": "fen-hlið"
+  },
+  "fenhop": {
+    "def": "FEN-retreat, i",
+    "grammar": "n.",
+    "lemma": "fen-hop"
+  },
   "feo": {
     "def": "see feoh",
     "grammar": "",
     "lemma": "fēo"
   },
   "feoh": {
-    "def": "money, riches",
-    "grammar": "n.",
-    "lemma": "feoh"
+    "def": "576, 959",
+    "grammar": "wk.",
+    "lemma": "feohte"
+  },
+  "feoh gift": {
+    "def": "dispensing of treasure",
+    "grammar": "fi.",
+    "lemma": "feoh-ġift"
+  },
+  "feoh leas": {
+    "def": "(money-LESS, i",
+    "grammar": "adj.",
+    "lemma": "feoh-lēas"
   },
   "feoh-gift": {
     "def": "dispensing of treasure",
     "grammar": "fi.",
     "lemma": "feoh-ġift"
   },
+  "feoh-le": {
+    "def": "(money-LESS, i",
+    "grammar": "adj.",
+    "lemma": "feoh-lēas"
+  },
   "feoh-leas": {
     "def": "(money-LESS, i",
     "grammar": "adj.",
     "lemma": "feoh-lēas"
+  },
+  "feoh-lee": {
+    "def": "(money-LESS, i",
+    "grammar": "adj.",
+    "lemma": "feoh-lēas"
+  },
+  "feohgift": {
+    "def": "dispensing of treasure",
+    "grammar": "fi.",
+    "lemma": "feoh-ġift"
+  },
+  "feohleas": {
+    "def": "(money-LESS, i",
+    "grammar": "adj.",
+    "lemma": "feoh-lēas"
+  },
+  "feoht": {
+    "def": "FIGHT",
+    "grammar": "vb.  3",
+    "lemma": "feohtan"
   },
   "feohtan": {
     "def": "FIGHT",
@@ -3793,16 +11068,21 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feohtan"
   },
   "feohte": {
-    "def": "576, 959",
-    "grammar": "wk.",
-    "lemma": "feohte"
+    "def": "FIGHT",
+    "grammar": "vb.  3",
+    "lemma": "feohtan"
   },
   "feol": {
-    "def": "1032 (n",
-    "grammar": "f.",
-    "lemma": "fēol"
+    "def": "reach",
+    "grammar": "vb. 3",
+    "lemma": "fēolan"
   },
   "feolan": {
+    "def": "reach",
+    "grammar": "vb. 3",
+    "lemma": "fēolan"
+  },
+  "feole": {
     "def": "reach",
     "grammar": "vb. 3",
     "lemma": "fēolan"
@@ -3812,20 +11092,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "fēond"
   },
+  "feond grap": {
+    "def": "enemy’s GRIP or clutch",
+    "grammar": "f.",
+    "lemma": "fēond-grāp"
+  },
+  "feond scaða": {
+    "def": "dire foe",
+    "grammar": "wk.",
+    "lemma": "fēond-scaða"
+  },
+  "feond scipe": {
+    "def": "hosility",
+    "grammar": "mi.",
+    "lemma": "fēond-scipe"
+  },
   "feond-grap": {
     "def": "enemy’s GRIP or clutch",
     "grammar": "f.",
     "lemma": "fēond-grāp"
+  },
+  "feond-scað": {
+    "def": "dire foe",
+    "grammar": "wk.",
+    "lemma": "fēond-scaða"
   },
   "feond-scaða": {
     "def": "dire foe",
     "grammar": "wk.",
     "lemma": "fēond-scaða"
   },
+  "feond-scaðe": {
+    "def": "dire foe",
+    "grammar": "wk.",
+    "lemma": "fēond-scaða"
+  },
+  "feond-scip": {
+    "def": "hosility",
+    "grammar": "mi.",
+    "lemma": "fēond-scipe"
+  },
   "feond-scipe": {
     "def": "hosility",
     "grammar": "mi.",
     "lemma": "fēond-scipe"
+  },
+  "feondgrap": {
+    "def": "enemy’s GRIP or clutch",
+    "grammar": "f.",
+    "lemma": "fēond-grāp"
+  },
+  "feondscaða": {
+    "def": "dire foe",
+    "grammar": "wk.",
+    "lemma": "fēond-scaða"
+  },
+  "feondscipe": {
+    "def": "hosility",
+    "grammar": "mi.",
+    "lemma": "fēond-scipe"
+  },
+  "feor buend": {
+    "def": "FAR dweller",
+    "grammar": "mc.",
+    "lemma": "feor-būend"
+  },
+  "feor cуþð(u)": {
+    "def": "OEG § ̄589",
+    "grammar": "f.",
+    "lemma": "feor-cӯþð(u)"
+  },
+  "feor weg": {
+    "def": "(pl",
+    "grammar": "m.",
+    "lemma": "feor-weġ"
   },
   "feor(r)": {
     "def": "42, 109, 542, Copyright ӯ 2008",
@@ -3847,6 +11187,66 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "feor-weġ"
   },
+  "feorbuend": {
+    "def": "FAR dweller",
+    "grammar": "mc.",
+    "lemma": "feor-būend"
+  },
+  "feorcуþð(u)": {
+    "def": "OEG § ̄589",
+    "grammar": "f.",
+    "lemma": "feor-cӯþð(u)"
+  },
+  "feorh bealu": {
+    "def": "(life-BALE), deadly attack",
+    "grammar": "nwa.",
+    "lemma": "feorh-bealu"
+  },
+  "feorh ben(n)": {
+    "def": "life-wound, mortal wound",
+    "grammar": "fj",
+    "lemma": "feorh-ben(n)"
+  },
+  "feorh bona": {
+    "def": "(life-)slayer",
+    "grammar": "wk.",
+    "lemma": "feorh-bona"
+  },
+  "feorh cyn(n)": {
+    "def": "(life-race), human race",
+    "grammar": "nja.",
+    "lemma": "feorh-cyn(n)"
+  },
+  "feorh geniðla": {
+    "def": "life-enemy, dead-ly foe",
+    "grammar": "wk.",
+    "lemma": "feorh-ġenīðla"
+  },
+  "feorh last": {
+    "def": "(life-track, i",
+    "grammar": "m.",
+    "lemma": "feorh-lāst"
+  },
+  "feorh legu": {
+    "def": "OEG § ̄606), LAYing down of life, fate, death",
+    "grammar": "fi.",
+    "lemma": "feorh-legu"
+  },
+  "feorh seoc": {
+    "def": "(life-SICK), mortally wounded",
+    "grammar": "adj.",
+    "lemma": "feorh-sēoc"
+  },
+  "feorh sweng": {
+    "def": "life-blow, deadly blow",
+    "grammar": "mi.",
+    "lemma": "feorh-swenġ"
+  },
+  "feorh wund": {
+    "def": "life-WOUND, mortal wound",
+    "grammar": "f.",
+    "lemma": "feorh-wund"
+  },
   "feorh(seeappx.c§11)": {
     "def": "life",
     "grammar": "m.",
@@ -3862,7 +11262,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "feorh-ben(n)"
   },
+  "feorh-bon": {
+    "def": "(life-)slayer",
+    "grammar": "wk.",
+    "lemma": "feorh-bona"
+  },
   "feorh-bona": {
+    "def": "(life-)slayer",
+    "grammar": "wk.",
+    "lemma": "feorh-bona"
+  },
+  "feorh-bone": {
     "def": "(life-)slayer",
     "grammar": "wk.",
     "lemma": "feorh-bona"
@@ -3872,7 +11282,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "feorh-cyn(n)"
   },
+  "feorh-geniðl": {
+    "def": "life-enemy, dead-ly foe",
+    "grammar": "wk.",
+    "lemma": "feorh-ġenīðla"
+  },
   "feorh-geniðla": {
+    "def": "life-enemy, dead-ly foe",
+    "grammar": "wk.",
+    "lemma": "feorh-ġenīðla"
+  },
+  "feorh-geniðle": {
     "def": "life-enemy, dead-ly foe",
     "grammar": "wk.",
     "lemma": "feorh-ġenīðla"
@@ -3902,12 +11322,82 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "feorh-wund"
   },
+  "feorhbealu": {
+    "def": "(life-BALE), deadly attack",
+    "grammar": "nwa.",
+    "lemma": "feorh-bealu"
+  },
+  "feorhben(n)": {
+    "def": "life-wound, mortal wound",
+    "grammar": "fj",
+    "lemma": "feorh-ben(n)"
+  },
+  "feorhbona": {
+    "def": "(life-)slayer",
+    "grammar": "wk.",
+    "lemma": "feorh-bona"
+  },
+  "feorhcyn(n)": {
+    "def": "(life-race), human race",
+    "grammar": "nja.",
+    "lemma": "feorh-cyn(n)"
+  },
+  "feorhgeniðla": {
+    "def": "life-enemy, dead-ly foe",
+    "grammar": "wk.",
+    "lemma": "feorh-ġenīðla"
+  },
+  "feorhlast": {
+    "def": "(life-track, i",
+    "grammar": "m.",
+    "lemma": "feorh-lāst"
+  },
+  "feorhlegu": {
+    "def": "OEG § ̄606), LAYing down of life, fate, death",
+    "grammar": "fi.",
+    "lemma": "feorh-legu"
+  },
+  "feorhseoc": {
+    "def": "(life-SICK), mortally wounded",
+    "grammar": "adj.",
+    "lemma": "feorh-sēoc"
+  },
+  "feorhsweng": {
+    "def": "life-blow, deadly blow",
+    "grammar": "mi.",
+    "lemma": "feorh-swenġ"
+  },
+  "feorhwund": {
+    "def": "life-WOUND, mortal wound",
+    "grammar": "f.",
+    "lemma": "feorh-wund"
+  },
   "feorm": {
     "def": "sustenance, tending to, taking care of",
     "grammar": "f.",
     "lemma": "feorm"
   },
+  "feormend leas": {
+    "def": "without a cleaner or polisher",
+    "grammar": "adj.",
+    "lemma": "feormend-lēas"
+  },
+  "feormend-le": {
+    "def": "without a cleaner or polisher",
+    "grammar": "adj.",
+    "lemma": "feormend-lēas"
+  },
   "feormend-leas": {
+    "def": "without a cleaner or polisher",
+    "grammar": "adj.",
+    "lemma": "feormend-lēas"
+  },
+  "feormend-lee": {
+    "def": "without a cleaner or polisher",
+    "grammar": "adj.",
+    "lemma": "feormend-lēas"
+  },
+  "feormendleas": {
     "def": "without a cleaner or polisher",
     "grammar": "adj.",
     "lemma": "feormend-lēas"
@@ -3917,27 +11407,82 @@ const OLD_ENGLISH_DICT = {
     "grammar": "Lang.",
     "lemma": "feormynd(=feormend"
   },
+  "feorr": {
+    "def": "remove",
+    "grammar": "vb.  I",
+    "lemma": "feorran"
+  },
   "feorran": {
     "def": "remove",
     "grammar": "vb.  I",
     "lemma": "feorran"
+  },
+  "feorran cund": {
+    "def": "of a FAR country, visiting from abroad",
+    "grammar": "adj.",
+    "lemma": "feorran-cund"
   },
   "feorran-cund": {
     "def": "of a FAR country, visiting from abroad",
     "grammar": "adj.",
     "lemma": "feorran-cund"
   },
+  "feorrancund": {
+    "def": "of a FAR country, visiting from abroad",
+    "grammar": "adj.",
+    "lemma": "feorran-cund"
+  },
+  "feorre": {
+    "def": "remove",
+    "grammar": "vb.  I",
+    "lemma": "feorran"
+  },
+  "feorweg": {
+    "def": "(pl",
+    "grammar": "m.",
+    "lemma": "feor-weġ"
+  },
   "feower": {
     "def": "1637, 2163",
     "grammar": "num.",
     "lemma": "fēower"
+  },
+  "feower tуne": {
+    "def": "num",
+    "grammar": "num.",
+    "lemma": "fēower-tӯne"
+  },
+  "feower-tу": {
+    "def": "num",
+    "grammar": "num.",
+    "lemma": "fēower-tӯne"
+  },
+  "feower-tуn": {
+    "def": "num",
+    "grammar": "num.",
+    "lemma": "fēower-tӯne"
   },
   "feower-tуne": {
     "def": "num",
     "grammar": "num.",
     "lemma": "fēower-tӯne"
   },
+  "feowertуne": {
+    "def": "num",
+    "grammar": "num.",
+    "lemma": "fēower-tӯne"
+  },
+  "fer": {
+    "def": "FARE",
+    "grammar": "vb. I",
+    "lemma": "fēran"
+  },
   "feran": {
+    "def": "FARE",
+    "grammar": "vb. I",
+    "lemma": "fēran"
+  },
+  "fere": {
     "def": "FARE",
     "grammar": "vb. I",
     "lemma": "fēran"
@@ -3947,7 +11492,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ferh"
   },
+  "ferh weard": {
+    "def": "GUARD over life, i",
+    "grammar": "f.",
+    "lemma": "ferh-weard"
+  },
   "ferh-weard": {
+    "def": "GUARD over life, i",
+    "grammar": "f.",
+    "lemma": "ferh-weard"
+  },
+  "ferhweard": {
     "def": "GUARD over life, i",
     "grammar": "f.",
     "lemma": "ferh-weard"
@@ -3957,27 +11512,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ferhð"
   },
+  "ferhð frec": {
+    "def": "bold in spirit",
+    "grammar": "adj.",
+    "lemma": "ferhð-frec"
+  },
+  "ferhð geniðla": {
+    "def": "deadly foe",
+    "grammar": "wk.",
+    "lemma": "ferhð-ġenīðla"
+  },
   "ferhð-frec": {
     "def": "bold in spirit",
     "grammar": "adj.",
     "lemma": "ferhð-frec"
+  },
+  "ferhð-geniðl": {
+    "def": "deadly foe",
+    "grammar": "wk.",
+    "lemma": "ferhð-ġenīðla"
   },
   "ferhð-geniðla": {
     "def": "deadly foe",
     "grammar": "wk.",
     "lemma": "ferhð-ġenīðla"
   },
+  "ferhð-geniðle": {
+    "def": "deadly foe",
+    "grammar": "wk.",
+    "lemma": "ferhð-ġenīðla"
+  },
+  "ferhðfrec": {
+    "def": "bold in spirit",
+    "grammar": "adj.",
+    "lemma": "ferhð-frec"
+  },
+  "ferhðgeniðla": {
+    "def": "deadly foe",
+    "grammar": "wk.",
+    "lemma": "ferhð-ġenīðla"
+  },
+  "feri": {
+    "def": "lead, bring",
+    "grammar": "vb. I",
+    "lemma": "ferian"
+  },
   "ferian": {
     "def": "lead, bring",
     "grammar": "vb. I",
     "lemma": "ferian"
+  },
+  "ferie": {
+    "def": "lead, bring",
+    "grammar": "vb. I",
+    "lemma": "ferian"
+  },
+  "fetel hilt": {
+    "def": "linked HILT",
+    "grammar": "n.",
+    "lemma": "fetel-hilt"
   },
   "fetel-hilt": {
     "def": "linked HILT",
     "grammar": "n.",
     "lemma": "fetel-hilt"
   },
+  "fetelhilt": {
+    "def": "linked HILT",
+    "grammar": "n.",
+    "lemma": "fetel-hilt"
+  },
+  "feti": {
+    "def": "1310",
+    "grammar": "vb. II",
+    "lemma": "fetian"
+  },
   "fetian": {
+    "def": "1310",
+    "grammar": "vb. II",
+    "lemma": "fetian"
+  },
+  "fetie": {
     "def": "1310",
     "grammar": "vb. II",
     "lemma": "fetian"
@@ -3987,15 +11602,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fex"
   },
+  "feðe gest": {
+    "def": "foot-GUEST or -warrior (BGdSL 32 [1907] 565 ̄f",
+    "grammar": "mi.",
+    "lemma": "fēðe-ġest"
+  },
+  "feðe wig": {
+    "def": "fight on foot",
+    "grammar": "n.",
+    "lemma": "fēðe-wīġ"
+  },
   "feðe-gest": {
     "def": "foot-GUEST or -warrior (BGdSL 32 [1907] 565 ̄f",
     "grammar": "mi.",
     "lemma": "fēðe-ġest"
   },
+  "feðe-we": {
+    "def": "fight on foot",
+    "grammar": "n.",
+    "lemma": "fēðe-wīġ"
+  },
   "feðe-wig": {
     "def": "fight on foot",
     "grammar": "n.",
     "lemma": "fēðe-wīġ"
+  },
+  "feðegest": {
+    "def": "foot-GUEST or -warrior (BGdSL 32 [1907] 565 ̄f",
+    "grammar": "mi.",
+    "lemma": "fēðe-ġest"
+  },
+  "feðewig": {
+    "def": "fight on foot",
+    "grammar": "n.",
+    "lemma": "fēðe-wīġ"
+  },
+  "feþ": {
+    "def": "pace",
+    "grammar": "nja.",
+    "lemma": "fēþe"
   },
   "feþa": {
     "def": "troop",
@@ -4007,7 +11652,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "fēþe"
   },
+  "feþe cempa": {
+    "def": "foot-warrior",
+    "grammar": "wk.",
+    "lemma": "fēþe-cempa"
+  },
+  "feþe last": {
+    "def": "walking-track, step",
+    "grammar": "m.",
+    "lemma": "fēþe-lāst"
+  },
+  "feþe-cemp": {
+    "def": "foot-warrior",
+    "grammar": "wk.",
+    "lemma": "fēþe-cempa"
+  },
   "feþe-cempa": {
+    "def": "foot-warrior",
+    "grammar": "wk.",
+    "lemma": "fēþe-cempa"
+  },
+  "feþe-cempe": {
     "def": "foot-warrior",
     "grammar": "wk.",
     "lemma": "fēþe-cempa"
@@ -4017,12 +11682,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fēþe-lāst"
   },
+  "feþecempa": {
+    "def": "foot-warrior",
+    "grammar": "wk.",
+    "lemma": "fēþe-cempa"
+  },
+  "feþelast": {
+    "def": "walking-track, step",
+    "grammar": "m.",
+    "lemma": "fēþe-lāst"
+  },
   "fif": {
     "def": "fīfe, 420",
     "grammar": "num.",
     "lemma": "fīf"
   },
+  "fif dagas": {
+    "def": "period of FIVE DAYS",
+    "grammar": "m.",
+    "lemma": "fīf-daġas"
+  },
+  "fif niht": {
+    "def": "545",
+    "grammar": "fc.",
+    "lemma": "fīf-niht"
+  },
+  "fif tуne": {
+    "def": "207",
+    "grammar": "num.",
+    "lemma": "fīf-tӯne"
+  },
+  "fif-dag": {
+    "def": "period of FIVE DAYS",
+    "grammar": "m.",
+    "lemma": "fīf-daġas"
+  },
   "fif-dagas": {
+    "def": "period of FIVE DAYS",
+    "grammar": "m.",
+    "lemma": "fīf-daġas"
+  },
+  "fif-dage": {
     "def": "period of FIVE DAYS",
     "grammar": "m.",
     "lemma": "fīf-daġas"
@@ -4032,22 +11732,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "fīf-niht"
   },
+  "fif-tу": {
+    "def": "207",
+    "grammar": "num.",
+    "lemma": "fīf-tӯne"
+  },
+  "fif-tуn": {
+    "def": "207",
+    "grammar": "num.",
+    "lemma": "fīf-tӯne"
+  },
   "fif-tуne": {
     "def": "207",
     "grammar": "num.",
     "lemma": "fīf-tӯne"
+  },
+  "fifdagas": {
+    "def": "period of FIVE DAYS",
+    "grammar": "m.",
+    "lemma": "fīf-daġas"
+  },
+  "fifel cyn(n)": {
+    "def": "race of monsters",
+    "grammar": "nja.",
+    "lemma": "fīfel-cyn(n)"
   },
   "fifel-cyn(n)": {
     "def": "race of monsters",
     "grammar": "nja.",
     "lemma": "fīfel-cyn(n)"
   },
+  "fifelcyn(n)": {
+    "def": "race of monsters",
+    "grammar": "nja.",
+    "lemma": "fīfel-cyn(n)"
+  },
+  "fifniht": {
+    "def": "545",
+    "grammar": "fc.",
+    "lemma": "fīf-niht"
+  },
+  "fifte": {
+    "def": "FIFTY",
+    "grammar": "num.",
+    "lemma": "fīftiġ"
+  },
   "fiftig": {
     "def": "FIFTY",
     "grammar": "num.",
     "lemma": "fīftiġ"
   },
+  "fiftуne": {
+    "def": "207",
+    "grammar": "num.",
+    "lemma": "fīf-tӯne"
+  },
+  "find": {
+    "def": "1156, 1378, 1838, 2294, 2870, 3162 (devise)",
+    "grammar": "vb. 3",
+    "lemma": "findan"
+  },
   "findan": {
+    "def": "1156, 1378, 1838, 2294, 2870, 3162 (devise)",
+    "grammar": "vb. 3",
+    "lemma": "findan"
+  },
+  "finde": {
     "def": "1156, 1378, 1838, 2294, 2870, 3162 (devise)",
     "grammar": "vb. 3",
     "lemma": "findan"
@@ -4062,30 +11812,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fīond"
   },
+  "fir": {
+    "def": "see fyren",
+    "grammar": "",
+    "lemma": "firen"
+  },
   "firas": {
     "def": "humankind, people",
     "grammar": "mja.",
     "lemma": "fīras"
+  },
+  "fire": {
+    "def": "see fyren",
+    "grammar": "",
+    "lemma": "firen"
   },
   "firen": {
     "def": "see fyren",
     "grammar": "",
     "lemma": "firen"
   },
+  "firgen": {
+    "def": "see fyrġen-",
+    "grammar": "",
+    "lemma": "firġen-"
+  },
+  "firgen ": {
+    "def": "see fyrġen-",
+    "grammar": "",
+    "lemma": "firġen-"
+  },
   "firgen-": {
     "def": "see fyrġen-",
     "grammar": "",
     "lemma": "firġen-"
+  },
+  "fl": {
+    "def": "2438, 3119 (arrowhead, barb: Moore Kl",
+    "grammar": "m.",
+    "lemma": "flān"
   },
   "flan": {
     "def": "2438, 3119 (arrowhead, barb: Moore Kl",
     "grammar": "m.",
     "lemma": "flān"
   },
+  "flan boga": {
+    "def": "arrow-BOW",
+    "grammar": "wk.",
+    "lemma": "flān-boga"
+  },
+  "flan-bog": {
+    "def": "arrow-BOW",
+    "grammar": "wk.",
+    "lemma": "flān-boga"
+  },
   "flan-boga": {
     "def": "arrow-BOW",
     "grammar": "wk.",
     "lemma": "flān-boga"
+  },
+  "flan-boge": {
+    "def": "arrow-BOW",
+    "grammar": "wk.",
+    "lemma": "flān-boga"
+  },
+  "flanboga": {
+    "def": "arrow-BOW",
+    "grammar": "wk.",
+    "lemma": "flān-boga"
+  },
+  "fle": {
+    "def": "764, fleon, 820",
+    "grammar": "vb. 2",
+    "lemma": "flēon"
   },
   "fleah": {
     "def": "see flēon",
@@ -4097,7 +11897,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "flēam"
   },
+  "flee": {
+    "def": "764, fleon, 820",
+    "grammar": "vb. 2",
+    "lemma": "flēon"
+  },
+  "fleog": {
+    "def": "2273, [F",
+    "grammar": "vb. 2",
+    "lemma": "flēogan"
+  },
   "fleogan": {
+    "def": "2273, [F",
+    "grammar": "vb. 2",
+    "lemma": "flēogan"
+  },
+  "fleoge": {
     "def": "2273, [F",
     "grammar": "vb. 2",
     "lemma": "flēogan"
@@ -4107,10 +11922,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "flēon"
   },
+  "fleot": {
+    "def": "swim, sail",
+    "grammar": "vb. 2",
+    "lemma": "flēotan"
+  },
   "fleotan": {
     "def": "swim, sail",
     "grammar": "vb. 2",
     "lemma": "flēotan"
+  },
+  "fleote": {
+    "def": "swim, sail",
+    "grammar": "vb. 2",
+    "lemma": "flēotan"
+  },
+  "flet ræst": {
+    "def": "(hall-REST), couch in the hall",
+    "grammar": "fj",
+    "lemma": "flet-ræst"
+  },
+  "flet sittend(e)": {
+    "def": "SITTer in the hall",
+    "grammar": "mc.",
+    "lemma": "flet-sittend(e)"
+  },
+  "flet werod": {
+    "def": "hall-troop",
+    "grammar": "n.",
+    "lemma": "flet-werod"
   },
   "flet(t)": {
     "def": "1540, 1568",
@@ -4132,12 +11972,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "flet-werod"
   },
+  "fletræst": {
+    "def": "(hall-REST), couch in the hall",
+    "grammar": "fj",
+    "lemma": "flet-ræst"
+  },
+  "fletsittend(e)": {
+    "def": "SITTer in the hall",
+    "grammar": "mc.",
+    "lemma": "flet-sittend(e)"
+  },
+  "fletwerod": {
+    "def": "hall-troop",
+    "grammar": "n.",
+    "lemma": "flet-werod"
+  },
   "fliht": {
     "def": "flying",
     "grammar": "mi.",
     "lemma": "fliht"
   },
+  "flit": {
+    "def": "compete",
+    "grammar": "vb. 1",
+    "lemma": "flītan"
+  },
   "flitan": {
+    "def": "compete",
+    "grammar": "vb. 1",
+    "lemma": "flītan"
+  },
+  "flite": {
     "def": "compete",
     "grammar": "vb. 1",
     "lemma": "flītan"
@@ -4147,7 +12012,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "flōd"
   },
+  "flod уþ": {
+    "def": "FLOOD-wave, wave of the sea",
+    "grammar": "fj",
+    "lemma": "flōd-ӯþ"
+  },
   "flod-уþ": {
+    "def": "FLOOD-wave, wave of the sea",
+    "grammar": "fj",
+    "lemma": "flōd-ӯþ"
+  },
+  "flodуþ": {
     "def": "FLOOD-wave, wave of the sea",
     "grammar": "fj",
     "lemma": "flōd-ӯþ"
@@ -4156,6 +12031,26 @@ const OLD_ENGLISH_DICT = {
     "def": "1316",
     "grammar": "m.",
     "lemma": "flōr"
+  },
+  "flot": {
+    "def": "boat",
+    "grammar": "wk.",
+    "lemma": "flota"
+  },
+  "flot here": {
+    "def": "sea-army, naval force",
+    "grammar": "mja.",
+    "lemma": "flot-here"
+  },
+  "flot-he": {
+    "def": "sea-army, naval force",
+    "grammar": "mja.",
+    "lemma": "flot-here"
+  },
+  "flot-her": {
+    "def": "sea-army, naval force",
+    "grammar": "mja.",
+    "lemma": "flot-here"
   },
   "flot-here": {
     "def": "sea-army, naval force",
@@ -4167,25 +12062,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "flota"
   },
+  "flote": {
+    "def": "boat",
+    "grammar": "wk.",
+    "lemma": "flota"
+  },
+  "flothere": {
+    "def": "sea-army, naval force",
+    "grammar": "mja.",
+    "lemma": "flot-here"
+  },
   "flæsc": {
     "def": "2424",
     "grammar": "n.",
     "lemma": "flǣsc"
+  },
+  "flæsc homa": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "flǣsc-homa"
+  },
+  "flæsc-hom": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "flǣsc-homa"
   },
   "flæsc-homa": {
     "def": "body",
     "grammar": "wk.",
     "lemma": "flǣsc-homa"
   },
+  "flæsc-home": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "flǣsc-homa"
+  },
+  "flæschoma": {
+    "def": "body",
+    "grammar": "wk.",
+    "lemma": "flǣsc-homa"
+  },
+  "fo": {
+    "def": "for it",
+    "grammar": "I.",
+    "lemma": "fore"
+  },
+  "fol": {
+    "def": "earth, ground",
+    "grammar": "wk.",
+    "lemma": "folde"
+  },
   "folc": {
     "def": "people, nation, army",
     "grammar": "n.",
     "lemma": "folc"
   },
+  "folc agend(e)": {
+    "def": "leader of people, chief",
+    "grammar": "mc.",
+    "lemma": "folc-āgend(e)"
+  },
+  "folc cwen": {
+    "def": "FOLK-QUEEN",
+    "grammar": "fi.",
+    "lemma": "folc-cwēn"
+  },
+  "folc cyning": {
+    "def": "2873",
+    "grammar": "m.",
+    "lemma": "folc-cyning"
+  },
+  "folc red": {
+    "def": "people’s benefit, what is good for the people",
+    "grammar": "m.",
+    "lemma": "folc-rēd"
+  },
+  "folc riht": {
+    "def": "inheritance (?)",
+    "grammar": "n.",
+    "lemma": "folc-riht"
+  },
+  "folc scaru": {
+    "def": "FOLK-SHARE, nation (?), heritable land (?)",
+    "grammar": "f.",
+    "lemma": "folc-scaru"
+  },
+  "folc stede": {
+    "def": "FOLK-STEAD",
+    "grammar": "mi.",
+    "lemma": "folc-stede"
+  },
+  "folc toga": {
+    "def": "FOLK-leader, chief",
+    "grammar": "wk.",
+    "lemma": "folc-toga"
+  },
   "folc-agend(e)": {
     "def": "leader of people, chief",
     "grammar": "mc.",
     "lemma": "folc-āgend(e)"
+  },
+  "folc-cw": {
+    "def": "FOLK-QUEEN",
+    "grammar": "fi.",
+    "lemma": "folc-cwēn"
+  },
+  "folc-cwe": {
+    "def": "FOLK-QUEEN",
+    "grammar": "fi.",
+    "lemma": "folc-cwēn"
   },
   "folc-cwen": {
     "def": "FOLK-QUEEN",
@@ -4212,15 +12197,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "folc-scaru"
   },
+  "folc-ste": {
+    "def": "FOLK-STEAD",
+    "grammar": "mi.",
+    "lemma": "folc-stede"
+  },
+  "folc-sted": {
+    "def": "FOLK-STEAD",
+    "grammar": "mi.",
+    "lemma": "folc-stede"
+  },
   "folc-stede": {
     "def": "FOLK-STEAD",
     "grammar": "mi.",
     "lemma": "folc-stede"
   },
+  "folc-tog": {
+    "def": "FOLK-leader, chief",
+    "grammar": "wk.",
+    "lemma": "folc-toga"
+  },
   "folc-toga": {
     "def": "FOLK-leader, chief",
     "grammar": "wk.",
     "lemma": "folc-toga"
+  },
+  "folc-toge": {
+    "def": "FOLK-leader, chief",
+    "grammar": "wk.",
+    "lemma": "folc-toga"
+  },
+  "folcagend(e)": {
+    "def": "leader of people, chief",
+    "grammar": "mc.",
+    "lemma": "folc-āgend(e)"
+  },
+  "folccwen": {
+    "def": "FOLK-QUEEN",
+    "grammar": "fi.",
+    "lemma": "folc-cwēn"
+  },
+  "folccyning": {
+    "def": "2873",
+    "grammar": "m.",
+    "lemma": "folc-cyning"
+  },
+  "folcred": {
+    "def": "people’s benefit, what is good for the people",
+    "grammar": "m.",
+    "lemma": "folc-rēd"
+  },
+  "folcriht": {
+    "def": "inheritance (?)",
+    "grammar": "n.",
+    "lemma": "folc-riht"
+  },
+  "folcscaru": {
+    "def": "FOLK-SHARE, nation (?), heritable land (?)",
+    "grammar": "f.",
+    "lemma": "folc-scaru"
+  },
+  "folcstede": {
+    "def": "FOLK-STEAD",
+    "grammar": "mi.",
+    "lemma": "folc-stede"
+  },
+  "folctoga": {
+    "def": "FOLK-leader, chief",
+    "grammar": "wk.",
+    "lemma": "folc-toga"
+  },
+  "fold": {
+    "def": "earth, ground",
+    "grammar": "wk.",
+    "lemma": "folde"
+  },
+  "fold bold": {
+    "def": "BUILDing",
+    "grammar": "n.",
+    "lemma": "fold-bold"
+  },
+  "fold buend(e)": {
+    "def": "earth-dweller, human (being)",
+    "grammar": "mc.",
+    "lemma": "fold-būend(e)"
+  },
+  "fold weg": {
+    "def": "WAY, path",
+    "grammar": "m.",
+    "lemma": "fold-weġ"
   },
   "fold-bold": {
     "def": "BUILDing",
@@ -4237,12 +12302,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fold-weġ"
   },
+  "foldbold": {
+    "def": "BUILDing",
+    "grammar": "n.",
+    "lemma": "fold-bold"
+  },
+  "foldbuend(e)": {
+    "def": "earth-dweller, human (being)",
+    "grammar": "mc.",
+    "lemma": "fold-būend(e)"
+  },
   "folde": {
     "def": "earth, ground",
     "grammar": "wk.",
     "lemma": "folde"
   },
+  "foldweg": {
+    "def": "WAY, path",
+    "grammar": "m.",
+    "lemma": "fold-weġ"
+  },
+  "folgi": {
+    "def": "FOLLOW, pursue",
+    "grammar": "vb. II",
+    "lemma": "folgian"
+  },
   "folgian": {
+    "def": "FOLLOW, pursue",
+    "grammar": "vb. II",
+    "lemma": "folgian"
+  },
+  "folgie": {
     "def": "FOLLOW, pursue",
     "grammar": "vb. II",
     "lemma": "folgian"
@@ -4257,187 +12347,707 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "fōn"
   },
+  "fondi": {
+    "def": "see fandian",
+    "grammar": "",
+    "lemma": "fondian"
+  },
   "fondian": {
     "def": "see fandian",
     "grammar": "",
     "lemma": "fondian"
   },
+  "fondie": {
+    "def": "see fandian",
+    "grammar": "",
+    "lemma": "fondian"
+  },
   "for": {
-    "def": "in front of, in the presence of",
-    "grammar": "prep.",
-    "lemma": "for"
+    "def": "for it",
+    "grammar": "I.",
+    "lemma": "fore"
+  },
+  "for (unstressed)": {
+    "def": "prefix",
+    "grammar": "fore",
+    "lemma": "for-(unstressed)"
+  },
+  "for beran": {
+    "def": "restrain",
+    "grammar": "vb.  4",
+    "lemma": "for-beran"
+  },
+  "for berstan": {
+    "def": "snap",
+    "grammar": "vb. 3",
+    "lemma": "for-berstan"
+  },
+  "for byrnan": {
+    "def": "1616, 1667",
+    "grammar": "vb. 3",
+    "lemma": "for-byrnan"
+  },
+  "for bærnan": {
+    "def": "vb",
+    "grammar": "vb.  I",
+    "lemma": "for-bærnan"
+  },
+  "for gifan": {
+    "def": "grant",
+    "grammar": "vb. 5",
+    "lemma": "for-ġifan"
+  },
+  "for grindan": {
+    "def": "crush (w",
+    "grammar": "vb.  3",
+    "lemma": "for-grindan"
+  },
+  "for gripan": {
+    "def": "crush to death",
+    "grammar": "vb. 1",
+    "lemma": "for-grīpan"
+  },
+  "for gyldan": {
+    "def": "pay for, re-quite",
+    "grammar": "vb. 3",
+    "lemma": "for-ġyldan"
+  },
+  "for gytan": {
+    "def": "1751",
+    "grammar": "vb. 5",
+    "lemma": "for-ġytan"
+  },
+  "for gуman": {
+    "def": "be unmindful of",
+    "grammar": "vb. I",
+    "lemma": "for-ġӯman"
+  },
+  "for habban": {
+    "def": "restrain oneself, FORbear",
+    "grammar": "vb. III",
+    "lemma": "for-habban"
+  },
+  "for healdan": {
+    "def": "come short in one’s duty toward, rebel against",
+    "grammar": "vb. 7",
+    "lemma": "for-healdan"
+  },
+  "for hicgan": {
+    "def": "scorn",
+    "grammar": "vb. III",
+    "lemma": "for-hicgan"
+  },
+  "for lacan": {
+    "def": "mislead, betray",
+    "grammar": "vb. 7",
+    "lemma": "for-lācan"
+  },
+  "for leosan": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "for-lēosan"
+  },
+  "for lædan": {
+    "def": "2039",
+    "grammar": "vb. I",
+    "lemma": "for-lǣdan"
+  },
+  "for lætan": {
+    "def": "LET",
+    "grammar": "vb. 7",
+    "lemma": "for-lǣtan"
+  },
+  "for niman": {
+    "def": "carry off, destroy",
+    "grammar": "vb. 4",
+    "lemma": "for-niman"
+  },
+  "for scrifan": {
+    "def": "proscribe, condemn",
+    "grammar": "vb. 1",
+    "lemma": "for-scrīfan"
+  },
+  "for sendan": {
+    "def": "SEND away, dispatch, put to death",
+    "grammar": "vb. I",
+    "lemma": "for-sendan"
+  },
+  "for sittan": {
+    "def": "fail, diminish (intr",
+    "grammar": "",
+    "lemma": "for-sittan"
+  },
+  "for siðian": {
+    "def": "go amiss (to destruc-tion), perish",
+    "grammar": "vb. II",
+    "lemma": "for-sīðian"
+  },
+  "for standan": {
+    "def": "hin-der, prevent",
+    "grammar": "vb. 6",
+    "lemma": "for-standan"
+  },
+  "for sw(e)orcan": {
+    "def": "1767",
+    "grammar": "vb. 3",
+    "lemma": "for-sw(e)orcan"
+  },
+  "for swapan": {
+    "def": "SWEEP off",
+    "grammar": "vb. 7",
+    "lemma": "for-swāpan"
+  },
+  "for swelgan": {
+    "def": "1122, 2080",
+    "grammar": "vb. 3",
+    "lemma": "for-swelgan"
+  },
+  "for swerian": {
+    "def": "w",
+    "grammar": "vb. 6",
+    "lemma": "for-swerian"
+  },
+  "for weorpan": {
+    "def": "2872",
+    "grammar": "vb. 3",
+    "lemma": "for-weorpan"
+  },
+  "for wrecan": {
+    "def": "banish",
+    "grammar": "vb. 5",
+    "lemma": "for-wrecan"
+  },
+  "for writan": {
+    "def": "cut through",
+    "grammar": "vb. 1",
+    "lemma": "for-wrītan"
+  },
+  "for wyrnan": {
+    "def": "(w",
+    "grammar": "vb. I",
+    "lemma": "for-wyrnan"
+  },
+  "for ðam": {
+    "def": "(1) adv",
+    "grammar": "for",
+    "lemma": "for-ðām"
+  },
+  "for ðon": {
+    "def": "see for-ðām",
+    "grammar": "",
+    "lemma": "for-ðon"
+  },
+  "for þringan": {
+    "def": "drive out, expel",
+    "grammar": "vb. 3",
+    "lemma": "for-þringan"
+  },
+  "for(unstressed)": {
+    "def": "prefix",
+    "grammar": "fore",
+    "lemma": "for-(unstressed)"
   },
   "for-(unstressed)": {
     "def": "prefix",
     "grammar": "fore",
     "lemma": "for-(unstressed)"
   },
+  "for-ber": {
+    "def": "restrain",
+    "grammar": "vb.  4",
+    "lemma": "for-beran"
+  },
   "for-beran": {
     "def": "restrain",
     "grammar": "vb.  4",
     "lemma": "for-beran"
+  },
+  "for-bere": {
+    "def": "restrain",
+    "grammar": "vb.  4",
+    "lemma": "for-beran"
+  },
+  "for-berst": {
+    "def": "snap",
+    "grammar": "vb. 3",
+    "lemma": "for-berstan"
   },
   "for-berstan": {
     "def": "snap",
     "grammar": "vb. 3",
     "lemma": "for-berstan"
   },
+  "for-berste": {
+    "def": "snap",
+    "grammar": "vb. 3",
+    "lemma": "for-berstan"
+  },
+  "for-byrn": {
+    "def": "1616, 1667",
+    "grammar": "vb. 3",
+    "lemma": "for-byrnan"
+  },
   "for-byrnan": {
     "def": "1616, 1667",
     "grammar": "vb. 3",
     "lemma": "for-byrnan"
+  },
+  "for-byrne": {
+    "def": "1616, 1667",
+    "grammar": "vb. 3",
+    "lemma": "for-byrnan"
+  },
+  "for-bærn": {
+    "def": "vb",
+    "grammar": "vb.  I",
+    "lemma": "for-bærnan"
   },
   "for-bærnan": {
     "def": "vb",
     "grammar": "vb.  I",
     "lemma": "for-bærnan"
   },
+  "for-bærne": {
+    "def": "vb",
+    "grammar": "vb.  I",
+    "lemma": "for-bærnan"
+  },
+  "for-gif": {
+    "def": "grant",
+    "grammar": "vb. 5",
+    "lemma": "for-ġifan"
+  },
   "for-gifan": {
     "def": "grant",
     "grammar": "vb. 5",
     "lemma": "for-ġifan"
+  },
+  "for-gife": {
+    "def": "grant",
+    "grammar": "vb. 5",
+    "lemma": "for-ġifan"
+  },
+  "for-grind": {
+    "def": "crush (w",
+    "grammar": "vb.  3",
+    "lemma": "for-grindan"
   },
   "for-grindan": {
     "def": "crush (w",
     "grammar": "vb.  3",
     "lemma": "for-grindan"
   },
+  "for-grinde": {
+    "def": "crush (w",
+    "grammar": "vb.  3",
+    "lemma": "for-grindan"
+  },
+  "for-grip": {
+    "def": "crush to death",
+    "grammar": "vb. 1",
+    "lemma": "for-grīpan"
+  },
   "for-gripan": {
     "def": "crush to death",
     "grammar": "vb. 1",
     "lemma": "for-grīpan"
+  },
+  "for-gripe": {
+    "def": "crush to death",
+    "grammar": "vb. 1",
+    "lemma": "for-grīpan"
+  },
+  "for-gyld": {
+    "def": "pay for, re-quite",
+    "grammar": "vb. 3",
+    "lemma": "for-ġyldan"
   },
   "for-gyldan": {
     "def": "pay for, re-quite",
     "grammar": "vb. 3",
     "lemma": "for-ġyldan"
   },
+  "for-gylde": {
+    "def": "pay for, re-quite",
+    "grammar": "vb. 3",
+    "lemma": "for-ġyldan"
+  },
+  "for-gyt": {
+    "def": "1751",
+    "grammar": "vb. 5",
+    "lemma": "for-ġytan"
+  },
   "for-gytan": {
     "def": "1751",
     "grammar": "vb. 5",
     "lemma": "for-ġytan"
+  },
+  "for-gyte": {
+    "def": "1751",
+    "grammar": "vb. 5",
+    "lemma": "for-ġytan"
+  },
+  "for-gуm": {
+    "def": "be unmindful of",
+    "grammar": "vb. I",
+    "lemma": "for-ġӯman"
   },
   "for-gуman": {
     "def": "be unmindful of",
     "grammar": "vb. I",
     "lemma": "for-ġӯman"
   },
+  "for-gуme": {
+    "def": "be unmindful of",
+    "grammar": "vb. I",
+    "lemma": "for-ġӯman"
+  },
+  "for-habb": {
+    "def": "restrain oneself, FORbear",
+    "grammar": "vb. III",
+    "lemma": "for-habban"
+  },
   "for-habban": {
     "def": "restrain oneself, FORbear",
     "grammar": "vb. III",
     "lemma": "for-habban"
+  },
+  "for-habbe": {
+    "def": "restrain oneself, FORbear",
+    "grammar": "vb. III",
+    "lemma": "for-habban"
+  },
+  "for-heald": {
+    "def": "come short in one’s duty toward, rebel against",
+    "grammar": "vb. 7",
+    "lemma": "for-healdan"
   },
   "for-healdan": {
     "def": "come short in one’s duty toward, rebel against",
     "grammar": "vb. 7",
     "lemma": "for-healdan"
   },
+  "for-healde": {
+    "def": "come short in one’s duty toward, rebel against",
+    "grammar": "vb. 7",
+    "lemma": "for-healdan"
+  },
+  "for-hicg": {
+    "def": "scorn",
+    "grammar": "vb. III",
+    "lemma": "for-hicgan"
+  },
   "for-hicgan": {
     "def": "scorn",
     "grammar": "vb. III",
     "lemma": "for-hicgan"
+  },
+  "for-hicge": {
+    "def": "scorn",
+    "grammar": "vb. III",
+    "lemma": "for-hicgan"
+  },
+  "for-lac": {
+    "def": "mislead, betray",
+    "grammar": "vb. 7",
+    "lemma": "for-lācan"
   },
   "for-lacan": {
     "def": "mislead, betray",
     "grammar": "vb. 7",
     "lemma": "for-lācan"
   },
+  "for-lace": {
+    "def": "mislead, betray",
+    "grammar": "vb. 7",
+    "lemma": "for-lācan"
+  },
+  "for-leos": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "for-lēosan"
+  },
   "for-leosan": {
     "def": "LOSE",
     "grammar": "vb. 2",
     "lemma": "for-lēosan"
+  },
+  "for-leose": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "for-lēosan"
+  },
+  "for-læd": {
+    "def": "2039",
+    "grammar": "vb. I",
+    "lemma": "for-lǣdan"
   },
   "for-lædan": {
     "def": "2039",
     "grammar": "vb. I",
     "lemma": "for-lǣdan"
   },
+  "for-læde": {
+    "def": "2039",
+    "grammar": "vb. I",
+    "lemma": "for-lǣdan"
+  },
+  "for-læt": {
+    "def": "LET",
+    "grammar": "vb. 7",
+    "lemma": "for-lǣtan"
+  },
   "for-lætan": {
     "def": "LET",
     "grammar": "vb. 7",
     "lemma": "for-lǣtan"
+  },
+  "for-læte": {
+    "def": "LET",
+    "grammar": "vb. 7",
+    "lemma": "for-lǣtan"
+  },
+  "for-nim": {
+    "def": "carry off, destroy",
+    "grammar": "vb. 4",
+    "lemma": "for-niman"
   },
   "for-niman": {
     "def": "carry off, destroy",
     "grammar": "vb. 4",
     "lemma": "for-niman"
   },
+  "for-nime": {
+    "def": "carry off, destroy",
+    "grammar": "vb. 4",
+    "lemma": "for-niman"
+  },
+  "for-scrif": {
+    "def": "proscribe, condemn",
+    "grammar": "vb. 1",
+    "lemma": "for-scrīfan"
+  },
   "for-scrifan": {
     "def": "proscribe, condemn",
     "grammar": "vb. 1",
     "lemma": "for-scrīfan"
+  },
+  "for-scrife": {
+    "def": "proscribe, condemn",
+    "grammar": "vb. 1",
+    "lemma": "for-scrīfan"
+  },
+  "for-send": {
+    "def": "SEND away, dispatch, put to death",
+    "grammar": "vb. I",
+    "lemma": "for-sendan"
   },
   "for-sendan": {
     "def": "SEND away, dispatch, put to death",
     "grammar": "vb. I",
     "lemma": "for-sendan"
   },
+  "for-sende": {
+    "def": "SEND away, dispatch, put to death",
+    "grammar": "vb. I",
+    "lemma": "for-sendan"
+  },
+  "for-sitt": {
+    "def": "fail, diminish (intr",
+    "grammar": "",
+    "lemma": "for-sittan"
+  },
   "for-sittan": {
     "def": "fail, diminish (intr",
     "grammar": "",
     "lemma": "for-sittan"
+  },
+  "for-sitte": {
+    "def": "fail, diminish (intr",
+    "grammar": "",
+    "lemma": "for-sittan"
+  },
+  "for-siði": {
+    "def": "go amiss (to destruc-tion), perish",
+    "grammar": "vb. II",
+    "lemma": "for-sīðian"
   },
   "for-siðian": {
     "def": "go amiss (to destruc-tion), perish",
     "grammar": "vb. II",
     "lemma": "for-sīðian"
   },
+  "for-siðie": {
+    "def": "go amiss (to destruc-tion), perish",
+    "grammar": "vb. II",
+    "lemma": "for-sīðian"
+  },
+  "for-stand": {
+    "def": "hin-der, prevent",
+    "grammar": "vb. 6",
+    "lemma": "for-standan"
+  },
   "for-standan": {
     "def": "hin-der, prevent",
     "grammar": "vb. 6",
     "lemma": "for-standan"
+  },
+  "for-stande": {
+    "def": "hin-der, prevent",
+    "grammar": "vb. 6",
+    "lemma": "for-standan"
+  },
+  "for-sw(e)orc": {
+    "def": "1767",
+    "grammar": "vb. 3",
+    "lemma": "for-sw(e)orcan"
   },
   "for-sw(e)orcan": {
     "def": "1767",
     "grammar": "vb. 3",
     "lemma": "for-sw(e)orcan"
   },
+  "for-sw(e)orce": {
+    "def": "1767",
+    "grammar": "vb. 3",
+    "lemma": "for-sw(e)orcan"
+  },
+  "for-swap": {
+    "def": "SWEEP off",
+    "grammar": "vb. 7",
+    "lemma": "for-swāpan"
+  },
   "for-swapan": {
     "def": "SWEEP off",
     "grammar": "vb. 7",
     "lemma": "for-swāpan"
+  },
+  "for-swape": {
+    "def": "SWEEP off",
+    "grammar": "vb. 7",
+    "lemma": "for-swāpan"
+  },
+  "for-swelg": {
+    "def": "1122, 2080",
+    "grammar": "vb. 3",
+    "lemma": "for-swelgan"
   },
   "for-swelgan": {
     "def": "1122, 2080",
     "grammar": "vb. 3",
     "lemma": "for-swelgan"
   },
+  "for-swelge": {
+    "def": "1122, 2080",
+    "grammar": "vb. 3",
+    "lemma": "for-swelgan"
+  },
+  "for-sweri": {
+    "def": "w",
+    "grammar": "vb. 6",
+    "lemma": "for-swerian"
+  },
   "for-swerian": {
     "def": "w",
     "grammar": "vb. 6",
     "lemma": "for-swerian"
+  },
+  "for-swerie": {
+    "def": "w",
+    "grammar": "vb. 6",
+    "lemma": "for-swerian"
+  },
+  "for-weorp": {
+    "def": "2872",
+    "grammar": "vb. 3",
+    "lemma": "for-weorpan"
   },
   "for-weorpan": {
     "def": "2872",
     "grammar": "vb. 3",
     "lemma": "for-weorpan"
   },
+  "for-weorpe": {
+    "def": "2872",
+    "grammar": "vb. 3",
+    "lemma": "for-weorpan"
+  },
+  "for-wrec": {
+    "def": "banish",
+    "grammar": "vb. 5",
+    "lemma": "for-wrecan"
+  },
   "for-wrecan": {
     "def": "banish",
     "grammar": "vb. 5",
     "lemma": "for-wrecan"
+  },
+  "for-wrece": {
+    "def": "banish",
+    "grammar": "vb. 5",
+    "lemma": "for-wrecan"
+  },
+  "for-writ": {
+    "def": "cut through",
+    "grammar": "vb. 1",
+    "lemma": "for-wrītan"
   },
   "for-writan": {
     "def": "cut through",
     "grammar": "vb. 1",
     "lemma": "for-wrītan"
   },
+  "for-write": {
+    "def": "cut through",
+    "grammar": "vb. 1",
+    "lemma": "for-wrītan"
+  },
+  "for-wyrn": {
+    "def": "(w",
+    "grammar": "vb. I",
+    "lemma": "for-wyrnan"
+  },
   "for-wyrnan": {
     "def": "(w",
     "grammar": "vb. I",
     "lemma": "for-wyrnan"
+  },
+  "for-wyrne": {
+    "def": "(w",
+    "grammar": "vb. I",
+    "lemma": "for-wyrnan"
+  },
+  "for-ð": {
+    "def": "see for-ðām",
+    "grammar": "",
+    "lemma": "for-ðon"
   },
   "for-ðam": {
     "def": "(1) adv",
     "grammar": "for",
     "lemma": "for-ðām"
   },
+  "for-ðe": {
+    "def": "see for-ðām",
+    "grammar": "",
+    "lemma": "for-ðon"
+  },
   "for-ðon": {
     "def": "see for-ðām",
     "grammar": "",
     "lemma": "for-ðon"
   },
+  "for-þring": {
+    "def": "drive out, expel",
+    "grammar": "vb. 3",
+    "lemma": "for-þringan"
+  },
   "for-þringan": {
+    "def": "drive out, expel",
+    "grammar": "vb. 3",
+    "lemma": "for-þringan"
+  },
+  "for-þringe": {
     "def": "drive out, expel",
     "grammar": "vb. 3",
     "lemma": "for-þringan"
@@ -4446,6 +13056,26 @@ const OLD_ENGLISH_DICT = {
     "def": "in front",
     "grammar": "I.",
     "lemma": "foran"
+  },
+  "forberan": {
+    "def": "restrain",
+    "grammar": "vb.  4",
+    "lemma": "for-beran"
+  },
+  "forberstan": {
+    "def": "snap",
+    "grammar": "vb. 3",
+    "lemma": "for-berstan"
+  },
+  "forbyrnan": {
+    "def": "1616, 1667",
+    "grammar": "vb. 3",
+    "lemma": "for-byrnan"
+  },
+  "forbærnan": {
+    "def": "vb",
+    "grammar": "vb.  I",
+    "lemma": "for-bærnan"
   },
   "ford": {
     "def": "‡water-way (sea)",
@@ -4457,10 +13087,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "fore"
   },
+  "fore mihtig": {
+    "def": "very powerful",
+    "grammar": "adj.",
+    "lemma": "fore-mihtiġ"
+  },
+  "fore mære": {
+    "def": "illus-trious",
+    "grammar": "adj.",
+    "lemma": "fore-mǣre"
+  },
+  "fore snotor": {
+    "def": "very prudent or per-ceptive",
+    "grammar": "adj.",
+    "lemma": "fore-snotor"
+  },
+  "fore þanc": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "fore-þanc"
+  },
+  "fore-mihte": {
+    "def": "very powerful",
+    "grammar": "adj.",
+    "lemma": "fore-mihtiġ"
+  },
   "fore-mihtig": {
     "def": "very powerful",
     "grammar": "adj.",
     "lemma": "fore-mihtiġ"
+  },
+  "fore-mæ": {
+    "def": "illus-trious",
+    "grammar": "adj.",
+    "lemma": "fore-mǣre"
+  },
+  "fore-mær": {
+    "def": "illus-trious",
+    "grammar": "adj.",
+    "lemma": "fore-mǣre"
   },
   "fore-mære": {
     "def": "illus-trious",
@@ -4477,25 +13142,210 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fore-þanc"
   },
+  "foremihtig": {
+    "def": "very powerful",
+    "grammar": "adj.",
+    "lemma": "fore-mihtiġ"
+  },
+  "foremære": {
+    "def": "illus-trious",
+    "grammar": "adj.",
+    "lemma": "fore-mǣre"
+  },
+  "foresnotor": {
+    "def": "very prudent or per-ceptive",
+    "grammar": "adj.",
+    "lemma": "fore-snotor"
+  },
+  "foreþanc": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "fore-þanc"
+  },
+  "forgifan": {
+    "def": "grant",
+    "grammar": "vb. 5",
+    "lemma": "for-ġifan"
+  },
+  "forgrindan": {
+    "def": "crush (w",
+    "grammar": "vb.  3",
+    "lemma": "for-grindan"
+  },
+  "forgripan": {
+    "def": "crush to death",
+    "grammar": "vb. 1",
+    "lemma": "for-grīpan"
+  },
+  "forgyldan": {
+    "def": "pay for, re-quite",
+    "grammar": "vb. 3",
+    "lemma": "for-ġyldan"
+  },
+  "forgytan": {
+    "def": "1751",
+    "grammar": "vb. 5",
+    "lemma": "for-ġytan"
+  },
+  "forgуman": {
+    "def": "be unmindful of",
+    "grammar": "vb. I",
+    "lemma": "for-ġӯman"
+  },
+  "forhabban": {
+    "def": "restrain oneself, FORbear",
+    "grammar": "vb. III",
+    "lemma": "for-habban"
+  },
+  "forhealdan": {
+    "def": "come short in one’s duty toward, rebel against",
+    "grammar": "vb. 7",
+    "lemma": "for-healdan"
+  },
+  "forhicgan": {
+    "def": "scorn",
+    "grammar": "vb. III",
+    "lemma": "for-hicgan"
+  },
   "forht": {
     "def": "2230, 2967",
     "grammar": "adj.",
     "lemma": "forht"
+  },
+  "forlacan": {
+    "def": "mislead, betray",
+    "grammar": "vb. 7",
+    "lemma": "for-lācan"
+  },
+  "forleosan": {
+    "def": "LOSE",
+    "grammar": "vb. 2",
+    "lemma": "for-lēosan"
+  },
+  "forlædan": {
+    "def": "2039",
+    "grammar": "vb. I",
+    "lemma": "for-lǣdan"
+  },
+  "forlætan": {
+    "def": "LET",
+    "grammar": "vb. 7",
+    "lemma": "for-lǣtan"
+  },
+  "form": {
+    "def": "716, 1463, 1527, 2625",
+    "grammar": "adj.",
+    "lemma": "forma"
   },
   "forma": {
     "def": "716, 1463, 1527, 2625",
     "grammar": "adj.",
     "lemma": "forma"
   },
+  "forme": {
+    "def": "716, 1463, 1527, 2625",
+    "grammar": "adj.",
+    "lemma": "forma"
+  },
+  "forniman": {
+    "def": "carry off, destroy",
+    "grammar": "vb. 4",
+    "lemma": "for-niman"
+  },
+  "forscrifan": {
+    "def": "proscribe, condemn",
+    "grammar": "vb. 1",
+    "lemma": "for-scrīfan"
+  },
+  "forsendan": {
+    "def": "SEND away, dispatch, put to death",
+    "grammar": "vb. I",
+    "lemma": "for-sendan"
+  },
+  "forsittan": {
+    "def": "fail, diminish (intr",
+    "grammar": "",
+    "lemma": "for-sittan"
+  },
+  "forsiðian": {
+    "def": "go amiss (to destruc-tion), perish",
+    "grammar": "vb. II",
+    "lemma": "for-sīðian"
+  },
   "forst": {
     "def": "1609",
     "grammar": "m.",
     "lemma": "forst"
   },
+  "forstandan": {
+    "def": "hin-der, prevent",
+    "grammar": "vb. 6",
+    "lemma": "for-standan"
+  },
+  "forsw(e)orcan": {
+    "def": "1767",
+    "grammar": "vb. 3",
+    "lemma": "for-sw(e)orcan"
+  },
+  "forswapan": {
+    "def": "SWEEP off",
+    "grammar": "vb. 7",
+    "lemma": "for-swāpan"
+  },
+  "forswelgan": {
+    "def": "1122, 2080",
+    "grammar": "vb. 3",
+    "lemma": "for-swelgan"
+  },
+  "forswerian": {
+    "def": "w",
+    "grammar": "vb. 6",
+    "lemma": "for-swerian"
+  },
+  "forweorpan": {
+    "def": "2872",
+    "grammar": "vb. 3",
+    "lemma": "for-weorpan"
+  },
+  "forwrecan": {
+    "def": "banish",
+    "grammar": "vb. 5",
+    "lemma": "for-wrecan"
+  },
+  "forwritan": {
+    "def": "cut through",
+    "grammar": "vb. 1",
+    "lemma": "for-wrītan"
+  },
+  "forwyrnan": {
+    "def": "(w",
+    "grammar": "vb. I",
+    "lemma": "for-wyrnan"
+  },
   "forð": {
     "def": "forward, on(ward), away",
     "grammar": "adv.",
     "lemma": "forð"
+  },
+  "forð gerimed": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "forð-ġerīmed"
+  },
+  "forð gesceaft": {
+    "def": "future state, destiny",
+    "grammar": "fi.",
+    "lemma": "forð-ġesceaft"
+  },
+  "forð gewiten": {
+    "def": "de-parted, dead",
+    "grammar": "pp.",
+    "lemma": "forð-ġewiten"
+  },
+  "forð weg": {
+    "def": "WAY FORTH",
+    "grammar": "m.",
+    "lemma": "forð-weġ"
   },
   "forð-gerimed": {
     "def": "vb",
@@ -4507,6 +13357,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "forð-ġesceaft"
   },
+  "forð-gewit": {
+    "def": "de-parted, dead",
+    "grammar": "pp.",
+    "lemma": "forð-ġewiten"
+  },
+  "forð-gewite": {
+    "def": "de-parted, dead",
+    "grammar": "pp.",
+    "lemma": "forð-ġewiten"
+  },
   "forð-gewiten": {
     "def": "de-parted, dead",
     "grammar": "pp.",
@@ -4517,10 +13377,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "forð-weġ"
   },
+  "forðam": {
+    "def": "(1) adv",
+    "grammar": "for",
+    "lemma": "for-ðām"
+  },
+  "forðgerimed": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "forð-ġerīmed"
+  },
+  "forðgesceaft": {
+    "def": "future state, destiny",
+    "grammar": "fi.",
+    "lemma": "forð-ġesceaft"
+  },
+  "forðgewiten": {
+    "def": "de-parted, dead",
+    "grammar": "pp.",
+    "lemma": "forð-ġewiten"
+  },
+  "forðon": {
+    "def": "see for-ðām",
+    "grammar": "",
+    "lemma": "for-ðon"
+  },
+  "forðweg": {
+    "def": "WAY FORTH",
+    "grammar": "m.",
+    "lemma": "forð-weġ"
+  },
+  "forþringan": {
+    "def": "drive out, expel",
+    "grammar": "vb. 3",
+    "lemma": "for-þringan"
+  },
   "fot": {
     "def": "2525",
     "grammar": "mc.",
     "lemma": "fōt"
+  },
+  "fot gemearc": {
+    "def": "FOOT-MARK, length of a foot",
+    "grammar": "n.",
+    "lemma": "fōt-ġemearc"
+  },
+  "fot last": {
+    "def": "FOOT-print, track",
+    "grammar": "m.",
+    "lemma": "fōt-lāst"
   },
   "fot-gemearc": {
     "def": "FOOT-MARK, length of a foot",
@@ -4528,6 +13433,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fōt-ġemearc"
   },
   "fot-last": {
+    "def": "FOOT-print, track",
+    "grammar": "m.",
+    "lemma": "fōt-lāst"
+  },
+  "fotgemearc": {
+    "def": "FOOT-MARK, length of a foot",
+    "grammar": "n.",
+    "lemma": "fōt-ġemearc"
+  },
+  "fotlast": {
     "def": "FOOT-print, track",
     "grammar": "m.",
     "lemma": "fōt-lāst"
@@ -4542,15 +13457,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "from",
     "lemma": "fram"
   },
+  "fre": {
+    "def": "lord, king",
+    "grammar": "wk.",
+    "lemma": "frēa"
+  },
   "frea": {
     "def": "lord, king",
     "grammar": "wk.",
     "lemma": "frēa"
   },
+  "frea drihten": {
+    "def": "lord",
+    "grammar": "m.",
+    "lemma": "frēa-drihten"
+  },
+  "frea wine": {
+    "def": "( ̄friend and) lord",
+    "grammar": "mi.",
+    "lemma": "frēa-wine"
+  },
+  "frea wrasn": {
+    "def": "(lordly, i",
+    "grammar": "f.",
+    "lemma": "frēa-wrāsn"
+  },
+  "frea-driht": {
+    "def": "lord",
+    "grammar": "m.",
+    "lemma": "frēa-drihten"
+  },
+  "frea-drihte": {
+    "def": "lord",
+    "grammar": "m.",
+    "lemma": "frēa-drihten"
+  },
   "frea-drihten": {
     "def": "lord",
     "grammar": "m.",
     "lemma": "frēa-drihten"
+  },
+  "frea-wi": {
+    "def": "( ̄friend and) lord",
+    "grammar": "mi.",
+    "lemma": "frēa-wine"
+  },
+  "frea-win": {
+    "def": "( ̄friend and) lord",
+    "grammar": "mi.",
+    "lemma": "frēa-wine"
   },
   "frea-wine": {
     "def": "( ̄friend and) lord",
@@ -4562,30 +13517,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "frēa-wrāsn"
   },
+  "freadrihten": {
+    "def": "lord",
+    "grammar": "m.",
+    "lemma": "frēa-drihten"
+  },
+  "freawine": {
+    "def": "( ̄friend and) lord",
+    "grammar": "mi.",
+    "lemma": "frēa-wine"
+  },
+  "freawrasn": {
+    "def": "(lordly, i",
+    "grammar": "f.",
+    "lemma": "frēa-wrāsn"
+  },
+  "frec": {
+    "def": "audacious",
+    "grammar": "adj.",
+    "lemma": "frēcne"
+  },
   "freca": {
     "def": "bold one, †warrior",
     "grammar": "wk.",
     "lemma": "freca"
+  },
+  "frece": {
+    "def": "bold one, †warrior",
+    "grammar": "wk.",
+    "lemma": "freca"
+  },
+  "frecn": {
+    "def": "audacious",
+    "grammar": "adj.",
+    "lemma": "frēcne"
   },
   "frecne": {
     "def": "audacious",
     "grammar": "adj.",
     "lemma": "frēcne"
   },
+  "free": {
+    "def": "lord, king",
+    "grammar": "wk.",
+    "lemma": "frēa"
+  },
+  "frem": {
+    "def": "alien, estranged (w",
+    "grammar": "adj.",
+    "lemma": "fremde"
+  },
+  "fremd": {
+    "def": "alien, estranged (w",
+    "grammar": "adj.",
+    "lemma": "fremde"
+  },
   "fremde": {
     "def": "alien, estranged (w",
     "grammar": "adj.",
     "lemma": "fremde"
+  },
+  "fremm": {
+    "def": "perform",
+    "grammar": "vb. I",
+    "lemma": "fremman"
   },
   "fremman": {
     "def": "perform",
     "grammar": "vb. I",
     "lemma": "fremman"
   },
+  "fremme": {
+    "def": "perform",
+    "grammar": "vb. I",
+    "lemma": "fremman"
+  },
+  "freo burh": {
+    "def": "(FREE, i",
+    "grammar": "fc.",
+    "lemma": "frēo-burh"
+  },
+  "freo drihten": {
+    "def": "m",
+    "grammar": "",
+    "lemma": "frēo-drihten"
+  },
+  "freo lic": {
+    "def": "noble, excellent",
+    "grammar": "adj.",
+    "lemma": "frēo-liċ"
+  },
+  "freo wine": {
+    "def": "noble (or dear) friend",
+    "grammar": "mi.",
+    "lemma": "frēo-wine"
+  },
   "freo-burh": {
     "def": "(FREE, i",
     "grammar": "fc.",
     "lemma": "frēo-burh"
+  },
+  "freo-driht": {
+    "def": "m",
+    "grammar": "",
+    "lemma": "frēo-drihten"
+  },
+  "freo-drihte": {
+    "def": "m",
+    "grammar": "",
+    "lemma": "frēo-drihten"
   },
   "freo-drihten": {
     "def": "m",
@@ -4597,25 +13637,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "frēo-liċ"
   },
+  "freo-wi": {
+    "def": "noble (or dear) friend",
+    "grammar": "mi.",
+    "lemma": "frēo-wine"
+  },
+  "freo-win": {
+    "def": "noble (or dear) friend",
+    "grammar": "mi.",
+    "lemma": "frēo-wine"
+  },
   "freo-wine": {
     "def": "noble (or dear) friend",
     "grammar": "mi.",
     "lemma": "frēo-wine"
+  },
+  "freoburh": {
+    "def": "(FREE, i",
+    "grammar": "fc.",
+    "lemma": "frēo-burh"
   },
   "freod": {
     "def": "friendship",
     "grammar": "f.",
     "lemma": "frēod"
   },
+  "freodrihten": {
+    "def": "m",
+    "grammar": "",
+    "lemma": "frēo-drihten"
+  },
+  "freog": {
+    "def": "3176",
+    "grammar": "vb. II",
+    "lemma": "frēoġan"
+  },
   "freogan": {
     "def": "3176",
     "grammar": "vb. II",
     "lemma": "frēoġan"
   },
+  "freoge": {
+    "def": "3176",
+    "grammar": "vb. II",
+    "lemma": "frēoġan"
+  },
+  "freolic": {
+    "def": "noble, excellent",
+    "grammar": "adj.",
+    "lemma": "frēo-liċ"
+  },
   "freond": {
     "def": "supporter, ally",
     "grammar": "mc.",
     "lemma": "frēond"
+  },
+  "freond lar": {
+    "def": "FRIENDly counsel (LORE)",
+    "grammar": "f.",
+    "lemma": "frēond-lār"
+  },
+  "freond laþu": {
+    "def": "FRIENDship, good will (or invitation?)",
+    "grammar": "f.",
+    "lemma": "frēond-laþu"
+  },
+  "freond lice": {
+    "def": "1027",
+    "grammar": "adv.",
+    "lemma": "frēond-līċe"
+  },
+  "freond scipe": {
+    "def": "2069",
+    "grammar": "mi.",
+    "lemma": "frēond-scipe"
   },
   "freond-lar": {
     "def": "FRIENDly counsel (LORE)",
@@ -4627,20 +13722,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "frēond-laþu"
   },
+  "freond-lic": {
+    "def": "1027",
+    "grammar": "adv.",
+    "lemma": "frēond-līċe"
+  },
   "freond-lice": {
     "def": "1027",
     "grammar": "adv.",
     "lemma": "frēond-līċe"
+  },
+  "freond-scip": {
+    "def": "2069",
+    "grammar": "mi.",
+    "lemma": "frēond-scipe"
   },
   "freond-scipe": {
     "def": "2069",
     "grammar": "mi.",
     "lemma": "frēond-scipe"
   },
+  "freondlar": {
+    "def": "FRIENDly counsel (LORE)",
+    "grammar": "f.",
+    "lemma": "frēond-lār"
+  },
+  "freondlaþu": {
+    "def": "FRIENDship, good will (or invitation?)",
+    "grammar": "f.",
+    "lemma": "frēond-laþu"
+  },
+  "freondlice": {
+    "def": "1027",
+    "grammar": "adv.",
+    "lemma": "frēond-līċe"
+  },
+  "freondscipe": {
+    "def": "2069",
+    "grammar": "mi.",
+    "lemma": "frēond-scipe"
+  },
+  "freowine": {
+    "def": "noble (or dear) friend",
+    "grammar": "mi.",
+    "lemma": "frēo-wine"
+  },
   "freoðo": {
     "def": "280), protection, safety, peace",
     "grammar": "wk.",
     "lemma": "freoðo"
+  },
+  "freoðo burh": {
+    "def": "town affording protection, stronghold (perh",
+    "grammar": "fc.",
+    "lemma": "freoðo-burh"
+  },
+  "freoðo wong": {
+    "def": "field of refuge, fast-ness",
+    "grammar": "m.",
+    "lemma": "freoðo-wong"
   },
   "freoðo-burh": {
     "def": "town affording protection, stronghold (perh",
@@ -4652,37 +13792,122 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "freoðo-wong"
   },
+  "freoðoburh": {
+    "def": "town affording protection, stronghold (perh",
+    "grammar": "fc.",
+    "lemma": "freoðo-burh"
+  },
+  "freoðowong": {
+    "def": "field of refuge, fast-ness",
+    "grammar": "m.",
+    "lemma": "freoðo-wong"
+  },
+  "freoðu webbe": {
+    "def": "peace-WEAVer, i",
+    "grammar": "wk.",
+    "lemma": "freoðu-webbe"
+  },
+  "freoðu-webb": {
+    "def": "peace-WEAVer, i",
+    "grammar": "wk.",
+    "lemma": "freoðu-webbe"
+  },
   "freoðu-webbe": {
     "def": "peace-WEAVer, i",
     "grammar": "wk.",
     "lemma": "freoðu-webbe"
+  },
+  "freoðuwebbe": {
+    "def": "peace-WEAVer, i",
+    "grammar": "wk.",
+    "lemma": "freoðu-webbe"
+  },
+  "fret": {
+    "def": "devour, consume",
+    "grammar": "vb. 5",
+    "lemma": "fretan"
   },
   "fretan": {
     "def": "devour, consume",
     "grammar": "vb. 5",
     "lemma": "fretan"
   },
+  "frete": {
+    "def": "devour, consume",
+    "grammar": "vb. 5",
+    "lemma": "fretan"
+  },
+  "fricg": {
+    "def": "ask, question",
+    "grammar": "vb. 5",
+    "lemma": "fricgan"
+  },
   "fricgan": {
     "def": "ask, question",
     "grammar": "vb. 5",
     "lemma": "fricgan"
+  },
+  "fricge": {
+    "def": "ask, question",
+    "grammar": "vb. 5",
+    "lemma": "fricgan"
+  },
+  "fricl": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "friclan"
   },
   "friclan": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "friclan"
   },
+  "fricle": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "friclan"
+  },
+  "frign": {
+    "def": "ask, inquire",
+    "grammar": "fr",
+    "lemma": "friġnan"
+  },
   "frignan": {
     "def": "ask, inquire",
     "grammar": "fr",
     "lemma": "friġnan"
+  },
+  "frigne": {
+    "def": "ask, inquire",
+    "grammar": "fr",
+    "lemma": "friġnan"
+  },
+  "frioðo wær": {
+    "def": "compact of peace",
+    "grammar": "f.",
+    "lemma": "frioðo-wǣr"
   },
   "frioðo-wær": {
     "def": "compact of peace",
     "grammar": "f.",
     "lemma": "frioðo-wǣr"
   },
+  "frioðowær": {
+    "def": "compact of peace",
+    "grammar": "f.",
+    "lemma": "frioðo-wǣr"
+  },
+  "friðu sib(b)": {
+    "def": "pledge of peace",
+    "grammar": "fj",
+    "lemma": "friðu-sib(b)"
+  },
   "friðu-sib(b)": {
+    "def": "pledge of peace",
+    "grammar": "fj",
+    "lemma": "friðu-sib(b)"
+  },
+  "friðusib(b)": {
     "def": "pledge of peace",
     "grammar": "fj",
     "lemma": "friðu-sib(b)"
@@ -4701,6 +13926,26 @@ const OLD_ENGLISH_DICT = {
     "def": "prep",
     "grammar": "prep.",
     "lemma": "from"
+  },
+  "frum": {
+    "def": "maker, doer, chief",
+    "grammar": "wk.",
+    "lemma": "fruma"
+  },
+  "frum cyn(n)": {
+    "def": "lineage, origin",
+    "grammar": "nja.",
+    "lemma": "frum-cyn(n)"
+  },
+  "frum gar": {
+    "def": "chieftain",
+    "grammar": "m.",
+    "lemma": "frum-gār"
+  },
+  "frum sceaft": {
+    "def": "begin-ning, origin",
+    "grammar": "fi.",
+    "lemma": "frum-sceaft"
   },
   "frum-cyn(n)": {
     "def": "lineage, origin",
@@ -4722,50 +13967,155 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "fruma"
   },
+  "frumcyn(n)": {
+    "def": "lineage, origin",
+    "grammar": "nja.",
+    "lemma": "frum-cyn(n)"
+  },
+  "frume": {
+    "def": "maker, doer, chief",
+    "grammar": "wk.",
+    "lemma": "fruma"
+  },
+  "frumgar": {
+    "def": "chieftain",
+    "grammar": "m.",
+    "lemma": "frum-gār"
+  },
+  "frumsceaft": {
+    "def": "begin-ning, origin",
+    "grammar": "fi.",
+    "lemma": "frum-sceaft"
+  },
+  "frætw": {
+    "def": "make beauti-ful",
+    "grammar": "vb. I",
+    "lemma": "frætwan"
+  },
   "frætwan": {
     "def": "make beauti-ful",
     "grammar": "vb. I",
     "lemma": "frætwan"
   },
   "frætwe": {
-    "def": "trappings, decorated armor or weapons, precious things, treasure",
-    "grammar": "fw",
-    "lemma": "frætwe"
+    "def": "make beauti-ful",
+    "grammar": "vb. I",
+    "lemma": "frætwan"
   },
   "fugol": {
     "def": "218",
     "grammar": "m.",
     "lemma": "fugol"
   },
+  "fuht": {
+    "def": "see feohtan",
+    "grammar": "",
+    "lemma": "fuhton"
+  },
+  "fuhte": {
+    "def": "see feohtan",
+    "grammar": "",
+    "lemma": "fuhton"
+  },
   "fuhton": {
     "def": "see feohtan",
     "grammar": "",
     "lemma": "fuhton"
+  },
+  "ful læstan": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "ful-lǣstan"
   },
   "ful(l)": {
     "def": "FULL",
     "grammar": "adj.",
     "lemma": "ful(l)"
   },
+  "ful-læst": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "ful-lǣstan"
+  },
   "ful-læstan": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "ful-lǣstan"
+  },
+  "ful-læste": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "ful-lǣstan"
+  },
+  "full eode": {
+    "def": "w",
+    "grammar": "pret.",
+    "lemma": "full-ēode"
+  },
+  "full-eo": {
+    "def": "w",
+    "grammar": "pret.",
+    "lemma": "full-ēode"
+  },
+  "full-eod": {
+    "def": "w",
+    "grammar": "pret.",
+    "lemma": "full-ēode"
   },
   "full-eode": {
     "def": "w",
     "grammar": "pret.",
     "lemma": "full-ēode"
   },
+  "fulleode": {
+    "def": "w",
+    "grammar": "pret.",
+    "lemma": "full-ēode"
+  },
+  "fullæstan": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "ful-lǣstan"
+  },
+  "fult": {
+    "def": "support",
+    "grammar": "m.",
+    "lemma": "fultum"
+  },
+  "fulte": {
+    "def": "support",
+    "grammar": "m.",
+    "lemma": "fultum"
+  },
   "fultum": {
     "def": "support",
     "grammar": "m.",
     "lemma": "fultum"
   },
+  "fundi": {
+    "def": "be eager to go",
+    "grammar": "vb. II",
+    "lemma": "fundian"
+  },
   "fundian": {
     "def": "be eager to go",
     "grammar": "vb. II",
     "lemma": "fundian"
+  },
+  "fundie": {
+    "def": "be eager to go",
+    "grammar": "vb. II",
+    "lemma": "fundian"
+  },
+  "furð": {
+    "def": "first",
+    "grammar": "adv.",
+    "lemma": "furðum"
+  },
+  "furðe": {
+    "def": "first",
+    "grammar": "adv.",
+    "lemma": "furðum"
   },
   "furðum": {
     "def": "first",
@@ -4782,20 +14132,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fūs"
   },
+  "fus lic": {
+    "def": "ready",
+    "grammar": "adj.",
+    "lemma": "fūs-liċ"
+  },
   "fus-lic": {
     "def": "ready",
     "grammar": "adj.",
     "lemma": "fūs-liċ"
+  },
+  "fuslic": {
+    "def": "ready",
+    "grammar": "adj.",
+    "lemma": "fūs-liċ"
+  },
+  "fyht": {
+    "def": "see feohte",
+    "grammar": "",
+    "lemma": "fyhtum"
+  },
+  "fyhte": {
+    "def": "see feohte",
+    "grammar": "",
+    "lemma": "fyhtum"
   },
   "fyhtum": {
     "def": "see feohte",
     "grammar": "",
     "lemma": "fyhtum"
   },
+  "fyl werig": {
+    "def": "(FALL-WEARY), killed",
+    "grammar": "adj.",
+    "lemma": "fyl-wēriġ"
+  },
   "fyl(l)": {
     "def": "2912",
     "grammar": "mi.",
     "lemma": "fyl(l)"
+  },
+  "fyl-were": {
+    "def": "(FALL-WEARY), killed",
+    "grammar": "adj.",
+    "lemma": "fyl-wēriġ"
   },
   "fyl-werig": {
     "def": "(FALL-WEARY), killed",
@@ -4807,17 +14187,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "fyllo"
   },
+  "fylwerig": {
+    "def": "(FALL-WEARY), killed",
+    "grammar": "adj.",
+    "lemma": "fyl-wēriġ"
+  },
   "fyr": {
-    "def": "see feor(r)",
+    "def": "f",
+    "grammar": "firen",
+    "lemma": "fyren"
+  },
+  "fyr wet(t)": {
+    "def": "curi-osity, anxiety",
     "grammar": "",
-    "lemma": "fyr"
+    "lemma": "fyr-wet(t)"
   },
   "fyr-wet(t)": {
     "def": "curi-osity, anxiety",
     "grammar": "",
     "lemma": "fyr-wet(t)"
   },
+  "fyrd gestealla": {
+    "def": "war-comrade",
+    "grammar": "wk.",
+    "lemma": "fyrd-ġestealla"
+  },
+  "fyrd hom": {
+    "def": "war-garment, shirt (or coat) of mail",
+    "grammar": "m.",
+    "lemma": "fyrd-hom"
+  },
+  "fyrd hrægl": {
+    "def": "war-garment, mail shirt (or coat)",
+    "grammar": "n.",
+    "lemma": "fyrd-hræġl"
+  },
+  "fyrd hwæt": {
+    "def": "active in war, war-like",
+    "grammar": "adj.",
+    "lemma": "fyrd-hwæt"
+  },
+  "fyrd leoð": {
+    "def": "war-song",
+    "grammar": "n.",
+    "lemma": "fyrd-lēoð"
+  },
+  "fyrd searo": {
+    "def": "armor",
+    "grammar": "nwa.",
+    "lemma": "fyrd-searo"
+  },
+  "fyrd wyrðe": {
+    "def": "distinguished (WORTHy) in war",
+    "grammar": "adj.",
+    "lemma": "fyrd-wyrðe"
+  },
+  "fyrd-gesteall": {
+    "def": "war-comrade",
+    "grammar": "wk.",
+    "lemma": "fyrd-ġestealla"
+  },
   "fyrd-gestealla": {
+    "def": "war-comrade",
+    "grammar": "wk.",
+    "lemma": "fyrd-ġestealla"
+  },
+  "fyrd-gestealle": {
     "def": "war-comrade",
     "grammar": "wk.",
     "lemma": "fyrd-ġestealla"
@@ -4847,15 +14282,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nwa.",
     "lemma": "fyrd-searo"
   },
+  "fyrd-wyrð": {
+    "def": "distinguished (WORTHy) in war",
+    "grammar": "adj.",
+    "lemma": "fyrd-wyrðe"
+  },
   "fyrd-wyrðe": {
     "def": "distinguished (WORTHy) in war",
     "grammar": "adj.",
     "lemma": "fyrd-wyrðe"
   },
+  "fyrdgestealla": {
+    "def": "war-comrade",
+    "grammar": "wk.",
+    "lemma": "fyrd-ġestealla"
+  },
+  "fyrdhom": {
+    "def": "war-garment, shirt (or coat) of mail",
+    "grammar": "m.",
+    "lemma": "fyrd-hom"
+  },
+  "fyrdhrægl": {
+    "def": "war-garment, mail shirt (or coat)",
+    "grammar": "n.",
+    "lemma": "fyrd-hræġl"
+  },
+  "fyrdhwæt": {
+    "def": "active in war, war-like",
+    "grammar": "adj.",
+    "lemma": "fyrd-hwæt"
+  },
+  "fyrdleoð": {
+    "def": "war-song",
+    "grammar": "n.",
+    "lemma": "fyrd-lēoð"
+  },
+  "fyrdsearo": {
+    "def": "armor",
+    "grammar": "nwa.",
+    "lemma": "fyrd-searo"
+  },
+  "fyrdwyrðe": {
+    "def": "distinguished (WORTHy) in war",
+    "grammar": "adj.",
+    "lemma": "fyrd-wyrðe"
+  },
+  "fyre": {
+    "def": "f",
+    "grammar": "firen",
+    "lemma": "fyren"
+  },
   "fyren": {
     "def": "f",
     "grammar": "firen",
     "lemma": "fyren"
+  },
+  "fyren dæd": {
+    "def": "violent or wicked DEED, crime",
+    "grammar": "fi.",
+    "lemma": "fyren-dǣd"
+  },
+  "fyren ðearf": {
+    "def": "dire distress",
+    "grammar": "f.",
+    "lemma": "fyren-ðearf"
   },
   "fyren-dæd": {
     "def": "violent or wicked DEED, crime",
@@ -4866,6 +14356,31 @@ const OLD_ENGLISH_DICT = {
     "def": "dire distress",
     "grammar": "f.",
     "lemma": "fyren-ðearf"
+  },
+  "fyrendæd": {
+    "def": "violent or wicked DEED, crime",
+    "grammar": "fi.",
+    "lemma": "fyren-dǣd"
+  },
+  "fyrenðearf": {
+    "def": "dire distress",
+    "grammar": "f.",
+    "lemma": "fyren-ðearf"
+  },
+  "fyrgen beam": {
+    "def": "mountain-tree",
+    "grammar": "m.",
+    "lemma": "fyrġen-bēam"
+  },
+  "fyrgen holt": {
+    "def": "mountain-wood",
+    "grammar": "n.",
+    "lemma": "fyrġen-holt"
+  },
+  "fyrgen stream": {
+    "def": "mountain-STREAM (or waterfall?",
+    "grammar": "m.",
+    "lemma": "fyrġen-strēam"
   },
   "fyrgen-beam": {
     "def": "mountain-tree",
@@ -4882,7 +14397,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fyrġen-strēam"
   },
+  "fyrgenbeam": {
+    "def": "mountain-tree",
+    "grammar": "m.",
+    "lemma": "fyrġen-bēam"
+  },
+  "fyrgenholt": {
+    "def": "mountain-wood",
+    "grammar": "n.",
+    "lemma": "fyrġen-holt"
+  },
+  "fyrgenstream": {
+    "def": "mountain-STREAM (or waterfall?",
+    "grammar": "m.",
+    "lemma": "fyrġen-strēam"
+  },
+  "fyri": {
+    "def": "see ferian",
+    "grammar": "",
+    "lemma": "fyrian"
+  },
   "fyrian": {
+    "def": "see ferian",
+    "grammar": "",
+    "lemma": "fyrian"
+  },
+  "fyrie": {
     "def": "see ferian",
     "grammar": "",
     "lemma": "fyrian"
@@ -4892,7 +14432,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fyrmest"
   },
+  "fyrn dagas": {
+    "def": "DAYS of old",
+    "grammar": "m.",
+    "lemma": "fyrn-dagas"
+  },
+  "fyrn geweorc": {
+    "def": "ancient WORK",
+    "grammar": "n.",
+    "lemma": "fyrn-ġeweorc"
+  },
+  "fyrn gewin(n)": {
+    "def": "ancient strife",
+    "grammar": "n.",
+    "lemma": "fyrn-ġewin(n)"
+  },
+  "fyrn man(n)": {
+    "def": "ancient MAN, per-son of old",
+    "grammar": "mc.",
+    "lemma": "fyrn-man(n)"
+  },
+  "fyrn wita": {
+    "def": "counselor since old times",
+    "grammar": "wk.",
+    "lemma": "fyrn-wita"
+  },
+  "fyrn-dag": {
+    "def": "DAYS of old",
+    "grammar": "m.",
+    "lemma": "fyrn-dagas"
+  },
   "fyrn-dagas": {
+    "def": "DAYS of old",
+    "grammar": "m.",
+    "lemma": "fyrn-dagas"
+  },
+  "fyrn-dage": {
     "def": "DAYS of old",
     "grammar": "m.",
     "lemma": "fyrn-dagas"
@@ -4912,7 +14487,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "fyrn-man(n)"
   },
+  "fyrn-wit": {
+    "def": "counselor since old times",
+    "grammar": "wk.",
+    "lemma": "fyrn-wita"
+  },
   "fyrn-wita": {
+    "def": "counselor since old times",
+    "grammar": "wk.",
+    "lemma": "fyrn-wita"
+  },
+  "fyrn-wite": {
+    "def": "counselor since old times",
+    "grammar": "wk.",
+    "lemma": "fyrn-wita"
+  },
+  "fyrndagas": {
+    "def": "DAYS of old",
+    "grammar": "m.",
+    "lemma": "fyrn-dagas"
+  },
+  "fyrngeweorc": {
+    "def": "ancient WORK",
+    "grammar": "n.",
+    "lemma": "fyrn-ġeweorc"
+  },
+  "fyrngewin(n)": {
+    "def": "ancient strife",
+    "grammar": "n.",
+    "lemma": "fyrn-ġewin(n)"
+  },
+  "fyrnman(n)": {
+    "def": "ancient MAN, per-son of old",
+    "grammar": "mc.",
+    "lemma": "fyrn-man(n)"
+  },
+  "fyrnwita": {
     "def": "counselor since old times",
     "grammar": "wk.",
     "lemma": "fyrn-wita"
@@ -4921,6 +14531,11 @@ const OLD_ENGLISH_DICT = {
     "def": "time (granted for doing something)",
     "grammar": "mi.",
     "lemma": "fyrst"
+  },
+  "fyrwet(t)": {
+    "def": "curi-osity, anxiety",
+    "grammar": "",
+    "lemma": "fyr-wet(t)"
   },
   "fæc": {
     "def": "2240",
@@ -4932,15 +14547,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "fæder"
   },
+  "fæder æþelu": {
+    "def": "paternal rank or excellence",
+    "grammar": "nja.",
+    "lemma": "fæder-æþelu"
+  },
   "fæder-æþelu": {
     "def": "paternal rank or excellence",
     "grammar": "nja.",
     "lemma": "fæder-æþelu"
   },
+  "fæderen mæg": {
+    "def": "paternal rela-tive, kinsman on the FATHER’s side",
+    "grammar": "m.",
+    "lemma": "fæderen-mǣġ"
+  },
   "fæderen-mæg": {
     "def": "paternal rela-tive, kinsman on the FATHER’s side",
     "grammar": "m.",
     "lemma": "fæderen-mǣġ"
+  },
+  "fæderenmæg": {
+    "def": "paternal rela-tive, kinsman on the FATHER’s side",
+    "grammar": "m.",
+    "lemma": "fæderen-mǣġ"
+  },
+  "fæderæþelu": {
+    "def": "paternal rank or excellence",
+    "grammar": "nja.",
+    "lemma": "fæder-æþelu"
+  },
+  "fæg": {
+    "def": "rejoicing",
+    "grammar": "adj.",
+    "lemma": "fæġen"
+  },
+  "fæg(e)": {
+    "def": "pleasantly, fit-tingly, courteously",
+    "grammar": "adv.",
+    "lemma": "fǣġ(e)re"
+  },
+  "fæg(e)r": {
+    "def": "pleasantly, fit-tingly, courteously",
+    "grammar": "adv.",
+    "lemma": "fǣġ(e)re"
   },
   "fæg(e)re": {
     "def": "pleasantly, fit-tingly, courteously",
@@ -4948,9 +14598,9 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣġ(e)re"
   },
   "fæge": {
-    "def": "doomed to die, fated, near death",
+    "def": "rejoicing",
     "grammar": "adj.",
-    "lemma": "fǣġe"
+    "lemma": "fæġen"
   },
   "fægen": {
     "def": "rejoicing",
@@ -4967,10 +14617,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "fǣhð(o)"
   },
+  "fælsi": {
+    "def": "cleanse, purge",
+    "grammar": "vb. II",
+    "lemma": "fǣlsian"
+  },
   "fælsian": {
     "def": "cleanse, purge",
     "grammar": "vb. II",
     "lemma": "fǣlsian"
+  },
+  "fælsie": {
+    "def": "cleanse, purge",
+    "grammar": "vb. II",
+    "lemma": "fǣlsian"
+  },
+  "fæm": {
+    "def": "woman (who is unmarried)",
+    "grammar": "wk.",
+    "lemma": "fǣmne"
+  },
+  "fæmn": {
+    "def": "woman (who is unmarried)",
+    "grammar": "wk.",
+    "lemma": "fǣmne"
   },
   "fæmne": {
     "def": "woman (who is unmarried)",
@@ -4982,10 +14652,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fær"
   },
+  "fær gripe": {
+    "def": "sudden GRIP or attack",
+    "grammar": "mi.",
+    "lemma": "fǣr-gripe"
+  },
+  "fær gryre": {
+    "def": "(terror caused by) sud-den attack, awful horror",
+    "grammar": "mi.",
+    "lemma": "fǣr-gryre"
+  },
+  "fær nið": {
+    "def": "hostile attack, sudden aÑiction",
+    "grammar": "m.",
+    "lemma": "fǣr-nīð"
+  },
+  "fær-grip": {
+    "def": "sudden GRIP or attack",
+    "grammar": "mi.",
+    "lemma": "fǣr-gripe"
+  },
   "fær-gripe": {
     "def": "sudden GRIP or attack",
     "grammar": "mi.",
     "lemma": "fǣr-gripe"
+  },
+  "fær-gry": {
+    "def": "(terror caused by) sud-den attack, awful horror",
+    "grammar": "mi.",
+    "lemma": "fǣr-gryre"
+  },
+  "fær-gryr": {
+    "def": "(terror caused by) sud-den attack, awful horror",
+    "grammar": "mi.",
+    "lemma": "fǣr-gryre"
   },
   "fær-gryre": {
     "def": "(terror caused by) sud-den attack, awful horror",
@@ -4997,15 +14697,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fǣr-nīð"
   },
+  "færgripe": {
+    "def": "sudden GRIP or attack",
+    "grammar": "mi.",
+    "lemma": "fǣr-gripe"
+  },
+  "færgryre": {
+    "def": "(terror caused by) sud-den attack, awful horror",
+    "grammar": "mi.",
+    "lemma": "fǣr-gryre"
+  },
+  "færing": {
+    "def": "1988",
+    "grammar": "adv.",
+    "lemma": "fǣringa"
+  },
   "færinga": {
     "def": "1988",
     "grammar": "adv.",
     "lemma": "fǣringa"
   },
+  "færinge": {
+    "def": "1988",
+    "grammar": "adv.",
+    "lemma": "fǣringa"
+  },
+  "færnið": {
+    "def": "hostile attack, sudden aÑiction",
+    "grammar": "m.",
+    "lemma": "fǣr-nīð"
+  },
+  "fæs": {
+    "def": "firmly",
+    "grammar": "adv.",
+    "lemma": "fæste"
+  },
   "fæst": {
-    "def": "firm, fixed (often w",
+    "def": "firmly",
+    "grammar": "adv.",
+    "lemma": "fæste"
+  },
+  "fæst ræd": {
+    "def": "610",
     "grammar": "adj.",
-    "lemma": "fæst"
+    "lemma": "fæst-rǣd"
   },
   "fæst-ræd": {
     "def": "610",
@@ -5022,10 +14757,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "fæsten"
   },
+  "fæstræd": {
+    "def": "610",
+    "grammar": "adj.",
+    "lemma": "fæst-rǣd"
+  },
   "fæt": {
     "def": "cup",
     "grammar": "n.",
     "lemma": "fæt"
+  },
+  "fæt gold": {
+    "def": "plated GOLD",
+    "grammar": "n.",
+    "lemma": "fǣt-gold"
   },
   "fæt-gold": {
     "def": "plated GOLD",
@@ -5037,27 +14782,77 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fǣted"
   },
+  "fæted hleor": {
+    "def": "with ornamented cheeks, i",
+    "grammar": "adj.",
+    "lemma": "fǣted-hlēor"
+  },
   "fæted-hleor": {
     "def": "with ornamented cheeks, i",
     "grammar": "adj.",
     "lemma": "fǣted-hlēor"
+  },
+  "fætedhleor": {
+    "def": "with ornamented cheeks, i",
+    "grammar": "adj.",
+    "lemma": "fǣted-hlēor"
+  },
+  "fætgold": {
+    "def": "plated GOLD",
+    "grammar": "n.",
+    "lemma": "fǣt-gold"
+  },
+  "fætt": {
+    "def": "see fǣt",
+    "grammar": "",
+    "lemma": "fǣttum"
   },
   "fættan": {
     "def": "fǣtte, see fǣted",
     "grammar": "f",
     "lemma": "fǣttan"
   },
+  "fætte": {
+    "def": "see fǣt",
+    "grammar": "",
+    "lemma": "fǣttum"
+  },
   "fættum": {
     "def": "see fǣt",
     "grammar": "",
     "lemma": "fǣttum"
+  },
+  "fæðer gearwe": {
+    "def": "FEATHER-GEAR",
+    "grammar": "fw",
+    "lemma": "fæðer-ġearwe"
+  },
+  "fæðer-gearw": {
+    "def": "FEATHER-GEAR",
+    "grammar": "fw",
+    "lemma": "fæðer-ġearwe"
   },
   "fæðer-gearwe": {
     "def": "FEATHER-GEAR",
     "grammar": "fw",
     "lemma": "fæðer-ġearwe"
   },
+  "fæðergearwe": {
+    "def": "FEATHER-GEAR",
+    "grammar": "fw",
+    "lemma": "fæðer-ġearwe"
+  },
+  "fæðmi": {
+    "def": "embrace, enfold",
+    "grammar": "vb. II",
+    "lemma": "fæðmian"
+  },
   "fæðmian": {
+    "def": "embrace, enfold",
+    "grammar": "vb. II",
+    "lemma": "fæðmian"
+  },
+  "fæðmie": {
     "def": "embrace, enfold",
     "grammar": "vb. II",
     "lemma": "fæðmian"
@@ -5067,7 +14862,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fæþm"
   },
+  "fуf tуne": {
+    "def": "see fīf-tӯne",
+    "grammar": "",
+    "lemma": "fӯf-tӯne"
+  },
+  "fуf-tу": {
+    "def": "see fīf-tӯne",
+    "grammar": "",
+    "lemma": "fӯf-tӯne"
+  },
+  "fуf-tуn": {
+    "def": "see fīf-tӯne",
+    "grammar": "",
+    "lemma": "fӯf-tӯne"
+  },
   "fуf-tуne": {
+    "def": "see fīf-tӯne",
+    "grammar": "",
+    "lemma": "fӯf-tӯne"
+  },
+  "fуftуne": {
     "def": "see fīf-tӯne",
     "grammar": "",
     "lemma": "fӯf-tӯne"
@@ -5077,12 +14892,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fӯr"
   },
+  "fуr bend": {
+    "def": "BAND or bar forged with FIRE",
+    "grammar": "fj",
+    "lemma": "fӯr-bend"
+  },
+  "fуr draca": {
+    "def": "(FIRE-DRAKE), -DRAGON",
+    "grammar": "wk.",
+    "lemma": "fӯr-draca"
+  },
+  "fуr heard": {
+    "def": "HARDened by FIRE",
+    "grammar": "adj.",
+    "lemma": "fӯr-heard"
+  },
+  "fуr leoht": {
+    "def": "FIRE-LIGHT",
+    "grammar": "n.",
+    "lemma": "fӯr-lēoht"
+  },
+  "fуr wylm": {
+    "def": "surge of FIRE",
+    "grammar": "mi.",
+    "lemma": "fӯr-wylm"
+  },
   "fуr-bend": {
     "def": "BAND or bar forged with FIRE",
     "grammar": "fj",
     "lemma": "fӯr-bend"
   },
+  "fуr-drac": {
+    "def": "(FIRE-DRAKE), -DRAGON",
+    "grammar": "wk.",
+    "lemma": "fӯr-draca"
+  },
   "fуr-draca": {
+    "def": "(FIRE-DRAKE), -DRAGON",
+    "grammar": "wk.",
+    "lemma": "fӯr-draca"
+  },
+  "fуr-drace": {
     "def": "(FIRE-DRAKE), -DRAGON",
     "grammar": "wk.",
     "lemma": "fӯr-draca"
@@ -5107,15 +14957,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fӯras"
   },
+  "fуrbend": {
+    "def": "BAND or bar forged with FIRE",
+    "grammar": "fj",
+    "lemma": "fӯr-bend"
+  },
+  "fуrdraca": {
+    "def": "(FIRE-DRAKE), -DRAGON",
+    "grammar": "wk.",
+    "lemma": "fӯr-draca"
+  },
+  "fуre": {
+    "def": "see fīras",
+    "grammar": "",
+    "lemma": "fӯras"
+  },
   "fуren": {
     "def": "FIERy, on fire",
     "grammar": "adj.",
     "lemma": "fӯren"
   },
+  "fуrheard": {
+    "def": "HARDened by FIRE",
+    "grammar": "adj.",
+    "lemma": "fӯr-heard"
+  },
+  "fуrleoht": {
+    "def": "FIRE-LIGHT",
+    "grammar": "n.",
+    "lemma": "fӯr-lēoht"
+  },
+  "fуrwylm": {
+    "def": "surge of FIRE",
+    "grammar": "mi.",
+    "lemma": "fӯr-wylm"
+  },
+  "g": {
+    "def": "2258",
+    "grammar": "conj.",
+    "lemma": "ġē"
+  },
   "gad": {
     "def": "lack, want",
     "grammar": "n.",
     "lemma": "gād"
+  },
+  "gal": {
+    "def": "sound",
+    "grammar": "vb. 6",
+    "lemma": "galan"
   },
   "galan": {
     "def": "sound",
@@ -5126,6 +15016,26 @@ const OLD_ENGLISH_DICT = {
     "def": "see ġealdor",
     "grammar": "",
     "lemma": "galdor"
+  },
+  "gale": {
+    "def": "sound",
+    "grammar": "vb. 6",
+    "lemma": "galan"
+  },
+  "galg": {
+    "def": "2446",
+    "grammar": "wk.",
+    "lemma": "galga"
+  },
+  "galg mod": {
+    "def": "sad in mind, gloomy",
+    "grammar": "adj.",
+    "lemma": "galg-mōd"
+  },
+  "galg treow": {
+    "def": "2940 (Appx",
+    "grammar": "nwa.",
+    "lemma": "galg-trēow"
   },
   "galg-mod": {
     "def": "sad in mind, gloomy",
@@ -5142,6 +15052,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "galga"
   },
+  "galge": {
+    "def": "2446",
+    "grammar": "wk.",
+    "lemma": "galga"
+  },
+  "galgmod": {
+    "def": "sad in mind, gloomy",
+    "grammar": "adj.",
+    "lemma": "galg-mōd"
+  },
+  "galgtreow": {
+    "def": "2940 (Appx",
+    "grammar": "nwa.",
+    "lemma": "galg-trēow"
+  },
+  "gam": {
+    "def": "see gomen",
+    "grammar": "",
+    "lemma": "gamen"
+  },
+  "game": {
+    "def": "see gomen",
+    "grammar": "",
+    "lemma": "gamen"
+  },
   "gamen": {
     "def": "see gomen",
     "grammar": "",
@@ -5152,7 +15087,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "gamol"
   },
+  "gamol feax": {
+    "def": "grey-haired",
+    "grammar": "adj.",
+    "lemma": "gamol-feax"
+  },
   "gamol-feax": {
+    "def": "grey-haired",
+    "grammar": "adj.",
+    "lemma": "gamol-feax"
+  },
+  "gamolfeax": {
     "def": "grey-haired",
     "grammar": "adj.",
     "lemma": "gamol-feax"
@@ -5172,6 +15117,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "gangan"
   },
+  "gange": {
+    "def": "324, 395, 1034, [F",
+    "grammar": "vb. 7",
+    "lemma": "gangan"
+  },
   "ganot": {
     "def": "sea-bird",
     "grammar": "m.",
@@ -5181,6 +15131,46 @@ const OLD_ENGLISH_DICT = {
     "def": "(1) spear, according to 1765 (gāres fliht), for throwing",
     "grammar": "m.",
     "lemma": "gār"
+  },
+  "gar cene": {
+    "def": "(spear-bold), brave",
+    "grammar": "adj.",
+    "lemma": "gār-cēne"
+  },
+  "gar cwealm": {
+    "def": "spear-death, i",
+    "grammar": "m.",
+    "lemma": "gār-cwealm"
+  },
+  "gar holt": {
+    "def": "spear-shaft, i",
+    "grammar": "n.",
+    "lemma": "gār-holt"
+  },
+  "gar secg": {
+    "def": "sea",
+    "grammar": "mja.",
+    "lemma": "gār-secg"
+  },
+  "gar wiga": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "wk.",
+    "lemma": "gār-wiga"
+  },
+  "gar wigend": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "mc.",
+    "lemma": "gār-wīġend"
+  },
+  "gar-ce": {
+    "def": "(spear-bold), brave",
+    "grammar": "adj.",
+    "lemma": "gār-cēne"
+  },
+  "gar-cen": {
+    "def": "(spear-bold), brave",
+    "grammar": "adj.",
+    "lemma": "gār-cēne"
   },
   "gar-cene": {
     "def": "(spear-bold), brave",
@@ -5202,7 +15192,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "gār-secg"
   },
+  "gar-wig": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "wk.",
+    "lemma": "gār-wiga"
+  },
   "gar-wiga": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "wk.",
+    "lemma": "gār-wiga"
+  },
+  "gar-wige": {
     "def": "spear-fighter, war-rior",
     "grammar": "wk.",
     "lemma": "gār-wiga"
@@ -5212,32 +15212,1282 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "gār-wīġend"
   },
+  "garcene": {
+    "def": "(spear-bold), brave",
+    "grammar": "adj.",
+    "lemma": "gār-cēne"
+  },
+  "garcwealm": {
+    "def": "spear-death, i",
+    "grammar": "m.",
+    "lemma": "gār-cwealm"
+  },
+  "garholt": {
+    "def": "spear-shaft, i",
+    "grammar": "n.",
+    "lemma": "gār-holt"
+  },
+  "garsecg": {
+    "def": "sea",
+    "grammar": "mja.",
+    "lemma": "gār-secg"
+  },
+  "garwiga": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "wk.",
+    "lemma": "gār-wiga"
+  },
+  "garwigend": {
+    "def": "spear-fighter, war-rior",
+    "grammar": "mc.",
+    "lemma": "gār-wīġend"
+  },
   "gast": {
     "def": "mi",
     "grammar": "g",
     "lemma": "gāst"
+  },
+  "gast bona": {
+    "def": "soul-slayer, devil, 177",
+    "grammar": "wk.",
+    "lemma": "gāst-bona"
+  },
+  "gast-bon": {
+    "def": "soul-slayer, devil, 177",
+    "grammar": "wk.",
+    "lemma": "gāst-bona"
   },
   "gast-bona": {
     "def": "soul-slayer, devil, 177",
     "grammar": "wk.",
     "lemma": "gāst-bona"
   },
+  "gast-bone": {
+    "def": "soul-slayer, devil, 177",
+    "grammar": "wk.",
+    "lemma": "gāst-bona"
+  },
+  "gastbona": {
+    "def": "soul-slayer, devil, 177",
+    "grammar": "wk.",
+    "lemma": "gāst-bona"
+  },
   "ge": {
-    "def": "2258",
-    "grammar": "conj.",
-    "lemma": "ġē"
+    "def": "p",
+    "grammar": "prefix.",
+    "lemma": "ġe-"
+  },
+  "ge ": {
+    "def": "p",
+    "grammar": "prefix.",
+    "lemma": "ġe-"
+  },
+  "ge ahsian": {
+    "def": "hear",
+    "grammar": "vb.  II",
+    "lemma": "ġe-āhsian"
+  },
+  "ge bannan": {
+    "def": "command, order",
+    "grammar": "vb. 7",
+    "lemma": "ġe-bannan"
+  },
+  "ge barn": {
+    "def": "see ġe-byrnan",
+    "grammar": "",
+    "lemma": "ġe-barn"
+  },
+  "ge bedda": {
+    "def": "665",
+    "grammar": "wk.",
+    "lemma": "ġe-bedda"
+  },
+  "ge beodan": {
+    "def": "show",
+    "grammar": "vb. 2",
+    "lemma": "ġe-bēodan"
+  },
+  "ge beorgan": {
+    "def": "protect",
+    "grammar": "vb. 3",
+    "lemma": "ġe-beorgan"
+  },
+  "ge beotian": {
+    "def": "536",
+    "grammar": "vb.  II",
+    "lemma": "ġe-bēotian"
+  },
+  "ge beran": {
+    "def": "1703",
+    "grammar": "vb.  4",
+    "lemma": "ġe-beran"
+  },
+  "ge betan": {
+    "def": "remedy, pret",
+    "grammar": "vb. I",
+    "lemma": "ġe-bētan"
+  },
+  "ge bidan": {
+    "def": "2529",
+    "grammar": "vb. 1",
+    "lemma": "ġe-bīdan"
+  },
+  "ge bindan": {
+    "def": "420",
+    "grammar": "vb. 3",
+    "lemma": "ġe-bindan"
+  },
+  "ge brecan": {
+    "def": "crush, destroy",
+    "grammar": "vb. 4",
+    "lemma": "ġe-brecan"
+  },
+  "ge bregdan": {
+    "def": "1664, 3 sg",
+    "grammar": "vb. 3",
+    "lemma": "ġe-breġdan"
+  },
+  "ge bringan": {
+    "def": "3009",
+    "grammar": "vb. I",
+    "lemma": "ġe-bringan"
+  },
+  "ge broðor": {
+    "def": "1191",
+    "grammar": "mc.",
+    "lemma": "ġe-brōðor"
+  },
+  "ge bræc": {
+    "def": "2259",
+    "grammar": "n.",
+    "lemma": "ġe-bræc"
+  },
+  "ge buan": {
+    "def": "settle in",
+    "grammar": "vb. 7",
+    "lemma": "ġe-būan"
+  },
+  "ge bugan": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "ġe-būgan"
+  },
+  "ge bycgan": {
+    "def": "pay for, obtain",
+    "grammar": "vb. I",
+    "lemma": "ġe-bycgan"
+  },
+  "ge byrd": {
+    "def": "1074 (n",
+    "grammar": "f.",
+    "lemma": "ġe-byrd"
+  },
+  "ge byrnan": {
+    "def": "BURN (intr",
+    "grammar": "vb. 3",
+    "lemma": "ġe-byrnan"
+  },
+  "ge bæran": {
+    "def": "behave, fare",
+    "grammar": "vb. I",
+    "lemma": "ġe-bǣran"
+  },
+  "ge ceosan": {
+    "def": "1759",
+    "grammar": "vb. 2",
+    "lemma": "ġe-ċēosan"
+  },
+  "ge cnawan": {
+    "def": "vb",
+    "grammar": "vb.  7",
+    "lemma": "ġe-cnāwan"
+  },
+  "ge cranc": {
+    "def": "see ġe-cringan",
+    "grammar": "",
+    "lemma": "ġe-cranc"
+  },
+  "ge cringan": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "ġe-cringan"
+  },
+  "ge cweðan": {
+    "def": "2664",
+    "grammar": "vb. 5",
+    "lemma": "ġe-cweðan"
+  },
+  "ge cynde": {
+    "def": "natural, inherited",
+    "grammar": "adj.",
+    "lemma": "ġe-cynde"
+  },
+  "ge cyssan": {
+    "def": "1870",
+    "grammar": "vb. I",
+    "lemma": "ġe-cyssan"
+  },
+  "ge cуpan": {
+    "def": "buy",
+    "grammar": "vb. I",
+    "lemma": "ġe-ċӯpan"
+  },
+  "ge cуðan": {
+    "def": "announce",
+    "grammar": "vb. I",
+    "lemma": "ġe-cӯðan"
+  },
+  "ge dal": {
+    "def": "parting",
+    "grammar": "n.",
+    "lemma": "ġe-dāl"
+  },
+  "ge deaf": {
+    "def": "see ġe-dūfan",
+    "grammar": "",
+    "lemma": "ġe-dēaf"
+  },
+  "ge defe": {
+    "def": "seemly, proper, just",
+    "grammar": "adj.",
+    "lemma": "ġe-dēfe"
+  },
+  "ge digan": {
+    "def": "survive, endure",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dīġan"
+  },
+  "ge don": {
+    "def": "render",
+    "grammar": "anv.",
+    "lemma": "ġe-dōn"
+  },
+  "ge dreosan": {
+    "def": "fall, decline",
+    "grammar": "vb.  2",
+    "lemma": "ġe-drēosan"
+  },
+  "ge dryht": {
+    "def": "fi",
+    "grammar": "",
+    "lemma": "ġe-dryht"
+  },
+  "ge dræg(ge dreag)": {
+    "def": "(noisy) host, company, tumult",
+    "grammar": "n.",
+    "lemma": "ġe-drǣġ(ġe-drēag)"
+  },
+  "ge dufan": {
+    "def": "sink in",
+    "grammar": "vb. 2",
+    "lemma": "ġe-dūfan"
+  },
+  "ge dælan": {
+    "def": "sever (wið, from)",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dǣlan"
+  },
+  "ge dуgan": {
+    "def": "see ġe-dīġan",
+    "grammar": "",
+    "lemma": "ġe-dӯġan"
+  },
+  "ge faran": {
+    "def": "act",
+    "grammar": "vb. 6",
+    "lemma": "ġe-faran"
+  },
+  "ge fea": {
+    "def": "enjoyment, pleasure",
+    "grammar": "wk.",
+    "lemma": "ġe-fēa"
+  },
+  "ge feah": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-feah"
+  },
+  "ge feallan": {
+    "def": "1755",
+    "grammar": "vb. 7",
+    "lemma": "ġe-feallan"
+  },
+  "ge fegon": {
+    "def": "-feh, see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fēgon"
+  },
+  "ge feoht": {
+    "def": "2048",
+    "grammar": "n.",
+    "lemma": "ġe-feoht"
+  },
+  "ge feohtan": {
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "ġe-feohtan"
+  },
+  "ge feon": {
+    "def": "rejoice",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fēon"
+  },
+  "ge feran": {
+    "def": "reach, attain, bring about",
+    "grammar": "vb. I",
+    "lemma": "ġe-fēran"
+  },
+  "ge ferian": {
+    "def": "3107",
+    "grammar": "vb.  I",
+    "lemma": "ġe-ferian"
+  },
+  "ge fetian": {
+    "def": "bring",
+    "grammar": "vb. II",
+    "lemma": "ġe-fetian"
+  },
+  "ge flit": {
+    "def": "rivalry",
+    "grammar": "n.",
+    "lemma": "ġe-flit"
+  },
+  "ge fon": {
+    "def": "seize, grasp",
+    "grammar": "vb. 7",
+    "lemma": "ġe-fōn"
+  },
+  "ge frecnian": {
+    "def": "1333 (n",
+    "grammar": "vb. II",
+    "lemma": "ġe-frēcnian"
+  },
+  "ge fremman": {
+    "def": "advance (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-fremman"
+  },
+  "ge fricgan": {
+    "def": "learn (orig",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fricgan"
+  },
+  "ge frignan": {
+    "def": "(orig",
+    "grammar": "vb. 3",
+    "lemma": "ġe-friġnan"
+  },
+  "ge frunen": {
+    "def": "see ġe-friġnan",
+    "grammar": "",
+    "lemma": "ġe-frūnen"
+  },
+  "ge fræge": {
+    "def": "well known, re-nowned",
+    "grammar": "adj.",
+    "lemma": "ġe-frǣġe"
+  },
+  "ge frætwian": {
+    "def": "deck",
+    "grammar": "vb. II",
+    "lemma": "ġe-frætwian"
+  },
+  "ge fyllan": {
+    "def": "kill",
+    "grammar": "vb. I",
+    "lemma": "ġe-fyllan"
+  },
+  "ge fæg(?)": {
+    "def": "satisfactory, pleasing, dear",
+    "grammar": "adj.",
+    "lemma": "ġe-fæġ(?)"
+  },
+  "ge fægon": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fǣgon"
+  },
+  "ge gan": {
+    "def": "2676",
+    "grammar": "anv.",
+    "lemma": "ġe-gān"
+  },
+  "ge gangan": {
+    "def": "reach (see Lorz 1908: 24)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-gangan"
+  },
+  "ge giredan": {
+    "def": "see ġe-ġyrwan",
+    "grammar": "",
+    "lemma": "ġe-ġiredan"
+  },
+  "ge gretan": {
+    "def": "address",
+    "grammar": "vb. I",
+    "lemma": "ġe-grētan"
+  },
+  "ge gyrwan": {
+    "def": "equip",
+    "grammar": "vb. I",
+    "lemma": "ġe-ġyrwan"
+  },
+  "ge hatan": {
+    "def": "(vow, threat-en)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hātan"
+  },
+  "ge healdan": {
+    "def": "keep, guard, rule",
+    "grammar": "vb. 7",
+    "lemma": "ġe-healdan"
+  },
+  "ge heawan": {
+    "def": "cut (to pieces)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hēawan"
+  },
+  "ge hedan": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēdan"
+  },
+  "ge hegan": {
+    "def": "hold (a meeting)",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēġan"
+  },
+  "ge hladan": {
+    "def": "895",
+    "grammar": "vb. 6",
+    "lemma": "ġe-hladan"
+  },
+  "ge hleod": {
+    "def": "see ġe-hladan",
+    "grammar": "",
+    "lemma": "ġe-hlēod"
+  },
+  "ge hlyn(n)": {
+    "def": "loud sound, din",
+    "grammar": "nja.",
+    "lemma": "ġe-hlyn(n)"
+  },
+  "ge hnægan": {
+    "def": "humble, subdue",
+    "grammar": "vb.  I",
+    "lemma": "ġe-hnǣġan"
+  },
+  "ge hwa": {
+    "def": "each (one)",
+    "grammar": "pron.",
+    "lemma": "ġe-hwā"
+  },
+  "ge hwelc": {
+    "def": "see ġe-hwylċ",
+    "grammar": "",
+    "lemma": "ġe-hwelċ"
+  },
+  "ge hweorfan": {
+    "def": "pass",
+    "grammar": "vb. 3",
+    "lemma": "ġe-hweorfan"
+  },
+  "ge hwylc": {
+    "def": "every (one), w",
+    "grammar": "pron.",
+    "lemma": "ġe-hwylċ"
+  },
+  "ge hwær": {
+    "def": "on every occasion",
+    "grammar": "adv.",
+    "lemma": "ġe-hwǣr"
+  },
+  "ge hwæþer": {
+    "def": "each (of two), both",
+    "grammar": "pron.",
+    "lemma": "ġe-hwæþer"
+  },
+  "ge hycgan": {
+    "def": "1988",
+    "grammar": "vb. III",
+    "lemma": "ġe-hycgan"
+  },
+  "ge hygd": {
+    "def": "2045",
+    "grammar": "fni.",
+    "lemma": "ġe-hyġd"
+  },
+  "ge hyld": {
+    "def": "OEG § ̄610",
+    "grammar": "ni.",
+    "lemma": "ġe-hyld"
+  },
+  "ge hуdan": {
+    "def": "2235, 3059 (n",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯdan"
+  },
+  "ge hуran": {
+    "def": "learn",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯran"
+  },
+  "ge iode": {
+    "def": "see ġe-gān",
+    "grammar": "",
+    "lemma": "ġe-īode"
+  },
+  "ge lac": {
+    "def": "motion, play",
+    "grammar": "n.",
+    "lemma": "ġe-lāc"
+  },
+  "ge lad": {
+    "def": "1410",
+    "grammar": "n.",
+    "lemma": "ġe-lād"
+  },
+  "ge lafian": {
+    "def": "LAVE, refresh",
+    "grammar": "vb. II",
+    "lemma": "ġe-lafian"
+  },
+  "ge lang": {
+    "def": "dependent on (æt)",
+    "grammar": "adj.",
+    "lemma": "ġe-lang"
+  },
+  "ge lenge": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġe-lenġe"
+  },
+  "ge leogan": {
+    "def": "play false (w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-lēogan"
+  },
+  "ge lic": {
+    "def": "2164 (n",
+    "grammar": "adj.",
+    "lemma": "ġe-līċ"
+  },
+  "ge licgan": {
+    "def": "3146",
+    "grammar": "vb. 5",
+    "lemma": "ġe-licgan"
+  },
+  "ge limpan": {
+    "def": "come to pass, befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "ġe-limpan"
+  },
+  "ge lome": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ġe-lōme"
+  },
+  "ge long": {
+    "def": "see ġe-lang",
+    "grammar": "",
+    "lemma": "ġe-long"
+  },
+  "ge læran": {
+    "def": "advise, persuade (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣran"
+  },
+  "ge læstan": {
+    "def": "serve, stand by",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣstan"
+  },
+  "ge lуfan": {
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "ġe-lӯfan"
+  },
+  "ge mede": {
+    "def": "agreement, consent",
+    "grammar": "nja.",
+    "lemma": "ġe-mēde"
+  },
+  "ge meltan": {
+    "def": "897, 1608, 1615, 2628 (fig",
+    "grammar": "vb.  3",
+    "lemma": "ġe-meltan"
+  },
+  "ge met": {
+    "def": "fit, proper",
+    "grammar": "adj.",
+    "lemma": "ġe-met"
+  },
+  "ge metan": {
+    "def": "find",
+    "grammar": "vb. I",
+    "lemma": "ġe-mētan"
+  },
+  "ge meting": {
+    "def": "encounter",
+    "grammar": "f.",
+    "lemma": "ġe-mēting"
+  },
+  "ge mong": {
+    "def": "throng, troop",
+    "grammar": "n.",
+    "lemma": "ġe-mong"
+  },
+  "ge munan": {
+    "def": "bear in MIND, remember, think of",
+    "grammar": "prp.",
+    "lemma": "ġe-munan"
+  },
+  "ge mynd": {
+    "def": "memorial",
+    "grammar": "fni.",
+    "lemma": "ġe-mynd"
+  },
+  "ge myndgian": {
+    "def": "2450",
+    "grammar": "vb. II",
+    "lemma": "ġe-myndgian"
+  },
+  "ge myndig": {
+    "def": "intent (on) (w",
+    "grammar": "adj.",
+    "lemma": "ġe-myndiġ"
+  },
+  "ge myne": {
+    "def": "see ġe-munan",
+    "grammar": "",
+    "lemma": "ġe-myne"
+  },
+  "ge mænan": {
+    "def": "complain",
+    "grammar": "vb. I",
+    "lemma": "ġe-mǣnan"
+  },
+  "ge mæne": {
+    "def": "in com-mon, mutual, shared",
+    "grammar": "adj.",
+    "lemma": "ġe-mǣne"
+  },
+  "ge neahhe": {
+    "def": "abundant-ly, frequently",
+    "grammar": "adv.",
+    "lemma": "ġe-neahhe"
+  },
+  "ge nehost": {
+    "def": "see ġe-neahhe",
+    "grammar": "",
+    "lemma": "ġe-nehost"
+  },
+  "ge nesan": {
+    "def": "survive, get safely through",
+    "grammar": "vb. 5",
+    "lemma": "ġe-nesan"
+  },
+  "ge neþan": {
+    "def": "1469",
+    "grammar": "vb. I",
+    "lemma": "ġe-nēþan"
+  },
+  "ge niman": {
+    "def": "seize, take away",
+    "grammar": "vb. 4",
+    "lemma": "ġe-niman"
+  },
+  "ge nip": {
+    "def": "mist",
+    "grammar": "n.",
+    "lemma": "ġe-nip"
+  },
+  "ge nog": {
+    "def": "abundant, many",
+    "grammar": "adj.",
+    "lemma": "ġe-nōg"
+  },
+  "ge nyttian": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "ġe-nyttian"
+  },
+  "ge nægan": {
+    "def": "(approach), assail, attack",
+    "grammar": "vb. I",
+    "lemma": "ġe-nǣġan"
+  },
+  "ge rad": {
+    "def": "skilful, apt",
+    "grammar": "adj.",
+    "lemma": "ġe-rād"
+  },
+  "ge reordian": {
+    "def": "1788",
+    "grammar": "vb. II",
+    "lemma": "ġe-reordian"
+  },
+  "ge ridan": {
+    "def": "RIDE up to",
+    "grammar": "vb. 1",
+    "lemma": "ġe-rīdan"
+  },
+  "ge rum lice": {
+    "def": "‡at a distance, far away",
+    "grammar": "adv.",
+    "lemma": "ġe-rūm-līċe"
+  },
+  "ge rysne": {
+    "def": "proper, fit, becoming, appropriate",
+    "grammar": "",
+    "lemma": "ġe-rysne"
+  },
+  "ge ræcan": {
+    "def": "hit",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣċan"
+  },
+  "ge ræsan": {
+    "def": "2839",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣsan"
+  },
+  "ge saca": {
+    "def": "1773",
+    "grammar": "wk.",
+    "lemma": "ġe-saca"
+  },
+  "ge sacu": {
+    "def": "contention, enmity",
+    "grammar": "f.",
+    "lemma": "ġe-sacu"
+  },
+  "ge scad": {
+    "def": "discrimination",
+    "grammar": "n.",
+    "lemma": "ġe-scād"
+  },
+  "ge scadan": {
+    "def": "1555",
+    "grammar": "vb.  7",
+    "lemma": "ġe-scādan"
+  },
+  "ge sceaft": {
+    "def": "abstr",
+    "grammar": "fi.",
+    "lemma": "ġe-sceaft"
+  },
+  "ge sceap": {
+    "def": "creature, SHAPE, form",
+    "grammar": "n.",
+    "lemma": "ġe-sceap"
+  },
+  "ge sceod": {
+    "def": "see ġe-sceðþan",
+    "grammar": "",
+    "lemma": "ġe-sceōd"
+  },
+  "ge sceotan": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-scēotan"
+  },
+  "ge sceran": {
+    "def": "cut through",
+    "grammar": "vb. 4",
+    "lemma": "ġe-sceran"
+  },
+  "ge sceþðan": {
+    "def": "harm",
+    "grammar": "vb. 6",
+    "lemma": "ġe-sceþðan"
+  },
+  "ge scipe": {
+    "def": "fate",
+    "grammar": "ni.",
+    "lemma": "ġe-scipe"
+  },
+  "ge scrifan": {
+    "def": "assign, w",
+    "grammar": "vb. 1",
+    "lemma": "ġe-scrīfan"
+  },
+  "ge scyppan": {
+    "def": "97",
+    "grammar": "vb. 6",
+    "lemma": "ġe-scyppan"
+  },
+  "ge scæp hwil": {
+    "def": "fated time (hour)",
+    "grammar": "f.",
+    "lemma": "ġe-scæp-hwīl"
+  },
+  "ge secan": {
+    "def": "look for",
+    "grammar": "vb. I",
+    "lemma": "ġe-sēċan"
+  },
+  "ge secgan": {
+    "def": "tell",
+    "grammar": "vb. III",
+    "lemma": "ġe-secgan"
+  },
+  "ge segan( on)": {
+    "def": "ġe-sēgan (-on), see ġe-sēon",
+    "grammar": "",
+    "lemma": "ġe-sēgan(-on)"
+  },
+  "ge selda": {
+    "def": "(one in the same hall), companion, associate, comrade",
+    "grammar": "wk.",
+    "lemma": "ġe-selda"
+  },
+  "ge sellan": {
+    "def": "make a present of, 1029",
+    "grammar": "vb. I",
+    "lemma": "ġe-sellan"
+  },
+  "ge seon": {
+    "def": "perceive",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sēon"
+  },
+  "ge settan": {
+    "def": "establish",
+    "grammar": "vb. I",
+    "lemma": "ġe-settan"
+  },
+  "ge sigan": {
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "ġe-sīgan"
+  },
+  "ge sittan": {
+    "def": "171, 749 (sit up, see note), 1424, 1977, 2417, 2717",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sittan"
+  },
+  "ge sið": {
+    "def": "companion",
+    "grammar": "m.",
+    "lemma": "ġe-sīð"
+  },
+  "ge slean": {
+    "def": "459 (n",
+    "grammar": "vb. 6",
+    "lemma": "ġe-slēan"
+  },
+  "ge slyht": {
+    "def": "battle, conflict",
+    "grammar": "ni.",
+    "lemma": "ġe-slyht"
+  },
+  "ge sprecan": {
+    "def": "675, 1398, 1466, 3094",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sprecan"
+  },
+  "ge springan": {
+    "def": "arise",
+    "grammar": "vb. 3",
+    "lemma": "ġe-springan"
+  },
+  "ge standan": {
+    "def": "take one’s stand",
+    "grammar": "vb. 6",
+    "lemma": "ġe-standan"
+  },
+  "ge stepan": {
+    "def": "advance, support",
+    "grammar": "vb. I",
+    "lemma": "ġe-stēpan"
+  },
+  "ge steppan": {
+    "def": "walk",
+    "grammar": "vb. 6",
+    "lemma": "ġe-steppan"
+  },
+  "ge stigan": {
+    "def": "set out",
+    "grammar": "vb. 1",
+    "lemma": "ġe-stīgan"
+  },
+  "ge streon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "ġe-strēon"
+  },
+  "ge strуnan": {
+    "def": "gain",
+    "grammar": "vb. I",
+    "lemma": "ġe-strӯnan"
+  },
+  "ge sund": {
+    "def": "safe, unharmed",
+    "grammar": "adj.",
+    "lemma": "ġe-sund"
+  },
+  "ge swencan": {
+    "def": "strike down",
+    "grammar": "vb. I",
+    "lemma": "ġe-swenċan"
+  },
+  "ge sweorcan": {
+    "def": "1789",
+    "grammar": "vb. 3",
+    "lemma": "ġe-sweorcan"
+  },
+  "ge swican": {
+    "def": "prove ineffective",
+    "grammar": "vb. 1",
+    "lemma": "ġe-swīcan"
+  },
+  "ge swing": {
+    "def": "vibration, swirl, surf",
+    "grammar": "n.",
+    "lemma": "ġe-swinġ"
+  },
+  "ge syngian": {
+    "def": "do wrong",
+    "grammar": "vb. II",
+    "lemma": "ġe-syngian"
+  },
+  "ge synto": {
+    "def": "safety",
+    "grammar": "f.",
+    "lemma": "ġe-synto"
+  },
+  "ge sælan": {
+    "def": "chance, turn out ( ̄favorably)",
+    "grammar": "vb. I",
+    "lemma": "ġe-sǣlan"
+  },
+  "ge sуne": {
+    "def": "evident",
+    "grammar": "adj.",
+    "lemma": "ġe-sӯne"
+  },
+  "ge tenge": {
+    "def": "close to (w",
+    "grammar": "adj.",
+    "lemma": "ġe-tenġe"
+  },
+  "ge teogan": {
+    "def": "assign, allot",
+    "grammar": "vb. II",
+    "lemma": "ġe-tēoġan"
+  },
+  "ge teon": {
+    "def": "1545, 2610",
+    "grammar": "vb. 2",
+    "lemma": "ġe-tēon"
+  },
+  "ge trum": {
+    "def": "company",
+    "grammar": "n.",
+    "lemma": "ġe-trum"
+  },
+  "ge truwian": {
+    "def": "trust",
+    "grammar": "vb. II",
+    "lemma": "ġe-truwian"
+  },
+  "ge trуwe": {
+    "def": "faithful",
+    "grammar": "adj.",
+    "lemma": "ġe-trӯwe"
+  },
+  "ge twæfan": {
+    "def": "separate, part, put an end to",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣfan"
+  },
+  "ge twæman": {
+    "def": "hinder",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣman"
+  },
+  "ge tæcan": {
+    "def": "point out, assign",
+    "grammar": "vb. I",
+    "lemma": "ġe-tǣċan"
+  },
+  "ge tæse": {
+    "def": "1320",
+    "grammar": "adj.",
+    "lemma": "ġe-tǣse"
+  },
+  "ge unnan": {
+    "def": "1661",
+    "grammar": "prp.",
+    "lemma": "ġe-unnan"
+  },
+  "ge wadan": {
+    "def": "advance (to a cer-tain point)",
+    "grammar": "vb. 6",
+    "lemma": "ġe-wadan"
+  },
+  "ge wealc": {
+    "def": "464",
+    "grammar": "n.",
+    "lemma": "ġe-wealc"
+  },
+  "ge weald": {
+    "def": "control",
+    "grammar": "n.",
+    "lemma": "ġe-weald"
+  },
+  "ge wealdan": {
+    "def": "WIELD, have control of",
+    "grammar": "vb. 7",
+    "lemma": "ġe-wealdan"
+  },
+  "ge weaxan": {
+    "def": "increase",
+    "grammar": "vb. 7",
+    "lemma": "ġe-weaxan"
+  },
+  "ge wegan": {
+    "def": "fight",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wegan"
+  },
+  "ge wendan": {
+    "def": "315",
+    "grammar": "vb. I",
+    "lemma": "ġe-wendan"
+  },
+  "ge weorc": {
+    "def": "2711",
+    "grammar": "n.",
+    "lemma": "ġe-weorc"
+  },
+  "ge weorðan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "ġe-weorðan"
+  },
+  "ge wican": {
+    "def": "give way, fail",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wīcan"
+  },
+  "ge widre": {
+    "def": "storm",
+    "grammar": "nja.",
+    "lemma": "ġe-widre"
+  },
+  "ge wif(orge wife)": {
+    "def": "WEB (of destiny), fortune",
+    "grammar": "ni.",
+    "lemma": "ġe-wif(orġe-wife)"
+  },
+  "ge win(n)": {
+    "def": "struggle, fight",
+    "grammar": "n.",
+    "lemma": "ġe-win(n)"
+  },
+  "ge windanvb.3": {
+    "def": "turn",
+    "grammar": "go",
+    "lemma": "ġe-windanvb.3"
+  },
+  "ge wiofu": {
+    "def": "see ġe-wif",
+    "grammar": "",
+    "lemma": "ġe-wiofu"
+  },
+  "ge wis lice": {
+    "def": "1350",
+    "grammar": "adv.",
+    "lemma": "ġe-wis-līċe"
+  },
+  "ge wit(t)": {
+    "def": "senses",
+    "grammar": "nja.",
+    "lemma": "ġe-wit(t)"
+  },
+  "ge witan": {
+    "def": "go",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wītan"
+  },
+  "ge wittig": {
+    "def": "conscious",
+    "grammar": "adj.",
+    "lemma": "ġe-wittiġ"
+  },
+  "ge wrecan": {
+    "def": "punish",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wrecan"
+  },
+  "ge wrixle": {
+    "def": "nja",
+    "grammar": "nja.",
+    "lemma": "ġe-wrixle"
+  },
+  "ge wunian": {
+    "def": "†remain with, stand by (someone)",
+    "grammar": "vb. II",
+    "lemma": "ġe-wunian"
+  },
+  "ge wyrcan": {
+    "def": "perform, carry out, accomplish, achieve",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrċan"
+  },
+  "ge wyrpan": {
+    "def": "recover",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrpan"
+  },
+  "ge wæde": {
+    "def": "equipment, armor",
+    "grammar": "nja.",
+    "lemma": "ġe-wǣde"
+  },
+  "ge æfnan": {
+    "def": "carry out",
+    "grammar": "vb. I",
+    "lemma": "ġe-æfnan"
+  },
+  "ge æhtle( a?)": {
+    "def": "consider-ation, esteem",
+    "grammar": "wk.",
+    "lemma": "ġe-æhtle(-a?)"
+  },
+  "ge þah": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þāh"
+  },
+  "ge þearfian": {
+    "def": "‡necessitate, impose necessity",
+    "grammar": "vb.  II",
+    "lemma": "ġe-þearfian"
+  },
+  "ge þencan": {
+    "def": "remember",
+    "grammar": "vb. I",
+    "lemma": "ġe-þenċan"
+  },
+  "ge þeon": {
+    "def": "flourish",
+    "grammar": "vb. 1",
+    "lemma": "ġe-þēon"
+  },
+  "ge þicgan": {
+    "def": "consume, drink",
+    "grammar": "vb.  5",
+    "lemma": "ġe-þicgan"
+  },
+  "ge þingan": {
+    "def": "determine, appoint, intend",
+    "grammar": "vb. I",
+    "lemma": "ġe-þinġan"
+  },
+  "ge þinge": {
+    "def": "compact",
+    "grammar": "nja.",
+    "lemma": "ġe-þinġe"
+  },
+  "ge þoht": {
+    "def": "256, 610",
+    "grammar": "m.",
+    "lemma": "ġe-þōht"
+  },
+  "ge þolian": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "ġe-þolian"
+  },
+  "ge þonc": {
+    "def": "2332",
+    "grammar": "m.",
+    "lemma": "ġe-þonc"
+  },
+  "ge þring": {
+    "def": "tumult",
+    "grammar": "n.",
+    "lemma": "ġe-þrinġ"
+  },
+  "ge þringan": {
+    "def": "press ( ̄forward)",
+    "grammar": "vb. 3",
+    "lemma": "ġe-þringan"
+  },
+  "ge þruen": {
+    "def": "forged, hammered, made",
+    "grammar": "pp.",
+    "lemma": "ġe-þrūen"
+  },
+  "ge þræc": {
+    "def": "press, heap",
+    "grammar": "n.",
+    "lemma": "ġe-þræc"
+  },
+  "ge þungen": {
+    "def": "see þēon, vb",
+    "grammar": "",
+    "lemma": "ġe-þungen"
+  },
+  "ge þwære": {
+    "def": "united, loyal",
+    "grammar": "adj.",
+    "lemma": "ġe-þwǣre"
+  },
+  "ge þyld": {
+    "def": "1395",
+    "grammar": "fi.",
+    "lemma": "ġe-þyld"
+  },
+  "ge þægon": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þǣgon"
+  },
+  "ge þуwe": {
+    "def": "customary, usual",
+    "grammar": "adj.",
+    "lemma": "ġe-þӯwe"
+  },
+  "ge уwan": {
+    "def": "present, bestow",
+    "grammar": "vb. I",
+    "lemma": "ġe-ӯwan"
   },
   "ge-": {
     "def": "p",
     "grammar": "prefix.",
     "lemma": "ġe-"
   },
+  "ge-ahsi": {
+    "def": "hear",
+    "grammar": "vb.  II",
+    "lemma": "ġe-āhsian"
+  },
   "ge-ahsian": {
     "def": "hear",
     "grammar": "vb.  II",
     "lemma": "ġe-āhsian"
   },
+  "ge-ahsie": {
+    "def": "hear",
+    "grammar": "vb.  II",
+    "lemma": "ġe-āhsian"
+  },
+  "ge-bann": {
+    "def": "command, order",
+    "grammar": "vb. 7",
+    "lemma": "ġe-bannan"
+  },
   "ge-bannan": {
+    "def": "command, order",
+    "grammar": "vb. 7",
+    "lemma": "ġe-bannan"
+  },
+  "ge-banne": {
     "def": "command, order",
     "grammar": "vb. 7",
     "lemma": "ġe-bannan"
@@ -5247,57 +16497,167 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-barn"
   },
+  "ge-bedd": {
+    "def": "665",
+    "grammar": "wk.",
+    "lemma": "ġe-bedda"
+  },
   "ge-bedda": {
     "def": "665",
     "grammar": "wk.",
     "lemma": "ġe-bedda"
+  },
+  "ge-bedde": {
+    "def": "665",
+    "grammar": "wk.",
+    "lemma": "ġe-bedda"
+  },
+  "ge-beod": {
+    "def": "show",
+    "grammar": "vb. 2",
+    "lemma": "ġe-bēodan"
   },
   "ge-beodan": {
     "def": "show",
     "grammar": "vb. 2",
     "lemma": "ġe-bēodan"
   },
+  "ge-beode": {
+    "def": "show",
+    "grammar": "vb. 2",
+    "lemma": "ġe-bēodan"
+  },
+  "ge-beorg": {
+    "def": "protect",
+    "grammar": "vb. 3",
+    "lemma": "ġe-beorgan"
+  },
   "ge-beorgan": {
     "def": "protect",
     "grammar": "vb. 3",
     "lemma": "ġe-beorgan"
+  },
+  "ge-beorge": {
+    "def": "protect",
+    "grammar": "vb. 3",
+    "lemma": "ġe-beorgan"
+  },
+  "ge-beoti": {
+    "def": "536",
+    "grammar": "vb.  II",
+    "lemma": "ġe-bēotian"
   },
   "ge-beotian": {
     "def": "536",
     "grammar": "vb.  II",
     "lemma": "ġe-bēotian"
   },
+  "ge-beotie": {
+    "def": "536",
+    "grammar": "vb.  II",
+    "lemma": "ġe-bēotian"
+  },
+  "ge-ber": {
+    "def": "1703",
+    "grammar": "vb.  4",
+    "lemma": "ġe-beran"
+  },
   "ge-beran": {
     "def": "1703",
     "grammar": "vb.  4",
     "lemma": "ġe-beran"
+  },
+  "ge-bere": {
+    "def": "1703",
+    "grammar": "vb.  4",
+    "lemma": "ġe-beran"
+  },
+  "ge-bet": {
+    "def": "remedy, pret",
+    "grammar": "vb. I",
+    "lemma": "ġe-bētan"
   },
   "ge-betan": {
     "def": "remedy, pret",
     "grammar": "vb. I",
     "lemma": "ġe-bētan"
   },
+  "ge-bete": {
+    "def": "remedy, pret",
+    "grammar": "vb. I",
+    "lemma": "ġe-bētan"
+  },
+  "ge-bid": {
+    "def": "2529",
+    "grammar": "vb. 1",
+    "lemma": "ġe-bīdan"
+  },
   "ge-bidan": {
     "def": "2529",
     "grammar": "vb. 1",
     "lemma": "ġe-bīdan"
+  },
+  "ge-bide": {
+    "def": "2529",
+    "grammar": "vb. 1",
+    "lemma": "ġe-bīdan"
+  },
+  "ge-bind": {
+    "def": "420",
+    "grammar": "vb. 3",
+    "lemma": "ġe-bindan"
   },
   "ge-bindan": {
     "def": "420",
     "grammar": "vb. 3",
     "lemma": "ġe-bindan"
   },
+  "ge-binde": {
+    "def": "420",
+    "grammar": "vb. 3",
+    "lemma": "ġe-bindan"
+  },
+  "ge-brec": {
+    "def": "crush, destroy",
+    "grammar": "vb. 4",
+    "lemma": "ġe-brecan"
+  },
   "ge-brecan": {
     "def": "crush, destroy",
     "grammar": "vb. 4",
     "lemma": "ġe-brecan"
+  },
+  "ge-brece": {
+    "def": "crush, destroy",
+    "grammar": "vb. 4",
+    "lemma": "ġe-brecan"
+  },
+  "ge-bregd": {
+    "def": "1664, 3 sg",
+    "grammar": "vb. 3",
+    "lemma": "ġe-breġdan"
   },
   "ge-bregdan": {
     "def": "1664, 3 sg",
     "grammar": "vb. 3",
     "lemma": "ġe-breġdan"
   },
+  "ge-bregde": {
+    "def": "1664, 3 sg",
+    "grammar": "vb. 3",
+    "lemma": "ġe-breġdan"
+  },
+  "ge-bring": {
+    "def": "3009",
+    "grammar": "vb. I",
+    "lemma": "ġe-bringan"
+  },
   "ge-bringan": {
+    "def": "3009",
+    "grammar": "vb. I",
+    "lemma": "ġe-bringan"
+  },
+  "ge-bringe": {
     "def": "3009",
     "grammar": "vb. I",
     "lemma": "ġe-bringan"
@@ -5312,17 +16672,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-bræc"
   },
+  "ge-bu": {
+    "def": "settle in",
+    "grammar": "vb. 7",
+    "lemma": "ġe-būan"
+  },
   "ge-buan": {
     "def": "settle in",
     "grammar": "vb. 7",
     "lemma": "ġe-būan"
+  },
+  "ge-bue": {
+    "def": "settle in",
+    "grammar": "vb. 7",
+    "lemma": "ġe-būan"
+  },
+  "ge-bug": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "ġe-būgan"
   },
   "ge-bugan": {
     "def": "fall",
     "grammar": "vb. 2",
     "lemma": "ġe-būgan"
   },
+  "ge-buge": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "ġe-būgan"
+  },
+  "ge-bycg": {
+    "def": "pay for, obtain",
+    "grammar": "vb. I",
+    "lemma": "ġe-bycgan"
+  },
   "ge-bycgan": {
+    "def": "pay for, obtain",
+    "grammar": "vb. I",
+    "lemma": "ġe-bycgan"
+  },
+  "ge-bycge": {
     "def": "pay for, obtain",
     "grammar": "vb. I",
     "lemma": "ġe-bycgan"
@@ -5332,22 +16722,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġe-byrd"
   },
+  "ge-byrn": {
+    "def": "BURN (intr",
+    "grammar": "vb. 3",
+    "lemma": "ġe-byrnan"
+  },
   "ge-byrnan": {
     "def": "BURN (intr",
     "grammar": "vb. 3",
     "lemma": "ġe-byrnan"
+  },
+  "ge-byrne": {
+    "def": "BURN (intr",
+    "grammar": "vb. 3",
+    "lemma": "ġe-byrnan"
+  },
+  "ge-bær": {
+    "def": "behave, fare",
+    "grammar": "vb. I",
+    "lemma": "ġe-bǣran"
   },
   "ge-bæran": {
     "def": "behave, fare",
     "grammar": "vb. I",
     "lemma": "ġe-bǣran"
   },
+  "ge-bære": {
+    "def": "behave, fare",
+    "grammar": "vb. I",
+    "lemma": "ġe-bǣran"
+  },
+  "ge-ceos": {
+    "def": "1759",
+    "grammar": "vb. 2",
+    "lemma": "ġe-ċēosan"
+  },
   "ge-ceosan": {
     "def": "1759",
     "grammar": "vb. 2",
     "lemma": "ġe-ċēosan"
   },
+  "ge-ceose": {
+    "def": "1759",
+    "grammar": "vb. 2",
+    "lemma": "ġe-ċēosan"
+  },
+  "ge-cnaw": {
+    "def": "vb",
+    "grammar": "vb.  7",
+    "lemma": "ġe-cnāwan"
+  },
   "ge-cnawan": {
+    "def": "vb",
+    "grammar": "vb.  7",
+    "lemma": "ġe-cnāwan"
+  },
+  "ge-cnawe": {
     "def": "vb",
     "grammar": "vb.  7",
     "lemma": "ġe-cnāwan"
@@ -5357,52 +16787,137 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-cranc"
   },
+  "ge-cring": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "ġe-cringan"
+  },
   "ge-cringan": {
     "def": "fall (in battle), die",
     "grammar": "vb. 3",
     "lemma": "ġe-cringan"
+  },
+  "ge-cringe": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "ġe-cringan"
+  },
+  "ge-cweð": {
+    "def": "2664",
+    "grammar": "vb. 5",
+    "lemma": "ġe-cweðan"
   },
   "ge-cweðan": {
     "def": "2664",
     "grammar": "vb. 5",
     "lemma": "ġe-cweðan"
   },
+  "ge-cweðe": {
+    "def": "2664",
+    "grammar": "vb. 5",
+    "lemma": "ġe-cweðan"
+  },
+  "ge-cyn": {
+    "def": "natural, inherited",
+    "grammar": "adj.",
+    "lemma": "ġe-cynde"
+  },
+  "ge-cynd": {
+    "def": "natural, inherited",
+    "grammar": "adj.",
+    "lemma": "ġe-cynde"
+  },
   "ge-cynde": {
     "def": "natural, inherited",
     "grammar": "adj.",
     "lemma": "ġe-cynde"
+  },
+  "ge-cyss": {
+    "def": "1870",
+    "grammar": "vb. I",
+    "lemma": "ġe-cyssan"
   },
   "ge-cyssan": {
     "def": "1870",
     "grammar": "vb. I",
     "lemma": "ġe-cyssan"
   },
+  "ge-cysse": {
+    "def": "1870",
+    "grammar": "vb. I",
+    "lemma": "ġe-cyssan"
+  },
+  "ge-cуp": {
+    "def": "buy",
+    "grammar": "vb. I",
+    "lemma": "ġe-ċӯpan"
+  },
   "ge-cуpan": {
     "def": "buy",
     "grammar": "vb. I",
     "lemma": "ġe-ċӯpan"
+  },
+  "ge-cуpe": {
+    "def": "buy",
+    "grammar": "vb. I",
+    "lemma": "ġe-ċӯpan"
+  },
+  "ge-cуð": {
+    "def": "announce",
+    "grammar": "vb. I",
+    "lemma": "ġe-cӯðan"
   },
   "ge-cуðan": {
     "def": "announce",
     "grammar": "vb. I",
     "lemma": "ġe-cӯðan"
   },
+  "ge-cуðe": {
+    "def": "announce",
+    "grammar": "vb. I",
+    "lemma": "ġe-cӯðan"
+  },
+  "ge-d": {
+    "def": "render",
+    "grammar": "anv.",
+    "lemma": "ġe-dōn"
+  },
   "ge-dal": {
     "def": "parting",
     "grammar": "n.",
     "lemma": "ġe-dāl"
+  },
+  "ge-de": {
+    "def": "render",
+    "grammar": "anv.",
+    "lemma": "ġe-dōn"
   },
   "ge-deaf": {
     "def": "see ġe-dūfan",
     "grammar": "",
     "lemma": "ġe-dēaf"
   },
+  "ge-def": {
+    "def": "seemly, proper, just",
+    "grammar": "adj.",
+    "lemma": "ġe-dēfe"
+  },
   "ge-defe": {
     "def": "seemly, proper, just",
     "grammar": "adj.",
     "lemma": "ġe-dēfe"
   },
+  "ge-dig": {
+    "def": "survive, endure",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dīġan"
+  },
   "ge-digan": {
+    "def": "survive, endure",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dīġan"
+  },
+  "ge-dige": {
     "def": "survive, endure",
     "grammar": "vb.  I",
     "lemma": "ġe-dīġan"
@@ -5412,7 +16927,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "ġe-dōn"
   },
+  "ge-dreos": {
+    "def": "fall, decline",
+    "grammar": "vb.  2",
+    "lemma": "ġe-drēosan"
+  },
   "ge-dreosan": {
+    "def": "fall, decline",
+    "grammar": "vb.  2",
+    "lemma": "ġe-drēosan"
+  },
+  "ge-dreose": {
     "def": "fall, decline",
     "grammar": "vb.  2",
     "lemma": "ġe-drēosan"
@@ -5427,25 +16952,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-drǣġ(ġe-drēag)"
   },
+  "ge-duf": {
+    "def": "sink in",
+    "grammar": "vb. 2",
+    "lemma": "ġe-dūfan"
+  },
   "ge-dufan": {
     "def": "sink in",
     "grammar": "vb. 2",
     "lemma": "ġe-dūfan"
+  },
+  "ge-dufe": {
+    "def": "sink in",
+    "grammar": "vb. 2",
+    "lemma": "ġe-dūfan"
+  },
+  "ge-dæl": {
+    "def": "sever (wið, from)",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dǣlan"
   },
   "ge-dælan": {
     "def": "sever (wið, from)",
     "grammar": "vb.  I",
     "lemma": "ġe-dǣlan"
   },
+  "ge-dæle": {
+    "def": "sever (wið, from)",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dǣlan"
+  },
+  "ge-dуg": {
+    "def": "see ġe-dīġan",
+    "grammar": "",
+    "lemma": "ġe-dӯġan"
+  },
   "ge-dуgan": {
     "def": "see ġe-dīġan",
     "grammar": "",
     "lemma": "ġe-dӯġan"
   },
+  "ge-dуge": {
+    "def": "see ġe-dīġan",
+    "grammar": "",
+    "lemma": "ġe-dӯġan"
+  },
+  "ge-f": {
+    "def": "seize, grasp",
+    "grammar": "vb. 7",
+    "lemma": "ġe-fōn"
+  },
+  "ge-far": {
+    "def": "act",
+    "grammar": "vb. 6",
+    "lemma": "ġe-faran"
+  },
   "ge-faran": {
     "def": "act",
     "grammar": "vb. 6",
     "lemma": "ġe-faran"
+  },
+  "ge-fare": {
+    "def": "act",
+    "grammar": "vb. 6",
+    "lemma": "ġe-faran"
+  },
+  "ge-fe": {
+    "def": "rejoice",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fēon"
   },
   "ge-fea": {
     "def": "enjoyment, pleasure",
@@ -5457,10 +17032,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-feah"
   },
+  "ge-feall": {
+    "def": "1755",
+    "grammar": "vb. 7",
+    "lemma": "ġe-feallan"
+  },
   "ge-feallan": {
     "def": "1755",
     "grammar": "vb. 7",
     "lemma": "ġe-feallan"
+  },
+  "ge-fealle": {
+    "def": "1755",
+    "grammar": "vb. 7",
+    "lemma": "ġe-feallan"
+  },
+  "ge-fee": {
+    "def": "rejoice",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fēon"
+  },
+  "ge-feg": {
+    "def": "-feh, see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fēgon"
+  },
+  "ge-fege": {
+    "def": "-feh, see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fēgon"
   },
   "ge-fegon": {
     "def": "-feh, see ġe-fēon",
@@ -5468,11 +17068,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fēgon"
   },
   "ge-feoht": {
-    "def": "2048",
-    "grammar": "n.",
-    "lemma": "ġe-feoht"
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "ġe-feohtan"
   },
   "ge-feohtan": {
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "ġe-feohtan"
+  },
+  "ge-feohte": {
     "def": "vb",
     "grammar": "vb. 3",
     "lemma": "ġe-feohtan"
@@ -5482,17 +17087,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ġe-fēon"
   },
+  "ge-fer": {
+    "def": "reach, attain, bring about",
+    "grammar": "vb. I",
+    "lemma": "ġe-fēran"
+  },
   "ge-feran": {
     "def": "reach, attain, bring about",
     "grammar": "vb. I",
     "lemma": "ġe-fēran"
+  },
+  "ge-fere": {
+    "def": "reach, attain, bring about",
+    "grammar": "vb. I",
+    "lemma": "ġe-fēran"
+  },
+  "ge-feri": {
+    "def": "3107",
+    "grammar": "vb.  I",
+    "lemma": "ġe-ferian"
   },
   "ge-ferian": {
     "def": "3107",
     "grammar": "vb.  I",
     "lemma": "ġe-ferian"
   },
+  "ge-ferie": {
+    "def": "3107",
+    "grammar": "vb.  I",
+    "lemma": "ġe-ferian"
+  },
+  "ge-feti": {
+    "def": "bring",
+    "grammar": "vb. II",
+    "lemma": "ġe-fetian"
+  },
   "ge-fetian": {
+    "def": "bring",
+    "grammar": "vb. II",
+    "lemma": "ġe-fetian"
+  },
+  "ge-fetie": {
     "def": "bring",
     "grammar": "vb. II",
     "lemma": "ġe-fetian"
@@ -5507,107 +17142,302 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ġe-fōn"
   },
+  "ge-frecni": {
+    "def": "1333 (n",
+    "grammar": "vb. II",
+    "lemma": "ġe-frēcnian"
+  },
   "ge-frecnian": {
     "def": "1333 (n",
     "grammar": "vb. II",
     "lemma": "ġe-frēcnian"
+  },
+  "ge-frecnie": {
+    "def": "1333 (n",
+    "grammar": "vb. II",
+    "lemma": "ġe-frēcnian"
+  },
+  "ge-fremm": {
+    "def": "advance (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-fremman"
   },
   "ge-fremman": {
     "def": "advance (w",
     "grammar": "vb. I",
     "lemma": "ġe-fremman"
   },
+  "ge-fremme": {
+    "def": "advance (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-fremman"
+  },
+  "ge-fricg": {
+    "def": "learn (orig",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fricgan"
+  },
   "ge-fricgan": {
     "def": "learn (orig",
     "grammar": "vb. 5",
     "lemma": "ġe-fricgan"
+  },
+  "ge-fricge": {
+    "def": "learn (orig",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fricgan"
+  },
+  "ge-frign": {
+    "def": "(orig",
+    "grammar": "vb. 3",
+    "lemma": "ġe-friġnan"
   },
   "ge-frignan": {
     "def": "(orig",
     "grammar": "vb. 3",
     "lemma": "ġe-friġnan"
   },
+  "ge-frigne": {
+    "def": "(orig",
+    "grammar": "vb. 3",
+    "lemma": "ġe-friġnan"
+  },
+  "ge-frun": {
+    "def": "see ġe-friġnan",
+    "grammar": "",
+    "lemma": "ġe-frūnen"
+  },
+  "ge-frune": {
+    "def": "see ġe-friġnan",
+    "grammar": "",
+    "lemma": "ġe-frūnen"
+  },
   "ge-frunen": {
     "def": "see ġe-friġnan",
     "grammar": "",
     "lemma": "ġe-frūnen"
+  },
+  "ge-fræg": {
+    "def": "well known, re-nowned",
+    "grammar": "adj.",
+    "lemma": "ġe-frǣġe"
   },
   "ge-fræge": {
     "def": "well known, re-nowned",
     "grammar": "adj.",
     "lemma": "ġe-frǣġe"
   },
+  "ge-frætwi": {
+    "def": "deck",
+    "grammar": "vb. II",
+    "lemma": "ġe-frætwian"
+  },
   "ge-frætwian": {
     "def": "deck",
     "grammar": "vb. II",
     "lemma": "ġe-frætwian"
+  },
+  "ge-frætwie": {
+    "def": "deck",
+    "grammar": "vb. II",
+    "lemma": "ġe-frætwian"
+  },
+  "ge-fyll": {
+    "def": "kill",
+    "grammar": "vb. I",
+    "lemma": "ġe-fyllan"
   },
   "ge-fyllan": {
     "def": "kill",
     "grammar": "vb. I",
     "lemma": "ġe-fyllan"
   },
+  "ge-fylle": {
+    "def": "kill",
+    "grammar": "vb. I",
+    "lemma": "ġe-fyllan"
+  },
+  "ge-fæg": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fǣgon"
+  },
   "ge-fæg(?)": {
     "def": "satisfactory, pleasing, dear",
     "grammar": "adj.",
     "lemma": "ġe-fæġ(?)"
+  },
+  "ge-fæge": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fǣgon"
   },
   "ge-fægon": {
     "def": "see ġe-fēon",
     "grammar": "",
     "lemma": "ġe-fǣgon"
   },
+  "ge-g": {
+    "def": "2676",
+    "grammar": "anv.",
+    "lemma": "ġe-gān"
+  },
   "ge-gan": {
     "def": "2676",
     "grammar": "anv.",
     "lemma": "ġe-gān"
+  },
+  "ge-gang": {
+    "def": "reach (see Lorz 1908: 24)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-gangan"
   },
   "ge-gangan": {
     "def": "reach (see Lorz 1908: 24)",
     "grammar": "vb. 7",
     "lemma": "ġe-gangan"
   },
+  "ge-gange": {
+    "def": "reach (see Lorz 1908: 24)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-gangan"
+  },
+  "ge-ge": {
+    "def": "2676",
+    "grammar": "anv.",
+    "lemma": "ġe-gān"
+  },
+  "ge-gired": {
+    "def": "see ġe-ġyrwan",
+    "grammar": "",
+    "lemma": "ġe-ġiredan"
+  },
   "ge-giredan": {
     "def": "see ġe-ġyrwan",
     "grammar": "",
     "lemma": "ġe-ġiredan"
+  },
+  "ge-girede": {
+    "def": "see ġe-ġyrwan",
+    "grammar": "",
+    "lemma": "ġe-ġiredan"
+  },
+  "ge-gret": {
+    "def": "address",
+    "grammar": "vb. I",
+    "lemma": "ġe-grētan"
   },
   "ge-gretan": {
     "def": "address",
     "grammar": "vb. I",
     "lemma": "ġe-grētan"
   },
+  "ge-grete": {
+    "def": "address",
+    "grammar": "vb. I",
+    "lemma": "ġe-grētan"
+  },
+  "ge-gyrw": {
+    "def": "equip",
+    "grammar": "vb. I",
+    "lemma": "ġe-ġyrwan"
+  },
   "ge-gyrwan": {
     "def": "equip",
     "grammar": "vb. I",
     "lemma": "ġe-ġyrwan"
+  },
+  "ge-gyrwe": {
+    "def": "equip",
+    "grammar": "vb. I",
+    "lemma": "ġe-ġyrwan"
+  },
+  "ge-hat": {
+    "def": "(vow, threat-en)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hātan"
   },
   "ge-hatan": {
     "def": "(vow, threat-en)",
     "grammar": "vb. 7",
     "lemma": "ġe-hātan"
   },
+  "ge-hate": {
+    "def": "(vow, threat-en)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hātan"
+  },
+  "ge-heald": {
+    "def": "keep, guard, rule",
+    "grammar": "vb. 7",
+    "lemma": "ġe-healdan"
+  },
   "ge-healdan": {
     "def": "keep, guard, rule",
     "grammar": "vb. 7",
     "lemma": "ġe-healdan"
+  },
+  "ge-healde": {
+    "def": "keep, guard, rule",
+    "grammar": "vb. 7",
+    "lemma": "ġe-healdan"
+  },
+  "ge-heaw": {
+    "def": "cut (to pieces)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hēawan"
   },
   "ge-heawan": {
     "def": "cut (to pieces)",
     "grammar": "vb. 7",
     "lemma": "ġe-hēawan"
   },
+  "ge-heawe": {
+    "def": "cut (to pieces)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hēawan"
+  },
+  "ge-hed": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēdan"
+  },
   "ge-hedan": {
     "def": "HEED, care for",
     "grammar": "vb. I",
     "lemma": "ġe-hēdan"
+  },
+  "ge-hede": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēdan"
+  },
+  "ge-heg": {
+    "def": "hold (a meeting)",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēġan"
   },
   "ge-hegan": {
     "def": "hold (a meeting)",
     "grammar": "vb. I",
     "lemma": "ġe-hēġan"
   },
+  "ge-hege": {
+    "def": "hold (a meeting)",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēġan"
+  },
+  "ge-hlad": {
+    "def": "895",
+    "grammar": "vb. 6",
+    "lemma": "ġe-hladan"
+  },
   "ge-hladan": {
+    "def": "895",
+    "grammar": "vb. 6",
+    "lemma": "ġe-hladan"
+  },
+  "ge-hlade": {
     "def": "895",
     "grammar": "vb. 6",
     "lemma": "ġe-hladan"
@@ -5622,12 +17452,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "ġe-hlyn(n)"
   },
+  "ge-hnæg": {
+    "def": "humble, subdue",
+    "grammar": "vb.  I",
+    "lemma": "ġe-hnǣġan"
+  },
   "ge-hnægan": {
     "def": "humble, subdue",
     "grammar": "vb.  I",
     "lemma": "ġe-hnǣġan"
   },
+  "ge-hnæge": {
+    "def": "humble, subdue",
+    "grammar": "vb.  I",
+    "lemma": "ġe-hnǣġan"
+  },
+  "ge-hw": {
+    "def": "each (one)",
+    "grammar": "pron.",
+    "lemma": "ġe-hwā"
+  },
   "ge-hwa": {
+    "def": "each (one)",
+    "grammar": "pron.",
+    "lemma": "ġe-hwā"
+  },
+  "ge-hwe": {
     "def": "each (one)",
     "grammar": "pron.",
     "lemma": "ġe-hwā"
@@ -5637,7 +17487,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-hwelċ"
   },
+  "ge-hweorf": {
+    "def": "pass",
+    "grammar": "vb. 3",
+    "lemma": "ġe-hweorfan"
+  },
   "ge-hweorfan": {
+    "def": "pass",
+    "grammar": "vb. 3",
+    "lemma": "ġe-hweorfan"
+  },
+  "ge-hweorfe": {
     "def": "pass",
     "grammar": "vb. 3",
     "lemma": "ġe-hweorfan"
@@ -5657,7 +17517,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "ġe-hwæþer"
   },
+  "ge-hycg": {
+    "def": "1988",
+    "grammar": "vb. III",
+    "lemma": "ġe-hycgan"
+  },
   "ge-hycgan": {
+    "def": "1988",
+    "grammar": "vb. III",
+    "lemma": "ġe-hycgan"
+  },
+  "ge-hycge": {
     "def": "1988",
     "grammar": "vb. III",
     "lemma": "ġe-hycgan"
@@ -5672,15 +17542,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ni.",
     "lemma": "ġe-hyld"
   },
+  "ge-hуd": {
+    "def": "2235, 3059 (n",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯdan"
+  },
   "ge-hуdan": {
     "def": "2235, 3059 (n",
     "grammar": "vb. I",
     "lemma": "ġe-hӯdan"
   },
+  "ge-hуde": {
+    "def": "2235, 3059 (n",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯdan"
+  },
+  "ge-hуr": {
+    "def": "learn",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯran"
+  },
   "ge-hуran": {
     "def": "learn",
     "grammar": "vb. I",
     "lemma": "ġe-hӯran"
+  },
+  "ge-hуre": {
+    "def": "learn",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯran"
+  },
+  "ge-io": {
+    "def": "see ġe-gān",
+    "grammar": "",
+    "lemma": "ġe-īode"
+  },
+  "ge-iod": {
+    "def": "see ġe-gān",
+    "grammar": "",
+    "lemma": "ġe-īode"
   },
   "ge-iode": {
     "def": "see ġe-gān",
@@ -5697,7 +17597,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-lād"
   },
+  "ge-lafi": {
+    "def": "LAVE, refresh",
+    "grammar": "vb. II",
+    "lemma": "ġe-lafian"
+  },
   "ge-lafian": {
+    "def": "LAVE, refresh",
+    "grammar": "vb. II",
+    "lemma": "ġe-lafian"
+  },
+  "ge-lafie": {
     "def": "LAVE, refresh",
     "grammar": "vb. II",
     "lemma": "ġe-lafian"
@@ -5707,12 +17617,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-lang"
   },
+  "ge-leng": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġe-lenġe"
+  },
   "ge-lenge": {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "ġe-lenġe"
   },
+  "ge-leog": {
+    "def": "play false (w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-lēogan"
+  },
   "ge-leogan": {
+    "def": "play false (w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-lēogan"
+  },
+  "ge-leoge": {
     "def": "play false (w",
     "grammar": "vb. 2",
     "lemma": "ġe-lēogan"
@@ -5722,15 +17647,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-līċ"
   },
+  "ge-licg": {
+    "def": "3146",
+    "grammar": "vb. 5",
+    "lemma": "ġe-licgan"
+  },
   "ge-licgan": {
     "def": "3146",
     "grammar": "vb. 5",
     "lemma": "ġe-licgan"
   },
+  "ge-licge": {
+    "def": "3146",
+    "grammar": "vb. 5",
+    "lemma": "ġe-licgan"
+  },
+  "ge-limp": {
+    "def": "come to pass, befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "ġe-limpan"
+  },
   "ge-limpan": {
     "def": "come to pass, befall, turn out",
     "grammar": "vb. 3",
     "lemma": "ġe-limpan"
+  },
+  "ge-limpe": {
+    "def": "come to pass, befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "ġe-limpan"
+  },
+  "ge-lom": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ġe-lōme"
   },
   "ge-lome": {
     "def": "adv",
@@ -5742,37 +17692,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-long"
   },
+  "ge-lær": {
+    "def": "advise, persuade (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣran"
+  },
   "ge-læran": {
     "def": "advise, persuade (w",
     "grammar": "vb. I",
     "lemma": "ġe-lǣran"
+  },
+  "ge-lære": {
+    "def": "advise, persuade (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣran"
+  },
+  "ge-læst": {
+    "def": "serve, stand by",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣstan"
   },
   "ge-læstan": {
     "def": "serve, stand by",
     "grammar": "vb. I",
     "lemma": "ġe-lǣstan"
   },
+  "ge-læste": {
+    "def": "serve, stand by",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣstan"
+  },
+  "ge-lуf": {
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "ġe-lӯfan"
+  },
   "ge-lуfan": {
     "def": "trust",
     "grammar": "vb. I",
     "lemma": "ġe-lӯfan"
+  },
+  "ge-lуfe": {
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "ġe-lӯfan"
+  },
+  "ge-me": {
+    "def": "agreement, consent",
+    "grammar": "nja.",
+    "lemma": "ġe-mēde"
+  },
+  "ge-med": {
+    "def": "agreement, consent",
+    "grammar": "nja.",
+    "lemma": "ġe-mēde"
   },
   "ge-mede": {
     "def": "agreement, consent",
     "grammar": "nja.",
     "lemma": "ġe-mēde"
   },
+  "ge-melt": {
+    "def": "897, 1608, 1615, 2628 (fig",
+    "grammar": "vb.  3",
+    "lemma": "ġe-meltan"
+  },
   "ge-meltan": {
     "def": "897, 1608, 1615, 2628 (fig",
     "grammar": "vb.  3",
     "lemma": "ġe-meltan"
   },
+  "ge-melte": {
+    "def": "897, 1608, 1615, 2628 (fig",
+    "grammar": "vb.  3",
+    "lemma": "ġe-meltan"
+  },
   "ge-met": {
-    "def": "fit, proper",
-    "grammar": "adj.",
-    "lemma": "ġe-met"
+    "def": "find",
+    "grammar": "vb. I",
+    "lemma": "ġe-mētan"
   },
   "ge-metan": {
+    "def": "find",
+    "grammar": "vb. I",
+    "lemma": "ġe-mētan"
+  },
+  "ge-mete": {
     "def": "find",
     "grammar": "vb. I",
     "lemma": "ġe-mētan"
@@ -5787,17 +17792,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-mong"
   },
+  "ge-mun": {
+    "def": "bear in MIND, remember, think of",
+    "grammar": "prp.",
+    "lemma": "ġe-munan"
+  },
   "ge-munan": {
     "def": "bear in MIND, remember, think of",
     "grammar": "prp.",
     "lemma": "ġe-munan"
+  },
+  "ge-mune": {
+    "def": "bear in MIND, remember, think of",
+    "grammar": "prp.",
+    "lemma": "ġe-munan"
+  },
+  "ge-my": {
+    "def": "see ġe-munan",
+    "grammar": "",
+    "lemma": "ġe-myne"
+  },
+  "ge-myn": {
+    "def": "see ġe-munan",
+    "grammar": "",
+    "lemma": "ġe-myne"
   },
   "ge-mynd": {
     "def": "memorial",
     "grammar": "fni.",
     "lemma": "ġe-mynd"
   },
+  "ge-mynde": {
+    "def": "intent (on) (w",
+    "grammar": "adj.",
+    "lemma": "ġe-myndiġ"
+  },
+  "ge-myndgi": {
+    "def": "2450",
+    "grammar": "vb. II",
+    "lemma": "ġe-myndgian"
+  },
   "ge-myndgian": {
+    "def": "2450",
+    "grammar": "vb. II",
+    "lemma": "ġe-myndgian"
+  },
+  "ge-myndgie": {
     "def": "2450",
     "grammar": "vb. II",
     "lemma": "ġe-myndgian"
@@ -5812,15 +17852,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-myne"
   },
+  "ge-mæ": {
+    "def": "in com-mon, mutual, shared",
+    "grammar": "adj.",
+    "lemma": "ġe-mǣne"
+  },
+  "ge-mæn": {
+    "def": "complain",
+    "grammar": "vb. I",
+    "lemma": "ġe-mǣnan"
+  },
   "ge-mænan": {
     "def": "complain",
     "grammar": "vb. I",
     "lemma": "ġe-mǣnan"
   },
   "ge-mæne": {
-    "def": "in com-mon, mutual, shared",
-    "grammar": "adj.",
-    "lemma": "ġe-mǣne"
+    "def": "complain",
+    "grammar": "vb. I",
+    "lemma": "ġe-mǣnan"
+  },
+  "ge-neahh": {
+    "def": "abundant-ly, frequently",
+    "grammar": "adv.",
+    "lemma": "ġe-neahhe"
   },
   "ge-neahhe": {
     "def": "abundant-ly, frequently",
@@ -5832,17 +17887,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-nehost"
   },
+  "ge-nes": {
+    "def": "survive, get safely through",
+    "grammar": "vb. 5",
+    "lemma": "ġe-nesan"
+  },
   "ge-nesan": {
     "def": "survive, get safely through",
     "grammar": "vb. 5",
     "lemma": "ġe-nesan"
+  },
+  "ge-nese": {
+    "def": "survive, get safely through",
+    "grammar": "vb. 5",
+    "lemma": "ġe-nesan"
+  },
+  "ge-neþ": {
+    "def": "1469",
+    "grammar": "vb. I",
+    "lemma": "ġe-nēþan"
   },
   "ge-neþan": {
     "def": "1469",
     "grammar": "vb. I",
     "lemma": "ġe-nēþan"
   },
+  "ge-neþe": {
+    "def": "1469",
+    "grammar": "vb. I",
+    "lemma": "ġe-nēþan"
+  },
+  "ge-nim": {
+    "def": "seize, take away",
+    "grammar": "vb. 4",
+    "lemma": "ġe-niman"
+  },
   "ge-niman": {
+    "def": "seize, take away",
+    "grammar": "vb. 4",
+    "lemma": "ġe-niman"
+  },
+  "ge-nime": {
     "def": "seize, take away",
     "grammar": "vb. 4",
     "lemma": "ġe-niman"
@@ -5857,12 +17942,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-nōg"
   },
+  "ge-nytti": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "ġe-nyttian"
+  },
   "ge-nyttian": {
     "def": "w",
     "grammar": "vb. II",
     "lemma": "ġe-nyttian"
   },
+  "ge-nyttie": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "ġe-nyttian"
+  },
+  "ge-næg": {
+    "def": "(approach), assail, attack",
+    "grammar": "vb. I",
+    "lemma": "ġe-nǣġan"
+  },
   "ge-nægan": {
+    "def": "(approach), assail, attack",
+    "grammar": "vb. I",
+    "lemma": "ġe-nǣġan"
+  },
+  "ge-næge": {
     "def": "(approach), assail, attack",
     "grammar": "vb. I",
     "lemma": "ġe-nǣġan"
@@ -5872,37 +17977,102 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-rād"
   },
+  "ge-reordi": {
+    "def": "1788",
+    "grammar": "vb. II",
+    "lemma": "ġe-reordian"
+  },
   "ge-reordian": {
     "def": "1788",
     "grammar": "vb. II",
     "lemma": "ġe-reordian"
+  },
+  "ge-reordie": {
+    "def": "1788",
+    "grammar": "vb. II",
+    "lemma": "ġe-reordian"
+  },
+  "ge-rid": {
+    "def": "RIDE up to",
+    "grammar": "vb. 1",
+    "lemma": "ġe-rīdan"
   },
   "ge-ridan": {
     "def": "RIDE up to",
     "grammar": "vb. 1",
     "lemma": "ġe-rīdan"
   },
+  "ge-ride": {
+    "def": "RIDE up to",
+    "grammar": "vb. 1",
+    "lemma": "ġe-rīdan"
+  },
+  "ge-rum-lic": {
+    "def": "‡at a distance, far away",
+    "grammar": "adv.",
+    "lemma": "ġe-rūm-līċe"
+  },
   "ge-rum-lice": {
     "def": "‡at a distance, far away",
     "grammar": "adv.",
     "lemma": "ġe-rūm-līċe"
+  },
+  "ge-rys": {
+    "def": "proper, fit, becoming, appropriate",
+    "grammar": "",
+    "lemma": "ġe-rysne"
+  },
+  "ge-rysn": {
+    "def": "proper, fit, becoming, appropriate",
+    "grammar": "",
+    "lemma": "ġe-rysne"
   },
   "ge-rysne": {
     "def": "proper, fit, becoming, appropriate",
     "grammar": "",
     "lemma": "ġe-rysne"
   },
+  "ge-ræc": {
+    "def": "hit",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣċan"
+  },
   "ge-ræcan": {
     "def": "hit",
     "grammar": "vb. I",
     "lemma": "ġe-rǣċan"
+  },
+  "ge-ræce": {
+    "def": "hit",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣċan"
+  },
+  "ge-ræs": {
+    "def": "2839",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣsan"
   },
   "ge-ræsan": {
     "def": "2839",
     "grammar": "vb. I",
     "lemma": "ġe-rǣsan"
   },
+  "ge-ræse": {
+    "def": "2839",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣsan"
+  },
+  "ge-sac": {
+    "def": "1773",
+    "grammar": "wk.",
+    "lemma": "ġe-saca"
+  },
   "ge-saca": {
+    "def": "1773",
+    "grammar": "wk.",
+    "lemma": "ġe-saca"
+  },
+  "ge-sace": {
     "def": "1773",
     "grammar": "wk.",
     "lemma": "ġe-saca"
@@ -5913,11 +18083,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sacu"
   },
   "ge-scad": {
-    "def": "discrimination",
-    "grammar": "n.",
-    "lemma": "ġe-scād"
+    "def": "1555",
+    "grammar": "vb.  7",
+    "lemma": "ġe-scādan"
   },
   "ge-scadan": {
+    "def": "1555",
+    "grammar": "vb.  7",
+    "lemma": "ġe-scādan"
+  },
+  "ge-scade": {
     "def": "1555",
     "grammar": "vb.  7",
     "lemma": "ġe-scādan"
@@ -5937,32 +18112,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-sceōd"
   },
+  "ge-sceot": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-scēotan"
+  },
   "ge-sceotan": {
     "def": "w",
     "grammar": "vb. 2",
     "lemma": "ġe-scēotan"
+  },
+  "ge-sceote": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-scēotan"
+  },
+  "ge-scer": {
+    "def": "cut through",
+    "grammar": "vb. 4",
+    "lemma": "ġe-sceran"
   },
   "ge-sceran": {
     "def": "cut through",
     "grammar": "vb. 4",
     "lemma": "ġe-sceran"
   },
+  "ge-scere": {
+    "def": "cut through",
+    "grammar": "vb. 4",
+    "lemma": "ġe-sceran"
+  },
+  "ge-sceþð": {
+    "def": "harm",
+    "grammar": "vb. 6",
+    "lemma": "ġe-sceþðan"
+  },
   "ge-sceþðan": {
     "def": "harm",
     "grammar": "vb. 6",
     "lemma": "ġe-sceþðan"
+  },
+  "ge-sceþðe": {
+    "def": "harm",
+    "grammar": "vb. 6",
+    "lemma": "ġe-sceþðan"
+  },
+  "ge-scip": {
+    "def": "fate",
+    "grammar": "ni.",
+    "lemma": "ġe-scipe"
   },
   "ge-scipe": {
     "def": "fate",
     "grammar": "ni.",
     "lemma": "ġe-scipe"
   },
+  "ge-scrif": {
+    "def": "assign, w",
+    "grammar": "vb. 1",
+    "lemma": "ġe-scrīfan"
+  },
   "ge-scrifan": {
     "def": "assign, w",
     "grammar": "vb. 1",
     "lemma": "ġe-scrīfan"
   },
+  "ge-scrife": {
+    "def": "assign, w",
+    "grammar": "vb. 1",
+    "lemma": "ġe-scrīfan"
+  },
+  "ge-scypp": {
+    "def": "97",
+    "grammar": "vb. 6",
+    "lemma": "ġe-scyppan"
+  },
   "ge-scyppan": {
+    "def": "97",
+    "grammar": "vb. 6",
+    "lemma": "ġe-scyppan"
+  },
+  "ge-scyppe": {
     "def": "97",
     "grammar": "vb. 6",
     "lemma": "ġe-scyppan"
@@ -5972,27 +18202,77 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġe-scæp-hwīl"
   },
+  "ge-se": {
+    "def": "perceive",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sēon"
+  },
+  "ge-sec": {
+    "def": "look for",
+    "grammar": "vb. I",
+    "lemma": "ġe-sēċan"
+  },
   "ge-secan": {
     "def": "look for",
     "grammar": "vb. I",
     "lemma": "ġe-sēċan"
+  },
+  "ge-sece": {
+    "def": "look for",
+    "grammar": "vb. I",
+    "lemma": "ġe-sēċan"
+  },
+  "ge-secg": {
+    "def": "tell",
+    "grammar": "vb. III",
+    "lemma": "ġe-secgan"
   },
   "ge-secgan": {
     "def": "tell",
     "grammar": "vb. III",
     "lemma": "ġe-secgan"
   },
+  "ge-secge": {
+    "def": "tell",
+    "grammar": "vb. III",
+    "lemma": "ġe-secgan"
+  },
+  "ge-see": {
+    "def": "perceive",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sēon"
+  },
   "ge-segan(-on)": {
     "def": "ġe-sēgan (-on), see ġe-sēon",
     "grammar": "",
     "lemma": "ġe-sēgan(-on)"
+  },
+  "ge-seld": {
+    "def": "(one in the same hall), companion, associate, comrade",
+    "grammar": "wk.",
+    "lemma": "ġe-selda"
   },
   "ge-selda": {
     "def": "(one in the same hall), companion, associate, comrade",
     "grammar": "wk.",
     "lemma": "ġe-selda"
   },
+  "ge-selde": {
+    "def": "(one in the same hall), companion, associate, comrade",
+    "grammar": "wk.",
+    "lemma": "ġe-selda"
+  },
+  "ge-sell": {
+    "def": "make a present of, 1029",
+    "grammar": "vb. I",
+    "lemma": "ġe-sellan"
+  },
   "ge-sellan": {
+    "def": "make a present of, 1029",
+    "grammar": "vb. I",
+    "lemma": "ġe-sellan"
+  },
+  "ge-selle": {
     "def": "make a present of, 1029",
     "grammar": "vb. I",
     "lemma": "ġe-sellan"
@@ -6002,17 +18282,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ġe-sēon"
   },
+  "ge-sett": {
+    "def": "establish",
+    "grammar": "vb. I",
+    "lemma": "ġe-settan"
+  },
   "ge-settan": {
     "def": "establish",
     "grammar": "vb. I",
     "lemma": "ġe-settan"
+  },
+  "ge-sette": {
+    "def": "establish",
+    "grammar": "vb. I",
+    "lemma": "ġe-settan"
+  },
+  "ge-sig": {
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "ġe-sīgan"
   },
   "ge-sigan": {
     "def": "fall",
     "grammar": "vb. 1",
     "lemma": "ġe-sīgan"
   },
+  "ge-sige": {
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "ġe-sīgan"
+  },
+  "ge-sitt": {
+    "def": "171, 749 (sit up, see note), 1424, 1977, 2417, 2717",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sittan"
+  },
   "ge-sittan": {
+    "def": "171, 749 (sit up, see note), 1424, 1977, 2417, 2717",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sittan"
+  },
+  "ge-sitte": {
     "def": "171, 749 (sit up, see note), 1424, 1977, 2417, 2717",
     "grammar": "vb. 5",
     "lemma": "ġe-sittan"
@@ -6022,7 +18332,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġe-sīð"
   },
+  "ge-sle": {
+    "def": "459 (n",
+    "grammar": "vb. 6",
+    "lemma": "ġe-slēan"
+  },
   "ge-slean": {
+    "def": "459 (n",
+    "grammar": "vb. 6",
+    "lemma": "ġe-slēan"
+  },
+  "ge-slee": {
     "def": "459 (n",
     "grammar": "vb. 6",
     "lemma": "ġe-slēan"
@@ -6032,42 +18352,122 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ni.",
     "lemma": "ġe-slyht"
   },
+  "ge-sprec": {
+    "def": "675, 1398, 1466, 3094",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sprecan"
+  },
   "ge-sprecan": {
     "def": "675, 1398, 1466, 3094",
     "grammar": "vb. 5",
     "lemma": "ġe-sprecan"
+  },
+  "ge-sprece": {
+    "def": "675, 1398, 1466, 3094",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sprecan"
+  },
+  "ge-spring": {
+    "def": "arise",
+    "grammar": "vb. 3",
+    "lemma": "ġe-springan"
   },
   "ge-springan": {
     "def": "arise",
     "grammar": "vb. 3",
     "lemma": "ġe-springan"
   },
+  "ge-springe": {
+    "def": "arise",
+    "grammar": "vb. 3",
+    "lemma": "ġe-springan"
+  },
+  "ge-stand": {
+    "def": "take one’s stand",
+    "grammar": "vb. 6",
+    "lemma": "ġe-standan"
+  },
   "ge-standan": {
     "def": "take one’s stand",
     "grammar": "vb. 6",
     "lemma": "ġe-standan"
+  },
+  "ge-stande": {
+    "def": "take one’s stand",
+    "grammar": "vb. 6",
+    "lemma": "ġe-standan"
+  },
+  "ge-step": {
+    "def": "advance, support",
+    "grammar": "vb. I",
+    "lemma": "ġe-stēpan"
   },
   "ge-stepan": {
     "def": "advance, support",
     "grammar": "vb. I",
     "lemma": "ġe-stēpan"
   },
+  "ge-stepe": {
+    "def": "advance, support",
+    "grammar": "vb. I",
+    "lemma": "ġe-stēpan"
+  },
+  "ge-stepp": {
+    "def": "walk",
+    "grammar": "vb. 6",
+    "lemma": "ġe-steppan"
+  },
   "ge-steppan": {
     "def": "walk",
     "grammar": "vb. 6",
     "lemma": "ġe-steppan"
+  },
+  "ge-steppe": {
+    "def": "walk",
+    "grammar": "vb. 6",
+    "lemma": "ġe-steppan"
+  },
+  "ge-stig": {
+    "def": "set out",
+    "grammar": "vb. 1",
+    "lemma": "ġe-stīgan"
   },
   "ge-stigan": {
     "def": "set out",
     "grammar": "vb. 1",
     "lemma": "ġe-stīgan"
   },
+  "ge-stige": {
+    "def": "set out",
+    "grammar": "vb. 1",
+    "lemma": "ġe-stīgan"
+  },
+  "ge-stre": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "ġe-strēon"
+  },
+  "ge-stree": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "ġe-strēon"
+  },
   "ge-streon": {
     "def": "treasure",
     "grammar": "n.",
     "lemma": "ġe-strēon"
   },
+  "ge-strуn": {
+    "def": "gain",
+    "grammar": "vb. I",
+    "lemma": "ġe-strӯnan"
+  },
   "ge-strуnan": {
+    "def": "gain",
+    "grammar": "vb. I",
+    "lemma": "ġe-strӯnan"
+  },
+  "ge-strуne": {
     "def": "gain",
     "grammar": "vb. I",
     "lemma": "ġe-strӯnan"
@@ -6077,17 +18477,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-sund"
   },
+  "ge-swenc": {
+    "def": "strike down",
+    "grammar": "vb. I",
+    "lemma": "ġe-swenċan"
+  },
   "ge-swencan": {
     "def": "strike down",
     "grammar": "vb. I",
     "lemma": "ġe-swenċan"
+  },
+  "ge-swence": {
+    "def": "strike down",
+    "grammar": "vb. I",
+    "lemma": "ġe-swenċan"
+  },
+  "ge-sweorc": {
+    "def": "1789",
+    "grammar": "vb. 3",
+    "lemma": "ġe-sweorcan"
   },
   "ge-sweorcan": {
     "def": "1789",
     "grammar": "vb. 3",
     "lemma": "ġe-sweorcan"
   },
+  "ge-sweorce": {
+    "def": "1789",
+    "grammar": "vb. 3",
+    "lemma": "ġe-sweorcan"
+  },
+  "ge-swic": {
+    "def": "prove ineffective",
+    "grammar": "vb. 1",
+    "lemma": "ġe-swīcan"
+  },
   "ge-swican": {
+    "def": "prove ineffective",
+    "grammar": "vb. 1",
+    "lemma": "ġe-swīcan"
+  },
+  "ge-swice": {
     "def": "prove ineffective",
     "grammar": "vb. 1",
     "lemma": "ġe-swīcan"
@@ -6097,7 +18527,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-swinġ"
   },
+  "ge-syngi": {
+    "def": "do wrong",
+    "grammar": "vb. II",
+    "lemma": "ġe-syngian"
+  },
   "ge-syngian": {
+    "def": "do wrong",
+    "grammar": "vb. II",
+    "lemma": "ġe-syngian"
+  },
+  "ge-syngie": {
     "def": "do wrong",
     "grammar": "vb. II",
     "lemma": "ġe-syngian"
@@ -6107,22 +18547,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġe-synto"
   },
+  "ge-sæl": {
+    "def": "chance, turn out ( ̄favorably)",
+    "grammar": "vb. I",
+    "lemma": "ġe-sǣlan"
+  },
   "ge-sælan": {
     "def": "chance, turn out ( ̄favorably)",
     "grammar": "vb. I",
     "lemma": "ġe-sǣlan"
+  },
+  "ge-sæle": {
+    "def": "chance, turn out ( ̄favorably)",
+    "grammar": "vb. I",
+    "lemma": "ġe-sǣlan"
+  },
+  "ge-sу": {
+    "def": "evident",
+    "grammar": "adj.",
+    "lemma": "ġe-sӯne"
+  },
+  "ge-sуn": {
+    "def": "evident",
+    "grammar": "adj.",
+    "lemma": "ġe-sӯne"
   },
   "ge-sуne": {
     "def": "evident",
     "grammar": "adj.",
     "lemma": "ġe-sӯne"
   },
+  "ge-te": {
+    "def": "1545, 2610",
+    "grammar": "vb. 2",
+    "lemma": "ġe-tēon"
+  },
+  "ge-tee": {
+    "def": "1545, 2610",
+    "grammar": "vb. 2",
+    "lemma": "ġe-tēon"
+  },
+  "ge-teng": {
+    "def": "close to (w",
+    "grammar": "adj.",
+    "lemma": "ġe-tenġe"
+  },
   "ge-tenge": {
     "def": "close to (w",
     "grammar": "adj.",
     "lemma": "ġe-tenġe"
   },
+  "ge-teog": {
+    "def": "assign, allot",
+    "grammar": "vb. II",
+    "lemma": "ġe-tēoġan"
+  },
   "ge-teogan": {
+    "def": "assign, allot",
+    "grammar": "vb. II",
+    "lemma": "ġe-tēoġan"
+  },
+  "ge-teoge": {
     "def": "assign, allot",
     "grammar": "vb. II",
     "lemma": "ġe-tēoġan"
@@ -6132,47 +18617,127 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "ġe-tēon"
   },
+  "ge-tr": {
+    "def": "company",
+    "grammar": "n.",
+    "lemma": "ġe-trum"
+  },
+  "ge-tre": {
+    "def": "company",
+    "grammar": "n.",
+    "lemma": "ġe-trum"
+  },
   "ge-trum": {
     "def": "company",
     "grammar": "n.",
     "lemma": "ġe-trum"
+  },
+  "ge-truwi": {
+    "def": "trust",
+    "grammar": "vb. II",
+    "lemma": "ġe-truwian"
   },
   "ge-truwian": {
     "def": "trust",
     "grammar": "vb. II",
     "lemma": "ġe-truwian"
   },
+  "ge-truwie": {
+    "def": "trust",
+    "grammar": "vb. II",
+    "lemma": "ġe-truwian"
+  },
+  "ge-trуw": {
+    "def": "faithful",
+    "grammar": "adj.",
+    "lemma": "ġe-trӯwe"
+  },
   "ge-trуwe": {
     "def": "faithful",
     "grammar": "adj.",
     "lemma": "ġe-trӯwe"
+  },
+  "ge-twæf": {
+    "def": "separate, part, put an end to",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣfan"
   },
   "ge-twæfan": {
     "def": "separate, part, put an end to",
     "grammar": "vb. I",
     "lemma": "ġe-twǣfan"
   },
+  "ge-twæfe": {
+    "def": "separate, part, put an end to",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣfan"
+  },
+  "ge-twæm": {
+    "def": "hinder",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣman"
+  },
   "ge-twæman": {
     "def": "hinder",
     "grammar": "vb. I",
     "lemma": "ġe-twǣman"
+  },
+  "ge-twæme": {
+    "def": "hinder",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣman"
+  },
+  "ge-tæc": {
+    "def": "point out, assign",
+    "grammar": "vb. I",
+    "lemma": "ġe-tǣċan"
   },
   "ge-tæcan": {
     "def": "point out, assign",
     "grammar": "vb. I",
     "lemma": "ġe-tǣċan"
   },
+  "ge-tæce": {
+    "def": "point out, assign",
+    "grammar": "vb. I",
+    "lemma": "ġe-tǣċan"
+  },
+  "ge-tæs": {
+    "def": "1320",
+    "grammar": "adj.",
+    "lemma": "ġe-tǣse"
+  },
   "ge-tæse": {
     "def": "1320",
     "grammar": "adj.",
     "lemma": "ġe-tǣse"
+  },
+  "ge-unn": {
+    "def": "1661",
+    "grammar": "prp.",
+    "lemma": "ġe-unnan"
   },
   "ge-unnan": {
     "def": "1661",
     "grammar": "prp.",
     "lemma": "ġe-unnan"
   },
+  "ge-unne": {
+    "def": "1661",
+    "grammar": "prp.",
+    "lemma": "ġe-unnan"
+  },
+  "ge-wad": {
+    "def": "advance (to a cer-tain point)",
+    "grammar": "vb. 6",
+    "lemma": "ġe-wadan"
+  },
   "ge-wadan": {
+    "def": "advance (to a cer-tain point)",
+    "grammar": "vb. 6",
+    "lemma": "ġe-wadan"
+  },
+  "ge-wade": {
     "def": "advance (to a cer-tain point)",
     "grammar": "vb. 6",
     "lemma": "ġe-wadan"
@@ -6192,17 +18757,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ġe-wealdan"
   },
+  "ge-wealde": {
+    "def": "WIELD, have control of",
+    "grammar": "vb. 7",
+    "lemma": "ġe-wealdan"
+  },
+  "ge-weax": {
+    "def": "increase",
+    "grammar": "vb. 7",
+    "lemma": "ġe-weaxan"
+  },
   "ge-weaxan": {
     "def": "increase",
     "grammar": "vb. 7",
     "lemma": "ġe-weaxan"
+  },
+  "ge-weaxe": {
+    "def": "increase",
+    "grammar": "vb. 7",
+    "lemma": "ġe-weaxan"
+  },
+  "ge-weg": {
+    "def": "fight",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wegan"
   },
   "ge-wegan": {
     "def": "fight",
     "grammar": "vb. 5",
     "lemma": "ġe-wegan"
   },
+  "ge-wege": {
+    "def": "fight",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wegan"
+  },
+  "ge-wend": {
+    "def": "315",
+    "grammar": "vb. I",
+    "lemma": "ġe-wendan"
+  },
   "ge-wendan": {
+    "def": "315",
+    "grammar": "vb. I",
+    "lemma": "ġe-wendan"
+  },
+  "ge-wende": {
     "def": "315",
     "grammar": "vb. I",
     "lemma": "ġe-wendan"
@@ -6212,15 +18812,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-weorc"
   },
+  "ge-weorð": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "ġe-weorðan"
+  },
   "ge-weorðan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "ġe-weorðan"
   },
+  "ge-weorðe": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "ġe-weorðan"
+  },
+  "ge-wic": {
+    "def": "give way, fail",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wīcan"
+  },
   "ge-wican": {
     "def": "give way, fail",
     "grammar": "vb. 1",
     "lemma": "ġe-wīcan"
+  },
+  "ge-wice": {
+    "def": "give way, fail",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wīcan"
+  },
+  "ge-wid": {
+    "def": "storm",
+    "grammar": "nja.",
+    "lemma": "ġe-widre"
+  },
+  "ge-widr": {
+    "def": "storm",
+    "grammar": "nja.",
+    "lemma": "ġe-widre"
   },
   "ge-widre": {
     "def": "storm",
@@ -6247,10 +18877,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-wiofu"
   },
+  "ge-wis-lic": {
+    "def": "1350",
+    "grammar": "adv.",
+    "lemma": "ġe-wis-līċe"
+  },
   "ge-wis-lice": {
     "def": "1350",
     "grammar": "adv.",
     "lemma": "ġe-wis-līċe"
+  },
+  "ge-wit": {
+    "def": "go",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wītan"
   },
   "ge-wit(t)": {
     "def": "senses",
@@ -6262,42 +18902,117 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "ġe-wītan"
   },
+  "ge-wite": {
+    "def": "go",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wītan"
+  },
+  "ge-witte": {
+    "def": "conscious",
+    "grammar": "adj.",
+    "lemma": "ġe-wittiġ"
+  },
   "ge-wittig": {
     "def": "conscious",
     "grammar": "adj.",
     "lemma": "ġe-wittiġ"
+  },
+  "ge-wrec": {
+    "def": "punish",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wrecan"
   },
   "ge-wrecan": {
     "def": "punish",
     "grammar": "vb. 5",
     "lemma": "ġe-wrecan"
   },
+  "ge-wrece": {
+    "def": "punish",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wrecan"
+  },
+  "ge-wrixl": {
+    "def": "nja",
+    "grammar": "nja.",
+    "lemma": "ġe-wrixle"
+  },
   "ge-wrixle": {
     "def": "nja",
     "grammar": "nja.",
     "lemma": "ġe-wrixle"
+  },
+  "ge-wuni": {
+    "def": "†remain with, stand by (someone)",
+    "grammar": "vb. II",
+    "lemma": "ġe-wunian"
   },
   "ge-wunian": {
     "def": "†remain with, stand by (someone)",
     "grammar": "vb. II",
     "lemma": "ġe-wunian"
   },
+  "ge-wunie": {
+    "def": "†remain with, stand by (someone)",
+    "grammar": "vb. II",
+    "lemma": "ġe-wunian"
+  },
+  "ge-wyrc": {
+    "def": "perform, carry out, accomplish, achieve",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrċan"
+  },
   "ge-wyrcan": {
     "def": "perform, carry out, accomplish, achieve",
     "grammar": "vb. I",
     "lemma": "ġe-wyrċan"
+  },
+  "ge-wyrce": {
+    "def": "perform, carry out, accomplish, achieve",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrċan"
+  },
+  "ge-wyrp": {
+    "def": "recover",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrpan"
   },
   "ge-wyrpan": {
     "def": "recover",
     "grammar": "vb. I",
     "lemma": "ġe-wyrpan"
   },
+  "ge-wyrpe": {
+    "def": "recover",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrpan"
+  },
+  "ge-wæ": {
+    "def": "equipment, armor",
+    "grammar": "nja.",
+    "lemma": "ġe-wǣde"
+  },
+  "ge-wæd": {
+    "def": "equipment, armor",
+    "grammar": "nja.",
+    "lemma": "ġe-wǣde"
+  },
   "ge-wæde": {
     "def": "equipment, armor",
     "grammar": "nja.",
     "lemma": "ġe-wǣde"
   },
+  "ge-æfn": {
+    "def": "carry out",
+    "grammar": "vb. I",
+    "lemma": "ġe-æfnan"
+  },
   "ge-æfnan": {
+    "def": "carry out",
+    "grammar": "vb. I",
+    "lemma": "ġe-æfnan"
+  },
+  "ge-æfne": {
     "def": "carry out",
     "grammar": "vb. I",
     "lemma": "ġe-æfnan"
@@ -6312,12 +19027,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-þāh"
   },
+  "ge-þe": {
+    "def": "flourish",
+    "grammar": "vb. 1",
+    "lemma": "ġe-þēon"
+  },
+  "ge-þearfi": {
+    "def": "‡necessitate, impose necessity",
+    "grammar": "vb.  II",
+    "lemma": "ġe-þearfian"
+  },
   "ge-þearfian": {
     "def": "‡necessitate, impose necessity",
     "grammar": "vb.  II",
     "lemma": "ġe-þearfian"
   },
+  "ge-þearfie": {
+    "def": "‡necessitate, impose necessity",
+    "grammar": "vb.  II",
+    "lemma": "ġe-þearfian"
+  },
+  "ge-þee": {
+    "def": "flourish",
+    "grammar": "vb. 1",
+    "lemma": "ġe-þēon"
+  },
+  "ge-þenc": {
+    "def": "remember",
+    "grammar": "vb. I",
+    "lemma": "ġe-þenċan"
+  },
   "ge-þencan": {
+    "def": "remember",
+    "grammar": "vb. I",
+    "lemma": "ġe-þenċan"
+  },
+  "ge-þence": {
     "def": "remember",
     "grammar": "vb. I",
     "lemma": "ġe-þenċan"
@@ -6327,10 +19072,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "ġe-þēon"
   },
+  "ge-þicg": {
+    "def": "consume, drink",
+    "grammar": "vb.  5",
+    "lemma": "ġe-þicgan"
+  },
   "ge-þicgan": {
     "def": "consume, drink",
     "grammar": "vb.  5",
     "lemma": "ġe-þicgan"
+  },
+  "ge-þicge": {
+    "def": "consume, drink",
+    "grammar": "vb.  5",
+    "lemma": "ġe-þicgan"
+  },
+  "ge-þing": {
+    "def": "compact",
+    "grammar": "nja.",
+    "lemma": "ġe-þinġe"
   },
   "ge-þingan": {
     "def": "determine, appoint, intend",
@@ -6347,7 +19107,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġe-þōht"
   },
+  "ge-þoli": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "ġe-þolian"
+  },
   "ge-þolian": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "ġe-þolian"
+  },
+  "ge-þolie": {
     "def": "endure",
     "grammar": "vb. II",
     "lemma": "ġe-þolian"
@@ -6367,6 +19137,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "ġe-þringan"
   },
+  "ge-þringe": {
+    "def": "press ( ̄forward)",
+    "grammar": "vb. 3",
+    "lemma": "ġe-þringan"
+  },
+  "ge-þru": {
+    "def": "forged, hammered, made",
+    "grammar": "pp.",
+    "lemma": "ġe-þrūen"
+  },
+  "ge-þrue": {
+    "def": "forged, hammered, made",
+    "grammar": "pp.",
+    "lemma": "ġe-þrūen"
+  },
   "ge-þruen": {
     "def": "forged, hammered, made",
     "grammar": "pp.",
@@ -6377,10 +19162,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-þræc"
   },
+  "ge-þung": {
+    "def": "see þēon, vb",
+    "grammar": "",
+    "lemma": "ġe-þungen"
+  },
+  "ge-þunge": {
+    "def": "see þēon, vb",
+    "grammar": "",
+    "lemma": "ġe-þungen"
+  },
   "ge-þungen": {
     "def": "see þēon, vb",
     "grammar": "",
     "lemma": "ġe-þungen"
+  },
+  "ge-þwæ": {
+    "def": "united, loyal",
+    "grammar": "adj.",
+    "lemma": "ġe-þwǣre"
+  },
+  "ge-þwær": {
+    "def": "united, loyal",
+    "grammar": "adj.",
+    "lemma": "ġe-þwǣre"
   },
   "ge-þwære": {
     "def": "united, loyal",
@@ -6392,25 +19197,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "ġe-þyld"
   },
+  "ge-þæg": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þǣgon"
+  },
+  "ge-þæge": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þǣgon"
+  },
   "ge-þægon": {
     "def": "see ġe-þicgan",
     "grammar": "",
     "lemma": "ġe-þǣgon"
+  },
+  "ge-þуw": {
+    "def": "customary, usual",
+    "grammar": "adj.",
+    "lemma": "ġe-þӯwe"
   },
   "ge-þуwe": {
     "def": "customary, usual",
     "grammar": "adj.",
     "lemma": "ġe-þӯwe"
   },
+  "ge-уw": {
+    "def": "present, bestow",
+    "grammar": "vb. I",
+    "lemma": "ġe-ӯwan"
+  },
   "ge-уwan": {
     "def": "present, bestow",
     "grammar": "vb. I",
     "lemma": "ġe-ӯwan"
   },
+  "ge-уwe": {
+    "def": "present, bestow",
+    "grammar": "vb. I",
+    "lemma": "ġe-ӯwan"
+  },
+  "gea": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġeara"
+  },
   "geador": {
     "def": "toGETHER",
     "grammar": "adv.",
     "lemma": "ġeador"
+  },
+  "geahsian": {
+    "def": "hear",
+    "grammar": "vb.  II",
+    "lemma": "ġe-āhsian"
   },
   "geald": {
     "def": "see ġyldan",
@@ -6433,16 +19273,36 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēap"
   },
   "gear": {
-    "def": "Copyright ӯ 2008",
-    "grammar": "n.",
-    "lemma": "ġēar"
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġeara"
+  },
+  "gear dagas": {
+    "def": "on) ġeārdagum, 1, 1354, 2233",
+    "grammar": "m.",
+    "lemma": "ġeār-dagas"
+  },
+  "gear(w)": {
+    "def": "entirely, well, surely, for certain (w",
+    "grammar": "adv.",
+    "lemma": "ġear(w)e"
   },
   "gear(w)e": {
     "def": "entirely, well, surely, for certain (w",
     "grammar": "adv.",
     "lemma": "ġear(w)e"
   },
+  "gear-dag": {
+    "def": "on) ġeārdagum, 1, 1354, 2233",
+    "grammar": "m.",
+    "lemma": "ġeār-dagas"
+  },
   "gear-dagas": {
+    "def": "on) ġeārdagum, 1, 1354, 2233",
+    "grammar": "m.",
+    "lemma": "ġeār-dagas"
+  },
+  "gear-dage": {
     "def": "on) ġeārdagum, 1, 1354, 2233",
     "grammar": "m.",
     "lemma": "ġeār-dagas"
@@ -6457,75 +19317,810 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġeard"
   },
+  "geardagas": {
+    "def": "on) ġeārdagum, 1, 1354, 2233",
+    "grammar": "m.",
+    "lemma": "ġeār-dagas"
+  },
   "geare": {
-    "def": "see ġear(w)e",
-    "grammar": "",
-    "lemma": "ġeare"
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġeara"
   },
   "gearo": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "ġearo"
   },
+  "gearo folm": {
+    "def": "with ready hand",
+    "grammar": "adj.",
+    "lemma": "ġearo-folm"
+  },
   "gearo-folm": {
     "def": "with ready hand",
     "grammar": "adj.",
     "lemma": "ġearo-folm"
+  },
+  "gearofolm": {
+    "def": "with ready hand",
+    "grammar": "adj.",
+    "lemma": "ġearo-folm"
+  },
+  "geato lic": {
+    "def": "richly equipped, splendid, stately",
+    "grammar": "adj.",
+    "lemma": "ġeato-liċ"
   },
   "geato-lic": {
     "def": "richly equipped, splendid, stately",
     "grammar": "adj.",
     "lemma": "ġeato-liċ"
   },
+  "geatolic": {
+    "def": "richly equipped, splendid, stately",
+    "grammar": "adj.",
+    "lemma": "ġeato-liċ"
+  },
+  "geatw": {
+    "def": "precious objects",
+    "grammar": "fw",
+    "lemma": "ġeatwa"
+  },
   "geatwa": {
     "def": "precious objects",
     "grammar": "fw",
     "lemma": "ġeatwa"
+  },
+  "geatwe": {
+    "def": "precious objects",
+    "grammar": "fw",
+    "lemma": "ġeatwa"
+  },
+  "gebannan": {
+    "def": "command, order",
+    "grammar": "vb. 7",
+    "lemma": "ġe-bannan"
+  },
+  "gebarn": {
+    "def": "see ġe-byrnan",
+    "grammar": "",
+    "lemma": "ġe-barn"
+  },
+  "gebedda": {
+    "def": "665",
+    "grammar": "wk.",
+    "lemma": "ġe-bedda"
+  },
+  "gebeodan": {
+    "def": "show",
+    "grammar": "vb. 2",
+    "lemma": "ġe-bēodan"
+  },
+  "gebeorgan": {
+    "def": "protect",
+    "grammar": "vb. 3",
+    "lemma": "ġe-beorgan"
+  },
+  "gebeotian": {
+    "def": "536",
+    "grammar": "vb.  II",
+    "lemma": "ġe-bēotian"
+  },
+  "geberan": {
+    "def": "1703",
+    "grammar": "vb.  4",
+    "lemma": "ġe-beran"
+  },
+  "gebetan": {
+    "def": "remedy, pret",
+    "grammar": "vb. I",
+    "lemma": "ġe-bētan"
+  },
+  "gebidan": {
+    "def": "2529",
+    "grammar": "vb. 1",
+    "lemma": "ġe-bīdan"
+  },
+  "gebindan": {
+    "def": "420",
+    "grammar": "vb. 3",
+    "lemma": "ġe-bindan"
+  },
+  "gebrecan": {
+    "def": "crush, destroy",
+    "grammar": "vb. 4",
+    "lemma": "ġe-brecan"
+  },
+  "gebregdan": {
+    "def": "1664, 3 sg",
+    "grammar": "vb. 3",
+    "lemma": "ġe-breġdan"
+  },
+  "gebringan": {
+    "def": "3009",
+    "grammar": "vb. I",
+    "lemma": "ġe-bringan"
+  },
+  "gebroðor": {
+    "def": "1191",
+    "grammar": "mc.",
+    "lemma": "ġe-brōðor"
+  },
+  "gebræc": {
+    "def": "2259",
+    "grammar": "n.",
+    "lemma": "ġe-bræc"
+  },
+  "gebuan": {
+    "def": "settle in",
+    "grammar": "vb. 7",
+    "lemma": "ġe-būan"
+  },
+  "gebugan": {
+    "def": "fall",
+    "grammar": "vb. 2",
+    "lemma": "ġe-būgan"
+  },
+  "gebycgan": {
+    "def": "pay for, obtain",
+    "grammar": "vb. I",
+    "lemma": "ġe-bycgan"
+  },
+  "gebyrd": {
+    "def": "1074 (n",
+    "grammar": "f.",
+    "lemma": "ġe-byrd"
+  },
+  "gebyrnan": {
+    "def": "BURN (intr",
+    "grammar": "vb. 3",
+    "lemma": "ġe-byrnan"
+  },
+  "gebæran": {
+    "def": "behave, fare",
+    "grammar": "vb. I",
+    "lemma": "ġe-bǣran"
+  },
+  "geceosan": {
+    "def": "1759",
+    "grammar": "vb. 2",
+    "lemma": "ġe-ċēosan"
+  },
+  "gecnawan": {
+    "def": "vb",
+    "grammar": "vb.  7",
+    "lemma": "ġe-cnāwan"
+  },
+  "gecranc": {
+    "def": "see ġe-cringan",
+    "grammar": "",
+    "lemma": "ġe-cranc"
+  },
+  "gecringan": {
+    "def": "fall (in battle), die",
+    "grammar": "vb. 3",
+    "lemma": "ġe-cringan"
+  },
+  "gecweðan": {
+    "def": "2664",
+    "grammar": "vb. 5",
+    "lemma": "ġe-cweðan"
+  },
+  "gecynde": {
+    "def": "natural, inherited",
+    "grammar": "adj.",
+    "lemma": "ġe-cynde"
+  },
+  "gecyssan": {
+    "def": "1870",
+    "grammar": "vb. I",
+    "lemma": "ġe-cyssan"
+  },
+  "gecуpan": {
+    "def": "buy",
+    "grammar": "vb. I",
+    "lemma": "ġe-ċӯpan"
+  },
+  "gecуðan": {
+    "def": "announce",
+    "grammar": "vb. I",
+    "lemma": "ġe-cӯðan"
+  },
+  "gedal": {
+    "def": "parting",
+    "grammar": "n.",
+    "lemma": "ġe-dāl"
+  },
+  "gedeaf": {
+    "def": "see ġe-dūfan",
+    "grammar": "",
+    "lemma": "ġe-dēaf"
+  },
+  "gedefe": {
+    "def": "seemly, proper, just",
+    "grammar": "adj.",
+    "lemma": "ġe-dēfe"
+  },
+  "gedigan": {
+    "def": "survive, endure",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dīġan"
+  },
+  "gedon": {
+    "def": "render",
+    "grammar": "anv.",
+    "lemma": "ġe-dōn"
+  },
+  "gedreosan": {
+    "def": "fall, decline",
+    "grammar": "vb.  2",
+    "lemma": "ġe-drēosan"
+  },
+  "gedryht": {
+    "def": "fi",
+    "grammar": "",
+    "lemma": "ġe-dryht"
+  },
+  "gedræg(gedreag)": {
+    "def": "(noisy) host, company, tumult",
+    "grammar": "n.",
+    "lemma": "ġe-drǣġ(ġe-drēag)"
+  },
+  "gedufan": {
+    "def": "sink in",
+    "grammar": "vb. 2",
+    "lemma": "ġe-dūfan"
+  },
+  "gedælan": {
+    "def": "sever (wið, from)",
+    "grammar": "vb.  I",
+    "lemma": "ġe-dǣlan"
+  },
+  "gedуgan": {
+    "def": "see ġe-dīġan",
+    "grammar": "",
+    "lemma": "ġe-dӯġan"
+  },
+  "gefaran": {
+    "def": "act",
+    "grammar": "vb. 6",
+    "lemma": "ġe-faran"
+  },
+  "gefea": {
+    "def": "enjoyment, pleasure",
+    "grammar": "wk.",
+    "lemma": "ġe-fēa"
+  },
+  "gefeah": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-feah"
+  },
+  "gefeallan": {
+    "def": "1755",
+    "grammar": "vb. 7",
+    "lemma": "ġe-feallan"
+  },
+  "gefegon": {
+    "def": "-feh, see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fēgon"
+  },
+  "gefeoht": {
+    "def": "2048",
+    "grammar": "n.",
+    "lemma": "ġe-feoht"
+  },
+  "gefeohtan": {
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "ġe-feohtan"
+  },
+  "gefeon": {
+    "def": "rejoice",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fēon"
+  },
+  "geferan": {
+    "def": "reach, attain, bring about",
+    "grammar": "vb. I",
+    "lemma": "ġe-fēran"
+  },
+  "geferian": {
+    "def": "3107",
+    "grammar": "vb.  I",
+    "lemma": "ġe-ferian"
+  },
+  "gefetian": {
+    "def": "bring",
+    "grammar": "vb. II",
+    "lemma": "ġe-fetian"
+  },
+  "geflit": {
+    "def": "rivalry",
+    "grammar": "n.",
+    "lemma": "ġe-flit"
+  },
+  "gefon": {
+    "def": "seize, grasp",
+    "grammar": "vb. 7",
+    "lemma": "ġe-fōn"
+  },
+  "gefrecnian": {
+    "def": "1333 (n",
+    "grammar": "vb. II",
+    "lemma": "ġe-frēcnian"
+  },
+  "gefremman": {
+    "def": "advance (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-fremman"
+  },
+  "gefricgan": {
+    "def": "learn (orig",
+    "grammar": "vb. 5",
+    "lemma": "ġe-fricgan"
+  },
+  "gefrignan": {
+    "def": "(orig",
+    "grammar": "vb. 3",
+    "lemma": "ġe-friġnan"
+  },
+  "gefrunen": {
+    "def": "see ġe-friġnan",
+    "grammar": "",
+    "lemma": "ġe-frūnen"
+  },
+  "gefræge": {
+    "def": "well known, re-nowned",
+    "grammar": "adj.",
+    "lemma": "ġe-frǣġe"
+  },
+  "gefrætwian": {
+    "def": "deck",
+    "grammar": "vb. II",
+    "lemma": "ġe-frætwian"
+  },
+  "gefyllan": {
+    "def": "kill",
+    "grammar": "vb. I",
+    "lemma": "ġe-fyllan"
+  },
+  "gefæg(?)": {
+    "def": "satisfactory, pleasing, dear",
+    "grammar": "adj.",
+    "lemma": "ġe-fæġ(?)"
+  },
+  "gefægon": {
+    "def": "see ġe-fēon",
+    "grammar": "",
+    "lemma": "ġe-fǣgon"
+  },
+  "gegan": {
+    "def": "2676",
+    "grammar": "anv.",
+    "lemma": "ġe-gān"
+  },
+  "gegangan": {
+    "def": "reach (see Lorz 1908: 24)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-gangan"
+  },
+  "gegiredan": {
+    "def": "see ġe-ġyrwan",
+    "grammar": "",
+    "lemma": "ġe-ġiredan"
+  },
+  "gegn": {
+    "def": "forward, straight, di-rectly (gangan, faran)",
+    "grammar": "adv.",
+    "lemma": "ġeġnum"
+  },
+  "gegn cwide": {
+    "def": "answer",
+    "grammar": "mi.",
+    "lemma": "ġeġn-cwide"
+  },
+  "gegn-cwi": {
+    "def": "answer",
+    "grammar": "mi.",
+    "lemma": "ġeġn-cwide"
+  },
+  "gegn-cwid": {
+    "def": "answer",
+    "grammar": "mi.",
+    "lemma": "ġeġn-cwide"
   },
   "gegn-cwide": {
     "def": "answer",
     "grammar": "mi.",
     "lemma": "ġeġn-cwide"
   },
+  "gegncwide": {
+    "def": "answer",
+    "grammar": "mi.",
+    "lemma": "ġeġn-cwide"
+  },
+  "gegne": {
+    "def": "forward, straight, di-rectly (gangan, faran)",
+    "grammar": "adv.",
+    "lemma": "ġeġnum"
+  },
   "gegnum": {
     "def": "forward, straight, di-rectly (gangan, faran)",
     "grammar": "adv.",
     "lemma": "ġeġnum"
+  },
+  "gegretan": {
+    "def": "address",
+    "grammar": "vb. I",
+    "lemma": "ġe-grētan"
+  },
+  "gegyrwan": {
+    "def": "equip",
+    "grammar": "vb. I",
+    "lemma": "ġe-ġyrwan"
+  },
+  "gehatan": {
+    "def": "(vow, threat-en)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hātan"
+  },
+  "gehealdan": {
+    "def": "keep, guard, rule",
+    "grammar": "vb. 7",
+    "lemma": "ġe-healdan"
+  },
+  "geheawan": {
+    "def": "cut (to pieces)",
+    "grammar": "vb. 7",
+    "lemma": "ġe-hēawan"
+  },
+  "gehedan": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēdan"
+  },
+  "gehegan": {
+    "def": "hold (a meeting)",
+    "grammar": "vb. I",
+    "lemma": "ġe-hēġan"
+  },
+  "gehladan": {
+    "def": "895",
+    "grammar": "vb. 6",
+    "lemma": "ġe-hladan"
+  },
+  "gehleod": {
+    "def": "see ġe-hladan",
+    "grammar": "",
+    "lemma": "ġe-hlēod"
+  },
+  "gehlyn(n)": {
+    "def": "loud sound, din",
+    "grammar": "nja.",
+    "lemma": "ġe-hlyn(n)"
+  },
+  "gehnægan": {
+    "def": "humble, subdue",
+    "grammar": "vb.  I",
+    "lemma": "ġe-hnǣġan"
+  },
+  "gehwa": {
+    "def": "each (one)",
+    "grammar": "pron.",
+    "lemma": "ġe-hwā"
+  },
+  "gehwelc": {
+    "def": "see ġe-hwylċ",
+    "grammar": "",
+    "lemma": "ġe-hwelċ"
+  },
+  "gehweorfan": {
+    "def": "pass",
+    "grammar": "vb. 3",
+    "lemma": "ġe-hweorfan"
+  },
+  "gehwylc": {
+    "def": "every (one), w",
+    "grammar": "pron.",
+    "lemma": "ġe-hwylċ"
+  },
+  "gehwær": {
+    "def": "on every occasion",
+    "grammar": "adv.",
+    "lemma": "ġe-hwǣr"
+  },
+  "gehwæþer": {
+    "def": "each (of two), both",
+    "grammar": "pron.",
+    "lemma": "ġe-hwæþer"
+  },
+  "gehycgan": {
+    "def": "1988",
+    "grammar": "vb. III",
+    "lemma": "ġe-hycgan"
+  },
+  "gehygd": {
+    "def": "2045",
+    "grammar": "fni.",
+    "lemma": "ġe-hyġd"
+  },
+  "gehyld": {
+    "def": "OEG § ̄610",
+    "grammar": "ni.",
+    "lemma": "ġe-hyld"
   },
   "gehðo": {
     "def": "see ġiohðo",
     "grammar": "",
     "lemma": "ġehðo"
   },
-  "gen": {
-    "def": "yet, further",
+  "gehуdan": {
+    "def": "2235, 3059 (n",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯdan"
+  },
+  "gehуran": {
+    "def": "learn",
+    "grammar": "vb. I",
+    "lemma": "ġe-hӯran"
+  },
+  "geiode": {
+    "def": "see ġe-gān",
+    "grammar": "",
+    "lemma": "ġe-īode"
+  },
+  "gelac": {
+    "def": "motion, play",
+    "grammar": "n.",
+    "lemma": "ġe-lāc"
+  },
+  "gelad": {
+    "def": "1410",
+    "grammar": "n.",
+    "lemma": "ġe-lād"
+  },
+  "gelafian": {
+    "def": "LAVE, refresh",
+    "grammar": "vb. II",
+    "lemma": "ġe-lafian"
+  },
+  "gelang": {
+    "def": "dependent on (æt)",
+    "grammar": "adj.",
+    "lemma": "ġe-lang"
+  },
+  "gelenge": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "ġe-lenġe"
+  },
+  "geleogan": {
+    "def": "play false (w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-lēogan"
+  },
+  "gelic": {
+    "def": "2164 (n",
+    "grammar": "adj.",
+    "lemma": "ġe-līċ"
+  },
+  "gelicgan": {
+    "def": "3146",
+    "grammar": "vb. 5",
+    "lemma": "ġe-licgan"
+  },
+  "gelimpan": {
+    "def": "come to pass, befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "ġe-limpan"
+  },
+  "gelome": {
+    "def": "adv",
     "grammar": "adv.",
-    "lemma": "ġēn"
+    "lemma": "ġe-lōme"
+  },
+  "gelong": {
+    "def": "see ġe-lang",
+    "grammar": "",
+    "lemma": "ġe-long"
+  },
+  "gelæran": {
+    "def": "advise, persuade (w",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣran"
+  },
+  "gelæstan": {
+    "def": "serve, stand by",
+    "grammar": "vb. I",
+    "lemma": "ġe-lǣstan"
+  },
+  "gelуfan": {
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "ġe-lӯfan"
+  },
+  "gemede": {
+    "def": "agreement, consent",
+    "grammar": "nja.",
+    "lemma": "ġe-mēde"
+  },
+  "gemeltan": {
+    "def": "897, 1608, 1615, 2628 (fig",
+    "grammar": "vb.  3",
+    "lemma": "ġe-meltan"
+  },
+  "gemet": {
+    "def": "fit, proper",
+    "grammar": "adj.",
+    "lemma": "ġe-met"
+  },
+  "gemetan": {
+    "def": "find",
+    "grammar": "vb. I",
+    "lemma": "ġe-mētan"
+  },
+  "gemeting": {
+    "def": "encounter",
+    "grammar": "f.",
+    "lemma": "ġe-mēting"
+  },
+  "gemong": {
+    "def": "throng, troop",
+    "grammar": "n.",
+    "lemma": "ġe-mong"
+  },
+  "gemunan": {
+    "def": "bear in MIND, remember, think of",
+    "grammar": "prp.",
+    "lemma": "ġe-munan"
+  },
+  "gemynd": {
+    "def": "memorial",
+    "grammar": "fni.",
+    "lemma": "ġe-mynd"
+  },
+  "gemyndgian": {
+    "def": "2450",
+    "grammar": "vb. II",
+    "lemma": "ġe-myndgian"
+  },
+  "gemyndig": {
+    "def": "intent (on) (w",
+    "grammar": "adj.",
+    "lemma": "ġe-myndiġ"
+  },
+  "gemyne": {
+    "def": "see ġe-munan",
+    "grammar": "",
+    "lemma": "ġe-myne"
+  },
+  "gemænan": {
+    "def": "complain",
+    "grammar": "vb. I",
+    "lemma": "ġe-mǣnan"
+  },
+  "gemæne": {
+    "def": "in com-mon, mutual, shared",
+    "grammar": "adj.",
+    "lemma": "ġe-mǣne"
+  },
+  "gen": {
+    "def": "further",
+    "grammar": "adv.",
+    "lemma": "ġēna"
   },
   "gena": {
     "def": "further",
     "grammar": "adv.",
     "lemma": "ġēna"
   },
+  "gend": {
+    "def": "see genġan",
+    "grammar": "",
+    "lemma": "gende"
+  },
   "gende": {
     "def": "see genġan",
     "grammar": "",
     "lemma": "gende"
+  },
+  "gene": {
+    "def": "further",
+    "grammar": "adv.",
+    "lemma": "ġēna"
+  },
+  "geneahhe": {
+    "def": "abundant-ly, frequently",
+    "grammar": "adv.",
+    "lemma": "ġe-neahhe"
+  },
+  "genehost": {
+    "def": "see ġe-neahhe",
+    "grammar": "",
+    "lemma": "ġe-nehost"
+  },
+  "genesan": {
+    "def": "survive, get safely through",
+    "grammar": "vb. 5",
+    "lemma": "ġe-nesan"
+  },
+  "geneþan": {
+    "def": "1469",
+    "grammar": "vb. I",
+    "lemma": "ġe-nēþan"
+  },
+  "geng": {
+    "def": "go, ride (cf",
+    "grammar": "vb. I",
+    "lemma": "genġan"
   },
   "gengan": {
     "def": "go, ride (cf",
     "grammar": "vb. I",
     "lemma": "genġan"
   },
+  "genge": {
+    "def": "go, ride (cf",
+    "grammar": "vb. I",
+    "lemma": "genġan"
+  },
+  "geniman": {
+    "def": "seize, take away",
+    "grammar": "vb. 4",
+    "lemma": "ġe-niman"
+  },
+  "genip": {
+    "def": "mist",
+    "grammar": "n.",
+    "lemma": "ġe-nip"
+  },
+  "genog": {
+    "def": "abundant, many",
+    "grammar": "adj.",
+    "lemma": "ġe-nōg"
+  },
+  "genung": {
+    "def": "straightway, directly, completely",
+    "grammar": "adv.",
+    "lemma": "ġēnunga"
+  },
   "genunga": {
     "def": "straightway, directly, completely",
     "grammar": "adv.",
     "lemma": "ġēnunga"
   },
+  "genunge": {
+    "def": "straightway, directly, completely",
+    "grammar": "adv.",
+    "lemma": "ġēnunga"
+  },
+  "genyttian": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "ġe-nyttian"
+  },
+  "genægan": {
+    "def": "(approach), assail, attack",
+    "grammar": "vb. I",
+    "lemma": "ġe-nǣġan"
+  },
   "geo": {
     "def": "of old",
     "grammar": "adv.",
     "lemma": "ġeō"
+  },
+  "geo sceaft": {
+    "def": "that which has been de-termined of old, fate",
+    "grammar": "fi.",
+    "lemma": "ġeō-sceaft"
+  },
+  "geo sceaft gast": {
+    "def": "demon sent by fate, fated spirit",
+    "grammar": "m.",
+    "lemma": "ġeō-sceaft-gāst"
   },
   "geo-sceaft": {
     "def": "that which has been de-termined of old, fate",
@@ -6547,6 +20142,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġēocor"
   },
+  "geof": {
+    "def": "sea, ocean",
+    "grammar": "m.",
+    "lemma": "ġeofon"
+  },
+  "geofe": {
+    "def": "sea, ocean",
+    "grammar": "m.",
+    "lemma": "ġeofon"
+  },
   "geofon": {
     "def": "sea, ocean",
     "grammar": "m.",
@@ -6562,7 +20167,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġeogoð"
   },
+  "geogoð feorh": {
+    "def": "(period of ̄) YOUTH",
+    "grammar": "m.",
+    "lemma": "ġeogoð-feorh"
+  },
   "geogoð-feorh": {
+    "def": "(period of ̄) YOUTH",
+    "grammar": "m.",
+    "lemma": "ġeogoð-feorh"
+  },
+  "geogoðfeorh": {
     "def": "(period of ̄) YOUTH",
     "grammar": "m.",
     "lemma": "ġeogoð-feorh"
@@ -6572,15 +20187,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġeolo"
   },
+  "geolo rand": {
+    "def": "YELLOW shield (ref",
+    "grammar": "m.",
+    "lemma": "ġeolo-rand"
+  },
   "geolo-rand": {
     "def": "YELLOW shield (ref",
     "grammar": "m.",
     "lemma": "ġeolo-rand"
   },
+  "geolorand": {
+    "def": "YELLOW shield (ref",
+    "grammar": "m.",
+    "lemma": "ġeolo-rand"
+  },
+  "geomo": {
+    "def": "sadly",
+    "grammar": "adv.",
+    "lemma": "ġeōmore"
+  },
   "geomor": {
-    "def": "sad, mournful",
+    "def": "sadly",
+    "grammar": "adv.",
+    "lemma": "ġeōmore"
+  },
+  "geomor gyd(d)": {
+    "def": "song of mourn-ing, as",
+    "grammar": "nja.",
+    "lemma": "ġeōmor-ġyd(d)"
+  },
+  "geomor lic": {
+    "def": "2444",
     "grammar": "adj.",
-    "lemma": "ġeōmor"
+    "lemma": "ġeōmor-līċ"
+  },
+  "geomor mod": {
+    "def": "sad of mind",
+    "grammar": "adj.",
+    "lemma": "ġeōmor-mōd"
   },
   "geomor-gyd(d)": {
     "def": "song of mourn-ing, as",
@@ -6602,7 +20247,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġeōmore"
   },
+  "geomorgyd(d)": {
+    "def": "song of mourn-ing, as",
+    "grammar": "nja.",
+    "lemma": "ġeōmor-ġyd(d)"
+  },
+  "geomorlic": {
+    "def": "2444",
+    "grammar": "adj.",
+    "lemma": "ġeōmor-līċ"
+  },
+  "geomormod": {
+    "def": "sad of mind",
+    "grammar": "adj.",
+    "lemma": "ġeōmor-mōd"
+  },
+  "geomri": {
+    "def": "lament",
+    "grammar": "vb. II",
+    "lemma": "ġeōmrian"
+  },
   "geomrian": {
+    "def": "lament",
+    "grammar": "vb. II",
+    "lemma": "ġeōmrian"
+  },
+  "geomrie": {
     "def": "lament",
     "grammar": "vb. II",
     "lemma": "ġeōmrian"
@@ -6617,22 +20287,102 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prep.",
     "lemma": "ġeond"
   },
+  "geond brædan": {
+    "def": "over-spread",
+    "grammar": "vb.  I",
+    "lemma": "ġeond-brǣdan"
+  },
+  "geond hweorfan": {
+    "def": "pass through, go about",
+    "grammar": "vb. 3",
+    "lemma": "ġeond-hweorfan"
+  },
+  "geond seon": {
+    "def": "look over",
+    "grammar": "vb. 5",
+    "lemma": "ġeond-sēon"
+  },
+  "geond wlitan": {
+    "def": "look over",
+    "grammar": "vb. 1",
+    "lemma": "ġeond-wlītan"
+  },
+  "geond-bræd": {
+    "def": "over-spread",
+    "grammar": "vb.  I",
+    "lemma": "ġeond-brǣdan"
+  },
   "geond-brædan": {
     "def": "over-spread",
     "grammar": "vb.  I",
     "lemma": "ġeond-brǣdan"
+  },
+  "geond-bræde": {
+    "def": "over-spread",
+    "grammar": "vb.  I",
+    "lemma": "ġeond-brǣdan"
+  },
+  "geond-hweorf": {
+    "def": "pass through, go about",
+    "grammar": "vb. 3",
+    "lemma": "ġeond-hweorfan"
   },
   "geond-hweorfan": {
     "def": "pass through, go about",
     "grammar": "vb. 3",
     "lemma": "ġeond-hweorfan"
   },
+  "geond-hweorfe": {
+    "def": "pass through, go about",
+    "grammar": "vb. 3",
+    "lemma": "ġeond-hweorfan"
+  },
+  "geond-se": {
+    "def": "look over",
+    "grammar": "vb. 5",
+    "lemma": "ġeond-sēon"
+  },
+  "geond-see": {
+    "def": "look over",
+    "grammar": "vb. 5",
+    "lemma": "ġeond-sēon"
+  },
   "geond-seon": {
     "def": "look over",
     "grammar": "vb. 5",
     "lemma": "ġeond-sēon"
   },
+  "geond-wlit": {
+    "def": "look over",
+    "grammar": "vb. 1",
+    "lemma": "ġeond-wlītan"
+  },
   "geond-wlitan": {
+    "def": "look over",
+    "grammar": "vb. 1",
+    "lemma": "ġeond-wlītan"
+  },
+  "geond-wlite": {
+    "def": "look over",
+    "grammar": "vb. 1",
+    "lemma": "ġeond-wlītan"
+  },
+  "geondbrædan": {
+    "def": "over-spread",
+    "grammar": "vb.  I",
+    "lemma": "ġeond-brǣdan"
+  },
+  "geondhweorfan": {
+    "def": "pass through, go about",
+    "grammar": "vb. 3",
+    "lemma": "ġeond-hweorfan"
+  },
+  "geondseon": {
+    "def": "look over",
+    "grammar": "vb. 5",
+    "lemma": "ġeond-sēon"
+  },
+  "geondwlitan": {
     "def": "look over",
     "grammar": "vb. 1",
     "lemma": "ġeond-wlītan"
@@ -6641,6 +20391,11 @@ const OLD_ENGLISH_DICT = {
     "def": "imp",
     "grammar": "pret.",
     "lemma": "ġēong"
+  },
+  "geor": {
+    "def": "willingly, earnest-ly",
+    "grammar": "adv.",
+    "lemma": "ġeorne"
   },
   "georn": {
     "def": "desirous, eager",
@@ -6652,20 +20407,605 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġeorne"
   },
+  "geosceaft": {
+    "def": "that which has been de-termined of old, fate",
+    "grammar": "fi.",
+    "lemma": "ġeō-sceaft"
+  },
+  "geosceaftgast": {
+    "def": "demon sent by fate, fated spirit",
+    "grammar": "m.",
+    "lemma": "ġeō-sceaft-gāst"
+  },
+  "geot": {
+    "def": "flow, rush",
+    "grammar": "vb. 2",
+    "lemma": "ġēotan"
+  },
   "geotan": {
     "def": "flow, rush",
     "grammar": "vb. 2",
     "lemma": "ġēotan"
+  },
+  "geote": {
+    "def": "flow, rush",
+    "grammar": "vb. 2",
+    "lemma": "ġēotan"
+  },
+  "gerad": {
+    "def": "skilful, apt",
+    "grammar": "adj.",
+    "lemma": "ġe-rād"
+  },
+  "gereordian": {
+    "def": "1788",
+    "grammar": "vb. II",
+    "lemma": "ġe-reordian"
+  },
+  "geridan": {
+    "def": "RIDE up to",
+    "grammar": "vb. 1",
+    "lemma": "ġe-rīdan"
+  },
+  "gerumlice": {
+    "def": "‡at a distance, far away",
+    "grammar": "adv.",
+    "lemma": "ġe-rūm-līċe"
+  },
+  "gerysne": {
+    "def": "proper, fit, becoming, appropriate",
+    "grammar": "",
+    "lemma": "ġe-rysne"
+  },
+  "geræcan": {
+    "def": "hit",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣċan"
+  },
+  "geræsan": {
+    "def": "2839",
+    "grammar": "vb. I",
+    "lemma": "ġe-rǣsan"
+  },
+  "gesaca": {
+    "def": "1773",
+    "grammar": "wk.",
+    "lemma": "ġe-saca"
+  },
+  "gesacu": {
+    "def": "contention, enmity",
+    "grammar": "f.",
+    "lemma": "ġe-sacu"
+  },
+  "gescad": {
+    "def": "discrimination",
+    "grammar": "n.",
+    "lemma": "ġe-scād"
+  },
+  "gescadan": {
+    "def": "1555",
+    "grammar": "vb.  7",
+    "lemma": "ġe-scādan"
+  },
+  "gesceaft": {
+    "def": "abstr",
+    "grammar": "fi.",
+    "lemma": "ġe-sceaft"
+  },
+  "gesceap": {
+    "def": "creature, SHAPE, form",
+    "grammar": "n.",
+    "lemma": "ġe-sceap"
+  },
+  "gesceod": {
+    "def": "see ġe-sceðþan",
+    "grammar": "",
+    "lemma": "ġe-sceōd"
+  },
+  "gesceotan": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "ġe-scēotan"
+  },
+  "gesceran": {
+    "def": "cut through",
+    "grammar": "vb. 4",
+    "lemma": "ġe-sceran"
+  },
+  "gesceþðan": {
+    "def": "harm",
+    "grammar": "vb. 6",
+    "lemma": "ġe-sceþðan"
+  },
+  "gescipe": {
+    "def": "fate",
+    "grammar": "ni.",
+    "lemma": "ġe-scipe"
+  },
+  "gescrifan": {
+    "def": "assign, w",
+    "grammar": "vb. 1",
+    "lemma": "ġe-scrīfan"
+  },
+  "gescyppan": {
+    "def": "97",
+    "grammar": "vb. 6",
+    "lemma": "ġe-scyppan"
+  },
+  "gescæphwil": {
+    "def": "fated time (hour)",
+    "grammar": "f.",
+    "lemma": "ġe-scæp-hwīl"
+  },
+  "gesecan": {
+    "def": "look for",
+    "grammar": "vb. I",
+    "lemma": "ġe-sēċan"
+  },
+  "gesecgan": {
+    "def": "tell",
+    "grammar": "vb. III",
+    "lemma": "ġe-secgan"
+  },
+  "gesegan(on)": {
+    "def": "ġe-sēgan (-on), see ġe-sēon",
+    "grammar": "",
+    "lemma": "ġe-sēgan(-on)"
+  },
+  "geselda": {
+    "def": "(one in the same hall), companion, associate, comrade",
+    "grammar": "wk.",
+    "lemma": "ġe-selda"
+  },
+  "gesellan": {
+    "def": "make a present of, 1029",
+    "grammar": "vb. I",
+    "lemma": "ġe-sellan"
+  },
+  "geseon": {
+    "def": "perceive",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sēon"
+  },
+  "gesettan": {
+    "def": "establish",
+    "grammar": "vb. I",
+    "lemma": "ġe-settan"
+  },
+  "gesigan": {
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "ġe-sīgan"
+  },
+  "gesittan": {
+    "def": "171, 749 (sit up, see note), 1424, 1977, 2417, 2717",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sittan"
+  },
+  "gesið": {
+    "def": "companion",
+    "grammar": "m.",
+    "lemma": "ġe-sīð"
+  },
+  "geslean": {
+    "def": "459 (n",
+    "grammar": "vb. 6",
+    "lemma": "ġe-slēan"
+  },
+  "geslyht": {
+    "def": "battle, conflict",
+    "grammar": "ni.",
+    "lemma": "ġe-slyht"
+  },
+  "gesprecan": {
+    "def": "675, 1398, 1466, 3094",
+    "grammar": "vb. 5",
+    "lemma": "ġe-sprecan"
+  },
+  "gespringan": {
+    "def": "arise",
+    "grammar": "vb. 3",
+    "lemma": "ġe-springan"
+  },
+  "gest sele": {
+    "def": "GUEST-hall, (royal ̄) hall for retainers (BGdSL 32 [1907] 9–16, 565–7)",
+    "grammar": "mi.",
+    "lemma": "ġest-sele"
+  },
+  "gest-sel": {
+    "def": "GUEST-hall, (royal ̄) hall for retainers (BGdSL 32 [1907] 9–16, 565–7)",
+    "grammar": "mi.",
+    "lemma": "ġest-sele"
   },
   "gest-sele": {
     "def": "GUEST-hall, (royal ̄) hall for retainers (BGdSL 32 [1907] 9–16, 565–7)",
     "grammar": "mi.",
     "lemma": "ġest-sele"
   },
+  "gestandan": {
+    "def": "take one’s stand",
+    "grammar": "vb. 6",
+    "lemma": "ġe-standan"
+  },
+  "gestepan": {
+    "def": "advance, support",
+    "grammar": "vb. I",
+    "lemma": "ġe-stēpan"
+  },
+  "gesteppan": {
+    "def": "walk",
+    "grammar": "vb. 6",
+    "lemma": "ġe-steppan"
+  },
+  "gestigan": {
+    "def": "set out",
+    "grammar": "vb. 1",
+    "lemma": "ġe-stīgan"
+  },
+  "gestreon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "ġe-strēon"
+  },
+  "gestrуnan": {
+    "def": "gain",
+    "grammar": "vb. I",
+    "lemma": "ġe-strӯnan"
+  },
+  "gestsele": {
+    "def": "GUEST-hall, (royal ̄) hall for retainers (BGdSL 32 [1907] 9–16, 565–7)",
+    "grammar": "mi.",
+    "lemma": "ġest-sele"
+  },
+  "gesund": {
+    "def": "safe, unharmed",
+    "grammar": "adj.",
+    "lemma": "ġe-sund"
+  },
+  "geswencan": {
+    "def": "strike down",
+    "grammar": "vb. I",
+    "lemma": "ġe-swenċan"
+  },
+  "gesweorcan": {
+    "def": "1789",
+    "grammar": "vb. 3",
+    "lemma": "ġe-sweorcan"
+  },
+  "geswican": {
+    "def": "prove ineffective",
+    "grammar": "vb. 1",
+    "lemma": "ġe-swīcan"
+  },
+  "geswing": {
+    "def": "vibration, swirl, surf",
+    "grammar": "n.",
+    "lemma": "ġe-swinġ"
+  },
+  "gesyngian": {
+    "def": "do wrong",
+    "grammar": "vb. II",
+    "lemma": "ġe-syngian"
+  },
+  "gesynto": {
+    "def": "safety",
+    "grammar": "f.",
+    "lemma": "ġe-synto"
+  },
+  "gesælan": {
+    "def": "chance, turn out ( ̄favorably)",
+    "grammar": "vb. I",
+    "lemma": "ġe-sǣlan"
+  },
+  "gesуne": {
+    "def": "evident",
+    "grammar": "adj.",
+    "lemma": "ġe-sӯne"
+  },
+  "get": {
+    "def": "destroy, kill (by shed-ding blood ̄)",
+    "grammar": "vb. I",
+    "lemma": "ġētan"
+  },
   "getan": {
     "def": "destroy, kill (by shed-ding blood ̄)",
     "grammar": "vb. I",
     "lemma": "ġētan"
+  },
+  "gete": {
+    "def": "destroy, kill (by shed-ding blood ̄)",
+    "grammar": "vb. I",
+    "lemma": "ġētan"
+  },
+  "getenge": {
+    "def": "close to (w",
+    "grammar": "adj.",
+    "lemma": "ġe-tenġe"
+  },
+  "geteogan": {
+    "def": "assign, allot",
+    "grammar": "vb. II",
+    "lemma": "ġe-tēoġan"
+  },
+  "geteon": {
+    "def": "1545, 2610",
+    "grammar": "vb. 2",
+    "lemma": "ġe-tēon"
+  },
+  "getrum": {
+    "def": "company",
+    "grammar": "n.",
+    "lemma": "ġe-trum"
+  },
+  "getruwian": {
+    "def": "trust",
+    "grammar": "vb. II",
+    "lemma": "ġe-truwian"
+  },
+  "getrуwe": {
+    "def": "faithful",
+    "grammar": "adj.",
+    "lemma": "ġe-trӯwe"
+  },
+  "getwæfan": {
+    "def": "separate, part, put an end to",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣfan"
+  },
+  "getwæman": {
+    "def": "hinder",
+    "grammar": "vb. I",
+    "lemma": "ġe-twǣman"
+  },
+  "getæcan": {
+    "def": "point out, assign",
+    "grammar": "vb. I",
+    "lemma": "ġe-tǣċan"
+  },
+  "getæse": {
+    "def": "1320",
+    "grammar": "adj.",
+    "lemma": "ġe-tǣse"
+  },
+  "geunnan": {
+    "def": "1661",
+    "grammar": "prp.",
+    "lemma": "ġe-unnan"
+  },
+  "gewadan": {
+    "def": "advance (to a cer-tain point)",
+    "grammar": "vb. 6",
+    "lemma": "ġe-wadan"
+  },
+  "gewealc": {
+    "def": "464",
+    "grammar": "n.",
+    "lemma": "ġe-wealc"
+  },
+  "geweald": {
+    "def": "control",
+    "grammar": "n.",
+    "lemma": "ġe-weald"
+  },
+  "gewealdan": {
+    "def": "WIELD, have control of",
+    "grammar": "vb. 7",
+    "lemma": "ġe-wealdan"
+  },
+  "geweaxan": {
+    "def": "increase",
+    "grammar": "vb. 7",
+    "lemma": "ġe-weaxan"
+  },
+  "gewegan": {
+    "def": "fight",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wegan"
+  },
+  "gewendan": {
+    "def": "315",
+    "grammar": "vb. I",
+    "lemma": "ġe-wendan"
+  },
+  "geweorc": {
+    "def": "2711",
+    "grammar": "n.",
+    "lemma": "ġe-weorc"
+  },
+  "geweorðan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "ġe-weorðan"
+  },
+  "gewican": {
+    "def": "give way, fail",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wīcan"
+  },
+  "gewidre": {
+    "def": "storm",
+    "grammar": "nja.",
+    "lemma": "ġe-widre"
+  },
+  "gewif(orgewife)": {
+    "def": "WEB (of destiny), fortune",
+    "grammar": "ni.",
+    "lemma": "ġe-wif(orġe-wife)"
+  },
+  "gewin(n)": {
+    "def": "struggle, fight",
+    "grammar": "n.",
+    "lemma": "ġe-win(n)"
+  },
+  "gewindanvb.3": {
+    "def": "turn",
+    "grammar": "go",
+    "lemma": "ġe-windanvb.3"
+  },
+  "gewiofu": {
+    "def": "see ġe-wif",
+    "grammar": "",
+    "lemma": "ġe-wiofu"
+  },
+  "gewislice": {
+    "def": "1350",
+    "grammar": "adv.",
+    "lemma": "ġe-wis-līċe"
+  },
+  "gewit(t)": {
+    "def": "senses",
+    "grammar": "nja.",
+    "lemma": "ġe-wit(t)"
+  },
+  "gewitan": {
+    "def": "go",
+    "grammar": "vb. 1",
+    "lemma": "ġe-wītan"
+  },
+  "gewittig": {
+    "def": "conscious",
+    "grammar": "adj.",
+    "lemma": "ġe-wittiġ"
+  },
+  "gewrecan": {
+    "def": "punish",
+    "grammar": "vb. 5",
+    "lemma": "ġe-wrecan"
+  },
+  "gewrixle": {
+    "def": "nja",
+    "grammar": "nja.",
+    "lemma": "ġe-wrixle"
+  },
+  "gewunian": {
+    "def": "†remain with, stand by (someone)",
+    "grammar": "vb. II",
+    "lemma": "ġe-wunian"
+  },
+  "gewyrcan": {
+    "def": "perform, carry out, accomplish, achieve",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrċan"
+  },
+  "gewyrpan": {
+    "def": "recover",
+    "grammar": "vb. I",
+    "lemma": "ġe-wyrpan"
+  },
+  "gewæde": {
+    "def": "equipment, armor",
+    "grammar": "nja.",
+    "lemma": "ġe-wǣde"
+  },
+  "geæfnan": {
+    "def": "carry out",
+    "grammar": "vb. I",
+    "lemma": "ġe-æfnan"
+  },
+  "geæhtle(a?)": {
+    "def": "consider-ation, esteem",
+    "grammar": "wk.",
+    "lemma": "ġe-æhtle(-a?)"
+  },
+  "geþah": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þāh"
+  },
+  "geþearfian": {
+    "def": "‡necessitate, impose necessity",
+    "grammar": "vb.  II",
+    "lemma": "ġe-þearfian"
+  },
+  "geþencan": {
+    "def": "remember",
+    "grammar": "vb. I",
+    "lemma": "ġe-þenċan"
+  },
+  "geþeon": {
+    "def": "flourish",
+    "grammar": "vb. 1",
+    "lemma": "ġe-þēon"
+  },
+  "geþicgan": {
+    "def": "consume, drink",
+    "grammar": "vb.  5",
+    "lemma": "ġe-þicgan"
+  },
+  "geþingan": {
+    "def": "determine, appoint, intend",
+    "grammar": "vb. I",
+    "lemma": "ġe-þinġan"
+  },
+  "geþinge": {
+    "def": "compact",
+    "grammar": "nja.",
+    "lemma": "ġe-þinġe"
+  },
+  "geþoht": {
+    "def": "256, 610",
+    "grammar": "m.",
+    "lemma": "ġe-þōht"
+  },
+  "geþolian": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "ġe-þolian"
+  },
+  "geþonc": {
+    "def": "2332",
+    "grammar": "m.",
+    "lemma": "ġe-þonc"
+  },
+  "geþring": {
+    "def": "tumult",
+    "grammar": "n.",
+    "lemma": "ġe-þrinġ"
+  },
+  "geþringan": {
+    "def": "press ( ̄forward)",
+    "grammar": "vb. 3",
+    "lemma": "ġe-þringan"
+  },
+  "geþruen": {
+    "def": "forged, hammered, made",
+    "grammar": "pp.",
+    "lemma": "ġe-þrūen"
+  },
+  "geþræc": {
+    "def": "press, heap",
+    "grammar": "n.",
+    "lemma": "ġe-þræc"
+  },
+  "geþungen": {
+    "def": "see þēon, vb",
+    "grammar": "",
+    "lemma": "ġe-þungen"
+  },
+  "geþwære": {
+    "def": "united, loyal",
+    "grammar": "adj.",
+    "lemma": "ġe-þwǣre"
+  },
+  "geþyld": {
+    "def": "1395",
+    "grammar": "fi.",
+    "lemma": "ġe-þyld"
+  },
+  "geþægon": {
+    "def": "see ġe-þicgan",
+    "grammar": "",
+    "lemma": "ġe-þǣgon"
+  },
+  "geþуwe": {
+    "def": "customary, usual",
+    "grammar": "adj.",
+    "lemma": "ġe-þӯwe"
+  },
+  "geуwan": {
+    "def": "present, bestow",
+    "grammar": "vb. I",
+    "lemma": "ġe-ӯwan"
   },
   "gid(d)": {
     "def": "tale, ( ̄formal) speech, sententious utterance",
@@ -6673,9 +21013,24 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġid(d)"
   },
   "gif": {
-    "def": "346, 442, 447, 527, 661, 684, 1185, 1822, 1826, 1836, 1846, 2514",
-    "grammar": "conj.",
-    "lemma": "ġif"
+    "def": "2972",
+    "grammar": "vb. 5",
+    "lemma": "ġifan"
+  },
+  "gif heal(l)": {
+    "def": "GIFt-HALL, hall for the dispensing of gifts",
+    "grammar": "f.",
+    "lemma": "ġif-heal(l)"
+  },
+  "gif sceat(t)": {
+    "def": "GIFt",
+    "grammar": "m.",
+    "lemma": "ġif-sceat(t)"
+  },
+  "gif stol": {
+    "def": "GIFt-seat, throne",
+    "grammar": "m.",
+    "lemma": "ġif-stōl"
   },
   "gif-heal(l)": {
     "def": "GIFt-HALL, hall for the dispensing of gifts",
@@ -6697,20 +21052,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ġifan"
   },
+  "gife": {
+    "def": "2972",
+    "grammar": "vb. 5",
+    "lemma": "ġifan"
+  },
   "gifen": {
     "def": "(noun), see ġeofon",
     "grammar": "",
     "lemma": "ġifen"
+  },
+  "gifeð": {
+    "def": "fate",
+    "grammar": "nja.",
+    "lemma": "ġifeðe"
   },
   "gifeðe": {
     "def": "fate",
     "grammar": "nja.",
     "lemma": "ġifeðe"
   },
+  "gifheal(l)": {
+    "def": "GIFt-HALL, hall for the dispensing of gifts",
+    "grammar": "f.",
+    "lemma": "ġif-heal(l)"
+  },
+  "gifr": {
+    "def": "ravenous",
+    "grammar": "adj.",
+    "lemma": "ġīfre"
+  },
   "gifre": {
     "def": "ravenous",
     "grammar": "adj.",
     "lemma": "ġīfre"
+  },
+  "gifsceat(t)": {
+    "def": "GIFt",
+    "grammar": "m.",
+    "lemma": "ġif-sceat(t)"
+  },
+  "gifstol": {
+    "def": "GIFt-seat, throne",
+    "grammar": "m.",
+    "lemma": "ġif-stōl"
   },
   "gifu": {
     "def": "1271, 2182",
@@ -6723,14 +21108,44 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġīgant"
   },
   "gilp": {
-    "def": "boast, boasting",
-    "grammar": "n.",
-    "lemma": "ġilp"
+    "def": "w",
+    "grammar": "",
+    "lemma": "ġilpan"
+  },
+  "gilp cwide": {
+    "def": "boasting speech",
+    "grammar": "mi.",
+    "lemma": "ġilp-cwide"
+  },
+  "gilp hlæden": {
+    "def": "(vaunt-LADEN), supplied with glorious words",
+    "grammar": "adj.",
+    "lemma": "ġilp-hlæden"
+  },
+  "gilp-cwi": {
+    "def": "boasting speech",
+    "grammar": "mi.",
+    "lemma": "ġilp-cwide"
+  },
+  "gilp-cwid": {
+    "def": "boasting speech",
+    "grammar": "mi.",
+    "lemma": "ġilp-cwide"
   },
   "gilp-cwide": {
     "def": "boasting speech",
     "grammar": "mi.",
     "lemma": "ġilp-cwide"
+  },
+  "gilp-hlæd": {
+    "def": "(vaunt-LADEN), supplied with glorious words",
+    "grammar": "adj.",
+    "lemma": "ġilp-hlæden"
+  },
+  "gilp-hlæde": {
+    "def": "(vaunt-LADEN), supplied with glorious words",
+    "grammar": "adj.",
+    "lemma": "ġilp-hlæden"
   },
   "gilp-hlæden": {
     "def": "(vaunt-LADEN), supplied with glorious words",
@@ -6742,10 +21157,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġilpan"
   },
+  "gilpcwide": {
+    "def": "boasting speech",
+    "grammar": "mi.",
+    "lemma": "ġilp-cwide"
+  },
+  "gilpe": {
+    "def": "w",
+    "grammar": "",
+    "lemma": "ġilpan"
+  },
+  "gilphlæden": {
+    "def": "(vaunt-LADEN), supplied with glorious words",
+    "grammar": "adj.",
+    "lemma": "ġilp-hlæden"
+  },
   "gim(m)": {
     "def": "jewel",
     "grammar": "m.",
     "lemma": "ġim(m)"
+  },
+  "gin fæst": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "ġin-fæst"
   },
   "gin(n)": {
     "def": "spacious, wide",
@@ -6753,6 +21188,11 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġin(n)"
   },
   "gin-fæst": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "ġin-fæst"
+  },
+  "ginfæst": {
     "def": "adj",
     "grammar": "",
     "lemma": "ġin-fæst"
@@ -6767,7 +21207,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġiō"
   },
+  "giof": {
+    "def": "see ġifan",
+    "grammar": "",
+    "lemma": "ġiofan"
+  },
   "giofan": {
+    "def": "see ġifan",
+    "grammar": "",
+    "lemma": "ġiofan"
+  },
+  "giofe": {
     "def": "see ġifan",
     "grammar": "",
     "lemma": "ġiofan"
@@ -6782,10 +21232,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġiohðo"
   },
+  "giomor( )": {
+    "def": "see ġeōmor(-)",
+    "grammar": "",
+    "lemma": "ġiōmor(-)"
+  },
+  "giomor()": {
+    "def": "see ġeōmor(-)",
+    "grammar": "",
+    "lemma": "ġiōmor(-)"
+  },
   "giomor(-)": {
     "def": "see ġeōmor(-)",
     "grammar": "",
     "lemma": "ġiōmor(-)"
+  },
+  "giond": {
+    "def": "see ġeond-",
+    "grammar": "",
+    "lemma": "ġiond-"
+  },
+  "giond ": {
+    "def": "see ġeond-",
+    "grammar": "",
+    "lemma": "ġiond-"
   },
   "giond-": {
     "def": "see ġeond-",
@@ -6807,7 +21277,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġit"
   },
+  "gladi": {
+    "def": "‡glisten, shine",
+    "grammar": "vb. II",
+    "lemma": "gladian"
+  },
   "gladian": {
+    "def": "‡glisten, shine",
+    "grammar": "vb. II",
+    "lemma": "gladian"
+  },
+  "gladie": {
     "def": "‡glisten, shine",
     "grammar": "vb. II",
     "lemma": "gladian"
@@ -6817,7 +21297,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "glēd"
   },
+  "gled egesa": {
+    "def": "fire-terror, terrible fire",
+    "grammar": "wk.",
+    "lemma": "glēd-eġesa"
+  },
+  "gled-eges": {
+    "def": "fire-terror, terrible fire",
+    "grammar": "wk.",
+    "lemma": "glēd-eġesa"
+  },
   "gled-egesa": {
+    "def": "fire-terror, terrible fire",
+    "grammar": "wk.",
+    "lemma": "glēd-eġesa"
+  },
+  "gled-egese": {
+    "def": "fire-terror, terrible fire",
+    "grammar": "wk.",
+    "lemma": "glēd-eġesa"
+  },
+  "gledegesa": {
     "def": "fire-terror, terrible fire",
     "grammar": "wk.",
     "lemma": "glēd-eġesa"
@@ -6826,6 +21326,21 @@ const OLD_ENGLISH_DICT = {
     "def": "OEG § ̄120",
     "grammar": "n.",
     "lemma": "glēo"
+  },
+  "gleo beam": {
+    "def": "GLEE-wood, lyre or harp",
+    "grammar": "m.",
+    "lemma": "glēo-bēam"
+  },
+  "gleo dream": {
+    "def": "enjoyment, entertain-ment, revelry",
+    "grammar": "m.",
+    "lemma": "glēo-drēam"
+  },
+  "gleo man(n)": {
+    "def": "singer, musician",
+    "grammar": "mc.",
+    "lemma": "glēo-man(n)"
   },
   "gleo-beam": {
     "def": "GLEE-wood, lyre or harp",
@@ -6842,12 +21357,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "glēo-man(n)"
   },
+  "gleobeam": {
+    "def": "GLEE-wood, lyre or harp",
+    "grammar": "m.",
+    "lemma": "glēo-bēam"
+  },
+  "gleodream": {
+    "def": "enjoyment, entertain-ment, revelry",
+    "grammar": "m.",
+    "lemma": "glēo-drēam"
+  },
+  "gleoman(n)": {
+    "def": "singer, musician",
+    "grammar": "mc.",
+    "lemma": "glēo-man(n)"
+  },
+  "glid": {
+    "def": "2073",
+    "grammar": "vb. 1",
+    "lemma": "glīdan"
+  },
   "glidan": {
     "def": "2073",
     "grammar": "vb. 1",
     "lemma": "glīdan"
   },
+  "glide": {
+    "def": "2073",
+    "grammar": "vb. 1",
+    "lemma": "glīdan"
+  },
+  "glitini": {
+    "def": "GLITTer, shine",
+    "grammar": "vb. II",
+    "lemma": "glitinian"
+  },
   "glitinian": {
+    "def": "GLITTer, shine",
+    "grammar": "vb. II",
+    "lemma": "glitinian"
+  },
+  "glitinie": {
     "def": "GLITTer, shine",
     "grammar": "vb. II",
     "lemma": "glitinian"
@@ -6862,12 +21412,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "glæd"
   },
+  "glæd man": {
+    "def": "cheerful, bright, gra-cious",
+    "grammar": "adj.",
+    "lemma": "glæd-man"
+  },
+  "glæd mod": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "glæd-mōd"
+  },
+  "glæd-m": {
+    "def": "cheerful, bright, gra-cious",
+    "grammar": "adj.",
+    "lemma": "glæd-man"
+  },
   "glæd-man": {
     "def": "cheerful, bright, gra-cious",
     "grammar": "adj.",
     "lemma": "glæd-man"
   },
+  "glæd-me": {
+    "def": "cheerful, bright, gra-cious",
+    "grammar": "adj.",
+    "lemma": "glæd-man"
+  },
   "glæd-mod": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "glæd-mōd"
+  },
+  "glædman": {
+    "def": "cheerful, bright, gra-cious",
+    "grammar": "adj.",
+    "lemma": "glæd-man"
+  },
+  "glædmod": {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "glæd-mōd"
@@ -6882,7 +21462,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gnorn"
   },
+  "gnorni": {
+    "def": "lament",
+    "grammar": "vb. II",
+    "lemma": "gnornian"
+  },
   "gnornian": {
+    "def": "lament",
+    "grammar": "vb. II",
+    "lemma": "gnornian"
+  },
+  "gnornie": {
     "def": "lament",
     "grammar": "vb. II",
     "lemma": "gnornian"
@@ -6892,7 +21482,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "gōd"
   },
+  "god fremmend(e)": {
+    "def": "one doing GOOD, acting proper-ly",
+    "grammar": "mc.",
+    "lemma": "gōd-fremmend(e)"
+  },
   "god-fremmend(e)": {
+    "def": "one doing GOOD, acting proper-ly",
+    "grammar": "mc.",
+    "lemma": "gōd-fremmend(e)"
+  },
+  "godfremmend(e)": {
     "def": "one doing GOOD, acting proper-ly",
     "grammar": "mc.",
     "lemma": "gōd-fremmend(e)"
@@ -6902,20 +21502,105 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "gold"
   },
+  "gold fag": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "gold-fāg"
+  },
+  "gold gyfa": {
+    "def": "GOLD-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "gold-ġyfa"
+  },
+  "gold hladen": {
+    "def": "(LADEN) adorned with GOLD",
+    "grammar": "adj.",
+    "lemma": "gold-hladen"
+  },
+  "gold hroden": {
+    "def": "GOLD-adorned",
+    "grammar": "adj.",
+    "lemma": "gold-hroden"
+  },
+  "gold hwatu": {
+    "def": "GOLD-spell, curse on gold",
+    "grammar": "f.",
+    "lemma": "gold-hwatu"
+  },
+  "gold maððum": {
+    "def": "GOLD-treasure",
+    "grammar": "m.",
+    "lemma": "gold-māððum"
+  },
+  "gold sele": {
+    "def": "GOLD-hall",
+    "grammar": "mi.",
+    "lemma": "gold-sele"
+  },
+  "gold weard": {
+    "def": "GUARDian of GOLD",
+    "grammar": "m.",
+    "lemma": "gold-weard"
+  },
+  "gold wine": {
+    "def": "GOLD-friend, (gener-ous) prince",
+    "grammar": "mi.",
+    "lemma": "gold-wine"
+  },
+  "gold wlanc": {
+    "def": "GOLD-proud, splen-didly decked in gold",
+    "grammar": "adj.",
+    "lemma": "gold-wlanc"
+  },
+  "gold æht": {
+    "def": "possessions in GOLD, treasure of gold",
+    "grammar": "fi.",
+    "lemma": "gold-ǣht"
+  },
   "gold-fag": {
     "def": "adj",
     "grammar": "",
     "lemma": "gold-fāg"
+  },
+  "gold-gyf": {
+    "def": "GOLD-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "gold-ġyfa"
   },
   "gold-gyfa": {
     "def": "GOLD-GIVer, lord",
     "grammar": "wk.",
     "lemma": "gold-ġyfa"
   },
+  "gold-gyfe": {
+    "def": "GOLD-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "gold-ġyfa"
+  },
+  "gold-hlad": {
+    "def": "(LADEN) adorned with GOLD",
+    "grammar": "adj.",
+    "lemma": "gold-hladen"
+  },
+  "gold-hlade": {
+    "def": "(LADEN) adorned with GOLD",
+    "grammar": "adj.",
+    "lemma": "gold-hladen"
+  },
   "gold-hladen": {
     "def": "(LADEN) adorned with GOLD",
     "grammar": "adj.",
     "lemma": "gold-hladen"
+  },
+  "gold-hrod": {
+    "def": "GOLD-adorned",
+    "grammar": "adj.",
+    "lemma": "gold-hroden"
+  },
+  "gold-hrode": {
+    "def": "GOLD-adorned",
+    "grammar": "adj.",
+    "lemma": "gold-hroden"
   },
   "gold-hroden": {
     "def": "GOLD-adorned",
@@ -6927,10 +21612,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "gold-hwatu"
   },
+  "gold-maðð": {
+    "def": "GOLD-treasure",
+    "grammar": "m.",
+    "lemma": "gold-māððum"
+  },
+  "gold-maððe": {
+    "def": "GOLD-treasure",
+    "grammar": "m.",
+    "lemma": "gold-māððum"
+  },
   "gold-maððum": {
     "def": "GOLD-treasure",
     "grammar": "m.",
     "lemma": "gold-māððum"
+  },
+  "gold-sel": {
+    "def": "GOLD-hall",
+    "grammar": "mi.",
+    "lemma": "gold-sele"
   },
   "gold-sele": {
     "def": "GOLD-hall",
@@ -6941,6 +21641,16 @@ const OLD_ENGLISH_DICT = {
     "def": "GUARDian of GOLD",
     "grammar": "m.",
     "lemma": "gold-weard"
+  },
+  "gold-wi": {
+    "def": "GOLD-friend, (gener-ous) prince",
+    "grammar": "mi.",
+    "lemma": "gold-wine"
+  },
+  "gold-win": {
+    "def": "GOLD-friend, (gener-ous) prince",
+    "grammar": "mi.",
+    "lemma": "gold-wine"
   },
   "gold-wine": {
     "def": "GOLD-friend, (gener-ous) prince",
@@ -6957,10 +21667,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "gold-ǣht"
   },
+  "goldfag": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "gold-fāg"
+  },
+  "goldgyfa": {
+    "def": "GOLD-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "gold-ġyfa"
+  },
+  "goldhladen": {
+    "def": "(LADEN) adorned with GOLD",
+    "grammar": "adj.",
+    "lemma": "gold-hladen"
+  },
+  "goldhroden": {
+    "def": "GOLD-adorned",
+    "grammar": "adj.",
+    "lemma": "gold-hroden"
+  },
+  "goldhwatu": {
+    "def": "GOLD-spell, curse on gold",
+    "grammar": "f.",
+    "lemma": "gold-hwatu"
+  },
+  "goldmaððum": {
+    "def": "GOLD-treasure",
+    "grammar": "m.",
+    "lemma": "gold-māððum"
+  },
+  "goldsele": {
+    "def": "GOLD-hall",
+    "grammar": "mi.",
+    "lemma": "gold-sele"
+  },
+  "goldweard": {
+    "def": "GUARDian of GOLD",
+    "grammar": "m.",
+    "lemma": "gold-weard"
+  },
+  "goldwine": {
+    "def": "GOLD-friend, (gener-ous) prince",
+    "grammar": "mi.",
+    "lemma": "gold-wine"
+  },
+  "goldwlanc": {
+    "def": "GOLD-proud, splen-didly decked in gold",
+    "grammar": "adj.",
+    "lemma": "gold-wlanc"
+  },
+  "goldæht": {
+    "def": "possessions in GOLD, treasure of gold",
+    "grammar": "fi.",
+    "lemma": "gold-ǣht"
+  },
+  "gom": {
+    "def": "entertainment, diversion, pastime, sport, play",
+    "grammar": "n.",
+    "lemma": "gomen"
+  },
+  "gombe(wk.f.?)( a?": {
+    "def": "tribute",
+    "grammar": "",
+    "lemma": "gombe(wk.f.?)(-a?"
+  },
   "gombe(wk.f.?)(-a?": {
     "def": "tribute",
     "grammar": "",
     "lemma": "gombe(wk.f.?)(-a?"
+  },
+  "gombe(wk.f.?)(a?": {
+    "def": "tribute",
+    "grammar": "",
+    "lemma": "gombe(wk.f.?)(-a?"
+  },
+  "gome": {
+    "def": "entertainment, diversion, pastime, sport, play",
+    "grammar": "n.",
+    "lemma": "gomen"
   },
   "gomel": {
     "def": "gomol, see gamol",
@@ -6972,12 +21757,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "gomen"
   },
+  "gomen waþ": {
+    "def": "diverting (i",
+    "grammar": "f.",
+    "lemma": "gomen-wāþ"
+  },
+  "gomen wudu": {
+    "def": "WOOD of enter-tainment (lyre or harp)",
+    "grammar": "mu.",
+    "lemma": "gomen-wudu"
+  },
   "gomen-waþ": {
     "def": "diverting (i",
     "grammar": "f.",
     "lemma": "gomen-wāþ"
   },
   "gomen-wudu": {
+    "def": "WOOD of enter-tainment (lyre or harp)",
+    "grammar": "mu.",
+    "lemma": "gomen-wudu"
+  },
+  "gomenwaþ": {
+    "def": "diverting (i",
+    "grammar": "f.",
+    "lemma": "gomen-wāþ"
+  },
+  "gomenwudu": {
     "def": "WOOD of enter-tainment (lyre or harp)",
     "grammar": "mu.",
     "lemma": "gomen-wudu"
@@ -6992,25 +21797,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "grāp"
   },
+  "grapi": {
+    "def": "grasp",
+    "grammar": "vb. II",
+    "lemma": "grāpian"
+  },
   "grapian": {
     "def": "grasp",
     "grammar": "vb. II",
     "lemma": "grāpian"
   },
+  "grapie": {
+    "def": "grasp",
+    "grammar": "vb. II",
+    "lemma": "grāpian"
+  },
   "greot": {
-    "def": "earth",
-    "grammar": "n.",
-    "lemma": "grēot"
+    "def": "weep",
+    "grammar": "vb.  2",
+    "lemma": "grēotan"
   },
   "greotan": {
     "def": "weep",
     "grammar": "vb.  2",
     "lemma": "grēotan"
   },
+  "greote": {
+    "def": "weep",
+    "grammar": "vb.  2",
+    "lemma": "grēotan"
+  },
+  "gret": {
+    "def": "touch, attack",
+    "grammar": "vb.  I",
+    "lemma": "grētan"
+  },
   "gretan": {
     "def": "touch, attack",
     "grammar": "vb.  I",
     "lemma": "grētan"
+  },
+  "grete": {
+    "def": "touch, attack",
+    "grammar": "vb.  I",
+    "lemma": "grētan"
+  },
+  "grim helm": {
+    "def": "mask-HELMet, helmet (with a mask-like frontal plate)",
+    "grammar": "m.",
+    "lemma": "grīm-helm"
+  },
+  "grim lic": {
+    "def": "terrible",
+    "grammar": "adj.",
+    "lemma": "grim-liċ"
+  },
+  "grim mon(n)": {
+    "def": "mask-MAN, helmet-ed warrior",
+    "grammar": "mc.",
+    "lemma": "grīm-mon(n)"
   },
   "grim(m)": {
     "def": "fierce, angry, grim, 555, 2043, 2650",
@@ -7032,10 +21877,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "grīm-mon(n)"
   },
+  "grimhelm": {
+    "def": "mask-HELMet, helmet (with a mask-like frontal plate)",
+    "grammar": "m.",
+    "lemma": "grīm-helm"
+  },
+  "grimlic": {
+    "def": "terrible",
+    "grammar": "adj.",
+    "lemma": "grim-liċ"
+  },
+  "grimm": {
+    "def": "terribly",
+    "grammar": "adv.",
+    "lemma": "grimme"
+  },
   "grimme": {
     "def": "terribly",
     "grammar": "adv.",
     "lemma": "grimme"
+  },
+  "grimmon(n)": {
+    "def": "mask-MAN, helmet-ed warrior",
+    "grammar": "mc.",
+    "lemma": "grīm-mon(n)"
+  },
+  "grip": {
+    "def": "grasp, clutch",
+    "grammar": "vb. 1",
+    "lemma": "grīpan"
   },
   "gripan": {
     "def": "grasp, clutch",
@@ -7043,21 +21913,56 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grīpan"
   },
   "gripe": {
-    "def": "grasp, attack",
-    "grammar": "mi.",
-    "lemma": "gripe"
+    "def": "grasp, clutch",
+    "grammar": "vb. 1",
+    "lemma": "grīpan"
+  },
+  "grom heort": {
+    "def": "hostile-HEARTed",
+    "grammar": "adj.",
+    "lemma": "grom-heort"
+  },
+  "grom hуdig": {
+    "def": "angry-minded, hos-tilely disposed",
+    "grammar": "adj.",
+    "lemma": "grom-hӯdiġ"
   },
   "grom-heort": {
     "def": "hostile-HEARTed",
     "grammar": "adj.",
     "lemma": "grom-heort"
   },
+  "grom-hуde": {
+    "def": "angry-minded, hos-tilely disposed",
+    "grammar": "adj.",
+    "lemma": "grom-hӯdiġ"
+  },
   "grom-hуdig": {
     "def": "angry-minded, hos-tilely disposed",
     "grammar": "adj.",
     "lemma": "grom-hӯdiġ"
   },
+  "gromheort": {
+    "def": "hostile-HEARTed",
+    "grammar": "adj.",
+    "lemma": "grom-heort"
+  },
+  "gromhуdig": {
+    "def": "angry-minded, hos-tilely disposed",
+    "grammar": "adj.",
+    "lemma": "grom-hӯdiġ"
+  },
+  "grow": {
+    "def": "1718",
+    "grammar": "vb. 7",
+    "lemma": "grōwan"
+  },
   "growan": {
+    "def": "1718",
+    "grammar": "vb. 7",
+    "lemma": "grōwan"
+  },
+  "growe": {
     "def": "1718",
     "grammar": "vb. 7",
     "lemma": "grōwan"
@@ -7067,10 +21972,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "grund"
   },
+  "grund buend": {
+    "def": "inhabitant of the earth, human (being)",
+    "grammar": "mc.",
+    "lemma": "grund-būend"
+  },
+  "grund hyrde": {
+    "def": "guardian of the deep",
+    "grammar": "mja.",
+    "lemma": "grund-hyrde"
+  },
+  "grund wong": {
+    "def": "GROUND-plain",
+    "grammar": "m.",
+    "lemma": "grund-wong"
+  },
+  "grund wyrgen(n)": {
+    "def": "( ̄female) out-cast of the deep",
+    "grammar": "fj",
+    "lemma": "grund-wyrġen(n)"
+  },
   "grund-buend": {
     "def": "inhabitant of the earth, human (being)",
     "grammar": "mc.",
     "lemma": "grund-būend"
+  },
+  "grund-hyr": {
+    "def": "guardian of the deep",
+    "grammar": "mja.",
+    "lemma": "grund-hyrde"
+  },
+  "grund-hyrd": {
+    "def": "guardian of the deep",
+    "grammar": "mja.",
+    "lemma": "grund-hyrde"
   },
   "grund-hyrde": {
     "def": "guardian of the deep",
@@ -7087,17 +22022,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "grund-wyrġen(n)"
   },
+  "grundbuend": {
+    "def": "inhabitant of the earth, human (being)",
+    "grammar": "mc.",
+    "lemma": "grund-būend"
+  },
+  "grundhyrde": {
+    "def": "guardian of the deep",
+    "grammar": "mja.",
+    "lemma": "grund-hyrde"
+  },
+  "grundwong": {
+    "def": "GROUND-plain",
+    "grammar": "m.",
+    "lemma": "grund-wong"
+  },
+  "grundwyrgen(n)": {
+    "def": "( ̄female) out-cast of the deep",
+    "grammar": "fj",
+    "lemma": "grund-wyrġen(n)"
+  },
+  "gry": {
+    "def": "terror, horror",
+    "grammar": "mi.",
+    "lemma": "gryre"
+  },
   "gryn(n)": {
     "def": "see gyrn",
     "grammar": "",
     "lemma": "gryn(n)"
+  },
+  "gryr": {
+    "def": "terror, horror",
+    "grammar": "mi.",
+    "lemma": "gryre"
   },
   "gryre": {
     "def": "terror, horror",
     "grammar": "mi.",
     "lemma": "gryre"
   },
+  "gryre broga": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "gryre-brōga"
+  },
+  "gryre fah": {
+    "def": "terrible in its vari-egated coloring (rather than terribly hostile: see Kl",
+    "grammar": "adj.",
+    "lemma": "gryre-fāh"
+  },
+  "gryre geatwe": {
+    "def": "terrible armor, warlike equipment",
+    "grammar": "fw",
+    "lemma": "gryre-ġeatwe"
+  },
+  "gryre giest": {
+    "def": "dreadful stranger",
+    "grammar": "mi.",
+    "lemma": "gryre-ġiest"
+  },
+  "gryre leoð": {
+    "def": "terrible song",
+    "grammar": "n.",
+    "lemma": "gryre-lēoð"
+  },
+  "gryre lic": {
+    "def": "terrible, horrible, asm",
+    "grammar": "adj.",
+    "lemma": "gryre-liċ"
+  },
+  "gryre sið": {
+    "def": "dreadful (perilous) expedition",
+    "grammar": "m.",
+    "lemma": "gryre-sīð"
+  },
+  "gryre-brog": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "gryre-brōga"
+  },
   "gryre-broga": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "gryre-brōga"
+  },
+  "gryre-broge": {
     "def": "horror",
     "grammar": "wk.",
     "lemma": "gryre-brōga"
@@ -7106,6 +22116,11 @@ const OLD_ENGLISH_DICT = {
     "def": "terrible in its vari-egated coloring (rather than terribly hostile: see Kl",
     "grammar": "adj.",
     "lemma": "gryre-fāh"
+  },
+  "gryre-geatw": {
+    "def": "terrible armor, warlike equipment",
+    "grammar": "fw",
+    "lemma": "gryre-ġeatwe"
   },
   "gryre-geatwe": {
     "def": "terrible armor, warlike equipment",
@@ -7132,6 +22147,46 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gryre-sīð"
   },
+  "gryrebroga": {
+    "def": "horror",
+    "grammar": "wk.",
+    "lemma": "gryre-brōga"
+  },
+  "gryrefah": {
+    "def": "terrible in its vari-egated coloring (rather than terribly hostile: see Kl",
+    "grammar": "adj.",
+    "lemma": "gryre-fāh"
+  },
+  "gryregeatwe": {
+    "def": "terrible armor, warlike equipment",
+    "grammar": "fw",
+    "lemma": "gryre-ġeatwe"
+  },
+  "gryregiest": {
+    "def": "dreadful stranger",
+    "grammar": "mi.",
+    "lemma": "gryre-ġiest"
+  },
+  "gryreleoð": {
+    "def": "terrible song",
+    "grammar": "n.",
+    "lemma": "gryre-lēoð"
+  },
+  "gryrelic": {
+    "def": "terrible, horrible, asm",
+    "grammar": "adj.",
+    "lemma": "gryre-liċ"
+  },
+  "gryresið": {
+    "def": "dreadful (perilous) expedition",
+    "grammar": "m.",
+    "lemma": "gryre-sīð"
+  },
+  "græde": {
+    "def": "fierce",
+    "grammar": "adj.",
+    "lemma": "grǣdiġ"
+  },
   "grædig": {
     "def": "fierce",
     "grammar": "adj.",
@@ -7142,7 +22197,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "grǣġ"
   },
+  "græg hama": {
+    "def": "the GREY-coated one",
+    "grammar": "wk.",
+    "lemma": "grǣġ-hama"
+  },
+  "græg mæl": {
+    "def": "GREY- or silver-colored (‘-marked’)",
+    "grammar": "adj.",
+    "lemma": "grǣġ-mǣl"
+  },
+  "græg-ham": {
+    "def": "the GREY-coated one",
+    "grammar": "wk.",
+    "lemma": "grǣġ-hama"
+  },
   "græg-hama": {
+    "def": "the GREY-coated one",
+    "grammar": "wk.",
+    "lemma": "grǣġ-hama"
+  },
+  "græg-hame": {
     "def": "the GREY-coated one",
     "grammar": "wk.",
     "lemma": "grǣġ-hama"
@@ -7152,10 +22227,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "grǣġ-mǣl"
   },
+  "græghama": {
+    "def": "the GREY-coated one",
+    "grammar": "wk.",
+    "lemma": "grǣġ-hama"
+  },
+  "grægmæl": {
+    "def": "GREY- or silver-colored (‘-marked’)",
+    "grammar": "adj.",
+    "lemma": "grǣġ-mǣl"
+  },
+  "græs molde": {
+    "def": "GRASS-MOLD, greensward, grassy turf",
+    "grammar": "wk.",
+    "lemma": "græs-molde"
+  },
+  "græs-mol": {
+    "def": "GRASS-MOLD, greensward, grassy turf",
+    "grammar": "wk.",
+    "lemma": "græs-molde"
+  },
+  "græs-mold": {
+    "def": "GRASS-MOLD, greensward, grassy turf",
+    "grammar": "wk.",
+    "lemma": "græs-molde"
+  },
   "græs-molde": {
     "def": "GRASS-MOLD, greensward, grassy turf",
     "grammar": "wk.",
     "lemma": "græs-molde"
+  },
+  "græsmolde": {
+    "def": "GRASS-MOLD, greensward, grassy turf",
+    "grammar": "wk.",
+    "lemma": "græs-molde"
+  },
+  "gum": {
+    "def": "man, (adult) male per-son",
+    "grammar": "wk.",
+    "lemma": "guma"
+  },
+  "gum cyn(n)": {
+    "def": "humanKIND, (hu-man) race",
+    "grammar": "nja.",
+    "lemma": "gum-cyn(n)"
+  },
+  "gum cyst": {
+    "def": "manly virtue, munifi-cence",
+    "grammar": "fi.",
+    "lemma": "gum-cyst"
+  },
+  "gum dream": {
+    "def": "pleasures of men",
+    "grammar": "m.",
+    "lemma": "gum-drēam"
+  },
+  "gum dryhten": {
+    "def": "lord of men",
+    "grammar": "m.",
+    "lemma": "gum-dryhten"
+  },
+  "gum feþa": {
+    "def": "band on foot",
+    "grammar": "wk.",
+    "lemma": "gum-fēþa"
+  },
+  "gum mon(n)": {
+    "def": "MAN",
+    "grammar": "mc.",
+    "lemma": "gum-mon(n)"
+  },
+  "gum stol": {
+    "def": "throne",
+    "grammar": "m.",
+    "lemma": "gum-stōl"
   },
   "gum-cyn(n)": {
     "def": "humanKIND, (hu-man) race",
@@ -7172,12 +22317,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gum-drēam"
   },
+  "gum-dryht": {
+    "def": "lord of men",
+    "grammar": "m.",
+    "lemma": "gum-dryhten"
+  },
+  "gum-dryhte": {
+    "def": "lord of men",
+    "grammar": "m.",
+    "lemma": "gum-dryhten"
+  },
   "gum-dryhten": {
     "def": "lord of men",
     "grammar": "m.",
     "lemma": "gum-dryhten"
   },
+  "gum-feþ": {
+    "def": "band on foot",
+    "grammar": "wk.",
+    "lemma": "gum-fēþa"
+  },
   "gum-feþa": {
+    "def": "band on foot",
+    "grammar": "wk.",
+    "lemma": "gum-fēþa"
+  },
+  "gum-feþe": {
     "def": "band on foot",
     "grammar": "wk.",
     "lemma": "gum-fēþa"
@@ -7197,10 +22362,205 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "guma"
   },
+  "gumcyn(n)": {
+    "def": "humanKIND, (hu-man) race",
+    "grammar": "nja.",
+    "lemma": "gum-cyn(n)"
+  },
+  "gumcyst": {
+    "def": "manly virtue, munifi-cence",
+    "grammar": "fi.",
+    "lemma": "gum-cyst"
+  },
+  "gumdream": {
+    "def": "pleasures of men",
+    "grammar": "m.",
+    "lemma": "gum-drēam"
+  },
+  "gumdryhten": {
+    "def": "lord of men",
+    "grammar": "m.",
+    "lemma": "gum-dryhten"
+  },
+  "gume": {
+    "def": "man, (adult) male per-son",
+    "grammar": "wk.",
+    "lemma": "guma"
+  },
+  "gumfeþa": {
+    "def": "band on foot",
+    "grammar": "wk.",
+    "lemma": "gum-fēþa"
+  },
+  "gummon(n)": {
+    "def": "MAN",
+    "grammar": "mc.",
+    "lemma": "gum-mon(n)"
+  },
+  "gumstol": {
+    "def": "throne",
+    "grammar": "m.",
+    "lemma": "gum-stōl"
+  },
   "guð": {
     "def": "war, battle, fight",
     "grammar": "f.",
     "lemma": "gūð"
+  },
+  "guð beorn": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "gūð-beorn"
+  },
+  "guð bil(l)": {
+    "def": "war-sword",
+    "grammar": "n.",
+    "lemma": "gūð-bil(l)"
+  },
+  "guð byrne": {
+    "def": "war-corslet",
+    "grammar": "wk.",
+    "lemma": "gūð-byrne"
+  },
+  "guð cearu": {
+    "def": "war-CARE, grief-laden strife",
+    "grammar": "f.",
+    "lemma": "gūð-cearu"
+  },
+  "guð cræft": {
+    "def": "war-strength",
+    "grammar": "m.",
+    "lemma": "gūð-cræft"
+  },
+  "guð cyning": {
+    "def": "war-KING",
+    "grammar": "m.",
+    "lemma": "gūð-cyning"
+  },
+  "guð deað": {
+    "def": "DEATH in battle",
+    "grammar": "m.",
+    "lemma": "gūð-dēað"
+  },
+  "guð floga": {
+    "def": "war-FLIer",
+    "grammar": "wk.",
+    "lemma": "gūð-floga"
+  },
+  "guð freca": {
+    "def": "fighter",
+    "grammar": "wk.",
+    "lemma": "gūð-freca"
+  },
+  "guð fremmend(e)": {
+    "def": "warrior",
+    "grammar": "mc.",
+    "lemma": "gūð-fremmend(e)"
+  },
+  "guð getawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "gūð-ġetawa"
+  },
+  "guð geweorc": {
+    "def": "warlike deed",
+    "grammar": "n.",
+    "lemma": "gūð-ġeweorc"
+  },
+  "guð gewæde": {
+    "def": "war-garment, ar-mor",
+    "grammar": "nja.",
+    "lemma": "gūð-ġewǣde"
+  },
+  "guð helm": {
+    "def": "war-HELMet",
+    "grammar": "m.",
+    "lemma": "gūð-helm"
+  },
+  "guð horn": {
+    "def": "war-HORN",
+    "grammar": "n.",
+    "lemma": "gūð-horn"
+  },
+  "guð hreð": {
+    "def": "glory in battle",
+    "grammar": "",
+    "lemma": "gūð-hrēð"
+  },
+  "guð leoð": {
+    "def": "war-song",
+    "grammar": "n.",
+    "lemma": "gūð-lēoð"
+  },
+  "guð rec": {
+    "def": "war-(REEK), smoke",
+    "grammar": "mi.",
+    "lemma": "gūð-rēċ"
+  },
+  "guð reow": {
+    "def": "fierce in battle",
+    "grammar": "adj.",
+    "lemma": "gūð-rēow"
+  },
+  "guð rinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "gūð-rinċ"
+  },
+  "guð rof": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "gūð-rōf"
+  },
+  "guð ræs": {
+    "def": "storm of battle, attack",
+    "grammar": "m.",
+    "lemma": "gūð-rǣs"
+  },
+  "guð scear": {
+    "def": "slaughter (SHEARing) in battle, carnage",
+    "grammar": "m.",
+    "lemma": "gūð-scear"
+  },
+  "guð sceaða": {
+    "def": "enemy, destroyer",
+    "grammar": "wk.",
+    "lemma": "gūð-sceaða"
+  },
+  "guð searo": {
+    "def": "armor",
+    "grammar": "nwa.",
+    "lemma": "gūð-searo"
+  },
+  "guð sele": {
+    "def": "battle-hall",
+    "grammar": "mi.",
+    "lemma": "gūð-sele"
+  },
+  "guð sweord": {
+    "def": "war-SWORD",
+    "grammar": "n.",
+    "lemma": "gūð-sweord"
+  },
+  "guð werig": {
+    "def": "worn out (WEARY) with fighting, dead",
+    "grammar": "adj.",
+    "lemma": "gūð-wēriġ"
+  },
+  "guð wiga": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "gūð-wiga"
+  },
+  "guð wine": {
+    "def": "war-friend, warrior, sword",
+    "grammar": "mi.",
+    "lemma": "gūð-wine"
+  },
+  "guð wudu": {
+    "def": "battle-WOOD, spear",
+    "grammar": "mu.",
+    "lemma": "gūð-wudu"
   },
   "guð-beorn": {
     "def": "warrior",
@@ -7211,6 +22571,16 @@ const OLD_ENGLISH_DICT = {
     "def": "war-sword",
     "grammar": "n.",
     "lemma": "gūð-bil(l)"
+  },
+  "guð-byr": {
+    "def": "war-corslet",
+    "grammar": "wk.",
+    "lemma": "gūð-byrne"
+  },
+  "guð-byrn": {
+    "def": "war-corslet",
+    "grammar": "wk.",
+    "lemma": "gūð-byrne"
   },
   "guð-byrne": {
     "def": "war-corslet",
@@ -7237,12 +22607,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gūð-dēað"
   },
+  "guð-flog": {
+    "def": "war-FLIer",
+    "grammar": "wk.",
+    "lemma": "gūð-floga"
+  },
   "guð-floga": {
     "def": "war-FLIer",
     "grammar": "wk.",
     "lemma": "gūð-floga"
   },
+  "guð-floge": {
+    "def": "war-FLIer",
+    "grammar": "wk.",
+    "lemma": "gūð-floga"
+  },
+  "guð-frec": {
+    "def": "fighter",
+    "grammar": "wk.",
+    "lemma": "gūð-freca"
+  },
   "guð-freca": {
+    "def": "fighter",
+    "grammar": "wk.",
+    "lemma": "gūð-freca"
+  },
+  "guð-frece": {
     "def": "fighter",
     "grammar": "wk.",
     "lemma": "gūð-freca"
@@ -7252,7 +22642,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "gūð-fremmend(e)"
   },
+  "guð-getaw": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "gūð-ġetawa"
+  },
   "guð-getawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "gūð-ġetawa"
+  },
+  "guð-getawe": {
     "def": "war-equipment",
     "grammar": "fw",
     "lemma": "gūð-ġetawa"
@@ -7261,6 +22661,16 @@ const OLD_ENGLISH_DICT = {
     "def": "warlike deed",
     "grammar": "n.",
     "lemma": "gūð-ġeweorc"
+  },
+  "guð-gewæ": {
+    "def": "war-garment, ar-mor",
+    "grammar": "nja.",
+    "lemma": "gūð-ġewǣde"
+  },
+  "guð-gewæd": {
+    "def": "war-garment, ar-mor",
+    "grammar": "nja.",
+    "lemma": "gūð-ġewǣde"
   },
   "guð-gewæde": {
     "def": "war-garment, ar-mor",
@@ -7317,7 +22727,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gūð-scear"
   },
+  "guð-sceað": {
+    "def": "enemy, destroyer",
+    "grammar": "wk.",
+    "lemma": "gūð-sceaða"
+  },
   "guð-sceaða": {
+    "def": "enemy, destroyer",
+    "grammar": "wk.",
+    "lemma": "gūð-sceaða"
+  },
+  "guð-sceaðe": {
     "def": "enemy, destroyer",
     "grammar": "wk.",
     "lemma": "gūð-sceaða"
@@ -7326,6 +22746,11 @@ const OLD_ENGLISH_DICT = {
     "def": "armor",
     "grammar": "nwa.",
     "lemma": "gūð-searo"
+  },
+  "guð-sel": {
+    "def": "battle-hall",
+    "grammar": "mi.",
+    "lemma": "gūð-sele"
   },
   "guð-sele": {
     "def": "battle-hall",
@@ -7337,15 +22762,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "gūð-sweord"
   },
+  "guð-were": {
+    "def": "worn out (WEARY) with fighting, dead",
+    "grammar": "adj.",
+    "lemma": "gūð-wēriġ"
+  },
   "guð-werig": {
     "def": "worn out (WEARY) with fighting, dead",
     "grammar": "adj.",
     "lemma": "gūð-wēriġ"
   },
+  "guð-wi": {
+    "def": "war-friend, warrior, sword",
+    "grammar": "mi.",
+    "lemma": "gūð-wine"
+  },
+  "guð-wig": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "gūð-wiga"
+  },
   "guð-wiga": {
     "def": "warrior",
     "grammar": "wk.",
     "lemma": "gūð-wiga"
+  },
+  "guð-wige": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "gūð-wiga"
+  },
+  "guð-win": {
+    "def": "war-friend, warrior, sword",
+    "grammar": "mi.",
+    "lemma": "gūð-wine"
   },
   "guð-wine": {
     "def": "war-friend, warrior, sword",
@@ -7357,7 +22807,172 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "gūð-wudu"
   },
+  "guðbeorn": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "gūð-beorn"
+  },
+  "guðbil(l)": {
+    "def": "war-sword",
+    "grammar": "n.",
+    "lemma": "gūð-bil(l)"
+  },
+  "guðbyrne": {
+    "def": "war-corslet",
+    "grammar": "wk.",
+    "lemma": "gūð-byrne"
+  },
+  "guðcearu": {
+    "def": "war-CARE, grief-laden strife",
+    "grammar": "f.",
+    "lemma": "gūð-cearu"
+  },
+  "guðcræft": {
+    "def": "war-strength",
+    "grammar": "m.",
+    "lemma": "gūð-cræft"
+  },
+  "guðcyning": {
+    "def": "war-KING",
+    "grammar": "m.",
+    "lemma": "gūð-cyning"
+  },
+  "guðdeað": {
+    "def": "DEATH in battle",
+    "grammar": "m.",
+    "lemma": "gūð-dēað"
+  },
+  "guðfloga": {
+    "def": "war-FLIer",
+    "grammar": "wk.",
+    "lemma": "gūð-floga"
+  },
+  "guðfreca": {
+    "def": "fighter",
+    "grammar": "wk.",
+    "lemma": "gūð-freca"
+  },
+  "guðfremmend(e)": {
+    "def": "warrior",
+    "grammar": "mc.",
+    "lemma": "gūð-fremmend(e)"
+  },
+  "guðgetawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "gūð-ġetawa"
+  },
+  "guðgeweorc": {
+    "def": "warlike deed",
+    "grammar": "n.",
+    "lemma": "gūð-ġeweorc"
+  },
+  "guðgewæde": {
+    "def": "war-garment, ar-mor",
+    "grammar": "nja.",
+    "lemma": "gūð-ġewǣde"
+  },
+  "guðhelm": {
+    "def": "war-HELMet",
+    "grammar": "m.",
+    "lemma": "gūð-helm"
+  },
+  "guðhorn": {
+    "def": "war-HORN",
+    "grammar": "n.",
+    "lemma": "gūð-horn"
+  },
+  "guðhreð": {
+    "def": "glory in battle",
+    "grammar": "",
+    "lemma": "gūð-hrēð"
+  },
+  "guðleoð": {
+    "def": "war-song",
+    "grammar": "n.",
+    "lemma": "gūð-lēoð"
+  },
+  "guðrec": {
+    "def": "war-(REEK), smoke",
+    "grammar": "mi.",
+    "lemma": "gūð-rēċ"
+  },
+  "guðreow": {
+    "def": "fierce in battle",
+    "grammar": "adj.",
+    "lemma": "gūð-rēow"
+  },
+  "guðrinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "gūð-rinċ"
+  },
+  "guðrof": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "gūð-rōf"
+  },
+  "guðræs": {
+    "def": "storm of battle, attack",
+    "grammar": "m.",
+    "lemma": "gūð-rǣs"
+  },
+  "guðscear": {
+    "def": "slaughter (SHEARing) in battle, carnage",
+    "grammar": "m.",
+    "lemma": "gūð-scear"
+  },
+  "guðsceaða": {
+    "def": "enemy, destroyer",
+    "grammar": "wk.",
+    "lemma": "gūð-sceaða"
+  },
+  "guðsearo": {
+    "def": "armor",
+    "grammar": "nwa.",
+    "lemma": "gūð-searo"
+  },
+  "guðsele": {
+    "def": "battle-hall",
+    "grammar": "mi.",
+    "lemma": "gūð-sele"
+  },
+  "guðsweord": {
+    "def": "war-SWORD",
+    "grammar": "n.",
+    "lemma": "gūð-sweord"
+  },
+  "guðwerig": {
+    "def": "worn out (WEARY) with fighting, dead",
+    "grammar": "adj.",
+    "lemma": "gūð-wēriġ"
+  },
+  "guðwiga": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "gūð-wiga"
+  },
+  "guðwine": {
+    "def": "war-friend, warrior, sword",
+    "grammar": "mi.",
+    "lemma": "gūð-wine"
+  },
+  "guðwudu": {
+    "def": "battle-WOOD, spear",
+    "grammar": "mu.",
+    "lemma": "gūð-wudu"
+  },
+  "guþ mod": {
+    "def": "of warlike mind, 306",
+    "grammar": "adj.",
+    "lemma": "gūþ-mōd"
+  },
   "guþ-mod": {
+    "def": "of warlike mind, 306",
+    "grammar": "adj.",
+    "lemma": "gūþ-mōd"
+  },
+  "guþmod": {
     "def": "of warlike mind, 306",
     "grammar": "adj.",
     "lemma": "gūþ-mōd"
@@ -7367,27 +22982,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġyd(d)"
   },
+  "gyddi": {
+    "def": "discourse",
+    "grammar": "vb. II",
+    "lemma": "ġyddian"
+  },
   "gyddian": {
     "def": "discourse",
     "grammar": "vb. II",
     "lemma": "ġyddian"
   },
+  "gyddie": {
+    "def": "discourse",
+    "grammar": "vb. II",
+    "lemma": "ġyddian"
+  },
   "gyf": {
-    "def": "see ġif",
-    "grammar": "",
-    "lemma": "ġyf"
+    "def": "pp",
+    "grammar": "pp.",
+    "lemma": "ġyfen"
+  },
+  "gyfe": {
+    "def": "pp",
+    "grammar": "pp.",
+    "lemma": "ġyfen"
   },
   "gyfen": {
     "def": "pp",
     "grammar": "pp.",
     "lemma": "ġyfen"
   },
+  "gyfeþ": {
+    "def": "see ġifeðe",
+    "grammar": "",
+    "lemma": "ġyfeþe"
+  },
   "gyfeþe": {
     "def": "see ġifeðe",
     "grammar": "",
     "lemma": "ġyfeþe"
   },
+  "gyld": {
+    "def": "repay",
+    "grammar": "vb.  3",
+    "lemma": "ġyldan"
+  },
   "gyldan": {
+    "def": "repay",
+    "grammar": "vb.  3",
+    "lemma": "ġyldan"
+  },
+  "gylde": {
     "def": "repay",
     "grammar": "vb.  3",
     "lemma": "ġyldan"
@@ -7397,7 +23042,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "gylden"
   },
+  "gyll": {
+    "def": "YELL, cry out, re-sound",
+    "grammar": "vb. 3",
+    "lemma": "ġyllan"
+  },
   "gyllan": {
+    "def": "YELL, cry out, re-sound",
+    "grammar": "vb. 3",
+    "lemma": "ġyllan"
+  },
+  "gylle": {
     "def": "YELL, cry out, re-sound",
     "grammar": "vb. 3",
     "lemma": "ġyllan"
@@ -7406,6 +23061,16 @@ const OLD_ENGLISH_DICT = {
     "def": "ġilpan",
     "grammar": "",
     "lemma": "ġylp"
+  },
+  "gylp spræc": {
+    "def": "boasting SPEECH",
+    "grammar": "fj",
+    "lemma": "ġylp-sprǣċ"
+  },
+  "gylp word": {
+    "def": "675",
+    "grammar": "n.",
+    "lemma": "ġylp-word"
   },
   "gylp-spræc": {
     "def": "boasting SPEECH",
@@ -7417,15 +23082,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġylp-word"
   },
+  "gylpspræc": {
+    "def": "boasting SPEECH",
+    "grammar": "fj",
+    "lemma": "ġylp-sprǣċ"
+  },
+  "gylpword": {
+    "def": "675",
+    "grammar": "n.",
+    "lemma": "ġylp-word"
+  },
   "gyn(n)": {
     "def": "see ġin(n)",
     "grammar": "",
     "lemma": "ġyn(n)"
   },
+  "gyrd": {
+    "def": "belt",
+    "grammar": "vb. I",
+    "lemma": "gyrdan"
+  },
   "gyrdan": {
     "def": "belt",
     "grammar": "vb. I",
     "lemma": "gyrdan"
+  },
+  "gyrde": {
+    "def": "belt",
+    "grammar": "vb. I",
+    "lemma": "gyrdan"
+  },
+  "gyre": {
+    "def": "ġeġyred, see ġyrwan",
+    "grammar": "",
+    "lemma": "ġyrede"
+  },
+  "gyred": {
+    "def": "ġeġyred, see ġyrwan",
+    "grammar": "",
+    "lemma": "ġyrede"
   },
   "gyrede": {
     "def": "ġeġyred, see ġyrwan",
@@ -7437,12 +23132,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "gryn",
     "lemma": "gyrn"
   },
+  "gyrn wracu": {
+    "def": "revenge for injury",
+    "grammar": "f.",
+    "lemma": "gyrn-wracu"
+  },
   "gyrn-wracu": {
     "def": "revenge for injury",
     "grammar": "f.",
     "lemma": "gyrn-wracu"
   },
+  "gyrnwracu": {
+    "def": "revenge for injury",
+    "grammar": "f.",
+    "lemma": "gyrn-wracu"
+  },
+  "gyrw": {
+    "def": "make ready, dress, equip, garnish",
+    "grammar": "vb.  I",
+    "lemma": "ġyrwan"
+  },
   "gyrwan": {
+    "def": "make ready, dress, equip, garnish",
+    "grammar": "vb.  I",
+    "lemma": "ġyrwan"
+  },
+  "gyrwe": {
     "def": "make ready, dress, equip, garnish",
     "grammar": "vb.  I",
     "lemma": "ġyrwan"
@@ -7452,7 +23167,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġyst"
   },
+  "gystr": {
+    "def": "1334",
+    "grammar": "adv.",
+    "lemma": "ġystran"
+  },
   "gystran": {
+    "def": "1334",
+    "grammar": "adv.",
+    "lemma": "ġystran"
+  },
+  "gystre": {
     "def": "1334",
     "grammar": "adv.",
     "lemma": "ġystran"
@@ -7467,7 +23192,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "gæst"
   },
+  "gуm": {
+    "def": "care, heed, be intent (on)",
+    "grammar": "vb. I",
+    "lemma": "ġӯman"
+  },
   "gуman": {
+    "def": "care, heed, be intent (on)",
+    "grammar": "vb. I",
+    "lemma": "ġӯman"
+  },
+  "gуme": {
     "def": "care, heed, be intent (on)",
     "grammar": "vb. I",
     "lemma": "ġӯman"
@@ -7482,32 +23217,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "ġӯtsian(=ġītsian)"
   },
+  "h": {
+    "def": "pers",
+    "grammar": "h",
+    "lemma": "hē"
+  },
+  "habb": {
+    "def": "hold",
+    "grammar": "vb. III",
+    "lemma": "habban"
+  },
   "habban": {
     "def": "hold",
     "grammar": "vb. III",
     "lemma": "habban"
   },
+  "habbe": {
+    "def": "hold",
+    "grammar": "vb. III",
+    "lemma": "habban"
+  },
   "had": {
-    "def": "state, position, form",
-    "grammar": "m.",
-    "lemma": "hād"
+    "def": "clearly, brightly",
+    "grammar": "adv.",
+    "lemma": "hādre"
   },
   "hador": {
     "def": "bright, clear-voiced",
     "grammar": "adj.",
     "lemma": "hādor"
   },
+  "hadr": {
+    "def": "clearly, brightly",
+    "grammar": "adv.",
+    "lemma": "hādre"
+  },
   "hadre": {
     "def": "clearly, brightly",
     "grammar": "adv.",
     "lemma": "hādre"
+  },
+  "haf": {
+    "def": "see habban",
+    "grammar": "",
+    "lemma": "hafa"
   },
   "hafa": {
     "def": "see habban",
     "grammar": "",
     "lemma": "hafa"
   },
+  "hafe": {
+    "def": "see habban",
+    "grammar": "",
+    "lemma": "hafa"
+  },
+  "hafel": {
+    "def": "head",
+    "grammar": "wk.",
+    "lemma": "hafela"
+  },
   "hafela": {
+    "def": "head",
+    "grammar": "wk.",
+    "lemma": "hafela"
+  },
+  "hafele": {
     "def": "head",
     "grammar": "wk.",
     "lemma": "hafela"
@@ -7517,7 +23292,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hafen"
   },
+  "hafeni": {
+    "def": "raise, lift",
+    "grammar": "vb. II",
+    "lemma": "hafenian"
+  },
   "hafenian": {
+    "def": "raise, lift",
+    "grammar": "vb. II",
+    "lemma": "hafenian"
+  },
+  "hafenie": {
     "def": "raise, lift",
     "grammar": "vb. II",
     "lemma": "hafenian"
@@ -7532,7 +23317,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hafoc"
   },
+  "hag": {
+    "def": "enclosure, entrench-ment",
+    "grammar": "wk.",
+    "lemma": "haga"
+  },
   "haga": {
+    "def": "enclosure, entrench-ment",
+    "grammar": "wk.",
+    "lemma": "haga"
+  },
+  "hage": {
     "def": "enclosure, entrench-ment",
     "grammar": "wk.",
     "lemma": "haga"
@@ -7541,6 +23336,11 @@ const OLD_ENGLISH_DICT = {
     "def": "HALE, sound, unhurt",
     "grammar": "adj.",
     "lemma": "hāl"
+  },
+  "hale": {
+    "def": "381, 1553, ~ (dryhten) 686",
+    "grammar": "adj.",
+    "lemma": "hāliġ"
   },
   "halig": {
     "def": "381, 1553, ~ (dryhten) 686",
@@ -7557,6 +23357,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hām"
   },
+  "ham weorðung": {
+    "def": "honor to a HOME",
+    "grammar": "f.",
+    "lemma": "hām-weorðung"
+  },
   "ham-weorðung": {
     "def": "honor to a HOME",
     "grammar": "f.",
@@ -7567,20 +23372,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hamer"
   },
+  "hamweorðung": {
+    "def": "honor to a HOME",
+    "grammar": "f.",
+    "lemma": "hām-weorðung"
+  },
   "hand": {
     "def": "HAND",
     "grammar": "hond",
     "lemma": "hand"
+  },
+  "hand bona": {
+    "def": "slayer with the HAND",
+    "grammar": "wk.",
+    "lemma": "hand-bona"
+  },
+  "hand gestealla": {
+    "def": "comrade, as-sociate",
+    "grammar": "wk.",
+    "lemma": "hand-ġestealla"
+  },
+  "hand gewriþen": {
+    "def": "twisted or woven by HAND",
+    "grammar": "adj.",
+    "lemma": "hand-ġewriþen"
+  },
+  "hand scolu": {
+    "def": "f",
+    "grammar": "",
+    "lemma": "hand-scolu"
+  },
+  "hand sporu": {
+    "def": "HAND-SPUR, nail (or claw)",
+    "grammar": "wk.",
+    "lemma": "hand-sporu"
+  },
+  "hand-bon": {
+    "def": "slayer with the HAND",
+    "grammar": "wk.",
+    "lemma": "hand-bona"
   },
   "hand-bona": {
     "def": "slayer with the HAND",
     "grammar": "wk.",
     "lemma": "hand-bona"
   },
+  "hand-bone": {
+    "def": "slayer with the HAND",
+    "grammar": "wk.",
+    "lemma": "hand-bona"
+  },
+  "hand-gesteall": {
+    "def": "comrade, as-sociate",
+    "grammar": "wk.",
+    "lemma": "hand-ġestealla"
+  },
   "hand-gestealla": {
     "def": "comrade, as-sociate",
     "grammar": "wk.",
     "lemma": "hand-ġestealla"
+  },
+  "hand-gestealle": {
+    "def": "comrade, as-sociate",
+    "grammar": "wk.",
+    "lemma": "hand-ġestealla"
+  },
+  "hand-gewriþ": {
+    "def": "twisted or woven by HAND",
+    "grammar": "adj.",
+    "lemma": "hand-ġewriþen"
+  },
+  "hand-gewriþe": {
+    "def": "twisted or woven by HAND",
+    "grammar": "adj.",
+    "lemma": "hand-ġewriþen"
   },
   "hand-gewriþen": {
     "def": "twisted or woven by HAND",
@@ -7597,7 +23462,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hand-sporu"
   },
+  "handbona": {
+    "def": "slayer with the HAND",
+    "grammar": "wk.",
+    "lemma": "hand-bona"
+  },
+  "handgestealla": {
+    "def": "comrade, as-sociate",
+    "grammar": "wk.",
+    "lemma": "hand-ġestealla"
+  },
+  "handgewriþen": {
+    "def": "twisted or woven by HAND",
+    "grammar": "adj.",
+    "lemma": "hand-ġewriþen"
+  },
+  "handscolu": {
+    "def": "f",
+    "grammar": "",
+    "lemma": "hand-scolu"
+  },
+  "handsporu": {
+    "def": "HAND-SPUR, nail (or claw)",
+    "grammar": "wk.",
+    "lemma": "hand-sporu"
+  },
+  "hangi": {
+    "def": "2447",
+    "grammar": "vb.  II",
+    "lemma": "hangian"
+  },
   "hangian": {
+    "def": "2447",
+    "grammar": "vb.  II",
+    "lemma": "hangian"
+  },
+  "hangie": {
     "def": "2447",
     "grammar": "vb.  II",
     "lemma": "hangian"
@@ -7617,7 +23517,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "hātan"
   },
+  "hate": {
+    "def": "call",
+    "grammar": "vb. 7",
+    "lemma": "hātan"
+  },
+  "hati": {
+    "def": "persecute",
+    "grammar": "vb. II",
+    "lemma": "hatian"
+  },
   "hatian": {
+    "def": "persecute",
+    "grammar": "vb. II",
+    "lemma": "hatian"
+  },
+  "hatie": {
     "def": "persecute",
     "grammar": "vb. II",
     "lemma": "hatian"
@@ -7632,7 +23547,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "h",
     "lemma": "hē"
   },
+  "hea burh": {
+    "def": "great town (or fortress)",
+    "grammar": "fc.",
+    "lemma": "hēa-burh"
+  },
   "hea-burh": {
+    "def": "great town (or fortress)",
+    "grammar": "fc.",
+    "lemma": "hēa-burh"
+  },
+  "heaburh": {
     "def": "great town (or fortress)",
     "grammar": "fc.",
     "lemma": "hēa-burh"
@@ -7646,6 +23571,21 @@ const OLD_ENGLISH_DICT = {
     "def": "48, 1639",
     "grammar": "n.",
     "lemma": "hēafod"
+  },
+  "heafod beorg": {
+    "def": "HEAD-protection",
+    "grammar": "f.",
+    "lemma": "hēafod-beorg"
+  },
+  "heafod mæg": {
+    "def": "(HEAD-, i",
+    "grammar": "m.",
+    "lemma": "hēafod-mǣġ"
+  },
+  "heafod weard": {
+    "def": "HEAD-watch",
+    "grammar": "f.",
+    "lemma": "hēafod-weard"
   },
   "heafod-beorg": {
     "def": "HEAD-protection",
@@ -7662,7 +23602,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hēafod-weard"
   },
+  "heafodbeorg": {
+    "def": "HEAD-protection",
+    "grammar": "f.",
+    "lemma": "hēafod-beorg"
+  },
+  "heafodmæg": {
+    "def": "(HEAD-, i",
+    "grammar": "m.",
+    "lemma": "hēafod-mǣġ"
+  },
+  "heafodweard": {
+    "def": "HEAD-watch",
+    "grammar": "f.",
+    "lemma": "hēafod-weard"
+  },
+  "heafol": {
+    "def": "see hafela",
+    "grammar": "",
+    "lemma": "heafola"
+  },
   "heafola": {
+    "def": "see hafela",
+    "grammar": "",
+    "lemma": "heafola"
+  },
+  "heafole": {
     "def": "see hafela",
     "grammar": "",
     "lemma": "heafola"
@@ -7671,6 +23636,41 @@ const OLD_ENGLISH_DICT = {
     "def": "lofty, exalted",
     "grammar": "adj.",
     "lemma": "hēah"
+  },
+  "heah cyning": {
+    "def": "great KING",
+    "grammar": "m.",
+    "lemma": "hēah-cyning"
+  },
+  "heah gesceap": {
+    "def": "(HIGH) destiny",
+    "grammar": "n.",
+    "lemma": "hēah-ġesceap"
+  },
+  "heah gestreon": {
+    "def": "splendid treasure",
+    "grammar": "n.",
+    "lemma": "hēah-ġestrēon"
+  },
+  "heah lufu( lufe)": {
+    "def": "HIGH LOVE, great esteem",
+    "grammar": "wk.",
+    "lemma": "hēah-lufu(-lufe)"
+  },
+  "heah sele": {
+    "def": "HIGH (great) hall",
+    "grammar": "mi.",
+    "lemma": "hēah-sele"
+  },
+  "heah setl": {
+    "def": "throne",
+    "grammar": "n.",
+    "lemma": "hēah-setl"
+  },
+  "heah stede": {
+    "def": "lofty place",
+    "grammar": "mi.",
+    "lemma": "hēah-stede"
   },
   "heah-cyning": {
     "def": "great KING",
@@ -7682,6 +23682,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hēah-ġesceap"
   },
+  "heah-gestre": {
+    "def": "splendid treasure",
+    "grammar": "n.",
+    "lemma": "hēah-ġestrēon"
+  },
+  "heah-gestree": {
+    "def": "splendid treasure",
+    "grammar": "n.",
+    "lemma": "hēah-ġestrēon"
+  },
   "heah-gestreon": {
     "def": "splendid treasure",
     "grammar": "n.",
@@ -7691,6 +23701,11 @@ const OLD_ENGLISH_DICT = {
     "def": "HIGH LOVE, great esteem",
     "grammar": "wk.",
     "lemma": "hēah-lufu(-lufe)"
+  },
+  "heah-sel": {
+    "def": "HIGH (great) hall",
+    "grammar": "mi.",
+    "lemma": "hēah-sele"
   },
   "heah-sele": {
     "def": "HIGH (great) hall",
@@ -7702,10 +23717,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hēah-setl"
   },
+  "heah-ste": {
+    "def": "lofty place",
+    "grammar": "mi.",
+    "lemma": "hēah-stede"
+  },
+  "heah-sted": {
+    "def": "lofty place",
+    "grammar": "mi.",
+    "lemma": "hēah-stede"
+  },
   "heah-stede": {
     "def": "lofty place",
     "grammar": "mi.",
     "lemma": "hēah-stede"
+  },
+  "heahcyning": {
+    "def": "great KING",
+    "grammar": "m.",
+    "lemma": "hēah-cyning"
+  },
+  "heahgesceap": {
+    "def": "(HIGH) destiny",
+    "grammar": "n.",
+    "lemma": "hēah-ġesceap"
+  },
+  "heahgestreon": {
+    "def": "splendid treasure",
+    "grammar": "n.",
+    "lemma": "hēah-ġestrēon"
+  },
+  "heahlufu(lufe)": {
+    "def": "HIGH LOVE, great esteem",
+    "grammar": "wk.",
+    "lemma": "hēah-lufu(-lufe)"
+  },
+  "heahsele": {
+    "def": "HIGH (great) hall",
+    "grammar": "mi.",
+    "lemma": "hēah-sele"
+  },
+  "heahsetl": {
+    "def": "throne",
+    "grammar": "n.",
+    "lemma": "hēah-setl"
+  },
+  "heahstede": {
+    "def": "lofty place",
+    "grammar": "mi.",
+    "lemma": "hēah-stede"
+  },
+  "heal reced": {
+    "def": "HALL-building",
+    "grammar": "n.",
+    "lemma": "heal-reċed"
+  },
+  "heal sittend(e)": {
+    "def": "HALL-SITTer, thegn",
+    "grammar": "mc.",
+    "lemma": "heal-sittend(e)"
+  },
+  "heal wudu": {
+    "def": "HALL-WOOD",
+    "grammar": "mu.",
+    "lemma": "heal-wudu"
+  },
+  "heal ærn": {
+    "def": "HALL-building",
+    "grammar": "n.",
+    "lemma": "heal-ærn"
+  },
+  "heal ðegn": {
+    "def": "HALL-THEGN",
+    "grammar": "m.",
+    "lemma": "heal-ðeġn"
   },
   "heal(l)": {
     "def": "1151, 1214",
@@ -7737,7 +23822,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heal-ðeġn"
   },
+  "heald": {
+    "def": "keep, guard, oc-cupy, possess, rule",
+    "grammar": "vb. 7",
+    "lemma": "healdan"
+  },
   "healdan": {
+    "def": "keep, guard, oc-cupy, possess, rule",
+    "grammar": "vb. 7",
+    "lemma": "healdan"
+  },
+  "healde": {
     "def": "keep, guard, oc-cupy, possess, rule",
     "grammar": "vb. 7",
     "lemma": "healdan"
@@ -7747,25 +23842,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "healf"
   },
+  "healreced": {
+    "def": "HALL-building",
+    "grammar": "n.",
+    "lemma": "heal-reċed"
+  },
   "heals": {
     "def": "1872, 2809, 3017, halse, 1566",
     "grammar": "m.",
     "lemma": "heals"
+  },
+  "heals beag": {
+    "def": "neck-ring, collar, (torque?)",
+    "grammar": "m.",
+    "lemma": "heals-bēag"
+  },
+  "heals gebedda": {
+    "def": "dear BEDfel-low, consort",
+    "grammar": "wk.",
+    "lemma": "heals-ġebedda"
   },
   "heals-beag": {
     "def": "neck-ring, collar, (torque?)",
     "grammar": "m.",
     "lemma": "heals-bēag"
   },
+  "heals-gebedd": {
+    "def": "dear BEDfel-low, consort",
+    "grammar": "wk.",
+    "lemma": "heals-ġebedda"
+  },
   "heals-gebedda": {
     "def": "dear BEDfel-low, consort",
     "grammar": "wk.",
     "lemma": "heals-ġebedda"
   },
+  "heals-gebedde": {
+    "def": "dear BEDfel-low, consort",
+    "grammar": "wk.",
+    "lemma": "heals-ġebedda"
+  },
+  "healsbeag": {
+    "def": "neck-ring, collar, (torque?)",
+    "grammar": "m.",
+    "lemma": "heals-bēag"
+  },
+  "healsgebedda": {
+    "def": "dear BEDfel-low, consort",
+    "grammar": "wk.",
+    "lemma": "heals-ġebedda"
+  },
+  "healsi": {
+    "def": "2132 (n",
+    "grammar": "vb. II",
+    "lemma": "healsian"
+  },
   "healsian": {
     "def": "2132 (n",
     "grammar": "vb. II",
     "lemma": "healsian"
+  },
+  "healsie": {
+    "def": "2132 (n",
+    "grammar": "vb. II",
+    "lemma": "healsian"
+  },
+  "healsittend(e)": {
+    "def": "HALL-SITTer, thegn",
+    "grammar": "mc.",
+    "lemma": "heal-sittend(e)"
+  },
+  "healwudu": {
+    "def": "HALL-WOOD",
+    "grammar": "mu.",
+    "lemma": "heal-wudu"
+  },
+  "healærn": {
+    "def": "HALL-building",
+    "grammar": "n.",
+    "lemma": "heal-ærn"
+  },
+  "healðegn": {
+    "def": "HALL-THEGN",
+    "grammar": "m.",
+    "lemma": "heal-ðeġn"
   },
   "hean": {
     "def": "humiliated, wretched, despised",
@@ -7782,15 +23942,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hēap"
   },
+  "hear": {
+    "def": "sorely",
+    "grammar": "adv.",
+    "lemma": "hearde"
+  },
   "heard": {
-    "def": "strong, brave, HARDy, severe",
+    "def": "sorely",
+    "grammar": "adv.",
+    "lemma": "hearde"
+  },
+  "heard ecg": {
+    "def": "HARD of EDGE",
     "grammar": "adj.",
-    "lemma": "heard"
+    "lemma": "heard-ecg"
+  },
+  "heard hicgende": {
+    "def": "394, 799",
+    "grammar": "adj.",
+    "lemma": "heard-hicgende"
   },
   "heard-ecg": {
     "def": "HARD of EDGE",
     "grammar": "adj.",
     "lemma": "heard-ecg"
+  },
+  "heard-hicgen": {
+    "def": "394, 799",
+    "grammar": "adj.",
+    "lemma": "heard-hicgende"
+  },
+  "heard-hicgend": {
+    "def": "394, 799",
+    "grammar": "adj.",
+    "lemma": "heard-hicgende"
   },
   "heard-hicgende": {
     "def": "394, 799",
@@ -7802,6 +23987,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "hearde"
   },
+  "heardecg": {
+    "def": "HARD of EDGE",
+    "grammar": "adj.",
+    "lemma": "heard-ecg"
+  },
+  "heardhicgende": {
+    "def": "394, 799",
+    "grammar": "adj.",
+    "lemma": "heard-hicgende"
+  },
   "hearh(hearg)": {
     "def": "‘idol-fane,’ heathen temple, sanctuary",
     "grammar": "m.",
@@ -7812,30 +24007,160 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hearm"
   },
+  "hearm scaþa": {
+    "def": "pernicious ene-my",
+    "grammar": "wk.",
+    "lemma": "hearm-scaþa"
+  },
+  "hearm-scaþ": {
+    "def": "pernicious ene-my",
+    "grammar": "wk.",
+    "lemma": "hearm-scaþa"
+  },
   "hearm-scaþa": {
     "def": "pernicious ene-my",
     "grammar": "wk.",
     "lemma": "hearm-scaþa"
+  },
+  "hearm-scaþe": {
+    "def": "pernicious ene-my",
+    "grammar": "wk.",
+    "lemma": "hearm-scaþa"
+  },
+  "hearmscaþa": {
+    "def": "pernicious ene-my",
+    "grammar": "wk.",
+    "lemma": "hearm-scaþa"
+  },
+  "hearp": {
+    "def": "2458, 3023, ~ (wyn[ne]): 2107, 2262",
+    "grammar": "wk.",
+    "lemma": "hearpe"
   },
   "hearpe": {
     "def": "2458, 3023, ~ (wyn[ne]): 2107, 2262",
     "grammar": "wk.",
     "lemma": "hearpe"
   },
+  "heaw": {
+    "def": "vb",
+    "grammar": "vb. 7",
+    "lemma": "hēawan"
+  },
   "heawan": {
     "def": "vb",
     "grammar": "vb. 7",
     "lemma": "hēawan"
+  },
+  "heawe": {
+    "def": "vb",
+    "grammar": "vb. 7",
+    "lemma": "hēawan"
+  },
+  "heaðeri": {
+    "def": "confine",
+    "grammar": "vb. II",
+    "lemma": "heaðerian"
   },
   "heaðerian": {
     "def": "confine",
     "grammar": "vb. II",
     "lemma": "heaðerian"
   },
+  "heaðerie": {
+    "def": "confine",
+    "grammar": "vb. II",
+    "lemma": "heaðerian"
+  },
+  "heaðo": {
+    "def": "n",
+    "grammar": "hea",
+    "lemma": "heaðo-"
+  },
+  "heaðo ": {
+    "def": "n",
+    "grammar": "hea",
+    "lemma": "heaðo-"
+  },
+  "heaðo byrne": {
+    "def": "(war-BYRNIE), mail shirt or coat",
+    "grammar": "wk.",
+    "lemma": "heaðo-byrne"
+  },
+  "heaðo grim(m)": {
+    "def": "battle-GRIM, fierce",
+    "grammar": "adj.",
+    "lemma": "heaðo-grim(m)"
+  },
+  "heaðo lac": {
+    "def": "(battle-sport), battle",
+    "grammar": "n.",
+    "lemma": "heaðo-lāc"
+  },
+  "heaðo mære": {
+    "def": "renowned in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-mǣre"
+  },
+  "heaðo reaf": {
+    "def": "war-clothing, war-equipment, armor",
+    "grammar": "n.",
+    "lemma": "heaðo-rēaf"
+  },
+  "heaðo rinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "heaðo-rinċ"
+  },
+  "heaðo ræs": {
+    "def": "storm of battle",
+    "grammar": "m.",
+    "lemma": "heaðo-rǣs"
+  },
+  "heaðo scearp": {
+    "def": "battle-SHARP",
+    "grammar": "adj.",
+    "lemma": "heaðo-scearp"
+  },
+  "heaðo sioc": {
+    "def": "battle-SICK, wound-ed",
+    "grammar": "adj.",
+    "lemma": "heaðo-sīoc"
+  },
+  "heaðo torht": {
+    "def": "clear(-sounding) in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-torht"
+  },
+  "heaðo weorc": {
+    "def": "battle-WORK, fight",
+    "grammar": "n.",
+    "lemma": "heaðo-weorc"
+  },
+  "heaðo wylm": {
+    "def": "(battle-surge), hos-tile flame",
+    "grammar": "mi.",
+    "lemma": "heaðo-wylm"
+  },
+  "heaðo wæd": {
+    "def": "war-garment, armor",
+    "grammar": "f.",
+    "lemma": "heaðo-wǣd"
+  },
   "heaðo-": {
     "def": "n",
     "grammar": "hea",
     "lemma": "heaðo-"
+  },
+  "heaðo-byr": {
+    "def": "(war-BYRNIE), mail shirt or coat",
+    "grammar": "wk.",
+    "lemma": "heaðo-byrne"
+  },
+  "heaðo-byrn": {
+    "def": "(war-BYRNIE), mail shirt or coat",
+    "grammar": "wk.",
+    "lemma": "heaðo-byrne"
   },
   "heaðo-byrne": {
     "def": "(war-BYRNIE), mail shirt or coat",
@@ -7851,6 +24176,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(battle-sport), battle",
     "grammar": "n.",
     "lemma": "heaðo-lāc"
+  },
+  "heaðo-mæ": {
+    "def": "renowned in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-mǣre"
+  },
+  "heaðo-mær": {
+    "def": "renowned in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-mǣre"
   },
   "heaðo-mære": {
     "def": "renowned in battle",
@@ -7902,10 +24237,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "heaðo-wǣd"
   },
+  "heaðobyrne": {
+    "def": "(war-BYRNIE), mail shirt or coat",
+    "grammar": "wk.",
+    "lemma": "heaðo-byrne"
+  },
+  "heaðogrim(m)": {
+    "def": "battle-GRIM, fierce",
+    "grammar": "adj.",
+    "lemma": "heaðo-grim(m)"
+  },
+  "heaðolac": {
+    "def": "(battle-sport), battle",
+    "grammar": "n.",
+    "lemma": "heaðo-lāc"
+  },
+  "heaðomære": {
+    "def": "renowned in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-mǣre"
+  },
+  "heaðoreaf": {
+    "def": "war-clothing, war-equipment, armor",
+    "grammar": "n.",
+    "lemma": "heaðo-rēaf"
+  },
+  "heaðorinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "heaðo-rinċ"
+  },
+  "heaðoræs": {
+    "def": "storm of battle",
+    "grammar": "m.",
+    "lemma": "heaðo-rǣs"
+  },
+  "heaðoscearp": {
+    "def": "battle-SHARP",
+    "grammar": "adj.",
+    "lemma": "heaðo-scearp"
+  },
+  "heaðosioc": {
+    "def": "battle-SICK, wound-ed",
+    "grammar": "adj.",
+    "lemma": "heaðo-sīoc"
+  },
+  "heaðotorht": {
+    "def": "clear(-sounding) in battle",
+    "grammar": "adj.",
+    "lemma": "heaðo-torht"
+  },
+  "heaðoweorc": {
+    "def": "battle-WORK, fight",
+    "grammar": "n.",
+    "lemma": "heaðo-weorc"
+  },
+  "heaðowylm": {
+    "def": "(battle-surge), hos-tile flame",
+    "grammar": "mi.",
+    "lemma": "heaðo-wylm"
+  },
+  "heaðowæd": {
+    "def": "war-garment, armor",
+    "grammar": "f.",
+    "lemma": "heaðo-wǣd"
+  },
+  "heaðu sweng": {
+    "def": "battle-stroke",
+    "grammar": "mi.",
+    "lemma": "heaðu-swenġ"
+  },
   "heaðu-sweng": {
     "def": "battle-stroke",
     "grammar": "mi.",
     "lemma": "heaðu-swenġ"
+  },
+  "heaðusweng": {
+    "def": "battle-stroke",
+    "grammar": "mi.",
+    "lemma": "heaðu-swenġ"
+  },
+  "heaþo deor": {
+    "def": "battle-brave",
+    "grammar": "adj.",
+    "lemma": "heaþo-dēor"
+  },
+  "heaþo geong": {
+    "def": "YOUNG (in war)",
+    "grammar": "adj.",
+    "lemma": "heaþo-ġeong"
+  },
+  "heaþo liðend(e)": {
+    "def": "war-traveler, warrior who is journey-ing to battle",
+    "grammar": "mc.",
+    "lemma": "heaþo-līðend(e)"
+  },
+  "heaþo rof": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "heaþo-rōf"
+  },
+  "heaþo steap": {
+    "def": "(STEEP) towering in battle",
+    "grammar": "adj.",
+    "lemma": "heaþo-stēap"
+  },
+  "heaþo swat": {
+    "def": "battle-SWEAT, blood shed in battle",
+    "grammar": "m.",
+    "lemma": "heaþo-swāt"
   },
   "heaþo-deor": {
     "def": "battle-brave",
@@ -7937,15 +24377,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heaþo-swāt"
   },
+  "heaþodeor": {
+    "def": "battle-brave",
+    "grammar": "adj.",
+    "lemma": "heaþo-dēor"
+  },
+  "heaþogeong": {
+    "def": "YOUNG (in war)",
+    "grammar": "adj.",
+    "lemma": "heaþo-ġeong"
+  },
+  "heaþoliðend(e)": {
+    "def": "war-traveler, warrior who is journey-ing to battle",
+    "grammar": "mc.",
+    "lemma": "heaþo-līðend(e)"
+  },
+  "heaþorof": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "heaþo-rōf"
+  },
+  "heaþosteap": {
+    "def": "(STEEP) towering in battle",
+    "grammar": "adj.",
+    "lemma": "heaþo-stēap"
+  },
+  "heaþoswat": {
+    "def": "battle-SWEAT, blood shed in battle",
+    "grammar": "m.",
+    "lemma": "heaþo-swāt"
+  },
+  "hebb": {
+    "def": "raise, lift",
+    "grammar": "vb. 6",
+    "lemma": "hebban"
+  },
   "hebban": {
     "def": "raise, lift",
     "grammar": "vb. 6",
     "lemma": "hebban"
   },
+  "hebbe": {
+    "def": "raise, lift",
+    "grammar": "vb. 6",
+    "lemma": "hebban"
+  },
+  "hed": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "hēdan"
+  },
   "hedan": {
     "def": "HEED, care for",
     "grammar": "vb. I",
     "lemma": "hēdan"
+  },
+  "hede": {
+    "def": "HEED, care for",
+    "grammar": "vb. I",
+    "lemma": "hēdan"
+  },
+  "hee": {
+    "def": "humiliated, wretched, despised",
+    "grammar": "adj.",
+    "lemma": "hēan"
+  },
+  "hefe": {
+    "def": "see heofon",
+    "grammar": "",
+    "lemma": "hefene"
+  },
+  "hefen": {
+    "def": "see heofon",
+    "grammar": "",
+    "lemma": "hefene"
   },
   "hefene": {
     "def": "see heofon",
@@ -7957,17 +24462,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "heht"
   },
+  "hel rune": {
+    "def": "one skilled in the mysteries of HELL, demon",
+    "grammar": "wk.",
+    "lemma": "hel-rūne"
+  },
   "hel(l)": {
     "def": "852",
     "grammar": "fj",
     "lemma": "hel(l)"
+  },
+  "hel-ru": {
+    "def": "one skilled in the mysteries of HELL, demon",
+    "grammar": "wk.",
+    "lemma": "hel-rūne"
+  },
+  "hel-run": {
+    "def": "one skilled in the mysteries of HELL, demon",
+    "grammar": "wk.",
+    "lemma": "hel-rūne"
   },
   "hel-rune": {
     "def": "one skilled in the mysteries of HELL, demon",
     "grammar": "wk.",
     "lemma": "hel-rūne"
   },
+  "hell bend": {
+    "def": "BOND of HELL",
+    "grammar": "fj",
+    "lemma": "hell-bend"
+  },
   "hell-bend": {
+    "def": "BOND of HELL",
+    "grammar": "fj",
+    "lemma": "hell-bend"
+  },
+  "hellbend": {
     "def": "BOND of HELL",
     "grammar": "fj",
     "lemma": "hell-bend"
@@ -7977,25 +24507,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "helm"
   },
+  "helm berend": {
+    "def": "(HELMet-BEARer), warrior",
+    "grammar": "mc.",
+    "lemma": "helm-berend"
+  },
   "helm-berend": {
     "def": "(HELMet-BEARer), warrior",
     "grammar": "mc.",
     "lemma": "helm-berend"
   },
+  "helmberend": {
+    "def": "(HELMet-BEARer), warrior",
+    "grammar": "mc.",
+    "lemma": "helm-berend"
+  },
   "help": {
-    "def": "1961, si",
-    "grammar": "f.",
-    "lemma": "help"
+    "def": "2684",
+    "grammar": "vb.  3",
+    "lemma": "helpan"
   },
   "helpan": {
     "def": "2684",
     "grammar": "vb.  3",
     "lemma": "helpan"
   },
+  "helpe": {
+    "def": "2684",
+    "grammar": "vb.  3",
+    "lemma": "helpan"
+  },
+  "helrune": {
+    "def": "one skilled in the mysteries of HELL, demon",
+    "grammar": "wk.",
+    "lemma": "hel-rūne"
+  },
+  "heo": {
+    "def": "safe, pleasant, good",
+    "grammar": "adj.",
+    "lemma": "hēore"
+  },
   "heo(hio)": {
     "def": "hēo (hīo), see hē",
     "grammar": "",
     "lemma": "hēo(hīo)"
+  },
+  "heof": {
+    "def": "414",
+    "grammar": "m.",
+    "lemma": "heofon"
+  },
+  "heofe": {
+    "def": "414",
+    "grammar": "m.",
+    "lemma": "heofon"
   },
   "heofon": {
     "def": "414",
@@ -8012,10 +24577,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heolster"
   },
+  "heon": {
+    "def": "from here",
+    "grammar": "adv.",
+    "lemma": "heonan"
+  },
   "heonan": {
     "def": "from here",
     "grammar": "adv.",
     "lemma": "heonan"
+  },
+  "heone": {
+    "def": "from here",
+    "grammar": "adv.",
+    "lemma": "heonan"
+  },
+  "heor": {
+    "def": "2463, 2507",
+    "grammar": "wk.",
+    "lemma": "heorte"
   },
   "heor(r)": {
     "def": "hinge",
@@ -8027,20 +24607,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hēore"
   },
+  "heoro": {
+    "def": "m",
+    "grammar": "heoru",
+    "lemma": "heoro-"
+  },
+  "heoro ": {
+    "def": "m",
+    "grammar": "heoru",
+    "lemma": "heoro-"
+  },
+  "heoro dreorig": {
+    "def": "(sword-) gory, blood-stained",
+    "grammar": "adj.",
+    "lemma": "heoro-drēoriġ"
+  },
+  "heoro gifre": {
+    "def": "(sword-greedy), fiercely ravenous",
+    "grammar": "adj.",
+    "lemma": "heoro-ġīfre"
+  },
+  "heoro hocyhte": {
+    "def": "(sword-HOOKed), barbed",
+    "grammar": "adj.",
+    "lemma": "heoro-hōcyhte"
+  },
+  "heoro sweng": {
+    "def": "sword-stroke",
+    "grammar": "mi.",
+    "lemma": "heoro-swenġ"
+  },
+  "heoro wearh": {
+    "def": "fierce outcast, sav-age foe",
+    "grammar": "m.",
+    "lemma": "heoro-wearh"
+  },
   "heoro-": {
     "def": "m",
     "grammar": "heoru",
     "lemma": "heoro-"
+  },
+  "heoro-dreore": {
+    "def": "(sword-) gory, blood-stained",
+    "grammar": "adj.",
+    "lemma": "heoro-drēoriġ"
   },
   "heoro-dreorig": {
     "def": "(sword-) gory, blood-stained",
     "grammar": "adj.",
     "lemma": "heoro-drēoriġ"
   },
+  "heoro-gif": {
+    "def": "(sword-greedy), fiercely ravenous",
+    "grammar": "adj.",
+    "lemma": "heoro-ġīfre"
+  },
+  "heoro-gifr": {
+    "def": "(sword-greedy), fiercely ravenous",
+    "grammar": "adj.",
+    "lemma": "heoro-ġīfre"
+  },
   "heoro-gifre": {
     "def": "(sword-greedy), fiercely ravenous",
     "grammar": "adj.",
     "lemma": "heoro-ġīfre"
+  },
+  "heoro-hocyh": {
+    "def": "(sword-HOOKed), barbed",
+    "grammar": "adj.",
+    "lemma": "heoro-hōcyhte"
+  },
+  "heoro-hocyht": {
+    "def": "(sword-HOOKed), barbed",
+    "grammar": "adj.",
+    "lemma": "heoro-hōcyhte"
   },
   "heoro-hocyhte": {
     "def": "(sword-HOOKed), barbed",
@@ -8057,10 +24697,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heoro-wearh"
   },
+  "heorodreorig": {
+    "def": "(sword-) gory, blood-stained",
+    "grammar": "adj.",
+    "lemma": "heoro-drēoriġ"
+  },
+  "heorogifre": {
+    "def": "(sword-greedy), fiercely ravenous",
+    "grammar": "adj.",
+    "lemma": "heoro-ġīfre"
+  },
+  "heorohocyhte": {
+    "def": "(sword-HOOKed), barbed",
+    "grammar": "adj.",
+    "lemma": "heoro-hōcyhte"
+  },
+  "heorosweng": {
+    "def": "sword-stroke",
+    "grammar": "mi.",
+    "lemma": "heoro-swenġ"
+  },
   "heorot": {
     "def": "stag",
     "grammar": "m.",
     "lemma": "heorot"
+  },
+  "heorowearh": {
+    "def": "fierce outcast, sav-age foe",
+    "grammar": "m.",
+    "lemma": "heoro-wearh"
+  },
+  "heort": {
+    "def": "2463, 2507",
+    "grammar": "wk.",
+    "lemma": "heorte"
   },
   "heorte": {
     "def": "2463, 2507",
@@ -8077,25 +24747,135 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heorð"
   },
+  "heorð geneat": {
+    "def": "HEARTH-compan-ion, retainer",
+    "grammar": "m.",
+    "lemma": "heorð-ġenēat"
+  },
   "heorð-geneat": {
     "def": "HEARTH-compan-ion, retainer",
     "grammar": "m.",
     "lemma": "heorð-ġenēat"
   },
+  "heorðgeneat": {
+    "def": "HEARTH-compan-ion, retainer",
+    "grammar": "m.",
+    "lemma": "heorð-ġenēat"
+  },
   "her": {
-    "def": "hither, to this place",
-    "grammar": "adv.",
-    "lemma": "hēr"
+    "def": "1248, 2347, 2638",
+    "grammar": "mja.",
+    "lemma": "here"
   },
   "here": {
     "def": "1248, 2347, 2638",
     "grammar": "mja.",
     "lemma": "here"
   },
+  "here broga": {
+    "def": "war-terror",
+    "grammar": "wk.",
+    "lemma": "here-brōga"
+  },
+  "here byrne": {
+    "def": "(battle-BYRNIE), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-byrne"
+  },
+  "here geong": {
+    "def": "invasion",
+    "grammar": "m.",
+    "lemma": "here-ġeong"
+  },
+  "here grima": {
+    "def": "war-mask, helmet",
+    "grammar": "wk.",
+    "lemma": "here-grīma"
+  },
+  "here net(t)": {
+    "def": "war-NET, mail shirt or coat",
+    "grammar": "nja.",
+    "lemma": "here-net(t)"
+  },
+  "here nið": {
+    "def": "hostility",
+    "grammar": "m.",
+    "lemma": "here-nīð"
+  },
+  "here pad": {
+    "def": "shirt (or coat) of mail",
+    "grammar": "f.",
+    "lemma": "here-pād"
+  },
+  "here rinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "here-rinċ"
+  },
+  "here sceaft": {
+    "def": "battle-SHAFT, spear",
+    "grammar": "m.",
+    "lemma": "here-sceaft"
+  },
+  "here sceorp": {
+    "def": "war-dress, armor",
+    "grammar": "n.",
+    "lemma": "here-sceorp"
+  },
+  "here sped": {
+    "def": "success in war",
+    "grammar": "fi.",
+    "lemma": "here-spēd"
+  },
+  "here stræl": {
+    "def": "war-arrow",
+    "grammar": "m.",
+    "lemma": "here-strǣl"
+  },
+  "here syrce": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-syrċe"
+  },
+  "here wisa": {
+    "def": "army leader",
+    "grammar": "wk.",
+    "lemma": "here-wīsa"
+  },
+  "here wæd": {
+    "def": "war-garment, armor",
+    "grammar": "f.",
+    "lemma": "here-wǣd"
+  },
+  "here wæs(t)m": {
+    "def": "(warlike stature), martial vigor",
+    "grammar": "m.",
+    "lemma": "here-wæs(t)m"
+  },
+  "here-brog": {
+    "def": "war-terror",
+    "grammar": "wk.",
+    "lemma": "here-brōga"
+  },
   "here-broga": {
     "def": "war-terror",
     "grammar": "wk.",
     "lemma": "here-brōga"
+  },
+  "here-broge": {
+    "def": "war-terror",
+    "grammar": "wk.",
+    "lemma": "here-brōga"
+  },
+  "here-byr": {
+    "def": "(battle-BYRNIE), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-byrne"
+  },
+  "here-byrn": {
+    "def": "(battle-BYRNIE), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-byrne"
   },
   "here-byrne": {
     "def": "(battle-BYRNIE), shirt (or coat) of mail",
@@ -8107,7 +24887,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-ġeong"
   },
+  "here-grim": {
+    "def": "war-mask, helmet",
+    "grammar": "wk.",
+    "lemma": "here-grīma"
+  },
   "here-grima": {
+    "def": "war-mask, helmet",
+    "grammar": "wk.",
+    "lemma": "here-grīma"
+  },
+  "here-grime": {
     "def": "war-mask, helmet",
     "grammar": "wk.",
     "lemma": "here-grīma"
@@ -8152,12 +24942,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-strǣl"
   },
+  "here-syrc": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-syrċe"
+  },
   "here-syrce": {
     "def": "(battle-SARK), shirt (or coat) of mail",
     "grammar": "wk.",
     "lemma": "here-syrċe"
   },
+  "here-wis": {
+    "def": "army leader",
+    "grammar": "wk.",
+    "lemma": "here-wīsa"
+  },
   "here-wisa": {
+    "def": "army leader",
+    "grammar": "wk.",
+    "lemma": "here-wīsa"
+  },
+  "here-wise": {
     "def": "army leader",
     "grammar": "wk.",
     "lemma": "here-wīsa"
@@ -8172,25 +24977,145 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-wæs(t)m"
   },
-  "herge": {
-    "def": "see here, herian",
+  "herebroga": {
+    "def": "war-terror",
+    "grammar": "wk.",
+    "lemma": "here-brōga"
+  },
+  "herebyrne": {
+    "def": "(battle-BYRNIE), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-byrne"
+  },
+  "heregeong": {
+    "def": "invasion",
+    "grammar": "m.",
+    "lemma": "here-ġeong"
+  },
+  "heregrima": {
+    "def": "war-mask, helmet",
+    "grammar": "wk.",
+    "lemma": "here-grīma"
+  },
+  "herenet(t)": {
+    "def": "war-NET, mail shirt or coat",
+    "grammar": "nja.",
+    "lemma": "here-net(t)"
+  },
+  "herenið": {
+    "def": "hostility",
+    "grammar": "m.",
+    "lemma": "here-nīð"
+  },
+  "herepad": {
+    "def": "shirt (or coat) of mail",
+    "grammar": "f.",
+    "lemma": "here-pād"
+  },
+  "hererinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "here-rinċ"
+  },
+  "heresceaft": {
+    "def": "battle-SHAFT, spear",
+    "grammar": "m.",
+    "lemma": "here-sceaft"
+  },
+  "heresceorp": {
+    "def": "war-dress, armor",
+    "grammar": "n.",
+    "lemma": "here-sceorp"
+  },
+  "heresped": {
+    "def": "success in war",
+    "grammar": "fi.",
+    "lemma": "here-spēd"
+  },
+  "herestræl": {
+    "def": "war-arrow",
+    "grammar": "m.",
+    "lemma": "here-strǣl"
+  },
+  "heresyrce": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "here-syrċe"
+  },
+  "herewisa": {
+    "def": "army leader",
+    "grammar": "wk.",
+    "lemma": "here-wīsa"
+  },
+  "herewæd": {
+    "def": "war-garment, armor",
+    "grammar": "f.",
+    "lemma": "here-wǣd"
+  },
+  "herewæs(t)m": {
+    "def": "(warlike stature), martial vigor",
+    "grammar": "m.",
+    "lemma": "here-wæs(t)m"
+  },
+  "herg": {
+    "def": "see hearh",
     "grammar": "",
-    "lemma": "herġe"
+    "lemma": "hergum"
+  },
+  "herge": {
+    "def": "see hearh",
+    "grammar": "",
+    "lemma": "hergum"
   },
   "hergum": {
     "def": "see hearh",
     "grammar": "",
     "lemma": "hergum"
   },
+  "heri": {
+    "def": "laud",
+    "grammar": "vb. I",
+    "lemma": "herian"
+  },
   "herian": {
     "def": "laud",
     "grammar": "vb. I",
     "lemma": "herian"
   },
+  "herie": {
+    "def": "laud",
+    "grammar": "vb. I",
+    "lemma": "herian"
+  },
+  "het": {
+    "def": "288 ̄n",
+    "grammar": "mi.",
+    "lemma": "hete"
+  },
   "hete": {
     "def": "288 ̄n",
     "grammar": "mi.",
     "lemma": "hete"
+  },
+  "hete lic": {
+    "def": "HATEful",
+    "grammar": "adj.",
+    "lemma": "hete-liċ"
+  },
+  "hete nið": {
+    "def": "enmity",
+    "grammar": "m.",
+    "lemma": "hete-nīð"
+  },
+  "hete sweng": {
+    "def": "hostile blow",
+    "grammar": "mi.",
+    "lemma": "hete-swenġ"
+  },
+  "hete þanc": {
+    "def": "THOUGHT of HATE",
+    "grammar": "m.",
+    "lemma": "hete-þanc"
   },
   "hete-lic": {
     "def": "HATEful",
@@ -8212,17 +25137,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hete-þanc"
   },
+  "hetelic": {
+    "def": "HATEful",
+    "grammar": "adj.",
+    "lemma": "hete-liċ"
+  },
   "hetend": {
     "def": "see hettend",
     "grammar": "",
     "lemma": "hetend"
+  },
+  "hetenið": {
+    "def": "enmity",
+    "grammar": "m.",
+    "lemma": "hete-nīð"
+  },
+  "hetesweng": {
+    "def": "hostile blow",
+    "grammar": "mi.",
+    "lemma": "hete-swenġ"
+  },
+  "heteþanc": {
+    "def": "THOUGHT of HATE",
+    "grammar": "m.",
+    "lemma": "hete-þanc"
   },
   "hettend": {
     "def": "enemy, np",
     "grammar": "mc.",
     "lemma": "hettend"
   },
+  "hicge": {
+    "def": "see hycgan",
+    "grammar": "",
+    "lemma": "hicgean"
+  },
   "hicgean": {
+    "def": "see hycgan",
+    "grammar": "",
+    "lemma": "hicgean"
+  },
+  "hicgee": {
     "def": "see hycgan",
     "grammar": "",
     "lemma": "hicgean"
@@ -8232,10 +25187,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "hider"
   },
+  "hig": {
+    "def": "mi",
+    "grammar": "hy",
+    "lemma": "hiġe"
+  },
   "hige": {
     "def": "mi",
     "grammar": "hy",
     "lemma": "hiġe"
+  },
+  "hige mæðu": {
+    "def": "see hyġe-mēðe",
+    "grammar": "",
+    "lemma": "hiġe-mǣðu"
+  },
+  "hige rof": {
+    "def": "valiant",
+    "grammar": "adj.",
+    "lemma": "hiġe-rōf"
+  },
+  "hige þihtig": {
+    "def": "strong-willed, deter-mined",
+    "grammar": "adj.",
+    "lemma": "hiġe-þīhtiġ"
+  },
+  "hige þrym(m)": {
+    "def": "greatness of heart",
+    "grammar": "mja.",
+    "lemma": "hiġe-þrym(m)"
   },
   "hige-mæðu": {
     "def": "see hyġe-mēðe",
@@ -8247,6 +25227,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hiġe-rōf"
   },
+  "hige-þihte": {
+    "def": "strong-willed, deter-mined",
+    "grammar": "adj.",
+    "lemma": "hiġe-þīhtiġ"
+  },
   "hige-þihtig": {
     "def": "strong-willed, deter-mined",
     "grammar": "adj.",
@@ -8257,25 +25242,210 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "hiġe-þrym(m)"
   },
+  "higemæðu": {
+    "def": "see hyġe-mēðe",
+    "grammar": "",
+    "lemma": "hiġe-mǣðu"
+  },
+  "higerof": {
+    "def": "valiant",
+    "grammar": "adj.",
+    "lemma": "hiġe-rōf"
+  },
+  "higeþihtig": {
+    "def": "strong-willed, deter-mined",
+    "grammar": "adj.",
+    "lemma": "hiġe-þīhtiġ"
+  },
+  "higeþrym(m)": {
+    "def": "greatness of heart",
+    "grammar": "mja.",
+    "lemma": "hiġe-þrym(m)"
+  },
   "hild": {
     "def": "war, battle",
     "grammar": "fj",
     "lemma": "hild"
+  },
+  "hild freca": {
+    "def": "fighter, warrior",
+    "grammar": "wk.",
+    "lemma": "hild-freca"
+  },
+  "hild fruma": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "hild-fruma"
+  },
+  "hild lata": {
+    "def": "(adj",
+    "grammar": "wk.",
+    "lemma": "hild-lata"
+  },
+  "hild-frec": {
+    "def": "fighter, warrior",
+    "grammar": "wk.",
+    "lemma": "hild-freca"
   },
   "hild-freca": {
     "def": "fighter, warrior",
     "grammar": "wk.",
     "lemma": "hild-freca"
   },
+  "hild-frece": {
+    "def": "fighter, warrior",
+    "grammar": "wk.",
+    "lemma": "hild-freca"
+  },
+  "hild-frum": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "hild-fruma"
+  },
   "hild-fruma": {
     "def": "war-chief",
     "grammar": "wk.",
     "lemma": "hild-fruma"
   },
+  "hild-frume": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "hild-fruma"
+  },
+  "hild-lat": {
+    "def": "(adj",
+    "grammar": "wk.",
+    "lemma": "hild-lata"
+  },
   "hild-lata": {
     "def": "(adj",
     "grammar": "wk.",
     "lemma": "hild-lata"
+  },
+  "hild-late": {
+    "def": "(adj",
+    "grammar": "wk.",
+    "lemma": "hild-lata"
+  },
+  "hilde bil(l)": {
+    "def": "battle-sword",
+    "grammar": "n.",
+    "lemma": "hilde-bil(l)"
+  },
+  "hilde blac": {
+    "def": "battle-pale, mortally wounded",
+    "grammar": "adj.",
+    "lemma": "hilde-blāc"
+  },
+  "hilde bord": {
+    "def": "battle-shield",
+    "grammar": "n.",
+    "lemma": "hilde-bord"
+  },
+  "hilde cumbor": {
+    "def": "battle-banner",
+    "grammar": "n.",
+    "lemma": "hilde-cumbor"
+  },
+  "hilde cyst": {
+    "def": "battle-virtue, valor",
+    "grammar": "fi.",
+    "lemma": "hilde-cyst"
+  },
+  "hilde deor": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "hilde-dēor"
+  },
+  "hilde freca": {
+    "def": "see hild-freca",
+    "grammar": "",
+    "lemma": "hilde-freca"
+  },
+  "hilde geatwe": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "hilde-ġeatwe"
+  },
+  "hilde gicel": {
+    "def": "battle-icICLE",
+    "grammar": "m.",
+    "lemma": "hilde-ġiċel"
+  },
+  "hilde grap": {
+    "def": "hostile grasp",
+    "grammar": "f.",
+    "lemma": "hilde-grāp"
+  },
+  "hilde hlem(m)": {
+    "def": "mja",
+    "grammar": "",
+    "lemma": "hilde-hlem(m)"
+  },
+  "hilde leoma": {
+    "def": "battle-light",
+    "grammar": "wk.",
+    "lemma": "hilde-lēoma"
+  },
+  "hilde mece": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "hilde-mēċe"
+  },
+  "hilde mecg": {
+    "def": "warrior",
+    "grammar": "mja.",
+    "lemma": "hilde-mecg"
+  },
+  "hilde rand": {
+    "def": "battle-shield",
+    "grammar": "m.",
+    "lemma": "hilde-rand"
+  },
+  "hilde rinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "hilde-rinċ"
+  },
+  "hilde ræs": {
+    "def": "storm of battle",
+    "grammar": "m.",
+    "lemma": "hilde-rǣs"
+  },
+  "hilde sceorp": {
+    "def": "war-clothing, armor",
+    "grammar": "n.",
+    "lemma": "hilde-sceorp"
+  },
+  "hilde setl": {
+    "def": "war-SEAT, saddle",
+    "grammar": "n.",
+    "lemma": "hilde-setl"
+  },
+  "hilde strengo": {
+    "def": "battle-STRENGth",
+    "grammar": "f",
+    "lemma": "hilde-strenġo"
+  },
+  "hilde swat": {
+    "def": "battle-SWEAT, hostile vapor",
+    "grammar": "m.",
+    "lemma": "hilde-swāt"
+  },
+  "hilde tux(=tusc)": {
+    "def": "battle-TUSK or -fang",
+    "grammar": "m.",
+    "lemma": "hilde-tūx(=tūsc)"
+  },
+  "hilde wisa": {
+    "def": "leader in battle",
+    "grammar": "wk.",
+    "lemma": "hilde-wīsa"
+  },
+  "hilde wæpen": {
+    "def": "war-WEAPON",
+    "grammar": "n.",
+    "lemma": "hilde-wǣpen"
   },
   "hilde-bil(l)": {
     "def": "battle-sword",
@@ -8307,10 +25477,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hilde-dēor"
   },
+  "hilde-frec": {
+    "def": "see hild-freca",
+    "grammar": "",
+    "lemma": "hilde-freca"
+  },
   "hilde-freca": {
     "def": "see hild-freca",
     "grammar": "",
     "lemma": "hilde-freca"
+  },
+  "hilde-frece": {
+    "def": "see hild-freca",
+    "grammar": "",
+    "lemma": "hilde-freca"
+  },
+  "hilde-geatw": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "hilde-ġeatwe"
   },
   "hilde-geatwe": {
     "def": "war-equipment",
@@ -8332,10 +25517,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hilde-hlem(m)"
   },
+  "hilde-leom": {
+    "def": "battle-light",
+    "grammar": "wk.",
+    "lemma": "hilde-lēoma"
+  },
   "hilde-leoma": {
     "def": "battle-light",
     "grammar": "wk.",
     "lemma": "hilde-lēoma"
+  },
+  "hilde-leome": {
+    "def": "battle-light",
+    "grammar": "wk.",
+    "lemma": "hilde-lēoma"
+  },
+  "hilde-mec": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "hilde-mēċe"
   },
   "hilde-mece": {
     "def": "battle-sword",
@@ -8387,15 +25587,170 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hilde-tūx(=tūsc)"
   },
+  "hilde-wis": {
+    "def": "leader in battle",
+    "grammar": "wk.",
+    "lemma": "hilde-wīsa"
+  },
   "hilde-wisa": {
     "def": "leader in battle",
     "grammar": "wk.",
     "lemma": "hilde-wīsa"
   },
+  "hilde-wise": {
+    "def": "leader in battle",
+    "grammar": "wk.",
+    "lemma": "hilde-wīsa"
+  },
+  "hilde-wæp": {
+    "def": "war-WEAPON",
+    "grammar": "n.",
+    "lemma": "hilde-wǣpen"
+  },
+  "hilde-wæpe": {
+    "def": "war-WEAPON",
+    "grammar": "n.",
+    "lemma": "hilde-wǣpen"
+  },
   "hilde-wæpen": {
     "def": "war-WEAPON",
     "grammar": "n.",
     "lemma": "hilde-wǣpen"
+  },
+  "hildebil(l)": {
+    "def": "battle-sword",
+    "grammar": "n.",
+    "lemma": "hilde-bil(l)"
+  },
+  "hildeblac": {
+    "def": "battle-pale, mortally wounded",
+    "grammar": "adj.",
+    "lemma": "hilde-blāc"
+  },
+  "hildebord": {
+    "def": "battle-shield",
+    "grammar": "n.",
+    "lemma": "hilde-bord"
+  },
+  "hildecumbor": {
+    "def": "battle-banner",
+    "grammar": "n.",
+    "lemma": "hilde-cumbor"
+  },
+  "hildecyst": {
+    "def": "battle-virtue, valor",
+    "grammar": "fi.",
+    "lemma": "hilde-cyst"
+  },
+  "hildedeor": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "hilde-dēor"
+  },
+  "hildefreca": {
+    "def": "see hild-freca",
+    "grammar": "",
+    "lemma": "hilde-freca"
+  },
+  "hildegeatwe": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "hilde-ġeatwe"
+  },
+  "hildegicel": {
+    "def": "battle-icICLE",
+    "grammar": "m.",
+    "lemma": "hilde-ġiċel"
+  },
+  "hildegrap": {
+    "def": "hostile grasp",
+    "grammar": "f.",
+    "lemma": "hilde-grāp"
+  },
+  "hildehlem(m)": {
+    "def": "mja",
+    "grammar": "",
+    "lemma": "hilde-hlem(m)"
+  },
+  "hildeleoma": {
+    "def": "battle-light",
+    "grammar": "wk.",
+    "lemma": "hilde-lēoma"
+  },
+  "hildemece": {
+    "def": "battle-sword",
+    "grammar": "mja.",
+    "lemma": "hilde-mēċe"
+  },
+  "hildemecg": {
+    "def": "warrior",
+    "grammar": "mja.",
+    "lemma": "hilde-mecg"
+  },
+  "hilderand": {
+    "def": "battle-shield",
+    "grammar": "m.",
+    "lemma": "hilde-rand"
+  },
+  "hilderinc": {
+    "def": "warrior",
+    "grammar": "m.",
+    "lemma": "hilde-rinċ"
+  },
+  "hilderæs": {
+    "def": "storm of battle",
+    "grammar": "m.",
+    "lemma": "hilde-rǣs"
+  },
+  "hildesceorp": {
+    "def": "war-clothing, armor",
+    "grammar": "n.",
+    "lemma": "hilde-sceorp"
+  },
+  "hildesetl": {
+    "def": "war-SEAT, saddle",
+    "grammar": "n.",
+    "lemma": "hilde-setl"
+  },
+  "hildestrengo": {
+    "def": "battle-STRENGth",
+    "grammar": "f",
+    "lemma": "hilde-strenġo"
+  },
+  "hildeswat": {
+    "def": "battle-SWEAT, hostile vapor",
+    "grammar": "m.",
+    "lemma": "hilde-swāt"
+  },
+  "hildetux(=tusc)": {
+    "def": "battle-TUSK or -fang",
+    "grammar": "m.",
+    "lemma": "hilde-tūx(=tūsc)"
+  },
+  "hildewisa": {
+    "def": "leader in battle",
+    "grammar": "wk.",
+    "lemma": "hilde-wīsa"
+  },
+  "hildewæpen": {
+    "def": "war-WEAPON",
+    "grammar": "n.",
+    "lemma": "hilde-wǣpen"
+  },
+  "hildfreca": {
+    "def": "fighter, warrior",
+    "grammar": "wk.",
+    "lemma": "hild-freca"
+  },
+  "hildfruma": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "hild-fruma"
+  },
+  "hildlata": {
+    "def": "(adj",
+    "grammar": "wk.",
+    "lemma": "hild-lata"
   },
   "hilt": {
     "def": "OEG § ̄636), HILT",
@@ -8407,32 +25762,107 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hilted"
   },
+  "hin fus": {
+    "def": "eager to get away",
+    "grammar": "adj.",
+    "lemma": "hin-fūs"
+  },
   "hin-fus": {
     "def": "eager to get away",
     "grammar": "adj.",
     "lemma": "hin-fūs"
+  },
+  "hindem": {
+    "def": "last",
+    "grammar": "adj.",
+    "lemma": "hindema"
   },
   "hindema": {
     "def": "last",
     "grammar": "adj.",
     "lemma": "hindema"
   },
+  "hindeme": {
+    "def": "last",
+    "grammar": "adj.",
+    "lemma": "hindema"
+  },
+  "hinfus": {
+    "def": "eager to get away",
+    "grammar": "adj.",
+    "lemma": "hin-fūs"
+  },
+  "hiof": {
+    "def": "lament",
+    "grammar": "vb. 2",
+    "lemma": "hīofan"
+  },
   "hiofan": {
     "def": "lament",
     "grammar": "vb. 2",
     "lemma": "hīofan"
+  },
+  "hiofe": {
+    "def": "lament",
+    "grammar": "vb. 2",
+    "lemma": "hīofan"
+  },
+  "hioro drync": {
+    "def": "sword-DRINK",
+    "grammar": "mi.",
+    "lemma": "hioro-drynċ"
+  },
+  "hioro serce": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "hioro-serċe"
+  },
+  "hioro weallende": {
+    "def": "WELLing fiercely",
+    "grammar": "adj.",
+    "lemma": "hioro-weallende"
   },
   "hioro-drync": {
     "def": "sword-DRINK",
     "grammar": "mi.",
     "lemma": "hioro-drynċ"
   },
+  "hioro-serc": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "hioro-serċe"
+  },
   "hioro-serce": {
     "def": "(battle-SARK), shirt (or coat) of mail",
     "grammar": "wk.",
     "lemma": "hioro-serċe"
   },
+  "hioro-weallen": {
+    "def": "WELLing fiercely",
+    "grammar": "adj.",
+    "lemma": "hioro-weallende"
+  },
+  "hioro-weallend": {
+    "def": "WELLing fiercely",
+    "grammar": "adj.",
+    "lemma": "hioro-weallende"
+  },
   "hioro-weallende": {
+    "def": "WELLing fiercely",
+    "grammar": "adj.",
+    "lemma": "hioro-weallende"
+  },
+  "hiorodrync": {
+    "def": "sword-DRINK",
+    "grammar": "mi.",
+    "lemma": "hioro-drynċ"
+  },
+  "hioroserce": {
+    "def": "(battle-SARK), shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "hioro-serċe"
+  },
+  "hioroweallende": {
     "def": "WELLing fiercely",
     "grammar": "adj.",
     "lemma": "hioro-weallende"
@@ -8442,7 +25872,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hit(hyt)"
   },
+  "hlad": {
+    "def": "load, heap up, lay",
+    "grammar": "vb. 6",
+    "lemma": "hladan"
+  },
   "hladan": {
+    "def": "load, heap up, lay",
+    "grammar": "vb. 6",
+    "lemma": "hladan"
+  },
+  "hlade": {
     "def": "load, heap up, lay",
     "grammar": "vb. 6",
     "lemma": "hladan"
@@ -8452,7 +25892,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hlāford"
   },
+  "hlaford leas": {
+    "def": "without a chief",
+    "grammar": "adj.",
+    "lemma": "hlāford-lēas"
+  },
+  "hlaford-le": {
+    "def": "without a chief",
+    "grammar": "adj.",
+    "lemma": "hlāford-lēas"
+  },
   "hlaford-leas": {
+    "def": "without a chief",
+    "grammar": "adj.",
+    "lemma": "hlāford-lēas"
+  },
+  "hlaford-lee": {
+    "def": "without a chief",
+    "grammar": "adj.",
+    "lemma": "hlāford-lēas"
+  },
+  "hlafordleas": {
     "def": "without a chief",
     "grammar": "adj.",
     "lemma": "hlāford-lēas"
@@ -8467,7 +25927,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hleahtor"
   },
+  "hleap": {
+    "def": "gallop",
+    "grammar": "vb. 7",
+    "lemma": "hlēapan"
+  },
   "hleapan": {
+    "def": "gallop",
+    "grammar": "vb. 7",
+    "lemma": "hlēapan"
+  },
+  "hleape": {
     "def": "gallop",
     "grammar": "vb. 7",
     "lemma": "hlēapan"
@@ -8477,7 +25947,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hlēo"
   },
+  "hleo burh": {
+    "def": "sheltering town, strong-hold",
+    "grammar": "fc.",
+    "lemma": "hlēo-burh"
+  },
   "hleo-burh": {
+    "def": "sheltering town, strong-hold",
+    "grammar": "fc.",
+    "lemma": "hlēo-burh"
+  },
+  "hleoburh": {
     "def": "sheltering town, strong-hold",
     "grammar": "fc.",
     "lemma": "hlēo-burh"
@@ -8486,6 +25966,16 @@ const OLD_ENGLISH_DICT = {
     "def": "LEAN",
     "grammar": "vb. II",
     "lemma": "hleonian(hlinian)"
+  },
+  "hleor berg": {
+    "def": "cheek-guard (on helmet)",
+    "grammar": "f.",
+    "lemma": "hlēor-berg"
+  },
+  "hleor bolster": {
+    "def": "cheek-cushion, pillow",
+    "grammar": "m.",
+    "lemma": "hlēor-bolster"
   },
   "hleor-berg": {
     "def": "cheek-guard (on helmet)",
@@ -8497,30 +25987,110 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hlēor-bolster"
   },
+  "hleorberg": {
+    "def": "cheek-guard (on helmet)",
+    "grammar": "f.",
+    "lemma": "hlēor-berg"
+  },
+  "hleorbolster": {
+    "def": "cheek-cushion, pillow",
+    "grammar": "m.",
+    "lemma": "hlēor-bolster"
+  },
+  "hleot": {
+    "def": "obtain",
+    "grammar": "vb. 2",
+    "lemma": "hlēotan"
+  },
   "hleotan": {
     "def": "obtain",
     "grammar": "vb. 2",
     "lemma": "hlēotan"
+  },
+  "hleote": {
+    "def": "obtain",
+    "grammar": "vb. 2",
+    "lemma": "hlēotan"
+  },
+  "hleoðor cwyde": {
+    "def": "ceremonious speech",
+    "grammar": "mi.",
+    "lemma": "hlēoðor-cwyde"
+  },
+  "hleoðor-cwy": {
+    "def": "ceremonious speech",
+    "grammar": "mi.",
+    "lemma": "hlēoðor-cwyde"
+  },
+  "hleoðor-cwyd": {
+    "def": "ceremonious speech",
+    "grammar": "mi.",
+    "lemma": "hlēoðor-cwyde"
   },
   "hleoðor-cwyde": {
     "def": "ceremonious speech",
     "grammar": "mi.",
     "lemma": "hlēoðor-cwyde"
   },
+  "hleoðorcwyde": {
+    "def": "ceremonious speech",
+    "grammar": "mi.",
+    "lemma": "hlēoðor-cwyde"
+  },
+  "hleoþri": {
+    "def": "speak, exclaim",
+    "grammar": "vb. II",
+    "lemma": "hlēoþrian"
+  },
   "hleoþrian": {
     "def": "speak, exclaim",
     "grammar": "vb. II",
     "lemma": "hlēoþrian"
+  },
+  "hleoþrie": {
+    "def": "speak, exclaim",
+    "grammar": "vb. II",
+    "lemma": "hlēoþrian"
+  },
+  "hlifi": {
+    "def": "tower",
+    "grammar": "vb. II",
+    "lemma": "hlīfian"
   },
   "hlifian": {
     "def": "tower",
     "grammar": "vb. II",
     "lemma": "hlīfian"
   },
+  "hlifie": {
+    "def": "tower",
+    "grammar": "vb. II",
+    "lemma": "hlīfian"
+  },
+  "hlim bed(d)": {
+    "def": "BED of rest",
+    "grammar": "nja.",
+    "lemma": "hlim-bed(d)"
+  },
   "hlim-bed(d)": {
     "def": "BED of rest",
     "grammar": "nja.",
     "lemma": "hlim-bed(d)"
+  },
+  "hlimbed(d)": {
+    "def": "BED of rest",
+    "grammar": "nja.",
+    "lemma": "hlim-bed(d)"
+  },
+  "hliua": {
+    "def": "see hlīfian",
+    "grammar": "",
+    "lemma": "hlīuade"
+  },
+  "hliuad": {
+    "def": "see hlīfian",
+    "grammar": "",
+    "lemma": "hlīuade"
   },
   "hliuade": {
     "def": "see hlīfian",
@@ -8542,12 +26112,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "hlyn(n)"
   },
+  "hlynn": {
+    "def": "(hlynian, vb",
+    "grammar": "vb. I",
+    "lemma": "hlynnan"
+  },
   "hlynnan": {
     "def": "(hlynian, vb",
     "grammar": "vb. I",
     "lemma": "hlynnan"
   },
+  "hlynne": {
+    "def": "(hlynian, vb",
+    "grammar": "vb. I",
+    "lemma": "hlynnan"
+  },
+  "hlynsi": {
+    "def": "resound",
+    "grammar": "vb. II",
+    "lemma": "hlynsian"
+  },
   "hlynsian": {
+    "def": "resound",
+    "grammar": "vb. II",
+    "lemma": "hlynsian"
+  },
+  "hlynsie": {
     "def": "resound",
     "grammar": "vb. II",
     "lemma": "hlynsian"
@@ -8572,7 +26162,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hnāh"
   },
+  "hnit": {
+    "def": "clash together",
+    "grammar": "vb. 1",
+    "lemma": "hnītan"
+  },
   "hnitan": {
+    "def": "clash together",
+    "grammar": "vb. 1",
+    "lemma": "hnītan"
+  },
+  "hnite": {
     "def": "clash together",
     "grammar": "vb. 1",
     "lemma": "hnītan"
@@ -8592,7 +26192,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hold"
   },
+  "holing": {
+    "def": "without cause, 1076",
+    "grammar": "adv.",
+    "lemma": "hōlinga"
+  },
   "holinga": {
+    "def": "without cause, 1076",
+    "grammar": "adv.",
+    "lemma": "hōlinga"
+  },
+  "holinge": {
     "def": "without cause, 1076",
     "grammar": "adv.",
     "lemma": "hōlinga"
@@ -8601,6 +26211,16 @@ const OLD_ENGLISH_DICT = {
     "def": "sea, water",
     "grammar": "m.",
     "lemma": "holm"
+  },
+  "holm clif": {
+    "def": "sea-CLIFF, cliff by the waterside",
+    "grammar": "n.",
+    "lemma": "holm-clif"
+  },
+  "holm wylm": {
+    "def": "surge of the sea",
+    "grammar": "mi.",
+    "lemma": "holm-wylm"
   },
   "holm-clif": {
     "def": "sea-CLIFF, cliff by the waterside",
@@ -8612,12 +26232,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "holm-wylm"
   },
+  "holmclif": {
+    "def": "sea-CLIFF, cliff by the waterside",
+    "grammar": "n.",
+    "lemma": "holm-clif"
+  },
+  "holmwylm": {
+    "def": "surge of the sea",
+    "grammar": "mi.",
+    "lemma": "holm-wylm"
+  },
   "holt": {
     "def": "copse",
     "grammar": "n.",
     "lemma": "holt"
   },
+  "holt wudu": {
+    "def": "WOOD",
+    "grammar": "mu.",
+    "lemma": "holt-wudu"
+  },
   "holt-wudu": {
+    "def": "WOOD",
+    "grammar": "mu.",
+    "lemma": "holt-wudu"
+  },
+  "holtwudu": {
     "def": "WOOD",
     "grammar": "mu.",
     "lemma": "holt-wudu"
@@ -8632,12 +26272,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "hond",
     "lemma": "hond"
   },
+  "hond gemot": {
+    "def": "HAND-MEETing, battle",
+    "grammar": "n.",
+    "lemma": "hond-ġemōt"
+  },
+  "hond gesella": {
+    "def": "companion (who is close to one’s side), close associate",
+    "grammar": "wk.",
+    "lemma": "hond-ġesella"
+  },
+  "hond geweorc": {
+    "def": "deed of strength",
+    "grammar": "n.",
+    "lemma": "hond-ġeweorc"
+  },
+  "hond locen": {
+    "def": "(LOCKed) linked by HAND",
+    "grammar": "adj.",
+    "lemma": "hond-locen"
+  },
+  "hond ræs": {
+    "def": "HAND-fight",
+    "grammar": "m.",
+    "lemma": "hond-rǣs"
+  },
+  "hond wundor": {
+    "def": "WONDRous thing wrought by HAND",
+    "grammar": "n.",
+    "lemma": "hond-wundor"
+  },
   "hond-gemot": {
     "def": "HAND-MEETing, battle",
     "grammar": "n.",
     "lemma": "hond-ġemōt"
   },
+  "hond-gesell": {
+    "def": "companion (who is close to one’s side), close associate",
+    "grammar": "wk.",
+    "lemma": "hond-ġesella"
+  },
   "hond-gesella": {
+    "def": "companion (who is close to one’s side), close associate",
+    "grammar": "wk.",
+    "lemma": "hond-ġesella"
+  },
+  "hond-geselle": {
     "def": "companion (who is close to one’s side), close associate",
     "grammar": "wk.",
     "lemma": "hond-ġesella"
@@ -8646,6 +26326,16 @@ const OLD_ENGLISH_DICT = {
     "def": "deed of strength",
     "grammar": "n.",
     "lemma": "hond-ġeweorc"
+  },
+  "hond-loc": {
+    "def": "(LOCKed) linked by HAND",
+    "grammar": "adj.",
+    "lemma": "hond-locen"
+  },
+  "hond-loce": {
+    "def": "(LOCKed) linked by HAND",
+    "grammar": "adj.",
+    "lemma": "hond-locen"
   },
   "hond-locen": {
     "def": "(LOCKed) linked by HAND",
@@ -8662,7 +26352,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hond-wundor"
   },
+  "hondgemot": {
+    "def": "HAND-MEETing, battle",
+    "grammar": "n.",
+    "lemma": "hond-ġemōt"
+  },
+  "hondgesella": {
+    "def": "companion (who is close to one’s side), close associate",
+    "grammar": "wk.",
+    "lemma": "hond-ġesella"
+  },
+  "hondgeweorc": {
+    "def": "deed of strength",
+    "grammar": "n.",
+    "lemma": "hond-ġeweorc"
+  },
+  "hondlocen": {
+    "def": "(LOCKed) linked by HAND",
+    "grammar": "adj.",
+    "lemma": "hond-locen"
+  },
+  "hondræs": {
+    "def": "HAND-fight",
+    "grammar": "m.",
+    "lemma": "hond-rǣs"
+  },
+  "hondwundor": {
+    "def": "WONDRous thing wrought by HAND",
+    "grammar": "n.",
+    "lemma": "hond-wundor"
+  },
+  "hongi": {
+    "def": "see hangian",
+    "grammar": "",
+    "lemma": "hongian"
+  },
   "hongian": {
+    "def": "see hangian",
+    "grammar": "",
+    "lemma": "hongian"
+  },
+  "hongie": {
     "def": "see hangian",
     "grammar": "",
     "lemma": "hongian"
@@ -8672,15 +26402,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hord"
   },
+  "hord burh": {
+    "def": "treasure-city",
+    "grammar": "fc.",
+    "lemma": "hord-burh"
+  },
+  "hord gestreon": {
+    "def": "stored-up posses-sions, treasure",
+    "grammar": "n.",
+    "lemma": "hord-ġestrēon"
+  },
+  "hord maððum": {
+    "def": "HOARD-treasure, jewel",
+    "grammar": "m.",
+    "lemma": "hord-māððum"
+  },
+  "hord weard": {
+    "def": "GUARDian of treas-ure",
+    "grammar": "m.",
+    "lemma": "hord-weard"
+  },
+  "hord wela": {
+    "def": "HOARDed WEALth",
+    "grammar": "wk.",
+    "lemma": "hord-wela"
+  },
+  "hord weorþung": {
+    "def": "honoring with gifts",
+    "grammar": "f.",
+    "lemma": "hord-weorþung"
+  },
+  "hord wyn(n)": {
+    "def": "HOARD-joy, de-lightful treasure",
+    "grammar": "fj",
+    "lemma": "hord-wyn(n)"
+  },
+  "hord wyrðe": {
+    "def": "WORTHy of being HOARDed",
+    "grammar": "adj.",
+    "lemma": "hord-wyrðe"
+  },
+  "hord ærn": {
+    "def": "treasure-house",
+    "grammar": "n.",
+    "lemma": "hord-ærn"
+  },
   "hord-burh": {
     "def": "treasure-city",
     "grammar": "fc.",
     "lemma": "hord-burh"
   },
+  "hord-gestre": {
+    "def": "stored-up posses-sions, treasure",
+    "grammar": "n.",
+    "lemma": "hord-ġestrēon"
+  },
+  "hord-gestree": {
+    "def": "stored-up posses-sions, treasure",
+    "grammar": "n.",
+    "lemma": "hord-ġestrēon"
+  },
   "hord-gestreon": {
     "def": "stored-up posses-sions, treasure",
     "grammar": "n.",
     "lemma": "hord-ġestrēon"
+  },
+  "hord-maðð": {
+    "def": "HOARD-treasure, jewel",
+    "grammar": "m.",
+    "lemma": "hord-māððum"
+  },
+  "hord-maððe": {
+    "def": "HOARD-treasure, jewel",
+    "grammar": "m.",
+    "lemma": "hord-māððum"
   },
   "hord-maððum": {
     "def": "HOARD-treasure, jewel",
@@ -8692,7 +26487,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hord-weard"
   },
+  "hord-wel": {
+    "def": "HOARDed WEALth",
+    "grammar": "wk.",
+    "lemma": "hord-wela"
+  },
   "hord-wela": {
+    "def": "HOARDed WEALth",
+    "grammar": "wk.",
+    "lemma": "hord-wela"
+  },
+  "hord-wele": {
     "def": "HOARDed WEALth",
     "grammar": "wk.",
     "lemma": "hord-wela"
@@ -8707,6 +26512,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "hord-wyn(n)"
   },
+  "hord-wyrð": {
+    "def": "WORTHy of being HOARDed",
+    "grammar": "adj.",
+    "lemma": "hord-wyrðe"
+  },
   "hord-wyrðe": {
     "def": "WORTHy of being HOARDed",
     "grammar": "adj.",
@@ -8717,12 +26527,82 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hord-ærn"
   },
+  "hordburh": {
+    "def": "treasure-city",
+    "grammar": "fc.",
+    "lemma": "hord-burh"
+  },
+  "hordgestreon": {
+    "def": "stored-up posses-sions, treasure",
+    "grammar": "n.",
+    "lemma": "hord-ġestrēon"
+  },
+  "hordmaððum": {
+    "def": "HOARD-treasure, jewel",
+    "grammar": "m.",
+    "lemma": "hord-māððum"
+  },
+  "hordweard": {
+    "def": "GUARDian of treas-ure",
+    "grammar": "m.",
+    "lemma": "hord-weard"
+  },
+  "hordwela": {
+    "def": "HOARDed WEALth",
+    "grammar": "wk.",
+    "lemma": "hord-wela"
+  },
+  "hordweorþung": {
+    "def": "honoring with gifts",
+    "grammar": "f.",
+    "lemma": "hord-weorþung"
+  },
+  "hordwyn(n)": {
+    "def": "HOARD-joy, de-lightful treasure",
+    "grammar": "fj",
+    "lemma": "hord-wyn(n)"
+  },
+  "hordwyrðe": {
+    "def": "WORTHy of being HOARDed",
+    "grammar": "adj.",
+    "lemma": "hord-wyrðe"
+  },
+  "hordærn": {
+    "def": "treasure-house",
+    "grammar": "n.",
+    "lemma": "hord-ærn"
+  },
   "horn": {
     "def": "2943",
     "grammar": "m.",
     "lemma": "horn"
   },
+  "horn boga": {
+    "def": "HORN-BOW (i",
+    "grammar": "wk.",
+    "lemma": "horn-boga"
+  },
+  "horn geap": {
+    "def": "wide-gabled",
+    "grammar": "adj.",
+    "lemma": "horn-ġēap"
+  },
+  "horn reced": {
+    "def": "gabled house",
+    "grammar": "n.",
+    "lemma": "horn-reċed"
+  },
+  "horn-bog": {
+    "def": "HORN-BOW (i",
+    "grammar": "wk.",
+    "lemma": "horn-boga"
+  },
   "horn-boga": {
+    "def": "HORN-BOW (i",
+    "grammar": "wk.",
+    "lemma": "horn-boga"
+  },
+  "horn-boge": {
     "def": "HORN-BOW (i",
     "grammar": "wk.",
     "lemma": "horn-boga"
@@ -8737,6 +26617,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "horn-reċed"
   },
+  "hornboga": {
+    "def": "HORN-BOW (i",
+    "grammar": "wk.",
+    "lemma": "horn-boga"
+  },
+  "horngeap": {
+    "def": "wide-gabled",
+    "grammar": "adj.",
+    "lemma": "horn-ġēap"
+  },
+  "hornreced": {
+    "def": "gabled house",
+    "grammar": "n.",
+    "lemma": "horn-reċed"
+  },
   "hors": {
     "def": "OS hros(s), NHG Ross",
     "grammar": "n.",
@@ -8747,10 +26642,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hōs"
   },
+  "hoðm": {
+    "def": "concealment, grave (?)",
+    "grammar": "wk.",
+    "lemma": "hoðma"
+  },
   "hoðma": {
     "def": "concealment, grave (?)",
     "grammar": "wk.",
     "lemma": "hoðma"
+  },
+  "hoðme": {
+    "def": "concealment, grave (?)",
+    "grammar": "wk.",
+    "lemma": "hoðma"
+  },
+  "hra fyl(l)": {
+    "def": "FALL of corpses, slaughter",
+    "grammar": "mi.",
+    "lemma": "hrā-fyl(l)"
   },
   "hra(hræ[w]": {
     "def": "n",
@@ -8762,10 +26672,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hrā-fyl(l)"
   },
+  "hrafyl(l)": {
+    "def": "FALL of corpses, slaughter",
+    "grammar": "mi.",
+    "lemma": "hrā-fyl(l)"
+  },
+  "hraþ": {
+    "def": "adv",
+    "grammar": "hr",
+    "lemma": "hraþe"
+  },
   "hraþe": {
     "def": "adv",
     "grammar": "hr",
     "lemma": "hraþe"
+  },
+  "hrea wic": {
+    "def": "place of corpses",
+    "grammar": "n.",
+    "lemma": "hrēa-wīċ"
   },
   "hrea-wic": {
     "def": "place of corpses",
@@ -8777,10 +26702,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hrēam"
   },
+  "hreawic": {
+    "def": "place of corpses",
+    "grammar": "n.",
+    "lemma": "hrēa-wīċ"
+  },
   "hrefn(hræfn)": {
     "def": "RAVEN",
     "grammar": "m.",
     "lemma": "hrefn(hræfn)"
+  },
+  "hreme": {
+    "def": "w",
+    "grammar": "adj.",
+    "lemma": "hrēmiġ"
   },
   "hremig": {
     "def": "w",
@@ -8792,12 +26727,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hrēoh"
   },
+  "hreoh mod": {
+    "def": "troubled in mind, fierce",
+    "grammar": "adj.",
+    "lemma": "hrēoh-mōd"
+  },
   "hreoh-mod": {
     "def": "troubled in mind, fierce",
     "grammar": "adj.",
     "lemma": "hrēoh-mōd"
   },
+  "hreohmod": {
+    "def": "troubled in mind, fierce",
+    "grammar": "adj.",
+    "lemma": "hrēoh-mōd"
+  },
+  "hreos": {
+    "def": "rush",
+    "grammar": "vb. 2",
+    "lemma": "hrēosan"
+  },
   "hreosan": {
+    "def": "rush",
+    "grammar": "vb. 2",
+    "lemma": "hrēosan"
+  },
+  "hreose": {
     "def": "rush",
     "grammar": "vb. 2",
     "lemma": "hrēosan"
@@ -8812,6 +26767,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "orig.",
     "lemma": "hrēð"
   },
+  "hreð sigor": {
+    "def": "glorious victory",
+    "grammar": "m.",
+    "lemma": "hrēð-sigor"
+  },
   "hreð-sigor": {
     "def": "glorious victory",
     "grammar": "m.",
@@ -8822,35 +26782,125 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hreðer"
   },
+  "hreðsigor": {
+    "def": "glorious victory",
+    "grammar": "m.",
+    "lemma": "hrēð-sigor"
+  },
+  "hreþ": {
+    "def": "see hraþe",
+    "grammar": "",
+    "lemma": "hreþe"
+  },
   "hreþe": {
     "def": "see hraþe",
     "grammar": "",
     "lemma": "hreþe"
+  },
+  "hreþer bealo": {
+    "def": "(heart-BALE), dis-tress",
+    "grammar": "nwa.",
+    "lemma": "hreþer-bealo"
   },
   "hreþer-bealo": {
     "def": "(heart-BALE), dis-tress",
     "grammar": "nwa.",
     "lemma": "hreþer-bealo"
   },
+  "hreþerbealo": {
+    "def": "(heart-BALE), dis-tress",
+    "grammar": "nwa.",
+    "lemma": "hreþer-bealo"
+  },
+  "hrin": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "hrinde"
+  },
   "hrinan": {
     "def": "reach",
     "grammar": "vb. 1",
     "lemma": "hrīnan"
+  },
+  "hrind": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "hrinde"
   },
   "hrinde": {
     "def": "vb",
     "grammar": "pp.",
     "lemma": "hrinde"
   },
+  "hrine": {
+    "def": "reach",
+    "grammar": "vb. 1",
+    "lemma": "hrīnan"
+  },
   "hring": {
-    "def": "1202, 2809",
-    "grammar": "m.",
-    "lemma": "hrinġ"
+    "def": "resound",
+    "grammar": "vb. I",
+    "lemma": "hrinġan"
+  },
+  "hring boga": {
+    "def": "coiled creature (dragon)",
+    "grammar": "wk.",
+    "lemma": "hrinġ-boga"
+  },
+  "hring iren": {
+    "def": "RING-IRON, iron rings (of mail shirt)",
+    "grammar": "n.",
+    "lemma": "hrinġ-īren"
+  },
+  "hring mæl": {
+    "def": "RING-marked, i",
+    "grammar": "adj.",
+    "lemma": "hrinġ-mǣl"
+  },
+  "hring naca": {
+    "def": "RING-prowed ship",
+    "grammar": "wk.",
+    "lemma": "hrinġ-naca"
+  },
+  "hring net(t)": {
+    "def": "RING-NET, shirt (or coat) of mail",
+    "grammar": "nja.",
+    "lemma": "hrinġ-net(t)"
+  },
+  "hring sele": {
+    "def": "RING-hall",
+    "grammar": "mi.",
+    "lemma": "hrinġ-sele"
+  },
+  "hring weorðung": {
+    "def": "RING-adornment",
+    "grammar": "f.",
+    "lemma": "hrinġ-weorðung"
+  },
+  "hring-bog": {
+    "def": "coiled creature (dragon)",
+    "grammar": "wk.",
+    "lemma": "hrinġ-boga"
   },
   "hring-boga": {
     "def": "coiled creature (dragon)",
     "grammar": "wk.",
     "lemma": "hrinġ-boga"
+  },
+  "hring-boge": {
+    "def": "coiled creature (dragon)",
+    "grammar": "wk.",
+    "lemma": "hrinġ-boga"
+  },
+  "hring-ir": {
+    "def": "RING-IRON, iron rings (of mail shirt)",
+    "grammar": "n.",
+    "lemma": "hrinġ-īren"
+  },
+  "hring-ire": {
+    "def": "RING-IRON, iron rings (of mail shirt)",
+    "grammar": "n.",
+    "lemma": "hrinġ-īren"
   },
   "hring-iren": {
     "def": "RING-IRON, iron rings (of mail shirt)",
@@ -8862,7 +26912,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hrinġ-mǣl"
   },
+  "hring-nac": {
+    "def": "RING-prowed ship",
+    "grammar": "wk.",
+    "lemma": "hrinġ-naca"
+  },
   "hring-naca": {
+    "def": "RING-prowed ship",
+    "grammar": "wk.",
+    "lemma": "hrinġ-naca"
+  },
+  "hring-nace": {
     "def": "RING-prowed ship",
     "grammar": "wk.",
     "lemma": "hrinġ-naca"
@@ -8871,6 +26931,11 @@ const OLD_ENGLISH_DICT = {
     "def": "RING-NET, shirt (or coat) of mail",
     "grammar": "nja.",
     "lemma": "hrinġ-net(t)"
+  },
+  "hring-sel": {
+    "def": "RING-hall",
+    "grammar": "mi.",
+    "lemma": "hrinġ-sele"
   },
   "hring-sele": {
     "def": "RING-hall",
@@ -8887,15 +26952,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "hrinġan"
   },
+  "hringboga": {
+    "def": "coiled creature (dragon)",
+    "grammar": "wk.",
+    "lemma": "hrinġ-boga"
+  },
+  "hringe": {
+    "def": "resound",
+    "grammar": "vb. I",
+    "lemma": "hrinġan"
+  },
   "hringed": {
     "def": "(pp",
     "grammar": "adj.",
     "lemma": "hrinġed"
   },
+  "hringed stefna": {
+    "def": "RING-prowed ship, ship with coiled prow?",
+    "grammar": "wk.",
+    "lemma": "hrinġed-stefna"
+  },
+  "hringed-stefn": {
+    "def": "RING-prowed ship, ship with coiled prow?",
+    "grammar": "wk.",
+    "lemma": "hrinġed-stefna"
+  },
   "hringed-stefna": {
     "def": "RING-prowed ship, ship with coiled prow?",
     "grammar": "wk.",
     "lemma": "hrinġed-stefna"
+  },
+  "hringed-stefne": {
+    "def": "RING-prowed ship, ship with coiled prow?",
+    "grammar": "wk.",
+    "lemma": "hrinġed-stefna"
+  },
+  "hringedstefna": {
+    "def": "RING-prowed ship, ship with coiled prow?",
+    "grammar": "wk.",
+    "lemma": "hrinġed-stefna"
+  },
+  "hringiren": {
+    "def": "RING-IRON, iron rings (of mail shirt)",
+    "grammar": "n.",
+    "lemma": "hrinġ-īren"
+  },
+  "hringmæl": {
+    "def": "RING-marked, i",
+    "grammar": "adj.",
+    "lemma": "hrinġ-mǣl"
+  },
+  "hringnaca": {
+    "def": "RING-prowed ship",
+    "grammar": "wk.",
+    "lemma": "hrinġ-naca"
+  },
+  "hringnet(t)": {
+    "def": "RING-NET, shirt (or coat) of mail",
+    "grammar": "nja.",
+    "lemma": "hrinġ-net(t)"
+  },
+  "hringsele": {
+    "def": "RING-hall",
+    "grammar": "mi.",
+    "lemma": "hrinġ-sele"
+  },
+  "hringweorðung": {
+    "def": "RING-adornment",
+    "grammar": "f.",
+    "lemma": "hrinġ-weorðung"
+  },
+  "hrod": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "hroden"
+  },
+  "hrode": {
+    "def": "vb",
+    "grammar": "pp.",
+    "lemma": "hroden"
   },
   "hroden": {
     "def": "vb",
@@ -8907,10 +27042,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hrōf"
   },
+  "hrof sele": {
+    "def": "ROOFed hall",
+    "grammar": "mi.",
+    "lemma": "hrōf-sele"
+  },
+  "hrof-sel": {
+    "def": "ROOFed hall",
+    "grammar": "mi.",
+    "lemma": "hrōf-sele"
+  },
   "hrof-sele": {
     "def": "ROOFed hall",
     "grammar": "mi.",
     "lemma": "hrōf-sele"
+  },
+  "hrofsele": {
+    "def": "ROOFed hall",
+    "grammar": "mi.",
+    "lemma": "hrōf-sele"
+  },
+  "hron fisc": {
+    "def": "whale (-FISH, cf",
+    "grammar": "m.",
+    "lemma": "hron-fisc"
+  },
+  "hron rad": {
+    "def": "whale-ROAD, ocean",
+    "grammar": "f.",
+    "lemma": "hron-rād"
   },
   "hron-fisc": {
     "def": "whale (-FISH, cf",
@@ -8918,6 +27078,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hron-fisc"
   },
   "hron-rad": {
+    "def": "whale-ROAD, ocean",
+    "grammar": "f.",
+    "lemma": "hron-rād"
+  },
+  "hronfisc": {
+    "def": "whale (-FISH, cf",
+    "grammar": "m.",
+    "lemma": "hron-fisc"
+  },
+  "hronrad": {
     "def": "whale-ROAD, ocean",
     "grammar": "f.",
     "lemma": "hron-rād"
@@ -8932,20 +27102,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hrōðor"
   },
+  "hrur": {
+    "def": "see hrēosan",
+    "grammar": "",
+    "lemma": "hruron"
+  },
+  "hrure": {
+    "def": "see hrēosan",
+    "grammar": "",
+    "lemma": "hruron"
+  },
   "hruron": {
     "def": "see hrēosan",
     "grammar": "",
     "lemma": "hruron"
+  },
+  "hrus": {
+    "def": "earth, ground",
+    "grammar": "wk.",
+    "lemma": "hrūse"
   },
   "hruse": {
     "def": "earth, ground",
     "grammar": "wk.",
     "lemma": "hrūse"
   },
+  "hry": {
+    "def": "death",
+    "grammar": "mi.",
+    "lemma": "hryre"
+  },
   "hrycg": {
     "def": "RIDGE",
     "grammar": "mja.",
     "lemma": "hrycg"
+  },
+  "hryr": {
+    "def": "death",
+    "grammar": "mi.",
+    "lemma": "hryre"
   },
   "hryre": {
     "def": "death",
@@ -8957,10 +27152,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "hryssan(hrissan)"
   },
+  "hræd lice": {
+    "def": "963",
+    "grammar": "adv.",
+    "lemma": "hræd-līċe"
+  },
+  "hræd-lic": {
+    "def": "963",
+    "grammar": "adv.",
+    "lemma": "hræd-līċe"
+  },
   "hræd-lice": {
     "def": "963",
     "grammar": "adv.",
     "lemma": "hræd-līċe"
+  },
+  "hrædlice": {
+    "def": "963",
+    "grammar": "adv.",
+    "lemma": "hræd-līċe"
+  },
+  "hræf": {
+    "def": "see hrefn",
+    "grammar": "",
+    "lemma": "hræfen"
+  },
+  "hræfe": {
+    "def": "see hrefn",
+    "grammar": "",
+    "lemma": "hræfen"
   },
   "hræfen": {
     "def": "see hrefn",
@@ -8971,6 +27191,16 @@ const OLD_ENGLISH_DICT = {
     "def": "hence mail shirt (or coat)",
     "grammar": "n.",
     "lemma": "hræġl"
+  },
+  "hræð": {
+    "def": "see hreðer",
+    "grammar": "",
+    "lemma": "hræðre"
+  },
+  "hræðr": {
+    "def": "see hreðer",
+    "grammar": "",
+    "lemma": "hræðre"
   },
   "hræðre": {
     "def": "see hreðer",
@@ -9002,6 +27232,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hūð"
   },
+  "hw": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "hwā"
+  },
   "hwa": {
     "def": "n",
     "grammar": "m.",
@@ -9017,10 +27252,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hwanan"
   },
+  "hwane": {
+    "def": "WHENce, from where, from what direction",
+    "grammar": "",
+    "lemma": "hwanan"
+  },
   "hwar": {
     "def": "see hwǣr",
     "grammar": "",
     "lemma": "hwār"
+  },
+  "hwat": {
+    "def": "-um, see hwæt",
+    "grammar": "",
+    "lemma": "hwate"
   },
   "hwate": {
     "def": "-um, see hwæt",
@@ -9032,32 +27277,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hwatu"
   },
+  "hwe": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "hwā"
+  },
   "hwealf": {
     "def": "arch",
     "grammar": "",
     "lemma": "hwealf"
+  },
+  "hwearf lata": {
+    "def": "one slow to flee, stalwart one (?)",
+    "grammar": "wk.",
+    "lemma": "hwearf-lata"
+  },
+  "hwearf-lat": {
+    "def": "one slow to flee, stalwart one (?)",
+    "grammar": "wk.",
+    "lemma": "hwearf-lata"
   },
   "hwearf-lata": {
     "def": "one slow to flee, stalwart one (?)",
     "grammar": "wk.",
     "lemma": "hwearf-lata"
   },
+  "hwearf-late": {
+    "def": "one slow to flee, stalwart one (?)",
+    "grammar": "wk.",
+    "lemma": "hwearf-lata"
+  },
+  "hwearflata": {
+    "def": "one slow to flee, stalwart one (?)",
+    "grammar": "wk.",
+    "lemma": "hwearf-lata"
+  },
+  "hwen": {
+    "def": "somewhat",
+    "grammar": "adv.",
+    "lemma": "hwēne"
+  },
   "hwene": {
     "def": "somewhat",
     "grammar": "adv.",
     "lemma": "hwēne"
+  },
+  "hweorf": {
+    "def": "go, move about",
+    "grammar": "vb. 3",
+    "lemma": "hweorfan"
   },
   "hweorfan": {
     "def": "go, move about",
     "grammar": "vb. 3",
     "lemma": "hweorfan"
   },
+  "hweorfe": {
+    "def": "go, move about",
+    "grammar": "vb. 3",
+    "lemma": "hweorfan"
+  },
+  "hwerg": {
+    "def": "someWHERE",
+    "grammar": "adv.",
+    "lemma": "hwerġen"
+  },
+  "hwerge": {
+    "def": "someWHERE",
+    "grammar": "adv.",
+    "lemma": "hwerġen"
+  },
   "hwergen": {
     "def": "someWHERE",
     "grammar": "adv.",
     "lemma": "hwerġen"
   },
+  "hwett": {
+    "def": "urge, incite",
+    "grammar": "vb. I",
+    "lemma": "hwettan"
+  },
   "hwettan": {
+    "def": "urge, incite",
+    "grammar": "vb. I",
+    "lemma": "hwettan"
+  },
+  "hwette": {
     "def": "urge, incite",
     "grammar": "vb. I",
     "lemma": "hwettan"
@@ -9072,7 +27377,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hwīt"
   },
+  "hworf": {
+    "def": "see hweorfan",
+    "grammar": "",
+    "lemma": "hworfan"
+  },
   "hworfan": {
+    "def": "see hweorfan",
+    "grammar": "",
+    "lemma": "hworfan"
+  },
+  "hworfe": {
     "def": "see hweorfan",
     "grammar": "",
     "lemma": "hworfan"
@@ -9087,7 +27402,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "hwylċ"
   },
+  "hwyrf": {
+    "def": "98",
+    "grammar": "vb. I",
+    "lemma": "hwyrfan"
+  },
   "hwyrfan": {
+    "def": "98",
+    "grammar": "vb. I",
+    "lemma": "hwyrfan"
+  },
+  "hwyrfe": {
     "def": "98",
     "grammar": "vb. I",
     "lemma": "hwyrfan"
@@ -9117,25 +27442,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "hwæðer"
   },
+  "hwæþ": {
+    "def": "however, yet",
+    "grammar": "hw",
+    "lemma": "hwæþre"
+  },
   "hwæþer": {
     "def": "1356, 2785",
     "grammar": "conj.",
     "lemma": "hwæþer"
+  },
+  "hwæþr": {
+    "def": "however, yet",
+    "grammar": "hw",
+    "lemma": "hwæþre"
   },
   "hwæþre": {
     "def": "however, yet",
     "grammar": "hw",
     "lemma": "hwæþre"
   },
+  "hycg": {
+    "def": "intend, resolve",
+    "grammar": "vb. III",
+    "lemma": "hycgan"
+  },
   "hycgan": {
     "def": "intend, resolve",
     "grammar": "vb. III",
     "lemma": "hycgan"
   },
+  "hycge": {
+    "def": "intend, resolve",
+    "grammar": "vb. III",
+    "lemma": "hycgan"
+  },
+  "hyg": {
+    "def": "see hiġe",
+    "grammar": "",
+    "lemma": "hyġe"
+  },
   "hyge": {
     "def": "see hiġe",
     "grammar": "",
     "lemma": "hyġe"
+  },
+  "hyge bend": {
+    "def": "mind’s BOND, mental restraint, reserve",
+    "grammar": "fj",
+    "lemma": "hyġe-bend"
+  },
+  "hyge giomor": {
+    "def": "sad in mind",
+    "grammar": "adj.",
+    "lemma": "hyġe-ġiōmor"
+  },
+  "hyge meðe": {
+    "def": "wearying the mind, weary of mind",
+    "grammar": "adj.",
+    "lemma": "hyġe-mēðe"
+  },
+  "hyge sorh": {
+    "def": "heart-SORROW",
+    "grammar": "f.",
+    "lemma": "hyġe-sorh"
   },
   "hyge-bend": {
     "def": "mind’s BOND, mental restraint, reserve",
@@ -9147,6 +27517,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hyġe-ġiōmor"
   },
+  "hyge-með": {
+    "def": "wearying the mind, weary of mind",
+    "grammar": "adj.",
+    "lemma": "hyġe-mēðe"
+  },
   "hyge-meðe": {
     "def": "wearying the mind, weary of mind",
     "grammar": "adj.",
@@ -9157,12 +27532,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hyġe-sorh"
   },
+  "hygebend": {
+    "def": "mind’s BOND, mental restraint, reserve",
+    "grammar": "fj",
+    "lemma": "hyġe-bend"
+  },
+  "hygegiomor": {
+    "def": "sad in mind",
+    "grammar": "adj.",
+    "lemma": "hyġe-ġiōmor"
+  },
+  "hygemeðe": {
+    "def": "wearying the mind, weary of mind",
+    "grammar": "adj.",
+    "lemma": "hyġe-mēðe"
+  },
+  "hygesorh": {
+    "def": "heart-SORROW",
+    "grammar": "f.",
+    "lemma": "hyġe-sorh"
+  },
   "hyht": {
     "def": "solace",
     "grammar": "mi.",
     "lemma": "hyht"
   },
+  "hyld": {
+    "def": "bend down",
+    "grammar": "vb. I",
+    "lemma": "hyldan"
+  },
   "hyldan": {
+    "def": "bend down",
+    "grammar": "vb. I",
+    "lemma": "hyldan"
+  },
+  "hylde": {
     "def": "bend down",
     "grammar": "vb. I",
     "lemma": "hyldan"
@@ -9177,30 +27582,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hylt"
   },
+  "hyr": {
+    "def": "guardian, keeper",
+    "grammar": "mja.",
+    "lemma": "hyrde"
+  },
+  "hyrd": {
+    "def": "guardian, keeper",
+    "grammar": "mja.",
+    "lemma": "hyrde"
+  },
   "hyrde": {
     "def": "guardian, keeper",
     "grammar": "mja.",
     "lemma": "hyrde"
   },
   "hyrst": {
-    "def": "ornament, accouterment, armor",
-    "grammar": "fi.",
-    "lemma": "hyrst"
+    "def": "decorate, ornament",
+    "grammar": "vb. I",
+    "lemma": "hyrstan"
   },
   "hyrstan": {
     "def": "decorate, ornament",
     "grammar": "vb. I",
     "lemma": "hyrstan"
   },
+  "hyrste": {
+    "def": "decorate, ornament",
+    "grammar": "vb. I",
+    "lemma": "hyrstan"
+  },
+  "hyrsted gold": {
+    "def": "decoratively wrought GOLD",
+    "grammar": "n.",
+    "lemma": "hyrsted-gold"
+  },
   "hyrsted-gold": {
     "def": "decoratively wrought GOLD",
     "grammar": "n.",
     "lemma": "hyrsted-gold"
   },
+  "hyrstedgold": {
+    "def": "decoratively wrought GOLD",
+    "grammar": "n.",
+    "lemma": "hyrsted-gold"
+  },
+  "hyrt": {
+    "def": "encourage, refl",
+    "grammar": "vb. I",
+    "lemma": "hyrtan"
+  },
   "hyrtan": {
     "def": "encourage, refl",
     "grammar": "vb. I",
     "lemma": "hyrtan"
+  },
+  "hyrte": {
+    "def": "encourage, refl",
+    "grammar": "vb. I",
+    "lemma": "hyrtan"
+  },
+  "hys": {
+    "def": "OEG § ̄610",
+    "grammar": "mi.",
+    "lemma": "hyse"
   },
   "hyse": {
     "def": "OEG § ̄610",
@@ -9217,6 +27662,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hæf"
   },
+  "hæfe": {
+    "def": "see hebban",
+    "grammar": "",
+    "lemma": "hæfen"
+  },
   "hæfen": {
     "def": "see hebban",
     "grammar": "",
@@ -9226,6 +27676,21 @@ const OLD_ENGLISH_DICT = {
     "def": "360 ̄f",
     "grammar": "m.",
     "lemma": "hæft"
+  },
+  "hæft mece": {
+    "def": "hilted sword",
+    "grammar": "mja.",
+    "lemma": "hæft-mēċe"
+  },
+  "hæft nуd": {
+    "def": "3155",
+    "grammar": "fi.",
+    "lemma": "hæft-nӯd"
+  },
+  "hæft-mec": {
+    "def": "hilted sword",
+    "grammar": "mja.",
+    "lemma": "hæft-mēċe"
   },
   "hæft-mece": {
     "def": "hilted sword",
@@ -9237,15 +27702,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "hæft-nӯd"
   },
+  "hæftmece": {
+    "def": "hilted sword",
+    "grammar": "mja.",
+    "lemma": "hæft-mēċe"
+  },
+  "hæftnуd": {
+    "def": "3155",
+    "grammar": "fi.",
+    "lemma": "hæft-nӯd"
+  },
+  "hæg steald": {
+    "def": "1889",
+    "grammar": "adj.",
+    "lemma": "hæġ-steald"
+  },
   "hæg-steald": {
     "def": "1889",
     "grammar": "adj.",
     "lemma": "hæġ-steald"
   },
+  "hægsteald": {
+    "def": "1889",
+    "grammar": "adj.",
+    "lemma": "hæġ-steald"
+  },
   "hæl": {
-    "def": "(1) safety, good luck",
-    "grammar": "nc.",
-    "lemma": "hǣl"
+    "def": "mc",
+    "grammar": "h",
+    "lemma": "hæle"
   },
   "hæle": {
     "def": "mc",
@@ -9257,32 +27742,102 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "hǣlo"
   },
+  "hærg træf": {
+    "def": "heathen temple",
+    "grammar": "n.",
+    "lemma": "hærg-træf"
+  },
   "hærg-træf": {
     "def": "heathen temple",
     "grammar": "n.",
     "lemma": "hærg-træf"
+  },
+  "hærgtræf": {
+    "def": "heathen temple",
+    "grammar": "n.",
+    "lemma": "hærg-træf"
+  },
+  "hæs": {
+    "def": "violent",
+    "grammar": "adj.",
+    "lemma": "hǣste"
+  },
+  "hæst": {
+    "def": "violent",
+    "grammar": "adj.",
+    "lemma": "hǣste"
   },
   "hæste": {
     "def": "violent",
     "grammar": "adj.",
     "lemma": "hǣste"
   },
+  "hæð stapa": {
+    "def": "HEATH-stalker (stag)",
+    "grammar": "wk.",
+    "lemma": "hǣð-stapa"
+  },
+  "hæð-stap": {
+    "def": "HEATH-stalker (stag)",
+    "grammar": "wk.",
+    "lemma": "hǣð-stapa"
+  },
   "hæð-stapa": {
     "def": "HEATH-stalker (stag)",
     "grammar": "wk.",
     "lemma": "hǣð-stapa"
+  },
+  "hæð-stape": {
+    "def": "HEATH-stalker (stag)",
+    "grammar": "wk.",
+    "lemma": "hǣð-stapa"
+  },
+  "hæðstapa": {
+    "def": "HEATH-stalker (stag)",
+    "grammar": "wk.",
+    "lemma": "hǣð-stapa"
+  },
+  "hæþ": {
+    "def": "986",
+    "grammar": "adj.",
+    "lemma": "hǣþen"
+  },
+  "hæþe": {
+    "def": "986",
+    "grammar": "adj.",
+    "lemma": "hǣþen"
   },
   "hæþen": {
     "def": "986",
     "grammar": "adj.",
     "lemma": "hǣþen"
   },
+  "hуd": {
+    "def": "2766",
+    "grammar": "vb. I",
+    "lemma": "hӯdan"
+  },
   "hуdan": {
     "def": "2766",
     "grammar": "vb. I",
     "lemma": "hӯdan"
   },
+  "hуde": {
+    "def": "2766",
+    "grammar": "vb. I",
+    "lemma": "hӯdan"
+  },
+  "hуn": {
+    "def": "ill-treat, injure",
+    "grammar": "vb. I",
+    "lemma": "hӯnan"
+  },
   "hуnan": {
+    "def": "ill-treat, injure",
+    "grammar": "vb. I",
+    "lemma": "hӯnan"
+  },
+  "hуne": {
     "def": "ill-treat, injure",
     "grammar": "vb. I",
     "lemma": "hӯnan"
@@ -9292,7 +27847,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hӯnðu"
   },
+  "hуr": {
+    "def": "hear of: pret",
+    "grammar": "vb. I",
+    "lemma": "hӯran"
+  },
   "hуran": {
+    "def": "hear of: pret",
+    "grammar": "vb. I",
+    "lemma": "hӯran"
+  },
+  "hуre": {
     "def": "hear of: pret",
     "grammar": "vb. I",
     "lemma": "hӯran"
@@ -9302,7 +27867,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hӯð"
   },
+  "hуð weard": {
+    "def": "harbor-GUARD",
+    "grammar": "m.",
+    "lemma": "hӯð-weard"
+  },
   "hуð-weard": {
+    "def": "harbor-GUARD",
+    "grammar": "m.",
+    "lemma": "hӯð-weard"
+  },
+  "hуðweard": {
     "def": "harbor-GUARD",
     "grammar": "m.",
     "lemma": "hӯð-weard"
@@ -9312,17 +27887,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pers.",
     "lemma": "iċ"
   },
+  "icg": {
+    "def": "ds",
+    "grammar": "adj.",
+    "lemma": "icge"
+  },
   "icge": {
     "def": "ds",
     "grammar": "adj.",
     "lemma": "icge"
+  },
+  "id": {
+    "def": "†woman, lady",
+    "grammar": "f.",
+    "lemma": "ides"
+  },
+  "ide": {
+    "def": "†woman, lady",
+    "grammar": "f.",
+    "lemma": "ides"
   },
   "idel": {
     "def": "empty, unoccupied",
     "grammar": "adj.",
     "lemma": "īdel"
   },
+  "idel hende": {
+    "def": "empty-HANDed",
+    "grammar": "adj.",
+    "lemma": "īdel-hende"
+  },
+  "idel-hen": {
+    "def": "empty-HANDed",
+    "grammar": "adj.",
+    "lemma": "īdel-hende"
+  },
+  "idel-hend": {
+    "def": "empty-HANDed",
+    "grammar": "adj.",
+    "lemma": "īdel-hende"
+  },
   "idel-hende": {
+    "def": "empty-HANDed",
+    "grammar": "adj.",
+    "lemma": "īdel-hende"
+  },
+  "idelhende": {
     "def": "empty-HANDed",
     "grammar": "adj.",
     "lemma": "īdel-hende"
@@ -9333,9 +27943,29 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ides"
   },
   "in": {
-    "def": "13, 25, 87, 89, 107, 180, 323, 324, 395, 443, 482, 588, 695, 713, 728, 851, 976, 1029, 1070, 1151, 1302 (Varr",
-    "grammar": "I.",
-    "lemma": "in"
+    "def": "inside, inwardly",
+    "grammar": "adv.",
+    "lemma": "inne"
+  },
+  "in frod": {
+    "def": "very old and wise",
+    "grammar": "adj.",
+    "lemma": "in-frōd"
+  },
+  "in gang": {
+    "def": "1549",
+    "grammar": "m.",
+    "lemma": "in-gang"
+  },
+  "in genga": {
+    "def": "invader",
+    "grammar": "wk.",
+    "lemma": "in-genġa"
+  },
+  "in gesteald": {
+    "def": "house-property, pos-sessions in the house",
+    "grammar": "n.",
+    "lemma": "in-ġesteald"
   },
   "in(n)": {
     "def": "lodging",
@@ -9352,7 +27982,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "in-gang"
   },
+  "in-geng": {
+    "def": "invader",
+    "grammar": "wk.",
+    "lemma": "in-genġa"
+  },
   "in-genga": {
+    "def": "invader",
+    "grammar": "wk.",
+    "lemma": "in-genġa"
+  },
+  "in-genge": {
     "def": "invader",
     "grammar": "wk.",
     "lemma": "in-genġa"
@@ -9367,40 +28007,145 @@ const OLD_ENGLISH_DICT = {
     "grammar": "in",
     "lemma": "inċ"
   },
+  "incge laf": {
+    "def": "2577, see note",
+    "grammar": "f.",
+    "lemma": "inċġe-lāf"
+  },
   "incge-laf": {
     "def": "2577, see note",
     "grammar": "f.",
     "lemma": "inċġe-lāf"
   },
+  "incgelaf": {
+    "def": "2577, see note",
+    "grammar": "f.",
+    "lemma": "inċġe-lāf"
+  },
+  "infrod": {
+    "def": "very old and wise",
+    "grammar": "adj.",
+    "lemma": "in-frōd"
+  },
+  "ingang": {
+    "def": "1549",
+    "grammar": "m.",
+    "lemma": "in-gang"
+  },
+  "ingenga": {
+    "def": "invader",
+    "grammar": "wk.",
+    "lemma": "in-genġa"
+  },
+  "ingesteald": {
+    "def": "house-property, pos-sessions in the house",
+    "grammar": "n.",
+    "lemma": "in-ġesteald"
+  },
   "inn": {
-    "def": "see in, adv",
-    "grammar": "",
-    "lemma": "inn"
+    "def": "inside",
+    "grammar": "adv.",
+    "lemma": "innan"
   },
   "innan": {
     "def": "inside",
     "grammar": "adv.",
     "lemma": "innan"
   },
+  "innan weard": {
+    "def": "interior",
+    "grammar": "adj.",
+    "lemma": "innan-weard"
+  },
   "innan-weard": {
     "def": "interior",
     "grammar": "adj.",
     "lemma": "innan-weard"
   },
+  "innanweard": {
+    "def": "interior",
+    "grammar": "adj.",
+    "lemma": "innan-weard"
+  },
   "inne": {
-    "def": "inside, inwardly",
+    "def": "inside",
     "grammar": "adv.",
-    "lemma": "inne"
+    "lemma": "innan"
+  },
+  "inne weard": {
+    "def": "interior",
+    "grammar": "adj.",
+    "lemma": "inne-weard"
   },
   "inne-weard": {
     "def": "interior",
     "grammar": "adj.",
     "lemma": "inne-weard"
   },
+  "inneweard": {
+    "def": "interior",
+    "grammar": "adj.",
+    "lemma": "inne-weard"
+  },
+  "inwid sorg": {
+    "def": "see inwit-sorh",
+    "grammar": "",
+    "lemma": "inwid-sorg"
+  },
   "inwid-sorg": {
     "def": "see inwit-sorh",
     "grammar": "",
     "lemma": "inwid-sorg"
+  },
+  "inwidsorg": {
+    "def": "see inwit-sorh",
+    "grammar": "",
+    "lemma": "inwid-sorg"
+  },
+  "inwit feng": {
+    "def": "malicious grasp, 1447",
+    "grammar": "mi.",
+    "lemma": "inwit-fenġ"
+  },
+  "inwit gæst": {
+    "def": "malicious (stranger or) foe",
+    "grammar": "m.",
+    "lemma": "inwit-gæst"
+  },
+  "inwit hrof": {
+    "def": "evil (or enemy’s) ROOF",
+    "grammar": "m.",
+    "lemma": "inwit-hrōf"
+  },
+  "inwit net(t)": {
+    "def": "NET of malice",
+    "grammar": "nja.",
+    "lemma": "inwit-net(t)"
+  },
+  "inwit nið": {
+    "def": "enmity, hostile act",
+    "grammar": "m.",
+    "lemma": "inwit-nīð"
+  },
+  "inwit scear": {
+    "def": "malicious slaughter",
+    "grammar": "m.",
+    "lemma": "inwit-scear"
+  },
+  "inwit searo": {
+    "def": "enmity (or mal-ice?)",
+    "grammar": "nwa.",
+    "lemma": "inwit-searo"
+  },
+  "inwit sorh": {
+    "def": "evil care or SORROW",
+    "grammar": "f.",
+    "lemma": "inwit-sorh"
+  },
+  "inwit þanc": {
+    "def": "hostile purpose",
+    "grammar": "m.",
+    "lemma": "inwit-þanc"
   },
   "inwit-feng": {
     "def": "malicious grasp, 1447",
@@ -9447,6 +28192,61 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "inwit-þanc"
   },
+  "inwitfeng": {
+    "def": "malicious grasp, 1447",
+    "grammar": "mi.",
+    "lemma": "inwit-fenġ"
+  },
+  "inwitgæst": {
+    "def": "malicious (stranger or) foe",
+    "grammar": "m.",
+    "lemma": "inwit-gæst"
+  },
+  "inwithrof": {
+    "def": "evil (or enemy’s) ROOF",
+    "grammar": "m.",
+    "lemma": "inwit-hrōf"
+  },
+  "inwitnet(t)": {
+    "def": "NET of malice",
+    "grammar": "nja.",
+    "lemma": "inwit-net(t)"
+  },
+  "inwitnið": {
+    "def": "enmity, hostile act",
+    "grammar": "m.",
+    "lemma": "inwit-nīð"
+  },
+  "inwitscear": {
+    "def": "malicious slaughter",
+    "grammar": "m.",
+    "lemma": "inwit-scear"
+  },
+  "inwitsearo": {
+    "def": "enmity (or mal-ice?)",
+    "grammar": "nwa.",
+    "lemma": "inwit-searo"
+  },
+  "inwitsorh": {
+    "def": "evil care or SORROW",
+    "grammar": "f.",
+    "lemma": "inwit-sorh"
+  },
+  "inwitþanc": {
+    "def": "hostile purpose",
+    "grammar": "m.",
+    "lemma": "inwit-þanc"
+  },
+  "io meowle": {
+    "def": "woman (or wife) of old, i",
+    "grammar": "wk.",
+    "lemma": "iō-meowle"
+  },
+  "io-meowl": {
+    "def": "woman (or wife) of old, i",
+    "grammar": "wk.",
+    "lemma": "iō-meowle"
+  },
   "io-meowle": {
     "def": "woman (or wife) of old, i",
     "grammar": "wk.",
@@ -9457,6 +28257,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "iogoð"
   },
+  "iomeowle": {
+    "def": "woman (or wife) of old, i",
+    "grammar": "wk.",
+    "lemma": "iō-meowle"
+  },
+  "iren bend": {
+    "def": "IRON BAND",
+    "grammar": "fj",
+    "lemma": "īren-bend"
+  },
+  "iren byrne": {
+    "def": "IRON shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "īren-byrne"
+  },
+  "iren heard": {
+    "def": "IRON-HARD",
+    "grammar": "adj.",
+    "lemma": "īren-heard"
+  },
+  "iren þreat": {
+    "def": "band having IRON ar-mor, armed troop",
+    "grammar": "m.",
+    "lemma": "īren-þrēat"
+  },
   "iren(n)": {
     "def": "2778",
     "grammar": "adj.",
@@ -9466,6 +28291,16 @@ const OLD_ENGLISH_DICT = {
     "def": "IRON BAND",
     "grammar": "fj",
     "lemma": "īren-bend"
+  },
+  "iren-byr": {
+    "def": "IRON shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "īren-byrne"
+  },
+  "iren-byrn": {
+    "def": "IRON shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "īren-byrne"
   },
   "iren-byrne": {
     "def": "IRON shirt (or coat) of mail",
@@ -9482,15 +28317,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "īren-þrēat"
   },
+  "irenbend": {
+    "def": "IRON BAND",
+    "grammar": "fj",
+    "lemma": "īren-bend"
+  },
+  "irenbyrne": {
+    "def": "IRON shirt (or coat) of mail",
+    "grammar": "wk.",
+    "lemma": "īren-byrne"
+  },
+  "irenheard": {
+    "def": "IRON-HARD",
+    "grammar": "adj.",
+    "lemma": "īren-heard"
+  },
+  "irenþreat": {
+    "def": "band having IRON ar-mor, armed troop",
+    "grammar": "m.",
+    "lemma": "īren-þrēat"
+  },
   "is": {
     "def": "1608",
     "grammar": "n.",
     "lemma": "īs"
   },
+  "is gebind": {
+    "def": "ICy BOND",
+    "grammar": "n.",
+    "lemma": "īs-ġebind"
+  },
   "is-gebind": {
     "def": "ICy BOND",
     "grammar": "n.",
     "lemma": "īs-ġebind"
+  },
+  "ise": {
+    "def": "ICY, covered with ice (?)",
+    "grammar": "adj.",
+    "lemma": "īsiġ"
+  },
+  "isern byrne": {
+    "def": "IRON mail shirt (or coat)",
+    "grammar": "wk.",
+    "lemma": "īsern-byrne"
+  },
+  "isern scur": {
+    "def": "IRON SHOWER (of ar-rows)",
+    "grammar": "f.",
+    "lemma": "īsern-scūr"
+  },
+  "isern-byr": {
+    "def": "IRON mail shirt (or coat)",
+    "grammar": "wk.",
+    "lemma": "īsern-byrne"
+  },
+  "isern-byrn": {
+    "def": "IRON mail shirt (or coat)",
+    "grammar": "wk.",
+    "lemma": "īsern-byrne"
   },
   "isern-byrne": {
     "def": "IRON mail shirt (or coat)",
@@ -9502,6 +28387,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "īsern-scūr"
   },
+  "isernbyrne": {
+    "def": "IRON mail shirt (or coat)",
+    "grammar": "wk.",
+    "lemma": "īsern-byrne"
+  },
+  "isernscur": {
+    "def": "IRON SHOWER (of ar-rows)",
+    "grammar": "f.",
+    "lemma": "īsern-scūr"
+  },
+  "isgebind": {
+    "def": "ICy BOND",
+    "grammar": "n.",
+    "lemma": "īs-ġebind"
+  },
   "isig": {
     "def": "ICY, covered with ice (?)",
     "grammar": "adj.",
@@ -9512,10 +28412,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "iū"
   },
+  "iu mon(n)": {
+    "def": "gp",
+    "grammar": "mc.",
+    "lemma": "iū-mon(n)"
+  },
   "iu-mon(n)": {
     "def": "gp",
     "grammar": "mc.",
     "lemma": "iū-mon(n)"
+  },
+  "iumon(n)": {
+    "def": "gp",
+    "grammar": "mc.",
+    "lemma": "iū-mon(n)"
+  },
+  "kyning wuldor": {
+    "def": "the glory of KINGs (= cyninga wuldor), i",
+    "grammar": "n.",
+    "lemma": "kyning-wuldor"
+  },
+  "kyning( )": {
+    "def": "see under C",
+    "grammar": "",
+    "lemma": "kyning(-)"
+  },
+  "kyning()": {
+    "def": "see under C",
+    "grammar": "",
+    "lemma": "kyning(-)"
   },
   "kyning(-)": {
     "def": "see under C",
@@ -9527,17 +28452,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "kyning-wuldor"
   },
+  "kyningwuldor": {
+    "def": "the glory of KINGs (= cyninga wuldor), i",
+    "grammar": "n.",
+    "lemma": "kyning-wuldor"
+  },
+  "l": {
+    "def": "indeed, þæt lā mæġ secgan: 1700, 2864",
+    "grammar": "interj.",
+    "lemma": "lā"
+  },
   "la": {
     "def": "indeed, þæt lā mæġ secgan: 1700, 2864",
     "grammar": "interj.",
     "lemma": "lā"
   },
   "lac": {
-    "def": "offering",
-    "grammar": "n.",
-    "lemma": "lāc"
+    "def": "fly",
+    "grammar": "vb. 7",
+    "lemma": "lācan"
   },
   "lacan": {
+    "def": "fly",
+    "grammar": "vb. 7",
+    "lemma": "lācan"
+  },
+  "lace": {
     "def": "fly",
     "grammar": "vb. 7",
     "lemma": "lācan"
@@ -9557,6 +28497,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "lagu"
   },
+  "lagu cræftig": {
+    "def": "sea-skilled, experi-enced as a sailor",
+    "grammar": "adj.",
+    "lemma": "lagu-cræftiġ"
+  },
+  "lagu stream": {
+    "def": "sea-STREAM, sea",
+    "grammar": "m.",
+    "lemma": "lagu-strēam"
+  },
+  "lagu stræt": {
+    "def": "sea-road (-STREET)",
+    "grammar": "f.",
+    "lemma": "lagu-strǣt"
+  },
+  "lagu-cræfte": {
+    "def": "sea-skilled, experi-enced as a sailor",
+    "grammar": "adj.",
+    "lemma": "lagu-cræftiġ"
+  },
   "lagu-cræftig": {
     "def": "sea-skilled, experi-enced as a sailor",
     "grammar": "adj.",
@@ -9572,6 +28532,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "lagu-strǣt"
   },
+  "lagucræftig": {
+    "def": "sea-skilled, experi-enced as a sailor",
+    "grammar": "adj.",
+    "lemma": "lagu-cræftiġ"
+  },
+  "lagustream": {
+    "def": "sea-STREAM, sea",
+    "grammar": "m.",
+    "lemma": "lagu-strēam"
+  },
+  "lagustræt": {
+    "def": "sea-road (-STREET)",
+    "grammar": "f.",
+    "lemma": "lagu-strǣt"
+  },
   "lah": {
     "def": "see lēon",
     "grammar": "",
@@ -9582,15 +28557,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "land"
   },
+  "land buend": {
+    "def": "earth-dweller",
+    "grammar": "mc.",
+    "lemma": "land-būend"
+  },
+  "land fruma": {
+    "def": "prince of the LAND, king",
+    "grammar": "wk.",
+    "lemma": "land-fruma"
+  },
+  "land gemyrce": {
+    "def": "LAND-boundary",
+    "grammar": "nja.",
+    "lemma": "land-ġemyrċe"
+  },
+  "land geweorc": {
+    "def": "LAND-WORK, strong-hold",
+    "grammar": "n.",
+    "lemma": "land-ġeweorc"
+  },
+  "land waru": {
+    "def": "people of the LAND",
+    "grammar": "f.",
+    "lemma": "land-waru"
+  },
+  "land weard": {
+    "def": "LAND-GUARD, shore watch",
+    "grammar": "m.",
+    "lemma": "land-weard"
+  },
   "land-buend": {
     "def": "earth-dweller",
     "grammar": "mc.",
     "lemma": "land-būend"
   },
+  "land-frum": {
+    "def": "prince of the LAND, king",
+    "grammar": "wk.",
+    "lemma": "land-fruma"
+  },
   "land-fruma": {
     "def": "prince of the LAND, king",
     "grammar": "wk.",
     "lemma": "land-fruma"
+  },
+  "land-frume": {
+    "def": "prince of the LAND, king",
+    "grammar": "wk.",
+    "lemma": "land-fruma"
+  },
+  "land-gemyrc": {
+    "def": "LAND-boundary",
+    "grammar": "nja.",
+    "lemma": "land-ġemyrċe"
   },
   "land-gemyrce": {
     "def": "LAND-boundary",
@@ -9612,10 +28632,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "land-weard"
   },
+  "landbuend": {
+    "def": "earth-dweller",
+    "grammar": "mc.",
+    "lemma": "land-būend"
+  },
+  "landfruma": {
+    "def": "prince of the LAND, king",
+    "grammar": "wk.",
+    "lemma": "land-fruma"
+  },
+  "landgemyrce": {
+    "def": "LAND-boundary",
+    "grammar": "nja.",
+    "lemma": "land-ġemyrċe"
+  },
+  "landgeweorc": {
+    "def": "LAND-WORK, strong-hold",
+    "grammar": "n.",
+    "lemma": "land-ġeweorc"
+  },
+  "landwaru": {
+    "def": "people of the LAND",
+    "grammar": "f.",
+    "lemma": "land-waru"
+  },
+  "landweard": {
+    "def": "LAND-GUARD, shore watch",
+    "grammar": "m.",
+    "lemma": "land-weard"
+  },
+  "lang twidig": {
+    "def": "granted for a LONG time, lasting",
+    "grammar": "adj.",
+    "lemma": "lang-twīdiġ"
+  },
   "lang(e)": {
     "def": "see long(e)",
     "grammar": "",
     "lemma": "lang(e)"
+  },
+  "lang-twide": {
+    "def": "granted for a LONG time, lasting",
+    "grammar": "adj.",
+    "lemma": "lang-twīdiġ"
   },
   "lang-twidig": {
     "def": "granted for a LONG time, lasting",
@@ -9626,6 +28686,11 @@ const OLD_ENGLISH_DICT = {
     "def": "m",
     "grammar": "m.",
     "lemma": "langað"
+  },
+  "langtwidig": {
+    "def": "granted for a LONG time, lasting",
+    "grammar": "adj.",
+    "lemma": "lang-twīdiġ"
   },
   "lar": {
     "def": "counsel, precept, bid-ding",
@@ -9642,12 +28707,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lāð"
   },
+  "lað bite": {
+    "def": "hostile BITE, wound",
+    "grammar": "mi.",
+    "lemma": "lāð-bite"
+  },
+  "lað geteona": {
+    "def": "LOATHly spoiler, evil-doer",
+    "grammar": "wk.",
+    "lemma": "lāð-ġetēona"
+  },
+  "lað lic": {
+    "def": "terrible",
+    "grammar": "adj.",
+    "lemma": "lāð-liċ"
+  },
+  "lað-bi": {
+    "def": "hostile BITE, wound",
+    "grammar": "mi.",
+    "lemma": "lāð-bite"
+  },
+  "lað-bit": {
+    "def": "hostile BITE, wound",
+    "grammar": "mi.",
+    "lemma": "lāð-bite"
+  },
   "lað-bite": {
     "def": "hostile BITE, wound",
     "grammar": "mi.",
     "lemma": "lāð-bite"
   },
+  "lað-geteon": {
+    "def": "LOATHly spoiler, evil-doer",
+    "grammar": "wk.",
+    "lemma": "lāð-ġetēona"
+  },
   "lað-geteona": {
+    "def": "LOATHly spoiler, evil-doer",
+    "grammar": "wk.",
+    "lemma": "lāð-ġetēona"
+  },
+  "lað-geteone": {
     "def": "LOATHly spoiler, evil-doer",
     "grammar": "wk.",
     "lemma": "lāð-ġetēona"
@@ -9657,12 +28757,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lāð-liċ"
   },
+  "laðbite": {
+    "def": "hostile BITE, wound",
+    "grammar": "mi.",
+    "lemma": "lāð-bite"
+  },
+  "laðgeteona": {
+    "def": "LOATHly spoiler, evil-doer",
+    "grammar": "wk.",
+    "lemma": "lāð-ġetēona"
+  },
+  "laðlic": {
+    "def": "terrible",
+    "grammar": "adj.",
+    "lemma": "lāð-liċ"
+  },
+  "le": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "lēon"
+  },
   "leaf": {
     "def": "97",
     "grammar": "n.",
     "lemma": "lēaf"
   },
+  "leafnes word": {
+    "def": "WORD of LEAVE, permission",
+    "grammar": "n.",
+    "lemma": "lēafnes-word"
+  },
   "leafnes-word": {
+    "def": "WORD of LEAVE, permission",
+    "grammar": "n.",
+    "lemma": "lēafnes-word"
+  },
+  "leafnesword": {
     "def": "WORD of LEAVE, permission",
     "grammar": "n.",
     "lemma": "lēafnes-word"
@@ -9672,7 +28802,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lēan"
   },
+  "leani": {
+    "def": "requite, recompense (someone for something)",
+    "grammar": "vb. II",
+    "lemma": "lēanian"
+  },
   "leanian": {
+    "def": "requite, recompense (someone for something)",
+    "grammar": "vb. II",
+    "lemma": "lēanian"
+  },
+  "leanie": {
     "def": "requite, recompense (someone for something)",
     "grammar": "vb. II",
     "lemma": "lēanian"
@@ -9682,10 +28822,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lēas"
   },
+  "leas sceawere": {
+    "def": "deceitful ob-server, spy",
+    "grammar": "mja.",
+    "lemma": "lēas-scēawere"
+  },
+  "leas-sceawe": {
+    "def": "deceitful ob-server, spy",
+    "grammar": "mja.",
+    "lemma": "lēas-scēawere"
+  },
+  "leas-sceawer": {
+    "def": "deceitful ob-server, spy",
+    "grammar": "mja.",
+    "lemma": "lēas-scēawere"
+  },
   "leas-sceawere": {
     "def": "deceitful ob-server, spy",
     "grammar": "mja.",
     "lemma": "lēas-scēawere"
+  },
+  "leassceawere": {
+    "def": "deceitful ob-server, spy",
+    "grammar": "mja.",
+    "lemma": "lēas-scēawere"
+  },
+  "lee": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "lēon"
+  },
+  "leg( )": {
+    "def": "see līġ(-)",
+    "grammar": "",
+    "lemma": "lēġ(-)"
+  },
+  "leg()": {
+    "def": "see līġ(-)",
+    "grammar": "",
+    "lemma": "lēġ(-)"
   },
   "leg(-)": {
     "def": "see līġ(-)",
@@ -9697,7 +28872,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "leġer"
   },
+  "leger bed(d)": {
+    "def": "bed of death, grave",
+    "grammar": "nja.",
+    "lemma": "leġer-bed(d)"
+  },
   "leger-bed(d)": {
+    "def": "bed of death, grave",
+    "grammar": "nja.",
+    "lemma": "leġer-bed(d)"
+  },
+  "legerbed(d)": {
     "def": "bed of death, grave",
     "grammar": "nja.",
     "lemma": "leġer-bed(d)"
@@ -9707,12 +28892,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "lemman(lemian)"
   },
+  "leng": {
+    "def": "see long",
+    "grammar": "",
+    "lemma": "lengra"
+  },
   "leng(e)": {
     "def": "lenġest, see longe",
     "grammar": "len",
     "lemma": "lenġ(e)"
   },
+  "lengr": {
+    "def": "see long",
+    "grammar": "",
+    "lemma": "lengra"
+  },
   "lengra": {
+    "def": "see long",
+    "grammar": "",
+    "lemma": "lengra"
+  },
+  "lengre": {
     "def": "see long",
     "grammar": "",
     "lemma": "lengra"
@@ -9722,32 +28922,137 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "lēod"
   },
+  "leod bealo": {
+    "def": "harm to a people, widespread aÑiction",
+    "grammar": "nwa.",
+    "lemma": "lēod-bealo"
+  },
+  "leod fruma": {
+    "def": "prince of a people",
+    "grammar": "wk.",
+    "lemma": "lēod-fruma"
+  },
+  "leod gebyrgea": {
+    "def": "protector of a people, prince",
+    "grammar": "wk.",
+    "lemma": "lēod-ġebyrġea"
+  },
+  "leod hryre": {
+    "def": "fall of a people, na-tional calamity",
+    "grammar": "mi.",
+    "lemma": "lēod-hryre"
+  },
+  "leod sceaða": {
+    "def": "people’s enemy",
+    "grammar": "wk.",
+    "lemma": "lēod-sceaða"
+  },
+  "leod scipe": {
+    "def": "country",
+    "grammar": "mi.",
+    "lemma": "lēod-scipe"
+  },
   "leod-bealo": {
     "def": "harm to a people, widespread aÑiction",
     "grammar": "nwa.",
     "lemma": "lēod-bealo"
+  },
+  "leod-frum": {
+    "def": "prince of a people",
+    "grammar": "wk.",
+    "lemma": "lēod-fruma"
   },
   "leod-fruma": {
     "def": "prince of a people",
     "grammar": "wk.",
     "lemma": "lēod-fruma"
   },
+  "leod-frume": {
+    "def": "prince of a people",
+    "grammar": "wk.",
+    "lemma": "lēod-fruma"
+  },
+  "leod-gebyrge": {
+    "def": "protector of a people, prince",
+    "grammar": "wk.",
+    "lemma": "lēod-ġebyrġea"
+  },
   "leod-gebyrgea": {
     "def": "protector of a people, prince",
     "grammar": "wk.",
     "lemma": "lēod-ġebyrġea"
+  },
+  "leod-gebyrgee": {
+    "def": "protector of a people, prince",
+    "grammar": "wk.",
+    "lemma": "lēod-ġebyrġea"
+  },
+  "leod-hry": {
+    "def": "fall of a people, na-tional calamity",
+    "grammar": "mi.",
+    "lemma": "lēod-hryre"
+  },
+  "leod-hryr": {
+    "def": "fall of a people, na-tional calamity",
+    "grammar": "mi.",
+    "lemma": "lēod-hryre"
   },
   "leod-hryre": {
     "def": "fall of a people, na-tional calamity",
     "grammar": "mi.",
     "lemma": "lēod-hryre"
   },
+  "leod-sceað": {
+    "def": "people’s enemy",
+    "grammar": "wk.",
+    "lemma": "lēod-sceaða"
+  },
   "leod-sceaða": {
     "def": "people’s enemy",
     "grammar": "wk.",
     "lemma": "lēod-sceaða"
   },
+  "leod-sceaðe": {
+    "def": "people’s enemy",
+    "grammar": "wk.",
+    "lemma": "lēod-sceaða"
+  },
+  "leod-scip": {
+    "def": "country",
+    "grammar": "mi.",
+    "lemma": "lēod-scipe"
+  },
   "leod-scipe": {
+    "def": "country",
+    "grammar": "mi.",
+    "lemma": "lēod-scipe"
+  },
+  "leodbealo": {
+    "def": "harm to a people, widespread aÑiction",
+    "grammar": "nwa.",
+    "lemma": "lēod-bealo"
+  },
+  "leodfruma": {
+    "def": "prince of a people",
+    "grammar": "wk.",
+    "lemma": "lēod-fruma"
+  },
+  "leodgebyrgea": {
+    "def": "protector of a people, prince",
+    "grammar": "wk.",
+    "lemma": "lēod-ġebyrġea"
+  },
+  "leodhryre": {
+    "def": "fall of a people, na-tional calamity",
+    "grammar": "mi.",
+    "lemma": "lēod-hryre"
+  },
+  "leodsceaða": {
+    "def": "people’s enemy",
+    "grammar": "wk.",
+    "lemma": "lēod-sceaða"
+  },
+  "leodscipe": {
     "def": "country",
     "grammar": "mi.",
     "lemma": "lēod-scipe"
@@ -9756,6 +29061,11 @@ const OLD_ENGLISH_DICT = {
     "def": "well loved",
     "grammar": "adj.",
     "lemma": "lēof"
+  },
+  "leof lic": {
+    "def": "precious, admirable",
+    "grammar": "adj.",
+    "lemma": "lēof-liċ"
   },
   "leof-lic": {
     "def": "precious, admirable",
@@ -9767,7 +29077,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "leofað"
   },
+  "leoflic": {
+    "def": "precious, admirable",
+    "grammar": "adj.",
+    "lemma": "lēof-liċ"
+  },
+  "leog": {
+    "def": "belie, misrepresent",
+    "grammar": "vb. 2",
+    "lemma": "lēogan"
+  },
   "leogan": {
+    "def": "belie, misrepresent",
+    "grammar": "vb. 2",
+    "lemma": "lēogan"
+  },
+  "leoge": {
     "def": "belie, misrepresent",
     "grammar": "vb. 2",
     "lemma": "lēogan"
@@ -9777,10 +29102,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lēoht"
   },
+  "leom": {
+    "def": "see lim",
+    "grammar": "",
+    "lemma": "leomum"
+  },
   "leoma": {
     "def": "gleam, luminary",
     "grammar": "wk.",
     "lemma": "lēoma"
+  },
+  "leome": {
+    "def": "see lim",
+    "grammar": "",
+    "lemma": "leomum"
   },
   "leomum": {
     "def": "see lim",
@@ -9792,7 +29127,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "lēon"
   },
+  "leorni": {
+    "def": "devise",
+    "grammar": "vb. II",
+    "lemma": "leornian"
+  },
   "leornian": {
+    "def": "devise",
+    "grammar": "vb. II",
+    "lemma": "leornian"
+  },
+  "leornie": {
     "def": "devise",
     "grammar": "vb. II",
     "lemma": "leornian"
@@ -9802,17 +29147,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lēoð"
   },
+  "leoðo cræft": {
+    "def": "skill of limbs (hands)",
+    "grammar": "m.",
+    "lemma": "leoðo-cræft"
+  },
+  "leoðo syrce": {
+    "def": "(limb-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "leoðo-syrċe"
+  },
   "leoðo-cræft": {
     "def": "skill of limbs (hands)",
     "grammar": "m.",
     "lemma": "leoðo-cræft"
+  },
+  "leoðo-syrc": {
+    "def": "(limb-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "leoðo-syrċe"
   },
   "leoðo-syrce": {
     "def": "(limb-SARK), coat or shirt of mail",
     "grammar": "wk.",
     "lemma": "leoðo-syrċe"
   },
+  "leoðocræft": {
+    "def": "skill of limbs (hands)",
+    "grammar": "m.",
+    "lemma": "leoðo-cræft"
+  },
+  "leoðosyrce": {
+    "def": "(limb-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "leoðo-syrċe"
+  },
+  "lett": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "lettan"
+  },
   "lettan": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "lettan"
+  },
+  "lette": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "lettan"
@@ -9822,7 +29202,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "līċ"
   },
+  "lic homa": {
+    "def": "1007, 1754",
+    "grammar": "wk.",
+    "lemma": "līċ-homa"
+  },
+  "lic sar": {
+    "def": "bodily pain, wound",
+    "grammar": "n.",
+    "lemma": "līċ-sār"
+  },
+  "lic syrce": {
+    "def": "(body-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "līċ-syrċe"
+  },
+  "lic-hom": {
+    "def": "1007, 1754",
+    "grammar": "wk.",
+    "lemma": "līċ-homa"
+  },
   "lic-homa": {
+    "def": "1007, 1754",
+    "grammar": "wk.",
+    "lemma": "līċ-homa"
+  },
+  "lic-home": {
     "def": "1007, 1754",
     "grammar": "wk.",
     "lemma": "līċ-homa"
@@ -9832,22 +29237,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "līċ-sār"
   },
+  "lic-syrc": {
+    "def": "(body-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "līċ-syrċe"
+  },
   "lic-syrce": {
     "def": "(body-SARK), coat or shirt of mail",
     "grammar": "wk.",
     "lemma": "līċ-syrċe"
+  },
+  "licg": {
+    "def": "lie low, lie bereft of life",
+    "grammar": "vb. 5",
+    "lemma": "licgan"
   },
   "licgan": {
     "def": "lie low, lie bereft of life",
     "grammar": "vb. 5",
     "lemma": "licgan"
   },
+  "licge": {
+    "def": "lie low, lie bereft of life",
+    "grammar": "vb. 5",
+    "lemma": "licgan"
+  },
+  "lichoma": {
+    "def": "1007, 1754",
+    "grammar": "wk.",
+    "lemma": "līċ-homa"
+  },
+  "lici": {
+    "def": "please",
+    "grammar": "vb. II",
+    "lemma": "līcian"
+  },
   "lician": {
     "def": "please",
     "grammar": "vb. II",
     "lemma": "līcian"
   },
+  "licie": {
+    "def": "please",
+    "grammar": "vb. II",
+    "lemma": "līcian"
+  },
+  "licsar": {
+    "def": "bodily pain, wound",
+    "grammar": "n.",
+    "lemma": "līċ-sār"
+  },
+  "licsyrce": {
+    "def": "(body-SARK), coat or shirt of mail",
+    "grammar": "wk.",
+    "lemma": "līċ-syrċe"
+  },
+  "lid man(n)": {
+    "def": "seafarer, mariner",
+    "grammar": "mc.",
+    "lemma": "lid-man(n)"
+  },
   "lid-man(n)": {
+    "def": "seafarer, mariner",
+    "grammar": "mc.",
+    "lemma": "lid-man(n)"
+  },
+  "lidman(n)": {
     "def": "seafarer, mariner",
     "grammar": "mc.",
     "lemma": "lid-man(n)"
@@ -9856,6 +29311,46 @@ const OLD_ENGLISH_DICT = {
     "def": "197, 790, 806, 1387, 2343, 2823, 2845",
     "grammar": "n.",
     "lemma": "līf"
+  },
+  "lif bysig": {
+    "def": "struggling for LIFE, in torment of death",
+    "grammar": "adj.",
+    "lemma": "līf-bysiġ"
+  },
+  "lif dæg": {
+    "def": "793, 1622",
+    "grammar": "m.",
+    "lemma": "līf-dæġ"
+  },
+  "lif frea": {
+    "def": "lord of LIFE (God)",
+    "grammar": "wk.",
+    "lemma": "līf-frēa"
+  },
+  "lif gedal": {
+    "def": "parting from LIFE, death",
+    "grammar": "n.",
+    "lemma": "līf-ġedāl"
+  },
+  "lif gesceaft": {
+    "def": "LIFE (as ordered by fate), condition in life",
+    "grammar": "fi.",
+    "lemma": "līf-ġesceaft"
+  },
+  "lif wraðu": {
+    "def": "LIFE-protection",
+    "grammar": "f.",
+    "lemma": "līf-wraðu"
+  },
+  "lif wyn(n)": {
+    "def": "joy of LIFE",
+    "grammar": "fi.",
+    "lemma": "līf-wyn(n)"
+  },
+  "lif-byse": {
+    "def": "struggling for LIFE, in torment of death",
+    "grammar": "adj.",
+    "lemma": "līf-bysiġ"
   },
   "lif-bysig": {
     "def": "struggling for LIFE, in torment of death",
@@ -9867,7 +29362,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "līf-dæġ"
   },
+  "lif-fre": {
+    "def": "lord of LIFE (God)",
+    "grammar": "wk.",
+    "lemma": "līf-frēa"
+  },
   "lif-frea": {
+    "def": "lord of LIFE (God)",
+    "grammar": "wk.",
+    "lemma": "līf-frēa"
+  },
+  "lif-free": {
     "def": "lord of LIFE (God)",
     "grammar": "wk.",
     "lemma": "līf-frēa"
@@ -9892,22 +29397,102 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "līf-wyn(n)"
   },
+  "lifbysig": {
+    "def": "struggling for LIFE, in torment of death",
+    "grammar": "adj.",
+    "lemma": "līf-bysiġ"
+  },
+  "lifdæg": {
+    "def": "793, 1622",
+    "grammar": "m.",
+    "lemma": "līf-dæġ"
+  },
+  "liffrea": {
+    "def": "lord of LIFE (God)",
+    "grammar": "wk.",
+    "lemma": "līf-frēa"
+  },
+  "lifgedal": {
+    "def": "parting from LIFE, death",
+    "grammar": "n.",
+    "lemma": "līf-ġedāl"
+  },
+  "lifgesceaft": {
+    "def": "LIFE (as ordered by fate), condition in life",
+    "grammar": "fi.",
+    "lemma": "līf-ġesceaft"
+  },
+  "lifig": {
+    "def": "3167",
+    "grammar": "vb. III",
+    "lemma": "lifiġan"
+  },
   "lifigan": {
     "def": "3167",
     "grammar": "vb. III",
     "lemma": "lifiġan"
+  },
+  "lifige": {
+    "def": "3167",
+    "grammar": "vb. III",
+    "lemma": "lifiġan"
+  },
+  "lifwraðu": {
+    "def": "LIFE-protection",
+    "grammar": "f.",
+    "lemma": "līf-wraðu"
+  },
+  "lifwyn(n)": {
+    "def": "joy of LIFE",
+    "grammar": "fi.",
+    "lemma": "līf-wyn(n)"
   },
   "lig": {
     "def": "fire",
     "grammar": "mi.",
     "lemma": "līġ"
   },
+  "lig draca": {
+    "def": "fire-DRAGON",
+    "grammar": "wk.",
+    "lemma": "līġ-draca"
+  },
+  "lig egesa": {
+    "def": "fire-terror",
+    "grammar": "wk.",
+    "lemma": "līġ-eġesa"
+  },
+  "lig уð": {
+    "def": "wave of flame",
+    "grammar": "fj",
+    "lemma": "līġ-ӯð"
+  },
+  "lig-drac": {
+    "def": "fire-DRAGON",
+    "grammar": "wk.",
+    "lemma": "līġ-draca"
+  },
   "lig-draca": {
     "def": "fire-DRAGON",
     "grammar": "wk.",
     "lemma": "līġ-draca"
   },
+  "lig-drace": {
+    "def": "fire-DRAGON",
+    "grammar": "wk.",
+    "lemma": "līġ-draca"
+  },
+  "lig-eges": {
+    "def": "fire-terror",
+    "grammar": "wk.",
+    "lemma": "līġ-eġesa"
+  },
   "lig-egesa": {
+    "def": "fire-terror",
+    "grammar": "wk.",
+    "lemma": "līġ-eġesa"
+  },
+  "lig-egese": {
     "def": "fire-terror",
     "grammar": "wk.",
     "lemma": "līġ-eġesa"
@@ -9917,22 +29502,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "līġ-ӯð"
   },
+  "ligdraca": {
+    "def": "fire-DRAGON",
+    "grammar": "wk.",
+    "lemma": "līġ-draca"
+  },
+  "lige torn": {
+    "def": "pretended injury or in-sult",
+    "grammar": "n.",
+    "lemma": "liġe-torn"
+  },
   "lige-torn": {
     "def": "pretended injury or in-sult",
     "grammar": "n.",
     "lemma": "liġe-torn"
+  },
+  "ligegesa": {
+    "def": "fire-terror",
+    "grammar": "wk.",
+    "lemma": "līġ-eġesa"
+  },
+  "ligetorn": {
+    "def": "pretended injury or in-sult",
+    "grammar": "n.",
+    "lemma": "liġe-torn"
+  },
+  "ligg": {
+    "def": "see līġ",
+    "grammar": "",
+    "lemma": "liġġe"
   },
   "ligge": {
     "def": "see līġ",
     "grammar": "",
     "lemma": "liġġe"
   },
+  "ligуð": {
+    "def": "wave of flame",
+    "grammar": "fj",
+    "lemma": "līġ-ӯð"
+  },
   "lim": {
     "def": "branch (of tree)",
     "grammar": "n.",
     "lemma": "lim"
   },
+  "limp": {
+    "def": "befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "limpan"
+  },
   "limpan": {
+    "def": "befall, turn out",
+    "grammar": "vb. 3",
+    "lemma": "limpan"
+  },
+  "limpe": {
     "def": "befall, turn out",
     "grammar": "vb. 3",
     "lemma": "limpan"
@@ -9942,7 +29567,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "lind"
   },
+  "lind gestealla": {
+    "def": "shield-comrade, companion in arms",
+    "grammar": "wk.",
+    "lemma": "lind-ġestealla"
+  },
+  "lind hæbbend(e)": {
+    "def": "shield-bearer (-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "lind-hæbbend(e)"
+  },
+  "lind plega": {
+    "def": "shield-PLAY, battle",
+    "grammar": "wk.",
+    "lemma": "lind-plega"
+  },
+  "lind wiga": {
+    "def": "shield-warrior",
+    "grammar": "wk.",
+    "lemma": "lind-wiga"
+  },
+  "lind-gesteall": {
+    "def": "shield-comrade, companion in arms",
+    "grammar": "wk.",
+    "lemma": "lind-ġestealla"
+  },
   "lind-gestealla": {
+    "def": "shield-comrade, companion in arms",
+    "grammar": "wk.",
+    "lemma": "lind-ġestealla"
+  },
+  "lind-gestealle": {
     "def": "shield-comrade, companion in arms",
     "grammar": "wk.",
     "lemma": "lind-ġestealla"
@@ -9952,17 +29607,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "lind-hæbbend(e)"
   },
+  "lind-pleg": {
+    "def": "shield-PLAY, battle",
+    "grammar": "wk.",
+    "lemma": "lind-plega"
+  },
   "lind-plega": {
     "def": "shield-PLAY, battle",
     "grammar": "wk.",
     "lemma": "lind-plega"
+  },
+  "lind-plege": {
+    "def": "shield-PLAY, battle",
+    "grammar": "wk.",
+    "lemma": "lind-plega"
+  },
+  "lind-wig": {
+    "def": "shield-warrior",
+    "grammar": "wk.",
+    "lemma": "lind-wiga"
   },
   "lind-wiga": {
     "def": "shield-warrior",
     "grammar": "wk.",
     "lemma": "lind-wiga"
   },
+  "lind-wige": {
+    "def": "shield-warrior",
+    "grammar": "wk.",
+    "lemma": "lind-wiga"
+  },
+  "lindgestealla": {
+    "def": "shield-comrade, companion in arms",
+    "grammar": "wk.",
+    "lemma": "lind-ġestealla"
+  },
+  "lindhæbbend(e)": {
+    "def": "shield-bearer (-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "lind-hæbbend(e)"
+  },
+  "lindplega": {
+    "def": "shield-PLAY, battle",
+    "grammar": "wk.",
+    "lemma": "lind-plega"
+  },
+  "lindwiga": {
+    "def": "shield-warrior",
+    "grammar": "wk.",
+    "lemma": "lind-wiga"
+  },
+  "linn": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "linnan"
+  },
   "linnan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "linnan"
+  },
+  "linne": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "linnan"
@@ -9977,10 +29682,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mfi.",
     "lemma": "list"
   },
+  "lix": {
+    "def": "glitter, gleam",
+    "grammar": "vb. I",
+    "lemma": "līxan"
+  },
   "lixan": {
     "def": "glitter, gleam",
     "grammar": "vb. I",
     "lemma": "līxan"
+  },
+  "lixe": {
+    "def": "glitter, gleam",
+    "grammar": "vb. I",
+    "lemma": "līxan"
+  },
+  "lið": {
+    "def": "pass",
+    "grammar": "vb. 1",
+    "lemma": "līðan"
+  },
+  "lið wæge": {
+    "def": "cup of strong drink",
+    "grammar": "nja.",
+    "lemma": "līð-wǣġe"
+  },
+  "lið-wæg": {
+    "def": "cup of strong drink",
+    "grammar": "nja.",
+    "lemma": "līð-wǣġe"
   },
   "lið-wæge": {
     "def": "cup of strong drink",
@@ -9993,16 +29723,41 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līðan"
   },
   "liðe": {
-    "def": "pleasant, benign, gracious (w",
-    "grammar": "adj.",
-    "lemma": "līðe"
+    "def": "pass",
+    "grammar": "vb. 1",
+    "lemma": "līðan"
+  },
+  "liðwæge": {
+    "def": "cup of strong drink",
+    "grammar": "nja.",
+    "lemma": "līð-wǣġe"
+  },
+  "loc": {
+    "def": "see lūcan",
+    "grammar": "",
+    "lemma": "locen"
+  },
+  "loce": {
+    "def": "see lūcan",
+    "grammar": "",
+    "lemma": "locen"
   },
   "locen": {
     "def": "see lūcan",
     "grammar": "",
     "lemma": "locen"
   },
+  "loci": {
+    "def": "1654",
+    "grammar": "vb. II",
+    "lemma": "lōcian"
+  },
   "locian": {
+    "def": "1654",
+    "grammar": "vb. II",
+    "lemma": "lōcian"
+  },
+  "locie": {
     "def": "1654",
     "grammar": "vb. II",
     "lemma": "lōcian"
@@ -10011,6 +29766,16 @@ const OLD_ENGLISH_DICT = {
     "def": "glory",
     "grammar": "m.",
     "lemma": "lof"
+  },
+  "lof dæd": {
+    "def": "praiseworthy (glorious) DEED",
+    "grammar": "fi.",
+    "lemma": "lof-dǣd"
+  },
+  "lof georn": {
+    "def": "3182 (n",
+    "grammar": "adj.",
+    "lemma": "lof-ġeorn"
   },
   "lof-dæd": {
     "def": "praiseworthy (glorious) DEED",
@@ -10022,10 +29787,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lof-ġeorn"
   },
+  "lofdæd": {
+    "def": "praiseworthy (glorious) DEED",
+    "grammar": "fi.",
+    "lemma": "lof-dǣd"
+  },
+  "lofgeorn": {
+    "def": "3182 (n",
+    "grammar": "adj.",
+    "lemma": "lof-ġeorn"
+  },
   "log": {
     "def": "lōgon, see lēan",
     "grammar": "l",
     "lemma": "lōg"
+  },
+  "lond riht": {
+    "def": "privileges belonging to the owner of land, do-main",
+    "grammar": "n.",
+    "lemma": "lond-riht"
+  },
+  "lond( )": {
+    "def": "see land(-)",
+    "grammar": "",
+    "lemma": "lond(-)"
+  },
+  "lond()": {
+    "def": "see land(-)",
+    "grammar": "",
+    "lemma": "lond(-)"
   },
   "lond(-)": {
     "def": "see land(-)",
@@ -10037,15 +29827,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lond-riht"
   },
+  "londriht": {
+    "def": "privileges belonging to the owner of land, do-main",
+    "grammar": "n.",
+    "lemma": "lond-riht"
+  },
   "long": {
     "def": "2093",
     "grammar": "adj.",
     "lemma": "long"
   },
+  "long gestreon": {
+    "def": "(LONG-accumulated,) old treasure",
+    "grammar": "n.",
+    "lemma": "long-ġestrēon"
+  },
+  "long sum": {
+    "def": "long-lasting, en-during",
+    "grammar": "adj.",
+    "lemma": "long-sum"
+  },
+  "long-gestre": {
+    "def": "(LONG-accumulated,) old treasure",
+    "grammar": "n.",
+    "lemma": "long-ġestrēon"
+  },
+  "long-gestree": {
+    "def": "(LONG-accumulated,) old treasure",
+    "grammar": "n.",
+    "lemma": "long-ġestrēon"
+  },
   "long-gestreon": {
     "def": "(LONG-accumulated,) old treasure",
     "grammar": "n.",
     "lemma": "long-ġestrēon"
+  },
+  "long-s": {
+    "def": "long-lasting, en-during",
+    "grammar": "adj.",
+    "lemma": "long-sum"
+  },
+  "long-se": {
+    "def": "long-lasting, en-during",
+    "grammar": "adj.",
+    "lemma": "long-sum"
   },
   "long-sum": {
     "def": "long-lasting, en-during",
@@ -10057,40 +29882,120 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "longe"
   },
+  "longgestreon": {
+    "def": "(LONG-accumulated,) old treasure",
+    "grammar": "n.",
+    "lemma": "long-ġestrēon"
+  },
+  "longsum": {
+    "def": "long-lasting, en-during",
+    "grammar": "adj.",
+    "lemma": "long-sum"
+  },
+  "losi": {
+    "def": "escape, get away safely",
+    "grammar": "vb. II",
+    "lemma": "losian"
+  },
   "losian": {
     "def": "escape, get away safely",
     "grammar": "vb. II",
     "lemma": "losian"
+  },
+  "losie": {
+    "def": "escape, get away safely",
+    "grammar": "vb. II",
+    "lemma": "losian"
+  },
+  "luc": {
+    "def": "intertwine, link",
+    "grammar": "vb. 2",
+    "lemma": "lūcan"
   },
   "lucan": {
     "def": "intertwine, link",
     "grammar": "vb. 2",
     "lemma": "lūcan"
   },
+  "luce": {
+    "def": "intertwine, link",
+    "grammar": "vb. 2",
+    "lemma": "lūcan"
+  },
+  "luf": {
+    "def": "gladness, comfort (?)",
+    "grammar": "f.",
+    "lemma": "lufen"
+  },
+  "luf tacen": {
+    "def": "TOKEN of LOVE",
+    "grammar": "n.",
+    "lemma": "luf-tācen"
+  },
+  "luf-tac": {
+    "def": "TOKEN of LOVE",
+    "grammar": "n.",
+    "lemma": "luf-tācen"
+  },
+  "luf-tace": {
+    "def": "TOKEN of LOVE",
+    "grammar": "n.",
+    "lemma": "luf-tācen"
+  },
   "luf-tacen": {
     "def": "TOKEN of LOVE",
     "grammar": "n.",
     "lemma": "luf-tācen"
+  },
+  "lufe": {
+    "def": "gladness, comfort (?)",
+    "grammar": "f.",
+    "lemma": "lufen"
   },
   "lufen": {
     "def": "gladness, comfort (?)",
     "grammar": "f.",
     "lemma": "lufen"
   },
+  "lufi": {
+    "def": "treat kindly",
+    "grammar": "vb. II",
+    "lemma": "lufian"
+  },
   "lufian": {
     "def": "treat kindly",
     "grammar": "vb. II",
     "lemma": "lufian"
+  },
+  "lufie": {
+    "def": "treat kindly",
+    "grammar": "vb. II",
+    "lemma": "lufian"
+  },
+  "luftacen": {
+    "def": "TOKEN of LOVE",
+    "grammar": "n.",
+    "lemma": "luf-tācen"
   },
   "lufu(lufe)": {
     "def": "OEG § ̄619",
     "grammar": "wk.",
     "lemma": "lufu(lufe)"
   },
+  "lung": {
+    "def": "quickly, forthwith",
+    "grammar": "adv.",
+    "lemma": "lungre"
+  },
   "lungor": {
     "def": "swift",
     "grammar": "adj.",
     "lemma": "lungor"
+  },
+  "lungr": {
+    "def": "quickly, forthwith",
+    "grammar": "adv.",
+    "lemma": "lungre"
   },
   "lungre": {
     "def": "quickly, forthwith",
@@ -10112,7 +30017,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fmi.",
     "lemma": "lyft"
   },
+  "lyft floga": {
+    "def": "air-FLIer",
+    "grammar": "wk.",
+    "lemma": "lyft-floga"
+  },
+  "lyft geswenced": {
+    "def": "weather-beaten",
+    "grammar": "adj.",
+    "lemma": "lyft-ġeswenċed"
+  },
+  "lyft wyn(n)": {
+    "def": "air-joy, delight in air",
+    "grammar": "fj",
+    "lemma": "lyft-wyn(n)"
+  },
+  "lyft-flog": {
+    "def": "air-FLIer",
+    "grammar": "wk.",
+    "lemma": "lyft-floga"
+  },
   "lyft-floga": {
+    "def": "air-FLIer",
+    "grammar": "wk.",
+    "lemma": "lyft-floga"
+  },
+  "lyft-floge": {
     "def": "air-FLIer",
     "grammar": "wk.",
     "lemma": "lyft-floga"
@@ -10127,27 +30057,102 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "lyft-wyn(n)"
   },
+  "lyftfloga": {
+    "def": "air-FLIer",
+    "grammar": "wk.",
+    "lemma": "lyft-floga"
+  },
+  "lyftgeswenced": {
+    "def": "weather-beaten",
+    "grammar": "adj.",
+    "lemma": "lyft-ġeswenċed"
+  },
+  "lyftwyn(n)": {
+    "def": "air-joy, delight in air",
+    "grammar": "fj",
+    "lemma": "lyft-wyn(n)"
+  },
   "lyhð": {
     "def": "see lēan",
     "grammar": "",
     "lemma": "lŷhð"
+  },
+  "lyst": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "lystan"
   },
   "lystan": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "lystan"
   },
+  "lyste": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "lystan"
+  },
+  "læ": {
+    "def": "mut-able, perishable, perishing",
+    "grammar": "adj.",
+    "lemma": "lǣne"
+  },
+  "læd": {
+    "def": "bring",
+    "grammar": "vb. I",
+    "lemma": "lǣdan"
+  },
   "lædan": {
     "def": "bring",
     "grammar": "vb. I",
     "lemma": "lǣdan"
+  },
+  "læde": {
+    "def": "bring",
+    "grammar": "vb. I",
+    "lemma": "lǣdan"
+  },
+  "læf": {
+    "def": "1178",
+    "grammar": "vb. I",
+    "lemma": "lǣfan"
   },
   "læfan": {
     "def": "1178",
     "grammar": "vb. I",
     "lemma": "lǣfan"
   },
+  "læfe": {
+    "def": "1178",
+    "grammar": "vb. I",
+    "lemma": "lǣfan"
+  },
+  "læn": {
+    "def": "mut-able, perishable, perishing",
+    "grammar": "adj.",
+    "lemma": "lǣne"
+  },
+  "læn dagas": {
+    "def": "transitory DAYS",
+    "grammar": "m.",
+    "lemma": "lǣn-dagas"
+  },
+  "læn-dag": {
+    "def": "transitory DAYS",
+    "grammar": "m.",
+    "lemma": "lǣn-dagas"
+  },
   "læn-dagas": {
+    "def": "transitory DAYS",
+    "grammar": "m.",
+    "lemma": "lǣn-dagas"
+  },
+  "læn-dage": {
+    "def": "transitory DAYS",
+    "grammar": "m.",
+    "lemma": "lǣn-dagas"
+  },
+  "lændagas": {
     "def": "transitory DAYS",
     "grammar": "m.",
     "lemma": "lǣn-dagas"
@@ -10162,7 +30167,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "lænġ"
   },
+  "lær": {
+    "def": "1722",
+    "grammar": "vb. I",
+    "lemma": "lǣran"
+  },
   "læran": {
+    "def": "1722",
+    "grammar": "vb. I",
+    "lemma": "lǣran"
+  },
+  "lære": {
     "def": "1722",
     "grammar": "vb. I",
     "lemma": "lǣran"
@@ -10177,7 +30192,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "l",
     "lemma": "lǣsest"
   },
+  "læst": {
+    "def": "( ̄follow), do service, avail",
+    "grammar": "vb. I",
+    "lemma": "lǣstan"
+  },
   "læstan": {
+    "def": "( ̄follow), do service, avail",
+    "grammar": "vb. I",
+    "lemma": "lǣstan"
+  },
+  "læste": {
     "def": "( ̄follow), do service, avail",
     "grammar": "vb. I",
     "lemma": "lǣstan"
@@ -10192,10 +30217,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "lǣtan"
   },
+  "læte": {
+    "def": "allow (w",
+    "grammar": "vb. 7",
+    "lemma": "lǣtan"
+  },
   "lуt": {
     "def": "LITTle, small number",
     "grammar": "",
     "lemma": "lӯt"
+  },
+  "lуt hwon": {
+    "def": "not at all",
+    "grammar": "adv.",
+    "lemma": "lӯt-hwōn"
+  },
+  "lуt-hw": {
+    "def": "not at all",
+    "grammar": "adv.",
+    "lemma": "lӯt-hwōn"
+  },
+  "lуt-hwe": {
+    "def": "not at all",
+    "grammar": "adv.",
+    "lemma": "lӯt-hwōn"
   },
   "lуt-hwon": {
     "def": "not at all",
@@ -10207,6 +30252,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lӯtel"
   },
+  "lуthwon": {
+    "def": "not at all",
+    "grammar": "adv.",
+    "lemma": "lӯt-hwōn"
+  },
+  "m": {
+    "def": "see iċ",
+    "grammar": "",
+    "lemma": "mē"
+  },
   "ma": {
     "def": "MOre, 504",
     "grammar": "",
@@ -10216,6 +30271,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see māððum",
     "grammar": "",
     "lemma": "mādma(s)"
+  },
+  "mag": {
+    "def": "(1) son",
+    "grammar": "wk.",
+    "lemma": "maga"
   },
   "maga": {
     "def": "(1) son",
@@ -10232,6 +30292,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "māgas"
   },
+  "mage": {
+    "def": "(1) son",
+    "grammar": "wk.",
+    "lemma": "maga"
+  },
   "mage(mæge)": {
     "def": "kinswoman (moth-er)",
     "grammar": "wk.",
@@ -10241,6 +30306,21 @@ const OLD_ENGLISH_DICT = {
     "def": "son",
     "grammar": "mu.",
     "lemma": "mago"
+  },
+  "mago driht": {
+    "def": "band of young re-tainers",
+    "grammar": "fi.",
+    "lemma": "mago-driht"
+  },
+  "mago rinc": {
+    "def": "young warrior",
+    "grammar": "m.",
+    "lemma": "mago-rinċ"
+  },
+  "mago ðegn": {
+    "def": "young retainer, THEGN",
+    "grammar": "m.",
+    "lemma": "mago-ðeġn"
   },
   "mago-driht": {
     "def": "band of young re-tainers",
@@ -10257,32 +30337,107 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mago-ðeġn"
   },
+  "magodriht": {
+    "def": "band of young re-tainers",
+    "grammar": "fi.",
+    "lemma": "mago-driht"
+  },
+  "magorinc": {
+    "def": "young warrior",
+    "grammar": "m.",
+    "lemma": "mago-rinċ"
+  },
+  "magoðegn": {
+    "def": "young retainer, THEGN",
+    "grammar": "m.",
+    "lemma": "mago-ðeġn"
+  },
   "man": {
     "def": "offense, wickedness, guilt",
     "grammar": "n.",
     "lemma": "mān"
+  },
+  "man for dædla": {
+    "def": "guilty destroy-er, malefactor",
+    "grammar": "wk.",
+    "lemma": "mān-for-dǣdla"
+  },
+  "man lice": {
+    "def": "MANfulLY, nobly",
+    "grammar": "adv.",
+    "lemma": "man-līċe"
+  },
+  "man scaða": {
+    "def": "guilty ravager, criminal assailant",
+    "grammar": "wk.",
+    "lemma": "mān-scaða"
   },
   "man(n)": {
     "def": "mon-",
     "grammar": "man",
     "lemma": "man(n)"
   },
+  "man-for-dædl": {
+    "def": "guilty destroy-er, malefactor",
+    "grammar": "wk.",
+    "lemma": "mān-for-dǣdla"
+  },
   "man-for-dædla": {
     "def": "guilty destroy-er, malefactor",
     "grammar": "wk.",
     "lemma": "mān-for-dǣdla"
+  },
+  "man-for-dædle": {
+    "def": "guilty destroy-er, malefactor",
+    "grammar": "wk.",
+    "lemma": "mān-for-dǣdla"
+  },
+  "man-lic": {
+    "def": "MANfulLY, nobly",
+    "grammar": "adv.",
+    "lemma": "man-līċe"
   },
   "man-lice": {
     "def": "MANfulLY, nobly",
     "grammar": "adv.",
     "lemma": "man-līċe"
   },
+  "man-scað": {
+    "def": "guilty ravager, criminal assailant",
+    "grammar": "wk.",
+    "lemma": "mān-scaða"
+  },
   "man-scaða": {
     "def": "guilty ravager, criminal assailant",
     "grammar": "wk.",
     "lemma": "mān-scaða"
   },
+  "man-scaðe": {
+    "def": "guilty ravager, criminal assailant",
+    "grammar": "wk.",
+    "lemma": "mān-scaða"
+  },
+  "mane": {
+    "def": "see moniġ",
+    "grammar": "",
+    "lemma": "maniġ"
+  },
+  "manfordædla": {
+    "def": "guilty destroy-er, malefactor",
+    "grammar": "wk.",
+    "lemma": "mān-for-dǣdla"
+  },
+  "mani": {
+    "def": "urge",
+    "grammar": "vb. II",
+    "lemma": "manian"
+  },
   "manian": {
+    "def": "urge",
+    "grammar": "vb. II",
+    "lemma": "manian"
+  },
+  "manie": {
     "def": "urge",
     "grammar": "vb. II",
     "lemma": "manian"
@@ -10292,30 +30447,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "maniġ"
   },
+  "manlice": {
+    "def": "MANfulLY, nobly",
+    "grammar": "adv.",
+    "lemma": "man-līċe"
+  },
+  "manscaða": {
+    "def": "guilty ravager, criminal assailant",
+    "grammar": "wk.",
+    "lemma": "mān-scaða"
+  },
+  "mar": {
+    "def": "see miċel",
+    "grammar": "",
+    "lemma": "māra"
+  },
   "mara": {
     "def": "see miċel",
     "grammar": "",
     "lemma": "māra"
+  },
+  "mare": {
+    "def": "see miċel",
+    "grammar": "",
+    "lemma": "māra"
+  },
+  "maðm æht": {
+    "def": "precious property, treasure",
+    "grammar": "fi.",
+    "lemma": "māðm-ǣht"
   },
   "maðm-æht": {
     "def": "precious property, treasure",
     "grammar": "fi.",
     "lemma": "māðm-ǣht"
   },
+  "maðmæht": {
+    "def": "precious property, treasure",
+    "grammar": "fi.",
+    "lemma": "māðm-ǣht"
+  },
+  "maðð": {
+    "def": "precious or valuable thing, treasure",
+    "grammar": "",
+    "lemma": "māððum"
+  },
+  "maððe": {
+    "def": "precious or valuable thing, treasure",
+    "grammar": "",
+    "lemma": "māððum"
+  },
   "maððum": {
     "def": "precious or valuable thing, treasure",
     "grammar": "",
     "lemma": "māððum"
+  },
+  "maððum sigle": {
+    "def": "precious jewel",
+    "grammar": "nja.",
+    "lemma": "māððum-siġle"
+  },
+  "maððum wela": {
+    "def": "WEALth of treasure",
+    "grammar": "wk.",
+    "lemma": "māððum-wela"
+  },
+  "maððum-sigl": {
+    "def": "precious jewel",
+    "grammar": "nja.",
+    "lemma": "māððum-siġle"
   },
   "maððum-sigle": {
     "def": "precious jewel",
     "grammar": "nja.",
     "lemma": "māððum-siġle"
   },
+  "maððum-wel": {
+    "def": "WEALth of treasure",
+    "grammar": "wk.",
+    "lemma": "māððum-wela"
+  },
   "maððum-wela": {
     "def": "WEALth of treasure",
     "grammar": "wk.",
     "lemma": "māððum-wela"
+  },
+  "maððum-wele": {
+    "def": "WEALth of treasure",
+    "grammar": "wk.",
+    "lemma": "māððum-wela"
+  },
+  "maððumsigle": {
+    "def": "precious jewel",
+    "grammar": "nja.",
+    "lemma": "māððum-siġle"
+  },
+  "maððumwela": {
+    "def": "WEALth of treasure",
+    "grammar": "wk.",
+    "lemma": "māððum-wela"
+  },
+  "maðþum fæt": {
+    "def": "precious vessel",
+    "grammar": "n.",
+    "lemma": "māðþum-fæt"
+  },
+  "maðþum sweord": {
+    "def": "precious SWORD",
+    "grammar": "n.",
+    "lemma": "māðþum-sweord"
   },
   "maðþum-fæt": {
     "def": "precious vessel",
@@ -10327,17 +30567,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "māðþum-sweord"
   },
+  "maðþumfæt": {
+    "def": "precious vessel",
+    "grammar": "n.",
+    "lemma": "māðþum-fæt"
+  },
+  "maðþumsweord": {
+    "def": "precious SWORD",
+    "grammar": "n.",
+    "lemma": "māðþum-sweord"
+  },
+  "maþeli": {
+    "def": "speak, discourse, make a speech (orig",
+    "grammar": "vb. II",
+    "lemma": "maþelian"
+  },
   "maþelian": {
     "def": "speak, discourse, make a speech (orig",
     "grammar": "vb. II",
     "lemma": "maþelian"
+  },
+  "maþelie": {
+    "def": "speak, discourse, make a speech (orig",
+    "grammar": "vb. II",
+    "lemma": "maþelian"
+  },
+  "maþm gestreon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "māþm-ġestrēon"
+  },
+  "maþm-gestre": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "māþm-ġestrēon"
+  },
+  "maþm-gestree": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "māþm-ġestrēon"
   },
   "maþm-gestreon": {
     "def": "treasure",
     "grammar": "n.",
     "lemma": "māþm-ġestrēon"
   },
+  "maþmgestreon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "māþm-ġestrēon"
+  },
+  "maþðum gifu": {
+    "def": "treasure-GIVing",
+    "grammar": "f.",
+    "lemma": "māþðum-ġifu"
+  },
   "maþðum-gifu": {
+    "def": "treasure-GIVing",
+    "grammar": "f.",
+    "lemma": "māþðum-ġifu"
+  },
+  "maþðumgifu": {
     "def": "treasure-GIVing",
     "grammar": "f.",
     "lemma": "māþðum-ġifu"
@@ -10357,15 +30647,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "mearc"
   },
+  "mearc stapa": {
+    "def": "(‘MARK’-haunter), wanderer in the waste borderland",
+    "grammar": "wk.",
+    "lemma": "mearc-stapa"
+  },
+  "mearc-stap": {
+    "def": "(‘MARK’-haunter), wanderer in the waste borderland",
+    "grammar": "wk.",
+    "lemma": "mearc-stapa"
+  },
   "mearc-stapa": {
     "def": "(‘MARK’-haunter), wanderer in the waste borderland",
     "grammar": "wk.",
     "lemma": "mearc-stapa"
   },
+  "mearc-stape": {
+    "def": "(‘MARK’-haunter), wanderer in the waste borderland",
+    "grammar": "wk.",
+    "lemma": "mearc-stapa"
+  },
+  "mearci": {
+    "def": "make a mark upon",
+    "grammar": "vb. II",
+    "lemma": "mearcian"
+  },
   "mearcian": {
     "def": "make a mark upon",
     "grammar": "vb. II",
     "lemma": "mearcian"
+  },
+  "mearcie": {
+    "def": "make a mark upon",
+    "grammar": "vb. II",
+    "lemma": "mearcian"
+  },
+  "mearcstapa": {
+    "def": "(‘MARK’-haunter), wanderer in the waste borderland",
+    "grammar": "wk.",
+    "lemma": "mearc-stapa"
   },
   "mearh": {
     "def": "horse, steed",
@@ -10378,9 +30698,9 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mearn"
   },
   "mec": {
-    "def": "see iċ",
-    "grammar": "",
-    "lemma": "meċ"
+    "def": "sword",
+    "grammar": "mja.",
+    "lemma": "mēċe"
   },
   "mece": {
     "def": "sword",
@@ -10397,6 +30717,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "medu",
     "lemma": "medo"
   },
+  "medo benc": {
+    "def": "MEAD-BENCH",
+    "grammar": "fi.",
+    "lemma": "medo-benċ"
+  },
+  "medo ful(l)": {
+    "def": "MEAD-cup",
+    "grammar": "n.",
+    "lemma": "medo-ful(l)"
+  },
+  "medo heal(l)": {
+    "def": "MEAD-HALL",
+    "grammar": "f.",
+    "lemma": "medo-heal(l)"
+  },
+  "medo stig": {
+    "def": "path to the MEAD-hall",
+    "grammar": "f.",
+    "lemma": "medo-stīġ"
+  },
+  "medo ærn": {
+    "def": "MEAD-hall",
+    "grammar": "n.",
+    "lemma": "medo-ærn"
+  },
   "medo-benc": {
     "def": "MEAD-BENCH",
     "grammar": "fi.",
@@ -10412,6 +30757,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "medo-heal(l)"
   },
+  "medo-ste": {
+    "def": "path to the MEAD-hall",
+    "grammar": "f.",
+    "lemma": "medo-stīġ"
+  },
   "medo-stig": {
     "def": "path to the MEAD-hall",
     "grammar": "f.",
@@ -10421,6 +30771,41 @@ const OLD_ENGLISH_DICT = {
     "def": "MEAD-hall",
     "grammar": "n.",
     "lemma": "medo-ærn"
+  },
+  "medobenc": {
+    "def": "MEAD-BENCH",
+    "grammar": "fi.",
+    "lemma": "medo-benċ"
+  },
+  "medoful(l)": {
+    "def": "MEAD-cup",
+    "grammar": "n.",
+    "lemma": "medo-ful(l)"
+  },
+  "medoheal(l)": {
+    "def": "MEAD-HALL",
+    "grammar": "f.",
+    "lemma": "medo-heal(l)"
+  },
+  "medostig": {
+    "def": "path to the MEAD-hall",
+    "grammar": "f.",
+    "lemma": "medo-stīġ"
+  },
+  "medoærn": {
+    "def": "MEAD-hall",
+    "grammar": "n.",
+    "lemma": "medo-ærn"
+  },
+  "medu dream": {
+    "def": "MEAD-gladness, festivity",
+    "grammar": "m.",
+    "lemma": "medu-drēam"
+  },
+  "medu seld": {
+    "def": "MEAD-house",
+    "grammar": "n.",
+    "lemma": "medu-seld"
   },
   "medu-dream": {
     "def": "MEAD-gladness, festivity",
@@ -10432,22 +30817,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "medu-seld"
   },
+  "medudream": {
+    "def": "MEAD-gladness, festivity",
+    "grammar": "m.",
+    "lemma": "medu-drēam"
+  },
+  "meduseld": {
+    "def": "MEAD-house",
+    "grammar": "n.",
+    "lemma": "medu-seld"
+  },
+  "meld": {
+    "def": "2405",
+    "grammar": "wk.",
+    "lemma": "melda"
+  },
   "melda": {
     "def": "2405",
     "grammar": "wk.",
     "lemma": "melda"
+  },
+  "melde": {
+    "def": "2405",
+    "grammar": "wk.",
+    "lemma": "melda"
+  },
+  "melt": {
+    "def": "2326",
+    "grammar": "vb. 3",
+    "lemma": "meltan"
   },
   "meltan": {
     "def": "2326",
     "grammar": "vb. 3",
     "lemma": "meltan"
   },
+  "melte": {
+    "def": "2326",
+    "grammar": "vb. 3",
+    "lemma": "meltan"
+  },
+  "men": {
+    "def": "necklace",
+    "grammar": "mi.",
+    "lemma": "mene"
+  },
   "mene": {
     "def": "necklace",
     "grammar": "mi.",
     "lemma": "mene"
   },
+  "meng": {
+    "def": "MINGle, stir up",
+    "grammar": "vb. I",
+    "lemma": "menġan"
+  },
   "mengan": {
+    "def": "MINGle, stir up",
+    "grammar": "vb. I",
+    "lemma": "menġan"
+  },
+  "menge": {
     "def": "MINGle, stir up",
     "grammar": "vb. I",
     "lemma": "menġan"
@@ -10456,6 +30886,16 @@ const OLD_ENGLISH_DICT = {
     "def": "a great MANY",
     "grammar": "f",
     "lemma": "meniġeo"
+  },
+  "meodo setl": {
+    "def": "MEAD-(house-)SEAT, i",
+    "grammar": "n.",
+    "lemma": "meodo-setl"
+  },
+  "meodo wong": {
+    "def": "plain near the MEAD-hall",
+    "grammar": "m.",
+    "lemma": "meodo-wong"
   },
   "meodo-setl": {
     "def": "MEAD-(house-)SEAT, i",
@@ -10467,6 +30907,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "meodo-wong"
   },
+  "meodosetl": {
+    "def": "MEAD-(house-)SEAT, i",
+    "grammar": "n.",
+    "lemma": "meodo-setl"
+  },
+  "meodowong": {
+    "def": "plain near the MEAD-hall",
+    "grammar": "m.",
+    "lemma": "meodo-wong"
+  },
+  "meodu benc": {
+    "def": "-heal(l), see medo-",
+    "grammar": "",
+    "lemma": "meodu-benċ"
+  },
+  "meodu scenc": {
+    "def": "MEAD-vessel, -cup, dp",
+    "grammar": "mi.",
+    "lemma": "meodu-scenċ"
+  },
   "meodu-benc": {
     "def": "-heal(l), see medo-",
     "grammar": "",
@@ -10477,20 +30937,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "meodu-scenċ"
   },
+  "meodubenc": {
+    "def": "-heal(l), see medo-",
+    "grammar": "",
+    "lemma": "meodu-benċ"
+  },
+  "meoduscenc": {
+    "def": "MEAD-vessel, -cup, dp",
+    "grammar": "mi.",
+    "lemma": "meodu-scenċ"
+  },
   "meoto": {
     "def": "meditation, thought(s)",
     "grammar": "ap.",
     "lemma": "meoto"
+  },
+  "meotod": {
+    "def": "see metod",
+    "grammar": "",
+    "lemma": "meotod-"
+  },
+  "meotod ": {
+    "def": "see metod",
+    "grammar": "",
+    "lemma": "meotod-"
   },
   "meotod-": {
     "def": "see metod",
     "grammar": "",
     "lemma": "meotod-"
   },
+  "meowl": {
+    "def": "woman (orig",
+    "grammar": "wk.",
+    "lemma": "meowle"
+  },
   "meowle": {
     "def": "woman (orig",
     "grammar": "wk.",
     "lemma": "meowle"
+  },
+  "mer": {
+    "def": "lake, pool, †sea",
+    "grammar": "mi.",
+    "lemma": "mere"
   },
   "mercels": {
     "def": "aim",
@@ -10502,12 +30992,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "mere"
   },
+  "mere deor": {
+    "def": "sea-beast",
+    "grammar": "n.",
+    "lemma": "mere-dēor"
+  },
+  "mere fara": {
+    "def": "seaFARer",
+    "grammar": "wk.",
+    "lemma": "mere-fara"
+  },
+  "mere fisc": {
+    "def": "sea-FISH",
+    "grammar": "m.",
+    "lemma": "mere-fisc"
+  },
+  "mere grund": {
+    "def": "bottom of a lake or pool",
+    "grammar": "m.",
+    "lemma": "mere-grund"
+  },
+  "mere hrægl": {
+    "def": "sea-garment, sail",
+    "grammar": "n.",
+    "lemma": "mere-hræġl"
+  },
+  "mere liðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "mere-līðend(e)"
+  },
+  "mere strengo": {
+    "def": "STRENGth in the sea",
+    "grammar": "f",
+    "lemma": "mere-strenġo"
+  },
+  "mere stræt": {
+    "def": "sea-path",
+    "grammar": "f.",
+    "lemma": "mere-strǣt"
+  },
+  "mere wif": {
+    "def": "MERE-woman, water-witch",
+    "grammar": "n.",
+    "lemma": "mere-wīf"
+  },
   "mere-deor": {
     "def": "sea-beast",
     "grammar": "n.",
     "lemma": "mere-dēor"
   },
+  "mere-fa": {
+    "def": "seaFARer",
+    "grammar": "wk.",
+    "lemma": "mere-fara"
+  },
+  "mere-far": {
+    "def": "seaFARer",
+    "grammar": "wk.",
+    "lemma": "mere-fara"
+  },
   "mere-fara": {
+    "def": "seaFARer",
+    "grammar": "wk.",
+    "lemma": "mere-fara"
+  },
+  "mere-fare": {
     "def": "seaFARer",
     "grammar": "wk.",
     "lemma": "mere-fara"
@@ -10547,12 +31097,77 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "mere-wīf"
   },
+  "meredeor": {
+    "def": "sea-beast",
+    "grammar": "n.",
+    "lemma": "mere-dēor"
+  },
+  "merefara": {
+    "def": "seaFARer",
+    "grammar": "wk.",
+    "lemma": "mere-fara"
+  },
+  "merefisc": {
+    "def": "sea-FISH",
+    "grammar": "m.",
+    "lemma": "mere-fisc"
+  },
+  "meregrund": {
+    "def": "bottom of a lake or pool",
+    "grammar": "m.",
+    "lemma": "mere-grund"
+  },
+  "merehrægl": {
+    "def": "sea-garment, sail",
+    "grammar": "n.",
+    "lemma": "mere-hræġl"
+  },
+  "mereliðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "mere-līðend(e)"
+  },
+  "merestrengo": {
+    "def": "STRENGth in the sea",
+    "grammar": "f",
+    "lemma": "mere-strenġo"
+  },
+  "merestræt": {
+    "def": "sea-path",
+    "grammar": "f.",
+    "lemma": "mere-strǣt"
+  },
+  "merewif": {
+    "def": "MERE-woman, water-witch",
+    "grammar": "n.",
+    "lemma": "mere-wīf"
+  },
+  "merg": {
+    "def": "see morgen",
+    "grammar": "",
+    "lemma": "merġen"
+  },
+  "merge": {
+    "def": "see morgen",
+    "grammar": "",
+    "lemma": "merġen"
+  },
   "mergen": {
     "def": "see morgen",
     "grammar": "",
     "lemma": "merġen"
   },
+  "met": {
+    "def": "†traverse (cf",
+    "grammar": "vb. 5",
+    "lemma": "metan"
+  },
   "metan": {
+    "def": "†traverse (cf",
+    "grammar": "vb. 5",
+    "lemma": "metan"
+  },
+  "mete": {
     "def": "†traverse (cf",
     "grammar": "vb. 5",
     "lemma": "metan"
@@ -10562,15 +31177,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "metod"
   },
+  "metod sceaft": {
+    "def": "decree of fate, death",
+    "grammar": "fi.",
+    "lemma": "metod-sceaft"
+  },
   "metod-sceaft": {
     "def": "decree of fate, death",
     "grammar": "fi.",
     "lemma": "metod-sceaft"
   },
+  "metodsceaft": {
+    "def": "decree of fate, death",
+    "grammar": "fi.",
+    "lemma": "metod-sceaft"
+  },
+  "meðel stede": {
+    "def": "place of assembly (cf",
+    "grammar": "mi.",
+    "lemma": "meðel-stede"
+  },
+  "meðel-ste": {
+    "def": "place of assembly (cf",
+    "grammar": "mi.",
+    "lemma": "meðel-stede"
+  },
+  "meðel-sted": {
+    "def": "place of assembly (cf",
+    "grammar": "mi.",
+    "lemma": "meðel-stede"
+  },
   "meðel-stede": {
     "def": "place of assembly (cf",
     "grammar": "mi.",
     "lemma": "meðel-stede"
+  },
+  "meðelstede": {
+    "def": "place of assembly (cf",
+    "grammar": "mi.",
+    "lemma": "meðel-stede"
+  },
+  "meþel word": {
+    "def": "formal word",
+    "grammar": "n.",
+    "lemma": "meþel-word"
   },
   "meþel(mæþel)": {
     "def": "council, meeting",
@@ -10582,17 +31232,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "meþel-word"
   },
+  "meþelword": {
+    "def": "formal word",
+    "grammar": "n.",
+    "lemma": "meþel-word"
+  },
   "micel": {
     "def": "large, MUCH",
     "grammar": "adj.",
     "lemma": "miċel"
   },
   "mid": {
-    "def": "with, together with (persons)",
-    "grammar": "I.",
-    "lemma": "mid"
+    "def": "2705",
+    "grammar": "wk.",
+    "lemma": "midde"
+  },
+  "midd": {
+    "def": "2705",
+    "grammar": "wk.",
+    "lemma": "midde"
+  },
+  "middan geard": {
+    "def": "world, earth (considered as the center of the universe, the region between heaven and hell, or the inhabited land surrounded by the sea)",
+    "grammar": "m.",
+    "lemma": "middan-ġeard"
   },
   "middan-geard": {
+    "def": "world, earth (considered as the center of the universe, the region between heaven and hell, or the inhabited land surrounded by the sea)",
+    "grammar": "m.",
+    "lemma": "middan-ġeard"
+  },
+  "middangeard": {
     "def": "world, earth (considered as the center of the universe, the region between heaven and hell, or the inhabited land surrounded by the sea)",
     "grammar": "m.",
     "lemma": "middan-ġeard"
@@ -10602,7 +31272,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "midde"
   },
+  "middel niht": {
+    "def": "MIDDLE of the NIGHT",
+    "grammar": "fc.",
+    "lemma": "middel-niht"
+  },
   "middel-niht": {
+    "def": "MIDDLE of the NIGHT",
+    "grammar": "fc.",
+    "lemma": "middel-niht"
+  },
+  "middelniht": {
     "def": "MIDDLE of the NIGHT",
     "grammar": "fc.",
     "lemma": "middel-niht"
@@ -10612,20 +31292,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "miht"
   },
+  "mihte": {
+    "def": "powerful, strong",
+    "grammar": "adj.",
+    "lemma": "mihtiġ"
+  },
   "mihtig": {
     "def": "powerful, strong",
     "grammar": "adj.",
     "lemma": "mihtiġ"
+  },
+  "mil": {
+    "def": "benevolent, friendly, affable, kind",
+    "grammar": "adj.",
+    "lemma": "milde"
+  },
+  "mil gemearc": {
+    "def": "measure by MILEs",
+    "grammar": "n.",
+    "lemma": "mīl-ġemearc"
   },
   "mil-gemearc": {
     "def": "measure by MILEs",
     "grammar": "n.",
     "lemma": "mīl-ġemearc"
   },
+  "mild": {
+    "def": "benevolent, friendly, affable, kind",
+    "grammar": "adj.",
+    "lemma": "milde"
+  },
   "milde": {
     "def": "benevolent, friendly, affable, kind",
     "grammar": "adj.",
     "lemma": "milde"
+  },
+  "milgemearc": {
+    "def": "measure by MILEs",
+    "grammar": "n.",
+    "lemma": "mīl-ġemearc"
   },
   "milts": {
     "def": "fjō",
@@ -10637,17 +31342,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "gs.",
     "lemma": "mīn"
   },
+  "miss": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "missan"
+  },
   "missan": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "missan"
+  },
+  "misse": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "missan"
+  },
+  "misser": {
+    "def": "half-year, season",
+    "grammar": "n.",
+    "lemma": "missere"
   },
   "missere": {
     "def": "half-year, season",
     "grammar": "n.",
     "lemma": "missere"
   },
+  "mist hliþ": {
+    "def": "MISTy hill, cover of darkness",
+    "grammar": "n.",
+    "lemma": "mist-hliþ"
+  },
   "mist-hliþ": {
+    "def": "MISTy hill, cover of darkness",
+    "grammar": "n.",
+    "lemma": "mist-hliþ"
+  },
+  "miste": {
+    "def": "MISTY, dark",
+    "grammar": "adj.",
+    "lemma": "mistiġ"
+  },
+  "misthliþ": {
     "def": "MISTy hill, cover of darkness",
     "grammar": "n.",
     "lemma": "mist-hliþ"
@@ -10661,6 +31396,46 @@ const OLD_ENGLISH_DICT = {
     "def": "spirit, heart",
     "grammar": "n.",
     "lemma": "mōd"
+  },
+  "mod cearu": {
+    "def": "sorrow of soul",
+    "grammar": "f.",
+    "lemma": "mōd-cearu"
+  },
+  "mod gehygd": {
+    "def": "thought",
+    "grammar": "fni.",
+    "lemma": "mōd-ġehyġd"
+  },
+  "mod geþonc": {
+    "def": "THOUGHT(s), mind",
+    "grammar": "m.",
+    "lemma": "mōd-ġeþonc"
+  },
+  "mod giomor": {
+    "def": "sad at heart",
+    "grammar": "adj.",
+    "lemma": "mōd-ġiōmor"
+  },
+  "mod lufu( lufe)": {
+    "def": "heart’s LOVE, affection",
+    "grammar": "wk.",
+    "lemma": "mōd-lufu(-lufe)"
+  },
+  "mod sefa": {
+    "def": "mind, spirit, heart, character",
+    "grammar": "wk.",
+    "lemma": "mōd-sefa"
+  },
+  "mod þracu": {
+    "def": "impetuous courage, daring",
+    "grammar": "f.",
+    "lemma": "mōd-þracu"
+  },
+  "mod þrуð": {
+    "def": "force of will, arro-gance",
+    "grammar": "fi.",
+    "lemma": "mōd-þrӯð"
   },
   "mod-cearu": {
     "def": "sorrow of soul",
@@ -10687,7 +31462,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mōd-lufu(-lufe)"
   },
+  "mod-sef": {
+    "def": "mind, spirit, heart, character",
+    "grammar": "wk.",
+    "lemma": "mōd-sefa"
+  },
   "mod-sefa": {
+    "def": "mind, spirit, heart, character",
+    "grammar": "wk.",
+    "lemma": "mōd-sefa"
+  },
+  "mod-sefe": {
     "def": "mind, spirit, heart, character",
     "grammar": "wk.",
     "lemma": "mōd-sefa"
@@ -10702,20 +31487,100 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "mōd-þrӯð"
   },
+  "modcearu": {
+    "def": "sorrow of soul",
+    "grammar": "f.",
+    "lemma": "mōd-cearu"
+  },
+  "mode": {
+    "def": "courageous, brave",
+    "grammar": "adj.",
+    "lemma": "mōdiġ"
+  },
+  "modgehygd": {
+    "def": "thought",
+    "grammar": "fni.",
+    "lemma": "mōd-ġehyġd"
+  },
+  "modgeþonc": {
+    "def": "THOUGHT(s), mind",
+    "grammar": "m.",
+    "lemma": "mōd-ġeþonc"
+  },
+  "modgiomor": {
+    "def": "sad at heart",
+    "grammar": "adj.",
+    "lemma": "mōd-ġiōmor"
+  },
   "modig": {
     "def": "courageous, brave",
     "grammar": "adj.",
     "lemma": "mōdiġ"
+  },
+  "modig lic": {
+    "def": "gallant",
+    "grammar": "adj.",
+    "lemma": "mōdiġ-līċ"
   },
   "modig-lic": {
     "def": "gallant",
     "grammar": "adj.",
     "lemma": "mōdiġ-līċ"
   },
+  "modiglic": {
+    "def": "gallant",
+    "grammar": "adj.",
+    "lemma": "mōdiġ-līċ"
+  },
+  "modlufu(lufe)": {
+    "def": "heart’s LOVE, affection",
+    "grammar": "wk.",
+    "lemma": "mōd-lufu(-lufe)"
+  },
   "modor": {
     "def": "1276, 1282, 1683, 2118",
     "grammar": "fc.",
     "lemma": "mōdor"
+  },
+  "modsefa": {
+    "def": "mind, spirit, heart, character",
+    "grammar": "wk.",
+    "lemma": "mōd-sefa"
+  },
+  "modþracu": {
+    "def": "impetuous courage, daring",
+    "grammar": "f.",
+    "lemma": "mōd-þracu"
+  },
+  "modþrуð": {
+    "def": "force of will, arro-gance",
+    "grammar": "fi.",
+    "lemma": "mōd-þrӯð"
+  },
+  "mon": {
+    "def": "94",
+    "grammar": "wk.",
+    "lemma": "mōna"
+  },
+  "mon cyn(n)": {
+    "def": "196, 1955",
+    "grammar": "nja.",
+    "lemma": "mon-cyn(n)"
+  },
+  "mon dream": {
+    "def": "pleasure of human life",
+    "grammar": "m.",
+    "lemma": "mon-drēam"
+  },
+  "mon dryhten": {
+    "def": "(human) lord (never in ref",
+    "grammar": "m.",
+    "lemma": "mon-dryhten"
+  },
+  "mon ðwære": {
+    "def": "mild, kind",
+    "grammar": "adj.",
+    "lemma": "mon-ðwǣre"
   },
   "mon(n)": {
     "def": "wk",
@@ -10732,10 +31597,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mon-drēam"
   },
+  "mon-dryht": {
+    "def": "(human) lord (never in ref",
+    "grammar": "m.",
+    "lemma": "mon-dryhten"
+  },
+  "mon-dryhte": {
+    "def": "(human) lord (never in ref",
+    "grammar": "m.",
+    "lemma": "mon-dryhten"
+  },
   "mon-dryhten": {
     "def": "(human) lord (never in ref",
     "grammar": "m.",
     "lemma": "mon-dryhten"
+  },
+  "mon-ðwæ": {
+    "def": "mild, kind",
+    "grammar": "adj.",
+    "lemma": "mon-ðwǣre"
+  },
+  "mon-ðwær": {
+    "def": "mild, kind",
+    "grammar": "adj.",
+    "lemma": "mon-ðwǣre"
   },
   "mon-ðwære": {
     "def": "mild, kind",
@@ -10747,25 +31632,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mōna"
   },
+  "moncyn(n)": {
+    "def": "196, 1955",
+    "grammar": "nja.",
+    "lemma": "mon-cyn(n)"
+  },
+  "mondream": {
+    "def": "pleasure of human life",
+    "grammar": "m.",
+    "lemma": "mon-drēam"
+  },
+  "mondryhten": {
+    "def": "(human) lord (never in ref",
+    "grammar": "m.",
+    "lemma": "mon-dryhten"
+  },
+  "mone": {
+    "def": "94",
+    "grammar": "wk.",
+    "lemma": "mōna"
+  },
   "monig": {
     "def": "(pl",
     "grammar": "adj.",
     "lemma": "moniġ"
+  },
+  "monðwære": {
+    "def": "mild, kind",
+    "grammar": "adj.",
+    "lemma": "mon-ðwǣre"
   },
   "mor": {
     "def": "marsh, wasteland",
     "grammar": "m.",
     "lemma": "mōr"
   },
+  "mor hop": {
+    "def": "MOOR-retreat, i",
+    "grammar": "n.",
+    "lemma": "mōr-hop"
+  },
   "mor-hop": {
     "def": "MOOR-retreat, i",
     "grammar": "n.",
     "lemma": "mōr-hop"
   },
+  "morg": {
+    "def": "MORNing, MORROW",
+    "grammar": "m.",
+    "lemma": "morgen"
+  },
+  "morge": {
+    "def": "MORNing, MORROW",
+    "grammar": "m.",
+    "lemma": "morgen"
+  },
   "morgen": {
     "def": "MORNing, MORROW",
     "grammar": "m.",
     "lemma": "morgen"
+  },
+  "morgen ceald": {
+    "def": "COLD in the MORNing",
+    "grammar": "adj.",
+    "lemma": "morgen-ċeald"
+  },
+  "morgen leoht": {
+    "def": "MORNing-LIGHT, sun",
+    "grammar": "n.",
+    "lemma": "morgen-lēoht"
+  },
+  "morgen long": {
+    "def": "lasting the MORN-ing",
+    "grammar": "adj.",
+    "lemma": "morgen-long"
+  },
+  "morgen sweg": {
+    "def": "MORNing-sound (of wailing)",
+    "grammar": "mi.",
+    "lemma": "morgen-swēġ"
+  },
+  "morgen tid": {
+    "def": "MORNing",
+    "grammar": "fi.",
+    "lemma": "morgen-tīd"
   },
   "morgen-ceald": {
     "def": "COLD in the MORNing",
@@ -10792,12 +31742,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "morgen-tīd"
   },
+  "morgenceald": {
+    "def": "COLD in the MORNing",
+    "grammar": "adj.",
+    "lemma": "morgen-ċeald"
+  },
+  "morgenleoht": {
+    "def": "MORNing-LIGHT, sun",
+    "grammar": "n.",
+    "lemma": "morgen-lēoht"
+  },
+  "morgenlong": {
+    "def": "lasting the MORN-ing",
+    "grammar": "adj.",
+    "lemma": "morgen-long"
+  },
+  "morgensweg": {
+    "def": "MORNing-sound (of wailing)",
+    "grammar": "mi.",
+    "lemma": "morgen-swēġ"
+  },
+  "morgentid": {
+    "def": "MORNing",
+    "grammar": "fi.",
+    "lemma": "morgen-tīd"
+  },
+  "morhop": {
+    "def": "MOOR-retreat, i",
+    "grammar": "n.",
+    "lemma": "mōr-hop"
+  },
+  "morn": {
+    "def": "see morgen",
+    "grammar": "",
+    "lemma": "morna"
+  },
   "morna": {
     "def": "see morgen",
     "grammar": "",
     "lemma": "morna"
   },
+  "morne": {
+    "def": "see morgen",
+    "grammar": "",
+    "lemma": "morna"
+  },
+  "morð bealu": {
+    "def": "MURDer(-BALE), slaughter",
+    "grammar": "nwa.",
+    "lemma": "morð-bealu"
+  },
   "morð-bealu": {
+    "def": "MURDer(-BALE), slaughter",
+    "grammar": "nwa.",
+    "lemma": "morð-bealu"
+  },
+  "morðbealu": {
     "def": "MURDer(-BALE), slaughter",
     "grammar": "nwa.",
     "lemma": "morð-bealu"
@@ -10806,6 +31806,21 @@ const OLD_ENGLISH_DICT = {
     "def": "slaying, assault",
     "grammar": "n.",
     "lemma": "morðor"
+  },
+  "morþor bealo": {
+    "def": "MURDER, slaugh-ter",
+    "grammar": "nwa.",
+    "lemma": "morþor-bealo"
+  },
+  "morþor bed(d)": {
+    "def": "BED of death (by violence)",
+    "grammar": "nja.",
+    "lemma": "morþor-bed(d)"
+  },
+  "morþor hete": {
+    "def": "MURDERous HATE or hostility",
+    "grammar": "mi.",
+    "lemma": "morþor-hete"
   },
   "morþor-bealo": {
     "def": "MURDER, slaugh-ter",
@@ -10817,12 +31832,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "morþor-bed(d)"
   },
+  "morþor-he": {
+    "def": "MURDERous HATE or hostility",
+    "grammar": "mi.",
+    "lemma": "morþor-hete"
+  },
+  "morþor-het": {
+    "def": "MURDERous HATE or hostility",
+    "grammar": "mi.",
+    "lemma": "morþor-hete"
+  },
   "morþor-hete": {
     "def": "MURDERous HATE or hostility",
     "grammar": "mi.",
     "lemma": "morþor-hete"
   },
+  "morþorbealo": {
+    "def": "MURDER, slaugh-ter",
+    "grammar": "nwa.",
+    "lemma": "morþor-bealo"
+  },
+  "morþorbed(d)": {
+    "def": "BED of death (by violence)",
+    "grammar": "nja.",
+    "lemma": "morþor-bed(d)"
+  },
+  "morþorhete": {
+    "def": "MURDERous HATE or hostility",
+    "grammar": "mi.",
+    "lemma": "morþor-hete"
+  },
+  "mot": {
+    "def": "(1) may, have opportunity, be allowed",
+    "grammar": "prp.",
+    "lemma": "mōtan"
+  },
   "motan": {
+    "def": "(1) may, have opportunity, be allowed",
+    "grammar": "prp.",
+    "lemma": "mōtan"
+  },
+  "mote": {
     "def": "(1) may, have opportunity, be allowed",
     "grammar": "prp.",
     "lemma": "mōtan"
@@ -10832,32 +31882,132 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "mund"
   },
+  "mund bora": {
+    "def": "guard-ian",
+    "grammar": "wk.",
+    "lemma": "mund-bora"
+  },
+  "mund gripe": {
+    "def": "hand-GRIP",
+    "grammar": "mi.",
+    "lemma": "mund-gripe"
+  },
+  "mund-bo": {
+    "def": "guard-ian",
+    "grammar": "wk.",
+    "lemma": "mund-bora"
+  },
+  "mund-bor": {
+    "def": "guard-ian",
+    "grammar": "wk.",
+    "lemma": "mund-bora"
+  },
   "mund-bora": {
     "def": "guard-ian",
     "grammar": "wk.",
     "lemma": "mund-bora"
+  },
+  "mund-bore": {
+    "def": "guard-ian",
+    "grammar": "wk.",
+    "lemma": "mund-bora"
+  },
+  "mund-grip": {
+    "def": "hand-GRIP",
+    "grammar": "mi.",
+    "lemma": "mund-gripe"
   },
   "mund-gripe": {
     "def": "hand-GRIP",
     "grammar": "mi.",
     "lemma": "mund-gripe"
   },
+  "mundbora": {
+    "def": "guard-ian",
+    "grammar": "wk.",
+    "lemma": "mund-bora"
+  },
+  "mundgripe": {
+    "def": "hand-GRIP",
+    "grammar": "mi.",
+    "lemma": "mund-gripe"
+  },
+  "murn": {
+    "def": "be sad, pres",
+    "grammar": "vb. 3",
+    "lemma": "murnan"
+  },
   "murnan": {
     "def": "be sad, pres",
     "grammar": "vb. 3",
     "lemma": "murnan"
+  },
+  "murne": {
+    "def": "be sad, pres",
+    "grammar": "vb. 3",
+    "lemma": "murnan"
+  },
+  "muð bona": {
+    "def": "one who destroys with the MOUTH, devourer",
+    "grammar": "wk.",
+    "lemma": "mūð-bona"
+  },
+  "muð-bon": {
+    "def": "one who destroys with the MOUTH, devourer",
+    "grammar": "wk.",
+    "lemma": "mūð-bona"
   },
   "muð-bona": {
     "def": "one who destroys with the MOUTH, devourer",
     "grammar": "wk.",
     "lemma": "mūð-bona"
   },
+  "muð-bone": {
+    "def": "one who destroys with the MOUTH, devourer",
+    "grammar": "wk.",
+    "lemma": "mūð-bona"
+  },
+  "muðbona": {
+    "def": "one who destroys with the MOUTH, devourer",
+    "grammar": "wk.",
+    "lemma": "mūð-bona"
+  },
+  "muþ": {
+    "def": "opening, way of entry ([‡]door",
+    "grammar": "wk.",
+    "lemma": "mūþa"
+  },
   "muþa": {
     "def": "opening, way of entry ([‡]door",
     "grammar": "wk.",
     "lemma": "mūþa"
   },
+  "muþe": {
+    "def": "opening, way of entry ([‡]door",
+    "grammar": "wk.",
+    "lemma": "mūþa"
+  },
+  "my": {
+    "def": "MIND, desire, 2572",
+    "grammar": "mi.",
+    "lemma": "myne"
+  },
+  "myn": {
+    "def": "MIND, desire, 2572",
+    "grammar": "mi.",
+    "lemma": "myne"
+  },
+  "myndgi": {
+    "def": "reMIND",
+    "grammar": "vb. II",
+    "lemma": "myndgian"
+  },
   "myndgian": {
+    "def": "reMIND",
+    "grammar": "vb. II",
+    "lemma": "myndgian"
+  },
+  "myndgie": {
     "def": "reMIND",
     "grammar": "vb. II",
     "lemma": "myndgian"
@@ -10872,10 +32022,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "myne"
   },
+  "mynt": {
+    "def": "think",
+    "grammar": "vb. I",
+    "lemma": "myntan"
+  },
   "myntan": {
     "def": "think",
     "grammar": "vb. I",
     "lemma": "myntan"
+  },
+  "mynte": {
+    "def": "think",
+    "grammar": "vb. I",
+    "lemma": "myntan"
+  },
+  "myrc": {
+    "def": "dark",
+    "grammar": "adj.",
+    "lemma": "myrċe"
   },
   "myrce": {
     "def": "dark",
@@ -10887,25 +32052,115 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "myrð(u)"
   },
+  "mæ": {
+    "def": "insignificant, small",
+    "grammar": "adj.",
+    "lemma": "mǣte"
+  },
   "mæg": {
     "def": "blood-relative",
     "grammar": "m.",
     "lemma": "mǣġ"
+  },
+  "mæg burg": {
+    "def": "relatives, (ex-tended) family",
+    "grammar": "fc.",
+    "lemma": "mǣġ-burg"
+  },
+  "mæg wine": {
+    "def": "kinsman (and friend)",
+    "grammar": "mi.",
+    "lemma": "mǣġ-wine"
   },
   "mæg-burg": {
     "def": "relatives, (ex-tended) family",
     "grammar": "fc.",
     "lemma": "mǣġ-burg"
   },
+  "mæg-wi": {
+    "def": "kinsman (and friend)",
+    "grammar": "mi.",
+    "lemma": "mǣġ-wine"
+  },
+  "mæg-win": {
+    "def": "kinsman (and friend)",
+    "grammar": "mi.",
+    "lemma": "mǣġ-wine"
+  },
   "mæg-wine": {
     "def": "kinsman (and friend)",
     "grammar": "mi.",
     "lemma": "mǣġ-wine"
   },
+  "mægburg": {
+    "def": "relatives, (ex-tended) family",
+    "grammar": "fc.",
+    "lemma": "mǣġ-burg"
+  },
+  "mæge": {
+    "def": "might, strength",
+    "grammar": "n.",
+    "lemma": "mæġen"
+  },
   "mægen": {
     "def": "might, strength",
     "grammar": "n.",
     "lemma": "mæġen"
+  },
+  "mægen agende": {
+    "def": "strong, forceful",
+    "grammar": "pres.",
+    "lemma": "mæġen-āgende"
+  },
+  "mægen byrþen(n)": {
+    "def": "mighty load (BURTHEN), immense BURDEN",
+    "grammar": "fj",
+    "lemma": "mæġen-byrþen(n)"
+  },
+  "mægen cræft": {
+    "def": "strength",
+    "grammar": "m.",
+    "lemma": "mæġen-cræft"
+  },
+  "mægen ellen": {
+    "def": "potent valor",
+    "grammar": "n.",
+    "lemma": "mæġen-ellen"
+  },
+  "mægen fultum": {
+    "def": "powerful help",
+    "grammar": "m.",
+    "lemma": "mæġen-fultum"
+  },
+  "mægen hreð": {
+    "def": "(MAIN-glory), glorious host",
+    "grammar": "orig.",
+    "lemma": "mægen-hrēð"
+  },
+  "mægen ræs": {
+    "def": "strong impetus, pow-erful thrust",
+    "grammar": "m.",
+    "lemma": "mæġen-rǣs"
+  },
+  "mægen strengo": {
+    "def": "great STRENGth",
+    "grammar": "f",
+    "lemma": "mæġen-strenġo"
+  },
+  "mægen wudu": {
+    "def": "(MAIN-WOOD), imposing spear",
+    "grammar": "mu.",
+    "lemma": "mæġen-wudu"
+  },
+  "mægen-agen": {
+    "def": "strong, forceful",
+    "grammar": "pres.",
+    "lemma": "mæġen-āgende"
+  },
+  "mægen-agend": {
+    "def": "strong, forceful",
+    "grammar": "pres.",
+    "lemma": "mæġen-āgende"
   },
   "mægen-agende": {
     "def": "strong, forceful",
@@ -10922,10 +32177,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mæġen-cræft"
   },
+  "mægen-ell": {
+    "def": "potent valor",
+    "grammar": "n.",
+    "lemma": "mæġen-ellen"
+  },
+  "mægen-elle": {
+    "def": "potent valor",
+    "grammar": "n.",
+    "lemma": "mæġen-ellen"
+  },
   "mægen-ellen": {
     "def": "potent valor",
     "grammar": "n.",
     "lemma": "mæġen-ellen"
+  },
+  "mægen-fult": {
+    "def": "powerful help",
+    "grammar": "m.",
+    "lemma": "mæġen-fultum"
+  },
+  "mægen-fulte": {
+    "def": "powerful help",
+    "grammar": "m.",
+    "lemma": "mæġen-fultum"
   },
   "mægen-fultum": {
     "def": "powerful help",
@@ -10952,6 +32227,56 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "mæġen-wudu"
   },
+  "mægenagende": {
+    "def": "strong, forceful",
+    "grammar": "pres.",
+    "lemma": "mæġen-āgende"
+  },
+  "mægenbyrþen(n)": {
+    "def": "mighty load (BURTHEN), immense BURDEN",
+    "grammar": "fj",
+    "lemma": "mæġen-byrþen(n)"
+  },
+  "mægencræft": {
+    "def": "strength",
+    "grammar": "m.",
+    "lemma": "mæġen-cræft"
+  },
+  "mægenellen": {
+    "def": "potent valor",
+    "grammar": "n.",
+    "lemma": "mæġen-ellen"
+  },
+  "mægenfultum": {
+    "def": "powerful help",
+    "grammar": "m.",
+    "lemma": "mæġen-fultum"
+  },
+  "mægenhreð": {
+    "def": "(MAIN-glory), glorious host",
+    "grammar": "orig.",
+    "lemma": "mægen-hrēð"
+  },
+  "mægenræs": {
+    "def": "strong impetus, pow-erful thrust",
+    "grammar": "m.",
+    "lemma": "mæġen-rǣs"
+  },
+  "mægenstrengo": {
+    "def": "great STRENGth",
+    "grammar": "f",
+    "lemma": "mæġen-strenġo"
+  },
+  "mægenwudu": {
+    "def": "(MAIN-WOOD), imposing spear",
+    "grammar": "mu.",
+    "lemma": "mæġen-wudu"
+  },
+  "mægwine": {
+    "def": "kinsman (and friend)",
+    "grammar": "mi.",
+    "lemma": "mǣġ-wine"
+  },
   "mægð": {
     "def": "BGdSL 31 [1906] 73–7), MAID(en), (un-married) woman",
     "grammar": "fc.",
@@ -10967,6 +32292,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "mǣl"
   },
+  "mæl cearu": {
+    "def": "CARE or sorrow of the time",
+    "grammar": "f.",
+    "lemma": "mǣl-cearu"
+  },
+  "mæl gesceaft": {
+    "def": "time-allotment, des-tiny, fate",
+    "grammar": "fi.",
+    "lemma": "mǣl-ġesceaft"
+  },
   "mæl-cearu": {
     "def": "CARE or sorrow of the time",
     "grammar": "f.",
@@ -10977,7 +32312,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "mǣl-ġesceaft"
   },
+  "mælcearu": {
+    "def": "CARE or sorrow of the time",
+    "grammar": "f.",
+    "lemma": "mǣl-cearu"
+  },
+  "mælgesceaft": {
+    "def": "time-allotment, des-tiny, fate",
+    "grammar": "fi.",
+    "lemma": "mǣl-ġesceaft"
+  },
+  "mæn": {
+    "def": "complain of",
+    "grammar": "vb. I",
+    "lemma": "mǣnan"
+  },
   "mænan": {
+    "def": "complain of",
+    "grammar": "vb. I",
+    "lemma": "mǣnan"
+  },
+  "mæne": {
     "def": "complain of",
     "grammar": "vb. I",
     "lemma": "mǣnan"
@@ -10986,6 +32341,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see meniġeo",
     "grammar": "",
     "lemma": "mæniġo"
+  },
+  "mær": {
+    "def": "glorious, illus-trious",
+    "grammar": "adj.",
+    "lemma": "mǣre"
   },
   "mære": {
     "def": "glorious, illus-trious",
@@ -11002,17 +32362,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mæst"
   },
+  "mæt": {
+    "def": "insignificant, small",
+    "grammar": "adj.",
+    "lemma": "mǣte"
+  },
   "mæte": {
     "def": "insignificant, small",
     "grammar": "adj.",
     "lemma": "mǣte"
+  },
+  "n": {
+    "def": "NO",
+    "grammar": "pron.",
+    "lemma": "nān"
   },
   "na": {
     "def": "see nō",
     "grammar": "",
     "lemma": "nā"
   },
+  "nac": {
+    "def": "boat, ship",
+    "grammar": "wk.",
+    "lemma": "naca"
+  },
   "naca": {
+    "def": "boat, ship",
+    "grammar": "wk.",
+    "lemma": "naca"
+  },
+  "nace": {
     "def": "boat, ship",
     "grammar": "wk.",
     "lemma": "naca"
@@ -11027,17 +32407,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nāh"
   },
+  "nal": {
+    "def": "nallas, nalles, see nealles",
+    "grammar": "nal",
+    "lemma": "nalas"
+  },
   "nalas": {
     "def": "nallas, nalles, see nealles",
     "grammar": "nal",
     "lemma": "nalas"
   },
+  "nale": {
+    "def": "nallas, nalles, see nealles",
+    "grammar": "nal",
+    "lemma": "nalas"
+  },
   "nam": {
-    "def": "nāman, see niman",
-    "grammar": "n",
-    "lemma": "nam"
+    "def": "1457, [F",
+    "grammar": "wk.",
+    "lemma": "nama"
   },
   "nama": {
+    "def": "1457, [F",
+    "grammar": "wk.",
+    "lemma": "nama"
+  },
+  "name": {
     "def": "1457, [F",
     "grammar": "wk.",
     "lemma": "nama"
@@ -11052,20 +32447,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nāt"
   },
+  "nat hwylc": {
+    "def": "some (one), a cer-tain (one)",
+    "grammar": "pron.",
+    "lemma": "nāt-hwylċ"
+  },
   "nat-hwylc": {
     "def": "some (one), a cer-tain (one)",
     "grammar": "pron.",
     "lemma": "nāt-hwylċ"
   },
+  "nathwylc": {
+    "def": "some (one), a cer-tain (one)",
+    "grammar": "pron.",
+    "lemma": "nāt-hwylċ"
+  },
   "ne": {
-    "def": "38, 50, 80, 83, 109, 119, 154, 162, 180, etc",
-    "grammar": "adv.",
-    "lemma": "ne"
+    "def": "NO",
+    "grammar": "pron.",
+    "lemma": "nān"
   },
   "neah": {
     "def": "2870",
     "grammar": "",
     "lemma": "nēah"
+  },
+  "neall": {
+    "def": "2167, 2179, 2221, 2363, 2596, 2873, 3089",
+    "grammar": "adv.",
+    "lemma": "nealles"
+  },
+  "nealle": {
+    "def": "2167, 2179, 2221, 2363, 2596, 2873, 3089",
+    "grammar": "adv.",
+    "lemma": "nealles"
   },
   "nealles": {
     "def": "2167, 2179, 2221, 2363, 2596, 2873, 3089",
@@ -11087,6 +32502,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "nearo"
   },
+  "nearo cræft": {
+    "def": "art of rendering diÌ-cult of access",
+    "grammar": "m.",
+    "lemma": "nearo-cræft"
+  },
+  "nearo fah": {
+    "def": "cruelly hostile",
+    "grammar": "adj.",
+    "lemma": "nearo-fāh"
+  },
+  "nearo þearf": {
+    "def": "severe distress",
+    "grammar": "f.",
+    "lemma": "nearo-þearf"
+  },
   "nearo-cræft": {
     "def": "art of rendering diÌ-cult of access",
     "grammar": "m.",
@@ -11102,20 +32532,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "nearo-þearf"
   },
+  "nearocræft": {
+    "def": "art of rendering diÌ-cult of access",
+    "grammar": "m.",
+    "lemma": "nearo-cræft"
+  },
+  "nearofah": {
+    "def": "cruelly hostile",
+    "grammar": "adj.",
+    "lemma": "nearo-fāh"
+  },
+  "nearoþearf": {
+    "def": "severe distress",
+    "grammar": "f.",
+    "lemma": "nearo-þearf"
+  },
+  "nearw": {
+    "def": "closely",
+    "grammar": "adv.",
+    "lemma": "nearwe"
+  },
   "nearwe": {
     "def": "closely",
     "grammar": "adv.",
     "lemma": "nearwe"
+  },
+  "nearwi": {
+    "def": "1438",
+    "grammar": "vb. II",
+    "lemma": "nearwian"
   },
   "nearwian": {
     "def": "1438",
     "grammar": "vb. II",
     "lemma": "nearwian"
   },
+  "nearwie": {
+    "def": "1438",
+    "grammar": "vb. II",
+    "lemma": "nearwian"
+  },
+  "nee": {
+    "def": "near",
+    "grammar": "adv.",
+    "lemma": "nēan"
+  },
+  "nef": {
+    "def": "if — not",
+    "grammar": "nemne",
+    "lemma": "nefne"
+  },
   "nefa": {
     "def": "1203 (grand-son?)",
     "grammar": "wk.",
     "lemma": "nefa"
+  },
+  "nefe": {
+    "def": "1203 (grand-son?)",
+    "grammar": "wk.",
+    "lemma": "nefa"
+  },
+  "nefn": {
+    "def": "if — not",
+    "grammar": "nemne",
+    "lemma": "nefne"
   },
   "nefne": {
     "def": "if — not",
@@ -11127,10 +32607,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nēh"
   },
+  "nell": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "nelle"
+  },
   "nelle": {
     "def": "see willan",
     "grammar": "",
     "lemma": "nelle"
+  },
+  "nem": {
+    "def": "see nefne",
+    "grammar": "",
+    "lemma": "nemne"
+  },
+  "nemn": {
+    "def": "call",
+    "grammar": "vb. I",
+    "lemma": "nemnan"
   },
   "nemnan": {
     "def": "call",
@@ -11138,11 +32633,21 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nemnan"
   },
   "nemne": {
-    "def": "see nefne",
-    "grammar": "",
-    "lemma": "nemne"
+    "def": "call",
+    "grammar": "vb. I",
+    "lemma": "nemnan"
+  },
+  "neod laðu": {
+    "def": "desire",
+    "grammar": "f.",
+    "lemma": "nēod-laðu"
   },
   "neod-laðu": {
+    "def": "desire",
+    "grammar": "f.",
+    "lemma": "nēod-laðu"
+  },
+  "neodlaðu": {
     "def": "desire",
     "grammar": "f.",
     "lemma": "nēod-laðu"
@@ -11152,12 +32657,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nēon"
   },
+  "neos": {
+    "def": "II (Appx",
+    "grammar": "n",
+    "lemma": "nēosan"
+  },
   "neosan": {
     "def": "II (Appx",
     "grammar": "n",
     "lemma": "nēosan"
   },
+  "neose": {
+    "def": "II (Appx",
+    "grammar": "n",
+    "lemma": "nēosan"
+  },
+  "neot": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "nēotan"
+  },
   "neotan": {
+    "def": "w",
+    "grammar": "vb. 2",
+    "lemma": "nēotan"
+  },
+  "neote": {
     "def": "w",
     "grammar": "vb. 2",
     "lemma": "nēotan"
@@ -11167,12 +32692,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "neowol"
   },
+  "neri": {
+    "def": "protect, preserve",
+    "grammar": "vb. I",
+    "lemma": "nerian"
+  },
   "nerian": {
     "def": "protect, preserve",
     "grammar": "vb. I",
     "lemma": "nerian"
   },
+  "nerie": {
+    "def": "protect, preserve",
+    "grammar": "vb. I",
+    "lemma": "nerian"
+  },
+  "neð": {
+    "def": "2228",
+    "grammar": "vb. I",
+    "lemma": "nēðan"
+  },
   "neðan": {
+    "def": "2228",
+    "grammar": "vb. I",
+    "lemma": "nēðan"
+  },
+  "neðe": {
     "def": "2228",
     "grammar": "vb. I",
     "lemma": "nēðan"
@@ -11182,15 +32727,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "nicor"
   },
+  "nicor hus": {
+    "def": "abode of water mon-sters",
+    "grammar": "n.",
+    "lemma": "nicor-hūs"
+  },
   "nicor-hus": {
     "def": "abode of water mon-sters",
     "grammar": "n.",
     "lemma": "nicor-hūs"
   },
+  "nicorhus": {
+    "def": "abode of water mon-sters",
+    "grammar": "n.",
+    "lemma": "nicor-hūs"
+  },
+  "niehst": {
+    "def": "see nēah",
+    "grammar": "",
+    "lemma": "nīehsta"
+  },
   "niehsta": {
     "def": "see nēah",
     "grammar": "",
     "lemma": "nīehsta"
+  },
+  "niehste": {
+    "def": "see nēah",
+    "grammar": "",
+    "lemma": "nīehsta"
+  },
+  "nig": {
+    "def": "575",
+    "grammar": "num.",
+    "lemma": "nigon"
+  },
+  "nige": {
+    "def": "575",
+    "grammar": "num.",
+    "lemma": "nigon"
   },
   "nigon": {
     "def": "575",
@@ -11201,6 +32776,26 @@ const OLD_ENGLISH_DICT = {
     "def": "547, 649, 1320, 2116",
     "grammar": "fc.",
     "lemma": "niht"
+  },
+  "niht bealu": {
+    "def": "NIGHT-attack",
+    "grammar": "nwa.",
+    "lemma": "niht-bealu"
+  },
+  "niht helm": {
+    "def": "cover of NIGHT",
+    "grammar": "m.",
+    "lemma": "niht-helm"
+  },
+  "niht long": {
+    "def": "528",
+    "grammar": "adj.",
+    "lemma": "niht-long"
+  },
+  "niht weorc": {
+    "def": "NIGHT-WORK, noc-turnal deed",
+    "grammar": "n.",
+    "lemma": "niht-weorc"
   },
   "niht-bealu": {
     "def": "NIGHT-attack",
@@ -11222,7 +32817,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "niht-weorc"
   },
+  "nihtbealu": {
+    "def": "NIGHT-attack",
+    "grammar": "nwa.",
+    "lemma": "niht-bealu"
+  },
+  "nihthelm": {
+    "def": "cover of NIGHT",
+    "grammar": "m.",
+    "lemma": "niht-helm"
+  },
+  "nihtlong": {
+    "def": "528",
+    "grammar": "adj.",
+    "lemma": "niht-long"
+  },
+  "nihtweorc": {
+    "def": "NIGHT-WORK, noc-turnal deed",
+    "grammar": "n.",
+    "lemma": "niht-weorc"
+  },
+  "nim": {
+    "def": "seize",
+    "grammar": "vb. 4",
+    "lemma": "niman"
+  },
   "niman": {
+    "def": "seize",
+    "grammar": "vb. 4",
+    "lemma": "niman"
+  },
+  "nime": {
     "def": "seize",
     "grammar": "vb. 4",
     "lemma": "niman"
@@ -11232,10 +32857,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "nīod"
   },
+  "nios(i)": {
+    "def": "see nēosan",
+    "grammar": "",
+    "lemma": "nīos(i)an"
+  },
   "nios(i)an": {
     "def": "see nēosan",
     "grammar": "",
     "lemma": "nīos(i)an"
+  },
+  "nios(i)e": {
+    "def": "see nēosan",
+    "grammar": "",
+    "lemma": "nīos(i)an"
+  },
+  "niow": {
+    "def": "see nīwe",
+    "grammar": "",
+    "lemma": "nīowe"
   },
   "niowe": {
     "def": "see nīwe",
@@ -11247,10 +32887,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nioðor"
   },
+  "nip": {
+    "def": "grow dark",
+    "grammar": "vb. 1",
+    "lemma": "nīpan"
+  },
   "nipan": {
     "def": "grow dark",
     "grammar": "vb. 1",
     "lemma": "nīpan"
+  },
+  "nipe": {
+    "def": "grow dark",
+    "grammar": "vb. 1",
+    "lemma": "nīpan"
+  },
+  "niw": {
+    "def": "783 (un-heard of, startling)",
+    "grammar": "adj.",
+    "lemma": "nīwe"
+  },
+  "niw tyrwed": {
+    "def": "NEW-TARRed",
+    "grammar": "adj.",
+    "lemma": "nīw-tyrwed"
   },
   "niw-tyrwed": {
     "def": "NEW-TARRed",
@@ -11262,10 +32922,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "nīwe"
   },
+  "niwtyrwed": {
+    "def": "NEW-TARRed",
+    "grammar": "adj.",
+    "lemma": "nīw-tyrwed"
+  },
+  "nið draca": {
+    "def": "hostile or malicious DRAGON",
+    "grammar": "wk.",
+    "lemma": "nīð-draca"
+  },
+  "nið gripe": {
+    "def": "malicious GRIP",
+    "grammar": "mi.",
+    "lemma": "nīð-gripe"
+  },
+  "nið gæst": {
+    "def": "malicious (stranger or) foe",
+    "grammar": "mi.",
+    "lemma": "nīð-gæst"
+  },
+  "nið heard": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "nīð-heard"
+  },
+  "nið hedig": {
+    "def": "hostile",
+    "grammar": "adj.",
+    "lemma": "nīð-hēdiġ"
+  },
+  "nið sele": {
+    "def": "hostile or battle hall",
+    "grammar": "mi.",
+    "lemma": "nīð-sele"
+  },
+  "nið wundor": {
+    "def": "dreadful WONDER, portent",
+    "grammar": "n.",
+    "lemma": "nīð-wundor"
+  },
+  "nið-drac": {
+    "def": "hostile or malicious DRAGON",
+    "grammar": "wk.",
+    "lemma": "nīð-draca"
+  },
   "nið-draca": {
     "def": "hostile or malicious DRAGON",
     "grammar": "wk.",
     "lemma": "nīð-draca"
+  },
+  "nið-drace": {
+    "def": "hostile or malicious DRAGON",
+    "grammar": "wk.",
+    "lemma": "nīð-draca"
+  },
+  "nið-grip": {
+    "def": "malicious GRIP",
+    "grammar": "mi.",
+    "lemma": "nīð-gripe"
   },
   "nið-gripe": {
     "def": "malicious GRIP",
@@ -11282,10 +32997,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "nīð-heard"
   },
+  "nið-hede": {
+    "def": "hostile",
+    "grammar": "adj.",
+    "lemma": "nīð-hēdiġ"
+  },
   "nið-hedig": {
     "def": "hostile",
     "grammar": "adj.",
     "lemma": "nīð-hēdiġ"
+  },
+  "nið-sel": {
+    "def": "hostile or battle hall",
+    "grammar": "mi.",
+    "lemma": "nīð-sele"
   },
   "nið-sele": {
     "def": "hostile or battle hall",
@@ -11296,6 +33021,51 @@ const OLD_ENGLISH_DICT = {
     "def": "dreadful WONDER, portent",
     "grammar": "n.",
     "lemma": "nīð-wundor"
+  },
+  "niðdraca": {
+    "def": "hostile or malicious DRAGON",
+    "grammar": "wk.",
+    "lemma": "nīð-draca"
+  },
+  "niðgripe": {
+    "def": "malicious GRIP",
+    "grammar": "mi.",
+    "lemma": "nīð-gripe"
+  },
+  "niðgæst": {
+    "def": "malicious (stranger or) foe",
+    "grammar": "mi.",
+    "lemma": "nīð-gæst"
+  },
+  "niðheard": {
+    "def": "brave in battle",
+    "grammar": "adj.",
+    "lemma": "nīð-heard"
+  },
+  "niðhedig": {
+    "def": "hostile",
+    "grammar": "adj.",
+    "lemma": "nīð-hēdiġ"
+  },
+  "niðsele": {
+    "def": "hostile or battle hall",
+    "grammar": "mi.",
+    "lemma": "nīð-sele"
+  },
+  "niðwundor": {
+    "def": "dreadful WONDER, portent",
+    "grammar": "n.",
+    "lemma": "nīð-wundor"
+  },
+  "niþ geweorc": {
+    "def": "hostile deed, fight",
+    "grammar": "n.",
+    "lemma": "nīþ-ġeweorc"
+  },
+  "niþ grim(m)": {
+    "def": "GRIM, cruel, nsf",
+    "grammar": "adj.",
+    "lemma": "nīþ-grim(m)"
   },
   "niþ-geweorc": {
     "def": "hostile deed, fight",
@@ -11312,7 +33082,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "niþer"
   },
+  "niþgeweorc": {
+    "def": "hostile deed, fight",
+    "grammar": "n.",
+    "lemma": "nīþ-ġeweorc"
+  },
+  "niþgrim(m)": {
+    "def": "GRIM, cruel, nsf",
+    "grammar": "adj.",
+    "lemma": "nīþ-grim(m)"
+  },
+  "niþð": {
+    "def": "men",
+    "grammar": "mja.",
+    "lemma": "niþðas"
+  },
   "niþðas": {
+    "def": "men",
+    "grammar": "mja.",
+    "lemma": "niþðas"
+  },
+  "niþðe": {
     "def": "men",
     "grammar": "mja.",
     "lemma": "niþðas"
@@ -11321,6 +33111,16 @@ const OLD_ENGLISH_DICT = {
     "def": "not, never",
     "grammar": "emphatic neg.",
     "lemma": "nō"
+  },
+  "nol": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "nolde"
+  },
+  "nold": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "nolde"
   },
   "nolde": {
     "def": "see willan",
@@ -11342,10 +33142,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "norð"
   },
+  "norþ": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "norþan"
+  },
   "norþan": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "norþan"
+  },
+  "norþe": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "norþan"
+  },
+  "nos": {
+    "def": "promontory, cape",
+    "grammar": "wk.",
+    "lemma": "nōse"
   },
   "nose": {
     "def": "promontory, cape",
@@ -11362,20 +33177,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "nū"
   },
+  "nuð": {
+    "def": "just now, at this moment",
+    "grammar": "adv.",
+    "lemma": "nūða"
+  },
   "nuða": {
     "def": "just now, at this moment",
     "grammar": "adv.",
     "lemma": "nūða"
+  },
+  "nuðe": {
+    "def": "just now, at this moment",
+    "grammar": "adv.",
+    "lemma": "nūða"
+  },
+  "nyll": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "nyllan"
   },
   "nyllan": {
     "def": "see willan",
     "grammar": "",
     "lemma": "nyllan"
   },
+  "nylle": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "nyllan"
+  },
+  "nym": {
+    "def": "see niman",
+    "grammar": "",
+    "lemma": "nyman"
+  },
   "nyman": {
     "def": "see niman",
     "grammar": "",
     "lemma": "nyman"
+  },
+  "nyme": {
+    "def": "see niman",
+    "grammar": "",
+    "lemma": "nyman"
+  },
+  "nymþ": {
+    "def": "if",
+    "grammar": "conj.",
+    "lemma": "nymþe"
   },
   "nymþe": {
     "def": "if",
@@ -11392,22 +33242,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nyðer"
   },
+  "næ": {
+    "def": "see eom",
+    "grammar": "n",
+    "lemma": "nǣre"
+  },
+  "næbb": {
+    "def": "see habban",
+    "grammar": "",
+    "lemma": "næbben"
+  },
+  "næbbe": {
+    "def": "see habban",
+    "grammar": "",
+    "lemma": "næbben"
+  },
   "næbben": {
     "def": "see habban",
     "grammar": "",
     "lemma": "næbben"
+  },
+  "næf": {
+    "def": "see nefne",
+    "grammar": "",
+    "lemma": "næfne"
+  },
+  "næfn": {
+    "def": "see nefne",
+    "grammar": "",
+    "lemma": "næfne"
   },
   "næfne": {
     "def": "see nefne",
     "grammar": "",
     "lemma": "næfne"
   },
+  "næfr": {
+    "def": "583, 591, 655, 718, 1041, 1048",
+    "grammar": "adv.",
+    "lemma": "nǣfre"
+  },
   "næfre": {
     "def": "583, 591, 655, 718, 1041, 1048",
     "grammar": "adv.",
     "lemma": "nǣfre"
   },
+  "næg": {
+    "def": "accost, address",
+    "grammar": "vb. I",
+    "lemma": "nǣġan"
+  },
   "nægan": {
+    "def": "accost, address",
+    "grammar": "vb. I",
+    "lemma": "nǣġan"
+  },
+  "næge": {
     "def": "accost, address",
     "grammar": "vb. I",
     "lemma": "nǣġan"
@@ -11417,15 +33307,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "næġl"
   },
+  "nægl(i)": {
+    "def": "2023 (n",
+    "grammar": "vb.  I",
+    "lemma": "næġl(i)an"
+  },
   "nægl(i)an": {
     "def": "2023 (n",
     "grammar": "vb.  I",
     "lemma": "næġl(i)an"
   },
+  "nægl(i)e": {
+    "def": "2023 (n",
+    "grammar": "vb.  I",
+    "lemma": "næġl(i)an"
+  },
+  "næne": {
+    "def": "no one, none",
+    "grammar": "pron.",
+    "lemma": "nǣniġ"
+  },
   "nænig": {
     "def": "no one, none",
     "grammar": "pron.",
     "lemma": "nǣniġ"
+  },
+  "nær": {
+    "def": "see eom",
+    "grammar": "n",
+    "lemma": "nǣre"
   },
   "nære": {
     "def": "see eom",
@@ -11437,6 +33347,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "næs"
   },
+  "næs hlið": {
+    "def": "(slope of ̄) headland",
+    "grammar": "n.",
+    "lemma": "næs-hlið"
+  },
   "næs(s)": {
     "def": "bluff",
     "grammar": "mja.",
@@ -11447,17 +33362,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "næs-hlið"
   },
+  "næshlið": {
+    "def": "(slope of ̄) headland",
+    "grammar": "n.",
+    "lemma": "næs-hlið"
+  },
   "nуd": {
     "def": "compulsion, distress",
     "grammar": "fi.",
     "lemma": "nӯd"
+  },
+  "nуd bad": {
+    "def": "enforced contribution, toll",
+    "grammar": "f.",
+    "lemma": "nӯd-bād"
+  },
+  "nуd gestealla": {
+    "def": "companion in NEED, i",
+    "grammar": "wk.",
+    "lemma": "nӯd-ġestealla"
+  },
+  "nуd wracu": {
+    "def": "violent persecution, dire distress",
+    "grammar": "f.",
+    "lemma": "nӯd-wracu"
   },
   "nуd-bad": {
     "def": "enforced contribution, toll",
     "grammar": "f.",
     "lemma": "nӯd-bād"
   },
+  "nуd-gesteall": {
+    "def": "companion in NEED, i",
+    "grammar": "wk.",
+    "lemma": "nӯd-ġestealla"
+  },
   "nуd-gestealla": {
+    "def": "companion in NEED, i",
+    "grammar": "wk.",
+    "lemma": "nӯd-ġestealla"
+  },
+  "nуd-gestealle": {
     "def": "companion in NEED, i",
     "grammar": "wk.",
     "lemma": "nӯd-ġestealla"
@@ -11467,10 +33412,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "nӯd-wracu"
   },
+  "nуdbad": {
+    "def": "enforced contribution, toll",
+    "grammar": "f.",
+    "lemma": "nӯd-bād"
+  },
+  "nуdgestealla": {
+    "def": "companion in NEED, i",
+    "grammar": "wk.",
+    "lemma": "nӯd-ġestealla"
+  },
+  "nуdwracu": {
+    "def": "violent persecution, dire distress",
+    "grammar": "f.",
+    "lemma": "nӯd-wracu"
+  },
+  "nуhst": {
+    "def": "see nēah",
+    "grammar": "",
+    "lemma": "nӯhsta"
+  },
   "nуhsta": {
     "def": "see nēah",
     "grammar": "",
     "lemma": "nӯhsta"
+  },
+  "nуhste": {
+    "def": "see nēah",
+    "grammar": "",
+    "lemma": "nӯhsta"
+  },
+  "o hwær": {
+    "def": "2870",
+    "grammar": "adv.",
+    "lemma": "ō-hwǣr"
+  },
+  "o wiht": {
+    "def": "anything",
+    "grammar": "fni.",
+    "lemma": "ō-wiht"
   },
   "o-hwær": {
     "def": "2870",
@@ -11487,42 +33467,162 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prep.",
     "lemma": "of"
   },
+  "of ferian": {
+    "def": "carry OFF",
+    "grammar": "vb. I",
+    "lemma": "of-ferian"
+  },
+  "of gyfan": {
+    "def": "leave",
+    "grammar": "vb. 5",
+    "lemma": "of-ġyfan"
+  },
+  "of lætan": {
+    "def": "relinquish",
+    "grammar": "vb. 7",
+    "lemma": "of-lǣtan"
+  },
+  "of sceotan": {
+    "def": "2439",
+    "grammar": "vb. 2",
+    "lemma": "of-scēotan"
+  },
+  "of sittan": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "of-sittan"
+  },
+  "of slean": {
+    "def": "kill, destroy",
+    "grammar": "vb. 6",
+    "lemma": "of-slēan"
+  },
+  "of teon": {
+    "def": "deprive (w",
+    "grammar": "vb. 1",
+    "lemma": "of-tēon"
+  },
+  "of þyncan": {
+    "def": "displease",
+    "grammar": "vb. I",
+    "lemma": "of-þynċan"
+  },
+  "of-feri": {
+    "def": "carry OFF",
+    "grammar": "vb. I",
+    "lemma": "of-ferian"
+  },
   "of-ferian": {
     "def": "carry OFF",
     "grammar": "vb. I",
     "lemma": "of-ferian"
+  },
+  "of-ferie": {
+    "def": "carry OFF",
+    "grammar": "vb. I",
+    "lemma": "of-ferian"
+  },
+  "of-gyf": {
+    "def": "leave",
+    "grammar": "vb. 5",
+    "lemma": "of-ġyfan"
   },
   "of-gyfan": {
     "def": "leave",
     "grammar": "vb. 5",
     "lemma": "of-ġyfan"
   },
+  "of-gyfe": {
+    "def": "leave",
+    "grammar": "vb. 5",
+    "lemma": "of-ġyfan"
+  },
+  "of-læt": {
+    "def": "relinquish",
+    "grammar": "vb. 7",
+    "lemma": "of-lǣtan"
+  },
   "of-lætan": {
     "def": "relinquish",
     "grammar": "vb. 7",
     "lemma": "of-lǣtan"
+  },
+  "of-læte": {
+    "def": "relinquish",
+    "grammar": "vb. 7",
+    "lemma": "of-lǣtan"
+  },
+  "of-sceot": {
+    "def": "2439",
+    "grammar": "vb. 2",
+    "lemma": "of-scēotan"
   },
   "of-sceotan": {
     "def": "2439",
     "grammar": "vb. 2",
     "lemma": "of-scēotan"
   },
+  "of-sceote": {
+    "def": "2439",
+    "grammar": "vb. 2",
+    "lemma": "of-scēotan"
+  },
+  "of-sitt": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "of-sittan"
+  },
   "of-sittan": {
     "def": "w",
     "grammar": "vb. 5",
     "lemma": "of-sittan"
+  },
+  "of-sitte": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "of-sittan"
+  },
+  "of-sle": {
+    "def": "kill, destroy",
+    "grammar": "vb. 6",
+    "lemma": "of-slēan"
   },
   "of-slean": {
     "def": "kill, destroy",
     "grammar": "vb. 6",
     "lemma": "of-slēan"
   },
+  "of-slee": {
+    "def": "kill, destroy",
+    "grammar": "vb. 6",
+    "lemma": "of-slēan"
+  },
+  "of-te": {
+    "def": "deprive (w",
+    "grammar": "vb. 1",
+    "lemma": "of-tēon"
+  },
+  "of-tee": {
+    "def": "deprive (w",
+    "grammar": "vb. 1",
+    "lemma": "of-tēon"
+  },
   "of-teon": {
     "def": "deprive (w",
     "grammar": "vb. 1",
     "lemma": "of-tēon"
   },
+  "of-þync": {
+    "def": "displease",
+    "grammar": "vb. I",
+    "lemma": "of-þynċan"
+  },
   "of-þyncan": {
+    "def": "displease",
+    "grammar": "vb. I",
+    "lemma": "of-þynċan"
+  },
+  "of-þynce": {
     "def": "displease",
     "grammar": "vb. I",
     "lemma": "of-þynċan"
@@ -11532,42 +33632,207 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ōfer"
   },
+  "ofer cuman": {
+    "def": "1273",
+    "grammar": "vb. 4",
+    "lemma": "ofer-cuman"
+  },
+  "ofer eode": {
+    "def": "see ofer-gān",
+    "grammar": "",
+    "lemma": "ofer-ēode"
+  },
+  "ofer fleon": {
+    "def": "FLEE from (acc",
+    "grammar": "vb. 2",
+    "lemma": "ofer-flēon"
+  },
+  "ofer flitan": {
+    "def": "OVERmatch (in a contest)",
+    "grammar": "vb. 1",
+    "lemma": "ofer-flītan"
+  },
+  "ofer gan": {
+    "def": "traverse, cross",
+    "grammar": "anv.",
+    "lemma": "ofer-gān"
+  },
+  "ofer helmian": {
+    "def": "OVERhang, over-shadow",
+    "grammar": "vb. II",
+    "lemma": "ofer-helmian"
+  },
+  "ofer higian": {
+    "def": "pass away from, escape from",
+    "grammar": "vb. II",
+    "lemma": "ofer-hīgian"
+  },
+  "ofer hycgan": {
+    "def": "scorn",
+    "grammar": "vb.  III",
+    "lemma": "ofer-hycgan"
+  },
+  "ofer hygd": {
+    "def": "pride, arrogance",
+    "grammar": "",
+    "lemma": "ofer-hyġd"
+  },
+  "ofer maððum": {
+    "def": "exceeding treas-ure",
+    "grammar": "",
+    "lemma": "ofer-māððum"
+  },
+  "ofer mægen": {
+    "def": "superior force",
+    "grammar": "n.",
+    "lemma": "ofer-mæġen"
+  },
+  "ofer secan": {
+    "def": "OVERtax, put to too severe a trial",
+    "grammar": "vb. I",
+    "lemma": "ofer-sēċan"
+  },
+  "ofer seon": {
+    "def": "look on",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sēon"
+  },
+  "ofer sittan": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sittan"
+  },
+  "ofer swimman": {
+    "def": "SWIM OVER",
+    "grammar": "vb. 3",
+    "lemma": "ofer-swimman"
+  },
+  "ofer swуðan": {
+    "def": "over-come",
+    "grammar": "vb. I",
+    "lemma": "ofer-swӯðan"
+  },
+  "ofer weorpan": {
+    "def": "stumble (elsewhere trans",
+    "grammar": "vb.  3",
+    "lemma": "ofer-weorpan"
+  },
+  "ofer-cum": {
+    "def": "1273",
+    "grammar": "vb. 4",
+    "lemma": "ofer-cuman"
+  },
   "ofer-cuman": {
     "def": "1273",
     "grammar": "vb. 4",
     "lemma": "ofer-cuman"
+  },
+  "ofer-cume": {
+    "def": "1273",
+    "grammar": "vb. 4",
+    "lemma": "ofer-cuman"
+  },
+  "ofer-eo": {
+    "def": "see ofer-gān",
+    "grammar": "",
+    "lemma": "ofer-ēode"
+  },
+  "ofer-eod": {
+    "def": "see ofer-gān",
+    "grammar": "",
+    "lemma": "ofer-ēode"
   },
   "ofer-eode": {
     "def": "see ofer-gān",
     "grammar": "",
     "lemma": "ofer-ēode"
   },
+  "ofer-fle": {
+    "def": "FLEE from (acc",
+    "grammar": "vb. 2",
+    "lemma": "ofer-flēon"
+  },
+  "ofer-flee": {
+    "def": "FLEE from (acc",
+    "grammar": "vb. 2",
+    "lemma": "ofer-flēon"
+  },
   "ofer-fleon": {
     "def": "FLEE from (acc",
     "grammar": "vb. 2",
     "lemma": "ofer-flēon"
+  },
+  "ofer-flit": {
+    "def": "OVERmatch (in a contest)",
+    "grammar": "vb. 1",
+    "lemma": "ofer-flītan"
   },
   "ofer-flitan": {
     "def": "OVERmatch (in a contest)",
     "grammar": "vb. 1",
     "lemma": "ofer-flītan"
   },
+  "ofer-flite": {
+    "def": "OVERmatch (in a contest)",
+    "grammar": "vb. 1",
+    "lemma": "ofer-flītan"
+  },
+  "ofer-g": {
+    "def": "traverse, cross",
+    "grammar": "anv.",
+    "lemma": "ofer-gān"
+  },
   "ofer-gan": {
     "def": "traverse, cross",
     "grammar": "anv.",
     "lemma": "ofer-gān"
+  },
+  "ofer-ge": {
+    "def": "traverse, cross",
+    "grammar": "anv.",
+    "lemma": "ofer-gān"
+  },
+  "ofer-helmi": {
+    "def": "OVERhang, over-shadow",
+    "grammar": "vb. II",
+    "lemma": "ofer-helmian"
   },
   "ofer-helmian": {
     "def": "OVERhang, over-shadow",
     "grammar": "vb. II",
     "lemma": "ofer-helmian"
   },
+  "ofer-helmie": {
+    "def": "OVERhang, over-shadow",
+    "grammar": "vb. II",
+    "lemma": "ofer-helmian"
+  },
+  "ofer-higi": {
+    "def": "pass away from, escape from",
+    "grammar": "vb. II",
+    "lemma": "ofer-hīgian"
+  },
   "ofer-higian": {
     "def": "pass away from, escape from",
     "grammar": "vb. II",
     "lemma": "ofer-hīgian"
   },
+  "ofer-higie": {
+    "def": "pass away from, escape from",
+    "grammar": "vb. II",
+    "lemma": "ofer-hīgian"
+  },
+  "ofer-hycg": {
+    "def": "scorn",
+    "grammar": "vb.  III",
+    "lemma": "ofer-hycgan"
+  },
   "ofer-hycgan": {
+    "def": "scorn",
+    "grammar": "vb.  III",
+    "lemma": "ofer-hycgan"
+  },
+  "ofer-hycge": {
     "def": "scorn",
     "grammar": "vb.  III",
     "lemma": "ofer-hycgan"
@@ -11577,75 +33842,550 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ofer-hyġd"
   },
+  "ofer-maðð": {
+    "def": "exceeding treas-ure",
+    "grammar": "",
+    "lemma": "ofer-māððum"
+  },
+  "ofer-maððe": {
+    "def": "exceeding treas-ure",
+    "grammar": "",
+    "lemma": "ofer-māððum"
+  },
   "ofer-maððum": {
     "def": "exceeding treas-ure",
     "grammar": "",
     "lemma": "ofer-māððum"
+  },
+  "ofer-mæg": {
+    "def": "superior force",
+    "grammar": "n.",
+    "lemma": "ofer-mæġen"
+  },
+  "ofer-mæge": {
+    "def": "superior force",
+    "grammar": "n.",
+    "lemma": "ofer-mæġen"
   },
   "ofer-mægen": {
     "def": "superior force",
     "grammar": "n.",
     "lemma": "ofer-mæġen"
   },
+  "ofer-se": {
+    "def": "look on",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sēon"
+  },
+  "ofer-sec": {
+    "def": "OVERtax, put to too severe a trial",
+    "grammar": "vb. I",
+    "lemma": "ofer-sēċan"
+  },
   "ofer-secan": {
     "def": "OVERtax, put to too severe a trial",
     "grammar": "vb. I",
     "lemma": "ofer-sēċan"
+  },
+  "ofer-sece": {
+    "def": "OVERtax, put to too severe a trial",
+    "grammar": "vb. I",
+    "lemma": "ofer-sēċan"
+  },
+  "ofer-see": {
+    "def": "look on",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sēon"
   },
   "ofer-seon": {
     "def": "look on",
     "grammar": "vb. 5",
     "lemma": "ofer-sēon"
   },
+  "ofer-sitt": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sittan"
+  },
   "ofer-sittan": {
     "def": "w",
     "grammar": "vb. 5",
     "lemma": "ofer-sittan"
+  },
+  "ofer-sitte": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sittan"
+  },
+  "ofer-swimm": {
+    "def": "SWIM OVER",
+    "grammar": "vb. 3",
+    "lemma": "ofer-swimman"
   },
   "ofer-swimman": {
     "def": "SWIM OVER",
     "grammar": "vb. 3",
     "lemma": "ofer-swimman"
   },
+  "ofer-swimme": {
+    "def": "SWIM OVER",
+    "grammar": "vb. 3",
+    "lemma": "ofer-swimman"
+  },
+  "ofer-swуð": {
+    "def": "over-come",
+    "grammar": "vb. I",
+    "lemma": "ofer-swӯðan"
+  },
   "ofer-swуðan": {
     "def": "over-come",
     "grammar": "vb. I",
     "lemma": "ofer-swӯðan"
+  },
+  "ofer-swуðe": {
+    "def": "over-come",
+    "grammar": "vb. I",
+    "lemma": "ofer-swӯðan"
+  },
+  "ofer-weorp": {
+    "def": "stumble (elsewhere trans",
+    "grammar": "vb.  3",
+    "lemma": "ofer-weorpan"
   },
   "ofer-weorpan": {
     "def": "stumble (elsewhere trans",
     "grammar": "vb.  3",
     "lemma": "ofer-weorpan"
   },
+  "ofer-weorpe": {
+    "def": "stumble (elsewhere trans",
+    "grammar": "vb.  3",
+    "lemma": "ofer-weorpan"
+  },
+  "ofercuman": {
+    "def": "1273",
+    "grammar": "vb. 4",
+    "lemma": "ofer-cuman"
+  },
+  "ofereode": {
+    "def": "see ofer-gān",
+    "grammar": "",
+    "lemma": "ofer-ēode"
+  },
+  "oferfleon": {
+    "def": "FLEE from (acc",
+    "grammar": "vb. 2",
+    "lemma": "ofer-flēon"
+  },
+  "oferflitan": {
+    "def": "OVERmatch (in a contest)",
+    "grammar": "vb. 1",
+    "lemma": "ofer-flītan"
+  },
+  "ofergan": {
+    "def": "traverse, cross",
+    "grammar": "anv.",
+    "lemma": "ofer-gān"
+  },
+  "oferhelmian": {
+    "def": "OVERhang, over-shadow",
+    "grammar": "vb. II",
+    "lemma": "ofer-helmian"
+  },
+  "oferhigian": {
+    "def": "pass away from, escape from",
+    "grammar": "vb. II",
+    "lemma": "ofer-hīgian"
+  },
+  "oferhycgan": {
+    "def": "scorn",
+    "grammar": "vb.  III",
+    "lemma": "ofer-hycgan"
+  },
+  "oferhygd": {
+    "def": "pride, arrogance",
+    "grammar": "",
+    "lemma": "ofer-hyġd"
+  },
+  "ofermaððum": {
+    "def": "exceeding treas-ure",
+    "grammar": "",
+    "lemma": "ofer-māððum"
+  },
+  "ofermægen": {
+    "def": "superior force",
+    "grammar": "n.",
+    "lemma": "ofer-mæġen"
+  },
+  "ofersecan": {
+    "def": "OVERtax, put to too severe a trial",
+    "grammar": "vb. I",
+    "lemma": "ofer-sēċan"
+  },
+  "oferseon": {
+    "def": "look on",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sēon"
+  },
+  "ofersittan": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "ofer-sittan"
+  },
+  "oferswimman": {
+    "def": "SWIM OVER",
+    "grammar": "vb. 3",
+    "lemma": "ofer-swimman"
+  },
+  "oferswуðan": {
+    "def": "over-come",
+    "grammar": "vb. I",
+    "lemma": "ofer-swӯðan"
+  },
+  "oferweorpan": {
+    "def": "stumble (elsewhere trans",
+    "grammar": "vb.  3",
+    "lemma": "ofer-weorpan"
+  },
+  "offerian": {
+    "def": "carry OFF",
+    "grammar": "vb. I",
+    "lemma": "of-ferian"
+  },
+  "ofgyfan": {
+    "def": "leave",
+    "grammar": "vb. 5",
+    "lemma": "of-ġyfan"
+  },
+  "oflætan": {
+    "def": "relinquish",
+    "grammar": "vb. 7",
+    "lemma": "of-lǣtan"
+  },
   "ofost": {
     "def": "speed",
     "grammar": "f.",
     "lemma": "ofost"
+  },
+  "ofost lice": {
+    "def": "in haste",
+    "grammar": "adv.",
+    "lemma": "ofost-līċe"
+  },
+  "ofost-lic": {
+    "def": "in haste",
+    "grammar": "adv.",
+    "lemma": "ofost-līċe"
   },
   "ofost-lice": {
     "def": "in haste",
     "grammar": "adv.",
     "lemma": "ofost-līċe"
   },
+  "ofostlice": {
+    "def": "in haste",
+    "grammar": "adv.",
+    "lemma": "ofost-līċe"
+  },
+  "ofsceotan": {
+    "def": "2439",
+    "grammar": "vb. 2",
+    "lemma": "of-scēotan"
+  },
+  "ofsittan": {
+    "def": "w",
+    "grammar": "vb. 5",
+    "lemma": "of-sittan"
+  },
+  "ofslean": {
+    "def": "kill, destroy",
+    "grammar": "vb. 6",
+    "lemma": "of-slēan"
+  },
   "oft": {
     "def": "165, 171, 444, 480, 572, 857, 907, 951, 1065, 1238, 1247, 1252, 1428, 1526, 1885, 1887, 2018, 2029, 2296, 2478, 2500, 2867, 2937, 3019, 3077, 3116",
     "grammar": "adv.",
     "lemma": "oft"
+  },
+  "ofteon": {
+    "def": "deprive (w",
+    "grammar": "vb. 1",
+    "lemma": "of-tēon"
+  },
+  "ofþyncan": {
+    "def": "displease",
+    "grammar": "vb. I",
+    "lemma": "of-þynċan"
+  },
+  "ohwær": {
+    "def": "2870",
+    "grammar": "adv.",
+    "lemma": "ō-hwǣr"
   },
   "ombeht": {
     "def": "attendant",
     "grammar": "m.",
     "lemma": "ombeht"
   },
+  "ombiht þegn": {
+    "def": "attendant, oÌcer",
+    "grammar": "m.",
+    "lemma": "ombiht-þeġn"
+  },
   "ombiht-þegn": {
     "def": "attendant, oÌcer",
     "grammar": "m.",
     "lemma": "ombiht-þeġn"
   },
+  "ombihtþegn": {
+    "def": "attendant, oÌcer",
+    "grammar": "m.",
+    "lemma": "ombiht-þeġn"
+  },
+  "ome": {
+    "def": "rusty",
+    "grammar": "adj.",
+    "lemma": "ōmiġ"
+  },
   "omig": {
     "def": "rusty",
     "grammar": "adj.",
     "lemma": "ōmiġ"
+  },
+  "on": {
+    "def": "prefix, = 1",
+    "grammar": "prefix",
+    "lemma": "on-"
+  },
+  "on ": {
+    "def": "prefix, = 1",
+    "grammar": "prefix",
+    "lemma": "on-"
+  },
+  "on arn": {
+    "def": "see on-irnan",
+    "grammar": "",
+    "lemma": "on-arn"
+  },
+  "on beran": {
+    "def": "weaken, di-minish",
+    "grammar": "vb.  4",
+    "lemma": "on-beran"
+  },
+  "on bidan": {
+    "def": "2302",
+    "grammar": "vb. 1",
+    "lemma": "on-bīdan"
+  },
+  "on bindan": {
+    "def": "let loose",
+    "grammar": "vb. 3",
+    "lemma": "on-bindan"
+  },
+  "on bregdan": {
+    "def": "723",
+    "grammar": "vb. 3",
+    "lemma": "on-breġdan"
+  },
+  "on cirran": {
+    "def": "change (trans",
+    "grammar": "vb. I",
+    "lemma": "on-ċirran"
+  },
+  "on cnawan": {
+    "def": "recognize, perceive",
+    "grammar": "vb.  7",
+    "lemma": "on-cnāwan"
+  },
+  "on cweðan": {
+    "def": "answer",
+    "grammar": "vb. 5",
+    "lemma": "on-cweðan"
+  },
+  "on cуð(ð)": {
+    "def": "grief, distress",
+    "grammar": "f.",
+    "lemma": "on-cӯð(ð)"
+  },
+  "on drædan": {
+    "def": "fear",
+    "grammar": "vb. 7",
+    "lemma": "on-drǣdan"
+  },
+  "on findan": {
+    "def": "find out, dis-cover, perceive",
+    "grammar": "vb. 3",
+    "lemma": "on-findan"
+  },
+  "on fon": {
+    "def": "receive, take",
+    "grammar": "vb. 7",
+    "lemma": "on-fōn"
+  },
+  "on geador": {
+    "def": "toGETHER",
+    "grammar": "adv.",
+    "lemma": "on-ġeador"
+  },
+  "on gean": {
+    "def": "AGAINst, to-ward",
+    "grammar": "prep.",
+    "lemma": "on-ġēan"
+  },
+  "on ginnan": {
+    "def": "undertake",
+    "grammar": "vb. 3",
+    "lemma": "on-ġinnan"
+  },
+  "on gitan": {
+    "def": "perceive, see, hear, understand",
+    "grammar": "",
+    "lemma": "on-ġitan"
+  },
+  "on hreran": {
+    "def": "arouse",
+    "grammar": "vb. I",
+    "lemma": "on-hrēran"
+  },
+  "on irnan": {
+    "def": "†give way, spring open",
+    "grammar": "vb. 3",
+    "lemma": "on-irnan"
+  },
+  "on leon": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "on-lēon"
+  },
+  "on licnes(s)": {
+    "def": "1351",
+    "grammar": "fj",
+    "lemma": "on-līcnes(s)"
+  },
+  "on lucan": {
+    "def": "disclose",
+    "grammar": "vb. 2",
+    "lemma": "on-lūcan"
+  },
+  "on lætan": {
+    "def": "release",
+    "grammar": "vb. 7",
+    "lemma": "on-lǣtan"
+  },
+  "on medla": {
+    "def": "arrogance, pre-sumption, effrontery",
+    "grammar": "wk.",
+    "lemma": "on-mēdla"
+  },
+  "on munan": {
+    "def": "consider worthy of (or fit for)",
+    "grammar": "prp.",
+    "lemma": "on-munan"
+  },
+  "on sacan": {
+    "def": "contest, fight (dat",
+    "grammar": "vb. 6",
+    "lemma": "on-sacan"
+  },
+  "on secan": {
+    "def": "exact (something from some-one), deprive (someone of something)",
+    "grammar": "vb. I",
+    "lemma": "on-sēċan"
+  },
+  "on sendan(ond )": {
+    "def": "SEND, send away",
+    "grammar": "vb.  I",
+    "lemma": "on-sendan(ond-)"
+  },
+  "on sittan": {
+    "def": "vb",
+    "grammar": "vb. 5",
+    "lemma": "on-sittan"
+  },
+  "on sponnan": {
+    "def": "unfasten",
+    "grammar": "vb. 7",
+    "lemma": "on-sponnan"
+  },
+  "on springan": {
+    "def": "817",
+    "grammar": "vb. 3",
+    "lemma": "on-springan"
+  },
+  "on stellan": {
+    "def": "bring about",
+    "grammar": "vb. I",
+    "lemma": "on-stellan"
+  },
+  "on swifan": {
+    "def": "swing, turn (trans",
+    "grammar": "vb. 1",
+    "lemma": "on-swīfan"
+  },
+  "on sæce": {
+    "def": "see on-sēċan",
+    "grammar": "",
+    "lemma": "on-sǣċe"
+  },
+  "on sæge": {
+    "def": "attacking, as-sailing (see Aant",
+    "grammar": "adj.",
+    "lemma": "on-sǣġe"
+  },
+  "on sælan": {
+    "def": "loosen, disclose",
+    "grammar": "vb. I",
+    "lemma": "on-sǣlan"
+  },
+  "on sуn": {
+    "def": "see an-sӯn",
+    "grammar": "",
+    "lemma": "on-sӯn"
+  },
+  "on tyhtan": {
+    "def": "incite, impel",
+    "grammar": "vb. I",
+    "lemma": "on-tyhtan"
+  },
+  "on wacnian": {
+    "def": "AWAKE (intr",
+    "grammar": "vb. II",
+    "lemma": "on-wacnian"
+  },
+  "on wadan": {
+    "def": "enter, take pos-session of",
+    "grammar": "vb. 6",
+    "lemma": "on-wadan"
+  },
+  "on weald": {
+    "def": "possession",
+    "grammar": "m.",
+    "lemma": "on-weald"
+  },
+  "on wendan": {
+    "def": "put aside, remove",
+    "grammar": "vb. I",
+    "lemma": "on-wendan"
+  },
+  "on windan": {
+    "def": "UNWIND, loosen",
+    "grammar": "vb. 3",
+    "lemma": "on-windan"
+  },
+  "on woc": {
+    "def": "see on-wæcnan",
+    "grammar": "",
+    "lemma": "on-wōc"
+  },
+  "on wæcnan": {
+    "def": "vb",
+    "grammar": "pret.",
+    "lemma": "on-wæcnan"
+  },
+  "on ðeon": {
+    "def": "prosper, thrive",
+    "grammar": "vb. 1",
+    "lemma": "on-ðēon"
   },
   "on(an:677": {
     "def": "I",
@@ -11662,37 +34402,107 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "on-arn"
   },
+  "on-ber": {
+    "def": "weaken, di-minish",
+    "grammar": "vb.  4",
+    "lemma": "on-beran"
+  },
   "on-beran": {
     "def": "weaken, di-minish",
     "grammar": "vb.  4",
     "lemma": "on-beran"
+  },
+  "on-bere": {
+    "def": "weaken, di-minish",
+    "grammar": "vb.  4",
+    "lemma": "on-beran"
+  },
+  "on-bid": {
+    "def": "2302",
+    "grammar": "vb. 1",
+    "lemma": "on-bīdan"
   },
   "on-bidan": {
     "def": "2302",
     "grammar": "vb. 1",
     "lemma": "on-bīdan"
   },
+  "on-bide": {
+    "def": "2302",
+    "grammar": "vb. 1",
+    "lemma": "on-bīdan"
+  },
+  "on-bind": {
+    "def": "let loose",
+    "grammar": "vb. 3",
+    "lemma": "on-bindan"
+  },
   "on-bindan": {
     "def": "let loose",
     "grammar": "vb. 3",
     "lemma": "on-bindan"
+  },
+  "on-binde": {
+    "def": "let loose",
+    "grammar": "vb. 3",
+    "lemma": "on-bindan"
+  },
+  "on-bregd": {
+    "def": "723",
+    "grammar": "vb. 3",
+    "lemma": "on-breġdan"
   },
   "on-bregdan": {
     "def": "723",
     "grammar": "vb. 3",
     "lemma": "on-breġdan"
   },
+  "on-bregde": {
+    "def": "723",
+    "grammar": "vb. 3",
+    "lemma": "on-breġdan"
+  },
+  "on-cirr": {
+    "def": "change (trans",
+    "grammar": "vb. I",
+    "lemma": "on-ċirran"
+  },
   "on-cirran": {
     "def": "change (trans",
     "grammar": "vb. I",
     "lemma": "on-ċirran"
+  },
+  "on-cirre": {
+    "def": "change (trans",
+    "grammar": "vb. I",
+    "lemma": "on-ċirran"
+  },
+  "on-cnaw": {
+    "def": "recognize, perceive",
+    "grammar": "vb.  7",
+    "lemma": "on-cnāwan"
   },
   "on-cnawan": {
     "def": "recognize, perceive",
     "grammar": "vb.  7",
     "lemma": "on-cnāwan"
   },
+  "on-cnawe": {
+    "def": "recognize, perceive",
+    "grammar": "vb.  7",
+    "lemma": "on-cnāwan"
+  },
+  "on-cweð": {
+    "def": "answer",
+    "grammar": "vb. 5",
+    "lemma": "on-cweðan"
+  },
   "on-cweðan": {
+    "def": "answer",
+    "grammar": "vb. 5",
+    "lemma": "on-cweðan"
+  },
+  "on-cweðe": {
     "def": "answer",
     "grammar": "vb. 5",
     "lemma": "on-cweðan"
@@ -11702,12 +34512,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "on-cӯð(ð)"
   },
+  "on-dræd": {
+    "def": "fear",
+    "grammar": "vb. 7",
+    "lemma": "on-drǣdan"
+  },
   "on-drædan": {
     "def": "fear",
     "grammar": "vb. 7",
     "lemma": "on-drǣdan"
   },
+  "on-dræde": {
+    "def": "fear",
+    "grammar": "vb. 7",
+    "lemma": "on-drǣdan"
+  },
+  "on-f": {
+    "def": "receive, take",
+    "grammar": "vb. 7",
+    "lemma": "on-fōn"
+  },
+  "on-fe": {
+    "def": "receive, take",
+    "grammar": "vb. 7",
+    "lemma": "on-fōn"
+  },
+  "on-find": {
+    "def": "find out, dis-cover, perceive",
+    "grammar": "vb. 3",
+    "lemma": "on-findan"
+  },
   "on-findan": {
+    "def": "find out, dis-cover, perceive",
+    "grammar": "vb. 3",
+    "lemma": "on-findan"
+  },
+  "on-finde": {
     "def": "find out, dis-cover, perceive",
     "grammar": "vb. 3",
     "lemma": "on-findan"
@@ -11716,6 +34556,11 @@ const OLD_ENGLISH_DICT = {
     "def": "receive, take",
     "grammar": "vb. 7",
     "lemma": "on-fōn"
+  },
+  "on-ge": {
+    "def": "AGAINst, to-ward",
+    "grammar": "prep.",
+    "lemma": "on-ġēan"
   },
   "on-geador": {
     "def": "toGETHER",
@@ -11727,25 +34572,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prep.",
     "lemma": "on-ġēan"
   },
+  "on-gee": {
+    "def": "AGAINst, to-ward",
+    "grammar": "prep.",
+    "lemma": "on-ġēan"
+  },
+  "on-ginn": {
+    "def": "undertake",
+    "grammar": "vb. 3",
+    "lemma": "on-ġinnan"
+  },
   "on-ginnan": {
     "def": "undertake",
     "grammar": "vb. 3",
     "lemma": "on-ġinnan"
+  },
+  "on-ginne": {
+    "def": "undertake",
+    "grammar": "vb. 3",
+    "lemma": "on-ġinnan"
+  },
+  "on-git": {
+    "def": "perceive, see, hear, understand",
+    "grammar": "",
+    "lemma": "on-ġitan"
   },
   "on-gitan": {
     "def": "perceive, see, hear, understand",
     "grammar": "",
     "lemma": "on-ġitan"
   },
+  "on-gite": {
+    "def": "perceive, see, hear, understand",
+    "grammar": "",
+    "lemma": "on-ġitan"
+  },
+  "on-hrer": {
+    "def": "arouse",
+    "grammar": "vb. I",
+    "lemma": "on-hrēran"
+  },
   "on-hreran": {
     "def": "arouse",
     "grammar": "vb. I",
     "lemma": "on-hrēran"
   },
+  "on-hrere": {
+    "def": "arouse",
+    "grammar": "vb. I",
+    "lemma": "on-hrēran"
+  },
+  "on-irn": {
+    "def": "†give way, spring open",
+    "grammar": "vb. 3",
+    "lemma": "on-irnan"
+  },
   "on-irnan": {
     "def": "†give way, spring open",
     "grammar": "vb. 3",
     "lemma": "on-irnan"
+  },
+  "on-irne": {
+    "def": "†give way, spring open",
+    "grammar": "vb. 3",
+    "lemma": "on-irnan"
+  },
+  "on-le": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "on-lēon"
+  },
+  "on-lee": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "on-lēon"
   },
   "on-leon": {
     "def": "lend",
@@ -11757,32 +34657,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "on-līcnes(s)"
   },
+  "on-luc": {
+    "def": "disclose",
+    "grammar": "vb. 2",
+    "lemma": "on-lūcan"
+  },
   "on-lucan": {
     "def": "disclose",
     "grammar": "vb. 2",
     "lemma": "on-lūcan"
+  },
+  "on-luce": {
+    "def": "disclose",
+    "grammar": "vb. 2",
+    "lemma": "on-lūcan"
+  },
+  "on-læt": {
+    "def": "release",
+    "grammar": "vb. 7",
+    "lemma": "on-lǣtan"
   },
   "on-lætan": {
     "def": "release",
     "grammar": "vb. 7",
     "lemma": "on-lǣtan"
   },
+  "on-læte": {
+    "def": "release",
+    "grammar": "vb. 7",
+    "lemma": "on-lǣtan"
+  },
+  "on-medl": {
+    "def": "arrogance, pre-sumption, effrontery",
+    "grammar": "wk.",
+    "lemma": "on-mēdla"
+  },
   "on-medla": {
     "def": "arrogance, pre-sumption, effrontery",
     "grammar": "wk.",
     "lemma": "on-mēdla"
+  },
+  "on-medle": {
+    "def": "arrogance, pre-sumption, effrontery",
+    "grammar": "wk.",
+    "lemma": "on-mēdla"
+  },
+  "on-mun": {
+    "def": "consider worthy of (or fit for)",
+    "grammar": "prp.",
+    "lemma": "on-munan"
   },
   "on-munan": {
     "def": "consider worthy of (or fit for)",
     "grammar": "prp.",
     "lemma": "on-munan"
   },
+  "on-mune": {
+    "def": "consider worthy of (or fit for)",
+    "grammar": "prp.",
+    "lemma": "on-munan"
+  },
+  "on-sac": {
+    "def": "contest, fight (dat",
+    "grammar": "vb. 6",
+    "lemma": "on-sacan"
+  },
   "on-sacan": {
     "def": "contest, fight (dat",
     "grammar": "vb. 6",
     "lemma": "on-sacan"
   },
+  "on-sace": {
+    "def": "contest, fight (dat",
+    "grammar": "vb. 6",
+    "lemma": "on-sacan"
+  },
+  "on-sec": {
+    "def": "exact (something from some-one), deprive (someone of something)",
+    "grammar": "vb. I",
+    "lemma": "on-sēċan"
+  },
   "on-secan": {
+    "def": "exact (something from some-one), deprive (someone of something)",
+    "grammar": "vb. I",
+    "lemma": "on-sēċan"
+  },
+  "on-sece": {
     "def": "exact (something from some-one), deprive (someone of something)",
     "grammar": "vb. I",
     "lemma": "on-sēċan"
@@ -11792,42 +34752,112 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "on-sendan(ond-)"
   },
+  "on-sitt": {
+    "def": "vb",
+    "grammar": "vb. 5",
+    "lemma": "on-sittan"
+  },
   "on-sittan": {
     "def": "vb",
     "grammar": "vb. 5",
     "lemma": "on-sittan"
+  },
+  "on-sitte": {
+    "def": "vb",
+    "grammar": "vb. 5",
+    "lemma": "on-sittan"
+  },
+  "on-sponn": {
+    "def": "unfasten",
+    "grammar": "vb. 7",
+    "lemma": "on-sponnan"
   },
   "on-sponnan": {
     "def": "unfasten",
     "grammar": "vb. 7",
     "lemma": "on-sponnan"
   },
+  "on-sponne": {
+    "def": "unfasten",
+    "grammar": "vb. 7",
+    "lemma": "on-sponnan"
+  },
+  "on-spring": {
+    "def": "817",
+    "grammar": "vb. 3",
+    "lemma": "on-springan"
+  },
   "on-springan": {
     "def": "817",
     "grammar": "vb. 3",
     "lemma": "on-springan"
+  },
+  "on-springe": {
+    "def": "817",
+    "grammar": "vb. 3",
+    "lemma": "on-springan"
+  },
+  "on-stell": {
+    "def": "bring about",
+    "grammar": "vb. I",
+    "lemma": "on-stellan"
   },
   "on-stellan": {
     "def": "bring about",
     "grammar": "vb. I",
     "lemma": "on-stellan"
   },
+  "on-stelle": {
+    "def": "bring about",
+    "grammar": "vb. I",
+    "lemma": "on-stellan"
+  },
+  "on-swif": {
+    "def": "swing, turn (trans",
+    "grammar": "vb. 1",
+    "lemma": "on-swīfan"
+  },
   "on-swifan": {
     "def": "swing, turn (trans",
     "grammar": "vb. 1",
     "lemma": "on-swīfan"
+  },
+  "on-swife": {
+    "def": "swing, turn (trans",
+    "grammar": "vb. 1",
+    "lemma": "on-swīfan"
+  },
+  "on-sæc": {
+    "def": "see on-sēċan",
+    "grammar": "",
+    "lemma": "on-sǣċe"
   },
   "on-sæce": {
     "def": "see on-sēċan",
     "grammar": "",
     "lemma": "on-sǣċe"
   },
+  "on-sæg": {
+    "def": "attacking, as-sailing (see Aant",
+    "grammar": "adj.",
+    "lemma": "on-sǣġe"
+  },
   "on-sæge": {
     "def": "attacking, as-sailing (see Aant",
     "grammar": "adj.",
     "lemma": "on-sǣġe"
   },
+  "on-sæl": {
+    "def": "loosen, disclose",
+    "grammar": "vb. I",
+    "lemma": "on-sǣlan"
+  },
   "on-sælan": {
+    "def": "loosen, disclose",
+    "grammar": "vb. I",
+    "lemma": "on-sǣlan"
+  },
+  "on-sæle": {
     "def": "loosen, disclose",
     "grammar": "vb. I",
     "lemma": "on-sǣlan"
@@ -11837,17 +34867,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "on-sӯn"
   },
+  "on-tyht": {
+    "def": "incite, impel",
+    "grammar": "vb. I",
+    "lemma": "on-tyhtan"
+  },
   "on-tyhtan": {
     "def": "incite, impel",
     "grammar": "vb. I",
     "lemma": "on-tyhtan"
+  },
+  "on-tyhte": {
+    "def": "incite, impel",
+    "grammar": "vb. I",
+    "lemma": "on-tyhtan"
+  },
+  "on-wacni": {
+    "def": "AWAKE (intr",
+    "grammar": "vb. II",
+    "lemma": "on-wacnian"
   },
   "on-wacnian": {
     "def": "AWAKE (intr",
     "grammar": "vb. II",
     "lemma": "on-wacnian"
   },
+  "on-wacnie": {
+    "def": "AWAKE (intr",
+    "grammar": "vb. II",
+    "lemma": "on-wacnian"
+  },
+  "on-wad": {
+    "def": "enter, take pos-session of",
+    "grammar": "vb. 6",
+    "lemma": "on-wadan"
+  },
   "on-wadan": {
+    "def": "enter, take pos-session of",
+    "grammar": "vb. 6",
+    "lemma": "on-wadan"
+  },
+  "on-wade": {
     "def": "enter, take pos-session of",
     "grammar": "vb. 6",
     "lemma": "on-wadan"
@@ -11857,12 +34917,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "on-weald"
   },
+  "on-wend": {
+    "def": "put aside, remove",
+    "grammar": "vb. I",
+    "lemma": "on-wendan"
+  },
   "on-wendan": {
     "def": "put aside, remove",
     "grammar": "vb. I",
     "lemma": "on-wendan"
   },
+  "on-wende": {
+    "def": "put aside, remove",
+    "grammar": "vb. I",
+    "lemma": "on-wendan"
+  },
+  "on-wind": {
+    "def": "UNWIND, loosen",
+    "grammar": "vb. 3",
+    "lemma": "on-windan"
+  },
   "on-windan": {
+    "def": "UNWIND, loosen",
+    "grammar": "vb. 3",
+    "lemma": "on-windan"
+  },
+  "on-winde": {
     "def": "UNWIND, loosen",
     "grammar": "vb. 3",
     "lemma": "on-windan"
@@ -11872,37 +34952,172 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "on-wōc"
   },
+  "on-wæcn": {
+    "def": "vb",
+    "grammar": "pret.",
+    "lemma": "on-wæcnan"
+  },
   "on-wæcnan": {
     "def": "vb",
     "grammar": "pret.",
     "lemma": "on-wæcnan"
+  },
+  "on-wæcne": {
+    "def": "vb",
+    "grammar": "pret.",
+    "lemma": "on-wæcnan"
+  },
+  "on-ðe": {
+    "def": "prosper, thrive",
+    "grammar": "vb. 1",
+    "lemma": "on-ðēon"
+  },
+  "on-ðee": {
+    "def": "prosper, thrive",
+    "grammar": "vb. 1",
+    "lemma": "on-ðēon"
   },
   "on-ðeon": {
     "def": "prosper, thrive",
     "grammar": "vb. 1",
     "lemma": "on-ðēon"
   },
+  "onarn": {
+    "def": "see on-irnan",
+    "grammar": "",
+    "lemma": "on-arn"
+  },
+  "onberan": {
+    "def": "weaken, di-minish",
+    "grammar": "vb.  4",
+    "lemma": "on-beran"
+  },
+  "onbidan": {
+    "def": "2302",
+    "grammar": "vb. 1",
+    "lemma": "on-bīdan"
+  },
+  "onbindan": {
+    "def": "let loose",
+    "grammar": "vb. 3",
+    "lemma": "on-bindan"
+  },
+  "onbregdan": {
+    "def": "723",
+    "grammar": "vb. 3",
+    "lemma": "on-breġdan"
+  },
+  "oncer": {
+    "def": "see ancor-",
+    "grammar": "",
+    "lemma": "oncer-"
+  },
+  "oncer ": {
+    "def": "see ancor-",
+    "grammar": "",
+    "lemma": "oncer-"
+  },
   "oncer-": {
     "def": "see ancor-",
     "grammar": "",
     "lemma": "oncer-"
+  },
+  "oncirran": {
+    "def": "change (trans",
+    "grammar": "vb. I",
+    "lemma": "on-ċirran"
+  },
+  "oncnawan": {
+    "def": "recognize, perceive",
+    "grammar": "vb.  7",
+    "lemma": "on-cnāwan"
+  },
+  "oncweðan": {
+    "def": "answer",
+    "grammar": "vb. 5",
+    "lemma": "on-cweðan"
+  },
+  "oncуð(ð)": {
+    "def": "grief, distress",
+    "grammar": "f.",
+    "lemma": "on-cӯð(ð)"
   },
   "ond": {
     "def": "1148, 2040 (see also 600 ̄n",
     "grammar": "conj.",
     "lemma": "ond"
   },
+  "ond drysne": {
+    "def": "awful",
+    "grammar": "adj.",
+    "lemma": "ond-drysne"
+  },
+  "ond hweorfan": {
+    "def": "turn (intr",
+    "grammar": "vb.  3",
+    "lemma": "ond-hweorfan"
+  },
+  "ond lean": {
+    "def": "see and-lēan",
+    "grammar": "",
+    "lemma": "ond-lēan"
+  },
+  "ond long": {
+    "def": "see and-long",
+    "grammar": "",
+    "lemma": "ond-long"
+  },
+  "ond sendeþ": {
+    "def": "see on-sendan",
+    "grammar": "",
+    "lemma": "ond-sendeþ"
+  },
+  "ond slyht": {
+    "def": "onSLAUGHT, counter-blow",
+    "grammar": "mi.",
+    "lemma": "ond-slyht"
+  },
+  "ond-drys": {
+    "def": "awful",
+    "grammar": "adj.",
+    "lemma": "ond-drysne"
+  },
+  "ond-drysn": {
+    "def": "awful",
+    "grammar": "adj.",
+    "lemma": "ond-drysne"
+  },
   "ond-drysne": {
     "def": "awful",
     "grammar": "adj.",
     "lemma": "ond-drysne"
+  },
+  "ond-hweorf": {
+    "def": "turn (intr",
+    "grammar": "vb.  3",
+    "lemma": "ond-hweorfan"
   },
   "ond-hweorfan": {
     "def": "turn (intr",
     "grammar": "vb.  3",
     "lemma": "ond-hweorfan"
   },
+  "ond-hweorfe": {
+    "def": "turn (intr",
+    "grammar": "vb.  3",
+    "lemma": "ond-hweorfan"
+  },
+  "ond-le": {
+    "def": "see and-lēan",
+    "grammar": "",
+    "lemma": "ond-lēan"
+  },
   "ond-lean": {
+    "def": "see and-lēan",
+    "grammar": "",
+    "lemma": "ond-lēan"
+  },
+  "ond-lee": {
     "def": "see and-lēan",
     "grammar": "",
     "lemma": "ond-lēan"
@@ -11922,27 +35137,287 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ond-slyht"
   },
+  "onddrysne": {
+    "def": "awful",
+    "grammar": "adj.",
+    "lemma": "ond-drysne"
+  },
+  "ondhweorfan": {
+    "def": "turn (intr",
+    "grammar": "vb.  3",
+    "lemma": "ond-hweorfan"
+  },
+  "ondlean": {
+    "def": "see and-lēan",
+    "grammar": "",
+    "lemma": "ond-lēan"
+  },
+  "ondlong": {
+    "def": "see and-long",
+    "grammar": "",
+    "lemma": "ond-long"
+  },
+  "ondrys": {
+    "def": "see ond-drysne",
+    "grammar": "",
+    "lemma": "ondrysne"
+  },
+  "ondrysn": {
+    "def": "see ond-drysne",
+    "grammar": "",
+    "lemma": "ondrysne"
+  },
   "ondrysne": {
     "def": "see ond-drysne",
     "grammar": "",
     "lemma": "ondrysne"
+  },
+  "ondrædan": {
+    "def": "fear",
+    "grammar": "vb. 7",
+    "lemma": "on-drǣdan"
+  },
+  "ondsendeþ": {
+    "def": "see on-sendan",
+    "grammar": "",
+    "lemma": "ond-sendeþ"
+  },
+  "ondslyht": {
+    "def": "onSLAUGHT, counter-blow",
+    "grammar": "mi.",
+    "lemma": "ond-slyht"
+  },
+  "onett": {
+    "def": "move quickly",
+    "grammar": "vb.  I",
+    "lemma": "ōnettan"
   },
   "onettan": {
     "def": "move quickly",
     "grammar": "vb.  I",
     "lemma": "ōnettan"
   },
+  "onette": {
+    "def": "move quickly",
+    "grammar": "vb.  I",
+    "lemma": "ōnettan"
+  },
+  "onfindan": {
+    "def": "find out, dis-cover, perceive",
+    "grammar": "vb. 3",
+    "lemma": "on-findan"
+  },
+  "onfon": {
+    "def": "receive, take",
+    "grammar": "vb. 7",
+    "lemma": "on-fōn"
+  },
+  "ongeador": {
+    "def": "toGETHER",
+    "grammar": "adv.",
+    "lemma": "on-ġeador"
+  },
+  "ongean": {
+    "def": "AGAINst, to-ward",
+    "grammar": "prep.",
+    "lemma": "on-ġēan"
+  },
+  "onginnan": {
+    "def": "undertake",
+    "grammar": "vb. 3",
+    "lemma": "on-ġinnan"
+  },
+  "ongitan": {
+    "def": "perceive, see, hear, understand",
+    "grammar": "",
+    "lemma": "on-ġitan"
+  },
+  "onhohsni": {
+    "def": "check, stop (?)",
+    "grammar": "vb. II",
+    "lemma": "onhōhsnian"
+  },
   "onhohsnian": {
     "def": "check, stop (?)",
     "grammar": "vb. II",
     "lemma": "onhōhsnian"
+  },
+  "onhohsnie": {
+    "def": "check, stop (?)",
+    "grammar": "vb. II",
+    "lemma": "onhōhsnian"
+  },
+  "onhreran": {
+    "def": "arouse",
+    "grammar": "vb. I",
+    "lemma": "on-hrēran"
+  },
+  "onirnan": {
+    "def": "†give way, spring open",
+    "grammar": "vb. 3",
+    "lemma": "on-irnan"
+  },
+  "onleon": {
+    "def": "lend",
+    "grammar": "vb. 1",
+    "lemma": "on-lēon"
+  },
+  "onlicnes(s)": {
+    "def": "1351",
+    "grammar": "fj",
+    "lemma": "on-līcnes(s)"
+  },
+  "onlucan": {
+    "def": "disclose",
+    "grammar": "vb. 2",
+    "lemma": "on-lūcan"
+  },
+  "onlætan": {
+    "def": "release",
+    "grammar": "vb. 7",
+    "lemma": "on-lǣtan"
+  },
+  "onmedla": {
+    "def": "arrogance, pre-sumption, effrontery",
+    "grammar": "wk.",
+    "lemma": "on-mēdla"
+  },
+  "onmunan": {
+    "def": "consider worthy of (or fit for)",
+    "grammar": "prp.",
+    "lemma": "on-munan"
+  },
+  "onsacan": {
+    "def": "contest, fight (dat",
+    "grammar": "vb. 6",
+    "lemma": "on-sacan"
+  },
+  "onsecan": {
+    "def": "exact (something from some-one), deprive (someone of something)",
+    "grammar": "vb. I",
+    "lemma": "on-sēċan"
+  },
+  "onsendan(ond)": {
+    "def": "SEND, send away",
+    "grammar": "vb.  I",
+    "lemma": "on-sendan(ond-)"
+  },
+  "onsittan": {
+    "def": "vb",
+    "grammar": "vb. 5",
+    "lemma": "on-sittan"
+  },
+  "onsponnan": {
+    "def": "unfasten",
+    "grammar": "vb. 7",
+    "lemma": "on-sponnan"
+  },
+  "onspringan": {
+    "def": "817",
+    "grammar": "vb. 3",
+    "lemma": "on-springan"
+  },
+  "onstellan": {
+    "def": "bring about",
+    "grammar": "vb. I",
+    "lemma": "on-stellan"
+  },
+  "onswifan": {
+    "def": "swing, turn (trans",
+    "grammar": "vb. 1",
+    "lemma": "on-swīfan"
+  },
+  "onsæce": {
+    "def": "see on-sēċan",
+    "grammar": "",
+    "lemma": "on-sǣċe"
+  },
+  "onsæge": {
+    "def": "attacking, as-sailing (see Aant",
+    "grammar": "adj.",
+    "lemma": "on-sǣġe"
+  },
+  "onsælan": {
+    "def": "loosen, disclose",
+    "grammar": "vb. I",
+    "lemma": "on-sǣlan"
+  },
+  "onsуn": {
+    "def": "see an-sӯn",
+    "grammar": "",
+    "lemma": "on-sӯn"
+  },
+  "ontyhtan": {
+    "def": "incite, impel",
+    "grammar": "vb. I",
+    "lemma": "on-tyhtan"
+  },
+  "onwacnian": {
+    "def": "AWAKE (intr",
+    "grammar": "vb. II",
+    "lemma": "on-wacnian"
+  },
+  "onwadan": {
+    "def": "enter, take pos-session of",
+    "grammar": "vb. 6",
+    "lemma": "on-wadan"
+  },
+  "onweald": {
+    "def": "possession",
+    "grammar": "m.",
+    "lemma": "on-weald"
+  },
+  "onwendan": {
+    "def": "put aside, remove",
+    "grammar": "vb. I",
+    "lemma": "on-wendan"
+  },
+  "onwindan": {
+    "def": "UNWIND, loosen",
+    "grammar": "vb. 3",
+    "lemma": "on-windan"
+  },
+  "onwoc": {
+    "def": "see on-wæcnan",
+    "grammar": "",
+    "lemma": "on-wōc"
+  },
+  "onwæcnan": {
+    "def": "vb",
+    "grammar": "pret.",
+    "lemma": "on-wæcnan"
+  },
+  "onðeon": {
+    "def": "prosper, thrive",
+    "grammar": "vb. 1",
+    "lemma": "on-ðēon"
+  },
+  "op": {
+    "def": "2271",
+    "grammar": "adj.",
+    "lemma": "open"
+  },
+  "ope": {
+    "def": "2271",
+    "grammar": "adj.",
+    "lemma": "open"
   },
   "open": {
     "def": "2271",
     "grammar": "adj.",
     "lemma": "open"
   },
+  "openi": {
+    "def": "vb",
+    "grammar": "vb. II",
+    "lemma": "openian"
+  },
   "openian": {
+    "def": "vb",
+    "grammar": "vb. II",
+    "lemma": "openian"
+  },
+  "openie": {
     "def": "vb",
     "grammar": "vb. II",
     "lemma": "openian"
@@ -11952,27 +35427,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ōr"
   },
+  "or ": {
+    "def": "stressed prefix, see the following nouns and adjectives",
+    "grammar": "stressed prefix",
+    "lemma": "or-"
+  },
+  "or leahtre": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "or-leahtre"
+  },
+  "or lege": {
+    "def": "war, battle, strife",
+    "grammar": "ni.",
+    "lemma": "or-leġe"
+  },
+  "or wearde": {
+    "def": "without GUARDian, in an undefended condition",
+    "grammar": "adv.",
+    "lemma": "or-wearde"
+  },
+  "or wena": {
+    "def": "gen",
+    "grammar": "wk.",
+    "lemma": "or-wēna"
+  },
+  "or þanc": {
+    "def": "skill, craft",
+    "grammar": "m.",
+    "lemma": "or-þanc"
+  },
   "or-": {
     "def": "stressed prefix, see the following nouns and adjectives",
     "grammar": "stressed prefix",
     "lemma": "or-"
+  },
+  "or-leaht": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "or-leahtre"
+  },
+  "or-leahtr": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "or-leahtre"
   },
   "or-leahtre": {
     "def": "blameless",
     "grammar": "adj.",
     "lemma": "or-leahtre"
   },
+  "or-leg": {
+    "def": "war, battle, strife",
+    "grammar": "ni.",
+    "lemma": "or-leġe"
+  },
   "or-lege": {
     "def": "war, battle, strife",
     "grammar": "ni.",
     "lemma": "or-leġe"
+  },
+  "or-wear": {
+    "def": "without GUARDian, in an undefended condition",
+    "grammar": "adv.",
+    "lemma": "or-wearde"
+  },
+  "or-weard": {
+    "def": "without GUARDian, in an undefended condition",
+    "grammar": "adv.",
+    "lemma": "or-wearde"
   },
   "or-wearde": {
     "def": "without GUARDian, in an undefended condition",
     "grammar": "adv.",
     "lemma": "or-wearde"
   },
+  "or-wen": {
+    "def": "gen",
+    "grammar": "wk.",
+    "lemma": "or-wēna"
+  },
   "or-wena": {
+    "def": "gen",
+    "grammar": "wk.",
+    "lemma": "or-wēna"
+  },
+  "or-wene": {
     "def": "gen",
     "grammar": "wk.",
     "lemma": "or-wēna"
@@ -11987,7 +35527,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "orc"
   },
+  "orc neas": {
+    "def": "evil spirits, monsters",
+    "grammar": "m.",
+    "lemma": "orc-nēas"
+  },
+  "orc-ne": {
+    "def": "evil spirits, monsters",
+    "grammar": "m.",
+    "lemma": "orc-nēas"
+  },
   "orc-neas": {
+    "def": "evil spirits, monsters",
+    "grammar": "m.",
+    "lemma": "orc-nēas"
+  },
+  "orc-nee": {
+    "def": "evil spirits, monsters",
+    "grammar": "m.",
+    "lemma": "orc-nēas"
+  },
+  "orcneas": {
     "def": "evil spirits, monsters",
     "grammar": "m.",
     "lemma": "orc-nēas"
@@ -11997,17 +35557,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ord"
   },
+  "ord fruma": {
+    "def": "one who goes before",
+    "grammar": "wk.",
+    "lemma": "ord-fruma"
+  },
+  "ord-frum": {
+    "def": "one who goes before",
+    "grammar": "wk.",
+    "lemma": "ord-fruma"
+  },
   "ord-fruma": {
     "def": "one who goes before",
     "grammar": "wk.",
     "lemma": "ord-fruma"
+  },
+  "ord-frume": {
+    "def": "one who goes before",
+    "grammar": "wk.",
+    "lemma": "ord-fruma"
+  },
+  "ordfruma": {
+    "def": "one who goes before",
+    "grammar": "wk.",
+    "lemma": "ord-fruma"
+  },
+  "oret mecg": {
+    "def": "warrior",
+    "grammar": "mja.",
+    "lemma": "ōret-mecg"
   },
   "oret-mecg": {
     "def": "warrior",
     "grammar": "mja.",
     "lemma": "ōret-mecg"
   },
+  "oretmecg": {
+    "def": "warrior",
+    "grammar": "mja.",
+    "lemma": "ōret-mecg"
+  },
+  "orett": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "ōretta"
+  },
   "oretta": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "ōretta"
+  },
+  "orette": {
     "def": "warrior",
     "grammar": "wk.",
     "lemma": "ōretta"
@@ -12017,7 +35617,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "oreðe(s)"
   },
+  "orleahtre": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "or-leahtre"
+  },
+  "orleg hwil": {
+    "def": "time of war, fight",
+    "grammar": "f.",
+    "lemma": "orleġ-hwīl"
+  },
   "orleg-hwil": {
+    "def": "time of war, fight",
+    "grammar": "f.",
+    "lemma": "orleġ-hwīl"
+  },
+  "orlege": {
+    "def": "war, battle, strife",
+    "grammar": "ni.",
+    "lemma": "or-leġe"
+  },
+  "orleghwil": {
     "def": "time of war, fight",
     "grammar": "f.",
     "lemma": "orleġ-hwīl"
@@ -12027,72 +35647,252 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "oruð"
   },
+  "orwearde": {
+    "def": "without GUARDian, in an undefended condition",
+    "grammar": "adv.",
+    "lemma": "or-wearde"
+  },
+  "orwena": {
+    "def": "gen",
+    "grammar": "wk.",
+    "lemma": "or-wēna"
+  },
+  "orþanc": {
+    "def": "skill, craft",
+    "grammar": "m.",
+    "lemma": "or-þanc"
+  },
   "ower": {
     "def": "see ō-hwǣr",
     "grammar": "",
     "lemma": "ōwer"
+  },
+  "owiht": {
+    "def": "anything",
+    "grammar": "fni.",
+    "lemma": "ō-wiht"
   },
   "oð": {
     "def": "until",
     "grammar": "prep.",
     "lemma": "oð"
   },
+  "oð eode": {
+    "def": "see oð-gān",
+    "grammar": "",
+    "lemma": "oð-ēode"
+  },
+  "oð ferian": {
+    "def": "2141",
+    "grammar": "vb. I",
+    "lemma": "oð-ferian"
+  },
+  "oð gan": {
+    "def": "pret",
+    "grammar": "anv.",
+    "lemma": "oð-gān"
+  },
+  "oð witan": {
+    "def": "reproach, blame",
+    "grammar": "vb. 1",
+    "lemma": "oð-wītan"
+  },
+  "oð-eo": {
+    "def": "see oð-gān",
+    "grammar": "",
+    "lemma": "oð-ēode"
+  },
+  "oð-eod": {
+    "def": "see oð-gān",
+    "grammar": "",
+    "lemma": "oð-ēode"
+  },
   "oð-eode": {
     "def": "see oð-gān",
     "grammar": "",
     "lemma": "oð-ēode"
+  },
+  "oð-feri": {
+    "def": "2141",
+    "grammar": "vb. I",
+    "lemma": "oð-ferian"
   },
   "oð-ferian": {
     "def": "2141",
     "grammar": "vb. I",
     "lemma": "oð-ferian"
   },
+  "oð-ferie": {
+    "def": "2141",
+    "grammar": "vb. I",
+    "lemma": "oð-ferian"
+  },
+  "oð-g": {
+    "def": "pret",
+    "grammar": "anv.",
+    "lemma": "oð-gān"
+  },
   "oð-gan": {
     "def": "pret",
     "grammar": "anv.",
     "lemma": "oð-gān"
+  },
+  "oð-ge": {
+    "def": "pret",
+    "grammar": "anv.",
+    "lemma": "oð-gān"
+  },
+  "oð-wit": {
+    "def": "reproach, blame",
+    "grammar": "vb. 1",
+    "lemma": "oð-wītan"
   },
   "oð-witan": {
     "def": "reproach, blame",
     "grammar": "vb. 1",
     "lemma": "oð-wītan"
   },
+  "oð-wite": {
+    "def": "reproach, blame",
+    "grammar": "vb. 1",
+    "lemma": "oð-wītan"
+  },
+  "oðeode": {
+    "def": "see oð-gān",
+    "grammar": "",
+    "lemma": "oð-ēode"
+  },
   "oðer": {
     "def": "(cf",
     "grammar": "adj.",
     "lemma": "ōðer"
+  },
+  "oðferian": {
+    "def": "2141",
+    "grammar": "vb. I",
+    "lemma": "oð-ferian"
+  },
+  "oðgan": {
+    "def": "pret",
+    "grammar": "anv.",
+    "lemma": "oð-gān"
+  },
+  "oðwitan": {
+    "def": "reproach, blame",
+    "grammar": "vb. 1",
+    "lemma": "oð-wītan"
+  },
+  "oðð": {
+    "def": "437, 635, 637, 693, 1491, 1763, 1764a, 1764b, 1765a, 1765b, 1766a, 1766b, 1848, 2253, 2376, 2434, 2494, 2495, 2536, 2840, 2870, 2922, 3006 (n",
+    "grammar": "conj.",
+    "lemma": "oððe"
   },
   "oððe": {
     "def": "437, 635, 637, 693, 1491, 1763, 1764a, 1764b, 1765a, 1765b, 1766a, 1766b, 1848, 2253, 2376, 2434, 2494, 2495, 2536, 2840, 2870, 2922, 3006 (n",
     "grammar": "conj.",
     "lemma": "oððe"
   },
+  "oþ beran": {
+    "def": "BEAR (off ̄)",
+    "grammar": "vb. 4",
+    "lemma": "oþ-beran"
+  },
+  "oþ-ber": {
+    "def": "BEAR (off ̄)",
+    "grammar": "vb. 4",
+    "lemma": "oþ-beran"
+  },
   "oþ-beran": {
     "def": "BEAR (off ̄)",
     "grammar": "vb. 4",
     "lemma": "oþ-beran"
+  },
+  "oþ-bere": {
+    "def": "BEAR (off ̄)",
+    "grammar": "vb. 4",
+    "lemma": "oþ-beran"
+  },
+  "oþberan": {
+    "def": "BEAR (off ̄)",
+    "grammar": "vb. 4",
+    "lemma": "oþ-beran"
+  },
+  "r": {
+    "def": "opportunity",
+    "grammar": "m.",
+    "lemma": "rūm"
   },
   "rand": {
     "def": "see rond",
     "grammar": "",
     "lemma": "rand"
   },
+  "rand wiga": {
+    "def": "(shield-)warrior",
+    "grammar": "wk.",
+    "lemma": "rand-wiga"
+  },
+  "rand-wig": {
+    "def": "(shield-)warrior",
+    "grammar": "wk.",
+    "lemma": "rand-wiga"
+  },
   "rand-wiga": {
     "def": "(shield-)warrior",
     "grammar": "wk.",
     "lemma": "rand-wiga"
+  },
+  "rand-wige": {
+    "def": "(shield-)warrior",
+    "grammar": "wk.",
+    "lemma": "rand-wiga"
+  },
+  "randwiga": {
+    "def": "(shield-)warrior",
+    "grammar": "wk.",
+    "lemma": "rand-wiga"
+  },
+  "rasi": {
+    "def": "explore",
+    "grammar": "vb.  II",
+    "lemma": "rāsian"
   },
   "rasian": {
     "def": "explore",
     "grammar": "vb.  II",
     "lemma": "rāsian"
   },
+  "rasie": {
+    "def": "explore",
+    "grammar": "vb.  II",
+    "lemma": "rāsian"
+  },
+  "raþ": {
+    "def": "see hraþe",
+    "grammar": "",
+    "lemma": "raþe"
+  },
   "raþe": {
     "def": "see hraþe",
     "grammar": "",
     "lemma": "raþe"
   },
+  "re": {
+    "def": "see rōwan",
+    "grammar": "",
+    "lemma": "reon"
+  },
+  "reafi": {
+    "def": "plunder, rifle",
+    "grammar": "vb. II",
+    "lemma": "rēafian"
+  },
   "reafian": {
+    "def": "plunder, rifle",
+    "grammar": "vb. II",
+    "lemma": "rēafian"
+  },
+  "reafie": {
     "def": "plunder, rifle",
     "grammar": "vb. II",
     "lemma": "rēafian"
@@ -12102,7 +35902,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "rēċ"
   },
+  "recc": {
+    "def": "gen",
+    "grammar": "vb. I",
+    "lemma": "reċċan"
+  },
   "reccan": {
+    "def": "gen",
+    "grammar": "vb. I",
+    "lemma": "reċċan"
+  },
+  "recce": {
     "def": "gen",
     "grammar": "vb. I",
     "lemma": "reċċan"
@@ -12112,17 +35922,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "reċed"
   },
+  "ree": {
+    "def": "see rōwan",
+    "grammar": "",
+    "lemma": "reon"
+  },
+  "regn heard": {
+    "def": "wonderfully strong",
+    "grammar": "adj.",
+    "lemma": "reġn-heard"
+  },
   "regn-heard": {
     "def": "wonderfully strong",
     "grammar": "adj.",
     "lemma": "reġn-heard"
+  },
+  "regnheard": {
+    "def": "wonderfully strong",
+    "grammar": "adj.",
+    "lemma": "reġn-heard"
+  },
+  "regni": {
+    "def": "prepare, trim",
+    "grammar": "r",
+    "lemma": "reġnian"
   },
   "regnian": {
     "def": "prepare, trim",
     "grammar": "r",
     "lemma": "reġnian"
   },
+  "regnie": {
+    "def": "prepare, trim",
+    "grammar": "r",
+    "lemma": "reġnian"
+  },
+  "ren weard": {
+    "def": "GUARDian of the house (see note on 142)",
+    "grammar": "m.",
+    "lemma": "ren-weard"
+  },
   "ren-weard": {
+    "def": "GUARDian of the house (see note on 142)",
+    "grammar": "m.",
+    "lemma": "ren-weard"
+  },
+  "renweard": {
     "def": "GUARDian of the house (see note on 142)",
     "grammar": "m.",
     "lemma": "ren-weard"
@@ -12132,7 +35977,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "rēoc"
   },
+  "reod": {
+    "def": "REDDen",
+    "grammar": "vb. 2",
+    "lemma": "rēodan"
+  },
   "reodan": {
+    "def": "REDDen",
+    "grammar": "vb. 2",
+    "lemma": "rēodan"
+  },
+  "reode": {
     "def": "REDDen",
     "grammar": "vb. 2",
     "lemma": "rēodan"
@@ -12147,12 +36002,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "reord"
   },
+  "reordi": {
+    "def": "talk",
+    "grammar": "vb. II",
+    "lemma": "reordian"
+  },
   "reordian": {
     "def": "talk",
     "grammar": "vb. II",
     "lemma": "reordian"
   },
+  "reordie": {
+    "def": "talk",
+    "grammar": "vb. II",
+    "lemma": "reordian"
+  },
+  "reot": {
+    "def": "weep",
+    "grammar": "vb. 2",
+    "lemma": "rēotan"
+  },
   "reotan": {
+    "def": "weep",
+    "grammar": "vb. 2",
+    "lemma": "rēotan"
+  },
+  "reote": {
     "def": "weep",
     "grammar": "vb. 2",
     "lemma": "rēotan"
@@ -12163,19 +36038,34 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rēotiġ"
   },
   "rest": {
-    "def": "see ræst",
-    "grammar": "",
-    "lemma": "rest"
+    "def": "1857",
+    "grammar": "vb.  I",
+    "lemma": "restan"
   },
   "restan": {
     "def": "1857",
     "grammar": "vb.  I",
     "lemma": "restan"
   },
+  "reste": {
+    "def": "1857",
+    "grammar": "vb.  I",
+    "lemma": "restan"
+  },
+  "reþ": {
+    "def": "cruel, furious",
+    "grammar": "adj.",
+    "lemma": "rēþe"
+  },
   "reþe": {
     "def": "cruel, furious",
     "grammar": "adj.",
     "lemma": "rēþe"
+  },
+  "ric": {
+    "def": "realm, rule",
+    "grammar": "nja.",
+    "lemma": "rīċe"
   },
   "rice": {
     "def": "realm, rule",
@@ -12187,12 +36077,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ricone(recene)"
   },
+  "ricsi": {
+    "def": "hold sway",
+    "grammar": "vb. II",
+    "lemma": "rīcsian"
+  },
   "ricsian": {
     "def": "hold sway",
     "grammar": "vb. II",
     "lemma": "rīcsian"
   },
+  "ricsie": {
+    "def": "hold sway",
+    "grammar": "vb. II",
+    "lemma": "rīcsian"
+  },
+  "rid": {
+    "def": "855",
+    "grammar": "vb. 1",
+    "lemma": "rīdan"
+  },
   "ridan": {
+    "def": "855",
+    "grammar": "vb. 1",
+    "lemma": "rīdan"
+  },
+  "ride": {
     "def": "855",
     "grammar": "vb. 1",
     "lemma": "rīdan"
@@ -12202,10 +36112,15 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "rīdend"
   },
+  "rih": {
+    "def": "un-",
+    "grammar": "adv.",
+    "lemma": "rihte"
+  },
   "riht": {
-    "def": "what is right",
-    "grammar": "n.",
-    "lemma": "riht"
+    "def": "un-",
+    "grammar": "adv.",
+    "lemma": "rihte"
   },
   "rihte": {
     "def": "un-",
@@ -12217,12 +36132,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "man",
     "lemma": "rinċ"
   },
+  "riod": {
+    "def": "see rīdan",
+    "grammar": "",
+    "lemma": "riodan"
+  },
   "riodan": {
     "def": "see rīdan",
     "grammar": "",
     "lemma": "riodan"
   },
+  "riode": {
+    "def": "see rīdan",
+    "grammar": "",
+    "lemma": "riodan"
+  },
+  "rixi": {
+    "def": "see rīcsian",
+    "grammar": "",
+    "lemma": "rīxian"
+  },
   "rixian": {
+    "def": "see rīcsian",
+    "grammar": "",
+    "lemma": "rīxian"
+  },
+  "rixie": {
     "def": "see rīcsian",
     "grammar": "",
     "lemma": "rīxian"
@@ -12242,12 +36177,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "rond"
   },
+  "rond hæbbend(e)": {
+    "def": "shield-bearer (-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "rond-hæbbend(e)"
+  },
   "rond-hæbbend(e)": {
     "def": "shield-bearer (-HAVing), warrior",
     "grammar": "mc.",
     "lemma": "rond-hæbbend(e)"
   },
+  "rondhæbbend(e)": {
+    "def": "shield-bearer (-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "rond-hæbbend(e)"
+  },
+  "row": {
+    "def": "539",
+    "grammar": "vb. 7",
+    "lemma": "rōwan"
+  },
   "rowan": {
+    "def": "539",
+    "grammar": "vb. 7",
+    "lemma": "rōwan"
+  },
+  "rowe": {
     "def": "539",
     "grammar": "vb. 7",
     "lemma": "rōwan"
@@ -12257,7 +36212,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "rūm"
   },
+  "rum heort": {
+    "def": "noble-spirited",
+    "grammar": "adj.",
+    "lemma": "rūm-heort"
+  },
   "rum-heort": {
+    "def": "noble-spirited",
+    "grammar": "adj.",
+    "lemma": "rūm-heort"
+  },
+  "rumheort": {
     "def": "noble-spirited",
     "grammar": "adj.",
     "lemma": "rūm-heort"
@@ -12267,12 +36232,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "rūn"
   },
+  "run stæf": {
+    "def": "1695",
+    "grammar": "m.",
+    "lemma": "rūn-stæf"
+  },
+  "run wita": {
+    "def": "confidant, trusted adviser",
+    "grammar": "wk.",
+    "lemma": "rūn-wita"
+  },
   "run-stæf": {
     "def": "1695",
     "grammar": "m.",
     "lemma": "rūn-stæf"
   },
+  "run-wit": {
+    "def": "confidant, trusted adviser",
+    "grammar": "wk.",
+    "lemma": "rūn-wita"
+  },
   "run-wita": {
+    "def": "confidant, trusted adviser",
+    "grammar": "wk.",
+    "lemma": "rūn-wita"
+  },
+  "run-wite": {
+    "def": "confidant, trusted adviser",
+    "grammar": "wk.",
+    "lemma": "rūn-wita"
+  },
+  "runstæf": {
+    "def": "1695",
+    "grammar": "m.",
+    "lemma": "rūn-stæf"
+  },
+  "runwita": {
     "def": "confidant, trusted adviser",
     "grammar": "wk.",
     "lemma": "rūn-wita"
@@ -12282,22 +36277,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ryht"
   },
+  "ræc": {
+    "def": "747",
+    "grammar": "vb. I",
+    "lemma": "rǣċan"
+  },
   "ræcan": {
     "def": "747",
     "grammar": "vb. I",
     "lemma": "rǣċan"
   },
+  "ræce": {
+    "def": "747",
+    "grammar": "vb. I",
+    "lemma": "rǣċan"
+  },
   "ræd": {
-    "def": "counsel, what is advis-able, good advice, help",
-    "grammar": "m.",
-    "lemma": "rǣd"
+    "def": "provide for, rule, control (w",
+    "grammar": "vb. 7",
+    "lemma": "rǣdan"
+  },
+  "ræd bora": {
+    "def": "wk",
+    "grammar": "wk.",
+    "lemma": "rǣd-bora"
+  },
+  "ræd-bo": {
+    "def": "wk",
+    "grammar": "wk.",
+    "lemma": "rǣd-bora"
+  },
+  "ræd-bor": {
+    "def": "wk",
+    "grammar": "wk.",
+    "lemma": "rǣd-bora"
   },
   "ræd-bora": {
     "def": "wk",
     "grammar": "wk.",
     "lemma": "rǣd-bora"
   },
+  "ræd-bore": {
+    "def": "wk",
+    "grammar": "wk.",
+    "lemma": "rǣd-bora"
+  },
   "rædan": {
+    "def": "provide for, rule, control (w",
+    "grammar": "vb. 7",
+    "lemma": "rǣdan"
+  },
+  "rædbora": {
+    "def": "wk",
+    "grammar": "wk.",
+    "lemma": "rǣd-bora"
+  },
+  "ræde": {
     "def": "provide for, rule, control (w",
     "grammar": "vb. 7",
     "lemma": "rǣdan"
@@ -12308,11 +36343,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rǣdend"
   },
   "ræs": {
-    "def": "onslaught, storm",
-    "grammar": "m.",
-    "lemma": "rǣs"
+    "def": "2690",
+    "grammar": "vb. I",
+    "lemma": "rǣsan"
   },
   "ræsan": {
+    "def": "2690",
+    "grammar": "vb. I",
+    "lemma": "rǣsan"
+  },
+  "ræse": {
     "def": "2690",
     "grammar": "vb. I",
     "lemma": "rǣsan"
@@ -12322,12 +36362,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ræst"
   },
+  "ræsw": {
+    "def": "(counselor), prince, leader",
+    "grammar": "wk.",
+    "lemma": "rǣswa"
+  },
   "ræswa": {
     "def": "(counselor), prince, leader",
     "grammar": "wk.",
     "lemma": "rǣswa"
   },
+  "ræswe": {
+    "def": "(counselor), prince, leader",
+    "grammar": "wk.",
+    "lemma": "rǣswa"
+  },
+  "s": {
+    "def": "one, a certain (one)",
+    "grammar": "adj.",
+    "lemma": "sum"
+  },
+  "sa": {
+    "def": "grievously",
+    "grammar": "adv.",
+    "lemma": "sāre"
+  },
+  "sac": {
+    "def": "fight",
+    "grammar": "vb. 6",
+    "lemma": "sacan"
+  },
   "sacan": {
+    "def": "fight",
+    "grammar": "vb. 6",
+    "lemma": "sacan"
+  },
+  "sace": {
     "def": "fight",
     "grammar": "vb. 6",
     "lemma": "sacan"
@@ -12342,15 +36412,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sadol"
   },
+  "sadol beorht": {
+    "def": "SADDLE-BRIGHT, made bright by a saddle",
+    "grammar": "adj.",
+    "lemma": "sadol-beorht"
+  },
   "sadol-beorht": {
     "def": "SADDLE-BRIGHT, made bright by a saddle",
     "grammar": "adj.",
     "lemma": "sadol-beorht"
   },
+  "sadolbeorht": {
+    "def": "SADDLE-BRIGHT, made bright by a saddle",
+    "grammar": "adj.",
+    "lemma": "sadol-beorht"
+  },
   "sal": {
-    "def": "302, 1906",
-    "grammar": "m.",
-    "lemma": "sāl"
+    "def": "see sǣl",
+    "grammar": "",
+    "lemma": "sālum"
+  },
+  "sale": {
+    "def": "see sǣl",
+    "grammar": "",
+    "lemma": "sālum"
   },
   "salum": {
     "def": "see sǣl",
@@ -12373,9 +36458,14 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sang"
   },
   "sar": {
-    "def": "pain, wound",
-    "grammar": "n.",
-    "lemma": "sār"
+    "def": "grievously",
+    "grammar": "adv.",
+    "lemma": "sāre"
+  },
+  "sar lic": {
+    "def": "sad",
+    "grammar": "adj.",
+    "lemma": "sār-liċ"
   },
   "sar-lic": {
     "def": "sad",
@@ -12392,6 +36482,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sāriġ"
   },
+  "sarig ferð": {
+    "def": "sad at heart",
+    "grammar": "adj.",
+    "lemma": "sāriġ-ferð"
+  },
+  "sarig mod": {
+    "def": "sad-hearted",
+    "grammar": "adj.",
+    "lemma": "sāriġ-mōd"
+  },
   "sarig-ferð": {
     "def": "sad at heart",
     "grammar": "adj.",
@@ -12402,7 +36502,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sāriġ-mōd"
   },
+  "sarigferð": {
+    "def": "sad at heart",
+    "grammar": "adj.",
+    "lemma": "sāriġ-ferð"
+  },
+  "sarigmod": {
+    "def": "sad-hearted",
+    "grammar": "adj.",
+    "lemma": "sāriġ-mōd"
+  },
+  "sarlic": {
+    "def": "sad",
+    "grammar": "adj.",
+    "lemma": "sār-liċ"
+  },
+  "sawl berend": {
+    "def": "(SOUL-BEARer), human being",
+    "grammar": "mc.",
+    "lemma": "sāwl-berend"
+  },
   "sawl-berend": {
+    "def": "(SOUL-BEARer), human being",
+    "grammar": "mc.",
+    "lemma": "sāwl-berend"
+  },
+  "sawlberend": {
     "def": "(SOUL-BEARer), human being",
     "grammar": "mc.",
     "lemma": "sāwl-berend"
@@ -12412,40 +36537,135 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "sāwol"
   },
+  "sawol leas": {
+    "def": "1406, 3033 (sāwul-)",
+    "grammar": "adj.",
+    "lemma": "sāwol-lēas"
+  },
+  "sawol-le": {
+    "def": "1406, 3033 (sāwul-)",
+    "grammar": "adj.",
+    "lemma": "sāwol-lēas"
+  },
   "sawol-leas": {
     "def": "1406, 3033 (sāwul-)",
     "grammar": "adj.",
     "lemma": "sāwol-lēas"
+  },
+  "sawol-lee": {
+    "def": "1406, 3033 (sāwul-)",
+    "grammar": "adj.",
+    "lemma": "sāwol-lēas"
+  },
+  "sawolleas": {
+    "def": "1406, 3033 (sāwul-)",
+    "grammar": "adj.",
+    "lemma": "sāwol-lēas"
+  },
+  "sawul drior": {
+    "def": "life-blood, ds",
+    "grammar": "m.",
+    "lemma": "sāwul-drīor"
   },
   "sawul-drior": {
     "def": "life-blood, ds",
     "grammar": "m.",
     "lemma": "sāwul-drīor"
   },
+  "sawuldrior": {
+    "def": "life-blood, ds",
+    "grammar": "m.",
+    "lemma": "sāwul-drīor"
+  },
+  "scac": {
+    "def": "pass, depart",
+    "grammar": "vb. 6",
+    "lemma": "scacan"
+  },
   "scacan": {
     "def": "pass, depart",
     "grammar": "vb. 6",
     "lemma": "scacan"
+  },
+  "scace": {
+    "def": "pass, depart",
+    "grammar": "vb. 6",
+    "lemma": "scacan"
+  },
+  "scad": {
+    "def": "settle",
+    "grammar": "vb. 7",
+    "lemma": "scādan"
   },
   "scadan": {
     "def": "settle",
     "grammar": "vb. 7",
     "lemma": "scādan"
   },
+  "scade": {
+    "def": "settle",
+    "grammar": "vb. 7",
+    "lemma": "scādan"
+  },
+  "scadu helm": {
+    "def": "cover of night (SHAD-OW), darkness",
+    "grammar": "m.",
+    "lemma": "scadu-helm"
+  },
   "scadu-helm": {
     "def": "cover of night (SHAD-OW), darkness",
     "grammar": "m.",
     "lemma": "scadu-helm"
+  },
+  "scaduhelm": {
+    "def": "cover of night (SHAD-OW), darkness",
+    "grammar": "m.",
+    "lemma": "scadu-helm"
+  },
+  "scami(g)": {
+    "def": "1026",
+    "grammar": "vb. II",
+    "lemma": "scami(ġ)an"
   },
   "scami(g)an": {
     "def": "1026",
     "grammar": "vb. II",
     "lemma": "scami(ġ)an"
   },
+  "scami(g)e": {
+    "def": "1026",
+    "grammar": "vb. II",
+    "lemma": "scami(ġ)an"
+  },
+  "scaþ": {
+    "def": "see sceaþa",
+    "grammar": "",
+    "lemma": "scaþa"
+  },
   "scaþa": {
     "def": "see sceaþa",
     "grammar": "",
     "lemma": "scaþa"
+  },
+  "scaþe": {
+    "def": "see sceaþa",
+    "grammar": "",
+    "lemma": "scaþa"
+  },
+  "sce": {
+    "def": "see scādan",
+    "grammar": "",
+    "lemma": "scēde"
+  },
+  "sceac": {
+    "def": "sceaceð, see scacan",
+    "grammar": "sceace",
+    "lemma": "sceacen"
+  },
+  "sceace": {
+    "def": "sceaceð, see scacan",
+    "grammar": "sceace",
+    "lemma": "sceacen"
   },
   "sceacen": {
     "def": "sceaceð, see scacan",
@@ -12457,7 +36677,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "scead"
   },
+  "sceaden mæl": {
+    "def": "(ornamented with distinctive or branching patterns, i",
+    "grammar": "n.",
+    "lemma": "sceāden-mǣl"
+  },
   "sceaden-mæl": {
+    "def": "(ornamented with distinctive or branching patterns, i",
+    "grammar": "n.",
+    "lemma": "sceāden-mǣl"
+  },
+  "sceadenmæl": {
     "def": "(ornamented with distinctive or branching patterns, i",
     "grammar": "n.",
     "lemma": "sceāden-mǣl"
@@ -12467,7 +36697,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "sceadu"
   },
+  "sceadu genga": {
+    "def": "walker in dark-ness",
+    "grammar": "wk.",
+    "lemma": "sceadu-genġa"
+  },
+  "sceadu-geng": {
+    "def": "walker in dark-ness",
+    "grammar": "wk.",
+    "lemma": "sceadu-genġa"
+  },
   "sceadu-genga": {
+    "def": "walker in dark-ness",
+    "grammar": "wk.",
+    "lemma": "sceadu-genġa"
+  },
+  "sceadu-genge": {
+    "def": "walker in dark-ness",
+    "grammar": "wk.",
+    "lemma": "sceadu-genġa"
+  },
+  "sceadugenga": {
     "def": "walker in dark-ness",
     "grammar": "wk.",
     "lemma": "sceadu-genġa"
@@ -12476,6 +36726,16 @@ const OLD_ENGLISH_DICT = {
     "def": "retainer, warrior, man",
     "grammar": "m.",
     "lemma": "scealc"
+  },
+  "sceap": {
+    "def": "see scyppan",
+    "grammar": "",
+    "lemma": "sceapen"
+  },
+  "sceape": {
+    "def": "see scyppan",
+    "grammar": "",
+    "lemma": "sceapen"
   },
   "sceapen": {
     "def": "see scyppan",
@@ -12497,15 +36757,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sceat(t)"
   },
+  "sceawi": {
+    "def": "view, examine, see",
+    "grammar": "vb. II",
+    "lemma": "scēawian"
+  },
   "sceawian": {
     "def": "view, examine, see",
     "grammar": "vb. II",
     "lemma": "scēawian"
   },
+  "sceawie": {
+    "def": "view, examine, see",
+    "grammar": "vb. II",
+    "lemma": "scēawian"
+  },
+  "sceaþ": {
+    "def": "enemy",
+    "grammar": "wk.",
+    "lemma": "sceaþa"
+  },
   "sceaþa": {
     "def": "enemy",
     "grammar": "wk.",
     "lemma": "sceaþa"
+  },
+  "sceaþe": {
+    "def": "enemy",
+    "grammar": "wk.",
+    "lemma": "sceaþa"
+  },
+  "sced": {
+    "def": "see scādan",
+    "grammar": "",
+    "lemma": "scēde"
   },
   "scede": {
     "def": "see scādan",
@@ -12522,17 +36807,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "scel"
   },
+  "scenc": {
+    "def": "give to drink",
+    "grammar": "vb. I",
+    "lemma": "scenċan"
+  },
   "scencan": {
     "def": "give to drink",
     "grammar": "vb. I",
     "lemma": "scenċan"
+  },
+  "scence": {
+    "def": "give to drink",
+    "grammar": "vb. I",
+    "lemma": "scenċan"
+  },
+  "scenn(scenn": {
+    "def": "sword-guard (?), plate of metal on handle of sword (?)",
+    "grammar": "",
+    "lemma": "scenn(scenna"
   },
   "scenn(scenna": {
     "def": "sword-guard (?), plate of metal on handle of sword (?)",
     "grammar": "",
     "lemma": "scenn(scenna"
   },
+  "scenn(scenne": {
+    "def": "sword-guard (?), plate of metal on handle of sword (?)",
+    "grammar": "",
+    "lemma": "scenn(scenna"
+  },
+  "sceot": {
+    "def": "1744",
+    "grammar": "vb.  2",
+    "lemma": "scēotan"
+  },
   "sceotan": {
+    "def": "1744",
+    "grammar": "vb.  2",
+    "lemma": "scēotan"
+  },
+  "sceote": {
     "def": "1744",
     "grammar": "vb.  2",
     "lemma": "scēotan"
@@ -12542,45 +36857,125 @@ const OLD_ENGLISH_DICT = {
     "grammar": "SHOOTer",
     "lemma": "scēotendmc."
   },
+  "scep": {
+    "def": "see scyppan",
+    "grammar": "",
+    "lemma": "scepen"
+  },
+  "scepe": {
+    "def": "see scyppan",
+    "grammar": "",
+    "lemma": "scepen"
+  },
   "scepen": {
     "def": "see scyppan",
     "grammar": "",
     "lemma": "scepen"
+  },
+  "scer": {
+    "def": "cut",
+    "grammar": "vb. 4",
+    "lemma": "sceran"
   },
   "sceran": {
     "def": "cut",
     "grammar": "vb. 4",
     "lemma": "sceran"
   },
+  "scere": {
+    "def": "cut",
+    "grammar": "vb. 4",
+    "lemma": "sceran"
+  },
+  "sceþð": {
+    "def": "injure, harm",
+    "grammar": "vb. 6",
+    "lemma": "sceþðan"
+  },
   "sceþðan": {
     "def": "injure, harm",
     "grammar": "vb. 6",
     "lemma": "sceþðan"
+  },
+  "sceþðe": {
+    "def": "injure, harm",
+    "grammar": "vb. 6",
+    "lemma": "sceþðan"
+  },
+  "scil": {
+    "def": "see sculan",
+    "grammar": "",
+    "lemma": "scile"
+  },
+  "scild weall": {
+    "def": "SHIELD-WALL, phalanx (?)",
+    "grammar": "m.",
+    "lemma": "scild-weall"
   },
   "scild-weall": {
     "def": "SHIELD-WALL, phalanx (?)",
     "grammar": "m.",
     "lemma": "scild-weall"
   },
+  "scilde": {
+    "def": "see scyldiġ",
+    "grammar": "",
+    "lemma": "scildiġ"
+  },
   "scildig": {
     "def": "see scyldiġ",
     "grammar": "",
     "lemma": "scildiġ"
+  },
+  "scildweall": {
+    "def": "SHIELD-WALL, phalanx (?)",
+    "grammar": "m.",
+    "lemma": "scild-weall"
   },
   "scile": {
     "def": "see sculan",
     "grammar": "",
     "lemma": "scile"
   },
+  "scin": {
+    "def": "606, 1571",
+    "grammar": "vb. 1",
+    "lemma": "scīnan"
+  },
   "scinan": {
     "def": "606, 1571",
     "grammar": "vb. 1",
     "lemma": "scīnan"
   },
+  "scine": {
+    "def": "606, 1571",
+    "grammar": "vb. 1",
+    "lemma": "scīnan"
+  },
+  "scinn": {
+    "def": "evil spirit, demon",
+    "grammar": "wk.",
+    "lemma": "scinna"
+  },
   "scinna": {
     "def": "evil spirit, demon",
     "grammar": "wk.",
     "lemma": "scinna"
+  },
+  "scinne": {
+    "def": "evil spirit, demon",
+    "grammar": "wk.",
+    "lemma": "scinna"
+  },
+  "scion": {
+    "def": "see scīnan",
+    "grammar": "",
+    "lemma": "scionon"
+  },
+  "scione": {
+    "def": "see scīnan",
+    "grammar": "",
+    "lemma": "scionon"
   },
   "scionon": {
     "def": "see scīnan",
@@ -12592,7 +36987,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "scip"
   },
+  "scip here": {
+    "def": "naval force",
+    "grammar": "mja.",
+    "lemma": "scip-here"
+  },
+  "scip-he": {
+    "def": "naval force",
+    "grammar": "mja.",
+    "lemma": "scip-here"
+  },
+  "scip-her": {
+    "def": "naval force",
+    "grammar": "mja.",
+    "lemma": "scip-here"
+  },
   "scip-here": {
+    "def": "naval force",
+    "grammar": "mja.",
+    "lemma": "scip-here"
+  },
+  "sciphere": {
     "def": "naval force",
     "grammar": "mja.",
     "lemma": "scip-here"
@@ -12601,6 +37016,11 @@ const OLD_ENGLISH_DICT = {
     "def": "resplendent, glorious, clear",
     "grammar": "adj.",
     "lemma": "scīr"
+  },
+  "scir ham": {
+    "def": "in bright armor",
+    "grammar": "adj.",
+    "lemma": "scīr-ham"
   },
   "scir-ham": {
     "def": "in bright armor",
@@ -12612,6 +37032,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "scireð"
   },
+  "scirham": {
+    "def": "in bright armor",
+    "grammar": "adj.",
+    "lemma": "scīr-ham"
+  },
+  "scof": {
+    "def": "see scūfan",
+    "grammar": "",
+    "lemma": "scofen"
+  },
+  "scofe": {
+    "def": "see scūfan",
+    "grammar": "",
+    "lemma": "scofen"
+  },
   "scofen": {
     "def": "see scūfan",
     "grammar": "",
@@ -12622,47 +37057,142 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "scop"
   },
+  "scrif": {
+    "def": "judge, impose (sentence), w",
+    "grammar": "vb.  1",
+    "lemma": "scrīfan"
+  },
   "scrifan": {
     "def": "judge, impose (sentence), w",
     "grammar": "vb.  1",
     "lemma": "scrīfan"
+  },
+  "scrife": {
+    "def": "judge, impose (sentence), w",
+    "grammar": "vb.  1",
+    "lemma": "scrīfan"
+  },
+  "scrið": {
+    "def": "move, wander, stride",
+    "grammar": "vb.  1",
+    "lemma": "scrīðan"
   },
   "scriðan": {
     "def": "move, wander, stride",
     "grammar": "vb.  1",
     "lemma": "scrīðan"
   },
+  "scriðe": {
+    "def": "move, wander, stride",
+    "grammar": "vb.  1",
+    "lemma": "scrīðan"
+  },
+  "scucc": {
+    "def": "devil",
+    "grammar": "wk.",
+    "lemma": "scucca"
+  },
   "scucca": {
     "def": "devil",
     "grammar": "wk.",
     "lemma": "scucca"
+  },
+  "scucce": {
+    "def": "devil",
+    "grammar": "wk.",
+    "lemma": "scucca"
+  },
+  "scuf": {
+    "def": "push, move forward",
+    "grammar": "vb.  2",
+    "lemma": "scūfan"
   },
   "scufan": {
     "def": "push, move forward",
     "grammar": "vb.  2",
     "lemma": "scūfan"
   },
+  "scufe": {
+    "def": "push, move forward",
+    "grammar": "vb.  2",
+    "lemma": "scūfan"
+  },
+  "scul": {
+    "def": "(pres",
+    "grammar": "prp.",
+    "lemma": "sculan"
+  },
   "sculan": {
     "def": "(pres",
     "grammar": "prp.",
     "lemma": "sculan"
+  },
+  "scule": {
+    "def": "(pres",
+    "grammar": "prp.",
+    "lemma": "sculan"
+  },
+  "scur heard": {
+    "def": "SHOWER-HARD, hard(ened) in the storm of battle (?)",
+    "grammar": "adj.",
+    "lemma": "scūr-heard"
   },
   "scur-heard": {
     "def": "SHOWER-HARD, hard(ened) in the storm of battle (?)",
     "grammar": "adj.",
     "lemma": "scūr-heard"
   },
+  "scurheard": {
+    "def": "SHOWER-HARD, hard(ened) in the storm of battle (?)",
+    "grammar": "adj.",
+    "lemma": "scūr-heard"
+  },
+  "scyl": {
+    "def": "see sculan",
+    "grammar": "",
+    "lemma": "scyle"
+  },
   "scyld": {
     "def": "[F",
     "grammar": "m.",
     "lemma": "scyld"
+  },
+  "scyld freca": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-freca"
+  },
+  "scyld wiga": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-wiga"
+  },
+  "scyld-frec": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-freca"
   },
   "scyld-freca": {
     "def": "(SHIELD-)warrior",
     "grammar": "wk.",
     "lemma": "scyld-freca"
   },
+  "scyld-frece": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-freca"
+  },
+  "scyld-wig": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-wiga"
+  },
   "scyld-wiga": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-wiga"
+  },
+  "scyld-wige": {
     "def": "(SHIELD-)warrior",
     "grammar": "wk.",
     "lemma": "scyld-wiga"
@@ -12672,40 +37202,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "scyldan"
   },
+  "scylde": {
+    "def": "1658 (n",
+    "grammar": "vb. I",
+    "lemma": "scyldan"
+  },
+  "scyldfreca": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-freca"
+  },
   "scyldig": {
     "def": "3071 (cf",
     "grammar": "adj.",
     "lemma": "scyldiġ"
+  },
+  "scyldwiga": {
+    "def": "(SHIELD-)warrior",
+    "grammar": "wk.",
+    "lemma": "scyld-wiga"
   },
   "scyle": {
     "def": "see sculan",
     "grammar": "",
     "lemma": "scyle"
   },
+  "scyn scaþa(scin )": {
+    "def": "demonic foe, hostile demon",
+    "grammar": "wk.",
+    "lemma": "scyn-scaþa(scin-)"
+  },
   "scyn-scaþa(scin-)": {
     "def": "demonic foe, hostile demon",
     "grammar": "wk.",
     "lemma": "scyn-scaþa(scin-)"
+  },
+  "scynd": {
+    "def": "(quickly) advance",
+    "grammar": "vb. I",
+    "lemma": "scyndan"
   },
   "scyndan": {
     "def": "(quickly) advance",
     "grammar": "vb. I",
     "lemma": "scyndan"
   },
+  "scynde": {
+    "def": "(quickly) advance",
+    "grammar": "vb. I",
+    "lemma": "scyndan"
+  },
+  "scynscaþa(scin)": {
+    "def": "demonic foe, hostile demon",
+    "grammar": "wk.",
+    "lemma": "scyn-scaþa(scin-)"
+  },
   "scyp": {
     "def": "see scip",
     "grammar": "",
     "lemma": "scyp"
+  },
+  "scypp": {
+    "def": "mc",
+    "grammar": "mc.",
+    "lemma": "scyppen"
   },
   "scyppan": {
     "def": "SHAPE, make",
     "grammar": "vb. 6",
     "lemma": "scyppan"
   },
+  "scyppe": {
+    "def": "mc",
+    "grammar": "mc.",
+    "lemma": "scyppen"
+  },
   "scyppen": {
     "def": "mc",
     "grammar": "mc.",
     "lemma": "scyppen"
+  },
+  "scу": {
+    "def": "beautiful, lovely",
+    "grammar": "adj.",
+    "lemma": "scӯne"
+  },
+  "scуn": {
+    "def": "beautiful, lovely",
+    "grammar": "adj.",
+    "lemma": "scӯne"
   },
   "scуne": {
     "def": "beautiful, lovely",
@@ -12717,12 +37302,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "scӯran(scīran)"
   },
+  "se": {
+    "def": "see eom",
+    "grammar": "",
+    "lemma": "siġ"
+  },
   "sealma(selma)": {
     "def": "bedstead, bed, couch",
     "grammar": "wk.",
     "lemma": "sealma(selma)"
   },
+  "sealo brun": {
+    "def": "[SALLOW- or] dark-BROWN",
+    "grammar": "adj.",
+    "lemma": "sealo-brūn"
+  },
   "sealo-brun": {
+    "def": "[SALLOW- or] dark-BROWN",
+    "grammar": "adj.",
+    "lemma": "sealo-brūn"
+  },
+  "sealobrun": {
     "def": "[SALLOW- or] dark-BROWN",
     "grammar": "adj.",
     "lemma": "sealo-brūn"
@@ -12736,6 +37336,51 @@ const OLD_ENGLISH_DICT = {
     "def": "contrivance, skill",
     "grammar": "nwa.",
     "lemma": "searo"
+  },
+  "searo bend": {
+    "def": "cunningly wrought BAND or clasp",
+    "grammar": "fj",
+    "lemma": "searo-bend"
+  },
+  "searo fah": {
+    "def": "cunningly decorated",
+    "grammar": "adj.",
+    "lemma": "searo-fāh"
+  },
+  "searo gim(m)": {
+    "def": "precious jewel",
+    "grammar": "m.",
+    "lemma": "searo-ġim(m)"
+  },
+  "searo grim(m)": {
+    "def": "fierce in battle",
+    "grammar": "adj.",
+    "lemma": "searo-grim(m)"
+  },
+  "searo hæbbend(e)": {
+    "def": "(armor-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "searo-hæbbend(e)"
+  },
+  "searo net(t)": {
+    "def": "armor-NET or battle-net, mail shirt or coat",
+    "grammar": "nja.",
+    "lemma": "searo-net(t)"
+  },
+  "searo nið": {
+    "def": "treacherous quarrel",
+    "grammar": "m.",
+    "lemma": "searo-nīð"
+  },
+  "searo wundor": {
+    "def": "curious WONDER, wonderful thing",
+    "grammar": "n.",
+    "lemma": "searo-wundor"
+  },
+  "searo þonc": {
+    "def": "ingenuity, skill",
+    "grammar": "m.",
+    "lemma": "searo-þonc"
   },
   "searo-bend": {
     "def": "cunningly wrought BAND or clasp",
@@ -12782,6 +37427,51 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "searo-þonc"
   },
+  "searobend": {
+    "def": "cunningly wrought BAND or clasp",
+    "grammar": "fj",
+    "lemma": "searo-bend"
+  },
+  "searofah": {
+    "def": "cunningly decorated",
+    "grammar": "adj.",
+    "lemma": "searo-fāh"
+  },
+  "searogim(m)": {
+    "def": "precious jewel",
+    "grammar": "m.",
+    "lemma": "searo-ġim(m)"
+  },
+  "searogrim(m)": {
+    "def": "fierce in battle",
+    "grammar": "adj.",
+    "lemma": "searo-grim(m)"
+  },
+  "searohæbbend(e)": {
+    "def": "(armor-HAVing), warrior",
+    "grammar": "mc.",
+    "lemma": "searo-hæbbend(e)"
+  },
+  "searonet(t)": {
+    "def": "armor-NET or battle-net, mail shirt or coat",
+    "grammar": "nja.",
+    "lemma": "searo-net(t)"
+  },
+  "searonið": {
+    "def": "treacherous quarrel",
+    "grammar": "m.",
+    "lemma": "searo-nīð"
+  },
+  "searowundor": {
+    "def": "curious WONDER, wonderful thing",
+    "grammar": "n.",
+    "lemma": "searo-wundor"
+  },
+  "searoþonc": {
+    "def": "ingenuity, skill",
+    "grammar": "m.",
+    "lemma": "searo-þonc"
+  },
   "seax": {
     "def": "short sword (with single edge)",
     "grammar": "n.",
@@ -12797,10 +37487,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "sēċan"
   },
+  "secc": {
+    "def": "see sæċ(ċ)",
+    "grammar": "",
+    "lemma": "seċċe"
+  },
   "secce": {
     "def": "see sæċ(ċ)",
     "grammar": "",
     "lemma": "seċċe"
+  },
+  "sece": {
+    "def": "2293 (search), 2572 (desire, demand)",
+    "grammar": "vb. I",
+    "lemma": "sēċan"
   },
   "secg": {
     "def": "man",
@@ -12812,12 +37512,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "secgan"
   },
+  "secge": {
+    "def": "tell",
+    "grammar": "vb. III",
+    "lemma": "secgan"
+  },
+  "see": {
+    "def": "2717, 2863",
+    "grammar": "vb. 5",
+    "lemma": "sēon"
+  },
   "seeintr.xxixf.copyrightу2008.universityoftorontopress": {
     "def": "except fair uses permitted under U",
     "grammar": "Scholarly Publishing Division.",
     "lemma": "seeIntr.xxixf.Copyrightӯ2008.UniversityofTorontoPress"
   },
+  "sef": {
+    "def": "heart, spirit",
+    "grammar": "wk.",
+    "lemma": "sefa"
+  },
   "sefa": {
+    "def": "heart, spirit",
+    "grammar": "wk.",
+    "lemma": "sefa"
+  },
+  "sefe": {
     "def": "heart, spirit",
     "grammar": "wk.",
     "lemma": "sefa"
@@ -12826,6 +37546,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see sōfte",
     "grammar": "",
     "lemma": "sēft"
+  },
+  "seg": {
+    "def": "see seġn",
+    "grammar": "",
+    "lemma": "seġen"
+  },
+  "sege": {
+    "def": "see seġn",
+    "grammar": "",
+    "lemma": "seġen"
   },
   "segen": {
     "def": "see seġn",
@@ -12837,7 +37567,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "seġl"
   },
+  "segl rad": {
+    "def": "SAIL-ROAD, sea, lake",
+    "grammar": "f.",
+    "lemma": "seġl-rād"
+  },
   "segl-rad": {
+    "def": "SAIL-ROAD, sea, lake",
+    "grammar": "f.",
+    "lemma": "seġl-rād"
+  },
+  "seglrad": {
     "def": "SAIL-ROAD, sea, lake",
     "grammar": "f.",
     "lemma": "seġl-rād"
@@ -12848,9 +37588,14 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seġn"
   },
   "sel": {
-    "def": "see sæl",
-    "grammar": "",
-    "lemma": "sel"
+    "def": "hall",
+    "grammar": "mi.",
+    "lemma": "sele"
+  },
+  "sel lic": {
+    "def": "strange, wonderful",
+    "grammar": "syl",
+    "lemma": "sel-liċ"
   },
   "sel(noun)": {
     "def": "sēl (noun), see sǣl",
@@ -12862,7 +37607,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "syl",
     "lemma": "sel-liċ"
   },
+  "seld": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "seldan"
+  },
+  "seld guma": {
+    "def": "hall-man, retainer",
+    "grammar": "wk.",
+    "lemma": "seld-guma"
+  },
+  "seld-gum": {
+    "def": "hall-man, retainer",
+    "grammar": "wk.",
+    "lemma": "seld-guma"
+  },
   "seld-guma": {
+    "def": "hall-man, retainer",
+    "grammar": "wk.",
+    "lemma": "seld-guma"
+  },
+  "seld-gume": {
     "def": "hall-man, retainer",
     "grammar": "wk.",
     "lemma": "seld-guma"
@@ -12872,10 +37637,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "seldan"
   },
+  "selde": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "seldan"
+  },
+  "seldguma": {
+    "def": "hall-man, retainer",
+    "grammar": "wk.",
+    "lemma": "seld-guma"
+  },
   "sele": {
     "def": "hall",
     "grammar": "mi.",
     "lemma": "sele"
+  },
+  "sele dream": {
+    "def": "joy of the hall",
+    "grammar": "m.",
+    "lemma": "sele-drēam"
+  },
+  "sele ful(l)": {
+    "def": "hall-cup",
+    "grammar": "n.",
+    "lemma": "sele-ful(l)"
+  },
+  "sele gyst": {
+    "def": "hall-visitor (-GUEST)",
+    "grammar": "mi.",
+    "lemma": "sele-ġyst"
+  },
+  "sele rest": {
+    "def": "bed in a hall",
+    "grammar": "fj",
+    "lemma": "sele-rest"
+  },
+  "sele rædend(e)": {
+    "def": "hall-counselor, -ruler",
+    "grammar": "mc.",
+    "lemma": "sele-rǣdend(e)"
+  },
+  "sele weard": {
+    "def": "hall-GUARD(ian)",
+    "grammar": "m.",
+    "lemma": "sele-weard"
+  },
+  "sele þegn": {
+    "def": "hall-THEGN, chamber-lain, oÌcial of the court, attendant",
+    "grammar": "m.",
+    "lemma": "sele-þeġn"
   },
   "sele-dream": {
     "def": "joy of the hall",
@@ -12912,15 +37722,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sele-þeġn"
   },
+  "seledream": {
+    "def": "joy of the hall",
+    "grammar": "m.",
+    "lemma": "sele-drēam"
+  },
+  "seleful(l)": {
+    "def": "hall-cup",
+    "grammar": "n.",
+    "lemma": "sele-ful(l)"
+  },
+  "selegyst": {
+    "def": "hall-visitor (-GUEST)",
+    "grammar": "mi.",
+    "lemma": "sele-ġyst"
+  },
+  "selerest": {
+    "def": "bed in a hall",
+    "grammar": "fj",
+    "lemma": "sele-rest"
+  },
+  "selerædend(e)": {
+    "def": "hall-counselor, -ruler",
+    "grammar": "mc.",
+    "lemma": "sele-rǣdend(e)"
+  },
   "selest": {
     "def": "see gōd",
     "grammar": "",
     "lemma": "sēlest"
   },
+  "seleweard": {
+    "def": "hall-GUARD(ian)",
+    "grammar": "m.",
+    "lemma": "sele-weard"
+  },
+  "seleþegn": {
+    "def": "hall-THEGN, chamber-lain, oÌcial of the court, attendant",
+    "grammar": "m.",
+    "lemma": "sele-þeġn"
+  },
   "self": {
     "def": "1964",
     "grammar": "pron.",
     "lemma": "self"
+  },
+  "sell": {
+    "def": "see gōd",
+    "grammar": "",
+    "lemma": "sēlla"
   },
   "sella": {
     "def": "see gōd",
@@ -12932,17 +37782,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "sellan"
   },
+  "selle": {
+    "def": "see gōd",
+    "grammar": "",
+    "lemma": "sēlla"
+  },
+  "sellic": {
+    "def": "strange, wonderful",
+    "grammar": "syl",
+    "lemma": "sel-liċ"
+  },
+  "selr": {
+    "def": "see gōd",
+    "grammar": "",
+    "lemma": "sēlra"
+  },
   "selra": {
     "def": "see gōd",
     "grammar": "",
     "lemma": "sēlra"
+  },
+  "selre": {
+    "def": "see gōd",
+    "grammar": "",
+    "lemma": "sēlra"
+  },
+  "semning": {
+    "def": "suddenly, ‡at last (Kock4)",
+    "grammar": "adv.",
+    "lemma": "semninga"
   },
   "semninga": {
     "def": "suddenly, ‡at last (Kock4)",
     "grammar": "adv.",
     "lemma": "semninga"
   },
+  "semninge": {
+    "def": "suddenly, ‡at last (Kock4)",
+    "grammar": "adv.",
+    "lemma": "semninga"
+  },
+  "send": {
+    "def": "471",
+    "grammar": "vb. I",
+    "lemma": "sendan"
+  },
   "sendan": {
+    "def": "471",
+    "grammar": "vb. I",
+    "lemma": "sendan"
+  },
+  "sende": {
     "def": "471",
     "grammar": "vb. I",
     "lemma": "sendan"
@@ -12957,7 +37847,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sēoc"
   },
+  "seof": {
+    "def": "2195",
+    "grammar": "num.",
+    "lemma": "seofan"
+  },
   "seofan": {
+    "def": "2195",
+    "grammar": "num.",
+    "lemma": "seofan"
+  },
+  "seofe": {
     "def": "2195",
     "grammar": "num.",
     "lemma": "seofan"
@@ -12967,12 +37867,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "seofonniht"
   },
+  "seolf": {
+    "def": "see self",
+    "grammar": "",
+    "lemma": "seolfa"
+  },
   "seolfa": {
     "def": "see self",
     "grammar": "",
     "lemma": "seolfa"
   },
+  "seolfe": {
+    "def": "see self",
+    "grammar": "",
+    "lemma": "seolfa"
+  },
+  "seomi": {
+    "def": "rest, lie, remain, hover, hang",
+    "grammar": "vb.  II",
+    "lemma": "seomian"
+  },
   "seomian": {
+    "def": "rest, lie, remain, hover, hang",
+    "grammar": "vb.  II",
+    "lemma": "seomian"
+  },
+  "seomie": {
     "def": "rest, lie, remain, hover, hang",
     "grammar": "vb.  II",
     "lemma": "seomian"
@@ -12987,17 +37907,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "seonu"
   },
+  "seowi": {
+    "def": "put together, link",
+    "grammar": "vb. II",
+    "lemma": "seowian"
+  },
   "seowian": {
     "def": "put together, link",
     "grammar": "vb. II",
     "lemma": "seowian"
+  },
+  "seowie": {
+    "def": "put together, link",
+    "grammar": "vb. II",
+    "lemma": "seowian"
+  },
+  "seoð": {
+    "def": "SEETHE, boil, cause to well up, brood over",
+    "grammar": "vb. 2",
+    "lemma": "sēoðan"
   },
   "seoðan": {
     "def": "SEETHE, boil, cause to well up, brood over",
     "grammar": "vb. 2",
     "lemma": "sēoðan"
   },
+  "seoðe": {
+    "def": "SEETHE, boil, cause to well up, brood over",
+    "grammar": "vb. 2",
+    "lemma": "sēoðan"
+  },
+  "seoðð": {
+    "def": "see siððan",
+    "grammar": "",
+    "lemma": "seoððan"
+  },
   "seoððan": {
+    "def": "see siððan",
+    "grammar": "",
+    "lemma": "seoððan"
+  },
+  "seoððe": {
     "def": "see siððan",
     "grammar": "",
     "lemma": "seoððan"
@@ -13007,7 +37957,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ses(s)"
   },
+  "set": {
+    "def": "see sittan",
+    "grammar": "",
+    "lemma": "sētan"
+  },
   "setan": {
+    "def": "see sittan",
+    "grammar": "",
+    "lemma": "sētan"
+  },
+  "sete": {
     "def": "see sittan",
     "grammar": "",
     "lemma": "sētan"
@@ -13017,15 +37977,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "setl"
   },
+  "sett": {
+    "def": "325, 1242",
+    "grammar": "vb. I",
+    "lemma": "settan"
+  },
   "settan": {
     "def": "325, 1242",
     "grammar": "vb. I",
     "lemma": "settan"
   },
+  "sette": {
+    "def": "325, 1242",
+    "grammar": "vb. I",
+    "lemma": "settan"
+  },
+  "sex ben(n)": {
+    "def": "dagger-wound",
+    "grammar": "fj",
+    "lemma": "sex-ben(n)"
+  },
   "sex-ben(n)": {
     "def": "dagger-wound",
     "grammar": "fj",
     "lemma": "sex-ben(n)"
+  },
+  "sexben(n)": {
+    "def": "dagger-wound",
+    "grammar": "fj",
+    "lemma": "sex-ben(n)"
+  },
+  "si": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "sīde"
+  },
+  "sib æðeling": {
+    "def": "related noble",
+    "grammar": "m.",
+    "lemma": "sib-æðeling"
   },
   "sib(b)": {
     "def": "friendship, peace",
@@ -13037,15 +38027,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sib-æðeling"
   },
+  "sibbe gedriht": {
+    "def": "band of kinsmen",
+    "grammar": "fi.",
+    "lemma": "sibbe-ġedriht"
+  },
   "sibbe-gedriht": {
     "def": "band of kinsmen",
     "grammar": "fi.",
     "lemma": "sibbe-ġedriht"
   },
+  "sibbegedriht": {
+    "def": "band of kinsmen",
+    "grammar": "fi.",
+    "lemma": "sibbe-ġedriht"
+  },
+  "sibæðeling": {
+    "def": "related noble",
+    "grammar": "m.",
+    "lemma": "sib-æðeling"
+  },
   "sid": {
-    "def": "spacious, broad, great",
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "sīde"
+  },
+  "sid fæþme": {
+    "def": "roomy",
     "grammar": "adj.",
-    "lemma": "sīd"
+    "lemma": "sīd-fæþme"
+  },
+  "sid fæþmed": {
+    "def": "roomy",
+    "grammar": "adj.",
+    "lemma": "sīd-fæþmed"
+  },
+  "sid rand": {
+    "def": "broad shield",
+    "grammar": "m.",
+    "lemma": "sīd-rand"
+  },
+  "sid-fæþm": {
+    "def": "roomy",
+    "grammar": "adj.",
+    "lemma": "sīd-fæþme"
   },
   "sid-fæþme": {
     "def": "roomy",
@@ -13067,30 +38092,120 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "sīde"
   },
+  "sidfæþme": {
+    "def": "roomy",
+    "grammar": "adj.",
+    "lemma": "sīd-fæþme"
+  },
+  "sidfæþmed": {
+    "def": "roomy",
+    "grammar": "adj.",
+    "lemma": "sīd-fæþmed"
+  },
+  "sidrand": {
+    "def": "broad shield",
+    "grammar": "m.",
+    "lemma": "sīd-rand"
+  },
   "sie": {
     "def": "see eom",
     "grammar": "",
     "lemma": "sīe"
   },
   "sig": {
-    "def": "see eom",
-    "grammar": "",
-    "lemma": "siġ"
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "sīgan"
   },
   "sigan": {
     "def": "fall",
     "grammar": "vb. 1",
     "lemma": "sīgan"
   },
+  "sige": {
+    "def": "fall",
+    "grammar": "vb. 1",
+    "lemma": "sīgan"
+  },
+  "sige beorn": {
+    "def": "victorious warrior",
+    "grammar": "m.",
+    "lemma": "siġe-beorn"
+  },
+  "sige drihten": {
+    "def": "victorious lord",
+    "grammar": "m.",
+    "lemma": "siġe-drihten"
+  },
+  "sige eadig": {
+    "def": "victory-blessed, victo-rious",
+    "grammar": "adj.",
+    "lemma": "siġe-ēadiġ"
+  },
+  "sige folc": {
+    "def": "victorious or gallant people",
+    "grammar": "n.",
+    "lemma": "siġe-folc"
+  },
+  "sige hreð": {
+    "def": "see hrēð), glory of victory",
+    "grammar": "",
+    "lemma": "siġe-hrēð"
+  },
+  "sige hreþig": {
+    "def": "victorious, trium-phant",
+    "grammar": "adj.",
+    "lemma": "siġe-hrēþiġ"
+  },
+  "sige hwil": {
+    "def": "time of victory, victory",
+    "grammar": "f.",
+    "lemma": "siġe-hwīl"
+  },
+  "sige leas": {
+    "def": "of defeat",
+    "grammar": "adj.",
+    "lemma": "siġe-lēas"
+  },
+  "sige rof": {
+    "def": "courageous in victory, victorious",
+    "grammar": "adj.",
+    "lemma": "siġe-rōf"
+  },
+  "sige wæpen": {
+    "def": "victory-WEAPON",
+    "grammar": "n.",
+    "lemma": "siġe-wǣpen"
+  },
+  "sige þeod": {
+    "def": "victorious or glorious people",
+    "grammar": "f.",
+    "lemma": "siġe-þēod"
+  },
   "sige-beorn": {
     "def": "victorious warrior",
     "grammar": "m.",
     "lemma": "siġe-beorn"
   },
+  "sige-driht": {
+    "def": "victorious lord",
+    "grammar": "m.",
+    "lemma": "siġe-drihten"
+  },
+  "sige-drihte": {
+    "def": "victorious lord",
+    "grammar": "m.",
+    "lemma": "siġe-drihten"
+  },
   "sige-drihten": {
     "def": "victorious lord",
     "grammar": "m.",
     "lemma": "siġe-drihten"
+  },
+  "sige-eade": {
+    "def": "victory-blessed, victo-rious",
+    "grammar": "adj.",
+    "lemma": "siġe-ēadiġ"
   },
   "sige-eadig": {
     "def": "victory-blessed, victo-rious",
@@ -13107,6 +38222,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "siġe-hrēð"
   },
+  "sige-hreþe": {
+    "def": "victorious, trium-phant",
+    "grammar": "adj.",
+    "lemma": "siġe-hrēþiġ"
+  },
   "sige-hreþig": {
     "def": "victorious, trium-phant",
     "grammar": "adj.",
@@ -13117,7 +38237,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "siġe-hwīl"
   },
+  "sige-le": {
+    "def": "of defeat",
+    "grammar": "adj.",
+    "lemma": "siġe-lēas"
+  },
   "sige-leas": {
+    "def": "of defeat",
+    "grammar": "adj.",
+    "lemma": "siġe-lēas"
+  },
+  "sige-lee": {
     "def": "of defeat",
     "grammar": "adj.",
     "lemma": "siġe-lēas"
@@ -13126,6 +38256,16 @@ const OLD_ENGLISH_DICT = {
     "def": "courageous in victory, victorious",
     "grammar": "adj.",
     "lemma": "siġe-rōf"
+  },
+  "sige-wæp": {
+    "def": "victory-WEAPON",
+    "grammar": "n.",
+    "lemma": "siġe-wǣpen"
+  },
+  "sige-wæpe": {
+    "def": "victory-WEAPON",
+    "grammar": "n.",
+    "lemma": "siġe-wǣpen"
   },
   "sige-wæpen": {
     "def": "victory-WEAPON",
@@ -13137,10 +38277,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "siġe-þēod"
   },
+  "sigebeorn": {
+    "def": "victorious warrior",
+    "grammar": "m.",
+    "lemma": "siġe-beorn"
+  },
+  "sigedrihten": {
+    "def": "victorious lord",
+    "grammar": "m.",
+    "lemma": "siġe-drihten"
+  },
+  "sigeeadig": {
+    "def": "victory-blessed, victo-rious",
+    "grammar": "adj.",
+    "lemma": "siġe-ēadiġ"
+  },
+  "sigefolc": {
+    "def": "victorious or gallant people",
+    "grammar": "n.",
+    "lemma": "siġe-folc"
+  },
+  "sigehreð": {
+    "def": "see hrēð), glory of victory",
+    "grammar": "",
+    "lemma": "siġe-hrēð"
+  },
+  "sigehreþig": {
+    "def": "victorious, trium-phant",
+    "grammar": "adj.",
+    "lemma": "siġe-hrēþiġ"
+  },
+  "sigehwil": {
+    "def": "time of victory, victory",
+    "grammar": "f.",
+    "lemma": "siġe-hwīl"
+  },
   "sigel": {
     "def": "sun",
     "grammar": "n.",
     "lemma": "siġel"
+  },
+  "sigeleas": {
+    "def": "of defeat",
+    "grammar": "adj.",
+    "lemma": "siġe-lēas"
+  },
+  "sigerof": {
+    "def": "courageous in victory, victorious",
+    "grammar": "adj.",
+    "lemma": "siġe-rōf"
+  },
+  "sigewæpen": {
+    "def": "victory-WEAPON",
+    "grammar": "n.",
+    "lemma": "siġe-wǣpen"
+  },
+  "sigeþeod": {
+    "def": "victorious or glorious people",
+    "grammar": "f.",
+    "lemma": "siġe-þēod"
+  },
+  "sigl": {
+    "def": "jewel, brooch, necklace",
+    "grammar": "n.",
+    "lemma": "siġle"
   },
   "sigle": {
     "def": "jewel, brooch, necklace",
@@ -13152,7 +38352,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "sigor"
   },
+  "sigor eadig": {
+    "def": "victorious",
+    "grammar": "adj.",
+    "lemma": "sigor-ēadiġ"
+  },
+  "sigor-eade": {
+    "def": "victorious",
+    "grammar": "adj.",
+    "lemma": "sigor-ēadiġ"
+  },
   "sigor-eadig": {
+    "def": "victorious",
+    "grammar": "adj.",
+    "lemma": "sigor-ēadiġ"
+  },
+  "sigoreadig": {
     "def": "victorious",
     "grammar": "adj.",
     "lemma": "sigor-ēadiġ"
@@ -13162,7 +38377,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "poss.",
     "lemma": "sīn"
   },
+  "sin frea": {
+    "def": "great lord",
+    "grammar": "wk.",
+    "lemma": "sin-frēa"
+  },
+  "sin gal": {
+    "def": "154",
+    "grammar": "adj.",
+    "lemma": "sin-gāl"
+  },
+  "sin gala": {
+    "def": "adv",
+    "grammar": "sin",
+    "lemma": "sin-gāla"
+  },
+  "sin here": {
+    "def": "huge army",
+    "grammar": "mja.",
+    "lemma": "sin-here"
+  },
+  "sin nihte": {
+    "def": "perpetual NIGHT or darkness",
+    "grammar": "nja.",
+    "lemma": "sin-nihte"
+  },
+  "sin-fre": {
+    "def": "great lord",
+    "grammar": "wk.",
+    "lemma": "sin-frēa"
+  },
   "sin-frea": {
+    "def": "great lord",
+    "grammar": "wk.",
+    "lemma": "sin-frēa"
+  },
+  "sin-free": {
     "def": "great lord",
     "grammar": "wk.",
     "lemma": "sin-frēa"
@@ -13177,10 +38427,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "sin",
     "lemma": "sin-gāla"
   },
+  "sin-gale": {
+    "def": "adv",
+    "grammar": "sin",
+    "lemma": "sin-gāla"
+  },
+  "sin-he": {
+    "def": "huge army",
+    "grammar": "mja.",
+    "lemma": "sin-here"
+  },
+  "sin-her": {
+    "def": "huge army",
+    "grammar": "mja.",
+    "lemma": "sin-here"
+  },
   "sin-here": {
     "def": "huge army",
     "grammar": "mja.",
     "lemma": "sin-here"
+  },
+  "sin-nih": {
+    "def": "perpetual NIGHT or darkness",
+    "grammar": "nja.",
+    "lemma": "sin-nihte"
+  },
+  "sin-niht": {
+    "def": "perpetual NIGHT or darkness",
+    "grammar": "nja.",
+    "lemma": "sin-nihte"
   },
   "sin-nihte": {
     "def": "perpetual NIGHT or darkness",
@@ -13192,6 +38467,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sinċ"
   },
+  "sinc fag": {
+    "def": "richly decorated",
+    "grammar": "adj.",
+    "lemma": "sinċ-fāg"
+  },
+  "sinc fæt": {
+    "def": "precious cup, costly object",
+    "grammar": "n.",
+    "lemma": "sinċ-fæt"
+  },
+  "sinc gestreon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "sinċ-ġestrēon"
+  },
+  "sinc gifa": {
+    "def": "treasure-GIVer",
+    "grammar": "wk.",
+    "lemma": "sinċ-ġifa"
+  },
+  "sinc maðþum": {
+    "def": "treasure, jewel",
+    "grammar": "m.",
+    "lemma": "sinċ-māðþum"
+  },
+  "sinc þego": {
+    "def": "receiving of treasure",
+    "grammar": "f.",
+    "lemma": "sinċ-þego"
+  },
   "sinc-fag": {
     "def": "richly decorated",
     "grammar": "adj.",
@@ -13202,15 +38507,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sinċ-fæt"
   },
+  "sinc-gestre": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "sinċ-ġestrēon"
+  },
+  "sinc-gestree": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "sinċ-ġestrēon"
+  },
   "sinc-gestreon": {
     "def": "treasure",
     "grammar": "n.",
     "lemma": "sinċ-ġestrēon"
   },
+  "sinc-gif": {
+    "def": "treasure-GIVer",
+    "grammar": "wk.",
+    "lemma": "sinċ-ġifa"
+  },
   "sinc-gifa": {
     "def": "treasure-GIVer",
     "grammar": "wk.",
     "lemma": "sinċ-ġifa"
+  },
+  "sinc-gife": {
+    "def": "treasure-GIVer",
+    "grammar": "wk.",
+    "lemma": "sinċ-ġifa"
+  },
+  "sinc-maðþ": {
+    "def": "treasure, jewel",
+    "grammar": "m.",
+    "lemma": "sinċ-māðþum"
+  },
+  "sinc-maðþe": {
+    "def": "treasure, jewel",
+    "grammar": "m.",
+    "lemma": "sinċ-māðþum"
   },
   "sinc-maðþum": {
     "def": "treasure, jewel",
@@ -13222,15 +38557,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "sinċ-þego"
   },
+  "sincfag": {
+    "def": "richly decorated",
+    "grammar": "adj.",
+    "lemma": "sinċ-fāg"
+  },
+  "sincfæt": {
+    "def": "precious cup, costly object",
+    "grammar": "n.",
+    "lemma": "sinċ-fæt"
+  },
+  "sincgestreon": {
+    "def": "treasure",
+    "grammar": "n.",
+    "lemma": "sinċ-ġestrēon"
+  },
+  "sincgifa": {
+    "def": "treasure-GIVer",
+    "grammar": "wk.",
+    "lemma": "sinċ-ġifa"
+  },
+  "sincmaðþum": {
+    "def": "treasure, jewel",
+    "grammar": "m.",
+    "lemma": "sinċ-māðþum"
+  },
+  "sincþego": {
+    "def": "receiving of treasure",
+    "grammar": "f.",
+    "lemma": "sinċ-þego"
+  },
+  "sinfrea": {
+    "def": "great lord",
+    "grammar": "wk.",
+    "lemma": "sin-frēa"
+  },
+  "sing": {
+    "def": "ring (out)",
+    "grammar": "vb. 3",
+    "lemma": "singan"
+  },
+  "singal": {
+    "def": "154",
+    "grammar": "adj.",
+    "lemma": "sin-gāl"
+  },
+  "singala": {
+    "def": "adv",
+    "grammar": "sin",
+    "lemma": "sin-gāla"
+  },
   "singan": {
     "def": "ring (out)",
     "grammar": "vb. 3",
     "lemma": "singan"
   },
+  "singe": {
+    "def": "ring (out)",
+    "grammar": "vb. 3",
+    "lemma": "singan"
+  },
+  "sinhere": {
+    "def": "huge army",
+    "grammar": "mja.",
+    "lemma": "sin-here"
+  },
+  "sinne": {
+    "def": "culpable",
+    "grammar": "adj.",
+    "lemma": "sinniġ"
+  },
   "sinnig": {
     "def": "culpable",
     "grammar": "adj.",
     "lemma": "sinniġ"
+  },
+  "sinnihte": {
+    "def": "perpetual NIGHT or darkness",
+    "grammar": "nja.",
+    "lemma": "sin-nihte"
   },
   "sint": {
     "def": "see eom",
@@ -13247,15 +38652,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sioloð"
   },
+  "siomi": {
+    "def": "see seomian",
+    "grammar": "",
+    "lemma": "siomian"
+  },
   "siomian": {
     "def": "see seomian",
     "grammar": "",
     "lemma": "siomian"
   },
+  "siomie": {
+    "def": "see seomian",
+    "grammar": "",
+    "lemma": "siomian"
+  },
+  "sitt": {
+    "def": "2906",
+    "grammar": "vb. 5",
+    "lemma": "sittan"
+  },
   "sittan": {
     "def": "2906",
     "grammar": "vb. 5",
     "lemma": "sittan"
+  },
+  "sitte": {
+    "def": "2906",
+    "grammar": "vb. 5",
+    "lemma": "sittan"
+  },
+  "sixte": {
+    "def": "SIXTY",
+    "grammar": "num.",
+    "lemma": "sixtig"
   },
   "sixtig": {
     "def": "SIXTY",
@@ -13266,6 +38696,16 @@ const OLD_ENGLISH_DICT = {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "sīð"
+  },
+  "sið from": {
+    "def": "eager to depart",
+    "grammar": "adj.",
+    "lemma": "sīð-from"
+  },
+  "sið fæt": {
+    "def": "adventure",
+    "grammar": "m.",
+    "lemma": "sīð-fæt"
   },
   "sið-from": {
     "def": "eager to depart",
@@ -13282,15 +38722,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "s",
     "lemma": "sīðast"
   },
+  "siðfrom": {
+    "def": "eager to depart",
+    "grammar": "adj.",
+    "lemma": "sīð-from"
+  },
+  "siðfæt": {
+    "def": "adventure",
+    "grammar": "m.",
+    "lemma": "sīð-fæt"
+  },
+  "siði": {
+    "def": "travel",
+    "grammar": "vb. II",
+    "lemma": "sīðian"
+  },
   "siðian": {
     "def": "travel",
     "grammar": "vb. II",
     "lemma": "sīðian"
   },
+  "siðie": {
+    "def": "travel",
+    "grammar": "vb. II",
+    "lemma": "sīðian"
+  },
+  "siðð": {
+    "def": "then (i",
+    "grammar": "I.",
+    "lemma": "siððan"
+  },
   "siððan": {
     "def": "then (i",
     "grammar": "I.",
     "lemma": "siððan"
+  },
+  "siððe": {
+    "def": "then (i",
+    "grammar": "I.",
+    "lemma": "siððan"
+  },
+  "sle": {
+    "def": "681",
+    "grammar": "vb. 6",
+    "lemma": "slēan"
   },
   "sleac": {
     "def": "slothful",
@@ -13302,15 +38777,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "slēan"
   },
+  "slee": {
+    "def": "681",
+    "grammar": "vb. 6",
+    "lemma": "slēan"
+  },
+  "slit": {
+    "def": "sever",
+    "grammar": "vb. 1",
+    "lemma": "slītan"
+  },
   "slitan": {
     "def": "sever",
     "grammar": "vb. 1",
     "lemma": "slītan"
   },
-  "sliðe": {
-    "def": "severe, dangerous, ter-rible",
+  "slite": {
+    "def": "sever",
+    "grammar": "vb. 1",
+    "lemma": "slītan"
+  },
+  "slið": {
+    "def": "dire",
     "grammar": "adj.",
-    "lemma": "slīðe"
+    "lemma": "slīðen"
+  },
+  "sliðe": {
+    "def": "dire",
+    "grammar": "adj.",
+    "lemma": "slīðen"
   },
   "sliðen": {
     "def": "dire",
@@ -13327,10 +38822,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "slǣpan"
   },
+  "slæpe": {
+    "def": "SLEEP",
+    "grammar": "vb. 7",
+    "lemma": "slǣpan"
+  },
   "smið": {
     "def": "worker in metals",
     "grammar": "m.",
     "lemma": "smið"
+  },
+  "snel lic": {
+    "def": "quick, brave",
+    "grammar": "adj.",
+    "lemma": "snel-liċ"
   },
   "snel(l)": {
     "def": "bold, brave",
@@ -13342,22 +38847,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "snel-liċ"
   },
+  "snellic": {
+    "def": "quick, brave",
+    "grammar": "adj.",
+    "lemma": "snel-liċ"
+  },
   "snot(t)or": {
     "def": "wise",
     "grammar": "adj.",
     "lemma": "snot(t)or"
+  },
+  "snotor lice": {
+    "def": "wisely, prudently, comp",
+    "grammar": "adv.",
+    "lemma": "snotor-līċe"
+  },
+  "snotor-lic": {
+    "def": "wisely, prudently, comp",
+    "grammar": "adv.",
+    "lemma": "snotor-līċe"
   },
   "snotor-lice": {
     "def": "wisely, prudently, comp",
     "grammar": "adv.",
     "lemma": "snotor-līċe"
   },
+  "snotorlice": {
+    "def": "wisely, prudently, comp",
+    "grammar": "adv.",
+    "lemma": "snotor-līċe"
+  },
+  "snu": {
+    "def": "without delay",
+    "grammar": "adv.",
+    "lemma": "snūde"
+  },
+  "snud": {
+    "def": "without delay",
+    "grammar": "adv.",
+    "lemma": "snūde"
+  },
   "snude": {
     "def": "without delay",
     "grammar": "adv.",
     "lemma": "snūde"
   },
+  "snyri": {
+    "def": "move quickly",
+    "grammar": "vb. I",
+    "lemma": "snyrian"
+  },
   "snyrian": {
+    "def": "move quickly",
+    "grammar": "vb. I",
+    "lemma": "snyrian"
+  },
+  "snyrie": {
     "def": "move quickly",
     "grammar": "vb. I",
     "lemma": "snyrian"
@@ -13372,6 +38917,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "sōcn"
   },
+  "sof": {
+    "def": "gently, pleasantly",
+    "grammar": "adv.",
+    "lemma": "sōfte"
+  },
+  "soft": {
+    "def": "gently, pleasantly",
+    "grammar": "adv.",
+    "lemma": "sōfte"
+  },
   "softe": {
     "def": "gently, pleasantly",
     "grammar": "adv.",
@@ -13382,17 +38937,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "somod"
   },
+  "son": {
+    "def": "immediately, at once",
+    "grammar": "adv.",
+    "lemma": "sōna"
+  },
   "sona": {
     "def": "immediately, at once",
     "grammar": "adv.",
     "lemma": "sōna"
+  },
+  "sone": {
+    "def": "immediately, at once",
+    "grammar": "adv.",
+    "lemma": "sōna"
+  },
+  "sorg( )": {
+    "def": "see sorh(-)",
+    "grammar": "",
+    "lemma": "sorg(-)"
+  },
+  "sorg()": {
+    "def": "see sorh(-)",
+    "grammar": "",
+    "lemma": "sorg(-)"
   },
   "sorg(-)": {
     "def": "see sorh(-)",
     "grammar": "",
     "lemma": "sorg(-)"
   },
+  "sorgi": {
+    "def": "grieve, care",
+    "grammar": "vb. II",
+    "lemma": "sorgian"
+  },
   "sorgian": {
+    "def": "grieve, care",
+    "grammar": "vb. II",
+    "lemma": "sorgian"
+  },
+  "sorgie": {
     "def": "grieve, care",
     "grammar": "vb. II",
     "lemma": "sorgian"
@@ -13401,6 +38986,36 @@ const OLD_ENGLISH_DICT = {
     "def": "grief, trouble",
     "grammar": "f.",
     "lemma": "sorh"
+  },
+  "sorh cearig": {
+    "def": "SORROWful, sad",
+    "grammar": "adj.",
+    "lemma": "sorh-ċeariġ"
+  },
+  "sorh ful(l)": {
+    "def": "2119",
+    "grammar": "adj.",
+    "lemma": "sorh-ful(l)"
+  },
+  "sorh leas": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "sorh-lēas"
+  },
+  "sorh leoð": {
+    "def": "song of SORROW",
+    "grammar": "n.",
+    "lemma": "sorh-lēoð"
+  },
+  "sorh wylm": {
+    "def": "surging SORROW or care",
+    "grammar": "mi.",
+    "lemma": "sorh-wylm"
+  },
+  "sorh-ceare": {
+    "def": "SORROWful, sad",
+    "grammar": "adj.",
+    "lemma": "sorh-ċeariġ"
   },
   "sorh-cearig": {
     "def": "SORROWful, sad",
@@ -13412,7 +39027,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sorh-ful(l)"
   },
+  "sorh-le": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "sorh-lēas"
+  },
   "sorh-leas": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "sorh-lēas"
+  },
+  "sorh-lee": {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "sorh-lēas"
@@ -13427,10 +39052,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "sorh-wylm"
   },
+  "sorhcearig": {
+    "def": "SORROWful, sad",
+    "grammar": "adj.",
+    "lemma": "sorh-ċeariġ"
+  },
+  "sorhful(l)": {
+    "def": "2119",
+    "grammar": "adj.",
+    "lemma": "sorh-ful(l)"
+  },
+  "sorhleas": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "sorh-lēas"
+  },
+  "sorhleoð": {
+    "def": "song of SORROW",
+    "grammar": "n.",
+    "lemma": "sorh-lēoð"
+  },
+  "sorhwylm": {
+    "def": "surging SORROW or care",
+    "grammar": "mi.",
+    "lemma": "sorh-wylm"
+  },
   "soð": {
     "def": "2109",
     "grammar": "adj.",
     "lemma": "sōð"
+  },
+  "soð cyning": {
+    "def": "true KING, king of truth, God",
+    "grammar": "m.",
+    "lemma": "sōð-cyning"
+  },
+  "soð fæst": {
+    "def": "righteous (cf",
+    "grammar": "adj.",
+    "lemma": "sōð-fæst"
+  },
+  "soð lice": {
+    "def": "faithfully",
+    "grammar": "adv.",
+    "lemma": "sōð-līċe"
   },
   "soð-cyning": {
     "def": "true KING, king of truth, God",
@@ -13442,17 +39107,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sōð-fæst"
   },
+  "soð-lic": {
+    "def": "faithfully",
+    "grammar": "adv.",
+    "lemma": "sōð-līċe"
+  },
   "soð-lice": {
     "def": "faithfully",
     "grammar": "adv.",
     "lemma": "sōð-līċe"
+  },
+  "soðcyning": {
+    "def": "true KING, king of truth, God",
+    "grammar": "m.",
+    "lemma": "sōð-cyning"
   },
   "soðe": {
     "def": "truly, faithfully",
     "grammar": "adv.",
     "lemma": "sōðe"
   },
+  "soðfæst": {
+    "def": "righteous (cf",
+    "grammar": "adj.",
+    "lemma": "sōð-fæst"
+  },
+  "soðlice": {
+    "def": "faithfully",
+    "grammar": "adv.",
+    "lemma": "sōð-līċe"
+  },
+  "spec": {
+    "def": "see sprecan",
+    "grammar": "",
+    "lemma": "specan"
+  },
   "specan": {
+    "def": "see sprecan",
+    "grammar": "",
+    "lemma": "specan"
+  },
+  "spece": {
     "def": "see sprecan",
     "grammar": "",
     "lemma": "specan"
@@ -13467,22 +39162,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "spel(l)"
   },
+  "spiw": {
+    "def": "disgorge, pour out",
+    "grammar": "vb. 1",
+    "lemma": "spīwan"
+  },
   "spiwan": {
     "def": "disgorge, pour out",
     "grammar": "vb. 1",
     "lemma": "spīwan"
+  },
+  "spiwe": {
+    "def": "disgorge, pour out",
+    "grammar": "vb. 1",
+    "lemma": "spīwan"
+  },
+  "spow": {
+    "def": "succeed",
+    "grammar": "vb. 7",
+    "lemma": "spōwan"
   },
   "spowan": {
     "def": "succeed",
     "grammar": "vb. 7",
     "lemma": "spōwan"
   },
+  "spowe": {
+    "def": "succeed",
+    "grammar": "vb. 7",
+    "lemma": "spōwan"
+  },
+  "sprec": {
+    "def": "3172",
+    "grammar": "vb. 5",
+    "lemma": "sprecan"
+  },
   "sprecan": {
     "def": "3172",
     "grammar": "vb. 5",
     "lemma": "sprecan"
   },
+  "sprece": {
+    "def": "3172",
+    "grammar": "vb. 5",
+    "lemma": "sprecan"
+  },
+  "spring": {
+    "def": "bound, burst forth, spread",
+    "grammar": "vb. 3",
+    "lemma": "springan"
+  },
   "springan": {
+    "def": "bound, burst forth, spread",
+    "grammar": "vb. 3",
+    "lemma": "springan"
+  },
+  "springe": {
     "def": "bound, burst forth, spread",
     "grammar": "vb. 3",
     "lemma": "springan"
@@ -13492,17 +39227,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "sprǣċ"
   },
+  "st": {
+    "def": "rock",
+    "grammar": "m.",
+    "lemma": "stān"
+  },
   "stan": {
     "def": "rock",
     "grammar": "m.",
     "lemma": "stān"
+  },
+  "stan beorh": {
+    "def": "STONE-BARROW",
+    "grammar": "m.",
+    "lemma": "stān-beorh"
+  },
+  "stan boga": {
+    "def": "(STONE-BOW), stone arch",
+    "grammar": "wk.",
+    "lemma": "stān-boga"
+  },
+  "stan clif": {
+    "def": "2540",
+    "grammar": "n.",
+    "lemma": "stān-clif"
+  },
+  "stan fah": {
+    "def": "embellished with STONEs, paved",
+    "grammar": "adj.",
+    "lemma": "stān-fāh"
+  },
+  "stan hlið": {
+    "def": "rocky slope",
+    "grammar": "n.",
+    "lemma": "stān-hlið"
   },
   "stan-beorh": {
     "def": "STONE-BARROW",
     "grammar": "m.",
     "lemma": "stān-beorh"
   },
+  "stan-bog": {
+    "def": "(STONE-BOW), stone arch",
+    "grammar": "wk.",
+    "lemma": "stān-boga"
+  },
   "stan-boga": {
+    "def": "(STONE-BOW), stone arch",
+    "grammar": "wk.",
+    "lemma": "stān-boga"
+  },
+  "stan-boge": {
     "def": "(STONE-BOW), stone arch",
     "grammar": "wk.",
     "lemma": "stān-boga"
@@ -13522,20 +39297,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "stān-hlið"
   },
+  "stanbeorh": {
+    "def": "STONE-BARROW",
+    "grammar": "m.",
+    "lemma": "stān-beorh"
+  },
+  "stanboga": {
+    "def": "(STONE-BOW), stone arch",
+    "grammar": "wk.",
+    "lemma": "stān-boga"
+  },
+  "stanclif": {
+    "def": "2540",
+    "grammar": "n.",
+    "lemma": "stān-clif"
+  },
+  "stand": {
+    "def": "continue in a certain state",
+    "grammar": "vb. 6",
+    "lemma": "standan"
+  },
   "standan": {
     "def": "continue in a certain state",
     "grammar": "vb. 6",
     "lemma": "standan"
+  },
+  "stande": {
+    "def": "continue in a certain state",
+    "grammar": "vb. 6",
+    "lemma": "standan"
+  },
+  "stanfah": {
+    "def": "embellished with STONEs, paved",
+    "grammar": "adj.",
+    "lemma": "stān-fāh"
+  },
+  "stanhlið": {
+    "def": "rocky slope",
+    "grammar": "n.",
+    "lemma": "stān-hlið"
   },
   "stapol": {
     "def": "pillar, large upright stone (megalith)",
     "grammar": "m.",
     "lemma": "stapol"
   },
+  "stari": {
+    "def": "look",
+    "grammar": "vb. II",
+    "lemma": "starian"
+  },
   "starian": {
     "def": "look",
     "grammar": "vb. II",
     "lemma": "starian"
+  },
+  "starie": {
+    "def": "look",
+    "grammar": "vb. II",
+    "lemma": "starian"
+  },
+  "ste": {
+    "def": "rock",
+    "grammar": "m.",
+    "lemma": "stān"
   },
   "steap": {
     "def": "high, towering",
@@ -13547,10 +39372,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "stearc"
   },
+  "stearc heort": {
+    "def": "stout-HEARTed",
+    "grammar": "adj.",
+    "lemma": "stearc-heort"
+  },
   "stearc-heort": {
     "def": "stout-HEARTed",
     "grammar": "adj.",
     "lemma": "stearc-heort"
+  },
+  "stearcheort": {
+    "def": "stout-HEARTed",
+    "grammar": "adj.",
+    "lemma": "stearc-heort"
+  },
+  "sted": {
+    "def": "985 (n",
+    "grammar": "mi.",
+    "lemma": "stede"
   },
   "stede": {
     "def": "985 (n",
@@ -13562,12 +39402,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "stefn"
   },
+  "step": {
+    "def": "raise, exalt",
+    "grammar": "vb. I",
+    "lemma": "stēpan"
+  },
   "stepan": {
     "def": "raise, exalt",
     "grammar": "vb. I",
     "lemma": "stēpan"
   },
+  "stepe": {
+    "def": "raise, exalt",
+    "grammar": "vb. I",
+    "lemma": "stēpan"
+  },
+  "stepp": {
+    "def": "stride, march",
+    "grammar": "vb. 6",
+    "lemma": "steppan"
+  },
   "steppan": {
+    "def": "stride, march",
+    "grammar": "vb. 6",
+    "lemma": "steppan"
+  },
+  "steppe": {
     "def": "stride, march",
     "grammar": "vb. 6",
     "lemma": "steppan"
@@ -13582,12 +39442,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "stīgan"
   },
+  "stige": {
+    "def": "step, go up, mount",
+    "grammar": "vb. 1",
+    "lemma": "stīgan"
+  },
+  "still": {
+    "def": "fixed",
+    "grammar": "adj.",
+    "lemma": "stille"
+  },
   "stille": {
     "def": "fixed",
     "grammar": "adj.",
     "lemma": "stille"
   },
+  "stinc": {
+    "def": "smell, follow a scent",
+    "grammar": "vb. 3",
+    "lemma": "stincan"
+  },
   "stincan": {
+    "def": "smell, follow a scent",
+    "grammar": "vb. 3",
+    "lemma": "stincan"
+  },
+  "stince": {
     "def": "smell, follow a scent",
     "grammar": "vb. 3",
     "lemma": "stincan"
@@ -13597,12 +39477,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "stīð"
   },
+  "stið mod": {
+    "def": "firm",
+    "grammar": "adj.",
+    "lemma": "stīð-mōd"
+  },
   "stið-mod": {
     "def": "firm",
     "grammar": "adj.",
     "lemma": "stīð-mōd"
   },
+  "stiðmod": {
+    "def": "firm",
+    "grammar": "adj.",
+    "lemma": "stīð-mōd"
+  },
+  "stond": {
+    "def": "see standan",
+    "grammar": "",
+    "lemma": "stondan"
+  },
   "stondan": {
+    "def": "see standan",
+    "grammar": "",
+    "lemma": "stondan"
+  },
+  "stonde": {
     "def": "see standan",
     "grammar": "",
     "lemma": "stondan"
@@ -13632,7 +39532,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "strēam"
   },
+  "streg": {
+    "def": "STREW, spread",
+    "grammar": "vb. I",
+    "lemma": "strēġan"
+  },
   "stregan": {
+    "def": "STREW, spread",
+    "grammar": "vb. I",
+    "lemma": "strēġan"
+  },
+  "strege": {
     "def": "STREW, spread",
     "grammar": "vb. I",
     "lemma": "strēġan"
@@ -13657,7 +39567,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "strong"
   },
+  "strud": {
+    "def": "3073, 3126",
+    "grammar": "vb. 2",
+    "lemma": "strūdan"
+  },
   "strudan": {
+    "def": "3073, 3126",
+    "grammar": "vb. 2",
+    "lemma": "strūdan"
+  },
+  "strude": {
     "def": "3073, 3126",
     "grammar": "vb. 2",
     "lemma": "strūdan"
@@ -13677,25 +39597,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "stund"
   },
+  "styri": {
+    "def": "1374",
+    "grammar": "vb. I",
+    "lemma": "styrian"
+  },
   "styrian": {
     "def": "1374",
     "grammar": "vb. I",
     "lemma": "styrian"
+  },
+  "styrie": {
+    "def": "1374",
+    "grammar": "vb. I",
+    "lemma": "styrian"
+  },
+  "styrm": {
+    "def": "shout",
+    "grammar": "vb. I",
+    "lemma": "styrman"
   },
   "styrman": {
     "def": "shout",
     "grammar": "vb. I",
     "lemma": "styrman"
   },
+  "styrme": {
+    "def": "shout",
+    "grammar": "vb. I",
+    "lemma": "styrman"
+  },
   "stæl": {
-    "def": "position",
-    "grammar": "m.",
-    "lemma": "stǣl"
+    "def": "avenge",
+    "grammar": "vb.  I",
+    "lemma": "stǣlan"
   },
   "stælan": {
     "def": "avenge",
     "grammar": "vb.  I",
     "lemma": "stǣlan"
+  },
+  "stæle": {
+    "def": "avenge",
+    "grammar": "vb.  I",
+    "lemma": "stǣlan"
+  },
+  "stуl": {
+    "def": "985",
+    "grammar": "nja.",
+    "lemma": "stӯle"
+  },
+  "stуl ecg": {
+    "def": "STEEL-EDGEd",
+    "grammar": "adj.",
+    "lemma": "stӯl-ecg"
   },
   "stуl-ecg": {
     "def": "STEEL-EDGEd",
@@ -13707,12 +39662,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "stӯle"
   },
+  "stуlecg": {
+    "def": "STEEL-EDGEd",
+    "grammar": "adj.",
+    "lemma": "stӯl-ecg"
+  },
+  "stуr": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "stӯran"
+  },
   "stуran": {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "stӯran"
   },
+  "stуre": {
+    "def": "w",
+    "grammar": "vb. I",
+    "lemma": "stӯran"
+  },
+  "suhterge fæderan": {
+    "def": "nephew (brother’s son) and (paternal) uncle",
+    "grammar": "wk.",
+    "lemma": "suhterġe-fæderan"
+  },
+  "suhterge-fæder": {
+    "def": "nephew (brother’s son) and (paternal) uncle",
+    "grammar": "wk.",
+    "lemma": "suhterġe-fæderan"
+  },
   "suhterge-fæderan": {
+    "def": "nephew (brother’s son) and (paternal) uncle",
+    "grammar": "wk.",
+    "lemma": "suhterġe-fæderan"
+  },
+  "suhterge-fædere": {
+    "def": "nephew (brother’s son) and (paternal) uncle",
+    "grammar": "wk.",
+    "lemma": "suhterġe-fæderan"
+  },
+  "suhtergefæderan": {
     "def": "nephew (brother’s son) and (paternal) uncle",
     "grammar": "wk.",
     "lemma": "suhterġe-fæderan"
@@ -13722,10 +39712,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sum"
   },
+  "sun": {
+    "def": "648",
+    "grammar": "wk.",
+    "lemma": "sunne"
+  },
   "sund": {
     "def": "swimming, voyage",
     "grammar": "n.",
     "lemma": "sund"
+  },
+  "sund gebland": {
+    "def": "commotion of water, surging water",
+    "grammar": "n.",
+    "lemma": "sund-ġebland"
+  },
+  "sund nyt(t)": {
+    "def": "act of swimming",
+    "grammar": "fj",
+    "lemma": "sund-nyt(t)"
+  },
+  "sund wudu": {
+    "def": "sea-WOOD, i",
+    "grammar": "mu.",
+    "lemma": "sund-wudu"
   },
   "sund-gebland": {
     "def": "commotion of water, surging water",
@@ -13742,7 +39752,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "sund-wudu"
   },
+  "sundgebland": {
+    "def": "commotion of water, surging water",
+    "grammar": "n.",
+    "lemma": "sund-ġebland"
+  },
+  "sundnyt(t)": {
+    "def": "act of swimming",
+    "grammar": "fj",
+    "lemma": "sund-nyt(t)"
+  },
+  "sundor nyt(t)": {
+    "def": "special service",
+    "grammar": "fj",
+    "lemma": "sundor-nyt(t)"
+  },
   "sundor-nyt(t)": {
+    "def": "special service",
+    "grammar": "fj",
+    "lemma": "sundor-nyt(t)"
+  },
+  "sundornyt(t)": {
     "def": "special service",
     "grammar": "fj",
     "lemma": "sundor-nyt(t)"
@@ -13751,6 +39781,16 @@ const OLD_ENGLISH_DICT = {
     "def": "apart, in two",
     "grammar": "adv.",
     "lemma": "sundur"
+  },
+  "sundwudu": {
+    "def": "sea-WOOD, i",
+    "grammar": "mu.",
+    "lemma": "sund-wudu"
+  },
+  "sunn": {
+    "def": "648",
+    "grammar": "wk.",
+    "lemma": "sunne"
   },
   "sunne": {
     "def": "648",
@@ -13767,10 +39807,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "sūð"
   },
+  "suþ": {
+    "def": "1966",
+    "grammar": "adv.",
+    "lemma": "sūþan"
+  },
   "suþan": {
     "def": "1966",
     "grammar": "adv.",
     "lemma": "sūþan"
+  },
+  "suþe": {
+    "def": "1966",
+    "grammar": "adv.",
+    "lemma": "sūþan"
+  },
+  "sw": {
+    "def": "thus, in this manner",
+    "grammar": "I.",
+    "lemma": "swā"
   },
   "swa": {
     "def": "thus, in this manner",
@@ -13782,6 +39837,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "swān"
   },
+  "swan rad": {
+    "def": "SWAN-ROAD, sea",
+    "grammar": "f.",
+    "lemma": "swan-rād"
+  },
   "swan-rad": {
     "def": "SWAN-ROAD, sea",
     "grammar": "f.",
@@ -13792,10 +39852,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swancor"
   },
+  "swanrad": {
+    "def": "SWAN-ROAD, sea",
+    "grammar": "f.",
+    "lemma": "swan-rād"
+  },
   "swat": {
     "def": "(†)blood",
     "grammar": "m.",
     "lemma": "swāt"
+  },
+  "swat fah": {
+    "def": "blood-stained",
+    "grammar": "adj.",
+    "lemma": "swāt-fāh"
+  },
+  "swat swaðu": {
+    "def": "bloody track",
+    "grammar": "f.",
+    "lemma": "swāt-swaðu"
   },
   "swat-fah": {
     "def": "blood-stained",
@@ -13807,17 +39882,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "swāt-swaðu"
   },
+  "swate": {
+    "def": "†bloody",
+    "grammar": "adj.",
+    "lemma": "swātiġ"
+  },
+  "swatfah": {
+    "def": "blood-stained",
+    "grammar": "adj.",
+    "lemma": "swāt-fāh"
+  },
   "swatig": {
     "def": "†bloody",
     "grammar": "adj.",
     "lemma": "swātiġ"
+  },
+  "swatswaðu": {
+    "def": "bloody track",
+    "grammar": "f.",
+    "lemma": "swāt-swaðu"
   },
   "swaðu": {
     "def": "remained behind), 2098",
     "grammar": "f.",
     "lemma": "swaðu"
   },
+  "swaþri": {
+    "def": "subside, become still",
+    "grammar": "vb. II",
+    "lemma": "swaþrian"
+  },
   "swaþrian": {
+    "def": "subside, become still",
+    "grammar": "vb. II",
+    "lemma": "swaþrian"
+  },
+  "swaþrie": {
     "def": "subside, become still",
     "grammar": "vb. II",
     "lemma": "swaþrian"
@@ -13827,17 +39927,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "swaþul"
   },
+  "swe": {
+    "def": "thus, in this manner",
+    "grammar": "I.",
+    "lemma": "swā"
+  },
   "sweart": {
     "def": "black, dark",
     "grammar": "adj.",
     "lemma": "sweart"
+  },
+  "swebb": {
+    "def": "†kill",
+    "grammar": "vb. I",
+    "lemma": "swebban"
   },
   "swebban": {
     "def": "†kill",
     "grammar": "vb. I",
     "lemma": "swebban"
   },
+  "swebbe": {
+    "def": "†kill",
+    "grammar": "vb. I",
+    "lemma": "swebban"
+  },
+  "swef": {
+    "def": "sleep, sleep in death",
+    "grammar": "vb. 5",
+    "lemma": "swefan"
+  },
   "swefan": {
+    "def": "sleep, sleep in death",
+    "grammar": "vb. 5",
+    "lemma": "swefan"
+  },
+  "swefe": {
     "def": "sleep, sleep in death",
     "grammar": "vb. 5",
     "lemma": "swefan"
@@ -13857,32 +39982,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sweġl"
   },
+  "swegl wered": {
+    "def": "clothed with radiance",
+    "grammar": "adj.",
+    "lemma": "sweġl-wered"
+  },
   "swegl-wered": {
     "def": "clothed with radiance",
     "grammar": "adj.",
     "lemma": "sweġl-wered"
+  },
+  "sweglwered": {
+    "def": "clothed with radiance",
+    "grammar": "adj.",
+    "lemma": "sweġl-wered"
+  },
+  "swel": {
+    "def": "burn (intr",
+    "grammar": "vb. 4",
+    "lemma": "swelan"
   },
   "swelan": {
     "def": "burn (intr",
     "grammar": "vb. 4",
     "lemma": "swelan"
   },
+  "swele": {
+    "def": "burn (intr",
+    "grammar": "vb. 4",
+    "lemma": "swelan"
+  },
+  "swelg": {
+    "def": "743",
+    "grammar": "vb. 3",
+    "lemma": "swelgan"
+  },
   "swelgan": {
     "def": "743",
     "grammar": "vb. 3",
     "lemma": "swelgan"
+  },
+  "swelge": {
+    "def": "743",
+    "grammar": "vb. 3",
+    "lemma": "swelgan"
+  },
+  "swell": {
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "swellan"
   },
   "swellan": {
     "def": "vb",
     "grammar": "vb. 3",
     "lemma": "swellan"
   },
+  "swelle": {
+    "def": "vb",
+    "grammar": "vb. 3",
+    "lemma": "swellan"
+  },
+  "swelt": {
+    "def": "1617, 2474",
+    "grammar": "vb. 3",
+    "lemma": "sweltan"
+  },
   "sweltan": {
     "def": "1617, 2474",
     "grammar": "vb. 3",
     "lemma": "sweltan"
   },
+  "swelte": {
+    "def": "1617, 2474",
+    "grammar": "vb. 3",
+    "lemma": "sweltan"
+  },
+  "swenc": {
+    "def": "harass, aÑict",
+    "grammar": "vb.  I",
+    "lemma": "swenċan"
+  },
   "swencan": {
+    "def": "harass, aÑict",
+    "grammar": "vb.  I",
+    "lemma": "swenċan"
+  },
+  "swence": {
     "def": "harass, aÑict",
     "grammar": "vb.  I",
     "lemma": "swenċan"
@@ -13902,7 +40087,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sweoloð"
   },
+  "sweorc": {
+    "def": "become sinister",
+    "grammar": "vb. 3",
+    "lemma": "sweorcan"
+  },
   "sweorcan": {
+    "def": "become sinister",
+    "grammar": "vb. 3",
+    "lemma": "sweorcan"
+  },
+  "sweorce": {
     "def": "become sinister",
     "grammar": "vb. 3",
     "lemma": "sweorcan"
@@ -13912,17 +40107,67 @@ const OLD_ENGLISH_DICT = {
     "grammar": "swurd",
     "lemma": "sweord"
   },
+  "sweord bealo": {
+    "def": "SWORD-destruction, death by the sword",
+    "grammar": "nwa.",
+    "lemma": "sweord-bealo"
+  },
+  "sweord freca": {
+    "def": "(SWORD-) warrior",
+    "grammar": "wk.",
+    "lemma": "sweord-freca"
+  },
+  "sweord leoma": {
+    "def": "SWORD-light",
+    "grammar": "wk.",
+    "lemma": "sweord-lēoma"
+  },
   "sweord-bealo": {
     "def": "SWORD-destruction, death by the sword",
     "grammar": "nwa.",
     "lemma": "sweord-bealo"
+  },
+  "sweord-frec": {
+    "def": "(SWORD-) warrior",
+    "grammar": "wk.",
+    "lemma": "sweord-freca"
   },
   "sweord-freca": {
     "def": "(SWORD-) warrior",
     "grammar": "wk.",
     "lemma": "sweord-freca"
   },
+  "sweord-frece": {
+    "def": "(SWORD-) warrior",
+    "grammar": "wk.",
+    "lemma": "sweord-freca"
+  },
+  "sweord-leom": {
+    "def": "SWORD-light",
+    "grammar": "wk.",
+    "lemma": "sweord-lēoma"
+  },
   "sweord-leoma": {
+    "def": "SWORD-light",
+    "grammar": "wk.",
+    "lemma": "sweord-lēoma"
+  },
+  "sweord-leome": {
+    "def": "SWORD-light",
+    "grammar": "wk.",
+    "lemma": "sweord-lēoma"
+  },
+  "sweordbealo": {
+    "def": "SWORD-destruction, death by the sword",
+    "grammar": "nwa.",
+    "lemma": "sweord-bealo"
+  },
+  "sweordfreca": {
+    "def": "(SWORD-) warrior",
+    "grammar": "wk.",
+    "lemma": "sweord-freca"
+  },
+  "sweordleoma": {
     "def": "SWORD-light",
     "grammar": "wk.",
     "lemma": "sweord-lēoma"
@@ -13932,17 +40177,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sweotol"
   },
+  "sweri": {
+    "def": "2738",
+    "grammar": "vb. 6",
+    "lemma": "swerian"
+  },
   "swerian": {
     "def": "2738",
     "grammar": "vb. 6",
     "lemma": "swerian"
+  },
+  "swerie": {
+    "def": "2738",
+    "grammar": "vb. 6",
+    "lemma": "swerian"
+  },
+  "sweðri": {
+    "def": "diminish, cease",
+    "grammar": "vb.  II",
+    "lemma": "sweðrian"
   },
   "sweðrian": {
     "def": "diminish, cease",
     "grammar": "vb.  II",
     "lemma": "sweðrian"
   },
+  "sweðrie": {
+    "def": "diminish, cease",
+    "grammar": "vb.  II",
+    "lemma": "sweðrian"
+  },
+  "swic": {
+    "def": "escape",
+    "grammar": "vb. 1",
+    "lemma": "swīcan"
+  },
   "swican": {
+    "def": "escape",
+    "grammar": "vb. 1",
+    "lemma": "swīcan"
+  },
+  "swice": {
     "def": "escape",
     "grammar": "vb. 1",
     "lemma": "swīcan"
@@ -13952,15 +40227,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swift"
   },
+  "swig": {
+    "def": "980",
+    "grammar": "adj.",
+    "lemma": "swīġe"
+  },
   "swige": {
     "def": "980",
     "grammar": "adj.",
     "lemma": "swīġe"
   },
+  "swigi": {
+    "def": "2897 (w",
+    "grammar": "vb. II",
+    "lemma": "swīgian"
+  },
   "swigian": {
     "def": "2897 (w",
     "grammar": "vb. II",
     "lemma": "swīgian"
+  },
+  "swigie": {
+    "def": "2897 (w",
+    "grammar": "vb. II",
+    "lemma": "swīgian"
+  },
+  "swilc": {
+    "def": "see swylċe",
+    "grammar": "",
+    "lemma": "swilċe"
   },
   "swilce": {
     "def": "see swylċe",
@@ -13972,20 +40267,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "swīn"
   },
+  "swin lic": {
+    "def": "boar-figure",
+    "grammar": "n.",
+    "lemma": "swīn-līċ"
+  },
   "swin-lic": {
     "def": "boar-figure",
     "grammar": "n.",
     "lemma": "swīn-līċ"
+  },
+  "swinc": {
+    "def": "work",
+    "grammar": "vb. 3",
+    "lemma": "swincan"
   },
   "swincan": {
     "def": "work",
     "grammar": "vb. 3",
     "lemma": "swincan"
   },
+  "swince": {
+    "def": "work",
+    "grammar": "vb. 3",
+    "lemma": "swincan"
+  },
+  "swing": {
+    "def": "2264",
+    "grammar": "vb. 3",
+    "lemma": "swingan"
+  },
   "swingan": {
     "def": "2264",
     "grammar": "vb. 3",
     "lemma": "swingan"
+  },
+  "swinge": {
+    "def": "2264",
+    "grammar": "vb. 3",
+    "lemma": "swingan"
+  },
+  "swinlic": {
+    "def": "boar-figure",
+    "grammar": "n.",
+    "lemma": "swīn-līċ"
   },
   "swioðol": {
     "def": "fire, flame",
@@ -13997,10 +40322,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swīð"
   },
+  "swið ferhð": {
+    "def": "strong-minded, brave",
+    "grammar": "adj.",
+    "lemma": "swīð-ferhð"
+  },
+  "swið hicgende": {
+    "def": "strong-minded, courageous",
+    "grammar": "adj.",
+    "lemma": "swīð-hicgende"
+  },
+  "swið mod": {
+    "def": "strong-minded, stout-hearted",
+    "grammar": "adj.",
+    "lemma": "swīð-mōd"
+  },
   "swið-ferhð": {
     "def": "strong-minded, brave",
     "grammar": "adj.",
     "lemma": "swīð-ferhð"
+  },
+  "swið-hicgen": {
+    "def": "strong-minded, courageous",
+    "grammar": "adj.",
+    "lemma": "swīð-hicgende"
+  },
+  "swið-hicgend": {
+    "def": "strong-minded, courageous",
+    "grammar": "adj.",
+    "lemma": "swīð-hicgende"
   },
   "swið-hicgende": {
     "def": "strong-minded, courageous",
@@ -14017,7 +40367,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "swīðe"
   },
+  "swiðferhð": {
+    "def": "strong-minded, brave",
+    "grammar": "adj.",
+    "lemma": "swīð-ferhð"
+  },
+  "swiðhicgende": {
+    "def": "strong-minded, courageous",
+    "grammar": "adj.",
+    "lemma": "swīð-hicgende"
+  },
+  "swiðmod": {
+    "def": "strong-minded, stout-hearted",
+    "grammar": "adj.",
+    "lemma": "swīð-mōd"
+  },
+  "swog": {
+    "def": "roar",
+    "grammar": "vb.  7",
+    "lemma": "swōgan"
+  },
   "swogan": {
+    "def": "roar",
+    "grammar": "vb.  7",
+    "lemma": "swōgan"
+  },
+  "swoge": {
     "def": "roar",
     "grammar": "vb.  7",
     "lemma": "swōgan"
@@ -14027,10 +40402,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "swōr"
   },
+  "swulc": {
+    "def": "see swylċ",
+    "grammar": "",
+    "lemma": "swulċes"
+  },
+  "swulce": {
+    "def": "see swylċ",
+    "grammar": "",
+    "lemma": "swulċes"
+  },
   "swulces": {
     "def": "see swylċ",
     "grammar": "",
     "lemma": "swulċes"
+  },
+  "swurd( )": {
+    "def": "see sweord(-)",
+    "grammar": "",
+    "lemma": "swurd(-)"
+  },
+  "swurd()": {
+    "def": "see sweord(-)",
+    "grammar": "",
+    "lemma": "swurd(-)"
   },
   "swurd(-)": {
     "def": "see sweord(-)",
@@ -14057,7 +40452,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "swylt"
   },
+  "swylt dæg": {
+    "def": "DAY of death",
+    "grammar": "m.",
+    "lemma": "swylt-dæġ"
+  },
   "swylt-dæg": {
+    "def": "DAY of death",
+    "grammar": "m.",
+    "lemma": "swylt-dæġ"
+  },
+  "swyltdæg": {
     "def": "DAY of death",
     "grammar": "m.",
     "lemma": "swylt-dæġ"
@@ -14077,7 +40482,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "swyrd"
   },
+  "swyrd gifu": {
+    "def": "GIVing of SWORDs",
+    "grammar": "f.",
+    "lemma": "swyrd-ġifu"
+  },
   "swyrd-gifu": {
+    "def": "GIVing of SWORDs",
+    "grammar": "f.",
+    "lemma": "swyrd-ġifu"
+  },
+  "swyrdgifu": {
     "def": "GIVing of SWORDs",
     "grammar": "f.",
     "lemma": "swyrd-ġifu"
@@ -14087,7 +40502,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swǣs"
   },
+  "swæs lice": {
+    "def": "gently",
+    "grammar": "adv.",
+    "lemma": "swǣs-līċe"
+  },
+  "swæs-lic": {
+    "def": "gently",
+    "grammar": "adv.",
+    "lemma": "swǣs-līċe"
+  },
   "swæs-lice": {
+    "def": "gently",
+    "grammar": "adv.",
+    "lemma": "swǣs-līċe"
+  },
+  "swæslice": {
     "def": "gently",
     "grammar": "adv.",
     "lemma": "swǣs-līċe"
@@ -14107,15 +40537,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "swӯð(e)"
   },
+  "syfan wintre": {
+    "def": "SEVEN years old",
+    "grammar": "adj.",
+    "lemma": "syfan-wintre"
+  },
+  "syfan-wint": {
+    "def": "SEVEN years old",
+    "grammar": "adj.",
+    "lemma": "syfan-wintre"
+  },
+  "syfan-wintr": {
+    "def": "SEVEN years old",
+    "grammar": "adj.",
+    "lemma": "syfan-wintre"
+  },
   "syfan-wintre": {
     "def": "SEVEN years old",
     "grammar": "adj.",
     "lemma": "syfan-wintre"
   },
+  "syfanwintre": {
+    "def": "SEVEN years old",
+    "grammar": "adj.",
+    "lemma": "syfan-wintre"
+  },
+  "syfo": {
+    "def": "see seofon",
+    "grammar": "",
+    "lemma": "syfone"
+  },
+  "syfon": {
+    "def": "see seofon",
+    "grammar": "",
+    "lemma": "syfone"
+  },
   "syfone": {
     "def": "see seofon",
     "grammar": "",
     "lemma": "syfone"
+  },
+  "syl lic": {
+    "def": "see sel-liċ",
+    "grammar": "",
+    "lemma": "syl-liċ"
   },
   "syl(l)": {
     "def": "SILL, floor",
@@ -14132,10 +40597,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "sylf"
   },
+  "syll": {
+    "def": "see sellan",
+    "grammar": "",
+    "lemma": "syllan"
+  },
   "syllan": {
     "def": "see sellan",
     "grammar": "",
     "lemma": "syllan"
+  },
+  "sylle": {
+    "def": "see sellan",
+    "grammar": "",
+    "lemma": "syllan"
+  },
+  "syllic": {
+    "def": "see sel-liċ",
+    "grammar": "",
+    "lemma": "syl-liċ"
   },
   "sym(b)le(sim[b]le)": {
     "def": "ever, always, regularly",
@@ -14147,20 +40627,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "symbel"
   },
+  "symbel wyn(n)": {
+    "def": "happiness of feasting, delightful feast",
+    "grammar": "fj",
+    "lemma": "symbel-wyn(n)"
+  },
   "symbel-wyn(n)": {
     "def": "happiness of feasting, delightful feast",
     "grammar": "fj",
     "lemma": "symbel-wyn(n)"
+  },
+  "symbelwyn(n)": {
+    "def": "happiness of feasting, delightful feast",
+    "grammar": "fj",
+    "lemma": "symbel-wyn(n)"
+  },
+  "syml": {
+    "def": "ds",
+    "grammar": "ds.",
+    "lemma": "symle"
   },
   "symle": {
     "def": "ds",
     "grammar": "ds.",
     "lemma": "symle"
   },
+  "syn bysig": {
+    "def": "distressed by hostility (or by SIN, i",
+    "grammar": "adj.",
+    "lemma": "syn-bysiġ"
+  },
+  "syn dolh(sin )": {
+    "def": "very great wound",
+    "grammar": "n.",
+    "lemma": "syn-dolh(sin-)"
+  },
+  "syn gales": {
+    "def": "see sin-gāles",
+    "grammar": "",
+    "lemma": "syn-gāles"
+  },
+  "syn scaða": {
+    "def": "hostile attacker, malefactor",
+    "grammar": "wk.",
+    "lemma": "syn-scaða"
+  },
+  "syn snæd": {
+    "def": "huge morsel",
+    "grammar": "fi.",
+    "lemma": "syn-snǣd"
+  },
   "syn(n)": {
     "def": "hostility, wrongdoing",
     "grammar": "fj",
     "lemma": "syn(n)"
+  },
+  "syn-byse": {
+    "def": "distressed by hostility (or by SIN, i",
+    "grammar": "adj.",
+    "lemma": "syn-bysiġ"
   },
   "syn-bysig": {
     "def": "distressed by hostility (or by SIN, i",
@@ -14172,12 +40697,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "syn-dolh(sin-)"
   },
+  "syn-gal": {
+    "def": "see sin-gāles",
+    "grammar": "",
+    "lemma": "syn-gāles"
+  },
+  "syn-gale": {
+    "def": "see sin-gāles",
+    "grammar": "",
+    "lemma": "syn-gāles"
+  },
   "syn-gales": {
     "def": "see sin-gāles",
     "grammar": "",
     "lemma": "syn-gāles"
   },
+  "syn-scað": {
+    "def": "hostile attacker, malefactor",
+    "grammar": "wk.",
+    "lemma": "syn-scaða"
+  },
   "syn-scaða": {
+    "def": "hostile attacker, malefactor",
+    "grammar": "wk.",
+    "lemma": "syn-scaða"
+  },
+  "syn-scaðe": {
     "def": "hostile attacker, malefactor",
     "grammar": "wk.",
     "lemma": "syn-scaða"
@@ -14187,27 +40732,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "syn-snǣd"
   },
+  "synbysig": {
+    "def": "distressed by hostility (or by SIN, i",
+    "grammar": "adj.",
+    "lemma": "syn-bysiġ"
+  },
+  "synd": {
+    "def": "see eom",
+    "grammar": "",
+    "lemma": "syndon"
+  },
+  "synde": {
+    "def": "see eom",
+    "grammar": "",
+    "lemma": "syndon"
+  },
+  "syndolh(sin)": {
+    "def": "very great wound",
+    "grammar": "n.",
+    "lemma": "syn-dolh(sin-)"
+  },
   "syndon": {
     "def": "see eom",
     "grammar": "",
     "lemma": "syndon"
+  },
+  "syngales": {
+    "def": "see sin-gāles",
+    "grammar": "",
+    "lemma": "syn-gāles"
+  },
+  "synscaða": {
+    "def": "hostile attacker, malefactor",
+    "grammar": "wk.",
+    "lemma": "syn-scaða"
+  },
+  "synsnæd": {
+    "def": "huge morsel",
+    "grammar": "fi.",
+    "lemma": "syn-snǣd"
   },
   "synt": {
     "def": "see eom",
     "grammar": "",
     "lemma": "synt"
   },
+  "syrc": {
+    "def": "226, 334",
+    "grammar": "wk.",
+    "lemma": "syrċe"
+  },
   "syrce": {
     "def": "226, 334",
     "grammar": "wk.",
     "lemma": "syrċe"
+  },
+  "syrw": {
+    "def": "ambush",
+    "grammar": "vb. I",
+    "lemma": "syrwan"
   },
   "syrwan": {
     "def": "ambush",
     "grammar": "vb. I",
     "lemma": "syrwan"
   },
+  "syrwe": {
+    "def": "ambush",
+    "grammar": "vb. I",
+    "lemma": "syrwan"
+  },
+  "syðð": {
+    "def": "see siððan",
+    "grammar": "",
+    "lemma": "syððan"
+  },
   "syððan": {
+    "def": "see siððan",
+    "grammar": "",
+    "lemma": "syððan"
+  },
+  "syððe": {
     "def": "see siððan",
     "grammar": "",
     "lemma": "syððan"
@@ -14221,6 +40826,101 @@ const OLD_ENGLISH_DICT = {
     "def": "1223",
     "grammar": "mfi.",
     "lemma": "sǣ"
+  },
+  "sæ bat": {
+    "def": "SEA-BOAT, ship",
+    "grammar": "m.",
+    "lemma": "sǣ-bāt"
+  },
+  "sæ cyning": {
+    "def": "SEA-KING",
+    "grammar": "m.",
+    "lemma": "sǣ-cyning"
+  },
+  "sæ deor": {
+    "def": "SEA-beast",
+    "grammar": "n.",
+    "lemma": "sǣ-dēor"
+  },
+  "sæ draca": {
+    "def": "SEA-snake",
+    "grammar": "wk.",
+    "lemma": "sǣ-draca"
+  },
+  "sæ geap": {
+    "def": "curved (or spacious) (for use on the SEA)",
+    "grammar": "adj.",
+    "lemma": "sǣ-ġēap"
+  },
+  "sæ genga": {
+    "def": "SEA-goer, i",
+    "grammar": "wk.",
+    "lemma": "sǣ-genġa"
+  },
+  "sæ grund": {
+    "def": "564",
+    "grammar": "m.",
+    "lemma": "sǣ-grund"
+  },
+  "sæ lac": {
+    "def": "SEA-booty",
+    "grammar": "n.",
+    "lemma": "sǣ-lāc"
+  },
+  "sæ lad": {
+    "def": "SEA-journey, voyage",
+    "grammar": "f.",
+    "lemma": "sǣ-lād"
+  },
+  "sæ liðend": {
+    "def": "SEA-farer",
+    "grammar": "mc.",
+    "lemma": "sǣ-līðend"
+  },
+  "sæ man(n)": {
+    "def": "329",
+    "grammar": "mc.",
+    "lemma": "sǣ-man(n)"
+  },
+  "sæ meþe": {
+    "def": "SEA-weary",
+    "grammar": "adj.",
+    "lemma": "sǣ-mēþe"
+  },
+  "sæ næs(s)": {
+    "def": "(SEA-)headland",
+    "grammar": "mja.",
+    "lemma": "sǣ-næs(s)"
+  },
+  "sæ rinc": {
+    "def": "SEA-man, -warrior",
+    "grammar": "m.",
+    "lemma": "sǣ-rinċ"
+  },
+  "sæ sið": {
+    "def": "voyage",
+    "grammar": "m.",
+    "lemma": "sǣ-sīð"
+  },
+  "sæ weal(l)": {
+    "def": "SEA-WALL, shore",
+    "grammar": "m.",
+    "lemma": "sǣ-weal(l)"
+  },
+  "sæ wong": {
+    "def": "plain by the SEA, shore",
+    "grammar": "m.",
+    "lemma": "sǣ-wong"
+  },
+  "sæ wudu": {
+    "def": "(SEA-WOOD), ship",
+    "grammar": "mu.",
+    "lemma": "sǣ-wudu"
+  },
+  "sæ wylm": {
+    "def": "SEA-WELLing, billow",
+    "grammar": "mi.",
+    "lemma": "sǣ-wylm"
   },
   "sæ-bat": {
     "def": "SEA-BOAT, ship",
@@ -14237,7 +40937,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sǣ-dēor"
   },
+  "sæ-drac": {
+    "def": "SEA-snake",
+    "grammar": "wk.",
+    "lemma": "sǣ-draca"
+  },
   "sæ-draca": {
+    "def": "SEA-snake",
+    "grammar": "wk.",
+    "lemma": "sǣ-draca"
+  },
+  "sæ-drace": {
     "def": "SEA-snake",
     "grammar": "wk.",
     "lemma": "sǣ-draca"
@@ -14247,7 +40957,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sǣ-ġēap"
   },
+  "sæ-geng": {
+    "def": "SEA-goer, i",
+    "grammar": "wk.",
+    "lemma": "sǣ-genġa"
+  },
   "sæ-genga": {
+    "def": "SEA-goer, i",
+    "grammar": "wk.",
+    "lemma": "sǣ-genġa"
+  },
+  "sæ-genge": {
     "def": "SEA-goer, i",
     "grammar": "wk.",
     "lemma": "sǣ-genġa"
@@ -14276,6 +40996,11 @@ const OLD_ENGLISH_DICT = {
     "def": "329",
     "grammar": "mc.",
     "lemma": "sǣ-man(n)"
+  },
+  "sæ-meþ": {
+    "def": "SEA-weary",
+    "grammar": "adj.",
+    "lemma": "sǣ-mēþe"
   },
   "sæ-meþe": {
     "def": "SEA-weary",
@@ -14317,6 +41042,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "sǣ-wylm"
   },
+  "sæbat": {
+    "def": "SEA-BOAT, ship",
+    "grammar": "m.",
+    "lemma": "sǣ-bāt"
+  },
+  "sæc": {
+    "def": "see sacu",
+    "grammar": "",
+    "lemma": "sæce"
+  },
   "sæc(c)": {
     "def": "fighting, battle, conflict, quarrel",
     "grammar": "fj",
@@ -14327,30 +41062,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "sæce"
   },
+  "sæcyning": {
+    "def": "SEA-KING",
+    "grammar": "m.",
+    "lemma": "sǣ-cyning"
+  },
   "sæd": {
-    "def": "satiated with, having had one’s fill of, wearied with",
-    "grammar": "adj.",
-    "lemma": "sæd"
+    "def": "sǣde, see secgan",
+    "grammar": "s",
+    "lemma": "sǣdan"
   },
   "sædan": {
     "def": "sǣde, see secgan",
     "grammar": "s",
     "lemma": "sǣdan"
   },
+  "sæde": {
+    "def": "sǣde, see secgan",
+    "grammar": "s",
+    "lemma": "sǣdan"
+  },
+  "sædeor": {
+    "def": "SEA-beast",
+    "grammar": "n.",
+    "lemma": "sǣ-dēor"
+  },
+  "sædraca": {
+    "def": "SEA-snake",
+    "grammar": "wk.",
+    "lemma": "sǣ-draca"
+  },
+  "sæg": {
+    "def": "slay",
+    "grammar": "vb. I",
+    "lemma": "sǣġan"
+  },
   "sægan": {
     "def": "slay",
     "grammar": "vb. I",
     "lemma": "sǣġan"
+  },
+  "sæge": {
+    "def": "slay",
+    "grammar": "vb. I",
+    "lemma": "sǣġan"
+  },
+  "sægeap": {
+    "def": "curved (or spacious) (for use on the SEA)",
+    "grammar": "adj.",
+    "lemma": "sǣ-ġēap"
+  },
+  "sægenga": {
+    "def": "SEA-goer, i",
+    "grammar": "wk.",
+    "lemma": "sǣ-genġa"
   },
   "sægon": {
     "def": "see sēon",
     "grammar": "",
     "lemma": "sǣgon"
   },
+  "sægrund": {
+    "def": "564",
+    "grammar": "m.",
+    "lemma": "sǣ-grund"
+  },
   "sæl": {
     "def": "hall",
     "grammar": "n.",
     "lemma": "sæl"
+  },
+  "sælac": {
+    "def": "SEA-booty",
+    "grammar": "n.",
+    "lemma": "sǣ-lāc"
+  },
+  "sælad": {
+    "def": "SEA-journey, voyage",
+    "grammar": "f.",
+    "lemma": "sǣ-lād"
   },
   "sælan": {
     "def": "fasten, moor",
@@ -14362,57 +41152,197 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sæld"
   },
+  "sæle": {
+    "def": "fasten, moor",
+    "grammar": "vb. I",
+    "lemma": "sǣlan"
+  },
+  "sæliðend": {
+    "def": "SEA-farer",
+    "grammar": "mc.",
+    "lemma": "sǣ-līðend"
+  },
+  "sæm": {
+    "def": "worse, weak-er",
+    "grammar": "adj.",
+    "lemma": "sǣmra"
+  },
+  "sæman(n)": {
+    "def": "329",
+    "grammar": "mc.",
+    "lemma": "sǣ-man(n)"
+  },
+  "sæmeþe": {
+    "def": "SEA-weary",
+    "grammar": "adj.",
+    "lemma": "sǣ-mēþe"
+  },
+  "sæmr": {
+    "def": "worse, weak-er",
+    "grammar": "adj.",
+    "lemma": "sǣmra"
+  },
   "sæmra": {
     "def": "worse, weak-er",
     "grammar": "adj.",
     "lemma": "sǣmra"
+  },
+  "sæmre": {
+    "def": "worse, weak-er",
+    "grammar": "adj.",
+    "lemma": "sǣmra"
+  },
+  "sæn": {
+    "def": "1436",
+    "grammar": "adj.",
+    "lemma": "sǣne"
   },
   "sæne": {
     "def": "1436",
     "grammar": "adj.",
     "lemma": "sǣne"
   },
+  "sænæs(s)": {
+    "def": "(SEA-)headland",
+    "grammar": "mja.",
+    "lemma": "sǣ-næs(s)"
+  },
+  "særinc": {
+    "def": "SEA-man, -warrior",
+    "grammar": "m.",
+    "lemma": "sǣ-rinċ"
+  },
+  "sæsið": {
+    "def": "voyage",
+    "grammar": "m.",
+    "lemma": "sǣ-sīð"
+  },
+  "sæweal(l)": {
+    "def": "SEA-WALL, shore",
+    "grammar": "m.",
+    "lemma": "sǣ-weal(l)"
+  },
+  "sæwong": {
+    "def": "plain by the SEA, shore",
+    "grammar": "m.",
+    "lemma": "sǣ-wong"
+  },
+  "sæwudu": {
+    "def": "(SEA-WOOD), ship",
+    "grammar": "mu.",
+    "lemma": "sǣ-wudu"
+  },
+  "sæwylm": {
+    "def": "SEA-WELLing, billow",
+    "grammar": "mi.",
+    "lemma": "sǣ-wylm"
+  },
   "sу": {
     "def": "see eom",
     "grammar": "",
     "lemma": "sӯ"
+  },
+  "t": {
+    "def": "2922, see tō",
+    "grammar": "2922",
+    "lemma": "te"
+  },
+  "tac": {
+    "def": "sign, evidence",
+    "grammar": "n.",
+    "lemma": "tācen"
+  },
+  "tace": {
+    "def": "sign, evidence",
+    "grammar": "n.",
+    "lemma": "tācen"
   },
   "tacen": {
     "def": "sign, evidence",
     "grammar": "n.",
     "lemma": "tācen"
   },
+  "tali": {
+    "def": "consider (some-one or something to be such and such)",
+    "grammar": "vb. II",
+    "lemma": "talian"
+  },
   "talian": {
     "def": "consider (some-one or something to be such and such)",
     "grammar": "vb. II",
     "lemma": "talian"
   },
+  "talie": {
+    "def": "consider (some-one or something to be such and such)",
+    "grammar": "vb. II",
+    "lemma": "talian"
+  },
   "te": {
-    "def": "2922, see tō",
-    "grammar": "2922",
-    "lemma": "te"
+    "def": "1036 (lead)",
+    "grammar": "vb. 2",
+    "lemma": "tēon"
   },
   "tear": {
     "def": "1872",
     "grammar": "m.",
     "lemma": "tēar"
   },
+  "tee": {
+    "def": "1036 (lead)",
+    "grammar": "vb. 2",
+    "lemma": "tēon"
+  },
+  "tel": {
+    "def": "properly",
+    "grammar": "adv.",
+    "lemma": "tela"
+  },
   "tela": {
     "def": "properly",
     "grammar": "adv.",
     "lemma": "tela"
+  },
+  "tele": {
+    "def": "properly",
+    "grammar": "adv.",
+    "lemma": "tela"
+  },
+  "telg": {
+    "def": "see tellan",
+    "grammar": "",
+    "lemma": "telġe"
   },
   "telge": {
     "def": "see tellan",
     "grammar": "",
     "lemma": "telġe"
   },
+  "tell": {
+    "def": "reckon, consider (someone or something to be such and such)",
+    "grammar": "vb. I",
+    "lemma": "tellan"
+  },
   "tellan": {
     "def": "reckon, consider (someone or something to be such and such)",
     "grammar": "vb. I",
     "lemma": "tellan"
   },
+  "telle": {
+    "def": "reckon, consider (someone or something to be such and such)",
+    "grammar": "vb. I",
+    "lemma": "tellan"
+  },
+  "teog": {
+    "def": "SB § ̄415[e], OEG § ̄761",
+    "grammar": "vb. II",
+    "lemma": "tēoġan"
+  },
   "teogan": {
+    "def": "SB § ̄415[e], OEG § ̄761",
+    "grammar": "vb. II",
+    "lemma": "tēoġan"
+  },
+  "teoge": {
     "def": "SB § ̄415[e], OEG § ̄761",
     "grammar": "vb. II",
     "lemma": "tēoġan"
@@ -14422,7 +41352,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "teoh(h)"
   },
+  "teohhi": {
+    "def": "assign",
+    "grammar": "vb. II",
+    "lemma": "teohhian"
+  },
   "teohhian": {
+    "def": "assign",
+    "grammar": "vb. II",
+    "lemma": "teohhian"
+  },
+  "teohhie": {
     "def": "assign",
     "grammar": "vb. II",
     "lemma": "teohhian"
@@ -14442,12 +41382,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "til"
   },
+  "tili": {
+    "def": "strive after, earn",
+    "grammar": "vb. II",
+    "lemma": "tilian"
+  },
   "tilian": {
     "def": "strive after, earn",
     "grammar": "vb. II",
     "lemma": "tilian"
   },
+  "tilie": {
+    "def": "strive after, earn",
+    "grammar": "vb. II",
+    "lemma": "tilian"
+  },
+  "timbr": {
+    "def": "307",
+    "grammar": "vb. I",
+    "lemma": "timbran"
+  },
   "timbran": {
+    "def": "307",
+    "grammar": "vb. I",
+    "lemma": "timbran"
+  },
+  "timbre": {
     "def": "307",
     "grammar": "vb. I",
     "lemma": "timbran"
@@ -14456,6 +41416,26 @@ const OLD_ENGLISH_DICT = {
     "def": "glory",
     "grammar": "m.",
     "lemma": "tīr"
+  },
+  "tir eadig": {
+    "def": "blessed with glory, famous",
+    "grammar": "adj.",
+    "lemma": "tīr-ēadiġ"
+  },
+  "tir fæst": {
+    "def": "full of glory, famous",
+    "grammar": "adj.",
+    "lemma": "tīr-fæst"
+  },
+  "tir leas": {
+    "def": "without glory, van-quished",
+    "grammar": "adj.",
+    "lemma": "tīr-lēas"
+  },
+  "tir-eade": {
+    "def": "blessed with glory, famous",
+    "grammar": "adj.",
+    "lemma": "tīr-ēadiġ"
   },
   "tir-eadig": {
     "def": "blessed with glory, famous",
@@ -14467,7 +41447,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "tīr-fæst"
   },
+  "tir-le": {
+    "def": "without glory, van-quished",
+    "grammar": "adj.",
+    "lemma": "tīr-lēas"
+  },
   "tir-leas": {
+    "def": "without glory, van-quished",
+    "grammar": "adj.",
+    "lemma": "tīr-lēas"
+  },
+  "tir-lee": {
+    "def": "without glory, van-quished",
+    "grammar": "adj.",
+    "lemma": "tīr-lēas"
+  },
+  "tireadig": {
+    "def": "blessed with glory, famous",
+    "grammar": "adj.",
+    "lemma": "tīr-ēadiġ"
+  },
+  "tirfæst": {
+    "def": "full of glory, famous",
+    "grammar": "adj.",
+    "lemma": "tīr-fæst"
+  },
+  "tirleas": {
     "def": "without glory, van-quished",
     "grammar": "adj.",
     "lemma": "tīr-lēas"
@@ -14478,69 +41483,274 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tīðian(tiġðian)"
   },
   "to": {
-    "def": "toward",
+    "def": "ed",
+    "grammar": "prefix",
+    "lemma": "tō-"
+  },
+  "to ": {
+    "def": "ed",
+    "grammar": "prefix",
+    "lemma": "tō-"
+  },
+  "to brecan": {
+    "def": "shatter",
+    "grammar": "vb.  4",
+    "lemma": "tō-brecan"
+  },
+  "to drifan": {
+    "def": "sep-arate",
+    "grammar": "vb. 1",
+    "lemma": "tō-drīfan"
+  },
+  "to geanes": {
+    "def": "(w",
     "grammar": "I.",
-    "lemma": "tō"
+    "lemma": "tō-ġēanes"
+  },
+  "to glidan": {
+    "def": "split (intr",
+    "grammar": "vb.  1",
+    "lemma": "tō-glīdan"
+  },
+  "to gædre": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-gædre"
+  },
+  "to hlidan": {
+    "def": "spring apart",
+    "grammar": "vb. 1",
+    "lemma": "tō-hlīdan"
+  },
+  "to lucan": {
+    "def": "destroy",
+    "grammar": "vb. 2",
+    "lemma": "tō-lūcan"
+  },
+  "to middes": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-middes"
+  },
+  "to somne": {
+    "def": "3122",
+    "grammar": "adv.",
+    "lemma": "tō-somne"
+  },
+  "to weccan": {
+    "def": "(WAKE up), stir up",
+    "grammar": "vb. I",
+    "lemma": "tō-weċċan"
   },
   "to-": {
     "def": "ed",
     "grammar": "prefix",
     "lemma": "tō-"
   },
+  "to-brec": {
+    "def": "shatter",
+    "grammar": "vb.  4",
+    "lemma": "tō-brecan"
+  },
   "to-brecan": {
     "def": "shatter",
     "grammar": "vb.  4",
     "lemma": "tō-brecan"
+  },
+  "to-brece": {
+    "def": "shatter",
+    "grammar": "vb.  4",
+    "lemma": "tō-brecan"
+  },
+  "to-drif": {
+    "def": "sep-arate",
+    "grammar": "vb. 1",
+    "lemma": "tō-drīfan"
   },
   "to-drifan": {
     "def": "sep-arate",
     "grammar": "vb. 1",
     "lemma": "tō-drīfan"
   },
+  "to-drife": {
+    "def": "sep-arate",
+    "grammar": "vb. 1",
+    "lemma": "tō-drīfan"
+  },
+  "to-gean": {
+    "def": "(w",
+    "grammar": "I.",
+    "lemma": "tō-ġēanes"
+  },
+  "to-geane": {
+    "def": "(w",
+    "grammar": "I.",
+    "lemma": "tō-ġēanes"
+  },
   "to-geanes": {
     "def": "(w",
     "grammar": "I.",
     "lemma": "tō-ġēanes"
+  },
+  "to-glid": {
+    "def": "split (intr",
+    "grammar": "vb.  1",
+    "lemma": "tō-glīdan"
   },
   "to-glidan": {
     "def": "split (intr",
     "grammar": "vb.  1",
     "lemma": "tō-glīdan"
   },
+  "to-glide": {
+    "def": "split (intr",
+    "grammar": "vb.  1",
+    "lemma": "tō-glīdan"
+  },
+  "to-gæd": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-gædre"
+  },
+  "to-gædr": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-gædre"
+  },
   "to-gædre": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "tō-gædre"
+  },
+  "to-hlid": {
+    "def": "spring apart",
+    "grammar": "vb. 1",
+    "lemma": "tō-hlīdan"
   },
   "to-hlidan": {
     "def": "spring apart",
     "grammar": "vb. 1",
     "lemma": "tō-hlīdan"
   },
+  "to-hlide": {
+    "def": "spring apart",
+    "grammar": "vb. 1",
+    "lemma": "tō-hlīdan"
+  },
+  "to-luc": {
+    "def": "destroy",
+    "grammar": "vb. 2",
+    "lemma": "tō-lūcan"
+  },
   "to-lucan": {
     "def": "destroy",
     "grammar": "vb. 2",
     "lemma": "tō-lūcan"
+  },
+  "to-luce": {
+    "def": "destroy",
+    "grammar": "vb. 2",
+    "lemma": "tō-lūcan"
+  },
+  "to-midd": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-middes"
+  },
+  "to-midde": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-middes"
   },
   "to-middes": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "tō-middes"
   },
+  "to-som": {
+    "def": "3122",
+    "grammar": "adv.",
+    "lemma": "tō-somne"
+  },
+  "to-somn": {
+    "def": "3122",
+    "grammar": "adv.",
+    "lemma": "tō-somne"
+  },
   "to-somne": {
     "def": "3122",
     "grammar": "adv.",
     "lemma": "tō-somne"
+  },
+  "to-wecc": {
+    "def": "(WAKE up), stir up",
+    "grammar": "vb. I",
+    "lemma": "tō-weċċan"
   },
   "to-weccan": {
     "def": "(WAKE up), stir up",
     "grammar": "vb. I",
     "lemma": "tō-weċċan"
   },
+  "to-wecce": {
+    "def": "(WAKE up), stir up",
+    "grammar": "vb. I",
+    "lemma": "tō-weċċan"
+  },
+  "tobrecan": {
+    "def": "shatter",
+    "grammar": "vb.  4",
+    "lemma": "tō-brecan"
+  },
+  "todrifan": {
+    "def": "sep-arate",
+    "grammar": "vb. 1",
+    "lemma": "tō-drīfan"
+  },
+  "tog": {
+    "def": "see tēon, vb",
+    "grammar": "",
+    "lemma": "togen"
+  },
+  "toge": {
+    "def": "see tēon, vb",
+    "grammar": "",
+    "lemma": "togen"
+  },
+  "togeanes": {
+    "def": "(w",
+    "grammar": "I.",
+    "lemma": "tō-ġēanes"
+  },
   "togen": {
     "def": "see tēon, vb",
     "grammar": "",
     "lemma": "togen"
+  },
+  "toglidan": {
+    "def": "split (intr",
+    "grammar": "vb.  1",
+    "lemma": "tō-glīdan"
+  },
+  "togædre": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-gædre"
+  },
+  "tohlidan": {
+    "def": "spring apart",
+    "grammar": "vb. 1",
+    "lemma": "tō-hlīdan"
+  },
+  "tolucan": {
+    "def": "destroy",
+    "grammar": "vb. 2",
+    "lemma": "tō-lūcan"
+  },
+  "tomiddes": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "tō-middes"
   },
   "torht": {
     "def": "bright, resplendent",
@@ -14552,20 +41762,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "torn"
   },
+  "torn gemot": {
+    "def": "hostile MEETing",
+    "grammar": "n.",
+    "lemma": "torn-ġemōt"
+  },
   "torn-gemot": {
     "def": "hostile MEETing",
     "grammar": "n.",
     "lemma": "torn-ġemōt"
+  },
+  "torngemot": {
+    "def": "hostile MEETing",
+    "grammar": "n.",
+    "lemma": "torn-ġemōt"
+  },
+  "tosomne": {
+    "def": "3122",
+    "grammar": "adv.",
+    "lemma": "tō-somne"
+  },
+  "toweccan": {
+    "def": "(WAKE up), stir up",
+    "grammar": "vb. I",
+    "lemma": "tō-weċċan"
+  },
+  "tr": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "trum"
+  },
+  "tre": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "trum"
+  },
+  "tred": {
+    "def": "walk upon, cross",
+    "grammar": "vb. 5",
+    "lemma": "tredan"
   },
   "tredan": {
     "def": "walk upon, cross",
     "grammar": "vb. 5",
     "lemma": "tredan"
   },
+  "treddi": {
+    "def": "step, go",
+    "grammar": "vb. II",
+    "lemma": "treddian"
+  },
   "treddian": {
     "def": "step, go",
     "grammar": "vb. II",
     "lemma": "treddian"
+  },
+  "treddie": {
+    "def": "step, go",
+    "grammar": "vb. II",
+    "lemma": "treddian"
+  },
+  "trede": {
+    "def": "walk upon, cross",
+    "grammar": "vb. 5",
+    "lemma": "tredan"
   },
   "trem(m)": {
     "def": "step, space",
@@ -14573,11 +41833,26 @@ const OLD_ENGLISH_DICT = {
     "lemma": "trem(m)"
   },
   "treow": {
-    "def": "good faith, fidelity",
-    "grammar": "f.",
-    "lemma": "trēow"
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "trēowan"
+  },
+  "treow loga": {
+    "def": "one false to a pledge (TROth), traitor",
+    "grammar": "wk.",
+    "lemma": "trēow-loga"
+  },
+  "treow-log": {
+    "def": "one false to a pledge (TROth), traitor",
+    "grammar": "wk.",
+    "lemma": "trēow-loga"
   },
   "treow-loga": {
+    "def": "one false to a pledge (TROth), traitor",
+    "grammar": "wk.",
+    "lemma": "trēow-loga"
+  },
+  "treow-loge": {
     "def": "one false to a pledge (TROth), traitor",
     "grammar": "wk.",
     "lemma": "trēow-loga"
@@ -14586,6 +41861,16 @@ const OLD_ENGLISH_DICT = {
     "def": "trust",
     "grammar": "vb. I",
     "lemma": "trēowan"
+  },
+  "treowe": {
+    "def": "trust",
+    "grammar": "vb. I",
+    "lemma": "trēowan"
+  },
+  "treowloga": {
+    "def": "one false to a pledge (TROth), traitor",
+    "grammar": "wk.",
+    "lemma": "trēow-loga"
   },
   "trodu": {
     "def": "track, footprint",
@@ -14597,25 +41882,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "trum"
   },
+  "truwi": {
+    "def": "trust, have faith in",
+    "grammar": "vb. II",
+    "lemma": "truwian"
+  },
   "truwian": {
     "def": "trust, have faith in",
     "grammar": "vb. II",
     "lemma": "truwian"
+  },
+  "truwie": {
+    "def": "trust, have faith in",
+    "grammar": "vb. II",
+    "lemma": "truwian"
+  },
+  "tryddi": {
+    "def": "see treddian",
+    "grammar": "",
+    "lemma": "tryddian"
   },
   "tryddian": {
     "def": "see treddian",
     "grammar": "",
     "lemma": "tryddian"
   },
+  "tryddie": {
+    "def": "see treddian",
+    "grammar": "",
+    "lemma": "tryddian"
+  },
+  "trуw": {
+    "def": "faithful",
+    "grammar": "adj.",
+    "lemma": "trӯwe"
+  },
   "trуwe": {
     "def": "faithful",
     "grammar": "adj.",
     "lemma": "trӯwe"
   },
+  "tw": {
+    "def": "see twēġen",
+    "grammar": "",
+    "lemma": "twā"
+  },
   "twa": {
     "def": "see twēġen",
     "grammar": "",
     "lemma": "twā"
+  },
+  "twe": {
+    "def": "see twēġen",
+    "grammar": "",
+    "lemma": "twā"
+  },
+  "tweg": {
+    "def": "f",
+    "grammar": "m.",
+    "lemma": "twēġen"
+  },
+  "twege": {
+    "def": "f",
+    "grammar": "m.",
+    "lemma": "twēġen"
   },
   "twegen": {
     "def": "f",
@@ -14627,10 +41957,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "twelf"
   },
+  "tweo": {
+    "def": "in dp",
+    "grammar": "distrib.",
+    "lemma": "twēone"
+  },
+  "tweon": {
+    "def": "in dp",
+    "grammar": "distrib.",
+    "lemma": "twēone"
+  },
   "tweone": {
     "def": "in dp",
     "grammar": "distrib.",
     "lemma": "twēone"
+  },
+  "tуd": {
+    "def": "craven",
+    "grammar": "adj.",
+    "lemma": "tӯdre"
+  },
+  "tуdr": {
+    "def": "craven",
+    "grammar": "adj.",
+    "lemma": "tӯdre"
   },
   "tуdre": {
     "def": "craven",
@@ -14642,17 +41992,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "tӯn"
   },
+  "tуn dagas": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "tӯn-dagas"
+  },
+  "tуn-dag": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "tӯn-dagas"
+  },
   "tуn-dagas": {
     "def": "m",
     "grammar": "m.",
     "lemma": "tӯn-dagas"
+  },
+  "tуn-dage": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "tӯn-dagas"
+  },
+  "tуndagas": {
+    "def": "m",
+    "grammar": "m.",
+    "lemma": "tӯn-dagas"
+  },
+  "u": {
+    "def": "pers",
+    "grammar": "pers.",
+    "lemma": "ūre"
+  },
+  "uf": {
+    "def": "at the top",
+    "grammar": "adv.",
+    "lemma": "ufan"
   },
   "ufan": {
     "def": "at the top",
     "grammar": "adv.",
     "lemma": "ufan"
   },
+  "ufe": {
+    "def": "comp",
+    "grammar": "ufara",
+    "lemma": "ufera"
+  },
+  "ufer": {
+    "def": "comp",
+    "grammar": "ufara",
+    "lemma": "ufera"
+  },
   "ufera": {
+    "def": "comp",
+    "grammar": "ufara",
+    "lemma": "ufera"
+  },
+  "ufere": {
     "def": "comp",
     "grammar": "ufara",
     "lemma": "ufera"
@@ -14662,7 +42057,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ufor"
   },
+  "uht floga": {
+    "def": "(dawn- or) night-FLIer",
+    "grammar": "wk.",
+    "lemma": "ūht-floga"
+  },
+  "uht hlem(m)": {
+    "def": "crash or uproar at (dawn or) night",
+    "grammar": "mja.",
+    "lemma": "ūht-hlem(m)"
+  },
+  "uht sceaða": {
+    "def": "predator at (dawn) night",
+    "grammar": "wk.",
+    "lemma": "ūht-sceaða"
+  },
+  "uht-flog": {
+    "def": "(dawn- or) night-FLIer",
+    "grammar": "wk.",
+    "lemma": "ūht-floga"
+  },
   "uht-floga": {
+    "def": "(dawn- or) night-FLIer",
+    "grammar": "wk.",
+    "lemma": "ūht-floga"
+  },
+  "uht-floge": {
     "def": "(dawn- or) night-FLIer",
     "grammar": "wk.",
     "lemma": "ūht-floga"
@@ -14672,25 +42092,310 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "ūht-hlem(m)"
   },
+  "uht-sceað": {
+    "def": "predator at (dawn) night",
+    "grammar": "wk.",
+    "lemma": "ūht-sceaða"
+  },
   "uht-sceaða": {
     "def": "predator at (dawn) night",
     "grammar": "wk.",
     "lemma": "ūht-sceaða"
+  },
+  "uht-sceaðe": {
+    "def": "predator at (dawn) night",
+    "grammar": "wk.",
+    "lemma": "ūht-sceaða"
+  },
+  "uhtaoruh": {
+    "def": "time just before daybreak, dawn",
+    "grammar": "wk.",
+    "lemma": "ūhtaorūhte"
+  },
+  "uhtaoruht": {
+    "def": "time just before daybreak, dawn",
+    "grammar": "wk.",
+    "lemma": "ūhtaorūhte"
   },
   "uhtaoruhte": {
     "def": "time just before daybreak, dawn",
     "grammar": "wk.",
     "lemma": "ūhtaorūhte"
   },
+  "uhtfloga": {
+    "def": "(dawn- or) night-FLIer",
+    "grammar": "wk.",
+    "lemma": "ūht-floga"
+  },
+  "uhthlem(m)": {
+    "def": "crash or uproar at (dawn or) night",
+    "grammar": "mja.",
+    "lemma": "ūht-hlem(m)"
+  },
+  "uhtsceaða": {
+    "def": "predator at (dawn) night",
+    "grammar": "wk.",
+    "lemma": "ūht-sceaða"
+  },
+  "umbor wesende": {
+    "def": "being a child",
+    "grammar": "adj.",
+    "lemma": "umbor-wesende"
+  },
+  "umbor-wesen": {
+    "def": "being a child",
+    "grammar": "adj.",
+    "lemma": "umbor-wesende"
+  },
+  "umbor-wesend": {
+    "def": "being a child",
+    "grammar": "adj.",
+    "lemma": "umbor-wesende"
+  },
   "umbor-wesende": {
     "def": "being a child",
     "grammar": "adj.",
     "lemma": "umbor-wesende"
   },
+  "umborwesende": {
+    "def": "being a child",
+    "grammar": "adj.",
+    "lemma": "umbor-wesende"
+  },
+  "un bliðe": {
+    "def": "sorrowful",
+    "grammar": "adj.",
+    "lemma": "un-blīðe"
+  },
+  "un byrnende": {
+    "def": "without BURNing",
+    "grammar": "adj.",
+    "lemma": "un-byrnende"
+  },
+  "un cuð": {
+    "def": "2214",
+    "grammar": "adj.",
+    "lemma": "un-cūð"
+  },
+  "un dearnunga": {
+    "def": "without conceal-ment, openly",
+    "grammar": "adv.",
+    "lemma": "un-dearnunga"
+  },
+  "un dyrne": {
+    "def": "not hidden, apparent, revealed, obvious",
+    "grammar": "",
+    "lemma": "un-dyrne"
+  },
+  "un flitme": {
+    "def": "without dispute (?), 1097 (n",
+    "grammar": "adv.",
+    "lemma": "un-flitme"
+  },
+  "un forht": {
+    "def": "brave",
+    "grammar": "adj.",
+    "lemma": "un-forht"
+  },
+  "un forhte": {
+    "def": "fearlessly, without hesitation",
+    "grammar": "adv.",
+    "lemma": "un-forhte"
+  },
+  "un frod": {
+    "def": "[not wise, i",
+    "grammar": "adj.",
+    "lemma": "un-frōd"
+  },
+  "un from": {
+    "def": "inactive, feeble",
+    "grammar": "adj.",
+    "lemma": "un-from"
+  },
+  "un fæcne": {
+    "def": "without deceit, sincere",
+    "grammar": "adj.",
+    "lemma": "un-fǣcne"
+  },
+  "un fæge": {
+    "def": "undoomed, not fated to die",
+    "grammar": "adj.",
+    "lemma": "un-fǣġe"
+  },
+  "un fæger(seeappx.c§25)": {
+    "def": "UNFAIR, ugly, eerie, horrible",
+    "grammar": "adj.",
+    "lemma": "un-fǣġer(seeAppx.C§25)"
+  },
+  "un geara": {
+    "def": "re-cently",
+    "grammar": "adv.",
+    "lemma": "un-ġeāra"
+  },
+  "un gedefe lice": {
+    "def": "UNfittingly",
+    "grammar": "adv.",
+    "lemma": "un-ġedēfe-līċe"
+  },
+  "un gemete": {
+    "def": "exceedingly",
+    "grammar": "adv.",
+    "lemma": "un-ġemete"
+  },
+  "un gyfeðe( gifeðe)": {
+    "def": "not granted, denied",
+    "grammar": "adj.",
+    "lemma": "un-ġyfeðe(-ġifeðe)"
+  },
+  "un heore": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "un-hēore"
+  },
+  "un hlitme": {
+    "def": "not reluctantly, eagerly, earnestly (?), 1129 (n",
+    "grammar": "adv.",
+    "lemma": "un-hlitme"
+  },
+  "un hror": {
+    "def": "powerless, weak, (made) useless",
+    "grammar": "adj.",
+    "lemma": "un-hrōr"
+  },
+  "un hælo": {
+    "def": "‡evil, destruction",
+    "grammar": "f",
+    "lemma": "un-hǣlo"
+  },
+  "un igmetes(=un gemetes": {
+    "def": "adv",
+    "grammar": "Lang.",
+    "lemma": "un-iġmetes(=un-ġemetes"
+  },
+  "un leof": {
+    "def": "not loved",
+    "grammar": "adj.",
+    "lemma": "un-lēof"
+  },
+  "un lifigende": {
+    "def": "not LIVing, dead",
+    "grammar": "",
+    "lemma": "un-lifiġende"
+  },
+  "un lуtel": {
+    "def": "great",
+    "grammar": "adj.",
+    "lemma": "un-lӯtel"
+  },
+  "un murn lice": {
+    "def": "ruthlessLY, 449 (cf",
+    "grammar": "adv.",
+    "lemma": "un-murn-līċe"
+  },
+  "un nyt(t)": {
+    "def": "unusable",
+    "grammar": "adj.",
+    "lemma": "un-nyt(t)"
+  },
+  "un riht": {
+    "def": "1254",
+    "grammar": "n.",
+    "lemma": "un-riht"
+  },
+  "un rihte": {
+    "def": "wrongfully",
+    "grammar": "adv.",
+    "lemma": "un-rihte"
+  },
+  "un rim": {
+    "def": "3135",
+    "grammar": "n.",
+    "lemma": "un-rīm"
+  },
+  "un rime": {
+    "def": "3012",
+    "grammar": "adj.",
+    "lemma": "un-rīme"
+  },
+  "un rot": {
+    "def": "depressed",
+    "grammar": "adj.",
+    "lemma": "un-rōt"
+  },
+  "un slaw": {
+    "def": "(‡)not blunt, sharp",
+    "grammar": "adj.",
+    "lemma": "un-slāw"
+  },
+  "un snyttru": {
+    "def": "folly",
+    "grammar": "f",
+    "lemma": "un-snyttru"
+  },
+  "un softe": {
+    "def": "hardly, with diÌculty",
+    "grammar": "adv.",
+    "lemma": "un-sōfte"
+  },
+  "un swiðe": {
+    "def": "not strongly",
+    "grammar": "adv.",
+    "lemma": "un-swīðe"
+  },
+  "un synnig": {
+    "def": "guiltless",
+    "grammar": "adj.",
+    "lemma": "un-synniġ"
+  },
+  "un synnum": {
+    "def": "guiltlessly",
+    "grammar": "adv.",
+    "lemma": "un-synnum"
+  },
+  "un tæle": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "un-tǣle"
+  },
+  "un tуdre": {
+    "def": "bad brood, evil off-spring",
+    "grammar": "mja.",
+    "lemma": "un-tӯdre"
+  },
+  "un wac lic": {
+    "def": "not (WEAK) mean, splendid",
+    "grammar": "adj.",
+    "lemma": "un-wāc-liċ"
+  },
+  "un wearnum": {
+    "def": "without hin-drance, irresistibly",
+    "grammar": "adv.",
+    "lemma": "un-wearnum"
+  },
+  "un wrecen": {
+    "def": "UNavenged",
+    "grammar": "adj.",
+    "lemma": "un-wrecen"
+  },
+  "un-blið": {
+    "def": "sorrowful",
+    "grammar": "adj.",
+    "lemma": "un-blīðe"
+  },
   "un-bliðe": {
     "def": "sorrowful",
     "grammar": "adj.",
     "lemma": "un-blīðe"
+  },
+  "un-byrnen": {
+    "def": "without BURNing",
+    "grammar": "adj.",
+    "lemma": "un-byrnende"
+  },
+  "un-byrnend": {
+    "def": "without BURNing",
+    "grammar": "adj.",
+    "lemma": "un-byrnende"
   },
   "un-byrnende": {
     "def": "without BURNing",
@@ -14702,20 +42407,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-cūð"
   },
+  "un-dearnung": {
+    "def": "without conceal-ment, openly",
+    "grammar": "adv.",
+    "lemma": "un-dearnunga"
+  },
   "un-dearnunga": {
     "def": "without conceal-ment, openly",
     "grammar": "adv.",
     "lemma": "un-dearnunga"
+  },
+  "un-dearnunge": {
+    "def": "without conceal-ment, openly",
+    "grammar": "adv.",
+    "lemma": "un-dearnunga"
+  },
+  "un-dyr": {
+    "def": "not hidden, apparent, revealed, obvious",
+    "grammar": "",
+    "lemma": "un-dyrne"
+  },
+  "un-dyrn": {
+    "def": "not hidden, apparent, revealed, obvious",
+    "grammar": "",
+    "lemma": "un-dyrne"
   },
   "un-dyrne": {
     "def": "not hidden, apparent, revealed, obvious",
     "grammar": "",
     "lemma": "un-dyrne"
   },
+  "un-flitm": {
+    "def": "without dispute (?), 1097 (n",
+    "grammar": "adv.",
+    "lemma": "un-flitme"
+  },
   "un-flitme": {
     "def": "without dispute (?), 1097 (n",
     "grammar": "adv.",
     "lemma": "un-flitme"
+  },
+  "un-forh": {
+    "def": "fearlessly, without hesitation",
+    "grammar": "adv.",
+    "lemma": "un-forhte"
   },
   "un-forht": {
     "def": "brave",
@@ -14737,10 +42472,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-from"
   },
+  "un-fæc": {
+    "def": "without deceit, sincere",
+    "grammar": "adj.",
+    "lemma": "un-fǣcne"
+  },
+  "un-fæcn": {
+    "def": "without deceit, sincere",
+    "grammar": "adj.",
+    "lemma": "un-fǣcne"
+  },
   "un-fæcne": {
     "def": "without deceit, sincere",
     "grammar": "adj.",
     "lemma": "un-fǣcne"
+  },
+  "un-fæg": {
+    "def": "undoomed, not fated to die",
+    "grammar": "adj.",
+    "lemma": "un-fǣġe"
   },
   "un-fæge": {
     "def": "undoomed, not fated to die",
@@ -14752,15 +42502,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-fǣġer(seeAppx.C§25)"
   },
+  "un-gea": {
+    "def": "re-cently",
+    "grammar": "adv.",
+    "lemma": "un-ġeāra"
+  },
+  "un-gear": {
+    "def": "re-cently",
+    "grammar": "adv.",
+    "lemma": "un-ġeāra"
+  },
   "un-geara": {
     "def": "re-cently",
     "grammar": "adv.",
     "lemma": "un-ġeāra"
   },
+  "un-geare": {
+    "def": "re-cently",
+    "grammar": "adv.",
+    "lemma": "un-ġeāra"
+  },
+  "un-gedefe-lic": {
+    "def": "UNfittingly",
+    "grammar": "adv.",
+    "lemma": "un-ġedēfe-līċe"
+  },
   "un-gedefe-lice": {
     "def": "UNfittingly",
     "grammar": "adv.",
     "lemma": "un-ġedēfe-līċe"
+  },
+  "un-geme": {
+    "def": "exceedingly",
+    "grammar": "adv.",
+    "lemma": "un-ġemete"
+  },
+  "un-gemet": {
+    "def": "exceedingly",
+    "grammar": "adv.",
+    "lemma": "un-ġemete"
   },
   "un-gemete": {
     "def": "exceedingly",
@@ -14772,10 +42552,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-ġyfeðe(-ġifeðe)"
   },
+  "un-heo": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "un-hēore"
+  },
+  "un-heor": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "un-hēore"
+  },
   "un-heore": {
     "def": "adj",
     "grammar": "",
     "lemma": "un-hēore"
+  },
+  "un-hlitm": {
+    "def": "not reluctantly, eagerly, earnestly (?), 1129 (n",
+    "grammar": "adv.",
+    "lemma": "un-hlitme"
   },
   "un-hlitme": {
     "def": "not reluctantly, eagerly, earnestly (?), 1129 (n",
@@ -14792,6 +42587,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "un-hǣlo"
   },
+  "un-igmetes(=un-gemet": {
+    "def": "adv",
+    "grammar": "Lang.",
+    "lemma": "un-iġmetes(=un-ġemetes"
+  },
+  "un-igmetes(=un-gemete": {
+    "def": "adv",
+    "grammar": "Lang.",
+    "lemma": "un-iġmetes(=un-ġemetes"
+  },
   "un-igmetes(=un-gemetes": {
     "def": "adv",
     "grammar": "Lang.",
@@ -14801,6 +42606,16 @@ const OLD_ENGLISH_DICT = {
     "def": "not loved",
     "grammar": "adj.",
     "lemma": "un-lēof"
+  },
+  "un-lifigen": {
+    "def": "not LIVing, dead",
+    "grammar": "",
+    "lemma": "un-lifiġende"
+  },
+  "un-lifigend": {
+    "def": "not LIVing, dead",
+    "grammar": "",
+    "lemma": "un-lifiġende"
   },
   "un-lifigende": {
     "def": "not LIVing, dead",
@@ -14812,6 +42627,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-lӯtel"
   },
+  "un-murn-lic": {
+    "def": "ruthlessLY, 449 (cf",
+    "grammar": "adv.",
+    "lemma": "un-murn-līċe"
+  },
   "un-murn-lice": {
     "def": "ruthlessLY, 449 (cf",
     "grammar": "adv.",
@@ -14821,6 +42641,11 @@ const OLD_ENGLISH_DICT = {
     "def": "unusable",
     "grammar": "adj.",
     "lemma": "un-nyt(t)"
+  },
+  "un-rih": {
+    "def": "wrongfully",
+    "grammar": "adv.",
+    "lemma": "un-rihte"
   },
   "un-riht": {
     "def": "1254",
@@ -14857,15 +42682,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "un-snyttru"
   },
+  "un-sof": {
+    "def": "hardly, with diÌculty",
+    "grammar": "adv.",
+    "lemma": "un-sōfte"
+  },
+  "un-soft": {
+    "def": "hardly, with diÌculty",
+    "grammar": "adv.",
+    "lemma": "un-sōfte"
+  },
   "un-softe": {
     "def": "hardly, with diÌculty",
     "grammar": "adv.",
     "lemma": "un-sōfte"
   },
+  "un-swið": {
+    "def": "not strongly",
+    "grammar": "adv.",
+    "lemma": "un-swīðe"
+  },
   "un-swiðe": {
     "def": "not strongly",
     "grammar": "adv.",
     "lemma": "un-swīðe"
+  },
+  "un-synn": {
+    "def": "guiltlessly",
+    "grammar": "adv.",
+    "lemma": "un-synnum"
+  },
+  "un-synne": {
+    "def": "guiltless",
+    "grammar": "adj.",
+    "lemma": "un-synniġ"
   },
   "un-synnig": {
     "def": "guiltless",
@@ -14877,10 +42727,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "un-synnum"
   },
+  "un-tæl": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "un-tǣle"
+  },
   "un-tæle": {
     "def": "blameless",
     "grammar": "adj.",
     "lemma": "un-tǣle"
+  },
+  "un-tуd": {
+    "def": "bad brood, evil off-spring",
+    "grammar": "mja.",
+    "lemma": "un-tӯdre"
+  },
+  "un-tуdr": {
+    "def": "bad brood, evil off-spring",
+    "grammar": "mja.",
+    "lemma": "un-tӯdre"
   },
   "un-tуdre": {
     "def": "bad brood, evil off-spring",
@@ -14892,15 +42757,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-wāc-liċ"
   },
+  "un-wearn": {
+    "def": "without hin-drance, irresistibly",
+    "grammar": "adv.",
+    "lemma": "un-wearnum"
+  },
+  "un-wearne": {
+    "def": "without hin-drance, irresistibly",
+    "grammar": "adv.",
+    "lemma": "un-wearnum"
+  },
   "un-wearnum": {
     "def": "without hin-drance, irresistibly",
     "grammar": "adv.",
     "lemma": "un-wearnum"
   },
+  "un-wrec": {
+    "def": "UNavenged",
+    "grammar": "adj.",
+    "lemma": "un-wrecen"
+  },
+  "un-wrece": {
+    "def": "UNavenged",
+    "grammar": "adj.",
+    "lemma": "un-wrecen"
+  },
   "un-wrecen": {
     "def": "UNavenged",
     "grammar": "adj.",
     "lemma": "un-wrecen"
+  },
+  "unbliðe": {
+    "def": "sorrowful",
+    "grammar": "adj.",
+    "lemma": "un-blīðe"
+  },
+  "unbyrnende": {
+    "def": "without BURNing",
+    "grammar": "adj.",
+    "lemma": "un-byrnende"
   },
   "unc": {
     "def": "see iċ",
@@ -14912,30 +42807,285 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pers.",
     "lemma": "uncer"
   },
+  "uncuð": {
+    "def": "2214",
+    "grammar": "adj.",
+    "lemma": "un-cūð"
+  },
+  "undearnunga": {
+    "def": "without conceal-ment, openly",
+    "grammar": "adv.",
+    "lemma": "un-dearnunga"
+  },
   "under": {
     "def": "(position:) UNDER",
     "grammar": "I.",
     "lemma": "under"
+  },
+  "undern mæl": {
+    "def": "morning-time",
+    "grammar": "n.",
+    "lemma": "undern-mǣl"
   },
   "undern-mæl": {
     "def": "morning-time",
     "grammar": "n.",
     "lemma": "undern-mǣl"
   },
+  "undernmæl": {
+    "def": "morning-time",
+    "grammar": "n.",
+    "lemma": "undern-mǣl"
+  },
+  "undyrne": {
+    "def": "not hidden, apparent, revealed, obvious",
+    "grammar": "",
+    "lemma": "un-dyrne"
+  },
+  "unflitme": {
+    "def": "without dispute (?), 1097 (n",
+    "grammar": "adv.",
+    "lemma": "un-flitme"
+  },
+  "unforht": {
+    "def": "brave",
+    "grammar": "adj.",
+    "lemma": "un-forht"
+  },
+  "unforhte": {
+    "def": "fearlessly, without hesitation",
+    "grammar": "adv.",
+    "lemma": "un-forhte"
+  },
+  "unfrod": {
+    "def": "[not wise, i",
+    "grammar": "adj.",
+    "lemma": "un-frōd"
+  },
+  "unfrom": {
+    "def": "inactive, feeble",
+    "grammar": "adj.",
+    "lemma": "un-from"
+  },
+  "unfæcne": {
+    "def": "without deceit, sincere",
+    "grammar": "adj.",
+    "lemma": "un-fǣcne"
+  },
+  "unfæge": {
+    "def": "undoomed, not fated to die",
+    "grammar": "adj.",
+    "lemma": "un-fǣġe"
+  },
+  "unfæger(seeappx.c§25)": {
+    "def": "UNFAIR, ugly, eerie, horrible",
+    "grammar": "adj.",
+    "lemma": "un-fǣġer(seeAppx.C§25)"
+  },
+  "ungeara": {
+    "def": "re-cently",
+    "grammar": "adv.",
+    "lemma": "un-ġeāra"
+  },
+  "ungedefelice": {
+    "def": "UNfittingly",
+    "grammar": "adv.",
+    "lemma": "un-ġedēfe-līċe"
+  },
+  "ungemete": {
+    "def": "exceedingly",
+    "grammar": "adv.",
+    "lemma": "un-ġemete"
+  },
+  "ungyfeðe(gifeðe)": {
+    "def": "not granted, denied",
+    "grammar": "adj.",
+    "lemma": "un-ġyfeðe(-ġifeðe)"
+  },
+  "unheore": {
+    "def": "adj",
+    "grammar": "",
+    "lemma": "un-hēore"
+  },
+  "unhlitme": {
+    "def": "not reluctantly, eagerly, earnestly (?), 1129 (n",
+    "grammar": "adv.",
+    "lemma": "un-hlitme"
+  },
+  "unhror": {
+    "def": "powerless, weak, (made) useless",
+    "grammar": "adj.",
+    "lemma": "un-hrōr"
+  },
+  "unhælo": {
+    "def": "‡evil, destruction",
+    "grammar": "f",
+    "lemma": "un-hǣlo"
+  },
+  "unigmetes(=ungemetes": {
+    "def": "adv",
+    "grammar": "Lang.",
+    "lemma": "un-iġmetes(=un-ġemetes"
+  },
+  "unleof": {
+    "def": "not loved",
+    "grammar": "adj.",
+    "lemma": "un-lēof"
+  },
+  "unlifigende": {
+    "def": "not LIVing, dead",
+    "grammar": "",
+    "lemma": "un-lifiġende"
+  },
+  "unlуtel": {
+    "def": "great",
+    "grammar": "adj.",
+    "lemma": "un-lӯtel"
+  },
+  "unmurnlice": {
+    "def": "ruthlessLY, 449 (cf",
+    "grammar": "adv.",
+    "lemma": "un-murn-līċe"
+  },
+  "unn": {
+    "def": "wish (some-one to have something), grant",
+    "grammar": "prp.",
+    "lemma": "unnan"
+  },
   "unnan": {
     "def": "wish (some-one to have something), grant",
     "grammar": "prp.",
     "lemma": "unnan"
+  },
+  "unne": {
+    "def": "wish (some-one to have something), grant",
+    "grammar": "prp.",
+    "lemma": "unnan"
+  },
+  "unnyt(t)": {
+    "def": "unusable",
+    "grammar": "adj.",
+    "lemma": "un-nyt(t)"
+  },
+  "unriht": {
+    "def": "1254",
+    "grammar": "n.",
+    "lemma": "un-riht"
+  },
+  "unrihte": {
+    "def": "wrongfully",
+    "grammar": "adv.",
+    "lemma": "un-rihte"
+  },
+  "unrim": {
+    "def": "3135",
+    "grammar": "n.",
+    "lemma": "un-rīm"
+  },
+  "unrime": {
+    "def": "3012",
+    "grammar": "adj.",
+    "lemma": "un-rīme"
+  },
+  "unrot": {
+    "def": "depressed",
+    "grammar": "adj.",
+    "lemma": "un-rōt"
+  },
+  "unslaw": {
+    "def": "(‡)not blunt, sharp",
+    "grammar": "adj.",
+    "lemma": "un-slāw"
+  },
+  "unsnyttru": {
+    "def": "folly",
+    "grammar": "f",
+    "lemma": "un-snyttru"
+  },
+  "unsofte": {
+    "def": "hardly, with diÌculty",
+    "grammar": "adv.",
+    "lemma": "un-sōfte"
+  },
+  "unswiðe": {
+    "def": "not strongly",
+    "grammar": "adv.",
+    "lemma": "un-swīðe"
+  },
+  "unsynnig": {
+    "def": "guiltless",
+    "grammar": "adj.",
+    "lemma": "un-synniġ"
+  },
+  "unsynnum": {
+    "def": "guiltlessly",
+    "grammar": "adv.",
+    "lemma": "un-synnum"
+  },
+  "untæle": {
+    "def": "blameless",
+    "grammar": "adj.",
+    "lemma": "un-tǣle"
+  },
+  "untуdre": {
+    "def": "bad brood, evil off-spring",
+    "grammar": "mja.",
+    "lemma": "un-tӯdre"
+  },
+  "unwaclic": {
+    "def": "not (WEAK) mean, splendid",
+    "grammar": "adj.",
+    "lemma": "un-wāc-liċ"
+  },
+  "unwearnum": {
+    "def": "without hin-drance, irresistibly",
+    "grammar": "adv.",
+    "lemma": "un-wearnum"
+  },
+  "unwrecen": {
+    "def": "UNavenged",
+    "grammar": "adj.",
+    "lemma": "un-wrecen"
   },
   "up": {
     "def": "224, 519, 782, 1373, 1619, 1912, 1920, 2575, 2893",
     "grammar": "adv.",
     "lemma": "up"
   },
+  "up lang": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "up-lang"
+  },
   "up-lang": {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "up-lang"
+  },
+  "uplang": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "up-lang"
+  },
+  "upp": {
+    "def": "above",
+    "grammar": "adv.",
+    "lemma": "uppe"
+  },
+  "upp rihte": {
+    "def": "UPRIGHT",
+    "grammar": "adv.",
+    "lemma": "upp-rihte"
+  },
+  "upp-rih": {
+    "def": "UPRIGHT",
+    "grammar": "adv.",
+    "lemma": "upp-rihte"
+  },
+  "upp-riht": {
+    "def": "UPRIGHT",
+    "grammar": "adv.",
+    "lemma": "upp-rihte"
   },
   "upp-rihte": {
     "def": "UPRIGHT",
@@ -14947,6 +43097,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "uppe"
   },
+  "upprihte": {
+    "def": "UPRIGHT",
+    "grammar": "adv.",
+    "lemma": "upp-rihte"
+  },
+  "ur": {
+    "def": "pers",
+    "grammar": "pers.",
+    "lemma": "ūre"
+  },
   "ure": {
     "def": "pers",
     "grammar": "pers.",
@@ -14956,6 +43116,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see iċ",
     "grammar": "",
     "lemma": "ūrum"
+  },
+  "user": {
+    "def": "see ūre",
+    "grammar": "",
+    "lemma": "ūserne"
+  },
+  "usern": {
+    "def": "see ūre",
+    "grammar": "",
+    "lemma": "ūserne"
   },
   "userne": {
     "def": "see ūre",
@@ -14967,15 +43137,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ūsiċ"
   },
+  "uss": {
+    "def": "ūssum, see ūre",
+    "grammar": "",
+    "lemma": "ūsses"
+  },
+  "usse": {
+    "def": "ūssum, see ūre",
+    "grammar": "",
+    "lemma": "ūsses"
+  },
   "usses": {
     "def": "ūssum, see ūre",
     "grammar": "",
     "lemma": "ūsses"
   },
   "ut": {
-    "def": "537, 663, 1292, 1583, 2081, 2515, 2545, 2551, 2557, 3092, 3106, 3130",
+    "def": "outside",
     "grammar": "adv.",
-    "lemma": "ūt"
+    "lemma": "ūtan"
+  },
+  "ut fus": {
+    "def": "ready (eager) to set OUT",
+    "grammar": "adj.",
+    "lemma": "ūt-fūs"
+  },
+  "ut weard": {
+    "def": "turning OUTWARD, making an attempt to escape",
+    "grammar": "adj.",
+    "lemma": "ūt-weard"
   },
   "ut-fus": {
     "def": "ready (eager) to set OUT",
@@ -14992,35 +43182,100 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ūtan"
   },
+  "utan weard": {
+    "def": "OUTside",
+    "grammar": "adj.",
+    "lemma": "ūtan-weard"
+  },
   "utan-weard": {
     "def": "OUTside",
     "grammar": "adj.",
     "lemma": "ūtan-weard"
+  },
+  "utanweard": {
+    "def": "OUTside",
+    "grammar": "adj.",
+    "lemma": "ūtan-weard"
+  },
+  "ute": {
+    "def": "outside",
+    "grammar": "adv.",
+    "lemma": "ūtan"
+  },
+  "utfus": {
+    "def": "ready (eager) to set OUT",
+    "grammar": "adj.",
+    "lemma": "ūt-fūs"
   },
   "uton": {
     "def": "see wutun",
     "grammar": "",
     "lemma": "uton"
   },
+  "utweard": {
+    "def": "turning OUTWARD, making an attempt to escape",
+    "grammar": "adj.",
+    "lemma": "ūt-weard"
+  },
+  "uð genge": {
+    "def": "w",
+    "grammar": "adj.",
+    "lemma": "ūð-genġe"
+  },
+  "uð-geng": {
+    "def": "w",
+    "grammar": "adj.",
+    "lemma": "ūð-genġe"
+  },
   "uð-genge": {
     "def": "w",
     "grammar": "adj.",
     "lemma": "ūð-genġe"
+  },
+  "uðgenge": {
+    "def": "w",
+    "grammar": "adj.",
+    "lemma": "ūð-genġe"
+  },
+  "uþ": {
+    "def": "see unnan",
+    "grammar": "",
+    "lemma": "ūþe"
   },
   "uþe": {
     "def": "see unnan",
     "grammar": "",
     "lemma": "ūþe"
   },
+  "w": {
+    "def": "Gr",
+    "grammar": "m.",
+    "lemma": "wā"
+  },
   "wa": {
     "def": "Gr",
     "grammar": "m.",
     "lemma": "wā"
   },
+  "waci": {
+    "def": "OEG § ̄764), keep WATCH, be awake",
+    "grammar": "vb. III",
+    "lemma": "wacian"
+  },
   "wacian": {
     "def": "OEG § ̄764), keep WATCH, be awake",
     "grammar": "vb. III",
     "lemma": "wacian"
+  },
+  "wacie": {
+    "def": "OEG § ̄764), keep WATCH, be awake",
+    "grammar": "vb. III",
+    "lemma": "wacian"
+  },
+  "wad": {
+    "def": "see wæd",
+    "grammar": "",
+    "lemma": "wada"
   },
   "wada": {
     "def": "see wæd",
@@ -15032,10 +43287,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "wadan"
   },
+  "wade": {
+    "def": "see wæd",
+    "grammar": "",
+    "lemma": "wada"
+  },
   "wag": {
     "def": "1662",
     "grammar": "m.",
     "lemma": "wāg"
+  },
+  "wald swaþu": {
+    "def": "n",
+    "grammar": "f.",
+    "lemma": "wald-swaþu"
   },
   "wald-swaþu": {
     "def": "n",
@@ -15047,6 +43312,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "waldend"
   },
+  "waldswaþu": {
+    "def": "n",
+    "grammar": "f.",
+    "lemma": "wald-swaþu"
+  },
   "walu": {
     "def": "pl",
     "grammar": "pl.",
@@ -15057,7 +43327,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wan"
   },
+  "wandri": {
+    "def": "WANDER, rove, circle",
+    "grammar": "vb. II",
+    "lemma": "wandrian"
+  },
   "wandrian": {
+    "def": "WANDER, rove, circle",
+    "grammar": "vb. II",
+    "lemma": "wandrian"
+  },
+  "wandrie": {
     "def": "WANDER, rove, circle",
     "grammar": "vb. II",
     "lemma": "wandrian"
@@ -15067,17 +43347,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wang"
   },
+  "wani": {
+    "def": "WANE, diminish, waste away",
+    "grammar": "vb. II",
+    "lemma": "wanian"
+  },
   "wanian": {
     "def": "WANE, diminish, waste away",
     "grammar": "vb. II",
     "lemma": "wanian"
+  },
+  "wanie": {
+    "def": "WANE, diminish, waste away",
+    "grammar": "vb. II",
+    "lemma": "wanian"
+  },
+  "wanige": {
+    "def": "NHG weinen",
+    "grammar": "vb. II",
+    "lemma": "wāniġean"
   },
   "wanigean": {
     "def": "NHG weinen",
     "grammar": "vb. II",
     "lemma": "wāniġean"
   },
+  "wanigee": {
+    "def": "NHG weinen",
+    "grammar": "vb. II",
+    "lemma": "wāniġean"
+  },
+  "wari": {
+    "def": "occupy, inhabit",
+    "grammar": "vb. II",
+    "lemma": "warian"
+  },
   "warian": {
+    "def": "occupy, inhabit",
+    "grammar": "vb. II",
+    "lemma": "warian"
+  },
+  "warie": {
     "def": "occupy, inhabit",
     "grammar": "vb. II",
     "lemma": "warian"
@@ -15098,14 +43408,29 @@ const OLD_ENGLISH_DICT = {
     "lemma": "waðol"
   },
   "we": {
-    "def": "see iċ",
-    "grammar": "",
-    "lemma": "wē"
+    "def": "Gr",
+    "grammar": "m.",
+    "lemma": "wā"
   },
   "wea": {
     "def": "misery, trouble",
     "grammar": "wk.",
     "lemma": "wēa"
+  },
+  "wea dæd": {
+    "def": "DEED of WOE",
+    "grammar": "fi.",
+    "lemma": "wēa-dǣd"
+  },
+  "wea laf": {
+    "def": "survivors of calamity",
+    "grammar": "f.",
+    "lemma": "wēa-lāf"
+  },
+  "wea spel(l)": {
+    "def": "news of WOE, discour-aging turn of events",
+    "grammar": "n.",
+    "lemma": "wēa-spel(l)"
   },
   "wea-dæd": {
     "def": "DEED of WOE",
@@ -15122,12 +43447,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wēa-spel(l)"
   },
+  "weadæd": {
+    "def": "DEED of WOE",
+    "grammar": "fi.",
+    "lemma": "wēa-dǣd"
+  },
   "weal(l)": {
     "def": "cavern, rock, elevated shore [229, 572, 1224",
     "grammar": "m.",
     "lemma": "weal(l)"
   },
+  "wealaf": {
+    "def": "survivors of calamity",
+    "grammar": "f.",
+    "lemma": "wēa-lāf"
+  },
+  "weald": {
+    "def": "have power over, rule, WIELD, possess",
+    "grammar": "vb.  7",
+    "lemma": "wealdan"
+  },
   "wealdan": {
+    "def": "have power over, rule, WIELD, possess",
+    "grammar": "vb.  7",
+    "lemma": "wealdan"
+  },
+  "wealde": {
     "def": "have power over, rule, WIELD, possess",
     "grammar": "vb.  7",
     "lemma": "wealdan"
@@ -15136,6 +43481,16 @@ const OLD_ENGLISH_DICT = {
     "def": "God",
     "grammar": "mc.",
     "lemma": "wealdend"
+  },
+  "weall": {
+    "def": "surge, seethe, boil",
+    "grammar": "vb. 7",
+    "lemma": "weallan"
+  },
+  "weall clif": {
+    "def": "CLIFF (see weal[l])",
+    "grammar": "n.",
+    "lemma": "weall-clif"
   },
   "weall-clif": {
     "def": "CLIFF (see weal[l])",
@@ -15147,12 +43502,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "weallan"
   },
+  "weallclif": {
+    "def": "CLIFF (see weal[l])",
+    "grammar": "n.",
+    "lemma": "weall-clif"
+  },
+  "wealle": {
+    "def": "surge, seethe, boil",
+    "grammar": "vb. 7",
+    "lemma": "weallan"
+  },
   "weard": {
     "def": "watch",
     "grammar": "f.",
     "lemma": "weard"
   },
+  "weardi": {
+    "def": "GUARD, (†)occupy",
+    "grammar": "vb.  II",
+    "lemma": "weardian"
+  },
   "weardian": {
+    "def": "GUARD, (†)occupy",
+    "grammar": "vb.  II",
+    "lemma": "weardian"
+  },
+  "weardie": {
     "def": "GUARD, (†)occupy",
     "grammar": "vb.  II",
     "lemma": "weardian"
@@ -15162,7 +43537,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "wearn"
   },
+  "weaspel(l)": {
+    "def": "news of WOE, discour-aging turn of events",
+    "grammar": "n.",
+    "lemma": "wēa-spel(l)"
+  },
+  "weax": {
+    "def": "grow, increase, flourish",
+    "grammar": "vb. 7",
+    "lemma": "weaxan"
+  },
   "weaxan": {
+    "def": "grow, increase, flourish",
+    "grammar": "vb. 7",
+    "lemma": "weaxan"
+  },
+  "weaxe": {
     "def": "grow, increase, flourish",
     "grammar": "vb. 7",
     "lemma": "weaxan"
@@ -15172,7 +43562,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "web(b)"
   },
+  "wecc": {
+    "def": "rouse, stir up",
+    "grammar": "vb.  I",
+    "lemma": "weċċan"
+  },
   "weccan": {
+    "def": "rouse, stir up",
+    "grammar": "vb.  I",
+    "lemma": "weċċan"
+  },
+  "wecce": {
     "def": "rouse, stir up",
     "grammar": "vb.  I",
     "lemma": "weċċan"
@@ -15187,10 +43587,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "weder"
   },
+  "wee": {
+    "def": "misery, trouble",
+    "grammar": "wk.",
+    "lemma": "wēa"
+  },
   "weg": {
-    "def": "AWAY, 264, 763, 844, 1382, 1430, 2096",
-    "grammar": "m.",
-    "lemma": "weġ"
+    "def": "wear, have (feel-ings)",
+    "grammar": "vb. 5",
+    "lemma": "wegan"
+  },
+  "weg flota(wæg )": {
+    "def": "wave-FLOATer, ship",
+    "grammar": "wk.",
+    "lemma": "wēġ-flota(wǣġ-)"
+  },
+  "weg liðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "wēġ-līðend(e)"
   },
   "weg(wæg)": {
     "def": "wave",
@@ -15212,6 +43627,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "wegan"
   },
+  "wege": {
+    "def": "wear, have (feel-ings)",
+    "grammar": "vb. 5",
+    "lemma": "wegan"
+  },
+  "wegflota(wæg)": {
+    "def": "wave-FLOATer, ship",
+    "grammar": "wk.",
+    "lemma": "wēġ-flota(wǣġ-)"
+  },
+  "wegliðend(e)": {
+    "def": "seafarer",
+    "grammar": "mc.",
+    "lemma": "wēġ-līðend(e)"
+  },
+  "weh": {
+    "def": "see weċċan",
+    "grammar": "",
+    "lemma": "wehte"
+  },
+  "weht": {
+    "def": "see weċċan",
+    "grammar": "",
+    "lemma": "wehte"
+  },
   "wehte": {
     "def": "see weċċan",
     "grammar": "",
@@ -15222,35 +43662,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "well",
     "lemma": "wēl"
   },
+  "wel hwylc": {
+    "def": "every (one)",
+    "grammar": "pron.",
+    "lemma": "wēl-hwylċ"
+  },
+  "wel þungen": {
+    "def": "accomplished, excellent",
+    "grammar": "adj.",
+    "lemma": "wēl-þungen"
+  },
   "wel-hwylc": {
     "def": "every (one)",
     "grammar": "pron.",
     "lemma": "wēl-hwylċ"
+  },
+  "wel-þung": {
+    "def": "accomplished, excellent",
+    "grammar": "adj.",
+    "lemma": "wēl-þungen"
+  },
+  "wel-þunge": {
+    "def": "accomplished, excellent",
+    "grammar": "adj.",
+    "lemma": "wēl-þungen"
   },
   "wel-þungen": {
     "def": "accomplished, excellent",
     "grammar": "adj.",
     "lemma": "wēl-þungen"
   },
+  "wele": {
+    "def": "rich",
+    "grammar": "adj.",
+    "lemma": "weliġ"
+  },
+  "welhwylc": {
+    "def": "every (one)",
+    "grammar": "pron.",
+    "lemma": "wēl-hwylċ"
+  },
   "welig": {
     "def": "rich",
     "grammar": "adj.",
     "lemma": "weliġ"
   },
+  "welþungen": {
+    "def": "accomplished, excellent",
+    "grammar": "adj.",
+    "lemma": "wēl-þungen"
+  },
   "wen": {
-    "def": "1873, 2323, 2910",
-    "grammar": "fi.",
-    "lemma": "wēn"
+    "def": "expect, think",
+    "grammar": "vb. I",
+    "lemma": "wēnan"
   },
   "wenan": {
     "def": "expect, think",
     "grammar": "vb. I",
     "lemma": "wēnan"
   },
+  "wene": {
+    "def": "expect, think",
+    "grammar": "vb. I",
+    "lemma": "wēnan"
+  },
+  "wenn": {
+    "def": "attach to one-self ̄), †entertain, present",
+    "grammar": "vb. I",
+    "lemma": "wennan"
+  },
   "wennan": {
     "def": "attach to one-self ̄), †entertain, present",
     "grammar": "vb. I",
     "lemma": "wennan"
+  },
+  "wenne": {
+    "def": "attach to one-self ̄), †entertain, present",
+    "grammar": "vb. I",
+    "lemma": "wennan"
+  },
+  "weo": {
+    "def": "gp",
+    "grammar": "gp.",
+    "lemma": "weora"
+  },
+  "weor": {
+    "def": "gp",
+    "grammar": "gp.",
+    "lemma": "weora"
   },
   "weora": {
     "def": "gp",
@@ -15262,12 +43762,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "weorc"
   },
+  "weore": {
+    "def": "gp",
+    "grammar": "gp.",
+    "lemma": "weora"
+  },
   "weorod": {
     "def": "see werod",
     "grammar": "",
     "lemma": "weorod"
   },
+  "weorp": {
+    "def": "pret",
+    "grammar": "vb. 3",
+    "lemma": "weorpan"
+  },
   "weorpan": {
+    "def": "pret",
+    "grammar": "vb. 3",
+    "lemma": "weorpan"
+  },
+  "weorpe": {
     "def": "pret",
     "grammar": "vb. 3",
     "lemma": "weorpan"
@@ -15277,10 +43792,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "weorð"
   },
+  "weorð ful(l)": {
+    "def": "WORTHy, val-ued, praiseworthy",
+    "grammar": "adj.",
+    "lemma": "weorð-ful(l)"
+  },
+  "weorð lice": {
+    "def": "splendidly",
+    "grammar": "adv.",
+    "lemma": "weorð-līċe"
+  },
+  "weorð mynd": {
+    "def": "glory",
+    "grammar": "f.",
+    "lemma": "weorð-mynd"
+  },
   "weorð-ful(l)": {
     "def": "WORTHy, val-ued, praiseworthy",
     "grammar": "adj.",
     "lemma": "weorð-ful(l)"
+  },
+  "weorð-lic": {
+    "def": "splendidly",
+    "grammar": "adv.",
+    "lemma": "weorð-līċe"
   },
   "weorð-lice": {
     "def": "splendidly",
@@ -15297,12 +43832,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "weorðan"
   },
+  "weorðe": {
+    "def": "come to pass, arise",
+    "grammar": "vb. 3",
+    "lemma": "weorðan"
+  },
+  "weorðful(l)": {
+    "def": "WORTHy, val-ued, praiseworthy",
+    "grammar": "adj.",
+    "lemma": "weorð-ful(l)"
+  },
+  "weorði": {
+    "def": "exalt, ennoble, adorn",
+    "grammar": "vb. II",
+    "lemma": "weorðian"
+  },
   "weorðian": {
     "def": "exalt, ennoble, adorn",
     "grammar": "vb. II",
     "lemma": "weorðian"
   },
+  "weorðie": {
+    "def": "exalt, ennoble, adorn",
+    "grammar": "vb. II",
+    "lemma": "weorðian"
+  },
+  "weorðlice": {
+    "def": "splendidly",
+    "grammar": "adv.",
+    "lemma": "weorð-līċe"
+  },
+  "weorðmynd": {
+    "def": "glory",
+    "grammar": "f.",
+    "lemma": "weorð-mynd"
+  },
+  "weoten": {
+    "def": "see wita",
+    "grammar": "",
+    "lemma": "weotena"
+  },
   "weotena": {
+    "def": "see wita",
+    "grammar": "",
+    "lemma": "weotena"
+  },
+  "weotene": {
     "def": "see wita",
     "grammar": "",
     "lemma": "weotena"
@@ -15317,15 +43892,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wer"
   },
+  "wer þeod": {
+    "def": "people, nation",
+    "grammar": "f.",
+    "lemma": "wer-þēod"
+  },
   "wer-þeod": {
     "def": "people, nation",
     "grammar": "f.",
     "lemma": "wer-þēod"
   },
+  "were": {
+    "def": "579",
+    "grammar": "adj.",
+    "lemma": "wēriġ"
+  },
   "wered": {
     "def": "sweet drink",
     "grammar": "n.",
     "lemma": "wered"
+  },
+  "werg": {
+    "def": "wērgum, see wēriġ",
+    "grammar": "w",
+    "lemma": "wērġe"
   },
   "werga(werga?)": {
     "def": "accursed, evil",
@@ -15347,7 +43937,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "werhðo"
   },
+  "weri": {
+    "def": "protect",
+    "grammar": "vb. I",
+    "lemma": "werian"
+  },
   "werian": {
+    "def": "protect",
+    "grammar": "vb. I",
+    "lemma": "werian"
+  },
+  "werie": {
     "def": "protect",
     "grammar": "vb. I",
     "lemma": "werian"
@@ -15357,7 +43957,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wēriġ"
   },
+  "werig mod": {
+    "def": "WEARY, disheart-ened",
+    "grammar": "adj.",
+    "lemma": "wēriġ-mōd"
+  },
   "werig-mod": {
+    "def": "WEARY, disheart-ened",
+    "grammar": "adj.",
+    "lemma": "wēriġ-mōd"
+  },
+  "werigmod": {
     "def": "WEARY, disheart-ened",
     "grammar": "adj.",
     "lemma": "wēriġ-mōd"
@@ -15367,10 +43977,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "werod"
   },
+  "werþeod": {
+    "def": "people, nation",
+    "grammar": "f.",
+    "lemma": "wer-þēod"
+  },
+  "wes": {
+    "def": "see eom",
+    "grammar": "",
+    "lemma": "wesan"
+  },
   "wesan": {
     "def": "see eom",
     "grammar": "",
     "lemma": "wesan"
+  },
+  "wese": {
+    "def": "see eom",
+    "grammar": "",
+    "lemma": "wesan"
+  },
+  "west": {
+    "def": "deserted",
+    "grammar": "adj.",
+    "lemma": "wēste"
   },
   "weste": {
     "def": "deserted",
@@ -15382,10 +44012,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "wēsten(n)"
   },
+  "wi": {
+    "def": "far and wide, far",
+    "grammar": "adv.",
+    "lemma": "wīde"
+  },
   "wic": {
     "def": "residence, home, settle-ment, inhabited place",
     "grammar": "n.",
     "lemma": "wīċ"
+  },
+  "wic stede": {
+    "def": "place of residence, home, inhabited place",
+    "grammar": "mi.",
+    "lemma": "wīċ-stede"
+  },
+  "wic-ste": {
+    "def": "place of residence, home, inhabited place",
+    "grammar": "mi.",
+    "lemma": "wīċ-stede"
+  },
+  "wic-sted": {
+    "def": "place of residence, home, inhabited place",
+    "grammar": "mi.",
+    "lemma": "wīċ-stede"
   },
   "wic-stede": {
     "def": "place of residence, home, inhabited place",
@@ -15397,55 +44047,235 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "wicg"
   },
+  "wicstede": {
+    "def": "place of residence, home, inhabited place",
+    "grammar": "mi.",
+    "lemma": "wīċ-stede"
+  },
   "wid": {
-    "def": "extended, spacious, gsn",
+    "def": "far and wide, far",
+    "grammar": "adv.",
+    "lemma": "wīde"
+  },
+  "wid cuþ": {
+    "def": "WIDEly known, famous",
     "grammar": "adj.",
-    "lemma": "wīd"
+    "lemma": "wīd-cūþ"
+  },
+  "wid floga": {
+    "def": "far-FLIer",
+    "grammar": "wk.",
+    "lemma": "wīd-floga"
+  },
+  "wid scofen": {
+    "def": "pushed far, far-reaching, great",
+    "grammar": "adj.",
+    "lemma": "wīd-scofen"
+  },
+  "wid wegas": {
+    "def": "WIDE-stretched WAYS (Gummere 1909), distant or far-extending regions",
+    "grammar": "m.",
+    "lemma": "wīd-wegas"
   },
   "wid-cuþ": {
     "def": "WIDEly known, famous",
     "grammar": "adj.",
     "lemma": "wīd-cūþ"
   },
+  "wid-flog": {
+    "def": "far-FLIer",
+    "grammar": "wk.",
+    "lemma": "wīd-floga"
+  },
   "wid-floga": {
     "def": "far-FLIer",
     "grammar": "wk.",
     "lemma": "wīd-floga"
+  },
+  "wid-floge": {
+    "def": "far-FLIer",
+    "grammar": "wk.",
+    "lemma": "wīd-floga"
+  },
+  "wid-scof": {
+    "def": "pushed far, far-reaching, great",
+    "grammar": "adj.",
+    "lemma": "wīd-scofen"
+  },
+  "wid-scofe": {
+    "def": "pushed far, far-reaching, great",
+    "grammar": "adj.",
+    "lemma": "wīd-scofen"
   },
   "wid-scofen": {
     "def": "pushed far, far-reaching, great",
     "grammar": "adj.",
     "lemma": "wīd-scofen"
   },
+  "wid-weg": {
+    "def": "WIDE-stretched WAYS (Gummere 1909), distant or far-extending regions",
+    "grammar": "m.",
+    "lemma": "wīd-wegas"
+  },
   "wid-wegas": {
     "def": "WIDE-stretched WAYS (Gummere 1909), distant or far-extending regions",
     "grammar": "m.",
     "lemma": "wīd-wegas"
+  },
+  "wid-wege": {
+    "def": "WIDE-stretched WAYS (Gummere 1909), distant or far-extending regions",
+    "grammar": "m.",
+    "lemma": "wīd-wegas"
+  },
+  "widcuþ": {
+    "def": "WIDEly known, famous",
+    "grammar": "adj.",
+    "lemma": "wīd-cūþ"
   },
   "wide": {
     "def": "far and wide, far",
     "grammar": "adv.",
     "lemma": "wīde"
   },
+  "wide ferhð": {
+    "def": "in: as",
+    "grammar": "m.",
+    "lemma": "wīde-ferhð"
+  },
   "wide-ferhð": {
     "def": "in: as",
     "grammar": "m.",
     "lemma": "wīde-ferhð"
+  },
+  "wideferhð": {
+    "def": "in: as",
+    "grammar": "m.",
+    "lemma": "wīde-ferhð"
+  },
+  "widfloga": {
+    "def": "far-FLIer",
+    "grammar": "wk.",
+    "lemma": "wīd-floga"
+  },
+  "widscofen": {
+    "def": "pushed far, far-reaching, great",
+    "grammar": "adj.",
+    "lemma": "wīd-scofen"
+  },
+  "widwegas": {
+    "def": "WIDE-stretched WAYS (Gummere 1909), distant or far-extending regions",
+    "grammar": "m.",
+    "lemma": "wīd-wegas"
   },
   "wif": {
     "def": "2120",
     "grammar": "n.",
     "lemma": "wīf"
   },
+  "wif lufu( lufe)": {
+    "def": "love for a woman (or WIFE)",
+    "grammar": "wk.",
+    "lemma": "wīf-lufu(-lufe)"
+  },
   "wif-lufu(-lufe)": {
     "def": "love for a woman (or WIFE)",
     "grammar": "wk.",
     "lemma": "wīf-lufu(-lufe)"
   },
+  "wiflufu(lufe)": {
+    "def": "love for a woman (or WIFE)",
+    "grammar": "wk.",
+    "lemma": "wīf-lufu(-lufe)"
+  },
   "wig": {
-    "def": "fight, warfare",
+    "def": "fight",
+    "grammar": "vb.  1",
+    "lemma": "wīgan"
+  },
+  "wig bealu": {
+    "def": "war-BALE, war",
+    "grammar": "nwa.",
+    "lemma": "wīġ-bealu"
+  },
+  "wig bil(l)": {
+    "def": "battle-sword",
     "grammar": "n.",
-    "lemma": "wīġ"
+    "lemma": "wīġ-bil(l)"
+  },
+  "wig bord": {
+    "def": "battle-shield",
+    "grammar": "n.",
+    "lemma": "wīġ-bord"
+  },
+  "wig cræft": {
+    "def": "prowess",
+    "grammar": "m.",
+    "lemma": "wīġ-cræft"
+  },
+  "wig cræftig": {
+    "def": "strong in battle",
+    "grammar": "adj.",
+    "lemma": "wīġ-cræftiġ"
+  },
+  "wig freca": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "wīġ-freca"
+  },
+  "wig fruma": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "wīġ-fruma"
+  },
+  "wig getawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "wīġ-ġetawa"
+  },
+  "wig geweorþad": {
+    "def": "distin-guished in battle",
+    "grammar": "adj.",
+    "lemma": "wīġ-ġeweorþad"
+  },
+  "wig gryre": {
+    "def": "war-horror, martial power",
+    "grammar": "mi.",
+    "lemma": "wīġ-gryre"
+  },
+  "wig heafola": {
+    "def": "war-head, i",
+    "grammar": "wk.",
+    "lemma": "wīġ-heafola"
+  },
+  "wig heap": {
+    "def": "band of warriors",
+    "grammar": "m.",
+    "lemma": "wīġ-hēap"
+  },
+  "wig hete": {
+    "def": "(war-HATE), war",
+    "grammar": "mi.",
+    "lemma": "wīġ-hete"
+  },
+  "wig hryre": {
+    "def": "fall in fight",
+    "grammar": "mi.",
+    "lemma": "wīġ-hryre"
+  },
+  "wig sigor": {
+    "def": "(war-) victory",
+    "grammar": "",
+    "lemma": "wīġ-sigor"
+  },
+  "wig sped": {
+    "def": "success in war, victory",
+    "grammar": "fi.",
+    "lemma": "wīġ-spēd"
+  },
+  "wig weorþung": {
+    "def": "honor to idols, sac-rifice",
+    "grammar": "f.",
+    "lemma": "wīġ-weorþung"
   },
   "wig-bealu": {
     "def": "war-BALE, war",
@@ -15467,22 +44297,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wīġ-cræft"
   },
+  "wig-cræfte": {
+    "def": "strong in battle",
+    "grammar": "adj.",
+    "lemma": "wīġ-cræftiġ"
+  },
   "wig-cræftig": {
     "def": "strong in battle",
     "grammar": "adj.",
     "lemma": "wīġ-cræftiġ"
+  },
+  "wig-frec": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "wīġ-freca"
   },
   "wig-freca": {
     "def": "warrior",
     "grammar": "wk.",
     "lemma": "wīġ-freca"
   },
+  "wig-frece": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "wīġ-freca"
+  },
+  "wig-frum": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "wīġ-fruma"
+  },
   "wig-fruma": {
     "def": "war-chief",
     "grammar": "wk.",
     "lemma": "wīġ-fruma"
   },
+  "wig-frume": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "wīġ-fruma"
+  },
+  "wig-getaw": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "wīġ-ġetawa"
+  },
   "wig-getawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "wīġ-ġetawa"
+  },
+  "wig-getawe": {
     "def": "war-equipment",
     "grammar": "fw",
     "lemma": "wīġ-ġetawa"
@@ -15492,12 +44357,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wīġ-ġeweorþad"
   },
+  "wig-gry": {
+    "def": "war-horror, martial power",
+    "grammar": "mi.",
+    "lemma": "wīġ-gryre"
+  },
+  "wig-gryr": {
+    "def": "war-horror, martial power",
+    "grammar": "mi.",
+    "lemma": "wīġ-gryre"
+  },
   "wig-gryre": {
     "def": "war-horror, martial power",
     "grammar": "mi.",
     "lemma": "wīġ-gryre"
   },
+  "wig-he": {
+    "def": "(war-HATE), war",
+    "grammar": "mi.",
+    "lemma": "wīġ-hete"
+  },
+  "wig-heafol": {
+    "def": "war-head, i",
+    "grammar": "wk.",
+    "lemma": "wīġ-heafola"
+  },
   "wig-heafola": {
+    "def": "war-head, i",
+    "grammar": "wk.",
+    "lemma": "wīġ-heafola"
+  },
+  "wig-heafole": {
     "def": "war-head, i",
     "grammar": "wk.",
     "lemma": "wīġ-heafola"
@@ -15507,10 +44397,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wīġ-hēap"
   },
+  "wig-het": {
+    "def": "(war-HATE), war",
+    "grammar": "mi.",
+    "lemma": "wīġ-hete"
+  },
   "wig-hete": {
     "def": "(war-HATE), war",
     "grammar": "mi.",
     "lemma": "wīġ-hete"
+  },
+  "wig-hry": {
+    "def": "fall in fight",
+    "grammar": "mi.",
+    "lemma": "wīġ-hryre"
+  },
+  "wig-hryr": {
+    "def": "fall in fight",
+    "grammar": "mi.",
+    "lemma": "wīġ-hryre"
   },
   "wig-hryre": {
     "def": "fall in fight",
@@ -15542,6 +44447,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  1",
     "lemma": "wīgan"
   },
+  "wigbealu": {
+    "def": "war-BALE, war",
+    "grammar": "nwa.",
+    "lemma": "wīġ-bealu"
+  },
+  "wigbil(l)": {
+    "def": "battle-sword",
+    "grammar": "n.",
+    "lemma": "wīġ-bil(l)"
+  },
+  "wigbord": {
+    "def": "battle-shield",
+    "grammar": "n.",
+    "lemma": "wīġ-bord"
+  },
+  "wigcræft": {
+    "def": "prowess",
+    "grammar": "m.",
+    "lemma": "wīġ-cræft"
+  },
+  "wigcræftig": {
+    "def": "strong in battle",
+    "grammar": "adj.",
+    "lemma": "wīġ-cræftiġ"
+  },
+  "wige": {
+    "def": "fight",
+    "grammar": "vb.  1",
+    "lemma": "wīgan"
+  },
   "wigend": {
     "def": "warrior",
     "grammar": "mc.",
@@ -15552,27 +44487,137 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wiġeð"
   },
+  "wigfreca": {
+    "def": "warrior",
+    "grammar": "wk.",
+    "lemma": "wīġ-freca"
+  },
+  "wigfruma": {
+    "def": "war-chief",
+    "grammar": "wk.",
+    "lemma": "wīġ-fruma"
+  },
+  "wigg": {
+    "def": "see wīġ",
+    "grammar": "",
+    "lemma": "wiġġe"
+  },
   "wigge": {
     "def": "see wīġ",
     "grammar": "",
     "lemma": "wiġġe"
+  },
+  "wiggetawa": {
+    "def": "war-equipment",
+    "grammar": "fw",
+    "lemma": "wīġ-ġetawa"
+  },
+  "wiggeweorþad": {
+    "def": "distin-guished in battle",
+    "grammar": "adj.",
+    "lemma": "wīġ-ġeweorþad"
+  },
+  "wiggryre": {
+    "def": "war-horror, martial power",
+    "grammar": "mi.",
+    "lemma": "wīġ-gryre"
+  },
+  "wigheafola": {
+    "def": "war-head, i",
+    "grammar": "wk.",
+    "lemma": "wīġ-heafola"
+  },
+  "wigheap": {
+    "def": "band of warriors",
+    "grammar": "m.",
+    "lemma": "wīġ-hēap"
+  },
+  "wighete": {
+    "def": "(war-HATE), war",
+    "grammar": "mi.",
+    "lemma": "wīġ-hete"
+  },
+  "wighryre": {
+    "def": "fall in fight",
+    "grammar": "mi.",
+    "lemma": "wīġ-hryre"
+  },
+  "wigsigor": {
+    "def": "(war-) victory",
+    "grammar": "",
+    "lemma": "wīġ-sigor"
+  },
+  "wigsped": {
+    "def": "success in war, victory",
+    "grammar": "fi.",
+    "lemma": "wīġ-spēd"
+  },
+  "wigte": {
+    "def": "see wītiġ",
+    "grammar": "",
+    "lemma": "wiġtiġ"
   },
   "wigtig": {
     "def": "see wītiġ",
     "grammar": "",
     "lemma": "wiġtiġ"
   },
+  "wigweorþung": {
+    "def": "honor to idols, sac-rifice",
+    "grammar": "f.",
+    "lemma": "wīġ-weorþung"
+  },
   "wiht": {
     "def": "creature, being",
     "grammar": "fni.",
     "lemma": "wiht"
+  },
+  "wil cuma": {
+    "def": "388, 394, 1894",
+    "grammar": "wk.",
+    "lemma": "wil-cuma"
+  },
+  "wil geofa": {
+    "def": "joy-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "wil-ġeofa"
+  },
+  "wil gesiþ": {
+    "def": "close companion",
+    "grammar": "m.",
+    "lemma": "wil-ġesīþ"
+  },
+  "wil sið": {
+    "def": "wished-for journey",
+    "grammar": "m.",
+    "lemma": "wil-sīð"
+  },
+  "wil-cum": {
+    "def": "388, 394, 1894",
+    "grammar": "wk.",
+    "lemma": "wil-cuma"
   },
   "wil-cuma": {
     "def": "388, 394, 1894",
     "grammar": "wk.",
     "lemma": "wil-cuma"
   },
+  "wil-cume": {
+    "def": "388, 394, 1894",
+    "grammar": "wk.",
+    "lemma": "wil-cuma"
+  },
+  "wil-geof": {
+    "def": "joy-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "wil-ġeofa"
+  },
   "wil-geofa": {
+    "def": "joy-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "wil-ġeofa"
+  },
+  "wil-geofe": {
     "def": "joy-GIVer, lord",
     "grammar": "wk.",
     "lemma": "wil-ġeofa"
@@ -15587,10 +44632,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wil-sīð"
   },
+  "wilcuma": {
+    "def": "388, 394, 1894",
+    "grammar": "wk.",
+    "lemma": "wil-cuma"
+  },
+  "wildeor[wild deor]": {
+    "def": "WILD animal",
+    "grammar": "n.",
+    "lemma": "wildēor[wild-dēor]"
+  },
   "wildeor[wild-deor]": {
     "def": "WILD animal",
     "grammar": "n.",
     "lemma": "wildēor[wild-dēor]"
+  },
+  "wildeor[wilddeor]": {
+    "def": "WILD animal",
+    "grammar": "n.",
+    "lemma": "wildēor[wild-dēor]"
+  },
+  "wilgeofa": {
+    "def": "joy-GIVer, lord",
+    "grammar": "wk.",
+    "lemma": "wil-ġeofa"
+  },
+  "wilgesiþ": {
+    "def": "close companion",
+    "grammar": "m.",
+    "lemma": "wil-ġesīþ"
+  },
+  "will": {
+    "def": "wish, desire",
+    "grammar": "wk.",
+    "lemma": "willa"
   },
   "willa": {
     "def": "wish, desire",
@@ -15602,15 +44677,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "willan"
   },
+  "wille": {
+    "def": "wish, desire",
+    "grammar": "wk.",
+    "lemma": "willa"
+  },
+  "wilni": {
+    "def": "ask for (gen",
+    "grammar": "vb. II",
+    "lemma": "wilnian"
+  },
   "wilnian": {
     "def": "ask for (gen",
     "grammar": "vb. II",
     "lemma": "wilnian"
   },
+  "wilnie": {
+    "def": "ask for (gen",
+    "grammar": "vb. II",
+    "lemma": "wilnian"
+  },
+  "wilsið": {
+    "def": "wished-for journey",
+    "grammar": "m.",
+    "lemma": "wil-sīð"
+  },
   "win": {
     "def": "1467",
     "grammar": "n.",
     "lemma": "wīn"
+  },
+  "win dæg": {
+    "def": "DAY of struggle or hardship",
+    "grammar": "m.",
+    "lemma": "win-dæġ"
+  },
+  "win reced": {
+    "def": "WINE-hall",
+    "grammar": "n.",
+    "lemma": "wīn-reċed"
+  },
+  "win sele": {
+    "def": "WINE-hall",
+    "grammar": "mi.",
+    "lemma": "wīn-sele"
+  },
+  "win ærn": {
+    "def": "WINE-hall",
+    "grammar": "n.",
+    "lemma": "wīn-ærn"
   },
   "win-dæg": {
     "def": "DAY of struggle or hardship",
@@ -15621,6 +44736,11 @@ const OLD_ENGLISH_DICT = {
     "def": "WINE-hall",
     "grammar": "n.",
     "lemma": "wīn-reċed"
+  },
+  "win-sel": {
+    "def": "WINE-hall",
+    "grammar": "mi.",
+    "lemma": "wīn-sele"
   },
   "win-sele": {
     "def": "WINE-hall",
@@ -15637,6 +44757,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wind"
   },
+  "wind blond": {
+    "def": "agitation of WINDs",
+    "grammar": "n.",
+    "lemma": "wind-blond"
+  },
+  "wind geard": {
+    "def": "home of the WINDs",
+    "grammar": "m.",
+    "lemma": "wind-ġeard"
+  },
   "wind-blond": {
     "def": "agitation of WINDs",
     "grammar": "n.",
@@ -15652,15 +44782,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "windan"
   },
+  "windblond": {
+    "def": "agitation of WINDs",
+    "grammar": "n.",
+    "lemma": "wind-blond"
+  },
+  "winde": {
+    "def": "2456",
+    "grammar": "adj.",
+    "lemma": "windiġ"
+  },
+  "windgeard": {
+    "def": "home of the WINDs",
+    "grammar": "m.",
+    "lemma": "wind-ġeard"
+  },
   "windig": {
     "def": "2456",
     "grammar": "adj.",
     "lemma": "windiġ"
   },
+  "windæg": {
+    "def": "DAY of struggle or hardship",
+    "grammar": "m.",
+    "lemma": "win-dæġ"
+  },
   "wine": {
     "def": "friend, ( ̄friendly) lord",
     "grammar": "mi.",
     "lemma": "wine"
+  },
+  "wine drihten": {
+    "def": "( ̄friendly) lord",
+    "grammar": "m.",
+    "lemma": "wine-drihten"
+  },
+  "wine geomor": {
+    "def": "mourning one’s friends",
+    "grammar": "adj.",
+    "lemma": "wine-ġeōmor"
+  },
+  "wine leas": {
+    "def": "friendLESS (ref",
+    "grammar": "adj.",
+    "lemma": "wine-lēas"
+  },
+  "wine mæg": {
+    "def": "friend and kinsman, retainer",
+    "grammar": "m.",
+    "lemma": "wine-mǣġ"
+  },
+  "wine-driht": {
+    "def": "( ̄friendly) lord",
+    "grammar": "m.",
+    "lemma": "wine-drihten"
+  },
+  "wine-drihte": {
+    "def": "( ̄friendly) lord",
+    "grammar": "m.",
+    "lemma": "wine-drihten"
   },
   "wine-drihten": {
     "def": "( ̄friendly) lord",
@@ -15672,7 +44852,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wine-ġeōmor"
   },
+  "wine-le": {
+    "def": "friendLESS (ref",
+    "grammar": "adj.",
+    "lemma": "wine-lēas"
+  },
   "wine-leas": {
+    "def": "friendLESS (ref",
+    "grammar": "adj.",
+    "lemma": "wine-lēas"
+  },
+  "wine-lee": {
     "def": "friendLESS (ref",
     "grammar": "adj.",
     "lemma": "wine-lēas"
@@ -15682,20 +44872,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wine-mǣġ"
   },
+  "winedrihten": {
+    "def": "( ̄friendly) lord",
+    "grammar": "m.",
+    "lemma": "wine-drihten"
+  },
+  "winegeomor": {
+    "def": "mourning one’s friends",
+    "grammar": "adj.",
+    "lemma": "wine-ġeōmor"
+  },
+  "wineleas": {
+    "def": "friendLESS (ref",
+    "grammar": "adj.",
+    "lemma": "wine-lēas"
+  },
+  "winemæg": {
+    "def": "friend and kinsman, retainer",
+    "grammar": "m.",
+    "lemma": "wine-mǣġ"
+  },
+  "wini": {
+    "def": "winiġea, see wine",
+    "grammar": "wini",
+    "lemma": "winia"
+  },
   "winia": {
     "def": "winiġea, see wine",
     "grammar": "wini",
     "lemma": "winia"
+  },
+  "winie": {
+    "def": "winiġea, see wine",
+    "grammar": "wini",
+    "lemma": "winia"
+  },
+  "winn": {
+    "def": "fight",
+    "grammar": "vb. 3",
+    "lemma": "winnan"
   },
   "winnan": {
     "def": "fight",
     "grammar": "vb. 3",
     "lemma": "winnan"
   },
+  "winne": {
+    "def": "fight",
+    "grammar": "vb. 3",
+    "lemma": "winnan"
+  },
+  "winreced": {
+    "def": "WINE-hall",
+    "grammar": "n.",
+    "lemma": "wīn-reċed"
+  },
+  "winsele": {
+    "def": "WINE-hall",
+    "grammar": "mi.",
+    "lemma": "wīn-sele"
+  },
   "winter": {
     "def": "1136",
     "grammar": "m.",
     "lemma": "winter"
+  },
+  "winærn": {
+    "def": "WINE-hall",
+    "grammar": "n.",
+    "lemma": "wīn-ærn"
   },
   "wir": {
     "def": "(gold or silver) WIRE, metal band, ornament",
@@ -15703,9 +44948,24 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīr"
   },
   "wis": {
-    "def": "3094 (sound in mind, see note)",
+    "def": "leader",
+    "grammar": "wk.",
+    "lemma": "wīsa"
+  },
+  "wis dom": {
+    "def": "1959",
+    "grammar": "m.",
+    "lemma": "wīs-dōm"
+  },
+  "wis fæst": {
+    "def": "WISE",
     "grammar": "adj.",
-    "lemma": "wīs"
+    "lemma": "wīs-fæst"
+  },
+  "wis hycgende": {
+    "def": "WISE in thought",
+    "grammar": "adj.",
+    "lemma": "wīs-hycgende"
   },
   "wis-dom": {
     "def": "1959",
@@ -15716,6 +44976,16 @@ const OLD_ENGLISH_DICT = {
     "def": "WISE",
     "grammar": "adj.",
     "lemma": "wīs-fæst"
+  },
+  "wis-hycgen": {
+    "def": "WISE in thought",
+    "grammar": "adj.",
+    "lemma": "wīs-hycgende"
+  },
+  "wis-hycgend": {
+    "def": "WISE in thought",
+    "grammar": "adj.",
+    "lemma": "wīs-hycgende"
   },
   "wis-hycgende": {
     "def": "WISE in thought",
@@ -15732,15 +45002,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "wīscan(wӯscan)"
   },
+  "wisdom": {
+    "def": "1959",
+    "grammar": "m.",
+    "lemma": "wīs-dōm"
+  },
   "wise": {
-    "def": "way, manner",
+    "def": "leader",
     "grammar": "wk.",
-    "lemma": "wīse"
+    "lemma": "wīsa"
+  },
+  "wisfæst": {
+    "def": "WISE",
+    "grammar": "adj.",
+    "lemma": "wīs-fæst"
+  },
+  "wishycgende": {
+    "def": "WISE in thought",
+    "grammar": "adj.",
+    "lemma": "wīs-hycgende"
+  },
+  "wisi": {
+    "def": "guide, direct, lead",
+    "grammar": "vb.  II",
+    "lemma": "wīsian"
   },
   "wisian": {
     "def": "guide, direct, lead",
     "grammar": "vb.  II",
     "lemma": "wīsian"
+  },
+  "wisie": {
+    "def": "guide, direct, lead",
+    "grammar": "vb.  II",
+    "lemma": "wīsian"
+  },
+  "wiss": {
+    "def": "-on, see witan",
+    "grammar": "",
+    "lemma": "wisse"
   },
   "wisse": {
     "def": "-on, see witan",
@@ -15748,9 +45048,14 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wisse"
   },
   "wist": {
-    "def": "feast(ing), abun-dance, prosperity",
-    "grammar": "fi.",
-    "lemma": "wist"
+    "def": "see wīscan",
+    "grammar": "",
+    "lemma": "wīston"
+  },
+  "wist fyllo": {
+    "def": "FILL of feasting, plenti-ful meal",
+    "grammar": "f",
+    "lemma": "wist-fyllo"
   },
   "wist-fyllo": {
     "def": "FILL of feasting, plenti-ful meal",
@@ -15758,9 +45063,14 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wist-fyllo"
   },
   "wiste": {
-    "def": "-on, see witan",
+    "def": "see wīscan",
     "grammar": "",
-    "lemma": "wiste"
+    "lemma": "wīston"
+  },
+  "wistfyllo": {
+    "def": "FILL of feasting, plenti-ful meal",
+    "grammar": "f",
+    "lemma": "wist-fyllo"
   },
   "wiston": {
     "def": "see wīscan",
@@ -15787,12 +45097,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prp.",
     "lemma": "witan"
   },
+  "wite": {
+    "def": "wise",
+    "grammar": "adj.",
+    "lemma": "wītiġ"
+  },
   "witig": {
     "def": "wise",
     "grammar": "adj.",
     "lemma": "wītiġ"
   },
+  "witni": {
+    "def": "torment",
+    "grammar": "vb.  II",
+    "lemma": "wītnian"
+  },
   "witnian": {
+    "def": "torment",
+    "grammar": "vb.  II",
+    "lemma": "wītnian"
+  },
+  "witnie": {
     "def": "torment",
     "grammar": "vb.  II",
     "lemma": "wītnian"
@@ -15803,29 +45128,114 @@ const OLD_ENGLISH_DICT = {
     "lemma": "witod"
   },
   "wið": {
-    "def": "opposite, near, toward",
-    "grammar": "prep.",
-    "lemma": "wið"
+    "def": "resistance",
+    "grammar": "nja.",
+    "lemma": "wiðre"
+  },
+  "wið fon": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "wið-fōn"
+  },
+  "wið gripan": {
+    "def": "grapple WITH",
+    "grammar": "vb.  1",
+    "lemma": "wið-grīpan"
+  },
+  "wið habban": {
+    "def": "hold out against, WITHstand",
+    "grammar": "vb. III",
+    "lemma": "wið-habban"
+  },
+  "wið-f": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "wið-fōn"
+  },
+  "wið-fe": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "wið-fōn"
   },
   "wið-fon": {
     "def": "w",
     "grammar": "vb. 7",
     "lemma": "wið-fōn"
   },
+  "wið-grip": {
+    "def": "grapple WITH",
+    "grammar": "vb.  1",
+    "lemma": "wið-grīpan"
+  },
   "wið-gripan": {
     "def": "grapple WITH",
     "grammar": "vb.  1",
     "lemma": "wið-grīpan"
+  },
+  "wið-gripe": {
+    "def": "grapple WITH",
+    "grammar": "vb.  1",
+    "lemma": "wið-grīpan"
+  },
+  "wið-habb": {
+    "def": "hold out against, WITHstand",
+    "grammar": "vb. III",
+    "lemma": "wið-habban"
   },
   "wið-habban": {
     "def": "hold out against, WITHstand",
     "grammar": "vb. III",
     "lemma": "wið-habban"
   },
+  "wið-habbe": {
+    "def": "hold out against, WITHstand",
+    "grammar": "vb. III",
+    "lemma": "wið-habban"
+  },
+  "wiðer ræhtes": {
+    "def": "opposite",
+    "grammar": "adv.",
+    "lemma": "wiðer-ræhtes"
+  },
+  "wiðer-ræht": {
+    "def": "opposite",
+    "grammar": "adv.",
+    "lemma": "wiðer-ræhtes"
+  },
+  "wiðer-ræhte": {
+    "def": "opposite",
+    "grammar": "adv.",
+    "lemma": "wiðer-ræhtes"
+  },
   "wiðer-ræhtes": {
     "def": "opposite",
     "grammar": "adv.",
     "lemma": "wiðer-ræhtes"
+  },
+  "wiðerræhtes": {
+    "def": "opposite",
+    "grammar": "adv.",
+    "lemma": "wiðer-ræhtes"
+  },
+  "wiðfon": {
+    "def": "w",
+    "grammar": "vb. 7",
+    "lemma": "wið-fōn"
+  },
+  "wiðgripan": {
+    "def": "grapple WITH",
+    "grammar": "vb.  1",
+    "lemma": "wið-grīpan"
+  },
+  "wiðhabban": {
+    "def": "hold out against, WITHstand",
+    "grammar": "vb. III",
+    "lemma": "wið-habban"
+  },
+  "wiðr": {
+    "def": "resistance",
+    "grammar": "nja.",
+    "lemma": "wiðre"
   },
   "wiðre": {
     "def": "resistance",
@@ -15837,7 +45247,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wlanc"
   },
+  "wlati": {
+    "def": "gaze, look out for (w",
+    "grammar": "vb. II",
+    "lemma": "wlātian"
+  },
   "wlatian": {
+    "def": "gaze, look out for (w",
+    "grammar": "vb. II",
+    "lemma": "wlātian"
+  },
+  "wlatie": {
     "def": "gaze, look out for (w",
     "grammar": "vb. II",
     "lemma": "wlātian"
@@ -15847,22 +45267,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "wlenċo"
   },
+  "wli": {
+    "def": "appearance, beauty",
+    "grammar": "mi.",
+    "lemma": "wlite"
+  },
+  "wlit": {
+    "def": "look, gaze",
+    "grammar": "vb. 1",
+    "lemma": "wlītan"
+  },
   "wlitan": {
     "def": "look, gaze",
     "grammar": "vb. 1",
     "lemma": "wlītan"
   },
   "wlite": {
-    "def": "appearance, beauty",
-    "grammar": "mi.",
-    "lemma": "wlite"
+    "def": "1662",
+    "grammar": "adj.",
+    "lemma": "wlitiġ"
+  },
+  "wlite beorht": {
+    "def": "beautiful",
+    "grammar": "adj.",
+    "lemma": "wlite-beorht"
+  },
+  "wlite seon": {
+    "def": "sight, spectacle",
+    "grammar": "fi.",
+    "lemma": "wlite-sēon"
   },
   "wlite-beorht": {
     "def": "beautiful",
     "grammar": "adj.",
     "lemma": "wlite-beorht"
   },
+  "wlite-se": {
+    "def": "sight, spectacle",
+    "grammar": "fi.",
+    "lemma": "wlite-sēon"
+  },
+  "wlite-see": {
+    "def": "sight, spectacle",
+    "grammar": "fi.",
+    "lemma": "wlite-sēon"
+  },
   "wlite-seon": {
+    "def": "sight, spectacle",
+    "grammar": "fi.",
+    "lemma": "wlite-sēon"
+  },
+  "wlitebeorht": {
+    "def": "beautiful",
+    "grammar": "adj.",
+    "lemma": "wlite-beorht"
+  },
+  "wliteseon": {
     "def": "sight, spectacle",
     "grammar": "fi.",
     "lemma": "wlite-sēon"
@@ -15887,22 +45347,72 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wōh"
   },
+  "woh bogen": {
+    "def": "bent, coiled",
+    "grammar": "adj.",
+    "lemma": "wōh-bogen"
+  },
+  "woh-bog": {
+    "def": "bent, coiled",
+    "grammar": "adj.",
+    "lemma": "wōh-bogen"
+  },
+  "woh-boge": {
+    "def": "bent, coiled",
+    "grammar": "adj.",
+    "lemma": "wōh-bogen"
+  },
   "woh-bogen": {
     "def": "bent, coiled",
     "grammar": "adj.",
     "lemma": "wōh-bogen"
+  },
+  "wohbogen": {
+    "def": "bent, coiled",
+    "grammar": "adj.",
+    "lemma": "wōh-bogen"
+  },
+  "wol": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "wolde"
+  },
+  "wolc": {
+    "def": "sky, WELKIN",
+    "grammar": "n.",
+    "lemma": "wolcen"
+  },
+  "wolce": {
+    "def": "sky, WELKIN",
+    "grammar": "n.",
+    "lemma": "wolcen"
   },
   "wolcen": {
     "def": "sky, WELKIN",
     "grammar": "n.",
     "lemma": "wolcen"
   },
+  "wold": {
+    "def": "see willan",
+    "grammar": "",
+    "lemma": "wolde"
+  },
   "wolde": {
     "def": "see willan",
     "grammar": "",
     "lemma": "wolde"
   },
+  "wollen tear": {
+    "def": "with gushing TEARs",
+    "grammar": "adj.",
+    "lemma": "wollen-tēar"
+  },
   "wollen-tear": {
+    "def": "with gushing TEARs",
+    "grammar": "adj.",
+    "lemma": "wollen-tēar"
+  },
+  "wollentear": {
     "def": "with gushing TEARs",
     "grammar": "adj.",
     "lemma": "wollen-tēar"
@@ -15921,6 +45431,21 @@ const OLD_ENGLISH_DICT = {
     "def": "pret",
     "grammar": "pret.",
     "lemma": "won"
+  },
+  "won hуd( hygd)": {
+    "def": "recklessness",
+    "grammar": "fni.",
+    "lemma": "won-hӯd(-hyġd)"
+  },
+  "won sceaft": {
+    "def": "misery",
+    "grammar": "fi.",
+    "lemma": "won-sceaft"
+  },
+  "won sæli( sælig)": {
+    "def": "unfortunate, unlucky",
+    "grammar": "adj.",
+    "lemma": "won-sǣlī(-sǣliġ)"
   },
   "won(n)": {
     "def": "black",
@@ -15947,10 +45472,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wong"
   },
+  "wong stede": {
+    "def": "place",
+    "grammar": "mi.",
+    "lemma": "wong-stede"
+  },
+  "wong-ste": {
+    "def": "place",
+    "grammar": "mi.",
+    "lemma": "wong-stede"
+  },
+  "wong-sted": {
+    "def": "place",
+    "grammar": "mi.",
+    "lemma": "wong-stede"
+  },
   "wong-stede": {
     "def": "place",
     "grammar": "mi.",
     "lemma": "wong-stede"
+  },
+  "wongstede": {
+    "def": "place",
+    "grammar": "mi.",
+    "lemma": "wong-stede"
+  },
+  "wonhуd(hygd)": {
+    "def": "recklessness",
+    "grammar": "fni.",
+    "lemma": "won-hӯd(-hyġd)"
+  },
+  "wonsceaft": {
+    "def": "misery",
+    "grammar": "fi.",
+    "lemma": "won-sceaft"
+  },
+  "wonsæli(sælig)": {
+    "def": "unfortunate, unlucky",
+    "grammar": "adj.",
+    "lemma": "won-sǣlī(-sǣliġ)"
   },
   "wop": {
     "def": "lamentation",
@@ -15966,6 +45526,36 @@ const OLD_ENGLISH_DICT = {
     "def": "utterance, speech",
     "grammar": "n.",
     "lemma": "word"
+  },
+  "word cwide": {
+    "def": "WORDs, speech",
+    "grammar": "mi.",
+    "lemma": "word-cwide"
+  },
+  "word gyd(d)": {
+    "def": "song, account, eulogy",
+    "grammar": "nja.",
+    "lemma": "word-ġyd(d)"
+  },
+  "word hord": {
+    "def": "WORD-HOARD, store of words",
+    "grammar": "n.",
+    "lemma": "word-hord"
+  },
+  "word riht": {
+    "def": "(WORD-RIGHT), instruc-tion, command",
+    "grammar": "n.",
+    "lemma": "word-riht"
+  },
+  "word-cwi": {
+    "def": "WORDs, speech",
+    "grammar": "mi.",
+    "lemma": "word-cwide"
+  },
+  "word-cwid": {
+    "def": "WORDs, speech",
+    "grammar": "mi.",
+    "lemma": "word-cwide"
   },
   "word-cwide": {
     "def": "WORDs, speech",
@@ -15987,6 +45577,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "word-riht"
   },
+  "wordcwide": {
+    "def": "WORDs, speech",
+    "grammar": "mi.",
+    "lemma": "word-cwide"
+  },
+  "wordgyd(d)": {
+    "def": "song, account, eulogy",
+    "grammar": "nja.",
+    "lemma": "word-ġyd(d)"
+  },
+  "wordhord": {
+    "def": "WORD-HOARD, store of words",
+    "grammar": "n.",
+    "lemma": "word-hord"
+  },
+  "wordriht": {
+    "def": "(WORD-RIGHT), instruc-tion, command",
+    "grammar": "n.",
+    "lemma": "word-riht"
+  },
+  "worh": {
+    "def": "see wyrċan",
+    "grammar": "",
+    "lemma": "worhte"
+  },
+  "worht": {
+    "def": "see wyrċan",
+    "grammar": "",
+    "lemma": "worhte"
+  },
   "worhte": {
     "def": "see wyrċan",
     "grammar": "",
@@ -16001,6 +45621,21 @@ const OLD_ENGLISH_DICT = {
     "def": "1738 (‘everything’)",
     "grammar": "f.",
     "lemma": "worold"
+  },
+  "worold ar": {
+    "def": "WORLDly honor (Kl",
+    "grammar": "f.",
+    "lemma": "worold-ār"
+  },
+  "worold cyning": {
+    "def": "(earthly) KING",
+    "grammar": "m.",
+    "lemma": "worold-cyning"
+  },
+  "worold ræden(n)": {
+    "def": "WORLDly rule, leadership (?)",
+    "grammar": "f.",
+    "lemma": "worold-rǣden(n)"
   },
   "worold-ar": {
     "def": "WORLDly honor (Kl",
@@ -16017,25 +45652,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "worold-rǣden(n)"
   },
+  "woroldar": {
+    "def": "WORLDly honor (Kl",
+    "grammar": "f.",
+    "lemma": "worold-ār"
+  },
+  "woroldcyning": {
+    "def": "(earthly) KING",
+    "grammar": "m.",
+    "lemma": "worold-cyning"
+  },
+  "woroldræden(n)": {
+    "def": "WORLDly rule, leadership (?)",
+    "grammar": "f.",
+    "lemma": "worold-rǣden(n)"
+  },
+  "woruld candel": {
+    "def": "WORLD-CANDLE (sun)",
+    "grammar": "f.",
+    "lemma": "woruld-candel"
+  },
+  "woruld ende": {
+    "def": "END of the WORLD",
+    "grammar": "mja.",
+    "lemma": "woruld-ende"
+  },
   "woruld-candel": {
     "def": "WORLD-CANDLE (sun)",
     "grammar": "f.",
     "lemma": "woruld-candel"
+  },
+  "woruld-en": {
+    "def": "END of the WORLD",
+    "grammar": "mja.",
+    "lemma": "woruld-ende"
+  },
+  "woruld-end": {
+    "def": "END of the WORLD",
+    "grammar": "mja.",
+    "lemma": "woruld-ende"
   },
   "woruld-ende": {
     "def": "END of the WORLD",
     "grammar": "mja.",
     "lemma": "woruld-ende"
   },
+  "woruldcandel": {
+    "def": "WORLD-CANDLE (sun)",
+    "grammar": "f.",
+    "lemma": "woruld-candel"
+  },
+  "woruldende": {
+    "def": "END of the WORLD",
+    "grammar": "mja.",
+    "lemma": "woruld-ende"
+  },
+  "worð mynd": {
+    "def": "see weorð-mynd",
+    "grammar": "",
+    "lemma": "worð-mynd"
+  },
   "worð-mynd": {
     "def": "see weorð-mynd",
     "grammar": "",
     "lemma": "worð-mynd"
   },
+  "worðe": {
+    "def": "pre-cinct(s)",
+    "grammar": "m.",
+    "lemma": "worðiġ"
+  },
   "worðig": {
     "def": "pre-cinct(s)",
     "grammar": "m.",
     "lemma": "worðiġ"
+  },
+  "worðmynd": {
+    "def": "see weorð-mynd",
+    "grammar": "",
+    "lemma": "worð-mynd"
   },
   "wracu": {
     "def": "punishment",
@@ -16047,6 +45742,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wrāð"
   },
+  "wrað lice": {
+    "def": "cruelly, severely",
+    "grammar": "adv.",
+    "lemma": "wrāð-līċe"
+  },
+  "wrað-lic": {
+    "def": "cruelly, severely",
+    "grammar": "adv.",
+    "lemma": "wrāð-līċe"
+  },
   "wrað-lice": {
     "def": "cruelly, severely",
     "grammar": "adv.",
@@ -16057,32 +45762,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "wrāðe"
   },
+  "wraðlice": {
+    "def": "cruelly, severely",
+    "grammar": "adv.",
+    "lemma": "wrāð-līċe"
+  },
+  "wrec": {
+    "def": "force",
+    "grammar": "vb. 5",
+    "lemma": "wrecan"
+  },
   "wrecan": {
     "def": "force",
     "grammar": "vb. 5",
     "lemma": "wrecan"
+  },
+  "wrecc": {
+    "def": "adventurer, hero",
+    "grammar": "wk.",
+    "lemma": "wreċċa"
   },
   "wrecca": {
     "def": "adventurer, hero",
     "grammar": "wk.",
     "lemma": "wreċċa"
   },
+  "wrecce": {
+    "def": "adventurer, hero",
+    "grammar": "wk.",
+    "lemma": "wreċċa"
+  },
+  "wrece": {
+    "def": "force",
+    "grammar": "vb. 5",
+    "lemma": "wrecan"
+  },
   "wrecend": {
     "def": "mc",
     "grammar": "mc.",
     "lemma": "wrecend"
+  },
+  "wreoþen hilt": {
+    "def": "HILT wrapped with a grip or with twisted ornamentation",
+    "grammar": "adj.",
+    "lemma": "wreoþen-hilt"
   },
   "wreoþen-hilt": {
     "def": "HILT wrapped with a grip or with twisted ornamentation",
     "grammar": "adj.",
     "lemma": "wreoþen-hilt"
   },
+  "wreoþenhilt": {
+    "def": "HILT wrapped with a grip or with twisted ornamentation",
+    "grammar": "adj.",
+    "lemma": "wreoþen-hilt"
+  },
+  "wridi": {
+    "def": "flourish",
+    "grammar": "vb. II",
+    "lemma": "wrīdian"
+  },
   "wridian": {
     "def": "flourish",
     "grammar": "vb. II",
     "lemma": "wrīdian"
   },
+  "wridie": {
+    "def": "flourish",
+    "grammar": "vb. II",
+    "lemma": "wrīdian"
+  },
+  "writ": {
+    "def": "engrave (WRITE)",
+    "grammar": "vb. 1",
+    "lemma": "wrītan"
+  },
   "writan": {
+    "def": "engrave (WRITE)",
+    "grammar": "vb. 1",
+    "lemma": "wrītan"
+  },
+  "write": {
     "def": "engrave (WRITE)",
     "grammar": "vb. 1",
     "lemma": "wrītan"
@@ -16097,7 +45857,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "wrixlan"
   },
+  "wrixle": {
+    "def": "change, vary, ex-change",
+    "grammar": "vb. I",
+    "lemma": "wrixlan"
+  },
+  "wriþ": {
+    "def": "bind, tie",
+    "grammar": "vb. 1",
+    "lemma": "wrīþan"
+  },
   "wriþan": {
+    "def": "bind, tie",
+    "grammar": "vb. 1",
+    "lemma": "wrīþan"
+  },
+  "wriþe": {
     "def": "bind, tie",
     "grammar": "vb. 1",
     "lemma": "wrīþan"
@@ -16108,9 +45883,24 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrōht"
   },
   "wræc": {
-    "def": "SB § ̄276 n",
-    "grammar": "n.",
-    "lemma": "wræc"
+    "def": "see wracu",
+    "grammar": "",
+    "lemma": "wræce"
+  },
+  "wræc last": {
+    "def": "1352",
+    "grammar": "m.",
+    "lemma": "wræc-lāst"
+  },
+  "wræc mæcg": {
+    "def": "banished man, outcast",
+    "grammar": "mja.",
+    "lemma": "wræc-mæcġ"
+  },
+  "wræc sið": {
+    "def": "misery",
+    "grammar": "m.",
+    "lemma": "wræc-sīð"
   },
   "wræc-last": {
     "def": "1352",
@@ -16127,7 +45917,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wræc-sīð"
   },
+  "wræcc": {
+    "def": "see wreċċa",
+    "grammar": "",
+    "lemma": "wræċċa"
+  },
   "wræcca": {
+    "def": "see wreċċa",
+    "grammar": "",
+    "lemma": "wræċċa"
+  },
+  "wræcce": {
     "def": "see wreċċa",
     "grammar": "",
     "lemma": "wræċċa"
@@ -16136,6 +45936,26 @@ const OLD_ENGLISH_DICT = {
     "def": "see wracu",
     "grammar": "",
     "lemma": "wræce"
+  },
+  "wræclast": {
+    "def": "1352",
+    "grammar": "m.",
+    "lemma": "wræc-lāst"
+  },
+  "wræcmæcg": {
+    "def": "banished man, outcast",
+    "grammar": "mja.",
+    "lemma": "wræc-mæcġ"
+  },
+  "wræcsið": {
+    "def": "misery",
+    "grammar": "m.",
+    "lemma": "wræc-sīð"
+  },
+  "wræt lic": {
+    "def": "ornamental, splendid, wonder-inspiring",
+    "grammar": "adj.",
+    "lemma": "wrǣt-liċ"
   },
   "wræt(t)": {
     "def": "ornament, work of art",
@@ -16147,12 +45967,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wrǣt-liċ"
   },
+  "wrætlic": {
+    "def": "ornamental, splendid, wonder-inspiring",
+    "grammar": "adj.",
+    "lemma": "wrǣt-liċ"
+  },
   "wudu": {
     "def": "1364",
     "grammar": "mu.",
     "lemma": "wudu"
   },
+  "wudu rec": {
+    "def": "WOOD-smoke",
+    "grammar": "mi.",
+    "lemma": "wudu-rēċ"
+  },
   "wudu-rec": {
+    "def": "WOOD-smoke",
+    "grammar": "mi.",
+    "lemma": "wudu-rēċ"
+  },
+  "wudurec": {
     "def": "WOOD-smoke",
     "grammar": "mi.",
     "lemma": "wudu-rēċ"
@@ -16162,12 +45997,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wuldor"
   },
+  "wuldor torht": {
+    "def": "gloriously bright",
+    "grammar": "adj.",
+    "lemma": "wuldor-torht"
+  },
   "wuldor-torht": {
     "def": "gloriously bright",
     "grammar": "adj.",
     "lemma": "wuldor-torht"
   },
+  "wuldortorht": {
+    "def": "gloriously bright",
+    "grammar": "adj.",
+    "lemma": "wuldor-torht"
+  },
+  "wuldur cyning": {
+    "def": "KING of glory (God)",
+    "grammar": "m.",
+    "lemma": "wuldur-cyning"
+  },
   "wuldur-cyning": {
+    "def": "KING of glory (God)",
+    "grammar": "m.",
+    "lemma": "wuldur-cyning"
+  },
+  "wuldurcyning": {
     "def": "KING of glory (God)",
     "grammar": "m.",
     "lemma": "wuldur-cyning"
@@ -16177,7 +46032,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wulf"
   },
+  "wulf hliþ": {
+    "def": "WOLF-slope, retreat of wolves",
+    "grammar": "n.",
+    "lemma": "wulf-hliþ"
+  },
   "wulf-hliþ": {
+    "def": "WOLF-slope, retreat of wolves",
+    "grammar": "n.",
+    "lemma": "wulf-hliþ"
+  },
+  "wulfhliþ": {
     "def": "WOLF-slope, retreat of wolves",
     "grammar": "n.",
     "lemma": "wulf-hliþ"
@@ -16186,6 +46051,26 @@ const OLD_ENGLISH_DICT = {
     "def": "[F",
     "grammar": "adj.",
     "lemma": "wund"
+  },
+  "wunden feax": {
+    "def": "with (WOUND) braided hair, or with curly mane",
+    "grammar": "adj.",
+    "lemma": "wunden-feax"
+  },
+  "wunden hals": {
+    "def": "with (WOUND) curved (neck, i",
+    "grammar": "adj.",
+    "lemma": "wunden-hals"
+  },
+  "wunden mæl": {
+    "def": "sword with (WOUND) curved markings (ornaments)",
+    "grammar": "n.",
+    "lemma": "wunden-mǣl"
+  },
+  "wunden stefna": {
+    "def": "ship with (WOUND) curved (STEM) prow",
+    "grammar": "wk.",
+    "lemma": "wunden-stefna"
   },
   "wunden-feax": {
     "def": "with (WOUND) braided hair, or with curly mane",
@@ -16202,12 +46087,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wunden-mǣl"
   },
+  "wunden-stefn": {
+    "def": "ship with (WOUND) curved (STEM) prow",
+    "grammar": "wk.",
+    "lemma": "wunden-stefna"
+  },
   "wunden-stefna": {
     "def": "ship with (WOUND) curved (STEM) prow",
     "grammar": "wk.",
     "lemma": "wunden-stefna"
   },
+  "wunden-stefne": {
+    "def": "ship with (WOUND) curved (STEM) prow",
+    "grammar": "wk.",
+    "lemma": "wunden-stefna"
+  },
+  "wundenfeax": {
+    "def": "with (WOUND) braided hair, or with curly mane",
+    "grammar": "adj.",
+    "lemma": "wunden-feax"
+  },
+  "wundenhals": {
+    "def": "with (WOUND) curved (neck, i",
+    "grammar": "adj.",
+    "lemma": "wunden-hals"
+  },
+  "wundenmæl": {
+    "def": "sword with (WOUND) curved markings (ornaments)",
+    "grammar": "n.",
+    "lemma": "wunden-mǣl"
+  },
+  "wundenstefna": {
+    "def": "ship with (WOUND) curved (STEM) prow",
+    "grammar": "wk.",
+    "lemma": "wunden-stefna"
+  },
+  "wunder fæt": {
+    "def": "WONDERful vessel",
+    "grammar": "n.",
+    "lemma": "wunder-fæt"
+  },
   "wunder-fæt": {
+    "def": "WONDERful vessel",
+    "grammar": "n.",
+    "lemma": "wunder-fæt"
+  },
+  "wunderfæt": {
     "def": "WONDERful vessel",
     "grammar": "n.",
     "lemma": "wunder-fæt"
@@ -16216,6 +46141,31 @@ const OLD_ENGLISH_DICT = {
     "def": "astonishing thing",
     "grammar": "n.",
     "lemma": "wundor"
+  },
+  "wundor bebod": {
+    "def": "strange or mysteri-ous command (advice)",
+    "grammar": "n.",
+    "lemma": "wundor-bebod"
+  },
+  "wundor deað": {
+    "def": "strange DEATH",
+    "grammar": "m.",
+    "lemma": "wundor-dēað"
+  },
+  "wundor l√c": {
+    "def": "strange",
+    "grammar": "adj.",
+    "lemma": "wundor-l√ċ"
+  },
+  "wundor sion": {
+    "def": "amazing sight",
+    "grammar": "fi.",
+    "lemma": "wundor-sīon"
+  },
+  "wundor smiþ": {
+    "def": "WONDER-SMITH, i",
+    "grammar": "m.",
+    "lemma": "wundor-smiþ"
   },
   "wundor-bebod": {
     "def": "strange or mysteri-ous command (advice)",
@@ -16232,6 +46182,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wundor-l√ċ"
   },
+  "wundor-si": {
+    "def": "amazing sight",
+    "grammar": "fi.",
+    "lemma": "wundor-sīon"
+  },
+  "wundor-sie": {
+    "def": "amazing sight",
+    "grammar": "fi.",
+    "lemma": "wundor-sīon"
+  },
   "wundor-sion": {
     "def": "amazing sight",
     "grammar": "fi.",
@@ -16242,15 +46202,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wundor-smiþ"
   },
+  "wundorbebod": {
+    "def": "strange or mysteri-ous command (advice)",
+    "grammar": "n.",
+    "lemma": "wundor-bebod"
+  },
+  "wundordeað": {
+    "def": "strange DEATH",
+    "grammar": "m.",
+    "lemma": "wundor-dēað"
+  },
+  "wundorl√c": {
+    "def": "strange",
+    "grammar": "adj.",
+    "lemma": "wundor-l√ċ"
+  },
+  "wundorsion": {
+    "def": "amazing sight",
+    "grammar": "fi.",
+    "lemma": "wundor-sīon"
+  },
+  "wundorsmiþ": {
+    "def": "WONDER-SMITH, i",
+    "grammar": "m.",
+    "lemma": "wundor-smiþ"
+  },
+  "wundur maððum": {
+    "def": "WONDERful jewel",
+    "grammar": "m.",
+    "lemma": "wundur-māððum"
+  },
+  "wundur-maðð": {
+    "def": "WONDERful jewel",
+    "grammar": "m.",
+    "lemma": "wundur-māððum"
+  },
+  "wundur-maððe": {
+    "def": "WONDERful jewel",
+    "grammar": "m.",
+    "lemma": "wundur-māððum"
+  },
   "wundur-maððum": {
     "def": "WONDERful jewel",
     "grammar": "m.",
     "lemma": "wundur-māððum"
   },
+  "wundurmaððum": {
+    "def": "WONDERful jewel",
+    "grammar": "m.",
+    "lemma": "wundur-māððum"
+  },
+  "wuni": {
+    "def": "live, remain, continue, be situated",
+    "grammar": "vb.  II",
+    "lemma": "wunian"
+  },
   "wunian": {
     "def": "live, remain, continue, be situated",
     "grammar": "vb.  II",
     "lemma": "wunian"
+  },
+  "wunie": {
+    "def": "live, remain, continue, be situated",
+    "grammar": "vb.  II",
+    "lemma": "wunian"
+  },
+  "wurð": {
+    "def": "see weorð-",
+    "grammar": "",
+    "lemma": "wurð-"
+  },
+  "wurð ": {
+    "def": "see weorð-",
+    "grammar": "",
+    "lemma": "wurð-"
   },
   "wurð-": {
     "def": "see weorð-",
@@ -16262,6 +46287,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "uton",
     "lemma": "wutun"
   },
+  "wyl(l)": {
+    "def": "see willan",
+    "grammar": "wylla",
+    "lemma": "wyl(l)e"
+  },
   "wyl(l)e": {
     "def": "see willan",
     "grammar": "wylla",
@@ -16272,32 +46302,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wylm"
   },
+  "wyn leas": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "wyn-lēas"
+  },
+  "wyn sum": {
+    "def": "admirable, fine",
+    "grammar": "adj.",
+    "lemma": "wyn-sum"
+  },
   "wyn(n)": {
     "def": "delight, pleasure",
     "grammar": "fj",
     "lemma": "wyn(n)"
+  },
+  "wyn-le": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "wyn-lēas"
   },
   "wyn-leas": {
     "def": "joyLESS",
     "grammar": "adj.",
     "lemma": "wyn-lēas"
   },
+  "wyn-lee": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "wyn-lēas"
+  },
+  "wyn-s": {
+    "def": "admirable, fine",
+    "grammar": "adj.",
+    "lemma": "wyn-sum"
+  },
+  "wyn-se": {
+    "def": "admirable, fine",
+    "grammar": "adj.",
+    "lemma": "wyn-sum"
+  },
   "wyn-sum": {
     "def": "admirable, fine",
     "grammar": "adj.",
     "lemma": "wyn-sum"
+  },
+  "wynleas": {
+    "def": "joyLESS",
+    "grammar": "adj.",
+    "lemma": "wyn-lēas"
+  },
+  "wynsum": {
+    "def": "admirable, fine",
+    "grammar": "adj.",
+    "lemma": "wyn-sum"
+  },
+  "wyrc": {
+    "def": "do, make",
+    "grammar": "vb. I",
+    "lemma": "wyrċan"
   },
   "wyrcan": {
     "def": "do, make",
     "grammar": "vb. I",
     "lemma": "wyrċan"
   },
+  "wyrce": {
+    "def": "do, make",
+    "grammar": "vb. I",
+    "lemma": "wyrċan"
+  },
   "wyrd": {
-    "def": "what comes to pass",
-    "grammar": "fi.",
-    "lemma": "wyrd"
+    "def": "destroy",
+    "grammar": "vb. I",
+    "lemma": "wyrdan"
   },
   "wyrdan": {
+    "def": "destroy",
+    "grammar": "vb. I",
+    "lemma": "wyrdan"
+  },
+  "wyrde": {
     "def": "destroy",
     "grammar": "vb. I",
     "lemma": "wyrdan"
@@ -16306,6 +46391,21 @@ const OLD_ENGLISH_DICT = {
     "def": "1430",
     "grammar": "mi.",
     "lemma": "wyrm"
+  },
+  "wyrm cyn(n)": {
+    "def": "1425",
+    "grammar": "nja.",
+    "lemma": "wyrm-cyn(n)"
+  },
+  "wyrm fah": {
+    "def": "with serpentine orna-mentation",
+    "grammar": "adj.",
+    "lemma": "wyrm-fāh"
+  },
+  "wyrm hord": {
+    "def": "dragon’s HOARD",
+    "grammar": "n.",
+    "lemma": "wyrm-hord"
   },
   "wyrm-cyn(n)": {
     "def": "1425",
@@ -16322,12 +46422,37 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wyrm-hord"
   },
+  "wyrmcyn(n)": {
+    "def": "1425",
+    "grammar": "nja.",
+    "lemma": "wyrm-cyn(n)"
+  },
+  "wyrmfah": {
+    "def": "with serpentine orna-mentation",
+    "grammar": "adj.",
+    "lemma": "wyrm-fāh"
+  },
+  "wyrmhord": {
+    "def": "dragon’s HOARD",
+    "grammar": "n.",
+    "lemma": "wyrm-hord"
+  },
   "wyrp": {
     "def": "1315",
     "grammar": "fj",
     "lemma": "wyrp"
   },
+  "wyrs": {
+    "def": "525 (n",
+    "grammar": "compar.",
+    "lemma": "wyrsa"
+  },
   "wyrsa": {
+    "def": "525 (n",
+    "grammar": "compar.",
+    "lemma": "wyrsa"
+  },
+  "wyrse": {
     "def": "525 (n",
     "grammar": "compar.",
     "lemma": "wyrsa"
@@ -16337,22 +46462,62 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "wyrt"
   },
+  "wyruld": {
+    "def": "see worold-",
+    "grammar": "",
+    "lemma": "wyruld-"
+  },
+  "wyruld ": {
+    "def": "see worold-",
+    "grammar": "",
+    "lemma": "wyruld-"
+  },
   "wyruld-": {
     "def": "see worold-",
     "grammar": "",
     "lemma": "wyruld-"
+  },
+  "wyrð": {
+    "def": "WORTHy of, fit for",
+    "grammar": "adj.",
+    "lemma": "wyrðe"
   },
   "wyrðe": {
     "def": "WORTHy of, fit for",
     "grammar": "adj.",
     "lemma": "wyrðe"
   },
+  "wæ": {
+    "def": "wæs, see eom",
+    "grammar": "w",
+    "lemma": "wǣre"
+  },
+  "wæccend( )": {
+    "def": "except fair uses permitted under U",
+    "grammar": "",
+    "lemma": "wæċċend(-)"
+  },
+  "wæccend()": {
+    "def": "except fair uses permitted under U",
+    "grammar": "",
+    "lemma": "wæċċend(-)"
+  },
   "wæccend(-)": {
     "def": "except fair uses permitted under U",
     "grammar": "",
     "lemma": "wæċċend(-)"
   },
+  "wæcn": {
+    "def": "vb",
+    "grammar": "vb. 6",
+    "lemma": "wæcnan"
+  },
   "wæcnan": {
+    "def": "vb",
+    "grammar": "vb. 6",
+    "lemma": "wæcnan"
+  },
+  "wæcne": {
     "def": "vb",
     "grammar": "vb. 6",
     "lemma": "wæcnan"
@@ -16362,12 +46527,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wæd"
   },
+  "wæf": {
+    "def": "restless",
+    "grammar": "adj.",
+    "lemma": "wǣfre"
+  },
+  "wæfr": {
+    "def": "restless",
+    "grammar": "adj.",
+    "lemma": "wǣfre"
+  },
   "wæfre": {
     "def": "restless",
     "grammar": "adj.",
     "lemma": "wǣfre"
   },
+  "wæg": {
+    "def": "cup, flagon",
+    "grammar": "nja.",
+    "lemma": "wǣġe"
+  },
+  "wæg bora": {
+    "def": "wave-roamer",
+    "grammar": "wk.",
+    "lemma": "wǣġ-bora"
+  },
+  "wæg holm": {
+    "def": "(billowy) sea",
+    "grammar": "m.",
+    "lemma": "wǣġ-holm"
+  },
+  "wæg sweord": {
+    "def": "SWORD with wavy ornamentation",
+    "grammar": "n.",
+    "lemma": "wǣġ-sweord"
+  },
+  "wæg-bo": {
+    "def": "wave-roamer",
+    "grammar": "wk.",
+    "lemma": "wǣġ-bora"
+  },
+  "wæg-bor": {
+    "def": "wave-roamer",
+    "grammar": "wk.",
+    "lemma": "wǣġ-bora"
+  },
   "wæg-bora": {
+    "def": "wave-roamer",
+    "grammar": "wk.",
+    "lemma": "wǣġ-bora"
+  },
+  "wæg-bore": {
     "def": "wave-roamer",
     "grammar": "wk.",
     "lemma": "wǣġ-bora"
@@ -16382,15 +46592,155 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wǣġ-sweord"
   },
+  "wægbora": {
+    "def": "wave-roamer",
+    "grammar": "wk.",
+    "lemma": "wǣġ-bora"
+  },
   "wæge": {
     "def": "cup, flagon",
     "grammar": "nja.",
     "lemma": "wǣġe"
   },
+  "wægholm": {
+    "def": "(billowy) sea",
+    "grammar": "m.",
+    "lemma": "wǣġ-holm"
+  },
+  "wægsweord": {
+    "def": "SWORD with wavy ornamentation",
+    "grammar": "n.",
+    "lemma": "wǣġ-sweord"
+  },
   "wæl": {
     "def": "corpse (?)",
     "grammar": "n.",
     "lemma": "wæl"
+  },
+  "wæl bed(d)": {
+    "def": "BED of death",
+    "grammar": "nja.",
+    "lemma": "wæl-bed(d)"
+  },
+  "wæl bend": {
+    "def": "deadly BOND",
+    "grammar": "fj",
+    "lemma": "wæl-bend"
+  },
+  "wæl bleat": {
+    "def": "deadly, mortal (?)",
+    "grammar": "adj.",
+    "lemma": "wæl-blēat"
+  },
+  "wæl deað": {
+    "def": "DEATH by slaughter",
+    "grammar": "m.",
+    "lemma": "wæl-dēað"
+  },
+  "wæl dreor": {
+    "def": "blood of slaugh-ter",
+    "grammar": "m.",
+    "lemma": "wæl-drēor"
+  },
+  "wæl fag": {
+    "def": "slaughter-stained (?)",
+    "grammar": "adj.",
+    "lemma": "wæl-fāg"
+  },
+  "wæl feal(l)": {
+    "def": "slaughter",
+    "grammar": "m.",
+    "lemma": "wæl-feal(l)"
+  },
+  "wæl fus": {
+    "def": "ready for death",
+    "grammar": "adj.",
+    "lemma": "wæl-fūs"
+  },
+  "wæl fyl(l)": {
+    "def": "3154",
+    "grammar": "mi.",
+    "lemma": "wæl-fyl(l)"
+  },
+  "wæl fyllo": {
+    "def": "abundance of slain, FILL of slaughter",
+    "grammar": "f",
+    "lemma": "wæl-fyllo"
+  },
+  "wæl fæhð": {
+    "def": "deadly FEUD",
+    "grammar": "f.",
+    "lemma": "wæl-fǣhð"
+  },
+  "wæl fуr": {
+    "def": "deadly FIRE",
+    "grammar": "n.",
+    "lemma": "wæl-fӯr"
+  },
+  "wæl gæst": {
+    "def": "slaughtering demon",
+    "grammar": "mi.",
+    "lemma": "wæl-gǣst"
+  },
+  "wæl hlem(m)": {
+    "def": "slaughter-uproar, onslaught",
+    "grammar": "mja.",
+    "lemma": "wæl-hlem(m)"
+  },
+  "wæl nið": {
+    "def": "deadly hate, hostility",
+    "grammar": "m.",
+    "lemma": "wæl-nīð"
+  },
+  "wæl rap": {
+    "def": "water-fetter (ice)",
+    "grammar": "m.",
+    "lemma": "wǣl-rāp"
+  },
+  "wæl reaf": {
+    "def": "1205",
+    "grammar": "n.",
+    "lemma": "wæl-rēaf"
+  },
+  "wæl rec": {
+    "def": "deadly (REEK) fumes",
+    "grammar": "mi.",
+    "lemma": "wæl-rēċ"
+  },
+  "wæl reow": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "wæl-rēow"
+  },
+  "wæl rest": {
+    "def": "bed of slaughter",
+    "grammar": "fj",
+    "lemma": "wæl-rest"
+  },
+  "wæl ræs": {
+    "def": "deadly onslaught, bloody conflict",
+    "grammar": "m.",
+    "lemma": "wæl-rǣs"
+  },
+  "wæl sceaft": {
+    "def": "battle-(SHAFT, i",
+    "grammar": "m.",
+    "lemma": "wæl-sceaft"
+  },
+  "wæl sliht": {
+    "def": "SLAUGHTer",
+    "grammar": "mi.",
+    "lemma": "wæl-sliht"
+  },
+  "wæl steng": {
+    "def": "battle-pole, shaft of spear",
+    "grammar": "mi.",
+    "lemma": "wæl-stenġ"
+  },
+  "wæl stow": {
+    "def": "2051, 2984",
+    "grammar": "f.",
+    "lemma": "wæl-stōw"
   },
   "wæl-bed(d)": {
     "def": "BED of death",
@@ -16517,7 +46867,87 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "wæl-stōw"
   },
+  "wælbed(d)": {
+    "def": "BED of death",
+    "grammar": "nja.",
+    "lemma": "wæl-bed(d)"
+  },
+  "wælbend": {
+    "def": "deadly BOND",
+    "grammar": "fj",
+    "lemma": "wæl-bend"
+  },
+  "wælbleat": {
+    "def": "deadly, mortal (?)",
+    "grammar": "adj.",
+    "lemma": "wæl-blēat"
+  },
+  "wældeað": {
+    "def": "DEATH by slaughter",
+    "grammar": "m.",
+    "lemma": "wæl-dēað"
+  },
+  "wældreor": {
+    "def": "blood of slaugh-ter",
+    "grammar": "m.",
+    "lemma": "wæl-drēor"
+  },
+  "wælfag": {
+    "def": "slaughter-stained (?)",
+    "grammar": "adj.",
+    "lemma": "wæl-fāg"
+  },
+  "wælfeal(l)": {
+    "def": "slaughter",
+    "grammar": "m.",
+    "lemma": "wæl-feal(l)"
+  },
+  "wælfus": {
+    "def": "ready for death",
+    "grammar": "adj.",
+    "lemma": "wæl-fūs"
+  },
+  "wælfyl(l)": {
+    "def": "3154",
+    "grammar": "mi.",
+    "lemma": "wæl-fyl(l)"
+  },
+  "wælfyllo": {
+    "def": "abundance of slain, FILL of slaughter",
+    "grammar": "f",
+    "lemma": "wæl-fyllo"
+  },
+  "wælfæhð": {
+    "def": "deadly FEUD",
+    "grammar": "f.",
+    "lemma": "wæl-fǣhð"
+  },
+  "wælfуr": {
+    "def": "deadly FIRE",
+    "grammar": "n.",
+    "lemma": "wæl-fӯr"
+  },
+  "wælgæst": {
+    "def": "slaughtering demon",
+    "grammar": "mi.",
+    "lemma": "wæl-gǣst"
+  },
+  "wælhlem(m)": {
+    "def": "slaughter-uproar, onslaught",
+    "grammar": "mja.",
+    "lemma": "wæl-hlem(m)"
+  },
+  "wæll seax": {
+    "def": "battle-knife",
+    "grammar": "n.",
+    "lemma": "wæll-seax"
+  },
   "wæll-seax": {
+    "def": "battle-knife",
+    "grammar": "n.",
+    "lemma": "wæll-seax"
+  },
+  "wællseax": {
     "def": "battle-knife",
     "grammar": "n.",
     "lemma": "wæll-seax"
@@ -16527,17 +46957,92 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wælm"
   },
+  "wælnið": {
+    "def": "deadly hate, hostility",
+    "grammar": "m.",
+    "lemma": "wæl-nīð"
+  },
+  "wælrap": {
+    "def": "water-fetter (ice)",
+    "grammar": "m.",
+    "lemma": "wǣl-rāp"
+  },
+  "wælreaf": {
+    "def": "1205",
+    "grammar": "n.",
+    "lemma": "wæl-rēaf"
+  },
+  "wælrec": {
+    "def": "deadly (REEK) fumes",
+    "grammar": "mi.",
+    "lemma": "wæl-rēċ"
+  },
+  "wælreow": {
+    "def": "adj",
+    "grammar": "adj.",
+    "lemma": "wæl-rēow"
+  },
+  "wælrest": {
+    "def": "bed of slaughter",
+    "grammar": "fj",
+    "lemma": "wæl-rest"
+  },
+  "wælræs": {
+    "def": "deadly onslaught, bloody conflict",
+    "grammar": "m.",
+    "lemma": "wæl-rǣs"
+  },
+  "wælsceaft": {
+    "def": "battle-(SHAFT, i",
+    "grammar": "m.",
+    "lemma": "wæl-sceaft"
+  },
+  "wælsliht": {
+    "def": "SLAUGHTer",
+    "grammar": "mi.",
+    "lemma": "wæl-sliht"
+  },
+  "wælsteng": {
+    "def": "battle-pole, shaft of spear",
+    "grammar": "mi.",
+    "lemma": "wæl-stenġ"
+  },
+  "wælstow": {
+    "def": "2051, 2984",
+    "grammar": "f.",
+    "lemma": "wæl-stōw"
+  },
   "wæn(wægn)": {
     "def": "WAGON",
     "grammar": "m.",
     "lemma": "wǣn(wæġn)"
+  },
+  "wæp": {
+    "def": "1467",
+    "grammar": "n.",
+    "lemma": "wǣpen"
+  },
+  "wæpe": {
+    "def": "1467",
+    "grammar": "n.",
+    "lemma": "wǣpen"
   },
   "wæpen": {
     "def": "1467",
     "grammar": "n.",
     "lemma": "wǣpen"
   },
+  "wæpned mon(n)": {
+    "def": "1284",
+    "grammar": "mc.",
+    "lemma": "wǣpned-mon(n)"
+  },
   "wæpned-mon(n)": {
+    "def": "1284",
+    "grammar": "mc.",
+    "lemma": "wǣpned-mon(n)"
+  },
+  "wæpnedmon(n)": {
     "def": "1284",
     "grammar": "mc.",
     "lemma": "wǣpned-mon(n)"
@@ -16562,7 +47067,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wæter"
   },
+  "wæter egesa": {
+    "def": "WATER-terror, awful water",
+    "grammar": "wk.",
+    "lemma": "wæter-eġesa"
+  },
+  "wæter уð": {
+    "def": "wave of the sea",
+    "grammar": "fj",
+    "lemma": "wæter-ӯð"
+  },
+  "wæter-eges": {
+    "def": "WATER-terror, awful water",
+    "grammar": "wk.",
+    "lemma": "wæter-eġesa"
+  },
   "wæter-egesa": {
+    "def": "WATER-terror, awful water",
+    "grammar": "wk.",
+    "lemma": "wæter-eġesa"
+  },
+  "wæter-egese": {
     "def": "WATER-terror, awful water",
     "grammar": "wk.",
     "lemma": "wæter-eġesa"
@@ -16572,15 +47097,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "wæter-ӯð"
   },
+  "wæteregesa": {
+    "def": "WATER-terror, awful water",
+    "grammar": "wk.",
+    "lemma": "wæter-eġesa"
+  },
+  "wæterуð": {
+    "def": "wave of the sea",
+    "grammar": "fj",
+    "lemma": "wæter-ӯð"
+  },
   "yfel": {
     "def": "harm",
     "grammar": "n.",
     "lemma": "yfel"
   },
+  "yl": {
+    "def": "ancestors, people of old, the departed",
+    "grammar": "mi.",
+    "lemma": "ylde"
+  },
+  "ylc": {
+    "def": "2239",
+    "grammar": "pron.",
+    "lemma": "ylca"
+  },
   "ylca": {
     "def": "2239",
     "grammar": "pron.",
     "lemma": "ylca"
+  },
+  "ylce": {
+    "def": "2239",
+    "grammar": "pron.",
+    "lemma": "ylca"
+  },
+  "yld": {
+    "def": "vb",
+    "grammar": "vb. I",
+    "lemma": "yldan"
   },
   "yldan": {
     "def": "vb",
@@ -16588,11 +47143,21 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yldan"
   },
   "ylde": {
-    "def": "ancestors, people of old, the departed",
-    "grammar": "mi.",
-    "lemma": "ylde"
+    "def": "vb",
+    "grammar": "vb. I",
+    "lemma": "yldan"
+  },
+  "yldest": {
+    "def": "see eald",
+    "grammar": "",
+    "lemma": "yldesta"
   },
   "yldesta": {
+    "def": "see eald",
+    "grammar": "",
+    "lemma": "yldesta"
+  },
+  "yldeste": {
     "def": "see eald",
     "grammar": "",
     "lemma": "yldesta"
@@ -16602,10 +47167,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "yldo"
   },
+  "yldr": {
+    "def": "see eald",
+    "grammar": "",
+    "lemma": "yldra"
+  },
   "yldra": {
     "def": "see eald",
     "grammar": "",
     "lemma": "yldra"
+  },
+  "yldre": {
+    "def": "see eald",
+    "grammar": "",
+    "lemma": "yldra"
+  },
+  "ylf": {
+    "def": "2007]",
+    "grammar": "mi.",
+    "lemma": "ylfe"
   },
   "ylfe": {
     "def": "2007]",
@@ -16617,45 +47197,180 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ymbe",
     "lemma": "ymb"
   },
+  "ymb beorgan": {
+    "def": "protect (round about)",
+    "grammar": "vb. 3",
+    "lemma": "ymb-beorgan"
+  },
+  "ymb eode": {
+    "def": "went round (w",
+    "grammar": "anv.",
+    "lemma": "ymb-ēode"
+  },
+  "ymb sittan": {
+    "def": "564",
+    "grammar": "vb. 5",
+    "lemma": "ymb-sittan"
+  },
+  "ymb(e) sittend": {
+    "def": "neighboring peoples (those living [SITTing] about, or on the borders)",
+    "grammar": "mc.",
+    "lemma": "ymb(e)-sittend"
+  },
   "ymb(e)-sittend": {
     "def": "neighboring peoples (those living [SITTing] about, or on the borders)",
     "grammar": "mc.",
     "lemma": "ymb(e)-sittend"
+  },
+  "ymb(e)sittend": {
+    "def": "neighboring peoples (those living [SITTing] about, or on the borders)",
+    "grammar": "mc.",
+    "lemma": "ymb(e)-sittend"
+  },
+  "ymb-beorg": {
+    "def": "protect (round about)",
+    "grammar": "vb. 3",
+    "lemma": "ymb-beorgan"
   },
   "ymb-beorgan": {
     "def": "protect (round about)",
     "grammar": "vb. 3",
     "lemma": "ymb-beorgan"
   },
+  "ymb-beorge": {
+    "def": "protect (round about)",
+    "grammar": "vb. 3",
+    "lemma": "ymb-beorgan"
+  },
+  "ymb-eo": {
+    "def": "went round (w",
+    "grammar": "anv.",
+    "lemma": "ymb-ēode"
+  },
+  "ymb-eod": {
+    "def": "went round (w",
+    "grammar": "anv.",
+    "lemma": "ymb-ēode"
+  },
   "ymb-eode": {
     "def": "went round (w",
     "grammar": "anv.",
     "lemma": "ymb-ēode"
+  },
+  "ymb-sitt": {
+    "def": "564",
+    "grammar": "vb. 5",
+    "lemma": "ymb-sittan"
   },
   "ymb-sittan": {
     "def": "564",
     "grammar": "vb. 5",
     "lemma": "ymb-sittan"
   },
+  "ymb-sitte": {
+    "def": "564",
+    "grammar": "vb. 5",
+    "lemma": "ymb-sittan"
+  },
+  "ymbbeorgan": {
+    "def": "protect (round about)",
+    "grammar": "vb. 3",
+    "lemma": "ymb-beorgan"
+  },
+  "ymbe fon": {
+    "def": "enclose",
+    "grammar": "vb. 7",
+    "lemma": "ymbe-fōn"
+  },
+  "ymbe hweorfan": {
+    "def": "2296",
+    "grammar": "vb. 3",
+    "lemma": "ymbe-hweorfan"
+  },
+  "ymbe-f": {
+    "def": "enclose",
+    "grammar": "vb. 7",
+    "lemma": "ymbe-fōn"
+  },
+  "ymbe-fe": {
+    "def": "enclose",
+    "grammar": "vb. 7",
+    "lemma": "ymbe-fōn"
+  },
   "ymbe-fon": {
     "def": "enclose",
     "grammar": "vb. 7",
     "lemma": "ymbe-fōn"
+  },
+  "ymbe-hweorf": {
+    "def": "2296",
+    "grammar": "vb. 3",
+    "lemma": "ymbe-hweorfan"
   },
   "ymbe-hweorfan": {
     "def": "2296",
     "grammar": "vb. 3",
     "lemma": "ymbe-hweorfan"
   },
+  "ymbe-hweorfe": {
+    "def": "2296",
+    "grammar": "vb. 3",
+    "lemma": "ymbe-hweorfan"
+  },
+  "ymbefon": {
+    "def": "enclose",
+    "grammar": "vb. 7",
+    "lemma": "ymbe-fōn"
+  },
+  "ymbehweorfan": {
+    "def": "2296",
+    "grammar": "vb. 3",
+    "lemma": "ymbe-hweorfan"
+  },
+  "ymbeode": {
+    "def": "went round (w",
+    "grammar": "anv.",
+    "lemma": "ymb-ēode"
+  },
+  "ymbsittan": {
+    "def": "564",
+    "grammar": "vb. 5",
+    "lemma": "ymb-sittan"
+  },
+  "ypp": {
+    "def": "raised floor, high seat",
+    "grammar": "wk.",
+    "lemma": "yppe"
+  },
   "yppe": {
     "def": "raised floor, high seat",
     "grammar": "wk.",
     "lemma": "yppe"
   },
+  "yr": {
+    "def": "2092",
+    "grammar": "nja.",
+    "lemma": "yrre"
+  },
+  "yrf": {
+    "def": "nja",
+    "grammar": "nja.",
+    "lemma": "yrfe"
+  },
   "yrfe": {
     "def": "nja",
     "grammar": "nja.",
     "lemma": "yrfe"
+  },
+  "yrfe laf": {
+    "def": "heirloom",
+    "grammar": "f.",
+    "lemma": "yrfe-lāf"
+  },
+  "yrfe weard": {
+    "def": "heir",
+    "grammar": "m.",
+    "lemma": "yrfe-weard"
   },
   "yrfe-laf": {
     "def": "heirloom",
@@ -16667,22 +47382,57 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "yrfe-weard"
   },
+  "yrfelaf": {
+    "def": "heirloom",
+    "grammar": "f.",
+    "lemma": "yrfe-lāf"
+  },
+  "yrfeweard": {
+    "def": "heir",
+    "grammar": "m.",
+    "lemma": "yrfe-weard"
+  },
   "yrmþ(u)": {
     "def": "1259",
     "grammar": "f.",
     "lemma": "yrmþ(u)"
+  },
+  "yrr": {
+    "def": "2092",
+    "grammar": "nja.",
+    "lemma": "yrre"
   },
   "yrre": {
     "def": "2092",
     "grammar": "nja.",
     "lemma": "yrre"
   },
+  "yrre mod": {
+    "def": "angry (of MOOD)",
+    "grammar": "adj.",
+    "lemma": "yrre-mōd"
+  },
   "yrre-mod": {
     "def": "angry (of MOOD)",
     "grammar": "adj.",
     "lemma": "yrre-mōd"
   },
+  "yrremod": {
+    "def": "angry (of MOOD)",
+    "grammar": "adj.",
+    "lemma": "yrre-mōd"
+  },
+  "yrring": {
+    "def": "2964",
+    "grammar": "adv.",
+    "lemma": "yrringa"
+  },
   "yrringa": {
+    "def": "2964",
+    "grammar": "adv.",
+    "lemma": "yrringa"
+  },
+  "yrringe": {
     "def": "2964",
     "grammar": "adv.",
     "lemma": "yrringa"
@@ -16692,20 +47442,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ys"
   },
+  "æ": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ǣne"
+  },
+  "æd": {
+    "def": "speedily",
+    "grammar": "adv.",
+    "lemma": "ǣdre"
+  },
   "æder": {
     "def": ") stream",
     "grammar": "f.",
     "lemma": "ǣder"
+  },
+  "ædr": {
+    "def": "speedily",
+    "grammar": "adv.",
+    "lemma": "ǣdre"
   },
   "ædre": {
     "def": "speedily",
     "grammar": "adv.",
     "lemma": "ǣdre"
   },
+  "æf": {
+    "def": "at any time (in any case)",
+    "grammar": "adv.",
+    "lemma": "ǣfre"
+  },
+  "æf þunca": {
+    "def": "cause for resentment, irritant",
+    "grammar": "wk.",
+    "lemma": "æf-þunca"
+  },
+  "æf-þunc": {
+    "def": "cause for resentment, irritant",
+    "grammar": "wk.",
+    "lemma": "æf-þunca"
+  },
   "æf-þunca": {
     "def": "cause for resentment, irritant",
     "grammar": "wk.",
     "lemma": "æf-þunca"
+  },
+  "æf-þunce": {
+    "def": "cause for resentment, irritant",
+    "grammar": "wk.",
+    "lemma": "æf-þunca"
+  },
+  "æfen grom": {
+    "def": "angry (hostile, op-pressive) in the EVENing",
+    "grammar": "adj.",
+    "lemma": "ǣfen-grom"
+  },
+  "æfen leoht": {
+    "def": "EVENing-LIGHT (‘twi-light’?)",
+    "grammar": "n.",
+    "lemma": "ǣfen-lēoht"
+  },
+  "æfen ræst": {
+    "def": "EVENing- (or night-) REST",
+    "grammar": "fj",
+    "lemma": "ǣfen-ræst"
+  },
+  "æfen spræc": {
+    "def": "EVENing-SPEECH",
+    "grammar": "fj",
+    "lemma": "ǣfen-sprǣċ"
   },
   "æfen(n)": {
     "def": "1235, si",
@@ -16732,10 +47537,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ǣfen-sprǣċ"
   },
+  "æfengrom": {
+    "def": "angry (hostile, op-pressive) in the EVENing",
+    "grammar": "adj.",
+    "lemma": "ǣfen-grom"
+  },
+  "æfenleoht": {
+    "def": "EVENing-LIGHT (‘twi-light’?)",
+    "grammar": "n.",
+    "lemma": "ǣfen-lēoht"
+  },
+  "æfenræst": {
+    "def": "EVENing- (or night-) REST",
+    "grammar": "fj",
+    "lemma": "ǣfen-ræst"
+  },
+  "æfenspræc": {
+    "def": "EVENing-SPEECH",
+    "grammar": "fj",
+    "lemma": "ǣfen-sprǣċ"
+  },
+  "æfn": {
+    "def": "perform, do",
+    "grammar": "vb. I",
+    "lemma": "æfnan"
+  },
   "æfnan": {
     "def": "perform, do",
     "grammar": "vb. I",
     "lemma": "æfnan"
+  },
+  "æfne": {
+    "def": "perform, do",
+    "grammar": "vb. I",
+    "lemma": "æfnan"
+  },
+  "æfr": {
+    "def": "at any time (in any case)",
+    "grammar": "adv.",
+    "lemma": "ǣfre"
   },
   "æfre": {
     "def": "at any time (in any case)",
@@ -16747,7 +47587,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "æfter"
   },
+  "æfþunca": {
+    "def": "cause for resentment, irritant",
+    "grammar": "wk.",
+    "lemma": "æf-þunca"
+  },
+  "æg hwa": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "ǣġ-hwā"
+  },
+  "æg hwylc": {
+    "def": "every (one)",
+    "grammar": "pron.",
+    "lemma": "ǣġ-hwylċ"
+  },
+  "æg hwær": {
+    "def": "in all cir-cumstances",
+    "grammar": "adv.",
+    "lemma": "ǣġ-hwǣr"
+  },
+  "æg hwæðer": {
+    "def": "2844",
+    "grammar": "pron.",
+    "lemma": "ǣġ-hwæðer"
+  },
+  "æg læca": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "ǣġ-lǣċa"
+  },
+  "æg weard": {
+    "def": "watch by the sea",
+    "grammar": "f.",
+    "lemma": "ǣġ-weard"
+  },
+  "æg-hw": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "ǣġ-hwā"
+  },
   "æg-hwa": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "ǣġ-hwā"
+  },
+  "æg-hwe": {
     "def": "n",
     "grammar": "m.",
     "lemma": "ǣġ-hwā"
@@ -16767,7 +47652,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "ǣġ-hwæðer"
   },
+  "æg-læc": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "ǣġ-lǣċa"
+  },
   "æg-læca": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "ǣġ-lǣċa"
+  },
+  "æg-læce": {
     "def": "see āg-lǣċa",
     "grammar": "",
     "lemma": "ǣġ-lǣċa"
@@ -16777,20 +47672,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ǣġ-weard"
   },
+  "æghwa": {
+    "def": "n",
+    "grammar": "m.",
+    "lemma": "ǣġ-hwā"
+  },
+  "æghwylc": {
+    "def": "every (one)",
+    "grammar": "pron.",
+    "lemma": "ǣġ-hwylċ"
+  },
+  "æghwær": {
+    "def": "in all cir-cumstances",
+    "grammar": "adv.",
+    "lemma": "ǣġ-hwǣr"
+  },
+  "æghwæðer": {
+    "def": "2844",
+    "grammar": "pron.",
+    "lemma": "ǣġ-hwæðer"
+  },
+  "æglæca": {
+    "def": "see āg-lǣċa",
+    "grammar": "",
+    "lemma": "ǣġ-lǣċa"
+  },
+  "ægweard": {
+    "def": "watch by the sea",
+    "grammar": "f.",
+    "lemma": "ǣġ-weard"
+  },
   "æht": {
     "def": "2248",
     "grammar": "fi.",
     "lemma": "ǣht"
+  },
+  "æhti": {
+    "def": "see eahtian",
+    "grammar": "",
+    "lemma": "æhtian"
   },
   "æhtian": {
     "def": "see eahtian",
     "grammar": "",
     "lemma": "æhtian"
   },
+  "æhtie": {
+    "def": "see eahtian",
+    "grammar": "",
+    "lemma": "æhtian"
+  },
+  "æl fylce": {
+    "def": "foreign people or army",
+    "grammar": "nja.",
+    "lemma": "æl-fylċe"
+  },
+  "æl mihtig": {
+    "def": "92",
+    "grammar": "adj.",
+    "lemma": "æl-mihtiġ"
+  },
+  "æl wiht": {
+    "def": "alien creature, mon-ster",
+    "grammar": "fi.",
+    "lemma": "æl-wiht"
+  },
+  "æl-fylc": {
+    "def": "foreign people or army",
+    "grammar": "nja.",
+    "lemma": "æl-fylċe"
+  },
   "æl-fylce": {
     "def": "foreign people or army",
     "grammar": "nja.",
     "lemma": "æl-fylċe"
+  },
+  "æl-mihte": {
+    "def": "92",
+    "grammar": "adj.",
+    "lemma": "æl-mihtiġ"
   },
   "æl-mihtig": {
     "def": "92",
@@ -16807,10 +47767,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ǣled"
   },
+  "æled leoma": {
+    "def": "gleam of fire, torch",
+    "grammar": "wk.",
+    "lemma": "ǣled-lēoma"
+  },
+  "æled-leom": {
+    "def": "gleam of fire, torch",
+    "grammar": "wk.",
+    "lemma": "ǣled-lēoma"
+  },
   "æled-leoma": {
     "def": "gleam of fire, torch",
     "grammar": "wk.",
     "lemma": "ǣled-lēoma"
+  },
+  "æled-leome": {
+    "def": "gleam of fire, torch",
+    "grammar": "wk.",
+    "lemma": "ǣled-lēoma"
+  },
+  "æledleoma": {
+    "def": "gleam of fire, torch",
+    "grammar": "wk.",
+    "lemma": "ǣled-lēoma"
+  },
+  "ælfylce": {
+    "def": "foreign people or army",
+    "grammar": "nja.",
+    "lemma": "æl-fylċe"
+  },
+  "ælmihtig": {
+    "def": "92",
+    "grammar": "adj.",
+    "lemma": "æl-mihtiġ"
+  },
+  "ælwiht": {
+    "def": "alien creature, mon-ster",
+    "grammar": "fi.",
+    "lemma": "æl-wiht"
+  },
+  "æn": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ǣne"
+  },
+  "æn lic": {
+    "def": "peerless, glorious, beautiful",
+    "grammar": "adj.",
+    "lemma": "ǣn-liċ"
   },
   "æn-lic": {
     "def": "peerless, glorious, beautiful",
@@ -16827,20 +47832,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "ǣniġ"
   },
+  "ænlic": {
+    "def": "peerless, glorious, beautiful",
+    "grammar": "adj.",
+    "lemma": "ǣn-liċ"
+  },
+  "ænn": {
+    "def": "see ān",
+    "grammar": "",
+    "lemma": "ǣnne"
+  },
   "ænne": {
     "def": "see ān",
     "grammar": "",
     "lemma": "ǣnne"
+  },
+  "æppel fealu": {
+    "def": "‘APPLE-FALLOW,’ dapple-dun (?)",
+    "grammar": "adj.",
+    "lemma": "æppel-fealu"
   },
   "æppel-fealu": {
     "def": "‘APPLE-FALLOW,’ dapple-dun (?)",
     "grammar": "adj.",
     "lemma": "æppel-fealu"
   },
+  "æppelfealu": {
+    "def": "‘APPLE-FALLOW,’ dapple-dun (?)",
+    "grammar": "adj.",
+    "lemma": "æppel-fealu"
+  },
   "ær": {
-    "def": ") before, formerly, previously",
-    "grammar": "I.",
-    "lemma": "ǣr"
+    "def": "EARlier",
+    "grammar": "adj.",
+    "lemma": "ǣrra"
+  },
+  "ær dæg": {
+    "def": "daybreak",
+    "grammar": "m.",
+    "lemma": "ǣr-dæġ"
+  },
+  "ær fæder": {
+    "def": "foreFATHER, old father, late father",
+    "grammar": "mc.",
+    "lemma": "ǣr-fæder"
+  },
+  "ær gestreon": {
+    "def": "ancient treasure or wealth",
+    "grammar": "n.",
+    "lemma": "ǣr-ġestrēon"
+  },
+  "ær geweorc": {
+    "def": "ancient WORK",
+    "grammar": "n.",
+    "lemma": "ǣr-ġeweorc"
+  },
+  "ær god": {
+    "def": "GOOD from old times (i",
+    "grammar": "adj.",
+    "lemma": "ǣr-gōd"
+  },
+  "ær wela": {
+    "def": "ancient WEALth",
+    "grammar": "wk.",
+    "lemma": "ǣr-wela"
   },
   "ær-dæg": {
     "def": "daybreak",
@@ -16851,6 +47906,16 @@ const OLD_ENGLISH_DICT = {
     "def": "foreFATHER, old father, late father",
     "grammar": "mc.",
     "lemma": "ǣr-fæder"
+  },
+  "ær-gestre": {
+    "def": "ancient treasure or wealth",
+    "grammar": "n.",
+    "lemma": "ǣr-ġestrēon"
+  },
+  "ær-gestree": {
+    "def": "ancient treasure or wealth",
+    "grammar": "n.",
+    "lemma": "ǣr-ġestrēon"
   },
   "ær-gestreon": {
     "def": "ancient treasure or wealth",
@@ -16867,10 +47932,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ǣr-gōd"
   },
+  "ær-wel": {
+    "def": "ancient WEALth",
+    "grammar": "wk.",
+    "lemma": "ǣr-wela"
+  },
   "ær-wela": {
     "def": "ancient WEALth",
     "grammar": "wk.",
     "lemma": "ǣr-wela"
+  },
+  "ær-wele": {
+    "def": "ancient WEALth",
+    "grammar": "wk.",
+    "lemma": "ǣr-wela"
+  },
+  "ærdæg": {
+    "def": "daybreak",
+    "grammar": "m.",
+    "lemma": "ǣr-dæġ"
+  },
+  "æren": {
+    "def": "message",
+    "grammar": "nja.",
+    "lemma": "ǣrende"
+  },
+  "ærend": {
+    "def": "message",
+    "grammar": "nja.",
+    "lemma": "ǣrende"
   },
   "ærende": {
     "def": "message",
@@ -16882,6 +47972,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ǣrest"
   },
+  "ærfæder": {
+    "def": "foreFATHER, old father, late father",
+    "grammar": "mc.",
+    "lemma": "ǣr-fæder"
+  },
+  "ærgestreon": {
+    "def": "ancient treasure or wealth",
+    "grammar": "n.",
+    "lemma": "ǣr-ġestrēon"
+  },
+  "ærgeweorc": {
+    "def": "ancient WORK",
+    "grammar": "n.",
+    "lemma": "ǣr-ġeweorc"
+  },
+  "ærgod": {
+    "def": "GOOD from old times (i",
+    "grammar": "adj.",
+    "lemma": "ǣr-gōd"
+  },
   "ærn": {
     "def": "2225",
     "grammar": "n.",
@@ -16892,10 +48002,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ǣror"
   },
+  "ærr": {
+    "def": "EARlier",
+    "grammar": "adj.",
+    "lemma": "ǣrra"
+  },
   "ærra": {
     "def": "EARlier",
     "grammar": "adj.",
     "lemma": "ǣrra"
+  },
+  "ærre": {
+    "def": "EARlier",
+    "grammar": "adj.",
+    "lemma": "ǣrra"
+  },
+  "ærwela": {
+    "def": "ancient WEALth",
+    "grammar": "wk.",
+    "lemma": "ǣr-wela"
   },
   "æs": {
     "def": "carrion, carcass",
@@ -16907,12 +48032,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "æsc"
   },
+  "æsc holt": {
+    "def": "(ASH wood, i",
+    "grammar": "n.",
+    "lemma": "æsc-holt"
+  },
+  "æsc wiga": {
+    "def": "(spear) warrior",
+    "grammar": "wk.",
+    "lemma": "æsc-wiga"
+  },
   "æsc-holt": {
     "def": "(ASH wood, i",
     "grammar": "n.",
     "lemma": "æsc-holt"
   },
+  "æsc-wig": {
+    "def": "(spear) warrior",
+    "grammar": "wk.",
+    "lemma": "æsc-wiga"
+  },
   "æsc-wiga": {
+    "def": "(spear) warrior",
+    "grammar": "wk.",
+    "lemma": "æsc-wiga"
+  },
+  "æsc-wige": {
+    "def": "(spear) warrior",
+    "grammar": "wk.",
+    "lemma": "æsc-wiga"
+  },
+  "æscholt": {
+    "def": "(ASH wood, i",
+    "grammar": "n.",
+    "lemma": "æsc-holt"
+  },
+  "æscwiga": {
     "def": "(spear) warrior",
     "grammar": "wk.",
     "lemma": "æsc-wiga"
@@ -16922,95 +48077,415 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ǣt"
   },
+  "æt beran": {
+    "def": "bear away",
+    "grammar": "vb. 4",
+    "lemma": "æt-beran"
+  },
+  "æt feolan": {
+    "def": "stick to, hold firmly",
+    "grammar": "vb. 3",
+    "lemma": "æt-fēolan"
+  },
+  "æt ferian": {
+    "def": "carry away (w",
+    "grammar": "vb. I",
+    "lemma": "æt-ferian"
+  },
+  "æt gifan": {
+    "def": "GIVE",
+    "grammar": "vb.  5",
+    "lemma": "æt-ġifan"
+  },
+  "æt græpe": {
+    "def": "grasping AT, aggres-sive",
+    "grammar": "adj.",
+    "lemma": "æt-grǣpe"
+  },
+  "æt gædere": {
+    "def": "1190",
+    "grammar": "adv.",
+    "lemma": "æt-gædere"
+  },
+  "æt hrinan": {
+    "def": "touch",
+    "grammar": "vb. 1",
+    "lemma": "æt-hrīnan"
+  },
+  "æt hweorfan": {
+    "def": "turn (intr",
+    "grammar": "vb. 3",
+    "lemma": "æt-hweorfan"
+  },
+  "æt rihte": {
+    "def": "immediately, ‘RIGHT away’",
+    "grammar": "adv.",
+    "lemma": "æt-rihte"
+  },
+  "æt somne": {
+    "def": "402, 544, 2847",
+    "grammar": "adv.",
+    "lemma": "æt-somne"
+  },
+  "æt springan": {
+    "def": "SPRING out, flow out",
+    "grammar": "vb. 3",
+    "lemma": "æt-springan"
+  },
+  "æt standan": {
+    "def": "stop",
+    "grammar": "vb. 6",
+    "lemma": "æt-standan"
+  },
+  "æt steppan": {
+    "def": "STEP forth",
+    "grammar": "vb. 6",
+    "lemma": "æt-steppan"
+  },
+  "æt wegan": {
+    "def": "carry, carry away",
+    "grammar": "vb. 5",
+    "lemma": "æt-wegan"
+  },
+  "æt windan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "æt-windan"
+  },
+  "æt witan": {
+    "def": "charge, blame (someone for something)",
+    "grammar": "vb. 1",
+    "lemma": "æt-wītan"
+  },
+  "æt-ber": {
+    "def": "bear away",
+    "grammar": "vb. 4",
+    "lemma": "æt-beran"
+  },
   "æt-beran": {
     "def": "bear away",
     "grammar": "vb. 4",
     "lemma": "æt-beran"
+  },
+  "æt-bere": {
+    "def": "bear away",
+    "grammar": "vb. 4",
+    "lemma": "æt-beran"
+  },
+  "æt-feol": {
+    "def": "stick to, hold firmly",
+    "grammar": "vb. 3",
+    "lemma": "æt-fēolan"
   },
   "æt-feolan": {
     "def": "stick to, hold firmly",
     "grammar": "vb. 3",
     "lemma": "æt-fēolan"
   },
+  "æt-feole": {
+    "def": "stick to, hold firmly",
+    "grammar": "vb. 3",
+    "lemma": "æt-fēolan"
+  },
+  "æt-feri": {
+    "def": "carry away (w",
+    "grammar": "vb. I",
+    "lemma": "æt-ferian"
+  },
   "æt-ferian": {
     "def": "carry away (w",
     "grammar": "vb. I",
     "lemma": "æt-ferian"
+  },
+  "æt-ferie": {
+    "def": "carry away (w",
+    "grammar": "vb. I",
+    "lemma": "æt-ferian"
+  },
+  "æt-gif": {
+    "def": "GIVE",
+    "grammar": "vb.  5",
+    "lemma": "æt-ġifan"
   },
   "æt-gifan": {
     "def": "GIVE",
     "grammar": "vb.  5",
     "lemma": "æt-ġifan"
   },
+  "æt-gife": {
+    "def": "GIVE",
+    "grammar": "vb.  5",
+    "lemma": "æt-ġifan"
+  },
+  "æt-græp": {
+    "def": "grasping AT, aggres-sive",
+    "grammar": "adj.",
+    "lemma": "æt-grǣpe"
+  },
   "æt-græpe": {
     "def": "grasping AT, aggres-sive",
     "grammar": "adj.",
     "lemma": "æt-grǣpe"
+  },
+  "æt-gæde": {
+    "def": "1190",
+    "grammar": "adv.",
+    "lemma": "æt-gædere"
+  },
+  "æt-gæder": {
+    "def": "1190",
+    "grammar": "adv.",
+    "lemma": "æt-gædere"
   },
   "æt-gædere": {
     "def": "1190",
     "grammar": "adv.",
     "lemma": "æt-gædere"
   },
+  "æt-hrin": {
+    "def": "touch",
+    "grammar": "vb. 1",
+    "lemma": "æt-hrīnan"
+  },
   "æt-hrinan": {
     "def": "touch",
     "grammar": "vb. 1",
     "lemma": "æt-hrīnan"
+  },
+  "æt-hrine": {
+    "def": "touch",
+    "grammar": "vb. 1",
+    "lemma": "æt-hrīnan"
+  },
+  "æt-hweorf": {
+    "def": "turn (intr",
+    "grammar": "vb. 3",
+    "lemma": "æt-hweorfan"
   },
   "æt-hweorfan": {
     "def": "turn (intr",
     "grammar": "vb. 3",
     "lemma": "æt-hweorfan"
   },
+  "æt-hweorfe": {
+    "def": "turn (intr",
+    "grammar": "vb. 3",
+    "lemma": "æt-hweorfan"
+  },
+  "æt-rih": {
+    "def": "immediately, ‘RIGHT away’",
+    "grammar": "adv.",
+    "lemma": "æt-rihte"
+  },
+  "æt-riht": {
+    "def": "immediately, ‘RIGHT away’",
+    "grammar": "adv.",
+    "lemma": "æt-rihte"
+  },
   "æt-rihte": {
     "def": "immediately, ‘RIGHT away’",
     "grammar": "adv.",
     "lemma": "æt-rihte"
+  },
+  "æt-som": {
+    "def": "402, 544, 2847",
+    "grammar": "adv.",
+    "lemma": "æt-somne"
+  },
+  "æt-somn": {
+    "def": "402, 544, 2847",
+    "grammar": "adv.",
+    "lemma": "æt-somne"
   },
   "æt-somne": {
     "def": "402, 544, 2847",
     "grammar": "adv.",
     "lemma": "æt-somne"
   },
+  "æt-spring": {
+    "def": "SPRING out, flow out",
+    "grammar": "vb. 3",
+    "lemma": "æt-springan"
+  },
   "æt-springan": {
     "def": "SPRING out, flow out",
     "grammar": "vb. 3",
     "lemma": "æt-springan"
+  },
+  "æt-springe": {
+    "def": "SPRING out, flow out",
+    "grammar": "vb. 3",
+    "lemma": "æt-springan"
+  },
+  "æt-stand": {
+    "def": "stop",
+    "grammar": "vb. 6",
+    "lemma": "æt-standan"
   },
   "æt-standan": {
     "def": "stop",
     "grammar": "vb. 6",
     "lemma": "æt-standan"
   },
+  "æt-stande": {
+    "def": "stop",
+    "grammar": "vb. 6",
+    "lemma": "æt-standan"
+  },
+  "æt-stepp": {
+    "def": "STEP forth",
+    "grammar": "vb. 6",
+    "lemma": "æt-steppan"
+  },
   "æt-steppan": {
     "def": "STEP forth",
     "grammar": "vb. 6",
     "lemma": "æt-steppan"
+  },
+  "æt-steppe": {
+    "def": "STEP forth",
+    "grammar": "vb. 6",
+    "lemma": "æt-steppan"
+  },
+  "æt-weg": {
+    "def": "carry, carry away",
+    "grammar": "vb. 5",
+    "lemma": "æt-wegan"
   },
   "æt-wegan": {
     "def": "carry, carry away",
     "grammar": "vb. 5",
     "lemma": "æt-wegan"
   },
+  "æt-wege": {
+    "def": "carry, carry away",
+    "grammar": "vb. 5",
+    "lemma": "æt-wegan"
+  },
+  "æt-wind": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "æt-windan"
+  },
   "æt-windan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "æt-windan"
+  },
+  "æt-winde": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "æt-windan"
+  },
+  "æt-wit": {
+    "def": "charge, blame (someone for something)",
+    "grammar": "vb. 1",
+    "lemma": "æt-wītan"
   },
   "æt-witan": {
     "def": "charge, blame (someone for something)",
     "grammar": "vb. 1",
     "lemma": "æt-wītan"
   },
+  "æt-wite": {
+    "def": "charge, blame (someone for something)",
+    "grammar": "vb. 1",
+    "lemma": "æt-wītan"
+  },
+  "ætberan": {
+    "def": "bear away",
+    "grammar": "vb. 4",
+    "lemma": "æt-beran"
+  },
+  "ætfeolan": {
+    "def": "stick to, hold firmly",
+    "grammar": "vb. 3",
+    "lemma": "æt-fēolan"
+  },
+  "ætferian": {
+    "def": "carry away (w",
+    "grammar": "vb. I",
+    "lemma": "æt-ferian"
+  },
+  "ætgifan": {
+    "def": "GIVE",
+    "grammar": "vb.  5",
+    "lemma": "æt-ġifan"
+  },
+  "ætgræpe": {
+    "def": "grasping AT, aggres-sive",
+    "grammar": "adj.",
+    "lemma": "æt-grǣpe"
+  },
+  "ætgædere": {
+    "def": "1190",
+    "grammar": "adv.",
+    "lemma": "æt-gædere"
+  },
+  "æthrinan": {
+    "def": "touch",
+    "grammar": "vb. 1",
+    "lemma": "æt-hrīnan"
+  },
+  "æthweorfan": {
+    "def": "turn (intr",
+    "grammar": "vb. 3",
+    "lemma": "æt-hweorfan"
+  },
+  "ætrihte": {
+    "def": "immediately, ‘RIGHT away’",
+    "grammar": "adv.",
+    "lemma": "æt-rihte"
+  },
+  "ætsomne": {
+    "def": "402, 544, 2847",
+    "grammar": "adv.",
+    "lemma": "æt-somne"
+  },
+  "ætspringan": {
+    "def": "SPRING out, flow out",
+    "grammar": "vb. 3",
+    "lemma": "æt-springan"
+  },
+  "ætstandan": {
+    "def": "stop",
+    "grammar": "vb. 6",
+    "lemma": "æt-standan"
+  },
+  "ætsteppan": {
+    "def": "STEP forth",
+    "grammar": "vb. 6",
+    "lemma": "æt-steppan"
+  },
   "ættren(ætren)": {
     "def": "poisonous, venom-ous",
     "grammar": "adj.",
     "lemma": "ǣttren(ǣtren)"
   },
+  "ætwegan": {
+    "def": "carry, carry away",
+    "grammar": "vb. 5",
+    "lemma": "æt-wegan"
+  },
+  "ætwindan": {
+    "def": "w",
+    "grammar": "vb. 3",
+    "lemma": "æt-windan"
+  },
+  "ætwitan": {
+    "def": "charge, blame (someone for something)",
+    "grammar": "vb. 1",
+    "lemma": "æt-wītan"
+  },
   "æðm": {
     "def": "breathing",
     "grammar": "m.",
     "lemma": "ǣðm"
+  },
+  "æþel": {
+    "def": "excellent, glorious",
+    "grammar": "adj.",
+    "lemma": "æþele"
   },
   "æþele": {
     "def": "excellent, glorious",
@@ -17027,20 +48502,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "æþelu"
   },
+  "ðafi": {
+    "def": "submit to",
+    "grammar": "vb. II",
+    "lemma": "ðafian"
+  },
   "ðafian": {
     "def": "submit to",
     "grammar": "vb. II",
     "lemma": "ðafian"
+  },
+  "ðafie": {
+    "def": "submit to",
+    "grammar": "vb. II",
+    "lemma": "ðafian"
+  },
+  "ðeod kyning": {
+    "def": "see þēod-cyning",
+    "grammar": "",
+    "lemma": "ðēod-kyning"
   },
   "ðeod-kyning": {
     "def": "see þēod-cyning",
     "grammar": "",
     "lemma": "ðēod-kyning"
   },
+  "ðeoden leas": {
+    "def": "lord-LESS, deprived of one’s chief",
+    "grammar": "adj.",
+    "lemma": "ðēoden-lēas"
+  },
+  "ðeoden-le": {
+    "def": "lord-LESS, deprived of one’s chief",
+    "grammar": "adj.",
+    "lemma": "ðēoden-lēas"
+  },
   "ðeoden-leas": {
     "def": "lord-LESS, deprived of one’s chief",
     "grammar": "adj.",
     "lemma": "ðēoden-lēas"
+  },
+  "ðeoden-lee": {
+    "def": "lord-LESS, deprived of one’s chief",
+    "grammar": "adj.",
+    "lemma": "ðēoden-lēas"
+  },
+  "ðeodenleas": {
+    "def": "lord-LESS, deprived of one’s chief",
+    "grammar": "adj.",
+    "lemma": "ðēoden-lēas"
+  },
+  "ðeodkyning": {
+    "def": "see þēod-cyning",
+    "grammar": "",
+    "lemma": "ðēod-kyning"
+  },
+  "ðiod( )": {
+    "def": "þēoden",
+    "grammar": "",
+    "lemma": "ðīod(-)"
+  },
+  "ðiod()": {
+    "def": "þēoden",
+    "grammar": "",
+    "lemma": "ðīod(-)"
   },
   "ðiod(-)": {
     "def": "þēoden",
@@ -17057,12 +48582,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "ðrym(m)"
   },
+  "ðrysm": {
+    "def": "stifle, choke, oppress",
+    "grammar": "vb. I",
+    "lemma": "ðrysman"
+  },
   "ðrysman": {
     "def": "stifle, choke, oppress",
     "grammar": "vb. I",
     "lemma": "ðrysman"
   },
+  "ðrysme": {
+    "def": "stifle, choke, oppress",
+    "grammar": "vb. I",
+    "lemma": "ðrysman"
+  },
+  "ðrуð swуð( swið)": {
+    "def": "strong, powerful",
+    "grammar": "adj.",
+    "lemma": "ðrӯð-swӯð(-swīð)"
+  },
   "ðrуð-swуð(-swið)": {
+    "def": "strong, powerful",
+    "grammar": "adj.",
+    "lemma": "ðrӯð-swӯð(-swīð)"
+  },
+  "ðrуðswуð(swið)": {
     "def": "strong, powerful",
     "grammar": "adj.",
     "lemma": "ðrӯð-swӯð(-swīð)"
@@ -17071,6 +48616,11 @@ const OLD_ENGLISH_DICT = {
     "def": "pierced through",
     "grammar": "adj.",
     "lemma": "ð‰rel"
+  },
+  "þ": {
+    "def": "isn",
+    "grammar": "isn.",
+    "lemma": "þē"
   },
   "þa": {
     "def": "pron",
@@ -17087,6 +48637,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þām"
   },
+  "þan": {
+    "def": "see þonan",
+    "grammar": "",
+    "lemma": "þanan"
+  },
   "þanan": {
     "def": "see þonan",
     "grammar": "",
@@ -17097,30 +48652,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "þanc"
   },
+  "þanc hycgende": {
+    "def": "taking THOUGHT, contemplative, meditative",
+    "grammar": "adj.",
+    "lemma": "þanc-hycgende"
+  },
+  "þanc-hycgen": {
+    "def": "taking THOUGHT, contemplative, meditative",
+    "grammar": "adj.",
+    "lemma": "þanc-hycgende"
+  },
+  "þanc-hycgend": {
+    "def": "taking THOUGHT, contemplative, meditative",
+    "grammar": "adj.",
+    "lemma": "þanc-hycgende"
+  },
   "þanc-hycgende": {
     "def": "taking THOUGHT, contemplative, meditative",
     "grammar": "adj.",
     "lemma": "þanc-hycgende"
+  },
+  "þanchycgende": {
+    "def": "taking THOUGHT, contemplative, meditative",
+    "grammar": "adj.",
+    "lemma": "þanc-hycgende"
+  },
+  "þanci": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "þancian"
   },
   "þancian": {
     "def": "w",
     "grammar": "vb. II",
     "lemma": "þancian"
   },
+  "þancie": {
+    "def": "w",
+    "grammar": "vb. II",
+    "lemma": "þancian"
+  },
+  "þane": {
+    "def": "see þonan",
+    "grammar": "",
+    "lemma": "þanan"
+  },
   "þanon": {
     "def": "see þonan",
     "grammar": "",
     "lemma": "þanon"
+  },
+  "þar": {
+    "def": "see sē",
+    "grammar": "",
+    "lemma": "þāra"
   },
   "þara": {
     "def": "see sē",
     "grammar": "",
     "lemma": "þāra"
   },
+  "þare": {
+    "def": "see sē",
+    "grammar": "",
+    "lemma": "þāra"
+  },
   "þe": {
-    "def": "isn",
-    "grammar": "isn.",
-    "lemma": "þē"
+    "def": "vb",
+    "grammar": "vb. I",
+    "lemma": "þēon"
   },
   "þeah": {
     "def": "however",
@@ -17137,6 +48737,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "þearfa"
   },
+  "þearfe": {
+    "def": "needy, lacking (w",
+    "grammar": "wk.",
+    "lemma": "þearfa"
+  },
+  "þearl": {
+    "def": "hard",
+    "grammar": "adv.",
+    "lemma": "þearle"
+  },
   "þearle": {
     "def": "hard",
     "grammar": "adv.",
@@ -17152,17 +48762,52 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þeċ"
   },
+  "þecce": {
+    "def": "enfold",
+    "grammar": "vb. I",
+    "lemma": "þeċċean"
+  },
   "þeccean": {
     "def": "enfold",
     "grammar": "vb. I",
     "lemma": "þeċċean"
+  },
+  "þeccee": {
+    "def": "enfold",
+    "grammar": "vb. I",
+    "lemma": "þeċċean"
+  },
+  "þee": {
+    "def": "vb",
+    "grammar": "vb. I",
+    "lemma": "þēon"
+  },
+  "þeg": {
+    "def": "-un, see þicgan",
+    "grammar": "",
+    "lemma": "þēgon"
+  },
+  "þege": {
+    "def": "-un, see þicgan",
+    "grammar": "",
+    "lemma": "þēgon"
   },
   "þegn": {
     "def": "follower, attendant, retainer, warrior",
     "grammar": "m.",
     "lemma": "þeġn"
   },
+  "þegn sorg": {
+    "def": "SORROW for THEGNs",
+    "grammar": "f.",
+    "lemma": "þeġn-sorg"
+  },
   "þegn-sorg": {
+    "def": "SORROW for THEGNs",
+    "grammar": "f.",
+    "lemma": "þeġn-sorg"
+  },
+  "þegnsorg": {
     "def": "SORROW for THEGNs",
     "grammar": "f.",
     "lemma": "þeġn-sorg"
@@ -17177,15 +48822,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þēh"
   },
+  "þeht": {
+    "def": "see þeċċean",
+    "grammar": "",
+    "lemma": "þehton"
+  },
+  "þehte": {
+    "def": "see þeċċean",
+    "grammar": "",
+    "lemma": "þehton"
+  },
   "þehton": {
     "def": "see þeċċean",
     "grammar": "",
     "lemma": "þehton"
   },
+  "þenc": {
+    "def": "289, 2601",
+    "grammar": "vb. I",
+    "lemma": "þenċan"
+  },
   "þencan": {
     "def": "289, 2601",
     "grammar": "vb. I",
     "lemma": "þenċan"
+  },
+  "þence": {
+    "def": "289, 2601",
+    "grammar": "vb. I",
+    "lemma": "þenċan"
+  },
+  "þend": {
+    "def": "as long as",
+    "grammar": "I.",
+    "lemma": "þenden"
+  },
+  "þende": {
+    "def": "as long as",
+    "grammar": "I.",
+    "lemma": "þenden"
   },
   "þenden": {
     "def": "as long as",
@@ -17197,7 +48872,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "þenġel"
   },
+  "þeni": {
+    "def": "560",
+    "grammar": "vb. II",
+    "lemma": "þēnian"
+  },
   "þenian": {
+    "def": "560",
+    "grammar": "vb. II",
+    "lemma": "þēnian"
+  },
+  "þenie": {
     "def": "560",
     "grammar": "vb. II",
     "lemma": "þēnian"
@@ -17208,34 +48893,109 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēo"
   },
   "þeod": {
-    "def": "nation, troop of war-riors",
-    "grammar": "f.",
-    "lemma": "þēod"
+    "def": "chief, lord, prince, king",
+    "grammar": "m.",
+    "lemma": "þēoden"
+  },
+  "þeod cyning": {
+    "def": "KING of a people, king (over wide dominions)",
+    "grammar": "m.",
+    "lemma": "þēod-cyning"
+  },
+  "þeod gestreon": {
+    "def": "people’s treasure, great treasure",
+    "grammar": "n.",
+    "lemma": "þēod-ġestrēon"
+  },
+  "þeod sceaða": {
+    "def": "2688",
+    "grammar": "wk.",
+    "lemma": "þēod-sceaða"
+  },
+  "þeod þrea": {
+    "def": "wk",
+    "grammar": "fw",
+    "lemma": "þēod-þrēa"
   },
   "þeod-cyning": {
     "def": "KING of a people, king (over wide dominions)",
     "grammar": "m.",
     "lemma": "þēod-cyning"
   },
+  "þeod-gestre": {
+    "def": "people’s treasure, great treasure",
+    "grammar": "n.",
+    "lemma": "þēod-ġestrēon"
+  },
+  "þeod-gestree": {
+    "def": "people’s treasure, great treasure",
+    "grammar": "n.",
+    "lemma": "þēod-ġestrēon"
+  },
   "þeod-gestreon": {
     "def": "people’s treasure, great treasure",
     "grammar": "n.",
     "lemma": "þēod-ġestrēon"
+  },
+  "þeod-sceað": {
+    "def": "2688",
+    "grammar": "wk.",
+    "lemma": "þēod-sceaða"
   },
   "þeod-sceaða": {
     "def": "2688",
     "grammar": "wk.",
     "lemma": "þēod-sceaða"
   },
+  "þeod-sceaðe": {
+    "def": "2688",
+    "grammar": "wk.",
+    "lemma": "þēod-sceaða"
+  },
+  "þeod-þre": {
+    "def": "wk",
+    "grammar": "fw",
+    "lemma": "þēod-þrēa"
+  },
   "þeod-þrea": {
     "def": "wk",
     "grammar": "fw",
     "lemma": "þēod-þrēa"
   },
+  "þeod-þree": {
+    "def": "wk",
+    "grammar": "fw",
+    "lemma": "þēod-þrēa"
+  },
+  "þeodcyning": {
+    "def": "KING of a people, king (over wide dominions)",
+    "grammar": "m.",
+    "lemma": "þēod-cyning"
+  },
+  "þeode": {
+    "def": "chief, lord, prince, king",
+    "grammar": "m.",
+    "lemma": "þēoden"
+  },
   "þeoden": {
     "def": "chief, lord, prince, king",
     "grammar": "m.",
     "lemma": "þēoden"
+  },
+  "þeodgestreon": {
+    "def": "people’s treasure, great treasure",
+    "grammar": "n.",
+    "lemma": "þēod-ġestrēon"
+  },
+  "þeodsceaða": {
+    "def": "2688",
+    "grammar": "wk.",
+    "lemma": "þēod-sceaða"
+  },
+  "þeodþrea": {
+    "def": "wk",
+    "grammar": "fw",
+    "lemma": "þēod-þrēa"
   },
   "þeof": {
     "def": "2219",
@@ -17252,12 +49012,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þēos"
   },
+  "þeost": {
+    "def": "gloomy",
+    "grammar": "adj.",
+    "lemma": "þēostre"
+  },
+  "þeostr": {
+    "def": "gloomy",
+    "grammar": "adj.",
+    "lemma": "þēostre"
+  },
   "þeostre": {
     "def": "gloomy",
     "grammar": "adj.",
     "lemma": "þēostre"
   },
+  "þicg": {
+    "def": "take, consume ( ̄food, drink)",
+    "grammar": "vb. 5",
+    "lemma": "þicgan"
+  },
   "þicgan": {
+    "def": "take, consume ( ̄food, drink)",
+    "grammar": "vb. 5",
+    "lemma": "þicgan"
+  },
+  "þicge": {
     "def": "take, consume ( ̄food, drink)",
     "grammar": "vb. 5",
     "lemma": "þicgan"
@@ -17267,7 +49047,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "poss.",
     "lemma": "þīn"
   },
+  "þince": {
+    "def": "see þynċan",
+    "grammar": "",
+    "lemma": "þinċean"
+  },
   "þincean": {
+    "def": "see þynċan",
+    "grammar": "",
+    "lemma": "þinċean"
+  },
+  "þincee": {
     "def": "see þynċan",
     "grammar": "",
     "lemma": "þinċean"
@@ -17277,7 +49067,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "þinġ"
   },
+  "þingi": {
+    "def": "settle, make arrangements",
+    "grammar": "vb. II",
+    "lemma": "þingian"
+  },
   "þingian": {
+    "def": "settle, make arrangements",
+    "grammar": "vb. II",
+    "lemma": "þingian"
+  },
+  "þingie": {
     "def": "settle, make arrangements",
     "grammar": "vb. II",
     "lemma": "þingian"
@@ -17287,7 +49087,22 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þis"
   },
+  "þo": {
+    "def": "see sē",
+    "grammar": "",
+    "lemma": "þone"
+  },
+  "þoli": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "þolian"
+  },
   "þolian": {
+    "def": "endure",
+    "grammar": "vb. II",
+    "lemma": "þolian"
+  },
+  "þolie": {
     "def": "endure",
     "grammar": "vb. II",
     "lemma": "þolian"
@@ -17317,6 +49132,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þonon"
   },
+  "þorf": {
+    "def": "see þurfan",
+    "grammar": "",
+    "lemma": "þorfte"
+  },
+  "þorft": {
+    "def": "see þurfan",
+    "grammar": "",
+    "lemma": "þorfte"
+  },
   "þorfte": {
     "def": "see þurfan",
     "grammar": "",
@@ -17327,7 +49152,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "þrāg"
   },
+  "þrea nedla": {
+    "def": "sore NEED, dire necessity",
+    "grammar": "wk.",
+    "lemma": "þrēa-nēdla"
+  },
+  "þrea nуd": {
+    "def": "distress, dire NEED, sore aÑiction",
+    "grammar": "fi.",
+    "lemma": "þrēa-nӯd"
+  },
+  "þrea-nedl": {
+    "def": "sore NEED, dire necessity",
+    "grammar": "wk.",
+    "lemma": "þrēa-nēdla"
+  },
   "þrea-nedla": {
+    "def": "sore NEED, dire necessity",
+    "grammar": "wk.",
+    "lemma": "þrēa-nēdla"
+  },
+  "þrea-nedle": {
     "def": "sore NEED, dire necessity",
     "grammar": "wk.",
     "lemma": "þrēa-nēdla"
@@ -17337,12 +49182,42 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "þrēa-nӯd"
   },
+  "þreanedla": {
+    "def": "sore NEED, dire necessity",
+    "grammar": "wk.",
+    "lemma": "þrēa-nēdla"
+  },
+  "þreanуd": {
+    "def": "distress, dire NEED, sore aÑiction",
+    "grammar": "fi.",
+    "lemma": "þrēa-nӯd"
+  },
+  "þreati": {
+    "def": "harass",
+    "grammar": "vb. II",
+    "lemma": "þrēatian"
+  },
   "þreatian": {
     "def": "harass",
     "grammar": "vb. II",
     "lemma": "þrēatian"
   },
+  "þreatie": {
+    "def": "harass",
+    "grammar": "vb. II",
+    "lemma": "þrēatian"
+  },
+  "þrec wudu": {
+    "def": "(might-WOOD), spear",
+    "grammar": "mu.",
+    "lemma": "þrec-wudu"
+  },
   "þrec-wudu": {
+    "def": "(might-WOOD), spear",
+    "grammar": "mu.",
+    "lemma": "þrec-wudu"
+  },
+  "þrecwudu": {
     "def": "(might-WOOD), spear",
     "grammar": "mu.",
     "lemma": "þrec-wudu"
@@ -17352,17 +49227,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "þrēohund"
   },
+  "þreotteoð": {
+    "def": "OEG § ̄287",
+    "grammar": "num.",
+    "lemma": "þreottēoða"
+  },
   "þreotteoða": {
     "def": "OEG § ̄287",
     "grammar": "num.",
     "lemma": "þreottēoða"
+  },
+  "þreotteoðe": {
+    "def": "OEG § ̄287",
+    "grammar": "num.",
+    "lemma": "þreottēoða"
+  },
+  "þridd": {
+    "def": "2688",
+    "grammar": "num.",
+    "lemma": "þridda"
   },
   "þridda": {
     "def": "2688",
     "grammar": "num.",
     "lemma": "þridda"
   },
+  "þridde": {
+    "def": "2688",
+    "grammar": "num.",
+    "lemma": "þridda"
+  },
+  "þring": {
+    "def": "THRONG, press forward",
+    "grammar": "vb.  3",
+    "lemma": "þringan"
+  },
   "þringan": {
+    "def": "THRONG, press forward",
+    "grammar": "vb.  3",
+    "lemma": "þringan"
+  },
+  "þringe": {
     "def": "THRONG, press forward",
     "grammar": "vb.  3",
     "lemma": "þringan"
@@ -17372,27 +49277,77 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "þrīo"
   },
+  "þrist hуdig": {
+    "def": "bold-minded, brave",
+    "grammar": "adj.",
+    "lemma": "þrīst-hӯdiġ"
+  },
+  "þrist-hуde": {
+    "def": "bold-minded, brave",
+    "grammar": "adj.",
+    "lemma": "þrīst-hӯdiġ"
+  },
   "þrist-hуdig": {
     "def": "bold-minded, brave",
     "grammar": "adj.",
     "lemma": "þrīst-hӯdiġ"
+  },
+  "þristhуdig": {
+    "def": "bold-minded, brave",
+    "grammar": "adj.",
+    "lemma": "þrīst-hӯdiġ"
+  },
+  "þrite": {
+    "def": "w",
+    "grammar": "num.",
+    "lemma": "þrītiġ"
   },
   "þritig": {
     "def": "w",
     "grammar": "num.",
     "lemma": "þrītiġ"
   },
+  "þrowi": {
+    "def": "2658",
+    "grammar": "vb. II",
+    "lemma": "þrōwian"
+  },
   "þrowian": {
     "def": "2658",
     "grammar": "vb. II",
     "lemma": "þrōwian"
+  },
+  "þrowie": {
+    "def": "2658",
+    "grammar": "vb. II",
+    "lemma": "þrōwian"
+  },
+  "þrym lic": {
+    "def": "magnificent",
+    "grammar": "adj.",
+    "lemma": "þrym-liċ"
   },
   "þrym-lic": {
     "def": "magnificent",
     "grammar": "adj.",
     "lemma": "þrym-liċ"
   },
+  "þrymlic": {
+    "def": "magnificent",
+    "grammar": "adj.",
+    "lemma": "þrym-liċ"
+  },
+  "þrуd lic": {
+    "def": "see þrӯð-liċ",
+    "grammar": "",
+    "lemma": "þrӯd-liċ"
+  },
   "þrуd-lic": {
+    "def": "see þrӯð-liċ",
+    "grammar": "",
+    "lemma": "þrӯd-liċ"
+  },
+  "þrуdlic": {
     "def": "see þrӯð-liċ",
     "grammar": "",
     "lemma": "þrӯd-liċ"
@@ -17401,6 +49356,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(pl",
     "grammar": "fi.",
     "lemma": "þrӯð"
+  },
+  "þrуð lic": {
+    "def": "powerful, strong, great",
+    "grammar": "adj.",
+    "lemma": "þrӯð-liċ"
+  },
+  "þrуð word": {
+    "def": "strong (brave, noble) WORD(s)",
+    "grammar": "n.",
+    "lemma": "þrӯð-word"
   },
   "þrуð-lic": {
     "def": "powerful, strong, great",
@@ -17412,7 +49377,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "þrӯð-word"
   },
+  "þrуðlic": {
+    "def": "powerful, strong, great",
+    "grammar": "adj.",
+    "lemma": "þrӯð-liċ"
+  },
+  "þrуðword": {
+    "def": "strong (brave, noble) WORD(s)",
+    "grammar": "n.",
+    "lemma": "þrӯð-word"
+  },
+  "þrуþ ærn": {
+    "def": "great house, splendid hall",
+    "grammar": "n.",
+    "lemma": "þrӯþ-ærn"
+  },
   "þrуþ-ærn": {
+    "def": "great house, splendid hall",
+    "grammar": "n.",
+    "lemma": "þrӯþ-ærn"
+  },
+  "þrуþærn": {
     "def": "great house, splendid hall",
     "grammar": "n.",
     "lemma": "þrӯþ-ærn"
@@ -17422,17 +49407,47 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pers.",
     "lemma": "þū"
   },
+  "þuh": {
+    "def": "see þynċan",
+    "grammar": "",
+    "lemma": "þūhte"
+  },
+  "þuht": {
+    "def": "see þynċan",
+    "grammar": "",
+    "lemma": "þūhte"
+  },
   "þuhte": {
     "def": "see þynċan",
     "grammar": "",
     "lemma": "þūhte"
+  },
+  "þuni": {
+    "def": "groan, creak",
+    "grammar": "vb. II",
+    "lemma": "þunian"
   },
   "þunian": {
     "def": "groan, creak",
     "grammar": "vb. II",
     "lemma": "þunian"
   },
+  "þunie": {
+    "def": "groan, creak",
+    "grammar": "vb. II",
+    "lemma": "þunian"
+  },
+  "þurf": {
+    "def": "(in neg",
+    "grammar": "prp.",
+    "lemma": "þurfan"
+  },
   "þurfan": {
+    "def": "(in neg",
+    "grammar": "prp.",
+    "lemma": "þurfan"
+  },
+  "þurfe": {
     "def": "(in neg",
     "grammar": "prp.",
     "lemma": "þurfan"
@@ -17442,32 +49457,152 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prep.",
     "lemma": "þurh"
   },
+  "þurh brecan": {
+    "def": "BREAK THROUGH",
+    "grammar": "vb.   4",
+    "lemma": "þurh-brecan"
+  },
+  "þurh dufan": {
+    "def": "(DIVE), swim THROUGH",
+    "grammar": "vb.  2",
+    "lemma": "þurh-dūfan"
+  },
+  "þurh etan": {
+    "def": "EAT THROUGH",
+    "grammar": "vb. 5",
+    "lemma": "þurh-etan"
+  },
+  "þurh fon": {
+    "def": "penetrate",
+    "grammar": "vb. 7",
+    "lemma": "þurh-fōn"
+  },
+  "þurh teon": {
+    "def": "effect",
+    "grammar": "vb. 2",
+    "lemma": "þurh-tēon"
+  },
+  "þurh wadan": {
+    "def": "go THROUGH, penetrate",
+    "grammar": "vb. 6",
+    "lemma": "þurh-wadan"
+  },
+  "þurh-brec": {
+    "def": "BREAK THROUGH",
+    "grammar": "vb.   4",
+    "lemma": "þurh-brecan"
+  },
   "þurh-brecan": {
     "def": "BREAK THROUGH",
     "grammar": "vb.   4",
     "lemma": "þurh-brecan"
+  },
+  "þurh-brece": {
+    "def": "BREAK THROUGH",
+    "grammar": "vb.   4",
+    "lemma": "þurh-brecan"
+  },
+  "þurh-duf": {
+    "def": "(DIVE), swim THROUGH",
+    "grammar": "vb.  2",
+    "lemma": "þurh-dūfan"
   },
   "þurh-dufan": {
     "def": "(DIVE), swim THROUGH",
     "grammar": "vb.  2",
     "lemma": "þurh-dūfan"
   },
+  "þurh-dufe": {
+    "def": "(DIVE), swim THROUGH",
+    "grammar": "vb.  2",
+    "lemma": "þurh-dūfan"
+  },
+  "þurh-et": {
+    "def": "EAT THROUGH",
+    "grammar": "vb. 5",
+    "lemma": "þurh-etan"
+  },
   "þurh-etan": {
     "def": "EAT THROUGH",
     "grammar": "vb. 5",
     "lemma": "þurh-etan"
+  },
+  "þurh-ete": {
+    "def": "EAT THROUGH",
+    "grammar": "vb. 5",
+    "lemma": "þurh-etan"
+  },
+  "þurh-f": {
+    "def": "penetrate",
+    "grammar": "vb. 7",
+    "lemma": "þurh-fōn"
+  },
+  "þurh-fe": {
+    "def": "penetrate",
+    "grammar": "vb. 7",
+    "lemma": "þurh-fōn"
   },
   "þurh-fon": {
     "def": "penetrate",
     "grammar": "vb. 7",
     "lemma": "þurh-fōn"
   },
+  "þurh-te": {
+    "def": "effect",
+    "grammar": "vb. 2",
+    "lemma": "þurh-tēon"
+  },
+  "þurh-tee": {
+    "def": "effect",
+    "grammar": "vb. 2",
+    "lemma": "þurh-tēon"
+  },
   "þurh-teon": {
     "def": "effect",
     "grammar": "vb. 2",
     "lemma": "þurh-tēon"
   },
+  "þurh-wad": {
+    "def": "go THROUGH, penetrate",
+    "grammar": "vb. 6",
+    "lemma": "þurh-wadan"
+  },
   "þurh-wadan": {
+    "def": "go THROUGH, penetrate",
+    "grammar": "vb. 6",
+    "lemma": "þurh-wadan"
+  },
+  "þurh-wade": {
+    "def": "go THROUGH, penetrate",
+    "grammar": "vb. 6",
+    "lemma": "þurh-wadan"
+  },
+  "þurhbrecan": {
+    "def": "BREAK THROUGH",
+    "grammar": "vb.   4",
+    "lemma": "þurh-brecan"
+  },
+  "þurhdufan": {
+    "def": "(DIVE), swim THROUGH",
+    "grammar": "vb.  2",
+    "lemma": "þurh-dūfan"
+  },
+  "þurhetan": {
+    "def": "EAT THROUGH",
+    "grammar": "vb. 5",
+    "lemma": "þurh-etan"
+  },
+  "þurhfon": {
+    "def": "penetrate",
+    "grammar": "vb. 7",
+    "lemma": "þurh-fōn"
+  },
+  "þurhteon": {
+    "def": "effect",
+    "grammar": "vb. 2",
+    "lemma": "þurh-tēon"
+  },
+  "þurhwadan": {
     "def": "go THROUGH, penetrate",
     "grammar": "vb. 6",
     "lemma": "þurh-wadan"
@@ -17487,12 +49622,27 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "þyder(þider)"
   },
+  "þyl": {
+    "def": "orator, spokesman, oÌcial entertainer (see Commentary, pp",
+    "grammar": "mi.",
+    "lemma": "þyle"
+  },
   "þyle": {
     "def": "orator, spokesman, oÌcial entertainer (see Commentary, pp",
     "grammar": "mi.",
     "lemma": "þyle"
   },
+  "þync": {
+    "def": "appear",
+    "grammar": "vb. I",
+    "lemma": "þynċan"
+  },
   "þyncan": {
+    "def": "appear",
+    "grammar": "vb. I",
+    "lemma": "þynċan"
+  },
+  "þynce": {
     "def": "appear",
     "grammar": "vb. I",
     "lemma": "þynċan"
@@ -17502,7 +49652,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "þyrs"
   },
+  "þys lic": {
+    "def": "2635",
+    "grammar": "adj.",
+    "lemma": "þys-liċ"
+  },
   "þys-lic": {
+    "def": "2635",
+    "grammar": "adj.",
+    "lemma": "þys-liċ"
+  },
+  "þyslic": {
     "def": "2635",
     "grammar": "adj.",
     "lemma": "þys-liċ"
@@ -17547,6 +49707,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þӯ"
   },
+  "þуhte": {
+    "def": "strong, firm",
+    "grammar": "adj.",
+    "lemma": "þӯhtiġ"
+  },
   "þуhtig": {
     "def": "strong, firm",
     "grammar": "adj.",
@@ -17562,12 +49727,32 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "þӯstru"
   },
+  "þуw": {
+    "def": "oppress, threaten",
+    "grammar": "",
+    "lemma": "þӯwan"
+  },
   "þуwan": {
     "def": "oppress, threaten",
     "grammar": "",
     "lemma": "þӯwan"
   },
+  "þуwe": {
+    "def": "oppress, threaten",
+    "grammar": "",
+    "lemma": "þӯwan"
+  },
+  "уw": {
+    "def": "manifest",
+    "grammar": "vb. I",
+    "lemma": "ӯwan"
+  },
   "уwan": {
+    "def": "manifest",
+    "grammar": "vb. I",
+    "lemma": "ӯwan"
+  },
+  "уwe": {
     "def": "manifest",
     "grammar": "vb. I",
     "lemma": "ӯwan"
@@ -17576,6 +49761,26 @@ const OLD_ENGLISH_DICT = {
     "def": "548",
     "grammar": "fj",
     "lemma": "ӯð"
+  },
+  "уð geblond": {
+    "def": "tossing waves, surge, surging water",
+    "grammar": "n.",
+    "lemma": "ӯð-ġeblond"
+  },
+  "уð gewin(n)": {
+    "def": "wave-strife",
+    "grammar": "n.",
+    "lemma": "ӯð-ġewin(n)"
+  },
+  "уð laf": {
+    "def": "LEAVing of waves, (sand or other material tossed up on) shore",
+    "grammar": "f.",
+    "lemma": "ӯð-lāf"
+  },
+  "уð lida": {
+    "def": "wave-traverser, ship",
+    "grammar": "wk.",
+    "lemma": "ӯð-lida"
   },
   "уð-geblond": {
     "def": "tossing waves, surge, surging water",
@@ -17592,7 +49797,17 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ӯð-lāf"
   },
+  "уð-lid": {
+    "def": "wave-traverser, ship",
+    "grammar": "wk.",
+    "lemma": "ӯð-lida"
+  },
   "уð-lida": {
+    "def": "wave-traverser, ship",
+    "grammar": "wk.",
+    "lemma": "ӯð-lida"
+  },
+  "уð-lide": {
     "def": "wave-traverser, ship",
     "grammar": "wk.",
     "lemma": "ӯð-lida"
@@ -17603,14 +49818,69 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ӯðan"
   },
   "уðe": {
-    "def": "adj",
-    "grammar": "adj.",
-    "lemma": "ӯðe"
+    "def": "421",
+    "grammar": "vb. I",
+    "lemma": "ӯðan"
+  },
+  "уðe lice": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ӯðe-līċe"
+  },
+  "уðe-lic": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ӯðe-līċe"
   },
   "уðe-lice": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "ӯðe-līċe"
+  },
+  "уðelice": {
+    "def": "adv",
+    "grammar": "adv.",
+    "lemma": "ӯðe-līċe"
+  },
+  "уðgeblond": {
+    "def": "tossing waves, surge, surging water",
+    "grammar": "n.",
+    "lemma": "ӯð-ġeblond"
+  },
+  "уðgewin(n)": {
+    "def": "wave-strife",
+    "grammar": "n.",
+    "lemma": "ӯð-ġewin(n)"
+  },
+  "уðlaf": {
+    "def": "LEAVing of waves, (sand or other material tossed up on) shore",
+    "grammar": "f.",
+    "lemma": "ӯð-lāf"
+  },
+  "уðlida": {
+    "def": "wave-traverser, ship",
+    "grammar": "wk.",
+    "lemma": "ӯð-lida"
+  },
+  "уþ gesene": {
+    "def": "see ēþ-ġesӯne",
+    "grammar": "",
+    "lemma": "ӯþ-ġesēne"
+  },
+  "уþ lad": {
+    "def": "way across the waves, voyage",
+    "grammar": "f.",
+    "lemma": "ӯþ-lād"
+  },
+  "уþ-gese": {
+    "def": "see ēþ-ġesӯne",
+    "grammar": "",
+    "lemma": "ӯþ-ġesēne"
+  },
+  "уþ-gesen": {
+    "def": "see ēþ-ġesӯne",
+    "grammar": "",
+    "lemma": "ӯþ-ġesēne"
   },
   "уþ-gesene": {
     "def": "see ēþ-ġesӯne",
@@ -17618,6 +49888,16 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ӯþ-ġesēne"
   },
   "уþ-lad": {
+    "def": "way across the waves, voyage",
+    "grammar": "f.",
+    "lemma": "ӯþ-lād"
+  },
+  "уþgesene": {
+    "def": "see ēþ-ġesӯne",
+    "grammar": "",
+    "lemma": "ӯþ-ġesēne"
+  },
+  "уþlad": {
     "def": "way across the waves, voyage",
     "grammar": "f.",
     "lemma": "ӯþ-lād"
