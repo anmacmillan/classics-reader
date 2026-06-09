@@ -1,0 +1,19 @@
+{
+  "id": "petrarch-ventoux",
+  "title": "Petrarch - The Ascent of Mount Ventoux",
+  "shortTitle": "The Ascent of Mount Ventoux",
+  "author": "Francesco Petrarch",
+  "year": 1336,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Epistolae familiares IV.1",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Wikisource; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://petrarch.petersadlon.com/letters/pet17.html"
+    }
+  ]
+}
