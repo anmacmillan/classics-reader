@@ -1,0 +1,19 @@
+{
+  "id": "poggio-niccoli",
+  "title": "Poggio Bracciolini - Letter to Niccolò Niccoli on Corvey",
+  "shortTitle": "On Corvey",
+  "author": "Poggio Bracciolini",
+  "year": 1420,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Letter X to Niccolò Niccoli",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: working reconstruction based on scholarly references; EN: quoted public-domain translation via Tertullian.org",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://www.tertullian.org/rpearse/tacitus/index.htm"
+    }
+  ]
+}

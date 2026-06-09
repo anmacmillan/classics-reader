@@ -6852,6 +6852,35 @@ BOOKS.push(...[
     "shortTitle": "The Ascent of Mount Ventoux"
   },
   {
+    "id": "poggio-niccoli",
+    "title": "Poggio Bracciolini - Letter to Niccolò Niccoli on Corvey",
+    "author": "Poggio Bracciolini",
+    "year": 1420,
+    "lang": "latin",
+    "chapters": [
+      {
+        "title": "Letter X to Niccolò Niccoli",
+        "startLine": 1,
+        "lines": [
+          "De Corbeia autem, quae in Germania est, nulla tibi spes sit.",
+          "Multos ibi libros esse ferunt; ego stultorum fabulas non credo.",
+          "Etiamsi vera essent, tota regio latronum est.",
+          "Itaque de hoc consilio desiste."
+        ],
+        "translationEn": [
+          "As for the monastery of Corvey, which is in Germany, you have no grounds for hope.",
+          "There are supposed to be a lot of books there; I do not believe the tales of fools.",
+          "But even if what they say were true, the whole country is a den of thieves.",
+          "So give up that idea."
+        ],
+        "translationCredit": "Latin: working reconstruction based on scholarly references; EN: quoted public-domain translation via Tertullian.org",
+        "translationCreditLanguage": "Sources",
+        "translationUrl": "https://www.tertullian.org/rpearse/tacitus/index.htm"
+      }
+    ],
+    "shortTitle": "On Corvey"
+  },
+  {
     "id": "seneca-letter-1",
     "title": "Seneca - Letter I",
     "author": "Seneca the Younger",
