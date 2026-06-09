@@ -6623,6 +6623,37 @@ BOOKS.push(...[
     "shortTitle": "On friendship"
   },
   {
+    "id": "petrarch-posterity",
+    "title": "Petrarch - Letter to Posterity",
+    "author": "Francesco Petrarch",
+    "year": 1351,
+    "lang": "latin",
+    "chapters": [
+      {
+        "title": "Posteritati",
+        "startLine": 1,
+        "lines": [
+          "Fuerit tibi forsan de me aliquid auditum; quanquam et hoc dubium sit: an exiguum et obscurum longe nomen seu locorum seu temporum perventurum sit.",
+          "Et illud forsitan optabis nosse: quid hominis fuerim aut quis operum exitus meorum, eorum maxime quorum ad te fama pervenerit vel quorum tenue nomen audieris.",
+          "Et de primo quidem varie erunt hominum voces; ita enim ferme quisque loquitur, ut impellit non veritas sed voluptas: nec laudis nec infamie modus est.",
+          "Vestro de grege unus fui autem, mortalis homuncio, nec magne admodum nec vilis originis, familia antiqua, natura quidem non iniquo neque inverecundo animo, nisi ei consuetudo contagiosa nocuisset.",
+          "Adolescentia me fefellit, iuventa corripuit, senecta autem correxit, experimentoque perdocuit verum illud quod diu ante perlegeram: quoniam adolescentia et voluptas vana sunt."
+        ],
+        "translationEn": [
+          "Greeting.---It is possible that some word of me may have come to you, though even this is doubtful, since an insignificant and obscure name will scarcely penetrate far in either time or space.",
+          "If, however, you should have heard of me, you may desire to know what manner of man I was, or what was the outcome of my labours, especially those of which some description or, at any rate, the bare titles may have reached you.",
+          "The judgments of men on the first point will vary. Most people speak as their pleasure prompts them, not as truth requires; and there is no limit either to praise or to blame.",
+          "I was one of your flock, a poor mortal, neither of very great nor very lowly birth, of ancient family, by nature not without some fairness of spirit, unless contagious custom had harmed it.",
+          "My youth led me astray, my manhood drew me onward, but old age corrected me and experience taught me what I had long since read, namely, that youth and pleasure are vanity."
+        ],
+        "translationCredit": "Latin: Wikisource; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+        "translationCreditLanguage": "Sources",
+        "translationUrl": "https://petrarch.petersadlon.com/read_letters.html?s=pet01.html"
+      }
+    ],
+    "shortTitle": "Letter to Posterity"
+  },
+  {
     "id": "petrarch-ventoux",
     "title": "Petrarch - The Ascent of Mount Ventoux",
     "author": "Francesco Petrarch",

@@ -1,0 +1,19 @@
+{
+  "id": "petrarch-posterity",
+  "title": "Petrarch - Letter to Posterity",
+  "shortTitle": "Letter to Posterity",
+  "author": "Francesco Petrarch",
+  "year": 1351,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Posteritati",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Wikisource; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://petrarch.petersadlon.com/read_letters.html?s=pet01.html"
+    }
+  ]
+}
