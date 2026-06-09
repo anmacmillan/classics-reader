@@ -6623,6 +6623,65 @@ BOOKS.push(...[
     "shortTitle": "On friendship"
   },
   {
+    "id": "petrarch-cicero",
+    "title": "Petrarch - To Cicero",
+    "author": "Francesco Petrarch",
+    "year": 1345,
+    "lang": "latin",
+    "chapters": [
+      {
+        "title": "Epistola ad Marcum Tullium Ciceronem",
+        "startLine": 1,
+        "lines": [
+          "Epystolas tuas diu multumque perquisitas atque ubi minime rebar inventas, avidissime perlegi.",
+          "Audivi multa te dicentem, multa deplorantem, multa variantem, Marce Tulli, et qui iampridem qualis preceptor aliis fuisses noveram, nunc tandem quis tu tibi esses agnovi.",
+          "Unum hoc vicissim a vera caritate profectum non iam consilium sed lamentum audi, ubicumque es, quod unus posterorum, tui nominis amantissimus, non sine lacrimis fundit.",
+          "O inquiete semper atque anxie, vel ut verba tua recognoscas, o preceps et calamitose senex, quid tibi tot contentionibus et prorsum nichil profuturis simultatibus voluisti?",
+          "Ubi et etati et professioni et fortune tue conveniens otium reliquisti?",
+          "Quis te falsus glorie splendor senem adolescentium bellis implicuit et per omnes iactatum casus ad indignam philosopho mortem rapuit?",
+          "Heu et fraterni consilii immemor et tuorum tot salubrium preceptorum, ceu nocturnus viator lumen in tenebris gestans, ostendisti secuturis callem, in quo ipse satis miserabiliter lapsus es.",
+          "Omitto Dionysium, omitto fratrem tuum ac nepotem, omitto, si placet, ipsum etiam Dolabellam, quos nunc laudibus ad caelum effers, nunc repentinis malidictis laceras: fuerint hec tolerabilia fortassis.",
+          "Iulium quoque Caesarem pretervehor, cuius spectata clementia ipsa lacessentibus portus erat; magnum preterea Pompeium sileo, cum quo iure quodam familiaritatis quidlibet posse videbare.",
+          "Sed quis te furor in Antonium impegit? Amor credo reipublice, quam funditus iam corruisse fatebaris.",
+          "Quodsi pura fides, si libertas te trahebat, quid tibi tam familiare cum Augusto?",
+          "Quid enim Bruto tuo responsurus es?",
+          "Hoc restabat, infelix, et hoc erat extremum, Cicero, ut huic ipsi tam laudato malidiceres, qui tibi non dicam malifaceret, sed malifacientibus non obstaret.",
+          "Doleo vicem tuam, amice, et errorum pudet ac miseret, iamque cum eodem Bruto his artibus nihil tribuo, quibus te instructissimum fuisse scio.",
+          "Nimirum quid enim iuvat alios docere, quid ornatissimis verbis semper de virtutibus loqui prodest, si te interim ipse non audias?",
+          "Ah, quanto satius fuerat philosopho presertim in tranquillo rure senuisse, de perpetua illa non de hac iam exigua vita cogitantem, nullos habuisse fasces, nullis triumphis inhiasse, nullos inflasse tibi animum Catilinas.",
+          "Sed hec quidem frustra.",
+          "Eternum vale, mi Cicero.",
+          "Apud superos, ad dexteram Athesis ripam, in civitate Verona Transpadane Italie, XVI Kalendas Quintiles, anno ab ortu Dei illius quem tu non noveras, MCCCXLV."
+        ],
+        "translationEn": [
+          "I have read thy letters through to the end, and, where least I expected, found them, and read them with the utmost eagerness.",
+          "I have heard thee saying many things, uttering many lamentations, ranging through many phases of thought and feeling, O Marcus Tullius; and, though long since I knew how excellent a guide thou hadst proved for others, at last I learned what sort of guidance thou gavest thyself.",
+          "Now listen, thou, wherever thou art, to the words of one of thy successors, who loves thy name above all others, and whose voice is not untroubled by tears.",
+          "O spirit ever restless and perturbed! O hasty and hapless old man, to use thine own words, why didst thou choose so many conflicts, and feuds absolutely profitless?",
+          "Where hast thou left the quiet fitting for thine age, thy profession, and thy fortune?",
+          "What false glitter of glory ensnared thee, an old man, in the wars of youth, and hurled thee through all the shocks of fortune to a death unworthy a philosopher?",
+          "Ah, forgetful of fraternal counsel and of so many wholesome precepts of thine own, like a wayfarer by night carrying a light through darkness, thou didst show the path to those who would follow, on which thou thyself didst fall most miserably.",
+          "I pass over Dionysius, thy brother and thy nephew, and, if thou please, even Dolabella himself, whom now thou liftest to the heavens with praise, now dost tear with sudden abuse: these things might perhaps be borne.",
+          "I pass over Julius Caesar also, whose proved clemency was a shelter even to assailants; I say nothing further of great Pompey, with whom, by some right of friendship, thou didst seem able to do anything.",
+          "But what madness drove thee upon Antony? I think it was love of the republic, which thou didst confess had now utterly fallen.",
+          "But if pure faith, if liberty, drew thee on, what hadst thou so familiar with Augustus?",
+          "For what, indeed, wilt thou answer thy Brutus?",
+          "This remained, unhappy man, and this was the last step, Cicero, that thou shouldst revile this same man whom thou so praised, one who did not, I say, injure thee, but did not stand in the way of those who injured thee.",
+          "I lament thy lot, my friend, and am ashamed and sorry for thy errors; and now with the same Brutus I ascribe nothing to these arts, in which I know that thou wast most instructed.",
+          "For what profit is there in teaching others, or in always speaking of virtues in the most ornate words, if meanwhile thou dost not listen to thyself?",
+          "Ah, how much better it had been, especially for a philosopher, to have grown old in some peaceful country place, thinking not of this scant life but of the life everlasting, to have held no fasces, to have longed for no triumphs, and to have suffered no Catilines to puff up thy spirit.",
+          "But all this is vain.",
+          "Farewell forever, my Cicero.",
+          "Written in the land of the living; on the right bank of the Adige, in Verona of Transpadane Italy, on the 16th of June, and in the year of that God whom you never knew, 1345."
+        ],
+        "translationCredit": "Latin: Wikisource; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+        "translationCreditLanguage": "Sources",
+        "translationUrl": "https://petrarch.petersadlon.com/read_letters.html?s=_f_24_03.html"
+      }
+    ],
+    "shortTitle": "To Cicero"
+  },
+  {
     "id": "petrarch-posterity",
     "title": "Petrarch - Letter to Posterity",
     "author": "Francesco Petrarch",

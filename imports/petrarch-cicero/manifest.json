@@ -1,0 +1,19 @@
+{
+  "id": "petrarch-cicero",
+  "title": "Petrarch - To Cicero",
+  "shortTitle": "To Cicero",
+  "author": "Francesco Petrarch",
+  "year": 1345,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Epistola ad Marcum Tullium Ciceronem",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Wikisource; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://petrarch.petersadlon.com/read_letters.html?s=_f_24_03.html"
+    }
+  ]
+}
