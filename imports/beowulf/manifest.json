@@ -1,0 +1,19 @@
+{
+  "id": "beowulf",
+  "title": "Beowulf",
+  "shortTitle": "Old English epic",
+  "author": "Anonymous",
+  "year": 1000,
+  "lang": "old_english",
+  "chapters": [
+    {
+      "title": "Beowulf",
+      "startLine": 1,
+      "original": "old_english.txt",
+      "english": "english.txt",
+      "translationCredit": "Old English: Bilingual Beowulf PDF; English: Francis B. Gummere (public domain)",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://www.gutenberg.org/ebooks/16328"
+    }
+  ]
+}

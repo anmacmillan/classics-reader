@@ -136,8 +136,8 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
     missing = required - manifest.keys()
     if missing:
         raise ValueError(f"{import_dir.name}: manifest missing {', '.join(sorted(missing))}")
-    if manifest["lang"] not in {"greek", "latin"}:
-        raise ValueError(f"{import_dir.name}: lang must be greek or latin")
+    if manifest["lang"] not in {"greek", "latin", "old_english"}:
+        raise ValueError(f"{import_dir.name}: lang must be greek, latin, or old_english")
     if not manifest["chapters"]:
         raise ValueError(f"{import_dir.name}: manifest requires at least one chapter")
 
@@ -179,6 +179,7 @@ def main() -> int:
     dictionary_keys = {
         "greek": load_dictionary_keys("GREEK_DICT"),
         "latin": load_dictionary_keys("LATIN_DICT"),
+        "old_english": set(),
     }
     books = []
     seen_ids = set()

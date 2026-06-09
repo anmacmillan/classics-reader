@@ -225,8 +225,8 @@ function renderLibrary() {
     const completedCh = book.chaptersRead || 0;
     const pct = Math.round((completedCh / totalCh) * 100);
 
-    const langIcon = book.lang === "latin" ? "\u{1F4DC}" : "\u{1F525}";
-    const langLabel = book.lang === "latin" ? "Latijn" : "Grieks";
+    const langIcon = book.lang === "latin" ? "\u{1F4DC}" : book.lang === "greek" ? "\u{1F525}" : "\u{1F4D6}";
+    const langLabel = book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels";
 
     const displayTitle = workDisplayTitle(book);
     const shortTitle = book.shortTitle ? `<p class="book-short-title">${book.shortTitle}</p>` : "";
@@ -264,11 +264,11 @@ function renderAuthorLibrary(grid) {
     const works = state.books.filter((book) => book.author === author);
     const card = document.createElement("div");
     card.className = "book-card author-card";
-    const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latijn" : "Grieks"))];
+    const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels"))];
     const sections = works.reduce((total, book) => total + book.chapters.length, 0);
 
     card.innerHTML = `
-      <div class="book-icon">${works[0].lang === "latin" ? "\u{1F4DC}" : "\u{1F525}"}</div>
+      <div class="book-icon">${works[0].lang === "latin" ? "\u{1F4DC}" : works[0].lang === "greek" ? "\u{1F525}" : "\u{1F4D6}"}</div>
       <h3>${author}</h3>
       <p class="author-work-count">${works.length} ${works.length === 1 ? "text" : "texts"}</p>
       <div class="book-meta"><span>${languages.join(" · ")}</span><span>· ${sections} sections</span></div>
@@ -291,7 +291,7 @@ function workDisplayTitle(book) {
 
 function authorSummary(author) {
   const works = state.books.filter((book) => book.author === author);
-  const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latin" : "Greek"))];
+  const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latin" : book.lang === "greek" ? "Greek" : "Old English"))];
   return `${works.length} ${works.length === 1 ? "text" : "texts"} · ${languages.join(" · ")}`;
 }
 
@@ -550,6 +550,7 @@ function getDictionaryEntry(rawWord, lang) {
     .toLowerCase()
     .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
   const normalised = normaliseLookupKey(rawWord);
+  if (lang !== "greek" && lang !== "latin") return null;
   const dict = lang === "greek" ? GREEK_DICT : LATIN_DICT;
   return dict[original] || dict[normalised] || null;
 }
