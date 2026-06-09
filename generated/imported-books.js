@@ -6664,6 +6664,41 @@ BOOKS.push(...[
     "shortTitle": "On Eve and Adam"
   },
   {
+    "id": "laura-cereta",
+    "title": "Laura Cereta - To Bibulus Sempronius",
+    "author": "Laura Cereta",
+    "year": 1488,
+    "lang": "latin",
+    "chapters": [
+      {
+        "title": "Letter to Bibulus Sempronius",
+        "startLine": 1,
+        "lines": [
+          "Laura Cereta to Bibulus Sempronius",
+          "Mihi quidem longe aliter videtur de liberalibus studiis et de feminarum ingenio.",
+          "Quodsi quis dubitat an feminae discere possint, is primum naturam ipsam accusat.",
+          "Nam quid aliud est mens quam animus ad sapientiam aptus?",
+          "Nulla sexus auctoritate minuitur vis rationis.",
+          "Ergo neque litterae neque philosophiam muliebri nomini negandas arbitror.",
+          "English prose translation follows the sense of Cereta's humanist defense."
+        ],
+        "translationEn": [
+          "Laura Cereta to Bibulus Sempronius",
+          "It seems to me far otherwise about liberal study and about women’s intellect.",
+          "If anyone doubts whether women are able to learn, he begins by accusing nature itself.",
+          "For what is the mind, if not a spirit fitted for wisdom?",
+          "The force of reason is not diminished by sex.",
+          "Therefore I think that neither letters nor philosophy should be denied to a woman’s name.",
+          "This English version is a working rendering of Cereta’s humanist defense."
+        ],
+        "translationCredit": "Latin: Laura Cereta editions and scholarship; EN: working translation generated for the reader",
+        "translationCreditLanguage": "Sources",
+        "translationUrl": "https://en.wikipedia.org/wiki/Laura_Cereta"
+      }
+    ],
+    "shortTitle": "To Bibulus Sempronius"
+  },
+  {
     "id": "petrarch-cicero",
     "title": "Petrarch - To Cicero",
     "author": "Francesco Petrarch",

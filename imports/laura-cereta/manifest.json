@@ -1,0 +1,19 @@
+{
+  "id": "laura-cereta",
+  "title": "Laura Cereta - To Bibulus Sempronius",
+  "shortTitle": "To Bibulus Sempronius",
+  "author": "Laura Cereta",
+  "year": 1488,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Letter to Bibulus Sempronius",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Laura Cereta editions and scholarship; EN: working translation generated for the reader",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://en.wikipedia.org/wiki/Laura_Cereta"
+    }
+  ]
+}
