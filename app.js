@@ -550,8 +550,12 @@ function getDictionaryEntry(rawWord, lang) {
     .toLowerCase()
     .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
   const normalised = normaliseLookupKey(rawWord);
-  if (lang !== "greek" && lang !== "latin") return null;
-  const dict = lang === "greek" ? GREEK_DICT : LATIN_DICT;
+  if (lang !== "greek" && lang !== "latin" && lang !== "old_english") return null;
+  const dict = lang === "greek"
+    ? GREEK_DICT
+    : lang === "latin"
+      ? LATIN_DICT
+      : OLD_ENGLISH_DICT;
   return dict[original] || dict[normalised] || null;
 }
 
