@@ -10,6 +10,8 @@ const state = {
 };
 
 const GIST_FILE = "slovo_progress.json";
+const SHARED_GIST_ID_KEY = "anmac_shared_gist_id_v1";
+const SHARED_GITHUB_PAT_KEY = "anmac_shared_github_pat_v1";
 let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
@@ -899,7 +901,8 @@ function exportVocabulary(format) {
 async function githubFetch(url, options = {}) {
   const pat = localStorage.getItem("slovo_github_pat");
   const calciferPat = localStorage.getItem("calcifer_github_pat");
-  const effectivePat = pat || calciferPat;
+  const sharedPat = localStorage.getItem(SHARED_GITHUB_PAT_KEY);
+  const effectivePat = pat || calciferPat || sharedPat;
   if (!effectivePat) return null;
 
   const headers = {
@@ -911,7 +914,9 @@ async function githubFetch(url, options = {}) {
 }
 
 async function syncProgressToGist() {
-  const gistId = localStorage.getItem("slovo_gist_id");
+  const gistId =
+    localStorage.getItem("slovo_gist_id") ||
+    localStorage.getItem(SHARED_GIST_ID_KEY);
   if (!gistId) return;
 
   let progressData = {};
@@ -960,7 +965,9 @@ async function syncProgressToGist() {
 }
 
 async function loadProgressFromGist() {
-  let gistId = localStorage.getItem("slovo_gist_id");
+  let gistId =
+    localStorage.getItem("slovo_gist_id") ||
+    localStorage.getItem(SHARED_GIST_ID_KEY);
   let progressData = null;
 
   try {
@@ -979,6 +986,7 @@ async function loadProgressFromGist() {
         const found = gists.find(g => g.files && g.files[GIST_FILE]);
         if (found) {
           localStorage.setItem("slovo_gist_id", found.id);
+          localStorage.setItem(SHARED_GIST_ID_KEY, found.id);
           progressData = JSON.parse(found.files[GIST_FILE].content);
         }
       }
