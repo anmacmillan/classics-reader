@@ -1,0 +1,67 @@
+{
+  "id": "plato-symposium",
+  "title": "Plato — Symposium",
+  "shortTitle": "Het drinkgelag over Eros",
+  "author": "Plato",
+  "year": -385,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Proloog en kader (172a–177e)",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: GLAUx / Perseus (tlg0059.tlg011) · EN: zin-voor-zin studievertaling · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:172a"
+    },
+    {
+      "title": "De rede van Phaedrus (178a–179e)",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "De rede van Pausanias (180a–185e)",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "De rede van Eryximachus (186a–188e)",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "De rede van Aristophanes (189a–193e)",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "De rede van Agathon (194a–197e)",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Socrates ondervraagt Agathon (198a–201e)",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "De rede van Diotima (202a–212c)",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Alcibiades en het slot (213a–223d)",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt"
+    }
+  ]
+}
