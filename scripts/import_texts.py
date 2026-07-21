@@ -17,6 +17,7 @@ OUTPUT_PATH = ROOT / "generated" / "imported-books.js"
 DATA_PATH = ROOT / "data.js"
 DICTIONARY_PATH = ROOT / "dictionary.js"
 IMPORTED_LATIN_DICTIONARY_PATH = ROOT / "generated" / "imported-latin-dictionary.js"
+IMPORTED_GREEK_DICTIONARY_PATH = ROOT / "generated" / "imported-greek-dictionary.js"
 
 
 def read_lines(path: Path) -> list[str]:
@@ -40,6 +41,9 @@ def load_dictionary_keys(dictionary_name: str) -> set[str]:
     keys = set(re.findall(r'^\s*"([^"]+)":', text[start:end], flags=re.MULTILINE))
     if dictionary_name == "LATIN_DICT" and IMPORTED_LATIN_DICTIONARY_PATH.exists():
         supplement = IMPORTED_LATIN_DICTIONARY_PATH.read_text(encoding="utf-8")
+        keys.update(re.findall(r'^\s*"([^"]+)":', supplement, flags=re.MULTILINE))
+    if dictionary_name == "GREEK_DICT" and IMPORTED_GREEK_DICTIONARY_PATH.exists():
+        supplement = IMPORTED_GREEK_DICTIONARY_PATH.read_text(encoding="utf-8")
         keys.update(re.findall(r'^\s*"([^"]+)":', supplement, flags=re.MULTILINE))
     return keys
 

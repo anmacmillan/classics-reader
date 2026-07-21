@@ -13,3 +13,4 @@ check:
 	node --check dictionary.js
 	node --check generated/imported-books.js
 	node --check generated/imported-latin-dictionary.js
+	node --check generated/imported-greek-dictionary.js

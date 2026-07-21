@@ -1,0 +1,19 @@
+{
+  "id": "homer-odyssey-1",
+  "title": "Homerus — Odyssee I",
+  "shortTitle": "Athena bezoekt Telemachus",
+  "author": "Homerus",
+  "year": -800,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Boek I — volledige tekst (regels 1-444)",
+      "startLine": 1,
+      "original": "greek.txt",
+      "english": "english.txt",
+      "translationCredit": "Grieks: Perseus Digital Library (tlg0012.tlg002.perseus-grc2) · EN: regel-voor-regel studievertaling · Parsing: Perseus Ancient Greek Dependency Treebank 2.1 (CC BY-SA)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:1"
+    }
+  ]
+}
