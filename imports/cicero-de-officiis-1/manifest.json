@@ -1,0 +1,85 @@
+{
+  "id": "cicero-de-officiis-1",
+  "title": "Cicero — De Officiis I",
+  "shortTitle": "Over plichten: het honestum",
+  "author": "Cicero",
+  "year": -44,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Aan zijn zoon Marcus; het plan van het werk (§§1–10)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Latijn: Perseus Digital Library (phi0474.phi055) · EN: Walter Miller (Loeb, 1913), public domain",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi0474.phi055.perseus-lat1:1.1"
+    },
+    {
+      "title": "Het honestum en zijn vier bronnen; wijsheid (§§11–19)",
+      "startLine": 11,
+      "original": "latin-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Rechtvaardigheid: grondslagen (§§20–30)",
+      "startLine": 20,
+      "original": "latin-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Rechtvaardigheid: trouw, onrecht en oorlog (§§31–41)",
+      "startLine": 31,
+      "original": "latin-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Weldadigheid en vrijgevigheid (§§42–49)",
+      "startLine": 42,
+      "original": "latin-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "De gemeenschap van het mensengeslacht (§§50–60)",
+      "startLine": 50,
+      "original": "latin-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Grootheid van ziel: het verhevene (§§61–73)",
+      "startLine": 61,
+      "original": "latin-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Toga en zwaard: burgerlijke moed (§§74–92)",
+      "startLine": 74,
+      "original": "latin-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Decorum: het passende (§§93–106)",
+      "startLine": 93,
+      "original": "latin-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "De vier rollen (personae) (§§107–121)",
+      "startLine": 107,
+      "original": "latin-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Leeftijden, gedrag en het huis (§§122–140)",
+      "startLine": 122,
+      "original": "latin-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Beroepen en de rangorde van plichten (§§141–161)",
+      "startLine": 141,
+      "original": "latin-12.txt",
+      "english": "english-12.txt"
+    }
+  ]
+}

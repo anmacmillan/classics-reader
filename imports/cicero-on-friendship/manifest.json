@@ -7,13 +7,67 @@
   "lang": "latin",
   "chapters": [
     {
-      "title": "Laelius de Amicitia - complete work",
+      "title": "Opdracht aan Atticus (§§1–5)",
       "startLine": 1,
-      "original": "latin.txt",
-      "english": "english.txt",
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
       "translationCredit": "Latin: The Latin Library · EN: William Armistead Falconer, public domain, via Perseus",
       "translationCreditLanguage": "Sources",
       "translationUrl": "https://archive.org/details/desenectutedeami0000cice/page/108"
+    },
+    {
+      "title": "Na de dood van Scipio (§§6–16)",
+      "startLine": 6,
+      "original": "latin-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Laelius over vriendschap (§§17–25)",
+      "startLine": 17,
+      "original": "latin-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "De oorsprong: natuur, niet nut (§§26–35)",
+      "startLine": 26,
+      "original": "latin-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Hoe ver ga je voor een vriend? (§§36–44)",
+      "startLine": 36,
+      "original": "latin-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Tegen de leer van de voorzichtigheid (§§45–55)",
+      "startLine": 45,
+      "original": "latin-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Regels en beproeving (§§56–66)",
+      "startLine": 56,
+      "original": "latin-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Oude en nieuwe vrienden (§§67–76)",
+      "startLine": 67,
+      "original": "latin-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Verval en breuk (§§77–88)",
+      "startLine": 77,
+      "original": "latin-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Vleierij; deugd als grondslag (§§89–104)",
+      "startLine": 89,
+      "original": "latin-10.txt",
+      "english": "english-10.txt"
     }
   ]
 }
