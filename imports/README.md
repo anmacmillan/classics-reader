@@ -81,5 +81,24 @@ extending.
 
 Run `npm install` once, then `make dictionary` after adding Latin imports. This
 uses Whitaker's Words to generate morphological entries for Latin forms not
-already present in `dictionary.js`. Unrecognised or incorrectly parsed forms
-must be added as reviewed overrides in `scripts/build_latin_import_dictionary.mjs`.
+already present in `dictionary.js`. It covers both `imports/` and the Latin
+texts in `data.js`. Unrecognised or incorrectly parsed forms must be added as
+reviewed overrides in `scripts/build_latin_import_dictionary.mjs`.
+
+## Greek Dictionary Pipeline
+
+Greek word-click entries live in `generated/imported-greek-dictionary.js`
+(merged over the legacy `GREEK_DICT`, so later entries win). They are built
+from dependency treebanks with `scripts/build_greek_treebank_dictionary.py` —
+see that script's docstring for usage and treebank sources:
+
+- Hand-verified analyses (Homer, Sophocles, Aeschylus):
+  PerseusDL `treebank_data` (AGDT v2.1).
+- Automatic analyses for nearly everything else, including all of Plato:
+  GLAUx (`perseids-publications/glaux-trees`), ~96-97% accurate on prose.
+
+The script emits per-form analyses plus a lemma worklist; supply per-lemma
+`{en, nl}` glosses (an LLM drafts these well from the worklist), merge, and
+append to the generated file. Every form key must match what the app looks up:
+lowercased, punctuation-stripped, elision apostrophe U+2019. The importer's
+coverage line must read 100% before publishing.

@@ -67,6 +67,11 @@ Object.assign(LATIN_DICT, {
     "en": "destroy, efface, obliterate; kill; banish, dispel; put end to. abolish, rescind",
     "grammar": "V 2 1 FUT ACTIVE IND 3 S"
   },
+  "abolere": {
+    "lemma": "aboleo, abolere, abolevi, abolitus V (2nd) TRANS",
+    "en": "destroy, efface, obliterate; kill; banish, dispel; put end to. abolish, rescind",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
   "absciderat": {
     "lemma": "abscido, abscidere, abscidi, abscisus V (3rd) TRANS",
     "en": "hew/cut off/away/out; fell/cut down; remove, separate/cut off/destroy, divide",
@@ -97,6 +102,11 @@ Object.assign(LATIN_DICT, {
     "en": "bear/carry/take/fetch/sweep/snatch away/off, remove, withdraw; steal, obtain",
     "grammar": "V 3 2 PERF ACTIVE IND 3 S"
   },
+  "absumpta": {
+    "lemma": "absumo, absumere, absumpsi, absumptus V (3rd) TRANS",
+    "en": "spend, waste, squander, use up; take up (time); consume; exhaust, wear out",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "absurdum": {
     "lemma": "absurdus, absurda, absurdum ADJ",
     "en": "out of tune, discordant; absurd, nonsensical, out of place; awkward, uncouth",
@@ -126,6 +136,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "abunde ADV",
     "en": "abundantly; in profusion/abundance; more than enough; amply, exceedingly, very",
     "grammar": "ADV"
+  },
+  "acantho": {
+    "lemma": "acanthus, acanthi N (2nd) M",
+    "en": "bear's-foot, (black) hellbore (plant); gum arabic tree/wood",
+    "grammar": "N 2 1 DAT S M"
   },
   "accedas": {
     "lemma": "accedo, accedere, accessi, accessus V (3rd)",
@@ -282,6 +297,11 @@ Object.assign(LATIN_DICT, {
     "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
     "grammar": "VPAR 3 1 DAT P X FUT PASSIVE PPL"
   },
+  "accipiet": {
+    "lemma": "accipio, accipere, accepi, acceptus V (3rd) TRANS",
+    "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
+    "grammar": "V 3 1 FUT ACTIVE IND 3 S"
+  },
   "accipietur": {
     "lemma": "accipio, accipere, accepi, acceptus V (3rd) TRANS",
     "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
@@ -297,15 +317,30 @@ Object.assign(LATIN_DICT, {
     "en": "take, grasp, receive, accept, undertake; admit, let in, hear, learn; obey",
     "grammar": "V 3 1 PRES ACTIVE IND 2 S"
   },
+  "accitu": {
+    "lemma": "accio, accire, accivi, accitus V (4th) TRANS",
+    "en": "send for, summon (forth), fetch; invite; (w/mortum) commit suicide",
+    "grammar": "SUPINE"
+  },
   "accuratam": {
     "lemma": "accuro, accurare, accuravi, accuratus V (1st) TRANS",
     "en": "take care of, attend to (duties/guests), give attention to; perform with care",
     "grammar": "VPAR 1 1 ACC S F PERF PASSIVE PPL"
   },
+  "accuratius": {
+    "lemma": "accuratus, accurata -um, accuratior -or -us, accuratissimus -a -um ADJ",
+    "en": "accurate, exact, with care, meticulous; carefully performed/prepared; finished",
+    "grammar": "ADJ 1 1 NOM S N COMP"
+  },
   "accusandi": {
     "lemma": "accuso, accusare, accusavi, accusatus V (1st)",
     "en": "accuse, blame, find fault, impugn; reprimand; charge (w/crime/offense)",
     "grammar": "VPAR 1 1 GEN S M FUT PASSIVE PPL"
+  },
+  "accusat": {
+    "lemma": "accuso, accusare, accusavi, accusatus V (1st)",
+    "en": "accuse, blame, find fault, impugn; reprimand; charge (w/crime/offense)",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "acerba": {
     "lemma": "acerbus, acerba -um, acerbior -or -us, acerbissimus -a -um ADJ",
@@ -337,10 +372,45 @@ Object.assign(LATIN_DICT, {
     "en": "sharp, bitter, pointed, piercing, shrill; sagacious, keen; severe, vigorous",
     "grammar": "ADJ 3 3 NOM S M SUPER"
   },
+  "acesten": {
+    "lemma": "Acestes, Acestis N M",
+    "en": "Acestes; (Sicilian king of Trojan descent, host of Aeneas)",
+    "grammar": "N 3 8 ACC S M"
+  },
+  "achaten": {
+    "lemma": "Achates, Achatis N M",
+    "en": "Achates; (faithful companion of Aeneas, fidus Achates)",
+    "grammar": "N 3 8 ACC S M"
+  },
+  "achillem": {
+    "lemma": "Achilles, Achillis N M",
+    "en": "Achilles, Greek hero; (other Greeks); (typifying great warrior)",
+    "grammar": "N 3 8 ACC S M"
+  },
+  "achilles": {
+    "lemma": "Achilles, Achillis N M",
+    "en": "Achilles, Greek hero; (other Greeks); (typifying great warrior)",
+    "grammar": "N 3 8 NOM S M"
+  },
+  "achilli": {
+    "lemma": "Achilles, Achillis N M",
+    "en": "Achilles, Greek hero; (other Greeks); (typifying great warrior)",
+    "grammar": "N 3 8 GEN S M"
+  },
+  "acidaliae": {
+    "lemma": "Acidalius, Acidalia, Acidalium",
+    "en": "Acidalian (epithet of Venus, from the spring Acidalia in Boeotia)",
+    "grammar": "ADJ GEN S F (proper name)"
+  },
   "aciem": {
     "lemma": "acies, aciei N (5th) F",
     "en": "sharpness, sharp edge, point; battle line/array; sight, glance; pupil of eye",
     "grammar": "N 5 1 ACC S F"
+  },
+  "acies": {
+    "lemma": "acies, aciei N (5th) F",
+    "en": "sharpness, sharp edge, point; battle line/array; sight, glance; pupil of eye",
+    "grammar": "N 5 1 NOM S F"
   },
   "acilium": {
     "lemma": "cilium, cilii N (2nd) N",
@@ -432,6 +502,16 @@ Object.assign(LATIN_DICT, {
     "en": "drive in/to (cattle), force, impel; cast, hurl; consign (curse); bind (oath)",
     "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
   },
+  "adae": {
+    "lemma": "-, Adae N (1st) M",
+    "en": "Adam; (Hebrew); (NOM S => Adam, not Ada, otherwise 1 DECL Ad...?)",
+    "grammar": "N 1 1 GEN S M"
+  },
+  "adam": {
+    "lemma": "-, Adae N (1st) M",
+    "en": "Adam; (Hebrew); (NOM S => Adam, not Ada, otherwise 1 DECL Ad...?)",
+    "grammar": "N 1 1 ACC S M"
+  },
   "addendum": {
     "lemma": "addo, addere, addidi, additus V (3rd) TRANS",
     "en": "add, insert, bring/attach to, say in addition; increase; impart; associate",
@@ -446,6 +526,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "addo, addere, addidi, additus V (3rd) TRANS",
     "en": "add, insert, bring/attach to, say in addition; increase; impart; associate",
     "grammar": "V 3 1 PRES ACTIVE IND 1 P"
+  },
+  "additur": {
+    "lemma": "addo, addere, addidi, additus V (3rd) TRANS",
+    "en": "add, insert, bring/attach to, say in addition; increase; impart; associate",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "addixissent": {
     "lemma": "addico, addicere, addixi, addictus V (3rd) TRANS",
@@ -476,6 +561,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "adduco, adducere, adduxi, adductus V (3rd) TRANS",
     "en": "lead up/to/away; bring up/to; persuade, induce; lead, bring; contract, tighten",
     "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
+  "addunt": {
+    "lemma": "addo, addere, addidi, additus V (3rd) TRANS",
+    "en": "add, insert, bring/attach to, say in addition; increase; impart; associate",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "adegit": {
     "lemma": "adigo, adigere, adegi, adactus V (3rd) TRANS",
@@ -532,6 +622,11 @@ Object.assign(LATIN_DICT, {
     "en": "approach; attack; visit, address; undertake; take possession (inheritance)",
     "grammar": "VPAR 6 1 DAT P X FUT PASSIVE PPL"
   },
+  "adfatur": {
+    "lemma": "adfor, adfari, adfatus sum V (1st) DEP",
+    "en": "speak to, address; be spoked to/addressed (PASS), be decreed by fate",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
   "adfecti": {
     "lemma": "adfectus, adfectus N (4th) M",
     "en": "affection, passion, love; friendly feeling (Cas); goodwill; loved ones (pl.)",
@@ -557,6 +652,21 @@ Object.assign(LATIN_DICT, {
     "en": "bring to, carry, convey; report, bring word, allege, announce; produce, cause",
     "grammar": "V 3 2 PRES ACTIVE IND 3 P"
   },
+  "adflarat": {
+    "lemma": "adflo, adflare, adflavi, adflatus",
+    "en": "had breathed upon (syncopated adflaverat)",
+    "grammar": "V PLUP ACTIVE IND 3 S (syncopated)"
+  },
+  "adflictis": {
+    "lemma": "adfligo, adfligere, adflixi, adflictus V (3rd) TRANS",
+    "en": "overthrow/throw down; afflict, damage, crush, break, ruin; humble, weaken, vex",
+    "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
+  },
+  "adforet": {
+    "lemma": "adsum, adesse, adfui, adfuturus V (5th) TO_BEING",
+    "en": "be near, be present, be in attendance, arrive, appear; aid (w/DAT)",
+    "grammar": "V 5 1 IMPF ACTIVE SUB 3 S"
+  },
   "adfuisses": {
     "lemma": "adsum, adesse, adfui, adfuturus V (5th) TO_BEING",
     "en": "be near, be present, be in attendance, arrive, appear; aid (w/DAT)",
@@ -571,6 +681,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "adsum, adesse, adfui, adfuturus V (5th) TO_BEING",
     "en": "be near, be present, be in attendance, arrive, appear; aid (w/DAT)",
     "grammar": "V 5 1 PERF ACTIVE IND 2 P"
+  },
+  "adgnoscit": {
+    "lemma": "adgnosco, adgnoscere, adgnovi, adgnitus V (3rd)",
+    "en": "recognize, realize, discern; acknowledge, claim, admit to/responsibility",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
   "adgnosco": {
     "lemma": "adgnosco, adgnoscere, adgnovi, adgnitus V (3rd)",
@@ -837,10 +952,30 @@ Object.assign(LATIN_DICT, {
     "en": "move up, bring up/near; lean on, conduct; draw near, approach; apply, add",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "adnavimus": {
+    "lemma": "adno, adnare, adnavi, adnatus V (1st) INTRANS",
+    "en": "swim to/towards, approach by swimming; sail to/towards; brought by sea (goods)",
+    "grammar": "V 1 1 PERF ACTIVE IND 1 P"
+  },
   "adnititur": {
     "lemma": "adnitor, adniti, adnisus sum V (3rd) DEP",
     "en": "lean/rest upon, support oneself, (w/genibus) kneel; strive, work, exert, try",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "adolere": {
+    "lemma": "adoleo, adolere, adolui, adolultus V (2nd) TRANS",
+    "en": "worship, make/burn sacrifice/offerings; cremate; destroy/treat by fire/heat",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "adolescentia": {
+    "lemma": "adolescentia, adolescentiae N (1st) F",
+    "en": "youth, young manhood; characteristic of being young, youthfulness; the young",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "adolescentium": {
+    "lemma": "adolescentia, adolescentiae N (1st) F",
+    "en": "youth, young manhood; characteristic of being young, youthfulness; the young",
+    "grammar": "N 1 1 GEN P F"
   },
   "adoptaberis": {
     "lemma": "adopto, adoptare, adoptavi, adoptatus V (1st) TRANS",
@@ -871,6 +1006,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "adquiro, adquirere, adquisivi, adquisitus V (3rd) TRANS",
     "en": "acquire besides/in addition, obtain, gain, win, get; add to stock; accrue",
     "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "adriaticum": {
+    "lemma": "Adriaticus, Adriatica, Adriaticum",
+    "en": "Adriatic (the Adriatic Sea)",
+    "grammar": "ADJ ACC S N (proper name)"
   },
   "adsciscantque": {
     "lemma": "adscisco, adsciscere, adscivi, adscitus V (3rd) TRANS",
@@ -907,6 +1047,11 @@ Object.assign(LATIN_DICT, {
     "en": "be accustomed/in the habit of; be customary accompaniment, go with; be usual",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "adspirans": {
+    "lemma": "adspiro, adspirare, adspiravi, adspiratus V (1st)",
+    "en": "breathe/blow (upon); aspirate; instill, infuse; be fragrant; influence; aspire",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
+  },
   "adstricti": {
     "lemma": "adstringo, adstringere, adstrinxi, adstrictus V (3rd) TRANS",
     "en": "tie up/down/back/on/together/tightly; bind, grasp, tighten, fix; form boundary",
@@ -922,10 +1067,20 @@ Object.assign(LATIN_DICT, {
     "en": "tie up/down/back/on/together/tightly; bind, grasp, tighten, fix; form boundary",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "adsum": {
+    "lemma": "adsum, adesse, adfui, adfuturus V (5th) TO_BEING",
+    "en": "be near, be present, be in attendance, arrive, appear; aid (w/DAT)",
+    "grammar": "V 5 1 PRES ACTIVE IND 1 S"
+  },
   "adsunt": {
     "lemma": "adsum, adesse, adfui, adfuturus V (5th) TO_BEING",
     "en": "be near, be present, be in attendance, arrive, appear; aid (w/DAT)",
     "grammar": "V 5 1 PRES ACTIVE IND 3 P"
+  },
+  "adsurgens": {
+    "lemma": "adsurgo, adsurgere, adsurrexi, adsurrectus V (3rd) INTRANS",
+    "en": "rise/stand up, rise to one's feet/from bed; climb, lift oneself; grow; soar",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL"
   },
   "aduehentium": {
     "lemma": "adveho, advehere, advexi, advectus V (3rd) TRANS",
@@ -1007,6 +1162,11 @@ Object.assign(LATIN_DICT, {
     "en": "adultery; blending/mixing of different strains/ingredients; contamination",
     "grammar": "N 2 4 DAT S N"
   },
+  "adultos": {
+    "lemma": "adolesco, adolescere, adolevi, adultus V (3rd) INTRANS",
+    "en": "grow up, mature, reach manhood/peak; become established/strong; grow, increase",
+    "grammar": "VPAR 3 1 ACC P M PERF PASSIVE PPL"
+  },
   "adumbratis": {
     "lemma": "adumbro, adumbrare, adumbravi, adumbratus V (1st) TRANS",
     "en": "sketch out, silhouette, outline, represent; shade, screen, obscure; feign",
@@ -1021,6 +1181,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "advoco, advocare, advocavi, advocatus V (1st) TRANS",
     "en": "call, summon, invite, convoke, call for; call in as counsel; invoke the Gods",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "advecti": {
+    "lemma": "adveho, advehere, advexi, advectus V (3rd) TRANS",
+    "en": "carry, bring, convey (to); [advehor => arrive by travel, ride to]",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
   },
   "adversando": {
     "lemma": "adversor, adversari, adversatus sum V (1st) DEP",
@@ -1107,6 +1272,21 @@ Object.assign(LATIN_DICT, {
     "en": "Aemilian; of Aemilius gens",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "aeneadum": {
+    "lemma": "Aeneadae, Aeneadum (pl.)",
+    "en": "of the Aeneadae (followers/descendants of Aeneas, the Trojans)",
+    "grammar": "N GEN P M (proper name)"
+  },
+  "aequabat": {
+    "lemma": "aequo, aequare, aequavi, aequatus V (1st) TRANS",
+    "en": "level, make even/straight; equal; compare; reach as high or deep as",
+    "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
+  },
+  "aequae": {
+    "lemma": "aequus, aequa -um, aequior -or -us, aequissimus -a -um ADJ",
+    "en": "level, even, equal, like; just, kind, impartial, fair; patient, contented",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
   "aequales": {
     "lemma": "aequalis, aequale, aequalior -or -us, aequalissimus -a -um ADJ",
     "en": "equal, similar; uniform, level, flat; of the same age/generation/duration",
@@ -1126,6 +1306,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "aequaliter, aequalitius, aequalitissime ADV",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADV + TACKON"
+  },
+  "aequare": {
+    "lemma": "aequo, aequare, aequavi, aequatus V (1st) TRANS",
+    "en": "level, make even/straight; equal; compare; reach as high or deep as",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
   "aeque": {
     "lemma": "aequus, aequa -um, aequior -or -us, aequissimus -a -um ADJ",
@@ -1162,10 +1347,20 @@ Object.assign(LATIN_DICT, {
     "en": "level, even, equal, like; just, kind, impartial, fair; patient, contented",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "aerea": {
+    "lemma": "aereus, aerea, aereum ADJ",
+    "en": "made of/bound with/armored with/of the color of copper/bronze/brass",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "aeruginosis": {
     "lemma": "aeruginosus, aeruginosa, aeruginosum ADJ",
     "en": "covered with verdigis; rusty",
     "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "aestate": {
+    "lemma": "aestas, aestatis N (3rd) F",
+    "en": "summer; summer heat/weather; a year",
+    "grammar": "N 3 1 DAT S F"
   },
   "aestimandi": {
     "lemma": "aestimo, aestimare, aestimavi, aestimatus V (1st) TRANS",
@@ -1452,6 +1647,16 @@ Object.assign(LATIN_DICT, {
     "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "agmina": {
+    "lemma": "agmen, agminis N (3rd) N",
+    "en": "stream; herd, flock, troop, crowd; marching army, column, line; procession",
+    "grammar": "N 3 2 NOM P N"
+  },
+  "agnos": {
+    "lemma": "agnus, agni N (2nd) M",
+    "en": "lamb",
+    "grammar": "N 2 1 NOM S M"
+  },
   "agnoscant": {
     "lemma": "agnosco, agnoscere, agnovi, agnitus V (3rd)",
     "en": "recognize, realize, discern; acknowledge, claim, admit to/responsibility",
@@ -1461,6 +1666,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "agnosco, agnoscere, agnovi, agnitus V (3rd)",
     "en": "recognize, realize, discern; acknowledge, claim, admit to/responsibility",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "agnovi": {
+    "lemma": "agnosco, agnoscere, agnovi, agnitus V (3rd)",
+    "en": "recognize, realize, discern; acknowledge, claim, admit to/responsibility",
+    "grammar": "V 3 1 PERF ACTIVE IND 1 S"
   },
   "agnovitque": {
     "lemma": "agnosco, agnoscere, agnovi, agnitus V (3rd)",
@@ -1497,6 +1707,11 @@ Object.assign(LATIN_DICT, {
     "en": "drive/urge/conduct/act; spend (time w/cum); thank (w/gratias); deliver (speech)",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
+  "ah": {
+    "lemma": "ah INTERJ",
+    "en": "exclamation expressing surprise/irony",
+    "grammar": "INTERJ"
+  },
   "aiebat": {
     "lemma": "aio, -, - V",
     "en": "say (defective), assert; say yes/so, affirm, assent; prescribe/lay down (law)",
@@ -1517,6 +1732,11 @@ Object.assign(LATIN_DICT, {
     "en": "say (defective), assert; say yes/so, affirm, assent; prescribe/lay down (law)",
     "grammar": "V 7 1 PRES ACTIVE IND 3 P"
   },
+  "alas": {
+    "lemma": "ala, alae N (1st) F",
+    "en": "wing; upper arm/foreleg/fin; armpit; squadron (cavalry), flank, army's wing",
+    "grammar": "N 1 1 ACC P F"
+  },
   "alentium": {
     "lemma": "alo, alere, alui, alitus V (3rd) TRANS",
     "en": "feed, nourish, rear, nurse, suckle; cherish; support, maintain, develop",
@@ -1527,6 +1747,11 @@ Object.assign(LATIN_DICT, {
     "en": "Alexandrian, of/belonging to Alexandria (City in Egypt and others)",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "alexandro": {
+    "lemma": "Alexander, Alexandri N (2nd) M",
+    "en": "Alexander; (common Greek name); (Alexander the Great - Macedonian king/general)",
+    "grammar": "N 2 3 DAT S M"
+  },
   "algere": {
     "lemma": "algeo, algere, alsi, - V (2nd) INTRANS",
     "en": "be/feel/become cold/chilly/cool; endure cold; be neglected/left in the cold",
@@ -1536,6 +1761,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "alius, alia, alium ADJ",
     "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
     "grammar": "ADJ 1 5 NOM S F POS"
+  },
+  "aliae": {
+    "lemma": "alius, alia, alium ADJ",
+    "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
+    "grammar": "ADJ 1 5 GEN S F POS"
   },
   "aliam": {
     "lemma": "alius, alia, alium ADJ",
@@ -1551,6 +1781,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "alius, alia, alium ADJ",
     "en": "other, another; different, changed; [alii...alii => some...others]; (A+G)",
     "grammar": "ADJ 1 5 ACC P F POS"
+  },
+  "alibi": {
+    "lemma": "alibi ADV",
+    "en": "elsewhere, in another place; in other respects , otherwise; in another matter",
+    "grammar": "ADV"
   },
   "alicui": {
     "lemma": "aliqu PRON",
@@ -1616,6 +1851,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "alienus, aliena -um, alienior -or -us, alienissimus -a -um ADJ",
     "en": "foreign; unconnected; another's; contrary; unworthy; averse, hostile; mad",
     "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "aligerum": {
+    "lemma": "aliger, aligera, aligerum ADJ",
+    "en": "winged, having wings; moving with the speed of flight",
+    "grammar": "ADJ 1 2 NOM S N POS"
+  },
+  "aliique": {
+    "lemma": "alius, alia, alium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 5 GEN S M POS + TACKON"
   },
   "alimentorum": {
     "lemma": "alimentum, alimenti N (2nd) N",
@@ -1762,6 +2007,11 @@ Object.assign(LATIN_DICT, {
     "en": "smear/spread/dash over (W/DAT); spread out on; adhere to",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "alloquitur": {
+    "lemma": "alloquor, alloqui, allocutus sum V (3rd) DEP",
+    "en": "speak to (friendly); address, harangue, make a speech (to); call on; console",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
   "alpes": {
     "lemma": "Alpis, Alpis N (3rd) F",
     "en": "Alps (usually pl.), mountains to the north of Italy",
@@ -1811,6 +2061,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "altus, alta -um, altior -or -us, altissimus -a -um ADJ",
     "en": "high; deep/profound; shrill; lofty/noble; deep rooted; far-fetched; grown great",
     "grammar": "ADJ 1 1 NOM S C COMP"
+  },
+  "altissimum": {
+    "lemma": "altus, alta -um, altior -or -us, altissimus -a -um ADJ",
+    "en": "high; deep/profound; shrill; lofty/noble; deep rooted; far-fetched; grown great",
+    "grammar": "ADJ 1 1 NOM S N SUPER"
+  },
+  "altitudinem": {
+    "lemma": "altitudo, altitudinis N (3rd) F",
+    "en": "height, altitude; depth; loftiness, profundity, noblemindedness, secrecy",
+    "grammar": "N 3 1 ACC S F"
   },
   "altius": {
     "lemma": "altus, alta -um, altior -or -us, altissimus -a -um ADJ",
@@ -1902,6 +2162,11 @@ Object.assign(LATIN_DICT, {
     "en": "love, like; fall in love with; be fond of; have a tendency to",
     "grammar": "V 1 1 PRES PASSIVE IND 3 P"
   },
+  "amaracus": {
+    "lemma": "amaracus, amaraci N (2nd) C",
+    "en": "marjoram; feverfew (pyrethrum parthenium)",
+    "grammar": "N 2 1 NOM S C"
+  },
   "amare": {
     "lemma": "amo, amare, amavi, amatus V (1st)",
     "en": "love, like; fall in love with; be fond of; have a tendency to",
@@ -1911,6 +2176,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "amo, amare, amavi, amatus V (1st)",
     "en": "love, like; fall in love with; be fond of; have a tendency to",
     "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "amasse": {
+    "lemma": "as, assis N (3rd) M",
+    "en": "penny, copper coin; a pound; one, whole, unit; circular flap/valve; round slice; around, round about; having two",
+    "grammar": "N 3 3 DAT S M + PREFIX"
   },
   "amat": {
     "lemma": "amo, amare, amavi, amatus V (1st)",
@@ -1932,10 +2202,25 @@ Object.assign(LATIN_DICT, {
     "en": "love, like; fall in love with; be fond of; have a tendency to",
     "grammar": "V 1 1 PERF ACTIVE IND 1 S"
   },
+  "amazonidum": {
+    "lemma": "Amazonides, Amazonidum (pl.)",
+    "en": "of the Amazons (warrior women led by Penthesilea)",
+    "grammar": "N GEN P F (proper name)"
+  },
+  "ambiendo": {
+    "lemma": "ambio, ambire, ambivi, ambitus V (4th)",
+    "en": "go round, visit in rotation, inspect; solicit, canvass; circle, embrace",
+    "grammar": "VPAR 3 4 DAT S M FUT PASSIVE PPL"
+  },
   "ambigitur": {
     "lemma": "ambigo, ambigere, -, - V (3rd)",
     "en": "hesitate, be in doubt; argue, dispute, contend; call in question; be at issue",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "ambiguam": {
+    "lemma": "ambiguus, ambigua, ambiguum ADJ",
+    "en": "changeable, doubtful, ambiguous, wavering, fickle; treacherous, unethical",
+    "grammar": "ADJ 1 1 ACC S F POS"
   },
   "ambiguitatem": {
     "lemma": "ambiguitas, ambiguitatis N (3rd) F",
@@ -1987,6 +2272,11 @@ Object.assign(LATIN_DICT, {
     "en": "circuit, edge, extent; orbit, cycle; canvass, bribery; circumlocution; show",
     "grammar": "N 4 1 DAT S M"
   },
+  "ambobus": {
+    "lemma": "amb NUM",
+    "en": "both; two of pair; two considered together, both parties; each of two",
+    "grammar": "NUM"
+  },
   "ambulant": {
     "lemma": "ambulo, ambulare, ambulavi, ambulatus V (1st) INTRANS",
     "en": "walk, take a walk, go on foot; travel, march; go about, gad; parade, strut",
@@ -2001,6 +2291,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "amo, amare, amavi, amatus V (1st)",
     "en": "love, like; fall in love with; be fond of; have a tendency to",
     "grammar": "V 1 1 PRES ACTIVE SUB 1 P"
+  },
+  "amentem": {
+    "lemma": "amens, amentis (gen.), amentior -or -us, amentissimus -a -um ADJ",
+    "en": "insane, demented, out of one's mind; very excited, frantic, distracted; foolish",
+    "grammar": "ADJ 3 1 ACC S C POS"
   },
   "amentia": {
     "lemma": "amentia, amentiae N (1st) F",
@@ -2102,6 +2397,11 @@ Object.assign(LATIN_DICT, {
     "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
     "grammar": "ADJ 1 1 ACC P M POS"
   },
+  "amicti": {
+    "lemma": "amictus, amictus N (4th) M",
+    "en": "cloak, mantle; outer garment; clothing, garb; fashion; manner of dress; drapery",
+    "grammar": "N 4 1 GEN S M"
+  },
   "amicum": {
     "lemma": "amicus, amica -um, amicior -or -us, amicissimus -a -um ADJ",
     "en": "friendly, dear, fond of; supporting (political), loyal, devoted; loving",
@@ -2167,10 +2467,20 @@ Object.assign(LATIN_DICT, {
     "en": "move/take/put away, remove, steal; banish, cause to go away; withdraw, retire",
     "grammar": "V 2 1 PRES PASSIVE SUB 3 S"
   },
+  "ampla": {
+    "lemma": "amplus, ampla -um, amplior -or -us, amplissimus -a -um ADJ",
+    "en": "great, large, spacious, wide, ample; distinguished, important, honorable",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "amplae": {
     "lemma": "amplus, ampla -um, amplior -or -us, amplissimus -a -um ADJ",
     "en": "great, large, spacious, wide, ample; distinguished, important, honorable",
     "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "amplexus": {
+    "lemma": "amplector, amplecti, amplexus sum V (3rd) DEP",
+    "en": "surround, encircle, embrace, clasp; esteem; cherish; surround, include, grasp",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
   "amplificandae": {
     "lemma": "amplifico, amplificare, amplificavi, amplificatus V (1st) TRANS",
@@ -2197,10 +2507,20 @@ Object.assign(LATIN_DICT, {
     "en": "great, large, spacious, wide, ample; distinguished, important, honorable",
     "grammar": "ADJ 1 1 NOM S N COMP"
   },
+  "amplum": {
+    "lemma": "amplus, ampla -um, amplior -or -us, amplissimus -a -um ADJ",
+    "en": "great, large, spacious, wide, ample; distinguished, important, honorable",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "amputato": {
     "lemma": "amputo, amputare, amputavi, amputatus V (1st) TRANS",
     "en": "lop/cut off, prune, shorten; amputate; eradicate, exclude, take away; castrate",
     "grammar": "V 1 1 FUT ACTIVE IMP 2 S"
+  },
+  "anchisae": {
+    "lemma": "Anchises, Anchisae",
+    "en": "of Anchises (father of Aeneas)",
+    "grammar": "N GEN S M (proper name)"
   },
   "andria": {
     "lemma": "Andria, Andriae",
@@ -2417,6 +2737,16 @@ Object.assign(LATIN_DICT, {
     "en": "old/ancient/aged; time-honored; simple/classic; venerable; archaic/outdated",
     "grammar": "ADJ 1 1 ACC P M POS"
   },
+  "antiquus": {
+    "lemma": "antiquus, antiqua -um, antiquior -or -us, antiquissimus -a -um ADJ",
+    "en": "old/ancient/aged; time-honored; simple/classic; venerable; archaic/outdated",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "antistes": {
+    "lemma": "antistes, antistitis N (3rd) C",
+    "en": "(high) priest/priestess; mouthpiece of god; master/authority (w/GEN); protector",
+    "grammar": "N 3 1 NOM S C"
+  },
   "antistites": {
     "lemma": "antistes, antistitis N (3rd) C",
     "en": "(high) priest/priestess; mouthpiece of god; master/authority (w/GEN); protector; result of; place of; (abstract noun)",
@@ -2426,6 +2756,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Antonius, Antoni N (2nd) M",
     "en": "Antony/Anthony; (Roman gens name); (M. Antonius -> Mark Antony, triumvir)",
     "grammar": "N 2 5 DAT S M"
+  },
+  "antonium": {
+    "lemma": "Antonius, Antoni N (2nd) M",
+    "en": "Antony/Anthony; (Roman gens name); (M. Antonius -> Mark Antony, triumvir)",
+    "grammar": "N 2 5 ACC S M"
   },
   "anulos": {
     "lemma": "anulus, anuli N (2nd) M",
@@ -2446,6 +2781,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "anxius, anxia, anxium ADJ",
     "en": "anxious, uneasy, disturbed; concerned; careful; prepared with care; troublesome",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "anxie": {
+    "lemma": "anxius, anxia, anxium ADJ",
+    "en": "anxious, uneasy, disturbed; concerned; careful; prepared with care; troublesome",
+    "grammar": "ADJ 1 1 VOC S M POS"
   },
   "anxii": {
     "lemma": "anxius, anxia, anxium ADJ",
@@ -2486,6 +2826,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "aperio, aperire, aperui, apertus V (4th) TRANS",
     "en": "uncover, open, disclose; explain, recount; reveal; found; excavate; spread out",
     "grammar": "VPAR 3 4 NOM S N PERF PASSIVE PPL"
+  },
+  "apes": {
+    "lemma": "apsum, apesse, afui, afuturus V (5th) TO_BEING",
+    "en": "be away/absent/distant/missing; be free/removed from; be lacking; be distinct",
+    "grammar": "V 5 1 PRES ACTIVE IND 2 S"
   },
   "apollinis": {
     "lemma": "Apollo, Apollinis N (3rd) M",
@@ -2587,6 +2932,11 @@ Object.assign(LATIN_DICT, {
     "en": "connect, place near, bring into contact; land (ship); adapt; apply/devote to",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
+  "applicat": {
+    "lemma": "applico, applicare, applicavi, applicatus V (1st) TRANS",
+    "en": "connect, place near, bring into contact; land (ship); adapt; apply/devote to",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "applicatione": {
     "lemma": "applicatio, applicationis N (3rd) F",
     "en": "application, inclination; joining, attaching; attachment of client to patron",
@@ -2627,6 +2977,11 @@ Object.assign(LATIN_DICT, {
     "en": "adapt, fit, apply, adjust, accommodate; put on, fasten; prepare, furnish",
     "grammar": "V 1 1 PRES PASSIVE IND 1 P"
   },
+  "aptare": {
+    "lemma": "apto, aptare, aptavi, aptatus V (1st) TRANS",
+    "en": "adapt, fit, apply, adjust, accommodate; put on, fasten; prepare, furnish",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
   "aptior": {
     "lemma": "aptus, apta -um, aptior -or -us, aptissimus -a -um ADJ",
     "en": "suitable, adapted; ready; apt, proper; tied, attached to; dependent on (w/ex)",
@@ -2652,15 +3007,35 @@ Object.assign(LATIN_DICT, {
     "en": "suitable, adapted; ready; apt, proper; tied, attached to; dependent on (w/ex)",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "aptus": {
+    "lemma": "aptus, apta -um, aptior -or -us, aptissimus -a -um ADJ",
+    "en": "suitable, adapted; ready; apt, proper; tied, attached to; dependent on (w/ex)",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "apud": {
     "lemma": "apud PREP ACC",
     "en": "at, by, near, among; at the house of; before, in the presence/writings/view of",
     "grammar": "PREP"
   },
+  "apuleius": {
+    "lemma": "Apuleius, Apuleii",
+    "en": "Apuleius (author of the Golden Ass, set partly in Thessaly)",
+    "grammar": "N NOM S M (proper name)"
+  },
   "aqua": {
     "lemma": "aqua, aquae N (1st) F",
     "en": "water; sea, lake; river, stream; rain, rainfall (pl.), rainwater; spa; urine",
     "grammar": "N 1 1 NOM S F"
+  },
+  "aquis": {
+    "lemma": "aqua, aquae N (1st) F",
+    "en": "water; sea, lake; river, stream; rain, rainfall (pl.), rainwater; spa; urine",
+    "grammar": "N 1 1 DAT P F"
+  },
+  "aram": {
+    "lemma": "ara, arae N (1st) F",
+    "en": "altar, structure for sacrifice, pyre; sanctuary; home; refuge, shelter",
+    "grammar": "N 1 1 ACC S F"
   },
   "aratro": {
     "lemma": "aratrum, aratri N (2nd) N",
@@ -2717,10 +3092,40 @@ Object.assign(LATIN_DICT, {
     "en": "ward/keep off/away; keep close, confine; prevent, hinder; protect; separate",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
   },
+  "arcent": {
+    "lemma": "arceo, arcere, arcui, - V (2nd) TRANS",
+    "en": "ward/keep off/away; keep close, confine; prevent, hinder; protect; separate",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
   "archyta": {
     "lemma": "Archytas, Archytae",
     "en": "Archytas",
     "grammar": "N ABL S M (proper name)"
+  },
+  "arcturum": {
+    "lemma": "Arcturus, Arcturi N (2nd) M",
+    "en": "Acturus, brightest star in Bootes; the whole constellation; arction plant",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "ardebant": {
+    "lemma": "ardeo, ardere, arsi, arsus V (2nd)",
+    "en": "be on fire; burn, blaze; flash; glow, sparkle; rage; be in a turmoil/love",
+    "grammar": "V 2 1 IMPF ACTIVE IND 3 P"
+  },
+  "ardentisque": {
+    "lemma": "ardeo, ardere, arsi, arsus V (2nd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 2 1 GEN S X PRES ACTIVE PPL + TACKON"
+  },
+  "ardescitque": {
+    "lemma": "ardesco, ardescere, arsi, - V (3rd) INTRANS",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S + TACKON"
+  },
+  "ardet": {
+    "lemma": "ardeo, ardere, arsi, arsus V (2nd)",
+    "en": "be on fire; burn, blaze; flash; glow, sparkle; rage; be in a turmoil/love",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "argento": {
     "lemma": "argentum, argenti N (2nd) N",
@@ -2736,6 +3141,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "argentum, argenti N (2nd) N",
     "en": "silver; money, cash; silver-plate; [argentum vivum => quicksilver/mercury]",
     "grammar": "N 2 2 NOM S N"
+  },
+  "argivae": {
+    "lemma": "Argivus, Argiva, Argivum",
+    "en": "Argive, Greek (of Argos)",
+    "grammar": "ADJ GEN S F (proper name)"
   },
   "arguere": {
     "lemma": "arguo, arguere, argui, argutus V (3rd) TRANS",
@@ -2787,6 +3197,11 @@ Object.assign(LATIN_DICT, {
     "en": "arms (pl.), weapons, armor, shield; close fighting weapons; equipment; force",
     "grammar": "N 2 2 DAT P N"
   },
+  "arrecti": {
+    "lemma": "arrigo, arrigere, arrexi, arrectus V (3rd) TRANS",
+    "en": "set upright, tilt upwards, stand on end, raise; become sexually excited/aroused",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
   "arripi": {
     "lemma": "arripio, arripere, arripui, arreptus V (3rd) TRANS",
     "en": "take hold of; seize (hand/tooth/claw), snatch; arrest; assail; pick up, absorb",
@@ -2812,6 +3227,11 @@ Object.assign(LATIN_DICT, {
     "en": "skill/craft/art; trick, wile; science, knowledge; method, way; character (pl.)",
     "grammar": "N 3 3 NOM P F"
   },
+  "artibus": {
+    "lemma": "ars, artis N (3rd) F",
+    "en": "skill/craft/art; trick, wile; science, knowledge; method, way; character (pl.)",
+    "grammar": "N 3 3 DAT P F"
+  },
   "artifex": {
     "lemma": "artifex, artificis N (3rd) C",
     "en": "artist, actor; craftsman; master of an art; author, maker; mastermind, schemer",
@@ -2826,6 +3246,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "artifex, artificis N (3rd) C",
     "en": "artist, actor; craftsman; master of an art; author, maker; mastermind, schemer",
     "grammar": "N 3 1 DAT S C"
+  },
+  "artificumque": {
+    "lemma": "artifex, (gen.), artificis ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 3 1 GEN P X POS + TACKON"
   },
   "artiore": {
     "lemma": "artus, arta -um, artior -or -us, artissimus -a -um ADJ",
@@ -2842,6 +3267,16 @@ Object.assign(LATIN_DICT, {
     "en": "skill/craft/art; trick, wile; science, knowledge; method, way; character (pl.)",
     "grammar": "N 3 3 GEN P F"
   },
+  "ascanio": {
+    "lemma": "Ascanius, Ascanii N (2nd) M",
+    "en": "Ascanius/Iulus; (son of Aeneas)",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "ascendi": {
+    "lemma": "ascendo, ascendere, ascendi, ascensus V (3rd)",
+    "en": "climb; go/climb up; mount, scale; mount up, embark; rise, ascend, move upward",
+    "grammar": "V 3 1 PERF ACTIVE IND 1 S"
+  },
   "ascendisset": {
     "lemma": "ascendo, ascendere, ascendi, ascensus V (3rd)",
     "en": "climb; go/climb up; mount, scale; mount up, embark; rise, ascend, move upward",
@@ -2856,6 +3291,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Asia, Asiae N (1st) F",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "N 1 1 ACC S F + TACKON"
+  },
+  "aspectu": {
+    "lemma": "aspectus, aspectus N (4th) M",
+    "en": "appearance, aspect, mien; act of looking; sight, vision; glance, view; horizon",
+    "grammar": "N 4 1 DAT S M"
   },
   "aspere": {
     "lemma": "aspere, asperius, asperrime ADV",
@@ -2992,6 +3432,11 @@ Object.assign(LATIN_DICT, {
     "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain; - to, towards, near, for, together (adeo => go to)",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL + PREFIX"
   },
+  "ater": {
+    "lemma": "ater, atra -um, atrior -or -us, aterrimus -a -um ADJ",
+    "en": "black, dark; dark-colored (hair/skin); gloomy/murky; unlucky; sordid/squalid",
+    "grammar": "ADJ 1 2 NOM S M POS"
+  },
   "athenis": {
     "lemma": "-, Athenae N (1st) F",
     "en": "Athens (pl.); inhabitants of Athens, Athenians",
@@ -3002,20 +3447,45 @@ Object.assign(LATIN_DICT, {
     "en": "Athenodorus",
     "grammar": "N ACC S M (proper name)"
   },
+  "athesis": {
+    "lemma": "thesis, thesis N (3rd) F",
+    "en": "proposition, thesis; - away, off; - aside",
+    "grammar": "N 3 3 NOM S F + PREFIX"
+  },
   "athletas": {
     "lemma": "athleta, athletae N (1st) M",
     "en": "wrestler, boxer, athlete, one who is in public games; expert, old-hand; contest",
     "grammar": "N 1 1 NOM S M"
+  },
+  "atlas": {
+    "lemma": "atlas, atlantis N (3rd) M",
+    "en": "atlas (of geography)",
+    "grammar": "N 3 1 NOM S M"
   },
   "atqui": {
     "lemma": "atqui CONJ",
     "en": "but, yet, notwithstanding, however, rather, well/but now; and yet, still",
     "grammar": "CONJ"
   },
+  "atria": {
+    "lemma": "atrium, atri(i) N (2nd) N",
+    "en": "atrium, reception hall in a Roman house; auction room; palace (pl.), house",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "atridas": {
+    "lemma": "Atrides, Atridae",
+    "en": "the Atridae (sons of Atreus: Agamemnon and Menelaus)",
+    "grammar": "N ACC P M (proper name, Greek accusative)"
+  },
   "atrium": {
     "lemma": "atrium, atri(i) N (2nd) N",
     "en": "atrium, reception hall in a Roman house; auction room; palace (pl.), house",
     "grammar": "N 2 4 NOM S N"
+  },
+  "atrox": {
+    "lemma": "atrox, atrocis (gen.), atrocior -or -us, atrocissimus -a -um ADJ",
+    "en": "fierce, savage, bloody; heinous, cruel; severe; terrible, frightening, dreadful",
+    "grammar": "ADJ 3 1 NOM S X POS"
   },
   "attalus": {
     "lemma": "talus, tali N (2nd) M",
@@ -3041,6 +3511,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Atticus, Attica, Atticum ADJ",
     "en": "Attic, Athenian; classic, elegant",
     "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "attigit": {
+    "lemma": "attigo, attigere, attigi, attactus V (3rd) TRANS",
+    "en": "touch, touch/border on; reach, arrive at, achieve; mention briefly; belong to",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "attinet": {
     "lemma": "attineo, attinere, attinui, attentus V (2nd)",
@@ -3106,6 +3581,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "auctor, auctoris N (3rd) C",
     "en": "seller, vendor; originator; historian; authority; proposer, supporter; founder",
     "grammar": "N 3 1 DAT S C"
+  },
+  "auctorem": {
+    "lemma": "auctor, auctoris N (3rd) C",
+    "en": "seller, vendor; originator; historian; authority; proposer, supporter; founder",
+    "grammar": "N 3 1 ACC S C"
   },
   "auctores": {
     "lemma": "auctoro, auctorare, auctoravi, auctoratus V (1st) TRANS",
@@ -3187,6 +3667,16 @@ Object.assign(LATIN_DICT, {
     "en": "intend, be prepared; dare/have courage (to go/do), act boldly, venture, risk",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "audetque": {
+    "lemma": "audeo, audere, ausus sum V (2nd) SEMIDEP",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S + TACKON"
+  },
+  "audi": {
+    "lemma": "audio, audire, audivi, auditus V (4th)",
+    "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
+    "grammar": "V 4 1 PRES ACTIVE IMP 2 S"
+  },
   "audiamus": {
     "lemma": "audio, audire, audivi, auditus V (4th)",
     "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
@@ -3196,6 +3686,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "audio, audire, audivi, auditus V (4th)",
     "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
     "grammar": "V 4 1 PRES ACTIVE SUB 3 P"
+  },
+  "audias": {
+    "lemma": "audio, audire, audivi, auditus V (4th)",
+    "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
+    "grammar": "V 4 1 PRES ACTIVE SUB 2 S"
   },
   "audiat": {
     "lemma": "audio, audire, audivi, auditus V (4th)",
@@ -3211,6 +3706,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "audio, audire, audivi, auditus V (4th)",
     "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
     "grammar": "VPAR 3 4 DAT P X FUT PASSIVE PPL"
+  },
+  "audieris": {
+    "lemma": "audio, audire, audivi, auditus V (4th)",
+    "en": "hear, listen, accept, agree with; obey; harken, pay attention; be able to hear",
+    "grammar": "V 4 1 FUT PASSIVE IND 2 S"
   },
   "audies": {
     "lemma": "audio, audire, audivi, auditus V (4th)",
@@ -3347,6 +3847,11 @@ Object.assign(LATIN_DICT, {
     "en": "augur, one who interprets behavior of birds; diviner, seer, prophet, soothsayer",
     "grammar": "N 3 1 GEN S C"
   },
+  "augusto": {
+    "lemma": "Augustus, Augusti N (2nd) M",
+    "en": "Augustus; (title of Octavius Caesar, Emperor, 27 BC-14 AD); of all emperors",
+    "grammar": "N 2 1 DAT S M"
+  },
   "augustus": {
     "lemma": "Augustus, Augusti N (2nd) M",
     "en": "Augustus; (title of Octavius Caesar, Emperor, 27 BC-14 AD); of all emperors",
@@ -3362,6 +3867,26 @@ Object.assign(LATIN_DICT, {
     "en": "greed, covetousness; keen desire, lust/passion; appetite (food/drink), gluttony",
     "grammar": "N 3 1 DAT S F"
   },
+  "aulaeis": {
+    "lemma": "aulaeum, aulaei N (2nd) N",
+    "en": "canopy/covering; theater curtain; hangings/folds (pl.), tapestries/drapery",
+    "grammar": "N 2 2 DAT P N"
+  },
+  "aura": {
+    "lemma": "aurum, auri N (2nd) N",
+    "en": "gold (metal/color), gold money, riches",
+    "grammar": "N 2 2 NOM P N"
+  },
+  "aurata": {
+    "lemma": "auratus, aurata, auratum ADJ",
+    "en": "gilded, overlaid/adorned with gold, golden, gold mounted/embroidered/bearing",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "aureis": {
+    "lemma": "auris, auris N (3rd) F",
+    "en": "ear; hearing; a discriminating sense of hearing, \"ear\" (for); pin on plow",
+    "grammar": "N 3 3 ACC P F"
+  },
   "aurem": {
     "lemma": "auris, auris N (3rd) F",
     "en": "ear; hearing; a discriminating sense of hearing, \"ear\" (for); pin on plow",
@@ -3372,10 +3897,25 @@ Object.assign(LATIN_DICT, {
     "en": "ear; hearing; a discriminating sense of hearing, \"ear\" (for); pin on plow",
     "grammar": "N 3 3 NOM P F"
   },
+  "auroque": {
+    "lemma": "aurum, auri N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT S N + TACKON"
+  },
+  "aurorae": {
+    "lemma": "aurora, aurorae N (1st) F",
+    "en": "dawn, daybreak, sunrise; goddess of the dawn; Orient/East, peoples of the East",
+    "grammar": "N 1 1 GEN S F"
+  },
   "auspicante": {
     "lemma": "auspicor, auspicari, auspicatus sum V (1st) DEP",
     "en": "take auspices; seek omens; begin with auspices, make ceremonial start; portend",
     "grammar": "VPAR 1 1 ABL S X PRES ACTIVE PPL"
+  },
+  "auspicia": {
+    "lemma": "auspicium, auspici(i) N (2nd) N",
+    "en": "divination (by birds); omen; beginning; auspices (pl.); right of doing auspices",
+    "grammar": "N 2 4 NOM P N"
   },
   "ausus": {
     "lemma": "audeo, audere, ausus sum V (2nd) SEMIDEP",
@@ -3392,6 +3932,11 @@ Object.assign(LATIN_DICT, {
     "en": "help, assistance; remedy/antidote; supporting resource/force; auxiliaries (pl.)",
     "grammar": "N 2 4 GEN S N"
   },
+  "auxilio": {
+    "lemma": "auxilium, auxili(i) N (2nd) N",
+    "en": "help, assistance; remedy/antidote; supporting resource/force; auxiliaries (pl.)",
+    "grammar": "N 2 4 DAT S N"
+  },
   "auxit": {
     "lemma": "augeo, augere, auxi, auctus V (2nd) TRANS",
     "en": "increase, enlarge, augment; spread; honor, promote, raise; exalt; make a lot of",
@@ -3407,6 +3952,16 @@ Object.assign(LATIN_DICT, {
     "en": "greed, avarice; rapacity; miserliness, stinginess, meanness",
     "grammar": "N 1 1 GEN S F"
   },
+  "aversa": {
+    "lemma": "averto, avertere, averti, aversus V (3rd)",
+    "en": "turn away from/aside, divert, rout; disturb; withdraw; steal, misappropriate",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "aversus": {
+    "lemma": "averto, avertere, averti, aversus V (3rd)",
+    "en": "turn away from/aside, divert, rout; disturb; withdraw; steal, misappropriate",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
   "avertas": {
     "lemma": "averto, avertere, averti, aversus V (3rd)",
     "en": "turn away from/aside, divert, rout; disturb; withdraw; steal, misappropriate",
@@ -3417,6 +3972,31 @@ Object.assign(LATIN_DICT, {
     "en": "turn away from/aside, divert, rout; disturb; withdraw; steal, misappropriate",
     "grammar": "V 3 1 PERF ACTIVE IND 1 P"
   },
+  "avexerat": {
+    "lemma": "aveho, avehere, avexi, avectus V (3rd) TRANS",
+    "en": "carry away, carry; (passive) ride away/off, sail away, go away, depart",
+    "grammar": "V 3 1 PLUP ACTIVE IND 3 S"
+  },
+  "avidi": {
+    "lemma": "avidus, avida -um, avidior -or -us, avidissimus -a -um ADJ",
+    "en": "greedy, eager, ardent, desirous of; avaricious, insatiable; lustful, passionate",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "avidissime": {
+    "lemma": "avidus, avida -um, avidior -or -us, avidissimus -a -um ADJ",
+    "en": "greedy, eager, ardent, desirous of; avaricious, insatiable; lustful, passionate",
+    "grammar": "ADJ 1 1 VOC S M SUPER"
+  },
+  "bacatum": {
+    "lemma": "bacatus, bacata, bacatum ADJ",
+    "en": "set with pearls",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "bacchus": {
+    "lemma": "Bacchus, Bacchi N (2nd) M",
+    "en": "Bacchus, god of wine/vine; the vine, wine",
+    "grammar": "N 2 1 NOM S M"
+  },
   "balneo": {
     "lemma": "balneum, balnei N (2nd) N",
     "en": "bath; bathtub; act of bathing; bathroom, (public) bath place/rooms (esp. pl.)",
@@ -3426,6 +4006,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "barba, barbae N (1st) F",
     "en": "beard/ whiskers; large unkempt beard (pl.); [Jovis ~ => shrub Anthyllis barba]",
     "grammar": "N 1 1 ACC S F"
+  },
+  "barbara": {
+    "lemma": "barbarus, barbara -um, barbarior -or -us, barbarissimus -a -um ADJ",
+    "en": "foreign, of/used by/typical of foreigners; cruel, savage; uncivilized, uncouth",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "basilica": {
     "lemma": "basilica, basilicae N (1st) F",
@@ -3482,6 +4067,31 @@ Object.assign(LATIN_DICT, {
     "en": "he has lived; life is complete",
     "grammar": "GREEK TERM"
   },
+  "beli": {
+    "lemma": "Belus, Beli",
+    "en": "of Belus (king of Tyre, father of Dido; also her remote ancestor)",
+    "grammar": "N GEN S M (proper name)"
+  },
+  "bellantes": {
+    "lemma": "bello, bellare, bellavi, bellatus V (1st) INTRANS",
+    "en": "fight, wage war, struggle; take part in war/battle/fight (also animals/games)",
+    "grammar": "VPAR 1 1 NOM P C PRES ACTIVE PPL"
+  },
+  "bellaque": {
+    "lemma": "bellum, belli N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 NOM P N + TACKON"
+  },
+  "bellatrix": {
+    "lemma": "bellatrix, (gen.), bellatricis ADJ",
+    "en": "warlike, martial; skilled/useful in war; of animals/things used in war",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
+  "belo": {
+    "lemma": "belo, belare, belavi, belatus V (1st) INTRANS",
+    "en": "bleat, baa (like a sheep); talk foolishly",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 S"
+  },
   "beluarum": {
     "lemma": "belua, beluae N (1st) F",
     "en": "beast, wild animal (incl. sea creature); monster, brute (great size/ferocity)",
@@ -3491,6 +4101,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "belua, beluae N (1st) F",
     "en": "beast, wild animal (incl. sea creature); monster, brute (great size/ferocity)",
     "grammar": "N 1 1 DAT P F"
+  },
+  "belus": {
+    "lemma": "Belus, Beli",
+    "en": "Belus (king of Tyre, father of Dido)",
+    "grammar": "N NOM S M (proper name)"
   },
   "beneficentissimi": {
     "lemma": "beneficus, benefica -um, beneficentior -or -us, beneficentissimus -a -um ADJ",
@@ -3567,10 +4182,30 @@ Object.assign(LATIN_DICT, {
     "en": "drink; toast; visit, frequent (w/river name); drain, draw off; thirst for; suck",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
   },
+  "bibebat": {
+    "lemma": "bibo, bibere, bibi, bibitus V (3rd)",
+    "en": "drink; toast; visit, frequent (w/river name); drain, draw off; thirst for; suck",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
+  },
+  "bibissent": {
+    "lemma": "bibo, bibere, bibi, bibitus V (3rd)",
+    "en": "drink; toast; visit, frequent (w/river name); drain, draw off; thirst for; suck",
+    "grammar": "V 3 1 PLUP ACTIVE SUB 3 P"
+  },
   "biennio": {
     "lemma": "biennium, bienni(i) N (2nd) N",
     "en": "two years (period of ...)",
     "grammar": "N 2 4 DAT S N"
+  },
+  "bilinguis": {
+    "lemma": "bilinguis, bilinguis, bilingue ADJ",
+    "en": "two-tongued, speaking two/jumbled languages; treacherous, false, hypocritical",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
+  "bitiae": {
+    "lemma": "Bitias, Bitiae N M",
+    "en": "Bitias; (Trojan warrior, companion of Aeneas)",
+    "grammar": "N 1 8 GEN S M"
   },
   "blanda": {
     "lemma": "blandus, blanda -um, blandior -or -us, blandissimus -a -um ADJ",
@@ -3581,6 +4216,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "blandio, blandire, blandivi, blanditus V (4th) INTRANS",
     "en": "flatter, delude; fawn; coax, urge, behave/speak ingratiatingly; allure; please",
     "grammar": "V 4 1 PRES PASSIVE SUB 3 S"
+  },
+  "blandisque": {
+    "lemma": "blandus, blanda -um, blandior -or -us, blandissimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT P X POS + TACKON"
   },
   "blanditiam": {
     "lemma": "blanditia, blanditiae N (1st) F",
@@ -3682,6 +4322,11 @@ Object.assign(LATIN_DICT, {
     "en": "good, good thing, profit, advantage; goods (pl.), possessions, wealth, estate",
     "grammar": "N 2 2 NOM S N"
   },
+  "brabantiaeque": {
+    "lemma": "Brabantia, Brabantiae",
+    "en": "of Brabant (duchy in the Low Countries) + -que (and)",
+    "grammar": "N GEN S F (proper name) + TACKON"
+  },
   "breue": {
     "lemma": "brevis, breve, brevior -or -us, brevissimus -a -um ADJ",
     "en": "short, little, small, stunted; brief, concise, quick; narrow, shallow; humble",
@@ -3737,6 +4382,11 @@ Object.assign(LATIN_DICT, {
     "en": "Brutus; (Roman cognomen); [L. Junius Brutus => first consul; M. J. ~ assassin]",
     "grammar": "N 2 1 GEN S M"
   },
+  "bruto": {
+    "lemma": "Brutus, Bruti N (2nd) M",
+    "en": "Brutus; (Roman cognomen); [L. Junius Brutus => first consul; M. J. ~ assassin]",
+    "grammar": "N 2 1 DAT S M"
+  },
   "c": {
     "lemma": "C., abb. N M",
     "en": "Gaius (Roman praenomen); (abb. C.); (abb. for) centum/100",
@@ -3787,6 +4437,11 @@ Object.assign(LATIN_DICT, {
     "en": "murder/slaughter/massacre; assassination; feuding; slain/victims; blood/gore",
     "grammar": "N 3 3 ACC S F"
   },
+  "caelataque": {
+    "lemma": "caelo, caelare, caelavi, caelatus V (1st) TRANS",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL + TACKON"
+  },
   "caelatura": {
     "lemma": "caelo, caelare, caelavi, caelatus V (1st) TRANS",
     "en": "carve, make raised work/relief; engrave, emboss; chase, finish; embroider",
@@ -3802,6 +4457,16 @@ Object.assign(LATIN_DICT, {
     "en": "Caesar; (Julian gens cognomen); (adopted by emperors); [C. Julius ~ => Emperor]",
     "grammar": "N 3 1 DAT S M"
   },
+  "caesarem": {
+    "lemma": "Caesar, Caesaris N (3rd) M",
+    "en": "Caesar; (Julian gens cognomen); (adopted by emperors); [C. Julius ~ => Emperor]",
+    "grammar": "N 3 1 ACC S M"
+  },
+  "caesariem": {
+    "lemma": "caesaries, caesariei N (5th) F",
+    "en": "hair; long/flowing/luxuriant hair; dark/beautiful hair; plume (of a helmet)",
+    "grammar": "N 5 1 ACC S F"
+  },
   "caespes": {
     "lemma": "caespes, caespitis N (3rd) M",
     "en": "grassy ground, grass; earth; sod, turf; altar/rampart/mound of sod/turf/earth",
@@ -3816,6 +4481,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "calamitas, calamitatis N (3rd) F",
     "en": "loss, damage, harm; misfortune/disaster; military defeat; blight, crop failure",
     "grammar": "N 3 1 GEN P F"
+  },
+  "calamitose": {
+    "lemma": "calamitosus, calamitosa, calamitosum ADJ",
+    "en": "calamitous; ruinous, destructive; liable to damage/disaster; damaged/miserable",
+    "grammar": "ADJ 1 1 VOC S M POS"
   },
   "calamitosi": {
     "lemma": "calamitosus, calamitosa, calamitosum ADJ",
@@ -3856,6 +4526,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "caligo, caliginis N (3rd) F",
     "en": "mist/fog; darkness/gloom/murkiness; moral/intellectual/mental dark; dizziness",
     "grammar": "N 3 1 GEN S F"
+  },
+  "callem": {
+    "lemma": "callis, callis N (3rd) M",
+    "en": "rough/stony track, path; moorland/mountain pasture; mountain pass/defile (L+S)",
+    "grammar": "N 3 3 ACC S M"
   },
   "callida": {
     "lemma": "callidus, callida -um, callidior -or -us, callidissimus -a -um ADJ",
@@ -3912,6 +4587,11 @@ Object.assign(LATIN_DICT, {
     "en": "dog; hound; subordinate; \"jackal\"; dog-star/fish; lowest dice throw; clamp",
     "grammar": "N 3 3 NOM P C"
   },
+  "canistris": {
+    "lemma": "canistrum, canistri N (2nd) N",
+    "en": "wicker basket (used for food/flowers and in sacrifices)",
+    "grammar": "N 2 2 DAT P N"
+  },
   "canit": {
     "lemma": "cano, canere, cecini, cantus V (3rd)",
     "en": "sing, celebrate, chant; crow; recite; play (music)/sound (horn); foretell",
@@ -3931,6 +4611,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "capax, capacis (gen.), capacior -or -us, capacissimus -a -um ADJ",
     "en": "large, spacious, roomy, big; capable, fit, competent; has right to inherit",
     "grammar": "ADJ 3 1 NOM S N SUPER"
+  },
+  "capesserent": {
+    "lemma": "capesso, capessere, capessivi, capessitus V (3rd) TRANS",
+    "en": "grasp, take, seize eagerly; undertake, manage; pursue w/zeal; carry out orders",
+    "grammar": "V 3 1 IMPF ACTIVE SUB 3 P"
   },
   "capiantur": {
     "lemma": "capio, capere, cepi, captus V (3rd) TRANS",
@@ -4052,6 +4737,11 @@ Object.assign(LATIN_DICT, {
     "en": "dear, beloved; costly, precious, valued; high-priced, expensive",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "carae": {
+    "lemma": "carus, cara -um, carior -or -us, carissimus -a -um ADJ",
+    "en": "dear, beloved; costly, precious, valued; high-priced, expensive",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
   "carbo": {
     "lemma": "carbo, carbonis N (3rd) M",
     "en": "charcoal; glowing coal; pencil/marker; worthless thing; charred remains; coal",
@@ -4066,6 +4756,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "carcer, carceris N (3rd) M",
     "en": "prison, jail; jailbird; starting barriers at race-course, traps; beginning",
     "grammar": "N 3 1 DAT P M"
+  },
+  "cardine": {
+    "lemma": "cardo, cardinis N (3rd) M",
+    "en": "hinge; pole, axis; chief point/circumstance; crisis; tenon/mortise; area; limit",
+    "grammar": "N 3 1 DAT S M"
+  },
+  "cardo": {
+    "lemma": "cardo, cardinis N (3rd) M",
+    "en": "hinge; pole, axis; chief point/circumstance; crisis; tenon/mortise; area; limit",
+    "grammar": "N 3 1 NOM S M"
   },
   "care": {
     "lemma": "careo, carere, carui, caritus V (2nd)",
@@ -4091,6 +4791,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "careo, carere, carui, caritus V (2nd)",
     "en": "be without/absent from/devoid of/free from; miss; abstain from, lack, lose",
     "grammar": "V 2 1 PRES ACTIVE IND 1 S"
+  },
+  "cari": {
+    "lemma": "carus, cara -um, carior -or -us, carissimus -a -um ADJ",
+    "en": "dear, beloved; costly, precious, valued; high-priced, expensive",
+    "grammar": "ADJ 1 1 GEN S M POS"
   },
   "caris": {
     "lemma": "carus, cara -um, carior -or -us, carissimus -a -um ADJ",
@@ -4142,6 +4847,11 @@ Object.assign(LATIN_DICT, {
     "en": "Carneades",
     "grammar": "N ABL S M (proper name)"
   },
+  "carolum": {
+    "lemma": "Carolus, Caroli N (2nd) M",
+    "en": "Charles; (Charlemagne, 742-814, King of Franks, first Holy Roman Emperor)",
+    "grammar": "N 2 1 ACC S M"
+  },
   "caruerint": {
     "lemma": "careo, carere, carui, caritus V (2nd)",
     "en": "be without/absent from/devoid of/free from; miss; abstain from, lack, lose",
@@ -4187,6 +4897,11 @@ Object.assign(LATIN_DICT, {
     "en": "fall, sink, drop, plummet, topple; be slain, die; end, cease, abate; decay",
     "grammar": "VPAR 3 1 NOM S F FUT ACTIVE PPL"
   },
+  "casusque": {
+    "lemma": "casus, casus N (4th) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 4 1 NOM S M + TACKON"
+  },
   "catena": {
     "lemma": "catena, catenae N (1st) F",
     "en": "chain; series; fetter, bond, restraint; imprisonment, captivity; (chain mail)",
@@ -4196,6 +4911,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "caterva, catervae N (1st) F",
     "en": "crowd/cluster; troop, company, band of men/followers/actors; flock/herd/swarm",
     "grammar": "N 1 1 ACC P F"
+  },
+  "caterva": {
+    "lemma": "caterva, catervae N (1st) F",
+    "en": "crowd/cluster; troop, company, band of men/followers/actors; flock/herd/swarm",
+    "grammar": "N 1 1 NOM S F"
   },
   "cathedrariis": {
     "lemma": "cathedrarius, cathedraria, cathedrarium ADJ",
@@ -4272,6 +4992,16 @@ Object.assign(LATIN_DICT, {
     "en": "bail/pledge/security, undertaking, guarantee; caution/wariness; circumspection",
     "grammar": "N 3 1 NOM S F"
   },
+  "cauto": {
+    "lemma": "caveo, cavere, cavi, cautus V (2nd)",
+    "en": "beware, avoid, take precautions/defensive action; give/get surety; stipulate",
+    "grammar": "VPAR 2 1 DAT S M PERF PASSIVE PPL"
+  },
+  "cava": {
+    "lemma": "cavus, cava, cavum ADJ",
+    "en": "hollow, excavated, hollowed out; concave; (of waning moon); enveloping; porous",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "cave": {
     "lemma": "caveo, cavere, cavi, cautus V (2nd)",
     "en": "beware, avoid, take precautions/defensive action; give/get surety; stipulate",
@@ -4312,10 +5042,20 @@ Object.assign(LATIN_DICT, {
     "en": "famous, celebrated, renowned; honored, distinguished; famed; notorious",
     "grammar": "ADJ 3 3 ACC P M SUPER"
   },
+  "celebrate": {
+    "lemma": "celebro, celebrare, celebravi, celebratus V (1st) TRANS",
+    "en": "celebrate/perform; frequent; honor/glorify; publicize/advertise; discuss/bandy",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 P"
+  },
   "celebre": {
     "lemma": "celeber, celebris -e, celebrior -or -us, celeberrimus -a -um ADJ",
     "en": "famous, celebrated, renowned; honored, distinguished; famed; notorious",
     "grammar": "ADJ 3 3 NOM S N POS"
+  },
+  "celerans": {
+    "lemma": "celero, celerare, celeravi, celeratus V (1st)",
+    "en": "quicken/accelerate; make haste, act quickly/be quick; hasten, hurry, do quickly",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
   },
   "celeritas": {
     "lemma": "celeritas, celeritatis N (3rd) F",
@@ -4326,6 +5066,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "celeritas, celeritatis N (3rd) F",
     "en": "speed, quickness, rapidity; speed of action, dispatch; haste; early date",
     "grammar": "N 3 1 DAT S F"
+  },
+  "cellas": {
+    "lemma": "cella, cellae N (1st) F",
+    "en": "storeroom, (wine) cellar, larder; temple chamber, sanctuary; room, garret; pen",
+    "grammar": "N 1 1 ACC P F"
   },
   "cena": {
     "lemma": "cena, cenae N (1st) F",
@@ -4382,6 +5127,11 @@ Object.assign(LATIN_DICT, {
     "en": "wax light, taper, candle",
     "grammar": "N 2 1 NOM S M"
   },
+  "cereremque": {
+    "lemma": "Ceres, Cereris N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 ACC S F + TACKON"
+  },
   "cernitur": {
     "lemma": "cerno, cernere, crevi, cretus V (3rd) TRANS",
     "en": "sift, separate, distinguish, discern, resolve, determine; see; examine; decide",
@@ -4417,6 +5167,16 @@ Object.assign(LATIN_DICT, {
     "en": "vie (with), contest, contend/struggle (at law/politics), dispute; fight, strive",
     "grammar": "VPAR 1 1 NOM S N FUT PASSIVE PPL"
   },
+  "certasse": {
+    "lemma": "certo, certare, certavi, certatus",
+    "en": "to have contended, striven (syncopated certavisse)",
+    "grammar": "V PERF ACTIVE INF (syncopated)"
+  },
+  "certatim": {
+    "lemma": "certatim ADV",
+    "en": "with rivalry, in competition; earnestly, eagerly (L+S)",
+    "grammar": "ADV"
+  },
   "certatio": {
     "lemma": "certatio, certationis N (3rd) F",
     "en": "striving; contest; struggling for superiority/mastery; (fight/sports/legal)",
@@ -4432,6 +5192,11 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 1 1 DAT P X POS + TACKON"
   },
+  "certos": {
+    "lemma": "certus, certa -um, certior -or -us, certissimus -a -um ADJ",
+    "en": "fixed, settled, firm; certain; trusty/reliable; sure; resolved, determined",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
   "certum": {
     "lemma": "certus, certa -um, certior -or -us, certissimus -a -um ADJ",
     "en": "fixed, settled, firm; certain; trusty/reliable; sure; resolved, determined",
@@ -4446,6 +5211,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "cervix, cervicis N (3rd) F",
     "en": "neck (sg/pl.), nape; severed neck/head; cervix, neck (bladder/uterus/jar/land)",
     "grammar": "N 3 1 ACC S F"
+  },
+  "cervixque": {
+    "lemma": "cervix, cervicis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 NOM S F + TACKON"
+  },
+  "cessabit": {
+    "lemma": "cesso, cessare, cessavi, cessatus V (1st) INTRANS",
+    "en": "be remiss/inactive; hold back, leave off, delay, cease from; rest; be free of",
+    "grammar": "V 1 1 FUT ACTIVE IND 3 S"
   },
   "cessante": {
     "lemma": "cesso, cessare, cessavi, cessatus V (1st) INTRANS",
@@ -4507,6 +5282,11 @@ Object.assign(LATIN_DICT, {
     "en": "of Chaerea",
     "grammar": "N GEN S M (proper name)"
   },
+  "choros": {
+    "lemma": "chorus, chori N (2nd) M",
+    "en": "chorus; choral passage in a play; dancing/singing performance/ers; school",
+    "grammar": "N 2 1 NOM S M"
+  },
   "chrysippi": {
     "lemma": "Chrysippus, Chrysippi",
     "en": "of Chrysippus",
@@ -4542,10 +5322,25 @@ Object.assign(LATIN_DICT, {
     "en": "tame (animal), domesticated; mild/gentle (person)",
     "grammar": "ADJ 3 1 DAT P X POS"
   },
+  "cient": {
+    "lemma": "cieo, ciere, civi, citus V (2nd) TRANS",
+    "en": "move, set in motion; excite/rouse/stir up; urge on; summon/muster/call up",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
   "cingat": {
     "lemma": "cingo, cingere, cinxi, cinctus V (3rd) TRANS",
     "en": "surround/encircle/ring; enclose; beleaguer; accompany; gird, equip; ring (tree)",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
+  "cingere": {
+    "lemma": "cingo, cingere, cinxi, cinctus V (3rd) TRANS",
+    "en": "surround/encircle/ring; enclose; beleaguer; accompany; gird, equip; ring (tree)",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "cingula": {
+    "lemma": "cingulum, cinguli N (2nd) N",
+    "en": "belt; sword belt; sash, girdle; band; saddle-girth; collar (dog)",
+    "grammar": "N 2 2 NOM P N"
   },
   "circa": {
     "lemma": "circa PREP ACC",
@@ -4572,6 +5367,11 @@ Object.assign(LATIN_DICT, {
     "en": "drive/lead around; turn (around); wheel, revolve; upset; change opinions, sway",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "circumdatur": {
+    "lemma": "circumdo, circumdare, circumdedi, circumdatus V (1st) TRANS",
+    "en": "surround; envelop, post/put/place/build around; enclose; beset; pass around",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
   "circumductos": {
     "lemma": "circumduco, circumducere, circumduxi, circumductus V (3rd) TRANS",
     "en": "lead out of the way/round about; cheat, mislead, trick out of; take/go around",
@@ -4586,6 +5386,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "circumfodio, circumfodere, circumfodi, circumfossus V (3rd) TRANS",
     "en": "dig around, ease earth around (plants); surround (trees) with a trench",
     "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
+  },
+  "circumfusa": {
+    "lemma": "circumfundo, circumfundere, circumfundi, circumfusus V (3rd) TRANS",
+    "en": "pour/drape/crowd around; cause (water) to go round/part; surround; distribute",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
   "circumfusus": {
     "lemma": "circumfundo, circumfundere, circumfundi, circumfusus V (3rd) TRANS",
@@ -4606,6 +5411,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "circumsto, circumstare, circumsteti, circumstatus V (1st)",
     "en": "stand/gather/crowd around, surround, beset; be on either side",
     "grammar": "VPAR 1 1 ABL S X PRES ACTIVE PPL"
+  },
+  "circumtextum": {
+    "lemma": "circumtextum, circumtexti N (2nd) N",
+    "en": "garment inwoven with purple",
+    "grammar": "N 2 2 NOM S N"
   },
   "circumtulerint": {
     "lemma": "circumfero, circumferre, circumtuli, circumlatus V (3rd)",
@@ -4636,6 +5446,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "citer, citera -um, citerior -or -us, citimus -a -um ADJ",
     "en": "near/on this side; (COMP) nearer; sooner/earlier, urgent; (SUPER) next; least",
     "grammar": "ADJ 1 2 ACC S C COMP"
+  },
+  "cithara": {
+    "lemma": "cithara, citharae N (1st) F",
+    "en": "cithara, lyre; lute, guitar (L+S)",
+    "grammar": "N 1 1 NOM S F"
   },
   "cito": {
     "lemma": "cio, cire, civi(ii), citus V TRANS",
@@ -4687,10 +5502,25 @@ Object.assign(LATIN_DICT, {
     "en": "community/city/town/state; citizens; citizen rights/citizenship; naturalization",
     "grammar": "N 3 1 NOM S F"
   },
+  "civitate": {
+    "lemma": "civitas, civitatis N (3rd) F",
+    "en": "community/city/town/state; citizens; citizen rights/citizenship; naturalization",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "civitatem": {
+    "lemma": "civitas, civitatis N (3rd) F",
+    "en": "community/city/town/state; citizens; citizen rights/citizenship; naturalization",
+    "grammar": "N 3 1 ACC S F"
+  },
   "civitati": {
     "lemma": "civitas, civitatis N (3rd) F",
     "en": "community/city/town/state; citizens; citizen rights/citizenship; naturalization",
     "grammar": "N 3 1 DAT S F"
+  },
+  "civitatibus": {
+    "lemma": "civitas, civitatis N (3rd) F",
+    "en": "community/city/town/state; citizens; citizen rights/citizenship; naturalization",
+    "grammar": "N 3 1 DAT P F"
   },
   "civitatis": {
     "lemma": "civitas, civitatis N (3rd) F",
@@ -4727,6 +5557,11 @@ Object.assign(LATIN_DICT, {
     "en": "clear, bright, gleaming; loud, distinct; evident, plain; illustrious, famous",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "claraque": {
+    "lemma": "clarus, clara -um, clarior -or -us, clarissimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S F POS + TACKON"
+  },
   "clarior": {
     "lemma": "clarus, clara -um, clarior -or -us, clarissimus -a -um ADJ",
     "en": "clear, bright, gleaming; loud, distinct; evident, plain; illustrious, famous",
@@ -4747,6 +5582,11 @@ Object.assign(LATIN_DICT, {
     "en": "clear, bright, gleaming; loud, distinct; evident, plain; illustrious, famous",
     "grammar": "ADJ 1 1 GEN P M POS"
   },
+  "clarus": {
+    "lemma": "clarus, clara -um, clarior -or -us, clarissimus -a -um ADJ",
+    "en": "clear, bright, gleaming; loud, distinct; evident, plain; illustrious, famous",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "claudius": {
     "lemma": "Claudius, Claudi N (2nd) M",
     "en": "Claudius; (Roman gens name); (Ti. C. Nero Germanicus, Emperor, 41-54 AD); Lame",
@@ -4766,6 +5606,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Cleanthes, Cleanthis",
     "en": "Cleanthes",
     "grammar": "N NOM S M (proper name)"
+  },
+  "clementia": {
+    "lemma": "clementia, clementiae N (1st) F",
+    "en": "mercy/clemency; compassion; indulgence/forbearance; gentleness, mildness, calm",
+    "grammar": "N 1 1 NOM S F"
   },
   "cliens": {
     "lemma": "cliens, clientis N (3rd) C",
@@ -4857,6 +5702,11 @@ Object.assign(LATIN_DICT, {
     "en": "coercion, restraint, repression; (affliction of summary/right to) punishment",
     "grammar": "N 3 1 NOM S F"
   },
+  "coetum": {
+    "lemma": "coetus, coetus N (4th) M",
+    "en": "meeting, encounter, (political or illegal) assembly; union; band, gang, crowd",
+    "grammar": "N 4 1 ACC S M"
+  },
   "cogat": {
     "lemma": "cogo, cogere, coegi, coactus V (3rd) TRANS",
     "en": "collect/gather, round up, restrict/confine; force/compel; convene; congeal",
@@ -4897,10 +5747,20 @@ Object.assign(LATIN_DICT, {
     "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
+  "cogitantem": {
+    "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
+    "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
+    "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
+  },
   "cogitanti": {
     "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
     "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
     "grammar": "VPAR 1 1 DAT S X PRES ACTIVE PPL"
+  },
+  "cogitare": {
+    "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
+    "en": "think; consider, reflect on, ponder; imagine, picture; intend, look forward to",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
   "cogitat": {
     "lemma": "cogito, cogitare, cogitavi, cogitatus V (1st)",
@@ -4972,6 +5832,21 @@ Object.assign(LATIN_DICT, {
     "en": "examination, inquiry/investigation (judicial); acquiring knowledge; recognition",
     "grammar": "N 3 1 DAT S F"
   },
+  "cognitu": {
+    "lemma": "cognosco, cognoscere, cognovi, cognitus V (3rd) TRANS",
+    "en": "become acquainted with/aware of; recognize; learn, find to be; inquire/examine",
+    "grammar": "SUPINE"
+  },
+  "cognitus": {
+    "lemma": "cognosco, cognoscere, cognovi, cognitus V (3rd) TRANS",
+    "en": "become acquainted with/aware of; recognize; learn, find to be; inquire/examine",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "cognomine": {
+    "lemma": "cognomen, cognominis N (3rd) N",
+    "en": "surname, family/3rd name; name (additional/derived from a characteristic)",
+    "grammar": "N 3 2 DAT S N"
+  },
   "cognominis": {
     "lemma": "cognomen, cognominis N (3rd) N",
     "en": "surname, family/3rd name; name (additional/derived from a characteristic)",
@@ -4981,6 +5856,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "cognosco, cognoscere, cognovi, cognitus V (3rd) TRANS",
     "en": "become acquainted with/aware of; recognize; learn, find to be; inquire/examine",
     "grammar": "VPAR 3 1 GEN S M FUT PASSIVE PPL"
+  },
+  "cognoscens": {
+    "lemma": "cognosco, cognoscere, cognovi, cognitus V (3rd) TRANS",
+    "en": "become acquainted with/aware of; recognize; learn, find to be; inquire/examine",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL"
   },
   "cognosces": {
     "lemma": "cognosco, cognoscere, cognovi, cognitus V (3rd) TRANS",
@@ -5117,10 +5997,30 @@ Object.assign(LATIN_DICT, {
     "en": "place/put/set in order/proper position, arrange; station, post, position; apply",
     "grammar": "V 1 1 IMPF PASSIVE SUB 3 S"
   },
+  "colloque": {
+    "lemma": "collus, colli N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 DAT S M + TACKON"
+  },
+  "coloniensis": {
+    "lemma": "Coloniensus, Coloniensa, Coloniensum ADJ",
+    "en": "of Cologne",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
   "colorum": {
     "lemma": "color, coloris N (3rd) M",
     "en": "color; pigment; shade/tinge; complexion; outward appearance/show; excuse/pretext",
     "grammar": "N 3 1 GEN P M"
+  },
+  "coluere": {
+    "lemma": "colo, colere, colui, cultus V (3rd)",
+    "en": "live in (place), inhabit; till, cultivate, promote growth; foster, maintain",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "columnas": {
+    "lemma": "columna, columnae N (1st) F",
+    "en": "column/pillar (building/monument/pedestal/waterclock), post/prop; portico (pl.)",
+    "grammar": "N 1 1 ACC P F"
   },
   "coluntur": {
     "lemma": "colo, colere, colui, cultus V (3rd)",
@@ -5131,6 +6031,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "coma, comae N (1st) F",
     "en": "hair, hair of head, mane of animal; wool, fleece; foliage, leaves; rays",
     "grammar": "N 1 1 NOM S F"
+  },
+  "comaeque": {
+    "lemma": "coma, comae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 GEN S F + TACKON"
+  },
+  "comederetis": {
+    "lemma": "comedo, comedere, comedi, comesus V (3rd) TRANS",
+    "en": "eat up/away, chew up; finish eating; fret, chafe; consume/devour; waste/squander",
+    "grammar": "V 3 1 IMPF ACTIVE SUB 2 P"
+  },
+  "comedisset": {
+    "lemma": "comedo, comedere, comedi, comesus V (3rd) TRANS",
+    "en": "eat up/away, chew up; finish eating; fret, chafe; consume/devour; waste/squander",
+    "grammar": "V 3 1 PLUP ACTIVE SUB 3 S"
   },
   "comes": {
     "lemma": "comes, comitis N (3rd) C",
@@ -5407,10 +6322,25 @@ Object.assign(LATIN_DICT, {
     "en": "prepare; provide; compose; collect, get together/hold of; raise (force); unite",
     "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
   },
+  "compassura": {
+    "lemma": "compatior, compati, compassus sum V (3rd) DEP",
+    "en": "suffer with one; pity, have compassion, feel pity",
+    "grammar": "VPAR 3 1 NOM S F FUT ACTIVE PPL"
+  },
+  "compellat": {
+    "lemma": "compello, compellere, compuli, compulsus V (3rd) TRANS",
+    "en": "drive together (cattle), round up; force, compel, impel, drive; squeeze; gnash",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
   "compellitur": {
     "lemma": "compello, compellere, compuli, compulsus V (3rd) TRANS",
     "en": "drive together (cattle), round up; force, compel, impel, drive; squeeze; gnash",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
+  "comperti": {
+    "lemma": "comperio, comperire, comperi, compertus V (4th) TRANS",
+    "en": "learn/discover/find (by investigation); verify/know for certain; find guilty",
+    "grammar": "VPAR 3 4 GEN S M PERF PASSIVE PPL"
   },
   "compilamus": {
     "lemma": "compilo, compilare, compilavi, compilatus V (1st) TRANS",
@@ -5431,6 +6361,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "complector, complecti, complexus sum",
     "en": "embrace; seize; hold fast",
     "grammar": "V PRES IMP 2 S DEP"
+  },
+  "complectitur": {
+    "lemma": "complector, complecti, complexus sum V (3rd) DEP",
+    "en": "embrace, hug; welcome; encircle, encompass; attain; include, bring in, involve",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "complectuntur": {
     "lemma": "complector, complecti, complexus sum V (3rd) DEP",
@@ -5507,6 +6442,11 @@ Object.assign(LATIN_DICT, {
     "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
     "grammar": "V 3 1 PERF ACTIVE IND 1 S"
   },
+  "composuit": {
+    "lemma": "compono, componere, composui, compositus V (3rd) TRANS",
+    "en": "compare; place/put/add/collect together, collate; match (up); store/hoard; calm",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
   "compotes": {
     "lemma": "compos, (gen.), compotis ADJ",
     "en": "in possession/control/mastery of; sharing, guilty of, afflicted with; granted",
@@ -5531,6 +6471,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "comptus, compta -um, comptior -or -us, comptissimus -a -um ADJ",
     "en": "adorned/decorated, dressed/arranged/brushed (hair), smart; ornate/embellished",
     "grammar": "ADJ 1 1 NOM S C COMP"
+  },
+  "compulsus": {
+    "lemma": "compello, compellere, compuli, compulsus V (3rd) TRANS",
+    "en": "drive together (cattle), round up; force, compel, impel, drive; squeeze; gnash",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
   "computat": {
     "lemma": "computo, computare, computavi, computatus V (1st) TRANS",
@@ -5591,6 +6536,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "concedo, concedere, concessi, concessus V (3rd)",
     "en": "relinquish/give up/concede; depart; pardon; submit, allow/grant/permit/condone",
     "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
+  "concedit": {
+    "lemma": "concedo, concedere, concessi, concessus V (3rd)",
+    "en": "relinquish/give up/concede; depart; pardon; submit, allow/grant/permit/condone",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
   "concepto": {
     "lemma": "concipio, concipere, concepi, conceptus V (3rd) TRANS",
@@ -5672,6 +6622,11 @@ Object.assign(LATIN_DICT, {
     "en": "desire eagerly/ardently; covet, long for; aim at; conceive a strong desire for",
     "grammar": "V 3 1 PRES ACTIVE IND 2 P"
   },
+  "concurrere": {
+    "lemma": "concurro, concurrere, concucurri, concursus V (3rd) INTRANS",
+    "en": "run/assemble/knock/snap together; agree, fit, concur; coincide; make same claim",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "concurritur": {
     "lemma": "concurro, concurrere, concucurri, concursus V (3rd) INTRANS",
     "en": "run/assemble/knock/snap together; agree, fit, concur; coincide; make same claim",
@@ -5691,6 +6646,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "concurro, concurrere, concucurri, concursus V (3rd) INTRANS",
     "en": "run/assemble/knock/snap together; agree, fit, concur; coincide; make same claim",
     "grammar": "SUPINE"
+  },
+  "condebat": {
+    "lemma": "condo, condere, condidi, conditus V (3rd) TRANS",
+    "en": "put/insert (into); store up/put away, preserve, bottle (wine); bury/inter; sink",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
   },
   "condenda": {
     "lemma": "condo, condere, condidi, conditus V (3rd) TRANS",
@@ -5716,6 +6676,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "condimentum, condimenti N (2nd) N",
     "en": "spice, seasoning; that which renders acceptable; condiment; tempering quality",
     "grammar": "N 2 2 NOM S N"
+  },
+  "conditio": {
+    "lemma": "conditio, conditionis N (3rd) F",
+    "en": "agreement/contract; terms, proposal/option; situation; (misread condicio)",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "conditore": {
+    "lemma": "conditor, conditoris N (3rd) M",
+    "en": "original builder, founder; originator/creator; author; preserver; organizer",
+    "grammar": "N 3 1 DAT S M"
   },
   "conditores": {
     "lemma": "condo, condere, condidi, conditus V (3rd) TRANS",
@@ -5811,6 +6781,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "confiteor, confiteri, confessus sum V (2nd) DEP",
     "en": "confess (w/ACC), admit, acknowledge, reveal, disclose; concede, allow; denote",
     "grammar": "V 2 1 FUT PASSIVE IND 1 S"
+  },
+  "confugio": {
+    "lemma": "confugio, confugere, confugi, confugitus V (3rd) INTRANS",
+    "en": "flee (for refuge/safety/protection); take refuge; have recourse/appeal to",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
   },
   "confusis": {
     "lemma": "confundo, confundere, confudi, confusus V (3rd) TRANS",
@@ -5912,6 +6887,11 @@ Object.assign(LATIN_DICT, {
     "en": "connect, join/yoke together; marry; connect/compound (words) (w/conjunctions)",
     "grammar": "VPAR 3 1 ACC S F FUT PASSIVE PPL"
   },
+  "coniungere": {
+    "lemma": "conjungo, conjungere, conjunxi, conjunctus V (3rd) TRANS",
+    "en": "connect, join/yoke together; marry; connect/compound (words) (w/conjunctions)",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "conlata": {
     "lemma": "confero, conferre, contuli, conlatus V (3rd) TRANS",
     "en": "bring together, carry/convey; collect/gather, compare; unite, add; direct/aim",
@@ -5931,6 +6911,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "conscendo, conscendere, conscendi, conscensus V (3rd)",
     "en": "climb up, ascend, scale; rise to; mount (horse); board (ship)/embark/set out",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "conscia": {
+    "lemma": "conscius, conscia, conscium ADJ",
+    "en": "conscious, aware of, knowing, privy (to); sharing (secret) knowledge; guilty",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "conscientia": {
     "lemma": "conscientia, conscientiae N (1st) F",
@@ -6047,6 +7032,11 @@ Object.assign(LATIN_DICT, {
     "en": "examine/look at/inspect; consider closely, reflect on/contemplate; investigate",
     "grammar": "VPAR 1 1 NOM S N FUT PASSIVE PPL"
   },
+  "considere": {
+    "lemma": "consido, considere, consedi, consessus V (3rd) INTRANS",
+    "en": "sit down/be seated; hold sessions, sit (judge), try; alight; subside/sink (in)",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "consilii": {
     "lemma": "consilium, consili(i) N (2nd) N",
     "en": "debate/discussion/deliberation/consultation; advice/counsel/suggestion; adviser",
@@ -6096,6 +7086,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "conspectus, conspectus N (4th) M",
     "en": "view, (range of) sight; aspect/appearance/look; perception/contemplation/survey",
     "grammar": "N 4 1 ACC S M"
+  },
+  "conspectus": {
+    "lemma": "conspectus, conspectus N (4th) M",
+    "en": "view, (range of) sight; aspect/appearance/look; perception/contemplation/survey",
+    "grammar": "N 4 1 NOM S M"
+  },
+  "conspexit": {
+    "lemma": "conspicio, conspicere, conspexi, conspectus V (3rd) TRANS",
+    "en": "observe/see/witness; notice; watch; gaze/stare on; catch/be in sight of; face",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "conspici": {
     "lemma": "conspicio, conspicere, conspexi, conspectus V (3rd) TRANS",
@@ -6302,6 +7302,11 @@ Object.assign(LATIN_DICT, {
     "en": "burn up, destroy/kill; put end to; reduce/wear away; annul; extinguish (right)",
     "grammar": "VPAR 3 1 NOM S M FUT ACTIVE PPL"
   },
+  "contagiosa": {
+    "lemma": "contagiosus, contagiosa, contagiosum ADJ",
+    "en": "contagious; infectious",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "contemnas": {
     "lemma": "contemno, contemnere, contempsi, contemptus V (3rd) TRANS",
     "en": "think little of; look down on, take poor view of; pay no heed/disregard/slight",
@@ -6401,6 +7406,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "contentio, contentionis N (3rd) F",
     "en": "stretching, tension; strenuous exercise (physical/mental); comparison (of ADJ)",
     "grammar": "N 3 1 ACC S F"
+  },
+  "contentionibus": {
+    "lemma": "contentio, contentionis N (3rd) F",
+    "en": "stretching, tension; strenuous exercise (physical/mental); comparison (of ADJ)",
+    "grammar": "N 3 1 DAT P F"
   },
   "contentos": {
     "lemma": "contendo, contendere, contendi, contentus V (3rd)",
@@ -6542,6 +7552,11 @@ Object.assign(LATIN_DICT, {
     "en": "enter into/upon relationship/agreement/business/marriage/loan/battle, deal with",
     "grammar": "V 3 1 FUT PASSIVE IND 3 S"
   },
+  "contraque": {
+    "lemma": "contra ADV",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADV + TACKON"
+  },
   "contrariam": {
     "lemma": "contrarius, contraria, contrarium ADJ",
     "en": "opposite, contrary, in contradiction; antithetical; opposed/hostile/adverse",
@@ -6667,6 +7682,11 @@ Object.assign(LATIN_DICT, {
     "en": "grow strong/thrive/gain power; regain health/strength, recover, get well/better",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "convenere": {
+    "lemma": "convenio, convenire, conveni, conventus V (4th)",
+    "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
+    "grammar": "V 4 1 PERF ACTIVE IND 3 P"
+  },
   "convenerit": {
     "lemma": "convenio, convenire, conveni, conventus V (4th)",
     "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
@@ -6686,6 +7706,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "convenio, convenire, conveni, conventus V (4th)",
     "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
     "grammar": "VPAR 3 4 NOM P N PRES ACTIVE PPL"
+  },
+  "convenirent": {
+    "lemma": "convenio, convenire, conveni, conventus V (4th)",
+    "en": "be appropriate to, fit, be correctly shaped/consistent; harmonize, agree, tally",
+    "grammar": "V 4 1 IMPF ACTIVE SUB 3 P"
   },
   "convenit": {
     "lemma": "convenio, convenire, conveni, conventus V (4th)",
@@ -6712,6 +7737,11 @@ Object.assign(LATIN_DICT, {
     "en": "turn upside down/side-to-side; invert/transpose/convulse; turn over (soil)/dig",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "convexa": {
+    "lemma": "convexum, convexi N (2nd) N",
+    "en": "arch, vault; dome; dome of the sky; concavity (L+S); (usu. pl.)",
+    "grammar": "N 2 2 NOM P N"
+  },
   "convictor": {
     "lemma": "convictor, convictoris N (3rd) M",
     "en": "messmate, friend, companion; one who lives with a person on intimate terms",
@@ -6726,6 +7756,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "convinco, convincere, convici, convictus V (3rd) TRANS",
     "en": "conquer, establish; convince; overcome, demonstrate, prove clearly; grant",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "convivia": {
+    "lemma": "convivium, convivi(i) N (2nd) N",
+    "en": "banquet/feast/dinner party; guests/people at party; dining-club; living together",
+    "grammar": "N 2 4 NOM P N"
   },
   "cooptatio": {
     "lemma": "cooptatio, cooptationis N (3rd) F",
@@ -6757,6 +7792,11 @@ Object.assign(LATIN_DICT, {
     "en": "in person, face-to-face; in one's presence, before one's eyes; publicly/openly",
     "grammar": "ADV"
   },
+  "corbeia": {
+    "lemma": "corbis, corbis N (3rd) C",
+    "en": "basket; (esp. one used for gathering grain/fruit; basketful (quantity); make of",
+    "grammar": "ADJ 3 0 NOM P N POS + SUFFIX"
+  },
   "cordi": {
     "lemma": "cor, cordis N (3rd) N",
     "en": "heart; mind/soul/spirit; intellect/judgment; sweetheart; souls/persons (pl.)",
@@ -6781,6 +7821,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "corona, coronae N (1st) F",
     "en": "crown; garland, wreath; halo/ring; circle of men/troops; [sub ~ => as slaves]",
     "grammar": "N 1 1 GEN S F"
+  },
+  "coronam": {
+    "lemma": "corona, coronae N (1st) F",
+    "en": "crown; garland, wreath; halo/ring; circle of men/troops; [sub ~ => as slaves]",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "coronant": {
+    "lemma": "corono, coronare, coronavi, coronatus V (1st)",
+    "en": "wreathe, crown, deck with garlands; award prize; surround/encircle, ring round",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "corpori": {
     "lemma": "corpus, corporis N (3rd) N",
@@ -6812,6 +7862,16 @@ Object.assign(LATIN_DICT, {
     "en": "amendment, rectification; improvement, correction; word substitution; reproof",
     "grammar": "N 3 1 DAT S F"
   },
+  "correptum": {
+    "lemma": "corripio, corripere, corripui, correptus V (3rd) TRANS",
+    "en": "seize/grasp/snatch up, lay hold of; sweep off; carry away; appropriate/arrogate",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "correxit": {
+    "lemma": "corrigo, corrigere, correxi, correctus V (3rd) TRANS",
+    "en": "correct, set right; straighten; improve, edit, reform; restore, cure; chastise",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
   "corriges": {
     "lemma": "corrigo, corrigere, correxi, correctus V (3rd) TRANS",
     "en": "correct, set right; straighten; improve, edit, reform; restore, cure; chastise",
@@ -6822,6 +7882,11 @@ Object.assign(LATIN_DICT, {
     "en": "strengthen, harden, reinforce; corroborate; mature; make powerful, fortify",
     "grammar": "V 1 1 PRES ACTIVE IND 2 P"
   },
+  "corruisse": {
+    "lemma": "corruo, corruere, corrui, corrutus V (3rd)",
+    "en": "fall/break down, fall to ground/from height, collapse; be ruined, come to grief",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
   "coruinus": {
     "lemma": "corvinus, corvina, corvinum ADJ",
     "en": "raven-, of/belonging/pertaining to a raven",
@@ -6831,6 +7896,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Coruncanius, Coruncanii",
     "en": "Coruncanius",
     "grammar": "N ACC S M (proper name)"
+  },
+  "cosmographus": {
+    "lemma": "cosmographus, cosmographi N (2nd) M",
+    "en": "cosmography; describing/mapping general features of the universe",
+    "grammar": "N 2 1 NOM S M"
   },
   "cotidiana": {
     "lemma": "cotidianus, cotidiana, cotidianum ADJ",
@@ -6882,6 +7952,11 @@ Object.assign(LATIN_DICT, {
     "en": "of tomorrow/next day/future; [in ~um => for/til tomorrow/following day]",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "crateras": {
+    "lemma": "cratera, craterae N (1st) F",
+    "en": "mixing bowl; depression, volcano crater, basin of fountain; Cup (constellation)",
+    "grammar": "N 1 1 ACC P F"
+  },
   "crates": {
     "lemma": "cratis, cratis N (3rd) F",
     "en": "wickerwork; bundle of brush, fascine; framework, network, lattice; bush-harrow",
@@ -6916,6 +7991,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "credo, credere, credidi, creditus V (3rd)",
     "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
     "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
+  },
+  "crediderat": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "V 3 1 PLUP ACTIVE IND 3 S"
+  },
+  "crediderit": {
+    "lemma": "credo, credere, credidi, creditus V (3rd)",
+    "en": "trust, entrust; commit/consign; believe, trust in, rely on, confide; suppose",
+    "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
   },
   "credidit": {
     "lemma": "credo, credere, credidi, creditus V (3rd)",
@@ -6977,10 +8062,35 @@ Object.assign(LATIN_DICT, {
     "en": "indictment/charge/accusation; blame/reproach/slander; verdict/judgment (L+S)",
     "grammar": "N 3 2 DAT P N"
   },
+  "crinibus": {
+    "lemma": "crinis, crinis N (3rd) M",
+    "en": "hair; lock of hair, tress, plait; plume (helmet); tail of a comet",
+    "grammar": "N 3 3 DAT P M"
+  },
+  "crinitus": {
+    "lemma": "crinitus, crinita, crinitum ADJ",
+    "en": "hairy; having long locks, long haired; hair-like; [stella crinita => comet]",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "cristatus": {
+    "lemma": "cristatus, cristata, cristatum ADJ",
+    "en": "tufted, crested; having a comb/tuft on head; plumed; [~ ales => cock]",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "croceo": {
+    "lemma": "croceus, crocea, croceum ADJ",
+    "en": "yellow, golden; saffron-colored; of saffron/its oil, saffron-; scarlet (Ecc)",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "crudelem": {
     "lemma": "crudelis, crudele, crudelior -or -us, crudelissimus -a -um ADJ",
     "en": "cruel/hardhearted/unmerciful/severe, bloodthirsty/savage/inhuman; harsh/bitter",
     "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "crudelibus": {
+    "lemma": "crudelis, crudele, crudelior -or -us, crudelissimus -a -um ADJ",
+    "en": "cruel/hardhearted/unmerciful/severe, bloodthirsty/savage/inhuman; harsh/bitter",
+    "grammar": "ADJ 3 2 DAT P X POS"
   },
   "crudelior": {
     "lemma": "crudelis, crudele, crudelior -or -us, crudelissimus -a -um ADJ",
@@ -6991,6 +8101,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "crudelitas, crudelitatis N (3rd) F",
     "en": "cruelty/barbarity, harshness/severity, savagery/inhumanity; instance of cruelty",
     "grammar": "N 3 1 ACC S F"
+  },
+  "cruentus": {
+    "lemma": "cruentus, cruenta -um, cruentior -or -us, cruentissimus -a -um ADJ",
+    "en": "bloody/bleeding/discharging blood; gory; blood red; polluted w/blood-guilt",
+    "grammar": "ADJ 1 1 NOM S M POS"
   },
   "cruore": {
     "lemma": "cruor, cruoris N (3rd) M",
@@ -7101,6 +8216,26 @@ Object.assign(LATIN_DICT, {
     "lemma": "cunctatio, cunctationis N (3rd) F",
     "en": "delay, hesitation; tardiness, inactivity; hesitating about/delaying of (w/GEN)",
     "grammar": "N 3 1 NOM S F"
+  },
+  "cuncti": {
+    "lemma": "cunctus, cuncta, cunctum ADJ",
+    "en": "altogether (usu. pl.), in a body; every, all, entire; total/complete; whole of",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "cunctis": {
+    "lemma": "cunctus, cuncta, cunctum ADJ",
+    "en": "altogether (usu. pl.), in a body; every, all, entire; total/complete; whole of",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "cunctisque": {
+    "lemma": "cunctus, cuncta, cunctum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT P X POS + TACKON"
+  },
+  "cunctos": {
+    "lemma": "cunctus, cuncta, cunctum ADJ",
+    "en": "altogether (usu. pl.), in a body; every, all, entire; total/complete; whole of",
+    "grammar": "ADJ 1 1 ACC P M POS"
   },
   "cupere": {
     "lemma": "cupio, cupere, cupivi, cupitus V (3rd) TRANS",
@@ -7222,6 +8357,11 @@ Object.assign(LATIN_DICT, {
     "en": "grievous; full of sorrow",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "current": {
+    "lemma": "curro, currere, cucurri, cursus V (3rd) INTRANS",
+    "en": "run/trot/gallop, hurry/hasten/speed, move/travel/proceed/flow swiftly/quickly",
+    "grammar": "V 3 1 FUT ACTIVE IND 3 P"
+  },
   "curret": {
     "lemma": "curro, currere, cucurri, cursus V (3rd) INTRANS",
     "en": "run/trot/gallop, hurry/hasten/speed, move/travel/proceed/flow swiftly/quickly",
@@ -7237,6 +8377,11 @@ Object.assign(LATIN_DICT, {
     "en": "run/trot/gallop, hurry/hasten/speed, move/travel/proceed/flow swiftly/quickly",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "curru": {
+    "lemma": "currus, currus N (4th) M",
+    "en": "chariot, light horse vehicle; triumphal chariot; triumph; wheels on plow; cart",
+    "grammar": "N 4 1 DAT S M"
+  },
   "currum": {
     "lemma": "currus, currus N (4th) M",
     "en": "chariot, light horse vehicle; triumphal chariot; triumph; wheels on plow; cart",
@@ -7251,6 +8396,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "cursus, cursus N (4th) M",
     "en": "running; speed/zeal; charge, onrush; forward movement/march; revolution (wheel)",
     "grammar": "N 4 1 NOM S M"
+  },
+  "custode": {
+    "lemma": "custos, custodis N (3rd) C",
+    "en": "guard; sentry/watch; guardian/protector/keeper; doorkeeper/watchman/janitor",
+    "grammar": "N 3 1 DAT S C"
   },
   "custodem": {
     "lemma": "custos, custodis N (3rd) C",
@@ -7297,6 +8447,21 @@ Object.assign(LATIN_DICT, {
     "en": "of/pertaining to Cynic philosophy; [spasticus ~ => who has facial paralysis]",
     "grammar": "ADJ 1 1 DAT P X POS"
   },
+  "cynthi": {
+    "lemma": "Cynthus, Cynthi N (2nd) M",
+    "en": "Cynthus; (mountain on Delos, birthplace of Apollo and Diana)",
+    "grammar": "N 2 1 GEN S M"
+  },
+  "cyprum": {
+    "lemma": "Cyprus, Cypri N (2nd) M",
+    "en": "Cyprus; (island)",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "cythera": {
+    "lemma": "Cythera, Cytherorum (pl.)",
+    "en": "Cythera (island sacred to Venus)",
+    "grammar": "N ACC P N (proper name)"
+  },
   "d": {
     "lemma": "D., abb. N M",
     "en": "|Dominus, Lord; abb. D; [calendar AD/Anno Domini => in the year of our Lord]",
@@ -7311,6 +8476,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "do, dare, dedi, datus V (1st) TRANS",
     "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
     "grammar": "V 1 1 FUT ACTIVE IND 1 S"
+  },
+  "damnabilior": {
+    "lemma": "damnabilis, damnabile, damnabilior -or -us, damnabilissimus -a -um ADJ",
+    "en": "damnable, worthy of condemnation/damnation",
+    "grammar": "ADJ 3 2 NOM S C COMP"
+  },
+  "damnata": {
+    "lemma": "damno, damnare, damnavi, damnatus V (1st) TRANS",
+    "en": "pass/pronounce judgment, find guilty; deliver/condemn/sentence; harm/damn/doom",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
   },
   "damno": {
     "lemma": "damnum, damni N (2nd) N",
@@ -7352,6 +8527,26 @@ Object.assign(LATIN_DICT, {
     "en": "the Danube",
     "grammar": "N ACC S M (proper name)"
   },
+  "dapibus": {
+    "lemma": "daps, dapis N (3rd) F",
+    "en": "sacrificial feast/meal; feast, banquet; food composing it; food/meal of animals",
+    "grammar": "N 3 1 DAT P F"
+  },
+  "dardaniae": {
+    "lemma": "Dardanius, Dardania, Dardanium ADJ",
+    "en": "Dardanian, Trojan; of/pertaining to Dardanus (ancestor of Trojans)",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "dardanidae": {
+    "lemma": "Dardanides, Dardanidae",
+    "en": "the Dardanidae (descendants of Dardanus, the Trojans)",
+    "grammar": "N NOM P M (proper name)"
+  },
+  "dardanio": {
+    "lemma": "Dardanius, Dardania, Dardanium ADJ",
+    "en": "Dardanian, Trojan; of/pertaining to Dardanus (ancestor of Trojans)",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "darentur": {
     "lemma": "do, dare, dedi, datus V (1st) TRANS",
     "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
@@ -7377,6 +8572,11 @@ Object.assign(LATIN_DICT, {
     "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
     "grammar": "V 1 1 FUT ACTIVE IMP 2 S"
   },
+  "dator": {
+    "lemma": "do, dare, dedi, datus V (1st) TRANS",
+    "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
+    "grammar": "V 1 1 FUT PASSIVE IMP 2 S"
+  },
   "datorum": {
     "lemma": "do, dare, dedi, datus V (1st) TRANS",
     "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
@@ -7386,6 +8586,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "do, dare, dedi, datus V (1st) TRANS",
     "en": "give; dedicate; sell; pay; grant/bestow/impart/offer/lend; devote; allow; make",
     "grammar": "VPAR 1 1 ACC P M PERF PASSIVE PPL"
+  },
+  "deas": {
+    "lemma": "as, assis N (3rd) M",
+    "en": "penny, copper coin; a pound; one, whole, unit; circular flap/valve; round slice; - down, off, away, from; not; removal, reversal; utterly/completely (intensive)",
+    "grammar": "N 3 3 NOM S M + PREFIX"
   },
   "debeant": {
     "lemma": "debeo, debere, debui, debitus V (2nd)",
@@ -7537,6 +8742,16 @@ Object.assign(LATIN_DICT, {
     "en": "beauty/good looks, decent appearance; ornament; grace/elegance/charm; propriety",
     "grammar": "N 3 1 NOM S M"
   },
+  "decora": {
+    "lemma": "decus, decoris N (3rd) N",
+    "en": "glory/splendor; honor/distinction; deeds; dignity/virtue; decorum; grace/beauty",
+    "grammar": "N 3 2 NOM P N"
+  },
+  "decoram": {
+    "lemma": "decorus, decora -um, decorior -or -us, decorissimus -a -um ADJ",
+    "en": "beautiful/good looking/handsome/comely; adorned; graceful/elegant (non-visual)",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
   "decore": {
     "lemma": "decus, decoris N (3rd) N",
     "en": "glory/splendor; honor/distinction; deeds; dignity/virtue; decorum; grace/beauty",
@@ -7666,6 +8881,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "definio, definire, definivi, definitus V (4th) TRANS",
     "en": "define/bound/fix/limit/mark; restrict/confine; assign, ordain; lay down (rule)",
     "grammar": "V 4 1 PRES ACTIVE IND 3 S"
+  },
+  "defixus": {
+    "lemma": "defigo, defigere, defixi, defixus V (3rd) TRANS",
+    "en": "sink/bury/stick/thrust (weapon); fasten, fix, plant, embed; attach/affix",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
   "deflexit": {
     "lemma": "deflecto, deflectere, deflexi, deflexus V (3rd) TRANS",
@@ -7907,6 +9127,11 @@ Object.assign(LATIN_DICT, {
     "en": "drop, let fall; sink; send/cast/go/flow/float/slope down; flow/shed/let (blood)",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
+  "demissa": {
+    "lemma": "demitto, demittere, demisi, demissus V (3rd) TRANS",
+    "en": "drop, let fall; sink; send/cast/go/flow/float/slope down; flow/shed/let (blood)",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "democritum": {
     "lemma": "Democritus, Democriti",
     "en": "Democritus",
@@ -7967,10 +9192,20 @@ Object.assign(LATIN_DICT, {
     "en": "pay over/down; pay (penalty); expend (time/labor); spend, lay out; bestow",
     "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
   },
+  "dependent": {
+    "lemma": "dependo, dependere, dependi, depensus V (3rd) TRANS",
+    "en": "pay over/down; pay (penalty); expend (time/labor); spend, lay out; bestow",
+    "grammar": "V 3 1 FUT ACTIVE IND 3 P"
+  },
   "deplorandi": {
     "lemma": "deploro, deplorare, deploravi, deploratus V (1st)",
     "en": "weep/lament/mourn for/cry over; deplore, complain of; lose; despair/give up on",
     "grammar": "VPAR 1 1 GEN S M FUT PASSIVE PPL"
+  },
+  "deplorantem": {
+    "lemma": "deploro, deplorare, deploravi, deploratus V (1st)",
+    "en": "weep/lament/mourn for/cry over; deplore, complain of; lose; despair/give up on",
+    "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
   },
   "deponendo": {
     "lemma": "depono, deponere, deposui, depostus V (3rd) TRANS",
@@ -8192,6 +9427,16 @@ Object.assign(LATIN_DICT, {
     "en": "stop/end/finish, abandon/leave/break off, desist/cease; come to/at end/close",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "desiste": {
+    "lemma": "desisto, desistere, destiti, destitus V (3rd)",
+    "en": "stop/cease/desist (from); give up, leave/stand off; dissociate oneself",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "desiturus": {
+    "lemma": "desino, desinere, desivi, desitus V (3rd)",
+    "en": "stop/end/finish, abandon/leave/break off, desist/cease; come to/at end/close",
+    "grammar": "VPAR 3 1 NOM S M FUT ACTIVE PPL"
+  },
   "desperanda": {
     "lemma": "despero, desperare, desperavi, desperatus V (1st)",
     "en": "despair (of); have no/give up hope (of/that); give up as hopeless (of cure)",
@@ -8227,10 +9472,20 @@ Object.assign(LATIN_DICT, {
     "en": "fix/set (in position), set up, make fast; leave destitute/without; render void",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "destituta": {
+    "lemma": "destituo, destituere, destitui, destitutus V (3rd) TRANS",
+    "en": "fix/set (in position), set up, make fast; leave destitute/without; render void",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "destitutus": {
     "lemma": "destituo, destituere, destitui, destitutus V (3rd) TRANS",
     "en": "fix/set (in position), set up, make fast; leave destitute/without; render void",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "desuetaque": {
+    "lemma": "desuetus, desueta, desuetum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S F POS + TACKON"
   },
   "desunt": {
     "lemma": "desum, deesse, defui, defuturus V (5th) TO_BEING",
@@ -8367,10 +9622,45 @@ Object.assign(LATIN_DICT, {
     "en": "remote/secluded; out-of-way, off road; sequestered, in seclusion; retired; shy",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "devota": {
+    "lemma": "devoveo, devovere, devovi, devotus V (2nd) TRANS",
+    "en": "devote, consecrate; vow, promise solemnly; mark out, appoint; curse, execrate",
+    "grammar": "VPAR 2 1 NOM S F PERF PASSIVE PPL"
+  },
+  "devotissimas": {
+    "lemma": "devotus, devota -um, devotior -or -us, devotissimus -a -um ADJ",
+    "en": "devoted, zealously attached, faithful; devout; pious; accursed, execrable",
+    "grammar": "ADJ 1 1 ACC P F SUPER"
+  },
+  "dexteram": {
+    "lemma": "dextera, dexterae N (1st) F",
+    "en": "right hand; weapon/greeting/shaking hand; right side; soldier",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "dextras": {
+    "lemma": "dextra, dextrae N (1st) F",
+    "en": "right hand; weapon/greeting/shaking hand; right side; soldier",
+    "grammar": "N 1 1 ACC P F"
+  },
   "dextro": {
     "lemma": "dexter, dextra -um, dexterior -or -us, dextimus -a -um ADJ",
     "en": "right, on/to the right hand/side; skillful/dexterous/handy",
     "grammar": "ADJ 1 2 DAT S M POS"
+  },
+  "diabolus": {
+    "lemma": "diabolus, diaboli N (2nd) M",
+    "en": "devil; The Devil, Satan, Prince of Evil/Darkness; evil one",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "diana": {
+    "lemma": "Diana, Dianae N (1st) F",
+    "en": "Diana (virgin goddess of light/moon/hunt); (identified w/Artimis); moon",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "dic": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
   },
   "dicam": {
     "lemma": "dico, dicere, dixi, dictus V (3rd)",
@@ -8411,6 +9701,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "dico, dicere, dixi, dictus V (3rd)",
     "en": "say, declare, state; allege, declare positively; assert; plead (case)",
     "grammar": "VPAR 3 1 NOM S N FUT PASSIVE PPL"
+  },
+  "dicentem": {
+    "lemma": "dico, dicere, dixi, dictus V (3rd)",
+    "en": "say, declare, state; allege, declare positively; assert; plead (case)",
+    "grammar": "VPAR 3 1 ACC S C PRES ACTIVE PPL"
   },
   "dicentes": {
     "lemma": "dico, dicere, dixi, dictus V (3rd)",
@@ -8517,6 +9812,11 @@ Object.assign(LATIN_DICT, {
     "en": "learn; hear, get to know, become acquainted with; acquire knowledge/skill of/in",
     "grammar": "V 3 1 PERF ACTIVE IND 1 S"
   },
+  "didicisse": {
+    "lemma": "disco, discere, didici, discitus V (3rd) TRANS",
+    "en": "learn; hear, get to know, become acquainted with; acquire knowledge/skill of/in",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
   "didicisti": {
     "lemma": "disco, discere, didici, discitus V (3rd) TRANS",
     "en": "learn; hear, get to know, become acquainted with; acquire knowledge/skill of/in",
@@ -8556,6 +9856,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "dies, diei N (5th) C",
     "en": "day; daylight; (sunlit hours); (24 hours from midnight); open sky; weather",
     "grammar": "N 5 1 NOM S C"
+  },
+  "differenda": {
+    "lemma": "differo, differre, distuli, dilatus V (3rd)",
+    "en": "postpone/delay/differ; put off, keep waiting; give respite to; differ, disagree",
+    "grammar": "VPAR 3 2 NOM S F FUT PASSIVE PPL"
   },
   "differre": {
     "lemma": "differo, differre, distuli, dilatus V (3rd)",
@@ -8621,6 +9926,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "digno, dignare, dignavi, dignatus V (1st) TRANS",
     "en": "deem/consider/think worthy/becoming/deserving/fit (to); deign, condescend",
     "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "dignas": {
+    "lemma": "digno, dignare, dignavi, dignatus V (1st) TRANS",
+    "en": "deem/consider/think worthy/becoming/deserving/fit (to); deign, condescend",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
   },
   "dignatus": {
     "lemma": "digno, dignare, dignavi, dignatus V (1st) TRANS",
@@ -8837,6 +10147,11 @@ Object.assign(LATIN_DICT, {
     "en": "send away/off; allow to go, let go/off; disband, discharge, dismiss (soldiers)",
     "grammar": "VPAR 3 1 ACC P M PERF PASSIVE PPL"
   },
+  "dimittam": {
+    "lemma": "dimitto, dimittere, dimisi, dimissus V (3rd) TRANS",
+    "en": "send away/off; allow to go, let go/off; disband, discharge, dismiss (soldiers)",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
+  },
   "dimittendis": {
     "lemma": "dimitto, dimittere, dimisi, dimissus V (3rd) TRANS",
     "en": "send away/off; allow to go, let go/off; disband, discharge, dismiss (soldiers)",
@@ -8856,6 +10171,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "dinosco, dinoscere, dinovi, dinotus V (3rd) TRANS",
     "en": "discern/distinguish/separate, recognize as distinct; make distinction",
     "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
+  "diomedis": {
+    "lemma": "Diomedes, Diomedis N M",
+    "en": "Diomedes; (Greek hero at Troy, later settled in Italy)",
+    "grammar": "N 3 8 GEN S M"
+  },
+  "dionysium": {
+    "lemma": "Dionysius, Dionysi(i) N (2nd) M",
+    "en": "Dionysius (long y); (of Syracuse); Dennis (Ecc); St Dennis of Paris",
+    "grammar": "N 2 4 ACC S M"
   },
   "dirimi": {
     "lemma": "dirimo, dirimere, diremi, diremptus V (3rd) TRANS",
@@ -8957,6 +10282,11 @@ Object.assign(LATIN_DICT, {
     "en": "teaching, instruction, education; training; discipline; method, science, study",
     "grammar": "N 1 1 ACC P F"
   },
+  "disco": {
+    "lemma": "disco, discere, didici, discitus V (3rd) TRANS",
+    "en": "learn; hear, get to know, become acquainted with; acquire knowledge/skill of/in",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
   "discordiam": {
     "lemma": "discordia, discordiae N (1st) F",
     "en": "disagreement, discord",
@@ -8967,10 +10297,30 @@ Object.assign(LATIN_DICT, {
     "en": "disagreement, discord",
     "grammar": "N 1 1 DAT P F"
   },
+  "discors": {
+    "lemma": "discors, (gen.), discordis ADJ",
+    "en": "warring, disagreeing, inharmonious; discordant, at variance; inconsistent",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
   "discrepantem": {
     "lemma": "discrepo, discrepare, discrepavi, discrepatus V (1st) INTRANS",
     "en": "disagree/differ/vary; have differences/discrepancies/difference of opinion",
     "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
+  },
+  "discrimine": {
+    "lemma": "discrimen, discriminis N (3rd) N",
+    "en": "crisis, separating line, division; distinction, difference",
+    "grammar": "N 3 2 DAT S N"
+  },
+  "discumbere": {
+    "lemma": "discumbo, discumbere, discubui, discubitus V (3rd)",
+    "en": "sit (to eat), recline at table; lie down; go to bed",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "discumbitur": {
+    "lemma": "discumbo, discumbere, discubui, discubitus V (3rd)",
+    "en": "sit (to eat), recline at table; lie down; go to bed",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "discunt": {
     "lemma": "disco, discere, didici, discitus V (3rd) TRANS",
@@ -9076,6 +10426,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "dispono, disponere, disposui, dispositus V (3rd) TRANS",
     "en": "dispose, place here and there, distribute; set/lay out; administer/manage/order",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "dispulerat": {
+    "lemma": "dispello, dispellere, dispuli, dispulsus V (3rd)",
+    "en": "drive apart or away; disperse",
+    "grammar": "V 3 1 PLUP ACTIVE IND 3 S"
+  },
+  "dispulit": {
+    "lemma": "dispello, dispellere, dispuli, dispulsus V (3rd)",
+    "en": "drive apart or away; disperse",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "dispunge": {
     "lemma": "dispungo, dispungere, dispunxi, dispunctus V (3rd)",
@@ -9222,6 +10582,11 @@ Object.assign(LATIN_DICT, {
     "en": "unlikeness, difference",
     "grammar": "N 3 1 NOM S F"
   },
+  "dissimulant": {
+    "lemma": "dissimulo, dissimulare, dissimulavi, dissimulatus V (1st)",
+    "en": "conceal, dissemble, disguise, hide; ignore",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
   "dissimulatione": {
     "lemma": "dissimulatio, dissimulationis N (3rd) F",
     "en": "dissimulation dissembling",
@@ -9266,6 +10631,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "distantia, distantiae N (1st) F",
     "en": "distance; difference",
     "grammar": "N 1 1 NOM S F"
+  },
+  "distendunt": {
+    "lemma": "distendo, distendere, distendi, distentus V (3rd)",
+    "en": "stretch (apart); spread out; distend; extend; rack; detract, perplex",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "distinctionem": {
     "lemma": "distinctio, distinctionis N (3rd) F",
@@ -9382,6 +10752,16 @@ Object.assign(LATIN_DICT, {
     "en": "god",
     "grammar": "N 2 1 NOM S M"
   },
+  "diva": {
+    "lemma": "diva, divae N (1st) F",
+    "en": "goddess",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "divae": {
+    "lemma": "diva, divae N (1st) F",
+    "en": "goddess",
+    "grammar": "N 1 1 GEN S F"
+  },
   "divellit": {
     "lemma": "divello, divellere, divelli, divulsus V (3rd) TRANS",
     "en": "alienate/estrange; compel (persons) to part company, force away; separate from",
@@ -9487,6 +10867,11 @@ Object.assign(LATIN_DICT, {
     "en": "teach, show, point out",
     "grammar": "V 2 1 PRES ACTIVE IND 3 P"
   },
+  "docere": {
+    "lemma": "doceo, docere, docui, doctus V (2nd)",
+    "en": "teach, show, point out",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
   "docetis": {
     "lemma": "doceo, docere, docui, doctus V (2nd)",
     "en": "teach, show, point out",
@@ -9527,15 +10912,35 @@ Object.assign(LATIN_DICT, {
     "en": "teach, show, point out",
     "grammar": "V 2 1 PERF ACTIVE IND 3 P"
   },
+  "docuit": {
+    "lemma": "doceo, docere, docui, doctus V (2nd)",
+    "en": "teach, show, point out",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 S"
+  },
   "documenta": {
     "lemma": "documentum, documenti N (2nd) N",
     "en": "lesson, instruction; warning, example; document; proof",
     "grammar": "N 2 2 NOM P N"
   },
+  "dolabellam": {
+    "lemma": "Dolabella, Dolabellae N (1st) M",
+    "en": "Dolabella; (cognomen of gens Cornelia); (P. Cornelius ~ -> Cicero's son-in-law)",
+    "grammar": "N 1 1 ACC S M"
+  },
+  "doleo": {
+    "lemma": "doleo, dolere, dolui, dolitus V (2nd)",
+    "en": "hurt; feel/suffer pain; grieve; be afflicted/pained/sorry; cause pain/grief",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 S"
+  },
   "dolere": {
     "lemma": "doleo, dolere, dolui, dolitus V (2nd)",
     "en": "hurt; feel/suffer pain; grieve; be afflicted/pained/sorry; cause pain/grief",
     "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "dolis": {
+    "lemma": "dolus, doli N (2nd) M",
+    "en": "trick, device, deceit, treachery, trickery, cunning, fraud",
+    "grammar": "N 2 1 DAT P M"
   },
   "dolo": {
     "lemma": "dolus, doli N (2nd) M",
@@ -9546,6 +10951,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "dolor, doloris N (3rd) M",
     "en": "pain, anguish, grief, sorrow, suffering; resentment, indignation",
     "grammar": "N 3 1 NOM S M"
+  },
+  "dolos": {
+    "lemma": "dolus, doli N (2nd) M",
+    "en": "trick, device, deceit, treachery, trickery, cunning, fraud",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "doluisti": {
+    "lemma": "doleo, dolere, dolui, dolitus V (2nd)",
+    "en": "hurt; feel/suffer pain; grieve; be afflicted/pained/sorry; cause pain/grief",
+    "grammar": "V 2 1 PERF ACTIVE IND 2 S"
   },
   "domesticis": {
     "lemma": "domesticus, domestica, domesticum ADJ",
@@ -9577,6 +10992,11 @@ Object.assign(LATIN_DICT, {
     "en": "owner, lord, master; the Lord; title for ecclesiastics/gentlemen",
     "grammar": "N 2 1 NOM S M"
   },
+  "domo": {
+    "lemma": "domus, domi N (2nd) F",
+    "en": "house, building; home, household; (N 4 1, older N 2 1); [domi => at home]",
+    "grammar": "N 2 1 DAT S F"
+  },
   "domum": {
     "lemma": "domus, domus N (4th) F",
     "en": "house, building; home, household; (N 4 1, older N 2 1); [domu => at home]",
@@ -9591,6 +11011,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "dono, donare, donavi, donatus V (1st)",
     "en": "present, grant; forgive; give (gifts), bestow",
     "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
+  "donis": {
+    "lemma": "donum, doni N (2nd) N",
+    "en": "gift, present; offering",
+    "grammar": "N 2 2 DAT P N"
+  },
+  "donisque": {
+    "lemma": "donum, doni N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT P N + TACKON"
+  },
+  "donum": {
+    "lemma": "donum, doni N (2nd) N",
+    "en": "gift, present; offering",
+    "grammar": "N 2 2 NOM S N"
   },
   "dormientesque": {
     "lemma": "dormio, dormire, dormivi, dormitus V (4th) INTRANS",
@@ -9612,6 +11047,11 @@ Object.assign(LATIN_DICT, {
     "en": "two (pl.)",
     "grammar": "NUM"
   },
+  "dubiam": {
+    "lemma": "dubius, dubia, dubium ADJ",
+    "en": "doubtful, dubious, uncertain; variable, dangerous; critical",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
   "dubie": {
     "lemma": "dubius, dubia, dubium ADJ",
     "en": "doubtful, dubious, uncertain; variable, dangerous; critical",
@@ -9627,6 +11067,11 @@ Object.assign(LATIN_DICT, {
     "en": "doubt; deliberate; hesitate (over); be uncertain/irresolute",
     "grammar": "V 1 1 FUT ACTIVE IND 3 S"
   },
+  "dubitans": {
+    "lemma": "dubito, dubitare, dubitavi, dubitatus V (1st)",
+    "en": "doubt; deliberate; hesitate (over); be uncertain/irresolute",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
+  },
   "dubitante": {
     "lemma": "dubito, dubitare, dubitavi, dubitatus V (1st)",
     "en": "doubt; deliberate; hesitate (over); be uncertain/irresolute",
@@ -9636,6 +11081,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "dubito, dubitare, dubitavi, dubitatus V (1st)",
     "en": "doubt; deliberate; hesitate (over); be uncertain/irresolute",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "dubitat": {
+    "lemma": "dubito, dubitare, dubitavi, dubitatus V (1st)",
+    "en": "doubt; deliberate; hesitate (over); be uncertain/irresolute",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "dubitatio": {
     "lemma": "dubitatio, dubitationis N (3rd) F",
@@ -9661,6 +11111,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "duco, ducere, duxi, ductus V (3rd)",
     "en": "lead, command; think, consider, regard; prolong",
     "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "ducat": {
+    "lemma": "duco, ducere, duxi, ductus V (3rd)",
+    "en": "lead, command; think, consider, regard; prolong",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
+  "duce": {
+    "lemma": "dux, ducis N (3rd) M",
+    "en": "leader, guide; commander, general; Duke (medieval, Bee)",
+    "grammar": "N 3 1 DAT S M"
   },
   "ducem": {
     "lemma": "dux, ducis N (3rd) M",
@@ -9692,6 +11152,21 @@ Object.assign(LATIN_DICT, {
     "en": "food; fare, rations; nutriment, sustenance, fuel; eating, a meal; bait; two (numerical prefix)",
     "grammar": "N 2 1 NOM S M + PREFIX"
   },
+  "ducis": {
+    "lemma": "dux, ducis N (3rd) M",
+    "en": "leader, guide; commander, general; Duke (medieval, Bee)",
+    "grammar": "N 3 1 GEN S M"
+  },
+  "ducta": {
+    "lemma": "duco, ducere, duxi, ductus V (3rd)",
+    "en": "lead, command; think, consider, regard; prolong",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "ductus": {
+    "lemma": "duco, ducere, duxi, ductus V (3rd)",
+    "en": "lead, command; think, consider, regard; prolong",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
   "dudum": {
     "lemma": "dudum ADV",
     "en": "little while ago; formerly; [tam dudum => long ago]",
@@ -9721,6 +11196,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "dulcis, dulce, dulcior -or -us, dulcissimus -a -um ADJ",
     "en": "pleasant, charming; sweet; kind, dear; soft, flattering, delightful",
     "grammar": "ADJ 3 2 DAT S X POS"
+  },
+  "dulcia": {
+    "lemma": "dulcis, dulce, dulcior -or -us, dulcissimus -a -um ADJ",
+    "en": "pleasant, charming; sweet; kind, dear; soft, flattering, delightful",
+    "grammar": "ADJ 3 2 NOM P N POS"
   },
   "dulcior": {
     "lemma": "dulcis, dulce, dulcior -or -us, dulcissimus -a -um ADJ",
@@ -9767,10 +11247,25 @@ Object.assign(LATIN_DICT, {
     "en": "to have doubled",
     "grammar": "V PERF ACTIVE INF"
   },
+  "duplicem": {
+    "lemma": "duplex, (gen.), duplicis ADJ",
+    "en": "twofold, double; divided; two-faced",
+    "grammar": "ADJ 3 1 ACC S C POS"
+  },
+  "dura": {
+    "lemma": "durus, dura -um, durior -or -us, durissimus -a -um ADJ",
+    "en": "hard, stern; harsh, rough, vigorous; cruel, unfeeling, inflexible; durable",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "duram": {
     "lemma": "durus, dura -um, durior -or -us, durissimus -a -um ADJ",
     "en": "hard, stern; harsh, rough, vigorous; cruel, unfeeling, inflexible; durable",
     "grammar": "ADJ 1 1 ACC S F POS"
+  },
+  "duriori": {
+    "lemma": "durus, dura -um, durior -or -us, durissimus -a -um ADJ",
+    "en": "hard, stern; harsh, rough, vigorous; cruel, unfeeling, inflexible; durable",
+    "grammar": "ADJ 1 1 DAT S X COMP"
   },
   "durius": {
     "lemma": "durus, dura -um, durior -or -us, durissimus -a -um ADJ",
@@ -9816,6 +11311,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "is, ea, id PRON",
     "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
     "grammar": "PRON 4 1 GEN P F"
+  },
+  "ebori": {
+    "lemma": "ebur, eboris N (3rd) N",
+    "en": "ivory; object/statue of ivory; curule chair (of magistrate); elephant/tusk",
+    "grammar": "N 3 1 DAT S N"
   },
   "ebrietati": {
     "lemma": "ebrietas, ebrietatis N (3rd) F",
@@ -9877,6 +11377,11 @@ Object.assign(LATIN_DICT, {
     "en": "lead out; draw up; bring up; rear",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "educunt": {
+    "lemma": "educo, educere, eduxi, eductus V (3rd)",
+    "en": "lead out; draw up; bring up; rear",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
   "effecerint": {
     "lemma": "efficio, efficere, effeci, effectus V (3rd)",
     "en": "bring about; effect, execute, cause; accomplish; make, produce; prove",
@@ -9896,6 +11401,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "effero, efferre, extuli, elatus V (3rd)",
     "en": "carry out; bring out; carry out for burial; raise",
     "grammar": "VPAR 3 2 DAT P X FUT PASSIVE PPL"
+  },
+  "effers": {
+    "lemma": "effero, efferre, extuli, elatus V (3rd)",
+    "en": "carry out; bring out; carry out for burial; raise",
+    "grammar": "V 3 2 PRES ACTIVE IND 2 S"
   },
   "efferunt": {
     "lemma": "effero, efferre, extuli, elatus V (3rd)",
@@ -9947,6 +11457,11 @@ Object.assign(LATIN_DICT, {
     "en": "fashion, form, mold; represent, portray, depict; copy; wipe away",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "efflictim": {
+    "lemma": "efflictim ADV",
+    "en": "passionately, desperately, to distraction",
+    "grammar": "ADV"
+  },
   "efflorescit": {
     "lemma": "effloresco, efflorescere, efflorui, - V (3rd) INTRANS",
     "en": "blossom forth; burst into flower; bloom (Ecc); flourish",
@@ -9961,6 +11476,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "effoco, effocare, effocavi, effocatus",
     "en": "are choked; are suffocated",
     "grammar": "V PRES PASSIVE IND 3 P"
+  },
+  "effodere": {
+    "lemma": "effodio, effodere, effodi, effossus V (3rd)",
+    "en": "dig out, excavate; gouge out",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "effodiunt": {
+    "lemma": "effodio, effodere, effodi, effossus V (3rd)",
+    "en": "dig out, excavate; gouge out",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "effuderint": {
     "lemma": "effundo, effundere, effudi, effusus V (3rd) TRANS",
@@ -9996,6 +11521,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "egeo, egere, egui, - V (2nd)",
     "en": "need (w/GEN/ABL), lack, want; require, be without",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "egenos": {
+    "lemma": "egenus, egena, egenum ADJ",
+    "en": "in want of, destitute of",
+    "grammar": "ADJ 1 1 ACC P M POS"
   },
   "egentes": {
     "lemma": "egeo, egere, egui, - V (2nd)",
@@ -10247,6 +11777,11 @@ Object.assign(LATIN_DICT, {
     "en": "hurl; let go; utter; send out; drive; force; cast; discharge; expel; publish",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "en": {
+    "lemma": "en INTERJ",
+    "en": "behold! see! lo! here! hey! look at this!",
+    "grammar": "INTERJ"
+  },
   "enervat": {
     "lemma": "enervo, enervare, enervavi, enervatus V (1st) TRANS",
     "en": "weaken, enervate; make effeminate; deprive of vigor; cut/remove sinews from",
@@ -10292,6 +11827,11 @@ Object.assign(LATIN_DICT, {
     "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them",
     "grammar": "PRON 4 1 ABL S M"
   },
+  "eoasque": {
+    "lemma": "Eous, Eoa, Eoum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC P F POS + TACKON"
+  },
   "eoque": {
     "lemma": "is, ea, id PRON",
     "en": "PACKON w/qui => whoever it be; whatever; each, each one; everyone, everything",
@@ -10327,6 +11867,11 @@ Object.assign(LATIN_DICT, {
     "en": "Epicurus",
     "grammar": "N NOM S M (proper name)"
   },
+  "epistolae": {
+    "lemma": "epistola, epistolae N (1st) F",
+    "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
+    "grammar": "N 1 1 GEN S F"
+  },
   "epistula": {
     "lemma": "epistula, epistulae N (1st) F",
     "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
@@ -10346,6 +11891,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "epistula, epistulae N (1st) F",
     "en": "letter/dispatch/written communication; imperial rescript; epistle; preface",
     "grammar": "N 1 1 ACC P F"
+  },
+  "epystolas": {
+    "lemma": "epistola, epistolae",
+    "en": "letters, epistles (medieval spelling of epistolas)",
+    "grammar": "N ACC P F (medieval spelling)"
   },
   "equi": {
     "lemma": "equus, equi N (2nd) M",
@@ -10381,6 +11931,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "repo, repere, repsi, reptus V (3rd)",
     "en": "creep, crawl; - out, away from; beyond; completely",
     "grammar": "V 3 1 PLUP ACTIVE SUB 3 P + PREFIX"
+  },
+  "erepta": {
+    "lemma": "eripio, eripere, eripui, ereptus V (3rd)",
+    "en": "snatch away, take by force; rescue",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
   "ereptus": {
     "lemma": "eripio, eripere, eripui, ereptus V (3rd)",
@@ -10427,6 +11982,11 @@ Object.assign(LATIN_DICT, {
     "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
     "grammar": "V 5 1 FUT ACTIVE IND 3 S"
   },
+  "eritis": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 FUT ACTIVE IND 2 P"
+  },
   "errando": {
     "lemma": "erro, errare, erravi, erratus V (1st)",
     "en": "wander, go astray; make a mistake, err; vacillate",
@@ -10447,6 +12007,11 @@ Object.assign(LATIN_DICT, {
     "en": "to have erred; to have gone astray",
     "grammar": "V PERF ACTIVE INF (syncopated)"
   },
+  "errat": {
+    "lemma": "erro, errare, erravi, erratus V (1st)",
+    "en": "wander, go astray; make a mistake, err; vacillate",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "error": {
     "lemma": "erro, errare, erravi, erratus V (1st)",
     "en": "wander, go astray; make a mistake, err; vacillate",
@@ -10461,6 +12026,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "error, erroris N (3rd) M",
     "en": "wandering; error; winding, maze; uncertainty; deception",
     "grammar": "N 3 1 NOM P M"
+  },
+  "erroresque": {
+    "lemma": "error, erroris N (3rd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 NOM P M + TACKON"
+  },
+  "errorum": {
+    "lemma": "error, erroris N (3rd) M",
+    "en": "wandering; error; winding, maze; uncertainty; deception",
+    "grammar": "N 3 1 GEN P M"
   },
   "erubuerint": {
     "lemma": "erubesco, erubescere, erubui, - V (3rd)",
@@ -10481,6 +12056,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "erudio, erudire, erudivi, eruditus V (4th)",
     "en": "educate, teach, instruct",
     "grammar": "VPAR 3 4 GEN S M PERF PASSIVE PPL"
+  },
+  "erumpere": {
+    "lemma": "erumpo, erumpere, erupi, eruptus V (3rd)",
+    "en": "burst/pop (abscess/boil); cause (swelling) to burst; become dislocated (limb)",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "erumperet": {
     "lemma": "erumpo, erumpere, erupi, eruptus V (3rd)",
@@ -10511,6 +12091,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "eruo, eruere, erui, erutus V (3rd)",
     "en": "pluck/dig/root up, overthrow, destroy; elicit",
     "grammar": "VPAR 3 1 ACC P F PERF PASSIVE PPL"
+  },
+  "erycis": {
+    "lemma": "Eryx, Erycis",
+    "en": "of Eryx (mountain and hero in western Sicily)",
+    "grammar": "N GEN S M (proper name)"
   },
   "essem": {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
@@ -10547,10 +12132,20 @@ Object.assign(LATIN_DICT, {
     "en": "be hungry, hunger; want to eat, desire food; desire eagerly",
     "grammar": "V 4 1 PRES PASSIVE IND 2 S"
   },
+  "etati": {
+    "lemma": "etas, etatis N (3rd) F",
+    "en": "lifetime, age, generation; period; stage, period of life, time, era",
+    "grammar": "N 3 1 DAT S F"
+  },
   "etenim": {
     "lemma": "etenim CONJ",
     "en": "and indeed, because, since, as a matter of fact (independent reason, emphasis)",
     "grammar": "CONJ"
+  },
+  "eternum": {
+    "lemma": "eternus, eterna -um, eternior -or -us, eternissimus -a -um ADJ",
+    "en": "eternal, everlasting, imperishable; perpetual; having no beginning/end",
+    "grammar": "ADJ 1 1 NOM S N POS"
   },
   "etiamne": {
     "lemma": "etiam CONJ",
@@ -10617,6 +12212,21 @@ Object.assign(LATIN_DICT, {
     "en": "Euphrates; (river); -en, -ene; of, pertaining/belonging to; connected with; derived/coming from",
     "grammar": "ADJ 1 2 NOM S M POS + SUFFIX"
   },
+  "eurotae": {
+    "lemma": "Eurotas, Eurotae",
+    "en": "of the Eurotas (river of Sparta, haunt of Diana)",
+    "grammar": "N GEN S M (proper name)"
+  },
+  "euxinum": {
+    "lemma": "Euxinus, Euxina, Euxinum",
+    "en": "Euxine (the Black Sea, Pontus Euxinus)",
+    "grammar": "ADJ ACC S M/N (proper name)"
+  },
+  "eva": {
+    "lemma": "Eva, Evae N (1st) F",
+    "en": "Eve",
+    "grammar": "N 1 1 NOM S F"
+  },
   "evasit": {
     "lemma": "evado, evadere, evasi, evasus V (3rd)",
     "en": "evade, escape; avoid",
@@ -10677,6 +12287,11 @@ Object.assign(LATIN_DICT, {
     "en": "fly away, fly up/out/forth; rush out/forth",
     "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
   },
+  "evolvam": {
+    "lemma": "evolvo, evolvere, evolvi, evolutus V (3rd)",
+    "en": "roll out, unroll; disclose, unfold; extricate; pursue; explain",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
+  },
   "evolvere": {
     "lemma": "evolvo, evolvere, evolvi, evolutus V (3rd)",
     "en": "roll out, unroll; disclose, unfold; extricate; pursue; explain",
@@ -10711,6 +12326,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "exanimo, exanimare, exanimavi, exanimatus V (1st)",
     "en": "kill, deprive of life; scare, alarm greatly; tire, exhaust; be out of breath",
     "grammar": "V 1 1 PRES ACTIVE SUB 1 S"
+  },
+  "exanimumque": {
+    "lemma": "exanimus, exanima, exanimum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S N POS + TACKON"
   },
   "exardescit": {
     "lemma": "exardesco, exardescere, exarsi, exarsus V (3rd) INTRANS",
@@ -10826,6 +12446,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "excido, excidere, excidi, - V (3rd)",
     "en": "perish; disappear; escape, fall out; be deprived of; lose control of senses",
     "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
+  },
+  "excidunt": {
+    "lemma": "excido, excidere, excidi, - V (3rd)",
+    "en": "perish; disappear; escape, fall out; be deprived of; lose control of senses",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "excipiant": {
     "lemma": "excipio, excipere, excepi, exceptus V (3rd)",
@@ -10991,6 +12616,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "exercitus, exercitus N (4th) M",
     "en": "army, infantry; swarm, flock",
     "grammar": "N 4 1 NOM S M"
+  },
+  "exhaustos": {
+    "lemma": "exhaurio, exhaurire, exhausi, exhaustus V (4th)",
+    "en": "draw out; drain, drink up, empty; exhaust, impoverish; remove; end",
+    "grammar": "VPAR 3 4 ACC P M PERF PASSIVE PPL"
   },
   "exhibita": {
     "lemma": "exhibeo, exhibere, exhibui, exhibitus V (2nd)",
@@ -11197,6 +12827,11 @@ Object.assign(LATIN_DICT, {
     "en": "test, put to the test; find out; attempt, try; prove, experience",
     "grammar": "VPAR 3 4 NOM S N FUT PASSIVE PPL"
   },
+  "experimentoque": {
+    "lemma": "experimentum, experimenti N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT S N + TACKON"
+  },
   "experire": {
     "lemma": "experior, experiri, expertus sum V (4th) DEP",
     "en": "test, put to the test; find out; attempt, try; prove, experience",
@@ -11257,10 +12892,20 @@ Object.assign(LATIN_DICT, {
     "en": "fill out; fill, fill up, complete, finish; satisfy, satiate",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
   },
+  "expleri": {
+    "lemma": "expleo, explere, explevi, expletus V (2nd)",
+    "en": "fill out; fill, fill up, complete, finish; satisfy, satiate",
+    "grammar": "V 2 1 PRES PASSIVE INF 0 X"
+  },
   "expletum": {
     "lemma": "expleo, explere, explevi, expletus V (2nd)",
     "en": "fill out; fill, fill up, complete, finish; satisfy, satiate",
     "grammar": "VPAR 2 1 NOM S N PERF PASSIVE PPL"
+  },
+  "explicabilis": {
+    "lemma": "explico, explicare, explicavi, explicatus V (1st)",
+    "en": "unfold, extend; set forth, display, exhibit, explain, disentangle; -able, -ble; having the passive quality, able to, able to be",
+    "grammar": "ADJ 3 2 NOM S C POS + SUFFIX"
   },
   "explorator": {
     "lemma": "exploro, explorare, exploravi, exploratus V (1st)",
@@ -11337,6 +12982,11 @@ Object.assign(LATIN_DICT, {
     "en": "reproach, upbraid, reprove; bring up as reproach (against person DAT)",
     "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
   },
+  "expulsum": {
+    "lemma": "expello, expellere, expuli, expulsus V (3rd)",
+    "en": "drive out, expel, banish; disown, reject",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
   "expulsus": {
     "lemma": "expello, expellere, expuli, expulsus V (3rd)",
     "en": "drive out, expel, banish; disown, reject",
@@ -11356,6 +13006,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "exsequia, exsequiae N (1st) F",
     "en": "funeral procession/rites (pl.), obsequies; [~as ire => attend funeral]",
     "grammar": "N 1 1 ACC P F"
+  },
+  "exsertae": {
+    "lemma": "exsero, exserere, exserui, exsertus V (3rd)",
+    "en": "stretch forth; thrust out (of land); put out (plants); lay bare, uncover (body)",
+    "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL"
   },
   "exsilium": {
     "lemma": "exsilium, exsili(i) N (2nd) N",
@@ -11537,6 +13192,11 @@ Object.assign(LATIN_DICT, {
     "en": "outer; outside, external; extrinsic; unessential; extraneous",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "extulerat": {
+    "lemma": "effero, efferre, extuli, elatus V (3rd)",
+    "en": "carry out; bring out; carry out for burial; raise",
+    "grammar": "V 3 2 PLUP ACTIVE IND 3 S"
+  },
   "extuli": {
     "lemma": "effero, efferre, extuli, elatus V (3rd)",
     "en": "carry out; bring out; carry out for burial; raise",
@@ -11552,6 +13212,16 @@ Object.assign(LATIN_DICT, {
     "en": "pull off; undress, take off; strip, deprive of; lay aside, cast off",
     "grammar": "V 3 1 FUTP ACTIVE IND 3 S"
   },
+  "exuit": {
+    "lemma": "exuo, exuere, exui, exutus V (3rd)",
+    "en": "pull off; undress, take off; strip, deprive of; lay aside, cast off",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "fabellam": {
+    "lemma": "fabella, fabellae N (1st) F",
+    "en": "story, fable; play",
+    "grammar": "N 1 1 ACC S F"
+  },
   "fabianum": {
     "lemma": "faba, fabae N (1st) F",
     "en": "bean (plant/seed); bead, pellet (resembling bean); of/belonging to [N -> ADJ] (Cicero -> Ciceronianus)",
@@ -11561,6 +13231,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "faba, fabae N (1st) F",
     "en": "bean (plant/seed); bead, pellet (resembling bean); of/belonging to [N -> ADJ] (Cicero -> Ciceronianus)",
     "grammar": "N 2 1 NOM S X + SUFFIX"
+  },
+  "fabor": {
+    "lemma": "for, fari, fatus sum V (1st) DEP",
+    "en": "speak, talk; say",
+    "grammar": "V 1 1 FUT PASSIVE IND 1 S"
   },
   "fabrici": {
     "lemma": "fabrica, fabricae N (1st) F",
@@ -11576,6 +13251,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "fabula, fabulae N (1st) F",
     "en": "story, tale, fable; play, drama; [fabulae! => rubbish!, nonsense!]",
     "grammar": "N 1 1 NOM S F"
+  },
+  "fabulae": {
+    "lemma": "fabula, fabulae N (1st) F",
+    "en": "story, tale, fable; play, drama; [fabulae! => rubbish!, nonsense!]",
+    "grammar": "N 1 1 GEN S F"
   },
   "fabulas": {
     "lemma": "fabula, fabulae N (1st) F",
@@ -11637,6 +13317,11 @@ Object.assign(LATIN_DICT, {
     "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
     "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
   },
+  "faciebam": {
+    "lemma": "facio, facere, feci, factus V (3rd) TRANS",
+    "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
+    "grammar": "V 3 1 IMPF ACTIVE IND 1 S"
+  },
   "faciebat": {
     "lemma": "facio, facere, feci, factus V (3rd) TRANS",
     "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
@@ -11696,6 +13381,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "facilis, facile, facilior -or -us, facillimus -a -um ADJ",
     "en": "easy, easy to do, without difficulty, ready, quick, good natured, courteous",
     "grammar": "ADJ 3 2 NOM S N POS"
+  },
+  "facilem": {
+    "lemma": "facilis, facile, facilior -or -us, facillimus -a -um ADJ",
+    "en": "easy, easy to do, without difficulty, ready, quick, good natured, courteous",
+    "grammar": "ADJ 3 2 ACC S C POS"
   },
   "faciles": {
     "lemma": "facilis, facile, facilior -or -us, facillimus -a -um ADJ",
@@ -11832,6 +13522,16 @@ Object.assign(LATIN_DICT, {
     "en": "deceitful, treacherous; misleading, deceptive; false, fallacious; spurious",
     "grammar": "ADJ 3 1 GEN P X POS"
   },
+  "fallasque": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S + TACKON"
+  },
+  "falle": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
   "fallere": {
     "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
     "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
@@ -11867,10 +13567,25 @@ Object.assign(LATIN_DICT, {
     "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
     "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
+  "falsi": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
   "falso": {
     "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
     "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
     "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "falsus": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "famae": {
+    "lemma": "fama, famae N (1st) F",
+    "en": "rumor; reputation; tradition; fame, public opinion, ill repute; report, news",
+    "grammar": "N 1 1 GEN S F"
   },
   "fame": {
     "lemma": "fames, famis N (3rd) F",
@@ -11891,6 +13606,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "familia, familiae N (1st) F",
     "en": "household; household of slaves; family; clan; religious community (Ecc)",
     "grammar": "N 1 1 GEN S F"
+  },
+  "familiare": {
+    "lemma": "familiaris, familiaris, familiare ADJ",
+    "en": "domestic; of family; intimate; [familiaris res => one's property or fortune]",
+    "grammar": "ADJ 3 2 NOM S N POS"
   },
   "familiarem": {
     "lemma": "familiaris, familiaris, familiare ADJ",
@@ -11932,20 +13652,40 @@ Object.assign(LATIN_DICT, {
     "en": "intimacy; close friendship; familiarity",
     "grammar": "N 3 1 DAT P F"
   },
+  "familiaritatis": {
+    "lemma": "familiaritas, familiaritatis N (3rd) F",
+    "en": "intimacy; close friendship; familiarity",
+    "grammar": "N 3 1 GEN S F"
+  },
   "familiariter": {
     "lemma": "familiariter ADV",
     "en": "on friendly terms",
     "grammar": "ADV"
+  },
+  "famulae": {
+    "lemma": "famula, famulae N (1st) F",
+    "en": "slave (female), maid, handmaiden, maid-servant; temple attendant",
+    "grammar": "N 1 1 GEN S F"
   },
   "famulatu": {
     "lemma": "famulor, famulari, famulatus sum V (1st) DEP",
     "en": "be a servant, attend",
     "grammar": "SUPINE"
   },
+  "famuli": {
+    "lemma": "famulus, famuli N (2nd) M",
+    "en": "slave (male), servant; attendant",
+    "grammar": "N 2 1 GEN S M"
+  },
   "famulos": {
     "lemma": "famulus, famuli N (2nd) M",
     "en": "slave (male), servant; attendant",
     "grammar": "N 2 1 NOM S M"
+  },
+  "fandi": {
+    "lemma": "for, fari, fatus sum V (1st) DEP",
+    "en": "speak, talk; say",
+    "grammar": "VPAR 1 1 GEN S M FUT PASSIVE PPL"
   },
   "fanni": {
     "lemma": "Fannius, Fannii",
@@ -11997,6 +13737,11 @@ Object.assign(LATIN_DICT, {
     "en": "admit, confess (w/ACC); disclose; acknowledge; praise (w/DAT)",
     "grammar": "V 2 1 PRES PASSIVE SUB 3 S"
   },
+  "fatebaris": {
+    "lemma": "fateor, fateri, fassus sum V (2nd) DEP",
+    "en": "admit, confess (w/ACC); disclose; acknowledge; praise (w/DAT)",
+    "grammar": "V 2 1 IMPF PASSIVE IND 2 S"
+  },
   "fatebor": {
     "lemma": "fateor, fateri, fassus sum V (2nd) DEP",
     "en": "admit, confess (w/ACC); disclose; acknowledge; praise (w/DAT)",
@@ -12022,10 +13767,20 @@ Object.assign(LATIN_DICT, {
     "en": "utterance, oracle; fate, destiny; natural term of life; doom, death, calamity",
     "grammar": "N 2 2 NOM S N"
   },
+  "fatus": {
+    "lemma": "for, fari, fatus sum V (1st) DEP",
+    "en": "speak, talk; say",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
   "fauore": {
     "lemma": "favor, favoris N (3rd) M",
     "en": "favor, goodwill; bias; applause",
     "grammar": "N 3 1 DAT S M"
+  },
+  "faventes": {
+    "lemma": "faveo, favere, favi, fautus V (2nd)",
+    "en": "favor (w/DAT), befriend, support, back up",
+    "grammar": "VPAR 2 1 NOM P C PRES ACTIVE PPL"
   },
   "fecerat": {
     "lemma": "facio, facere, feci, factus V (3rd) TRANS",
@@ -12072,6 +13827,11 @@ Object.assign(LATIN_DICT, {
     "en": "make/build/construct/create/cause/do; have built/made; fashion; work (metal)",
     "grammar": "V 3 1 PERF ACTIVE IND 2 S"
   },
+  "fefellit": {
+    "lemma": "fallo, fallere, fefelli, falsus V (3rd)",
+    "en": "deceive; slip by; disappoint; be mistaken, beguile, drive away; fail; cheat",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
   "felicem": {
     "lemma": "felix, felicis (gen.), felicior -or -us, felicissimus -a -um ADJ",
     "en": "happy; blessed; fertile; favorable; lucky; successful, fruitful",
@@ -12112,6 +13872,16 @@ Object.assign(LATIN_DICT, {
     "en": "luck, good fortune; happiness",
     "grammar": "N 3 1 GEN S F"
   },
+  "feminae": {
+    "lemma": "femina, feminae N (1st) F",
+    "en": "woman; female",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "feminarum": {
+    "lemma": "feminus, femina, feminum ADJ",
+    "en": "female",
+    "grammar": "ADJ 1 1 GEN P F POS"
+  },
   "feneret": {
     "lemma": "fenero, fenerare, feneravi, feneratus V (1st)",
     "en": "lend money at interest; make interest/profit; invest/finance/supply; borrow",
@@ -12136,6 +13906,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "ferus, fera, ferum ADJ",
     "en": "wild, savage; uncivilized; untamed; fierce",
     "grammar": "ADJ 1 1 VOC S M POS"
+  },
+  "ferebant": {
+    "lemma": "fero, ferre, tuli, latus V (3rd)",
+    "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
+    "grammar": "V 3 2 IMPF ACTIVE IND 3 P"
   },
   "ferebantur": {
     "lemma": "fero, ferre, tuli, latus V (3rd)",
@@ -12162,6 +13937,11 @@ Object.assign(LATIN_DICT, {
     "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
     "grammar": "VPAR 3 2 NOM S X PRES ACTIVE PPL"
   },
+  "feret": {
+    "lemma": "fero, ferre, tuli, latus V (3rd)",
+    "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
+    "grammar": "V 3 2 FUT ACTIVE IND 3 S"
+  },
   "ferias": {
     "lemma": "feria, feriae N (1st) F",
     "en": "festival/holy day; day of rest/holiday/leisure; holidays (pl.); fair",
@@ -12171,6 +13951,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "ferus, fera, ferum ADJ",
     "en": "wild, savage; uncivilized; untamed; fierce",
     "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "ferme": {
+    "lemma": "ferme ADV",
+    "en": "nearly, almost, about; (with negatives) hardly ever",
+    "grammar": "ADV"
   },
   "ferre": {
     "lemma": "fero, ferre, tuli, latus V (3rd)",
@@ -12201,6 +13986,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "fero, ferre, tuli, latus V (3rd)",
     "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
     "grammar": "V 3 2 PRES ACTIVE IND 3 P"
+  },
+  "fervet": {
+    "lemma": "ferveo, fervere, ferbui, - V (2nd) INTRANS",
+    "en": "be (very) hot; boil/burn; seethe/surge; swarm; be turbulent/run strongly; froth",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "festinat": {
     "lemma": "festino, festinare, festinavi, festinatus V (1st)",
@@ -12312,6 +14102,11 @@ Object.assign(LATIN_DICT, {
     "en": "happen, come about; result (from); take place, be held, occur, arise (event)",
     "grammar": "V 3 3 FUT ACTIVE IND 3 S"
   },
+  "figet": {
+    "lemma": "figo, figere, fixi, fixus V (3rd)",
+    "en": "fasten, fix; pierce, transfix; establish",
+    "grammar": "V 3 1 FUT ACTIVE IND 3 S"
+  },
   "filia": {
     "lemma": "filia, filiae N (1st) F",
     "en": "daughter",
@@ -12382,10 +14177,30 @@ Object.assign(LATIN_DICT, {
     "en": "happen, come about; result (from); take place, be held, occur, arise (event)",
     "grammar": "V 3 3 PRES ACTIVE IND 3 P"
   },
+  "fixos": {
+    "lemma": "figo, figere, fixi, fixus V (3rd)",
+    "en": "fasten, fix; pierce, transfix; establish",
+    "grammar": "VPAR 3 1 ACC P M PERF PASSIVE PPL"
+  },
   "flagitiosis": {
     "lemma": "flagitiosus, flagitiosa -um, flagitiosior -or -us, flagitiosissimus -a -um ADJ",
     "en": "disgraceful, shameful; infamous, scandalous; profligate, dissolute",
     "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "flagrantisque": {
+    "lemma": "flagro, flagrare, flagravi, flagratus V (1st)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 1 1 GEN S X PRES ACTIVE PPL + TACKON"
+  },
+  "flandriae": {
+    "lemma": "Flandria, Flandriae",
+    "en": "of Flanders (region in the Low Countries)",
+    "grammar": "N GEN S F (proper name)"
+  },
+  "flavo": {
+    "lemma": "flavus, flava, flavum ADJ",
+    "en": "yellow, golden, gold colored; flaxen, blond; golden-haired (Latham)",
+    "grammar": "ADJ 1 1 DAT S M POS"
   },
   "flebat": {
     "lemma": "fleo, flere, flevi, fletus V (2nd)",
@@ -12422,6 +14237,11 @@ Object.assign(LATIN_DICT, {
     "en": "bend, curve, bow; turn, curl; persuade, prevail on, soften",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
+  "florea": {
+    "lemma": "floreus, florea, floreum ADJ",
+    "en": "flowery",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "florebat": {
     "lemma": "floreo, florere, florui, - V (2nd)",
     "en": "flourish, blossom, be prosperous; be in one's prime",
@@ -12431,6 +14251,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "floreo, florere, florui, - V (2nd)",
     "en": "flourish, blossom, be prosperous; be in one's prime",
     "grammar": "VPAR 2 1 NOM P C PRES ACTIVE PPL"
+  },
+  "floribus": {
+    "lemma": "flos, floris N (3rd) M",
+    "en": "flower, blossom; youthful prime",
+    "grammar": "N 3 1 DAT P M"
   },
   "floruisset": {
     "lemma": "floreo, florere, florui, - V (2nd)",
@@ -12451,6 +14276,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "fluo, fluere, fluxi, fluxus V (3rd)",
     "en": "flow, stream; emanate, proceed from; fall gradually",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "flumine": {
+    "lemma": "flumen, fluminis N (3rd) N",
+    "en": "river, stream; any flowing fluid; flood; onrush; [adverso ~ => against current]",
+    "grammar": "N 3 2 DAT S N"
+  },
+  "fluvii": {
+    "lemma": "fluvius, fluvi(i) N (2nd) M",
+    "en": "river, stream; running water",
+    "grammar": "N 2 4 GEN S M"
+  },
+  "foediore": {
+    "lemma": "foedus, foeda -um, foedior -or -us, foedissimus -a -um ADJ",
+    "en": "foul; filthy, unclean; disgusting, loathsome, ghastly, beastly; hideous, ugly",
+    "grammar": "ADJ 1 1 ABL S X COMP"
   },
   "foedus": {
     "lemma": "foedus, foederis N (3rd) N",
@@ -12532,8 +14372,18 @@ Object.assign(LATIN_DICT, {
     "en": "chance; luck, fortune; accident",
     "grammar": "N 3 3 NOM S F"
   },
+  "forsitan": {
+    "lemma": "forsitan ADV",
+    "en": "perhaps",
+    "grammar": "ADV"
+  },
   "fortasse": {
     "lemma": "fortasse ADV",
+    "en": "perhaps, possibly; it may be",
+    "grammar": "ADV"
+  },
+  "fortassis": {
+    "lemma": "fortassis ADV",
     "en": "perhaps, possibly; it may be",
     "grammar": "ADV"
   },
@@ -12577,15 +14427,35 @@ Object.assign(LATIN_DICT, {
     "en": "chance, luck, fate; prosperity; condition, wealth, property",
     "grammar": "N 1 1 ACC S F"
   },
+  "fortunati": {
+    "lemma": "fortunatus, fortunata -um, fortunatior -or -us, fortunatissimus -a -um ADJ",
+    "en": "lucky, fortunate; rich, wealthy; happy; blessed",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
   "fortunato": {
     "lemma": "fortunatus, fortunata -um, fortunatior -or -us, fortunatissimus -a -um ADJ",
     "en": "lucky, fortunate; rich, wealthy; happy; blessed",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "fortune": {
+    "lemma": "fortuna, fortunae N (1st) F",
+    "en": "chance, luck, fate; prosperity; condition, wealth, property; make of",
+    "grammar": "ADJ 1 2 NOM S M POS + SUFFIX"
+  },
   "forum": {
     "lemma": "forum, fori N (2nd) N",
     "en": "market; forum (in Rome); court of justice",
     "grammar": "N 2 2 NOM S N"
+  },
+  "fotum": {
+    "lemma": "foveo, fovere, fovi, fotus V (2nd)",
+    "en": "keep warm; favor, cherish, maintain, foster",
+    "grammar": "VPAR 2 1 NOM S N PERF PASSIVE PPL"
+  },
+  "fovet": {
+    "lemma": "foveo, fovere, fovi, fotus V (2nd)",
+    "en": "keep warm; favor, cherish, maintain, foster",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "fracta": {
     "lemma": "frango, frangere, fregi, fractus V (3rd)",
@@ -12607,6 +14477,16 @@ Object.assign(LATIN_DICT, {
     "en": "brittleness; frailty",
     "grammar": "N 3 1 NOM S F"
   },
+  "fragilitatem": {
+    "lemma": "fragilitas, fragilitatis N (3rd) F",
+    "en": "brittleness; frailty",
+    "grammar": "N 3 1 ACC S F"
+  },
+  "fragrantia": {
+    "lemma": "fragro, fragrare, fragravi, fragratus V (1st)",
+    "en": "smell strongly",
+    "grammar": "VPAR 1 1 NOM P N PRES ACTIVE PPL"
+  },
   "frater": {
     "lemma": "frater, fratris N (3rd) M",
     "en": "brother; cousin",
@@ -12626,6 +14506,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "fraus, fraudis N (3rd) F",
     "en": "fraud; trickery, deceit; imposition, offense, crime; delusion",
     "grammar": "N 3 3 ACC S F"
+  },
+  "fremebant": {
+    "lemma": "fremo, fremere, fremui, fremitus V (3rd)",
+    "en": "roar; growl; rage; murmur, clamor for",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 P"
+  },
+  "frenare": {
+    "lemma": "freno, frenare, frenavi, frenatus V (1st)",
+    "en": "brake, curb, restrain, check",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "frequentes": {
+    "lemma": "frequens, frequentis (gen.), frequentior -or -us, frequentissimus -a -um ADJ",
+    "en": "crowded; numerous, full, frequented, populous; repeated, frequent, constant",
+    "grammar": "ADJ 3 1 NOM P C POS"
   },
   "frequentia": {
     "lemma": "frequens, frequentis (gen.), frequentior -or -us, frequentissimus -a -um ADJ",
@@ -12747,6 +14642,16 @@ Object.assign(LATIN_DICT, {
     "en": "color; paint; dye",
     "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
   },
+  "fucos": {
+    "lemma": "fucus, fuci N (2nd) M",
+    "en": "dye; (as cosmetic) rouge; bee-glue, propolis; presence/disguise/sham; seaweed",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "fuerim": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 PERF ACTIVE SUB 1 S"
+  },
   "fuerint": {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
     "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
@@ -12781,6 +14686,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "fugio, fugere, fugi, fugitus V (3rd)",
     "en": "flee, fly, run away; avoid, shun; go into exile",
     "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "fugerent": {
+    "lemma": "fugio, fugere, fugi, fugitus V (3rd)",
+    "en": "flee, fly, run away; avoid, shun; go into exile",
+    "grammar": "V 3 1 IMPF ACTIVE SUB 3 P"
   },
   "fugiat": {
     "lemma": "fugio, fugere, fugi, fugitus V (3rd)",
@@ -12837,6 +14747,11 @@ Object.assign(LATIN_DICT, {
     "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
     "grammar": "V 5 1 PLUP ACTIVE SUB 1 P"
   },
+  "fuisses": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "V 5 1 PLUP ACTIVE SUB 2 S"
+  },
   "fuisset": {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
     "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
@@ -12852,6 +14767,16 @@ Object.assign(LATIN_DICT, {
     "en": "prop up, support",
     "grammar": "V 4 1 PERF ACTIVE IND 3 P"
   },
+  "funalia": {
+    "lemma": "funale, funalis N (3rd) N",
+    "en": "torch of wax or tallow soaked rope; chandelier",
+    "grammar": "N 3 4 NOM P N"
+  },
+  "fundamenta": {
+    "lemma": "fundamentum, fundamenti N (2nd) N",
+    "en": "foundation; beginning; basis",
+    "grammar": "N 2 2 NOM P N"
+  },
   "fundamentum": {
     "lemma": "fundamentum, fundamenti N (2nd) N",
     "en": "foundation; beginning; basis",
@@ -12866,6 +14791,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "fundo, fundere, fudi, fusus V (3rd)",
     "en": "pour, cast (metals); scatter, shed, rout",
     "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
+  },
+  "fundit": {
+    "lemma": "fundo, fundere, fudi, fusus V (3rd)",
+    "en": "pour, cast (metals); scatter, shed, rout",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
   "funditus": {
     "lemma": "funditus ADV",
@@ -12891,6 +14821,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "fungor, fungi, functus sum V (3rd) DEP",
     "en": "perform, execute, discharge (duty); be engaged in (w/ABL of function)",
     "grammar": "V 3 1 PRES PASSIVE SUB 2 S"
+  },
+  "furens": {
+    "lemma": "furo, furere, -, - V (3rd)",
+    "en": "rave, rage; be mad/furious; be wild",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL"
+  },
+  "furentem": {
+    "lemma": "furo, furere, -, - V (3rd)",
+    "en": "rave, rage; be mad/furious; be wild",
+    "grammar": "VPAR 3 1 ACC S C PRES ACTIVE PPL"
   },
   "furentium": {
     "lemma": "furo, furere, -, - V (3rd)",
@@ -12921,6 +14861,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
     "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
     "grammar": "VPAR 5 1 NOM S F FUT ACTIVE PPL"
+  },
+  "futurae": {
+    "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
+    "en": "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    "grammar": "VPAR 5 1 GEN S F FUT ACTIVE PPL"
   },
   "futuri": {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
@@ -12967,6 +14912,11 @@ Object.assign(LATIN_DICT, {
     "en": "helmet",
     "grammar": "N 1 1 NOM S F"
   },
+  "gallias": {
+    "lemma": "Gallia, Galliae N (1st) F",
+    "en": "Gaul; (early Northern Italy, then South-East France, then France and Belgium)",
+    "grammar": "N 1 1 ACC P F"
+  },
   "galos": {
     "lemma": "Galus, Gali",
     "en": "men named Galus",
@@ -12976,6 +14926,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Galus, Gali",
     "en": "Galus",
     "grammar": "N ACC S M (proper name)"
+  },
+  "gandavum": {
+    "lemma": "Gandavum, Gandavi",
+    "en": "Ghent (city in Flanders)",
+    "grammar": "N ACC S N (proper name)"
   },
   "gaudeas": {
     "lemma": "gaudeo, gaudere, gavisus sum V (2nd) SEMIDEP",
@@ -13022,10 +14977,35 @@ Object.assign(LATIN_DICT, {
     "en": "joy, delight, gladness; source/cause of joy; physical/sensual delight",
     "grammar": "N 2 4 NOM S N"
   },
+  "gemens": {
+    "lemma": "gemo, gemere, gemui, gemitus V (3rd)",
+    "en": "moan, groan; lament (over); grieve that; give out a hollow sound (music, hit)",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL"
+  },
+  "geminosque": {
+    "lemma": "geminus, gemina, geminum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC P M POS + TACKON"
+  },
+  "gemitum": {
+    "lemma": "gemitus, gemitus N (4th) M",
+    "en": "groan, sigh; roaring",
+    "grammar": "N 4 1 ACC S M"
+  },
+  "gemmis": {
+    "lemma": "gemma, gemmae N (1st) F",
+    "en": "bud; jewel, gem, precious stone; amber; cup (material); seal, signet; game piece",
+    "grammar": "N 1 1 DAT P F"
+  },
   "genere": {
     "lemma": "genus, generis N (3rd) N",
     "en": "birth/descent/origin; race/family/house/stock/ancestry; offspring/descent",
     "grammar": "N 3 2 DAT S N"
+  },
+  "generi": {
+    "lemma": "gener, generi N (2nd) M",
+    "en": "son-in-law",
+    "grammar": "N 2 3 GEN S M"
   },
   "generorum": {
     "lemma": "genero, generare, generavi, generatus V (1st)",
@@ -13047,10 +15027,25 @@ Object.assign(LATIN_DICT, {
     "en": "noble, of noble birth; of good family/stock",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "genetricis": {
+    "lemma": "genetrix, genetricis N (3rd) F",
+    "en": "mother, ancestress",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "genetrix": {
+    "lemma": "genetrix, genetricis N (3rd) F",
+    "en": "mother, ancestress",
+    "grammar": "N 3 1 NOM S F"
+  },
   "genito": {
     "lemma": "gigno, gignere, genui, genitus V (3rd)",
     "en": "give birth to, bring forth, bear; beget; be born (PASSIVE)",
     "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "genitoris": {
+    "lemma": "genitor, genitoris N (3rd) M",
+    "en": "father; creator; originator",
+    "grammar": "N 3 1 GEN S M"
   },
   "genium": {
     "lemma": "genius, geni N (2nd) M",
@@ -13062,10 +15057,25 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "N 3 3 DAT P F + TACKON"
   },
+  "gentium": {
+    "lemma": "gens, gentis N (3rd) F",
+    "en": "tribe, clan; nation, people; Gentiles",
+    "grammar": "N 3 3 GEN P F"
+  },
   "genua": {
     "lemma": "genu, genus N (4th) N",
     "en": "knee",
     "grammar": "N 4 2 NOM P N"
+  },
+  "genuere": {
+    "lemma": "gigno, gignere, genui, genitus V (3rd)",
+    "en": "give birth to, bring forth, bear; beget; be born (PASSIVE)",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "genuit": {
+    "lemma": "gigno, gignere, genui, genitus V (3rd)",
+    "en": "give birth to, bring forth, bear; beget; be born (PASSIVE)",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "gerendas": {
     "lemma": "gero, gerere, gessi, gestus V (3rd)",
@@ -13082,6 +15092,11 @@ Object.assign(LATIN_DICT, {
     "en": "bear, carry, wear; carry on; manage, govern; (se gerere = to conduct oneself)",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "germania": {
+    "lemma": "Germania, Germaniae N (1st) F",
+    "en": "Germany",
+    "grammar": "N 1 1 NOM S F"
+  },
   "gerunt": {
     "lemma": "gero, gerere, gessi, gestus V (3rd)",
     "en": "bear, carry, wear; carry on; manage, govern; (se gerere = to conduct oneself)",
@@ -13091,6 +15106,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "gero, gerere, gessi, gestus V (3rd)",
     "en": "bear, carry, wear; carry on; manage, govern; (se gerere = to conduct oneself)",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "gestamus": {
+    "lemma": "gesto, gestare, gestavi, gestatus V (1st)",
+    "en": "bear, carry; wear",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 P"
+  },
+  "gestans": {
+    "lemma": "gesto, gestare, gestavi, gestatus V (1st)",
+    "en": "bear, carry; wear",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
   },
   "gestationum": {
     "lemma": "gestatio, gestationis N (3rd) F",
@@ -13132,6 +15157,16 @@ Object.assign(LATIN_DICT, {
     "en": "sword",
     "grammar": "N 2 4 ACC S M"
   },
+  "glaebae": {
+    "lemma": "glaeba, glaebae N (1st) F",
+    "en": "clod/lump of earth/turf; land, soil; hard soil; piece, lump, mass",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "glomerantur": {
+    "lemma": "glomero, glomerare, glomeravi, glomeratus V (1st)",
+    "en": "collect, amass, assemble; form into a ball",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 P"
+  },
   "gloria": {
     "lemma": "gloria, gloriae N (1st) F",
     "en": "glory, fame; ambition; renown; vainglory, boasting",
@@ -13146,6 +15181,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "gloria, gloriae N (1st) F",
     "en": "glory, fame; ambition; renown; vainglory, boasting",
     "grammar": "N 1 1 ACC S F"
+  },
+  "glorie": {
+    "lemma": "gloria, gloriae N (1st) F",
+    "en": "glory, fame; ambition; renown; vainglory, boasting; make of",
+    "grammar": "ADJ 1 2 NOM S M POS + SUFFIX"
   },
   "gloriosi": {
     "lemma": "gloriosus, gloriosa -um, gloriosior -or -us, gloriosissimus -a -um ADJ",
@@ -13182,6 +15222,16 @@ Object.assign(LATIN_DICT, {
     "en": "Gracchus",
     "grammar": "N NOM S M (proper name)"
   },
+  "gradibus": {
+    "lemma": "gradus, gradus N (4th) M",
+    "en": "step; position",
+    "grammar": "N 4 1 DAT P M"
+  },
+  "gradiensque": {
+    "lemma": "gradior, gradi, gressus sum V (3rd) DEP",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL + TACKON"
+  },
   "gradu": {
     "lemma": "gradus, gradus N (4th) M",
     "en": "step; position",
@@ -13217,10 +15267,25 @@ Object.assign(LATIN_DICT, {
     "en": "Greek; the Greeks (pl.)",
     "grammar": "N 2 1 GEN P M"
   },
+  "grai": {
+    "lemma": "Grai, Graiorum (pl.)",
+    "en": "the Greeks",
+    "grammar": "N NOM P M (proper name)"
+  },
+  "graii": {
+    "lemma": "Graius, Graia, Graium ADJ",
+    "en": "Greek; Grecian; of the Greeks",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
   "grandem": {
     "lemma": "grandis, grandis, grande ADJ",
     "en": "full-grown, grown up; large, great, grand, tall, lofty; powerful; aged, old",
     "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "grates": {
+    "lemma": "grates, gratis N (3rd) F",
+    "en": "thanks (pl.); (esp. to gods); thanksgivings; [~es agere => give thanks]",
+    "grammar": "N 3 3 NOM S F"
   },
   "gratiam": {
     "lemma": "gratia, gratiae N (1st) F",
@@ -13362,6 +15427,21 @@ Object.assign(LATIN_DICT, {
     "en": "flock, herd; crowd; company, crew; people/animals assembled; set/faction/class",
     "grammar": "N 3 1 NOM P C"
   },
+  "gremio": {
+    "lemma": "gremium, gremi(i) N (2nd) N",
+    "en": "lap, bosom; womb, interior; female genital parts",
+    "grammar": "N 2 4 DAT S N"
+  },
+  "gressu": {
+    "lemma": "gressus, gressus N (4th) M",
+    "en": "going; step; the feet (pl.)",
+    "grammar": "N 4 1 DAT S M"
+  },
+  "gustassent": {
+    "lemma": "gusto, gustare, gustavi, gustatus",
+    "en": "had tasted (syncopated gustavissent)",
+    "grammar": "V PLUP ACTIVE SUB 3 P (syncopated)"
+  },
   "gustum": {
     "lemma": "gustus, gustus N (4th) M",
     "en": "tasting, appetite; draught of water",
@@ -13467,6 +15547,11 @@ Object.assign(LATIN_DICT, {
     "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
     "grammar": "V 2 1 FUT ACTIVE IMP 2 P"
   },
+  "habitabat": {
+    "lemma": "habito, habitare, habitavi, habitatus V (1st)",
+    "en": "inhabit, dwell; live, stay",
+    "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
+  },
   "habiti": {
     "lemma": "habeo, habere, habui, habitus V (2nd)",
     "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
@@ -13517,6 +15602,11 @@ Object.assign(LATIN_DICT, {
     "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
     "grammar": "V 2 1 PERF ACTIVE IND 1 S"
   },
+  "habuisse": {
+    "lemma": "habeo, habere, habui, habitus V (2nd)",
+    "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
+    "grammar": "V 2 1 PERF ACTIVE INF 0 X"
+  },
   "habuisset": {
     "lemma": "habeo, habere, habui, habitus V (2nd)",
     "en": "have, hold, consider, think, reason; manage, keep; spend/pass (time)",
@@ -13542,6 +15632,11 @@ Object.assign(LATIN_DICT, {
     "en": "this; these (pl.); (also DEMONST)",
     "grammar": "PRON 3 1 NOM P F"
   },
+  "haemum": {
+    "lemma": "Haemus, Haemi",
+    "en": "Haemus (mountain range in Thrace, the Balkan range)",
+    "grammar": "N ACC S M (proper name)"
+  },
   "haerebunt": {
     "lemma": "haereo, haerere, haesi, haesus V (2nd)",
     "en": "stick, adhere, cling to; hesitate; be in difficulties (sticky situation?)",
@@ -13551,6 +15646,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "haereo, haerere, haesi, haesus V (2nd)",
     "en": "stick, adhere, cling to; hesitate; be in difficulties (sticky situation?)",
     "grammar": "V 2 1 PRES ACTIVE IND 1 P"
+  },
+  "haeret": {
+    "lemma": "haereo, haerere, haesi, haesus V (2nd)",
+    "en": "stick, adhere, cling to; hesitate; be in difficulties (sticky situation?)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "hannibale": {
     "lemma": "Hannibal, Hannibalis N (3rd) M",
@@ -13592,6 +15692,16 @@ Object.assign(LATIN_DICT, {
     "en": "draw up/out; drink, swallow, drain, exhaust",
     "grammar": "VPAR 3 4 NOM S N FUT PASSIVE PPL"
   },
+  "hausit": {
+    "lemma": "haurio, haurire, hausi, haustus V (4th)",
+    "en": "draw up/out; drink, swallow, drain, exhaust",
+    "grammar": "V 4 1 PERF ACTIVE IND 3 S"
+  },
+  "hec": {
+    "lemma": "hic, haec, hoc",
+    "en": "this; these (medieval spelling of haec)",
+    "grammar": "PRON NOM S F / NOM P N (medieval spelling)"
+  },
   "hecaton": {
     "lemma": "Hecato, Hecatonis",
     "en": "Hecato",
@@ -13601,6 +15711,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "Hecato, Hecatonis",
     "en": "Hecato",
     "grammar": "N ACC S M (proper name)"
+  },
+  "hectora": {
+    "lemma": "Hector, Hectoris",
+    "en": "Hector (chief Trojan hero, son of Priam)",
+    "grammar": "N ACC S M (proper name, Greek accusative)"
+  },
+  "hectore": {
+    "lemma": "Hector, Hectoris N (3rd) M",
+    "en": "Hector; (chief Trojan hero)",
+    "grammar": "N 3 1 DAT S M"
+  },
+  "helenae": {
+    "lemma": "Helena, Helenae N (1st) F",
+    "en": "Helen; (of Troy/Sparta, wife of Menelaus, abducted by Paris)",
+    "grammar": "N 1 1 GEN S F"
   },
   "hemicyclio": {
     "lemma": "hemicyclium, hemicyclii N (2nd) N",
@@ -13647,10 +15772,25 @@ Object.assign(LATIN_DICT, {
     "en": "Hermarchus",
     "grammar": "N ACC S M (proper name)"
   },
+  "hesperiam": {
+    "lemma": "Hesperia, Hesperiae N (1st) F",
+    "en": "Italy, the western land",
+    "grammar": "N 1 1 ACC S F"
+  },
   "hesterna": {
     "lemma": "hesternus, hesterna, hesternum ADJ",
     "en": "of yesterday",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "heu": {
+    "lemma": "heu INTERJ",
+    "en": "oh! ah! alas! (an expression of dismay or pain)",
+    "grammar": "INTERJ"
+  },
+  "hiberni": {
+    "lemma": "hibernus, hiberna, hibernum ADJ",
+    "en": "wintry; stormy, of/for winter time/rainy season; [hiberno => in winter]",
+    "grammar": "ADJ 1 1 GEN S M POS"
   },
   "hilaresque": {
     "lemma": "hilaris, hilare, hilarior -or -us, hilarissimus -a -um ADJ",
@@ -13701,6 +15841,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "homo, hominis N (3rd) M",
     "en": "man, human being, person, fellow; [novus homo => nouveau riche]",
     "grammar": "N 3 1 GEN S M"
+  },
+  "homuncio": {
+    "lemma": "homuncio, homuncionis N (3rd) M",
+    "en": "little man, manikin",
+    "grammar": "N 3 1 NOM S M"
   },
   "honesta": {
     "lemma": "honestus, honesta -um, honestior -or -us, honestissimus -a -um ADJ",
@@ -13812,6 +15957,11 @@ Object.assign(LATIN_DICT, {
     "en": "storehouse; barn",
     "grammar": "N 2 2 DAT P N"
   },
+  "horrentia": {
+    "lemma": "horreo, horrere, horrui, - V (2nd)",
+    "en": "dread, shrink from, shudder at; stand on end, bristle; have rough appearance",
+    "grammar": "VPAR 2 1 NOM P N PRES ACTIVE PPL"
+  },
   "horridis": {
     "lemma": "horridus, horrida, horridum ADJ",
     "en": "wild, frightful, rough, bristly, standing on end, unkempt; grim; horrible",
@@ -13856,6 +16006,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "hospitium, hospiti(i) N (2nd) N",
     "en": "hospitality, entertainment; lodging; guest room/lodging; inn",
     "grammar": "N 2 4 NOM P N"
+  },
+  "hospitibus": {
+    "lemma": "hospes, (gen.), hospitis ADJ",
+    "en": "of relation between host and guest; that hosts; that guests; foreign, alien",
+    "grammar": "ADJ 3 1 DAT P X POS"
   },
   "hospitis": {
     "lemma": "hospes, hospitis N (3rd) M",
@@ -13952,6 +16107,11 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 1 1 ACC P M POS + TACKON"
   },
+  "humanum": {
+    "lemma": "humanus, humana -um, humanior -or -us, humanissimus -a -um ADJ",
+    "en": "human; kind; humane, civilized, refined; [~ hostiae => human sacrifice]",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "humile": {
     "lemma": "humilis, humile, humilior -or -us, humillimus -a -um ADJ",
     "en": "low, lowly, small, slight, base, mean, humble, obscure, poor, insignificant",
@@ -13971,6 +16131,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "humilis, humile, humilior -or -us, humillimus -a -um ADJ",
     "en": "low, lowly, small, slight, base, mean, humble, obscure, poor, insignificant",
     "grammar": "ADJ 3 2 NOM S C POS"
+  },
+  "hyadas": {
+    "lemma": "Hyades, Hyadum (pl.)",
+    "en": "the Hyades (rain-bringing star cluster in Taurus)",
+    "grammar": "N ACC P F (proper name, Greek accusative)"
+  },
+  "hymenaeos": {
+    "lemma": "Hymenaeus, Hymenaei N (2nd) M",
+    "en": "Greek wedding chant/refrain; (personified as a god); marriage, wedding, match",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "hypatham": {
+    "lemma": "Hypata, Hypatae",
+    "en": "Hypata (town in Thessaly, setting of Apuleius' Golden Ass)",
+    "grammar": "N ACC S F (proper name, medieval spelling of Hypatam)"
   },
   "i": {
     "lemma": "eo, ire, ivi(ii), itus V",
@@ -14002,6 +16177,16 @@ Object.assign(LATIN_DICT, {
     "en": "throw away, throw out, throw, jerk about; disturb; boast, discuss",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "iactatam": {
+    "lemma": "jacto, jactare, jactavi, jactatus V (1st)",
+    "en": "throw away, throw out, throw, jerk about; disturb; boast, discuss",
+    "grammar": "VPAR 1 1 ACC S F PERF PASSIVE PPL"
+  },
+  "iactati": {
+    "lemma": "jacto, jactare, jactavi, jactatus V (1st)",
+    "en": "throw away, throw out, throw, jerk about; disturb; boast, discuss",
+    "grammar": "VPAR 1 1 GEN S M PERF PASSIVE PPL"
+  },
   "iactatio": {
     "lemma": "jactatio, jactationis N (3rd) F",
     "en": "shaking; boasting; showing off",
@@ -14021,6 +16206,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "jacto, jactare, jactavi, jactatus V (1st)",
     "en": "throw away, throw out, throw, jerk about; disturb; boast, discuss",
     "grammar": "V 1 1 PERF ACTIVE IND 3 S"
+  },
+  "iactetur": {
+    "lemma": "jacto, jactare, jactavi, jactatus V (1st)",
+    "en": "throw away, throw out, throw, jerk about; disturb; boast, discuss",
+    "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
   },
   "iactura": {
     "lemma": "iactura, iacturae",
@@ -14042,15 +16232,35 @@ Object.assign(LATIN_DICT, {
     "en": "javelin; dart; -ed, having, having a, provided with; -able",
     "grammar": "ADJ 0 0 DAT P X COMP + SUFFIX"
   },
+  "iamdudum": {
+    "lemma": "jamdudum ADV",
+    "en": "long ago/before/since; a long time ago; this long time; immediately, at once",
+    "grammar": "ADV"
+  },
+  "iampridem": {
+    "lemma": "jampridem ADV",
+    "en": "long ago/since; well before now/then; for a long time now/past",
+    "grammar": "ADV"
+  },
   "ianuam": {
     "lemma": "janua, januae N (1st) F",
     "en": "door, entrance",
     "grammar": "N 1 1 ACC S F"
   },
+  "ibat": {
+    "lemma": "eo, ire, ivi(ii), itus V",
+    "en": "go, walk; march, advance; pass; flow; pass (time); ride; sail",
+    "grammar": "V 6 1 IMPF ACTIVE IND 3 S"
+  },
   "ibi": {
     "lemma": "ibi ADV",
     "en": "there, in that place; thereupon",
     "grammar": "ADV"
+  },
+  "ibique": {
+    "lemma": "ibi ADV",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADV + TACKON"
   },
   "ibit": {
     "lemma": "eo, ire, ivi(ii), itus V",
@@ -14066,6 +16276,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "ictus, ictus N (4th) M",
     "en": "blow, stroke; musical/metrical beat; measure (music)",
     "grammar": "N 4 1 NOM S M"
+  },
+  "idaliae": {
+    "lemma": "Idalia, Idaliae",
+    "en": "of Idalia (Idalium, sanctuary of Venus on Cyprus)",
+    "grammar": "N GEN S F (proper name)"
+  },
+  "idalium": {
+    "lemma": "Ida, Idae N (1st) F",
+    "en": "Ida; (mountain near Troy; mountain in Crete); -al; of a ~, pertaining to a ~, in a condition of ~, in a state of ~",
+    "grammar": "ADJ 3 0 GEN P X POS + SUFFIX"
   },
   "idcirco": {
     "lemma": "idcirco ADV",
@@ -14117,10 +16337,20 @@ Object.assign(LATIN_DICT, {
     "en": "therefore (postpositive), so/then; consequently; accordingly; well/in that case",
     "grammar": "CONJ"
   },
+  "ignara": {
+    "lemma": "ignarus, ignara, ignarum ADJ",
+    "en": "ignorant; unaware, having no experience of; senseless; strange",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "ignaviam": {
     "lemma": "ignavia, ignaviae N (1st) F",
     "en": "idleness, laziness; faintheartedness",
     "grammar": "N 1 1 ACC S F"
+  },
+  "ignavom": {
+    "lemma": "ignavus, ignava, ignavum",
+    "en": "lazy, idle (archaic spelling of ignavum; of the drones, ignavom pecus)",
+    "grammar": "ADJ ACC S N (archaic spelling)"
   },
   "igne": {
     "lemma": "ignis, ignis N (3rd) M",
@@ -14131,6 +16361,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "ignis, ignis N (3rd) M",
     "en": "fire, brightness; passion, glow of passion",
     "grammar": "N 3 3 NOM P M"
+  },
+  "ignis": {
+    "lemma": "ignis, ignis N (3rd) M",
+    "en": "fire, brightness; passion, glow of passion",
+    "grammar": "N 3 3 NOM S M"
   },
   "ignorabat": {
     "lemma": "ignoro, ignorare, ignoravi, ignoratus V (1st)",
@@ -14202,10 +16437,40 @@ Object.assign(LATIN_DICT, {
     "en": "PACKON w/qui => whoever it be; whatever; each, each one; everyone, everything",
     "grammar": "PRON 4 1 DAT P X + TACKON"
   },
+  "iliacas": {
+    "lemma": "iliacus, iliaca, iliacum ADJ",
+    "en": "colicky",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "iliacos": {
+    "lemma": "iliacus, iliaci N (2nd) C",
+    "en": "colic-sufferer",
+    "grammar": "N 2 1 NOM S C"
+  },
+  "iliades": {
+    "lemma": "Ilias, Iliadis",
+    "en": "the Trojan women",
+    "grammar": "N NOM P F (proper name)"
+  },
   "ilias": {
     "lemma": "ilum, ili N (2nd) N",
     "en": "groin, private parts; area from hips to groin (pl.), loin; guts/entrails; art or craft done by the person (abstract noun of person); office of, -ship",
     "grammar": "N 1 1 NOM S M + SUFFIX"
+  },
+  "ilione": {
+    "lemma": "Ilion, Ilii N N",
+    "en": "-ne = is it not that (enclitic); or ...(introduces a question or alternative)",
+    "grammar": "N 2 8 DAT S N + TACKON"
+  },
+  "ilionea": {
+    "lemma": "Ilioneus, Ilionei N M",
+    "en": "Ilioneus; (Trojan spokesman of Aeneas)",
+    "grammar": "N 2 9 ACC S M"
+  },
+  "ilioneus": {
+    "lemma": "Ilioneus, Ilionei N M",
+    "en": "Ilioneus; (Trojan spokesman of Aeneas)",
+    "grammar": "N 2 9 NOM S M"
   },
   "illae": {
     "lemma": "ille, illa, illud PRON",
@@ -14262,10 +16527,20 @@ Object.assign(LATIN_DICT, {
     "en": "illuminate, light up; give glory; embellish; make clear, elucidate; enlighten",
     "grammar": "VPAR 1 1 NOM S N PERF PASSIVE PPL"
   },
+  "illustris": {
+    "lemma": "illustris, illustre, illustrior -or -us, illustrissimus -a -um ADJ",
+    "en": "bright, shining, brilliant; clear, lucid; illustrious, distinguished, famous",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
   "illusus": {
     "lemma": "illudo, illudere, illusi, illusus V (3rd)",
     "en": "mock, ridicule, speak mockingly of; fool, dupe; use for sexual pleasure",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "ilus": {
+    "lemma": "Ilus, Ili",
+    "en": "Ilus (founder of Ilium; also the earlier name of Ascanius/Iulus)",
+    "grammar": "N NOM S M (proper name)"
   },
   "imaginem": {
     "lemma": "imago, imaginis N (3rd) F",
@@ -14312,6 +16587,11 @@ Object.assign(LATIN_DICT, {
     "en": "unwarlike; not suited or ready for war",
     "grammar": "ADJ 3 2 DAT P X POS"
   },
+  "imber": {
+    "lemma": "imber, imbris N (3rd) M",
+    "en": "rain, shower, storm; shower of liquid/snow/hail/missiles; water (in general)",
+    "grammar": "N 3 1 NOM S M"
+  },
   "imitanda": {
     "lemma": "imitor, imitari, imitatus sum V (1st) DEP",
     "en": "imitate/copy/mimic; follow; make an imitation/reproduction; resemble; simulate",
@@ -14342,6 +16622,16 @@ Object.assign(LATIN_DICT, {
     "en": "imitate/copy/mimic; follow; make an imitation/reproduction; resemble; simulate",
     "grammar": "V 1 1 PRES PASSIVE SUB 2 S"
   },
+  "immanibus": {
+    "lemma": "immanis, immane, immanior -or -us, immanissimus -a -um ADJ",
+    "en": "huge/vast/immense/tremendous/extreme/monstrous; inhuman/savage/brutal/frightful",
+    "grammar": "ADJ 3 2 DAT P X POS"
+  },
+  "immanisque": {
+    "lemma": "immanis, immane, immanior -or -us, immanissimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 3 2 NOM S C POS + TACKON"
+  },
   "immanitate": {
     "lemma": "immanitas, immanitatis N (3rd) F",
     "en": "brutality, savage character, frightfulness; huge/vast size; barbarity; monster",
@@ -14356,6 +16646,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "immaturus, immatura, immaturum ADJ",
     "en": "unripe, immature, untimely",
     "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "immemor": {
+    "lemma": "immemor, (gen.), immemoris ADJ",
+    "en": "forgetful (by nature); lacking memory; heedless (of obligations/consequences)",
+    "grammar": "ADJ 3 1 NOM S X POS"
   },
   "immensa": {
     "lemma": "immensus, immensa, immensum ADJ",
@@ -14442,6 +16737,11 @@ Object.assign(LATIN_DICT, {
     "en": "lowest; bottom",
     "grammar": "ADJ ABL S N SUPER"
   },
+  "impar": {
+    "lemma": "impar, (gen.), imparis ADJ",
+    "en": "unequal (size/number/rank/esteem); uneven, odd; inferior; not a match (for)",
+    "grammar": "ADJ 3 1 NOM S X POS"
+  },
   "imparati": {
     "lemma": "imparatus, imparata -um, imparatior -or -us, imparatissimus -a -um ADJ",
     "en": "not prepared; unready",
@@ -14481,6 +16781,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "impedio, impedire, impedivi, impeditus V (4th)",
     "en": "hinder, impede, hamper, obstruct, prevent from (w/ne, quin, or quominus)",
     "grammar": "V 4 1 PRES ACTIVE IND 3 S"
+  },
+  "impegit": {
+    "lemma": "impingo, impingere, impegi, impactus V (3rd)",
+    "en": "thrust, strike or dash against",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "impellit": {
+    "lemma": "impello, impellere, impuli, impulsus V (3rd) TRANS",
+    "en": "drive/persuade/impel; urge on/action; push/thrust/strike against; overthrow",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
   "impellitur": {
     "lemma": "impello, impellere, impuli, impulsus V (3rd) TRANS",
@@ -14557,6 +16867,11 @@ Object.assign(LATIN_DICT, {
     "en": "command; authority; rule, supreme power; the state, the empire",
     "grammar": "N 2 4 NOM P N"
   },
+  "imperii": {
+    "lemma": "imperium, imperi(i) N (2nd) N",
+    "en": "command; authority; rule, supreme power; the state, the empire",
+    "grammar": "N 2 4 GEN S N"
+  },
   "imperitae": {
     "lemma": "imperitus, imperita, imperitum ADJ",
     "en": "unskilled, inexperienced (in); unfamiliar, ignorant (of) (w/GEN)",
@@ -14617,10 +16932,35 @@ Object.assign(LATIN_DICT, {
     "en": "failure in duty or respect, etc",
     "grammar": "N 3 1 GEN S F"
   },
+  "impiger": {
+    "lemma": "impiger, impigra, impigrum ADJ",
+    "en": "active, energetic",
+    "grammar": "ADJ 1 2 NOM S M POS"
+  },
   "impingunt": {
     "lemma": "impingo, impingere, impegi, impactus V (3rd)",
     "en": "thrust, strike or dash against",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "implenti": {
+    "lemma": "impleo, implere, implevi, impletus V (2nd)",
+    "en": "fill up; satisfy, fulfill; fill, finish, complete; spend (time)",
+    "grammar": "VPAR 2 1 DAT S X PRES ACTIVE PPL"
+  },
+  "implere": {
+    "lemma": "impleo, implere, implevi, impletus V (2nd)",
+    "en": "fill up; satisfy, fulfill; fill, finish, complete; spend (time)",
+    "grammar": "V 2 1 PRES PASSIVE IND 2 S"
+  },
+  "implevit": {
+    "lemma": "impleo, implere, implevi, impletus V (2nd)",
+    "en": "fill up; satisfy, fulfill; fill, finish, complete; spend (time)",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 S"
+  },
+  "implevitque": {
+    "lemma": "impleo, implere, implevi, impletus V (2nd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 S + TACKON"
   },
   "implicari": {
     "lemma": "implico, implicare, implicavi, implicatus V (1st) TRANS",
@@ -14631,6 +16971,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "implico, implicare, implicavi, implicatus V (1st) TRANS",
     "en": "implicate; involve/engage/entangle/embroil; interweave/fold/twine w/itself",
     "grammar": "VPAR 1 1 GEN S M PERF PASSIVE PPL"
+  },
+  "implicet": {
+    "lemma": "implico, implicare, implicavi, implicatus V (1st) TRANS",
+    "en": "implicate; involve/engage/entangle/embroil; interweave/fold/twine w/itself",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
+  },
+  "implicuit": {
+    "lemma": "implico, implicare, implicui, implicitus V (1st) TRANS",
+    "en": "implicate; involve/engage/entangle/embroil; interweave/fold/twine w/itself",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 S"
   },
   "imponam": {
     "lemma": "impono, imponere, imposui, impositus V (3rd)",
@@ -14702,6 +17052,11 @@ Object.assign(LATIN_DICT, {
     "en": "improvident; thoughtless; unwary",
     "grammar": "ADJ 1 1 GEN P M POS"
   },
+  "improvisus": {
+    "lemma": "improvisus, improvisa, improvisum ADJ",
+    "en": "unforeseen/unexpected; [de improviso => unexpectedly/suddenly, without warning]",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "imprudens": {
     "lemma": "imprudens, imprudentis (gen.), imprudentior -or -us, imprudentissimus -a -um ADJ",
     "en": "ignorant; unaware; unintentional, unsuspecting; foolish/incautious/unthinking",
@@ -14742,6 +17097,11 @@ Object.assign(LATIN_DICT, {
     "en": "charge, enter as debt/credit; take into account; impute, ascribe; lay to charge",
     "grammar": "V 1 1 PRES ACTIVE IND 1 S"
   },
+  "inamenam": {
+    "lemma": "inamoenus, inamoena, inamoenum",
+    "en": "unlovely, charmless, dismal (medieval spelling of inamoenam)",
+    "grammar": "ADJ ACC S F (medieval spelling)"
+  },
   "inane": {
     "lemma": "inanis, inanis, inane ADJ",
     "en": "void, empty, hollow; vain; inane, foolish",
@@ -14772,20 +17132,40 @@ Object.assign(LATIN_DICT, {
     "en": "advance, march; approach; step, walk, march along",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
+  "incedit": {
+    "lemma": "incedo, incedere, incessi, incessus V (3rd)",
+    "en": "advance, march; approach; step, walk, march along",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
   "incedunt": {
     "lemma": "incedo, incedere, incessi, incessus V (3rd)",
     "en": "advance, march; approach; step, walk, march along",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
+  "incendat": {
+    "lemma": "incendo, incendere, incendi, incensus V (3rd) TRANS",
+    "en": "set on fire; set fire to, kindle, burn; cause to flame/burn; keep fire burning",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
   "incendere": {
     "lemma": "incendo, incendere, incendi, incensus V (3rd) TRANS",
     "en": "set on fire; set fire to, kindle, burn; cause to flame/burn; keep fire burning",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
+  "incendia": {
+    "lemma": "incendium, incendi(i) N (2nd) N",
+    "en": "fire, conflagration; fiery heat; fiery passion/love/hostility; arson (Latham)",
+    "grammar": "N 2 4 NOM P N"
+  },
   "incendio": {
     "lemma": "incendium, incendi(i) N (2nd) N",
     "en": "fire, conflagration; fiery heat; fiery passion/love/hostility; arson (Latham)",
     "grammar": "N 2 4 DAT S N"
+  },
+  "incensi": {
+    "lemma": "incendo, incendere, incendi, incensus V (3rd) TRANS",
+    "en": "set on fire; set fire to, kindle, burn; cause to flame/burn; keep fire burning",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
   },
   "incerta": {
     "lemma": "incertus, incerta, incertum ADJ",
@@ -14806,6 +17186,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "incertus, incerta, incertum ADJ",
     "en": "uncertain; unsure, inconstant, variable; doubtful",
     "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "incessit": {
+    "lemma": "incedo, incedere, incessi, incessus V (3rd)",
+    "en": "advance, march; approach; step, walk, march along",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "inchoare": {
     "lemma": "inchoo, inchoare, inchoavi, inchoatus V (1st)",
@@ -14907,6 +17292,11 @@ Object.assign(LATIN_DICT, {
     "en": "shut up/in, imprison, enclose; include",
     "grammar": "VPAR 3 1 ACC S F PERF PASSIVE PPL"
   },
+  "incognita": {
+    "lemma": "incognitus, incognita, incognitum ADJ",
+    "en": "unknown; not known; untried, untested",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "incohatas": {
     "lemma": "incoho, incohare, incohavi, incohatus V (1st)",
     "en": "begin/start (work); set going, establish; draft/sketch/outline; enter upon",
@@ -14942,6 +17332,11 @@ Object.assign(LATIN_DICT, {
     "en": "disheveled; untidy; unpolished",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "inconcessosque": {
+    "lemma": "inconcessus, inconcessa, inconcessum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC P M POS + TACKON"
+  },
   "inconstans": {
     "lemma": "inconstans, (gen.), inconstantis ADJ",
     "en": "changeable, fickle",
@@ -14971,6 +17366,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "incrementum, incrementi N (2nd) N",
     "en": "growth, development, increase; germ (of idea); offshoot; advancement (rank)",
     "grammar": "N 2 2 DAT S N"
+  },
+  "increpitans": {
+    "lemma": "increpito, increpitare, increpitavi, increpitatus V (1st)",
+    "en": "chide, utter (noisy) reproaches at",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
   },
   "inculcata": {
     "lemma": "inculco, inculcare, inculcavi, inculcatus V (1st)",
@@ -15042,6 +17442,11 @@ Object.assign(LATIN_DICT, {
     "en": "evidence (before a court); information, proof; indication",
     "grammar": "N 2 4 DAT S N"
   },
+  "indicit": {
+    "lemma": "indico, indicere, indixi, indictus V (3rd)",
+    "en": "declare publicly; proclaim, announce; appoint; summon",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
   "indicium": {
     "lemma": "indicium, indici(i) N (2nd) N",
     "en": "evidence (before a court); information, proof; indication",
@@ -15081,6 +17486,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "indignus, indigna -um, indignior -or -us, indignissimus -a -um ADJ",
     "en": "unworthy, undeserving, undeserved; unbecoming; shameful; intolerable; cruel",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "indignam": {
+    "lemma": "indignus, indigna -um, indignior -or -us, indignissimus -a -um ADJ",
+    "en": "unworthy, undeserving, undeserved; unbecoming; shameful; intolerable; cruel",
+    "grammar": "ADJ 1 1 ACC S F POS"
   },
   "indignatio": {
     "lemma": "indignatio, indignationis N (3rd) F",
@@ -15122,6 +17532,11 @@ Object.assign(LATIN_DICT, {
     "en": "lead in, bring in (performers); induce, influence; introduce",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
+  "indue": {
+    "lemma": "induo, induere, indui, indutus V (3rd)",
+    "en": "put on, clothe, cover; dress oneself in; [se induere => to impale oneself]",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
   "indulgeatis": {
     "lemma": "indulgeo, indulgere, indulsi, indultus V (2nd) DAT",
     "en": "indulge; be indulgent/lenient/kind; grant/bestow; gratify oneself; give in to",
@@ -15161,6 +17576,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "inermis, inermis, inerme ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 3 2 NOM P C POS + TACKON"
+  },
+  "inermis": {
+    "lemma": "inermis, inermis, inerme ADJ",
+    "en": "unarmed, without weapons; defenseless; toothless, without a sting",
+    "grammar": "ADJ 3 2 NOM S C POS"
   },
   "inertem": {
     "lemma": "iners, inertis (gen.), inertior -or -us, inertissimus -a -um ADJ",
@@ -15212,6 +17632,21 @@ Object.assign(LATIN_DICT, {
     "en": "disgrace, dishonor; infamy",
     "grammar": "N 1 1 NOM S F"
   },
+  "infamie": {
+    "lemma": "infamia, infamiae N (1st) F",
+    "en": "disgrace, dishonor; infamy; make of",
+    "grammar": "ADJ 1 2 NOM S M POS + SUFFIX"
+  },
+  "infandos": {
+    "lemma": "infandus, infanda, infandum ADJ",
+    "en": "unspeakable, unutterable; abominable, monstrous",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "infandum": {
+    "lemma": "infandus, infanda, infandum ADJ",
+    "en": "unspeakable, unutterable; abominable, monstrous",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "infantia": {
     "lemma": "infantia, infantiae N (1st) F",
     "en": "infancy; inability to speak",
@@ -15231,6 +17666,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "infeliciter, infelicius, infelicissime ADV",
     "en": "unfortunately; without good luck; without success",
     "grammar": "ADV"
+  },
+  "infelix": {
+    "lemma": "infelix, infelicis (gen.), infelicior -or -us, infelicissimus -a -um ADJ",
+    "en": "unfortunate, unhappy, wretched; unlucky, inauspicious; unproductive (plant)",
+    "grammar": "ADJ 3 1 NOM S X POS"
   },
   "inferendis": {
     "lemma": "infero, inferre, intuli, illatus V (3rd) TRANS",
@@ -15271,6 +17711,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "inferus, infera -um, inferior -or -us, infimus -a -um ADJ",
     "en": "below, beneath, underneath; of hell; vile; lower, further down; lowest, last",
     "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "infert": {
+    "lemma": "infero, inferre, intuli, illatus V (3rd) TRANS",
+    "en": "bring/carry in, import; advance, bring/march/step/move foward; impel, urge",
+    "grammar": "V 3 2 PRES ACTIVE IND 3 S"
   },
   "infesta": {
     "lemma": "infesto, infestare, infestavi, infestatus V (1st) TRANS",
@@ -15337,6 +17782,11 @@ Object.assign(LATIN_DICT, {
     "en": "set on fire, inflame, kindle; excite",
     "grammar": "V 1 1 PRES PASSIVE IND 3 P"
   },
+  "inflasse": {
+    "lemma": "inflo, inflare, inflavi, inflatus",
+    "en": "to have inflated, puffed up (syncopated inflavisse)",
+    "grammar": "V PERF ACTIVE INF (syncopated)"
+  },
   "influebat": {
     "lemma": "influo, influere, influxi, influxus V (3rd)",
     "en": "flow into; flow",
@@ -15346,6 +17796,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "infringo, infringere, infregi, infractus V (3rd)",
     "en": "break, break off; lessen, weaken, diminish, dishearten; overcome, crush",
     "grammar": "VPAR 3 1 ACC S F PERF PASSIVE PPL"
+  },
+  "ingeminant": {
+    "lemma": "ingemino, ingeminare, ingeminavi, ingeminatus V (1st)",
+    "en": "redouble; increase in intensity",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "ingemuit": {
     "lemma": "ingemo, ingemere, ingemui, ingemitus V (3rd)",
@@ -15386,6 +17841,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "ingenium, ingeni(i) N (2nd) N",
     "en": "nature, innate quality; natural disposition/capacity; character; talent",
     "grammar": "N 2 4 NOM S N"
+  },
+  "ingentem": {
+    "lemma": "ingens, ingentis (gen.), ingentior -or -us, ingentissimus -a -um ADJ",
+    "en": "not natural, immoderate; huge, vast, enormous; mighty; remarkable, momentous",
+    "grammar": "ADJ 3 1 ACC S C POS"
   },
   "ingentes": {
     "lemma": "ingens, ingentis (gen.), ingentior -or -us, ingentissimus -a -um ADJ",
@@ -15441,6 +17901,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "inguen, inguinis N (3rd) N",
     "en": "groin; the sexual organs, privy parts",
     "grammar": "N 3 2 NOM S N"
+  },
+  "inhiando": {
+    "lemma": "inhio, inhiare, inhiavi, inhiatus V (1st)",
+    "en": "gape, be open mouthed with astonishment; covet, desire",
+    "grammar": "VPAR 1 1 DAT S M FUT PASSIVE PPL"
+  },
+  "inhiasse": {
+    "lemma": "inhio, inhiare, inhiavi, inhiatus",
+    "en": "to have gaped after, coveted eagerly (syncopated inhiavisse)",
+    "grammar": "V PERF ACTIVE INF (syncopated)"
   },
   "inhonesta": {
     "lemma": "inhonesto, inhonestare, inhonestavi, inhonestatus V (1st)",
@@ -15511,6 +17981,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "inimicus, inimica -um, inimicior -or -us, inimicissimus -a -um ADJ",
     "en": "unfriendly, hostile, harmful",
     "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "iniquae": {
+    "lemma": "iniquus, iniqua -um, iniquior -or -us, iniquissimus -a -um ADJ",
+    "en": "unjust, unfair; disadvantageous, uneven; unkind, hostile",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "iniquo": {
+    "lemma": "iniquus, iniqua -um, iniquior -or -us, iniquissimus -a -um ADJ",
+    "en": "unjust, unfair; disadvantageous, uneven; unkind, hostile",
+    "grammar": "ADJ 1 1 DAT S M POS"
   },
   "initia": {
     "lemma": "initium, initi(i) N (2nd) N",
@@ -15642,6 +18122,11 @@ Object.assign(LATIN_DICT, {
     "en": "disturb, trouble, molest, harass; press legal claim against; fidget, twiddle",
     "grammar": "V 1 1 PRES ACTIVE IND 2 S"
   },
+  "inquiete": {
+    "lemma": "inquies, (gen.), inquietis ADJ",
+    "en": "restless, impatient; full of tumult",
+    "grammar": "ADJ 3 1 ABL S X POS"
+  },
   "inquieti": {
     "lemma": "inquies, (gen.), inquietis ADJ",
     "en": "restless, impatient; full of tumult",
@@ -15656,6 +18141,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "inquiam, -, - V",
     "en": "say (defective); (postpositive - for direct quote); [inquiens => saying]",
     "grammar": "V 7 2 PRES ACTIVE IND 2 S"
+  },
+  "inrigat": {
+    "lemma": "inrigo, inrigare, inrigavi, inrigatus V (1st) TRANS",
+    "en": "water/irrigate; inundate/flood; refresh; wet/moisten; diffuse, shed (sensation)",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "insanam": {
     "lemma": "insanus, insana -um, insanior -or -us, insanissimus -a -um ADJ",
@@ -15672,15 +18162,30 @@ Object.assign(LATIN_DICT, {
     "en": "insatiable",
     "grammar": "ADJ 3 2 NOM S C POS"
   },
+  "inscia": {
+    "lemma": "inscius, inscia, inscium ADJ",
+    "en": "not knowing, ignorant; unskilled",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "inscribere": {
     "lemma": "inscribo, inscribere, inscripsi, inscriptus V (3rd)",
     "en": "write on/in; inscribe, brand; record as; entitle",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
+  "inscribitur": {
+    "lemma": "inscribo, inscribere, inscripsi, inscriptus V (3rd)",
+    "en": "write on/in; inscribe, brand; record as; entitle",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
   "insectarique": {
     "lemma": "insecto, insectare, insectavi, insectatus V (1st)",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "V 1 1 PRES PASSIVE INF 0 X + TACKON"
+  },
+  "insidat": {
+    "lemma": "insido, insidere, insedi, insessus V (3rd)",
+    "en": "sit/settle on; occupy/seize, hold (position); penetrate, sink in; merge into",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
   "insidiae": {
     "lemma": "insidia, insidiae N (1st) F",
@@ -15706,6 +18211,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "insidiosus, insidiosa -um, insidiosior -or -us, insidiosissimus -a -um ADJ",
     "en": "treacherously; deceitfully; cunningly; stealthily; insidiously",
     "grammar": "ADJ 1 1 VOC S M POS"
+  },
+  "insignem": {
+    "lemma": "insignis, insignis, insigne ADJ",
+    "en": "conspicuous, manifest, eminent, notable, famous, distinguished, outstanding",
+    "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "insigni": {
+    "lemma": "insignis, insignis, insigne ADJ",
+    "en": "conspicuous, manifest, eminent, notable, famous, distinguished, outstanding",
+    "grammar": "ADJ 3 2 DAT S X POS"
   },
   "insignis": {
     "lemma": "insignis, insignis, insigne ADJ",
@@ -15737,6 +18252,11 @@ Object.assign(LATIN_DICT, {
     "en": "haughty, arrogant, insolent; immoderate, extravagant; -est, most ~, much ~, makes SUPER",
     "grammar": "ADJ 0 0 NOM S M SUPER + SUFFIX"
   },
+  "insonuit": {
+    "lemma": "insono, insonare, insonui, insonitus V (1st)",
+    "en": "make a loud noise; sound; resound",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 S"
+  },
   "inspexerit": {
     "lemma": "inspicio, inspicere, inspexi, inspectus V (3rd)",
     "en": "examine, inspect; consider, look into/at, observe",
@@ -15752,10 +18272,25 @@ Object.assign(LATIN_DICT, {
     "en": "examine, inspect; consider, look into/at, observe",
     "grammar": "V 3 1 PRES PASSIVE INF 0 X"
   },
+  "inspires": {
+    "lemma": "inspiro, inspirare, inspiravi, inspiratus V (1st)",
+    "en": "inspire; excite, inflame; instill, implant; breathe into; blow upon/into",
+    "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
+  },
   "instabile": {
     "lemma": "instabilis, instabilis, instabile ADJ",
     "en": "unsteady, shaky; unstable; inconstant",
     "grammar": "ADJ 3 2 NOM S N POS"
+  },
+  "instans": {
+    "lemma": "insto, instare, institi, - V (1st)",
+    "en": "pursue, threaten; approach, press hard; be close to (w/DAT); stand in/on",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
+  },
+  "instaret": {
+    "lemma": "insto, instare, institi, - V (1st)",
+    "en": "pursue, threaten; approach, press hard; be close to (w/DAT); stand in/on",
+    "grammar": "V 1 1 IMPF ACTIVE SUB 3 S"
   },
   "instat": {
     "lemma": "insto, instare, institi, - V (1st)",
@@ -15791,6 +18326,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "instituo, instituere, institui, institutus V (3rd)",
     "en": "set up, establish, found, make, institute; build; prepare; decide",
     "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
+  },
+  "instructissimum": {
+    "lemma": "instructus, instructa -um, instructior -or -us, instructissimus -a -um ADJ",
+    "en": "equipped, fitted out, prepared; learned, trained, skilled; drawn up/arranged",
+    "grammar": "ADJ 1 1 NOM S N SUPER"
+  },
+  "instruitur": {
+    "lemma": "instruo, instruere, instruxi, instructus V (3rd)",
+    "en": "construct, build; prepare, draw up; fit out; instruct, teach",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "instrumenta": {
     "lemma": "instrumentum, instrumenti N (2nd) N",
@@ -16007,6 +18552,11 @@ Object.assign(LATIN_DICT, {
     "en": "meanwhile, in the meantime; at the same time; however, nevertheless",
     "grammar": "ADV"
   },
+  "interior": {
+    "lemma": "interior, interioris N (3rd) M",
+    "en": "those (pl.) within; those nearer racecourse goal; inland/further from sea",
+    "grammar": "N 3 1 NOM S M"
+  },
   "interire": {
     "lemma": "intereo, interire, interivi(ii), interitus V",
     "en": "perish, die; be ruined; cease",
@@ -16082,6 +18632,11 @@ Object.assign(LATIN_DICT, {
     "en": "ask, question, interrogate, examine; indict; go to law with, sue",
     "grammar": "VPAR 1 1 DAT S X PRES ACTIVE PPL"
   },
+  "interrogatione": {
+    "lemma": "interrogatio, interrogationis N (3rd) F",
+    "en": "interrogation, inquiry, questioning",
+    "grammar": "N 3 1 DAT S F"
+  },
   "interrogavit": {
     "lemma": "interrogo, interrogare, interrogavi, interrogatus V (1st)",
     "en": "ask, question, interrogate, examine; indict; go to law with, sue",
@@ -16142,10 +18697,20 @@ Object.assign(LATIN_DICT, {
     "en": "undaunted, fearless, untroubled",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "introgressi": {
+    "lemma": "introgredior, introgredi, introgressus sum V (3rd) DEP",
+    "en": "enter; go in; step in (L+S)",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
   "introieram": {
     "lemma": "introeo, introire, introii, introitus",
     "en": "I had entered",
     "grammar": "V PLUP ACTIVE IND 1 S"
+  },
+  "introii": {
+    "lemma": "is, ea, id PRON",
+    "en": "he/she/it/they (by GENDER/NUMBER); DEMONST: that, he/she/it, they/them; within, inside; - between, at intervals, to pieces",
+    "grammar": "PRON 4 1 NOM P M + PREFIX"
   },
   "introrsus": {
     "lemma": "introrsus ADV",
@@ -16252,6 +18817,11 @@ Object.assign(LATIN_DICT, {
     "en": "come upon; discover, find; invent, contrive; reach, manage to get",
     "grammar": "V 4 1 PRES ACTIVE IND 1 S"
   },
+  "inventas": {
+    "lemma": "invenio, invenire, inveni, inventus V (4th)",
+    "en": "come upon; discover, find; invent, contrive; reach, manage to get",
+    "grammar": "VPAR 3 4 ACC P F PERF PASSIVE PPL"
+  },
   "inventi": {
     "lemma": "invenio, invenire, inveni, inventus V (4th)",
     "en": "come upon; discover, find; invent, contrive; reach, manage to get",
@@ -16267,10 +18837,20 @@ Object.assign(LATIN_DICT, {
     "en": "come upon; discover, find; invent, contrive; reach, manage to get",
     "grammar": "VPAR 3 4 NOM S M PERF PASSIVE PPL"
   },
+  "inverecundo": {
+    "lemma": "inverecundus, inverecunda, inverecundum ADJ",
+    "en": "shameless, impudent",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "inveterata": {
     "lemma": "invetero, inveterare, inveteravi, inveteratus V (1st)",
     "en": "make old, give age to; grow old; become rooted",
     "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
+  },
+  "invia": {
+    "lemma": "invius, invia, invium ADJ",
+    "en": "impassable; inaccessible",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "invidere": {
     "lemma": "invideo, invidere, invidi, invisus V (2nd)",
@@ -16306,6 +18886,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "invulnerabilis, invulnerabilis, invulnerabile ADJ",
     "en": "invulnerable",
     "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "iopas": {
+    "lemma": "Iopas, Iopae",
+    "en": "Iopas (long-haired bard who sings at Dido's banquet)",
+    "grammar": "N NOM S M (proper name)"
   },
   "ioue": {
     "lemma": "Juppiter, Jovis N (3rd) M",
@@ -16352,6 +18937,11 @@ Object.assign(LATIN_DICT, {
     "en": "himself/herself/itself; the very/real/actual one; in person; themselves (pl.)",
     "grammar": "PRON 6 2 NOM S N"
   },
+  "ipsumque": {
+    "lemma": "ipse, ipsa, ipsum PRON",
+    "en": "PACKON w/qui => whoever it be; whatever; each, each one; everyone, everything",
+    "grammar": "PRON 6 2 NOM S N + TACKON"
+  },
   "ira": {
     "lemma": "ira, irae N (1st) F",
     "en": "anger; ire, wrath; resentment; indignation; rage/fury/violence; bad blood",
@@ -16386,6 +18976,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "eo, ire, ivi(ii), itus V",
     "en": "go, walk; march, advance; pass; flow; pass (time); ride; sail",
     "grammar": "V 6 1 PRES PASSIVE INF 0 X"
+  },
+  "irremissibilium": {
+    "lemma": "irremissibilis, irremissibilis, irremissibile ADJ",
+    "en": "unpardonable, irremissible; unremitting; of which there is no remission/pardon",
+    "grammar": "ADJ 3 2 GEN P X POS"
   },
   "irrequieta": {
     "lemma": "irrequietus, irrequieta, irrequietum ADJ",
@@ -16497,6 +19092,11 @@ Object.assign(LATIN_DICT, {
     "en": "Italians (pl.)",
     "grammar": "N 2 1 DAT S M"
   },
+  "italie": {
+    "lemma": "Italia, Italiae N (1st) F",
+    "en": "Italy; make of",
+    "grammar": "ADJ 1 2 NOM S M POS + SUFFIX"
+  },
   "itaque": {
     "lemma": "itaque ADV",
     "en": "and so, accordingly; thus, therefore, consequently",
@@ -16547,6 +19147,11 @@ Object.assign(LATIN_DICT, {
     "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
     "grammar": "V 2 1 FUT ACTIVE IND 3 S"
   },
+  "iubebo": {
+    "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
+    "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
+    "grammar": "V 2 1 FUT ACTIVE IND 1 S"
+  },
   "iubent": {
     "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
     "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
@@ -16561,6 +19166,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
     "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
     "grammar": "V 2 1 PRES ACTIVE IND 2 S"
+  },
+  "iubet": {
+    "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
+    "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "iucunda": {
     "lemma": "jucundus, jucunda -um, jucundior -or -us, jucundissimus -a -um ADJ",
@@ -16687,6 +19297,11 @@ Object.assign(LATIN_DICT, {
     "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
     "grammar": "V 1 1 PERF ACTIVE IND 3 S"
   },
+  "iudice": {
+    "lemma": "judex, judicis N (3rd) M",
+    "en": "judge; juror",
+    "grammar": "N 3 1 DAT S M"
+  },
   "iudicet": {
     "lemma": "judico, judicare, judicavi, judicatus V (1st)",
     "en": "judge, give judgment; sentence; conclude, decide; declare, appraise",
@@ -16732,6 +19347,21 @@ Object.assign(LATIN_DICT, {
     "en": "throat, neck; collarbone",
     "grammar": "N 2 1 DAT S M"
   },
+  "iuli": {
+    "lemma": "Julius, Juli N (2nd) M",
+    "en": "Julius; (Roman gens name); (C. ~ Caesar 102-44 BC)",
+    "grammar": "N 2 5 VOC S M"
+  },
+  "iulium": {
+    "lemma": "Julius, Juli N (2nd) M",
+    "en": "Julius; (Roman gens name); (C. ~ Caesar 102-44 BC)",
+    "grammar": "N 2 5 ACC S M"
+  },
+  "iulum": {
+    "lemma": "julus, juli N (2nd) M",
+    "en": "plant-down; woolly part of plant (Pliny)",
+    "grammar": "N 2 1 ACC S M"
+  },
   "iumenta": {
     "lemma": "jumentum, jumenti N (2nd) N",
     "en": "mule; beast of burden",
@@ -16751,6 +19381,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "jungo, jungere, junxi, junctus V (3rd)",
     "en": "join, unite; bring together, clasp (hands); connect, yoke, harness",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "iunguntur": {
+    "lemma": "jungo, jungere, junxi, junctus V (3rd)",
+    "en": "join, unite; bring together, clasp (hands); connect, yoke, harness",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
+  "iunoni": {
+    "lemma": "Juno, Junonis N (3rd) F",
+    "en": "Juno; (Roman goddess, wife of Jupiter)",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "iunonia": {
+    "lemma": "Juno, Junonis N (3rd) F",
+    "en": "Juno; (Roman goddess, wife of Jupiter); art or craft done by the person (abstract noun of person); office of, -ship",
+    "grammar": "N 1 1 NOM S C + SUFFIX"
   },
   "iurandum": {
     "lemma": "juro, jurare, juravi, juratus V (1st)",
@@ -16787,6 +19432,11 @@ Object.assign(LATIN_DICT, {
     "en": "law; legal system; code; right; duty; justice; court; binding decision; oath",
     "grammar": "N 3 2 NOM S N"
   },
+  "iussi": {
+    "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
+    "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
+    "grammar": "V 2 1 PERF ACTIVE IND 1 S"
+  },
   "iusta": {
     "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
     "en": "just, fair, equitable; right, lawful, justified; regular, proper",
@@ -16802,10 +19452,20 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 1 1 ACC P F POS + TACKON"
   },
+  "iustior": {
+    "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
+    "en": "just, fair, equitable; right, lawful, justified; regular, proper",
+    "grammar": "ADJ 1 1 NOM S C COMP"
+  },
   "iustiorem": {
     "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
     "en": "just, fair, equitable; right, lawful, justified; regular, proper",
     "grammar": "ADJ 1 1 ACC S C COMP"
+  },
+  "iustis": {
+    "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
+    "en": "just, fair, equitable; right, lawful, justified; regular, proper",
+    "grammar": "ADJ 1 1 DAT P X POS"
   },
   "iustissimo": {
     "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
@@ -16832,10 +19492,20 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "N 1 1 NOM S F + TACKON"
   },
+  "iusto": {
+    "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
+    "en": "just, fair, equitable; right, lawful, justified; regular, proper",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "iustos": {
     "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
     "en": "just, fair, equitable; right, lawful, justified; regular, proper",
     "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "iustum": {
+    "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
+    "en": "just, fair, equitable; right, lawful, justified; regular, proper",
+    "grammar": "ADJ 1 1 NOM S N POS"
   },
   "iustus": {
     "lemma": "justus, justa -um, justior -or -us, justissimus -a -um ADJ",
@@ -16872,10 +19542,20 @@ Object.assign(LATIN_DICT, {
     "en": "youth; the age of youth (20-40), young persons; young men, knights",
     "grammar": "N 3 1 DAT S F"
   },
+  "iuvabo": {
+    "lemma": "juvo, juvare, juvi, jutus V (1st)",
+    "en": "help, assist, aid, support, serve, further; please, delight, gratify",
+    "grammar": "V 1 1 FUT ACTIVE IND 1 S"
+  },
   "iuvare": {
     "lemma": "juvo, juvare, juvi, jutus V (1st)",
     "en": "help, assist, aid, support, serve, further; please, delight, gratify",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "iuvat": {
+    "lemma": "juvo, juvare, juvi, jutus V (1st)",
+    "en": "help, assist, aid, support, serve, further; please, delight, gratify",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "iuveni": {
     "lemma": "juvenis, juvenis, juvene ADJ",
@@ -16887,10 +19567,35 @@ Object.assign(LATIN_DICT, {
     "en": "youthful, young",
     "grammar": "ADJ 3 2 DAT P X POS"
   },
+  "iuventa": {
+    "lemma": "juventa, juventae N (1st) F",
+    "en": "youth",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "iuventae": {
+    "lemma": "juventa, juventae N (1st) F",
+    "en": "youth",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "iuventus": {
+    "lemma": "juventus, juventutis N (3rd) F",
+    "en": "youth; the age of youth (20-40), young persons; young men, knights",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "iuvenum": {
+    "lemma": "juvenis, juvenis, juvene ADJ",
+    "en": "youthful, young",
+    "grammar": "ADJ 3 2 GEN P X POS"
+  },
   "jusseritis": {
     "lemma": "jubeo, jubere, jussi, jussus V (2nd) TRANS",
     "en": "order/tell/command/direct; enjoin/command; decree/enact; request/ask/bid; pray",
     "grammar": "V 2 1 FUTP ACTIVE IND 2 P"
+  },
+  "kalendas": {
+    "lemma": "Kalenda, Kalendae N (1st) F",
+    "en": "Kalends (pl.), 1st of month; abb. Kal./Kl.; day of proclamation, interest due",
+    "grammar": "N 1 1 ACC P F"
   },
   "l": {
     "lemma": "L., abb. N M",
@@ -16952,6 +19657,11 @@ Object.assign(LATIN_DICT, {
     "en": "work, labor; produce, take pains; be troubled/sick/oppressed, be in distress",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
+  "laboratae": {
+    "lemma": "laboro, laborare, laboravi, laboratus V (1st)",
+    "en": "work, labor; produce, take pains; be troubled/sick/oppressed, be in distress",
+    "grammar": "VPAR 1 1 GEN S F PERF PASSIVE PPL"
+  },
   "labore": {
     "lemma": "labor, laboris N (3rd) M",
     "en": "labor/toil/exertion/effort/work; task/undertaking; production; childbirth",
@@ -16997,10 +19707,30 @@ Object.assign(LATIN_DICT, {
     "en": "lip (of person/vessel/ditch/river), rim, edge",
     "grammar": "N 2 2 DAT P N"
   },
+  "laceras": {
+    "lemma": "lacero, lacerare, laceravi, laceratus V (1st)",
+    "en": "mangle; slander, torment, harass; waste; destroy; cut",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
   "lacessat": {
     "lemma": "lacesso, lacessere, lacessivi, lacessitus V (3rd)",
     "en": "provoke, excite, harass, challenge, harass; attack, assail",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
+  },
+  "lacessentibus": {
+    "lemma": "lacesso, lacessere, lacessivi, lacessitus V (3rd)",
+    "en": "provoke, excite, harass, challenge, harass; attack, assail",
+    "grammar": "VPAR 3 1 DAT P X PRES ACTIVE PPL"
+  },
+  "lacrimae": {
+    "lemma": "lacrima, lacrimae N (1st) F",
+    "en": "tear; exuded gum/sap; bit of lead; quicksilver from ore; weeping (pl.); dirge",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "lacrimans": {
+    "lemma": "lacrimo, lacrimare, lacrimavi, lacrimatus V (1st)",
+    "en": "shed tears, weep",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
   },
   "lacrimas": {
     "lemma": "lacrima, lacrimae N (1st) F",
@@ -17042,6 +19772,11 @@ Object.assign(LATIN_DICT, {
     "en": "be glad/joyful/delighted; rejoice; be fond (of), delight in; flourish (on/in)",
     "grammar": "V 1 1 PRES PASSIVE INF 0 X"
   },
+  "laetissima": {
+    "lemma": "laetus, laeta -um, laetior -or -us, laetissimus -a -um ADJ",
+    "en": "happy/cheerful/joyful/glad; favorable/propitious; prosperous/successful",
+    "grammar": "ADJ 1 1 NOM S F SUPER"
+  },
   "laetissimosque": {
     "lemma": "laetus, laeta -um, laetior -or -us, laetissimus -a -um ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
@@ -17057,10 +19792,45 @@ Object.assign(LATIN_DICT, {
     "en": "joy/happiness; source of joy/delight; fertility; fruitfulness; floridity",
     "grammar": "N 1 1 NOM S F"
   },
+  "laetitiae": {
+    "lemma": "laetitia, laetitiae N (1st) F",
+    "en": "joy/happiness; source of joy/delight; fertility; fruitfulness; floridity",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "laetitiamque": {
+    "lemma": "laetitia, laetitiae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 ACC S F + TACKON"
+  },
+  "laetitiaque": {
+    "lemma": "laetitia, laetitiae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 NOM S F + TACKON"
+  },
+  "laetos": {
+    "lemma": "laetus, laeta -um, laetior -or -us, laetissimus -a -um ADJ",
+    "en": "happy/cheerful/joyful/glad; favorable/propitious; prosperous/successful",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "laetum": {
+    "lemma": "laetus, laeta -um, laetior -or -us, laetissimus -a -um ADJ",
+    "en": "happy/cheerful/joyful/glad; favorable/propitious; prosperous/successful",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "laevaque": {
+    "lemma": "laevus, laeva, laevum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S F POS + TACKON"
+  },
   "lamellis": {
     "lemma": "lamella, lamellae N (1st) F",
     "en": "small metal piece (eg. coin, plate)",
     "grammar": "N 1 1 DAT P F"
+  },
+  "lamentum": {
+    "lemma": "lamentum, lamenti N (2nd) N",
+    "en": "wailing (pl.), weeping, groans, laments",
+    "grammar": "N 2 2 NOM S N"
   },
   "lancinantur": {
     "lemma": "lancino, lancinare, lancinavi, lancinatus V (1st) TRANS",
@@ -17077,6 +19847,11 @@ Object.assign(LATIN_DICT, {
     "en": "faintness, feebleness; languor apathy",
     "grammar": "N 3 1 DAT S M"
   },
+  "lanificos": {
+    "lemma": "lanificus, lanifica, lanificum ADJ",
+    "en": "woolworking, spinning, weaving",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
   "lapides": {
     "lemma": "lapis, lapidis N (3rd) M",
     "en": "stone; milestone; jewel",
@@ -17086,6 +19861,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "lapis, lapidis N (3rd) M",
     "en": "stone; milestone; jewel",
     "grammar": "N 3 1 NOM S M"
+  },
+  "lapsus": {
+    "lemma": "lapsus, lapsus N (4th) M",
+    "en": "gliding, sliding; slipping and falling",
+    "grammar": "N 4 1 NOM S M"
+  },
+  "laquearibus": {
+    "lemma": "laquear, laquearis N (3rd) N",
+    "en": "paneled/fretted ceiling (usu. pl.); rafter, ceiling, panel",
+    "grammar": "N 3 4 DAT P N"
   },
   "laqueo": {
     "lemma": "laqueus, laquei N (2nd) M",
@@ -17101,6 +19886,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "largitio, largitionis N (3rd) F",
     "en": "generosity, lavish giving, largess; bribery; distribution of dole/land",
     "grammar": "N 3 1 DAT S F"
+  },
+  "largoque": {
+    "lemma": "largus, larga, largum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT S M POS + TACKON"
   },
   "lassa": {
     "lemma": "lassus, lassa, lassum ADJ",
@@ -17122,6 +19912,11 @@ Object.assign(LATIN_DICT, {
     "en": "hiding place, retreat, lair; subterfuge",
     "grammar": "N 1 1 ACC P F"
   },
+  "latens": {
+    "lemma": "lateo, latere, latui, - V (2nd)",
+    "en": "lie hidden, lurk; live a retired life, escape notice",
+    "grammar": "VPAR 2 1 NOM S X PRES ACTIVE PPL"
+  },
   "latentis": {
     "lemma": "lateo, latere, latui, - V (2nd)",
     "en": "lie hidden, lurk; live a retired life, escape notice",
@@ -17132,10 +19927,30 @@ Object.assign(LATIN_DICT, {
     "en": "side; flank",
     "grammar": "N 3 2 DAT S N"
   },
+  "laticemque": {
+    "lemma": "latex, laticis N (3rd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 ACC S M + TACKON"
+  },
+  "laticum": {
+    "lemma": "latex, laticis N (3rd) M",
+    "en": "water; (any) liquid/fluid; running/stream/spring water; juice",
+    "grammar": "N 3 1 GEN P M"
+  },
   "latinis": {
     "lemma": "Latinus, Latina, Latinum ADJ",
     "en": "Latin; of Latium; of/in (good/correct/plain) Latin (language); Roman/Italian",
     "grammar": "ADJ 1 1 DAT P X POS"
+  },
+  "latiumque": {
+    "lemma": "Latium, Latii N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 NOM S N + TACKON"
+  },
+  "latonae": {
+    "lemma": "Latona, Latonae",
+    "en": "of Latona (mother of Apollo and Diana)",
+    "grammar": "N GEN S F (proper name)"
   },
   "latrocinium": {
     "lemma": "latrocinium, latrocini(i) N (2nd) N",
@@ -17146,6 +19961,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "latro, latronis N (3rd) M",
     "en": "robber, brigand, bandit; plunderer",
     "grammar": "N 3 1 ACC S M"
+  },
+  "latronum": {
+    "lemma": "latro, latronis",
+    "en": "of robbers, brigands",
+    "grammar": "N GEN P M"
   },
   "latrunculi": {
     "lemma": "latrunculus, latrunculi N (2nd) M",
@@ -17177,10 +19997,20 @@ Object.assign(LATIN_DICT, {
     "en": "recommend; praise, approve, extol; call upon, name; deliver eulogy on",
     "grammar": "V 1 1 PRES PASSIVE IND 3 P"
   },
+  "laudato": {
+    "lemma": "laudo, laudare, laudavi, laudatus V (1st)",
+    "en": "recommend; praise, approve, extol; call upon, name; deliver eulogy on",
+    "grammar": "V 1 1 FUT ACTIVE IMP 2 S"
+  },
   "laudatum": {
     "lemma": "laudo, laudare, laudavi, laudatus V (1st)",
     "en": "recommend; praise, approve, extol; call upon, name; deliver eulogy on",
     "grammar": "VPAR 1 1 NOM S N PERF PASSIVE PPL"
+  },
+  "laude": {
+    "lemma": "laus, laudis N (3rd) F",
+    "en": "praise, approval, merit; glory; renown",
+    "grammar": "N 3 1 DAT S F"
   },
   "laudent": {
     "lemma": "laudo, laudare, laudavi, laudatus V (1st)",
@@ -17192,15 +20022,30 @@ Object.assign(LATIN_DICT, {
     "en": "recommend; praise, approve, extol; call upon, name; deliver eulogy on",
     "grammar": "V 1 1 PRES PASSIVE SUB 2 S"
   },
+  "laudesque": {
+    "lemma": "laus, laudis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 NOM P F + TACKON"
+  },
   "laudetur": {
     "lemma": "laudo, laudare, laudavi, laudatus V (1st)",
     "en": "recommend; praise, approve, extol; call upon, name; deliver eulogy on",
     "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
   },
+  "laudi": {
+    "lemma": "laus, laudis N (3rd) F",
+    "en": "praise, approval, merit; glory; renown",
+    "grammar": "N 3 1 DAT S F"
+  },
   "laudibus": {
     "lemma": "laus, laudis N (3rd) F",
     "en": "praise, approval, merit; glory; renown",
     "grammar": "N 3 1 DAT P F"
+  },
+  "laudis": {
+    "lemma": "laus, laudis N (3rd) F",
+    "en": "praise, approval, merit; glory; renown",
+    "grammar": "N 3 1 GEN S F"
   },
   "laudum": {
     "lemma": "laus, laudis N (3rd) F",
@@ -17232,6 +20077,11 @@ Object.assign(LATIN_DICT, {
     "en": "wide, spacious, ample, roomy; loose, not close packed; slack, not tight; lax",
     "grammar": "ADJ 1 1 NOM S N COMP"
   },
+  "lecti": {
+    "lemma": "lego, legere, legi, lectus V (3rd)",
+    "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
   "lectica": {
     "lemma": "lectica, lecticae N (1st) F",
     "en": "litter",
@@ -17247,10 +20097,20 @@ Object.assign(LATIN_DICT, {
     "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
     "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
   },
+  "ledae": {
+    "lemma": "Leda, Ledae",
+    "en": "of Leda (mother of Helen)",
+    "grammar": "N GEN S F (proper name)"
+  },
   "legas": {
     "lemma": "lego, legere, legi, lectus V (3rd)",
     "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
     "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
+  "legationes": {
+    "lemma": "legatio, legationis N (3rd) F",
+    "en": "embassy; member of an embassy; mission",
+    "grammar": "N 3 1 NOM P F"
   },
   "legem": {
     "lemma": "lex, legis N (3rd) F",
@@ -17272,6 +20132,11 @@ Object.assign(LATIN_DICT, {
     "en": "law; motion, bill, statute; principle; condition",
     "grammar": "N 3 1 NOM P F"
   },
+  "legesque": {
+    "lemma": "lex, legis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 NOM P F + TACKON"
+  },
   "legi": {
     "lemma": "lex, legis N (3rd) F",
     "en": "law; motion, bill, statute; principle; condition",
@@ -17286,6 +20151,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "lego, legere, legi, lectus V (3rd)",
     "en": "read; gather, collect (cremated bones); furl (sail), weigh (anchor); pick out",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "leniit": {
+    "lemma": "lenio, lenire, lenivi(ii), lenitus V TRANS",
+    "en": "mitigate, moderate; alleviate, allay, assuage, ease, calm, placate, appease; try to do -, keep doing - (Intensive/Iterative - forcible or iterative action)",
+    "grammar": "V 3 2 PRES ACTIVE IMP 2 S + SUFFIX"
   },
   "lenitur": {
     "lemma": "lenio, lenire, lenivi, lenitus V (4th) TRANS",
@@ -17367,6 +20237,11 @@ Object.assign(LATIN_DICT, {
     "en": "law; motion, bill, statute; principle; condition",
     "grammar": "N 3 1 NOM S F"
   },
+  "libato": {
+    "lemma": "libo, libare, libavi, libatus V (1st)",
+    "en": "nibble, sip; pour in offering/a libation; impair; graze, touch, skim (over)",
+    "grammar": "V 1 1 FUT ACTIVE IMP 2 S"
+  },
   "libenter": {
     "lemma": "libenter, libentius, libentissime ADV",
     "en": "willingly; gladly, with pleasure",
@@ -17386,6 +20261,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "liberalis, liberalis, liberale ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 3 2 NOM P C POS + TACKON"
+  },
+  "liberalibus": {
+    "lemma": "liberalis, liberalis, liberale ADJ",
+    "en": "honorable; courteous, well bred, gentlemanly; liberal; generous",
+    "grammar": "ADJ 3 2 DAT P X POS"
   },
   "liberaliorem": {
     "lemma": "liberalis, liberalis, liberale ADJ",
@@ -17547,6 +20427,11 @@ Object.assign(LATIN_DICT, {
     "en": "it pleases, is pleasing/agreeable; (w/qui whatever, whichever, no matter)",
     "grammar": "V 2 1 FUTP ACTIVE IND 3 S"
   },
+  "libycos": {
+    "lemma": "Libycus, Libyca, Libycum ADJ",
+    "en": "Libyan; African",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
   "liceat": {
     "lemma": "licet, licere, licuit, licitus est V (2nd) IMPERS",
     "en": "it is permitted, one may; it is all right, lawful, allowed, permitted",
@@ -17577,6 +20462,11 @@ Object.assign(LATIN_DICT, {
     "en": "of Licinius",
     "grammar": "N GEN S M (proper name)"
   },
+  "ligno": {
+    "lemma": "lignum, ligni N (2nd) N",
+    "en": "wood; firewood; trunk/stump/tree; timber; beam/post; wood (material); stave",
+    "grammar": "N 2 2 DAT S N"
+  },
   "liminibus": {
     "lemma": "limen, liminis N (3rd) N",
     "en": "threshold, entrance; lintel; house",
@@ -17586,6 +20476,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "lingua, linguae N (1st) F",
     "en": "tongue; speech, language; dialect",
     "grammar": "N 1 1 NOM S F"
+  },
+  "linquant": {
+    "lemma": "linquo, linquere, liqui, lictus V (3rd)",
+    "en": "leave, quit, forsake; abandon, desist from; allow to remain in place; bequeath",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
+  },
+  "liquentia": {
+    "lemma": "liqueo, liquere, licui, - V (2nd)",
+    "en": "be in molten/liquid state; be clear to a person; be evident",
+    "grammar": "VPAR 2 1 NOM P N PRES ACTIVE PPL"
   },
   "liquit": {
     "lemma": "linquo, linquere, liqui, lictus V (3rd)",
@@ -17597,6 +20497,11 @@ Object.assign(LATIN_DICT, {
     "en": "lawsuit; quarrel",
     "grammar": "N 3 3 NOM S F"
   },
+  "lite": {
+    "lemma": "lis, litis N (3rd) F",
+    "en": "lawsuit; quarrel",
+    "grammar": "N 3 3 DAT S F"
+  },
   "litigare": {
     "lemma": "litigo, litigare, litigavi, litigatus V (1st)",
     "en": "quarrel; go to law",
@@ -17606,6 +20511,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "litigo, litigare, litigavi, litigatus V (1st)",
     "en": "quarrel; go to law; -or; -er; indicates the doer; one who performs the action of the verb (act.or)",
     "grammar": "N 3 0 DAT P X + SUFFIX"
+  },
+  "litterae": {
+    "lemma": "littera, litterae N (1st) F",
+    "en": "letter (alphabet); (pl.) letter, epistle; literature, books, records, account",
+    "grammar": "N 1 1 GEN S F"
   },
   "litterarum": {
     "lemma": "littera, litterae N (1st) F",
@@ -17628,6 +20538,16 @@ Object.assign(LATIN_DICT, {
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
   "liuius": {
+    "lemma": "liveo, livere, -, - V (2nd)",
+    "en": "be livid or discolored; be envious; makes abstract noun of the verb; place/instrument/result of verb action",
+    "grammar": "N 2 1 NOM S X + SUFFIX"
+  },
+  "livium": {
+    "lemma": "liveo, livere, -, - V (2nd)",
+    "en": "be livid or discolored; be envious; makes abstract noun of the verb; place/instrument/result of verb action",
+    "grammar": "N 2 2 NOM S N + SUFFIX"
+  },
+  "livius": {
     "lemma": "liveo, livere, -, - V (2nd)",
     "en": "be livid or discolored; be envious; makes abstract noun of the verb; place/instrument/result of verb action",
     "grammar": "N 2 1 NOM S X + SUFFIX"
@@ -17657,6 +20577,11 @@ Object.assign(LATIN_DICT, {
     "en": "seat, rank, position; soldier's post; quarters; category; book passage, topic",
     "grammar": "N 2 1 GEN P M"
   },
+  "locuta": {
+    "lemma": "loquor, loqui, locutus sum V (3rd) DEP",
+    "en": "speak, tell; talk; mention; say, utter; phrase",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "locutus": {
     "lemma": "loquor, loqui, locutus sum V (3rd) DEP",
     "en": "speak, tell; talk; mention; say, utter; phrase",
@@ -17672,6 +20597,11 @@ Object.assign(LATIN_DICT, {
     "en": "remote, distant, far off; lasting, of long duration",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "longior": {
+    "lemma": "longus, longa -um, longior -or -us, longissimus -a -um ADJ",
+    "en": "long; tall; tedious, taking long time; boundless; far; of specific length/time",
+    "grammar": "ADJ 1 1 NOM S C COMP"
+  },
   "longioris": {
     "lemma": "longus, longa -um, longior -or -us, longissimus -a -um ADJ",
     "en": "long; tall; tedious, taking long time; boundless; far; of specific length/time",
@@ -17686,6 +20616,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "longus, longa -um, longior -or -us, longissimus -a -um ADJ",
     "en": "long; tall; tedious, taking long time; boundless; far; of specific length/time",
     "grammar": "ADJ 1 1 GEN S M SUPER"
+  },
+  "longumque": {
+    "lemma": "longus, longa -um, longior -or -us, longissimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S N POS + TACKON"
   },
   "longus": {
     "lemma": "longus, longa -um, longior -or -us, longissimus -a -um ADJ",
@@ -17747,6 +20682,11 @@ Object.assign(LATIN_DICT, {
     "en": "speak, tell; talk; mention; say, utter; phrase",
     "grammar": "V 3 1 PRES PASSIVE IND 1 S"
   },
+  "loquuntur": {
+    "lemma": "loquor, loqui, locutus sum V (3rd) DEP",
+    "en": "speak, tell; talk; mention; say, utter; phrase",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
   "lubricae": {
     "lemma": "lubricus, lubrica, lubricum ADJ",
     "en": "slippery; sinuous; inconstant; hazardous, ticklish; deceitful",
@@ -17772,6 +20712,16 @@ Object.assign(LATIN_DICT, {
     "en": "Lucilius",
     "grammar": "N 2 VOC S M (proper name)"
   },
+  "luco": {
+    "lemma": "lucus, luci N (2nd) M",
+    "en": "grove; sacred grove",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "lucos": {
+    "lemma": "lucus, luci N (2nd) M",
+    "en": "grove; sacred grove",
+    "grammar": "N 2 1 NOM S M"
+  },
   "lucri": {
     "lemma": "lucrum, lucri N (2nd) N",
     "en": "gain, profit; avarice",
@@ -17791,6 +20741,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "luctor, luctari, luctatus sum V (1st) DEP",
     "en": "wrestle; struggle; fight (against)",
     "grammar": "VPAR 1 1 GEN S X PRES ACTIVE PPL"
+  },
+  "lucus": {
+    "lemma": "lucus, luci N (2nd) M",
+    "en": "grove; sacred grove",
+    "grammar": "N 2 1 NOM S M"
   },
   "ludit": {
     "lemma": "ludo, ludere, lusi, lusus V (3rd)",
@@ -17822,6 +20777,21 @@ Object.assign(LATIN_DICT, {
     "en": "light; lamp, torch; eye (of a person); life; day, daylight",
     "grammar": "N 3 2 NOM S N"
   },
+  "lumenque": {
+    "lemma": "lumen, luminis N (3rd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 2 NOM S N + TACKON"
+  },
+  "lunam": {
+    "lemma": "luna, lunae N (1st) F",
+    "en": "moon; month",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "lunatis": {
+    "lemma": "luno, lunare, lunavi, lunatus V (1st)",
+    "en": "make crescent-shaped, curve",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 P"
+  },
   "luscino": {
     "lemma": "Luscinus, Luscini",
     "en": "Luscinus",
@@ -17832,10 +20802,30 @@ Object.assign(LATIN_DICT, {
     "en": "play, mock, tease, trick",
     "grammar": "V 3 1 PERF ACTIVE IND 3 P"
   },
+  "lustrabunt": {
+    "lemma": "lustro, lustrare, lustravi, lustratus V (1st)",
+    "en": "review/inspect, look around, seek; illuminate; traverse/roam/move over/through",
+    "grammar": "V 1 1 FUT ACTIVE IND 3 P"
+  },
+  "lustrare": {
+    "lemma": "lustro, lustrare, lustravi, lustratus V (1st)",
+    "en": "review/inspect, look around, seek; illuminate; traverse/roam/move over/through",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
+  "lustrat": {
+    "lemma": "lustro, lustrare, lustravi, lustratus V (1st)",
+    "en": "review/inspect, look around, seek; illuminate; traverse/roam/move over/through",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "lusus": {
     "lemma": "ludo, ludere, lusi, lusus V (3rd)",
     "en": "play, mock, tease, trick",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "luxu": {
+    "lemma": "luxus, luxus N (4th) M",
+    "en": "luxury, soft living; sumptuousness",
+    "grammar": "N 4 1 DAT S M"
   },
   "luxum": {
     "lemma": "luxus, luxus N (4th) M",
@@ -17867,10 +20857,25 @@ Object.assign(LATIN_DICT, {
     "en": "extravagant; wasteful",
     "grammar": "ADJ ACC S M"
   },
+  "lyaeum": {
+    "lemma": "Lyaeus, Lyaei N (2nd) M",
+    "en": "Lyaeus; (epithet of Bacchus/Dionysus as the liberator)",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "lychni": {
+    "lemma": "lychnus, lychni N (2nd) M",
+    "en": "lamp (esp. one hung from the ceiling)",
+    "grammar": "N 2 1 GEN S M"
+  },
   "lycomedem": {
     "lemma": "Lycomedes, Lycomedis",
     "en": "Lycomedes",
     "grammar": "N ACC S M (proper name)"
+  },
+  "lymphas": {
+    "lemma": "lympha, lymphae N (1st) F",
+    "en": "water; water-nymph",
+    "grammar": "N 1 1 ACC P F"
   },
   "m": {
     "lemma": "M., abb. N M",
@@ -17881,6 +20886,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Macedonia, Macedoniae N (1st) F",
     "en": "Macedonia",
     "grammar": "N 1 1 ACC S F"
+  },
+  "macedonum": {
+    "lemma": "Macedo, Macedonis N (3rd) M",
+    "en": "Macedonian, one from Macedonia; Macedonia, the territory; men Macedonian armed",
+    "grammar": "N 3 1 GEN P M"
   },
   "madet": {
     "lemma": "madeo, madere, madui, - V (2nd)",
@@ -17962,6 +20972,11 @@ Object.assign(LATIN_DICT, {
     "en": "size, magnitude, bulk; greatness. importance, intensity",
     "grammar": "N 3 1 NOM S F"
   },
+  "magnorum": {
+    "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
+    "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
+    "grammar": "ADJ 1 1 GEN P M POS"
+  },
   "magnus": {
     "lemma": "magnus, magna -um, major -or -us, maximus -a -um ADJ",
     "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
@@ -18037,6 +21052,26 @@ Object.assign(LATIN_DICT, {
     "en": "prefer; incline toward, wish rather",
     "grammar": "V 6 2 PRES ACTIVE IMP 2 S"
   },
+  "malidiceres": {
+    "lemma": "maledico, maledicere, maledixi, maledictus",
+    "en": "you might speak ill of, revile (medieval spelling of malediceres)",
+    "grammar": "V IMPF ACTIVE SUB 2 S (medieval spelling)"
+  },
+  "malidictis": {
+    "lemma": "maledictum, maledicti",
+    "en": "curses, insults, abusive words (medieval spelling of maledictis)",
+    "grammar": "N DAT/ABL P N (medieval spelling)"
+  },
+  "malifaceret": {
+    "lemma": "malefacio, malefacere, malefeci, malefactus",
+    "en": "he might do harm, do evil (medieval spelling of malefaceret)",
+    "grammar": "V IMPF ACTIVE SUB 3 S (medieval spelling)"
+  },
+  "malifacientibus": {
+    "lemma": "malefacio, malefacere, malefeci, malefactus",
+    "en": "to/for those doing harm, evildoers (medieval spelling of malefacientibus)",
+    "grammar": "VPAR PRES ACTIVE DAT/ABL P (medieval spelling)"
+  },
   "maligne": {
     "lemma": "malignus, maligna, malignum ADJ",
     "en": "spiteful; niggardly; narrow",
@@ -18086,6 +21121,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "malus, mala -um, pejor -or -us, - ADJ",
     "en": "bad, evil, wicked; ugly; unlucky",
     "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "mammae": {
+    "lemma": "mamma, mammae N (1st) F",
+    "en": "breast, udder",
+    "grammar": "N 1 1 GEN S F"
   },
   "mancino": {
     "lemma": "Mancinus, Mancini",
@@ -18137,6 +21177,11 @@ Object.assign(LATIN_DICT, {
     "en": "remain, stay, abide; wait for; continue, endure, last; spend the night (sexual)",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
   },
+  "manebunt": {
+    "lemma": "maneo, manere, mansi, mansus V (2nd)",
+    "en": "remain, stay, abide; wait for; continue, endure, last; spend the night (sexual)",
+    "grammar": "V 2 1 FUT ACTIVE IND 3 P"
+  },
   "manere": {
     "lemma": "maneo, manere, mansi, mansus V (2nd)",
     "en": "remain, stay, abide; wait for; continue, endure, last; spend the night (sexual)",
@@ -18152,6 +21197,11 @@ Object.assign(LATIN_DICT, {
     "en": "remain, stay, abide; wait for; continue, endure, last; spend the night (sexual); -able, -ble; having the passive quality, able to, able to be",
     "grammar": "ADJ 1 3 GEN S X POS + SUFFIX"
   },
+  "mantelia": {
+    "lemma": "mantele, mantelis N (3rd) N",
+    "en": "handtowel; napkin; towel, cloth; tablecloth (L+S)",
+    "grammar": "N 3 4 NOM P N"
+  },
   "manum": {
     "lemma": "manus, manus N (4th) F",
     "en": "hand, fist; team; gang, band of soldiers; handwriting; (elephant's) trunk",
@@ -18161,6 +21211,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "manus, manus N (4th) F",
     "en": "hand, fist; team; gang, band of soldiers; handwriting; (elephant's) trunk",
     "grammar": "N 4 1 NOM S F"
+  },
+  "marce": {
+    "lemma": "marco, marcere, marcui, marcitus V (3rd) INTRANS",
+    "en": "be withered/flabby, droop/shrivel; flag/faint; be weak/enfeebled/idle/apathetic",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
   },
   "marcentis": {
     "lemma": "marco, marcere, marcui, marcitus V (3rd) INTRANS",
@@ -18172,6 +21227,11 @@ Object.assign(LATIN_DICT, {
     "en": "be withered/flabby, droop/shrivel; flag/faint; be weak/enfeebled/idle/apathetic",
     "grammar": "V 3 1 PRES PASSIVE INF 0 X"
   },
+  "marisque": {
+    "lemma": "mare, maris N (3rd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 4 GEN S N + TACKON"
+  },
   "marium": {
     "lemma": "mare, maris N (3rd) N",
     "en": "sea; sea water",
@@ -18181,6 +21241,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "materia, materiae N (1st) F",
     "en": "wood (building material), lumber, timber; woody branch/growth/part of tree",
     "grammar": "N 1 1 NOM S F"
+  },
+  "matribus": {
+    "lemma": "mater, matris N (3rd) F",
+    "en": "mother, foster mother; lady, matron; origin, source, motherland, mother city",
+    "grammar": "N 3 1 DAT P F"
+  },
+  "matris": {
+    "lemma": "mater, matris N (3rd) F",
+    "en": "mother, foster mother; lady, matron; origin, source, motherland, mother city",
+    "grammar": "N 3 1 GEN S F"
   },
   "maturus": {
     "lemma": "maturus, matura -um, maturior -or -us, maturissimus -a -um ADJ",
@@ -18262,6 +21332,11 @@ Object.assign(LATIN_DICT, {
     "en": "large/great/big/vast/huge; much; powerful; tall/long/broad; extensive/spacious",
     "grammar": "ADJ 1 1 NOM S M SUPER"
   },
+  "mcccxlv": {
+    "lemma": "MCCCXLV",
+    "en": "1345 (Roman numeral year)",
+    "grammar": "NUM (Roman numeral)"
+  },
   "meae": {
     "lemma": "meus, mea, meum ADJ",
     "en": "my (personal possession); mine, of me, belonging to me; my own; to me",
@@ -18281,6 +21356,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "medius, media, medium ADJ",
     "en": "middle, middle of, mid; common, neutral, ordinary, moderate; ambiguous",
     "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "mediamque": {
+    "lemma": "medius, media, medium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC S F POS + TACKON"
   },
   "medicamenta": {
     "lemma": "medicamentum, medicamenti N (2nd) N",
@@ -18307,6 +21387,11 @@ Object.assign(LATIN_DICT, {
     "en": "healing, curative, medical; [digitus ~ => fourth finger of the hand]",
     "grammar": "ADJ 1 1 GEN P M POS"
   },
+  "mediisque": {
+    "lemma": "medius, media, medium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT P X POS + TACKON"
+  },
   "mediocre": {
     "lemma": "mediocris, mediocris, mediocre ADJ",
     "en": "medium/average/intermediate; middling/fair/ordinary/moderate/tolerable; trivial",
@@ -18327,15 +21412,30 @@ Object.assign(LATIN_DICT, {
     "en": "consider/contemplate/ponder; meditate, think about; reflect on; devise/plan",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "meditor": {
+    "lemma": "meditor, meditari, meditatus sum V (1st) DEP",
+    "en": "consider/contemplate/ponder; meditate, think about; reflect on; devise/plan",
+    "grammar": "V 1 1 PRES PASSIVE IND 1 S"
+  },
   "medium": {
     "lemma": "medius, media, medium ADJ",
     "en": "middle, middle of, mid; common, neutral, ordinary, moderate; ambiguous",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "mediusve": {
+    "lemma": "medius, media, medium ADJ",
+    "en": "-ve = or if you will (enclitic); or as you please; or; rare",
+    "grammar": "ADJ 1 1 NOM S M POS + TACKON"
+  },
   "mei": {
     "lemma": "ego PRON",
     "en": "I, me (PERS); myself (REFLEX)",
     "grammar": "PRON 5 1 GEN S C"
+  },
+  "mela": {
+    "lemma": "melum, meli N (2nd) N",
+    "en": "song, tune, air, strain, lay, melody; hymn",
+    "grammar": "N 2 2 NOM P N"
   },
   "meliora": {
     "lemma": "bonus, bona -um, melior -or -us, optimus -a -um ADJ",
@@ -18387,6 +21487,11 @@ Object.assign(LATIN_DICT, {
     "en": "remember (PERF form, PRES force); keep in mind, pay heed to; be sure; recall",
     "grammar": "V 2 1 PERF ACTIVE IND 2 P"
   },
+  "memnonis": {
+    "lemma": "Memnon, Memnonis",
+    "en": "of Memnon (Ethiopian king, son of Aurora, slain at Troy)",
+    "grammar": "N GEN S M (proper name)"
+  },
   "memorabile": {
     "lemma": "memorabilis, memorabilis, memorabile ADJ",
     "en": "memorable; remarkable",
@@ -18396,6 +21501,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "memorabilis, memorabilis, memorabile ADJ",
     "en": "memorable; remarkable",
     "grammar": "ADJ 3 2 ACC S C POS"
+  },
+  "memorant": {
+    "lemma": "memoro, memorare, memoravi, memoratus V (1st)",
+    "en": "remember; be mindful of (w/GEN/ACC); mention/recount/relate, remind/speak of",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "memorat": {
+    "lemma": "memoro, memorare, memoravi, memoratus V (1st)",
+    "en": "remember; be mindful of (w/GEN/ACC); mention/recount/relate, remind/speak of",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "memores": {
+    "lemma": "memoro, memorare, memoravi, memoratus V (1st)",
+    "en": "remember; be mindful of (w/GEN/ACC); mention/recount/relate, remind/speak of",
+    "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
   },
   "memoria": {
     "lemma": "memoria, memoriae N (1st) F",
@@ -18431,6 +21551,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "mendico, mendicare, mendicavi, mendicatus V (1st)",
     "en": "beg for; be a beggar, go begging",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "mens": {
+    "lemma": "mens, mentis N (3rd) F",
+    "en": "mind; reason, intellect, judgment; plan, intention, frame of mind; courage",
+    "grammar": "N 3 3 NOM S F"
+  },
+  "mensam": {
+    "lemma": "mensa, mensae N (1st) F",
+    "en": "table; course, meal; banker's counter",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "mensas": {
+    "lemma": "mensa, mensae N (1st) F",
+    "en": "table; course, meal; banker's counter",
+    "grammar": "N 1 1 ACC P F"
   },
   "menses": {
     "lemma": "mensis, mensis N (3rd) M",
@@ -18496,6 +21631,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "mens, mentis N (3rd) F",
     "en": "mind; reason, intellect, judgment; plan, intention, frame of mind; courage",
     "grammar": "N 3 3 GEN P F"
+  },
+  "meorum": {
+    "lemma": "meus, mea, meum ADJ",
+    "en": "my (personal possession); mine, of me, belonging to me; my own; to me",
+    "grammar": "ADJ 1 1 GEN P M POS"
   },
   "mera": {
     "lemma": "merus, mera, merum ADJ",
@@ -18577,6 +21717,11 @@ Object.assign(LATIN_DICT, {
     "en": "hired",
     "grammar": "ADJ 1 1 ACC S F POS"
   },
+  "mero": {
+    "lemma": "merus, mera, merum ADJ",
+    "en": "unmixed (wine), pure, only; bare, mere, sheer",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "meruisti": {
     "lemma": "mereo, merere, merui, meritus V (2nd)",
     "en": "earn; deserve/merit/have right; win/gain/incur; earn soldier/whore pay, serve",
@@ -18647,6 +21792,11 @@ Object.assign(LATIN_DICT, {
     "en": "fear, anxiety; dread, awe; object of awe/dread",
     "grammar": "N 4 1 ACC S M"
   },
+  "metuque": {
+    "lemma": "metus, metus N (4th) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 4 1 DAT S M + TACKON"
+  },
   "metuunt": {
     "lemma": "metuo, metuere, metui, - V (3rd)",
     "en": "fear; be afraid; stand in fear of; be apprehensive, dread",
@@ -18666,6 +21816,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "milium, milii N (2nd) N",
     "en": "millet",
     "grammar": "N 2 2 NOM P N"
+  },
+  "milibus": {
+    "lemma": "mille, milis N (3rd) N",
+    "en": "thousand; thousands (men/things); miles; [~ passuum => thousand paces = 1 mile]",
+    "grammar": "N 3 4 DAT P N"
   },
   "miliens": {
     "lemma": "mille NUM",
@@ -18777,10 +21932,20 @@ Object.assign(LATIN_DICT, {
     "en": "small, little, cheap; unimportant; (SUPER) smallest, least",
     "grammar": "ADJ 1 1 DAT P X COMP"
   },
+  "minorque": {
+    "lemma": "parvus, parva -um, minor -or -us, minimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S C COMP + TACKON"
+  },
   "minuent": {
     "lemma": "minuo, minuere, minui, minutus V (3rd)",
     "en": "lessen, reduce, diminish, impair, abate",
     "grammar": "V 3 1 FUT ACTIVE IND 3 P"
+  },
+  "minuitur": {
+    "lemma": "minuo, minuere, minui, minutus V (3rd)",
+    "en": "lessen, reduce, diminish, impair, abate",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
   "minus": {
     "lemma": "minus",
@@ -18822,10 +21987,25 @@ Object.assign(LATIN_DICT, {
     "en": "wonder, marvel; miracle, amazing act/event/object/sight; amazement; freak",
     "grammar": "N 2 2 DAT P N"
   },
+  "miraculo": {
+    "lemma": "miraculum, miraculi N (2nd) N",
+    "en": "wonder, marvel; miracle, amazing act/event/object/sight; amazement; freak",
+    "grammar": "N 2 2 DAT S N"
+  },
   "miramur": {
     "lemma": "miror, mirari, miratus sum V (1st) DEP",
     "en": "be amazed/surprised/bewildered (at); look in wonder/awe/admiration at",
     "grammar": "V 1 1 PRES PASSIVE IND 1 P"
+  },
+  "miranda": {
+    "lemma": "miror, mirari, miratus sum V (1st) DEP",
+    "en": "be amazed/surprised/bewildered (at); look in wonder/awe/admiration at",
+    "grammar": "VPAR 1 1 NOM S F FUT PASSIVE PPL"
+  },
+  "mirantur": {
+    "lemma": "miror, mirari, miratus sum V (1st) DEP",
+    "en": "be amazed/surprised/bewildered (at); look in wonder/awe/admiration at",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 P"
   },
   "mirari": {
     "lemma": "miror, mirari, miratus sum V (1st) DEP",
@@ -18872,6 +22052,11 @@ Object.assign(LATIN_DICT, {
     "en": "mix, mingle; embroil; confound; stir up",
     "grammar": "VPAR 2 1 NOM S F FUT PASSIVE PPL"
   },
+  "miscetque": {
+    "lemma": "misceo, miscere, miscui, mixtus V (2nd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S + TACKON"
+  },
   "miser": {
     "lemma": "miser, misera -um, miserior -or -us, miserrimus -a -um ADJ",
     "en": "poor, miserable, wretched, unfortunate, unhappy, distressing",
@@ -18882,10 +22067,25 @@ Object.assign(LATIN_DICT, {
     "en": "poor, miserable, wretched, unfortunate, unhappy, distressing",
     "grammar": "ADJ 1 2 NOM S F POS"
   },
+  "miserabiliter": {
+    "lemma": "miserabilis, miserabilis, miserabile ADJ",
+    "en": "wretched, miserable, pitiable; -ily; -ly",
+    "grammar": "ADV + SUFFIX"
+  },
+  "miserata": {
+    "lemma": "misero, miserare, miseravi, miseratus V (1st)",
+    "en": "pity, feel sorry for; view with compassion; (vocal sorrow/compassion)",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
+  },
   "miserear": {
     "lemma": "misereo, miserere, miserui, miseritus V (2nd)",
     "en": "pity, feel pity; show/have mercy/compassion/pity for (w/GEN)",
     "grammar": "V 2 1 PRES PASSIVE SUB 1 S"
+  },
+  "miseret": {
+    "lemma": "misereo, miserere, miserui, miseritus V (2nd)",
+    "en": "pity, feel pity; show/have mercy/compassion/pity for (w/GEN)",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "miseri": {
     "lemma": "miser, misera -um, miserior -or -us, miserrimus -a -um ADJ",
@@ -18962,6 +22162,11 @@ Object.assign(LATIN_DICT, {
     "en": "send, throw, hurl, cast; let out, release, dismiss; disregard",
     "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
   },
+  "mittit": {
+    "lemma": "mitto, mittere, misi, missus V (3rd)",
+    "en": "send, throw, hurl, cast; let out, release, dismiss; disregard",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
   "mittunt": {
     "lemma": "mitto, mittere, misi, missus V (3rd)",
     "en": "send, throw, hurl, cast; let out, release, dismiss; disregard",
@@ -18976,6 +22181,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "moderor, moderari, moderatus sum V (1st) DEP",
     "en": "guide; control; regulate; govern",
     "grammar": "VPAR 1 1 VOC S M PERF PASSIVE PPL"
+  },
+  "modernos": {
+    "lemma": "modernus, moderna, modernum ADJ",
+    "en": "modern",
+    "grammar": "ADJ 1 1 ACC P M POS"
   },
   "modeste": {
     "lemma": "modestus, modesta, modestum ADJ",
@@ -19072,6 +22282,16 @@ Object.assign(LATIN_DICT, {
     "en": "annoying; troublesome; tiresome; [molestus esse => to be a worry/nuisance]",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "moliri": {
+    "lemma": "molior, moliri, molitus sum V (4th) DEP",
+    "en": "struggle, labor, labor at; construct, build; undertake, set in motion, plan",
+    "grammar": "V 4 1 PRES PASSIVE INF 0 X"
+  },
+  "mollis": {
+    "lemma": "mollis, molle, mollior -or -us, mollissimus -a -um ADJ",
+    "en": "soft (cushion/grass); flexible/supple/loose/pliant; mild/tolerable; easy; calm",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
   "mollisque": {
     "lemma": "mollis, molle, mollior -or -us, mollissimus -a -um ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
@@ -19132,6 +22352,11 @@ Object.assign(LATIN_DICT, {
     "en": "remind, advise, warn; teach; admonish; foretell, presage",
     "grammar": "V 2 1 PRES PASSIVE INF 0 X"
   },
+  "monile": {
+    "lemma": "monile, monilis N (3rd) N",
+    "en": "necklace, collar; collar (for horses and other animals)",
+    "grammar": "N 3 4 NOM S N"
+  },
   "monitio": {
     "lemma": "monitio, monitionis N (3rd) F",
     "en": "admonition, warning; advice",
@@ -19141,6 +22366,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "monstro, monstrare, monstravi, monstratus V (1st)",
     "en": "show; point out, reveal; advise, teach",
     "grammar": "V 1 1 FUT ACTIVE IND 1 S"
+  },
+  "monstrarat": {
+    "lemma": "monstro, monstrare, monstravi, monstratus",
+    "en": "had shown, pointed out (syncopated monstraverat)",
+    "grammar": "V PLUP ACTIVE IND 3 S (syncopated)"
   },
   "monstro": {
     "lemma": "monstrum, monstri N (2nd) N",
@@ -19212,10 +22442,20 @@ Object.assign(LATIN_DICT, {
     "en": "to die",
     "grammar": "V PRES INF DEP"
   },
+  "moriamur": {
+    "lemma": "morior, mori, mortuus sum V (3rd) DEP",
+    "en": "die, expire, pass/die/wither away/out; fail, come to an end; decay",
+    "grammar": "V 3 1 PRES PASSIVE SUB 1 P"
+  },
   "moribus": {
     "lemma": "mos, moris N (3rd) M",
     "en": "custom, habit; mood, manner, fashion; character (pl.), behavior, morals",
     "grammar": "N 3 1 DAT P M"
+  },
+  "moriemini": {
+    "lemma": "morior, mori, mortuus sum V (3rd) DEP",
+    "en": "die, expire, pass/die/wither away/out; fail, come to an end; decay",
+    "grammar": "V 3 1 FUT PASSIVE IND 2 P"
   },
   "moriendi": {
     "lemma": "morior, mori, mortuus sum V (3rd) DEP",
@@ -19246,6 +22486,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "mors, mortis N (3rd) F",
     "en": "death; corpse; annihilation",
     "grammar": "N 3 3 NOM S F"
+  },
+  "mortalia": {
+    "lemma": "mortalis, mortalis, mortale ADJ",
+    "en": "mortal, transient; human, of human origin",
+    "grammar": "ADJ 3 2 NOM P N POS"
   },
   "mortalibus": {
     "lemma": "mortalis, mortalis, mortale ADJ",
@@ -19337,6 +22582,11 @@ Object.assign(LATIN_DICT, {
     "en": "move, stir, agitate, affect, provoke, disturb; [movere se => dance]",
     "grammar": "V 2 1 PRES PASSIVE SUB 3 S"
   },
+  "movebo": {
+    "lemma": "moveo, movere, movi, motus V (2nd)",
+    "en": "move, stir, agitate, affect, provoke, disturb; [movere se => dance]",
+    "grammar": "V 2 1 FUT ACTIVE IND 1 S"
+  },
   "moveor": {
     "lemma": "moveo, movere, movi, motus V (2nd)",
     "en": "move, stir, agitate, affect, provoke, disturb; [movere se => dance]",
@@ -19382,6 +22632,11 @@ Object.assign(LATIN_DICT, {
     "en": "sword, sword point, sharp point",
     "grammar": "N 3 1 NOM P M"
   },
+  "muliebri": {
+    "lemma": "muliebris, muliebris, muliebre ADJ",
+    "en": "feminine, womanly, female; woman's; womanish, effeminate",
+    "grammar": "ADJ 3 2 DAT S X POS"
+  },
   "mulier": {
     "lemma": "mulier, mulieris N (3rd) F",
     "en": "woman; wife; mistress",
@@ -19391,6 +22646,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "muliercula, mulierculae N (1st) F",
     "en": "little/weak/foolish woman; little hussy",
     "grammar": "N 1 1 GEN S F"
+  },
+  "mulierculam": {
+    "lemma": "muliercula, mulierculae N (1st) F",
+    "en": "little/weak/foolish woman; little hussy",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "mulierem": {
+    "lemma": "mulier, mulieris N (3rd) F",
+    "en": "woman; wife; mistress",
+    "grammar": "N 3 1 ACC S F"
   },
   "multae": {
     "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
@@ -19456,6 +22721,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
     "en": "much, many, great, many a; large, intense, assiduous; tedious",
     "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "multumque": {
+    "lemma": "multus, multa -um, -, plurimus -a -um ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S N POS + TACKON"
   },
   "mummio": {
     "lemma": "Mummius, Mummii",
@@ -19547,10 +22817,20 @@ Object.assign(LATIN_DICT, {
     "en": "move, change, shift, alter, exchange, substitute (for); modify",
     "grammar": "V 1 1 PRES PASSIVE IND 3 S"
   },
+  "mutatus": {
+    "lemma": "muto, mutare, mutavi, mutatus V (1st)",
+    "en": "move, change, shift, alter, exchange, substitute (for); modify",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
   "mutauerunt": {
     "lemma": "muto, mutare, mutavi, mutatus V (1st)",
     "en": "move, change, shift, alter, exchange, substitute (for); modify",
     "grammar": "V 1 1 PERF ACTIVE IND 3 P"
+  },
+  "mutet": {
+    "lemma": "muto, mutare, mutavi, mutatus V (1st)",
+    "en": "move, change, shift, alter, exchange, substitute (for); modify",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
   },
   "muto": {
     "lemma": "muto, mutare, mutavi, mutatus V (1st)",
@@ -19576,6 +22856,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "mutuus, mutua, mutuum ADJ",
     "en": "borrowed, lent; mutual, in return",
     "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "mycenis": {
+    "lemma": "Mycena, Mycenae N (1st) F",
+    "en": "Mycenae; (ancient Greek city, seat of Agamemnon)",
+    "grammar": "N 1 1 DAT P F"
   },
   "nacti": {
     "lemma": "nanciscor, nancisci, nactus sum V (3rd) DEP",
@@ -19617,6 +22902,21 @@ Object.assign(LATIN_DICT, {
     "en": "tell, tell about, relate, narrate, recount, describe",
     "grammar": "V 1 1 IMPF ACTIVE SUB 3 S"
   },
+  "narrari": {
+    "lemma": "narro, narrare, narravi, narratus V (1st)",
+    "en": "tell, tell about, relate, narrate, recount, describe",
+    "grammar": "V 1 1 PRES PASSIVE INF 0 X"
+  },
+  "narratio": {
+    "lemma": "narratio, narrationis N (3rd) F",
+    "en": "narrative, story",
+    "grammar": "N 3 1 NOM S F"
+  },
+  "narratione": {
+    "lemma": "narratio, narrationis N (3rd) F",
+    "en": "narrative, story",
+    "grammar": "N 3 1 DAT S F"
+  },
   "nascendi": {
     "lemma": "nascor, nasci, natus sum V (3rd) DEP",
     "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
@@ -19652,6 +22952,16 @@ Object.assign(LATIN_DICT, {
     "en": "swim; float",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "natarum": {
+    "lemma": "nascor, nasci, natus sum V (3rd) DEP",
+    "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
+    "grammar": "VPAR 3 1 GEN P F PERF PASSIVE PPL"
+  },
+  "nate": {
+    "lemma": "nascor, nasci, natus sum V (3rd) DEP",
+    "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
+    "grammar": "VPAR 3 1 VOC S M PERF PASSIVE PPL"
+  },
   "nati": {
     "lemma": "nascor, nasci, natus sum V (3rd) DEP",
     "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
@@ -19661,6 +22971,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "nascor, nasci, natus sum V (3rd) DEP",
     "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
     "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
+  },
+  "nato": {
+    "lemma": "nascor, nasci, natus sum V (3rd) DEP",
+    "en": "be produced spontaneously, come into existence/being; spring forth, grow; live",
+    "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
   },
   "natu": {
     "lemma": "nascor, nasci, natus sum V (3rd) DEP",
@@ -19732,6 +23047,11 @@ Object.assign(LATIN_DICT, {
     "en": "sail; navigate",
     "grammar": "V 1 1 PERF ACTIVE IND 3 S"
   },
+  "naves": {
+    "lemma": "navis, navis N (3rd) F",
+    "en": "ship; [navis longa => galley, battleship; ~ oneraria => transport/cargo ship]",
+    "grammar": "N 3 3 NOM P F"
+  },
   "navigatione": {
     "lemma": "navigatio, navigationis N (3rd) F",
     "en": "sailing; navigation; voyage",
@@ -19741,6 +23061,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "navigium, navigi(i) N (2nd) N",
     "en": "vessel, ship",
     "grammar": "N 2 4 NOM P N"
+  },
+  "nebula": {
+    "lemma": "nebula, nebulae N (1st) F",
+    "en": "mist, fog; cloud (dust/smoke/confusion/error); thin film, veneer; obscurity",
+    "grammar": "N 1 1 NOM S F"
   },
   "necaretur": {
     "lemma": "neco, necare, necavi, necatus V (1st) TRANS",
@@ -19807,15 +23132,30 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "N 3 1 GEN S F + TACKON"
   },
+  "necnon": {
+    "lemma": "necnon ADV",
+    "en": "nor; and not, not, neither, not even; and also, and indeed",
+    "grammar": "ADV"
+  },
   "necopinantes": {
     "lemma": "necopinans, (gen.), necopinantis ADJ",
     "en": "not expecting; unawares",
     "grammar": "ADJ 3 1 NOM P C POS"
   },
+  "nectare": {
+    "lemma": "nectar, nectaris N (3rd) N",
+    "en": "nectar, the drink of the gods; anything sweet, pleasant or delicious",
+    "grammar": "N 3 4 DAT S N"
+  },
   "nedum": {
     "lemma": "nedum CONJ",
     "en": "still less; not to speak of; much more",
     "grammar": "CONJ"
+  },
+  "nefandi": {
+    "lemma": "nefandus, nefanda, nefandum ADJ",
+    "en": "impious, wicked; abominable",
+    "grammar": "ADJ 1 1 GEN S M POS"
   },
   "nefaria": {
     "lemma": "nefarius, nefaria, nefarium ADJ",
@@ -19832,10 +23172,20 @@ Object.assign(LATIN_DICT, {
     "en": "deny, refuse; say ... not",
     "grammar": "V 1 1 FUT ACTIVE IND 3 P"
   },
+  "negandas": {
+    "lemma": "nego, negare, negavi, negatus V (1st)",
+    "en": "deny, refuse; say ... not",
+    "grammar": "VPAR 1 1 ACC P F FUT PASSIVE PPL"
+  },
   "negant": {
     "lemma": "nego, negare, negavi, negatus V (1st)",
     "en": "deny, refuse; say ... not",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "negare": {
+    "lemma": "nego, negare, negavi, negatus V (1st)",
+    "en": "deny, refuse; say ... not",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
   "negasti": {
     "lemma": "nego, negare, negavi, negatus",
@@ -19932,6 +23282,11 @@ Object.assign(LATIN_DICT, {
     "en": "pain, trouble, annoyance, distress; work, business, activity, job",
     "grammar": "N 2 4 GEN S N"
   },
+  "negotiis": {
+    "lemma": "negotium, negoti(i) N (2nd) N",
+    "en": "pain, trouble, annoyance, distress; work, business, activity, job",
+    "grammar": "N 2 4 DAT P N"
+  },
   "negotio": {
     "lemma": "negotium, negoti(i) N (2nd) N",
     "en": "pain, trouble, annoyance, distress; work, business, activity, job",
@@ -19967,6 +23322,11 @@ Object.assign(LATIN_DICT, {
     "en": "Neoptolemus",
     "grammar": "N NOM S M (proper name)"
   },
+  "nepotem": {
+    "lemma": "nepos, nepotis N (3rd) C",
+    "en": "grandson/daughter; descendant; spendthrift, prodigal, playboy; secondary shoot",
+    "grammar": "N 3 1 ACC S C"
+  },
   "nequaquam": {
     "lemma": "nequaquam ADV",
     "en": "by no means",
@@ -19977,10 +23337,20 @@ Object.assign(LATIN_DICT, {
     "en": "be unable, cannot",
     "grammar": "V 6 1 PRES ACTIVE SUB 3 S"
   },
+  "nequit": {
+    "lemma": "nequeo, nequire, nequivi(ii), nequitus V",
+    "en": "be unable, cannot",
+    "grammar": "V 6 1 PRES ACTIVE IND 3 S"
+  },
   "nescias": {
     "lemma": "nescio, nescire, nescivi, nescitus V (4th)",
     "en": "not know (how); be ignorant/unfamiliar/unaware/unacquainted/unable/unwilling",
     "grammar": "V 4 1 PRES ACTIVE SUB 2 S"
+  },
+  "nesciat": {
+    "lemma": "nescio, nescire, nescivi, nescitus V (4th)",
+    "en": "not know (how); be ignorant/unfamiliar/unaware/unacquainted/unable/unwilling",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
   },
   "nescientibus": {
     "lemma": "nescio, nescire, nescivi, nescitus V (4th)",
@@ -20017,6 +23387,21 @@ Object.assign(LATIN_DICT, {
     "en": "or not, and not; (for negative of IMP); [neve ... neve => neither ... nor ]",
     "grammar": "CONJ"
   },
+  "nexaeque": {
+    "lemma": "necto, nectere, nexui, nexus V (3rd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL + TACKON"
+  },
+  "nichil": {
+    "lemma": "nichil, undeclined N N",
+    "en": "nothing; no; trifle/thing not worth mentioning; nonentity; nonsense; no concern",
+    "grammar": "N 9 9 X X N"
+  },
+  "nigri": {
+    "lemma": "niger, nigra, nigrum ADJ",
+    "en": "black, dark; unlucky",
+    "grammar": "ADJ 1 2 GEN S M POS"
+  },
   "nihil": {
     "lemma": "nihil, undeclined N N",
     "en": "nothing; no; trifle/thing not worth mentioning; nonentity; nonsense; no concern",
@@ -20031,6 +23416,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "nihilominus ADV",
     "en": "never/none the less, notwithstanding, just the same; likewise, as well",
     "grammar": "ADV"
+  },
+  "nimbosus": {
+    "lemma": "nimbosus, nimbosa, nimbosum ADJ",
+    "en": "full of/surrounded by rain clouds",
+    "grammar": "ADJ 1 1 NOM S M POS"
   },
   "nimia": {
     "lemma": "nimius, nimia, nimium ADJ",
@@ -20056,6 +23446,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "nimis ADV",
     "en": "very much; too much; exceedingly",
     "grammar": "ADV"
+  },
+  "niveis": {
+    "lemma": "nix, nivis N (3rd) F",
+    "en": "snow",
+    "grammar": "N 3 3 ACC P F"
   },
   "nobiles": {
     "lemma": "nobilis, nobile, nobilior -or -us, nobilissimus -a -um ADJ",
@@ -20092,6 +23487,11 @@ Object.assign(LATIN_DICT, {
     "en": "night [prima nocte => early in the night; multa nocte => late at night]",
     "grammar": "N 3 3 NOM P F"
   },
+  "noctibus": {
+    "lemma": "nox, noctis N (3rd) F",
+    "en": "night [prima nocte => early in the night; multa nocte => late at night]",
+    "grammar": "N 3 3 DAT P F"
+  },
   "noctis": {
     "lemma": "nox, noctis N (3rd) F",
     "en": "night [prima nocte => early in the night; multa nocte => late at night]",
@@ -20101,6 +23501,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "nox, noctis N (3rd) F",
     "en": "night [prima nocte => early in the night; multa nocte => late at night]",
     "grammar": "N 3 3 GEN P F"
+  },
+  "nocturnus": {
+    "lemma": "nocturnus, nocturna, nocturnum ADJ",
+    "en": "nocturnal, of night, at night, by night",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "nocuisset": {
+    "lemma": "noceo, nocere, nocui, nocitus V (2nd)",
+    "en": "harm, hurt; injure (with DAT)",
+    "grammar": "V 2 1 PLUP ACTIVE SUB 3 S"
   },
   "nodosi": {
     "lemma": "nodosus, nodosa, nodosum ADJ",
@@ -20137,6 +23547,11 @@ Object.assign(LATIN_DICT, {
     "en": "be unwilling; wish not to; refuse to",
     "grammar": "V 6 2 PRES ACTIVE IND 3 P"
   },
+  "nomenque": {
+    "lemma": "nomen, nominis N (3rd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 2 NOM S N + TACKON"
+  },
   "nomina": {
     "lemma": "nomen, nominis N (3rd) N",
     "en": "name, family name; noun; account, entry in debt ledger; sake; title, heading",
@@ -20157,10 +23572,20 @@ Object.assign(LATIN_DICT, {
     "en": "name, call",
     "grammar": "V 1 1 PERF ACTIVE IND 1 S"
   },
+  "nomini": {
+    "lemma": "nomen, nominis N (3rd) N",
+    "en": "name, family name; noun; account, entry in debt ledger; sake; title, heading",
+    "grammar": "N 3 2 DAT S N"
+  },
   "nominibus": {
     "lemma": "nomen, nominis N (3rd) N",
     "en": "name, family name; noun; account, entry in debt ledger; sake; title, heading",
     "grammar": "N 3 2 DAT P N"
+  },
+  "nominis": {
+    "lemma": "nomen, nominis N (3rd) N",
+    "en": "name, family name; noun; account, entry in debt ledger; sake; title, heading",
+    "grammar": "N 3 2 GEN S N"
   },
   "nonagesimum": {
     "lemma": "nonaginta NUM",
@@ -20242,6 +23667,11 @@ Object.assign(LATIN_DICT, {
     "en": "our",
     "grammar": "ADJ 1 2 ACC P M POS"
   },
+  "nostrosque": {
+    "lemma": "noster, nostra, nostrum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 2 ACC P M POS + TACKON"
+  },
   "nostrum": {
     "lemma": "n PRON",
     "en": "we (pl.), us",
@@ -20282,6 +23712,16 @@ Object.assign(LATIN_DICT, {
     "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
     "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
   },
+  "noto": {
+    "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
+    "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
+    "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "notos": {
+    "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
+    "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
+    "grammar": "VPAR 3 1 ACC P M PERF PASSIVE PPL"
+  },
   "noua": {
     "lemma": "novus, nova -um, novior -or -us, novissimus -a -um ADJ",
     "en": "new, fresh, young; unusual, extraordinary; (novae res, f. pl. = revolution)",
@@ -20312,6 +23752,26 @@ Object.assign(LATIN_DICT, {
     "en": "new, fresh, young; unusual, extraordinary; (novae res, f. pl. = revolution)",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "novam": {
+    "lemma": "novus, nova -um, novior -or -us, novissimus -a -um ADJ",
+    "en": "new, fresh, young; unusual, extraordinary; (novae res, f. pl. = revolution)",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
+  "novas": {
+    "lemma": "novus, nova -um, novior -or -us, novissimus -a -um ADJ",
+    "en": "new, fresh, young; unusual, extraordinary; (novae res, f. pl. = revolution)",
+    "grammar": "ADJ 1 1 ACC P F POS"
+  },
+  "noveram": {
+    "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
+    "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
+    "grammar": "V 3 1 PLUP ACTIVE IND 1 S"
+  },
+  "noveras": {
+    "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
+    "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
+    "grammar": "V 3 1 PLUP ACTIVE IND 2 S"
+  },
   "novi": {
     "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
     "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
@@ -20326,6 +23786,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "nosco, noscere, novi, notus V (3rd) TRANS",
     "en": "get to know; learn, find out; become cognizant of/acquainted/familiar with",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "novitas": {
+    "lemma": "novitas, novitatis N (3rd) F",
+    "en": "newness; strangeness/novelty/unusualness/rarity; unfamiliarity; freshness",
+    "grammar": "N 3 1 NOM S F"
   },
   "novitate": {
     "lemma": "novitas, novitatis N (3rd) F",
@@ -20352,6 +23817,16 @@ Object.assign(LATIN_DICT, {
     "en": "harmful, noxious; guilty, criminal",
     "grammar": "ADJ 1 1 DAT P X POS"
   },
+  "nube": {
+    "lemma": "nubes, nubis N (3rd) F",
+    "en": "cloud/mist/haze/dust/smoke; sky/air; billowy formation (hair); swarm/multitude",
+    "grammar": "N 3 3 DAT S F"
+  },
+  "nubem": {
+    "lemma": "nubes, nubis N (3rd) F",
+    "en": "cloud/mist/haze/dust/smoke; sky/air; billowy formation (hair); swarm/multitude",
+    "grammar": "N 3 3 ACC S F"
+  },
   "nudis": {
     "lemma": "nudus, nuda, nudum ADJ",
     "en": "nude; bare, stripped",
@@ -20376,6 +23851,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
     "en": "no; none, not any; (PRONominal ADJ)",
     "grammar": "ADJ 1 3 GEN S X POS"
+  },
+  "nullos": {
+    "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
+    "en": "no; none, not any; (PRONominal ADJ)",
+    "grammar": "ADJ 1 3 ACC P M POS"
   },
   "nullum": {
     "lemma": "nullus, nulla, nullum (gen -ius) ADJ",
@@ -20417,6 +23897,11 @@ Object.assign(LATIN_DICT, {
     "en": "number/sum/total/rank; (superior) numerical strength/plurality; category; tally",
     "grammar": "N 2 1 NOM S M"
   },
+  "numina": {
+    "lemma": "numen, numinis N (3rd) N",
+    "en": "divine will, divinity; god",
+    "grammar": "N 3 2 NOM P N"
+  },
   "numne": {
     "lemma": "num ADV",
     "en": "-ne = is it not that (enclitic); or ...(introduces a question or alternative)",
@@ -20430,6 +23915,11 @@ Object.assign(LATIN_DICT, {
   "numquid": {
     "lemma": "numquid ADV",
     "en": "is it possible, surely ... not; can it be that; (question expecting negative)",
+    "grammar": "ADV"
+  },
+  "nunquam": {
+    "lemma": "nunquam ADV",
+    "en": "at no time, never; not in any circumstances",
     "grammar": "ADV"
   },
   "nusquam": {
@@ -20506,6 +23996,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "objurgator, objurgatoris N (3rd) M",
     "en": "rebuker",
     "grammar": "N 3 1 NOM S M"
+  },
+  "oblata": {
+    "lemma": "offero, offerre, obtuli, oblatus V (3rd)",
+    "en": "offer; present; cause; bestow",
+    "grammar": "VPAR 3 2 NOM S F PERF PASSIVE PPL"
   },
   "oblatis": {
     "lemma": "offero, offerre, obtuli, oblatus V (3rd)",
@@ -20617,6 +24112,21 @@ Object.assign(LATIN_DICT, {
     "en": "oppose, resist; stand in the way; make a stand against, withstand",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
+  "obstaret": {
+    "lemma": "obsto, obstare, obstiti, - V (1st)",
+    "en": "oppose, hinder; (w/DAT)",
+    "grammar": "V 1 1 IMPF ACTIVE SUB 3 S"
+  },
+  "obstet": {
+    "lemma": "obsto, obstare, obstiti, - V (1st)",
+    "en": "oppose, hinder; (w/DAT)",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
+  },
+  "obstipuit": {
+    "lemma": "obstipesco, obstipescere, obstipui, - V (3rd)",
+    "en": "be amazed",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
   "obsurdescimus": {
     "lemma": "obsurdesco, obsurdescere, obsurdui, - V (3rd) INTRANS",
     "en": "become deaf; turn a deaf ear",
@@ -20626,6 +24136,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "obtingo, obtingere, obtigi, - V (3rd) INTRANS",
     "en": "befall, occur (to advantage/disadvantage); fall to as one's lot",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "obtusa": {
+    "lemma": "obtundo, obtundere, obtudi, obtusus V (3rd)",
+    "en": "strike, beat, batter; make blunt; deafen",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "obtutuque": {
+    "lemma": "obtutus, obtutus N (4th) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 4 1 DAT S M + TACKON"
   },
   "obuenit": {
     "lemma": "obvenio, obvenire, obveni, obventus V (4th)",
@@ -20662,6 +24182,11 @@ Object.assign(LATIN_DICT, {
     "en": "kill, murder, slaughter, slay; cut/knock down; weary, be the death/ruin of",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
+  "occubat": {
+    "lemma": "occubo, occubare, occubui, occubitus V (1st) INTRANS",
+    "en": "lie (against/on top of); lie dead",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "occultare": {
     "lemma": "occulto, occultare, occultavi, occultatus V (1st)",
     "en": "hide; conceal",
@@ -20671,6 +24196,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "occultus, occulta -um, occultior -or -us, occultissimus -a -um ADJ",
     "en": "hidden, secret; [in occulto => secretly]",
     "grammar": "ADJ 1 1 GEN P F POS"
+  },
+  "occultum": {
+    "lemma": "occultus, occulta -um, occultior -or -us, occultissimus -a -um ADJ",
+    "en": "hidden, secret; [in occulto => secretly]",
+    "grammar": "ADJ 1 1 NOM S N POS"
   },
   "occultus": {
     "lemma": "occultus, occulta -um, occultior -or -us, occultissimus -a -um ADJ",
@@ -20772,6 +24302,16 @@ Object.assign(LATIN_DICT, {
     "en": "run to meet; oppose, resist; come to mind, occur (with DAT)",
     "grammar": "V 3 1 FUT ACTIVE IND 3 P"
   },
+  "occurrerat": {
+    "lemma": "occurro, occurrere, occurri, occursus V (3rd)",
+    "en": "run to meet; oppose, resist; come to mind, occur (with DAT)",
+    "grammar": "V 3 1 PLUP ACTIVE IND 3 S"
+  },
+  "occurrere": {
+    "lemma": "occurro, occurrere, occucurri, occursus V (3rd)",
+    "en": "run to meet; oppose, resist; come to mind, occur (with DAT)",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "occurrit": {
     "lemma": "occurro, occurrere, occucurri, occursus V (3rd)",
     "en": "run to meet; oppose, resist; come to mind, occur (with DAT)",
@@ -20846,6 +24386,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Odyssea, Odysseae",
     "en": "the Odyssey",
     "grammar": "N NOM S F (proper name)"
+  },
+  "oenotri": {
+    "lemma": "Oenotri, Oenotrorum (pl.)",
+    "en": "the Oenotrians (early inhabitants of southern Italy)",
+    "grammar": "N NOM P M (proper name)"
   },
   "offendi": {
     "lemma": "offendo, offendere, offendi, offensus V (3rd)",
@@ -20927,6 +24472,11 @@ Object.assign(LATIN_DICT, {
     "en": "lay aside; omit; let go; disregard",
     "grammar": "V 3 1 PRES ACTIVE SUB 1 P"
   },
+  "omitto": {
+    "lemma": "omitto, omittere, omisi, omissus V (3rd)",
+    "en": "lay aside; omit; let go; disregard",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
   "omniaque": {
     "lemma": "omnis, omnis, omne ADJ",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
@@ -20946,6 +24496,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "omnis, omnis, omne ADJ",
     "en": "each, every, every one (of a number); all (pl.); all/the whole of",
     "grammar": "ADJ 3 2 GEN P X POS"
+  },
+  "onera": {
+    "lemma": "onus, oneris N (3rd) N",
+    "en": "load, burden; cargo",
+    "grammar": "N 3 2 NOM P N"
+  },
+  "onerent": {
+    "lemma": "onero, onerare, oneravi, oneratus V (1st)",
+    "en": "load, burden; oppress",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 P"
   },
   "oneribus": {
     "lemma": "onus, oneris N (3rd) N",
@@ -20982,6 +24542,11 @@ Object.assign(LATIN_DICT, {
     "en": "need; work; fortifications (pl.), works; [opus est => is useful, beneficial]",
     "grammar": "N 3 2 DAT S N"
   },
+  "operi": {
+    "lemma": "opus, operis N (3rd) N",
+    "en": "need; work; fortifications (pl.), works; [opus est => is useful, beneficial]",
+    "grammar": "N 3 2 DAT S N"
+  },
   "operibus": {
     "lemma": "opus, operis N (3rd) N",
     "en": "need; work; fortifications (pl.), works; [opus est => is useful, beneficial]",
@@ -21012,10 +24577,25 @@ Object.assign(LATIN_DICT, {
     "en": "need; work; fortifications (pl.), works; [opus est => is useful, beneficial]",
     "grammar": "N 3 2 GEN P N"
   },
+  "operumque": {
+    "lemma": "opus, operis N (3rd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 2 GEN P N + TACKON"
+  },
   "opibus": {
     "lemma": "ops, opis N (3rd) F",
     "en": "power, might; help; influence; resources/wealth (pl.)",
     "grammar": "N 3 1 DAT P F"
+  },
+  "opibusque": {
+    "lemma": "ops, opis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 DAT P F + TACKON"
+  },
+  "opimam": {
+    "lemma": "opimus, opima, opimum ADJ",
+    "en": "rich, fertile; abundant; fat, plump; [opima spolia => spoils from a general]",
+    "grammar": "ADJ 1 1 ACC S F POS"
   },
   "opinantur": {
     "lemma": "opinor, opinari, opinatus sum V (1st) DEP",
@@ -21042,6 +24622,11 @@ Object.assign(LATIN_DICT, {
     "en": "suppose, imagine",
     "grammar": "V 1 1 PRES PASSIVE IND 1 S"
   },
+  "opis": {
+    "lemma": "ops, opis N (3rd) F",
+    "en": "power, might; help; influence; resources/wealth (pl.)",
+    "grammar": "N 3 1 GEN S F"
+  },
   "oporteat": {
     "lemma": "oportet, oportere, oportuit, - V (2nd) IMPERS",
     "en": "it is right/proper/necessary; it is becoming; it behooves; ought",
@@ -21061,6 +24646,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "oportet, oportere, oportuit, - V (2nd) IMPERS",
     "en": "it is right/proper/necessary; it is becoming; it behooves; ought",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
+  },
+  "opperiens": {
+    "lemma": "opperior, opperiri, opperitus sum V (4th) DEP",
+    "en": "wait (for); await",
+    "grammar": "VPAR 3 4 NOM S X PRES ACTIVE PPL"
+  },
+  "oppidum": {
+    "lemma": "oppidum, oppidi N (2nd) N",
+    "en": "town",
+    "grammar": "N 2 2 NOM S N"
   },
   "opponam": {
     "lemma": "oppono, opponere, opposui, oppositus V (3rd)",
@@ -21097,6 +24692,11 @@ Object.assign(LATIN_DICT, {
     "en": "choose, select; wish, wish for, desire",
     "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
   },
+  "optabis": {
+    "lemma": "opto, optare, optavi, optatus V (1st)",
+    "en": "choose, select; wish, wish for, desire",
+    "grammar": "V 1 1 FUT ACTIVE IND 2 S"
+  },
   "optabitur": {
     "lemma": "opto, optare, optavi, optatus V (1st)",
     "en": "choose, select; wish, wish for, desire",
@@ -21126,6 +24726,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "opto, optare, optavi, optatus V (1st)",
     "en": "choose, select; wish, wish for, desire",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "optatis": {
+    "lemma": "opto, optare, optavi, optatus V (1st)",
+    "en": "choose, select; wish, wish for, desire",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 P"
   },
   "optatissimi": {
     "lemma": "optatus, optata -um, optatior -or -us, optatissimus -a -um ADJ",
@@ -21192,6 +24797,11 @@ Object.assign(LATIN_DICT, {
     "en": "wealthy; rich in wealth/resources; well supplied; sumptuous, opulent, rich",
     "grammar": "ADJ 1 1 GEN S M POS"
   },
+  "opulentum": {
+    "lemma": "opulentus, opulenta -um, opulentior -or -us, opulentissimus -a -um ADJ",
+    "en": "wealthy; rich in wealth/resources; well supplied; sumptuous, opulent, rich",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "opus": {
     "lemma": "opus, operis N (3rd) N",
     "en": "need; work; fortifications (pl.), works; [opus est => is useful, beneficial]",
@@ -21206,6 +24816,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "oraculum, oraculi N (2nd) N",
     "en": "oracle (place/agency/mouthpiece); prophecy; oracular saying/precept/maxim",
     "grammar": "N 2 2 DAT S N"
+  },
+  "oramus": {
+    "lemma": "oro, orare, oravi, oratus V (1st)",
+    "en": "beg, ask for, pray; beseech, plead, entreat; worship, adore",
+    "grammar": "V 1 1 PRES ACTIVE IND 1 P"
+  },
+  "orantes": {
+    "lemma": "oro, orare, oravi, oratus V (1st)",
+    "en": "beg, ask for, pray; beseech, plead, entreat; worship, adore",
+    "grammar": "VPAR 1 1 NOM P C PRES ACTIVE PPL"
   },
   "oratio": {
     "lemma": "oratio, orationis N (3rd) F",
@@ -21282,6 +24902,11 @@ Object.assign(LATIN_DICT, {
     "en": "row, order/rank; succession; series; class; bank (oars); order (of monks) (Bee)",
     "grammar": "N 3 1 GEN S M"
   },
+  "oreades": {
+    "lemma": "Oreas, Oreadis",
+    "en": "Oreads (mountain nymphs, attendants of Diana)",
+    "grammar": "N NOM P F (proper name)"
+  },
   "orestem": {
     "lemma": "Orestes, Orestis N (3rd) M",
     "en": "Orestes; son of Agamennon and Clytaemnestra; play by Euripides; book by Varro",
@@ -21297,6 +24922,16 @@ Object.assign(LATIN_DICT, {
     "en": "rise (sun/river); arise/emerge, crop up; get up (wake); begin; originate from",
     "grammar": "V 4 1 PRES PASSIVE SUB 3 S"
   },
+  "originis": {
+    "lemma": "origo, originis N (3rd) F",
+    "en": "origin, source; birth, family; race; ancestry",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "orion": {
+    "lemma": "oro, orare, oravi, oratus V (1st)",
+    "en": "beg, ask for, pray; beseech, plead, entreat; worship, adore; -ing, -ion, -ery; the action or result of the action of the verb",
+    "grammar": "N 2 7 VOC S X + SUFFIX"
+  },
   "oritur": {
     "lemma": "orior, oriri, ortus sum V (4th) DEP",
     "en": "rise (sun/river); arise/emerge, crop up; get up (wake); begin; originate from",
@@ -21311,6 +24946,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "ornamentum, ornamenti N (2nd) N",
     "en": "equipment; decoration; jewel; ornament, trappings",
     "grammar": "N 2 2 NOM S N"
+  },
+  "ornatissimis": {
+    "lemma": "ornatus, ornata -um, ornatior -or -us, ornatissimus -a -um ADJ",
+    "en": "well equipped/endowed, richly adorned, ornate; distinguished, honored",
+    "grammar": "ADJ 1 1 DAT P X SUPER"
+  },
+  "ornatus": {
+    "lemma": "orno, ornare, ornavi, ornatus V (1st)",
+    "en": "equip; dress; decorate, honor; furnish, adorn, garnish, trim",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
   },
   "orta": {
     "lemma": "orior, oriri, ortus sum V (4th) DEP",
@@ -21342,6 +24987,11 @@ Object.assign(LATIN_DICT, {
     "en": "gaping, yawning",
     "grammar": "N 3 1 DAT S F"
   },
+  "ossibus": {
+    "lemma": "os, ossis N (3rd) N",
+    "en": "bone; (implement, gnawed, dead); kernel (nut); heartwood (tree); stone (fruit)",
+    "grammar": "N 3 2 DAT P N"
+  },
   "ostendam": {
     "lemma": "ostendo, ostendere, ostendi, ostensus V (3rd)",
     "en": "show; reveal; make clear, point out, display, exhibit",
@@ -21356,6 +25006,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "ostendo, ostendere, ostendi, ostensus V (3rd)",
     "en": "show; reveal; make clear, point out, display, exhibit",
     "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "ostenderunt": {
+    "lemma": "ostendo, ostendere, ostendi, ostensus V (3rd)",
+    "en": "show; reveal; make clear, point out, display, exhibit",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "ostendisti": {
+    "lemma": "ostendo, ostendere, ostendi, ostensus V (3rd)",
+    "en": "show; reveal; make clear, point out, display, exhibit",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
   },
   "ostendit": {
     "lemma": "ostendo, ostendere, ostendi, ostensus V (3rd)",
@@ -21376,6 +25036,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "ostium, osti(i) N (2nd) N",
     "en": "doorway; front door; starting gate; entrance (underworld); (river) mouth",
     "grammar": "N 2 4 NOM S N"
+  },
+  "ostro": {
+    "lemma": "ostrum, ostri N (2nd) N",
+    "en": "purple dye; purple color; material/garment/anything that has been dyed purple",
+    "grammar": "N 2 2 DAT S N"
+  },
+  "ostroque": {
+    "lemma": "ostrum, ostri N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT S N + TACKON"
   },
   "osurus": {
     "lemma": "odi, odisse, osus V (3rd) PERFDEF",
@@ -21437,6 +25107,11 @@ Object.assign(LATIN_DICT, {
     "en": "Publius (Roman praenomen); (abb. P.)",
     "grammar": "N 9 8 X X M"
   },
+  "pabula": {
+    "lemma": "pabulum, pabuli N (2nd) N",
+    "en": "fodder, forage, food for cattle; food/sustenance; fuel (for fire)",
+    "grammar": "N 2 2 NOM P N"
+  },
   "pacat": {
     "lemma": "paco, pacare, pacavi, pacatus V (1st)",
     "en": "pacify, subdue",
@@ -21487,10 +25162,30 @@ Object.assign(LATIN_DICT, {
     "en": "openly, publicly; plainly",
     "grammar": "ADV"
   },
+  "palladis": {
+    "lemma": "pallas, palladis N (3rd) F",
+    "en": "olive tree; E:goddess Minerva/Athene",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "pallam": {
+    "lemma": "palla, pallae N (1st) F",
+    "en": "palla, a lady's outer garment",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "pallamque": {
+    "lemma": "palla, pallae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 ACC S F + TACKON"
+  },
   "pallent": {
     "lemma": "palleo, pallere, pallui, - V (2nd)",
     "en": "be/look pale; fade; become pale at",
     "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "palmis": {
+    "lemma": "palma, palmae N (1st) F",
+    "en": "palm/width of the hand; hand; palm tree/branch; date; palm award/first place",
+    "grammar": "N 1 1 DAT P F"
   },
   "papirius": {
     "lemma": "Papirius, Papirii",
@@ -21516,6 +25211,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "parabilis, parabilis, parabile ADJ",
     "en": "procurable, easily obtainable",
     "grammar": "ADJ 3 2 NOM P C POS"
+  },
+  "paradisi": {
+    "lemma": "paradisus, paradisi N (2nd) M",
+    "en": "Paradise, Garden of Eden; abode of the blessed; park, orchard; a town/river",
+    "grammar": "N 2 1 GEN S M"
   },
   "parandis": {
     "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
@@ -21546,6 +25246,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
     "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "paratas": {
+    "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
+    "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
+    "grammar": "VPAR 1 1 ACC P F PERF PASSIVE PPL"
   },
   "paratos": {
     "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
@@ -21592,6 +25297,11 @@ Object.assign(LATIN_DICT, {
     "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
     "grammar": "V 1 1 PRES ACTIVE SUB 1 S"
   },
+  "parens": {
+    "lemma": "parens, parentis N (3rd) C",
+    "en": "parent, father, mother",
+    "grammar": "N 3 3 NOM S C"
+  },
   "parent": {
     "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
     "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
@@ -21607,10 +25317,20 @@ Object.assign(LATIN_DICT, {
     "en": "obey, be subject/obedient to; submit/yield/comply; pay attention; attend to",
     "grammar": "VPAR 2 1 DAT P X PRES ACTIVE PPL"
   },
+  "parentis": {
+    "lemma": "parens, parentis N (3rd) C",
+    "en": "parent, father, mother",
+    "grammar": "N 3 3 GEN S C"
+  },
   "pares": {
     "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
     "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
     "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
+  },
+  "paret": {
+    "lemma": "paro, parare, paravi, paratus V (1st) TRANS",
+    "en": "prepare; furnish/supply/provide; produce; obtain/get; buy; raise; put up; plan",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 S"
   },
   "paria": {
     "lemma": "par, paris (gen.), -, parissimus -a -um ADJ",
@@ -21622,6 +25342,11 @@ Object.assign(LATIN_DICT, {
     "en": "equal (to); a match for; of equal size/rank/age; fit/suitable/right/proper",
     "grammar": "ADJ 3 1 DAT P X POS"
   },
+  "pariseorum": {
+    "lemma": "Parisii, Parisiorum (pl.)",
+    "en": "of the Parisians (people of Paris; medieval spelling of Parisiorum)",
+    "grammar": "N GEN P M (proper name, medieval spelling)"
+  },
   "parit": {
     "lemma": "pario, parere, peperi, partus V (3rd)",
     "en": "bear; give birth to; beget, bring forth; produce, lay (eggs); create; acquire",
@@ -21631,6 +25356,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "pariter ADV",
     "en": "equally; together",
     "grammar": "ADV"
+  },
+  "pariusve": {
+    "lemma": "Parius, Paria, Parium",
+    "en": "Parian (of Paros, island famed for white marble) + -ve (or)",
+    "grammar": "ADJ NOM S M (proper name) + TACKON"
   },
   "parsimonia": {
     "lemma": "parsimonia, parsimoniae N (1st) F",
@@ -21707,6 +25437,11 @@ Object.assign(LATIN_DICT, {
     "en": "feed, feed on; graze",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "pascet": {
+    "lemma": "pasco, pascere, pavi, pastus V (3rd)",
+    "en": "feed, feed on; graze",
+    "grammar": "V 3 1 FUT ACTIVE IND 3 S"
+  },
   "pascit": {
     "lemma": "pasco, pascere, pavi, pastus V (3rd)",
     "en": "feed, feed on; graze",
@@ -21731,6 +25466,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "pateo, patere, patui, - V (2nd)",
     "en": "stand open, be open; extend; be well known; lie open, be accessible",
     "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
+  "pateram": {
+    "lemma": "patera, paterae N (1st) F",
+    "en": "bowl; saucer",
+    "grammar": "N 1 1 ACC S F"
   },
   "patere": {
     "lemma": "pateo, patere, patui, - V (2nd)",
@@ -21832,10 +25572,25 @@ Object.assign(LATIN_DICT, {
     "en": "to or among fathers; ancestors; senators",
     "grammar": "N DAT/ABL P M"
   },
+  "patriis": {
+    "lemma": "patria, patriae N (1st) F",
+    "en": "native land; home, native city; one's country",
+    "grammar": "N 1 1 DAT P F"
+  },
   "patrimonio": {
     "lemma": "patrimonium, patrimoni(i) N (2nd) N",
     "en": "inheritance",
     "grammar": "N 2 4 DAT S N"
+  },
+  "patris": {
+    "lemma": "pater, patris N (3rd) M",
+    "en": "father; [pater familias, patris familias => head of family/household]",
+    "grammar": "N 3 1 GEN S M"
+  },
+  "patrius": {
+    "lemma": "patrius, patria, patrium ADJ",
+    "en": "father's, paternal; ancestral",
+    "grammar": "ADJ 1 1 NOM S M POS"
   },
   "patronus": {
     "lemma": "patronus, patroni N (2nd) M",
@@ -21972,6 +25727,11 @@ Object.assign(LATIN_DICT, {
     "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
     "grammar": "VPAR 1 1 DAT P X PRES ACTIVE PPL"
   },
+  "peccare": {
+    "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
+    "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
+    "grammar": "V 1 1 PRES PASSIVE IND 2 S"
+  },
   "peccasse": {
     "lemma": "pecco, peccare, peccavi, peccatus",
     "en": "to have done wrong; to have sinned",
@@ -21997,6 +25757,11 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "VPAR 1 1 GEN P M PERF PASSIVE PPL + TACKON"
   },
+  "peccatum": {
+    "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
+    "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
+    "grammar": "VPAR 1 1 NOM S N PERF PASSIVE PPL"
+  },
   "peccaturis": {
     "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
     "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
@@ -22006,6 +25771,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
     "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
     "grammar": "V 1 1 FUTP ACTIVE IND 2 S"
+  },
+  "peccavit": {
+    "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
+    "en": "sin; do wrong, commit moral offense; blunder, stumble; be wrong",
+    "grammar": "V 1 1 PERF ACTIVE IND 3 S"
   },
   "peccet": {
     "lemma": "pecco, peccare, peccavi, peccatus V (1st) INTRANS",
@@ -22062,10 +25832,30 @@ Object.assign(LATIN_DICT, {
     "en": "money; property",
     "grammar": "N 1 1 ACC S F"
   },
+  "pecus": {
+    "lemma": "pecus, pecoris N (3rd) N",
+    "en": "cattle, herd, flock",
+    "grammar": "N 3 2 NOM S N"
+  },
   "peior": {
     "lemma": "malus, mala -um, pejor -or -us, - ADJ",
     "en": "bad, evil, wicked; ugly; unlucky",
     "grammar": "ADJ 1 1 NOM S C COMP"
+  },
+  "pelasgi": {
+    "lemma": "Pelasgus, Pelasgi N (2nd) M",
+    "en": "ancient Greek",
+    "grammar": "N 2 1 GEN S M"
+  },
+  "peltis": {
+    "lemma": "pelta, peltae N (1st) F",
+    "en": "crescent-shaped shield",
+    "grammar": "N 1 1 DAT P F"
+  },
+  "penatis": {
+    "lemma": "Penas, Penatis N (3rd) M",
+    "en": "Penates; (usu. pl.); gods of home/larder/family; home/dwelling; family/line",
+    "grammar": "N 3 1 GEN S M"
   },
   "pendeas": {
     "lemma": "pendeo, pendere, pependi, - V (2nd)",
@@ -22087,6 +25877,16 @@ Object.assign(LATIN_DICT, {
     "en": "weigh out; pay, pay out",
     "grammar": "V 3 1 FUT ACTIVE IND 3 S"
   },
+  "penthesilea": {
+    "lemma": "Penthesilea, Penthesileae",
+    "en": "Penthesilea (queen of the Amazons, slain at Troy)",
+    "grammar": "N NOM S F (proper name)"
+  },
+  "penum": {
+    "lemma": "pena, penae N (1st) F",
+    "en": "penalty, punishment; revenge/retribution; [poena dare => to pay the penalty]",
+    "grammar": "N 1 1 GEN P F"
+  },
   "penuria": {
     "lemma": "penuria, penuriae N (1st) F",
     "en": "want, need, scarcity",
@@ -22096,6 +25896,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "pario, parere, peperi, partus V (3rd)",
     "en": "bear; give birth to; beget, bring forth; produce, lay (eggs); create; acquire",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "peplumque": {
+    "lemma": "peplus, pepli N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 ACC S M + TACKON"
   },
   "perambulauerint": {
     "lemma": "perambulo, perambulare, perambulavi, perambulatus V (1st)",
@@ -22126,6 +25931,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "percipio, percipere, percepi, perceptus V (3rd)",
     "en": "secure, gain; perceive, learn, feel",
     "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
+  "perculsus": {
+    "lemma": "percello, percellere, perculi, perculsus V (3rd)",
+    "en": "strike down; strike; overpower; dismay, demoralize, upset",
+    "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
   },
   "percurreris": {
     "lemma": "percurro, percurrere, percucurri, percursus V (3rd)",
@@ -22182,6 +25992,11 @@ Object.assign(LATIN_DICT, {
     "en": "ruin, destroy; lose; waste",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "perdite": {
+    "lemma": "perdo, perdere, perdidi, perditus V (3rd)",
+    "en": "ruin, destroy; lose; waste",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 P"
+  },
   "perditis": {
     "lemma": "perdo, perdere, perdidi, perditus V (3rd)",
     "en": "ruin, destroy; lose; waste",
@@ -22191,6 +26006,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "perdo, perdere, perdidi, perditus V (3rd)",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "VPAR 3 1 NOM S M FUT ACTIVE PPL + TACKON"
+  },
+  "perdocuit": {
+    "lemma": "perdoco, perdocere, perdocui, perdoctus V (3rd)",
+    "en": "teach (thoroughly)",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "perdomat": {
     "lemma": "perdomo, perdomare, perdomui, perdomitus V (1st) TRANS",
@@ -22221,6 +26041,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "perago, peragere, peregi, peractus V (3rd)",
     "en": "disturb; finish; kill; carry through to the end, complete",
     "grammar": "V 3 1 PERF ACTIVE IND 1 S"
+  },
+  "peregrinatio": {
+    "lemma": "peregrinatio, peregrinationis N (3rd) F",
+    "en": "traveling/staying/living abroad, sojourn abroad; travel; pilgrimage",
+    "grammar": "N 3 1 NOM S F"
   },
   "peregrinatione": {
     "lemma": "peregrinatio, peregrinationis N (3rd) F",
@@ -22282,6 +26107,11 @@ Object.assign(LATIN_DICT, {
     "en": "faithlessness, treachery, perfidy",
     "grammar": "N 1 1 NOM S F"
   },
+  "pergama": {
+    "lemma": "Pergamum, Pergami N (2nd) N",
+    "en": "Pergamum; (citadel of Troy; city in Asia Minor)",
+    "grammar": "N 2 2 NOM P N"
+  },
   "pergratum": {
     "lemma": "pergratus, pergrata, pergratum ADJ",
     "en": "very agreeable or pleasant",
@@ -22337,6 +26167,16 @@ Object.assign(LATIN_DICT, {
     "en": "die, pass away; be ruined, be destroyed; go to waste",
     "grammar": "V 6 1 PRES ACTIVE IND 3 S"
   },
+  "perlegeram": {
+    "lemma": "perlego, perlegere, perlegi, perlectus V (3rd) TRANS",
+    "en": "read over/through (silent/aloud); scan, survey, run one's eyes over; recount",
+    "grammar": "V 3 1 PLUP ACTIVE IND 1 S"
+  },
+  "perlegi": {
+    "lemma": "perlego, perlegere, perlegi, perlectus V (3rd) TRANS",
+    "en": "read over/through (silent/aloud); scan, survey, run one's eyes over; recount",
+    "grammar": "V 3 1 PERF ACTIVE IND 1 S"
+  },
   "permanebit": {
     "lemma": "permaneo, permanere, permansi, permansus V (2nd)",
     "en": "last, continue; remain; endure",
@@ -22366,6 +26206,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "permitto, permittere, permisi, permissus V (3rd)",
     "en": "let through; let go through; relinquish; permit, allow; entrust; hurl",
     "grammar": "V 3 1 FUT ACTIVE IND 2 S"
+  },
+  "permittit": {
+    "lemma": "permitto, permittere, permisi, permissus V (3rd)",
+    "en": "let through; let go through; relinquish; permit, allow; entrust; hurl",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "permixtum": {
+    "lemma": "permisceo, permiscere, permiscui, permixtus V (2nd)",
+    "en": "mix or mingle together; confound; embroil; disturb thoroughly",
+    "grammar": "VPAR 2 1 NOM S N PERF PASSIVE PPL"
   },
   "permulti": {
     "lemma": "permultus, permulta, permultum ADJ",
@@ -22427,6 +26277,16 @@ Object.assign(LATIN_DICT, {
     "en": "continuous, uninterpreted; whole; perpetual, lasting; everlasting",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "perpetuo": {
+    "lemma": "perpetuus, perpetua, perpetuum ADJ",
+    "en": "continuous, uninterpreted; whole; perpetual, lasting; everlasting",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "perquisitas": {
+    "lemma": "perquiro, perquirere, perquisivi, perquisitus V (3rd)",
+    "en": "search everywhere for",
+    "grammar": "VPAR 3 1 ACC P F PERF PASSIVE PPL"
+  },
   "persaepe": {
     "lemma": "persaepe ADV",
     "en": "very often",
@@ -22477,6 +26337,11 @@ Object.assign(LATIN_DICT, {
     "en": "Persian",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "persolvere": {
+    "lemma": "persolvo, persolvere, persolvi, persolutus V (3rd)",
+    "en": "pay",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "persolvit": {
     "lemma": "persolvo, persolvere, persolvi, persolutus V (3rd)",
     "en": "pay",
@@ -22486,6 +26351,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "persona, personae N (1st) F",
     "en": "mask; character; personality",
     "grammar": "N 1 1 NOM S F"
+  },
+  "personat": {
+    "lemma": "persono, personare, personavi, personatus V (1st) TRANS",
+    "en": "make loud/continuous/pervasive noise/loud music; ring/resound; chant/shout out",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "perspecto": {
     "lemma": "perspicio, perspicere, perspexi, perspectus V (3rd)",
@@ -22526,6 +26396,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "persuadeo, persuadere, persuasi, persuasus V (2nd)",
     "en": "persuade, convince (with dat.)",
     "grammar": "V 2 1 FUTP ACTIVE IND 3 S"
+  },
+  "persuasionis": {
+    "lemma": "persuadeo, persuadere, persuasi, persuasus V (2nd)",
+    "en": "persuade, convince (with dat.); -ing, -ion, -ery; indicates the action or result of the action of the verb",
+    "grammar": "N 3 0 GEN S X + SUFFIX"
+  },
+  "pertemptant": {
+    "lemma": "pertempto, pertemptare, pertemptavi, pertemptatus V (1st)",
+    "en": "test, try out; explore thoroughly; agitate thoroughly",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "perterritus": {
     "lemma": "perterreo, perterrere, perterrui, perterritus V (2nd) TRANS",
@@ -22592,6 +26472,11 @@ Object.assign(LATIN_DICT, {
     "en": "come to; reach; arrive",
     "grammar": "V 4 1 FUTP ACTIVE IND 2 S"
   },
+  "pervenerit": {
+    "lemma": "pervenio, pervenire, perveni, perventus V (4th)",
+    "en": "come to; reach; arrive",
+    "grammar": "V 4 1 FUTP ACTIVE IND 3 S"
+  },
   "perveniat": {
     "lemma": "pervenio, pervenire, perveni, perventus V (4th)",
     "en": "come to; reach; arrive",
@@ -22616,6 +26501,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "pervenio, pervenire, perveni, perventus V (4th)",
     "en": "come to; reach; arrive",
     "grammar": "VPAR 3 4 GEN S F FUT ACTIVE PPL"
+  },
+  "perventurum": {
+    "lemma": "pervenio, pervenire, perveni, perventus V (4th)",
+    "en": "come to; reach; arrive",
+    "grammar": "VPAR 3 4 NOM S N FUT ACTIVE PPL"
   },
   "perversa": {
     "lemma": "perverto, pervertere, perverti, perversus V (3rd)",
@@ -22647,6 +26537,11 @@ Object.assign(LATIN_DICT, {
     "en": "plague, pestilence, curse, destruction",
     "grammar": "N 3 3 NOM P F"
   },
+  "pesti": {
+    "lemma": "pestis, pestis N (3rd) F",
+    "en": "plague, pestilence, curse, destruction",
+    "grammar": "N 3 3 DAT S F"
+  },
   "petamus": {
     "lemma": "peto, petere, petivi, petitus V (3rd)",
     "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
@@ -22657,10 +26552,25 @@ Object.assign(LATIN_DICT, {
     "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
     "grammar": "V 3 1 PRES ACTIVE SUB 2 P"
   },
+  "petebant": {
+    "lemma": "peto, petere, petivi, petitus V (3rd)",
+    "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 P"
+  },
+  "petentem": {
+    "lemma": "peto, petere, petivi, petitus V (3rd)",
+    "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
+    "grammar": "VPAR 3 1 ACC S C PRES ACTIVE PPL"
+  },
   "petentes": {
     "lemma": "peto, petere, petivi, petitus V (3rd)",
     "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
     "grammar": "VPAR 3 1 NOM P C PRES ACTIVE PPL"
+  },
+  "peteret": {
+    "lemma": "peto, petere, petivi, petitus V (3rd)",
+    "en": "attack; aim at; desire; beg, entreat, ask (for); reach towards, make for",
+    "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
   },
   "petitum": {
     "lemma": "peto, petere, petivi, petitus V (3rd)",
@@ -22686,6 +26596,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Philus, Phili",
     "en": "of Philus",
     "grammar": "N GEN S M (proper name)"
+  },
+  "philippus": {
+    "lemma": "Philippus, Philippi N (2nd) M",
+    "en": "Philip (name of several Macedonian kings); (Philip II, father of Alexander)",
+    "grammar": "N 2 1 NOM S M"
   },
   "philo": {
     "lemma": "Philus, Phili",
@@ -22722,6 +26637,11 @@ Object.assign(LATIN_DICT, {
     "en": "philosophical",
     "grammar": "ADJ 1 1 DAT P X POS"
   },
+  "philosopho": {
+    "lemma": "philosophus, philosophi N (2nd) M",
+    "en": "philosopher",
+    "grammar": "N 2 1 DAT S M"
+  },
   "philosophus": {
     "lemma": "philosophus, philosophi N (2nd) M",
     "en": "philosopher",
@@ -22731,6 +26651,36 @@ Object.assign(LATIN_DICT, {
     "lemma": "Philus, Phili",
     "en": "Philus",
     "grammar": "N NOM S M (proper name)"
+  },
+  "phoenissa": {
+    "lemma": "Phoenissa, Phoenissae N (1st) F",
+    "en": "Phoenician woman; (epithet of Dido)",
+    "grammar": "N 1 1 NOM S F"
+  },
+  "phryges": {
+    "lemma": "Phryx, Phrygis",
+    "en": "the Phrygians (the Trojans)",
+    "grammar": "N NOM P M (proper name)"
+  },
+  "phrygii": {
+    "lemma": "Phrygius, Phrygia, Phrygium ADJ",
+    "en": "Phrygian, of Phyrigia (center and west of Asia Minor); Trojan",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "pictis": {
+    "lemma": "pingo, pingere, pinxi, pictus V (3rd) TRANS",
+    "en": "paint, tint, color; adorn/decorate w/colored designs; paint/draw/depict/portray",
+    "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
+  },
+  "pictum": {
+    "lemma": "pingo, pingere, pinxi, pictus V (3rd) TRANS",
+    "en": "paint, tint, color; adorn/decorate w/colored designs; paint/draw/depict/portray",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "pictura": {
+    "lemma": "pingo, pingere, pinxi, pictus V (3rd) TRANS",
+    "en": "paint, tint, color; adorn/decorate w/colored designs; paint/draw/depict/portray",
+    "grammar": "VPAR 3 1 NOM S F FUT ACTIVE PPL"
   },
   "pila": {
     "lemma": "pila, pilae N (1st) F",
@@ -22757,10 +26707,25 @@ Object.assign(LATIN_DICT, {
     "en": "fat; rich, fertile; thick; dull, stupid",
     "grammar": "ADJ 3 2 DAT S X POS"
   },
+  "pinguis": {
+    "lemma": "pinguis, pingue, pinguior -or -us, pinguissimus -a -um ADJ",
+    "en": "fat; rich, fertile; thick; dull, stupid",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
   "pinxisse": {
     "lemma": "pingo, pingere, pinxi, pictus V (3rd) TRANS",
     "en": "paint, tint, color; adorn/decorate w/colored designs; paint/draw/depict/portray",
     "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
+  "pio": {
+    "lemma": "pius, pia -um, -, piissimus -a -um ADJ",
+    "en": "conscientious; upright; faithful; patriotic/dutiful, respectful; righteous/good",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "pios": {
+    "lemma": "pius, pia -um, -, piissimus -a -um ADJ",
+    "en": "conscientious; upright; faithful; patriotic/dutiful, respectful; righteous/good",
+    "grammar": "ADJ 1 1 ACC P M POS"
   },
   "piscis": {
     "lemma": "piscis, piscis N (3rd) M",
@@ -22787,10 +26752,20 @@ Object.assign(LATIN_DICT, {
     "en": "please, satisfy, give pleasure to (with dat.)",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "placidam": {
+    "lemma": "placidus, placida, placidum ADJ",
+    "en": "gentle, calm, mild, peaceful, placid",
+    "grammar": "ADJ 1 1 ACC S F POS"
+  },
   "placidi": {
     "lemma": "placidus, placida, placidum ADJ",
     "en": "gentle, calm, mild, peaceful, placid",
     "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "placido": {
+    "lemma": "placidus, placida, placidum ADJ",
+    "en": "gentle, calm, mild, peaceful, placid",
+    "grammar": "ADJ 1 1 DAT S M POS"
   },
   "placuerit": {
     "lemma": "placeo, placere, placui, placitus V (2nd) DAT",
@@ -22841,6 +26816,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "plaudo, plaudere, plausi, plausus V (3rd)",
     "en": "clap, strike (w/flat hand), pat; beat (wings); applaud; express (dis)approval",
     "grammar": "V 3 1 IMPF ACTIVE IND 3 P"
+  },
+  "plausu": {
+    "lemma": "plaudo, plaudere, plausi, plausus V (3rd)",
+    "en": "clap, strike (w/flat hand), pat; beat (wings); applaud; express (dis)approval",
+    "grammar": "SUPINE"
   },
   "plausus": {
     "lemma": "plaudo, plaudere, plausi, plausus V (3rd)",
@@ -22922,6 +26902,16 @@ Object.assign(LATIN_DICT, {
     "en": "more; several. many; (COMP of multus)",
     "grammar": "ADJ 3 1 NOM S X POS"
   },
+  "pluviasque": {
+    "lemma": "pluvius, pluvia, pluvium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC P F POS + TACKON"
+  },
+  "pocula": {
+    "lemma": "poculum, poculi N (2nd) N",
+    "en": "cup, bowl, drinking vessel; drink/draught; social drinking (pl.); drink",
+    "grammar": "N 2 2 NOM P N"
+  },
   "poenam": {
     "lemma": "poena, poenae N (1st) F",
     "en": "penalty, punishment; revenge/retribution; [poena dare => to pay the penalty]",
@@ -22936,6 +26926,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "poena, poenae N (1st) F",
     "en": "penalty, punishment; revenge/retribution; [poena dare => to pay the penalty]",
     "grammar": "N 1 1 DAT P F"
+  },
+  "poeniteat": {
+    "lemma": "poeniteo, poenitere, poenitui, - V (2nd)",
+    "en": "displease; (cause to) regret; repent, be sorry; [me paenitet => I am sorry]",
+    "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
   },
   "poenos": {
     "lemma": "Poenus, Poeni N (2nd) M",
@@ -22961,6 +26956,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Poliorcetes, Poliorcetis",
     "en": "Poliorcetes",
     "grammar": "N NOM S M (proper name)"
+  },
+  "polus": {
+    "lemma": "polus, pola, polum ADJ",
+    "en": "little; small; (only a) small amount/quantity of/little bit of",
+    "grammar": "ADJ 1 1 NOM S M POS"
   },
   "polyaenum": {
     "lemma": "Polyaenus, Polyaeni",
@@ -23001,6 +27001,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "Pomponius, Pomponii",
     "en": "Pomponius",
     "grammar": "N ACC S M (proper name)"
+  },
+  "pomponius": {
+    "lemma": "Pomponius, Pomponii",
+    "en": "Pomponius (Roman gentile name; esp. Pomponius Mela, the geographer)",
+    "grammar": "N NOM S M (proper name)"
+  },
+  "ponant": {
+    "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
+    "en": "put/place/set; station/post (troops); pitch (camp); situate; set up; erect",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
   },
   "ponat": {
     "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
@@ -23047,6 +27057,16 @@ Object.assign(LATIN_DICT, {
     "en": "put/place/set; station/post (troops); pitch (camp); situate; set up; erect",
     "grammar": "V 3 1 PRES PASSIVE IND 3 P"
   },
+  "poposcit": {
+    "lemma": "posco, poscere, poposci, - V (3rd)",
+    "en": "ask, demand",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "populare": {
+    "lemma": "popularis, popularis N (3rd) C",
+    "en": "compatriot, fellow citizen/from same community; partner/associate; inhabitant",
+    "grammar": "N 3 3 DAT S C"
+  },
   "popularem": {
     "lemma": "popularis, popularis N (3rd) C",
     "en": "compatriot, fellow citizen/from same community; partner/associate; inhabitant",
@@ -23077,20 +27097,40 @@ Object.assign(LATIN_DICT, {
     "en": "at distance, further on, far off, onward; of old, formerly, hereafter; again",
     "grammar": "ADV"
   },
+  "portabat": {
+    "lemma": "porto, portare, portavi, portatus V (1st)",
+    "en": "carry, bring",
+    "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
+  },
   "portandis": {
     "lemma": "porto, portare, portavi, portatus V (1st)",
     "en": "carry, bring",
     "grammar": "VPAR 1 1 DAT P X FUT PASSIVE PPL"
+  },
+  "portat": {
+    "lemma": "porto, portare, portavi, portatus V (1st)",
+    "en": "carry, bring",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "portu": {
     "lemma": "portus, portus N (4th) M",
     "en": "port, harbor; refuge, haven, place of refuge",
     "grammar": "N 4 1 DAT S M"
   },
+  "portus": {
+    "lemma": "portus, portus N (4th) M",
+    "en": "port, harbor; refuge, haven, place of refuge",
+    "grammar": "N 4 1 NOM S M"
+  },
   "poscit": {
     "lemma": "posco, poscere, poposci, - V (3rd)",
     "en": "ask, demand",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "posco": {
+    "lemma": "posco, poscere, poposci, - V (3rd)",
+    "en": "ask, demand",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
   },
   "posita": {
     "lemma": "pono, ponere, posui, positus V (3rd) TRANS",
@@ -23271,6 +27311,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "potens, potentis (gen.), potentior -or -us, potentissimus -a -um ADJ",
     "en": "powerful, strong; capable; mighty",
     "grammar": "ADJ 3 1 NOM S X POS"
+  },
+  "potentia": {
+    "lemma": "potens, potentis (gen.), potentior -or -us, potentissimus -a -um ADJ",
+    "en": "powerful, strong; capable; mighty",
+    "grammar": "ADJ 3 1 NOM P N POS"
   },
   "potentiam": {
     "lemma": "potentia, potentiae N (1st) F",
@@ -23502,6 +27547,11 @@ Object.assign(LATIN_DICT, {
     "en": "run before, hasten on before; precede; anticipate",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "praedas": {
+    "lemma": "praeda, praedae N (1st) F",
+    "en": "booty, loot, spoils, plunder, prey",
+    "grammar": "N 1 1 ACC P F"
+  },
   "praedem": {
     "lemma": "praes, praedis N (3rd) M",
     "en": "surety, bondsman",
@@ -23552,15 +27602,30 @@ Object.assign(LATIN_DICT, {
     "en": "be in charge/control/head (of) (w/DAT); take the lead (in); be present (at)",
     "grammar": "V 5 1 PERF ACTIVE IND 3 S"
   },
+  "praelata": {
+    "lemma": "praefero, praeferre, praetuli, praelatus V (3rd)",
+    "en": "carry in front; prefer; display; offer; give preference to",
+    "grammar": "VPAR 3 2 NOM S F PERF PASSIVE PPL"
+  },
   "praelucet": {
     "lemma": "praeluceo, praelucere, praeluxi, - V (2nd)",
     "en": "shine forth, outshine; light the way (for)",
     "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
+  "praemia": {
+    "lemma": "praemium, praemi(i) N (2nd) N",
+    "en": "prize, reward; gift; recompense",
+    "grammar": "N 2 4 NOM P N"
+  },
   "praemittimus": {
     "lemma": "praemitto, praemittere, praemisi, praemissus V (3rd)",
     "en": "send ahead or forward",
     "grammar": "V 3 1 PRES ACTIVE IND 1 P"
+  },
+  "praemittit": {
+    "lemma": "praemitto, praemittere, praemisi, praemissus V (3rd)",
+    "en": "send ahead or forward",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
   "praeparato": {
     "lemma": "praeparo, praeparare, praeparavi, praeparatus V (1st)",
@@ -23642,6 +27707,11 @@ Object.assign(LATIN_DICT, {
     "en": "present; at hand; existing; prompt, in person; propitious",
     "grammar": "ADJ 3 1 GEN P X POS"
   },
+  "praesepibus": {
+    "lemma": "praesepe, praesepis N (3rd) N",
+    "en": "crib; manger; stall (cattle/horses feed); brothel; haunt; lodging; home turf",
+    "grammar": "N 3 4 DAT P N"
+  },
   "praesertim": {
     "lemma": "praesertim ADV",
     "en": "especially; particularly",
@@ -23706,6 +27776,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "praesumo, praesumere, praesumpsi, praesumptus V (3rd) TRANS",
     "en": "consume/perform/employ beforehand; anticipate; presuppose/presume/assume; dare",
     "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
+  },
+  "praetendit": {
+    "lemma": "praetendo, praetendere, praetendi, praetentus V (3rd)",
+    "en": "stretch out; spread before; extend in front; allege in excuse",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "praetereunt": {
     "lemma": "praetereo, praeterire, praeterivi(ii), praeteritus V",
@@ -23787,6 +27862,11 @@ Object.assign(LATIN_DICT, {
     "en": "praetor (official elected by the Romans who served as a judge); abb. pr.",
     "grammar": "N 3 1 GEN S M"
   },
+  "praevertere": {
+    "lemma": "praeverto, praevertere, praeverti, - V (3rd)",
+    "en": "anticipate; preoccupy, attend to first; outstrip, outrun",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "prava": {
     "lemma": "pravus, prava, pravum ADJ",
     "en": "crooked; misshapen, deformed; perverse, vicious, corrupt; faulty; bad",
@@ -23802,10 +27882,40 @@ Object.assign(LATIN_DICT, {
     "en": "prayer, request",
     "grammar": "N 3 1 DAT S F"
   },
+  "preceps": {
+    "lemma": "praeceps, (gen.) praecipitis",
+    "en": "headlong, steep, precipitous (medieval spelling of praeceps)",
+    "grammar": "ADJ NOM S M/F/N (medieval spelling)"
+  },
+  "preceptor": {
+    "lemma": "praeceptor, praeceptoris",
+    "en": "teacher, instructor (medieval spelling of praeceptor)",
+    "grammar": "N NOM S M (medieval spelling)"
+  },
+  "preceptorum": {
+    "lemma": "praeceptum, praecepti",
+    "en": "of precepts, teachings (medieval spelling of praeceptorum; or of teachers, from praeceptor)",
+    "grammar": "N GEN P N (or GEN P M from praeceptor) (medieval spelling)"
+  },
+  "preces": {
+    "lemma": "prex, precis N (3rd) F",
+    "en": "prayer, request",
+    "grammar": "N 3 1 NOM P F"
+  },
+  "prefectique": {
+    "lemma": "praefectus, praefecti",
+    "en": "prefects, governors (medieval spelling of praefecti) + -que (and)",
+    "grammar": "N NOM P M (medieval spelling) + TACKON"
+  },
   "prement": {
     "lemma": "premo, premere, pressi, pressus V (3rd)",
     "en": "press, press hard, pursue; oppress; overwhelm",
     "grammar": "V 3 1 FUT ACTIVE IND 3 P"
+  },
+  "premeret": {
+    "lemma": "premo, premere, pressi, pressus V (3rd)",
+    "en": "press, press hard, pursue; oppress; overwhelm",
+    "grammar": "V 3 1 IMPF ACTIVE SUB 3 S"
   },
   "premitur": {
     "lemma": "premo, premere, pressi, pressus V (3rd)",
@@ -23817,10 +27927,30 @@ Object.assign(LATIN_DICT, {
     "en": "press, press hard, pursue; oppress; overwhelm",
     "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
+  "presertim": {
+    "lemma": "praesertim",
+    "en": "especially, particularly (medieval spelling of praesertim)",
+    "grammar": "ADV (medieval spelling)"
+  },
+  "presides": {
+    "lemma": "praeses, praesidis",
+    "en": "governors, protectors (medieval spelling of praesides)",
+    "grammar": "N NOM/ACC P M (medieval spelling)"
+  },
   "pressit": {
     "lemma": "premo, premere, pressi, pressus V (3rd)",
     "en": "press, press hard, pursue; oppress; overwhelm",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "preterea": {
+    "lemma": "praeterea",
+    "en": "besides, moreover (medieval spelling of praeterea)",
+    "grammar": "ADV (medieval spelling)"
+  },
+  "pretervehor": {
+    "lemma": "praetervehor, praetervehi, praetervectus sum",
+    "en": "I ride/sail past, pass by (medieval spelling of praetervehor)",
+    "grammar": "V PRES DEP IND 1 S (medieval spelling)"
   },
   "pretiosa": {
     "lemma": "pretiosus, pretiosa -um, pretiosior -or -us, pretiosissimus -a -um ADJ",
@@ -23837,10 +27967,45 @@ Object.assign(LATIN_DICT, {
     "en": "value; price; worth",
     "grammar": "N ACC S N"
   },
+  "priami": {
+    "lemma": "Priamus, Priami N (2nd) M",
+    "en": "Priam; (king of Troy, father of Hector and Paris)",
+    "grammar": "N 2 1 GEN S M"
+  },
+  "priamo": {
+    "lemma": "Priamus, Priami N (2nd) M",
+    "en": "Priam; (king of Troy, father of Hector and Paris)",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "priamum": {
+    "lemma": "Priamus, Priami N (2nd) M",
+    "en": "Priam; (king of Troy, father of Hector and Paris)",
+    "grammar": "N 2 1 ACC S M"
+  },
+  "priamumque": {
+    "lemma": "Priamus, Priami N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 ACC S M + TACKON"
+  },
+  "priamus": {
+    "lemma": "Priamus, Priami N (2nd) M",
+    "en": "Priam; (king of Troy, father of Hector and Paris)",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "pridem": {
+    "lemma": "pridem ADV",
+    "en": "some time ago, previously",
+    "grammar": "ADV"
+  },
   "pridie": {
     "lemma": "pridie ADV",
     "en": "day before",
     "grammar": "ADV"
+  },
+  "primam": {
+    "lemma": "primus, prima, primum ADJ",
+    "en": "first, foremost/best, chief, principal; nearest/next; [in primis => especially]",
+    "grammar": "ADJ 1 1 ACC S F POS"
   },
   "primo": {
     "lemma": "primus, prima, primum ADJ",
@@ -23861,6 +28026,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "princeps, (gen.), principis ADJ",
     "en": "first, foremost, leading, chief, front; earliest, original; most necessary",
     "grammar": "ADJ 3 1 NOM P C POS"
+  },
+  "principibus": {
+    "lemma": "princeps, (gen.), principis ADJ",
+    "en": "first, foremost, leading, chief, front; earliest, original; most necessary",
+    "grammar": "ADJ 3 1 DAT P X POS"
   },
   "priore": {
     "lemma": "prior, prioris N (3rd) M",
@@ -23952,10 +28122,25 @@ Object.assign(LATIN_DICT, {
     "en": "approve (of), esteem/commend/recommend/certify; give assent/approval/sanction",
     "grammar": "V 1 1 PRES ACTIVE IND 1 S"
   },
+  "procacibus": {
+    "lemma": "procax, (gen.), procacis ADJ",
+    "en": "pushing, impudent; undisciplined; frivolous",
+    "grammar": "ADJ 3 1 DAT P X POS"
+  },
   "procedet": {
     "lemma": "procedo, procedere, processi, processus V (3rd)",
     "en": "proceed; advance; appear",
     "grammar": "V 3 1 FUT ACTIVE IND 3 S"
+  },
+  "proceres": {
+    "lemma": "Ceres, Cereris N (3rd) F",
+    "en": "Ceres (goddess of grain/fruits); wheat; bread; food; before -, in front of -",
+    "grammar": "N 3 1 NOM S F + PREFIX"
+  },
+  "proceribus": {
+    "lemma": "proceres, procerum (pl.)",
+    "en": "to/for/by the nobles, chief men",
+    "grammar": "N DAT/ABL P M"
   },
   "processit": {
     "lemma": "procedo, procedere, processi, processus V (3rd)",
@@ -24032,6 +28217,11 @@ Object.assign(LATIN_DICT, {
     "en": "go/come forth/out, advance; appear; sprout/spring up; issue/extend/project",
     "grammar": "V 6 1 PRES PASSIVE IND 2 S"
   },
+  "prodita": {
+    "lemma": "prodo, prodere, prodidi, proditus V (3rd) TRANS",
+    "en": "project, thrust forward; bring forth, produce, give birth to; create; nominate",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "proditum": {
     "lemma": "prodo, prodere, prodidi, proditus V (3rd) TRANS",
     "en": "project, thrust forward; bring forth, produce, give birth to; create; nominate",
@@ -24062,6 +28252,11 @@ Object.assign(LATIN_DICT, {
     "en": "battle/fight/bout/conflict/dispute; armed/hostile encounter; bout of strength",
     "grammar": "N 2 4 DAT S N"
   },
+  "profatur": {
+    "lemma": "profor, profari, profatus sum V (1st) DEP",
+    "en": "speak out",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
   "profecerim": {
     "lemma": "proficio, proficere, profeci, profectus V (3rd)",
     "en": "make, accomplish, effect",
@@ -24076,6 +28271,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "proficio, proficere, profeci, profectus V (3rd)",
     "en": "make, accomplish, effect",
     "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL"
+  },
+  "profectis": {
+    "lemma": "proficio, proficere, profeci, profectus V (3rd)",
+    "en": "make, accomplish, effect",
+    "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
   },
   "profecto": {
     "lemma": "proficio, proficere, profeci, profectus V (3rd)",
@@ -24123,6 +28323,11 @@ Object.assign(LATIN_DICT, {
     "grammar": "V 3 2 PRES PASSIVE IND 2 S"
   },
   "professione": {
+    "lemma": "professio, professionis N (3rd) F",
+    "en": "declaration/avowal/profession; formal declaration/return; profession/occupation",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "professioni": {
     "lemma": "professio, professionis N (3rd) F",
     "en": "declaration/avowal/profession; formal declaration/return; profession/occupation",
     "grammar": "N 3 1 DAT S F"
@@ -24197,10 +28402,30 @@ Object.assign(LATIN_DICT, {
     "en": "be useful, be advantageous, benefit, profit (with DAT)",
     "grammar": "VPAR 5 1 NOM S F FUT ACTIVE PPL"
   },
+  "profuturis": {
+    "lemma": "prosum, prodesse, profui, profuturus V (5th) TO_BEING",
+    "en": "be useful, be advantageous, benefit, profit (with DAT)",
+    "grammar": "VPAR 5 1 DAT P X FUT ACTIVE PPL"
+  },
   "progredi": {
     "lemma": "progredior, progredi, progressus sum V (3rd) DEP",
     "en": "go, come forth, go forward, march forward; advance. proceed. make progress",
     "grammar": "V 3 1 PRES PASSIVE INF 0 X"
+  },
+  "progressum": {
+    "lemma": "progredior, progredi, progressus sum V (3rd) DEP",
+    "en": "go, come forth, go forward, march forward; advance. proceed. make progress",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
+  "prohibe": {
+    "lemma": "prohibeo, prohibere, prohibui, prohibitus V (2nd)",
+    "en": "hinder, restrain; forbid, prevent",
+    "grammar": "V 2 1 PRES ACTIVE IMP 2 S"
+  },
+  "prohibemur": {
+    "lemma": "prohibeo, prohibere, prohibui, prohibitus V (2nd)",
+    "en": "hinder, restrain; forbid, prevent",
+    "grammar": "V 2 1 PRES PASSIVE IND 1 P"
   },
   "prohibetur": {
     "lemma": "prohibeo, prohibere, prohibui, prohibitus V (2nd)",
@@ -24216,6 +28441,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "proicio, proicere, projeci, projectus V (3rd) TRANS",
     "en": "throw down, throw out; abandon; throw away",
     "grammar": "VPAR 3 1 GEN P M PERF PASSIVE PPL"
+  },
+  "proluit": {
+    "lemma": "proluo, proluere, prolui, prolutus V (3rd)",
+    "en": "wash out; wash away; wash up; purify",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "promiseras": {
     "lemma": "promitto, promittere, promisi, promissus V (3rd)",
@@ -24276,6 +28506,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "propero, properare, properavi, properatus V (1st)",
     "en": "hurry, speed up; be quick",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "properent": {
+    "lemma": "propero, properare, properavi, properatus V (1st)",
+    "en": "hurry, speed up; be quick",
+    "grammar": "V 1 1 PRES ACTIVE SUB 3 P"
   },
   "propinqui": {
     "lemma": "propinquus, propinqua, propinquum ADJ",
@@ -24357,10 +28592,20 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "PREP + TACKON"
   },
+  "prorsum": {
+    "lemma": "prorsum ADV",
+    "en": "forwards, right onward; absolutely, entirely, utterly, by all means; in short",
+    "grammar": "ADV"
+  },
   "prorsus": {
     "lemma": "prorsus ADV",
     "en": "forwards, right onward; absolutely, entirely, utterly, by all means; in short",
     "grammar": "ADV"
+  },
+  "prorumpere": {
+    "lemma": "prorumpo, prorumpere, prorupi, proruptus V (3rd)",
+    "en": "rush forth, break out",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "prosequitur": {
     "lemma": "prosequor, prosequi, prosecutus sum V (3rd) DEP",
@@ -24432,6 +28677,11 @@ Object.assign(LATIN_DICT, {
     "en": "foresee; provide for, make provision; with DAT",
     "grammar": "VPAR 2 1 NOM P N PRES ACTIVE PPL"
   },
+  "provinciarum": {
+    "lemma": "provincia, provinciae N (1st) F",
+    "en": "province; office; duty; command",
+    "grammar": "N 1 1 GEN P F"
+  },
   "provisa": {
     "lemma": "provideo, providere, providi, provisus V (2nd)",
     "en": "foresee; provide for, make provision; with DAT",
@@ -24441,6 +28691,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "visio, visionis N (3rd) F",
     "en": "vision; before -, in front of -",
     "grammar": "N 3 1 NOM S F + PREFIX"
+  },
+  "provocas": {
+    "lemma": "provoco, provocare, provocavi, provocatus V (1st)",
+    "en": "call forth; challenge; provoke",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
   },
   "proximam": {
     "lemma": "proximus, proxima, proximum",
@@ -24637,6 +28892,11 @@ Object.assign(LATIN_DICT, {
     "en": "fight; dispute; [pugnatum est => the battle raged]",
     "grammar": "VPAR 1 1 GEN P X PRES ACTIVE PPL"
   },
+  "pugnas": {
+    "lemma": "pugna, pugnae N (1st) F",
+    "en": "battle, fight",
+    "grammar": "N 1 1 ACC P F"
+  },
   "pugnatum": {
     "lemma": "pugno, pugnare, pugnavi, pugnatus V (1st)",
     "en": "fight; dispute; [pugnatum est => the battle raged]",
@@ -24667,6 +28927,11 @@ Object.assign(LATIN_DICT, {
     "en": "beauty, excellence",
     "grammar": "N 3 1 ACC S F"
   },
+  "pulvis": {
+    "lemma": "pulvis, pulveris N (3rd) M",
+    "en": "dust, powder; sand",
+    "grammar": "N 3 1 NOM S M"
+  },
   "pupillus": {
     "lemma": "pupillus, pupilli N (2nd) M",
     "en": "orphan, ward",
@@ -24677,10 +28942,25 @@ Object.assign(LATIN_DICT, {
     "en": "little boy; puppet",
     "grammar": "N 2 1 NOM S M"
   },
+  "pura": {
+    "lemma": "purus, pura -um, purior -or -us, purissimus -a -um ADJ",
+    "en": "pure, clean, unsoiled; free from defilement/taboo/stain; blameless, innocent",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "purae": {
     "lemma": "purus, pura -um, purior -or -us, purissimus -a -um ADJ",
     "en": "pure, clean, unsoiled; free from defilement/taboo/stain; blameless, innocent",
     "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "purgat": {
+    "lemma": "purgo, purgare, purgavi, purgatus V (1st)",
+    "en": "make clean, cleanse; excuse",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "purpureum": {
+    "lemma": "purpureus, purpurea, purpureum ADJ",
+    "en": "purple, dark red",
+    "grammar": "ADJ 1 1 NOM S N POS"
   },
   "puta": {
     "lemma": "puto, putare, putavi, putatus V (1st) TRANS",
@@ -24857,6 +29137,11 @@ Object.assign(LATIN_DICT, {
     "en": "search for, seek, strive for; obtain; ask, inquire, demand",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "quaeritis": {
+    "lemma": "quaero, quaerere, quaesivi, quaesitus V (3rd)",
+    "en": "search for, seek, strive for; obtain; ask, inquire, demand",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 P"
+  },
   "quaeritote": {
     "lemma": "quaero, quaerere, quaesivi, quaesitus V (3rd)",
     "en": "search for, seek, strive for; obtain; ask, inquire, demand",
@@ -24901,6 +29186,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "quaestio, quaestionis N (3rd) F",
     "en": "questioning, inquiry; investigation",
     "grammar": "N 3 1 DAT S F"
+  },
+  "quaeve": {
+    "lemma": "qu PRON",
+    "en": "-ve = or if you will (enclitic); or as you please; or; rare",
+    "grammar": "PRON 1 0 NOM S F + TACKON"
   },
   "quale": {
     "lemma": "qualis, qualis, quale ADJ",
@@ -24957,6 +29247,11 @@ Object.assign(LATIN_DICT, {
     "en": "whenever, at whatever time; at some time or other/any time/ever; whereas",
     "grammar": "ADV"
   },
+  "quanquam": {
+    "lemma": "quanquam CONJ",
+    "en": "though, although; yet; nevertheless",
+    "grammar": "CONJ"
+  },
   "quanta": {
     "lemma": "quantus, quanta, quantum ADJ",
     "en": "how great; how much/many; of what size/amount/degree/number/worth/price",
@@ -24992,6 +29287,11 @@ Object.assign(LATIN_DICT, {
     "en": "however much; as much as you please",
     "grammar": "ADV"
   },
+  "quantus": {
+    "lemma": "quantus, quanta, quantum ADJ",
+    "en": "how great; how much/many; of what size/amount/degree/number/worth/price",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "quapropter": {
     "lemma": "quapropter ADV",
     "en": "wherefore, why, for what?",
@@ -25016,6 +29316,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "qu PRON",
     "en": "PACKON w/qui-anyone; -whatever; what you will; no matter which",
     "grammar": "PRON 1 0 ACC P F + TACKON"
+  },
+  "quassatam": {
+    "lemma": "quasso, quassare, quassavi, quassatus V (1st)",
+    "en": "shake repeatedly; wave, flourish; batter; weaken",
+    "grammar": "VPAR 1 1 ACC S F PERF PASSIVE PPL"
   },
   "quassos": {
     "lemma": "quatio, quatere, -, quassus V (3rd)",
@@ -25152,6 +29457,11 @@ Object.assign(LATIN_DICT, {
     "en": "indeed (postpositive), certainly, even, at least; ne...quidem -- not...even",
     "grammar": "ADV"
   },
+  "quidlibet": {
+    "lemma": "qu PRON",
+    "en": "PACKON w/qui-anyone; -whatever; what you will; no matter which",
+    "grammar": "PRON 1 0 NOM S N + TACKON"
+  },
   "quidni": {
     "lemma": "quidni ADV",
     "en": "why not?",
@@ -25232,10 +29542,20 @@ Object.assign(LATIN_DICT, {
     "en": "fifty",
     "grammar": "NUM"
   },
+  "quinquaginta": {
+    "lemma": "quinquaginta NUM",
+    "en": "fifty",
+    "grammar": "NUM"
+  },
   "quinquennio": {
     "lemma": "quinquennium, quinquenni(i) N (2nd) N",
     "en": "period of five years; (sometimes applied by old inclusive rule to four years)",
     "grammar": "N 2 4 DAT S N"
+  },
+  "quintiles": {
+    "lemma": "Quintilis, Quintilis, Quintile ADJ",
+    "en": "July (month/mensis); abb. Quin.??; renamed Julius in 44 BC; in 5th place",
+    "grammar": "ADJ 3 2 NOM P C POS"
   },
   "quintius": {
     "lemma": "Quintus, Quinti N (2nd) M",
@@ -25342,6 +29662,11 @@ Object.assign(LATIN_DICT, {
     "en": "what number of?; how many?; what ever number of, as many as; the number that",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "quotidie": {
+    "lemma": "quotidie ADV",
+    "en": "daily, every day; day by day; usually, ordinarily, commonly",
+    "grammar": "ADV"
+  },
   "quotiens": {
     "lemma": "quotiens ADV",
     "en": "how often; as often as",
@@ -25392,6 +29717,16 @@ Object.assign(LATIN_DICT, {
     "en": "drag off; snatch; destroy; seize, carry off; pillage; hurry",
     "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
+  "raptas": {
+    "lemma": "rapio, rapere, rapui, raptus V (3rd)",
+    "en": "drag off; snatch; destroy; seize, carry off; pillage; hurry",
+    "grammar": "VPAR 3 1 ACC P F PERF PASSIVE PPL"
+  },
+  "raptaverat": {
+    "lemma": "rapto, raptare, raptavi, raptatus V (1st)",
+    "en": "drag violently off; ravage",
+    "grammar": "V 1 1 PLUP ACTIVE IND 3 S"
+  },
   "rapuit": {
     "lemma": "rapio, rapere, rapui, raptus V (3rd)",
     "en": "drag off; snatch; destroy; seize, carry off; pillage; hurry",
@@ -25432,6 +29767,11 @@ Object.assign(LATIN_DICT, {
     "en": "account, reckoning, invoice; plan; prudence; method; reasoning; rule; regard",
     "grammar": "N 3 1 DAT P F"
   },
+  "rationis": {
+    "lemma": "ratio, rationis N (3rd) F",
+    "en": "account, reckoning, invoice; plan; prudence; method; reasoning; rule; regard",
+    "grammar": "N 3 1 GEN S F"
+  },
   "re": {
     "lemma": "res, rei N (5th) F",
     "en": "thing; event/affair/business; fact; cause; property; [~ familiaris => property]",
@@ -25441,6 +29781,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "reapse ADV",
     "en": "in truth, really",
     "grammar": "ADV"
+  },
+  "rebar": {
+    "lemma": "reor, reri, ratus sum V (2nd) DEP",
+    "en": "think, regard; deem; suppose, believe, reckon",
+    "grammar": "V 2 1 IMPF PASSIVE IND 1 S"
   },
   "recede": {
     "lemma": "recedo, recedere, recessi, recessus V (3rd)",
@@ -25461,6 +29806,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "recipio, recipere, recepi, receptus V (3rd)",
     "en": "keep back; recover; undertake; guarantee; accept, take in; take back",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "recepto": {
+    "lemma": "recipio, recipere, recepi, receptus V (3rd)",
+    "en": "keep back; recover; undertake; guarantee; accept, take in; take back",
+    "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "receptos": {
+    "lemma": "recipio, recipere, recepi, receptus V (3rd)",
+    "en": "keep back; recover; undertake; guarantee; accept, take in; take back",
+    "grammar": "VPAR 3 1 ACC P M PERF PASSIVE PPL"
   },
   "recesserint": {
     "lemma": "recedo, recedere, recessi, recessus V (3rd)",
@@ -25507,10 +29862,20 @@ Object.assign(LATIN_DICT, {
     "en": "read aloud, recite; name in writing",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "recognoscas": {
+    "lemma": "recognosco, recognoscere, recognovi, recognitus V (3rd)",
+    "en": "recognize, recollect",
+    "grammar": "V 3 1 PRES ACTIVE SUB 2 S"
+  },
   "recognosce": {
     "lemma": "recognosco, recognoscere, recognovi, recognitus V (3rd)",
     "en": "recognize, recollect",
     "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
+  "recondam": {
+    "lemma": "recondo, recondere, recondidi, reconditus V (3rd)",
+    "en": "hide, conceal; put away",
+    "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
   "recondidi": {
     "lemma": "recondo, recondere, recondidi, reconditus V (3rd)",
@@ -25532,6 +29897,11 @@ Object.assign(LATIN_DICT, {
     "en": "recollection",
     "grammar": "N 3 1 DAT S F"
   },
+  "recreatus": {
+    "lemma": "recreo, recreare, recreavi, recreatus V (1st)",
+    "en": "restore, revive",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
   "recte": {
     "lemma": "rego, regere, rexi, rectus V (3rd)",
     "en": "rule, guide; manage, direct",
@@ -25547,6 +29917,11 @@ Object.assign(LATIN_DICT, {
     "en": "rule, guide; manage, direct",
     "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
   },
+  "rectius": {
+    "lemma": "rectus, recta -um, rectior -or -us, rectissimus -a -um ADJ",
+    "en": "right, proper; straight; honest",
+    "grammar": "ADJ 1 1 NOM S N COMP"
+  },
   "rectum": {
     "lemma": "rego, regere, rexi, rectus V (3rd)",
     "en": "rule, guide; manage, direct",
@@ -25556,6 +29931,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "recurro, recurrere, recucurri, recursus V (3rd)",
     "en": "run or hasten back; return; have recourse (to)",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "recursat": {
+    "lemma": "recurso, recursare, recursavi, recursatus V (1st)",
+    "en": "keep rebounding/recoiling; keep recurring to the mind",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
   "recusarent": {
     "lemma": "recuso, recusare, recusavi, recusatus V (1st)",
@@ -25637,6 +30017,11 @@ Object.assign(LATIN_DICT, {
     "en": "return, go back, give back; fall back on, revert to; respond, pay back",
     "grammar": "VPAR 6 1 GEN S M FUT ACTIVE PPL"
   },
+  "redolentque": {
+    "lemma": "redoleo, redolere, redolui, - V (2nd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P + TACKON"
+  },
   "reduceretur": {
     "lemma": "reduco, reducere, reduxi, reductus V (3rd)",
     "en": "lead back, bring back; restore; reduce",
@@ -25712,6 +30097,16 @@ Object.assign(LATIN_DICT, {
     "en": "flee back; run away, escape",
     "grammar": "V 3 1 PERF ACTIVE IND 3 P"
   },
+  "regali": {
+    "lemma": "regalis, regalis, regale ADJ",
+    "en": "royal, regal",
+    "grammar": "ADJ 3 2 DAT S X POS"
+  },
+  "regalis": {
+    "lemma": "regalis, regalis, regale ADJ",
+    "en": "royal, regal",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
   "rege": {
     "lemma": "rex, regis N (3rd) M",
     "en": "king",
@@ -25722,15 +30117,55 @@ Object.assign(LATIN_DICT, {
     "en": "rule, guide; manage, direct",
     "grammar": "V 3 1 FUT ACTIVE IND 2 S"
   },
+  "regesque": {
+    "lemma": "rego, regere, rexi, rectus V (3rd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S + TACKON"
+  },
+  "regia": {
+    "lemma": "regius, regia, regium ADJ",
+    "en": "royal, of a king, regal",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
   "regiae": {
     "lemma": "regius, regia, regium ADJ",
     "en": "royal, of a king, regal",
     "grammar": "ADJ 1 1 GEN S F POS"
   },
+  "regii": {
+    "lemma": "regius, regia, regium ADJ",
+    "en": "royal, of a king, regal",
+    "grammar": "ADJ 1 1 GEN S M POS"
+  },
+  "reginam": {
+    "lemma": "regina, reginae N (1st) F",
+    "en": "queen",
+    "grammar": "N 1 1 ACC S F"
+  },
+  "regionibus": {
+    "lemma": "regio, regionis N (3rd) F",
+    "en": "area, region; neighborhood; district, country; direction",
+    "grammar": "N 3 1 DAT P F"
+  },
+  "regionis": {
+    "lemma": "regio, regionis N (3rd) F",
+    "en": "area, region; neighborhood; district, country; direction",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "regius": {
+    "lemma": "regius, regia, regium ADJ",
+    "en": "royal, of a king, regal",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "regnavit": {
     "lemma": "regno, regnare, regnavi, regnatus V (1st)",
     "en": "reign, rule; be king; play the lord, be master",
     "grammar": "V 1 1 PERF ACTIVE IND 3 S"
+  },
+  "regnisque": {
+    "lemma": "regnum, regni N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 2 DAT P N + TACKON"
   },
   "regnum": {
     "lemma": "regnum, regni N (2nd) N",
@@ -25762,10 +30197,20 @@ Object.assign(LATIN_DICT, {
     "en": "worthless; useless; wasted",
     "grammar": "ADJ 1 1 ACC P M POS"
   },
+  "reipublice": {
+    "lemma": "res publica, rei publicae",
+    "en": "of/to the republic, the state (medieval spelling of reipublicae, written as one word)",
+    "grammar": "N GEN/DAT S F (medieval spelling)"
+  },
   "relabuntur": {
     "lemma": "relabor, relabi, relapsus sum V (3rd) DEP",
     "en": "fall back, vanish",
     "grammar": "V 3 1 PRES PASSIVE IND 3 P"
+  },
+  "relegenti": {
+    "lemma": "relego, relegere, relegi, relectus V (3rd)",
+    "en": "read again, reread",
+    "grammar": "VPAR 3 1 DAT S X PRES ACTIVE PPL"
   },
   "relicti": {
     "lemma": "relinquo, relinquere, reliqui, relictus V (3rd)",
@@ -25852,6 +30297,16 @@ Object.assign(LATIN_DICT, {
     "en": "leave behind, abandon; (pass.) be left, remain; bequeath",
     "grammar": "V 3 1 PERF ACTIVE INF 0 X"
   },
+  "reliquisti": {
+    "lemma": "relinquo, relinquere, reliqui, relictus V (3rd)",
+    "en": "leave behind, abandon; (pass.) be left, remain; bequeath",
+    "grammar": "V 3 1 PERF ACTIVE IND 2 S"
+  },
+  "reliquum": {
+    "lemma": "reliquum, reliqui N (2nd) N",
+    "en": "that left after subtraction/elimination, remainder, residue, rest; balance owed",
+    "grammar": "N 2 2 NOM S N"
+  },
   "rem": {
     "lemma": "res, rei N (5th) F",
     "en": "thing; event/affair/business; fact; cause; property; [~ familiaris => property]",
@@ -25911,6 +30366,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "remoror, remorari, remoratus sum V (1st) DEP",
     "en": "delay",
     "grammar": "V 1 1 FUT PASSIVE IND 3 S"
+  },
+  "remos": {
+    "lemma": "remus, remi N (2nd) M",
+    "en": "oar",
+    "grammar": "N 2 1 NOM S M"
   },
   "remoti": {
     "lemma": "removeo, removere, removi, remotus V (2nd)",
@@ -25976,6 +30436,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "repente ADV",
     "en": "suddenly, unexpectedly",
     "grammar": "ADV"
+  },
+  "repentinis": {
+    "lemma": "repentinus, repentina, repentinum ADJ",
+    "en": "sudden, hasty; unexpected",
+    "grammar": "ADJ 1 1 DAT P X POS"
   },
   "reperietur": {
     "lemma": "reperio, reperire, repperi, repertus V (4th) TRANS",
@@ -26117,6 +30582,11 @@ Object.assign(LATIN_DICT, {
     "en": "sit down/on/in; settle; be perched; remain seated/idle/fixed/in place; squat",
     "grammar": "V 2 1 PERF ACTIVE INF 0 X"
   },
+  "resedit": {
+    "lemma": "resideo, residere, resedi, resessus V (2nd)",
+    "en": "sit down/on/in; settle; be perched; remain seated/idle/fixed/in place; squat",
+    "grammar": "V 2 1 PERF ACTIVE IND 3 S"
+  },
   "reseruare": {
     "lemma": "reservo, reservare, reservavi, reservatus V (1st)",
     "en": "reserve; spare; hold on to",
@@ -26126,6 +30596,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "resido, residere, residi, - V (3rd)",
     "en": "sit down; settle; abate; subside, quieten down",
     "grammar": "V 3 1 IMPF ACTIVE IND 3 P"
+  },
+  "resides": {
+    "lemma": "resido, residere, residi, - V (3rd)",
+    "en": "sit down; settle; abate; subside, quieten down",
+    "grammar": "V 3 1 FUT ACTIVE IND 2 S"
   },
   "resistatur": {
     "lemma": "resisto, resistere, restiti, - V (3rd)",
@@ -26141,6 +30616,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "resolvo, resolvere, resolvi, resolutus V (3rd)",
     "en": "loosen, release, disperse, melt; relax; pay; enervate, pay back; break up",
     "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL"
+  },
+  "respectant": {
+    "lemma": "respecto, respectare, respectavi, respectatus V (1st)",
+    "en": "keep on looking round or back; await; have regard for",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "respexit": {
     "lemma": "respicio, respicere, respexi, respectus V (3rd)",
@@ -26167,6 +30647,11 @@ Object.assign(LATIN_DICT, {
     "en": "answer",
     "grammar": "V 2 1 FUT ACTIVE IND 3 S"
   },
+  "respondent": {
+    "lemma": "respondeo, respondere, respondi, responsus V (2nd)",
+    "en": "answer",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 P"
+  },
   "respondeo": {
     "lemma": "respondeo, respondere, respondi, responsus V (2nd)",
     "en": "answer",
@@ -26187,6 +30672,11 @@ Object.assign(LATIN_DICT, {
     "en": "answer",
     "grammar": "VPAR 2 1 NOM S F PERF PASSIVE PPL"
   },
+  "responsurus": {
+    "lemma": "respondeo, respondere, respondi, responsus V (2nd)",
+    "en": "answer",
+    "grammar": "VPAR 2 1 NOM S M FUT ACTIVE PPL"
+  },
   "respuat": {
     "lemma": "respuo, respuere, respui, - V (3rd) TRANS",
     "en": "reject, spit, spew out; turn away, repel; reject, destain, spurn, refuse",
@@ -26195,6 +30685,26 @@ Object.assign(LATIN_DICT, {
   "respuit": {
     "lemma": "respuo, respuere, respui, - V (3rd) TRANS",
     "en": "reject, spit, spew out; turn away, repel; reject, destain, spurn, refuse",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
+  "restabat": {
+    "lemma": "resto, restare, restiti, - V (1st)",
+    "en": "stand firm; stay behind; be left, be left over; remain",
+    "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
+  },
+  "restantia": {
+    "lemma": "resto, restare, restiti, - V (1st)",
+    "en": "stand firm; stay behind; be left, be left over; remain",
+    "grammar": "VPAR 1 1 NOM P N PRES ACTIVE PPL"
+  },
+  "restat": {
+    "lemma": "resto, restare, restiti, - V (1st)",
+    "en": "stand firm; stay behind; be left, be left over; remain",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "restitit": {
+    "lemma": "resisto, resistere, restiti, - V (3rd)",
+    "en": "pause; continue; resist, oppose; reply; withstand, stand (DAT); make a stand",
     "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "restituet": {
@@ -26216,6 +30726,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "restringo, restringere, restrinxi, restrictus V (3rd)",
     "en": "draw tight; fasten behind one, tie up",
     "grammar": "VPAR 3 1 VOC S M PERF PASSIVE PPL"
+  },
+  "resupinus": {
+    "lemma": "resupinus, resupina, resupinum ADJ",
+    "en": "lying on one's back",
+    "grammar": "ADJ 1 1 NOM S M POS"
   },
   "retemptare": {
     "lemma": "retempto, retemptare, retemptavi, retemptatus V (1st) TRANS",
@@ -26317,15 +30832,30 @@ Object.assign(LATIN_DICT, {
     "en": "Rhine; (river dividing Gaul and Germany - in Caesar's Gallic War)",
     "grammar": "N 2 1 ACC S M"
   },
+  "rhesi": {
+    "lemma": "Rhesus, Rhesi",
+    "en": "of Rhesus (Thracian king slain at Troy by Diomedes)",
+    "grammar": "N GEN S M (proper name)"
+  },
   "ridicula": {
     "lemma": "ridicula, ridiculae N (1st) F",
     "en": "small wooden stake for supporting vines; small vine prop",
     "grammar": "N 1 1 NOM S F"
   },
+  "rigentem": {
+    "lemma": "rigeo, rigere, -, - V (2nd)",
+    "en": "be stiff or numb; stand on end; be solidified",
+    "grammar": "VPAR 2 1 ACC S C PRES ACTIVE PPL"
+  },
   "rigidus": {
     "lemma": "rigidus, rigida, rigidum ADJ",
     "en": "stiff, hard; stern; rough",
     "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "ripam": {
+    "lemma": "ripa, ripae N (1st) F",
+    "en": "bank",
+    "grammar": "N 1 1 ACC S F"
   },
   "risit": {
     "lemma": "rideo, ridere, risi, risus V (2nd)",
@@ -26402,6 +30932,11 @@ Object.assign(LATIN_DICT, {
     "en": "ask, ask for; invite; introduce",
     "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
   },
+  "rogitans": {
+    "lemma": "rogito, rogitare, rogitavi, rogitatus V (1st)",
+    "en": "ask, inquire",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
+  },
   "rogo": {
     "lemma": "rogus, rogi N (2nd) M",
     "en": "funeral pyre",
@@ -26416,6 +30951,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "romanus, romana, romanum ADJ",
     "en": "Roman",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "romanas": {
+    "lemma": "romanus, romana, romanum ADJ",
+    "en": "Roman",
+    "grammar": "ADJ 1 1 ACC P F POS"
   },
   "romani": {
     "lemma": "romanus, romana, romanum ADJ",
@@ -26472,6 +31012,11 @@ Object.assign(LATIN_DICT, {
     "en": "wrinkle; crease, small fold",
     "grammar": "N 1 1 ACC P F"
   },
+  "ruinis": {
+    "lemma": "ruina, ruinae N (1st) F",
+    "en": "fall; catastrophe; collapse, destruction",
+    "grammar": "N 1 1 DAT P F"
+  },
   "ruit": {
     "lemma": "ruo, ruere, rui, rutus V (3rd)",
     "en": "destroy, ruin, overthrow; rush on, run; fall; charge (in + ACC); be ruined",
@@ -26492,6 +31037,11 @@ Object.assign(LATIN_DICT, {
     "en": "break; destroy",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "rupibus": {
+    "lemma": "rupes, rupis N (3rd) F",
+    "en": "cliff; rock",
+    "grammar": "N 3 3 DAT P F"
+  },
   "rupilio": {
     "lemma": "Rupilius, Rupilii",
     "en": "Rupilius",
@@ -26501,6 +31051,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "rupes, rupis N (3rd) F",
     "en": "cliff; rock; -il; of a ~, pertaining to a ~, in a condition of ~, in a state of ~",
     "grammar": "ADJ 3 0 GEN P X POS + SUFFIX"
+  },
+  "rura": {
+    "lemma": "rus, ruris N (3rd) N",
+    "en": "country, farm",
+    "grammar": "N 3 2 NOM P N"
+  },
+  "rure": {
+    "lemma": "rus, ruris N (3rd) N",
+    "en": "country, farm",
+    "grammar": "N 3 2 DAT S N"
   },
   "rursum": {
     "lemma": "rursum ADV",
@@ -26522,6 +31082,11 @@ Object.assign(LATIN_DICT, {
     "en": "red, golden red, reddish yellow",
     "grammar": "ADJ 1 1 GEN S M POS"
   },
+  "sacerdotibus": {
+    "lemma": "sacerdos, sacerdotis",
+    "en": "to/for/by the priests",
+    "grammar": "N DAT/ABL P C"
+  },
   "sacerdotiis": {
     "lemma": "sacerdotium, sacerdoti(i) N (2nd) N",
     "en": "priesthood; benefice/living (Erasmus)",
@@ -26541,6 +31106,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "sacer, sacra, sacrum ADJ",
     "en": "sacred, holy, consecrated; accursed, horrible, detestable",
     "grammar": "ADJ 1 2 GEN P F POS"
+  },
+  "sacrata": {
+    "lemma": "sacro, sacrare, sacravi, sacratus V (1st)",
+    "en": "consecrate, make sacred, dedicate",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
+  },
+  "sacrificanti": {
+    "lemma": "sacrifico, sacrificare, sacrificavi, sacrificatus V (1st)",
+    "en": "sacrifice; celebrate the Mass (Erasmus)",
+    "grammar": "VPAR 1 1 DAT S X PRES ACTIVE PPL"
   },
   "saeculis": {
     "lemma": "saeculum, saeculi N (2nd) N",
@@ -26567,15 +31142,40 @@ Object.assign(LATIN_DICT, {
     "en": "often, oft, oftimes, many times, frequently",
     "grammar": "ADV"
   },
+  "saepta": {
+    "lemma": "saepio, saepire, saepsi, saeptus V (4th) TRANS",
+    "en": "surround/envelop/enfold/encircle; clothe/cover/protect; close/seal off; shut in",
+    "grammar": "VPAR 3 4 NOM S F PERF PASSIVE PPL"
+  },
+  "saeptus": {
+    "lemma": "saepio, saepire, saepsi, saeptus V (4th) TRANS",
+    "en": "surround/envelop/enfold/encircle; clothe/cover/protect; close/seal off; shut in",
+    "grammar": "VPAR 3 4 NOM S M PERF PASSIVE PPL"
+  },
   "saeua": {
     "lemma": "saevus, saeva -um, saevior -or -us, saevissimus -a -um ADJ",
     "en": "savage; fierce/ferocious; violent/wild/raging; cruel, harsh, severe; vehement",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "saevum": {
+    "lemma": "saevus, saeva -um, saevior -or -us, saevissimus -a -um ADJ",
+    "en": "savage; fierce/ferocious; violent/wild/raging; cruel, harsh, severe; vehement",
+    "grammar": "ADJ 1 1 NOM S N POS"
+  },
   "sales": {
     "lemma": "sal, salis N (3rd) M",
     "en": "salt; wit",
     "grammar": "N 3 1 NOM P M"
+  },
+  "salo": {
+    "lemma": "salum, sali N (2nd) N",
+    "en": "open sea, high sea, main, deep, ocean; sea in motion, billow, waves",
+    "grammar": "N 2 2 DAT S N"
+  },
+  "saltem": {
+    "lemma": "saltem ADV",
+    "en": "at least, anyhow, in all events; (on to more practical idea); even, so much as",
+    "grammar": "ADV"
   },
   "saltim": {
     "lemma": "saltim ADV",
@@ -26591,6 +31191,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "salubriter, salubrius, salubrissime ADV",
     "en": "wholesomely, w/advantage to health; beneficially, profitably; cheaply",
     "grammar": "ADV"
+  },
+  "salubrium": {
+    "lemma": "saluber, salubris -e, salubrior -or -us, saluberrimus -a -um ADJ",
+    "en": "healthy, salubrious; salutary, beneficial; in good condition (body); wholesome",
+    "grammar": "ADJ 3 3 GEN P X POS"
   },
   "salus": {
     "lemma": "salus, salutis N (3rd) F",
@@ -26656,6 +31261,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "sanctus, sancta -um, sanctior -or -us, sanctissimus -a -um ADJ",
     "en": "consecrated, sacred, inviolable; venerable, august, divine, holy, pious, just",
     "grammar": "ADJ 1 1 GEN S M SUPER"
+  },
+  "sanctitate": {
+    "lemma": "sanctitas, sanctitatis N (3rd) F",
+    "en": "inviolability, sanctity, moral purity, virtue, piety, purity, holiness",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "sanctum": {
+    "lemma": "sancio, sancire, sanxi, sanctus V (4th) TRANS",
+    "en": "confirm, ratify; sanction; fulfill (prophesy); enact (law); ordain; dedicate",
+    "grammar": "VPAR 3 4 NOM S N PERF PASSIVE PPL"
   },
   "sane": {
     "lemma": "sanus, sana, sanum ADJ",
@@ -26772,6 +31387,11 @@ Object.assign(LATIN_DICT, {
     "en": "better, more serviceable/satisfactory; fitter, preferable; (COMP of satis)",
     "grammar": "ADJ 9 9 X X X POS"
   },
+  "saturniaque": {
+    "lemma": "Saturnius, Saturnia, Saturnium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S F POS + TACKON"
+  },
   "saturo": {
     "lemma": "saturo, saturare, saturavi, saturatus V (1st)",
     "en": "fill to repletion, sate, satisfy; drench, saturate",
@@ -26787,6 +31407,11 @@ Object.assign(LATIN_DICT, {
     "en": "actor",
     "grammar": "N 2 1 GEN S M"
   },
+  "scaenis": {
+    "lemma": "scaena, scaenae N (1st) F",
+    "en": "theater stage, \"boards\"; scene; theater; public stage/view, publicity",
+    "grammar": "N 1 1 DAT P F"
+  },
   "scaevola": {
     "lemma": "Scaevola, Scaevolae",
     "en": "Scaevola",
@@ -26801,6 +31426,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "Scaevola, Scaevolae",
     "en": "Scaevola",
     "grammar": "N ACC S M (proper name)"
+  },
+  "sceptrum": {
+    "lemma": "sceptrum, sceptri N (2nd) N",
+    "en": "scepter",
+    "grammar": "N 2 2 NOM S N"
   },
   "schola": {
     "lemma": "schola, scholae N (1st) F",
@@ -26826,6 +31456,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "scio, scire, scivi, scitus V (4th) TRANS",
     "en": "know, understand",
     "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
+  },
+  "scientes": {
+    "lemma": "scio, scire, scivi, scitus V (4th) TRANS",
+    "en": "know, understand",
+    "grammar": "VPAR 3 4 NOM P C PRES ACTIVE PPL"
   },
   "scientia": {
     "lemma": "scientia, scientiae N (1st) F",
@@ -26947,6 +31582,11 @@ Object.assign(LATIN_DICT, {
     "en": "write; compose",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
   },
+  "scribentes": {
+    "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
+    "en": "write; compose",
+    "grammar": "VPAR 3 1 NOM P C PRES ACTIVE PPL"
+  },
   "scriberem": {
     "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
     "en": "write; compose",
@@ -26976,6 +31616,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
     "en": "write; compose",
     "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "scriptam": {
+    "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
+    "en": "write; compose",
+    "grammar": "VPAR 3 1 ACC S F PERF PASSIVE PPL"
+  },
+  "scriptores": {
+    "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
+    "en": "write; compose; -or; -er; indicates the doer; one who performs the action of the verb (act.or)",
+    "grammar": "N 1 7 NOM S C + SUFFIX"
+  },
+  "scriptorum": {
+    "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
+    "en": "write; compose",
+    "grammar": "VPAR 3 1 GEN P M PERF PASSIVE PPL"
   },
   "scriptus": {
     "lemma": "scribo, scribere, scripsi, scriptus V (3rd)",
@@ -27016,6 +31671,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "secessus, secessus N (4th) M",
     "en": "withdrawal; secluded place",
     "grammar": "N 4 1 NOM S M"
+  },
+  "secludite": {
+    "lemma": "secludo, secludere, seclusi, seclusus V (3rd)",
+    "en": "shut off",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 P"
   },
   "secreta": {
     "lemma": "secretus, secreta -um, secretior -or -us, secretissimus -a -um ADJ",
@@ -27067,10 +31727,20 @@ Object.assign(LATIN_DICT, {
     "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
     "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
   },
+  "secutae": {
+    "lemma": "secor, seci, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL"
+  },
   "secuti": {
     "lemma": "secor, seci, secutus sum V (3rd) DEP",
     "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
     "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
+  "secuturis": {
+    "lemma": "secor, seci, secutus sum V (3rd) DEP",
+    "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
+    "grammar": "VPAR 3 1 DAT P X FUT ACTIVE PPL"
   },
   "sedeat": {
     "lemma": "sedeo, sedere, sedi, sessus V (2nd)",
@@ -27137,6 +31807,11 @@ Object.assign(LATIN_DICT, {
     "en": "half-alive, almost dead",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "semotus": {
+    "lemma": "semotus, semota, semotum ADJ",
+    "en": "distant, remote",
+    "grammar": "ADJ 1 1 NOM S M POS"
+  },
   "semper": {
     "lemma": "semper ADV",
     "en": "always",
@@ -27176,6 +31851,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "senex, senis (gen.), senior -or -us, - ADJ",
     "en": "aged, old; [senior => Roman over 45]",
     "grammar": "ADJ 3 1 ABL S X POS"
+  },
+  "senecta": {
+    "lemma": "senecta, senectae N (1st) F",
+    "en": "old age; extreme old age; senility; old men collectively; shed snake skin",
+    "grammar": "N 1 1 NOM S F"
   },
   "senectus": {
     "lemma": "senectus, senectutis N (3rd) F",
@@ -27342,6 +32022,11 @@ Object.assign(LATIN_DICT, {
     "en": "perceive, feel, experience; think, realize, see, understand",
     "grammar": "V 4 1 PRES ACTIVE IND 3 P"
   },
+  "senuisse": {
+    "lemma": "senesco, senescere, senui, - V (3rd)",
+    "en": "grow old; grow weak, be in a decline; become exhausted",
+    "grammar": "V 3 1 PERF ACTIVE INF 0 X"
+  },
   "senum": {
     "lemma": "senex, senis (gen.), senior -or -us, - ADJ",
     "en": "aged, old; [senior => Roman over 45]",
@@ -27357,6 +32042,11 @@ Object.assign(LATIN_DICT, {
     "en": "put away from one; disregard; isolate; reserve",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "septima": {
+    "lemma": "septem NUM",
+    "en": "seven",
+    "grammar": "NUM"
+  },
   "sepulcri": {
     "lemma": "sepulcrum, sepulcri N (2nd) N",
     "en": "grave, tomb",
@@ -27366,6 +32056,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sepulcrum, sepulcri N (2nd) N",
     "en": "grave, tomb",
     "grammar": "N 2 2 GEN P N"
+  },
+  "sepultus": {
+    "lemma": "sepelio, sepelire, sepelivi, sepultus V (4th) TRANS",
+    "en": "bury/inter; (Romans cremate + inter ashes); submerge, overcome; suppress; ruin",
+    "grammar": "VPAR 3 4 NOM S M PERF PASSIVE PPL"
   },
   "sequamur": {
     "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
@@ -27381,6 +32076,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
     "en": "follow; escort/attend/accompany; aim at/reach after/strive for/make for/seek",
     "grammar": "V 3 1 PRES PASSIVE SUB 3 S"
+  },
+  "seque": {
+    "lemma": "zzz PRON",
+    "en": "PACKON w/qui => whoever it be; whatever; each, each one; everyone, everything",
+    "grammar": "PRON 5 4 ABL X C + TACKON"
   },
   "sequebantur": {
     "lemma": "sequor, sequi, secutus sum V (3rd) DEP",
@@ -27422,6 +32122,16 @@ Object.assign(LATIN_DICT, {
     "en": "wreath; join, entwine, interweave, bind together; compose; contrive",
     "grammar": "VPAR 3 1 ACC S C PRES ACTIVE PPL"
   },
+  "serestum": {
+    "lemma": "Serestus, Seresti",
+    "en": "Serestus (Trojan captain, companion of Aeneas)",
+    "grammar": "N ACC S M (proper name)"
+  },
+  "sergestumque": {
+    "lemma": "Sergestus, Sergesti N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 ACC S M + TACKON"
+  },
   "serias": {
     "lemma": "seria, seriae N (1st) F",
     "en": "large earthenware jar",
@@ -27431,6 +32141,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "series, seriei N (5th) F",
     "en": "row, series, secession, chain, train, sequence, order (gen lacking, no pl.)",
     "grammar": "N 5 1 ACC S F"
+  },
+  "series": {
+    "lemma": "series, seriei N (5th) F",
+    "en": "row, series, secession, chain, train, sequence, order (gen lacking, no pl.)",
+    "grammar": "N 5 1 NOM S F"
+  },
+  "seriis": {
+    "lemma": "seria, seriae N (1st) F",
+    "en": "large earthenware jar",
+    "grammar": "N 1 1 DAT P F"
   },
   "sermo": {
     "lemma": "sermo, sermonis N (3rd) M",
@@ -27456,6 +32176,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "serus, sera -um, serior -or -us, serissimus -a -um ADJ",
     "en": "late; too late; slow, tardy; after the expected/proper time; at a late hour",
     "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "serpens": {
+    "lemma": "serpens, serpentis N (3rd) C",
+    "en": "serpent, snake",
+    "grammar": "N 3 3 NOM S C"
   },
   "serpere": {
     "lemma": "serpo, serpere, serpsi, serptus V (3rd)",
@@ -27506,6 +32231,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "servo, servare, servavi, servatus V (1st)",
     "en": "watch over; protect, store, keep, guard, preserve, save",
     "grammar": "V 1 1 PRES ACTIVE IMP 2 S"
+  },
+  "servant": {
+    "lemma": "servo, servare, servavi, servatus V (1st)",
+    "en": "watch over; protect, store, keep, guard, preserve, save",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "servatam": {
     "lemma": "servo, servare, servavi, servatus V (1st)",
@@ -27582,6 +32312,16 @@ Object.assign(LATIN_DICT, {
     "en": "sixty",
     "grammar": "NUM"
   },
+  "sexus": {
+    "lemma": "sexus, sexus N (4th) M",
+    "en": "sex; (male or female); (also for plants); sexual organs",
+    "grammar": "N 4 1 NOM S M"
+  },
+  "sicaniae": {
+    "lemma": "cania, caniae N (1st) F",
+    "en": "kind of wild nettle; if, when, in so much, even if (assumed fact/wish/unfinished, w/qui)",
+    "grammar": "N 1 1 GEN S F + PREFIX"
+  },
   "sicilia": {
     "lemma": "Sicilia, Siciliae N (1st) F",
     "en": "Sicily; (large island southwest of Italy)",
@@ -27592,6 +32332,11 @@ Object.assign(LATIN_DICT, {
     "en": "Sicily; (large island southwest of Italy)",
     "grammar": "N 1 1 ACC S F"
   },
+  "siculis": {
+    "lemma": "Siculus, Sicula, Siculum ADJ",
+    "en": "Sicilian, of/pertaining to Sicily (island southwest of Italy); cruel; luxurious",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
   "sicut": {
     "lemma": "sicut ADV",
     "en": "as, just as; like; in same way; as if; as it certainly is; as it were",
@@ -27601,6 +32346,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "sidus, sideris N (3rd) N",
     "en": "star; constellation; tempest (Vulgate 4 Ezra 15:39)",
     "grammar": "N 3 2 GEN P N"
+  },
+  "sidona": {
+    "lemma": "donum, doni N (2nd) N",
+    "en": "gift, present; offering; if, when, in so much, even if (assumed fact/wish/unfinished, w/qui)",
+    "grammar": "N 2 2 NOM P N + PREFIX"
+  },
+  "sidonia": {
+    "lemma": "Sidonius, Sidonia, Sidonium ADJ",
+    "en": "Sidonian; of/from Sidon; Phoenician; Carthaginian",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "sidoniam": {
+    "lemma": "Sidonius, Sidonia, Sidonium ADJ",
+    "en": "Sidonian; of/from Sidon; Phoenician; Carthaginian",
+    "grammar": "ADJ 1 1 ACC S F POS"
   },
   "sigillaria": {
     "lemma": "sigillum, sigilli N (2nd) N",
@@ -27641,6 +32401,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "signum, signi N (2nd) N",
     "en": "battle standard; indication; seal; sign, proof; signal; image, statue",
     "grammar": "N 2 2 NOM S N"
+  },
+  "sileam": {
+    "lemma": "sileo, silere, silui, - V (2nd)",
+    "en": "be silent, not to speak (about); be quiet; not to function",
+    "grammar": "V 2 1 PRES ACTIVE SUB 1 S"
+  },
+  "silentia": {
+    "lemma": "silentium, silenti(i) N (2nd) N",
+    "en": "silence",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "sileo": {
+    "lemma": "sileo, silere, silui, - V (2nd)",
+    "en": "be silent, not to speak (about); be quiet; not to function",
+    "grammar": "V 2 1 PRES ACTIVE IND 1 S"
   },
   "silvestribus": {
     "lemma": "silvestris, silvestris, silvestre ADJ",
@@ -27692,6 +32467,11 @@ Object.assign(LATIN_DICT, {
     "en": "like, similar, resembling",
     "grammar": "ADJ 3 2 GEN P X POS"
   },
+  "simoentis": {
+    "lemma": "Simois, Simoentis",
+    "en": "of the Simois (river on the plain of Troy)",
+    "grammar": "N GEN S M (proper name)"
+  },
   "simplicem": {
     "lemma": "simplex, (gen.), simplicis ADJ",
     "en": "single; simple, unaffected; plain",
@@ -27717,6 +32497,11 @@ Object.assign(LATIN_DICT, {
     "en": "imitate, copy; pretend (to have/be); look like; simulate; counterfeit; feint",
     "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
   },
+  "simulataque": {
+    "lemma": "simulo, simulare, simulavi, simulatus V (1st)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL + TACKON"
+  },
   "simulatio": {
     "lemma": "simulatio, simulationis N (3rd) F",
     "en": "pretense, deceit",
@@ -27736,6 +32521,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "simulo, simulare, simulavi, simulatus V (1st)",
     "en": "imitate, copy; pretend (to have/be); look like; simulate; counterfeit; feint",
     "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
+  "simultatibus": {
+    "lemma": "simultas, simultatis N (3rd) F",
+    "en": "enmity, rivalry; hatred",
+    "grammar": "N 3 1 DAT P F"
   },
   "simus": {
     "lemma": "sum, esse, fui, futurus V (5th) TO_BE",
@@ -27761,6 +32551,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sino, sinere, sivi, situs V (3rd)",
     "en": "allow, permit",
     "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "singula": {
+    "lemma": "singulus, singula, singulum ADJ",
+    "en": "apiece (pl.); every; one each/at a time; individual/separate/single; several",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "singulae": {
     "lemma": "singulus, singula, singulum ADJ",
@@ -27847,6 +32642,11 @@ Object.assign(LATIN_DICT, {
     "en": "father in law",
     "grammar": "N 2 3 ACC S M"
   },
+  "socias": {
+    "lemma": "socio, sociare, sociavi, sociatus V (1st)",
+    "en": "unite, join, ally; share in",
+    "grammar": "V 1 1 PRES ACTIVE IND 2 S"
+  },
   "societas": {
     "lemma": "societas, societatis N (3rd) F",
     "en": "society; alliance/partnership; trading company; fellowship, communion",
@@ -27871,6 +32671,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "societas, societatis N (3rd) F",
     "en": "society; alliance/partnership; trading company; fellowship, communion",
     "grammar": "N 3 1 GEN S F"
+  },
+  "socii": {
+    "lemma": "socius, soci(i) N (2nd) M",
+    "en": "associate, companion; ally",
+    "grammar": "N 2 4 GEN S M"
   },
   "sociis": {
     "lemma": "socius, socia, socium ADJ",
@@ -27897,6 +32702,16 @@ Object.assign(LATIN_DICT, {
     "en": "Socrates (Athenian philosopher 469-399 B.C.)",
     "grammar": "N 3 3 GEN S M"
   },
+  "sol": {
+    "lemma": "sol, solis N (3rd) M",
+    "en": "sun",
+    "grammar": "N 3 1 NOM S M"
+  },
+  "sola": {
+    "lemma": "solus, sola, solum (gen -ius) ADJ",
+    "en": "only, single; lonely; alone, having no companion/friend/protector; unique",
+    "grammar": "ADJ 1 3 NOM S F POS"
+  },
   "solacio": {
     "lemma": "solacium, solaci(i) N (2nd) N",
     "en": "comfort, solace; relief in sorrow/misfortune; source of comfort/consolation",
@@ -27906,6 +32721,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "solacium, solaci(i) N (2nd) N",
     "en": "comfort, solace; relief in sorrow/misfortune; source of comfort/consolation",
     "grammar": "N 2 4 NOM S N"
+  },
+  "solatio": {
+    "lemma": "solatium, solati(i) N (2nd) N",
+    "en": "comfort, solace; relief in sorrow/misfortune; source of comfort/consolation",
+    "grammar": "N 2 4 DAT S N"
   },
   "soleas": {
     "lemma": "soleo, solere, solitus sum V (2nd) SEMIDEP",
@@ -27982,6 +32802,16 @@ Object.assign(LATIN_DICT, {
     "en": "solid; same material throughout, unalloyed; not hollow; dense; unbroken/whole",
     "grammar": "ADJ 1 1 DAT P X POS"
   },
+  "solioque": {
+    "lemma": "solium, soli(i) N (2nd) N",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 4 DAT S N + TACKON"
+  },
+  "solisque": {
+    "lemma": "sol, solis N (3rd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 GEN S M + TACKON"
+  },
   "solitaria": {
     "lemma": "solitarius, solitaria, solitarium ADJ",
     "en": "solitary, living/acting on one's own; single (combat); without companion; sole",
@@ -27991,6 +32821,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "solitarius, solitaria, solitarium ADJ",
     "en": "solitary, living/acting on one's own; single (combat); without companion; sole",
     "grammar": "ADJ 1 1 NOM S N POS"
+  },
+  "soliti": {
+    "lemma": "soleo, solere, solitus sum V (2nd) SEMIDEP",
+    "en": "be in the habit of; become accustomed to",
+    "grammar": "VPAR 2 1 GEN S M PERF PASSIVE PPL"
   },
   "solitudine": {
     "lemma": "solitudo, solitudinis N (3rd) F",
@@ -28122,10 +32957,20 @@ Object.assign(LATIN_DICT, {
     "en": "loosen, release, unbind, untie, free; open; set sail; scatter; pay off/back",
     "grammar": "V 3 1 FUT ACTIVE IND 1 S"
   },
+  "solve": {
+    "lemma": "solvo, solvere, solvi, solutus V (3rd)",
+    "en": "loosen, release, unbind, untie, free; open; set sail; scatter; pay off/back",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 S"
+  },
   "solvet": {
     "lemma": "solvo, solvere, solvi, solutus V (3rd)",
     "en": "loosen, release, unbind, untie, free; open; set sail; scatter; pay off/back",
     "grammar": "V 3 1 FUT ACTIVE IND 3 S"
+  },
+  "solvite": {
+    "lemma": "solvo, solvere, solvi, solutus V (3rd)",
+    "en": "loosen, release, unbind, untie, free; open; set sail; scatter; pay off/back",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 P"
   },
   "somno": {
     "lemma": "somnus, somni N (2nd) M",
@@ -28146,6 +32991,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sono, sonare, sonavi, sonatus V (1st)",
     "en": "make a noise/sound; speak/utter, emit sound; be spoken of (as); express/denote",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "sopitum": {
+    "lemma": "sopio, sopire, sopivi, sopitus V (4th)",
+    "en": "cause to sleep, render insensible by a blow or sudden shock",
+    "grammar": "VPAR 3 4 NOM S N PERF PASSIVE PPL"
   },
   "sordeat": {
     "lemma": "sordeo, sordere, sordui, sorditus V (2nd)",
@@ -28192,6 +33042,11 @@ Object.assign(LATIN_DICT, {
     "en": "scatter, strew, sprinkle; spot",
     "grammar": "V 3 1 PRES PASSIVE IND 3 S"
   },
+  "sparsa": {
+    "lemma": "spargo, spargere, sparsi, sparsus V (3rd)",
+    "en": "scatter, strew, sprinkle; spot",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
   "spatia": {
     "lemma": "spatium, spati(i) N (2nd) N",
     "en": "space; area/expanse, room (for); intervening space, gap/interval; length/width",
@@ -28221,6 +33076,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "species, speciei N (5th) F",
     "en": "sight, appearance, show; splendor, beauty; kind, type",
     "grammar": "N 5 1 GEN S F"
+  },
+  "species": {
+    "lemma": "species, speciei N (5th) F",
+    "en": "sight, appearance, show; splendor, beauty; kind, type",
+    "grammar": "N 5 1 NOM S F"
   },
   "speciosa": {
     "lemma": "speciosus, speciosa -um, speciosior -or -us, speciosissimus -a -um ADJ",
@@ -28277,6 +33137,11 @@ Object.assign(LATIN_DICT, {
     "en": "observe, watch, look at, see; test; consider",
     "grammar": "V 1 1 PRES ACTIVE IND 3 S"
   },
+  "spectata": {
+    "lemma": "specto, spectare, spectavi, spectatus V (1st)",
+    "en": "observe, watch, look at, see; test; consider",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
+  },
   "spectato": {
     "lemma": "specto, spectare, spectavi, spectatus V (1st)",
     "en": "observe, watch, look at, see; test; consider",
@@ -28296,6 +33161,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "specto, spectare, spectavi, spectatus V (1st)",
     "en": "observe, watch, look at, see; test; consider",
     "grammar": "V 1 1 PRES ACTIVE SUB 2 S"
+  },
+  "speculantur": {
+    "lemma": "speculor, speculari, speculatus sum V (1st) DEP",
+    "en": "watch, observe; spy out; examine, explore",
+    "grammar": "V 1 1 PRES PASSIVE IND 3 P"
   },
   "speculumque": {
     "lemma": "specula, speculae N (1st) F",
@@ -28321,6 +33191,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "spero, sperare, speravi, speratus V (1st)",
     "en": "hope for; trust; look forward to; hope",
     "grammar": "VPAR 1 1 GEN S F PERF PASSIVE PPL"
+  },
+  "sperate": {
+    "lemma": "spero, sperare, speravi, speratus V (1st)",
+    "en": "hope for; trust; look forward to; hope",
+    "grammar": "V 1 1 PRES ACTIVE IMP 2 P"
   },
   "sperem": {
     "lemma": "spero, sperare, speravi, speratus V (1st)",
@@ -28352,6 +33227,11 @@ Object.assign(LATIN_DICT, {
     "en": "thorn/spine/prickle (plant/animal); spike (asparagus); thorn-bush; blackthorn",
     "grammar": "N 1 1 ACC P F"
   },
+  "spiritum": {
+    "lemma": "spiritus, spiritus N (4th) M",
+    "en": "breath, breathing, air, soul, life",
+    "grammar": "N 4 1 ACC S M"
+  },
   "spiritus": {
     "lemma": "spiritus, spiritus N (4th) M",
     "en": "breath, breathing, air, soul, life",
@@ -28361,6 +33241,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "splendeo, splendere, splendui, - V (2nd) INTRANS",
     "en": "shine/gleam/glitter, be bright/radiant/resplendent (white/color)/distinguished",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "splendida": {
+    "lemma": "splendidus, splendida, splendidum ADJ",
+    "en": "splendid, glittering",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "splendidae": {
     "lemma": "splendidus, splendida, splendidum ADJ",
@@ -28372,6 +33257,21 @@ Object.assign(LATIN_DICT, {
     "en": "splendid, glittering; -er, makes adjective comparative",
     "grammar": "ADJ 0 0 NOM P C COMP + SUFFIX"
   },
+  "splendor": {
+    "lemma": "splendor, splendoris N (3rd) M",
+    "en": "brilliance, luster, sheen; magnificence, sumptuousness, grandeur, splendor",
+    "grammar": "N 3 1 NOM S M"
+  },
+  "spolia": {
+    "lemma": "spolium, spoli(i) N (2nd) N",
+    "en": "spoils, booty; skin, hide",
+    "grammar": "N 2 4 NOM P N"
+  },
+  "sponda": {
+    "lemma": "sponda, spondae N (1st) F",
+    "en": "bedstead; frame of bed/couch; bed/couch/sofa",
+    "grammar": "N 1 1 NOM S F"
+  },
   "spondeam": {
     "lemma": "spondeo, spondere, spepondi, sponsus V (2nd) INTRANS",
     "en": "promise, give pledge/undertaking/surety; contract to give/take in marriage",
@@ -28381,6 +33281,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sponsor, sponsoris N (3rd) M",
     "en": "one who guarantees the good faith of another; surety",
     "grammar": "N 3 1 NOM S M"
+  },
+  "spumantem": {
+    "lemma": "spumo, spumare, spumavi, spumatus V (1st)",
+    "en": "foam, froth; be covered in foam; cover with foam",
+    "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
   },
   "sputa": {
     "lemma": "sputum, sputi N (2nd) N",
@@ -28432,6 +33337,11 @@ Object.assign(LATIN_DICT, {
     "en": "stand, stand still, stand firm; remain, rest",
     "grammar": "V 1 1 FUT ACTIVE IND 3 S"
   },
+  "stans": {
+    "lemma": "sto, stare, steti, status V (1st)",
+    "en": "stand, stand still, stand firm; remain, rest",
+    "grammar": "VPAR 1 1 NOM S X PRES ACTIVE PPL"
+  },
   "stantem": {
     "lemma": "sto, stare, steti, status V (1st)",
     "en": "stand, stand still, stand firm; remain, rest",
@@ -28482,10 +33392,20 @@ Object.assign(LATIN_DICT, {
     "en": "set up, establish, set, place, build; decide, think",
     "grammar": "V 3 1 FUTP ACTIVE IND 1 P"
   },
+  "statuo": {
+    "lemma": "statuo, statuere, statui, statutus V (3rd)",
+    "en": "set up, establish, set, place, build; decide, think",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
   "status": {
     "lemma": "sto, stare, steti, status V (1st)",
     "en": "stand, stand still, stand firm; remain, rest",
     "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
+  "statuunt": {
+    "lemma": "statuo, statuere, statui, statutus V (3rd)",
+    "en": "set up, establish, set, place, build; decide, think",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "stilbon": {
     "lemma": "Stilbo, Stilbonis",
@@ -28507,10 +33427,25 @@ Object.assign(LATIN_DICT, {
     "en": "spur/goad; trap/spike in earth; prick/sting/cause of torment/torture instrument",
     "grammar": "N 2 1 NOM S M"
   },
+  "stipant": {
+    "lemma": "stipo, stipare, stipavi, stipatus V (1st)",
+    "en": "crowd, press together, compress, surround closely",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "stipante": {
+    "lemma": "stipo, stipare, stipavi, stipatus V (1st)",
+    "en": "crowd, press together, compress, surround closely",
+    "grammar": "VPAR 1 1 ABL S X PRES ACTIVE PPL"
+  },
   "stipatus": {
     "lemma": "stipo, stipare, stipavi, stipatus V (1st)",
     "en": "crowd, press together, compress, surround closely",
     "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
+  },
+  "stirpe": {
+    "lemma": "stirps, stirpis N (3rd) F",
+    "en": "stock, plant; race, lineage; character; [damnata ~ => condemned human race]",
+    "grammar": "N 3 3 DAT S F"
   },
   "stirpis": {
     "lemma": "stirps, stirpis N (3rd) F",
@@ -28542,6 +33477,11 @@ Object.assign(LATIN_DICT, {
     "en": "gullet; stomach; annoyance; ill-temper",
     "grammar": "N 2 1 GEN S M"
   },
+  "stratoque": {
+    "lemma": "sterno, sternere, stravi, stratus V (3rd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 3 1 DAT S M PERF PASSIVE PPL + TACKON"
+  },
   "strenue": {
     "lemma": "strenuus, strenua, strenuum ADJ",
     "en": "active, vigorous, strenuous",
@@ -28551,6 +33491,26 @@ Object.assign(LATIN_DICT, {
     "lemma": "strenuus, strenua, strenuum ADJ",
     "en": "active, vigorous, strenuous",
     "grammar": "ADJ 1 1 NOM S M POS"
+  },
+  "strepitus": {
+    "lemma": "strepitus, strepitus N (4th) M",
+    "en": "noise, racket; sound; din, crash, uproar",
+    "grammar": "N 4 1 NOM S M"
+  },
+  "stridebat": {
+    "lemma": "strideo, stridere, stridi, - V (2nd) INTRANS",
+    "en": "creak, squeak, grate, shriek, whistle; (make shrill sound); hiss; gnash",
+    "grammar": "V 2 1 IMPF ACTIVE IND 3 S"
+  },
+  "stringere": {
+    "lemma": "stringo, stringere, strinxi, strictus V (3rd)",
+    "en": "draw tight; draw; graze; strip off",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "struere": {
+    "lemma": "struo, struere, struxi, structus V (3rd)",
+    "en": "build, construct",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "struunt": {
     "lemma": "struo, struere, struxi, structus V (3rd)",
@@ -28632,10 +33592,20 @@ Object.assign(LATIN_DICT, {
     "en": "foolish, stupid",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "stultorum": {
+    "lemma": "stultus, stulta, stultum ADJ",
+    "en": "foolish, stupid",
+    "grammar": "ADJ 1 1 GEN P M POS"
+  },
   "stultos": {
     "lemma": "stultus, stulta, stultum ADJ",
     "en": "foolish, stupid",
     "grammar": "ADJ 1 1 ACC P M POS"
+  },
+  "stupet": {
+    "lemma": "stupeo, stupere, stupui, - V (2nd)",
+    "en": "be astounded",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "suadentium": {
     "lemma": "suadeo, suadere, suasi, suasus V (2nd)",
@@ -28686,6 +33656,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "subduco, subducere, subduxi, subductus V (3rd)",
     "en": "lead up, carry off; transfer; haul",
     "grammar": "VPAR 3 1 NOM S M FUT PASSIVE PPL"
+  },
+  "subducere": {
+    "lemma": "subduco, subducere, subduxi, subductus V (3rd)",
+    "en": "lead up, carry off; transfer; haul",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
+  "subducite": {
+    "lemma": "subduco, subducere, subduxi, subductus V (3rd)",
+    "en": "lead up, carry off; transfer; haul",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 P"
   },
   "subducitur": {
     "lemma": "subduco, subducere, subduxi, subductus V (3rd)",
@@ -28772,6 +33752,11 @@ Object.assign(LATIN_DICT, {
     "en": "high, lofty; eminent, exalted, elevated; raised on high; in high position",
     "grammar": "ADJ 3 2 NOM P N POS"
   },
+  "submersum": {
+    "lemma": "submergo, submergere, submersi, submersus V (3rd)",
+    "en": "plunge under, submerge",
+    "grammar": "VPAR 3 1 NOM S N PERF PASSIVE PPL"
+  },
   "submittere": {
     "lemma": "submitto, submittere, submisi, submissus V (3rd)",
     "en": "allow to grow long; emit, put forth, raise; lower, moderate, relieve; submit",
@@ -28786,6 +33771,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "subnascor, subnasci, subnatus sum V (3rd) DEP",
     "en": "arise, spring, grow up (under/out of/after); (esp. under or in place of)",
     "grammar": "V 3 1 IMPF PASSIVE IND 3 P"
+  },
+  "subnectens": {
+    "lemma": "subnecto, subnectere, subnexui, subnexus V (3rd)",
+    "en": "bind under, add, subjoin, fasten up",
+    "grammar": "VPAR 3 1 NOM S X PRES ACTIVE PPL"
+  },
+  "subnixa": {
+    "lemma": "subnixus, subnixa, subnixum ADJ",
+    "en": "relying on (w/ABL); elated by",
+    "grammar": "ADJ 1 1 NOM S F POS"
   },
   "subrepunt": {
     "lemma": "subrepo, subrepere, subrepsi, subreptus V (3rd)",
@@ -28857,10 +33852,20 @@ Object.assign(LATIN_DICT, {
     "en": "climb; advance; follow; succeed in",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "succedite": {
+    "lemma": "succedo, succedere, successi, successus V (3rd)",
+    "en": "climb; advance; follow; succeed in",
+    "grammar": "V 3 1 PRES ACTIVE IMP 2 P"
+  },
   "successere": {
     "lemma": "succedo, succedere, successi, successus V (3rd)",
     "en": "climb; advance; follow; succeed in",
     "grammar": "V 3 1 PERF ACTIVE IND 3 P"
+  },
+  "successores": {
+    "lemma": "succedo, succedere, successi, successus V (3rd)",
+    "en": "climb; advance; follow; succeed in; -or; -er; indicates the doer; one who performs the action of the verb (act.or)",
+    "grammar": "N 1 7 NOM S C + SUFFIX"
   },
   "succingant": {
     "lemma": "succingo, succingere, succinxi, succinctus V (3rd)",
@@ -28882,6 +33887,11 @@ Object.assign(LATIN_DICT, {
     "en": "run to the aid of, help",
     "grammar": "V 3 1 PRES ACTIVE SUB 3 S"
   },
+  "succurrere": {
+    "lemma": "succurro, succurrere, succucurri, succursus V (3rd)",
+    "en": "run to the aid of, help",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "succurrit": {
     "lemma": "succurro, succurrere, succucurri, succursus V (3rd)",
     "en": "run to the aid of, help",
@@ -28901,6 +33911,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "sudor, sudoris N (3rd) M",
     "en": "sweat; hard labor",
     "grammar": "N 3 1 GEN S M"
+  },
+  "sue": {
+    "lemma": "suus, sui N (2nd) M",
+    "en": "his men (pl.), his friends",
+    "grammar": "N 2 1 VOC S M"
   },
   "sufficiat": {
     "lemma": "sufficio, sufficere, suffeci, suffectus V (3rd)",
@@ -28926,6 +33941,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "suffundo, suffundere, suffudi, suffusus V (3rd)",
     "en": "pour in/on; cause to well up to surface; cover/fill with liquid that wells up",
     "grammar": "VPAR 3 1 NOM S M PERF PASSIVE PPL"
+  },
+  "suggessit": {
+    "lemma": "suggero, suggerere, suggessi, suggestus V (3rd)",
+    "en": "suggest, furnish",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
   },
   "sulla": {
     "lemma": "Sulla, Sullae N (1st) M",
@@ -28992,6 +34012,11 @@ Object.assign(LATIN_DICT, {
     "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
     "grammar": "V 3 1 PERF ACTIVE IND 2 S"
   },
+  "sumpsit": {
+    "lemma": "sumo, sumere, sumpsi, sumptus V (3rd)",
+    "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
+    "grammar": "V 3 1 PERF ACTIVE IND 3 S"
+  },
   "sumpta": {
     "lemma": "sumo, sumere, sumpsi, sumptus V (3rd)",
     "en": "take up; begin; suppose, assume; select; purchase; exact (punishment); obtain",
@@ -29037,6 +34062,11 @@ Object.assign(LATIN_DICT, {
     "en": "furniture, house furnishings; paraphernalia, articles necessary for business",
     "grammar": "N 3 1 ACC S F"
   },
+  "superante": {
+    "lemma": "supero, superare, superavi, superatus V (1st)",
+    "en": "overcome, conquer; survive; outdo; surpass, be above, have the upper hand",
+    "grammar": "VPAR 1 1 ABL S X PRES ACTIVE PPL"
+  },
   "superari": {
     "lemma": "supero, superare, superavi, superatus V (1st)",
     "en": "overcome, conquer; survive; outdo; surpass, be above, have the upper hand",
@@ -29051,6 +34081,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "superbus, superba, superbum ADJ",
     "en": "arrogant, overbearing, haughty, proud",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "superbas": {
+    "lemma": "superbus, superba, superbum ADJ",
+    "en": "arrogant, overbearing, haughty, proud",
+    "grammar": "ADJ 1 1 ACC P F POS"
   },
   "superbe": {
     "lemma": "superbus, superba, superbum ADJ",
@@ -29077,10 +34112,20 @@ Object.assign(LATIN_DICT, {
     "en": "arrogant, overbearing, haughty, proud; -est, most ~, much ~, makes SUPER",
     "grammar": "ADJ 0 0 NOM S F SUPER + SUFFIX"
   },
+  "superbo": {
+    "lemma": "superbus, superba, superbum ADJ",
+    "en": "arrogant, overbearing, haughty, proud",
+    "grammar": "ADJ 1 1 DAT S M POS"
+  },
   "supercilium": {
     "lemma": "supercilium, supercili(i) N (2nd) N",
     "en": "eyebrow; frown; arrogance",
     "grammar": "N 2 4 NOM S N"
+  },
+  "supereminet": {
+    "lemma": "superemineo, supereminere, -, - V (2nd)",
+    "en": "overtop, stand out above the level of",
+    "grammar": "V 2 1 PRES ACTIVE IND 3 S"
   },
   "superesse": {
     "lemma": "supersum, superesse, superfui, superfuturus V (5th) TO_BEING",
@@ -29182,6 +34227,11 @@ Object.assign(LATIN_DICT, {
     "en": "punishment, suffering; supplication; torture",
     "grammar": "N 2 4 DAT S N"
   },
+  "suppliciter": {
+    "lemma": "suppliciter ADV",
+    "en": "suppliantly, in an attitude of humble entreaty",
+    "grammar": "ADV"
+  },
   "supplicium": {
     "lemma": "supplicium, supplici(i) N (2nd) N",
     "en": "punishment, suffering; supplication; torture",
@@ -29202,10 +34252,20 @@ Object.assign(LATIN_DICT, {
     "en": "above, beyond; over; more than; in charge of, in authority over",
     "grammar": "PREP"
   },
+  "surgebant": {
+    "lemma": "surgo, surgere, surrexi, surrectus V (3rd)",
+    "en": "rise, lift; grow",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 P"
+  },
   "surgit": {
     "lemma": "surgo, surgere, surrexi, surrectus V (3rd)",
     "en": "rise, lift; grow",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "surgunt": {
+    "lemma": "surgo, surgere, surrexi, surrectus V (3rd)",
+    "en": "rise, lift; grow",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "surrexerit": {
     "lemma": "surgo, surgere, surrexi, surrectus V (3rd)",
@@ -29307,6 +34367,11 @@ Object.assign(LATIN_DICT, {
     "en": "feeling suspicion, suspecting; exciting suspicion, suspicious",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "suspicit": {
+    "lemma": "suspicio, suspicere, suspexi, suspectus V (3rd)",
+    "en": "look up to; admire",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
   "suspicor": {
     "lemma": "suspicor, suspicari, suspicatus sum V (1st) DEP",
     "en": "mistrust, suspect; suppose",
@@ -29387,6 +34452,11 @@ Object.assign(LATIN_DICT, {
     "en": "be silent; pass over in silence; leave unmentioned, be silent about something",
     "grammar": "VPAR 2 1 ACC S F PERF PASSIVE PPL"
   },
+  "tacitum": {
+    "lemma": "taceo, tacere, tacui, tacitus V (2nd)",
+    "en": "be silent; pass over in silence; leave unmentioned, be silent about something",
+    "grammar": "VPAR 2 1 NOM S N PERF PASSIVE PPL"
+  },
   "taedio": {
     "lemma": "taedium, taedi(i) N (2nd) N",
     "en": "weariness/tedium/boredom/ennui; disgust/aversion/repugnance/loathing; nuisance",
@@ -29442,6 +34512,11 @@ Object.assign(LATIN_DICT, {
     "en": "touch, strike; border on, influence; mention",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "tangunt": {
+    "lemma": "tango, tangere, tetigi, tactus V (3rd)",
+    "en": "touch, strike; border on, influence; mention",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
+  },
   "tantam": {
     "lemma": "tantus, tanta, tantum ADJ",
     "en": "of such size; so great, so much; [tantus ... quantus => as much ... as]",
@@ -29482,6 +34557,11 @@ Object.assign(LATIN_DICT, {
     "en": "slow, limping; deliberate; late",
     "grammar": "ADJ 1 1 VOC S M POS"
   },
+  "tardis": {
+    "lemma": "tardus, tarda -um, tardior -or -us, tardissimus -a -um ADJ",
+    "en": "slow, limping; deliberate; late",
+    "grammar": "ADJ 1 1 DAT P X POS"
+  },
   "tarentino": {
     "lemma": "Tarentinus, Tarentina, Tarentinum",
     "en": "of Tarentum; Tarentine",
@@ -29491,6 +34571,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "Tarquinius, Tarquini N (2nd) M",
     "en": "Etruscan name; (T~ Priscus, 5th Roman king; T~ Superbus, last king 534-510 BC)",
     "grammar": "N 2 5 ACC S M"
+  },
+  "tauros": {
+    "lemma": "taurus, tauri N (2nd) M",
+    "en": "bull",
+    "grammar": "N 2 1 NOM S M"
+  },
+  "tecta": {
+    "lemma": "tego, tegere, texi, tectus V (3rd)",
+    "en": "cover, protect; defend; hide",
+    "grammar": "VPAR 3 1 NOM S F PERF PASSIVE PPL"
+  },
+  "tectis": {
+    "lemma": "tego, tegere, texi, tectus V (3rd)",
+    "en": "cover, protect; defend; hide",
+    "grammar": "VPAR 3 1 DAT P X PERF PASSIVE PPL"
   },
   "tegantur": {
     "lemma": "tego, tegere, texi, tectus V (3rd)",
@@ -29532,6 +34627,16 @@ Object.assign(LATIN_DICT, {
     "en": "rashness; temerity",
     "grammar": "N 3 1 DAT S F"
   },
+  "temnis": {
+    "lemma": "temno, temnere, -, - V (3rd)",
+    "en": "scorn, despise",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 S"
+  },
+  "temnitis": {
+    "lemma": "temno, temnere, -, - V (3rd)",
+    "en": "scorn, despise",
+    "grammar": "V 3 1 PRES ACTIVE IND 2 P"
+  },
   "temperantia": {
     "lemma": "tempero, temperare, temperavi, temperatus V (1st)",
     "en": "combine, blend, temper; make mild; refrain from; control oneself",
@@ -29547,6 +34652,11 @@ Object.assign(LATIN_DICT, {
     "en": "combine, blend, temper; make mild; refrain from; control oneself",
     "grammar": "V 1 1 PRES PASSIVE SUB 3 S"
   },
+  "tempestate": {
+    "lemma": "tempestas, tempestatis N (3rd) F",
+    "en": "season, time, weather; storm",
+    "grammar": "N 3 1 DAT S F"
+  },
   "tempestates": {
     "lemma": "tempestas, tempestatis N (3rd) F",
     "en": "season, time, weather; storm",
@@ -29556,6 +34666,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "tempestivus, tempestiva, tempestivum ADJ",
     "en": "seasonable; opportune, timely; physically in one's prime, ripe (for marriage)",
     "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "templi": {
+    "lemma": "templum, templi N (2nd) N",
+    "en": "temple, church; shrine; holy place",
+    "grammar": "N 2 2 GEN S N"
+  },
+  "templis": {
+    "lemma": "templum, templi N (2nd) N",
+    "en": "temple, church; shrine; holy place",
+    "grammar": "N 2 2 DAT P N"
+  },
+  "templo": {
+    "lemma": "templum, templi N (2nd) N",
+    "en": "temple, church; shrine; holy place",
+    "grammar": "N 2 2 DAT S N"
   },
   "temporarias": {
     "lemma": "temporarius, temporaria, temporarium ADJ",
@@ -29597,6 +34722,11 @@ Object.assign(LATIN_DICT, {
     "en": "test, try; urge; worry; bribe",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "temptat": {
+    "lemma": "tempto, temptare, temptavi, temptatus V (1st)",
+    "en": "test, try; urge; worry; bribe",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "temptatis": {
     "lemma": "tempto, temptare, temptavi, temptatus V (1st)",
     "en": "test, try; urge; worry; bribe",
@@ -29612,6 +34742,21 @@ Object.assign(LATIN_DICT, {
     "en": "holding fast, clinging; tenacious; retentive; close-fisted/tight/niggardly",
     "grammar": "ADJ 3 1 NOM S X POS"
   },
+  "tendebat": {
+    "lemma": "tendo, tendere, tetendi, tensus V (3rd)",
+    "en": "stretch/spread/extend; distend; aim/direct weapon/glance/steps/course; strive",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
+  },
+  "tendentemque": {
+    "lemma": "tendo, tendere, tetendi, tensus V (3rd)",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "VPAR 3 1 ACC S C PRES ACTIVE PPL + TACKON"
+  },
+  "tendere": {
+    "lemma": "tendo, tendere, tetendi, tensus V (3rd)",
+    "en": "stretch/spread/extend; distend; aim/direct weapon/glance/steps/course; strive",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "tendunt": {
     "lemma": "tendo, tendere, tetendi, tensus V (3rd)",
     "en": "stretch/spread/extend; distend; aim/direct weapon/glance/steps/course; strive",
@@ -29626,6 +34771,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "teneo, tenere, tenui, tentus V (2nd)",
     "en": "hold, keep; comprehend; possess; master; preserve; [tenere memoria => remember]",
     "grammar": "V 2 1 PRES PASSIVE SUB 3 P"
+  },
+  "teneatur": {
+    "lemma": "teneo, tenere, tenui, tentus V (2nd)",
+    "en": "hold, keep; comprehend; possess; master; preserve; [tenere memoria => remember]",
+    "grammar": "V 2 1 PRES PASSIVE SUB 3 S"
+  },
+  "tenebat": {
+    "lemma": "teneo, tenere, tenui, tentus V (2nd)",
+    "en": "hold, keep; comprehend; possess; master; preserve; [tenere memoria => remember]",
+    "grammar": "V 2 1 IMPF ACTIVE IND 3 S"
   },
   "tenebris": {
     "lemma": "tenebra, tenebrae N (1st) F",
@@ -29667,15 +34822,35 @@ Object.assign(LATIN_DICT, {
     "en": "hold, keep; comprehend; possess; master; preserve; [tenere memoria => remember]",
     "grammar": "V 2 1 PRES ACTIVE IMP 2 P"
   },
+  "tentationis": {
+    "lemma": "tentatio, tentationis N (3rd) F",
+    "en": "temptation; trial",
+    "grammar": "N 3 1 GEN S F"
+  },
+  "tentoria": {
+    "lemma": "tentorium, tentori(i) N (2nd) N",
+    "en": "tent",
+    "grammar": "N 2 4 NOM P N"
+  },
   "tentorio": {
     "lemma": "tentorium, tentori(i) N (2nd) N",
     "en": "tent",
     "grammar": "N 2 4 DAT S N"
   },
+  "tenue": {
+    "lemma": "tenuis, tenue, tenuior -or -us, tenuissimus -a -um ADJ",
+    "en": "thin, fine; delicate; slight, slender; little, unimportant; weak, feeble",
+    "grammar": "ADJ 3 2 NOM S N POS"
+  },
   "tenuis": {
     "lemma": "tenuis, tenue, tenuior -or -us, tenuissimus -a -um ADJ",
     "en": "thin, fine; delicate; slight, slender; little, unimportant; weak, feeble",
     "grammar": "ADJ 3 2 NOM S C POS"
+  },
+  "tenus": {
+    "lemma": "tenus PREP ABL",
+    "en": "as far as, to the extent of, up to, down to",
+    "grammar": "PREP"
   },
   "terentiano": {
     "lemma": "Terentianus, Terentiana, Terentianum",
@@ -29686,6 +34861,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "tero, terere, trivi, tritus V (3rd)",
     "en": "rub, wear away, wear out; tread; -ing, makes ADJ of verb, equivalent to PRES ACTIVE PPL ('e' stem is for V 2/3)",
     "grammar": "ADJ 1 3 GEN S X POS + SUFFIX"
+  },
+  "terga": {
+    "lemma": "tergum, tergi N (2nd) N",
+    "en": "back, rear; reverse/far side; outer covering/surface; [terga vertere => flee]",
+    "grammar": "N 2 2 NOM P N"
   },
   "terminabit": {
     "lemma": "termino, terminare, terminavi, terminatus V (1st)",
@@ -29711,6 +34891,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "terminus, termini N (2nd) M",
     "en": "boundary, limit, end; terminus",
     "grammar": "N 2 1 NOM S M"
+  },
+  "terraeque": {
+    "lemma": "terra, terrae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 GEN S F + TACKON"
   },
   "terraque": {
     "lemma": "terra, terrae N (1st) F",
@@ -29757,10 +34942,35 @@ Object.assign(LATIN_DICT, {
     "en": "witness",
     "grammar": "N 3 3 NOM S C"
   },
+  "testudine": {
+    "lemma": "testudo, testudinis N (3rd) F",
+    "en": "tortoise; testudo; armored movable shed; troops locking shields overhead",
+    "grammar": "N 3 1 DAT S F"
+  },
+  "teucrorumque": {
+    "lemma": "Teucer, Teucri N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 3 GEN P M + TACKON"
+  },
+  "teucrum": {
+    "lemma": "Teucer, Teucri N (2nd) M",
+    "en": "Teucer; (ancestor of the Trojans; Greek archer, son of Telamon)",
+    "grammar": "N 2 3 ACC S M"
+  },
+  "textores": {
+    "lemma": "texo, texere, texui, textus V (3rd)",
+    "en": "weave; plait (together); construct with elaborate care; -or; -er; indicates the doer; one who performs the action of the verb (act.or)",
+    "grammar": "N 1 7 NOM S C + SUFFIX"
+  },
   "thais": {
     "lemma": "Thais, Thaidis",
     "en": "Thais",
     "grammar": "N NOM S F (proper name)"
+  },
+  "theatris": {
+    "lemma": "theatrum, theatri N (2nd) N",
+    "en": "theater",
+    "grammar": "N 2 2 DAT P N"
   },
   "theatrum": {
     "lemma": "theatrum, theatri N (2nd) N",
@@ -29781,6 +34991,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "Theophrastus, Theophrasti",
     "en": "Theophrastus",
     "grammar": "N ACC S M (proper name)"
+  },
+  "thesaliae": {
+    "lemma": "Thessalia, Thessaliae",
+    "en": "of Thessaly (region of northern Greece; medieval spelling of Thessaliae)",
+    "grammar": "N GEN S F (proper name, medieval spelling)"
+  },
+  "thessalicum": {
+    "lemma": "Thessalicus, Thessalica, Thessalicum",
+    "en": "Thessalian, of Thessaly",
+    "grammar": "ADJ ACC S M/N (proper name)"
+  },
+  "thymo": {
+    "lemma": "thymum, thymi N (2nd) N",
+    "en": "thyme",
+    "grammar": "N 2 2 DAT S N"
   },
   "ti": {
     "lemma": "Ti., abb. N M",
@@ -29867,6 +35092,11 @@ Object.assign(LATIN_DICT, {
     "en": "fear; dread",
     "grammar": "N 3 1 GEN S M"
   },
+  "tinguere": {
+    "lemma": "tinguo, tinguere, tinxi, tinctus V (3rd)",
+    "en": "wet/moisten/dip/soak; color/dye/tinge/tint, stain (w/blood); imbue; impregnate",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
+  },
   "titubat": {
     "lemma": "titubo, titubare, titubavi, titubatus V (1st)",
     "en": "stagger, totter; falter",
@@ -29876,6 +35106,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "titulus, tituli N (2nd) M",
     "en": "title (person/book); label; heading; placard/tablet; pretext, ostensible motive",
     "grammar": "N 2 1 ACC S M"
+  },
+  "titus": {
+    "lemma": "Titus, Titi N (2nd) M",
+    "en": "Titus; Roman praenomen, abb. T.; (~ Flavius Vespasianus, Emperor, 79-81 AD)",
+    "grammar": "N 2 1 NOM S M"
   },
   "toga": {
     "lemma": "toga, togae N (1st) F",
@@ -29901,6 +35136,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "tolerabilis, tolerabile, tolerabilior -or -us, tolerabilissimus -a -um ADJ",
     "en": "bearable, tolerable, patient; able to be withstood; passable; tolerant, hardy",
     "grammar": "ADJ 3 2 NOM P N POS"
+  },
+  "tolerabilior": {
+    "lemma": "tolerabilis, tolerabile, tolerabilior -or -us, tolerabilissimus -a -um ADJ",
+    "en": "bearable, tolerable, patient; able to be withstood; passable; tolerant, hardy",
+    "grammar": "ADJ 3 2 NOM S C COMP"
   },
   "tolerabilis": {
     "lemma": "tolerabilis, tolerabile, tolerabilior -or -us, tolerabilissimus -a -um ADJ",
@@ -29952,6 +35192,11 @@ Object.assign(LATIN_DICT, {
     "en": "cut, shear, clip",
     "grammar": "V 2 1 IMPF ACTIVE SUB 3 S"
   },
+  "tonsisque": {
+    "lemma": "tonsa, tonsae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 DAT P F + TACKON"
+  },
   "tonsor": {
     "lemma": "tonsor, tonsoris N (3rd) M",
     "en": "barber",
@@ -29961,6 +35206,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "tonsor, tonsoris N (3rd) M",
     "en": "barber",
     "grammar": "N 3 1 ACC S M"
+  },
+  "toris": {
+    "lemma": "torus, tori N (2nd) M",
+    "en": "swelling, protuberance; mussel, brawn; bed, couch, stuffed bolster, cushion",
+    "grammar": "N 2 1 DAT P M"
   },
   "tormenta": {
     "lemma": "tormentum, tormenti N (2nd) N",
@@ -30042,6 +35292,11 @@ Object.assign(LATIN_DICT, {
     "en": "whole, all, entire, total, complete; every part; all together/at once",
     "grammar": "ADJ 1 3 NOM S N POS"
   },
+  "trabes": {
+    "lemma": "trabs, trabis N (3rd) F",
+    "en": "tree trunk; log, club, spear; beam, timber, rafter; ship, vessel; roof, house",
+    "grammar": "N 3 1 NOM P F"
+  },
   "tractabilis": {
     "lemma": "tractabilis, tractabilis, tractabile ADJ",
     "en": "manageable; tractable; easy to deal with",
@@ -30061,6 +35316,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "tracto, tractare, tractavi, tractatus V (1st)",
     "en": "draw, haul, pull, drag about; handle, manage, treat, discuss",
     "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
+  "tractatam": {
+    "lemma": "tracto, tractare, tractavi, tractatus V (1st)",
+    "en": "draw, haul, pull, drag about; handle, manage, treat, discuss",
+    "grammar": "VPAR 1 1 ACC S F PERF PASSIVE PPL"
   },
   "tractatis": {
     "lemma": "tracto, tractare, tractavi, tractatus V (1st)",
@@ -30127,6 +35387,11 @@ Object.assign(LATIN_DICT, {
     "en": "tragedy",
     "grammar": "N 1 1 ACC P F"
   },
+  "trahebat": {
+    "lemma": "traho, trahere, traxi, tractus V (3rd)",
+    "en": "draw, drag, haul; derive, get",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
+  },
   "trahere": {
     "lemma": "traho, trahere, traxi, tractus V (3rd)",
     "en": "draw, drag, haul; derive, get",
@@ -30136,6 +35401,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "traho, trahere, traxi, tractus V (3rd)",
     "en": "draw, drag, haul; derive, get",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
+  },
+  "trahuntur": {
+    "lemma": "traho, trahere, traxi, tractus V (3rd)",
+    "en": "draw, drag, haul; derive, get",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 P"
   },
   "tranquilliora": {
     "lemma": "tranquillus, tranquilla, tranquillum ADJ",
@@ -30156,6 +35426,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "tranquillitas, tranquillitatis N (3rd) F",
     "en": "stillness; tranquility",
     "grammar": "N 3 1 DAT S F"
+  },
+  "tranquillo": {
+    "lemma": "tranquillum, tranquilli N (2nd) N",
+    "en": "calm weather; calm state of affairs",
+    "grammar": "N 2 2 DAT S N"
   },
   "transcurrant": {
     "lemma": "transcurro, transcurrere, transcucurri, transcursus V (3rd)",
@@ -30282,6 +35557,11 @@ Object.assign(LATIN_DICT, {
     "en": "send across; go across; transmit",
     "grammar": "V 3 1 PRES PASSIVE IND 3 P"
   },
+  "transpadane": {
+    "lemma": "transpadanus, transpadana, transpadanum ADJ",
+    "en": "beyond (i.e. north of) the Po, transpadane",
+    "grammar": "ADJ 1 1 VOC S M POS"
+  },
   "transscripserit": {
     "lemma": "transscribo, transscribere, transscripsi, transscriptus V (3rd)",
     "en": "copy (from book/tablet to another); transcribe; transfer (enrollment); forge",
@@ -30377,6 +35657,11 @@ Object.assign(LATIN_DICT, {
     "en": "tribune; [~ plebis => tribune of the people; ~ mllitum => soldier's tribune]",
     "grammar": "N 2 1 NOM S M"
   },
+  "tribuo": {
+    "lemma": "tribuo, tribuere, tribui, tributus V (3rd)",
+    "en": "divide, assign; present; grant, allot, bestow, attribute",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
   "tribuunt": {
     "lemma": "tribuo, tribuere, tribui, tributus V (3rd)",
     "en": "divide, assign; present; grant, allot, bestow, attribute",
@@ -30412,15 +35697,60 @@ Object.assign(LATIN_DICT, {
     "en": "triumph over; celebrate a triumph; conquer completely, triumph",
     "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
   },
+  "triumphis": {
+    "lemma": "triumphus, triumphi N (2nd) M",
+    "en": "triumph, victory parade",
+    "grammar": "N 2 1 DAT P M"
+  },
   "triumpho": {
     "lemma": "triumphus, triumphi N (2nd) M",
     "en": "triumph, victory parade",
     "grammar": "N 2 1 DAT S M"
   },
+  "troesque": {
+    "lemma": "Tros, Trois",
+    "en": "the Trojans (Greek nominative plural Troes) + -que (and)",
+    "grammar": "N NOM P M (proper name, Greek plural) + TACKON"
+  },
   "troiam": {
     "lemma": "Troia, Troiae N (1st) F",
     "en": "Troy; (ancient city in Asia Minor, homeland of Aeneas)",
     "grammar": "N 1 1 ACC S F"
+  },
+  "troiana": {
+    "lemma": "Troianus, Troiana, Troianum ADJ",
+    "en": "Trojan; of/from Troy",
+    "grammar": "ADJ 1 1 NOM S F POS"
+  },
+  "troianae": {
+    "lemma": "Troianus, Troiana, Troianum ADJ",
+    "en": "Trojan; of/from Troy",
+    "grammar": "ADJ 1 1 GEN S F POS"
+  },
+  "troianoque": {
+    "lemma": "Troianus, Troiana, Troianum ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT S M POS + TACKON"
+  },
+  "troiaque": {
+    "lemma": "Troia, Troiae N (1st) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 1 1 NOM S F + TACKON"
+  },
+  "troilus": {
+    "lemma": "Troilus, Troili",
+    "en": "Troilus (young son of Priam, slain by Achilles)",
+    "grammar": "N NOM S M (proper name)"
+  },
+  "troius": {
+    "lemma": "Troius, Troia, Troium",
+    "en": "Trojan (Troius Aeneas)",
+    "grammar": "ADJ NOM S M (proper name)"
+  },
+  "tros": {
+    "lemma": "Tros, Trois",
+    "en": "a Trojan (also Tros, ancestor-king of Troy)",
+    "grammar": "N NOM S M (proper name)"
   },
   "trudetur": {
     "lemma": "trudo, trudere, trusi, trusus V (3rd)",
@@ -30457,10 +35787,20 @@ Object.assign(LATIN_DICT, {
     "en": "Tuber (surname of gens Aelia)",
     "grammar": "N 3 1 GEN S F"
   },
+  "tue": {
+    "lemma": "tuus, tua, tuum ADJ",
+    "en": "your (sing.)",
+    "grammar": "ADJ 1 1 VOC S M POS"
+  },
   "tuendam": {
     "lemma": "tueor, tueri, tuitus sum V (2nd) DEP",
     "en": "see, look at; protect, watch; uphold",
     "grammar": "VPAR 2 1 ACC S F FUT PASSIVE PPL"
+  },
+  "tuendo": {
+    "lemma": "tueor, tueri, tuitus sum V (2nd) DEP",
+    "en": "see, look at; protect, watch; uphold",
+    "grammar": "VPAR 2 1 DAT S M FUT PASSIVE PPL"
   },
   "tuentur": {
     "lemma": "tueor, tueri, tuitus sum V (2nd) DEP",
@@ -30482,6 +35822,16 @@ Object.assign(LATIN_DICT, {
     "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
     "grammar": "V 3 2 PERF ACTIVE IND 3 P"
   },
+  "tulerunt": {
+    "lemma": "fero, ferre, tuli, latus V (3rd)",
+    "en": "bring, bear; tell/speak of; consider; carry off, win, receive, produce; get",
+    "grammar": "V 3 2 PERF ACTIVE IND 3 P"
+  },
+  "tulli": {
+    "lemma": "Tullius, Tulli N (2nd) M",
+    "en": "Tullius; (Roman gens name); M. Tullius Cicero, orator",
+    "grammar": "N 2 5 VOC S M"
+  },
   "tumque": {
     "lemma": "tum ADV",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
@@ -30502,10 +35852,20 @@ Object.assign(LATIN_DICT, {
     "en": "then, thereupon, at that time",
     "grammar": "ADV"
   },
+  "tune": {
+    "lemma": "tu PRON",
+    "en": "-ne = is it not that (enclitic); or ...(introduces a question or alternative)",
+    "grammar": "PRON 5 2 NOM S C + TACKON"
+  },
   "tunicas": {
     "lemma": "tunica, tunicae N (1st) F",
     "en": "undergarment, shirt,tunic",
     "grammar": "N 1 1 ACC P F"
+  },
+  "tunsae": {
+    "lemma": "tundo, tundere, tutudi, tunsus V (3rd)",
+    "en": "beat; bruise, pulp, crush",
+    "grammar": "VPAR 3 1 GEN S F PERF PASSIVE PPL"
   },
   "tuo": {
     "lemma": "tuus, tua, tuum ADJ",
@@ -30542,6 +35902,11 @@ Object.assign(LATIN_DICT, {
     "en": "disturb, agitate, throw into confusion",
     "grammar": "V 1 1 PRES PASSIVE INF 0 X"
   },
+  "turbat": {
+    "lemma": "turbo, turbare, turbavi, turbatus V (1st)",
+    "en": "disturb, agitate, throw into confusion",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "turbatur": {
     "lemma": "turbo, turbare, turbavi, turbatus V (1st)",
     "en": "disturb, agitate, throw into confusion",
@@ -30551,6 +35916,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "turbidus, turbida, turbidum ADJ",
     "en": "wild/stormy; muddy/turbid; murky/foggy/clouded/opaque; gloomy, frowning",
     "grammar": "ADJ 1 1 DAT S M POS"
+  },
+  "turbo": {
+    "lemma": "turbo, turbinis N (3rd) M",
+    "en": "that which whirls; whirlwind, tornado; spinning top; spiral, round, circle",
+    "grammar": "N 3 1 NOM S M"
   },
   "turpe": {
     "lemma": "turpis, turpe, turpior -or -us, turpissimus -a -um ADJ",
@@ -30612,6 +35982,11 @@ Object.assign(LATIN_DICT, {
     "en": "safe, prudent; secure; protected",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "tutos": {
+    "lemma": "tutus, tuta -um, tutior -or -us, tutissimus -a -um ADJ",
+    "en": "safe, prudent; secure; protected",
+    "grammar": "ADJ 1 1 ACC P M POS"
+  },
   "tuum": {
     "lemma": "tuus, tua, tuum ADJ",
     "en": "your (sing.)",
@@ -30622,6 +35997,16 @@ Object.assign(LATIN_DICT, {
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "ADJ 1 1 NOM S N POS + TACKON"
   },
+  "tydides": {
+    "lemma": "Tydides, Tydidae",
+    "en": "son of Tydeus (Diomedes)",
+    "grammar": "N NOM S M (proper name, Greek patronymic)"
+  },
+  "typhoia": {
+    "lemma": "Typhoius, Typhoia, Typhoium",
+    "en": "Typhoean, of the giant Typhoeus (tela Typhoia = Jupiter's thunderbolts)",
+    "grammar": "ADJ ACC P N (proper name)"
+  },
   "tyranno": {
     "lemma": "tyrannus, tyranni N (2nd) M",
     "en": "tyrant; despot; monarch, absolute ruler; king, prince",
@@ -30631,6 +36016,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "tyrannus, tyranni",
     "en": "of tyrants",
     "grammar": "N GEN P M"
+  },
+  "tyriisque": {
+    "lemma": "Tyrius, Tyria, Tyrium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 DAT P X POS + TACKON"
+  },
+  "tyriosque": {
+    "lemma": "Tyrius, Tyria, Tyrium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 ACC P M POS + TACKON"
+  },
+  "tyriusque": {
+    "lemma": "Tyrius, Tyria, Tyrium ADJ",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "ADJ 1 1 NOM S M POS + TACKON"
   },
   "uacabit": {
     "lemma": "vaco, vacare, vacavi, vacatus V (1st)",
@@ -30731,6 +36131,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "vates, vatis N (3rd) M",
     "en": "prophet/seer, mouthpiece of deity; oracle, soothsayer; poet (divinely inspired)",
     "grammar": "N 3 3 NOM S M"
+  },
+  "ubere": {
+    "lemma": "uber, uberis (gen.), uberior -or -us, uberrimus -a -um ADJ",
+    "en": "fertile, rich, abundant, abounding, fruitful, plentiful, copious, productive",
+    "grammar": "ADJ 3 1 ABL S X POS"
+  },
+  "ubicumque": {
+    "lemma": "ubicumque ADV",
+    "en": "wherever, in whatever place; in any place, wherever that may be, somewhere",
+    "grammar": "ADV"
   },
   "ubique": {
     "lemma": "ubique ADV",
@@ -31397,6 +36807,26 @@ Object.assign(LATIN_DICT, {
     "en": "besides, beyond; to/on the further/other side; voluntarily, unaided; wantonly",
     "grammar": "ADV"
   },
+  "umbrae": {
+    "lemma": "umbra, umbrae N (1st) F",
+    "en": "shade; ghost; shadow",
+    "grammar": "N 1 1 GEN S F"
+  },
+  "umectat": {
+    "lemma": "umecto, umectare, umectavi, umectatus V (1st)",
+    "en": "moisten, make wet",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
+  "umero": {
+    "lemma": "umerus, umeri N (2nd) M",
+    "en": "upper arm, shoulder",
+    "grammar": "N 2 1 DAT S M"
+  },
+  "umerosque": {
+    "lemma": "umerus, umeri N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 NOM S M + TACKON"
+  },
   "umore": {
     "lemma": "umor, umoris N (3rd) M",
     "en": "moisture, liquid",
@@ -31406,6 +36836,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "umquam ADV",
     "en": "ever, at any time",
     "grammar": "ADV"
+  },
+  "undam": {
+    "lemma": "unda, undae N (1st) F",
+    "en": "wave",
+    "grammar": "N 1 1 ACC S F"
   },
   "undique": {
     "lemma": "undique ADV",
@@ -31612,6 +37047,11 @@ Object.assign(LATIN_DICT, {
     "en": "anywhere, somewhere",
     "grammar": "ADV"
   },
+  "usquam": {
+    "lemma": "usquam ADV",
+    "en": "anywhere, in any place; to any place",
+    "grammar": "ADV"
+  },
   "usque": {
     "lemma": "usque ADV",
     "en": "all the way, right on; all the time, continuously, at every point, always",
@@ -31742,6 +37182,11 @@ Object.assign(LATIN_DICT, {
     "en": "use, make use of, enjoy; enjoy the friendship of (with ABL)",
     "grammar": "V 3 1 PRES PASSIVE IND 1 P"
   },
+  "utinam": {
+    "lemma": "utinam ADV",
+    "en": "if only, would that",
+    "grammar": "ADV"
+  },
   "utique": {
     "lemma": "utique ADV",
     "en": "certainly, by all means; at any rate",
@@ -31852,6 +37297,11 @@ Object.assign(LATIN_DICT, {
     "en": "be empty; be vacant; be idle; be free from, be unoccupied",
     "grammar": "V 1 1 PRES ACTIVE IND 1 S"
   },
+  "vada": {
+    "lemma": "vadum, vadi N (2nd) N",
+    "en": "shallow place, stream; ford, shoal; channel",
+    "grammar": "N 2 2 NOM P N"
+  },
   "vadimonium": {
     "lemma": "vadimonium, vadimoni(i) N (2nd) N",
     "en": "bail, security, surety",
@@ -31871,6 +37321,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "valeo, valere, valui, valitus V (2nd)",
     "en": "be strong/powerful/influential/healthy; prevail; [vale => goodbye/farewell]",
     "grammar": "V 2 1 PRES ACTIVE SUB 3 S"
+  },
+  "valens": {
+    "lemma": "valeo, valere, valui, valitus V (2nd)",
+    "en": "be strong/powerful/influential/healthy; prevail; [vale => goodbye/farewell]",
+    "grammar": "VPAR 2 1 NOM S X PRES ACTIVE PPL"
   },
   "valent": {
     "lemma": "valeo, valere, valui, valitus V (2nd)",
@@ -31937,10 +37392,25 @@ Object.assign(LATIN_DICT, {
     "en": "different; various, diverse; changing; colored; party colored, variegated",
     "grammar": "ADJ 1 1 NOM S F POS"
   },
+  "variantem": {
+    "lemma": "vario, variare, variavi, variatus V (1st)",
+    "en": "mark with contrasting colors, variegate; vary, waver; fluctuate, change",
+    "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
+  },
+  "varie": {
+    "lemma": "varius, varia, varium ADJ",
+    "en": "different; various, diverse; changing; colored; party colored, variegated",
+    "grammar": "ADJ 1 1 VOC S M POS"
+  },
   "varietate": {
     "lemma": "varietas, varietatis N (3rd) F",
     "en": "variety, difference; mottled appearance",
     "grammar": "N 3 1 DAT S F"
+  },
+  "vario": {
+    "lemma": "varius, varia, varium ADJ",
+    "en": "different; various, diverse; changing; colored; party colored, variegated",
+    "grammar": "ADJ 1 1 DAT S M POS"
   },
   "varius": {
     "lemma": "varius, varia, varium ADJ",
@@ -31952,6 +37422,11 @@ Object.assign(LATIN_DICT, {
     "en": "vessel/dish; vase; pack/kit; utensil/instrument/tool; equipment/apparatus (pl.)",
     "grammar": "N 2 2 NOM P N"
   },
+  "vastabat": {
+    "lemma": "vasto, vastare, vastavi, vastatus V (1st)",
+    "en": "lay waste, ravage, devastate",
+    "grammar": "V 1 1 IMPF ACTIVE IND 3 S"
+  },
   "vaticinatum": {
     "lemma": "vaticinor, vaticinari, vaticinatus sum V (1st) DEP",
     "en": "prophesy; utter inspired predictions/warnings; rave, talk wildly",
@@ -31962,6 +37437,11 @@ Object.assign(LATIN_DICT, {
     "en": "Vecellinus",
     "grammar": "N ACC S M (proper name)"
   },
+  "vecti": {
+    "lemma": "veho, vehere, vexi, vectus V (3rd)",
+    "en": "bear, carry, convey; pass, ride, sail",
+    "grammar": "VPAR 3 1 GEN S M PERF PASSIVE PPL"
+  },
   "vehementer": {
     "lemma": "vehementer, vehementius, vehementissime ADV",
     "en": "vehemently, vigorously; exceedingly, very much",
@@ -31971,6 +37451,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "vehemens, vehementis (gen.), vehementior -or -us, vehementissimus -a -um ADJ",
     "en": "violent, severe, vehement; emphatic, vigorous, lively",
     "grammar": "ADJ 3 1 NOM S N COMP"
+  },
+  "velamen": {
+    "lemma": "velamen, velaminis N (3rd) N",
+    "en": "veil; for nun/Muslim); covering (esp. clothing for body/parts)",
+    "grammar": "N 3 2 NOM S N"
   },
   "velim": {
     "lemma": "volo, velle, volui, - V",
@@ -32012,6 +37497,11 @@ Object.assign(LATIN_DICT, {
     "en": "hunt",
     "grammar": "VPAR 1 1 GEN S M FUT PASSIVE PPL"
   },
+  "vendebat": {
+    "lemma": "vendo, vendere, vendidi, venditus V (3rd)",
+    "en": "sell",
+    "grammar": "V 3 1 IMPF ACTIVE IND 3 S"
+  },
   "vendibilem": {
     "lemma": "vendibilis, vendibilis, vendibile ADJ",
     "en": "that can (easily) be sold, marketable",
@@ -32026,6 +37516,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "venefica, veneficae N (1st) F",
     "en": "witch, sorceress, enchantress; hag; jade; poisoner (female); mixer of poisons",
     "grammar": "N 1 1 GEN S F"
+  },
+  "veneno": {
+    "lemma": "venenum, veneni N (2nd) N",
+    "en": "poison; drug",
+    "grammar": "N 2 2 DAT S N"
   },
   "venenum": {
     "lemma": "venenum, veneni N (2nd) N",
@@ -32047,10 +37542,25 @@ Object.assign(LATIN_DICT, {
     "en": "favor, kindness; pardon; permission; indulgence",
     "grammar": "N 1 1 NOM S F"
   },
+  "veniam": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "V 4 1 FUT ACTIVE IND 1 S"
+  },
+  "veniant": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 P"
+  },
   "venias": {
     "lemma": "venio, venire, veni, ventus V (4th)",
     "en": "come",
     "grammar": "V 4 1 PRES ACTIVE SUB 2 S"
+  },
+  "veniat": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "V 4 1 PRES ACTIVE SUB 3 S"
   },
   "venientem": {
     "lemma": "venio, venire, veni, ventus V (4th)",
@@ -32061,6 +37571,21 @@ Object.assign(LATIN_DICT, {
     "lemma": "venio, venire, veni, ventus V (4th)",
     "en": "come",
     "grammar": "VPAR 3 4 GEN P X PRES ACTIVE PPL"
+  },
+  "venientum": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "VPAR 3 4 GEN P X PRES ACTIVE PPL"
+  },
+  "venimus": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "V 4 1 PERF ACTIVE IND 1 P"
+  },
+  "venire": {
+    "lemma": "venio, venire, veni, ventus V (4th)",
+    "en": "come",
+    "grammar": "V 4 1 PRES PASSIVE IND 2 S"
   },
   "venissemus": {
     "lemma": "venio, venire, veni, ventus V (4th)",
@@ -32081,6 +37606,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "venio, venire, veni, ventus V (4th)",
     "en": "come",
     "grammar": "V 4 1 PRES ACTIVE IND 3 P"
+  },
+  "ventosum": {
+    "lemma": "ventosus, ventosa, ventosum ADJ",
+    "en": "windy; swift (as the wind); fickle, changeable; vain, puffed up",
+    "grammar": "ADJ 1 1 NOM S N POS"
   },
   "venturo": {
     "lemma": "venio, venire, veni, ventus V (4th)",
@@ -32202,6 +37732,11 @@ Object.assign(LATIN_DICT, {
     "en": "true, real, genuine, actual; properly named; well founded; right, fair, proper",
     "grammar": "ADJ 1 1 DAT S M POS"
   },
+  "verona": {
+    "lemma": "Verona, Veronae",
+    "en": "Verona (city in northern Italy)",
+    "grammar": "N NOM/ABL S F (proper name)"
+  },
   "veros": {
     "lemma": "verus, vera -um, verior -or -us, verissimus -a -um ADJ",
     "en": "true, real, genuine, actual; properly named; well founded; right, fair, proper",
@@ -32216,6 +37751,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "verso, versare, versavi, versatus V (1st)",
     "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
     "grammar": "VPAR 1 1 NOM S F FUT PASSIVE PPL"
+  },
+  "versante": {
+    "lemma": "verso, versare, versavi, versatus V (1st)",
+    "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
+    "grammar": "VPAR 1 1 ABL S X PRES ACTIVE PPL"
   },
   "versantur": {
     "lemma": "verso, versare, versavi, versatus V (1st)",
@@ -32232,10 +37772,20 @@ Object.assign(LATIN_DICT, {
     "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
     "grammar": "V 1 1 PRES PASSIVE IND 2 S"
   },
+  "versat": {
+    "lemma": "verso, versare, versavi, versatus V (1st)",
+    "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 S"
+  },
   "versatur": {
     "lemma": "verso, versare, versavi, versatus V (1st)",
     "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
     "grammar": "V 1 1 PRES PASSIVE IND 3 S"
+  },
+  "versatus": {
+    "lemma": "verso, versare, versavi, versatus V (1st)",
+    "en": "keep turning/going round, spin, whirl; turn over and over; stir; maneuver",
+    "grammar": "VPAR 1 1 NOM S M PERF PASSIVE PPL"
   },
   "versum": {
     "lemma": "verto, vertere, verti, versus V (3rd)",
@@ -32251,6 +37801,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "versus, versus N (4th) M",
     "en": "line, verse; furrow, ground traversed before turn; row/string, bench (rowers)",
     "grammar": "N 4 1 GEN P M"
+  },
+  "vertant": {
+    "lemma": "verto, vertere, verti, versus V (3rd)",
+    "en": "turn, turn around; change, alter; overthrow, destroy",
+    "grammar": "V 3 1 PRES ACTIVE SUB 3 P"
+  },
+  "vertere": {
+    "lemma": "verto, vertere, verti, versus V (3rd)",
+    "en": "turn, turn around; change, alter; overthrow, destroy",
+    "grammar": "V 3 1 PRES PASSIVE IND 2 S"
   },
   "verteris": {
     "lemma": "verto, vertere, verti, versus V (3rd)",
@@ -32272,6 +37832,11 @@ Object.assign(LATIN_DICT, {
     "en": "true, real, genuine, actual; properly named; well founded; right, fair, proper",
     "grammar": "ADJ 1 1 NOM S M POS"
   },
+  "vescitur": {
+    "lemma": "vescor, vesci, - V (3rd) DEP",
+    "en": "feed on, eat, enjoy (with ABL)",
+    "grammar": "V 3 1 PRES PASSIVE IND 3 S"
+  },
   "vesperum": {
     "lemma": "vesper, vesperis N (3rd) M",
     "en": "evening; evening star; west",
@@ -32281,6 +37846,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "vestis, vestis N (3rd) F",
     "en": "garment, clothing, blanket; clothes; robe",
     "grammar": "N 3 3 ACC S F"
+  },
+  "vestes": {
+    "lemma": "vestis, vestis N (3rd) F",
+    "en": "garment, clothing, blanket; clothes; robe",
+    "grammar": "N 3 3 NOM P F"
   },
   "vestitu": {
     "lemma": "vestio, vestire, vestivi, vestitus V (4th)",
@@ -32297,6 +37867,11 @@ Object.assign(LATIN_DICT, {
     "en": "your (pl.), of/belonging to/associated with you",
     "grammar": "ADJ 1 2 GEN S F POS"
   },
+  "vestris": {
+    "lemma": "vester, vestra, vestrum ADJ",
+    "en": "your (pl.), of/belonging to/associated with you",
+    "grammar": "ADJ 1 2 DAT P X POS"
+  },
   "vestrum": {
     "lemma": "v PRON",
     "en": "you (pl.), ye",
@@ -32306,6 +37881,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "veto, vetare, vetavi, vetatus V (1st) TRANS",
     "en": "forbid, prohibit; reject, veto; be an obstacle to; prevent",
     "grammar": "V 1 1 PRES PASSIVE IND 1 P"
+  },
+  "vetant": {
+    "lemma": "veto, vetare, vetavi, vetatus V (1st) TRANS",
+    "en": "forbid, prohibit; reject, veto; be an obstacle to; prevent",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
   },
   "vetari": {
     "lemma": "veto, vetare, vetavi, vetatus V (1st) TRANS",
@@ -32376,6 +37956,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "vexo, vexare, vexavi, vexatus V (1st)",
     "en": "shake, jolt, toss violently; annoy, trouble, harass, plague, disturb, vex",
     "grammar": "VPAR 1 1 ACC S C PRES ACTIVE PPL"
+  },
+  "viator": {
+    "lemma": "viator, viatoris N (3rd) M",
+    "en": "traveler",
+    "grammar": "N 3 1 NOM S M"
+  },
+  "vicem": {
+    "lemma": "vicis, vicis N (3rd) F",
+    "en": "turn, change, succession; exchange, interchange, repayment; plight, lot",
+    "grammar": "N 3 3 ACC S F"
   },
   "vices": {
     "lemma": "vicis, vicis N (3rd) F",
@@ -32477,6 +38067,21 @@ Object.assign(LATIN_DICT, {
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
     "grammar": "V 2 1 IMPF ACTIVE IND 1 P"
   },
+  "videbant": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 IMPF ACTIVE IND 3 P"
+  },
+  "videbare": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 IMPF PASSIVE IND 2 S"
+  },
+  "videbat": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 IMPF ACTIVE IND 3 S"
+  },
   "videbatur": {
     "lemma": "video, videre, vidi, visus V (2nd)",
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
@@ -32492,10 +38097,20 @@ Object.assign(LATIN_DICT, {
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
     "grammar": "V 2 1 PRES ACTIVE IND 1 P"
   },
+  "videndi": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "VPAR 2 1 GEN S M FUT PASSIVE PPL"
+  },
   "videndum": {
     "lemma": "video, videre, vidi, visus V (2nd)",
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
     "grammar": "VPAR 2 1 NOM S N FUT PASSIVE PPL"
+  },
+  "videns": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "VPAR 2 1 NOM S X PRES ACTIVE PPL"
   },
   "vident": {
     "lemma": "video, videre, vidi, visus V (2nd)",
@@ -32557,6 +38172,11 @@ Object.assign(LATIN_DICT, {
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
     "grammar": "V 2 1 PRES PASSIVE IND 3 S"
   },
+  "vidi": {
+    "lemma": "video, videre, vidi, visus V (2nd)",
+    "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
+    "grammar": "V 2 1 PERF ACTIVE IND 1 S"
+  },
   "vidimus": {
     "lemma": "video, videre, vidi, visus V (2nd)",
     "en": "see, look at; consider; (PASS) seem, seem good, appear, be seen",
@@ -32602,6 +38222,11 @@ Object.assign(LATIN_DICT, {
     "en": "farm overseer (slave/free), estate manager; grade of imperial/public servant",
     "grammar": "N 2 1 NOM S M"
   },
+  "vilis": {
+    "lemma": "vilis, vilis, vile ADJ",
+    "en": "cheap, common, mean, worthless",
+    "grammar": "ADJ 3 2 NOM S C POS"
+  },
   "vilissima": {
     "lemma": "vilis, vile",
     "en": "cheapest; most worthless",
@@ -32616,6 +38241,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "villa, villae N (1st) F",
     "en": "farm/country home/estate; large country residence/seat, villa; village (L+S)",
     "grammar": "N 1 1 ACC S F"
+  },
+  "villis": {
+    "lemma": "villa, villae N (1st) F",
+    "en": "farm/country home/estate; large country residence/seat, villa; village (L+S)",
+    "grammar": "N 1 1 DAT P F"
   },
   "vincebat": {
     "lemma": "vinco, vincere, vici, victus V (3rd)",
@@ -32651,6 +38281,11 @@ Object.assign(LATIN_DICT, {
     "lemma": "vinclum, vincli N (2nd) N",
     "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
     "grammar": "N 2 2 DAT P N + TACKON"
+  },
+  "vincunt": {
+    "lemma": "vinco, vincere, vici, victus V (3rd)",
+    "en": "conquer, defeat, excel; outlast; succeed",
+    "grammar": "V 3 1 PRES ACTIVE IND 3 P"
   },
   "vindica": {
     "lemma": "vindico, vindicare, vindicavi, vindicatus V (1st)",
@@ -32742,10 +38377,20 @@ Object.assign(LATIN_DICT, {
     "en": "strength/power; courage/bravery; worth/manliness/virtue/character/excellence",
     "grammar": "N 3 1 NOM P F"
   },
+  "virtutesque": {
+    "lemma": "virtus, virtutis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 NOM P F + TACKON"
+  },
   "virtuti": {
     "lemma": "virtus, virtutis N (3rd) F",
     "en": "strength/power; courage/bravery; worth/manliness/virtue/character/excellence",
     "grammar": "N 3 1 DAT S F"
+  },
+  "virtutibus": {
+    "lemma": "virtus, virtutis N (3rd) F",
+    "en": "strength/power; courage/bravery; worth/manliness/virtue/character/excellence",
+    "grammar": "N 3 1 DAT P F"
   },
   "virtutis": {
     "lemma": "virtus, virtutis N (3rd) F",
@@ -32902,6 +38547,11 @@ Object.assign(LATIN_DICT, {
     "en": "be alive, live; survive; reside",
     "grammar": "V 3 1 PRES ACTIVE IND 3 S"
   },
+  "vivo": {
+    "lemma": "vivo, vivere, vixi, victus V (3rd)",
+    "en": "be alive, live; survive; reside",
+    "grammar": "V 3 1 PRES ACTIVE IND 1 S"
+  },
   "vivum": {
     "lemma": "vivus, viva, vivum ADJ",
     "en": "alive, fresh; living",
@@ -32952,6 +38602,16 @@ Object.assign(LATIN_DICT, {
     "en": "you called; you named",
     "grammar": "V PERF ACTIVE IND 2 S"
   },
+  "vocemque": {
+    "lemma": "vox, vocis N (3rd) F",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 3 1 ACC S F + TACKON"
+  },
+  "volant": {
+    "lemma": "volo, volare, volavi, volatus V (1st)",
+    "en": "fly",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
   "volebat": {
     "lemma": "volo, velle, volui, - V",
     "en": "wish, want, prefer; be willing, will",
@@ -32962,10 +38622,25 @@ Object.assign(LATIN_DICT, {
     "en": "wish, want, prefer; be willing, will",
     "grammar": "V 6 2 FUT ACTIVE IND 3 S"
   },
+  "volgata": {
+    "lemma": "volgo, volgare, volgavi, volgatus V (1st)",
+    "en": "spread around/among the multitude; publish, divulge, circulate; prostitute",
+    "grammar": "VPAR 1 1 NOM S F PERF PASSIVE PPL"
+  },
   "volo": {
     "lemma": "volo, velle, volui, - V",
     "en": "wish, want, prefer; be willing, will",
     "grammar": "V 6 2 PRES ACTIVE IND 1 S"
+  },
+  "voltis": {
+    "lemma": "volo, volare, volavi, volatus V (1st)",
+    "en": "fly; try to do -, keep doing - (Intensive/Iterative - forcible or iterative action)",
+    "grammar": "V 5 0 PRES ACTIVE SUB 2 S + SUFFIX"
+  },
+  "voltum": {
+    "lemma": "voltus, voltus N (4th) M",
+    "en": "face, expression; looks",
+    "grammar": "N 4 1 ACC S M"
   },
   "volucribus": {
     "lemma": "volucer, volucris, volucre ADJ",
@@ -32986,6 +38661,16 @@ Object.assign(LATIN_DICT, {
     "lemma": "volo, velle, volui, - V",
     "en": "wish, want, prefer; be willing, will",
     "grammar": "V 6 2 PLUP ACTIVE SUB 3 S"
+  },
+  "voluisti": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PERF ACTIVE IND 2 S"
+  },
+  "voluit": {
+    "lemma": "volo, velle, volui, - V",
+    "en": "wish, want, prefer; be willing, will",
+    "grammar": "V 6 2 PERF ACTIVE IND 3 S"
   },
   "voluminum": {
     "lemma": "volumen, voluminis N (3rd) N",
@@ -33067,6 +38752,11 @@ Object.assign(LATIN_DICT, {
     "en": "pleasure, delight, enjoyment",
     "grammar": "N 3 1 GEN P F"
   },
+  "volutant": {
+    "lemma": "voluto, volutare, volutavi, volutatus V (1st)",
+    "en": "roll, wallow, turn over in one's mind, think or talk over",
+    "grammar": "V 1 1 PRES ACTIVE IND 3 P"
+  },
   "vota": {
     "lemma": "votum, voti N (2nd) N",
     "en": "vow, pledge, religious undertaking/promise; prayer/wish; votive offering; vote",
@@ -33132,6 +38822,16 @@ Object.assign(LATIN_DICT, {
     "en": "face, expression; looks",
     "grammar": "N 4 1 ACC S M"
   },
+  "xanthumque": {
+    "lemma": "Xanthus, Xanthi N (2nd) M",
+    "en": "-que = and (enclitic, translated before attached word); completes plerus/uter",
+    "grammar": "N 2 1 ACC S M + TACKON"
+  },
+  "xvi": {
+    "lemma": "vis, vis N (3rd) F",
+    "en": "strength (sg. only), force, power, might, violence; ten-; tenth; (Roman numeral for 10)",
+    "grammar": "N 3 3 DAT S F + PREFIX"
+  },
   "xx": {
     "lemma": "viginti",
     "en": "twenty",
@@ -33141,5 +38841,10 @@ Object.assign(LATIN_DICT, {
     "lemma": "Zeno, Zenonis N (3rd) M",
     "en": "Zeno (Greek philosopher); L:Zeno (Emperor 474-491)",
     "grammar": "N 3 1 ACC S M"
+  },
+  "ā": {
+    "lemma": "a PREP ABL",
+    "en": "by (agent), from (departure, cause, remote origin/time); after (reference)",
+    "grammar": "PREP"
   }
 });

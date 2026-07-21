@@ -345,7 +345,83 @@ const OVERRIDES = {
   vecellinum: { lemma: "Vecellinus, Vecellini", en: "Vecellinus", grammar: "N ACC S M (proper name)" },
   vergini: { lemma: "Verginius, Verginii", en: "Verginius", grammar: "N DAT S M (proper name)" },
   virosque: { lemma: "vir, viri", en: "men, and", grammar: "N ACC P M + TACKON" },
-  xx: { lemma: "viginti", en: "twenty", grammar: "NUM (Roman numeral)" }
+  xx: { lemma: "viginti", en: "twenty", grammar: "NUM (Roman numeral)" },
+  acidaliae: { lemma: "Acidalius, Acidalia, Acidalium", en: "Acidalian (epithet of Venus, from the spring Acidalia in Boeotia)", grammar: "ADJ GEN S F (proper name)" },
+  adflarat: { lemma: "adflo, adflare, adflavi, adflatus", en: "had breathed upon (syncopated adflaverat)", grammar: "V PLUP ACTIVE IND 3 S (syncopated)" },
+  adriaticum: { lemma: "Adriaticus, Adriatica, Adriaticum", en: "Adriatic (the Adriatic Sea)", grammar: "ADJ ACC S N (proper name)" },
+  aeneadum: { lemma: "Aeneadae, Aeneadum (pl.)", en: "of the Aeneadae (followers/descendants of Aeneas, the Trojans)", grammar: "N GEN P M (proper name)" },
+  amazonidum: { lemma: "Amazonides, Amazonidum (pl.)", en: "of the Amazons (warrior women led by Penthesilea)", grammar: "N GEN P F (proper name)" },
+  anchisae: { lemma: "Anchises, Anchisae", en: "of Anchises (father of Aeneas)", grammar: "N GEN S M (proper name)" },
+  apuleius: { lemma: "Apuleius, Apuleii", en: "Apuleius (author of the Golden Ass, set partly in Thessaly)", grammar: "N NOM S M (proper name)" },
+  argivae: { lemma: "Argivus, Argiva, Argivum", en: "Argive, Greek (of Argos)", grammar: "ADJ GEN S F (proper name)" },
+  atridas: { lemma: "Atrides, Atridae", en: "the Atridae (sons of Atreus: Agamemnon and Menelaus)", grammar: "N ACC P M (proper name, Greek accusative)" },
+  beli: { lemma: "Belus, Beli", en: "of Belus (king of Tyre, father of Dido; also her remote ancestor)", grammar: "N GEN S M (proper name)" },
+  belus: { lemma: "Belus, Beli", en: "Belus (king of Tyre, father of Dido)", grammar: "N NOM S M (proper name)" },
+  brabantiaeque: { lemma: "Brabantia, Brabantiae", en: "of Brabant (duchy in the Low Countries) + -que (and)", grammar: "N GEN S F (proper name) + TACKON" },
+  certasse: { lemma: "certo, certare, certavi, certatus", en: "to have contended, striven (syncopated certavisse)", grammar: "V PERF ACTIVE INF (syncopated)" },
+  cythera: { lemma: "Cythera, Cytherorum (pl.)", en: "Cythera (island sacred to Venus)", grammar: "N ACC P N (proper name)" },
+  dardanidae: { lemma: "Dardanides, Dardanidae", en: "the Dardanidae (descendants of Dardanus, the Trojans)", grammar: "N NOM P M (proper name)" },
+  epystolas: { lemma: "epistola, epistolae", en: "letters, epistles (medieval spelling of epistolas)", grammar: "N ACC P F (medieval spelling)" },
+  erycis: { lemma: "Eryx, Erycis", en: "of Eryx (mountain and hero in western Sicily)", grammar: "N GEN S M (proper name)" },
+  eurotae: { lemma: "Eurotas, Eurotae", en: "of the Eurotas (river of Sparta, haunt of Diana)", grammar: "N GEN S M (proper name)" },
+  euxinum: { lemma: "Euxinus, Euxina, Euxinum", en: "Euxine (the Black Sea, Pontus Euxinus)", grammar: "ADJ ACC S M/N (proper name)" },
+  flandriae: { lemma: "Flandria, Flandriae", en: "of Flanders (region in the Low Countries)", grammar: "N GEN S F (proper name)" },
+  gandavum: { lemma: "Gandavum, Gandavi", en: "Ghent (city in Flanders)", grammar: "N ACC S N (proper name)" },
+  grai: { lemma: "Grai, Graiorum (pl.)", en: "the Greeks", grammar: "N NOM P M (proper name)" },
+  gustassent: { lemma: "gusto, gustare, gustavi, gustatus", en: "had tasted (syncopated gustavissent)", grammar: "V PLUP ACTIVE SUB 3 P (syncopated)" },
+  haemum: { lemma: "Haemus, Haemi", en: "Haemus (mountain range in Thrace, the Balkan range)", grammar: "N ACC S M (proper name)" },
+  hec: { lemma: "hic, haec, hoc", en: "this; these (medieval spelling of haec)", grammar: "PRON NOM S F / NOM P N (medieval spelling)" },
+  hectora: { lemma: "Hector, Hectoris", en: "Hector (chief Trojan hero, son of Priam)", grammar: "N ACC S M (proper name, Greek accusative)" },
+  hyadas: { lemma: "Hyades, Hyadum (pl.)", en: "the Hyades (rain-bringing star cluster in Taurus)", grammar: "N ACC P F (proper name, Greek accusative)" },
+  hypatham: { lemma: "Hypata, Hypatae", en: "Hypata (town in Thessaly, setting of Apuleius' Golden Ass)", grammar: "N ACC S F (proper name, medieval spelling of Hypatam)" },
+  idaliae: { lemma: "Idalia, Idaliae", en: "of Idalia (Idalium, sanctuary of Venus on Cyprus)", grammar: "N GEN S F (proper name)" },
+  ignavom: { lemma: "ignavus, ignava, ignavum", en: "lazy, idle (archaic spelling of ignavum; of the drones, ignavom pecus)", grammar: "ADJ ACC S N (archaic spelling)" },
+  iliades: { lemma: "Ilias, Iliadis", en: "the Trojan women", grammar: "N NOM P F (proper name)" },
+  ilus: { lemma: "Ilus, Ili", en: "Ilus (founder of Ilium; also the earlier name of Ascanius/Iulus)", grammar: "N NOM S M (proper name)" },
+  inamenam: { lemma: "inamoenus, inamoena, inamoenum", en: "unlovely, charmless, dismal (medieval spelling of inamoenam)", grammar: "ADJ ACC S F (medieval spelling)" },
+  inflasse: { lemma: "inflo, inflare, inflavi, inflatus", en: "to have inflated, puffed up (syncopated inflavisse)", grammar: "V PERF ACTIVE INF (syncopated)" },
+  inhiasse: { lemma: "inhio, inhiare, inhiavi, inhiatus", en: "to have gaped after, coveted eagerly (syncopated inhiavisse)", grammar: "V PERF ACTIVE INF (syncopated)" },
+  iopas: { lemma: "Iopas, Iopae", en: "Iopas (long-haired bard who sings at Dido's banquet)", grammar: "N NOM S M (proper name)" },
+  latonae: { lemma: "Latona, Latonae", en: "of Latona (mother of Apollo and Diana)", grammar: "N GEN S F (proper name)" },
+  latronum: { lemma: "latro, latronis", en: "of robbers, brigands", grammar: "N GEN P M" },
+  ledae: { lemma: "Leda, Ledae", en: "of Leda (mother of Helen)", grammar: "N GEN S F (proper name)" },
+  malidiceres: { lemma: "maledico, maledicere, maledixi, maledictus", en: "you might speak ill of, revile (medieval spelling of malediceres)", grammar: "V IMPF ACTIVE SUB 2 S (medieval spelling)" },
+  malidictis: { lemma: "maledictum, maledicti", en: "curses, insults, abusive words (medieval spelling of maledictis)", grammar: "N DAT/ABL P N (medieval spelling)" },
+  malifaceret: { lemma: "malefacio, malefacere, malefeci, malefactus", en: "he might do harm, do evil (medieval spelling of malefaceret)", grammar: "V IMPF ACTIVE SUB 3 S (medieval spelling)" },
+  malifacientibus: { lemma: "malefacio, malefacere, malefeci, malefactus", en: "to/for those doing harm, evildoers (medieval spelling of malefacientibus)", grammar: "VPAR PRES ACTIVE DAT/ABL P (medieval spelling)" },
+  mcccxlv: { lemma: "MCCCXLV", en: "1345 (Roman numeral year)", grammar: "NUM (Roman numeral)" },
+  memnonis: { lemma: "Memnon, Memnonis", en: "of Memnon (Ethiopian king, son of Aurora, slain at Troy)", grammar: "N GEN S M (proper name)" },
+  monstrarat: { lemma: "monstro, monstrare, monstravi, monstratus", en: "had shown, pointed out (syncopated monstraverat)", grammar: "V PLUP ACTIVE IND 3 S (syncopated)" },
+  oenotri: { lemma: "Oenotri, Oenotrorum (pl.)", en: "the Oenotrians (early inhabitants of southern Italy)", grammar: "N NOM P M (proper name)" },
+  oreades: { lemma: "Oreas, Oreadis", en: "Oreads (mountain nymphs, attendants of Diana)", grammar: "N NOM P F (proper name)" },
+  pariseorum: { lemma: "Parisii, Parisiorum (pl.)", en: "of the Parisians (people of Paris; medieval spelling of Parisiorum)", grammar: "N GEN P M (proper name, medieval spelling)" },
+  pariusve: { lemma: "Parius, Paria, Parium", en: "Parian (of Paros, island famed for white marble) + -ve (or)", grammar: "ADJ NOM S M (proper name) + TACKON" },
+  penthesilea: { lemma: "Penthesilea, Penthesileae", en: "Penthesilea (queen of the Amazons, slain at Troy)", grammar: "N NOM S F (proper name)" },
+  phryges: { lemma: "Phryx, Phrygis", en: "the Phrygians (the Trojans)", grammar: "N NOM P M (proper name)" },
+  pomponius: { lemma: "Pomponius, Pomponii", en: "Pomponius (Roman gentile name; esp. Pomponius Mela, the geographer)", grammar: "N NOM S M (proper name)" },
+  preceps: { lemma: "praeceps, (gen.) praecipitis", en: "headlong, steep, precipitous (medieval spelling of praeceps)", grammar: "ADJ NOM S M/F/N (medieval spelling)" },
+  preceptor: { lemma: "praeceptor, praeceptoris", en: "teacher, instructor (medieval spelling of praeceptor)", grammar: "N NOM S M (medieval spelling)" },
+  preceptorum: { lemma: "praeceptum, praecepti", en: "of precepts, teachings (medieval spelling of praeceptorum; or of teachers, from praeceptor)", grammar: "N GEN P N (or GEN P M from praeceptor) (medieval spelling)" },
+  prefectique: { lemma: "praefectus, praefecti", en: "prefects, governors (medieval spelling of praefecti) + -que (and)", grammar: "N NOM P M (medieval spelling) + TACKON" },
+  presertim: { lemma: "praesertim", en: "especially, particularly (medieval spelling of praesertim)", grammar: "ADV (medieval spelling)" },
+  presides: { lemma: "praeses, praesidis", en: "governors, protectors (medieval spelling of praesides)", grammar: "N NOM/ACC P M (medieval spelling)" },
+  preterea: { lemma: "praeterea", en: "besides, moreover (medieval spelling of praeterea)", grammar: "ADV (medieval spelling)" },
+  pretervehor: { lemma: "praetervehor, praetervehi, praetervectus sum", en: "I ride/sail past, pass by (medieval spelling of praetervehor)", grammar: "V PRES DEP IND 1 S (medieval spelling)" },
+  proceribus: { lemma: "proceres, procerum (pl.)", en: "to/for/by the nobles, chief men", grammar: "N DAT/ABL P M" },
+  reipublice: { lemma: "res publica, rei publicae", en: "of/to the republic, the state (medieval spelling of reipublicae, written as one word)", grammar: "N GEN/DAT S F (medieval spelling)" },
+  rhesi: { lemma: "Rhesus, Rhesi", en: "of Rhesus (Thracian king slain at Troy by Diomedes)", grammar: "N GEN S M (proper name)" },
+  sacerdotibus: { lemma: "sacerdos, sacerdotis", en: "to/for/by the priests", grammar: "N DAT/ABL P C" },
+  serestum: { lemma: "Serestus, Seresti", en: "Serestus (Trojan captain, companion of Aeneas)", grammar: "N ACC S M (proper name)" },
+  simoentis: { lemma: "Simois, Simoentis", en: "of the Simois (river on the plain of Troy)", grammar: "N GEN S M (proper name)" },
+  thesaliae: { lemma: "Thessalia, Thessaliae", en: "of Thessaly (region of northern Greece; medieval spelling of Thessaliae)", grammar: "N GEN S F (proper name, medieval spelling)" },
+  thessalicum: { lemma: "Thessalicus, Thessalica, Thessalicum", en: "Thessalian, of Thessaly", grammar: "ADJ ACC S M/N (proper name)" },
+  troesque: { lemma: "Tros, Trois", en: "the Trojans (Greek nominative plural Troes) + -que (and)", grammar: "N NOM P M (proper name, Greek plural) + TACKON" },
+  troilus: { lemma: "Troilus, Troili", en: "Troilus (young son of Priam, slain by Achilles)", grammar: "N NOM S M (proper name)" },
+  troius: { lemma: "Troius, Troia, Troium", en: "Trojan (Troius Aeneas)", grammar: "ADJ NOM S M (proper name)" },
+  tros: { lemma: "Tros, Trois", en: "a Trojan (also Tros, ancestor-king of Troy)", grammar: "N NOM S M (proper name)" },
+  tydides: { lemma: "Tydides, Tydidae", en: "son of Tydeus (Diomedes)", grammar: "N NOM S M (proper name, Greek patronymic)" },
+  typhoia: { lemma: "Typhoius, Typhoia, Typhoium", en: "Typhoean, of the giant Typhoeus (tela Typhoia = Jupiter's thunderbolts)", grammar: "ADJ ACC P N (proper name)" },
+  verona: { lemma: "Verona, Veronae", en: "Verona (city in northern Italy)", grammar: "N NOM/ABL S F (proper name)" }
 };
 
 function normalise(value) {
@@ -376,7 +452,24 @@ function importedLatinWords() {
       for (const word of wordsFrom(original)) words.add(word);
     }
   }
+  for (const word of dataJsLatinWords()) words.add(word);
   return [...words].sort();
+}
+
+function dataJsLatinWords() {
+  const source = fs.readFileSync(path.join(ROOT, "data.js"), "utf8");
+  let BOOKS;
+  eval(source.replace(/^const BOOKS = /m, "BOOKS = "));
+  const words = new Set();
+  for (const book of BOOKS) {
+    if (book.lang !== "latin") continue;
+    for (const chapter of book.chapters) {
+      for (const line of chapter.lines) {
+        for (const word of wordsFrom(String(line))) words.add(word);
+      }
+    }
+  }
+  return words;
 }
 
 function grammarFor(qual) {
@@ -422,7 +515,11 @@ function entryFromResult(result) {
 
 function entryFor(engine, word) {
   if (OVERRIDES[word]) return OVERRIDES[word];
-  const analysis = engine.parseWord(word);
+  if (OVERRIDES[normalise(word)]) return OVERRIDES[normalise(word)];
+  let analysis = engine.parseWord(word);
+  if (!analysis.results.length && !analysis.uniqueResults.length && !analysis.addonResults.length && normalise(word) !== word) {
+    analysis = engine.parseWord(normalise(word));
+  }
   if (analysis.results.length) return entryFromResult(analysis.results[0]);
   if (analysis.uniqueResults.length) {
     const result = analysis.uniqueResults[0];
