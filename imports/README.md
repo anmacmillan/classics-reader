@@ -88,17 +88,36 @@ reviewed overrides in `scripts/build_latin_import_dictionary.mjs`.
 ## Greek Dictionary Pipeline
 
 Greek word-click entries live in `generated/imported-greek-dictionary.js`
-(merged over the legacy `GREEK_DICT`, so later entries win). They are built
-from dependency treebanks with `scripts/build_greek_treebank_dictionary.py` —
-see that script's docstring for usage and treebank sources:
+(merged over the legacy `GREEK_DICT`, so later entries win). The file is
+regenerated — never hand-edited — from two accumulated data files kept in
+the repo:
+
+- `generated/greek-forms-store.json` — every attested (lemma, morphology)
+  analysis per clickable form, from dependency treebanks;
+- `generated/greek-glosses.json` — one `{en, nl}` gloss per lemma.
+
+Treebank sources:
 
 - Hand-verified analyses (Homer, Sophocles, Aeschylus):
   PerseusDL `treebank_data` (AGDT v2.1).
-- Automatic analyses for nearly everything else, including all of Plato:
-  GLAUx (`perseids-publications/glaux-trees`), ~96-97% accurate on prose.
+- Automatic analyses for nearly everything else, including all of Plato,
+  Aristotle and Marcus Aurelius: GLAUx (`perseids-publications/glaux-trees`),
+  ~96-97% accurate on prose.
 
-The script emits per-form analyses plus a lemma worklist; supply per-lemma
-`{en, nl}` glosses (an LLM drafts these well from the worklist), merge, and
-append to the generated file. Every form key must match what the app looks up:
-lowercased, punctuation-stripped, elision apostrophe U+2019. The importer's
-coverage line must read 100% before publishing.
+Adding a text:
+
+1. `python3 scripts/build_greek_treebank_dictionary.py TEXT.txt TB.xml PREFIX`
+   aligns the text against the treebank token stream and emits
+   `PREFIX_forms.json` + `PREFIX_lemmas.json`. Fix any `merged:` or
+   empty-lemma analyses it reports before continuing.
+2. `python3 scripts/assemble_greek_import.py merge PREFIX_forms.json`
+   merges into the store and writes the missing-gloss worklist.
+3. Supply glosses (an LLM drafts these well from the worklist), then
+   `assemble_greek_import.py add-glosses FILE` and `assemble_greek_import.py
+   build`.
+
+Every form key must match what the app looks up: lowercased,
+punctuation-stripped, elision apostrophe U+2019. The importer's coverage
+line must read 100% for the new book before publishing. The `/new-classic-text`
+skill documents the full workflow including translation and manifest
+conventions.

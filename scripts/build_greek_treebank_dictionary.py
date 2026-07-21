@@ -48,7 +48,7 @@ DEGREE = {"c": "comp", "s": "superl"}
 POS = {
     "n": "noun", "v": "verb", "a": "adj", "d": "adv", "l": "article",
     "g": "partic", "c": "conj", "r": "prep", "p": "pron", "m": "num",
-    "i": "interj", "e": "interj", "x": "irreg",
+    "i": "interj", "e": "interj", "b": "partic", "x": "irreg",
 }
 
 
