@@ -1,0 +1,35 @@
+{
+  "id": "marcus-meditations-2",
+  "title": "Marcus Aurelius — Meditaties II",
+  "shortTitle": "Notities aan zichzelf, boek II",
+  "author": "Marcus Aurelius",
+  "year": 170,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "II.1 — Bij dageraad: de mensen die je zult ontmoeten",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: GLAUx / Perseus (tlg0562.tlg001) · EN: zin-voor-zin studievertaling · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0562.tlg001.perseus-grc2:2.1"
+    },
+    { "title": "II.2 — Vlees, adem en het leidende beginsel", "startLine": 1, "original": "greek-02.txt", "english": "english-02.txt" },
+    { "title": "II.3 — De werken van de goden zijn vol voorzienigheid", "startLine": 1, "original": "greek-03.txt", "english": "english-03.txt" },
+    { "title": "II.4 — Hoe lang stel je al uit", "startLine": 1, "original": "greek-04.txt", "english": "english-04.txt" },
+    { "title": "II.5 — Elk uur: als Romein en als mens", "startLine": 1, "original": "greek-05.txt", "english": "english-05.txt" },
+    { "title": "II.6 — Doe jezelf geen geweld aan, mijn ziel", "startLine": 1, "original": "greek-06.txt", "english": "english-06.txt" },
+    { "title": "II.7 — Laat je niet meesleuren: leer iets goeds", "startLine": 1, "original": "greek-07.txt", "english": "english-07.txt" },
+    { "title": "II.8 — Andermans ziel, je eigen geluk", "startLine": 1, "original": "greek-08.txt", "english": "english-08.txt" },
+    { "title": "II.9 — De natuur van het geheel", "startLine": 1, "original": "greek-09.txt", "english": "english-09.txt" },
+    { "title": "II.10 — Theophrastus: begeerte en drift", "startLine": 1, "original": "greek-10.txt", "english": "english-10.txt" },
+    { "title": "II.11 — Alsof je nu kon sterven; de goden bestaan", "startLine": 1, "original": "greek-11.txt", "english": "english-11.txt" },
+    { "title": "II.12 — Hoe snel alles verdwijnt", "startLine": 1, "original": "greek-12.txt", "english": "english-12.txt" },
+    { "title": "II.13 — De man die alles naspeurt behalve zichzelf", "startLine": 1, "original": "greek-13.txt", "english": "english-13.txt" },
+    { "title": "II.14 — Ook al leefde je drieduizend jaar", "startLine": 1, "original": "greek-14.txt", "english": "english-14.txt" },
+    { "title": "II.15 — Alles is oordeel (Monimus)", "startLine": 1, "original": "greek-15.txt", "english": "english-15.txt" },
+    { "title": "II.16 — Waarmee de ziel zichzelf onteert", "startLine": 1, "original": "greek-16.txt", "english": "english-16.txt" },
+    { "title": "II.17 — Een verblijf in den vreemde; filosofie als geleide", "startLine": 1, "original": "greek-17.txt", "english": "english-17.txt" }
+  ]
+}

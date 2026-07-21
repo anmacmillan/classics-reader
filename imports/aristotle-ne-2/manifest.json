@@ -1,0 +1,32 @@
+{
+  "id": "aristotle-ne-2",
+  "title": "Aristoteles — Ethica Nicomachea II",
+  "shortTitle": "Deugd als houding; de leer van het midden",
+  "author": "Aristoteles",
+  "year": -340,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Deugd door gewoonte (1103a)",
+      "startLine": 1,
+      "original": "greek-1103a.txt",
+      "english": "english-1103a.txt",
+      "translationCredit": "Grieks: GLAUx / Perseus (tlg0086.tlg010) · EN: zin-voor-zin studievertaling · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:1103a"
+    },
+    { "title": "Zoals wij handelen, zo worden wij (1103b)", "startLine": 1, "original": "greek-1103b.txt", "english": "english-1103b.txt" },
+    { "title": "Geen precisie in de ethiek (1104a)", "startLine": 1, "original": "greek-1104a.txt", "english": "english-1104a.txt" },
+    { "title": "Genot en pijn als toetssteen (1104b)", "startLine": 1, "original": "greek-1104b.txt", "english": "english-1104b.txt" },
+    { "title": "Rechtvaardig handelen en rechtvaardig zijn (1105a)", "startLine": 1, "original": "greek-1105a.txt", "english": "english-1105a.txt" },
+    { "title": "Passies, vermogens, houdingen (1105b)", "startLine": 1, "original": "greek-1105b.txt", "english": "english-1105b.txt" },
+    { "title": "De deugd als houding; het midden (1106a)", "startLine": 1, "original": "greek-1106a.txt", "english": "english-1106a.txt" },
+    { "title": "Het midden ten opzichte van ons (1106b)", "startLine": 1, "original": "greek-1106b.txt", "english": "english-1106b.txt" },
+    { "title": "De definitie van deugd (1107a)", "startLine": 1, "original": "greek-1107a.txt", "english": "english-1107a.txt" },
+    { "title": "De tafel van deugden en ondeugden I (1107b)", "startLine": 1, "original": "greek-1107b.txt", "english": "english-1107b.txt" },
+    { "title": "De tafel van deugden en ondeugden II (1108a)", "startLine": 1, "original": "greek-1108a.txt", "english": "english-1108a.txt" },
+    { "title": "Uitersten en midden tegenover elkaar (1108b)", "startLine": 1, "original": "greek-1108b.txt", "english": "english-1108b.txt" },
+    { "title": "Hoe het midden te treffen (1109a)", "startLine": 1, "original": "greek-1109a.txt", "english": "english-1109a.txt" },
+    { "title": "Waak voor het aangename; slot (1109b)", "startLine": 1, "original": "greek-1109b.txt", "english": "english-1109b.txt" }
+  ]
+}

@@ -7,13 +7,37 @@
   "lang": "greek",
   "chapters": [
     {
-      "title": "Boek I — volledige tekst (regels 1-444)",
+      "title": "Proëmium — de man van vele wegen (1–10)",
       "startLine": 1,
-      "original": "greek.txt",
-      "english": "english.txt",
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
       "translationCredit": "Grieks: Perseus Digital Library (tlg0012.tlg002.perseus-grc2) · EN: regel-voor-regel studievertaling · Parsing: Perseus Ancient Greek Dependency Treebank 2.1 (CC BY-SA)",
       "translationCreditLanguage": "Bronnen",
       "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg002.perseus-grc2:1"
+    },
+    {
+      "title": "De godenraad en Athena's plan (11–95)",
+      "startLine": 11,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Athena als Mentes op Ithaka (96–229)",
+      "startLine": 96,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Athena's raad aan Telemachus (230–324)",
+      "startLine": 230,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Phemius, Penelope en de vrijers (325–444)",
+      "startLine": 325,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
     }
   ]
 }
