@@ -8,6 +8,7 @@ dictionary:
 
 check:
 	python3 scripts/import_texts.py --check
+	PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -v
 	node --test tests/test_progress_restore.mjs
 	node --check app.js
 	node --check data.js
