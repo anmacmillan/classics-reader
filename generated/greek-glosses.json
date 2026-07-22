@@ -13066,5 +13066,2497 @@
  "Δουλίχιον": {
   "en": "Dulichium, island near Ithaca",
   "nl": "Dulichium, eiland bij Ithaka"
+ },
+ "Βιθυνός": {
+  "en": "Βιθυνός, Bithynian",
+  "nl": "Βιθυνός, Bithynisch"
+ },
+ "Βοιώτιος": {
+  "en": "Βοιώτιος, Boeotian",
+  "nl": "Βοιώτιος, Boeotisch"
+ },
+ "Βυζάντιον": {
+  "en": "Βυζάντιον, Byzantium (no LSJ entry; see Byzantium)",
+  "nl": "Βυζάντιον, Byzantium (geen LSJ-vermelding; zie Byzantium)"
+ },
+ "Βυζάντιος": {
+  "en": "Βυζάντιος, inhabitant of Byzantium (no LSJ entry)",
+  "nl": "Βυζάντιος, inwoner van Byzantium (geen LSJ-vermelding)"
+ },
+ "Γαύριον": {
+  "en": "proper name: Γαύριον",
+  "nl": "eigennaam: Γαύριον"
+ },
+ "Γνῶσις": {
+  "en": "γνῶσις, a (judicial) inquiry, knowledge",
+  "nl": "γνῶσις, een (gerechtelijk) onderzoek, kennis"
+ },
+ "Γορδείον": {
+  "en": "proper name: Γορδείον",
+  "nl": "eigennaam: Γορδείον"
+ },
+ "Γυθεῖον": {
+  "en": "Γυθεῖον, Gythium",
+  "nl": "Γυθεῖον, Gythium"
+ },
+ "Δήμαρχος": {
+  "en": "δήμαρχος, a governor of the people; Roman tribune of the plebs",
+  "nl": "δήμαρχος, een gouverneur van het volk; Romeinse tribune van het plebs"
+ },
+ "Δαρεῖος": {
+  "en": "Δαρεῖος, Darius",
+  "nl": "Darius"
+ },
+ "Δεκέλεια": {
+  "en": "Δεκέλεια, Deceleia",
+  "nl": "Δεκέλεια, Deceleia"
+ },
+ "Δελφίνιον": {
+  "en": "Δελφίνιον, temple of Apollo Delphinios",
+  "nl": "Δελφίνιον, tempel van Apollo Delphinios"
+ },
+ "Διαγόρας": {
+  "en": "Διαγόρας, Diagoras",
+  "nl": "Διαγόρας, Diagoras"
+ },
+ "Διομέδων": {
+  "en": "Διομέδων, Diomedon",
+  "nl": "Διομέδων, Diomedon"
+ },
+ "Διότιμος": {
+  "en": "Διότιμος, Diotimus",
+  "nl": "Διότιμος, Diotimus"
+ },
+ "Δωριεύς": {
+  "en": "Δωριεύς, a Dorian, descendant of Dorus",
+  "nl": "Δωριεύς, een Dorian, afstammeling van Dorus"
+ },
+ "Δωρόθεος": {
+  "en": "proper name: Δωρόθεος",
+  "nl": "eigennaam: Δωρόθεος"
+ },
+ "Εἰ": {
+  "en": "εἰ, εἰ, if",
+  "nl": "εἰ, εἰ, als"
+ },
+ "Εἵλως": {
+  "en": "Εἵλως, a Helot",
+  "nl": "Εἵλως, een helot"
+ },
+ "Εὐάρχιππος": {
+  "en": "Εὐάρχιππος, Euarchippus",
+  "nl": "Εὐάρχιππος, Euarchippus"
+ },
+ "Εὐαγόρας": {
+  "en": "Εὐαγόρη, Evagore, a Nereid",
+  "nl": "Εὐαγόρη, Evagore, een Nereïde"
+ },
+ "Εὐβώτας": {
+  "en": "proper name: Εὐβώτας",
+  "nl": "eigennaam: Εὐβώτας"
+ },
+ "Εὐκλῆς": {
+  "en": "proper name: Εὐκλῆς",
+  "nl": "eigennaam: Εὐκλῆς"
+ },
+ "Εὐκτήμων": {
+  "en": "Εὐκτήμων, Euctemon",
+  "nl": "Euctemon"
+ },
+ "Εὐρυπτόλεμος": {
+  "en": "Εὐρυπτόλεμος, Euryptolemus",
+  "nl": "Εὐρυπτόλεμος, Euryptolemus"
+ },
+ "Εὔμαχος": {
+  "en": "εὔμαχος, easy to fight against, assailable",
+  "nl": "εὔμαχος, gemakkelijk te bestrijden, aan te vallen"
+ },
+ "Θάσος": {
+  "en": "Θάσος, Thasos",
+  "nl": "Thasos"
+ },
+ "Θεογένης": {
+  "en": "Θεογένης, Theogenes",
+  "nl": "Θεογένης, Theogenes"
+ },
+ "Θηβαῖος": {
+  "en": "Θηβαῖος, Theban",
+  "nl": "Θηβαῖος, Thebaans"
+ },
+ "Θηραμένης": {
+  "en": "Θηραμένης, Theramenes",
+  "nl": "Θηραμένης, Theramenes"
+ },
+ "Θορικός": {
+  "en": "Θορικός, Thoricus",
+  "nl": "Θορικός, Thoricus"
+ },
+ "Θούριος": {
+  "en": "Θούριος, (adj.) of Thurii, (n.pl.) the city of Thurii",
+  "nl": "Θούριος, (adj.) van Thurii, (n.pl.) de stad Thurii"
+ },
+ "Θράσυλλος": {
+  "en": "Θράσυλλος, Thrasyllus",
+  "nl": "Θράσυλλος, Thrasyllus"
+ },
+ "Θρασύβουλος": {
+  "en": "Θρασύβουλος, Thrasybulus",
+  "nl": "Θρασύβουλος, Thrasybulus"
+ },
+ "Θρᾴκη": {
+  "en": "Θρᾴκη, Thrace",
+  "nl": "Θρᾴκη, Thracië"
+ },
+ "Θρᾷξ": {
+  "en": "Θρᾷξ, a Thracian",
+  "nl": "Θρᾷξ, een Thraciër"
+ },
+ "Θυμοχάρης": {
+  "en": "proper name: Θυμοχάρης",
+  "nl": "eigennaam: Θυμοχάρης"
+ },
+ "Κίος": {
+  "en": "Κίος, Cios, Cius (f. city, later Prousias; m. founder, river)",
+  "nl": "Κίος, Cios, Cius (v. stad, later Prousias; m. stichter, rivier)"
+ },
+ "Καλλίας": {
+  "en": "Καλλίας, Callias",
+  "nl": "Καλλίας, Callias"
+ },
+ "Καλλίξενος": {
+  "en": "Καλλίξενος, Callixenus",
+  "nl": "Καλλίξενος, Callixenus"
+ },
+ "Καλλικρατίδας": {
+  "en": "Καλλικρατίδας, Callicratidas",
+  "nl": "Καλλικρατίδας, Callicratidas"
+ },
+ "Καλχηδόνιος": {
+  "en": "Καλχηδόνιος, of Calchedon (Chalcedon)",
+  "nl": "Καλχηδόνιος, van Calchedon (Chalcedon)"
+ },
+ "Καννωνός": {
+  "en": "proper name: Καννωνός",
+  "nl": "eigennaam: Καννωνός"
+ },
+ "Καρία": {
+  "en": "Κάριος, Carian, (fem. noun) Caria",
+  "nl": "Κάριος, Carian, (vrouwelijk zelfstandig naamwoord) Caria"
+ },
+ "Καρδίη": {
+  "en": "καρδία, the heart",
+  "nl": "het hart"
+ },
+ "Καρχηδόνιος": {
+  "en": "Καρχηδόνιος, Carthaginian",
+  "nl": "Καρχηδόνιος, Carthaags"
+ },
+ "Καστωλός": {
+  "en": "Καστωλός, Castolus",
+  "nl": "Καστωλός, Castolus"
+ },
+ "Κεραμικός": {
+  "en": "Κεραμικός, of Ceramus",
+  "nl": "Κεραμικός, van Ceramus"
+ },
+ "Κλέαρχος": {
+  "en": "Κλέαρχος, Clearchus",
+  "nl": "Κλέαρχος, Clearchus"
+ },
+ "Κλαζομεναί": {
+  "en": "Κλαζομεναί, Clazomenae",
+  "nl": "Κλαζομεναί, Clazomenae"
+ },
+ "Κλεοφῶν": {
+  "en": "Κλεοφῶν, Cleophon",
+  "nl": "Κλεοφῶν, Cleofon"
+ },
+ "Κλεόστρατος": {
+  "en": "proper name: Κλεόστρατος",
+  "nl": "eigennaam: Κλεόστρατος"
+ },
+ "Κοιρατάδας": {
+  "en": "Κοιρατάδας, Coeratadas",
+  "nl": "Κοιρατάδας, Coeratadas"
+ },
+ "Κολοφών": {
+  "en": "Κολοφών, Colophon",
+  "nl": "Κολοφών, Colofon"
+ },
+ "Κολοφώνιος": {
+  "en": "Κολοφώνιος, inhabitant of Colophon, Colophonian",
+  "nl": "Κολοφώνιος, inwoner van Colophon, Colophonian"
+ },
+ "Κορησσός": {
+  "en": "Κορησσός, Coressus Mt. (Ionia)",
+  "nl": "Κορησσός, Coressus Mt. (Ionië)"
+ },
+ "Κορυφάσιον": {
+  "en": "Κορυφάσιον, Coryphasium",
+  "nl": "Κορυφάσιον, Coryphasium"
+ },
+ "Κρατησιππίδας": {
+  "en": "proper name: Κρατησιππίδας",
+  "nl": "eigennaam: Κρατησιππίδας"
+ },
+ "Κυζικηνός": {
+  "en": "Κυζικηνός, of Cyzicus, (subst) a gold stater of Cyzicus",
+  "nl": "Κυζικηνός, van Cyzicus, (subst) een gouden stater van Cyzicus"
+ },
+ "Κυρηναῖος": {
+  "en": "Κυρηναῖος, of Cyrene",
+  "nl": "Κυρηναῖος, van Cyrene"
+ },
+ "Κόνων": {
+  "en": "Κόνων, Conon",
+  "nl": "Nee, Conon"
+ },
+ "Κύδων": {
+  "en": "Κύδων, Cydon, legendary founder of Cydonia (now Chania)",
+  "nl": "Κύδων, Cydon, legendarische oprichter van Cydonia (nu Chania)"
+ },
+ "Κύζικος": {
+  "en": "Κύζικος, Cyzicus (f., the city; m., the hero)",
+  "nl": "Κύζικος, Cyzicus (v., de stad; m., de held)"
+ },
+ "Κῦρος": {
+  "en": "Κῦρος, Cyrus",
+  "nl": "Hallo, Cyrus"
+ },
+ "Κῶς": {
+  "en": "Κῶς, Cos",
+  "nl": "Κῶς, Cos"
+ },
+ "Λάκων": {
+  "en": "Λάκων, a Laconian",
+  "nl": "Λάκων, een Laconiër"
+ },
+ "Λάμψακος": {
+  "en": "Λάμψακος, Lampsacus",
+  "nl": "Λάμψακος, Lampsacus"
+ },
+ "Λέσβος": {
+  "en": "Λέσβος, Lesbos",
+  "nl": "Λέσβος, Lesbos"
+ },
+ "Λέων": {
+  "en": "λέων, λέων, lion",
+  "nl": "λέων, λέων, leeuw"
+ },
+ "Λαβώτης": {
+  "en": "proper name: Λαβώτης",
+  "nl": "eigennaam: Λαβώτης"
+ },
+ "Λακωνικός": {
+  "en": "Λακωνικός, Laconian",
+  "nl": "Λακωνικός, Laconisch"
+ },
+ "Λακωνιστής": {
+  "en": "Λακωνιστής, one who imitates the Lacedaemonians",
+  "nl": "Λακωνιστής, iemand die de Lacedaemoniërs imiteert"
+ },
+ "Λευκολοφίδης": {
+  "en": "proper name: Λευκολοφίδης",
+  "nl": "eigennaam: Λευκολοφίδης"
+ },
+ "Λυδία": {
+  "en": "Λυδίας, the river Lydias",
+  "nl": "Λυδίας, de rivier Lydias"
+ },
+ "Λυκίσκος": {
+  "en": "Λυκίσκος, Lyciscus",
+  "nl": "Λυκίσκος, Lyciscus"
+ },
+ "Λυσίας": {
+  "en": "Λυσίας, Lysias",
+  "nl": "Λυσίας, Lysias"
+ },
+ "Λύκειος": {
+  "en": "λύκειος, of or belonging to a wolf; epithet of Apollo, Artemis",
+  "nl": "λύκειος, van of behorend tot een wolf; bijnaam van Apollo, Artemis"
+ },
+ "Λύσανδρος": {
+  "en": "Λύσανδρος, Lysander",
+  "nl": "Λύσανδρος, Lysander"
+ },
+ "Μάδυτος": {
+  "en": "Μάδυτος, Madytus",
+  "nl": "Μάδυτος, Madytus"
+ },
+ "Μέγαρα": {
+  "en": "Μέγαρα, town of Megara",
+  "nl": "Μέγαρα, stad Megara"
+ },
+ "Μένανδρος": {
+  "en": "Μένανδρος, Menander",
+  "nl": "Μένανδρος, Menander"
+ },
+ "Μήθυμνα": {
+  "en": "Μήθυμνα, Methymna",
+  "nl": "Μήθυμνα, Methymna"
+ },
+ "Μίλητος": {
+  "en": "Μίλητος, Miletus (f. city; m. legendary founder)",
+  "nl": "Μίλητος, Milete (v. stad; m. legendarische stichter)"
+ },
+ "Μίνδαρος": {
+  "en": "Μίνδαρος, Mindarus",
+  "nl": "Μίνδαρος, Mindarus"
+ },
+ "Μακεδονία": {
+  "en": "Μακεδονία, Macedon",
+  "nl": "Μακεδονία, Macedonië"
+ },
+ "Μαλέα": {
+  "en": "Μαλέα, Malea",
+  "nl": "Μαλέα, Malea"
+ },
+ "Μαντίθεος": {
+  "en": "proper name: Μαντίθεος",
+  "nl": "eigennaam: Μαντίθεος"
+ },
+ "Μεγαρεύς": {
+  "en": "Μεγαρεύς, a citizen of Megara",
+  "nl": "Μεγαρεύς, een staatsburger van Megara"
+ },
+ "Μενεκλῆς": {
+  "en": "Μενεκλῆς, Menecles",
+  "nl": "Μενεκλῆς, Menecles"
+ },
+ "Μενεκράτης": {
+  "en": "Μενεκράτης, Menecrates",
+  "nl": "Μενεκράτης, Menecrates"
+ },
+ "Μηθυμναῖος": {
+  "en": "Μηθυμναῖος, of Methymna",
+  "nl": "Μηθυμναῖος, van Methymna"
+ },
+ "Μηθύμνη": {
+  "en": "proper name: Μηθύμνη",
+  "nl": "eigennaam: Μηθύμνη"
+ },
+ "Μιλήσιος": {
+  "en": "Μιλήσιος, Milesian",
+  "nl": "Μιλήσιος, Milesisch"
+ },
+ "Μιτροβάτης": {
+  "en": "proper name: Μιτροβάτης",
+  "nl": "eigennaam: Μιτροβάτης"
+ },
+ "Μυσία": {
+  "en": "Μύσιος, of Mysia, (Aesch.) subst. a Mysian dirge",
+  "nl": "Μύσιος, van Mysia, (Aesch.) plaatsv. een Mysiaanse klaagzang"
+ },
+ "Μυτιλήνη": {
+  "en": "Μυτιλήνη, Mytilene",
+  "nl": "Μυτιλήνη, Mytilini"
+ },
+ "Μυτιληναῖος": {
+  "en": "Μυτιληναῖος, of Mytilene",
+  "nl": "Μυτιληναῖος, van Mytilini"
+ },
+ "Μύσκων": {
+  "en": "Μύσκων, Myscon",
+  "nl": "Μύσκων, Myscon"
+ },
+ "Μῆδος": {
+  "en": "Μῆδος, a Mede, Median",
+  "nl": "Μῆδος, een mede, mediaan"
+ },
+ "Νότιον": {
+  "en": "Νότιον, Notium",
+  "nl": "Goed, Notium"
+ },
+ "Οἰνόη": {
+  "en": "Οἰνόη, Oenoe",
+  "nl": "Οἰνόη, Oenoe"
+ },
+ "Οἰταῖος": {
+  "en": "Οἰταῖος, of Oeta",
+  "nl": "Οἰταῖος, van Oeta"
+ },
+ "Πάριος": {
+  "en": "Πάριος, from the island of Paros",
+  "nl": "Πάριος, van het eiland Paros"
+ },
+ "Πάρος": {
+  "en": "Πάρος, Paros",
+  "nl": "Πάρος, Paros"
+ },
+ "Πέρινθος": {
+  "en": "Πέρινθος, Perinthus",
+  "nl": "Πέρινθος, Perinthus"
+ },
+ "Πέρσης": {
+  "en": "Πέρσης, a Persian; Perses (pr.n.)",
+  "nl": "Πέρσης, een Perzisch; Perses (eigenn.)"
+ },
+ "Παντακλῆς": {
+  "en": "proper name: Παντακλῆς",
+  "nl": "eigennaam: Παντακλῆς"
+ },
+ "Παρίον": {
+  "en": "proper name: Παρίον",
+  "nl": "eigennaam: Παρίον"
+ },
+ "Πασιππίδας": {
+  "en": "proper name: Πασιππίδας",
+  "nl": "eigennaam: Πασιππίδας"
+ },
+ "Πειραιεύς": {
+  "en": "Πειραιεύς, Peiraeus",
+  "nl": "Πειραιεύς, Peiraeus"
+ },
+ "Πεισιάναξ": {
+  "en": "Πεισιάναξ, Pisianax",
+  "nl": "Πεισιάναξ, Pisianax"
+ },
+ "Πελοποννήσιος": {
+  "en": "Πελοποννήσιος, Peloponnesian (of people)",
+  "nl": "Πελοποννήσιος, Peloponnesiër (van mensen)"
+ },
+ "Περίνθιος": {
+  "en": "Περίνθιος, of Perinthus",
+  "nl": "Περίνθιος, van Perinthus"
+ },
+ "Πιτύας": {
+  "en": "proper name: Πιτύας",
+  "nl": "eigennaam: Πιτύας"
+ },
+ "Πλυντήρια": {
+  "en": "Πλυντήρια, Plynteria, festival of Athena",
+  "nl": "Πλυντήρια, Plynteria, feest van Athene"
+ },
+ "Προκόννησος": {
+  "en": "Προκόννησος, Proconnesus",
+  "nl": "Προκόννησος, Proconnesus"
+ },
+ "Πρωτόμαχος": {
+  "en": "Πρωτόμαχος, Protomachus",
+  "nl": "Πρωτόμαχος, Protomachus"
+ },
+ "Πρόξενος": {
+  "en": "Πρόξενος, Proxenus",
+  "nl": "Πρόξενος, Proxenus"
+ },
+ "Πυγελεύς": {
+  "en": "Πυγελεύς, of Pygela",
+  "nl": "Πυγελεύς, van Pygela"
+ },
+ "Πυρρόλοχος": {
+  "en": "proper name: Πυρρόλοχος",
+  "nl": "eigennaam: Πυρρόλοχος"
+ },
+ "Πόντος": {
+  "en": "Πόντος, Pontus",
+  "nl": "Πόντος, Pontus"
+ },
+ "Πόταμις": {
+  "en": "Πόταμις, Potamis",
+  "nl": "Πόταμις, Potamis"
+ },
+ "Πύγελα": {
+  "en": "Πύγελα, Pygela",
+  "nl": "Πύγελα, Pygela"
+ },
+ "Σάμιος": {
+  "en": "Σάμιος, of Samos",
+  "nl": "Σάμιος, van Samos"
+ },
+ "Σάμος": {
+  "en": "Σάμος, Samos",
+  "nl": "Samos"
+ },
+ "Σάρδεις": {
+  "en": "Σάρδεις, Sardes",
+  "nl": "Σάρδεις, Sardes"
+ },
+ "Σελινούσιος": {
+  "en": "Σελινούσιος, of Selinus",
+  "nl": "Σελινούσιος, van Selinus"
+ },
+ "Σελινοῦς": {
+  "en": "Σελινοῦς, (f) Selinus, town in Sicily; (m) river name",
+  "nl": "Σελινοῦς, (f) Selinus, stad op Sicilië; (m) riviernaam"
+ },
+ "Σηλυμβρίη": {
+  "en": "Σηλυμβρία, Selymbria",
+  "nl": "Σηλυμβρία, Selymbria"
+ },
+ "Σηλυμβριανός": {
+  "en": "Σηλυμβριανός, of Selymbria",
+  "nl": "Σηλυμβριανός, van Selymbria"
+ },
+ "Σηστός": {
+  "en": "Σηστός, Sestos",
+  "nl": "Σηστός, Sestos"
+ },
+ "Σικελία": {
+  "en": "Σικελία, Sicily",
+  "nl": "Σικελία, Sicilië"
+ },
+ "Στάγης": {
+  "en": "proper name: Στάγης",
+  "nl": "eigennaam: Στάγης"
+ },
+ "Συράκουσαι": {
+  "en": "Συράκουσαι, Syracuse",
+  "nl": "Συράκουσαι, Syracuse"
+ },
+ "Συρακούσιος": {
+  "en": "Συρακόσιος, Syracusan",
+  "nl": "Συρακόσιος, Syracuse"
+ },
+ "Σωφρονίσκος": {
+  "en": "Σωφρονίσκος, Sophroniscus",
+  "nl": "Σωφρονίσκος, Sophroniscus"
+ },
+ "Τιμοκράτης": {
+  "en": "Τιμοκράτης, Timocrates",
+  "nl": "Τιμοκράτης, Timocrates"
+ },
+ "Τισσαφέρνης": {
+  "en": "Τισσαφέρνης, Tissaphernes",
+  "nl": "Τισσαφέρνης, Tissaphernes"
+ },
+ "Τραχίς": {
+  "en": "Τραχίς, Trachis",
+  "nl": "Τραχίς, Trachis"
+ },
+ "Φανοσθένης": {
+  "en": "Φανοσθένης, Phanosthenes",
+  "nl": "Φανοσθένης, Phanosthenes"
+ },
+ "Φαρνάβαζος": {
+  "en": "Φαρνάβαζος, Pharnabazus",
+  "nl": "Φαρνάβαζος, Pharnabazus"
+ },
+ "Φιλοκλῆς": {
+  "en": "Φιλοκλῆς, Philocles",
+  "nl": "Φιλοκλῆς, Philocles"
+ },
+ "Φιλοκύδης": {
+  "en": "proper name: Φιλοκύδης",
+  "nl": "eigennaam: Φιλοκύδης"
+ },
+ "Φρυγία": {
+  "en": "Φρυγία, Phrygia",
+  "nl": "Φρυγία, Frygië"
+ },
+ "Φώκαια": {
+  "en": "Φώκαια, Phocaea",
+  "nl": "Φώκαια, Phocaea"
+ },
+ "Χίος": {
+  "en": "Χίος, Chios (island)",
+  "nl": "Χίος, Chios (eiland)"
+ },
+ "Χαλκηδών": {
+  "en": "χαλκηδών, chalcedony",
+  "nl": "χαλκηδών, chalcedoon"
+ },
+ "Χερσονησίτης": {
+  "en": "Χερσονησίτης, a dweller in the Thracian Chersonese",
+  "nl": "Χερσονησίτης, een bewoner in de Thracische Chersonese"
+ },
+ "Χερσόνησος": {
+  "en": "Χερσόνησος, the (Thracian) Chersonese; the Crimea",
+  "nl": "Χερσόνησος, de (Thracische) Chersonese; de Krim"
+ },
+ "Χρυσόπολις": {
+  "en": "Χρυσόπολις, Chrysopolis",
+  "nl": "Χρυσόπολις, Chrysopolis"
+ },
+ "Χῖος": {
+  "en": "Χῖος, Chian (inhabitant of Chios)",
+  "nl": "Χῖος, Chian (inwoner van Chios)"
+ },
+ "αἰθρία": {
+  "en": "αἰθρία, in clear weather",
+  "nl": "αἰθρία, bij helder weer"
+ },
+ "αἰτέω": {
+  "en": "αἰτέω, αἰτέω, ask for (+ acc. of person and acc. of thing or inf.)",
+  "nl": "αἰτέω, αἰτέω, vraag naar (+ acc. van persoon en acc. van ding of inf.)"
+ },
+ "αἰτιάζομαι": {
+  "en": "αἰτιάζομαι, to be accused",
+  "nl": "αἰτιάζομαι, beschuldigd worden"
+ },
+ "αἰχμάλωτος": {
+  "en": "αἰχμάλωτος, taken by the spear, captive to one’s spear, taken prisoner",
+  "nl": "αἰχμάλωτος, gevangen genomen door de speer, gevangen genomen door de speer, gevangen genomen"
+ },
+ "αὐλίζομαι": {
+  "en": "αὐλίζομαι, to lie in the court-yard, to live, to camp",
+  "nl": "αὐλίζομαι, op de binnenplaats liggen, wonen, kamperen"
+ },
+ "αὐτοκράτωρ": {
+  "en": "αὐτοκράτωρ, (adj) independent, possessing full powers; (n) commander: Lat. dictator, imperator, emperor",
+  "nl": "αὐτοκράτωρ, (adj) onafhankelijk, met volledige bevoegdheden; (n) commandant: Lat. dictator, imperator, keizer"
+ },
+ "αὐτοῦ": {
+  "en": "αὐτός, αὐτός, αὐτή, αὐτό, same (adj in attributive position); -self, -selves (in predicate position or…",
+  "nl": "αὐτός, αὐτός, αὐτή, αὐτό, hetzelfde (bijvoeglijk naamwoord in attributieve positie); -self, -selves (in predikaatpositie of..."
+ },
+ "βάραθρον": {
+  "en": "βάραθρος, one that ought to be thrown into the pit",
+  "nl": "Goed, eentje die in de put moet worden gegooid"
+ },
+ "βασίλειος": {
+  "en": "βασίλειος, of the king, kingly, royal",
+  "nl": "βασίλειος, van de koning, koninklijk, koninklijk"
+ },
+ "βοήθεια": {
+  "en": "βοήθεια, βοήθεια, ἡ, help, rescue operation (noun)",
+  "nl": "βοήθεια, βοήθεια, ἡ, hulp, reddingsoperatie (zelfstandig naamwoord)"
+ },
+ "βροντή": {
+  "en": "βροντή, thunder",
+  "nl": "βροντή, donder"
+ },
+ "γεραίρω": {
+  "en": "γεραίρω, to honour",
+  "nl": "γεραίρω, eren"
+ },
+ "γράμμα": {
+  "en": "γράμμα, γράμμα, γράμματος, τό, letter (of the alphabet), (pl.) documents",
+  "nl": "γράμμα, γράμμα, γράμματος, τό, letter (van het alfabet), (mv.) documenten"
+ },
+ "γράφω": {
+  "en": "γράφω, γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην, write, draw",
+  "nl": "γράφω, γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην, schrijven, tekenen"
+ },
+ "γυμνάζω": {
+  "en": "γυμνάζω, γυμνάζω, train (naked), exercise; (mid.) exercise oneself, be in training",
+  "nl": "γυμνάζω, γυμνάζω, trainen (naakt), oefening; (midden) jezelf oefenen, in training zijn"
+ },
+ "δείλη": {
+  "en": "δείλη, afternoon",
+  "nl": "δείλη, middag"
+ },
+ "δειπνοποιέω": {
+  "en": "δειπνοποιέω, to give a dinner",
+  "nl": "δειπνοποιέω, een diner geven"
+ },
+ "δεκάτη": {
+  "en": "δεκάτη, a tenth part; tithe",
+  "nl": "δεκάτη, een tiende deel; tiende"
+ },
+ "δεκατευτήριον": {
+  "en": "δεκατευτήριον, the tenths-office, custom-house",
+  "nl": "δεκατευτήριον, het tiendenkantoor, douanekantoor"
+ },
+ "δημεύω": {
+  "en": "δημεύω, to declare public property, to confiscate",
+  "nl": "δημεύω, openbaar eigendom verklaren, in beslag nemen"
+ },
+ "δημοσιεύω": {
+  "en": "δημοσιεύω, to confiscate",
+  "nl": "δημοσιεύω, in beslag nemen"
+ },
+ "δημόσιος": {
+  "en": "δημόσιος, belonging to the people",
+  "nl": "δημόσιος, behorend tot het volk"
+ },
+ "δηϊόω": {
+  "en": "δηϊόω, cut down, slay",
+  "nl": "δηϊόω, omhakken, doden"
+ },
+ "διάδοχος": {
+  "en": "διάδοχος, succeeding",
+  "nl": "Goed, geslaagd"
+ },
+ "διέκπλοος": {
+  "en": "διέκπλοος, a sailing across",
+  "nl": "διέκπλοος, een overtocht"
+ },
+ "διαβαίνω": {
+  "en": "διαβαίνω, διαβαίνω, step across; go over, cross",
+  "nl": "διαβαίνω, διαβαίνω, stap over; oversteken, oversteken"
+ },
+ "διαβιβάζω": {
+  "en": "διαβιβάζω, to carry over",
+  "nl": "διαβιβάζω, overdragen"
+ },
+ "διαθροέω": {
+  "en": "διαθροέω, to spread a report, give out",
+  "nl": "Zo, om een ​​rapport te verspreiden, verspreid"
+ },
+ "διαπλέω": {
+  "en": "διαπλέω, to sail across",
+  "nl": "διαπλέω, oversteken"
+ },
+ "διαρπάζω": {
+  "en": "διαρπάζω, to tear in pieces",
+  "nl": "διαρπάζω, in stukken scheuren"
+ },
+ "διασκεδάννυμι": {
+  "en": "διασκεδάννυμι, διασκεδάννυμι, -σκεδάω, -εσκέδασα, ---, ἐσκέδασμαι, ἐσκεδάσθην, scatter, disperse",
+  "nl": "διασκεδάννυμι, διασκεδάννυμι, -σκεδάω, -εσκέδασα, ---, ἐσκέδασμαι, ἐσκεδάσθην, verstrooien, verspreiden"
+ },
+ "διασπείρω": {
+  "en": "διασπείρω, to scatter abroad, throw about",
+  "nl": "διασπείρω, naar het buitenland verspreiden, rondgooien"
+ },
+ "διασῴζω": {
+  "en": "διασῴζω, to preserve through",
+  "nl": "διασῴζω, door bewaren"
+ },
+ "διατάσσω": {
+  "en": "διατάσσω, to appoint",
+  "nl": "διατάσσω, benoemen"
+ },
+ "διαφυλάσσω": {
+  "en": "διαφυλάσσω, to watch closely, guard carefully",
+  "nl": "Bovendien, om goed in de gaten te houden, zorgvuldig bewaken"
+ },
+ "διαχειροτονέω": {
+  "en": "διαχειροτονέω, to choose between two",
+  "nl": "διαχειροτονέω, om tussen twee te kiezen"
+ },
+ "διαχειροτονία": {
+  "en": "διαχειροτονία, election",
+  "nl": "διαχειροτονία, verkiezing"
+ },
+ "διαψήφισις": {
+  "en": "διαψήφισις, a voting by ballot",
+  "nl": "διαψήφισις, een stemming door middel van stemming"
+ },
+ "διαψηφίζω": {
+  "en": "διαψηφίζω, put to the vote",
+  "nl": "διαψηφίζω, in stemming brengen"
+ },
+ "δικαστήριον": {
+  "en": "δικαστήριον, δικαστήριον, τό, law-court (noun)",
+  "nl": "δικαστήριον, δικαστήριον, τό, rechtbank (zelfstandig naamwoord)"
+ },
+ "διορύσσω": {
+  "en": "διορύσσω, to dig through",
+  "nl": "διορύσσω, doorgraven"
+ },
+ "διωβελία": {
+  "en": "διωβελία, the allowance of two obols",
+  "nl": "διωβελία, de vergoeding van twee obolen"
+ },
+ "διότι": {
+  "en": "διότι, διότι, because (conjunction)",
+  "nl": "διότι, διότι, omdat (conjunctie)"
+ },
+ "δραχμή": {
+  "en": "δραχμή, δραχμή, ἡ, drachma (noun)",
+  "nl": "δραχμή, δραχμή, ἡ, drachme (zelfstandig naamwoord)"
+ },
+ "δώδεκα": {
+  "en": "δυώδεκα, twelve",
+  "nl": "δυώδεκα, twaalf"
+ },
+ "εἰσβαίνω": {
+  "en": "εἰσβαίνω, εἰσβαίνω, enter, board (verb)",
+  "nl": "εἰσβαίνω, εἰσβαίνω, binnengaan, bord (werkwoord)"
+ },
+ "εἰσβιβάζω": {
+  "en": "εἰσβιβάζω, to put on board ship",
+  "nl": "εἰσβιβάζω, aan boord van een schip zetten"
+ },
+ "εἰσβολή": {
+  "en": "εἰσβολή, an inroad, invasion, attack",
+  "nl": "εἰσβολή, een invasie, een invasie, een aanval"
+ },
+ "εἰσδέχομαι": {
+  "en": "εἰσδέχομαι, to take into, admit",
+  "nl": "εἰσδέχομαι, in aanmerking nemen, toegeven"
+ },
+ "εἰσπλέω": {
+  "en": "εἰσπλέω, to sail into, enter",
+  "nl": "εἰσπλέω, binnenvaren, binnenvaren"
+ },
+ "εἰστίθημι": {
+  "en": "εἰστίθημι, to put into, place in",
+  "nl": "εἰστίθημι, inbrengen, erin plaatsen"
+ },
+ "εἴλω": {
+  "en": "εἴλω, to roll up, pack",
+  "nl": "εἴλω, oprollen, inpakken"
+ },
+ "εὐαγγέλιον": {
+  "en": "εὐαγγέλιον, the reward of good tidings",
+  "nl": "εὐαγγέλιον, de beloning van goed nieuws"
+ },
+ "εὐδοξέω": {
+  "en": "εὐδοξέω, to be in good repute, to be honoured, famous",
+  "nl": "εὐδοξέω, een goede reputatie hebben, geëerd worden, beroemd zijn"
+ },
+ "εὐεργεσία": {
+  "en": "εὐεργεσία, well-doing",
+  "nl": "Goed, het gaat goed"
+ },
+ "εὐορκέω": {
+  "en": "εὐορκέω, to be faithful to one’s oath",
+  "nl": "trouw zijn aan iemands eed"
+ },
+ "εὐτυχία": {
+  "en": "εὐτυχία, εὐτυχία, good luck, success",
+  "nl": "εὐτυχία, εὐτυχία, veel geluk, succes"
+ },
+ "εὐώνυμος": {
+  "en": "εὐώνυμος, of good name, left",
+  "nl": "εὐώνυμος, met een goede naam, links"
+ },
+ "εὔδιος": {
+  "en": "εὔδιος, calm, fine, clear",
+  "nl": "εὔδιος, kalm, fijn, duidelijk"
+ },
+ "εὔνους": {
+  "en": "εὔνοος, εὔνους, well-disposed, friendly",
+  "nl": "εὔνοος, εὔνους, goed gezind, vriendelijk"
+ },
+ "εὔριπος": {
+  "en": "εὔριπος, a strait with strong currents; a canal, ditch",
+  "nl": "εὔριπος, een zeestraat met sterke stroming; een kanaal, sloot"
+ },
+ "ζημία": {
+  "en": "ζημία, ζημία, ἡ, fine (noun)",
+  "nl": "ζημία, ζημία, ἡ, fijn (zelfstandig naamwoord)"
+ },
+ "ζημιόω": {
+  "en": "ζημιόω, ζημιόω, fine, penalise, punish (verb)",
+  "nl": "ζημιόω, ζημιόω, boete, straffen, straffen (werkwoord)"
+ },
+ "ζωγρέω": {
+  "en": "ζωγρέω, to take alive, revive",
+  "nl": "ζωγρέω, levend nemen, doen herleven"
+ },
+ "θάπτω": {
+  "en": "θάπτω, θάπτω, θάψω, ἔθαψα, ΧΧΧ, τέθαμμαι, ἐτάφην, bury",
+  "nl": "θάπτω, θάπτω, θάψω, ἔθαψα, ΧΧΧ, τέθαμμαι, ἐτάφην, begraven"
+ },
+ "θαλασσοκράτωρ": {
+  "en": "θαλασσοκράτωρ, master of the sea",
+  "nl": "θαλασσοκράτωρ, meester van de zee"
+ },
+ "θαλασσοκρατέω": {
+  "en": "θαλασσοκρατέω, to be master of the sea",
+  "nl": "θαλασσοκρατέω, meester van de zee zijn"
+ },
+ "κάθοδος": {
+  "en": "κάθοδος, a going down, descent; return (from exile)",
+  "nl": "κάθοδος, een afdaling, afdaling; terugkeer (uit ballingschap)"
+ },
+ "κάρανον": {
+  "en": "κάρανος, a chief (loanword, Persian karana). Perhaps κάρανον",
+  "nl": "κάρανος, een leider (leenwoord, Perzische karana). Misschien wel"
+ },
+ "κέλης": {
+  "en": "κέλης, a race horse; a fast-sailing yacht",
+  "nl": "κέλης, een renpaard; een snelvarend jacht"
+ },
+ "κέρας": {
+  "en": "κέρας, the horn of an animal",
+  "nl": "κέρας, de hoorn van een dier"
+ },
+ "καί + ἐκεῖ": {
+  "en": "and there",
+  "nl": "en daar"
+ },
+ "καί + ἐκεῖθεν": {
+  "en": "and from there",
+  "nl": "en vandaar"
+ },
+ "καί + ἐκεῖνος": {
+  "en": "and that one",
+  "nl": "en die persoon"
+ },
+ "καθάπτω": {
+  "en": "καθάπτω, to fasten, fix",
+  "nl": "καθάπτω, vastmaken, vastmaken"
+ },
+ "καθέλκω": {
+  "en": "καθέλκω, drag down to the sea: launch ships; drag down the scale, outweigh",
+  "nl": "καθέλκω, naar de zee slepen: schepen lanceren; sleep de schaal naar beneden, weegt zwaarder"
+ },
+ "κατάγω": {
+  "en": "κατάγω, to lead down; bring back (from exile)",
+  "nl": "κατάγω, naar beneden leiden; terugbrengen (uit ballingschap)"
+ },
+ "κατάπλοος": {
+  "en": "κατάπλοος, a sailing down to land, a putting ashore, putting in",
+  "nl": "κατάπλοος, naar land zeilen, aan land zetten, inbrengen"
+ },
+ "κατάστρωμα": {
+  "en": "κατάστρωμα, that which is spread over",
+  "nl": "κατάστρωμα, dat waarover verspreid is"
+ },
+ "καταγιγνώσκω": {
+  "en": "καταγιγνώσκω, to remark, discover",
+  "nl": "καταγιγνώσκω, opmerken, ontdekken"
+ },
+ "καταδιώκω": {
+  "en": "καταδιώκω, to pursue closely",
+  "nl": "καταδιώκω, op de voet volgen"
+ },
+ "καταδύω": {
+  "en": "καταδύω, καταδύω, (intrans. and 2nd aor.) set (of sun); plunge into; (causal 1st aor.) cause to sink (ships)",
+  "nl": "καταδύω, καταδύω, (intrans. en 2e aor.) set (van zon); induiken; (causaal 1e aor.) oorzaak van zinken (schepen)"
+ },
+ "καταθέω": {
+  "en": "καταθέω, to run down",
+  "nl": "καταθέω, naar beneden rennen"
+ },
+ "καταιτιάομαι": {
+  "en": "καταιτιάομαι, to accuse, arraign, reproach",
+  "nl": "καταιτιάομαι, beschuldigen, aanklagen, verwijten"
+ },
+ "κατακαίω": {
+  "en": "κατακαίω, to burn down, burn completely",
+  "nl": "κατακαίω, afbranden, volledig verbranden"
+ },
+ "κατακαλύπτω": {
+  "en": "κατακαλύπτω, to cover up",
+  "nl": "κατακαλύπτω, om te verdoezelen"
+ },
+ "κατακλείω": {
+  "en": "κατακλείω, to shut in, enclose",
+  "nl": "κατακλείω, insluiten, insluiten"
+ },
+ "κατακωλύω": {
+  "en": "κατακωλύω, to hinder from doing",
+  "nl": "κατακωλύω, hinderen bij het doen"
+ },
+ "κατακόπτω": {
+  "en": "κατακόπτω, to cut down, cut in pieces, cut up",
+  "nl": "κατακόπτω, in stukken snijden, in stukken snijden"
+ },
+ "καταλεύω": {
+  "en": "καταλεύω, to stone to death",
+  "nl": "καταλεύω, doodstenigen"
+ },
+ "καταπέμπω": {
+  "en": "καταπέμπω, to send down",
+  "nl": "καταπέμπω, naar beneden sturen"
+ },
+ "καταπλέω": {
+  "en": "καταπλέω, to sail down",
+  "nl": "καταπλέω, naar beneden varen"
+ },
+ "κατασκοπή": {
+  "en": "κατασκοπή, a viewing closely, spying",
+  "nl": "κατασκοπή, van dichtbij bekijken, spioneren"
+ },
+ "καταστασιάζω": {
+  "en": "καταστασιάζω, to form a counter-party in the state",
+  "nl": "καταστασιάζω, om een ​​tegenpartij in de staat te vormen"
+ },
+ "καταστρέφω": {
+  "en": "καταστρέφω, to turn down, trample on",
+  "nl": "καταστρέφω, afwijzen, vertrappen"
+ },
+ "καταψηφίζομαι": {
+  "en": "καταψηφίζομαι, to vote against, condemn; to determine by vote",
+  "nl": "καταψηφίζομαι, tegen stemmen, veroordelen; bij stemming vast te stellen"
+ },
+ "κατηγορέω": {
+  "en": "κατηγορέω, κατηγορέω, speak against, accuse (+ gen. of person accused)",
+  "nl": "κατηγορέω, κατηγορέω, tegenspreken, beschuldigen (+ gen. van de verdachte)"
+ },
+ "κηρύσσω": {
+  "en": "κηρύσσω, κηρύττω, announce, proclaim (verb)",
+  "nl": "κηρύσσω, κηρύττω, aankondigen, verkondigen (werkwoord)"
+ },
+ "κλέπτω": {
+  "en": "κλέπτω, κλέπτω, κλέψω, ἔκλεψα, κέκλοφα, κέκλεμμαι, ἐκλάπην, steal",
+  "nl": "Stelen, stelen, stelen, stelen"
+ },
+ "κοινότης": {
+  "en": "κοινότης, a sharing in common, community, partnership",
+  "nl": "κοινότης, een gemeenschappelijk delen, gemeenschap, partnerschap"
+ },
+ "κολάζω": {
+  "en": "κολάζω, κολάζω, punish (verb)",
+  "nl": "κολάζω, κολάζω, straffen (werkwoord)"
+ },
+ "κολακεύω": {
+  "en": "κολακεύω, to flatter",
+  "nl": "κολακεύω, vleien"
+ },
+ "κόλπος": {
+  "en": "κόλπος, bosom; gulf",
+  "nl": "κόλπος, boezem; golf"
+ },
+ "κώμη": {
+  "en": "κώμη, country town",
+  "nl": "κώμη, plattelandsstad"
+ },
+ "κᾶλον": {
+  "en": "κᾶλον, wood; ship",
+  "nl": "κᾶλον, hout; schip"
+ },
+ "λεία": {
+  "en": "λεία, tool for smoothing stone",
+  "nl": "λεία, gereedschap voor het gladmaken van steen"
+ },
+ "ληΐζομαι": {
+  "en": "ληΐζομαι, seize, carry off as booty",
+  "nl": "ληΐζομαι, grijpen, wegvoeren als buit"
+ },
+ "λιθοτομία": {
+  "en": "λιθοτομία, a place where stone is cut, a quarry",
+  "nl": "λιθοτομία, een plaats waar steen wordt gesneden, een steengroeve"
+ },
+ "λόχος": {
+  "en": "λόχος, an ambush",
+  "nl": "λόχος, een hinderlaag"
+ },
+ "μέγεθος": {
+  "en": "μέγεθος, greatness, magnitude, size, height, stature",
+  "nl": "μέγεθος, grootheid, omvang, omvang, hoogte, gestalte"
+ },
+ "μαχέομαι": {
+  "en": "to fight; wage war",
+  "nl": "vechten; oorlog voeren"
+ },
+ "μείς": {
+  "en": "μείς, a month; crescent moon",
+  "nl": "μείς, een maand; halve maan"
+ },
+ "μείων": {
+  "en": "μείων, less",
+  "nl": "minder"
+ },
+ "μεθίστημι": {
+  "en": "μεθίστημι, to place in another way, to change",
+  "nl": "μεθίστημι, op een andere manier plaatsen, veranderen"
+ },
+ "μετάστασις": {
+  "en": "μετάστασις, a removing, removal",
+  "nl": "μετάστασις, een verwijderen, verwijderen"
+ },
+ "μεταβιβάζω": {
+  "en": "μεταβιβάζω, to carry over, shift bring into another place",
+  "nl": "μεταβιβάζω, overdragen, naar een andere plaats brengen"
+ },
+ "μεταμέλομαι": {
+  "en": "μεταμέλομαι, feel repentance, regret",
+  "nl": "μεταμέλομαι, voel berouw, spijt"
+ },
+ "μετανοέω": {
+  "en": "μετανοέω, to change one’s mind",
+  "nl": "μετανοέω, om van gedachten te veranderen"
+ },
+ "μισθός": {
+  "en": "μισθός, μισθός, hire; pay, wages",
+  "nl": "μισθός, μισθός, huren; loon, loon"
+ },
+ "μοιχάω": {
+  "en": "μοιχάω, to have dalliance with",
+  "nl": "μοιχάω, om mee te flirten"
+ },
+ "μοχθηρός": {
+  "en": "μοχθηρός, suffering hardship, in sore distress, miserable, wretched",
+  "nl": "μοχθηρός, ontberingen lijden, in grote nood verkeren, ellendig, ellendig"
+ },
+ "μυριάς": {
+  "en": "μυριάς, μυριάς, a group of 10,000; a countless number",
+  "nl": "μυριάς, μυριάς, een groep van 10.000; een ontelbaar aantal"
+ },
+ "μυστήριον": {
+  "en": "μυστήριον, a mystery",
+  "nl": "een mysterie"
+ },
+ "νή": {
+  "en": "νή, νή (affirmative particle), by (+ name of god in acc.)",
+  "nl": "νή, νή (bevestigend deeltje), door (+ naam van god volgens)"
+ },
+ "νίκη": {
+  "en": "νίκη, νίκη, νίκης, ἡ, victory",
+  "nl": "νίκη, νίκη, νίκης, ἡ, overwinning"
+ },
+ "ναυάγιον": {
+  "en": "ναυάγιον, a piece of wreck",
+  "nl": "ναυάγιον, een stuk wrak"
+ },
+ "ναυαγός": {
+  "en": "ναυαγός, shipwrecked, stranded",
+  "nl": "ναυαγός, schipbreuk geleden, gestrand"
+ },
+ "ναυαρχία": {
+  "en": "ναυαρχία, command of a fleet, office of ναύαρχος",
+  "nl": "ναυαρχία, bevel over een vloot, kantoor van ναύαρχος"
+ },
+ "ναυμαχέω": {
+  "en": "ναυμαχέω, to fight in a ship",
+  "nl": "ναυμαχέω, vechten in een schip"
+ },
+ "ναυμαχία": {
+  "en": "ναυμαχία, ναυμαχία, ἡ, naval battle (noun)",
+  "nl": "ναυμαχία, ναυμαχία, ἡ, zeeslag (zelfstandig naamwoord)"
+ },
+ "ναυπηγέω": {
+  "en": "ναυπηγέω, to build ships",
+  "nl": "ναυπηγέω, om schepen te bouwen"
+ },
+ "ναυτικόν": {
+  "en": "ναυτικός, ναυτικός ή όν, naval (adjective)",
+  "nl": "ναυτικός, ναυτικός ή όν, marine (bijvoeglijk naamwoord)"
+ },
+ "ναυτικός": {
+  "en": "ναυτικός, ναυτικός ή όν, naval (adjective)",
+  "nl": "ναυτικός, ναυτικός ή όν, marine (bijvoeglijk naamwoord)"
+ },
+ "ναύαρχος": {
+  "en": "ναύαρχος, the commander of a fleet, an admiral",
+  "nl": "ναύαρχος, de commandant van een vloot, een admiraal"
+ },
+ "νεοδαμώδης": {
+  "en": "νεοδαμώδης, newly enfranchised",
+  "nl": "νεοδαμώδης, nieuw kiesrecht"
+ },
+ "ξένιος": {
+  "en": "ξένιος, belonging to a friend and guest, hospitable",
+  "nl": "ξένιος, behorend tot een vriend en gast, gastvrij"
+ },
+ "ξυνωρίς": {
+  "en": "συνωρίς, a pair of horses",
+  "nl": "συνωρίς, een paar paarden"
+ },
+ "ξύλινος": {
+  "en": "ξύλινος, of wood, wooden",
+  "nl": "ξύλινος, van hout, houten"
+ },
+ "οἰωνίζομαι": {
+  "en": "οἰωνίζομαι, to take omens from the flight and cries of birds",
+  "nl": "οἰωνίζομαι, om voortekenen te ontlenen aan de vlucht en het geschreeuw van vogels"
+ },
+ "οἷοσπερ": {
+  "en": "just as; such as",
+  "nl": "precies zoals; zoals"
+ },
+ "οὐδαμόθεν": {
+  "en": "οὐδαμόθεν, from no place, from no side",
+  "nl": "οὐδαμόθεν, van geen enkele plaats, van geen enkele kant"
+ },
+ "οὔριος": {
+  "en": "ὄρος, ὄρος, mountain, hill",
+  "nl": "ὄρος, ὄρος, berg, heuvel"
+ },
+ "πέντε": {
+  "en": "πέντε, πέντε, five",
+  "nl": "πέντε, πέντε, vijf"
+ },
+ "πέραν": {
+  "en": "περάω, to drive right through; pass, penetrate",
+  "nl": "περάω, er dwars doorheen rijden; passeren, doordringen"
+ },
+ "πέτρα": {
+  "en": "πέτρα, a rock, a ledge",
+  "nl": "πέτρα, een rots, een richel"
+ },
+ "πίστις": {
+  "en": "πίστις, πίστις, trust, faith; assurance, pledge",
+  "nl": "πίστις, πίστις, vertrouwen, geloof; zekerheid, belofte"
+ },
+ "πανδημεί": {
+  "en": "πανδημεί, with the whole people, in a mass",
+  "nl": "πανδημεί, met het hele volk, in een mis"
+ },
+ "παράνομος": {
+  "en": "παράνομος, acting contrary to law, lawless",
+  "nl": "παράνομος, handelend in strijd met de wet, wetteloos"
+ },
+ "παράρυμα": {
+  "en": "towline; rope for hauling",
+  "nl": "treklijn; sleeptouw"
+ },
+ "παρέρχομαι": {
+  "en": "παρέρχομαι, παρέρχομαι, come forward, pass by, go by (verb)",
+  "nl": "παρέρχομαι, παρέρχομαι, naar voren komen, voorbijgaan, voorbijgaan (werkwoord)"
+ },
+ "παραβοηθέω": {
+  "en": "παραβοηθέω, to come up to help",
+  "nl": "παραβοηθέω, om te komen helpen"
+ },
+ "παραδίδωμι": {
+  "en": "παραδίδωμι, παραδίδωμι, hand over, surrender; hand down",
+  "nl": "παραδίδωμι, παραδίδωμι, overhandigen, overgave; hand naar beneden"
+ },
+ "παραθαλάσσιος": {
+  "en": "παραθαλάσσιος, beside the sea, lying on the sea-side, maritime",
+  "nl": "παραθαλάσσιος, aan zee, liggend aan zee, maritiem"
+ },
+ "παρακομίζω": {
+  "en": "παρακομίζω, to carry along with one, escort, convoy",
+  "nl": "παρακομίζω, meedragen met één, escorte, konvooi"
+ },
+ "παραλαμβάνω": {
+  "en": "παραλαμβάνω, παραλαμβάνω, take, receive from (verb); παραλαμβάνω, undertake, take from (verb) (19d (12i))",
+  "nl": "παραλαμβάνω, παραλαμβάνω, nemen, ontvangen van (werkwoord); παραλαμβάνω, ondernemen, overnemen van (werkwoord) (19d (12i))"
+ },
+ "παραπίπτω": {
+  "en": "παραπίπτω, to fall beside",
+  "nl": "παραπίπτω, naast vallen"
+ },
+ "παραπλέω": {
+  "en": "παραπλέω, to sail by",
+  "nl": "παραπλέω, voorbij varen"
+ },
+ "παρατάσσω": {
+  "en": "παρατάσσω, to place side by side, draw up in battle-order",
+  "nl": "παρατάσσω, naast elkaar plaatsen, in gevechtsvolgorde opstellen"
+ },
+ "παροίχομαι": {
+  "en": "παροίχομαι, to have passed by",
+  "nl": "παροίχομαι, voorbij zijn gegaan"
+ },
+ "πεζομαχέω": {
+  "en": "πεζομαχέω, to fight by land",
+  "nl": "πεζομαχέω, vechten over land"
+ },
+ "πεινάω": {
+  "en": "πεινάω, to be hungry, suffer hunger, be famished",
+  "nl": "πεινάω, honger hebben, honger lijden, uitgehongerd zijn"
+ },
+ "πελταστής": {
+  "en": "πελταστής, one who bears a light shield",
+  "nl": "πελταστής, iemand die een lichtschild draagt"
+ },
+ "πεντήκοντα": {
+  "en": "πεντήκοντα, πεντήκοντα, fifty",
+  "nl": "πεντήκοντα, πεντήκοντα, vijftig"
+ },
+ "πεντακισχίλιοι": {
+  "en": "πεντακισχίλιοι, five thousand",
+  "nl": "πεντακισχίλιοι, vijfduizend"
+ },
+ "πεντακόσιοι": {
+  "en": "πεντακόσιοι, πεντακόσιοι, five hundred",
+  "nl": "πεντακόσιοι, πεντακόσιοι, vijfhonderd"
+ },
+ "πεντεδραχμία": {
+  "en": "πεντεδραχμία, sum of five δραχμαί, coin worth five δραχμαί",
+  "nl": "πεντεδραχμία, som van vijf δραχμαί, munt ter waarde van vijf δραχμαί"
+ },
+ "πεντεκαίδεκα": {
+  "en": "πεντεκαίδεκα, fifteen",
+  "nl": "πεντεκαίδεκα, vijftien"
+ },
+ "περίοικος": {
+  "en": "περίοικος, dwelling round",
+  "nl": "περίοικος, rondhangen"
+ },
+ "περίπλοος": {
+  "en": "περίπλοος, περίπλους, circumnavigation",
+  "nl": "περίπλοος, περίπλους, omvaart"
+ },
+ "περιπλέω": {
+  "en": "περιπλέω, to sail",
+  "nl": "περιπλέω, zeilen"
+ },
+ "περιτείχισμα": {
+  "en": "περιτείχισμα, a wall of circumvallation",
+  "nl": "περιτείχισμα, een muur van omsingeling"
+ },
+ "περιτειχίζω": {
+  "en": "περιτειχίζω, to wall all round",
+  "nl": "περιτειχίζω, rondom muur"
+ },
+ "πλήρωμα": {
+  "en": "πλήρωμα, a full measure; crew",
+  "nl": "πλήρωμα, een volledige maat; bemanning"
+ },
+ "πλοῖον": {
+  "en": "πλοῖον, πλοῖον, ship, boat",
+  "nl": "πλοῖον, πλοῖον, schip, boot"
+ },
+ "πολεμέω": {
+  "en": "πολεμέω, πολεμέω, make war, make war against (+ dat.)",
+  "nl": "πολεμέω, πολεμέω, oorlog voeren, oorlog voeren tegen (+ dat.)"
+ },
+ "πολιορκέω": {
+  "en": "πολιορκέω, πολιορκέω, besiege",
+  "nl": "πολιορκέω, πολιορκέω, belegering"
+ },
+ "πολιορκία": {
+  "en": "πολιορκία, a besieging, siege",
+  "nl": "πολιορκία, een belegering, belegering"
+ },
+ "πολιτεύω": {
+  "en": "πολιτεύω, πολῑτεύω, πολῑτεύσω, ἐπολίτευσα, πεπολίτευκα, πεπολίτευμαι, ἐπολῑτεύθην, live as a citizen,…",
+  "nl": "πολιτεύω, πολῑτεύω, πολῑτεύσω, ἐπολίτευσα, πεπολίτευκα, πεπολίτευμαι, ἐπολῑτεύθην, leef als een burger,…"
+ },
+ "πολυπραγμονέω": {
+  "en": "πολυπραγμονέω, to be busy with many things, meddlesome",
+  "nl": "πολυπραγμονέω, met veel dingen bezig zijn, bemoeizuchtig"
+ },
+ "πορθέω": {
+  "en": "πορθέω, to destroy, ravage, waste, plunder",
+  "nl": "πορθέω, vernietigen, verwoesten, verspillen, plunderen"
+ },
+ "πρέσβις": {
+  "en": "πρέσβις, age; old woman, female ambassador",
+  "nl": "πρέσβις, leeftijd; oude vrouw, vrouwelijke ambassadeur"
+ },
+ "πρηστήρ": {
+  "en": "πρηστήρ, a hurricane",
+  "nl": "πρηστήρ, een orkaan"
+ },
+ "προΐστημι": {
+  "en": "προΐστημι, set before",
+  "nl": "eerder instellen"
+ },
+ "προβολή": {
+  "en": "προβολή, a putting forward",
+  "nl": "προβολή, een naar voren brengen"
+ },
+ "προβουλεύω": {
+  "en": "προβουλεύω, to contrive",
+  "nl": "προβουλεύω, verzinnen"
+ },
+ "προδίδωμι": {
+  "en": "προδίδωμι, προδίδωμι, betray, give up (to an enemy), abandon",
+  "nl": "προδίδωμι, προδίδωμι, verraden, opgeven (aan een vijand), in de steek laten"
+ },
+ "προδοσία": {
+  "en": "προδοσία, a giving up, betrayal, treason",
+  "nl": "προδοσία, opgeven, verraad, verraad"
+ },
+ "προδότης": {
+  "en": "προδότης, προδότης, traitor, betrayer",
+  "nl": "προδότης, προδότης, verrader, verrader"
+ },
+ "προηγορέω": {
+  "en": "προηγορέω, to speak on the part of",
+  "nl": "προηγορέω, om van de kant te spreken"
+ },
+ "προνομή": {
+  "en": "προνομή, a foraging, a foraging expedition, foray",
+  "nl": "προνομή, een foerageertocht, een foerageerexpeditie, een uitstapje"
+ },
+ "προοφείλω": {
+  "en": "προοφείλω, to owe beforehand",
+  "nl": "vooraf verschuldigd zijn"
+ },
+ "προπίνω": {
+  "en": "προπίνω, to drink before",
+  "nl": "προπίνω, om eerder te drinken"
+ },
+ "προσβάλλω": {
+  "en": "προσβάλλω, to strike",
+  "nl": "προσβάλλω, slaan"
+ },
+ "προσβολή": {
+  "en": "προσβολή, a putting to, application",
+  "nl": "προσβολή, een aanbrenging, toepassing"
+ },
+ "προσδέχομαι": {
+  "en": "προσδέχομαι, to receive favourably, accept",
+  "nl": "προσδέχομαι, gunstig ontvangen, accepteren"
+ },
+ "προσκαθέζομαι": {
+  "en": "προσκαθέζομαι, to sit down before; to besiege",
+  "nl": "προσκαθέζομαι, om ervoor te gaan zitten; belegeren"
+ },
+ "προσκαλέω": {
+  "en": "προσκαλέω, προσκαλέω, summon, call (verb)",
+  "nl": "προσκαλέω, προσκαλέω, oproepen, oproepen (werkwoord)"
+ },
+ "προσομιλέω": {
+  "en": "προσομιλέω, to hold intercourse with, live",
+  "nl": "προσομιλέω, gemeenschap hebben met, leven"
+ },
+ "προσπίπτω": {
+  "en": "προσπίπτω, to fall upon, strike against",
+  "nl": "προσπίπτω, vallen op, slaan tegen"
+ },
+ "προσπληρόω": {
+  "en": "προσπληρόω, to fill up",
+  "nl": "προσπληρόω, om te vullen"
+ },
+ "προσχωρέω": {
+  "en": "προσχωρέω, to go to, approach",
+  "nl": "προσχωρέω, naar toe gaan, naderen"
+ },
+ "προτίθημι": {
+  "en": "προτίθημι, to place before, to propose, to prefer",
+  "nl": "προτίθημι, vóór plaatsen, voorstellen, verkiezen"
+ },
+ "πρωΐ": {
+  "en": "πρωΐ, early in the day, at morn",
+  "nl": "πρωΐ, vroeg op de dag, in de ochtend"
+ },
+ "πρόξενος": {
+  "en": "πρόξενος, a public ξένος, guest or friend of the state",
+  "nl": "πρόξενος, een openbare ξένος, gast of vriend van de staat"
+ },
+ "πρύτανις": {
+  "en": "πρύτανις, πρύτανις, ὁ, prytanis (noun)",
+  "nl": "πρύτανις, πρύτανις, ὁ, prytanis (zelfstandig naamwoord)"
+ },
+ "πρῷρα": {
+  "en": "πρῷρα, the forepart of a ship, a ship’s head, prow, bow",
+  "nl": "πρῷρα, het voorschip van een schip, de kop van een schip, boeg, boeg"
+ },
+ "πόρος": {
+  "en": "πόρος, a means of passing/providing, provision",
+  "nl": "πόρος, een middel om door te geven/verstrekking, voorziening"
+ },
+ "σιωπάω": {
+  "en": "σιωπάω, σιωπάω, be silent (verb)",
+  "nl": "σιωπάω, σιωπάω, stil zijn (werkwoord)"
+ },
+ "σκηνή": {
+  "en": "σκηνή, σκηνή, tent, booth; stage building, stage",
+  "nl": "σκηνή, σκηνή, tent, stand; toneelbouw, toneel"
+ },
+ "σκότος": {
+  "en": "σκότος, darkness, gloom",
+  "nl": "σκότος, duisternis, somberheid"
+ },
+ "στάδιον": {
+  "en": "στάδιος, standing firm",
+  "nl": "στάδιος, standvastig"
+ },
+ "στάσις": {
+  "en": "στάσις, στάσις, στάσεως, ἡ, civil strife, faction",
+  "nl": "στάσις, στάσις, στάσεως, ἡ, burgerlijke strijd, factie"
+ },
+ "στασιάζω": {
+  "en": "στασιάζω, to rebel, revolt, rise in rebellion",
+  "nl": "στασιάζω, in opstand komen, in opstand komen, in opstand komen"
+ },
+ "στενοπορία": {
+  "en": "στενοπορία, a narrow way",
+  "nl": "στενοπορία, een smalle weg"
+ },
+ "στερέω": {
+  "en": "στερέω, στερέω, deprive of (+ gen.) (verb)",
+  "nl": "στερέω, στερέω, beroven van (+ gen.) (werkwoord)"
+ },
+ "στράτευμα": {
+  "en": "στράτευμα, στράτευμα, army",
+  "nl": "στράτευμα, στράτευμα, leger"
+ },
+ "στρατεύω": {
+  "en": "στρατεύω, στρατεύω, carry out a military campaign, wage war; (mid.) carry out a campaign, march (on campaign)",
+  "nl": "στρατεύω, στρατεύω, een militaire campagne voeren, oorlog voeren; (midden) een campagne uitvoeren, marcheren (op campagne)"
+ },
+ "στρατηγέω": {
+  "en": "στρατηγέω, to be general",
+  "nl": "στρατηγέω, om algemeen te zijn"
+ },
+ "στρατηγία": {
+  "en": "στρατηγία, the office, dignity",
+  "nl": "στρατηγία, het kantoor, waardigheid"
+ },
+ "στρατιῶτις": {
+  "en": "στρατιῶτις, (ναῦς) a troop-transport ship, (fem. adj.) soldier-",
+  "nl": "στρατιῶτις, (ναῦς) een troepentransportschip, (vrouwelijk adj.) soldaat-"
+ },
+ "στρατοπεδεύω": {
+  "en": "στρατοπεδεύω, to encamp, bivouac, take up a position",
+  "nl": "στρατοπεδεύω, kamperen, bivakkeren, een positie innemen"
+ },
+ "συγκαλέω": {
+  "en": "συγκαλέω, to call to council, convoke, convene",
+  "nl": "συγκαλέω, bijeenroepen, bijeenroepen, bijeenroepen"
+ },
+ "συλλέγω": {
+  "en": "συλλέγω, συλλέγω, gather, bring together, collect",
+  "nl": "συλλέγω, συλλέγω, verzamelen, samenbrengen, verzamelen"
+ },
+ "συμμαχίς": {
+  "en": "συμμαχίς, allied",
+  "nl": "συμμαχίς, geallieerd"
+ },
+ "συμμορία": {
+  "en": "συμμορία, a co-partnership",
+  "nl": "συμμορία, een co-partnerschap"
+ },
+ "συμπέμπω": {
+  "en": "συμπέμπω, συμπέμπω, send with (verb)",
+  "nl": "συμπέμπω, συμπέμπω, verzenden met (werkwoord)"
+ },
+ "συμπλέω": {
+  "en": "συμπλέω, to sail in company with",
+  "nl": "συμπλέω, om in gezelschap mee te varen"
+ },
+ "συμπολεμέω": {
+  "en": "συμπολεμέω, to join in war",
+  "nl": "συμπολεμέω, om deel te nemen aan de oorlog"
+ },
+ "συμφράζω": {
+  "en": "συμφράζω, mention at the same time, use in same context",
+  "nl": "συμφράζω, tegelijkertijd vermelden, in dezelfde context gebruiken"
+ },
+ "συμφυγάς": {
+  "en": "συμφυγάς, a fellow-exile",
+  "nl": "συμφυγάς, een mede-ballingschap"
+ },
+ "συνάρχω": {
+  "en": "συνάρχω, to rule jointly with",
+  "nl": "συνάρχω, om samen met te regeren"
+ },
+ "συνέδριον": {
+  "en": "συνέδριον, a body of men assembled in council, a council-board, council",
+  "nl": "συνέδριον, een lichaam van mannen bijeen in de raad, een raadsbestuur, raad"
+ },
+ "συναθροίζω": {
+  "en": "συναθροίζω, to gather together, assemble",
+  "nl": "συναθροίζω, samenkomen, bijeenkomen"
+ },
+ "συναλίζω": {
+  "en": "συναλίζω, to bring together, collect",
+  "nl": "συναλίζω, samenbrengen, verzamelen"
+ },
+ "συνεισπλέω": {
+  "en": "συνεισπλέω, to sail into together",
+  "nl": "συνεισπλέω, om samen in te varen"
+ },
+ "συνθήκη": {
+  "en": "συνθήκη, a composition; convention, pl. treaty",
+  "nl": "συνθήκη, een compositie; conventie, pl. verdrag"
+ },
+ "συνορμίζω": {
+  "en": "συνορμίζω, to bring to anchor together",
+  "nl": "συνορμίζω, samen voor anker brengen"
+ },
+ "συντάσσω": {
+  "en": "συντάσσω, to put in order together",
+  "nl": "συντάσσω, in orde brengen"
+ },
+ "σφράγισμα": {
+  "en": "σφράγισμα, an impression of a signet-ring, a seal",
+  "nl": "σφράγισμα, een impressie van een zegelring, een zegel"
+ },
+ "σύμμαχος": {
+  "en": "σύμμαχος, σύμμαχος, συμμάχου, ὁ, ally",
+  "nl": "σύμμαχος, σύμμαχος, συμμάχου, ὁ, bondgenoot"
+ },
+ "τάλαντον": {
+  "en": "τάλαντον, τάλαντον, balance, weighing scale; unit of weight (talent), and hence a sum of money (gold or…",
+  "nl": "τάλαντον, τάλαντον, balans, weegschaal; gewichtseenheid (talent), en dus een geldsom (goud of..."
+ },
+ "τάσσω": {
+  "en": "τάσσω, τάττω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην, draw up in order, station, appoint",
+  "nl": "τάσσω, τάττω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην, op volgorde opstellen, stationeren, benoemen"
+ },
+ "ταξίαρχος": {
+  "en": "ταξίαρχος, the commander of a squadron",
+  "nl": "ταξίαρχος, de commandant van een squadron"
+ },
+ "ταράσσω": {
+  "en": "ταράσσω, to stir, stir up, trouble",
+  "nl": "ταράσσω, roeren, in beroering brengen, problemen veroorzaken"
+ },
+ "τειχίζω": {
+  "en": "τειχίζω, to build a wall",
+  "nl": "τειχίζω, een muur bouwen"
+ },
+ "τειχομαχέω": {
+  "en": "τειχομαχέω, to fight the walls",
+  "nl": "τειχομαχέω, om tegen de muren te vechten"
+ },
+ "τεσσαράκοντα": {
+  "en": "τεσσαράκοντα, τετταράκοντα, forty",
+  "nl": "τεσσαράκοντα, τετταράκοντα, veertig"
+ },
+ "τεῖχος": {
+  "en": "τεῖχος, τεῖχος, τείχους, τό, city wall",
+  "nl": "τεῖχος, τεῖχος, τείχους, τό, stadsmuur"
+ },
+ "τεῦχος": {
+  "en": "τεῦχος, a tool, implement",
+  "nl": "τεῦχος, een hulpmiddel, implementeren"
+ },
+ "τιμωρία": {
+  "en": "τιμωρία, τιμωρία, ἡ, revenge, vengeance (noun)",
+  "nl": "τιμωρία, τιμωρία, ἡ, wraak, wraak (zelfstandig naamwoord)"
+ },
+ "τοι + ἀνήρ": {
+  "en": "men! / you men!",
+  "nl": "mannen! / jullie mannen!"
+ },
+ "τριάκοντα": {
+  "en": "τριάκοντα, τριάκοντα, thirty",
+  "nl": "τριάκοντα, τριάκοντα, dertig"
+ },
+ "τριήραρχος": {
+  "en": "τριήραρχος, τριήραρχος, ὁ, trierarch (noun)",
+  "nl": "τριήραρχος, τριήραρχος, ὁ, trierarch (zelfstandig naamwoord)"
+ },
+ "τριήρης": {
+  "en": "τριήρης, τριήρης, trireme (a military vessel with three banks of oars)",
+  "nl": "τριήρης, τριήρης, trireem (een militair schip met drie rijen roeispanen)"
+ },
+ "τριακόσιοι": {
+  "en": "τριακόσιοι, τριακόσιοι, three hundred",
+  "nl": "τριακόσιοι, τριακόσιοι, driehonderd"
+ },
+ "τριώβολον": {
+  "en": "τριώβολον, a three-obol-piece, a half-drachma",
+  "nl": "τριώβολον, een drie-obol-stuk, een halve drachme"
+ },
+ "τρόπαιον": {
+  "en": "τρόπαιον, τρόπαιον, τροπαίου, τό, trophy, victory monument",
+  "nl": "τρόπαιον, τρόπαιον, τροπαίου, τό, trofee, overwinningsmonument"
+ },
+ "φιλανθρωπία": {
+  "en": "φιλανθρωπία, humanity, benevolence, kindliness",
+  "nl": "φιλανθρωπία, menselijkheid, welwillendheid, vriendelijkheid"
+ },
+ "φοίτησις": {
+  "en": "φοίτησις, a constant going",
+  "nl": "φοίτησις, een constante beweging"
+ },
+ "φρουρά": {
+  "en": "φρουρά, a looking out, watch, guard",
+  "nl": "φρουρά, uitkijken, waken, bewaken"
+ },
+ "φρουρίς": {
+  "en": "φρουρίς, a guard-ship",
+  "nl": "φρουρίς, een wachtschip"
+ },
+ "φρουρός": {
+  "en": "φρουρός, a watcher, guard",
+  "nl": "φρουρός, een wachter, bewaker"
+ },
+ "φυλή": {
+  "en": "φυλή, a race, a tribe",
+  "nl": "φυλή, een ras, een stam"
+ },
+ "φόρος": {
+  "en": "φόρος, φόρος, payment, tribute",
+  "nl": "φόρος, φόρος, betaling, eerbetoon"
+ },
+ "χειμάζω": {
+  "en": "χειμάζω, to pass the winter",
+  "nl": "χειμάζω, om de winter door te brengen"
+ },
+ "χράομαι": {
+  "en": "χράομαι, χράομαι, use, employ (+ dat.); experience (a condition) (+ dat.)",
+  "nl": "χράομαι, χράομαι, gebruik, gebruik (+ dat.); ervaring (een toestand) (+ dat.)"
+ },
+ "χρώς": {
+  "en": "χρώς, χρώς, ὁ, flesh, skin (noun)",
+  "nl": "χρώς, χρώς, ὁ, vlees, huid (zelfstandig naamwoord)"
+ },
+ "χωρίον": {
+  "en": "χωρέω, χωρέω, go, come (verb)",
+  "nl": "χωρέω, χωρέω, ga, kom (werkwoord)"
+ },
+ "ψήφισμα": {
+  "en": "ψήφισμα, ψήφισμα, τό, decree (noun)",
+  "nl": "ψήφισμα, ψήφισμα, τό, decreet (zelfstandig naamwoord)"
+ },
+ "ψῆφος": {
+  "en": "ψῆφος, ψῆφος, small stone, pebble (used in reckoning, in games, in voting); vote",
+  "nl": "ψῆφος, ψῆφος, kleine steen, kiezelsteen (gebruikt bij afrekening, bij spelletjes, bij stemmen); stemmen"
+ },
+ "ἀήσσητος": {
+  "en": "ἀήσσητος, unconquered",
+  "nl": "ἀήσσητος, onoverwonnen"
+ },
+ "ἀγνωμονέω": {
+  "en": "ἀγνωμονέω, to act without right feeling, act unfairly",
+  "nl": "ἀγνωμονέω, handelen zonder juist gevoel, oneerlijk handelen"
+ },
+ "ἀγνώς": {
+  "en": "ἀγνώς, unknown, ignorant",
+  "nl": "ἀγνώς, onbekend, onwetend"
+ },
+ "ἀθροίζω": {
+  "en": "ἀθροίζω, ἁθροίζω, gather together",
+  "nl": "ἀθροίζω, ἁθροίζω, samenkomen"
+ },
+ "ἀθυμέω": {
+  "en": "ἀθυμέω, ἀθυμέω, be downhearted, gloomy (verb)",
+  "nl": "ἀθυμέω, ἀθυμέω, neerslachtig zijn, somber (werkwoord)"
+ },
+ "ἀκμάζω": {
+  "en": "ἀκμάζω, to be in full bloom, be at one’s prime",
+  "nl": "Dus, om in volle bloei te zijn, op zijn best te zijn"
+ },
+ "ἀκράτεια": {
+  "en": "ἀκράτεια, incontinence, want of self-control",
+  "nl": "ἀκράτεια, incontinentie, gebrek aan zelfbeheersing"
+ },
+ "ἀκροβόλισις": {
+  "en": "ἀκροβόλισις, a skirmishing",
+  "nl": "ἀκροβόλισις, een schermutseling"
+ },
+ "ἀμέλεια": {
+  "en": "ἀμέλεια, indifference, negligence",
+  "nl": "ἀμέλεια, onverschilligheid, nalatigheid"
+ },
+ "ἀμηχανία": {
+  "en": "ἀμηχανία, want of means, helplessness, impotence",
+  "nl": "ἀμηχανία, gebrek aan middelen, hulpeloosheid, impotentie"
+ },
+ "ἀνάγω": {
+  "en": "ἀνάγω, to lead up; mid. set sail",
+  "nl": "ἀνάγω, leiden; midden. uitvaren"
+ },
+ "ἀνέλκω": {
+  "en": "ἀνέλκω, to draw up",
+  "nl": "ἀνέλκω, opmaken"
+ },
+ "ἀναίρεσις": {
+  "en": "ἀναίρεσις, a taking up",
+  "nl": "ἀναίρεσις, een opname"
+ },
+ "ἀναίτιος": {
+  "en": "ἀναίτιος, ἀναίτιος, guiltless, without blame or responsibility",
+  "nl": "ἀναίτιος, ἀναίτιος, onschuldig, zonder schuld of verantwoordelijkheid"
+ },
+ "ἀναβιβάζω": {
+  "en": "ἀναβιβάζω, to make go up, cause to mount",
+  "nl": "ἀναβιβάζω, omhoog laten gaan, laten stijgen"
+ },
+ "ἀναβοάω": {
+  "en": "ἀναβοάω, to shout aloud, utter a loud cry",
+  "nl": "ἀναβοάω, hardop schreeuwen, een luide kreet uiten"
+ },
+ "ἀναγωγή": {
+  "en": "ἀναγωγή, a leading up",
+  "nl": "ἀναγωγή, een aanloop"
+ },
+ "ἀναιρέω": {
+  "en": "ἀναιρέω, ἀναιρέω, take up, pick up; make away with, destroy, kill",
+  "nl": "ἀναιρέω, ἀναιρέω, oppakken, oppakken; wegmaken, vernietigen, doden"
+ },
+ "ἀνακοινόω": {
+  "en": "ἀνακοινόω, to communicate",
+  "nl": "ἀνακοινόω, om te communiceren"
+ },
+ "ἀναλόω": {
+  "en": "to spend; consume",
+  "nl": "uitgeven; verbruiken"
+ },
+ "ἀναψύχω": {
+  "en": "ἀναψύχω, to cool, to revive by fresh air, to refresh",
+  "nl": "ἀναψύχω, afkoelen, opfrissen door frisse lucht, verfrissen"
+ },
+ "ἀνδράποδον": {
+  "en": "ἀνδράποδον, ἀνδράποδον, war captive sold into slavery; slave",
+  "nl": "ἀνδράποδον, ἀνδράποδον, oorlogsgevangene als slaaf verkocht; slaaf"
+ },
+ "ἀνδραποδίζω": {
+  "en": "ἀνδραποδίζω, to reduce to slavery, enslave",
+  "nl": "ἀνδραποδίζω, tot slavernij reduceren, tot slaaf maken"
+ },
+ "ἀνεπιτήδειος": {
+  "en": "ἀνεπιτήδειος, unserviceable, unfit",
+  "nl": "ἀνεπιτήδειος, onbruikbaar, ongeschikt"
+ },
+ "ἀνεψιός": {
+  "en": "ἀνεψιός, a first-cousin, cousin (m.)",
+  "nl": "ἀνεψιός, een neef, neef (m.)"
+ },
+ "ἀντίον": {
+  "en": "ἀντίος, set against",
+  "nl": "ἀντίος, tegengesteld"
+ },
+ "ἀντανάγω": {
+  "en": "ἀντανάγω, to lead up against",
+  "nl": "ἀντανάγω, om tegenaan te lopen"
+ },
+ "ἀντιπαρατάσσομαι": {
+  "en": "ἀντιπαρατάσσομαι, to stand in array against",
+  "nl": "ἀντιπαρατάσσομαι, in opstelling staan ​​tegen"
+ },
+ "ἀντιτάσσω": {
+  "en": "ἀντιτάσσω, to set opposite to, range in battle against",
+  "nl": "ἀντιτάσσω, tegenovergesteld aan, bereik in de strijd tegen"
+ },
+ "ἀνωφελής": {
+  "en": "ἀνωφελής, unprofitable, useless",
+  "nl": "ἀνωφελής, onrendabel, nutteloos"
+ },
+ "ἀπαίρω": {
+  "en": "ἀπαίρω, to lift off, carry off, take away, to remove from",
+  "nl": "ἀπαίρω, opstijgen, wegvoeren, wegnemen, wegnemen"
+ },
+ "ἀπείργω": {
+  "en": "ἀπείργω, to keep away from, debar from",
+  "nl": "ἀπείργω, wegblijven van, uitsluiten van"
+ },
+ "ἀπεσσούα": {
+  "en": "ἀποσεύω, to chase away",
+  "nl": "ἀποσεύω, wegjagen"
+ },
+ "ἀποβιβάζω": {
+  "en": "ἀποβιβάζω, to make to get off",
+  "nl": "ἀποβιβάζω, ervoor zorgen dat je uitstapt"
+ },
+ "ἀποδικέω": {
+  "en": "ἀποδικέω, to defend oneself on trial",
+  "nl": "ἀποδικέω, om zichzelf tijdens de rechtszaak te verdedigen"
+ },
+ "ἀποκόπτω": {
+  "en": "ἀποκόπτω, to cut off, hew off",
+  "nl": "ἀποκόπτω, afsnijden, afhouwen"
+ },
+ "ἀπολοφύρομαι": {
+  "en": "ἀπολοφύρομαι, to bewail loudly",
+  "nl": "ἀπολοφύρομαι, luid jammeren"
+ },
+ "ἀποπίπτω": {
+  "en": "ἀποπίπτω, to fall off from",
+  "nl": "ἀποπίπτω, om van af te vallen"
+ },
+ "ἀποπλέω": {
+  "en": "ἀποπλέω, ἀποπλέω, sail away",
+  "nl": "ἀποπλέω, ἀποπλέω, zeil weg"
+ },
+ "ἀποσπάω": {
+  "en": "ἀποσπάω, tear or drag away from",
+  "nl": "ἀποσπάω, scheuren of wegslepen"
+ },
+ "ἀποστέλλω": {
+  "en": "ἀποστέλλω, to send off",
+  "nl": "ἀποστέλλω, om weg te sturen"
+ },
+ "ἀποσῴζω": {
+  "en": "ἀποσῴζω, to preserve from, heal from",
+  "nl": "ἀποσῴζω, beschermen tegen, genezen van"
+ },
+ "ἀποτείχισμα": {
+  "en": "ἀποτείχισμα, a wall built to blockade, lines of blockade",
+  "nl": "ἀποτείχισμα, een muur gebouwd om te blokkeren, blokkadelijnen"
+ },
+ "ἀποτειχίζω": {
+  "en": "ἀποτειχίζω, to wall off",
+  "nl": "om af te schermen"
+ },
+ "ἀποφεύγω": {
+  "en": "ἀποφεύγω, ἀποφεύγω, escape, run off (verb)",
+  "nl": "ἀποφεύγω, ἀποφεύγω, ontsnappen, wegrennen (werkwoord)"
+ },
+ "ἀπρόθυμος": {
+  "en": "ἀπρόθυμος, not eager",
+  "nl": "ἀπρόθυμος, niet enthousiast"
+ },
+ "ἀρέσκω": {
+  "en": "ἄρεσκος, pleasing",
+  "nl": "Goed, aangenaam"
+ },
+ "ἀργυρολογέω": {
+  "en": "ἀργυρολογέω, to levy money",
+  "nl": "ἀργυρολογέω, om geld te heffen"
+ },
+ "ἀργυρολογία": {
+  "en": "ἀργυρολογία, a levying of money",
+  "nl": "ἀργυρολογία, een heffing van geld"
+ },
+ "ἀριστερός": {
+  "en": "ἀριστερός, ἀριστερός, on the left, left; ominous",
+  "nl": "ἀριστερός, ἀριστερός, aan de linkerkant, links; dreigend"
+ },
+ "ἀριστοποιέω": {
+  "en": "ἀριστοποιέω, prepared for breakfast",
+  "nl": "ἀριστοποιέω, bereid voor ontbijt"
+ },
+ "ἀσεβέω": {
+  "en": "ἀσεβέω, ἀσεβέω, live or act impiously; sin against",
+  "nl": "ἀσεβέω, ἀσεβέω, goddeloos leven of handelen; zonde tegen"
+ },
+ "ἀστυγείτων": {
+  "en": "ἀστυγείτων, near or bordering on a city",
+  "nl": "ἀστυγείτων, dichtbij of grenzend aan een stad"
+ },
+ "ἀτέλεια": {
+  "en": "immunity from taxes; exemption",
+  "nl": "belastingvrijstelling; vrijstelling"
+ },
+ "ἀτυχέω": {
+  "en": "ἀτυχέω, to be unlucky",
+  "nl": "pech hebben"
+ },
+ "ἀφορμάω": {
+  "en": "ἀφορμάω, to make to start from",
+  "nl": "om te maken om van uit te gaan"
+ },
+ "ἁρμοστής": {
+  "en": "ἁρμοστής, one who arranges",
+  "nl": "ἁρμοστής, iemand die regelt"
+ },
+ "ἄγκυρα": {
+  "en": "ἄγκυρα, anchor",
+  "nl": "ἄγκυρα, anker"
+ },
+ "ἄθυμος": {
+  "en": "ἄθυμος, ἄθυμος, discouraged, spiritless",
+  "nl": "ἄθυμος, ἄθυμος, ontmoedigd, geesteloos"
+ },
+ "ἄλφιτον": {
+  "en": "ἄλφιτον, barley groats",
+  "nl": "ἄλφιτον, gerstgrutten"
+ },
+ "Ἀγησανδρίδας": {
+  "en": "proper name: Ἀγησανδρίδας",
+  "nl": "eigennaam: Ἀγησανδρίδας"
+ },
+ "Ἀδείμαντος": {
+  "en": "Ἀδείμαντος, Adimantus",
+  "nl": "Ἀδείμαντος, Adimantus"
+ },
+ "Ἀθήνησι": {
+  "en": "Ἀθῆναι, Ἀθῆναι, αἱ, Athens (noun)",
+  "nl": "Ἀθῆναι, Ἀθῆναι, αἱ, Athene (zelfstandig naamwoord)"
+ },
+ "Ἀθημαῖος": {
+  "en": "proper name: Ἀθημαῖος",
+  "nl": "eigennaam: Ἀθημαῖος"
+ },
+ "Ἀκράγας": {
+  "en": "Ἀκράγας, Acragas",
+  "nl": "Ἀκράγας, Acragas"
+ },
+ "Ἀναξίλαος": {
+  "en": "Ἀναξίλαος, Anaxilas, Anaxilaus",
+  "nl": "Ἀναξίλαος, Anaxilas, Anaxilaus"
+ },
+ "Ἀναξικράτης": {
+  "en": "proper name: Ἀναξικράτης",
+  "nl": "eigennaam: Ἀναξικράτης"
+ },
+ "Ἀννίβας": {
+  "en": "Ἀννίβας, Hannibal",
+  "nl": "Ἀννίβας, Hannibal"
+ },
+ "Ἀντάνδριος": {
+  "en": "Ἀντάνδριος, Antandrian, inhabitant of Antandros",
+  "nl": "Ἀντάνδριος, Antandrian, inwoner van Antandros"
+ },
+ "Ἀντίοχος": {
+  "en": "Ἀντίοχος, Antiochus",
+  "nl": "Ἀντίοχος, Antiochus"
+ },
+ "Ἀντιγένης": {
+  "en": "proper name: Ἀντιγένης",
+  "nl": "eigennaam: Ἀντιγένης"
+ },
+ "Ἀπατούρια": {
+  "en": "Ἀπατούρια, the Apatouria",
+  "nl": "Ἀπατούρια, de Apatouria"
+ },
+ "Ἀρίσταρχος": {
+  "en": "Ἀρίσταρχος, Aristarchus",
+  "nl": "Ἀρίσταρχος, Aristarchus"
+ },
+ "Ἀρίστων": {
+  "en": "ἄριστος, ἄριστος, best, bravest, excellent",
+  "nl": "ἄριστος, ἄριστος, beste, dapperste, uitstekend"
+ },
+ "Ἀργινοῦσαι": {
+  "en": "Ἀργινοῦσαι, Arginusae",
+  "nl": "Ἀργινοῦσαι, Arginusae"
+ },
+ "Ἀριοβαρζάνης": {
+  "en": "Ἀριοβαρζάνης, Ariobarzanes",
+  "nl": "Ἀριοβαρζάνης, Ariobarzanes"
+ },
+ "Ἀριστογένης": {
+  "en": "Ἀριστογένης, Aristogenes",
+  "nl": "Ἀριστογένης, Aristogenes"
+ },
+ "Ἀριστοκράτης": {
+  "en": "Ἀριστοκράτης, Aristocrates",
+  "nl": "Ἀριστοκράτης, Aristocrates"
+ },
+ "Ἀρνάπες": {
+  "en": "proper name: Ἀρνάπες",
+  "nl": "eigennaam: Ἀρνάπες"
+ },
+ "Ἀρχέδημος": {
+  "en": "Ἀρχέδημος, Archedemus",
+  "nl": "Ἀρχέδημος, Archedemus"
+ },
+ "Ἀρχέστρατος": {
+  "en": "proper name: Ἀρχέστρατος",
+  "nl": "eigennaam: Ἀρχέστρατος"
+ },
+ "Ἀστύοχος": {
+  "en": "Ἀστύοχος, Astyochus",
+  "nl": "Ἀστύοχος, Astyochus"
+ },
+ "Ἀττική": {
+  "en": "Ἀττικός, Attic, Athenian",
+  "nl": "Ἀττικός, Zolder, Athener"
+ },
+ "Ἀττικίζω": {
+  "en": "Ἀττικίζω, to side with the Athenians",
+  "nl": "Ἀττικίζω, de kant van de Atheners kiezen"
+ },
+ "Ἀττικός": {
+  "en": "Ἀττικός, Attic, Athenian",
+  "nl": "Ἀττικός, Zolder, Athener"
+ },
+ "Ἄβυδος": {
+  "en": "Ἄβυδος, Abydos",
+  "nl": "Ἄβυδος, Abydos"
+ },
+ "Ἄγις": {
+  "en": "Ἆγις, Agis",
+  "nl": "Ἆγις, Agis"
+ },
+ "Ἄνδριος": {
+  "en": "Ἄνδριος, of Andros",
+  "nl": "Ἄνδριος, van Andros"
+ },
+ "Ἄνδρος": {
+  "en": "Ἄνδρος, Andros",
+  "nl": "Ἄνδρος, Andros"
+ },
+ "Ἄντανδρος": {
+  "en": "Ἄντανδρος, Antandros, town in Mysia",
+  "nl": "Ἄντανδρος, Antandros, stad in Mysië"
+ },
+ "Ἄρτεμις": {
+  "en": "Ἄρτεμις, Artemis",
+  "nl": "Ἄρτεμις, Artemis"
+ },
+ "ἐγγυάω": {
+  "en": "ἐγγυάω, ἐγγυάω, engage, promise (verb)",
+  "nl": "ἐγγυάω, ἐγγυάω, engageren, beloven (werkwoord)"
+ },
+ "ἐγγυητής": {
+  "en": "ἐγγυητής, one who gives security, a surety",
+  "nl": "ἐγγυητής, iemand die zekerheid geeft, een borg"
+ },
+ "ἐκβιβάζω": {
+  "en": "ἐκβιβάζω, to make to step out",
+  "nl": "ἐκβιβάζω, om uit te stappen"
+ },
+ "ἐκβοηθέω": {
+  "en": "ἐκβοηθέω, to march out to aid",
+  "nl": "ἐκβοηθέω, om uit te marcheren om hulp te bieden"
+ },
+ "ἐκκλησία": {
+  "en": "ἐκκλησία, ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ, assembly",
+  "nl": "ἐκκλησία, ἐκκλησίᾱ, ἐκκλησίᾱς, ἡ, montage"
+ },
+ "ἐκπέμπω": {
+  "en": "ἐκπέμπω, ἐκπέμπω, send out, divorce (verb)",
+  "nl": "ἐκπέμπω, ἐκπέμπω, uitzenden, scheiden (werkwoord)"
+ },
+ "ἐκπίπτω": {
+  "en": "ἐκπίπτω, ἐκπί̄πτω, be driven out, be banished",
+  "nl": "ἐκπίπτω, ἐκπί̄πτω, verdreven worden, verbannen worden"
+ },
+ "ἐκπλέω": {
+  "en": "ἐκπλέω, to sail out, sail away, weigh anchor",
+  "nl": "ἐκπλέω, uitvaren, wegzeilen, anker lichten"
+ },
+ "ἐλασσόω": {
+  "en": "ἐλασσόω, to make less",
+  "nl": "ἐλασσόω, om minder te maken"
+ },
+ "ἐλευθερόω": {
+  "en": "ἐλευθερόω, ἐλευθερόω, free, set free (verb)",
+  "nl": "ἐλευθερόω, ἐλευθερόω, vrij, vrijgelaten (werkwoord)"
+ },
+ "ἐμπίμπρημι": {
+  "en": "ἐμπίμπρημι, to kindle, burn, set on fire",
+  "nl": "ἐμπίμπρημι, aansteken, verbranden, in brand steken"
+ },
+ "ἐνενήκοντα": {
+  "en": "ἐνενήκοντα, ἐνενήκοντα, ninety",
+  "nl": "ἐνενήκοντα, ἐνενήκοντα, negentig"
+ },
+ "ἐνενηκοστός": {
+  "en": "ἐνενηκοστός, ninetieth",
+  "nl": "ἐνενηκοστός, negentigste"
+ },
+ "ἐννέα": {
+  "en": "ἐννέα, ἐννέα, nine",
+  "nl": "ἐννέα, ἐννέα, negen"
+ },
+ "ἐξάγω": {
+  "en": "ἐξάγω, ἐξάγω, lead / bring out (verb)",
+  "nl": "ἐξάγω, ἐξάγω, leiden / naar buiten brengen (werkwoord)"
+ },
+ "ἐξαγγέλλω": {
+  "en": "ἐξαγγέλλω, to send out",
+  "nl": "ἐξαγγέλλω, om uit te zenden"
+ },
+ "ἐξαμαρτάνω": {
+  "en": "ἐξαμαρτάνω, to err from the mark, fail",
+  "nl": "ἐξαμαρτάνω, dwalen van het doel, falen"
+ },
+ "ἐξαπίναιος": {
+  "en": "ἐξαπίναιος, sudden, unexpected",
+  "nl": "ἐξαπίναιος, plotseling, onverwacht"
+ },
+ "ἐξηγέομαι": {
+  "en": "ἐξηγέομαι, to be leader of; dictate, interpret, explain",
+  "nl": "ἐξηγέομαι, leider zijn van; dicteren, interpreteren, uitleggen"
+ },
+ "ἐπάγω": {
+  "en": "ἐπάγω, to bring on",
+  "nl": "ἐπάγω, aan te brengen"
+ },
+ "ἐπάν": {
+  "en": "ἐπεί, ἐπεί, after, when, since",
+  "nl": "ἐπεί, ἐπεί, nadat, wanneer, sinds"
+ },
+ "ἐπέχω": {
+  "en": "ἐπέχω, ἐπέχω, hold on, restrain, check (verb)",
+  "nl": "ἐπέχω, ἐπέχω, vasthouden, in bedwang houden, controleren (werkwoord)"
+ },
+ "ἐπαγγέλλω": {
+  "en": "ἐπαγγέλλω, ἐπαγγέλλω, order (verb)",
+  "nl": "ἐπαγγέλλω, ἐπαγγέλλω, bestellen (werkwoord)"
+ },
+ "ἐπαιτιάομαι": {
+  "en": "ἐπαιτιάομαι, to bring a charge against, accuse",
+  "nl": "ἐπαιτιάομαι, een aanklacht indienen tegen, beschuldigen"
+ },
+ "ἐπακτρίς": {
+  "en": "ἐπακτρίς, a light vessel, skiff",
+  "nl": "ἐπακτρίς, een licht schip, skiff"
+ },
+ "ἐπανάγω": {
+  "en": "ἐπανάγω, to bring up: to stir up, excite",
+  "nl": "ἐπανάγω, ter sprake brengen: opwekken, opwinden"
+ },
+ "ἐπανίστημι": {
+  "en": "ἐπανίστημι, to set up again",
+  "nl": "Goed, om opnieuw in te stellen"
+ },
+ "ἐπεισβαίνω": {
+  "en": "ἐπεισβαίνω, to go into upon",
+  "nl": "ἐπεισβαίνω, om op in te gaan"
+ },
+ "ἐπεισπλέω": {
+  "en": "ἐπεισπλέω, to sail in after",
+  "nl": "ἐπεισπλέω, om daarna naar binnen te varen"
+ },
+ "ἐπιβάλλω": {
+  "en": "ἐπιβάλλω, to throw",
+  "nl": "ἐπιβάλλω, gooien"
+ },
+ "ἐπιβολή": {
+  "en": "ἐπιβολή, a throwing",
+  "nl": "ἐπιβολή, een worp"
+ },
+ "ἐπιδέκατος": {
+  "en": "ἐπιδέκατος, one in ten",
+  "nl": "Goed, één op de tien"
+ },
+ "ἐπιθορυβέω": {
+  "en": "ἐπιθορυβέω, to shout to",
+  "nl": "ἐπιθορυβέω, om tegen te schreeuwen"
+ },
+ "ἐπικαλέω": {
+  "en": "ἐπικαλέω, to call upon",
+  "nl": "ἐπικαλέω, een beroep doen op"
+ },
+ "ἐπικηρύσσω": {
+  "en": "ἐπικηρύσσω, to announce by proclamation",
+  "nl": "ἐπικηρύσσω, aankondigen bij proclamatie"
+ },
+ "ἐπιλείπω": {
+  "en": "ἐπιλείπω, to leave behind; to run out, fail",
+  "nl": "ἐπιλείπω, achterlaten; opraken, mislukken"
+ },
+ "ἐπιπλέω": {
+  "en": "ἐπιπλέω, to sail upon",
+  "nl": "ἐπιπλέω, om op te varen"
+ },
+ "ἐπισκευάζω": {
+  "en": "ἐπισκευάζω, to get ready, to equip, fit out",
+  "nl": "ἐπισκευάζω, klaarmaken, uitrusten, uitrusten"
+ },
+ "ἐπιστέλλω": {
+  "en": "ἐπιστέλλω, ἐπιστέλλω, send a message; order, command (+ dat. or acc. + inf.)",
+  "nl": "ἐπιστέλλω, ἐπιστέλλω, stuur een bericht; order, commando (+ dat. of acc. + inf.)"
+ },
+ "ἐπιστολή": {
+  "en": "ἐπιστολή, ἐπιστολή, message, order sent by messenger; letter",
+  "nl": "ἐπιστολή, ἐπιστολή, bericht, bestelling verzonden per messenger; brief"
+ },
+ "ἐπιστολεύς": {
+  "en": "ἐπιστολεύς, secretary",
+  "nl": "ἐπιστολεύς, secretaris"
+ },
+ "ἐπιχείρημα": {
+  "en": "ἐπιχείρημα, an attempt, enterprise",
+  "nl": "ἐπιχείρημα, een poging, onderneming"
+ },
+ "ἐφοδιάζω": {
+  "en": "ἐφοδιάζω, to furnish with supplies for a journey",
+  "nl": "ἐφοδιάζω, om te voorzien van benodigdheden voor een reis"
+ },
+ "ἐφορεύω": {
+  "en": "ἐφορεύω, to be ephor",
+  "nl": "ἐφορεύω, om ephor te zijn"
+ },
+ "ἐφορμέω": {
+  "en": "ἐφορμέω, to lie moored at",
+  "nl": "ἐφορμέω, om aangemeerd te liggen"
+ },
+ "ἐφόδιον": {
+  "en": "ἐφόδιον, travelling-allowance",
+  "nl": "ἐφόδιον, reiskostenvergoeding"
+ },
+ "ἑβδομήκοντα": {
+  "en": "ἑβδομήκοντα, ἑβδομήκοντα, seventy",
+  "nl": "ἑβδομήκοντα, ἑβδομήκοντα, zeventig"
+ },
+ "ἑξήκοντα": {
+  "en": "ἑξήκοντα, ἑξήκοντα, sixty",
+  "nl": "ἑξήκοντα, ἑξήκοντα, zestig"
+ },
+ "ἑπτά": {
+  "en": "ἑπτάς, period of seven days",
+  "nl": "ἑπτάς, periode van zeven dagen"
+ },
+ "ἑπτακόσιοι": {
+  "en": "ἑπτακόσιοι, ἑπτακόσιοι, seven hundred",
+  "nl": "ἑπτακόσιοι, ἑπτακόσιοι, zevenhonderd"
+ },
+ "ἔαρ": {
+  "en": "ἔαρ, spring",
+  "nl": "ἔαρ, lente"
+ },
+ "ἔκπλοος": {
+  "en": "ἔκπλοος, a sailing out, leaving port",
+  "nl": "ἔκπλοος, een uitvaart, een haven verlatend"
+ },
+ "ἔμπορος": {
+  "en": "ἔμπορος, one who goes on shipboard as a passenger",
+  "nl": "ἔμπορος, iemand die als passagier aan boord gaat"
+ },
+ "ἔμφρουρος": {
+  "en": "ἔμφρουρος, on guard in",
+  "nl": "ἔμφρουρος, op wacht"
+ },
+ "ἔποικος": {
+  "en": "ἔποικος, one who has settled among strangers, a settler, alien",
+  "nl": "ἔποικος, iemand die zich onder vreemden heeft gevestigd, een kolonist, buitenaards wezen"
+ },
+ "ἔρρω": {
+  "en": "ἔρρω, be gone",
+  "nl": "wees weg"
+ },
+ "ἔφορος": {
+  "en": "ἔφορος, an overseer, guardian, ruler",
+  "nl": "ἔφορος, een opzichter, voogd, heerser"
+ },
+ "ἕβδομος": {
+  "en": "ἕβδομος, ἕβδομος, seventh",
+  "nl": "ἕβδομος, ἕβδομος, zevende"
+ },
+ "ἕλος": {
+  "en": "ἕλος, low ground by rivers, a marsh-meadow",
+  "nl": "ἕλος, laag terrein bij rivieren, een moerasweide"
+ },
+ "ἕνδεκα": {
+  "en": "ἕνδεκα, ἕνδεκα, eleven",
+  "nl": "ἕνδεκα, ἕνδεκα, elf"
+ },
+ "Ἐπικύδος": {
+  "en": "proper name: Ἐπικύδος",
+  "nl": "eigennaam: Ἐπικύδος"
+ },
+ "Ἐρασινίδης": {
+  "en": "proper name: Ἐρασινίδης",
+  "nl": "eigennaam: Ἐρασινίδης"
+ },
+ "Ἐτεόνικος": {
+  "en": "Ἐτεόνικος, Eteonicus",
+  "nl": "Ἐτεόνικος, Eteonicus"
+ },
+ "Ἐφέσιος": {
+  "en": "Ἐφέσιος, of Ephesus",
+  "nl": "Ἐφέσιος, van Efeze"
+ },
+ "Ἑλλήσποντος": {
+  "en": "Ἑλλήσποντος, the Hellespont",
+  "nl": "Ἑλλήσποντος, de Hellespont"
+ },
+ "Ἑλληνίς": {
+  "en": "Ἑλληνίς, Greek (fem. of Ἕλλην)",
+  "nl": "Ἑλληνίς, Grieks (fem. van Ἕλλην)"
+ },
+ "Ἑρμοκράτης": {
+  "en": "Ἑρμοκράτης, Hermocrates",
+  "nl": "Ἑρμοκράτης, Hermokrates"
+ },
+ "Ἔφεσος": {
+  "en": "Ἔφεσος, Ephesus (f., the city; m., the founder)",
+  "nl": "Ἔφεσος, Efeze (v., de stad; m., de stichter)"
+ },
+ "Ἕλιξος": {
+  "en": "proper name: Ἕλιξος",
+  "nl": "eigennaam: Ἕλιξος"
+ },
+ "Ἕρμων": {
+  "en": "proper name: Ἕρμων",
+  "nl": "eigennaam: Ἕρμων"
+ },
+ "ἠιών": {
+  "en": "shore; beach",
+  "nl": "oever; strand"
+ },
+ "ἡμεροσκόπος": {
+  "en": "ἡμεροσκόπος, watching by day",
+  "nl": "ἡμεροσκόπος, overdag kijken"
+ },
+ "Ἠιών": {
+  "en": "shore; beach",
+  "nl": "oever; strand"
+ },
+ "Ἠλεῖος": {
+  "en": "Ἠλεῖος, from Elis (adj), pr. n. Eleios",
+  "nl": "Ἠλεῖος, van Elis (adj), pr. N. Eleios"
+ },
+ "Ἡράκλεια": {
+  "en": "Ἡράκλειος, of Hercules",
+  "nl": "Ἡράκλειος, van Hercules"
+ },
+ "Ἡράκλειον": {
+  "en": "Ἡράκλειος, of Hercules",
+  "nl": "Ἡράκλειος, van Hercules"
+ },
+ "Ἡρακλείδης": {
+  "en": "Ἡρακλείδης, son of Heracles",
+  "nl": "Ἡρακλείδης, zoon van Heracles"
+ },
+ "ἰδίᾳ": {
+  "en": "ἴδιος, ἴδιος, pertaining to oneself; private, personal; separate, distinct",
+  "nl": "ἴδιος, ἴδιος, met betrekking tot zichzelf; privé, persoonlijk; afzonderlijk, onderscheiden"
+ },
+ "ἱερόσυλος": {
+  "en": "ἱερόσυλος, a temple-robber, sacrilegious person",
+  "nl": "ἱερόσυλος, een tempelrover, heiligschennis"
+ },
+ "ἱππεύς": {
+  "en": "ἱππεύς, ἱππεύς, ἱππέως, ὁ, horseman",
+  "nl": "ἱππεύς, ἱππεύς, ἱππέως, ὁ, ruiter"
+ },
+ "ἱστίον": {
+  "en": "ἱστίον, any web, a sail",
+  "nl": "ἱστίον, elk web, een zeil"
+ },
+ "Ἱμέρα": {
+  "en": "Ἱμέρας, Himera",
+  "nl": "Ἱμέρας, Himera"
+ },
+ "Ἱππεύς": {
+  "en": "Ἱππεύς, Hippeus",
+  "nl": "Ἱππεύς, Hippeus"
+ },
+ "Ἱπποκράτης": {
+  "en": "proper name: Ἱπποκράτης",
+  "nl": "eigennaam: Ἱπποκράτης"
+ },
+ "Ἴδη": {
+  "en": "Ἴδη, Ida",
+  "nl": "Ἴδη, Ida"
+ },
+ "Ἴλιον": {
+  "en": "Ἴλιος, Ilian, Trojan",
+  "nl": "Ἴλιος, Ilian, Trojaans"
+ },
+ "Ἵππων": {
+  "en": "ἵππος, ἵππος, ἵππου, ὁ or ἡ, horse, mare",
+  "nl": "ἵππος, ἵππος, ἵππου, ὁ of ἡ, paard, merrie"
+ },
+ "ὀβολός": {
+  "en": "ὀβολός, an obol",
+  "nl": "ὀβολός, een obool"
+ },
+ "ὀγδοήκοντα": {
+  "en": "ὀγδοήκοντα, ὀγδοήκοντα, eighty",
+  "nl": "ὀγδοήκοντα, ὀγδοήκοντα, tachtig"
+ },
+ "ὀλίγωρος": {
+  "en": "ὀλίγωρος, ὀλίγωρος ον, contemptuous (adjective)",
+  "nl": "ὀλίγωρος, ὀλίγωρος ον, minachtend (bijvoeglijk naamwoord)"
+ },
+ "ὁ + ἄλλος": {
+  "en": "the other",
+  "nl": "de andere"
+ },
+ "ὁπλίζω": {
+  "en": "ὁπλίζω, to equip, make ready; to arm",
+  "nl": "ὁπλίζω, uitrusten, gereed maken; te bewapenen"
+ },
+ "ὁπλίτης": {
+  "en": "ὁπλίτης, ὁπλίτης, ὁπλίτου, ὁ, hoplite, heavy-armed foot soldier",
+  "nl": "ὁπλίτης, ὁπλίτης, ὁπλίτου, ὁ, hopliet, zwaarbewapende voetsoldaat"
+ },
+ "ὁρμίζω": {
+  "en": "ὁρμίζω, to bring to a safe anchorage, bring into harbour, to moor, anchor",
+  "nl": "ὁρμίζω, naar een veilige ankerplaats brengen, in de haven brengen, aanmeren, voor anker gaan"
+ },
+ "ὅσιος": {
+  "en": "ὅσιος, ὅσιος, hallowed, pious, pure",
+  "nl": "ὅσιος, ὅσιος, heilig, vroom, zuiver"
+ },
+ "Ὀλυμπιάς": {
+  "en": "Ὀλυμπιάς, Olympic (Muse)/games/victory; Olympiad (four years)",
+  "nl": "Ὀλυμπιάς, Olympisch (Muse)/spelen/overwinning; Olympiade (vier jaar)"
+ },
+ "Ὅσα": {
+  "en": "ὅσος, ὅσος, ὅση, ὅσον, as much/many as, as large as; how much/many!, how large!",
+  "nl": "ὅσος, ὅσος, ὅση, ὅσον, zoveel/veel als, zo groot als; hoeveel/veel!, hoe groot!"
+ },
+ "ὑδρία": {
+  "en": "ὑδρίον, cistern, reservoir",
+  "nl": "ὑδρίον, stortbak, reservoir"
+ },
+ "ὑπέχω": {
+  "en": "ὑπέχω, to hold under, uphold; undergo, suffer, be accountable",
+  "nl": "ὑπέχω, vasthouden, hooghouden; ondergaan, lijden, aansprakelijk zijn"
+ },
+ "ὑπεραπολογέομαι": {
+  "en": "ὑπεραπολογέομαι, to speak in behalf of, defend",
+  "nl": "ὑπεραπολογέομαι, spreken namens, verdedigen"
+ },
+ "ὑπηρετικός": {
+  "en": "ὑπηρετικός, of or for doing service, menial, subordinate",
+  "nl": "ὑπηρετικός, van of voor het doen van dienst, ondergeschikt, ondergeschikt"
+ },
+ "ὑποτέμνω": {
+  "en": "ὑποτέμνω, to cut away under, cut away",
+  "nl": "ὑποτέμνω, wegsnijden onder, wegsnijden"
+ },
+ "ὑποτελέω": {
+  "en": "ὑποτελέω, to pay off, discharge a payment",
+  "nl": "afbetalen, een betaling aflossen"
+ },
+ "ὑπόμνυμι": {
+  "en": "ὑπόμνυμι, interpose by oath",
+  "nl": "ὑπόμνυμι, onder ede tussenbeide komen"
+ },
+ "ὑπόσπονδος": {
+  "en": "ὑπόσπονδος, under a treaty, bound",
+  "nl": "ὑπόσπονδος, onder een verdrag, gebonden"
+ },
+ "ὕω": {
+  "en": "ὕω, to send rain, to rain",
+  "nl": "ὕω, regen sturen, regenen"
+ },
+ "ὡσεί": {
+  "en": "ὡσεί, just as if, as though",
+  "nl": "net alsof, alsof"
+ },
+ "Ῥαμφίας": {
+  "en": "Ῥαμφίας, Rhamphias",
+  "nl": "Hallo, Rhamphias"
+ },
+ "Ῥοίτειον": {
+  "en": "Ῥοίτειον, Rhoeteum",
+  "nl": "Rhoeteum"
+ },
+ "Ῥόδιος": {
+  "en": "Ῥόδιος, Rhodian, of or from Rhodes",
+  "nl": "Ῥόδιος, Rhodian, van of uit Rhodos"
+ },
+ "Ῥόδος": {
+  "en": "Ῥόδος, Rhodes",
+  "nl": "Rhodos"
  }
 }

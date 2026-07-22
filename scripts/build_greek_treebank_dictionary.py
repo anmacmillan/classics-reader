@@ -116,6 +116,21 @@ def norm_form(s):
     return "".join(c for c in s if c.isalpha() and not unicodedata.combining(c))
 
 
+def crasis_parts(token, tb_form, next_form):
+    """Return whether a canonical crasis represents two GLAUx tokens.
+
+    GLAUx writes crasis such as κἀκεῖ and τἆλλα as a `κ-`/`τ-` token plus
+    the following word.  Preserve the canonical clickable form while keeping
+    both analyses in one dictionary entry.
+    """
+    nfd = unicodedata.normalize("NFD", token)
+    if tb_form == "κ-" and nfd.startswith("κ") and len(nfd) > 2 and nfd[1] == "α":
+        return True
+    if tb_form == "τ-" and nfd.startswith("τ") and len(nfd) > 2 and nfd[1] in "αω":
+        return True
+    return False
+
+
 def load_stream(path):
     stream = []
     for sentence in ET.parse(path).getroot().iter("sentence"):
@@ -160,6 +175,15 @@ def main(text_path, tb_path, out_prefix):
                 problems.append(f"line {line_no}: ran out of treebank at {token!r}")
                 continue
             tb_form, lemma, postag = stream[idx]
+            if (idx + 1 < len(stream) and crasis_parts(token, tb_form, stream[idx + 1][0])):
+                next_form, next_lemma, next_postag = stream[idx + 1]
+                combined_lemma = f"{lemma} + {next_lemma}"
+                combined_grammar = " + ".join(
+                    filter(None, [parse_postag(postag), parse_postag(next_postag)])
+                )
+                record(key, combined_lemma, combined_grammar, token, line_no)
+                idx += 2
+                continue
             # treebank may split crasis / οὐδέ-type compounds into two tokens
             if (norm_form(tb_form) != norm_form(token) and idx + 1 < len(stream)
                     and norm_form(tb_form + stream[idx + 1][0]) == norm_form(token)):

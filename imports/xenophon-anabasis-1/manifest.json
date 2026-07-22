@@ -1,0 +1,85 @@
+{
+  "id": "xenophon-anabasis-1",
+  "title": "Xenophon — Anabasis I",
+  "shortTitle": "De expeditie van Cyrus en de crisis van het leger",
+  "author": "Xenophon",
+  "year": -401,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "De opstand van Cyrus: begin van de expeditie (1.1.1–1.1.18)",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: Perseus Digital Library (tlg0032.tlg001.perseus-grc2) · EN: Perseus English reference · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg001.perseus-grc2:1.1.1"
+    },
+    {
+      "title": "Cyrus’ plannen en de mars naar Sardis (1.1.19–1.1.37)",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "De Tigris over: de mars oostwaarts (1.2.1–1.2.19)",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "De Grieken zien de ware bedoeling (1.3.1–1.3.22)",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "De opmars en de rivier de Eufraat (1.4.1–1.4.23)",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Cyrus zet de Grieken onder druk (1.5.1–1.5.21)",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "De vooravond van de slag bij Cunaxa (1.6.1–1.6.12)",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "De slagorde van Cyrus (1.6.13–1.6.25)",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "De dood van Cyrus (1.6.26–1.6.38)",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "De nasleep van de slag (1.7.1–1.7.12)",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Tissaphernes en de Griekse bevelhebbers (1.7.13–1.7.24)",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "De crisis van het leger (1.7.25–1.7.35)",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt"
+    }
+  ]
+}
