@@ -30070,7 +30070,7 @@ Object.assign(LATIN_DICT, {
   "invitis": {
     "lemma": "invitus, invita, invitum",
     "en": "unwilling; reluctant",
-    "grammar": "ADJ ABL P N"
+    "grammar": "ADJ ABL P M"
   },
   "invitus": {
     "lemma": "invitus, invita, invitum ADJ",

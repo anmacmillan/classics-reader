@@ -32,7 +32,7 @@ const OVERRIDES = {
   fovere: { lemma: "foveo, fovere, fovi, fotus", en: "to warm; to cherish", grammar: "V PRES ACTIVE INF" },
   frigora: { lemma: "frigus, frigoris", en: "cold; chills", grammar: "N ACC P N" },
   iamne: { lemma: "iam", en: "now?; already?", grammar: "ADV + TACKON (question)" },
-  invitis: { lemma: "invitus, invita, invitum", en: "unwilling; reluctant", grammar: "ADJ ABL P N" },
+  invitis: { lemma: "invitus, invita, invitum", en: "unwilling; reluctant", grammar: "ADJ ABL P M" },
   abydenus: { lemma: "Abydenus, Abydena, Abydenum", en: "of Abydos; man of Abydos", grammar: "ADJ NOM S M (substantive)" },
   abydo: { lemma: "Abydos, Abydi", en: "from Abydos", grammar: "N ABL S F (proper name; city)" },
   abydon: { lemma: "Abydos, Abydi", en: "to Abydos", grammar: "N ACC S F (proper name; city)" },

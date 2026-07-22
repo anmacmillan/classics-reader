@@ -9357,7 +9357,7 @@ BOOKS.push(...[
     "id": "ovid-hero-leander",
     "title": "Ovidius — Hero en Leander (Heroides 18–19)",
     "author": "Ovidius",
-    "year": -10,
+    "year": 10,
     "lang": "latin",
     "chapters": [
       {
