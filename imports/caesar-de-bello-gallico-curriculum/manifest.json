@@ -1,0 +1,111 @@
+{
+  "id": "caesar-de-bello-gallico-curriculum",
+  "title": "Caesar — De Bello Gallico: schoolselecties",
+  "shortTitle": "Gallië, Dumnorix en Ambiorix",
+  "author": "Julius Caesar",
+  "year": -50,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Gallië en de Belgen (I.1)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), publiek domein · NL: Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/e69eee761e5bd89c00a5d0744efa2367c5e1d7e3/data/phi0448/phi001"
+    },
+    {
+      "title": "Orgetorix en de samenzwering (I.2–4)",
+      "startLine": 2,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Het vertrek van de Helvetii (I.5–7)",
+      "startLine": 5,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Achtervolging en graantekort (I.15–16)",
+      "startLine": 15,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "De verdenking valt op Dumnorix (I.17–18)",
+      "startLine": 17,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Diviciacus pleit voor zijn broer (I.19–20)",
+      "startLine": 19,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "De winterkampen en Tasgetius (V.24–25)",
+      "startLine": 24,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Ambiorix komt met zijn waarschuwing (V.26–27)",
+      "startLine": 26,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Geloof of valstrik (V.28–29)",
+      "startLine": 28,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "De krijgsraad breekt (V.30–31)",
+      "startLine": 30,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "De colonne loopt in de hinderlaag (V.32–33)",
+      "startLine": 32,
+      "original": "latin-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    },
+    {
+      "title": "Sabinus verliest de strijd (V.34–35)",
+      "startLine": 34,
+      "original": "latin-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Overgave en ondergang (V.36–37)",
+      "startLine": 36,
+      "original": "latin-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Pullo en Vorenus (V.44)",
+      "startLine": 44,
+      "original": "latin-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    }
+  ]
+}
