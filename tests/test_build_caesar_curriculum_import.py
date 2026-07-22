@@ -13,6 +13,8 @@ from scripts import build_caesar_curriculum_import as caesar
 
 NS = "http://www.tei-c.org/ns/1.0"
 ET.register_namespace("", NS)
+BAD_I_18_READING = "sororum ex matre et propinquas suas"
+GOOD_I_18_READING = "sororem ex matre et propinquas suas"
 
 
 class FakeResponse:
@@ -61,9 +63,10 @@ def tei_fixture(language: str) -> ET.Element:
             first = ET.SubElement(
                 chapter_node, f"{{{NS}}}div", {"type": "section", "n": "1"}
             )
-            ET.SubElement(first, f"{{{NS}}}p").text = (
-                f"Latina {book}.{chapter} pars una."
-            )
+            first_paragraph = ET.SubElement(first, f"{{{NS}}}p")
+            first_paragraph.text = f"Latina {book}.{chapter} pars una."
+            if (book, chapter) == (1, 18):
+                first_paragraph.text += f" {BAD_I_18_READING}."
             second = ET.SubElement(
                 chapter_node, f"{{{NS}}}div", {"type": "section", "n": "2"}
             )
@@ -118,6 +121,8 @@ class CaesarCurriculumImportTests(unittest.TestCase):
             self.assertEqual(
                 first_chapter["translationCredit"],
                 "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · "
+                "Latijn I.18: ‘sororum’ gecorrigeerd naar ‘sororem’ volgens de "
+                "standaardtekst · "
                 "Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), "
                 "publiek domein · NL: Classics Reader",
             )
@@ -146,6 +151,53 @@ class CaesarCurriculumImportTests(unittest.TestCase):
                     encoding="utf-8"
                 ).splitlines()
                 self.assertEqual(len(latin), len(english))
+
+    def test_extract_corrects_the_disclosed_latin_1_18_reading(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            output = root / "import"
+            worklist = root / "worklist.json"
+
+            caesar.write_extract(
+                tei_fixture("latin"),
+                tei_fixture("english"),
+                output,
+                worklist,
+            )
+
+            latin_unit = (output / "latin-05.txt").read_text(encoding="utf-8")
+            records = json.loads(worklist.read_text(encoding="utf-8"))
+            latin_record = next(record for record in records if record["key"] == "1.18")
+            self.assertIn(GOOD_I_18_READING, latin_unit)
+            self.assertIn(GOOD_I_18_READING, latin_record["latin"])
+            self.assertNotIn(BAD_I_18_READING, latin_unit)
+            self.assertNotIn(BAD_I_18_READING, latin_record["latin"])
+
+    def test_extract_fails_closed_when_latin_correction_match_count_changes(self) -> None:
+        cases = {
+            "altered": ("sorore ex matre et propinquas suas", 0),
+            "repeated": (f"{BAD_I_18_READING} {BAD_I_18_READING}", 2),
+        }
+        for label, (replacement, count) in cases.items():
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as temp:
+                latin_root = tei_fixture("latin")
+                paragraph = next(
+                    element
+                    for element in latin_root.iter()
+                    if element.text and BAD_I_18_READING in element.text
+                )
+                paragraph.text = paragraph.text.replace(BAD_I_18_READING, replacement)
+
+                with self.assertRaisesRegex(
+                    ValueError,
+                    rf"Latin correction 1\.18 expected exactly one match; found {count}",
+                ):
+                    caesar.write_extract(
+                        latin_root,
+                        tei_fixture("english"),
+                        Path(temp) / "import",
+                        Path(temp) / "worklist.json",
+                    )
 
     def test_extract_normalises_nested_text_before_punctuation(self) -> None:
         passages = caesar._chapter_texts(nested_punctuation_fixture())

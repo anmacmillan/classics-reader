@@ -11,6 +11,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
+from types import MappingProxyType
 
 
 SOURCE_COMMIT = "e69eee761e5bd89c00a5d0744efa2367c5e1d7e3"
@@ -25,6 +26,14 @@ ENGLISH_SHA256 = "1d87ee4a4f9facbdf2a903e380fdfb59586de9500099631f946f0ce5a64a14
 USER_AGENT = "classics-reader-import/1"
 MAX_DOWNLOAD_BYTES = 20 * 1024 * 1024
 DOWNLOAD_CHUNK_SIZE = 64 * 1024
+LATIN_CORRECTIONS = MappingProxyType(
+    {
+        (1, 18): (
+            "sororum ex matre et propinquas suas",
+            "sororem ex matre et propinquas suas",
+        )
+    }
+)
 
 
 @dataclass(frozen=True)
@@ -111,6 +120,17 @@ def _required_passages(passages: dict[tuple[int, int], str], language: str) -> N
         raise ValueError(f"Missing {language} passages: {', '.join(missing)}")
 
 
+def _apply_latin_corrections(passages: dict[tuple[int, int], str]) -> None:
+    for passage, (before, after) in LATIN_CORRECTIONS.items():
+        count = passages[passage].count(before)
+        if count != 1:
+            reference = f"{passage[0]}.{passage[1]}"
+            raise ValueError(
+                f"Latin correction {reference} expected exactly one match; found {count}"
+            )
+        passages[passage] = passages[passage].replace(before, after, 1)
+
+
 def _write_lines(path: Path, lines: list[str]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -171,6 +191,8 @@ def _manifest() -> dict[str, object]:
                 {
                     "translationCredit": (
                         "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · "
+                        "Latijn I.18: ‘sororum’ gecorrigeerd naar ‘sororem’ volgens "
+                        "de standaardtekst · "
                         "Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), "
                         "publiek domein · NL: Classics Reader"
                     ),
@@ -201,6 +223,7 @@ def write_extract(
     english = _chapter_texts(english_root)
     _required_passages(latin, "Latin")
     _required_passages(english, "English")
+    _apply_latin_corrections(latin)
 
     output.mkdir(parents=True, exist_ok=True)
     for number in range(1, len(UNITS) + 1):
