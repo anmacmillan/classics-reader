@@ -75,6 +75,27 @@ def tei_fixture(language: str) -> ET.Element:
     return root
 
 
+def nested_punctuation_fixture() -> ET.Element:
+    root = ET.Element(f"{{{NS}}}TEI")
+    body = ET.SubElement(ET.SubElement(root, f"{{{NS}}}text"), f"{{{NS}}}body")
+    book = ET.SubElement(
+        body,
+        f"{{{NS}}}div",
+        {"type": "textpart", "subtype": "book", "n": "1"},
+    )
+    chapter = ET.SubElement(
+        book,
+        f"{{{NS}}}div",
+        {"type": "textpart", "subtype": "chapter", "n": "1"},
+    )
+    paragraph = ET.SubElement(chapter, f"{{{NS}}}p")
+    paragraph.text = " Rhine \n"
+    place = ET.SubElement(paragraph, f"{{{NS}}}name")
+    place.text = " , Rhone "
+    place.tail = " ; Saone . Colon : bang ! question ? "
+    return root
+
+
 class CaesarCurriculumImportTests(unittest.TestCase):
     def test_extract_writes_fourteen_units_and_twenty_eight_aligned_records(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
@@ -93,6 +114,19 @@ class CaesarCurriculumImportTests(unittest.TestCase):
             records = json.loads(worklist.read_text(encoding="utf-8"))
             self.assertEqual(manifest["id"], "caesar-de-bello-gallico-curriculum")
             self.assertEqual(len(manifest["chapters"]), 14)
+            first_chapter = manifest["chapters"][0]
+            self.assertEqual(
+                first_chapter["translationCredit"],
+                "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · "
+                "Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), "
+                "publiek domein · NL: Classics Reader",
+            )
+            self.assertEqual(first_chapter["translationCreditLanguage"], "Bronnen")
+            self.assertEqual(
+                first_chapter["translationUrl"],
+                "https://github.com/PerseusDL/canonical-latinLit/tree/"
+                "e69eee761e5bd89c00a5d0744efa2367c5e1d7e3/data/phi0448/phi001",
+            )
             self.assertEqual(len(records), 28)
             self.assertEqual(records[0]["key"], "1.1")
             self.assertEqual(records[-1]["key"], "5.44")
@@ -112,6 +146,14 @@ class CaesarCurriculumImportTests(unittest.TestCase):
                     encoding="utf-8"
                 ).splitlines()
                 self.assertEqual(len(latin), len(english))
+
+    def test_extract_normalises_nested_text_before_punctuation(self) -> None:
+        passages = caesar._chapter_texts(nested_punctuation_fixture())
+
+        self.assertEqual(
+            passages[(1, 1)],
+            "Rhine, Rhone; Saone. Colon: bang! question?",
+        )
 
     def test_extract_removes_stale_dutch_translations(self) -> None:
         with tempfile.TemporaryDirectory() as temp:

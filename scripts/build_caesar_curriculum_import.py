@@ -67,6 +67,11 @@ def _division_kind(element: ET.Element) -> str | None:
     return element.get("subtype") or element.get("type")
 
 
+def normalise_text(text: str) -> str:
+    """Collapse whitespace and remove spaces immediately before punctuation."""
+    return re.sub(r"\s+([,.;:!?])", r"\1", " ".join(text.split()))
+
+
 def _chapter_texts(root: ET.Element) -> dict[tuple[int, int], str]:
     passages: dict[tuple[int, int], str] = {}
     for book in root.iter():
@@ -87,7 +92,7 @@ def _chapter_texts(root: ET.Element) -> dict[tuple[int, int], str]:
             paragraphs = []
             for element in chapter.iter():
                 if _local_name(element.tag) == "p":
-                    text = " ".join("".join(element.itertext()).split())
+                    text = normalise_text("".join(element.itertext()))
                     if text:
                         paragraphs.append(text)
             if paragraphs:
@@ -165,12 +170,15 @@ def _manifest() -> dict[str, object]:
             chapter.update(
                 {
                     "translationCredit": (
-                        "Latin: Perseus, CC BY-SA 4.0 · EN: W. A. McDevitte and "
-                        "W. S. Bohn (1869), public domain, via Perseus · NL: "
-                        "Classics Reader"
+                        "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · "
+                        "Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), "
+                        "publiek domein · NL: Classics Reader"
                     ),
-                    "translationCreditLanguage": "Sources",
-                    "translationUrl": ENGLISH_URL,
+                    "translationCreditLanguage": "Bronnen",
+                    "translationUrl": (
+                        "https://github.com/PerseusDL/canonical-latinLit/tree/"
+                        f"{SOURCE_COMMIT}/data/phi0448/phi001"
+                    ),
                 }
             )
         chapters.append(chapter)
