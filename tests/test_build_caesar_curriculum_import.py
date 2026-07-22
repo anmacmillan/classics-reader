@@ -74,6 +74,11 @@ class CaesarCurriculumImportTests(unittest.TestCase):
             self.assertEqual(len(records), 28)
             self.assertEqual(records[0]["key"], "1.1")
             self.assertEqual(records[-1]["key"], "5.44")
+            self.assertEqual(records[0]["reference"], "I.1")
+            self.assertEqual(
+                [record["reference"] for record in records[1:4]],
+                ["I.2–4", "I.2–4", "I.2–4"],
+            )
             self.assertEqual(records[0]["latin"], "Latina 1.1 pars una. Pars altera.")
             for number, chapter in enumerate(manifest["chapters"], start=1):
                 suffix = f"{number:02d}.txt"

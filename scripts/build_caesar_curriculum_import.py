@@ -162,7 +162,7 @@ def write_extract(
                 {
                     "key": key,
                     "unit": number,
-                    "reference": key,
+                    "reference": unit.reference,
                     "latin": latin[(book, chapter)],
                     "english": english[(book, chapter)],
                 }
