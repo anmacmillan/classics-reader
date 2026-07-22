@@ -1,0 +1,90 @@
+{
+  "id": "ovid-metamorphoses-curriculum",
+  "title": "Ovidius — Metamorphoses: schoolselecties",
+  "shortTitle": "Latona, Icarus en Pygmalion",
+  "author": "Ovidius",
+  "year": 8,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Een oud verhaal uit Lycië (VI.313–328)",
+      "startLine": 313,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestanden: CC BY-SA 4.0 · Latijn: Hugo Magnus (1892) · Engelse vertaling ter controle: Brookes More (1922), publiek domein · EN/NL: regel-voor-regel studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/e69eee761e5bd89c00a5d0744efa2367c5e1d7e3/data/phi0959/phi006"
+    },
+    {
+      "title": "Latona zoekt water (VI.329–347)",
+      "startLine": 329,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "De smeekbede (VI.348–365)",
+      "startLine": 348,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "De boeren worden kikkers (VI.366–381)",
+      "startLine": 366,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Daedalus maakt vleugels (VIII.183–202)",
+      "startLine": 183,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "De vlieglessen en het vertrek (VIII.203–216)",
+      "startLine": 203,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "De toeschouwers en de val van Icarus (VIII.217–235)",
+      "startLine": 217,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Pygmalion en het ivoren beeld (X.243–258)",
+      "startLine": 243,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Geschenken voor een beeld (X.259–269)",
+      "startLine": 259,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Pygmalions gebed (X.270–279)",
+      "startLine": 270,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "Het beeld komt tot leven (X.280–297)",
+      "startLine": 280,
+      "original": "latin-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    }
+  ]
+}
