@@ -1163,6 +1163,55 @@ async function githubFetch(url, options = {}) {
   return fetch(url, { ...options, headers });
 }
 
+function validBookIndex(index) {
+  return Number.isInteger(index) && index >= 0 && index < state.books.length;
+}
+
+function bookIndexById(id) {
+  return typeof id === "string" && id
+    ? state.books.findIndex((book) => book.id === id)
+    : -1;
+}
+
+function bookIndexByTitle(title) {
+  return typeof title === "string" && title
+    ? state.books.findIndex((book) => book.title === title)
+    : -1;
+}
+
+function resolveSavedBookIndex(savedBook, fallbackIndex) {
+  const hasId = typeof savedBook?.id === "string" && savedBook.id;
+  const hasTitle = typeof savedBook?.title === "string" && savedBook.title;
+  const idIndex = bookIndexById(savedBook?.id);
+  if (idIndex >= 0) return idIndex;
+  const titleIndex = bookIndexByTitle(savedBook?.title);
+  if (titleIndex >= 0) return titleIndex;
+  return !hasId && !hasTitle && validBookIndex(fallbackIndex) ? fallbackIndex : -1;
+}
+
+function resolveCurrentBookIndex(cl) {
+  const currentBookIdIndex = bookIndexById(cl.currentBookId);
+  if (currentBookIdIndex >= 0) return currentBookIdIndex;
+  const savedBook = Array.isArray(cl.books) && Number.isInteger(cl.currentBookIndex) && cl.currentBookIndex >= 0
+    ? cl.books[cl.currentBookIndex]
+    : null;
+  const savedBookIndex = resolveSavedBookIndex(savedBook);
+  if (savedBookIndex >= 0) return savedBookIndex;
+  return validBookIndex(cl.currentBookIndex) ? cl.currentBookIndex : 0;
+}
+
+function restoredChaptersRead(value) {
+  return Number.isInteger(value) && value >= 0 ? value : 0;
+}
+
+function restoreBookProgress(savedBooks) {
+  if (!Array.isArray(savedBooks)) return;
+  savedBooks.forEach((savedBook, index) => {
+    const bookIndex = resolveSavedBookIndex(savedBook, index);
+    if (bookIndex >= 0) state.books[bookIndex].chaptersRead = restoredChaptersRead(savedBook.chaptersRead);
+  });
+}
+
 async function syncProgressToGist() {
   const gistId =
     localStorage.getItem("slovo_gist_id") ||
@@ -1184,6 +1233,7 @@ async function syncProgressToGist() {
 
   // Update classics progress
   progressData.classics = {
+    currentBookId: state.books[state.currentBookIndex]?.id,
     currentBookIndex: state.currentBookIndex,
     currentChapterIndex: state.currentChapterIndex,
     currentPageIndex: state.currentPageIndex,
@@ -1191,6 +1241,7 @@ async function syncProgressToGist() {
     vocabulary: state.vocabulary,
     completed: state.completed,
     books: state.books.map((book, idx) => ({
+      id: book.id,
       title: book.title,
       chaptersRead: idx === state.currentBookIndex ? state.currentChapterIndex : (book.chaptersRead || 0),
       chapters: book.chapters.length
@@ -1263,19 +1314,14 @@ async function loadProgressFromGist() {
       state.vocabulary = [...localEntries.values()];
       saveVocabularyToStorage();
     }
-    if (cl.currentBookIndex !== undefined) {
-      state.currentBookIndex = cl.currentBookIndex;
+    if (cl.currentBookId !== undefined || cl.currentBookIndex !== undefined) {
+      const resolvedBookIndex = resolveCurrentBookIndex(cl);
+      state.currentBookIndex = resolvedBookIndex;
       state.currentChapterIndex = cl.currentChapterIndex || 0;
       state.currentPageIndex = cl.currentPageIndex || 0;
 
       // Restore progress to storage (per-book chaptersRead)
-      if (cl.books) {
-        cl.books.forEach((gistBook, idx) => {
-          if (idx < state.books.length) {
-            state.books[idx].chaptersRead = gistBook.chaptersRead || 0;
-          }
-        });
-      }
+      restoreBookProgress(cl.books);
 
       // Persist restored chaptersRead to localStorage
       state.books.forEach((book, idx) => {
@@ -1287,7 +1333,7 @@ async function loadProgressFromGist() {
       const savedChapterIndex = cl.currentChapterIndex > 0
         ? cl.currentChapterIndex
         : undefined;
-      selectBook(cl.currentBookIndex, savedChapterIndex);
+      selectBook(resolvedBookIndex, savedChapterIndex);
 
       // Restore page after render
       setTimeout(() => {
