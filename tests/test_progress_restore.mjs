@@ -156,3 +156,21 @@ test("selection still inspects a saved stable key before rejecting a stale numer
 
   assert.equal(currentState(context).currentBookIndex, 1);
 });
+
+test("unrecognized stable selection keys do not fall back to a displaced numeric index", async () => {
+  const { context } = createRuntime({
+    currentBookId: "removed-current-book",
+    currentBookIndex: 1,
+    currentChapterIndex: 1,
+    currentPageIndex: 0,
+    books: [{}, { id: "removed-saved-book", title: "Removed saved book", chaptersRead: 1 }]
+  });
+  setBooks(context, [book("caesar", "Caesar"), book("cicero", "Cicero")]);
+
+  await restore(context);
+
+  const state = currentState(context);
+  assert.equal(state.currentBookIndex, 0);
+  assert.equal(state.books[0].chaptersRead || 0, 0);
+  assert.equal(state.books[1].chaptersRead || 0, 0);
+});

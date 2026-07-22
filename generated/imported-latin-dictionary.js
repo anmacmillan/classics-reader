@@ -49487,6 +49487,11 @@ Object.assign(LATIN_DICT, {
     "en": "dirty, unclean, foul, filthy; vulgar, sordid; low, base, mean, paltry; vile",
     "grammar": "ADJ 1 1 NOM S N POS"
   },
+  "sororem": {
+    "lemma": "soror, sororis N (3rd) F",
+    "en": "sister; (applied also to half sister, sister-in-law, and mistress!)",
+    "grammar": "N 3 1 ACC S F"
+  },
   "sorores": {
     "lemma": "soror, sororis N (3rd) F",
     "en": "sister; (applied also to half sister, sister-in-law, and mistress!); result of; place of; (abstract noun)",

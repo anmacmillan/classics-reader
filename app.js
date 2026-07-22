@@ -1197,7 +1197,8 @@ function resolveCurrentBookIndex(cl) {
     : null;
   const savedBookIndex = resolveSavedBookIndex(savedBook);
   if (savedBookIndex >= 0) return savedBookIndex;
-  return validBookIndex(cl.currentBookIndex) ? cl.currentBookIndex : 0;
+  const hasStableSelectionKey = Boolean(cl.currentBookId || savedBook?.id || savedBook?.title);
+  return !hasStableSelectionKey && validBookIndex(cl.currentBookIndex) ? cl.currentBookIndex : 0;
 }
 
 function restoredChaptersRead(value) {

@@ -12,7 +12,7 @@
       "original": "latin-01.txt",
       "english": "english-01.txt",
       "dutch": "dutch-01.txt",
-      "translationCredit": "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), publiek domein · NL: Classics Reader",
+      "translationCredit": "Perseus-bestanden (Latijn en Engels): CC BY-SA 4.0 · Latijn I.18: ‘sororum’ gecorrigeerd naar ‘sororem’ volgens de standaardtekst · Engelse vertaling: W. A. McDevitte en W. S. Bohn (1869), publiek domein · NL: Classics Reader",
       "translationCreditLanguage": "Bronnen",
       "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/e69eee761e5bd89c00a5d0744efa2367c5e1d7e3/data/phi0448/phi001"
     },
