@@ -1,0 +1,32 @@
+{
+  "id": "ovid-hero-leander",
+  "title": "Ovidius — Hero en Leander (Heroides 18–19)",
+  "shortTitle": "Hero en Leander",
+  "author": "Ovidius",
+  "year": -10,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Leander stuurt een brief (18.1–24)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestanden: CC BY-SA 4.0 · Latijn: Rudolf Ehwald (1907) · Engelse vertaling ter controle: The Epistles of Ovid (1813), publiek domein · EN/NL: regel-voor-regel studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/e69eee761e5bd89c00a5d0744efa2367c5e1d7e3/data/phi0959/phi002"
+    },
+    { "title": "De eerste overtocht (18.55–82)", "startLine": 55, "original": "latin-02.txt", "english": "english-02.txt", "dutch": "dutch-02.txt" },
+    { "title": "Het licht in de toren (18.83–102)", "startLine": 83, "original": "latin-03.txt", "english": "english-03.txt", "dutch": "dutch-03.txt" },
+    { "title": "De nacht en het afscheid (18.103–120)", "startLine": 103, "original": "latin-04.txt", "english": "english-04.txt", "dutch": "dutch-04.txt" },
+    { "title": "Bijna binnen handbereik (18.179–200)", "startLine": 179, "original": "latin-05.txt", "english": "english-05.txt", "dutch": "dutch-05.txt" },
+    { "title": "Leanders laatste smeekbede (18.201–218)", "startLine": 201, "original": "latin-06.txt", "english": "english-06.txt", "dutch": "dutch-06.txt" },
+    { "title": "Hero antwoordt (19.1–18)", "startLine": 1, "original": "latin-07.txt", "english": "english-07.txt", "dutch": "dutch-07.txt" },
+    { "title": "Wachten aan de kust (19.19–30)", "startLine": 19, "original": "latin-08.txt", "english": "english-08.txt", "dutch": "dutch-08.txt" },
+    { "title": "De lamp en de nachtelijke wacht (19.33–54)", "startLine": 33, "original": "latin-09.txt", "english": "english-09.txt", "dutch": "dutch-09.txt" },
+    { "title": "Een gedroomde hereniging (19.55–68)", "startLine": 55, "original": "latin-10.txt", "english": "english-10.txt", "dutch": "dutch-10.txt" },
+    { "title": "Kussen midden op zee (19.149–170)", "startLine": 149, "original": "latin-11.txt", "english": "english-11.txt", "dutch": "dutch-11.txt" },
+    { "title": "Moed en gevaar (19.181–190)", "startLine": 181, "original": "latin-12.txt", "english": "english-12.txt", "dutch": "dutch-12.txt" },
+    { "title": "Hero’s waarschuwende droom (19.191–210)", "startLine": 191, "original": "latin-13.txt", "english": "english-13.txt", "dutch": "dutch-13.txt" }
+  ]
+}
