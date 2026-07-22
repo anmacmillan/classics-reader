@@ -291,6 +291,34 @@ class CaesarCurriculumImportTests(unittest.TestCase):
 
                     self.assertEqual(sentinel.read_text(encoding="utf-8"), "unchanged\n")
 
+    def test_add_dutch_rejects_multiline_values_before_writing(self) -> None:
+        for label, linebreak in (("newline", "\n"), ("carriage return", "\r")):
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                output = root / "import"
+                worklist = root / "worklist.json"
+                translations = root / "translations.json"
+                caesar.write_extract(
+                    tei_fixture("latin"),
+                    tei_fixture("english"),
+                    output,
+                    worklist,
+                )
+                records = json.loads(worklist.read_text(encoding="utf-8"))
+                payload = {
+                    record["key"]: f"Nederlands {record['key']}."
+                    for record in records
+                }
+                payload["1.2"] = f"Eerste regel{linebreak}tweede regel."
+                translations.write_text(json.dumps(payload), encoding="utf-8")
+
+                with self.assertRaisesRegex(
+                    ValueError, r"multiline translation for key: 1\.2"
+                ):
+                    caesar.add_dutch(output, worklist, translations)
+
+                self.assertEqual(list(output.glob("dutch-*.txt")), [])
+
     def test_add_dutch_writes_one_aligned_line_per_source_chapter(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

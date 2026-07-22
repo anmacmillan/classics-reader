@@ -279,6 +279,8 @@ def add_dutch(output: Path, worklist_path: Path, translations_path: Path) -> Non
         value = translations[record["key"]]
         if not isinstance(value, str) or not value.strip():
             raise ValueError(f"invalid translation for key: {record['key']}")
+        if "\n" in value or "\r" in value:
+            raise ValueError(f"multiline translation for key: {record['key']}")
         grouped.setdefault(record["unit"], []).append(" ".join(value.split()))
     for unit, lines in grouped.items():
         _write_lines(output / f"dutch-{unit:02d}.txt", lines)
