@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import urllib.request
@@ -12,15 +13,18 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-LATIN_URL = (
-    "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/"
-    "data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml"
+SOURCE_COMMIT = "e69eee761e5bd89c00a5d0744efa2367c5e1d7e3"
+SOURCE_ROOT = (
+    "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/"
+    f"{SOURCE_COMMIT}/"
 )
-ENGLISH_URL = (
-    "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/"
-    "data/phi0448/phi001/phi0448.phi001.perseus-eng2.xml"
-)
+LATIN_URL = SOURCE_ROOT + "data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml"
+ENGLISH_URL = SOURCE_ROOT + "data/phi0448/phi001/phi0448.phi001.perseus-eng2.xml"
+LATIN_SHA256 = "d1a330891be6983f8f00fe07c6a857873355cc4c0cc22fe1a33ceaeb9d2e1079"
+ENGLISH_SHA256 = "1d87ee4a4f9facbdf2a903e380fdfb59586de9500099631f946f0ce5a64a1421"
 USER_AGENT = "classics-reader-import/1"
+MAX_DOWNLOAD_BYTES = 20 * 1024 * 1024
+DOWNLOAD_CHUNK_SIZE = 64 * 1024
 
 
 @dataclass(frozen=True)
@@ -106,6 +110,47 @@ def _write_lines(path: Path, lines: list[str]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def _canonical_records() -> list[tuple[str, int, str]]:
+    return [
+        (f"{book}.{chapter}", number, unit.reference)
+        for number, unit in enumerate(UNITS, start=1)
+        for book, chapter in unit.passages
+    ]
+
+
+def _load_worklist(worklist_path: Path) -> list[dict[str, object]]:
+    try:
+        worklist = json.loads(worklist_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise ValueError("invalid worklist: invalid JSON") from error
+    expected = _canonical_records()
+    if not isinstance(worklist, list):
+        raise ValueError("invalid worklist: expected a list")
+    if len(worklist) != len(expected):
+        raise ValueError(
+            f"invalid worklist: expected {len(expected)} records, got {len(worklist)}"
+        )
+    for index, (record, expected_record) in enumerate(zip(worklist, expected), start=1):
+        key, unit, reference = expected_record
+        if not isinstance(record, dict):
+            raise ValueError(f"invalid worklist: record {index} is not an object")
+        for field in ("key", "unit", "reference", "latin", "english"):
+            if field not in record:
+                raise ValueError(f"invalid worklist: record {index} lacks {field}")
+        if record["key"] != key:
+            raise ValueError(f"invalid worklist: record {index} has an unexpected key")
+        if type(record["unit"]) is not int or record["unit"] != unit:
+            raise ValueError(f"invalid worklist: record {index} has an unexpected unit")
+        if record["reference"] != reference:
+            raise ValueError(
+                f"invalid worklist: record {index} has an unexpected reference"
+            )
+        for field in ("latin", "english"):
+            if not isinstance(record[field], str) or not record[field].strip():
+                raise ValueError(f"invalid worklist: record {index} has empty {field}")
+    return worklist
+
+
 def _manifest() -> dict[str, object]:
     chapters = []
     for number, unit in enumerate(UNITS, start=1):
@@ -150,6 +195,8 @@ def write_extract(
     _required_passages(english, "English")
 
     output.mkdir(parents=True, exist_ok=True)
+    for number in range(1, len(UNITS) + 1):
+        (output / f"dutch-{number:02d}.txt").unlink(missing_ok=True)
     worklist = []
     for number, unit in enumerate(UNITS, start=1):
         latin_lines = []
@@ -181,7 +228,7 @@ def write_extract(
 
 def add_dutch(output: Path, worklist_path: Path, translations_path: Path) -> None:
     """Validate aligned Dutch translations and write them by curriculum unit."""
-    worklist = json.loads(worklist_path.read_text(encoding="utf-8"))
+    worklist = _load_worklist(worklist_path)
     translations = json.loads(translations_path.read_text(encoding="utf-8"))
     if not isinstance(translations, dict):
         raise ValueError("translations must be a JSON object")
@@ -206,10 +253,33 @@ def add_dutch(output: Path, worklist_path: Path, translations_path: Path) -> Non
         _write_lines(output / f"dutch-{unit:02d}.txt", lines)
 
 
-def _fetch(url: str) -> ET.Element:
+def _fetch(url: str, expected_sha256: str) -> ET.Element:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=60) as response:
-        return ET.fromstring(response.read())
+        content_length = response.headers.get("Content-Length")
+        if content_length is not None:
+            try:
+                length = int(content_length)
+            except ValueError as error:
+                raise ValueError(f"invalid Content-Length for {url}") from error
+            if length < 0 or length > MAX_DOWNLOAD_BYTES:
+                raise ValueError(f"download too large for {url}")
+        chunks = []
+        size = 0
+        while True:
+            chunk = response.read(
+                min(DOWNLOAD_CHUNK_SIZE, MAX_DOWNLOAD_BYTES - size + 1)
+            )
+            if not chunk:
+                break
+            size += len(chunk)
+            if size > MAX_DOWNLOAD_BYTES:
+                raise ValueError(f"download too large for {url}")
+            chunks.append(chunk)
+    data = b"".join(chunks)
+    if hashlib.sha256(data).hexdigest() != expected_sha256:
+        raise ValueError(f"download checksum mismatch for {url}")
+    return ET.fromstring(data)
 
 
 def main() -> None:
@@ -226,7 +296,10 @@ def main() -> None:
 
     if arguments.command == "extract":
         write_extract(
-            _fetch(LATIN_URL), _fetch(ENGLISH_URL), arguments.output, arguments.worklist
+            _fetch(LATIN_URL, LATIN_SHA256),
+            _fetch(ENGLISH_URL, ENGLISH_SHA256),
+            arguments.output,
+            arguments.worklist,
         )
     else:
         add_dutch(arguments.output, arguments.worklist, arguments.translations)
