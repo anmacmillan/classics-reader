@@ -7049,7 +7049,8 @@ BOOKS.push(...[
               "lemma": "Gallia",
               "role": "nsubj:pass",
               "head": "divisa",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:0:1"
             },
             {
               "word": "est",
@@ -7063,14 +7064,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "Gallia",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:0:1"
             },
             {
               "word": "divisa",
               "lemma": "dico",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:4"
             },
             {
               "word": "in",
@@ -7105,28 +7108,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "unam",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:0:10"
             },
             {
               "word": "unam",
               "lemma": "unus",
               "role": "obj",
               "head": "incolunt",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:0:10"
             },
             {
               "word": "incolunt",
               "lemma": "incolo",
               "role": "acl:relcl",
               "head": "partes",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:11"
             },
             {
               "word": "Belgae",
               "lemma": "belgus",
               "role": "nsubj",
               "head": "incolunt",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:0:11"
             },
             {
               "word": ",",
@@ -7140,14 +7147,16 @@ BOOKS.push(...[
               "lemma": "alius",
               "role": "conj",
               "head": "Belgae",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:0:14"
             },
             {
               "word": "Aquitani",
               "lemma": "aquita",
               "role": "nmod",
               "head": "aliam",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:14"
             },
             {
               "word": ",",
@@ -7168,28 +7177,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "lingua",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:0:20"
             },
             {
               "word": "ipsorum",
               "lemma": "ipse",
               "role": "nmod",
               "head": "lingua",
-              "morph": "Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:0:20"
             },
             {
               "word": "lingua",
               "lemma": "lingua",
               "role": "acl:relcl",
               "head": "tertiam",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:0:20"
             },
             {
               "word": "Celtae",
               "lemma": "celta",
               "role": "nmod",
               "head": "lingua",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:0:20"
             },
             {
               "word": ",",
@@ -7203,21 +7216,24 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "Galli",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:0:24"
             },
             {
               "word": "Galli",
               "lemma": "gallus",
               "role": "nsubj:pass",
               "head": "appellantur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:25"
             },
             {
               "word": "appellantur",
               "lemma": "appello",
               "role": "conj",
               "head": "incolunt",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:0:25"
             },
             {
               "word": ".",
@@ -7231,21 +7247,24 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "lingua",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:1:3"
             },
             {
               "word": "omnes",
               "lemma": "omnis",
               "role": "det",
               "head": "lingua",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:1:3"
             },
             {
               "word": "lingua",
               "lemma": "lingua",
               "role": "nsubj",
               "head": "differunt",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:1:10"
             },
             {
               "word": ",",
@@ -7294,7 +7313,8 @@ BOOKS.push(...[
               "lemma": "differo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:10"
             },
             {
               "word": ".",
@@ -7364,7 +7384,8 @@ BOOKS.push(...[
               "lemma": "Matrona",
               "role": "nsubj",
               "head": "dividit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:2:12"
             },
             {
               "word": "et",
@@ -7385,7 +7406,8 @@ BOOKS.push(...[
               "lemma": "dico",
               "role": "conj",
               "head": "Garumna",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:12"
             },
             {
               "word": ".",
@@ -7399,21 +7421,24 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "nmod",
               "head": "fortissimi",
-              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:3:3"
             },
             {
               "word": "omnium",
               "lemma": "omnis",
               "role": "nmod",
               "head": "fortissimi",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:3:3"
             },
             {
               "word": "fortissimi",
               "lemma": "fortis",
               "role": "nsubj",
               "head": "Belgae",
-              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:5"
             },
             {
               "word": "sunt",
@@ -7427,7 +7452,8 @@ BOOKS.push(...[
               "lemma": "belgus",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:3:5"
             },
             {
               "word": ",",
@@ -7483,7 +7509,8 @@ BOOKS.push(...[
               "lemma": "provincia",
               "role": "nsubj",
               "head": "absunt",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:3:15"
             },
             {
               "word": "longissime",
@@ -7497,7 +7524,8 @@ BOOKS.push(...[
               "lemma": "absum",
               "role": "advcl",
               "head": "commeant",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:15"
             },
             {
               "word": ",",
@@ -7525,14 +7553,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "mercatores",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:3:20"
             },
             {
               "word": "mercatores",
               "lemma": "mercator",
               "role": "obj",
               "head": "commeant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:3:20"
             },
             {
               "word": "saepe",
@@ -7567,7 +7597,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "pertinent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:3:29"
             },
             {
               "word": "ad",
@@ -7595,7 +7626,8 @@ BOOKS.push(...[
               "lemma": "pertineo",
               "role": "acl:relcl",
               "head": "ea",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:29"
             },
             {
               "word": "important",
@@ -7644,28 +7676,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "incolunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:3:39"
             },
             {
               "word": "trans",
               "lemma": "trans",
               "role": "obj",
               "head": "incolunt",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:37"
             },
             {
               "word": "Rhenum",
               "lemma": "rhenus",
               "role": "amod",
               "head": "trans",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:37"
             },
             {
               "word": "incolunt",
               "lemma": "incolo",
               "role": "acl:relcl",
               "head": "Germanis",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:39"
             },
             {
               "word": ",",
@@ -7679,7 +7715,8 @@ BOOKS.push(...[
               "lemma": "quicum",
               "role": "nsubj",
               "head": "gerunt",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:3:44"
             },
             {
               "word": "continenter",
@@ -7700,7 +7737,8 @@ BOOKS.push(...[
               "lemma": "gero",
               "role": "conj",
               "head": "incolunt",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:44"
             },
             {
               "word": ".",
@@ -7714,7 +7752,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "causa",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:4:3"
             },
             {
               "word": "de",
@@ -7728,14 +7767,16 @@ BOOKS.push(...[
               "lemma": "causa",
               "role": "obl",
               "head": "praecedunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:4:3"
             },
             {
               "word": "Helvetii",
               "lemma": "helvetium",
               "role": "nmod",
               "head": "causa",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:3"
             },
             {
               "word": "quoque",
@@ -7749,14 +7790,16 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "Gallos",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:7"
             },
             {
               "word": "Gallos",
               "lemma": "gallus",
               "role": "obj",
               "head": "praecedunt",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:7"
             },
             {
               "word": "virtute",
@@ -7798,14 +7841,16 @@ BOOKS.push(...[
               "lemma": "cotidianus",
               "role": "amod",
               "head": "proeliis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:14"
             },
             {
               "word": "proeliis",
               "lemma": "proelium",
               "role": "obl",
               "head": "contendunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:4:14"
             },
             {
               "word": "cum",
@@ -7854,14 +7899,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "finibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:4:22"
             },
             {
               "word": "finibus",
               "lemma": "finis",
               "role": "obl",
               "head": "prohibent",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:4:22"
             },
             {
               "word": "eos",
@@ -7889,7 +7936,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "gerunt",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:4:31"
             },
             {
               "word": "in",
@@ -7903,14 +7951,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "finibus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:4:29"
             },
             {
               "word": "finibus",
               "lemma": "finis",
               "role": "obl",
               "head": "gerunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:4:29"
             },
             {
               "word": "bellum",
@@ -7924,7 +7974,8 @@ BOOKS.push(...[
               "lemma": "gero",
               "role": "conj",
               "head": "prohibent",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:31"
             },
             {
               "word": ".",
@@ -7945,21 +7996,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:5:4"
             },
             {
               "word": "una",
               "lemma": "unus",
               "role": "det",
               "head": "pars",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:5:4"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj",
               "head": "capit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:5:13"
             },
             {
               "word": ",",
@@ -7980,14 +8034,16 @@ BOOKS.push(...[
               "lemma": "gallus",
               "role": "nsubj",
               "head": "obtinere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:5:8"
             },
             {
               "word": "obtinere",
               "lemma": "obtineo",
               "role": "xcomp",
               "head": "dictum",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "0:5:8"
             },
             {
               "word": "dictum",
@@ -8022,7 +8078,8 @@ BOOKS.push(...[
               "lemma": "capio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:13"
             },
             {
               "word": "a",
@@ -8036,14 +8093,16 @@ BOOKS.push(...[
               "lemma": "flumen",
               "role": "obl:arg",
               "head": "capit",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:15"
             },
             {
               "word": "Rhodano",
               "lemma": "rhodanus",
               "role": "amod",
               "head": "flumine",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:15"
             },
             {
               "word": ",",
@@ -8057,14 +8116,16 @@ BOOKS.push(...[
               "lemma": "contineo",
               "role": "conj",
               "head": "capit",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:5:18"
             },
             {
               "word": "Garumna",
               "lemma": "Garumna",
               "role": "nsubj:pass",
               "head": "continetur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:18"
             },
             {
               "word": "flumine",
@@ -8099,14 +8160,16 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "conj",
               "head": "flumine",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:5:24"
             },
             {
               "word": "Belgarum",
               "lemma": "belga",
               "role": "nmod",
               "head": "finibus",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:5:24"
             },
             {
               "word": ",",
@@ -8162,14 +8225,16 @@ BOOKS.push(...[
               "lemma": "flumen",
               "role": "conj",
               "head": "Sequanis",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:33"
             },
             {
               "word": "Rhenum",
               "lemma": "rhenus",
               "role": "amod",
               "head": "flumen",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:33"
             },
             {
               "word": ",",
@@ -8211,7 +8276,8 @@ BOOKS.push(...[
               "lemma": "belgus",
               "role": "nsubj",
               "head": "oriuntur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:6:6"
             },
             {
               "word": "ab",
@@ -8225,28 +8291,32 @@ BOOKS.push(...[
               "lemma": "exterior",
               "role": "amod",
               "head": "finibus",
-              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:6:5"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "finibus",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:5"
             },
             {
               "word": "finibus",
               "lemma": "finis",
               "role": "obl:arg",
               "head": "oriuntur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:6:5"
             },
             {
               "word": "oriuntur",
               "lemma": "orior",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:6:6"
             },
             {
               "word": ",",
@@ -8274,28 +8344,32 @@ BOOKS.push(...[
               "lemma": "inferus",
               "role": "amod",
               "head": "partem",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:11"
             },
             {
               "word": "partem",
               "lemma": "pars",
               "role": "obl:arg",
               "head": "pertinent",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:6:11"
             },
             {
               "word": "fluminis",
               "lemma": "flumen",
               "role": "nmod",
               "head": "partem",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:12"
             },
             {
               "word": "Rheni",
               "lemma": "rhenus",
               "role": "amod",
               "head": "fluminis",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:12"
             },
             {
               "word": ",",
@@ -8393,14 +8467,16 @@ BOOKS.push(...[
               "lemma": "pyrenaeus",
               "role": "amod",
               "head": "montes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:7"
             },
             {
               "word": "montes",
               "lemma": "mons",
               "role": "advcl",
               "head": "Aquitania",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:7:7"
             },
             {
               "word": "et",
@@ -8414,28 +8490,32 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "partem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:7:10"
             },
             {
               "word": "partem",
               "lemma": "pars",
               "role": "conj",
               "head": "montes",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:7:10"
             },
             {
               "word": "Oceani",
               "lemma": "oceanum",
               "role": "nmod",
               "head": "partem",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:7:10"
             },
             {
               "word": "quae",
               "lemma": "qui",
               "role": "nsubj",
               "head": "pertinet",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:7:16"
             },
             {
               "word": "est",
@@ -8463,7 +8543,8 @@ BOOKS.push(...[
               "lemma": "pertineo",
               "role": "acl:relcl",
               "head": "partem",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:7:16"
             },
             {
               "word": ";",
@@ -8491,14 +8572,16 @@ BOOKS.push(...[
               "lemma": "occasus",
               "role": "obl:arg",
               "head": "spectat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:3"
             },
             {
               "word": "solis",
               "lemma": "sol",
               "role": "nmod",
               "head": "occasum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:8:3"
             },
             {
               "word": "et",
@@ -8577,7 +8660,8 @@ BOOKS.push(...[
               "lemma": "nobilis",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": "fuit",
@@ -8605,7 +8689,8 @@ BOOKS.push(...[
               "lemma": "Orgetorix",
               "role": "nmod",
               "head": "nobilissimus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": ".",
@@ -8619,7 +8704,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj",
               "head": "fecit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:18"
             },
             {
               "word": "M.",
@@ -8696,21 +8782,24 @@ BOOKS.push(...[
               "lemma": "consulus",
               "role": "amod",
               "head": "cupiditate",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:14"
             },
             {
               "word": "regni",
               "lemma": "regnum",
               "role": "nmod",
               "head": "cupiditate",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": "cupiditate",
               "lemma": "cupiditas",
               "role": "obl",
               "head": "inductus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": "inductus",
@@ -8724,21 +8813,24 @@ BOOKS.push(...[
               "lemma": "coniuratio",
               "role": "obj",
               "head": "fecit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:16"
             },
             {
               "word": "nobilitatis",
               "lemma": "nobilitas",
               "role": "nmod",
               "head": "coniurationem",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:16"
             },
             {
               "word": "fecit",
               "lemma": "facio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:18"
             },
             {
               "word": "et",
@@ -8780,14 +8872,16 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "obl",
               "head": "exirent",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:1:24"
             },
             {
               "word": "suis",
               "lemma": "suus",
               "role": "det",
               "head": "finibus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:24"
             },
             {
               "word": "cum",
@@ -8801,14 +8895,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "copiis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:1:28"
             },
             {
               "word": "copiis",
               "lemma": "copius",
               "role": "obl",
               "head": "exirent",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:28"
             },
             {
               "word": "exirent",
@@ -8857,14 +8953,16 @@ BOOKS.push(...[
               "lemma": "virtus",
               "role": "obl",
               "head": "praestarent",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:5"
             },
             {
               "word": "omnibus",
               "lemma": "omnis",
               "role": "det",
               "head": "virtute",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:2:5"
             },
             {
               "word": "praestarent",
@@ -8885,21 +8983,24 @@ BOOKS.push(...[
               "lemma": "totus",
               "role": "det",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "0:2:10"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "imperio",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:2:11"
             },
             {
               "word": "imperio",
               "lemma": "imperium",
               "role": "obl",
               "head": "potiri",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:11"
             },
             {
               "word": "potiri",
@@ -8920,14 +9021,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "obj",
               "head": "persuasit",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:3:1"
             },
             {
               "word": "hoc",
               "lemma": "hic",
               "role": "det",
               "head": "Id",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:3:1"
             },
             {
               "word": "facilius",
@@ -8969,35 +9072,40 @@ BOOKS.push(...[
               "lemma": "unusquisque",
               "role": "obl",
               "head": "continentur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:3:8"
             },
             {
               "word": "loci",
               "lemma": "locus",
               "role": "nmod",
               "head": "undique",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:8"
             },
             {
               "word": "natura",
               "lemma": "natura",
               "role": "nsubj:pass",
               "head": "continentur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:3:10"
             },
             {
               "word": "Helvetii",
               "lemma": "helvetium",
               "role": "nmod",
               "head": "natura",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:10"
             },
             {
               "word": "continentur",
               "lemma": "contineo",
               "role": "acl",
               "head": "hoc",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:3:12"
             },
             {
               "word": ":",
@@ -9025,28 +9133,32 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "advcl",
               "head": "una",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:4:3"
             },
             {
               "word": "flumine",
               "lemma": "flumen",
               "role": "nmod",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:4:4"
             },
             {
               "word": "Rheno",
               "lemma": "rhenus",
               "role": "nmod",
               "head": "flumine",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:5"
             },
             {
               "word": "latissimo",
               "lemma": "latus",
               "role": "amod",
               "head": "Rheno",
-              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:5"
             },
             {
               "word": "atque",
@@ -9074,21 +9186,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "dividit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:4:15"
             },
             {
               "word": "agrum",
               "lemma": "agrus",
               "role": "obj",
               "head": "dividit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:11"
             },
             {
               "word": "Helvetium",
               "lemma": "helvetius",
               "role": "amod",
               "head": "agrum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:4:11"
             },
             {
               "word": "a",
@@ -9109,7 +9224,8 @@ BOOKS.push(...[
               "lemma": "dico",
               "role": "acl:relcl",
               "head": "parte",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:15"
             },
             {
               "word": ";",
@@ -9151,14 +9267,16 @@ BOOKS.push(...[
               "lemma": "Iura",
               "role": "advcl",
               "head": "altera",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:5:5"
             },
             {
               "word": "altissimo",
               "lemma": "altus",
               "role": "amod",
               "head": "Iura",
-              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:5"
             },
             {
               "word": ",",
@@ -9172,7 +9290,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "Sequanos",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:5:11"
             },
             {
               "word": "est",
@@ -9193,7 +9312,8 @@ BOOKS.push(...[
               "lemma": "sequanus",
               "role": "acl:relcl",
               "head": "Iura",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:5:11"
             },
             {
               "word": "et",
@@ -9221,14 +9341,16 @@ BOOKS.push(...[
               "lemma": "tertius",
               "role": "amod",
               "head": "lacu",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "lacu",
               "lemma": "lacus",
               "role": "root",
               "head": "",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "Lemanno",
@@ -9270,21 +9392,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "dividit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:6:13"
             },
             {
               "word": "provinciam",
               "lemma": "provincia",
               "role": "obj",
               "head": "dividit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:9"
             },
             {
               "word": "nostram",
               "lemma": "noster",
               "role": "det",
               "head": "provinciam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:6:9"
             },
             {
               "word": "ab",
@@ -9305,7 +9430,8 @@ BOOKS.push(...[
               "lemma": "dico",
               "role": "acl:relcl",
               "head": "Lemanno",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:6:13"
             },
             {
               "word": ".",
@@ -9319,14 +9445,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:7:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl",
               "head": "fiebat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:7:2"
             },
             {
               "word": "fiebat",
@@ -9361,14 +9489,16 @@ BOOKS.push(...[
               "lemma": "latus",
               "role": "nsubj:pass",
               "head": "vagarentur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:8"
             },
             {
               "word": "vagarentur",
               "lemma": "vago",
               "role": "csubj:pass",
               "head": "fiebat",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:7:8"
             },
             {
               "word": "et",
@@ -9431,7 +9561,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:8:3"
             },
             {
               "word": "ex",
@@ -9445,14 +9576,16 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "obl",
               "head": "adficiebantur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:8:3"
             },
             {
               "word": "homines",
               "lemma": "homo",
               "role": "nsubj:pass",
               "head": "adficiebantur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:8:4"
             },
             {
               "word": "bellandi",
@@ -9466,28 +9599,32 @@ BOOKS.push(...[
               "lemma": "cupidus",
               "role": "amod",
               "head": "homines",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:8:4"
             },
             {
               "word": "magno",
               "lemma": "magnus",
               "role": "amod",
               "head": "dolore",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:8"
             },
             {
               "word": "dolore",
               "lemma": "dolor",
               "role": "obl",
               "head": "adficiebantur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:8:8"
             },
             {
               "word": "adficiebantur",
               "lemma": "adficio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:8:9"
             },
             {
               "word": ".",
@@ -9508,7 +9645,8 @@ BOOKS.push(...[
               "lemma": "multitudo",
               "role": "obl",
               "head": "arbitrabantur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:9:2"
             },
             {
               "word": "autem",
@@ -9522,7 +9660,8 @@ BOOKS.push(...[
               "lemma": "homo",
               "role": "nmod",
               "head": "multitudine",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:9:2"
             },
             {
               "word": "et",
@@ -9543,14 +9682,16 @@ BOOKS.push(...[
               "lemma": "gloria",
               "role": "conj",
               "head": "multitudine",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:9:7"
             },
             {
               "word": "belli",
               "lemma": "bellus",
               "role": "nmod",
               "head": "gloria",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:9:7"
             },
             {
               "word": "atque",
@@ -9571,28 +9712,32 @@ BOOKS.push(...[
               "lemma": "angustus",
               "role": "amod",
               "head": "fines",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:9:13"
             },
             {
               "word": "se",
               "lemma": "sui",
               "role": "nsubj",
               "head": "habere",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "0:9:14"
             },
             {
               "word": "fines",
               "lemma": "finis",
               "role": "obj",
               "head": "habere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:9:13"
             },
             {
               "word": "habere",
               "lemma": "habeo",
               "role": "xcomp",
               "head": "arbitrabantur",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "0:9:14"
             },
             {
               "word": "arbitrabantur",
@@ -9613,7 +9758,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "patebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:9:27"
             },
             {
               "word": "in",
@@ -9627,14 +9773,16 @@ BOOKS.push(...[
               "lemma": "longitudo",
               "role": "obl",
               "head": "patebant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:9:19"
             },
             {
               "word": "milia",
               "lemma": "milius",
               "role": "nmod",
               "head": "longitudinem",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:9:19"
             },
             {
               "word": "passuum",
@@ -9669,21 +9817,24 @@ BOOKS.push(...[
               "lemma": "latitudo",
               "role": "obl",
               "head": "patebant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:9:25"
             },
             {
               "word": "CLXXX",
               "lemma": "CLXXX",
               "role": "amod",
               "head": "latitudinem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:9:25"
             },
             {
               "word": "patebant",
               "lemma": "patior",
               "role": "acl:relcl",
               "head": "fines",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:9:27"
             },
             {
               "word": ".",
@@ -9699,14 +9850,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:0:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl",
               "head": "constituerunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:0:2"
             },
             {
               "word": "adducti",
@@ -9762,7 +9915,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "pertinerent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:0:13"
             },
             {
               "word": "ad",
@@ -9783,14 +9937,16 @@ BOOKS.push(...[
               "lemma": "pertineo",
               "role": "acl:relcl",
               "head": "ea",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:13"
             },
             {
               "word": "comparare",
               "lemma": "comparo",
               "role": "xcomp",
               "head": "pertinerent",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act",
+              "agreement": "1:0:14"
             },
             {
               "word": ",",
@@ -9804,7 +9960,8 @@ BOOKS.push(...[
               "lemma": "iumentum",
               "role": "nmod",
               "head": "comparare",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:14"
             },
             {
               "word": "et",
@@ -9832,14 +9989,16 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "numerum",
-              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:21"
             },
             {
               "word": "numerum",
               "lemma": "numerus",
               "role": "obj",
               "head": "coemere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:21"
             },
             {
               "word": "coemere",
@@ -9916,21 +10075,24 @@ BOOKS.push(...[
               "lemma": "copia",
               "role": "nsubj",
               "head": "suppeteret",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:0:32"
             },
             {
               "word": "frumenti",
               "lemma": "frumentum",
               "role": "nmod",
               "head": "copia",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:32"
             },
             {
               "word": "suppeteret",
               "lemma": "suppeto",
               "role": "advcl",
               "head": "sementes",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:34"
             },
             {
               "word": ",",
@@ -9951,14 +10113,16 @@ BOOKS.push(...[
               "lemma": "proximus",
               "role": "amod",
               "head": "civitatibus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:0:38"
             },
             {
               "word": "civitatibus",
               "lemma": "civitas",
               "role": "obl",
               "head": "confirmare",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:38"
             },
             {
               "word": "pacem",
@@ -10007,35 +10171,40 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "res",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:1:3"
             },
             {
               "word": "res",
               "lemma": "res",
               "role": "nsubj:pass",
               "head": "conficiendas",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:1:4"
             },
             {
               "word": "conficiendas",
               "lemma": "conficio",
               "role": "obl",
               "head": "duxerunt",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:1:4"
             },
             {
               "word": "biennium",
               "lemma": "biennus",
               "role": "nsubj",
               "head": "duxerunt",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:5"
             },
             {
               "word": "sibi",
               "lemma": "sui",
               "role": "nmod",
               "head": "biennium",
-              "morph": "Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:1:5"
             },
             {
               "word": "satis",
@@ -10056,7 +10225,8 @@ BOOKS.push(...[
               "lemma": "duco",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:9"
             },
             {
               "word": ";",
@@ -10077,14 +10247,16 @@ BOOKS.push(...[
               "lemma": "tertius",
               "role": "amod",
               "head": "annum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "1:2:3"
             },
             {
               "word": "annum",
               "lemma": "annus",
               "role": "obl",
               "head": "confirmant",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:3"
             },
             {
               "word": "profectionem",
@@ -10126,28 +10298,32 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj:pass",
               "head": "conficiendas",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:3:4"
             },
             {
               "word": "res",
               "lemma": "res",
               "role": "obl:arg",
               "head": "deligitur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:3:3"
             },
             {
               "word": "conficiendas",
               "lemma": "conficio",
               "role": "obl",
               "head": "deligitur",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:3:4"
             },
             {
               "word": "Orgetorix",
               "lemma": "Orgetorix",
               "role": "nmod",
               "head": "res",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "deligitur",
@@ -10168,7 +10344,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj",
               "head": "suscipit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:6"
             },
             {
               "word": "sibi",
@@ -10182,7 +10359,8 @@ BOOKS.push(...[
               "lemma": "legatio",
               "role": "obj",
               "head": "suscipit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:3"
             },
             {
               "word": "ad",
@@ -10196,14 +10374,16 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "nmod",
               "head": "legationem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:4:3"
             },
             {
               "word": "suscipit",
               "lemma": "suscipio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:6"
             },
             {
               "word": ".",
@@ -10224,14 +10404,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "itinere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:5:3"
             },
             {
               "word": "itinere",
               "lemma": "itinum",
               "role": "obl",
               "head": "persuadet",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": "persuadet",
@@ -10294,14 +10476,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "pater",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:5:13"
             },
             {
               "word": "pater",
               "lemma": "pater",
               "role": "nsubj",
               "head": "obtinuerat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:19"
             },
             {
               "word": "regnum",
@@ -10329,21 +10513,24 @@ BOOKS.push(...[
               "lemma": "multus",
               "role": "det",
               "head": "annos",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "1:5:18"
             },
             {
               "word": "annos",
               "lemma": "annus",
               "role": "xcomp",
               "head": "obtinuerat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:5:18"
             },
             {
               "word": "obtinuerat",
               "lemma": "obtineo",
               "role": "acl:relcl",
               "head": "Sequano",
-              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:19"
             },
             {
               "word": "et",
@@ -10364,21 +10551,24 @@ BOOKS.push(...[
               "lemma": "senatus",
               "role": "obl:agent",
               "head": "appellatus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:5:22"
             },
             {
               "word": "populi",
               "lemma": "populus",
               "role": "nmod",
               "head": "senatu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:23"
             },
             {
               "word": "Romani",
               "lemma": "romanus",
               "role": "amod",
               "head": "populi",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:23"
             },
             {
               "word": "amicus",
@@ -10434,14 +10624,16 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "obl",
               "head": "occuparet",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:32"
             },
             {
               "word": "sua",
               "lemma": "suus",
               "role": "det",
               "head": "civitate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:5:32"
             },
             {
               "word": "occuparet",
@@ -10469,7 +10661,8 @@ BOOKS.push(...[
               "lemma": "pater",
               "role": "nsubj",
               "head": "habuerit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:39"
             },
             {
               "word": "ante",
@@ -10483,7 +10676,8 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "ccomp",
               "head": "occuparet",
-              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:39"
             },
             {
               "word": ";",
@@ -10504,14 +10698,16 @@ BOOKS.push(...[
               "lemma": "dumnorigus",
               "role": "nmod",
               "head": "Haeduo",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:6:3"
             },
             {
               "word": "Haeduo",
               "lemma": "haeduus",
               "role": "root",
               "head": "",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:3"
             },
             {
               "word": ",",
@@ -10546,21 +10742,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "obtinebat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:6:14"
             },
             {
               "word": "eo",
               "lemma": "is",
               "role": "det",
               "head": "tempore",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:6:10"
             },
             {
               "word": "tempore",
               "lemma": "tempus",
               "role": "obl",
               "head": "obtinebat",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:6:10"
             },
             {
               "word": "principatum",
@@ -10588,7 +10787,8 @@ BOOKS.push(...[
               "lemma": "obtineo",
               "role": "acl:relcl",
               "head": "Diviciaci",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:14"
             },
             {
               "word": "ac",
@@ -10672,14 +10872,16 @@ BOOKS.push(...[
               "lemma": "filia",
               "role": "obj",
               "head": "dat",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:6:26"
             },
             {
               "word": "suam",
               "lemma": "suus",
               "role": "det",
               "head": "filiam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:6:26"
             },
             {
               "word": "in",
@@ -10721,7 +10923,8 @@ BOOKS.push(...[
               "lemma": "factus",
               "role": "nsubj",
               "head": "perficere",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:7"
             },
             {
               "word": "esse",
@@ -10756,7 +10959,8 @@ BOOKS.push(...[
               "lemma": "perficio",
               "role": "xcomp",
               "head": "probat",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act",
+              "agreement": "1:7:7"
             },
             {
               "word": ",",
@@ -10784,28 +10988,32 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "det",
               "head": "imperium",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:7:14"
             },
             {
               "word": "suae",
               "lemma": "suus",
               "role": "det",
               "head": "civitatis",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:7:13"
             },
             {
               "word": "civitatis",
               "lemma": "civitas",
               "role": "nmod",
               "head": "imperium",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:14"
             },
             {
               "word": "imperium",
               "lemma": "imperium",
               "role": "obj",
               "head": "obtenturus",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:14"
             },
             {
               "word": "obtenturus",
@@ -10861,35 +11069,40 @@ BOOKS.push(...[
               "lemma": "totus",
               "role": "det",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "1:8:6"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "Helvetii",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:8"
             },
             {
               "word": "plurimum",
               "lemma": "multus",
               "role": "det",
               "head": "Helvetii",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind",
+              "agreement": "1:8:8"
             },
             {
               "word": "Helvetii",
               "lemma": "helvetium",
               "role": "nsubj",
               "head": "possent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:8:9"
             },
             {
               "word": "possent",
               "lemma": "possum",
               "role": "csubj",
               "head": "dubium",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:8:9"
             },
             {
               "word": ";",
@@ -10910,35 +11123,40 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "copiis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:9:3"
             },
             {
               "word": "copiis",
               "lemma": "copius",
               "role": "obl",
               "head": "confirmat",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:9:3"
             },
             {
               "word": "suoque",
               "lemma": "suoquis",
               "role": "amod",
               "head": "exercitu",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:9:5"
             },
             {
               "word": "exercitu",
               "lemma": "exercitus",
               "role": "conj",
               "head": "copiis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:9:5"
             },
             {
               "word": "illis",
               "lemma": "ille",
               "role": "det",
               "head": "exercitu",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:9:5"
             },
             {
               "word": "regna",
@@ -10973,14 +11191,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "oratione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:10:2"
             },
             {
               "word": "oratione",
               "lemma": "oratio",
               "role": "obl",
               "head": "dant",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:2"
             },
             {
               "word": "adducti",
@@ -11092,42 +11312,48 @@ BOOKS.push(...[
               "lemma": "firmus",
               "role": "amod",
               "head": "populos",
-              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:10:19"
             },
             {
               "word": "populos",
               "lemma": "populus",
               "role": "obj",
               "head": "potiri",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:10:19"
             },
             {
               "word": "totius",
               "lemma": "totus",
               "role": "det",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "1:10:21"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "populos",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:10:19"
             },
             {
               "word": "sese",
               "lemma": "sui",
               "role": "nsubj",
               "head": "potiri",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:10:23"
             },
             {
               "word": "potiri",
               "lemma": "potior",
               "role": "xcomp",
               "head": "posse",
-              "morph": "Aspect=Imp|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:10:23"
             },
             {
               "word": "posse",
@@ -11157,14 +11383,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "res",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:0:2"
             },
             {
               "word": "res",
               "lemma": "res",
               "role": "nsubj",
               "head": "enuntiata",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "2:0:7"
             },
             {
               "word": "est",
@@ -11199,7 +11427,8 @@ BOOKS.push(...[
               "lemma": "enuntio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "2:0:7"
             },
             {
               "word": ".",
@@ -11213,14 +11442,16 @@ BOOKS.push(...[
               "lemma": "mos",
               "role": "obl",
               "head": "dicere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:1:1"
             },
             {
               "word": "suis",
               "lemma": "suus",
               "role": "det",
               "head": "Moribus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "2:1:1"
             },
             {
               "word": "Orgetoricem",
@@ -11339,35 +11570,40 @@ BOOKS.push(...[
               "lemma": "dies",
               "role": "obl",
               "head": "coegit",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "2:3:1"
             },
             {
               "word": "constituta",
               "lemma": "constituo",
               "role": "advcl:abs",
               "head": "coegit",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "2:3:2"
             },
             {
               "word": "causae",
               "lemma": "causa",
               "role": "nmod",
               "head": "Die",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:3:3"
             },
             {
               "word": "dictionis",
               "lemma": "dictio",
               "role": "nmod",
               "head": "causae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:3:4"
             },
             {
               "word": "Orgetorix",
               "lemma": "Orgetorix",
               "role": "nmod",
               "head": "dictionis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:3:4"
             },
             {
               "word": "ad",
@@ -11388,21 +11624,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "familiam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "2:3:10"
             },
             {
               "word": "suam",
               "lemma": "suus",
               "role": "det",
               "head": "familiam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "2:3:10"
             },
             {
               "word": "familiam",
               "lemma": "familia",
               "role": "nsubj:pass",
               "head": "constituta",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:3:2"
             },
             {
               "word": ",",
@@ -11423,14 +11662,16 @@ BOOKS.push(...[
               "lemma": "homo",
               "role": "nmod",
               "head": "milia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:3:14"
             },
             {
               "word": "milia",
               "lemma": "milius",
               "role": "obl",
               "head": "coegit",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:3:14"
             },
             {
               "word": "decem",
@@ -11479,28 +11720,32 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "clientes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "2:3:22"
             },
             {
               "word": "clientes",
               "lemma": "clieo",
               "role": "ccomp",
               "head": "conduxit",
-              "morph": "Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act",
+              "agreement": "2:3:22"
             },
             {
               "word": "obaeratosque",
               "lemma": "obaeratosqus",
               "role": "obj",
               "head": "conduxit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "2:3:23"
             },
             {
               "word": "suos",
               "lemma": "suus",
               "role": "det",
               "head": "obaeratosque",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "2:3:23"
             },
             {
               "word": ",",
@@ -11514,21 +11759,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "numerum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "2:3:28"
             },
             {
               "word": "magnum",
               "lemma": "magnus",
               "role": "amod",
               "head": "numerum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:3:28"
             },
             {
               "word": "numerum",
               "lemma": "numerus",
               "role": "obj",
               "head": "habebat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:3:28"
             },
             {
               "word": "habebat",
@@ -11633,7 +11881,8 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "nsubj",
               "head": "conaretur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:5:11"
             },
             {
               "word": "ob",
@@ -11647,14 +11896,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "rem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:5:5"
             },
             {
               "word": "rem",
               "lemma": "res",
               "role": "obj",
               "head": "conaretur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "2:5:5"
             },
             {
               "word": "incitata",
@@ -11675,14 +11926,16 @@ BOOKS.push(...[
               "lemma": "ius",
               "role": "obj",
               "head": "exequi",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:5:8"
             },
             {
               "word": "suum",
               "lemma": "suus",
               "role": "det",
               "head": "ius",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "2:5:8"
             },
             {
               "word": "exequi",
@@ -11696,21 +11949,24 @@ BOOKS.push(...[
               "lemma": "conor",
               "role": "advcl",
               "head": "mortuus",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "2:5:11"
             },
             {
               "word": "multitudinemque",
               "lemma": "multitudo",
               "role": "obj",
               "head": "cogerent",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:5:12"
             },
             {
               "word": "hominum",
               "lemma": "homo",
               "role": "nmod",
               "head": "multitudinemque",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:5:12"
             },
             {
               "word": "ex",
@@ -11787,14 +12043,16 @@ BOOKS.push(...[
               "lemma": "absum",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "2:6:2"
             },
             {
               "word": "suspicio",
               "lemma": "suspicium",
               "role": "nsubj",
               "head": "abest",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:6:2"
             },
             {
               "word": ",",
@@ -11815,14 +12073,16 @@ BOOKS.push(...[
               "lemma": "helvetium",
               "role": "nsubj",
               "head": "arbitrantur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "2:6:7"
             },
             {
               "word": "arbitrantur",
               "lemma": "arbitror",
               "role": "advcl:cmp",
               "head": "abest",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "2:6:7"
             },
             {
               "word": ",",
@@ -11843,7 +12103,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "consciverit",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "2:6:13"
             },
             {
               "word": "sibi",
@@ -11864,7 +12125,8 @@ BOOKS.push(...[
               "lemma": "conscivo",
               "role": "advcl",
               "head": "abest",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "2:6:13"
             },
             {
               "word": ".",
@@ -11908,14 +12170,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "mortem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:0:3"
             },
             {
               "word": "mortem",
               "lemma": "mors",
               "role": "obl",
               "head": "conantur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:3"
             },
             {
               "word": "nihilo",
@@ -11936,7 +12200,8 @@ BOOKS.push(...[
               "lemma": "helvetium",
               "role": "nsubj",
               "head": "conantur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:11"
             },
             {
               "word": "id",
@@ -11971,7 +12236,8 @@ BOOKS.push(...[
               "lemma": "conor",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:0:11"
             },
             {
               "word": ",",
@@ -11999,14 +12265,16 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "obl",
               "head": "exeant",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:0:15"
             },
             {
               "word": "suis",
               "lemma": "suus",
               "role": "det",
               "head": "finibus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:0:15"
             },
             {
               "word": "exeant",
@@ -12041,7 +12309,8 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "nsubj:pass",
               "head": "paratos",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:7"
             },
             {
               "word": "ad",
@@ -12069,7 +12338,8 @@ BOOKS.push(...[
               "lemma": "paro",
               "role": "xcomp",
               "head": "arbitrati",
-              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:1:7"
             },
             {
               "word": "esse",
@@ -12104,21 +12374,24 @@ BOOKS.push(...[
               "lemma": "oppida",
               "role": "nsubj",
               "head": "incendunt",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:12"
             },
             {
               "word": "sua",
               "lemma": "suus",
               "role": "det",
               "head": "oppida",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:12"
             },
             {
               "word": "omnia",
               "lemma": "omnis",
               "role": "det",
               "head": "oppida",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:1:12"
             },
             {
               "word": ",",
@@ -12160,7 +12433,8 @@ BOOKS.push(...[
               "lemma": "vicus",
               "role": "conj",
               "head": "duodecim",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:20"
             },
             {
               "word": "ad",
@@ -12174,7 +12448,8 @@ BOOKS.push(...[
               "lemma": "quadringo",
               "role": "nmod",
               "head": "vicos",
-              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act",
+              "agreement": "0:1:20"
             },
             {
               "word": ",",
@@ -12188,7 +12463,8 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "aedificia",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:26"
             },
             {
               "word": "privata",
@@ -12202,14 +12478,16 @@ BOOKS.push(...[
               "lemma": "aedificium",
               "role": "obj",
               "head": "incendunt",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:26"
             },
             {
               "word": "incendunt",
               "lemma": "incendo",
               "role": "conj",
               "head": "arbitrati",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:27"
             },
             {
               "word": ";",
@@ -12223,14 +12501,16 @@ BOOKS.push(...[
               "lemma": "frumentum",
               "role": "nsubj",
               "head": "comburunt",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:1"
             },
             {
               "word": "omne",
               "lemma": "omnis",
               "role": "det",
               "head": "frumentum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:2:1"
             },
             {
               "word": ",",
@@ -12286,7 +12566,8 @@ BOOKS.push(...[
               "lemma": "comburo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:10"
             },
             {
               "word": ",",
@@ -12307,14 +12588,16 @@ BOOKS.push(...[
               "lemma": "domus",
               "role": "obj",
               "head": "paratiores",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:2:13"
             },
             {
               "word": "reditionis",
               "lemma": "reditio",
               "role": "nmod",
               "head": "domum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:13"
             },
             {
               "word": "spe",
@@ -12349,21 +12632,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "pericula",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:2:20"
             },
             {
               "word": "pericula",
               "lemma": "periculum",
               "role": "nsubj:pass",
               "head": "subeunda",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:2:21"
             },
             {
               "word": "subeunda",
               "lemma": "subeo",
               "role": "obl",
               "head": "comburunt",
-              "morph": "Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatAnom|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatAnom|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:2:21"
             },
             {
               "word": "essent",
@@ -12391,21 +12677,24 @@ BOOKS.push(...[
               "lemma": "mensus",
               "role": "nmod",
               "head": "cibaria",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:3:4"
             },
             {
               "word": "molita",
               "lemma": "molitus",
               "role": "amod",
               "head": "cibaria",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:4"
             },
             {
               "word": "cibaria",
               "lemma": "cibarius",
               "role": "nsubj",
               "head": "iubent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:9"
             },
             {
               "word": "sibi",
@@ -12419,14 +12708,16 @@ BOOKS.push(...[
               "lemma": "quisque",
               "role": "det",
               "head": "domo",
-              "morph": "Case=Acc|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "0:3:7"
             },
             {
               "word": "domo",
               "lemma": "domus",
               "role": "obl",
               "head": "efferre",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:3:7"
             },
             {
               "word": "efferre",
@@ -12440,7 +12731,8 @@ BOOKS.push(...[
               "lemma": "iubeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:9"
             },
             {
               "word": ".",
@@ -12517,35 +12809,40 @@ BOOKS.push(...[
               "lemma": "idem",
               "role": "det",
               "head": "consilio",
-              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:4:12"
             },
             {
               "word": "usi",
               "lemma": "utor",
               "role": "advcl:abs",
               "head": "uti",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:4:11"
             },
             {
               "word": "consilio",
               "lemma": "consilium",
               "role": "nsubj:pass",
               "head": "usi",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:11"
             },
             {
               "word": "oppidis",
               "lemma": "oppidus",
               "role": "nsubj:pass",
               "head": "exustis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:4:13"
             },
             {
               "word": "suis",
               "lemma": "suus",
               "role": "det",
               "head": "oppidis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:4:13"
             },
             {
               "word": "vicisque",
@@ -12559,14 +12856,16 @@ BOOKS.push(...[
               "lemma": "exsumo",
               "role": "acl",
               "head": "consilio",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:4:16"
             },
             {
               "word": "una",
               "lemma": "unus",
               "role": "nsubj:pass",
               "head": "proficiscantur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:4:20"
             },
             {
               "word": "cum",
@@ -12587,7 +12886,8 @@ BOOKS.push(...[
               "lemma": "proficiscor",
               "role": "ccomp",
               "head": "Persuadent",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:4:20"
             },
             {
               "word": ",",
@@ -12601,7 +12901,8 @@ BOOKS.push(...[
               "lemma": "boius",
               "role": "nsubj",
               "head": "adsciscunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:41"
             },
             {
               "word": ",",
@@ -12615,28 +12916,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "incoluerant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:4:27"
             },
             {
               "word": "trans",
               "lemma": "trans",
               "role": "obj",
               "head": "incoluerant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:25"
             },
             {
               "word": "Rhenum",
               "lemma": "rhenus",
               "role": "nmod",
               "head": "trans",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:25"
             },
             {
               "word": "incoluerant",
               "lemma": "incoluero",
               "role": "acl:relcl",
               "head": "Boiosque",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:27"
             },
             {
               "word": "et",
@@ -12657,14 +12962,16 @@ BOOKS.push(...[
               "lemma": "agrus",
               "role": "obl:arg",
               "head": "transierant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:30"
             },
             {
               "word": "Noricum",
               "lemma": "noricus",
               "role": "amod",
               "head": "agrum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:30"
             },
             {
               "word": "transierant",
@@ -12734,7 +13041,8 @@ BOOKS.push(...[
               "lemma": "ascisco",
               "role": "advcl",
               "head": "Persuadent",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:41"
             },
             {
               "word": ".",
@@ -12750,7 +13058,8 @@ BOOKS.push(...[
               "lemma": "sum",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin",
+              "agreement": "1:0:1"
             },
             {
               "word": "omnino",
@@ -12764,7 +13073,8 @@ BOOKS.push(...[
               "lemma": "itinera",
               "role": "nsubj",
               "head": "Erant",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:1"
             },
             {
               "word": "duo",
@@ -12890,14 +13200,16 @@ BOOKS.push(...[
               "lemma": "mons",
               "role": "advcl",
               "head": "unum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:1:10"
             },
             {
               "word": "Iuram",
               "lemma": "iura",
               "role": "nmod",
               "head": "montem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:10"
             },
             {
               "word": "et",
@@ -12911,14 +13223,16 @@ BOOKS.push(...[
               "lemma": "flumen",
               "role": "conj",
               "head": "montem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:13"
             },
             {
               "word": "Rhodanum",
               "lemma": "rhodanus",
               "role": "nmod",
               "head": "flumen",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:13"
             },
             {
               "word": ",",
@@ -12946,21 +13260,24 @@ BOOKS.push(...[
               "lemma": "singulus",
               "role": "det",
               "head": "carri",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "1:1:19"
             },
             {
               "word": "carri",
               "lemma": "caro",
               "role": "nsubj:pass",
               "head": "ducerentur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:1:20"
             },
             {
               "word": "ducerentur",
               "lemma": "duco",
               "role": "conj",
               "head": "unum",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:1:20"
             },
             {
               "word": ",",
@@ -12974,7 +13291,8 @@ BOOKS.push(...[
               "lemma": "mons",
               "role": "nsubj",
               "head": "impendebat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:25"
             },
             {
               "word": "autem",
@@ -12995,7 +13313,8 @@ BOOKS.push(...[
               "lemma": "impendo",
               "role": "conj",
               "head": "ducerentur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:25"
             },
             {
               "word": ",",
@@ -13023,7 +13342,8 @@ BOOKS.push(...[
               "lemma": "perpaucus",
               "role": "nsubj",
               "head": "possent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:31"
             },
             {
               "word": "prohibere",
@@ -13037,7 +13357,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "advcl",
               "head": "impendebat",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:31"
             },
             {
               "word": ";",
@@ -13065,14 +13386,16 @@ BOOKS.push(...[
               "lemma": "provincia",
               "role": "advcl",
               "head": "alterum",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:2:3"
             },
             {
               "word": "nostram",
               "lemma": "noster",
               "role": "det",
               "head": "provinciam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "1:2:3"
             },
             {
               "word": ",",
@@ -13177,7 +13500,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj:pass",
               "head": "pacati",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:2:21"
             },
             {
               "word": "nuper",
@@ -13191,7 +13515,8 @@ BOOKS.push(...[
               "lemma": "paco",
               "role": "acl:relcl",
               "head": "fines",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:2:21"
             },
             {
               "word": "erant",
@@ -13212,14 +13537,16 @@ BOOKS.push(...[
               "lemma": "Rhodanus",
               "role": "nsubj",
               "head": "fluit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:25"
             },
             {
               "word": "fluit",
               "lemma": "fluo",
               "role": "advcl",
               "head": "alterum",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:25"
             },
             {
               "word": "isque",
@@ -13240,14 +13567,16 @@ BOOKS.push(...[
               "lemma": "nullus",
               "role": "det",
               "head": "locis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind",
+              "agreement": "1:2:29"
             },
             {
               "word": "locis",
               "lemma": "locus",
               "role": "obl",
               "head": "transitur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:29"
             },
             {
               "word": "vado",
@@ -13275,21 +13604,24 @@ BOOKS.push(...[
               "lemma": "exterior",
               "role": "amod",
               "head": "oppidum",
-              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:2"
             },
             {
               "word": "oppidum",
               "lemma": "oppidus",
               "role": "nsubj",
               "head": "Allobrogum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "Allobrogum",
               "lemma": "allobra",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "est",
@@ -13303,7 +13635,8 @@ BOOKS.push(...[
               "lemma": "proximumquus",
               "role": "amod",
               "head": "Allobrogum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "Helvetiorum",
@@ -13317,14 +13650,16 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "obl",
               "head": "Helvetiorum",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:3:7"
             },
             {
               "word": "Genava",
               "lemma": "genavus",
               "role": "nmod",
               "head": "finibus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:7"
             },
             {
               "word": ".",
@@ -13345,21 +13680,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "oppido",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:4:3"
             },
             {
               "word": "oppido",
               "lemma": "oppido",
               "role": "obl",
               "head": "pertinet",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:3"
             },
             {
               "word": "pons",
               "lemma": "pons",
               "role": "nsubj",
               "head": "pertinet",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:7"
             },
             {
               "word": "ad",
@@ -13380,7 +13718,8 @@ BOOKS.push(...[
               "lemma": "pertineo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:7"
             },
             {
               "word": ".",
@@ -13464,14 +13803,16 @@ BOOKS.push(...[
               "lemma": "populus",
               "role": "obl",
               "head": "viderentur",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:11"
             },
             {
               "word": "Romanum",
               "lemma": "romanus",
               "role": "amod",
               "head": "populum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:11"
             },
             {
               "word": "viderentur",
@@ -13534,14 +13875,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "fines",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:5:22"
             },
             {
               "word": "fines",
               "lemma": "finis",
               "role": "obl",
               "head": "paterentur",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:5:22"
             },
             {
               "word": "eos",
@@ -13576,14 +13919,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:6:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl:arg",
               "head": "dicunt",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:6:2"
             },
             {
               "word": "ad",
@@ -13632,14 +13977,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "die",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:6:10"
             },
             {
               "word": "die",
               "lemma": "dies",
               "role": "obl",
               "head": "conveniant",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:6:10"
             },
             {
               "word": "ad",
@@ -13653,28 +14000,32 @@ BOOKS.push(...[
               "lemma": "ripa",
               "role": "obl",
               "head": "conveniant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:6:12"
             },
             {
               "word": "Rhodani",
               "lemma": "rhodanus",
               "role": "nmod",
               "head": "ripam",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:12"
             },
             {
               "word": "omnes",
               "lemma": "omnis",
               "role": "nsubj",
               "head": "conveniant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:6:15"
             },
             {
               "word": "conveniant",
               "lemma": "convenio",
               "role": "acl:relcl",
               "head": "diem",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:15"
             },
             {
               "word": ".",
@@ -13688,21 +14039,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "dies",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:7:2"
             },
             {
               "word": "dies",
               "lemma": "dies",
               "role": "nsubj",
               "head": "erat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:7:3"
             },
             {
               "word": "erat",
               "lemma": "sum",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin",
+              "agreement": "1:7:3"
             },
             {
               "word": "a.",
@@ -13716,7 +14070,8 @@ BOOKS.push(...[
               "lemma": "deus",
               "role": "obl",
               "head": "erat",
-              "morph": "Abbr=Yes|Proper=Yes"
+              "morph": "Abbr=Yes|Proper=Yes",
+              "agreement": "1:7:5"
             },
             {
               "word": "V.",
@@ -13730,7 +14085,8 @@ BOOKS.push(...[
               "lemma": "kalata",
               "role": "nmod",
               "head": "d.",
-              "morph": "Abbr=Yes"
+              "morph": "Abbr=Yes",
+              "agreement": "1:7:5"
             },
             {
               "word": "Apr.",
@@ -13744,14 +14100,16 @@ BOOKS.push(...[
               "lemma": "lius",
               "role": "nmod",
               "head": "Pisone",
-              "morph": "Abbr=Yes|Proper=Yes"
+              "morph": "Abbr=Yes|Proper=Yes",
+              "agreement": "1:7:10"
             },
             {
               "word": "Pisone",
               "lemma": "pison",
               "role": "nmod",
               "head": "d.",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:5"
             },
             {
               "word": ",",
@@ -13772,14 +14130,16 @@ BOOKS.push(...[
               "lemma": "gabinium",
               "role": "nmod",
               "head": "d.",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:13"
             },
             {
               "word": "consulibus",
               "lemma": "consulus",
               "role": "nmod",
               "head": "Gabinio",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:7:13"
             },
             {
               "word": ".",
@@ -13809,14 +14169,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj:pass",
               "head": "nuntiatum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:0:4"
             },
             {
               "word": "nuntiatum",
               "lemma": "nuntio",
               "role": "advcl",
               "head": "maturat",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "2:0:4"
             },
             {
               "word": "esset",
@@ -13837,7 +14199,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj",
               "head": "facere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "2:0:12"
             },
             {
               "word": "per",
@@ -13851,14 +14214,16 @@ BOOKS.push(...[
               "lemma": "provincia",
               "role": "obl",
               "head": "facere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:0:9"
             },
             {
               "word": "nostram",
               "lemma": "noster",
               "role": "det",
               "head": "provinciam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "2:0:9"
             },
             {
               "word": "iter",
@@ -13872,7 +14237,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "xcomp",
               "head": "nuntiatum",
-              "morph": "Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act",
+              "agreement": "2:0:12"
             },
             {
               "word": "conari",
@@ -13935,7 +14301,8 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "itineribus",
-              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "2:0:23"
             },
             {
               "word": "potest",
@@ -13949,7 +14316,8 @@ BOOKS.push(...[
               "lemma": "itieer",
               "role": "obl:arg",
               "head": "contendit",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:0:23"
             },
             {
               "word": "in",
@@ -13963,14 +14331,16 @@ BOOKS.push(...[
               "lemma": "gallia",
               "role": "obl:arg",
               "head": "contendit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:0:25"
             },
             {
               "word": "ulteriorem",
               "lemma": "ultimus",
               "role": "amod",
               "head": "Galliam",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:0:25"
             },
             {
               "word": "contendit",
@@ -14019,14 +14389,16 @@ BOOKS.push(...[
               "lemma": "provincia",
               "role": "nmod",
               "head": "Gallia",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:1:1"
             },
             {
               "word": "toti",
               "lemma": "totus",
               "role": "det",
               "head": "Provinciae",
-              "morph": "Case=Dat|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Dat|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "2:1:1"
             },
             {
               "word": "quam",
@@ -14040,28 +14412,32 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "nsubj",
               "head": "potest",
-              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:1:5"
             },
             {
               "word": "potest",
               "lemma": "possum",
               "role": "acl:relcl",
               "head": "Provinciae",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "2:1:5"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "numerum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:1:7"
             },
             {
               "word": "numerum",
               "lemma": "numerus",
               "role": "obj",
               "head": "imperat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:1:7"
             },
             {
               "word": "imperat",
@@ -14103,28 +14479,32 @@ BOOKS.push(...[
               "lemma": "Gallia",
               "role": "root",
               "head": "",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:1:13"
             },
             {
               "word": "ulteriore",
               "lemma": "ultimus",
               "role": "amod",
               "head": "Gallia",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:1:13"
             },
             {
               "word": "legio",
               "lemma": "legium",
               "role": "nsubj",
               "head": "Gallia",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:1:15"
             },
             {
               "word": "una",
               "lemma": "unus",
               "role": "det",
               "head": "legio",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "2:1:15"
             },
             {
               "word": ")",
@@ -14159,7 +14539,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "Genavam",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "2:1:24"
             },
             {
               "word": "erat",
@@ -14180,7 +14561,8 @@ BOOKS.push(...[
               "lemma": "genava",
               "role": "acl:relcl",
               "head": "pontem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:1:24"
             },
             {
               "word": ",",
@@ -14229,21 +14611,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "adventu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:2:4"
             },
             {
               "word": "adventu",
               "lemma": "adventus",
               "role": "obl",
               "head": "facti",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "2:2:4"
             },
             {
               "word": "Helvetii",
               "lemma": "helvetium",
               "role": "nsubj:pass",
               "head": "facti",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "2:2:7"
             },
             {
               "word": "certiores",
@@ -14257,7 +14642,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "2:2:7"
             },
             {
               "word": "sunt",
@@ -14278,7 +14664,8 @@ BOOKS.push(...[
               "lemma": "legatus",
               "role": "obj",
               "head": "mittunt",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "2:2:10"
             },
             {
               "word": "ad",
@@ -14313,7 +14700,8 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "nmod",
               "head": "legatos",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:2:10"
             },
             {
               "word": ",",
@@ -14327,21 +14715,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "legationis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "2:2:18"
             },
             {
               "word": "legationis",
               "lemma": "legatio",
               "role": "nmod",
               "head": "Nammeius",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:2:19"
             },
             {
               "word": "Nammeius",
               "lemma": "Nammeius",
               "role": "nsubj",
               "head": "obtinebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:2:24"
             },
             {
               "word": "et",
@@ -14362,21 +14753,24 @@ BOOKS.push(...[
               "lemma": "princeps",
               "role": "nmod",
               "head": "locum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:2:23"
             },
             {
               "word": "locum",
               "lemma": "locus",
               "role": "obj",
               "head": "obtinebant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:2:23"
             },
             {
               "word": "obtinebant",
               "lemma": "obtineo",
               "role": "acl:relcl",
               "head": "civitatis",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:2:24"
             },
             {
               "word": ",",
@@ -14390,14 +14784,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "dicerent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "2:2:27"
             },
             {
               "word": "dicerent",
               "lemma": "dico",
               "role": "acl:relcl",
               "head": "civitatis",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:2:27"
             },
             {
               "word": "sibi",
@@ -14439,14 +14835,16 @@ BOOKS.push(...[
               "lemma": "ullus",
               "role": "det",
               "head": "maleficio",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "2:2:34"
             },
             {
               "word": "maleficio",
               "lemma": "maleficium",
               "role": "obl",
               "head": "facere",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:2:34"
             },
             {
               "word": "iter",
@@ -14502,21 +14900,24 @@ BOOKS.push(...[
               "lemma": "alius",
               "role": "det",
               "head": "iter",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "2:2:43"
             },
             {
               "word": "iter",
               "lemma": "iter",
               "role": "nsubj",
               "head": "haberent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:2:44"
             },
             {
               "word": "haberent",
               "lemma": "habeo",
               "role": "advcl",
               "head": "dicerent",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:2:44"
             },
             {
               "word": "nullum",
@@ -14551,14 +14952,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "voluntate",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:3:4"
             },
             {
               "word": "voluntate",
               "lemma": "voluntas",
               "role": "obl",
               "head": "liceat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:3:4"
             },
             {
               "word": "id",
@@ -14621,14 +15024,16 @@ BOOKS.push(...[
               "lemma": "memoria",
               "role": "nsubj",
               "head": "tenebat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:4:5"
             },
             {
               "word": "tenebat",
               "lemma": "teneo",
               "role": "conj",
               "head": "Caesar",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:4:5"
             },
             {
               "word": "L",
@@ -14670,14 +15075,16 @@ BOOKS.push(...[
               "lemma": "exercitus",
               "role": "obj",
               "head": "occisum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "2:5:4"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "exercitumque",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "2:5:4"
             },
             {
               "word": "ab",
@@ -14775,21 +15182,24 @@ BOOKS.push(...[
               "lemma": "homo",
               "role": "nsubj",
               "head": "existimabat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "2:6:18"
             },
             {
               "word": "inimico",
               "lemma": "inimicus",
               "role": "amod",
               "head": "animo",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:6:4"
             },
             {
               "word": "animo",
               "lemma": "animus",
               "role": "obl",
               "head": "existimabat",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:6:4"
             },
             {
               "word": ",",
@@ -14803,14 +15213,16 @@ BOOKS.push(...[
               "lemma": "do",
               "role": "advcl:abs",
               "head": "existimabat",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "2:6:6"
             },
             {
               "word": "facultate",
               "lemma": "facultas",
               "role": "nsubj:pass",
               "head": "data",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:6:6"
             },
             {
               "word": "per",
@@ -14824,14 +15236,16 @@ BOOKS.push(...[
               "lemma": "provincia",
               "role": "obl",
               "head": "data",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "2:6:9"
             },
             {
               "word": "itineris",
               "lemma": "iter",
               "role": "nmod",
               "head": "provinciam",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "2:6:9"
             },
             {
               "word": "faciundi",
@@ -14887,7 +15301,8 @@ BOOKS.push(...[
               "lemma": "existimo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:6:18"
             },
             {
               "word": ".",
@@ -14922,7 +15337,8 @@ BOOKS.push(...[
               "lemma": "spatium",
               "role": "nsubj",
               "head": "posset",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "2:7:6"
             },
             {
               "word": "intercedere",
@@ -14936,7 +15352,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "advcl",
               "head": "respondit",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "2:7:6"
             },
             {
               "word": "dum",
@@ -14999,7 +15416,8 @@ BOOKS.push(...[
               "lemma": "dies",
               "role": "nsubj",
               "head": "sumpturum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "2:7:19"
             },
             {
               "word": "se",
@@ -15027,7 +15445,8 @@ BOOKS.push(...[
               "lemma": "sumo",
               "role": "ccomp",
               "head": "respondit",
-              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act",
+              "agreement": "2:7:19"
             },
             {
               "word": ":",
@@ -15076,14 +15495,16 @@ BOOKS.push(...[
               "lemma": "ideestio",
               "role": "obl",
               "head": "reverterentur",
-              "morph": "Abbr=Yes|Proper=Yes"
+              "morph": "Abbr=Yes|Proper=Yes",
+              "agreement": "2:8:6"
             },
             {
               "word": "April.",
               "lemma": "aprilis",
               "role": "nmod",
               "head": "Id.",
-              "morph": "Abbr=Yes|Proper=Yes"
+              "morph": "Abbr=Yes|Proper=Yes",
+              "agreement": "2:8:6"
             },
             {
               "word": "reverterentur",
@@ -15124,21 +15545,24 @@ BOOKS.push(...[
               "lemma": "posterus",
               "role": "amod",
               "head": "die",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:2"
             },
             {
               "word": "die",
               "lemma": "dies",
               "role": "obl",
               "head": "movent",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:0:2"
             },
             {
               "word": "castra",
               "lemma": "castra",
               "role": "nsubj",
               "head": "movent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:7"
             },
             {
               "word": "ex",
@@ -15166,7 +15590,8 @@ BOOKS.push(...[
               "lemma": "moveo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:7"
             },
             {
               "word": ".",
@@ -15187,28 +15612,32 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:2"
             },
             {
               "word": "Caesar",
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "facit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing|Variant=Greek"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing|Variant=Greek",
+              "agreement": "0:1:2"
             },
             {
               "word": "equitatumque",
               "lemma": "equitas",
               "role": "obl",
               "head": "facit",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:1:4"
             },
             {
               "word": "omnem",
               "lemma": "omnis",
               "role": "det",
               "head": "equitatumque",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:1:4"
             },
             {
               "word": ",",
@@ -15229,7 +15658,8 @@ BOOKS.push(...[
               "lemma": "numerus",
               "role": "obl",
               "head": "facit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:8"
             },
             {
               "word": "quattuor",
@@ -15243,7 +15673,8 @@ BOOKS.push(...[
               "lemma": "milius",
               "role": "amod",
               "head": "numerum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:8"
             },
             {
               "word": ",",
@@ -15271,14 +15702,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "provincia",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:1:15"
             },
             {
               "word": "provincia",
               "lemma": "provincia",
               "role": "obl",
               "head": "habebat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:1:15"
             },
             {
               "word": "et",
@@ -15306,14 +15739,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "sociis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:1:20"
             },
             {
               "word": "sociis",
               "lemma": "socia",
               "role": "conj",
               "head": "provincia",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:20"
             },
             {
               "word": "coactum",
@@ -15355,14 +15790,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "videant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:1:27"
             },
             {
               "word": "videant",
               "lemma": "video",
               "role": "acl:relcl",
               "head": "praemittit",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:27"
             },
             {
               "word": "quas",
@@ -15383,14 +15820,16 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "obl",
               "head": "faciant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:1:30"
             },
             {
               "word": "hostes",
               "lemma": "hoss",
               "role": "nmod",
               "head": "partes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:1:30"
             },
             {
               "word": "iter",
@@ -15418,28 +15857,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "committunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:2:12"
             },
             {
               "word": "cupidius",
               "lemma": "cupidus",
               "role": "amod",
               "head": "agmen",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:4"
             },
             {
               "word": "novissimum",
               "lemma": "novus",
               "role": "amod",
               "head": "agmen",
-              "morph": "Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:4"
             },
             {
               "word": "agmen",
               "lemma": "agmen",
               "role": "obj",
               "head": "insecuti",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:4"
             },
             {
               "word": "insecuti",
@@ -15453,14 +15896,16 @@ BOOKS.push(...[
               "lemma": "alienus",
               "role": "amod",
               "head": "loco",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:7"
             },
             {
               "word": "loco",
               "lemma": "locus",
               "role": "obl",
               "head": "committunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:7"
             },
             {
               "word": "cum",
@@ -15495,7 +15940,8 @@ BOOKS.push(...[
               "lemma": "committo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:12"
             },
             {
               "word": ";",
@@ -15516,7 +15962,8 @@ BOOKS.push(...[
               "lemma": "paucus",
               "role": "nsubj",
               "head": "cadunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "0:3:5"
             },
             {
               "word": "de",
@@ -15537,7 +15984,8 @@ BOOKS.push(...[
               "lemma": "cado",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:5"
             },
             {
               "word": ".",
@@ -15551,28 +15999,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "proelio",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:4:2"
             },
             {
               "word": "proelio",
               "lemma": "proelium",
               "role": "obl",
               "head": "sublati",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:2"
             },
             {
               "word": "sublati",
               "lemma": "tollo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:4:3"
             },
             {
               "word": "Helvetii",
               "lemma": "helvetium",
               "role": "nsubj:pass",
               "head": "sublati",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:3"
             },
             {
               "word": ",",
@@ -15607,21 +16059,24 @@ BOOKS.push(...[
               "lemma": "tantus",
               "role": "det",
               "head": "multitudinem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|NumType=Card|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|NumType=Card|Number=Sing|PronType=Ind",
+              "agreement": "0:4:10"
             },
             {
               "word": "multitudinem",
               "lemma": "multitudo",
               "role": "obj",
               "head": "propulerant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:4:10"
             },
             {
               "word": "equitum",
               "lemma": "equitus",
               "role": "nmod",
               "head": "multitudinem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:10"
             },
             {
               "word": "propulerant",
@@ -15677,28 +16132,32 @@ BOOKS.push(...[
               "lemma": "novissimus",
               "role": "amod",
               "head": "agmine",
-              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:20"
             },
             {
               "word": "agmine",
               "lemma": "agmus",
               "role": "obl",
               "head": "lacessere",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:4:20"
             },
             {
               "word": "proelio",
               "lemma": "proelium",
               "role": "obl",
               "head": "lacessere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:21"
             },
             {
               "word": "nostros",
               "lemma": "noster",
               "role": "det",
               "head": "proelio",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:4:21"
             },
             {
               "word": "lacessere",
@@ -15726,14 +16185,16 @@ BOOKS.push(...[
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "continebat",
-              "morph": "Case=Nom|Gender=Masc|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|NameType=Giv|Number=Sing",
+              "agreement": "0:5:1"
             },
             {
               "word": "suos",
               "lemma": "suus",
               "role": "det",
               "head": "Caesar",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:5:1"
             },
             {
               "word": "a",
@@ -15754,7 +16215,8 @@ BOOKS.push(...[
               "lemma": "contineo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:5"
             },
             {
               "word": ",",
@@ -15859,7 +16321,8 @@ BOOKS.push(...[
               "lemma": "dies",
               "role": "nsubj",
               "head": "fecerunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:6:6"
             },
             {
               "word": "circiter",
@@ -15880,21 +16343,24 @@ BOOKS.push(...[
               "lemma": "iter",
               "role": "nsubj",
               "head": "uti",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:7"
             },
             {
               "word": "fecerunt",
               "lemma": "facio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:6:6"
             },
             {
               "word": "uti",
               "lemma": "utor",
               "role": "xcomp",
               "head": "fecerunt",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:6:7"
             },
             {
               "word": "inter",
@@ -15908,21 +16374,24 @@ BOOKS.push(...[
               "lemma": "novus",
               "role": "amod",
               "head": "agmen",
-              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:11"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "agmen",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:6:11"
             },
             {
               "word": "agmen",
               "lemma": "agmen",
               "role": "obl:arg",
               "head": "uti",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:11"
             },
             {
               "word": "et",
@@ -15936,14 +16405,16 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "primum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:6:14"
             },
             {
               "word": "primum",
               "lemma": "primus",
               "role": "conj",
               "head": "quinis",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "0:6:14"
             },
             {
               "word": "non",
@@ -15964,7 +16435,8 @@ BOOKS.push(...[
               "lemma": "quinus",
               "role": "amod",
               "head": "passuum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:21"
             },
             {
               "word": "aut",
@@ -15978,21 +16450,24 @@ BOOKS.push(...[
               "lemma": "senes",
               "role": "conj",
               "head": "quinis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:19"
             },
             {
               "word": "milibus",
               "lemma": "milis",
               "role": "amod",
               "head": "senis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:6:19"
             },
             {
               "word": "passuum",
               "lemma": "passus",
               "role": "obj",
               "head": "interesset",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:6:21"
             },
             {
               "word": "interesset",
@@ -16029,21 +16504,24 @@ BOOKS.push(...[
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "flagitare",
-              "morph": "Foreign=Yes|Gender=Masc|NameType=Giv|Number=Sing"
+              "morph": "Foreign=Yes|Gender=Masc|NameType=Giv|Number=Sing",
+              "agreement": "1:0:12"
             },
             {
               "word": "Haeduos",
               "lemma": "haeduus",
               "role": "obj",
               "head": "flagitare",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:4"
             },
             {
               "word": "frumentum",
               "lemma": "frumentum",
               "role": "amod",
               "head": "Haeduos",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:4"
             },
             {
               "word": ",",
@@ -16092,7 +16570,8 @@ BOOKS.push(...[
               "lemma": "flagito",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act",
+              "agreement": "1:0:12"
             },
             {
               "word": ".",
@@ -16141,7 +16620,8 @@ BOOKS.push(...[
               "lemma": "Gallia",
               "role": "nsubj:pass",
               "head": "posita",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:6"
             },
             {
               "word": "sub",
@@ -16155,7 +16635,8 @@ BOOKS.push(...[
               "lemma": "septentrio",
               "role": "nmod",
               "head": "Gallia",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:1:6"
             },
             {
               "word": ",",
@@ -16204,7 +16685,8 @@ BOOKS.push(...[
               "lemma": "pono",
               "role": "conj",
               "head": "frigora",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:1:15"
             },
             {
               "word": "est",
@@ -16246,7 +16728,8 @@ BOOKS.push(...[
               "lemma": "frumentum",
               "role": "nsubj",
               "head": "matura",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:24"
             },
             {
               "word": "in",
@@ -16267,7 +16750,8 @@ BOOKS.push(...[
               "lemma": "maturus",
               "role": "conj",
               "head": "frigora",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:24"
             },
             {
               "word": "non",
@@ -16309,7 +16793,8 @@ BOOKS.push(...[
               "lemma": "pabulus",
               "role": "nmod",
               "head": "copia",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:34"
             },
             {
               "word": "quidem",
@@ -16330,21 +16815,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "copia",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:34"
             },
             {
               "word": "copia",
               "lemma": "copia",
               "role": "nsubj",
               "head": "suppetebat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:35"
             },
             {
               "word": "suppetebat",
               "lemma": "suppeto",
               "role": "conj",
               "head": "matura",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:35"
             },
             {
               "word": ";",
@@ -16358,7 +16846,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "frumento",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:2:3"
             },
             {
               "word": "autem",
@@ -16372,7 +16861,8 @@ BOOKS.push(...[
               "lemma": "frumentum",
               "role": "obl",
               "head": "poterat",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:3"
             },
             {
               "word": "quod",
@@ -16470,14 +16960,16 @@ BOOKS.push(...[
               "lemma": "helvetium",
               "role": "nsubj",
               "head": "averterant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:18"
             },
             {
               "word": "averterant",
               "lemma": "averto",
               "role": "csubj",
               "head": "poterat",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:18"
             },
             {
               "word": ",",
@@ -16673,14 +17165,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "die",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:5:10"
             },
             {
               "word": "die",
               "lemma": "dies",
               "role": "obl",
               "head": "metiri",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:5:10"
             },
             {
               "word": "frumentum",
@@ -16722,21 +17216,24 @@ BOOKS.push(...[
               "lemma": "convoco",
               "role": "advcl:abs",
               "head": "intellexit",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:5:16"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "principibus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:5:18"
             },
             {
               "word": "principibus",
               "lemma": "principis",
               "role": "nsubj:pass",
               "head": "convocatis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:5:16"
             },
             {
               "word": ",",
@@ -16750,21 +17247,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "copiam",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:5:22"
             },
             {
               "word": "magnam",
               "lemma": "magnus",
               "role": "amod",
               "head": "copiam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:22"
             },
             {
               "word": "copiam",
               "lemma": "copia",
               "role": "obj",
               "head": "habebat",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:22"
             },
             {
               "word": "in",
@@ -16806,14 +17306,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "Diviciaco",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:5:29"
             },
             {
               "word": "Diviciaco",
               "lemma": "diviciacus",
               "role": "obl",
               "head": "accusat",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:29"
             },
             {
               "word": "et",
@@ -16841,28 +17343,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "praeerat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:5:36"
             },
             {
               "word": "summo",
               "lemma": "summus",
               "role": "amod",
               "head": "magistratui",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:35"
             },
             {
               "word": "magistratui",
               "lemma": "magistro",
               "role": "ccomp",
               "head": "praeerat",
-              "morph": "Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:5:35"
             },
             {
               "word": "praeerat",
               "lemma": "praeero",
               "role": "acl:relcl",
               "head": "Diviciaco",
-              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:36"
             },
             {
               "word": ",",
@@ -16890,14 +17396,16 @@ BOOKS.push(...[
               "lemma": "appello",
               "role": "acl:relcl",
               "head": "magistratui",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:40"
             },
             {
               "word": "Haedui",
               "lemma": "haedus",
               "role": "nsubj",
               "head": "appellant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:5:40"
             },
             {
               "word": ",",
@@ -16911,14 +17419,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj:pass",
               "head": "creatur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:5:44"
             },
             {
               "word": "creatur",
               "lemma": "creo",
               "role": "acl:relcl",
               "head": "Haedui",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:5:44"
             },
             {
               "word": "annuus",
@@ -16939,14 +17449,16 @@ BOOKS.push(...[
               "lemma": "vita",
               "role": "conj",
               "head": "annuus",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:47"
             },
             {
               "word": "necisque",
               "lemma": "necesquus",
               "role": "nmod",
               "head": "vitae",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:47"
             },
             {
               "word": "in",
@@ -16960,7 +17472,8 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "potestatem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:5:52"
             },
             {
               "word": "habet",
@@ -16974,7 +17487,8 @@ BOOKS.push(...[
               "lemma": "potestas",
               "role": "obj",
               "head": "habet",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:52"
             },
             {
               "word": ",",
@@ -17100,14 +17614,16 @@ BOOKS.push(...[
               "lemma": "necessario",
               "role": "amod",
               "head": "tempore",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:71"
             },
             {
               "word": "tempore",
               "lemma": "tempus",
               "role": "obl",
               "head": "sublevetur",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:71"
             },
             {
               "word": ",",
@@ -17128,14 +17644,16 @@ BOOKS.push(...[
               "lemma": "propinquus",
               "role": "amod",
               "head": "hostibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:5:75"
             },
             {
               "word": "hostibus",
               "lemma": "hostus",
               "role": "obl",
               "head": "sublevetur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:5:75"
             },
             {
               "word": "ab",
@@ -17191,7 +17709,8 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:85"
             },
             {
               "word": "ex",
@@ -17205,14 +17724,16 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "obl",
               "head": "susceperit[",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:5:85"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "parte",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:5:85"
             },
             {
               "word": "precibus",
@@ -17358,14 +17879,16 @@ BOOKS.push(...[
               "lemma": "oratio",
               "role": "obl",
               "head": "adductus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": "Caesaris",
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "oratione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": "adductus",
@@ -17442,14 +17965,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "auctoritas",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:1:6"
             },
             {
               "word": "auctoritas",
               "lemma": "auctoritas",
               "role": "nsubj",
               "head": "valeat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:10"
             },
             {
               "word": "apud",
@@ -17477,7 +18002,8 @@ BOOKS.push(...[
               "lemma": "valeo",
               "role": "acl:relcl",
               "head": "nullos",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:10"
             },
             {
               "word": ",",
@@ -17491,7 +18017,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "possint",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:1:15"
             },
             {
               "word": "privatim",
@@ -17512,7 +18039,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "acl:relcl",
               "head": "nullos",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:15"
             },
             {
               "word": "quam",
@@ -17547,14 +18075,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "multitudinem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:2:6"
             },
             {
               "word": "seditiosa",
               "lemma": "seditiosus",
               "role": "amod",
               "head": "oratione",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:2:5"
             },
             {
               "word": "atque",
@@ -17575,14 +18105,16 @@ BOOKS.push(...[
               "lemma": "oratio",
               "role": "obl",
               "head": "deterrere",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:5"
             },
             {
               "word": "multitudinem",
               "lemma": "multitudo",
               "role": "obj",
               "head": "deterrere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:6"
             },
             {
               "word": "deterrere",
@@ -17673,14 +18205,16 @@ BOOKS.push(...[
               "lemma": "principatus",
               "role": "obj",
               "head": "obtinere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:3:5"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "principatum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:3:5"
             },
             {
               "word": "obtinere",
@@ -17715,7 +18249,8 @@ BOOKS.push(...[
               "lemma": "gallum",
               "role": "nmod",
               "head": "imperia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:14"
             },
             {
               "word": "quam",
@@ -17729,14 +18264,16 @@ BOOKS.push(...[
               "lemma": "romanum",
               "role": "nmod",
               "head": "imperia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:14"
             },
             {
               "word": "imperia",
               "lemma": "imperium",
               "role": "obj",
               "head": "perferre",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:14"
             },
             {
               "word": "perferre",
@@ -17813,14 +18350,16 @@ BOOKS.push(...[
               "lemma": "helvetio",
               "role": "nsubj",
               "head": "superaverint",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:26"
             },
             {
               "word": "superaverint",
               "lemma": "superavio",
               "role": "advcl",
               "head": "erepturi",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:26"
             },
             {
               "word": "Romani",
@@ -17841,7 +18380,8 @@ BOOKS.push(...[
               "lemma": "unus",
               "role": "nsubj",
               "head": "erepturi",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:3:36"
             },
             {
               "word": "cum",
@@ -17855,14 +18395,16 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "Gallia",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:3:32"
             },
             {
               "word": "Gallia",
               "lemma": "Gallia",
               "role": "obl",
               "head": "erepturi",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:3:32"
             },
             {
               "word": "Haeduis",
@@ -17890,7 +18432,8 @@ BOOKS.push(...[
               "lemma": "ersepio",
               "role": "advcl",
               "head": "debeant",
-              "morph": "Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act",
+              "agreement": "0:3:36"
             },
             {
               "word": ".",
@@ -17918,21 +18461,24 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "consilia",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:4:4"
             },
             {
               "word": "consilia",
               "lemma": "consilium",
               "role": "nsubj:pass",
               "head": "enuntiari",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:10"
             },
             {
               "word": "quaeque",
               "lemma": "quisque",
               "role": "nsubj:pass",
               "head": "gerantur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind",
+              "agreement": "0:4:8"
             },
             {
               "word": "in",
@@ -17953,7 +18499,8 @@ BOOKS.push(...[
               "lemma": "gero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:4:8"
             },
             {
               "word": "hostibus",
@@ -17967,7 +18514,8 @@ BOOKS.push(...[
               "lemma": "enuntio",
               "role": "xcomp",
               "head": "gerantur",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:4:10"
             },
             {
               "word": ";",
@@ -17981,7 +18529,8 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "nsubj:pass",
               "head": "coerceri",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:5:4"
             },
             {
               "word": "a",
@@ -18002,7 +18551,8 @@ BOOKS.push(...[
               "lemma": "coerceo",
               "role": "xcomp",
               "head": "posse",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:5:4"
             },
             {
               "word": "non",
@@ -18058,14 +18608,16 @@ BOOKS.push(...[
               "lemma": "necessarius",
               "role": "amod",
               "head": "rem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:6"
             },
             {
               "word": "rem",
               "lemma": "res",
               "role": "obj",
               "head": "Caesari",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:6:6"
             },
             {
               "word": "coactus",
@@ -18170,14 +18722,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "causam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:6:22"
             },
             {
               "word": "causam",
               "lemma": "causa",
               "role": "obj",
               "head": "tacuisse",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:22"
             },
             {
               "word": "quam",
@@ -18221,21 +18775,24 @@ BOOKS.push(...[
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "sentiebat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Variant=Greek"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Variant=Greek",
+              "agreement": "1:0:11"
             },
             {
               "word": "hac",
               "lemma": "hic",
               "role": "det",
               "head": "oratione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:0:3"
             },
             {
               "word": "oratione",
               "lemma": "oratio",
               "role": "obl",
               "head": "sentiebat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:0:3"
             },
             {
               "word": "Lisci",
@@ -18291,7 +18848,8 @@ BOOKS.push(...[
               "lemma": "sentio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:11"
             },
             {
               "word": ",",
@@ -18326,14 +18884,16 @@ BOOKS.push(...[
               "lemma": "multus",
               "role": "nsubj",
               "head": "praesentibus",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Neut|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Neut|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "1:0:17"
             },
             {
               "word": "praesentibus",
               "lemma": "praesum",
               "role": "advcl:abs",
               "head": "nolebat",
-              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act",
+              "agreement": "1:0:17"
             },
             {
               "word": "eas",
@@ -18347,14 +18907,16 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "nsubj:pass",
               "head": "iactari",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:0:20"
             },
             {
               "word": "iactari",
               "lemma": "iacto",
               "role": "xcomp",
               "head": "nolebat",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:0:20"
             },
             {
               "word": "nolebat",
@@ -18438,14 +19000,16 @@ BOOKS.push(...[
               "lemma": "solus",
               "role": "det",
               "head": "ea",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "1:1:4"
             },
             {
               "word": "ea",
               "lemma": "is",
               "role": "obj",
               "head": "Quaerit",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:1:4"
             },
             {
               "word": "quae",
@@ -18522,14 +19086,16 @@ BOOKS.push(...[
               "lemma": "idem",
               "role": "det",
               "head": "secreto",
-              "morph": "Case=Abl|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:3:2"
             },
             {
               "word": "secreto",
               "lemma": "secretum",
               "role": "obl",
               "head": "quaerit",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:2"
             },
             {
               "word": "ab",
@@ -18571,14 +19137,16 @@ BOOKS.push(...[
               "lemma": "esse",
               "role": "obj",
               "head": "reperit",
-              "morph": ""
+              "morph": "",
+              "agreement": "1:4:2"
             },
             {
               "word": "vera",
               "lemma": "verus",
               "role": "amod",
               "head": "esse",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:4:2"
             },
             {
               "word": ":",
@@ -18592,14 +19160,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "det",
               "head": "esse",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:5:2"
             },
             {
               "word": "esse",
               "lemma": "esse",
               "role": "nsubj",
               "head": "magna",
-              "morph": ""
+              "morph": "",
+              "agreement": "1:5:8"
             },
             {
               "word": "Dumnorigem",
@@ -18641,7 +19211,8 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:8"
             },
             {
               "word": "apud",
@@ -18690,21 +19261,24 @@ BOOKS.push(...[
               "lemma": "cupidus",
               "role": "conj",
               "head": "magna",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:15"
             },
             {
               "word": "rerum",
               "lemma": "res",
               "role": "nmod",
               "head": "cupidum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:5:16"
             },
             {
               "word": "novarum",
               "lemma": "novas",
               "role": "amod",
               "head": "rerum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:5:16"
             },
             {
               "word": ".",
@@ -18725,56 +19299,64 @@ BOOKS.push(...[
               "lemma": "annus",
               "role": "det",
               "head": "portoria",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:3"
             },
             {
               "word": "portoria",
               "lemma": "portoria",
               "role": "advcl",
               "head": "Complures",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:3"
             },
             {
               "word": "reliquaque",
               "lemma": "reliquus",
               "role": "det",
               "head": "portoria",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:3"
             },
             {
               "word": "omnia",
               "lemma": "omnis",
               "role": "det",
               "head": "vectigalia",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:6:7"
             },
             {
               "word": "Haeduorum",
               "lemma": "haeduus",
               "role": "nmod",
               "head": "vectigalia",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:7"
             },
             {
               "word": "vectigalia",
               "lemma": "vectigalis",
               "role": "obj",
               "head": "habere",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:6:7"
             },
             {
               "word": "parvo",
               "lemma": "parvus",
               "role": "amod",
               "head": "pretio",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:9"
             },
             {
               "word": "pretio",
               "lemma": "pretium",
               "role": "obl",
               "head": "redempta",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:9"
             },
             {
               "word": "redempta",
@@ -18816,14 +19398,16 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "licente",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:6:16"
             },
             {
               "word": "licente",
               "lemma": "licet",
               "role": "advcl:abs",
               "head": "audeat",
-              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act",
+              "agreement": "1:6:16"
             },
             {
               "word": "contra",
@@ -18844,14 +19428,16 @@ BOOKS.push(...[
               "lemma": "audeo",
               "role": "advcl",
               "head": "habere",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:19"
             },
             {
               "word": "nemo",
               "lemma": "nemo",
               "role": "nsubj",
               "head": "audeat",
-              "morph": "Case=Nom|InflClass=IndEurX|Polarity=Neg|PronType=Ind"
+              "morph": "Case=Nom|InflClass=IndEurX|Polarity=Neg|PronType=Ind",
+              "agreement": "1:6:19"
             },
             {
               "word": ".",
@@ -18865,14 +19451,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:7:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl:arg",
               "head": "auxisse",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:7:2"
             },
             {
               "word": "et",
@@ -18886,21 +19474,24 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "rem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:7:5"
             },
             {
               "word": "rem",
               "lemma": "res",
               "role": "obj",
               "head": "auxisse",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:7:5"
             },
             {
               "word": "familiarem",
               "lemma": "familiaris",
               "role": "amod",
               "head": "rem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:7:5"
             },
             {
               "word": "auxisse",
@@ -18963,35 +19554,40 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "numerum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:2"
             },
             {
               "word": "numerum",
               "lemma": "numerus",
               "role": "obj",
               "head": "alere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:2"
             },
             {
               "word": "equitatus",
               "lemma": "equitatus",
               "role": "nmod",
               "head": "numerum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:2"
             },
             {
               "word": "suo",
               "lemma": "suus",
               "role": "det",
               "head": "sumptu",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:8:5"
             },
             {
               "word": "sumptu",
               "lemma": "sumptum",
               "role": "obl",
               "head": "alere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:8:5"
             },
             {
               "word": "semper",
@@ -19096,14 +19692,16 @@ BOOKS.push(...[
               "lemma": "finitimus",
               "role": "amod",
               "head": "civitates",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:8:21"
             },
             {
               "word": "civitates",
               "lemma": "civitas",
               "role": "obl",
               "head": "posse",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:8:21"
             },
             {
               "word": "largiter",
@@ -19138,21 +19736,24 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "potentiae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:8:27"
             },
             {
               "word": "potentiae",
               "lemma": "potentia",
               "role": "nmod",
               "head": "causa",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:28"
             },
             {
               "word": "causa",
               "lemma": "causa",
               "role": "nsubj",
               "head": "conlocasse",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:37"
             },
             {
               "word": "matrem",
@@ -19173,7 +19774,8 @@ BOOKS.push(...[
               "lemma": "bituris",
               "role": "obl",
               "head": "conlocasse",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:8:31"
             },
             {
               "word": "homini",
@@ -19194,7 +19796,8 @@ BOOKS.push(...[
               "lemma": "nobilis",
               "role": "amod",
               "head": "Biturigibus",
-              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:31"
             },
             {
               "word": "ac",
@@ -19215,7 +19818,8 @@ BOOKS.push(...[
               "lemma": "conloco",
               "role": "conj",
               "head": "posse",
-              "morph": "Aspect=Perf|InflClass=LatA|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|VerbForm=Inf|Voice=Act",
+              "agreement": "1:8:37"
             },
             {
               "word": ";",
@@ -19229,7 +19833,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "habere",
-              "morph": "Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:9:5"
             },
             {
               "word": "ex",
@@ -19257,7 +19862,8 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "1:9:5"
             },
             {
               "word": ",",
@@ -19306,14 +19912,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "nuptum",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:9:13"
             },
             {
               "word": "nuptum",
               "lemma": "nuptus",
               "role": "conj",
               "head": "sororem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:9:13"
             },
             {
               "word": "in",
@@ -19327,14 +19935,16 @@ BOOKS.push(...[
               "lemma": "alius",
               "role": "det",
               "head": "civitates",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Con"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Con",
+              "agreement": "1:9:16"
             },
             {
               "word": "civitates",
               "lemma": "civitas",
               "role": "obl:arg",
               "head": "conlocasse",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:9:16"
             },
             {
               "word": "conlocasse",
@@ -19390,14 +20000,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "adfinitatem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:10:7"
             },
             {
               "word": "adfinitatem",
               "lemma": "adfinitas",
               "role": "obj",
               "head": "Favere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:7"
             },
             {
               "word": ",",
@@ -19425,14 +20037,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "nomine",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:10:12"
             },
             {
               "word": "nomine",
               "lemma": "nomen",
               "role": "obl",
               "head": "odisse",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:12"
             },
             {
               "word": "Caesarem",
@@ -19474,28 +20088,32 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "adventu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:10:19"
             },
             {
               "word": "adventu",
               "lemma": "adventus",
               "role": "obl",
               "head": "restitutus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:10:19"
             },
             {
               "word": "potentia",
               "lemma": "potentia",
               "role": "nsubj:pass",
               "head": "restitutus",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:10:20"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "potentia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:10:20"
             },
             {
               "word": "deminuta",
@@ -19537,21 +20155,24 @@ BOOKS.push(...[
               "lemma": "antiquus",
               "role": "amod",
               "head": "locum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:10:28"
             },
             {
               "word": "locum",
               "lemma": "locus",
               "role": "obl:arg",
               "head": "restitutus",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:10:28"
             },
             {
               "word": "gratiae",
               "lemma": "gratia",
               "role": "nmod",
               "head": "locum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:10:28"
             },
             {
               "word": "atque",
@@ -19579,7 +20200,8 @@ BOOKS.push(...[
               "lemma": "restituo",
               "role": "advcl",
               "head": "odisse",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:10:33"
             },
             {
               "word": ".",
@@ -19600,14 +20222,16 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj",
               "head": "accidat",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:11:3"
             },
             {
               "word": "accidat",
               "lemma": "accido",
               "role": "advcl",
               "head": "venire",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:11:3"
             },
             {
               "word": "Romanis",
@@ -19656,14 +20280,16 @@ BOOKS.push(...[
               "lemma": "helvetio",
               "role": "obl",
               "head": "venire",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:11:10"
             },
             {
               "word": "regni",
               "lemma": "regnum",
               "role": "nmod",
               "head": "Helvetios",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:11:10"
             },
             {
               "word": "obtinendi",
@@ -19691,21 +20317,24 @@ BOOKS.push(...[
               "lemma": "imperium",
               "role": "obl:arg",
               "head": "desperare",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:1"
             },
             {
               "word": "populi",
               "lemma": "populus",
               "role": "nmod",
               "head": "imperio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:2"
             },
             {
               "word": "Romani",
               "lemma": "romanus",
               "role": "amod",
               "head": "populi",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:2"
             },
             {
               "word": "non",
@@ -19719,7 +20348,8 @@ BOOKS.push(...[
               "lemma": "modus",
               "role": "obl",
               "head": "desperare",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:5"
             },
             {
               "word": "de",
@@ -19733,7 +20363,8 @@ BOOKS.push(...[
               "lemma": "regnum",
               "role": "nmod",
               "head": "modo",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:5"
             },
             {
               "word": ",",
@@ -19782,14 +20413,16 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "advcl:cmp",
               "head": "ea",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:12:14"
             },
             {
               "word": "gratia",
               "lemma": "gratia",
               "role": "nsubj",
               "head": "habeat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:12:14"
             },
             {
               "word": "desperare",
@@ -19810,7 +20443,8 @@ BOOKS.push(...[
               "lemma": "reperio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:13:1"
             },
             {
               "word": "etiam",
@@ -19838,7 +20472,8 @@ BOOKS.push(...[
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "Reperiebat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Variant=Greek"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Variant=Greek",
+              "agreement": "1:13:1"
             },
             {
               "word": ",",
@@ -19859,14 +20494,16 @@ BOOKS.push(...[
               "lemma": "proelium",
               "role": "nsubj:pass",
               "head": "factum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:13:8"
             },
             {
               "word": "equestre",
               "lemma": "equestrus",
               "role": "amod",
               "head": "proelium",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:13:8"
             },
             {
               "word": "adversum",
@@ -19908,7 +20545,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "ccomp",
               "head": "Reperiebat",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:13:15"
             },
             {
               "word": ",",
@@ -19922,28 +20560,32 @@ BOOKS.push(...[
               "lemma": "initium",
               "role": "nsubj:pass",
               "head": "factum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:13:17"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "fugae",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:13:19"
             },
             {
               "word": "fugae",
               "lemma": "fuga",
               "role": "nmod",
               "head": "initium",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:13:17"
             },
             {
               "word": "factum",
               "lemma": "facio",
               "role": "conj",
               "head": "factum",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:13:20"
             },
             {
               "word": "a",
@@ -19971,14 +20613,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "equitibus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:13:25"
             },
             {
               "word": "equitibus",
               "lemma": "equitus",
               "role": "conj",
               "head": "Dumnorige",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:13:25"
             },
             {
               "word": "(",
@@ -20013,7 +20657,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj:pass",
               "head": "Caesari",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:13:32"
             },
             {
               "word": "auxilio",
@@ -20027,21 +20672,24 @@ BOOKS.push(...[
               "lemma": "caeso",
               "role": "xcomp",
               "head": "miserant",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:13:32"
             },
             {
               "word": "Haedui",
               "lemma": "haedus",
               "role": "nsubj",
               "head": "miserant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:13:34"
             },
             {
               "word": "miserant",
               "lemma": "mitto",
               "role": "acl:relcl",
               "head": "equitatui",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:13:34"
             },
             {
               "word": ",",
@@ -20055,14 +20703,16 @@ BOOKS.push(...[
               "lemma": "Dumnorix",
               "role": "nsubj",
               "head": "praeerat",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing",
+              "agreement": "1:13:37"
             },
             {
               "word": "praeerat",
               "lemma": "praeero",
               "role": "conj",
               "head": "factum",
-              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:13:37"
             },
             {
               "word": ")",
@@ -20083,21 +20733,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "fuga",
-              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:14:2"
             },
             {
               "word": "fuga",
               "lemma": "fuga",
               "role": "nsubj",
               "head": "reliquum",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:14:3"
             },
             {
               "word": "reliquum",
               "lemma": "reliquus",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:14:3"
             },
             {
               "word": "esse",
@@ -20111,14 +20764,16 @@ BOOKS.push(...[
               "lemma": "equitas",
               "role": "nmod",
               "head": "reliquum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:14:3"
             },
             {
               "word": "perterritum",
               "lemma": "perterre",
               "role": "nmod",
               "head": "reliquum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:14:3"
             },
             {
               "word": ".",
@@ -20152,21 +20807,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:0:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "nsubj:pass",
               "head": "cognitis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:0:3"
             },
             {
               "word": "cognitis",
               "lemma": "cognosco",
               "role": "advcl:abs",
               "head": "accederent",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:3"
             },
             {
               "word": ",",
@@ -20194,35 +20852,40 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "suspiciones",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:0:8"
             },
             {
               "word": "suspiciones",
               "lemma": "suspicio",
               "role": "obl:arg",
               "head": "accederent",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:8"
             },
             {
               "word": "certissimae",
               "lemma": "certus",
               "role": "amod",
               "head": "res",
-              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:0:10"
             },
             {
               "word": "res",
               "lemma": "res",
               "role": "nsubj",
               "head": "accederent",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:0:11"
             },
             {
               "word": "accederent",
               "lemma": "accedo",
               "role": "advcl",
               "head": "arbitrabatur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:11"
             },
             {
               "word": ",",
@@ -20250,14 +20913,16 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "obl",
               "head": "traduxisset",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:0:15"
             },
             {
               "word": "Sequanorum",
               "lemma": "sequanus",
               "role": "nmod",
               "head": "fines",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:15"
             },
             {
               "word": "Helvetios",
@@ -20306,14 +20971,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj:pass",
               "head": "dandos",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:0:24"
             },
             {
               "word": "dandos",
               "lemma": "do",
               "role": "obl",
               "head": "curasset",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:24"
             },
             {
               "word": "curasset",
@@ -20341,14 +21008,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "obj",
               "head": "fecisset",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:0:28"
             },
             {
               "word": "omnia",
               "lemma": "omnis",
               "role": "det",
               "head": "ea",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:0:28"
             },
             {
               "word": "non",
@@ -20369,14 +21038,16 @@ BOOKS.push(...[
               "lemma": "iniussus",
               "role": "obl",
               "head": "fecisset",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:32"
             },
             {
               "word": "suo",
               "lemma": "suus",
               "role": "det",
               "head": "iniussu",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:0:32"
             },
             {
               "word": "et",
@@ -20453,14 +21124,16 @@ BOOKS.push(...[
               "lemma": "magistro",
               "role": "obl",
               "head": "accusaretur",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:44"
             },
             {
               "word": "Haeduorum",
               "lemma": "haeduus",
               "role": "nmod",
               "head": "magistratu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:44"
             },
             {
               "word": "accusaretur",
@@ -20537,14 +21210,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "animadverteret",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:0:57"
             },
             {
               "word": "animadverteret",
               "lemma": "animadvo",
               "role": "advcl",
               "head": "arbitrabatur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:57"
             },
             {
               "word": "aut",
@@ -20593,35 +21268,40 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:1:3"
             },
             {
               "word": "omnibus",
               "lemma": "omnis",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:1:3"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl:arg",
               "head": "repugnabat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:1:3"
             },
             {
               "word": "unum",
               "lemma": "unus",
               "role": "nsubj",
               "head": "repugnabat",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:1:5"
             },
             {
               "word": "repugnabat",
               "lemma": "repugno",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:5"
             },
             {
               "word": ",",
@@ -20642,21 +21322,24 @@ BOOKS.push(...[
               "lemma": "diviciacus",
               "role": "nsubj",
               "head": "cognoverat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:8"
             },
             {
               "word": "fratris",
               "lemma": "frater",
               "role": "nmod",
               "head": "Diviciaci",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:8"
             },
             {
               "word": "summum",
               "lemma": "summus",
               "role": "amod",
               "head": "Diviciaci",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:8"
             },
             {
               "word": "in",
@@ -20670,21 +21353,24 @@ BOOKS.push(...[
               "lemma": "populus",
               "role": "nmod",
               "head": "studium",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:12"
             },
             {
               "word": "Romanum",
               "lemma": "romanus",
               "role": "amod",
               "head": "populum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:12"
             },
             {
               "word": "studium",
               "lemma": "studium",
               "role": "conj",
               "head": "Diviciaci",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": ",",
@@ -20698,7 +21384,8 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "studium",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": "in",
@@ -20733,14 +21420,16 @@ BOOKS.push(...[
               "lemma": "egregius",
               "role": "amod",
               "head": "fidem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:1:22"
             },
             {
               "word": "fidem",
               "lemma": "fides",
               "role": "conj",
               "head": "voluntatem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:1:22"
             },
             {
               "word": ",",
@@ -20775,7 +21464,8 @@ BOOKS.push(...[
               "lemma": "cognovo",
               "role": "advcl",
               "head": "repugnabat",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:27"
             },
             {
               "word": ";",
@@ -20803,21 +21493,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "supplicio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:2:4"
             },
             {
               "word": "supplicio",
               "lemma": "supplicium",
               "role": "obl",
               "head": "verebatur",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:4"
             },
             {
               "word": "Diviciaci",
               "lemma": "diviciacus",
               "role": "nsubj",
               "head": "verebatur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:8"
             },
             {
               "word": "animum",
@@ -20838,7 +21531,8 @@ BOOKS.push(...[
               "lemma": "vero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:2:8"
             },
             {
               "word": ".",
@@ -20943,21 +21637,24 @@ BOOKS.push(...[
               "lemma": "cotidianus",
               "role": "amod",
               "head": "interpretibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:15"
             },
             {
               "word": "interpretibus",
               "lemma": "interpres",
               "role": "nsubj:pass",
               "head": "remotis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur",
+              "agreement": "0:3:16"
             },
             {
               "word": "remotis",
               "lemma": "remoueo",
               "role": "advcl:abs",
               "head": "conloquitur",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:3:16"
             },
             {
               "word": ",",
@@ -20978,14 +21675,16 @@ BOOKS.push(...[
               "lemma": "c.us",
               "role": "obl",
               "head": "remotis",
-              "morph": "Abbr=Yes|Proper=Yes"
+              "morph": "Abbr=Yes|Proper=Yes",
+              "agreement": "0:3:19"
             },
             {
               "word": "Valerium",
               "lemma": "valer",
               "role": "nmod",
               "head": "C.",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:19"
             },
             {
               "word": "Troucillum",
@@ -21006,21 +21705,24 @@ BOOKS.push(...[
               "lemma": "princeps",
               "role": "conj",
               "head": "Troucillum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:23"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "nmod",
               "head": "principem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing",
+              "agreement": "0:3:24"
             },
             {
               "word": "provinciae",
               "lemma": "provincia",
               "role": "nmod",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:3:24"
             },
             {
               "word": ",",
@@ -21034,14 +21736,16 @@ BOOKS.push(...[
               "lemma": "familiaris",
               "role": "obj",
               "head": "conloquitur",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:3:27"
             },
             {
               "word": "suum",
               "lemma": "suus",
               "role": "det",
               "head": "familiarem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:3:27"
             },
             {
               "word": ",",
@@ -21062,28 +21766,32 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "fidem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:3:34"
             },
             {
               "word": "omnium",
               "lemma": "omnis",
               "role": "det",
               "head": "rerum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:3:33"
             },
             {
               "word": "rerum",
               "lemma": "res",
               "role": "nmod",
               "head": "fidem",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:3:34"
             },
             {
               "word": "fidem",
               "lemma": "fides",
               "role": "obj",
               "head": "habebat",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:3:34"
             },
             {
               "word": "habebat",
@@ -21146,21 +21854,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj:pass",
               "head": "dicta",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:4:14"
             },
             {
               "word": "ipso",
               "lemma": "ipse",
               "role": "nsubj",
               "head": "praesente",
-              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:4:5"
             },
             {
               "word": "praesente",
               "lemma": "praesum",
               "role": "advcl:abs",
               "head": "dicta",
-              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act"
+              "morph": "Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act",
+              "agreement": "0:4:5"
             },
             {
               "word": "in",
@@ -21174,7 +21885,8 @@ BOOKS.push(...[
               "lemma": "concilium",
               "role": "obl",
               "head": "praesente",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:7"
             },
             {
               "word": "[",
@@ -21188,7 +21900,8 @@ BOOKS.push(...[
               "lemma": "gallum",
               "role": "nmod",
               "head": "concilio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:7"
             },
             {
               "word": "]",
@@ -21223,7 +21936,8 @@ BOOKS.push(...[
               "lemma": "dico",
               "role": "ccomp",
               "head": "commonefacit",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:4:14"
             },
             {
               "word": ",",
@@ -21265,7 +21979,8 @@ BOOKS.push(...[
               "lemma": "quisque",
               "role": "nsubj",
               "head": "dixerit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "0:4:25"
             },
             {
               "word": "de",
@@ -21300,7 +22015,8 @@ BOOKS.push(...[
               "lemma": "dico",
               "role": "ccomp:relcl",
               "head": "ostendit",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:25"
             },
             {
               "word": ".",
@@ -21349,21 +22065,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "offensione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:5:7"
             },
             {
               "word": "offensione",
               "lemma": "offensio",
               "role": "obl",
               "head": "statuat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:7"
             },
             {
               "word": "animi",
               "lemma": "animus",
               "role": "nmod",
               "head": "offensione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:7"
             },
             {
               "word": "vel",
@@ -21377,7 +22096,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "statuat",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:5:15"
             },
             {
               "word": "de",
@@ -21412,7 +22132,8 @@ BOOKS.push(...[
               "lemma": "statuo",
               "role": "advcl",
               "head": "Petit",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:15"
             },
             {
               "word": "vel",
@@ -21456,7 +22177,8 @@ BOOKS.push(...[
               "lemma": "Diviciacus",
               "role": "nsubj",
               "head": "coepit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:8"
             },
             {
               "word": "multis",
@@ -21505,7 +22227,8 @@ BOOKS.push(...[
               "lemma": "coepi",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:8"
             },
             {
               "word": "ne",
@@ -21575,7 +22298,8 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "vera",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:1:5"
             },
             {
               "word": "esse",
@@ -21589,7 +22313,8 @@ BOOKS.push(...[
               "lemma": "verus",
               "role": "ccomp",
               "head": "scire",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:5"
             },
             {
               "word": ",",
@@ -21645,14 +22370,16 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "obj",
               "head": "capere",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:1:13"
             },
             {
               "word": "doloris",
               "lemma": "dolor",
               "role": "nmod",
               "head": "se",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:13"
             },
             {
               "word": "capere",
@@ -21701,28 +22428,32 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "det",
               "head": "gratia",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:1:22"
             },
             {
               "word": "gratia",
               "lemma": "gratia",
               "role": "nsubj",
               "head": "domi",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:24"
             },
             {
               "word": "plurimum",
               "lemma": "multus",
               "role": "det",
               "head": "domi",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind",
+              "agreement": "1:1:24"
             },
             {
               "word": "domi",
               "lemma": "domus",
               "role": "advcl",
               "head": "posset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:24"
             },
             {
               "word": "atque",
@@ -21743,14 +22474,16 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "Gallia",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:28"
             },
             {
               "word": "Gallia",
               "lemma": "Gallia",
               "role": "conj",
               "head": "domi",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:1:28"
             },
             {
               "word": ",",
@@ -21764,14 +22497,16 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "posset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:1:30"
             },
             {
               "word": "minimum",
               "lemma": "paruus",
               "role": "amod",
               "head": "ille",
-              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:30"
             },
             {
               "word": "propter",
@@ -21792,7 +22527,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "advcl",
               "head": "crevisset",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:34"
             },
             {
               "word": ",",
@@ -21834,14 +22570,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "opibus",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:2:2"
             },
             {
               "word": "opibus",
               "lemma": "opus",
               "role": "obl",
               "head": "uteretur",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:2:2"
             },
             {
               "word": "ac",
@@ -21883,14 +22621,16 @@ BOOKS.push(...[
               "lemma": "minuo",
               "role": "obl",
               "head": "uteretur",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:2:8"
             },
             {
               "word": "gratiam",
               "lemma": "gratia",
               "role": "nsubj:pass",
               "head": "minuendam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:2:8"
             },
             {
               "word": ",",
@@ -21925,14 +22665,16 @@ BOOKS.push(...[
               "lemma": "pernicies",
               "role": "obl:arg",
               "head": "uteretur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:2:14"
             },
             {
               "word": "suam",
               "lemma": "suus",
               "role": "det",
               "head": "perniciem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:2:14"
             },
             {
               "word": "uteretur",
@@ -21953,7 +22695,8 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "nsubj:pass",
               "head": "commoveri",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:3:9"
             },
             {
               "word": "tamen",
@@ -21974,14 +22717,16 @@ BOOKS.push(...[
               "lemma": "amor",
               "role": "obl",
               "head": "commoveri",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:4"
             },
             {
               "word": "fraterno",
               "lemma": "fraternus",
               "role": "amod",
               "head": "amore",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:4"
             },
             {
               "word": "et",
@@ -21995,21 +22740,24 @@ BOOKS.push(...[
               "lemma": "existimatio",
               "role": "conj",
               "head": "fraterno",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:7"
             },
             {
               "word": "vulgi",
               "lemma": "vulgus",
               "role": "nmod",
               "head": "existimatione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:7"
             },
             {
               "word": "commoveri",
               "lemma": "commoveo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:3:9"
             },
             {
               "word": ".",
@@ -22037,7 +22785,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj",
               "head": "accidisset",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:4:8"
             },
             {
               "word": "ei",
@@ -22072,7 +22821,8 @@ BOOKS.push(...[
               "lemma": "accido",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:8"
             },
             {
               "word": ",",
@@ -22093,7 +22843,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "teneret",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:4:17"
             },
             {
               "word": "eum",
@@ -22107,14 +22858,16 @@ BOOKS.push(...[
               "lemma": "locus",
               "role": "xcomp",
               "head": "teneret",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:13"
             },
             {
               "word": "amicitiae",
               "lemma": "amicitia",
               "role": "nmod",
               "head": "locum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:13"
             },
             {
               "word": "apud",
@@ -22135,7 +22888,8 @@ BOOKS.push(...[
               "lemma": "teneo",
               "role": "advcl",
               "head": "accidisset",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:17"
             },
             {
               "word": ",",
@@ -22170,14 +22924,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "voluntate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:4:23"
             },
             {
               "word": "voluntate",
               "lemma": "voluntas",
               "role": "obl",
               "head": "factum",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:23"
             },
             {
               "word": "factum",
@@ -22212,14 +22968,16 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "obl",
               "head": "uti",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": "futurum",
               "lemma": "futurus",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": "uti",
@@ -22233,21 +22991,24 @@ BOOKS.push(...[
               "lemma": "totus",
               "role": "det",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "1:5:7"
             },
             {
               "word": "Galliae",
               "lemma": "gallia",
               "role": "obl:arg",
               "head": "uti",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:7"
             },
             {
               "word": "animi",
               "lemma": "animus",
               "role": "nmod",
               "head": "Galliae",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:7"
             },
             {
               "word": "a",
@@ -22282,7 +23043,8 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "nsubj",
               "head": "peteret",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:6:8"
             },
             {
               "word": "cum",
@@ -22296,14 +23058,16 @@ BOOKS.push(...[
               "lemma": "multus",
               "role": "det",
               "head": "verbis",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "1:6:4"
             },
             {
               "word": "verbis",
               "lemma": "verbum",
               "role": "obl",
               "head": "flens",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:4"
             },
             {
               "word": "flens",
@@ -22331,7 +23095,8 @@ BOOKS.push(...[
               "lemma": "peto",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:8"
             },
             {
               "word": ",",
@@ -22345,14 +23110,16 @@ BOOKS.push(...[
               "lemma": "Caesar",
               "role": "nsubj",
               "head": "prendit",
-              "morph": "Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Variant=Greek"
+              "morph": "Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Variant=Greek",
+              "agreement": "1:6:10"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "Caesar",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:6:10"
             },
             {
               "word": "dextram",
@@ -22366,7 +23133,8 @@ BOOKS.push(...[
               "lemma": "prendo",
               "role": "conj",
               "head": "peteret",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:13"
             },
             {
               "word": ";",
@@ -22422,14 +23190,16 @@ BOOKS.push(...[
               "lemma": "tantus",
               "role": "ccomp",
               "head": "ostendit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:1"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "tanti",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:8:1"
             },
             {
               "word": "apud",
@@ -22450,7 +23220,8 @@ BOOKS.push(...[
               "lemma": "gratia",
               "role": "nsubj",
               "head": "uti",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:8"
             },
             {
               "word": "esse",
@@ -22471,7 +23242,8 @@ BOOKS.push(...[
               "lemma": "utor",
               "role": "ccomp",
               "head": "ostendit",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:8:8"
             },
             {
               "word": "et",
@@ -22485,21 +23257,24 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "nmod",
               "head": "iniuriam",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:8:10"
             },
             {
               "word": "publicae",
               "lemma": "publicus",
               "role": "amod",
               "head": "rei",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:10"
             },
             {
               "word": "iniuriam",
               "lemma": "iniurius",
               "role": "obj",
               "head": "condonet",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:12"
             },
             {
               "word": "et",
@@ -22513,28 +23288,32 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "dolorem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:8:15"
             },
             {
               "word": "dolorem",
               "lemma": "dolor",
               "role": "conj",
               "head": "iniuriam",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:15"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "voluntati",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:8:17"
             },
             {
               "word": "voluntati",
               "lemma": "voluntas",
               "role": "obl:arg",
               "head": "condonet",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:17"
             },
             {
               "word": "ac",
@@ -22674,14 +23453,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "intellegat",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:11:3"
             },
             {
               "word": "intellegat",
               "lemma": "intellego",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:11:3"
             },
             {
               "word": ",",
@@ -22695,28 +23476,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "proponit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:11:8"
             },
             {
               "word": "civitas",
               "lemma": "civitas",
               "role": "nsubj",
               "head": "queratur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:11:7"
             },
             {
               "word": "queratur",
               "lemma": "quero",
               "role": "ccomp",
               "head": "proponit",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:11:7"
             },
             {
               "word": "proponit",
               "lemma": "propono",
               "role": "conj",
               "head": "intellegat",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:11:8"
             },
             {
               "word": ";",
@@ -22751,28 +23536,32 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "tempus",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:12:5"
             },
             {
               "word": "tempus",
               "lemma": "tempus",
               "role": "obl",
               "head": "vitet",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:12:5"
             },
             {
               "word": "omnes",
               "lemma": "omnis",
               "role": "det",
               "head": "suspiciones",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:12:7"
             },
             {
               "word": "suspiciones",
               "lemma": "suspicio",
               "role": "obj",
               "head": "vitet",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:12:7"
             },
             {
               "word": "vitet",
@@ -22807,14 +23596,16 @@ BOOKS.push(...[
               "lemma": "diviciacus",
               "role": "obl:arg",
               "head": "condonare",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:13:3"
             },
             {
               "word": "fratri",
               "lemma": "frater",
               "role": "nmod",
               "head": "Diviciaco",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:13:3"
             },
             {
               "word": "condonare",
@@ -22842,14 +23633,16 @@ BOOKS.push(...[
               "lemma": "dumnorigus",
               "role": "nmod",
               "head": "custodes",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:14:2"
             },
             {
               "word": "custodes",
               "lemma": "custos",
               "role": "obj",
               "head": "ponit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:14:2"
             },
             {
               "word": "ponit",
@@ -22877,14 +23670,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "agat",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:14:7"
             },
             {
               "word": "agat",
               "lemma": "ago",
               "role": "csubj:relcl",
               "head": "possit",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:14:7"
             },
             {
               "word": ",",
@@ -22953,28 +23748,32 @@ BOOKS.push(...[
               "lemma": "subduco",
               "role": "advcl:abs",
               "head": "coactus",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:1"
             },
             {
               "word": "navibus",
               "lemma": "navus",
               "role": "nsubj:pass",
               "head": "Subductis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:2"
             },
             {
               "word": "concilioque",
               "lemma": "concilis",
               "role": "amod",
               "head": "navibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:2"
             },
             {
               "word": "Gallorum",
               "lemma": "gallum",
               "role": "nmod",
               "head": "navibus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:2"
             },
             {
               "word": "Samarobrivae",
@@ -23009,14 +23808,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "anno",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:0:10"
             },
             {
               "word": "anno",
               "lemma": "annus",
               "role": "obl",
               "head": "provenerat",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:10"
             },
             {
               "word": "frumentum",
@@ -23107,14 +23908,16 @@ BOOKS.push(...[
               "lemma": "superior",
               "role": "amod",
               "head": "annis",
-              "morph": "Case=Dat|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Dat|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:24"
             },
             {
               "word": "annis",
               "lemma": "annus",
               "role": "obl",
               "head": "collocare",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:24"
             },
             {
               "word": "exercitum",
@@ -23163,14 +23966,16 @@ BOOKS.push(...[
               "lemma": "multus",
               "role": "det",
               "head": "civitates",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "0:0:32"
             },
             {
               "word": "civitates",
               "lemma": "civitas",
               "role": "obl:arg",
               "head": "distribuere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:32"
             },
             {
               "word": "distribuere",
@@ -23198,14 +24003,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "obl",
               "head": "dedit",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:1:2"
             },
             {
               "word": "unam",
               "lemma": "unus",
               "role": "det",
               "head": "quibus",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:1:2"
             },
             {
               "word": "in",
@@ -23219,28 +24026,32 @@ BOOKS.push(...[
               "lemma": "morinus",
               "role": "nsubj:pass",
               "head": "ducendam",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:6"
             },
             {
               "word": "ducendam",
               "lemma": "duco",
               "role": "obl",
               "head": "dedit",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:1:6"
             },
             {
               "word": "Gaio",
               "lemma": "gaius",
               "role": "obl:arg",
               "head": "dedit",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:1:7"
             },
             {
               "word": "Fabio",
               "lemma": "fabius",
               "role": "nmod",
               "head": "Gaio",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:1:7"
             },
             {
               "word": "legato",
@@ -23268,7 +24079,8 @@ BOOKS.push(...[
               "lemma": "alter",
               "role": "obj",
               "head": "dedit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:1:12"
             },
             {
               "word": "in",
@@ -23282,14 +24094,16 @@ BOOKS.push(...[
               "lemma": "nervius",
               "role": "nmod",
               "head": "alteram",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:14"
             },
             {
               "word": "Quinto",
               "lemma": "quinto",
               "role": "amod",
               "head": "Nervios",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": "Ciceroni",
@@ -23324,21 +24138,24 @@ BOOKS.push(...[
               "lemma": "esubium",
               "role": "obl",
               "head": "tertiam",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:20"
             },
             {
               "word": "Lucio",
               "lemma": "lucium",
               "role": "nmod",
               "head": "Esubios",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:1:21"
             },
             {
               "word": "Roscio",
               "lemma": "roscius",
               "role": "nmod",
               "head": "Lucio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:21"
             },
             {
               "word": ";",
@@ -23380,14 +24197,16 @@ BOOKS.push(...[
               "lemma": "titus",
               "role": "nmod",
               "head": "Labieno",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:2:6"
             },
             {
               "word": "Labieno",
               "lemma": "labienus",
               "role": "obl",
               "head": "hiemare",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:6"
             },
             {
               "word": "in",
@@ -23401,14 +24220,16 @@ BOOKS.push(...[
               "lemma": "confinis",
               "role": "obl",
               "head": "hiemare",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:8"
             },
             {
               "word": "Treverorum",
               "lemma": "treverus",
               "role": "nmod",
               "head": "confinio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:2:8"
             },
             {
               "word": "hiemare",
@@ -23478,14 +24299,16 @@ BOOKS.push(...[
               "lemma": "marcus",
               "role": "obj",
               "head": "praefecit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:2"
             },
             {
               "word": "Crassum",
               "lemma": "crassus",
               "role": "amod",
               "head": "Marcum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:2"
             },
             {
               "word": "quaestorem",
@@ -23506,14 +24329,16 @@ BOOKS.push(...[
               "lemma": "lucium",
               "role": "conj",
               "head": "quaestorem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:6"
             },
             {
               "word": "Munatium",
               "lemma": "munatius",
               "role": "amod",
               "head": "Lucium",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:6"
             },
             {
               "word": "Plancum",
@@ -23534,21 +24359,24 @@ BOOKS.push(...[
               "lemma": "gaius",
               "role": "conj",
               "head": "Plancum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:10"
             },
             {
               "word": "Trebonium",
               "lemma": "Trebonium",
               "role": "amod",
               "head": "Gaium",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:11"
             },
             {
               "word": "legatos",
               "lemma": "legatus",
               "role": "amod",
               "head": "Trebonium",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:11"
             },
             {
               "word": "praefecit",
@@ -23604,21 +24432,24 @@ BOOKS.push(...[
               "lemma": "trans",
               "role": "nsubj",
               "head": "conscripserat",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:6"
             },
             {
               "word": "Padum",
               "lemma": "padus",
               "role": "amod",
               "head": "trans",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:6"
             },
             {
               "word": "conscripserat",
               "lemma": "conscribo",
               "role": "acl:relcl",
               "head": "Vnam",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:8"
             },
             {
               "word": ",",
@@ -23639,7 +24470,8 @@ BOOKS.push(...[
               "lemma": "cohor",
               "role": "conj",
               "head": "Vnam",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:5:11"
             },
             {
               "word": "V",
@@ -23660,7 +24492,8 @@ BOOKS.push(...[
               "lemma": "eburo",
               "role": "nmod",
               "head": "cohortes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:5:11"
             },
             {
               "word": ",",
@@ -23674,21 +24507,24 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:5:17"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj",
               "head": "maxima",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:5:18"
             },
             {
               "word": "maxima",
               "lemma": "magnus",
               "role": "acl:relcl",
               "head": "Eburones",
-              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:5:18"
             },
             {
               "word": "est",
@@ -23737,7 +24573,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "imperio",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:5:27"
             },
             {
               "word": "sub",
@@ -23751,14 +24588,16 @@ BOOKS.push(...[
               "lemma": "imperium",
               "role": "obl",
               "head": "misit",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:27"
             },
             {
               "word": "Ambiorigis",
               "lemma": "ambuorigus",
               "role": "nmod",
               "head": "imperio",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:27"
             },
             {
               "word": "et",
@@ -23821,14 +24660,16 @@ BOOKS.push(...[
               "lemma": "quintus",
               "role": "amod",
               "head": "Titurium",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "0:6:4"
             },
             {
               "word": "Titurium",
               "lemma": "titurius",
               "role": "nsubj",
               "head": "praeesse",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:11"
             },
             {
               "word": "Sabinum",
@@ -23863,21 +24704,24 @@ BOOKS.push(...[
               "lemma": "cotta",
               "role": "amod",
               "head": "legatos",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:10"
             },
             {
               "word": "legatos",
               "lemma": "legatus",
               "role": "obl:arg",
               "head": "praeesse",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:6:10"
             },
             {
               "word": "praeesse",
               "lemma": "praesum",
               "role": "xcomp",
               "head": "iussit",
-              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act",
+              "agreement": "0:6:11"
             },
             {
               "word": "iussit",
@@ -23905,28 +24749,32 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "modum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:7:3"
             },
             {
               "word": "modum",
               "lemma": "modus",
               "role": "obl",
               "head": "existimavit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:7:3"
             },
             {
               "word": "distributis",
               "lemma": "distribuo",
               "role": "advcl:abs",
               "head": "existimavit",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:7:4"
             },
             {
               "word": "legionibus",
               "lemma": "legio",
               "role": "nsubj:pass",
               "head": "distributis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:7:4"
             },
             {
               "word": "facillime",
@@ -23940,28 +24788,32 @@ BOOKS.push(...[
               "lemma": "inopia",
               "role": "obl:arg",
               "head": "mederi",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:7:7"
             },
             {
               "word": "frumentariae",
               "lemma": "frumentaris",
               "role": "amod",
               "head": "inopiae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:7:7"
             },
             {
               "word": "sese",
               "lemma": "sui",
               "role": "nsubj:pass",
               "head": "mederi",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "0:7:10"
             },
             {
               "word": "mederi",
               "lemma": "medeo",
               "role": "xcomp",
               "head": "existimavit",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:7:10"
             },
             {
               "word": "posse",
@@ -23996,7 +24848,8 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "legionum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:8:5"
             },
             {
               "word": "tamen",
@@ -24010,21 +24863,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "legionum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:8:5"
             },
             {
               "word": "legionum",
               "lemma": "legio",
               "role": "nmod",
               "head": "hiberna",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:8:6"
             },
             {
               "word": "hiberna",
               "lemma": "hiberna",
               "role": "nsubj:pass",
               "head": "continebantur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:24"
             },
             {
               "word": "praeter",
@@ -24066,7 +24922,8 @@ BOOKS.push(...[
               "lemma": "roscius",
               "role": "nsubj",
               "head": "dederat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:19"
             },
             {
               "word": "in",
@@ -24101,21 +24958,24 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "nsubj:pass",
               "head": "ducendam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:8:18"
             },
             {
               "word": "ducendam",
               "lemma": "duco",
               "role": "xcomp",
               "head": "dederat",
-              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:8:18"
             },
             {
               "word": "dederat",
               "lemma": "dedero",
               "role": "acl:relcl",
               "head": "eam",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:8:19"
             },
             {
               "word": ",",
@@ -24129,14 +24989,16 @@ BOOKS.push(...[
               "lemma": "milis",
               "role": "amod",
               "head": "passuum",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:8:22"
             },
             {
               "word": "passuum",
               "lemma": "passus",
               "role": "obl",
               "head": "continebantur",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:8:22"
             },
             {
               "word": "centum",
@@ -24150,7 +25012,8 @@ BOOKS.push(...[
               "lemma": "contineo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:8:24"
             },
             {
               "word": ".",
@@ -24164,7 +25027,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "constituit",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:9:14"
             },
             {
               "word": "interea",
@@ -24255,7 +25119,8 @@ BOOKS.push(...[
               "lemma": "constituo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:9:14"
             },
             {
               "word": ".",
@@ -24292,28 +25157,32 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "loco",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:5"
             },
             {
               "word": "loco",
               "lemma": "locus",
               "role": "obl",
               "head": "natus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:5"
             },
             {
               "word": "natus",
               "lemma": "nascor",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:0:6"
             },
             {
               "word": "Tasgetius",
               "lemma": "tasgetus",
               "role": "nsubj:pass",
               "head": "natus",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:6"
             },
             {
               "word": ",",
@@ -24327,14 +25196,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "maiores",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:0:10"
             },
             {
               "word": "maiores",
               "lemma": "magnus",
               "role": "nsubj",
               "head": "obtinuerant",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:15"
             },
             {
               "word": "in",
@@ -24348,14 +25219,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "civitate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:0:13"
             },
             {
               "word": "civitate",
               "lemma": "civitas",
               "role": "obl",
               "head": "obtinuerant",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:0:13"
             },
             {
               "word": "regnum",
@@ -24369,7 +25242,8 @@ BOOKS.push(...[
               "lemma": "obtineo",
               "role": "acl:relcl",
               "head": "Tasgetius",
-              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:15"
             },
             {
               "word": ".",
@@ -24383,14 +25257,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "Caesar",
-              "morph": "Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:1:2"
             },
             {
               "word": "Caesar",
               "lemma": "Caesar",
               "role": "root",
               "head": "",
-              "morph": "Foreign=Yes|Gender=Masc|NameType=Giv|Number=Sing"
+              "morph": "Foreign=Yes|Gender=Masc|NameType=Giv|Number=Sing",
+              "agreement": "1:1:2"
             },
             {
               "word": "pro",
@@ -24404,14 +25280,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "virtute",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:1:5"
             },
             {
               "word": "virtute",
               "lemma": "virtus",
               "role": "advcl",
               "head": "Caesar",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:5"
             },
             {
               "word": "atque",
@@ -24467,35 +25345,40 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "bellis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:1:14"
             },
             {
               "word": "bellis",
               "lemma": "bellus",
               "role": "obl",
               "head": "usus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:1:14"
             },
             {
               "word": "singulari",
               "lemma": "singularis",
               "role": "amod",
               "head": "bellis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:1:14"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "opera",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:1:17"
             },
             {
               "word": "opera",
               "lemma": "opus",
               "role": "nsubj",
               "head": "usus",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:19"
             },
             {
               "word": "fuerat",
@@ -24509,7 +25392,8 @@ BOOKS.push(...[
               "lemma": "usus",
               "role": "conj",
               "head": "benevolentia",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:1:19"
             },
             {
               "word": ",",
@@ -24523,14 +25407,16 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "nmod",
               "head": "locum",
-              "morph": "Case=Gen|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:1:22"
             },
             {
               "word": "locum",
               "lemma": "locus",
               "role": "obj",
               "head": "restituerat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:22"
             },
             {
               "word": "restituerat",
@@ -24551,7 +25437,8 @@ BOOKS.push(...[
               "lemma": "tertius",
               "role": "amod",
               "head": "annum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "1:2:4"
             },
             {
               "word": "iam",
@@ -24565,14 +25452,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "annum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:2:4"
             },
             {
               "word": "annum",
               "lemma": "annus",
               "role": "obj",
               "head": "regnantem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:4"
             },
             {
               "word": "regnantem",
@@ -24586,7 +25475,8 @@ BOOKS.push(...[
               "lemma": "inimicus",
               "role": "nsubj",
               "head": "interfecerunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:16"
             },
             {
               "word": ",",
@@ -24621,21 +25511,24 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "amod",
               "head": "auctoribus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:13"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "auctoribus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:2:13"
             },
             {
               "word": "auctoribus",
               "lemma": "auctor",
               "role": "obl",
               "head": "interfecerunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:2:13"
             },
             {
               "word": ",",
@@ -24656,7 +25549,8 @@ BOOKS.push(...[
               "lemma": "interfacio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:16"
             },
             {
               "word": ".",
@@ -24670,21 +25564,24 @@ BOOKS.push(...[
               "lemma": "defero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:3:1"
             },
             {
               "word": "ea",
               "lemma": "is",
               "role": "det",
               "head": "res",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:3:3"
             },
             {
               "word": "res",
               "lemma": "res",
               "role": "nsubj:pass",
               "head": "Defertur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:3:1"
             },
             {
               "word": "ad",
@@ -24712,7 +25609,8 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "iubet",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:4:25"
             },
             {
               "word": "veritus",
@@ -24775,28 +25673,32 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "nsubj",
               "head": "deficeret",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:13"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "impulsu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:4:12"
             },
             {
               "word": "impulsu",
               "lemma": "impulsus",
               "role": "obl",
               "head": "deficeret",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:4:12"
             },
             {
               "word": "deficeret",
               "lemma": "deficio",
               "role": "advcl",
               "head": "pertinebat",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:13"
             },
             {
               "word": ",",
@@ -24810,7 +25712,8 @@ BOOKS.push(...[
               "lemma": "lucium",
               "role": "nsubj:pass",
               "head": "proficisci",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:24"
             },
             {
               "word": "Plancum",
@@ -24873,14 +25776,16 @@ BOOKS.push(...[
               "lemma": "proficiscor",
               "role": "ccomp",
               "head": "iubet",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:4:24"
             },
             {
               "word": "iubet",
               "lemma": "iubeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:25"
             },
             {
               "word": "ibique",
@@ -24901,14 +25806,16 @@ BOOKS.push(...[
               "lemma": "quiqumque",
               "role": "nmod",
               "head": "opera",
-              "morph": "Case=Gen|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:4:29"
             },
             {
               "word": "opera",
               "lemma": "opus",
               "role": "obj",
               "head": "hiemare",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:4:29"
             },
             {
               "word": "cognoverat",
@@ -24999,21 +25906,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "legatis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:5:4"
             },
             {
               "word": "legatis",
               "lemma": "legatum",
               "role": "obl:agent",
               "head": "factus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:5:4"
             },
             {
               "word": "quaestoreque",
               "lemma": "quaestor",
               "role": "nmod",
               "head": "legatis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:4"
             },
             {
               "word": ",",
@@ -25097,14 +26007,16 @@ BOOKS.push(...[
               "lemma": "locumqais",
               "role": "amod",
               "head": "hibernis",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:18"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "obl",
               "head": "munitum",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:5:18"
             },
             {
               "word": "esse",
@@ -25222,21 +26134,24 @@ BOOKS.push(...[
               "lemma": "initium",
               "role": "nsubj:pass",
               "head": "ortum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:11"
             },
             {
               "word": "repentini",
               "lemma": "repentinus",
               "role": "amod",
               "head": "tumultus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:13"
             },
             {
               "word": "tumultus",
               "lemma": "tumultus",
               "role": "nmod",
               "head": "initium",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:11"
             },
             {
               "word": "ac",
@@ -25257,7 +26172,8 @@ BOOKS.push(...[
               "lemma": "ortus",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:16"
             },
             {
               "word": "est",
@@ -25306,7 +26222,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "comportavissent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:1:15"
             },
             {
               "word": ",",
@@ -25334,21 +26251,24 @@ BOOKS.push(...[
               "lemma": "finis",
               "role": "obl",
               "head": "Cottaeque",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:1:5"
             },
             {
               "word": "regni",
               "lemma": "regnum",
               "role": "nmod",
               "head": "fines",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:6"
             },
             {
               "word": "sui",
               "lemma": "suus",
               "role": "det",
               "head": "regni",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:6"
             },
             {
               "word": "Sabino",
@@ -25404,7 +26324,8 @@ BOOKS.push(...[
               "lemma": "comporto",
               "role": "ccomp",
               "head": "Cottaeque",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:15"
             },
             {
               "word": ",",
@@ -25425,14 +26346,16 @@ BOOKS.push(...[
               "lemma": "trever",
               "role": "nsubj",
               "head": "concitaverunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:22"
             },
             {
               "word": "nuntiis",
               "lemma": "nuntius",
               "role": "obl",
               "head": "impulsi",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:1:19"
             },
             {
               "word": "impulsi",
@@ -25446,14 +26369,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "nuntiis",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:19"
             },
             {
               "word": "concitaverunt",
               "lemma": "concito",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:22"
             },
             {
               "word": "subitoque",
@@ -25481,14 +26406,16 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "manu",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:1:27"
             },
             {
               "word": "manu",
               "lemma": "manus",
               "role": "obl",
               "head": "venerunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:1:27"
             },
             {
               "word": "ad",
@@ -25544,21 +26471,24 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "arma",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:2:4"
             },
             {
               "word": "arma",
               "lemma": "arma",
               "role": "nsubj",
               "head": "cepissent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:2:5"
             },
             {
               "word": "cepissent",
               "lemma": "cepidso",
               "role": "advcl",
               "head": "reduxerunt",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:5"
             },
             {
               "word": "vallumque",
@@ -25586,7 +26516,8 @@ BOOKS.push(...[
               "lemma": "unus",
               "role": "nsubj",
               "head": "superiores",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:2:17"
             },
             {
               "word": "ex",
@@ -25607,14 +26538,16 @@ BOOKS.push(...[
               "lemma": "hispanis",
               "role": "amod",
               "head": "equitibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:2:13"
             },
             {
               "word": "equitibus",
               "lemma": "equitus",
               "role": "obl",
               "head": "emissis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:2:13"
             },
             {
               "word": "emissis",
@@ -25628,21 +26561,24 @@ BOOKS.push(...[
               "lemma": "equester",
               "role": "amod",
               "head": "proelio",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:2:16"
             },
             {
               "word": "proelio",
               "lemma": "proelium",
               "role": "obl",
               "head": "emissis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:16"
             },
             {
               "word": "superiores",
               "lemma": "superior",
               "role": "conj",
               "head": "cepissent",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:2:17"
             },
             {
               "word": "fuissent",
@@ -25677,14 +26613,16 @@ BOOKS.push(...[
               "lemma": "hoss",
               "role": "obj",
               "head": "reduxerunt",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:2:22"
             },
             {
               "word": "suos",
               "lemma": "suus",
               "role": "det",
               "head": "hostes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:2:22"
             },
             {
               "word": "ab",
@@ -25726,14 +26664,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "more",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:3:3"
             },
             {
               "word": "more",
               "lemma": "mos",
               "role": "obl",
               "head": "conclamaverunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:3"
             },
             {
               "word": "conclamaverunt",
@@ -25761,7 +26701,8 @@ BOOKS.push(...[
               "lemma": "aliquis",
               "role": "nsubj",
               "head": "prodiret",
-              "morph": "Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind",
+              "agreement": "0:3:12"
             },
             {
               "word": "ex",
@@ -25796,7 +26737,8 @@ BOOKS.push(...[
               "lemma": "prodeo",
               "role": "conj",
               "head": "conclamaverunt",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:12"
             },
             {
               "word": ":",
@@ -25831,7 +26773,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "vellent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:4:9"
             },
             {
               "word": "de",
@@ -25845,14 +26788,16 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "obl",
               "head": "dicere",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:4:6"
             },
             {
               "word": "communi",
               "lemma": "communis",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:4:6"
             },
             {
               "word": "dicere",
@@ -25866,7 +26811,8 @@ BOOKS.push(...[
               "lemma": "velleo",
               "role": "acl:relcl",
               "head": "sese",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:9"
             },
             {
               "word": ",",
@@ -25880,14 +26826,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:4:12"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl",
               "head": "minui",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:4:12"
             },
             {
               "word": "controversias",
@@ -25959,21 +26907,24 @@ BOOKS.push(...[
               "lemma": "causa",
               "role": "obl",
               "head": "Mittitur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:0:5"
             },
             {
               "word": "Gaius",
               "lemma": "Gaius",
               "role": "nmod",
               "head": "causa",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "1:0:6"
             },
             {
               "word": "Arpineius",
               "lemma": "arpineus",
               "role": "amod",
               "head": "Gaius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:6"
             },
             {
               "word": ",",
@@ -25987,14 +26938,16 @@ BOOKS.push(...[
               "lemma": "equis",
               "role": "conj",
               "head": "Gaius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:0:9"
             },
             {
               "word": "Romanus",
               "lemma": "Romanus",
               "role": "nmod",
               "head": "eques",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:9"
             },
             {
               "word": ",",
@@ -26008,21 +26961,24 @@ BOOKS.push(...[
               "lemma": "familiaris",
               "role": "conj",
               "head": "eques",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:0:12"
             },
             {
               "word": "Quinti",
               "lemma": "quintus",
               "role": "amod",
               "head": "Tituri",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:14"
             },
             {
               "word": "Tituri",
               "lemma": "titura",
               "role": "nmod",
               "head": "familiaris",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:12"
             },
             {
               "word": ",",
@@ -26043,14 +26999,16 @@ BOOKS.push(...[
               "lemma": "Quintus",
               "role": "amod",
               "head": "Iunius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "1:0:18"
             },
             {
               "word": "Iunius",
               "lemma": "Iunius",
               "role": "conj",
               "head": "Mittitur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing",
+              "agreement": "1:0:18"
             },
             {
               "word": "ex",
@@ -26064,14 +27022,16 @@ BOOKS.push(...[
               "lemma": "Hispania",
               "role": "orphan",
               "head": "Quintus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:0:20"
             },
             {
               "word": "quidam",
               "lemma": "quidam",
               "role": "det",
               "head": "Hispania",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "1:0:20"
             },
             {
               "word": ",",
@@ -26085,7 +27045,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "consuerat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:0:31"
             },
             {
               "word": "iam",
@@ -26106,14 +27067,16 @@ BOOKS.push(...[
               "lemma": "missus",
               "role": "obl",
               "head": "consuerat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:0:26"
             },
             {
               "word": "Caesaris",
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "missu",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing",
+              "agreement": "1:0:26"
             },
             {
               "word": "ad",
@@ -26141,7 +27104,8 @@ BOOKS.push(...[
               "lemma": "consuero",
               "role": "acl:relcl",
               "head": "Hispania",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:31"
             },
             {
               "word": ";",
@@ -26183,14 +27147,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "modum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:1:6"
             },
             {
               "word": "modum",
               "lemma": "modus",
               "role": "obl",
               "head": "locutus",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:6"
             },
             {
               "word": "locutus",
@@ -26232,7 +27198,8 @@ BOOKS.push(...[
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "beneficiis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing",
+              "agreement": "1:2:6"
             },
             {
               "word": "in",
@@ -26246,21 +27213,24 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "amod",
               "head": "beneficiis",
-              "morph": "Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:2:6"
             },
             {
               "word": "beneficiis",
               "lemma": "beneficium",
               "role": "obl",
               "head": "confiteri",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:6"
             },
             {
               "word": "plurimum",
               "lemma": "multus",
               "role": "nsubj",
               "head": "debere",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|NumType=Card|Number=Sing|PronType=Ind",
+              "agreement": "1:2:10"
             },
             {
               "word": "ei",
@@ -26281,7 +27251,8 @@ BOOKS.push(...[
               "lemma": "debeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "1:2:10"
             },
             {
               "word": ",",
@@ -26302,14 +27273,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "opera",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:2:14"
             },
             {
               "word": "opera",
               "lemma": "opus",
               "role": "nsubj:pass",
               "head": "liberatus",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:16"
             },
             {
               "word": "stipendio",
@@ -26323,7 +27296,8 @@ BOOKS.push(...[
               "lemma": "libero",
               "role": "advcl",
               "head": "debere",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:2:16"
             },
             {
               "word": "esset",
@@ -26351,7 +27325,8 @@ BOOKS.push(...[
               "lemma": "aduatuxa",
               "role": "nsubj",
               "head": "consuesset",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:26"
             },
             {
               "word": ",",
@@ -26365,14 +27340,16 @@ BOOKS.push(...[
               "lemma": "finitus",
               "role": "obl",
               "head": "consuesset",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:22"
             },
             {
               "word": "suis",
               "lemma": "suus",
               "role": "det",
               "head": "finitimis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:2:22"
             },
             {
               "word": ",",
@@ -26393,7 +27370,8 @@ BOOKS.push(...[
               "lemma": "consuesco",
               "role": "advcl",
               "head": "liberatus",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:26"
             },
             {
               "word": ",",
@@ -26428,7 +27406,8 @@ BOOKS.push(...[
               "lemma": "filius",
               "role": "nsubj:pass",
               "head": "remissi",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:37"
             },
             {
               "word": "et",
@@ -26470,7 +27449,8 @@ BOOKS.push(...[
               "lemma": "remitto",
               "role": "advcl",
               "head": "consuesset",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:2:37"
             },
             {
               "word": "essent",
@@ -26505,7 +27485,8 @@ BOOKS.push(...[
               "lemma": "obsidus",
               "role": "nmod",
               "head": "missos",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:44"
             },
             {
               "word": "numero",
@@ -26519,7 +27500,8 @@ BOOKS.push(...[
               "lemma": "missus",
               "role": "obj",
               "head": "tenuissent",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:2:44"
             },
             {
               "word": "apud",
@@ -26589,7 +27571,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj",
               "head": "imperia",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:3:24"
             },
             {
               "word": ",",
@@ -26624,14 +27607,16 @@ BOOKS.push(...[
               "lemma": "oppugnatio",
               "role": "obl",
               "head": "fecerit",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:7"
             },
             {
               "word": "castrorum",
               "lemma": "castrum",
               "role": "nmod",
               "head": "oppugnatione",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:3:7"
             },
             {
               "word": ",",
@@ -26666,14 +27651,16 @@ BOOKS.push(...[
               "lemma": "voluntas",
               "role": "conj",
               "head": "iudicio",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:13"
             },
             {
               "word": "sua",
               "lemma": "suus",
               "role": "det",
               "head": "voluntate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:3:13"
             },
             {
               "word": "fecisse",
@@ -26701,14 +27688,16 @@ BOOKS.push(...[
               "lemma": "cogo",
               "role": "conj",
               "head": "fecisse",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:3:18"
             },
             {
               "word": "civitatis",
               "lemma": "civitas",
               "role": "nmod",
               "head": "coactu",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:18"
             },
             {
               "word": ",",
@@ -26722,7 +27711,8 @@ BOOKS.push(...[
               "lemma": "suusque",
               "role": "root",
               "head": "",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Dem",
+              "agreement": "1:3:21"
             },
             {
               "word": "esse",
@@ -26736,14 +27726,16 @@ BOOKS.push(...[
               "lemma": "eiusmodi",
               "role": "det",
               "head": "imperia",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:3:24"
             },
             {
               "word": "imperia",
               "lemma": "imperium",
               "role": "nsubj",
               "head": "suaque",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:3:21"
             },
             {
               "word": ",",
@@ -26778,14 +27770,16 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "advcl",
               "head": "suaque",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:3:29"
             },
             {
               "word": "iuris",
               "lemma": "ius",
               "role": "nmod",
               "head": "multitudo",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:3:33"
             },
             {
               "word": "in",
@@ -26806,7 +27800,8 @@ BOOKS.push(...[
               "lemma": "multitudo",
               "role": "nsubj",
               "head": "haberet",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:29"
             },
             {
               "word": "quam",
@@ -26862,7 +27857,8 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "csubj:pass",
               "head": "Civitati",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:4:3"
             },
             {
               "word": "fuisse",
@@ -26876,14 +27872,16 @@ BOOKS.push(...[
               "lemma": "bellus",
               "role": "nmod",
               "head": "causam",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:6"
             },
             {
               "word": "causam",
               "lemma": "causa",
               "role": "nsubj",
               "head": "hanc",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:3"
             },
             {
               "word": ",",
@@ -26904,21 +27902,24 @@ BOOKS.push(...[
               "lemma": "repentinus",
               "role": "amod",
               "head": "Gallorum",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:10"
             },
             {
               "word": "Gallorum",
               "lemma": "gallum",
               "role": "nmod",
               "head": "coniurationi",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:4:11"
             },
             {
               "word": "coniurationi",
               "lemma": "coniuratio",
               "role": "obl:arg",
               "head": "resistere",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:11"
             },
             {
               "word": "resistere",
@@ -26953,7 +27954,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj",
               "head": "posse",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:5:8"
             },
             {
               "word": "se",
@@ -26981,14 +27983,16 @@ BOOKS.push(...[
               "lemma": "humilitas",
               "role": "obl",
               "head": "probare",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:5"
             },
             {
               "word": "sua",
               "lemma": "suus",
               "role": "det",
               "head": "humilitate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:5:5"
             },
             {
               "word": "probare",
@@ -27002,7 +28006,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "csubj:relcl",
               "head": "facile",
-              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act",
+              "agreement": "1:5:8"
             },
             {
               "word": ",",
@@ -27044,14 +28049,16 @@ BOOKS.push(...[
               "lemma": "imperio",
               "role": "advcl",
               "head": "facile",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:5:14"
             },
             {
               "word": "rerum",
               "lemma": "res",
               "role": "nmod",
               "head": "imperitus",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "1:5:14"
             },
             {
               "word": "ut",
@@ -27065,35 +28072,40 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "copiis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:5:18"
             },
             {
               "word": "copiis",
               "lemma": "copius",
               "role": "obl",
               "head": "confidat",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:5:18"
             },
             {
               "word": "populum",
               "lemma": "populus",
               "role": "nsubj:pass",
               "head": "superari",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:19"
             },
             {
               "word": "Romanum",
               "lemma": "romanus",
               "role": "amod",
               "head": "populum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:19"
             },
             {
               "word": "superari",
               "lemma": "supero",
               "role": "xcomp",
               "head": "posse",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:5:21"
             },
             {
               "word": "posse",
@@ -27135,21 +28147,24 @@ BOOKS.push(...[
               "lemma": "gallia",
               "role": "nmod",
               "head": "consilium",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:6:5"
             },
             {
               "word": "commune",
               "lemma": "communis",
               "role": "amod",
               "head": "consilium",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:6:5"
             },
             {
               "word": "consilium",
               "lemma": "consilium",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:5"
             },
             {
               "word": ":",
@@ -27163,35 +28178,40 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "hibernis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:7:2"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "obl",
               "head": "oppugnandis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:7:2"
             },
             {
               "word": "Caesaris",
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "hibernis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:2"
             },
             {
               "word": "oppugnandis",
               "lemma": "oppugno",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:7:4"
             },
             {
               "word": "hunc",
               "lemma": "hic",
               "role": "det",
               "head": "diem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:7:8"
             },
             {
               "word": "esse",
@@ -27212,7 +28232,8 @@ BOOKS.push(...[
               "lemma": "dies",
               "role": "nsubj:pass",
               "head": "oppugnandis",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:7:4"
             },
             {
               "word": ",",
@@ -27240,21 +28261,24 @@ BOOKS.push(...[
               "lemma": "legium",
               "role": "nsubj",
               "head": "posset",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:17"
             },
             {
               "word": "alterae",
               "lemma": "alter",
               "role": "amod",
               "head": "legioni",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:7:14"
             },
             {
               "word": "legioni",
               "lemma": "legio",
               "role": "obl:arg",
               "head": "venire",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:14"
             },
             {
               "word": "subsidio",
@@ -27275,7 +28299,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "acl:relcl",
               "head": "diem",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:7:17"
             },
             {
               "word": ";",
@@ -27359,42 +28384,48 @@ BOOKS.push(...[
               "lemma": "recipero",
               "role": "obl",
               "head": "videretur",
-              "morph": "Aspect=Prosp|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:8:11"
             },
             {
               "word": "communi",
               "lemma": "communis",
               "role": "amod",
               "head": "libertate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:8:13"
             },
             {
               "word": "libertate",
               "lemma": "libertas",
               "role": "nsubj:pass",
               "head": "recuperanda",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:11"
             },
             {
               "word": "consilium",
               "lemma": "consilium",
               "role": "nsubj:pass",
               "head": "videretur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:14"
             },
             {
               "word": "initum",
               "lemma": "initus",
               "role": "amod",
               "head": "consilium",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:14"
             },
             {
               "word": "videretur",
               "lemma": "vido",
               "role": "advcl",
               "head": "facile",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:8:16"
             },
             {
               "word": ".",
@@ -27450,7 +28481,8 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "xcomp",
               "head": "satisfecerit",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "1:9:7"
             },
             {
               "word": "nunc",
@@ -27464,21 +28496,24 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "nsubj",
               "head": "habere",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:9:7"
             },
             {
               "word": "rationem",
               "lemma": "ratio",
               "role": "obj",
               "head": "habere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:9:10"
             },
             {
               "word": "offici",
               "lemma": "officus",
               "role": "nmod",
               "head": "rationem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:9:10"
             },
             {
               "word": "pro",
@@ -27492,14 +28527,16 @@ BOOKS.push(...[
               "lemma": "beneficium",
               "role": "obl",
               "head": "habere",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:9:13"
             },
             {
               "word": "Caesaris",
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "beneficiis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing",
+              "agreement": "1:9:13"
             },
             {
               "word": ":",
@@ -27569,7 +28606,8 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "nmod",
               "head": "saluti",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:10:12"
             },
             {
               "word": "ac",
@@ -27590,7 +28628,8 @@ BOOKS.push(...[
               "lemma": "salus",
               "role": "obl:arg",
               "head": "consulat",
-              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:12"
             },
             {
               "word": "consulat",
@@ -27611,21 +28650,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "manum",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:11:2"
             },
             {
               "word": "manum",
               "lemma": "manus",
               "role": "nsubj",
               "head": "transisse",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:11:2"
             },
             {
               "word": "Germanorum",
               "lemma": "germanum",
               "role": "nmod",
               "head": "manum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:11:2"
             },
             {
               "word": "conductam",
@@ -27646,7 +28688,8 @@ BOOKS.push(...[
               "lemma": "transeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatAnom|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatAnom|VerbForm=Inf|Voice=Act",
+              "agreement": "1:11:6"
             },
             {
               "word": ";",
@@ -27688,7 +28731,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nmod",
               "head": "consilium",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Plur",
+              "agreement": "1:13:3"
             },
             {
               "word": "esse",
@@ -27702,7 +28746,8 @@ BOOKS.push(...[
               "lemma": "consilium",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:13:3"
             },
             {
               "word": ",",
@@ -27828,28 +28873,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nmod",
               "head": "milia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:13:23"
             },
             {
               "word": "alter",
               "lemma": "alter",
               "role": "det",
               "head": "milia",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "1:13:23"
             },
             {
               "word": "milia",
               "lemma": "milius",
               "role": "obj",
               "head": "absit",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:13:23"
             },
             {
               "word": "passuum",
               "lemma": "passus",
               "role": "nmod",
               "head": "milia",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:13:23"
             },
             {
               "word": "circiter",
@@ -27877,7 +28926,8 @@ BOOKS.push(...[
               "lemma": "alter",
               "role": "nsubj",
               "head": "absit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "1:13:33"
             },
             {
               "word": "paulo",
@@ -27912,7 +28962,8 @@ BOOKS.push(...[
               "lemma": "absum",
               "role": "advcl",
               "head": "sentiant",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:13:33"
             },
             {
               "word": ".",
@@ -27933,14 +28984,16 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "nsubj",
               "head": "polliceri",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:14:3"
             },
             {
               "word": "polliceri",
               "lemma": "polliceo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:14:3"
             },
             {
               "word": "et",
@@ -27968,14 +29021,16 @@ BOOKS.push(...[
               "lemma": "tutus",
               "role": "amod",
               "head": "iter",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:14:8"
             },
             {
               "word": "iter",
               "lemma": "iter",
               "role": "obj",
               "head": "confirmare",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:14:8"
             },
             {
               "word": "per",
@@ -28122,14 +29177,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "meritis",
-              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:15:18"
             },
             {
               "word": "meritis",
               "lemma": "meritum",
               "role": "obl",
               "head": "referre",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:15:18"
             },
             {
               "word": "gratiam",
@@ -28157,14 +29214,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "oratione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:16:2"
             },
             {
               "word": "oratione",
               "lemma": "oratio",
               "role": "obl:arg",
               "head": "discedit",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:16:2"
             },
             {
               "word": "habita",
@@ -28219,7 +29278,8 @@ BOOKS.push(...[
               "lemma": "arpineus",
               "role": "nsubj",
               "head": "deferunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:10"
             },
             {
               "word": "et",
@@ -28282,7 +29342,8 @@ BOOKS.push(...[
               "lemma": "defero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:10"
             },
             {
               "word": ".",
@@ -28296,21 +29357,24 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "existimabant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:1:15"
             },
             {
               "word": "repentina",
               "lemma": "repentinus",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:1:3"
             },
             {
               "word": "re",
               "lemma": "res",
               "role": "obl",
               "head": "perturbati",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:1:3"
             },
             {
               "word": "perturbati",
@@ -28352,14 +29416,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj:pass",
               "head": "dicebantur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:1:10"
             },
             {
               "word": "dicebantur",
               "lemma": "dico",
               "role": "advcl",
               "head": "existimabant",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:1:10"
             },
             {
               "word": ",",
@@ -28394,7 +29460,8 @@ BOOKS.push(...[
               "lemma": "exsistimo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:15"
             },
             {
               "word": "maximeque",
@@ -28408,14 +29475,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:1:18"
             },
             {
               "word": "re",
               "lemma": "res",
               "role": "obl",
               "head": "permovebantur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:1:18"
             },
             {
               "word": "permovebantur",
@@ -28443,14 +29512,16 @@ BOOKS.push(...[
               "lemma": "civitas",
               "role": "nsubj",
               "head": "facere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:1:22"
             },
             {
               "word": "ignobilem",
               "lemma": "ignobilis",
               "role": "amod",
               "head": "civitatem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:1:22"
             },
             {
               "word": "atque",
@@ -28471,35 +29542,40 @@ BOOKS.push(...[
               "lemma": "eburo",
               "role": "nmod",
               "head": "civitatem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:1:22"
             },
             {
               "word": "sua",
               "lemma": "suus",
               "role": "det",
               "head": "sponte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:1:28"
             },
             {
               "word": "sponte",
               "lemma": "spons",
               "role": "obl",
               "head": "credendum",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:1:28"
             },
             {
               "word": "populo",
               "lemma": "populus",
               "role": "obl:arg",
               "head": "facere",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:29"
             },
             {
               "word": "Romano",
               "lemma": "romanus",
               "role": "amod",
               "head": "populo",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:29"
             },
             {
               "word": "bellum",
@@ -28513,7 +29589,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "csubj:pass",
               "head": "credendum",
-              "morph": "Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act",
+              "agreement": "0:1:32"
             },
             {
               "word": "ausam",
@@ -28583,14 +29660,16 @@ BOOKS.push(...[
               "lemma": "defero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:5"
             },
             {
               "word": "magnaque",
               "lemma": "magnaqus",
               "role": "nsubj",
               "head": "deferunt",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:5"
             },
             {
               "word": "inter",
@@ -28611,14 +29690,16 @@ BOOKS.push(...[
               "lemma": "exssisto",
               "role": "conj",
               "head": "deferunt",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:9"
             },
             {
               "word": "controversia",
               "lemma": "controversia",
               "role": "nsubj",
               "head": "exsistit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:2:9"
             },
             {
               "word": ".",
@@ -28632,7 +29713,8 @@ BOOKS.push(...[
               "lemma": "Lucius",
               "role": "nsubj",
               "head": "existimabant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:3:19"
             },
             {
               "word": "Aurunculeius",
@@ -28646,21 +29728,24 @@ BOOKS.push(...[
               "lemma": "compluresqui",
               "role": "nmod",
               "head": "tribuni",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:3:4"
             },
             {
               "word": "tribuni",
               "lemma": "tribunus",
               "role": "conj",
               "head": "Lucius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:4"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "tribuni",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:3:4"
             },
             {
               "word": "et",
@@ -28674,14 +29759,16 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "ordinum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:8"
             },
             {
               "word": "ordinum",
               "lemma": "ordo",
               "role": "conj",
               "head": "militum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:3:8"
             },
             {
               "word": "centuriones",
@@ -28730,21 +29817,24 @@ BOOKS.push(...[
               "lemma": "hibero",
               "role": "obl",
               "head": "agendum",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:15"
             },
             {
               "word": "iniussu",
               "lemma": "iniussus",
               "role": "amod",
               "head": "hibernis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:15"
             },
             {
               "word": "Caesaris",
               "lemma": "Caesaris",
               "role": "nmod",
               "head": "hibernis",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing",
+              "agreement": "0:3:15"
             },
             {
               "word": "discedendum",
@@ -28758,7 +29848,8 @@ BOOKS.push(...[
               "lemma": "exsistimo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:19"
             },
             {
               "word": ":",
@@ -28772,14 +29863,16 @@ BOOKS.push(...[
               "lemma": "quantasva",
               "role": "nsubj",
               "head": "docebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:4:1"
             },
             {
               "word": "[magnas",
               "lemma": "[magna",
               "role": "nmod",
               "head": "quantasvis",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:4:1"
             },
             {
               "word": "]",
@@ -28793,7 +29886,8 @@ BOOKS.push(...[
               "lemma": "copus",
               "role": "nsubj:pass",
               "head": "sustineri",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:4:4"
             },
             {
               "word": "etiam",
@@ -28807,14 +29901,16 @@ BOOKS.push(...[
               "lemma": "germanus",
               "role": "nmod",
               "head": "copias",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:4"
             },
             {
               "word": "sustineri",
               "lemma": "sustineo",
               "role": "xcomp",
               "head": "posse",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:4:7"
             },
             {
               "word": "posse",
@@ -28828,21 +29924,24 @@ BOOKS.push(...[
               "lemma": "munitus",
               "role": "obl",
               "head": "docebant",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:4:9"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "nmod",
               "head": "munitis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:4:9"
             },
             {
               "word": "docebant",
               "lemma": "doceo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:11"
             },
             {
               "word": ":",
@@ -28856,7 +29955,8 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "nsubj",
               "head": "testimonio",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:5:3"
             },
             {
               "word": "esse",
@@ -28870,7 +29970,8 @@ BOOKS.push(...[
               "lemma": "testimonium",
               "role": "root",
               "head": "",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:3"
             },
             {
               "word": ",",
@@ -28891,42 +29992,48 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "impetum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "0:5:8"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "impetum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:5:8"
             },
             {
               "word": "impetum",
               "lemma": "impetus",
               "role": "obj",
               "head": "sustinuerint",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:5:8"
             },
             {
               "word": "multis",
               "lemma": "multus",
               "role": "det",
               "head": "vulneribus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "0:5:11"
             },
             {
               "word": "ultro",
               "lemma": "ultus",
               "role": "det",
               "head": "vulneribus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:5:11"
             },
             {
               "word": "vulneribus",
               "lemma": "vulnis",
               "role": "obl",
               "head": "sustinuerint",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:5:11"
             },
             {
               "word": "illatis",
@@ -28968,7 +30075,8 @@ BOOKS.push(...[
               "lemma": "frumentaris",
               "role": "nsubj:pass",
               "head": "premi",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:6:4"
             },
             {
               "word": "non",
@@ -28982,7 +30090,8 @@ BOOKS.push(...[
               "lemma": "premo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:6:4"
             },
             {
               "word": ";",
@@ -29017,14 +30126,16 @@ BOOKS.push(...[
               "lemma": "proximus",
               "role": "amod",
               "head": "hibernis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:5"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "obl",
               "head": "conventura",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:7:5"
             },
             {
               "word": "et",
@@ -29080,7 +30191,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "0:8:2"
             },
             {
               "word": "esse",
@@ -29094,7 +30206,8 @@ BOOKS.push(...[
               "lemma": "levius",
               "role": "amod",
               "head": "quid",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:8:2"
             },
             {
               "word": "aut",
@@ -29129,14 +30242,16 @@ BOOKS.push(...[
               "lemma": "auctor",
               "role": "amod",
               "head": "hoste",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:8:10"
             },
             {
               "word": "hoste",
               "lemma": "hos",
               "role": "obl",
               "head": "capere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:8:10"
             },
             {
               "word": "de",
@@ -29150,14 +30265,16 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "rebus",
-              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:8:13"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl",
               "head": "capere",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:8:13"
             },
             {
               "word": "capere",
@@ -29243,21 +30360,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "manus",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:10"
             },
             {
               "word": "manus",
               "lemma": "manus",
               "role": "nsubj",
               "head": "convenissent",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurU|Number=Plur"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurU|Number=Plur",
+              "agreement": "1:0:10"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "manus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:10"
             },
             {
               "word": "adiunctis",
@@ -29278,7 +30398,8 @@ BOOKS.push(...[
               "lemma": "convenisso",
               "role": "advcl",
               "head": "clamitabat",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:14"
             },
             {
               "word": ",",
@@ -29306,7 +30427,8 @@ BOOKS.push(...[
               "lemma": "aliquis",
               "role": "nsubj:pass",
               "head": "acceptum",
-              "morph": "Case=Nom|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "1:0:24"
             },
             {
               "word": "calamitatis",
@@ -29327,14 +30449,16 @@ BOOKS.push(...[
               "lemma": "proximus",
               "role": "amod",
               "head": "hibernis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:22"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "obl",
               "head": "acceptum",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:0:22"
             },
             {
               "word": "esset",
@@ -29348,7 +30472,8 @@ BOOKS.push(...[
               "lemma": "accipio",
               "role": "conj",
               "head": "convenissent",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:0:24"
             },
             {
               "word": ".",
@@ -29397,14 +30522,16 @@ BOOKS.push(...[
               "lemma": "caesar",
               "role": "nsubj",
               "head": "arbitrari",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:2"
             },
             {
               "word": "arbitrari",
               "lemma": "arbitror",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:2:2"
             },
             {
               "word": "profectum",
@@ -29453,7 +30580,8 @@ BOOKS.push(...[
               "lemma": "carnus",
               "role": "nsubj",
               "head": "Tasgeti",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:3:5"
             },
             {
               "word": "interficiendi",
@@ -29467,14 +30595,16 @@ BOOKS.push(...[
               "lemma": "tasgo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:3:5"
             },
             {
               "word": "consilium",
               "lemma": "consilium",
               "role": "nsubj:pass",
               "head": "capturos",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:8"
             },
             {
               "word": "fuisse",
@@ -29488,7 +30618,8 @@ BOOKS.push(...[
               "lemma": "capio",
               "role": "ccomp",
               "head": "Tasgeti",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:3:8"
             },
             {
               "word": ",",
@@ -29530,14 +30661,16 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "adesset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:3:15"
             },
             {
               "word": "adesset",
               "lemma": "adsum",
               "role": "advcl",
               "head": "Eburones",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:3:15"
             },
             {
               "word": ",",
@@ -29551,21 +30684,24 @@ BOOKS.push(...[
               "lemma": "tantus",
               "role": "det",
               "head": "contemptione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Ind"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Ind",
+              "agreement": "1:3:18"
             },
             {
               "word": "contemptione",
               "lemma": "contemptio",
               "role": "obl",
               "head": "venturos",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:18"
             },
             {
               "word": "nostri",
               "lemma": "noster",
               "role": "det",
               "head": "contemptione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "1:3:18"
             },
             {
               "word": "ad",
@@ -29614,14 +30750,16 @@ BOOKS.push(...[
               "lemma": "hostim",
               "role": "amod",
               "head": "auctorem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:3"
             },
             {
               "word": "auctorem",
               "lemma": "auctor",
               "role": "obj",
               "head": "spectare",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:3"
             },
             {
               "word": ",",
@@ -29684,7 +30822,8 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "root",
               "head": "",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:1"
             },
             {
               "word": "esse",
@@ -29698,21 +30837,24 @@ BOOKS.push(...[
               "lemma": "germanis",
               "role": "amod",
               "head": "dolori",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:4"
             },
             {
               "word": "dolori",
               "lemma": "dolor",
               "role": "nmod",
               "head": "magno",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:6:4"
             },
             {
               "word": "Ariovisti",
               "lemma": "ariovistus",
               "role": "amod",
               "head": "dolori",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:4"
             },
             {
               "word": "mortem",
@@ -29733,21 +30875,24 @@ BOOKS.push(...[
               "lemma": "superior",
               "role": "amod",
               "head": "victorias",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:6:10"
             },
             {
               "word": "nostras",
               "lemma": "noster",
               "role": "det",
               "head": "victorias",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "1:6:10"
             },
             {
               "word": "victorias",
               "lemma": "victorius",
               "role": "conj",
               "head": "mortem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:6:10"
             },
             {
               "word": ";",
@@ -29775,21 +30920,24 @@ BOOKS.push(...[
               "lemma": "tot",
               "role": "det",
               "head": "contumeliis",
-              "morph": "PronType=Dem"
+              "morph": "PronType=Dem",
+              "agreement": "1:7:4"
             },
             {
               "word": "contumeliis",
               "lemma": "contumelium",
               "role": "nsubj:pass",
               "head": "acceptis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:7:5"
             },
             {
               "word": "acceptis",
               "lemma": "accipio",
               "role": "advcl:abs",
               "head": "exstincta",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:7:5"
             },
             {
               "word": "sub",
@@ -29803,21 +30951,24 @@ BOOKS.push(...[
               "lemma": "populus",
               "role": "nmod",
               "head": "imperium",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:9"
             },
             {
               "word": "Romani",
               "lemma": "romanus",
               "role": "nmod",
               "head": "imperium",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:9"
             },
             {
               "word": "imperium",
               "lemma": "imperium",
               "role": "obl",
               "head": "acceptis",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:9"
             },
             {
               "word": "redactam",
@@ -29831,28 +30982,32 @@ BOOKS.push(...[
               "lemma": "superior",
               "role": "amod",
               "head": "gloria",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:12"
             },
             {
               "word": "gloria",
               "lemma": "gloria",
               "role": "obl",
               "head": "redactam",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:7:12"
             },
             {
               "word": "rei",
               "lemma": "res",
               "role": "nmod",
               "head": "gloria",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:7:13"
             },
             {
               "word": "militaris",
               "lemma": "militaris",
               "role": "amod",
               "head": "rei",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:7:13"
             },
             {
               "word": "exstincta",
@@ -29880,7 +31035,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj",
               "head": "persuaderet",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:8:5"
             },
             {
               "word": "hoc",
@@ -29901,7 +31057,8 @@ BOOKS.push(...[
               "lemma": "persuadeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:8:5"
             },
             {
               "word": ",",
@@ -29922,21 +31079,24 @@ BOOKS.push(...[
               "lemma": "certus",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:9"
             },
             {
               "word": "re",
               "lemma": "res",
               "role": "obl",
               "head": "descendisse",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:8:9"
             },
             {
               "word": "Ambiorigem",
               "lemma": "ambiorigus",
               "role": "nsubj",
               "head": "descendisse",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:14"
             },
             {
               "word": "ad",
@@ -29950,21 +31110,24 @@ BOOKS.push(...[
               "lemma": "eiusmodi",
               "role": "det",
               "head": "consilium",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:8:13"
             },
             {
               "word": "consilium",
               "lemma": "consilium",
               "role": "obl:arg",
               "head": "descendisse",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:13"
             },
             {
               "word": "descendisse",
               "lemma": "descendo",
               "role": "ccomp",
               "head": "persuaderet",
-              "morph": "Aspect=Perf|InflClass=LatX|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|VerbForm=Inf|Voice=Act",
+              "agreement": "1:8:14"
             },
             {
               "word": "?",
@@ -29978,14 +31141,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "sententiam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:9:2"
             },
             {
               "word": "sententiam",
               "lemma": "sententia",
               "role": "nsubj",
               "head": "tutam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:9:7"
             },
             {
               "word": "in",
@@ -29999,14 +31164,16 @@ BOOKS.push(...[
               "lemma": "uterque",
               "role": "det",
               "head": "partem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "1:9:5"
             },
             {
               "word": "partem",
               "lemma": "pars",
               "role": "obl:arg",
               "head": "tutam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:9:5"
             },
             {
               "word": "esse",
@@ -30020,7 +31187,8 @@ BOOKS.push(...[
               "lemma": "tutus",
               "role": "root",
               "head": "",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:9:7"
             },
             {
               "word": ":",
@@ -30041,7 +31209,8 @@ BOOKS.push(...[
               "lemma": "nihil",
               "role": "nsubj",
               "head": "durius",
-              "morph": "Polarity=Neg|PronType=Ind"
+              "morph": "Polarity=Neg|PronType=Ind",
+              "agreement": "1:10:4"
             },
             {
               "word": "esset",
@@ -30055,7 +31224,8 @@ BOOKS.push(...[
               "lemma": "durius",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:4"
             },
             {
               "word": ",",
@@ -30097,14 +31267,16 @@ BOOKS.push(...[
               "lemma": "proximus",
               "role": "amod",
               "head": "legionem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:10:11"
             },
             {
               "word": "legionem",
               "lemma": "legio",
               "role": "obl:arg",
               "head": "perventuros",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:11"
             },
             {
               "word": "perventuros",
@@ -30132,14 +31304,16 @@ BOOKS.push(...[
               "lemma": "Gallia",
               "role": "nsubj",
               "head": "consentiret",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:11:2"
             },
             {
               "word": "omnis",
               "lemma": "omnis",
               "role": "det",
               "head": "Gallia",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "1:11:2"
             },
             {
               "word": "cum",
@@ -30160,7 +31334,8 @@ BOOKS.push(...[
               "lemma": "consentio",
               "role": "advcl",
               "head": "unam",
-              "morph": "Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:11:6"
             },
             {
               "word": ",",
@@ -30174,7 +31349,8 @@ BOOKS.push(...[
               "lemma": "unus",
               "role": "root",
               "head": "",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "1:11:8"
             },
             {
               "word": "esse",
@@ -30209,7 +31385,8 @@ BOOKS.push(...[
               "lemma": "salus",
               "role": "nsubj",
               "head": "unam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:11:8"
             },
             {
               "word": ".",
@@ -30258,14 +31435,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "dissentirent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:12:7"
             },
             {
               "word": "dissentirent",
               "lemma": "dissentio",
               "role": "acl:relcl",
               "head": "eorum",
-              "morph": "Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:12:7"
             },
             {
               "word": ",",
@@ -30286,14 +31465,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "habere",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:12:11"
             },
             {
               "word": "habere",
               "lemma": "habeo",
               "role": "acl:relcl",
               "head": "consilium",
-              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act",
+              "agreement": "1:12:11"
             },
             {
               "word": "exitum",
@@ -30342,14 +31523,16 @@ BOOKS.push(...[
               "lemma": "praesens",
               "role": "advcl",
               "head": "at",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:13:5"
             },
             {
               "word": "periculum",
               "lemma": "periculum",
               "role": "nsubj",
               "head": "praesens",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:13:5"
             },
             {
               "word": ",",
@@ -30377,21 +31560,24 @@ BOOKS.push(...[
               "lemma": "longinquus",
               "role": "amod",
               "head": "obsidione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:13:11"
             },
             {
               "word": "obsidione",
               "lemma": "obsidio",
               "role": "obl",
               "head": "timenda",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:13:11"
             },
             {
               "word": "fames",
               "lemma": "fames",
               "role": "nsubj:pass",
               "head": "timenda",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:13:14"
             },
             {
               "word": "esset",
@@ -30405,7 +31591,8 @@ BOOKS.push(...[
               "lemma": "timeo",
               "role": "ccomp",
               "head": "at",
-              "morph": "Aspect=Prosp|Case=Nom|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Nom|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:13:14"
             },
             {
               "word": ".",
@@ -30439,7 +31626,8 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "disputatione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:0:5"
             },
             {
               "word": "in",
@@ -30453,21 +31641,24 @@ BOOKS.push(...[
               "lemma": "uterque",
               "role": "det",
               "head": "partem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:0:4"
             },
             {
               "word": "partem",
               "lemma": "pars",
               "role": "obl",
               "head": "habita",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": "disputatione",
               "lemma": "disputatio",
               "role": "obl",
               "head": "habita",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:5"
             },
             {
               "word": "habita",
@@ -30509,14 +31700,16 @@ BOOKS.push(...[
               "lemma": "unusquisque",
               "role": "det",
               "head": "ordinibus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind",
+              "agreement": "0:0:12"
             },
             {
               "word": "ordinibus",
               "lemma": "ordo",
               "role": "obl",
               "head": "resisteretur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:12"
             },
             {
               "word": "acriter",
@@ -30607,14 +31800,16 @@ BOOKS.push(...[
               "lemma": "ego",
               "role": "ccomp",
               "head": "vultis",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:25"
             },
             {
               "word": "Sabinus",
               "lemma": "Sabinus",
               "role": "nsubj",
               "head": "\"",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:25"
             },
             {
               "word": ",",
@@ -30642,14 +31837,16 @@ BOOKS.push(...[
               "lemma": "clarior",
               "role": "amod",
               "head": "voce",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:31"
             },
             {
               "word": "voce",
               "lemma": "vocus",
               "role": "orphan",
               "head": "id",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:31"
             },
             {
               "word": ",",
@@ -30670,28 +31867,32 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "pars",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:0:35"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj",
               "head": "exaudiret",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:35"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:35"
             },
             {
               "word": "exaudiret",
               "lemma": "exaudio",
               "role": "acl:relcl",
               "head": "id",
-              "morph": "Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:37"
             },
             {
               "word": ";",
@@ -30705,14 +31906,16 @@ BOOKS.push(...[
               "lemma": "\"niquo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:1"
             },
             {
               "word": "is",
               "lemma": "is",
               "role": "nsubj",
               "head": "\"neque",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:1"
             },
             {
               "word": "sum",
@@ -30754,7 +31957,8 @@ BOOKS.push(...[
               "lemma": "\"quus",
               "role": "nsubj",
               "head": "terrear",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:14"
             },
             {
               "word": "gravissime",
@@ -30775,28 +31979,32 @@ BOOKS.push(...[
               "lemma": "vobus",
               "role": "det",
               "head": "periculo",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs",
+              "agreement": "0:1:13"
             },
             {
               "word": "mortis",
               "lemma": "mors",
               "role": "nmod",
               "head": "periculo",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:1:13"
             },
             {
               "word": "periculo",
               "lemma": "periculum",
               "role": "obl",
               "head": "terrear",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:1:13"
             },
             {
               "word": "terrear",
               "lemma": "terro",
               "role": "ccomp",
               "head": "inquit",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:14"
             },
             {
               "word": ":",
@@ -30810,14 +32018,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "nsubj",
               "head": "sapient",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:2:2"
             },
             {
               "word": "sapient",
               "lemma": "sapio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:2"
             },
             {
               "word": ";",
@@ -30873,14 +32083,16 @@ BOOKS.push(...[
               "lemma": "tu",
               "role": "det",
               "head": "rationem",
-              "morph": "Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs"
+              "morph": "Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs",
+              "agreement": "0:3:8"
             },
             {
               "word": "rationem",
               "lemma": "ratio",
               "role": "obj",
               "head": "reposcent",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:8"
             },
             {
               "word": "reposcent",
@@ -30901,7 +32113,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "sustineant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:3:29"
             },
             {
               "word": ",",
@@ -30971,14 +32184,16 @@ BOOKS.push(...[
               "lemma": "proximus",
               "role": "amod",
               "head": "hibernis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:3:22"
             },
             {
               "word": "hibernis",
               "lemma": "hibero",
               "role": "obl",
               "head": "coniuncti",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:3:22"
             },
             {
               "word": "coniuncti",
@@ -30992,7 +32207,8 @@ BOOKS.push(...[
               "lemma": "communis",
               "role": "amod",
               "head": "casum",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:3:28"
             },
             {
               "word": "cum",
@@ -31013,21 +32229,24 @@ BOOKS.push(...[
               "lemma": "bellus",
               "role": "nmod",
               "head": "casum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:28"
             },
             {
               "word": "casum",
               "lemma": "casus",
               "role": "obj",
               "head": "sustineant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:3:28"
             },
             {
               "word": "sustineant",
               "lemma": "sustineo",
               "role": "advcl",
               "head": "reposcent",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:29"
             },
             {
               "word": ",",
@@ -31211,14 +32430,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "dissensione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:1:8"
             },
             {
               "word": "dissensione",
               "lemma": "dissensio",
               "role": "obl",
               "head": "deducant",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:8"
             },
             {
               "word": "et",
@@ -31253,14 +32474,16 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "periculum",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:14"
             },
             {
               "word": "periculum",
               "lemma": "periculum",
               "role": "obl:arg",
               "head": "deducant",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:1:14"
             },
             {
               "word": "deducant",
@@ -31281,7 +32504,8 @@ BOOKS.push(...[
               "lemma": "facilis",
               "role": "root",
               "head": "",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:2:1"
             },
             {
               "word": "esse",
@@ -31295,7 +32519,8 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "nsubj",
               "head": "facilem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:2:1"
             },
             {
               "word": ",",
@@ -31372,14 +32597,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nsubj",
               "head": "sentiant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:2:15"
             },
             {
               "word": "sentiant",
               "lemma": "sentio",
               "role": "advcl",
               "head": "maneant",
-              "morph": "Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:15"
             },
             {
               "word": "ac",
@@ -31428,28 +32655,32 @@ BOOKS.push(...[
               "lemma": "nullus",
               "role": "det",
               "head": "salutem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind",
+              "agreement": "1:3:6"
             },
             {
               "word": "se",
               "lemma": "sui",
               "role": "nsubj",
               "head": "perspicere",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:3:7"
             },
             {
               "word": "salutem",
               "lemma": "salus",
               "role": "obj",
               "head": "perspicere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:6"
             },
             {
               "word": "perspicere",
               "lemma": "perspicio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act",
+              "agreement": "1:3:7"
             },
             {
               "word": ".",
@@ -31463,7 +32694,8 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "nsubj:pass",
               "head": "perducitur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:4:6"
             },
             {
               "word": "disputatione",
@@ -31484,21 +32716,24 @@ BOOKS.push(...[
               "lemma": "medius",
               "role": "amod",
               "head": "noctem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:5"
             },
             {
               "word": "noctem",
               "lemma": "nox",
               "role": "obl:arg",
               "head": "perducitur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:4:5"
             },
             {
               "word": "perducitur",
               "lemma": "perduco",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:4:6"
             },
             {
               "word": ".",
@@ -31519,14 +32754,16 @@ BOOKS.push(...[
               "lemma": "do",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:2"
             },
             {
               "word": "Cotta",
               "lemma": "Cotta",
               "role": "nsubj",
               "head": "dat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:2"
             },
             {
               "word": "permotus",
@@ -31554,21 +32791,24 @@ BOOKS.push(...[
               "lemma": "supero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:1"
             },
             {
               "word": "sententia",
               "lemma": "sententia",
               "role": "nsubj",
               "head": "superat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": "Sabini",
               "lemma": "sabinus",
               "role": "nmod",
               "head": "sententia",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": ".",
@@ -31589,21 +32829,24 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "luce",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing",
+              "agreement": "1:7:3"
             },
             {
               "word": "luce",
               "lemma": "lux",
               "role": "obl",
               "head": "Pronuntiatur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:7:3"
             },
             {
               "word": "ituros",
               "lemma": "iturus",
               "role": "amod",
               "head": "luce",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:7:3"
             },
             {
               "word": ".",
@@ -31617,7 +32860,8 @@ BOOKS.push(...[
               "lemma": "consumo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:8:1"
             },
             {
               "word": "vigiliis",
@@ -31631,21 +32875,24 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "amod",
               "head": "pars",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:8:4"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj:pass",
               "head": "Consumitur",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:8:4"
             },
             {
               "word": "noctis",
               "lemma": "noctus",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:8:4"
             },
             {
               "word": ",",
@@ -31666,7 +32913,8 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "miles",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:8:10"
             },
             {
               "word": "quisque",
@@ -31680,14 +32928,16 @@ BOOKS.push(...[
               "lemma": "miles",
               "role": "nsubj",
               "head": "circumspiceret",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:11"
             },
             {
               "word": "circumspiceret",
               "lemma": "circumspico",
               "role": "advcl",
               "head": "Consumitur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:8:11"
             },
             {
               "word": ",",
@@ -31701,7 +32951,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj",
               "head": "posset",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:8:16"
             },
             {
               "word": "secum",
@@ -31722,7 +32973,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "conj",
               "head": "circumspiceret",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:8:16"
             },
             {
               "word": ",",
@@ -31736,7 +32988,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj:pass",
               "head": "cogeretur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:8:23"
             },
             {
               "word": "ex",
@@ -31750,14 +33003,16 @@ BOOKS.push(...[
               "lemma": "instrumentum",
               "role": "obl",
               "head": "relinquere",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:8:20"
             },
             {
               "word": "hibernorum",
               "lemma": "hibernum",
               "role": "nmod",
               "head": "instrumento",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:8:20"
             },
             {
               "word": "relinquere",
@@ -31771,7 +33026,8 @@ BOOKS.push(...[
               "lemma": "cogo",
               "role": "advcl",
               "head": "posset",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:8:23"
             },
             {
               "word": ".",
@@ -31785,14 +33041,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nsubj:pass",
               "head": "excogitantur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:9:2"
             },
             {
               "word": "excogitantur",
               "lemma": "excogito",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:9:2"
             },
             {
               "word": ",",
@@ -31855,14 +33113,16 @@ BOOKS.push(...[
               "lemma": "languus",
               "role": "obl",
               "head": "augeatur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:9:11"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "languore",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:9:11"
             },
             {
               "word": "et",
@@ -31883,14 +33143,16 @@ BOOKS.push(...[
               "lemma": "periculum",
               "role": "nsubj:pass",
               "head": "augeatur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:9:16"
             },
             {
               "word": "augeatur",
               "lemma": "augeo",
               "role": "conj",
               "head": "maneatur",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:9:16"
             },
             {
               "word": ".",
@@ -31904,14 +33166,16 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "luce",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing",
+              "agreement": "1:10:2"
             },
             {
               "word": "luce",
               "lemma": "lux",
               "role": "obl",
               "head": "proficiscuntur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:2"
             },
             {
               "word": "sic",
@@ -32023,35 +33287,40 @@ BOOKS.push(...[
               "lemma": "homo",
               "role": "det",
               "head": "Ambiorige",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:20"
             },
             {
               "word": "amicissimo",
               "lemma": "amicus",
               "role": "amod",
               "head": "Ambiorige",
-              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:10:20"
             },
             {
               "word": "Ambiorige",
               "lemma": "ambior",
               "role": "conj",
               "head": "hoste",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:20"
             },
             {
               "word": "consilium",
               "lemma": "consilium",
               "role": "nsubj:pass",
               "head": "datum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:10:22"
             },
             {
               "word": "datum",
               "lemma": "do",
               "role": "conj",
               "head": "persuasum",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:10:22"
             },
             {
               "word": ",",
@@ -32065,28 +33334,32 @@ BOOKS.push(...[
               "lemma": "longus",
               "role": "amod",
               "head": "agmine",
-              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:10:25"
             },
             {
               "word": "agmine",
               "lemma": "agmus",
               "role": "nmod",
               "head": "impedimentis",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:10:27"
             },
             {
               "word": "maximisque",
               "lemma": "magnusque",
               "role": "amod",
               "head": "impedimentis",
-              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:10:27"
             },
             {
               "word": "impedimentis",
               "lemma": "impedimentum",
               "role": "obl",
               "head": "datum",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:10:27"
             },
             {
               "word": ".",
@@ -32127,7 +33400,8 @@ BOOKS.push(...[
               "lemma": "hoss",
               "role": "nsubj",
               "head": "senserunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:12"
             },
             {
               "word": ",",
@@ -32162,14 +33436,16 @@ BOOKS.push(...[
               "lemma": "fremitus",
               "role": "obl",
               "head": "senserunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:7"
             },
             {
               "word": "vigiliisque",
               "lemma": "vigilisque",
               "role": "amod",
               "head": "fremitu",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:7"
             },
             {
               "word": "de",
@@ -32183,21 +33459,24 @@ BOOKS.push(...[
               "lemma": "profectio",
               "role": "obl",
               "head": "senserunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:10"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "profectione",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:0:10"
             },
             {
               "word": "senserunt",
               "lemma": "sentio",
               "role": "advcl",
               "head": "ostenderunt",
-              "morph": "Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:12"
             },
             {
               "word": ",",
@@ -32211,14 +33490,16 @@ BOOKS.push(...[
               "lemma": "colloco",
               "role": "advcl:abs",
               "head": "senserunt",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "0:0:14"
             },
             {
               "word": "insidiis",
               "lemma": "insidium",
               "role": "nsubj:pass",
               "head": "collocatis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:14"
             },
             {
               "word": "bipertito",
@@ -32239,14 +33520,16 @@ BOOKS.push(...[
               "lemma": "silvum",
               "role": "obl",
               "head": "bipertito",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:18"
             },
             {
               "word": "opportuno",
               "lemma": "opportunus",
               "role": "amod",
               "head": "silvis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:18"
             },
             {
               "word": "atque",
@@ -32267,7 +33550,8 @@ BOOKS.push(...[
               "lemma": "locus",
               "role": "obl",
               "head": "exspectabant",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:22"
             },
             {
               "word": "a",
@@ -32281,7 +33565,8 @@ BOOKS.push(...[
               "lemma": "milis",
               "role": "nmod",
               "head": "loco",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:22"
             },
             {
               "word": "passuum",
@@ -32309,14 +33594,16 @@ BOOKS.push(...[
               "lemma": "romanum",
               "role": "nmod",
               "head": "adventum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:29"
             },
             {
               "word": "adventum",
               "lemma": "adventum",
               "role": "obj",
               "head": "exspectabant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:0:29"
             },
             {
               "word": "exspectabant",
@@ -32358,21 +33645,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "pars",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:36"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj",
               "head": "demisisset",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:36"
             },
             {
               "word": "agminis",
               "lemma": "agminus",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:36"
             },
             {
               "word": "in",
@@ -32386,21 +33676,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "convallem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:0:40"
             },
             {
               "word": "convallem",
               "lemma": "convallus",
               "role": "obl:arg",
               "head": "demisisset",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:40"
             },
             {
               "word": "demisisset",
               "lemma": "demitto",
               "role": "conj",
               "head": "exspectabant",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:41"
             },
             {
               "word": ",",
@@ -32421,28 +33714,32 @@ BOOKS.push(...[
               "lemma": "uterque",
               "role": "det",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:0:45"
             },
             {
               "word": "parte",
               "lemma": "pars",
               "role": "obl",
               "head": "ostenderunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:45"
             },
             {
               "word": "eius",
               "lemma": "is",
               "role": "nmod",
               "head": "parte",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:0:45"
             },
             {
               "word": "vallis",
               "lemma": "valla",
               "role": "nsubj",
               "head": "ostenderunt",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:0:50"
             },
             {
               "word": "subito",
@@ -32463,7 +33760,8 @@ BOOKS.push(...[
               "lemma": "ostendo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:50"
             },
             {
               "word": "novissimosque",
@@ -32519,21 +33817,24 @@ BOOKS.push(...[
               "lemma": "iniquus",
               "role": "amod",
               "head": "loco",
-              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:60"
             },
             {
               "word": "nostris",
               "lemma": "noster",
               "role": "det",
               "head": "loco",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:0:60"
             },
             {
               "word": "loco",
               "lemma": "locus",
               "role": "obl",
               "head": "committere",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:60"
             },
             {
               "word": "proelium",
@@ -32598,7 +33899,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "providisset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:0:8"
             },
             {
               "word": "nihil",
@@ -32619,7 +33921,8 @@ BOOKS.push(...[
               "lemma": "provido",
               "role": "acl:relcl",
               "head": "Titurius",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:8"
             },
             {
               "word": ",",
@@ -32689,14 +33992,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "timide",
-              "morph": "Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:0:19"
             },
             {
               "word": "timide",
               "lemma": "timeo",
               "role": "conj",
               "head": "demum",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:19"
             },
             {
               "word": "atque",
@@ -32724,7 +34029,8 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nsubj:pass",
               "head": "viderentur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:0:25"
             },
             {
               "word": "deficere",
@@ -32738,7 +34044,8 @@ BOOKS.push(...[
               "lemma": "video",
               "role": "advcl",
               "head": "timide",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:0:25"
             },
             {
               "word": ";",
@@ -32759,7 +34066,8 @@ BOOKS.push(...[
               "lemma": "plerusque",
               "role": "nsubj",
               "head": "consuevit",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|PronType=Ind",
+              "agreement": "1:1:5"
             },
             {
               "word": "eis",
@@ -32780,7 +34088,8 @@ BOOKS.push(...[
               "lemma": "consuevo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:5"
             },
             {
               "word": ",",
@@ -32794,7 +34103,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj:pass",
               "head": "coguntur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:1:13"
             },
             {
               "word": "in",
@@ -32808,14 +34118,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "det",
               "head": "negotio",
-              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:1:10"
             },
             {
               "word": "negotio",
               "lemma": "negotio",
               "role": "obl",
               "head": "coguntur",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:10"
             },
             {
               "word": "consilium",
@@ -32836,7 +34148,8 @@ BOOKS.push(...[
               "lemma": "cogo",
               "role": "acl:relcl",
               "head": "eis",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:1:13"
             },
             {
               "word": ".",
@@ -32850,14 +34163,16 @@ BOOKS.push(...[
               "lemma": "at",
               "role": "cc",
               "head": "deerat",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:1"
             },
             {
               "word": "Cotta",
               "lemma": "Cotta",
               "role": "nsubj",
               "head": "At",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:1"
             },
             {
               "word": ",",
@@ -32871,28 +34186,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "cogitasset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:2:5"
             },
             {
               "word": "cogitasset",
               "lemma": "cogito",
               "role": "acl:relcl",
               "head": "Cotta",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:5"
             },
             {
               "word": "haec",
               "lemma": "hic",
               "role": "nsubj",
               "head": "posse",
-              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:2:7"
             },
             {
               "word": "posse",
               "lemma": "possum",
               "role": "ccomp",
               "head": "cogitasset",
-              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act",
+              "agreement": "1:2:7"
             },
             {
               "word": "in",
@@ -32934,28 +34253,32 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "causam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:2:14"
             },
             {
               "word": "causam",
               "lemma": "causa",
               "role": "nsubj",
               "head": "auctor",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:2:14"
             },
             {
               "word": "profectionis",
               "lemma": "profectio",
               "role": "nmod",
               "head": "causam",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:14"
             },
             {
               "word": "auctor",
               "lemma": "auctor",
               "role": "conj",
               "head": "accidere",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:16"
             },
             {
               "word": "non",
@@ -32983,7 +34306,8 @@ BOOKS.push(...[
               "lemma": "nullus",
               "role": "nsubj",
               "head": "deerat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind",
+              "agreement": "1:2:25"
             },
             {
               "word": "in",
@@ -32997,14 +34321,16 @@ BOOKS.push(...[
               "lemma": "res",
               "role": "obl",
               "head": "deerat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:2:22"
             },
             {
               "word": "communi",
               "lemma": "communis",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:2:22"
             },
             {
               "word": "saluti",
@@ -33018,7 +34344,8 @@ BOOKS.push(...[
               "lemma": "desum",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:25"
             },
             {
               "word": "et",
@@ -33046,21 +34373,24 @@ BOOKS.push(...[
               "lemma": "cohorto",
               "role": "obl",
               "head": "deerat",
-              "morph": "Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:2:29"
             },
             {
               "word": "militibus",
               "lemma": "miles",
               "role": "nsubj:pass",
               "head": "cohortandisque",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:2:30"
             },
             {
               "word": "imperatoris",
               "lemma": "imperator",
               "role": "nmod",
               "head": "militibus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:30"
             },
             {
               "word": "et",
@@ -33081,14 +34411,16 @@ BOOKS.push(...[
               "lemma": "pugna",
               "role": "obl",
               "head": "praestabat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:2:34"
             },
             {
               "word": "militis",
               "lemma": "miles",
               "role": "nmod",
               "head": "pugna",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:34"
             },
             {
               "word": "officia",
@@ -33130,14 +34462,16 @@ BOOKS.push(...[
               "lemma": "longitudo",
               "role": "obl",
               "head": "facile",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "agminis",
               "lemma": "agminus",
               "role": "nmod",
               "head": "longitudinem",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:3"
             },
             {
               "word": "minus",
@@ -33200,7 +34534,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj:pass",
               "head": "faciendum",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "1:3:16"
             },
             {
               "word": "quoque",
@@ -33221,7 +34556,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "csubj:relcl",
               "head": "possent",
-              "morph": "Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "1:3:16"
             },
             {
               "word": "esset",
@@ -33347,7 +34683,8 @@ BOOKS.push(...[
               "lemma": "consilium",
               "role": "nsubj",
               "head": "accidit",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:13"
             },
             {
               "word": "etsi",
@@ -33368,14 +34705,16 @@ BOOKS.push(...[
               "lemma": "eiusmodi",
               "role": "det",
               "head": "casu",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:4:6"
             },
             {
               "word": "casu",
               "lemma": "casus",
               "role": "obl",
               "head": "reprehendendum",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "1:4:6"
             },
             {
               "word": "reprehendendum",
@@ -33424,7 +34763,8 @@ BOOKS.push(...[
               "lemma": "accido",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:13"
             },
             {
               "word": ":",
@@ -33452,14 +34792,16 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "militibus",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "1:5:4"
             },
             {
               "word": "militibus",
               "lemma": "miles",
               "role": "obl:arg",
               "head": "minuit",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:5:4"
             },
             {
               "word": "spem",
@@ -33501,14 +34843,16 @@ BOOKS.push(...[
               "lemma": "pugna",
               "role": "obl:arg",
               "head": "effecit",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:10"
             },
             {
               "word": "alacriores",
               "lemma": "alacex",
               "role": "amod",
               "head": "pugnam",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:5:10"
             },
             {
               "word": "effecit",
@@ -33550,14 +34894,16 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "timore",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:18"
             },
             {
               "word": "timore",
               "lemma": "timor",
               "role": "obl",
               "head": "videbatur",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:18"
             },
             {
               "word": "et",
@@ -33578,7 +34924,8 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nsubj:pass",
               "head": "videbatur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:5:23"
             },
             {
               "word": "factum",
@@ -33592,7 +34939,8 @@ BOOKS.push(...[
               "lemma": "video",
               "role": "advcl",
               "head": "minuit",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:5:23"
             },
             {
               "word": ".",
@@ -33606,14 +34954,16 @@ BOOKS.push(...[
               "lemma": "praeterea",
               "role": "nsubj",
               "head": "accidit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": "accidit",
               "lemma": "accido",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:2"
             },
             {
               "word": ",",
@@ -33676,7 +35026,8 @@ BOOKS.push(...[
               "lemma": "miles",
               "role": "nsubj",
               "head": "discederent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:6:14"
             },
             {
               "word": "ab",
@@ -33697,7 +35048,8 @@ BOOKS.push(...[
               "lemma": "discedo",
               "role": "advcl",
               "head": "necesse",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:14"
             },
             {
               "word": ",",
@@ -33718,28 +35070,32 @@ BOOKS.push(...[
               "lemma": "quisque",
               "role": "nsubj",
               "head": "haberet",
-              "morph": "Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "1:6:20"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "carissima",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "1:6:19"
             },
             {
               "word": "carissima",
               "lemma": "carus",
               "role": "xcomp",
               "head": "haberet",
-              "morph": "Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:6:19"
             },
             {
               "word": "haberet",
               "lemma": "habeo",
               "role": "acl:relcl",
               "head": "signis",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:6:20"
             },
             {
               "word": ",",
@@ -33823,14 +35179,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nsubj:pass",
               "head": "complerentur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:6:33"
             },
             {
               "word": "complerentur",
               "lemma": "compleo",
               "role": "advcl",
               "head": "properaret",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:6:33"
             },
             {
               "word": ".",
@@ -33864,7 +35222,8 @@ BOOKS.push(...[
               "lemma": "at",
               "role": "nsubj",
               "head": "defuit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:5"
             },
             {
               "word": "barbaris",
@@ -33892,7 +35251,8 @@ BOOKS.push(...[
               "lemma": "desum",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:5"
             },
             {
               "word": ".",
@@ -33913,28 +35273,32 @@ BOOKS.push(...[
               "lemma": "dux",
               "role": "nsubj",
               "head": "iusserunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:1:2"
             },
             {
               "word": "eorum",
               "lemma": "is",
               "role": "nmod",
               "head": "duces",
-              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs"
+              "morph": "Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs",
+              "agreement": "0:1:2"
             },
             {
               "word": "tota",
               "lemma": "totus",
               "role": "det",
               "head": "acie",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "0:1:5"
             },
             {
               "word": "acie",
               "lemma": "acies",
               "role": "obl",
               "head": "pronuntiare",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:1:5"
             },
             {
               "word": "pronuntiare",
@@ -33948,7 +35312,8 @@ BOOKS.push(...[
               "lemma": "iussero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:7"
             },
             {
               "word": ",",
@@ -33969,7 +35334,8 @@ BOOKS.push(...[
               "lemma": "quis",
               "role": "nsubj",
               "head": "discederet",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int",
+              "agreement": "0:1:13"
             },
             {
               "word": "ab",
@@ -33990,7 +35356,8 @@ BOOKS.push(...[
               "lemma": "discedo",
               "role": "advcl",
               "head": "iusserunt",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:13"
             },
             {
               "word": ":",
@@ -34018,7 +35385,8 @@ BOOKS.push(...[
               "lemma": "praeda",
               "role": "nsubj:pass",
               "head": "reservari",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:2:6"
             },
             {
               "word": "atque",
@@ -34039,7 +35407,8 @@ BOOKS.push(...[
               "lemma": "reservo",
               "role": "csubj",
               "head": "illorum",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:2:6"
             },
             {
               "word": "quaecumque",
@@ -34053,14 +35422,16 @@ BOOKS.push(...[
               "lemma": "romanus",
               "role": "nsubj",
               "head": "reliquissent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:2:9"
             },
             {
               "word": "reliquissent",
               "lemma": "relinquo",
               "role": "acl:relcl",
               "head": "illorum",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:9"
             },
             {
               "word": ":",
@@ -34081,7 +35452,8 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nsubj",
               "head": "existimarent",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:3:6"
             },
             {
               "word": "in",
@@ -34109,7 +35481,8 @@ BOOKS.push(...[
               "lemma": "existimo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:3:6"
             },
             {
               "word": ".",
@@ -34179,7 +35552,8 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "nsubj",
               "head": "ponebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:5:17"
             },
             {
               "word": ",",
@@ -34256,21 +35630,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "spem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:5:13"
             },
             {
               "word": "spem",
               "lemma": "spes",
               "role": "obj",
               "head": "ponebant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:5:13"
             },
             {
               "word": "salutis",
               "lemma": "salus",
               "role": "nmod",
               "head": "spem",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:13"
             },
             {
               "word": "in",
@@ -34291,7 +35668,8 @@ BOOKS.push(...[
               "lemma": "pono",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:17"
             },
             {
               "word": ",",
@@ -34319,21 +35697,24 @@ BOOKS.push(...[
               "lemma": "quisque",
               "role": "det",
               "head": "cohors",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind",
+              "agreement": "0:5:22"
             },
             {
               "word": "cohors",
               "lemma": "cohors",
               "role": "nsubj",
               "head": "procurrerat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:5:23"
             },
             {
               "word": "procurrerat",
               "lemma": "procurro",
               "role": "conj",
               "head": "ponebant",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:23"
             },
             {
               "word": ",",
@@ -34354,42 +35735,48 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:5:27"
             },
             {
               "word": "parte",
               "lemma": "pars",
               "role": "obl:arg",
               "head": "cadebat",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:5:27"
             },
             {
               "word": "magnus",
               "lemma": "magnus",
               "role": "amod",
               "head": "numerus",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:29"
             },
             {
               "word": "numerus",
               "lemma": "numerus",
               "role": "nsubj",
               "head": "cadebat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:29"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "numerus",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:5:29"
             },
             {
               "word": "cadebat",
               "lemma": "cado",
               "role": "conj",
               "head": "ponebant",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:31"
             },
             {
               "word": ".",
@@ -34403,28 +35790,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:6:2"
             },
             {
               "word": "re",
               "lemma": "res",
               "role": "obl",
               "head": "iubet",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "animadversa",
               "lemma": "animadversus",
               "role": "amod",
               "head": "re",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "Ambiorix",
               "lemma": "Ambiorix",
               "role": "nmod",
               "head": "re",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "pronuntiari",
@@ -34459,14 +35850,16 @@ BOOKS.push(...[
               "lemma": "procul",
               "role": "det",
               "head": "tela",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:6:10"
             },
             {
               "word": "tela",
               "lemma": "tela",
               "role": "obj",
               "head": "coniciant",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:6:10"
             },
             {
               "word": "coniciant",
@@ -34529,14 +35922,16 @@ BOOKS.push(...[
               "lemma": "pars",
               "role": "obl:arg",
               "head": "fecerint",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:6:19"
             },
             {
               "word": "Romani",
               "lemma": "romanus",
               "role": "nmod",
               "head": "partem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:19"
             },
             {
               "word": "impetum",
@@ -34578,14 +35973,16 @@ BOOKS.push(...[
               "lemma": "levitas",
               "role": "obl",
               "head": "posse",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:26"
             },
             {
               "word": "armorum",
               "lemma": "armus",
               "role": "nmod",
               "head": "levitate",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:6:26"
             },
             {
               "word": "et",
@@ -34599,21 +35996,24 @@ BOOKS.push(...[
               "lemma": "cotidianus",
               "role": "amod",
               "head": "exercitatione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:6:30"
             },
             {
               "word": "exercitatione",
               "lemma": "exsercitatio",
               "role": "conj",
               "head": "levitate",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:30"
             },
             {
               "word": "nihil",
               "lemma": "nihil",
               "role": "nsubj",
               "head": "posse",
-              "morph": "Polarity=Neg|PronType=Ind"
+              "morph": "Polarity=Neg|PronType=Ind",
+              "agreement": "0:6:34"
             },
             {
               "word": "eis",
@@ -34634,7 +36034,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "conj",
               "head": "cedant",
-              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|VerbForm=Inf|Voice=Act",
+              "agreement": "0:6:34"
             },
             {
               "word": ")",
@@ -34706,14 +36107,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "praecepto",
-              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:0:2"
             },
             {
               "word": "praecepto",
               "lemma": "praeceptum",
               "role": "obl",
               "head": "refugiebant",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:2"
             },
             {
               "word": "ab",
@@ -34762,14 +36165,16 @@ BOOKS.push(...[
               "lemma": "quaepius",
               "role": "amod",
               "head": "cohors",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:0:10"
             },
             {
               "word": "cohors",
               "lemma": "cohors",
               "role": "nsubj",
               "head": "excesserat",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:0:13"
             },
             {
               "word": "ex",
@@ -34790,7 +36195,8 @@ BOOKS.push(...[
               "lemma": "excedo",
               "role": "advcl",
               "head": "refugiebant",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:13"
             },
             {
               "word": "atque",
@@ -34825,7 +36231,8 @@ BOOKS.push(...[
               "lemma": "hoss",
               "role": "nsubj",
               "head": "refugiebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:20"
             },
             {
               "word": "velocissime",
@@ -34839,7 +36246,8 @@ BOOKS.push(...[
               "lemma": "refugio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:20"
             },
             {
               "word": ".",
@@ -34860,21 +36268,24 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "partem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:1:3"
             },
             {
               "word": "partem",
               "lemma": "pars",
               "role": "nsubj:pass",
               "head": "nudari",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:1:4"
             },
             {
               "word": "nudari",
               "lemma": "nudo",
               "role": "csubj",
               "head": "necesse",
-              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:1:4"
             },
             {
               "word": "necesse",
@@ -34923,14 +36334,16 @@ BOOKS.push(...[
               "lemma": "tela",
               "role": "nsubj:pass",
               "head": "recipi",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:1:12"
             },
             {
               "word": "recipi",
               "lemma": "recipio",
               "role": "conj",
               "head": "nudari",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:1:12"
             },
             {
               "word": ".",
@@ -34965,14 +36378,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "nmod",
               "head": "locum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "1:2:5"
             },
             {
               "word": "locum",
               "lemma": "locus",
               "role": "obj",
               "head": "reverti",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:2:5"
             },
             {
               "word": "unde",
@@ -35042,14 +36457,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "cesserant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:2:16"
             },
             {
               "word": "cesserant",
               "lemma": "cessero",
               "role": "acl:relcl",
               "head": "eis",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:16"
             },
             {
               "word": "et",
@@ -35077,7 +36494,8 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "steterant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "1:2:22"
             },
             {
               "word": "proximi",
@@ -35091,7 +36509,8 @@ BOOKS.push(...[
               "lemma": "stetero",
               "role": "acl:relcl",
               "head": "eis",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:22"
             },
             {
               "word": "circum",
@@ -35175,14 +36594,16 @@ BOOKS.push(...[
               "lemma": "locus",
               "role": "nsubj:pass",
               "head": "relinquebatur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:3:10"
             },
             {
               "word": "relinquebatur",
               "lemma": "relinquo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:3:10"
             },
             {
               "word": ",",
@@ -35210,14 +36631,16 @@ BOOKS.push(...[
               "lemma": "tantus",
               "role": "det",
               "head": "multitudine",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Ind"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Ind",
+              "agreement": "1:3:15"
             },
             {
               "word": "multitudine",
               "lemma": "multitudo",
               "role": "obl:arg",
               "head": "vitare",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:3:15"
             },
             {
               "word": "coniecta",
@@ -35231,7 +36654,8 @@ BOOKS.push(...[
               "lemma": "tela",
               "role": "nsubj",
               "head": "poterant",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:3:20"
             },
             {
               "word": "conferti",
@@ -35252,7 +36676,8 @@ BOOKS.push(...[
               "lemma": "possum",
               "role": "conj",
               "head": "relinquebatur",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:3:20"
             },
             {
               "word": ".",
@@ -35273,21 +36698,24 @@ BOOKS.push(...[
               "lemma": "tot",
               "role": "det",
               "head": "incommodis",
-              "morph": "PronType=Dem"
+              "morph": "PronType=Dem",
+              "agreement": "1:4:3"
             },
             {
               "word": "incommodis",
               "lemma": "incommodus",
               "role": "nsubj:pass",
               "head": "conflictati",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:4:4"
             },
             {
               "word": "conflictati",
               "lemma": "conflicto",
               "role": "advcl:abs",
               "head": "resistebant",
-              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:4:4"
             },
             {
               "word": ",",
@@ -35301,21 +36729,24 @@ BOOKS.push(...[
               "lemma": "multus",
               "role": "det",
               "head": "vulneribus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|NumType=Card|Number=Plur|PronType=Ind",
+              "agreement": "1:4:7"
             },
             {
               "word": "vulneribus",
               "lemma": "vulnis",
               "role": "nsubj:pass",
               "head": "acceptis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:4:8"
             },
             {
               "word": "acceptis",
               "lemma": "accipio",
               "role": "advcl:abs",
               "head": "resistebant",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass",
+              "agreement": "1:4:8"
             },
             {
               "word": "resistebant",
@@ -35336,21 +36767,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "parte",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:12"
             },
             {
               "word": "parte",
               "lemma": "pars",
               "role": "obl",
               "head": "consumpta",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:4:12"
             },
             {
               "word": "diei",
               "lemma": "dies",
               "role": "nmod",
               "head": "parte",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "1:4:12"
             },
             {
               "word": "consumpta",
@@ -35385,14 +36819,16 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "luce",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|NumType=Ord|Number=Sing",
+              "agreement": "1:4:19"
             },
             {
               "word": "luce",
               "lemma": "lux",
               "role": "obl:agent",
               "head": "pugnaretur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:4:19"
             },
             {
               "word": "ad",
@@ -35406,14 +36842,16 @@ BOOKS.push(...[
               "lemma": "hora",
               "role": "nmod",
               "head": "octavam",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:22"
             },
             {
               "word": "octavam",
               "lemma": "octavus",
               "role": "obl",
               "head": "pugnaretur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:4:22"
             },
             {
               "word": "pugnaretur",
@@ -35448,7 +36886,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nmod",
               "head": "indignum",
-              "morph": "Case=Dat|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Dat|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:4:29"
             },
             {
               "word": "esset",
@@ -35462,7 +36901,8 @@ BOOKS.push(...[
               "lemma": "indignus",
               "role": "ccomp",
               "head": "committebant",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:4:29"
             },
             {
               "word": "committebant",
@@ -35511,42 +36951,48 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "duxerat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "1:5:10"
             },
             {
               "word": "superiore",
               "lemma": "superior",
               "role": "amod",
               "head": "anno",
-              "morph": "Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:7"
             },
             {
               "word": "anno",
               "lemma": "annus",
               "role": "obl",
               "head": "duxerat",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:7"
             },
             {
               "word": "primum",
               "lemma": "primus",
               "role": "amod",
               "head": "pilum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Sing",
+              "agreement": "1:5:9"
             },
             {
               "word": "pilum",
               "lemma": "pilus",
               "role": "obj",
               "head": "duxerat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:9"
             },
             {
               "word": "duxerat",
               "lemma": "duco",
               "role": "acl:relcl",
               "head": "Balventio",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "1:5:10"
             },
             {
               "word": ",",
@@ -35560,14 +37006,16 @@ BOOKS.push(...[
               "lemma": "virus",
               "role": "obl",
               "head": "duxerat",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:12"
             },
             {
               "word": "forti",
               "lemma": "fortis",
               "role": "amod",
               "head": "viro",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:5:12"
             },
             {
               "word": "et",
@@ -35581,14 +37029,16 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "auctoritatis",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:16"
             },
             {
               "word": "auctoritatis",
               "lemma": "auctoritas",
               "role": "conj",
               "head": "forti",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:16"
             },
             {
               "word": ",",
@@ -35602,14 +37052,16 @@ BOOKS.push(...[
               "lemma": "uterque",
               "role": "det",
               "head": "femur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "1:5:19"
             },
             {
               "word": "femur",
               "lemma": "femur",
               "role": "nsubj:pass",
               "head": "traicitur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:5:21"
             },
             {
               "word": "tragula",
@@ -35623,7 +37075,8 @@ BOOKS.push(...[
               "lemma": "traico",
               "role": "conj",
               "head": "duxerat",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:5:21"
             },
             {
               "word": ";",
@@ -35637,14 +37090,16 @@ BOOKS.push(...[
               "lemma": "Quintus",
               "role": "amod",
               "head": "Lucanius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": "Lucanius",
               "lemma": "Lucanius",
               "role": "nsubj:pass",
               "head": "interficitur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": ",",
@@ -35658,14 +37113,16 @@ BOOKS.push(...[
               "lemma": "idem",
               "role": "det",
               "head": "ordinis",
-              "morph": "Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:6:5"
             },
             {
               "word": "ordinis",
               "lemma": "ordo",
               "role": "nmod",
               "head": "Lucanius",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:6:2"
             },
             {
               "word": ",",
@@ -35735,7 +37192,8 @@ BOOKS.push(...[
               "lemma": "interficio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:6:15"
             },
             {
               "word": ";",
@@ -35749,14 +37207,16 @@ BOOKS.push(...[
               "lemma": "Lucius",
               "role": "nsubj:pass",
               "head": "vulneratur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "1:7:1"
             },
             {
               "word": "Cotta",
               "lemma": "Cotta",
               "role": "amod",
               "head": "Lucius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:1"
             },
             {
               "word": "legatus",
@@ -35770,21 +37230,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "cohortes",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:7:5"
             },
             {
               "word": "cohortes",
               "lemma": "cohor",
               "role": "obj",
               "head": "adhortans",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur",
+              "agreement": "1:7:5"
             },
             {
               "word": "ordinesque",
               "lemma": "ordo",
               "role": "nmod",
               "head": "cohortes",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:7:5"
             },
             {
               "word": "adhortans",
@@ -35812,21 +37275,24 @@ BOOKS.push(...[
               "lemma": "os",
               "role": "obl:arg",
               "head": "vulneratur",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:7:10"
             },
             {
               "word": "funda",
               "lemma": "funda",
               "role": "nmod",
               "head": "os",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:7:10"
             },
             {
               "word": "vulneratur",
               "lemma": "vulnero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:7:12"
             },
             {
               "word": ".",
@@ -35860,14 +37326,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "rebus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:0:2"
             },
             {
               "word": "rebus",
               "lemma": "res",
               "role": "obl",
               "head": "permotus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur",
+              "agreement": "0:0:2"
             },
             {
               "word": "permotus",
@@ -35909,21 +37377,24 @@ BOOKS.push(...[
               "lemma": "procul",
               "role": "nsubj",
               "head": "conspexisset",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:12"
             },
             {
               "word": "Ambiorigem",
               "lemma": "ambiorigus",
               "role": "obj",
               "head": "conspexisset",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:9"
             },
             {
               "word": "suos",
               "lemma": "suus",
               "role": "det",
               "head": "Ambiorigem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:0:9"
             },
             {
               "word": "cohortantem",
@@ -35937,7 +37408,8 @@ BOOKS.push(...[
               "lemma": "conspicio",
               "role": "advcl",
               "head": "mittit",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:12"
             },
             {
               "word": ",",
@@ -35951,21 +37423,24 @@ BOOKS.push(...[
               "lemma": "interpres",
               "role": "amod",
               "head": "Gnaeum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:0:16"
             },
             {
               "word": "suum",
               "lemma": "suus",
               "role": "det",
               "head": "Gnaeum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:0:16"
             },
             {
               "word": "Gnaeum",
               "lemma": "gnaeus",
               "role": "obj",
               "head": "mittit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:16"
             },
             {
               "word": "Pompeium",
@@ -36042,7 +37517,8 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "respondit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:1:3"
             },
             {
               "word": "appellatus",
@@ -36056,7 +37532,8 @@ BOOKS.push(...[
               "lemma": "respondeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:3"
             },
             {
               "word": ":",
@@ -36084,14 +37561,16 @@ BOOKS.push(...[
               "lemma": "sui",
               "role": "nsubj",
               "head": "colloqui",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "0:2:4"
             },
             {
               "word": "colloqui",
               "lemma": "colloquor",
               "role": "xcomp",
               "head": "velit",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "0:2:4"
             },
             {
               "word": ",",
@@ -36175,14 +37654,16 @@ BOOKS.push(...[
               "lemma": "miles",
               "role": "nmod",
               "head": "salutem",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:3:10"
             },
             {
               "word": "salutem",
               "lemma": "salus",
               "role": "obl:arg",
               "head": "pertineat",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:10"
             },
             {
               "word": "pertineat",
@@ -36203,7 +37684,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "nihil",
-              "morph": "Case=Dat|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Dat|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:4:3"
             },
             {
               "word": "vero",
@@ -36217,7 +37699,8 @@ BOOKS.push(...[
               "lemma": "nihil",
               "role": "obj",
               "head": "nocitum",
-              "morph": "Polarity=Neg|PronType=Ind"
+              "morph": "Polarity=Neg|PronType=Ind",
+              "agreement": "0:4:3"
             },
             {
               "word": "nocitum",
@@ -36252,14 +37735,16 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "rem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:4:9"
             },
             {
               "word": "rem",
               "lemma": "res",
               "role": "nsubj",
               "head": "interponere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:4:13"
             },
             {
               "word": "se",
@@ -36273,21 +37758,24 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "fidem",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:4:12"
             },
             {
               "word": "fidem",
               "lemma": "fides",
               "role": "obj",
               "head": "interponere",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:4:12"
             },
             {
               "word": "interponere",
               "lemma": "interpono",
               "role": "advcl",
               "head": "nocitum",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act",
+              "agreement": "0:4:13"
             },
             {
               "word": ".",
@@ -36301,7 +37789,8 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "communicat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:5:5"
             },
             {
               "word": "cum",
@@ -36329,7 +37818,8 @@ BOOKS.push(...[
               "lemma": "communico",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:5"
             },
             {
               "word": ",",
@@ -36364,7 +37854,8 @@ BOOKS.push(...[
               "lemma": "pugna",
               "role": "nsubj",
               "head": "excedant",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:5:12"
             },
             {
               "word": "ut",
@@ -36378,7 +37869,8 @@ BOOKS.push(...[
               "lemma": "excedo",
               "role": "advcl",
               "head": "videatur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:12"
             },
             {
               "word": "et",
@@ -36399,14 +37891,16 @@ BOOKS.push(...[
               "lemma": "ambior",
               "role": "obl",
               "head": "colloquantur",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:5:15"
             },
             {
               "word": "una",
               "lemma": "unus",
               "role": "det",
               "head": "Ambiorige",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:5:15"
             },
             {
               "word": "colloquantur",
@@ -36455,7 +37949,8 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "amod",
               "head": "salute",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "0:6:8"
             },
             {
               "word": "ac",
@@ -36469,14 +37964,16 @@ BOOKS.push(...[
               "lemma": "miles",
               "role": "nmod",
               "head": "salute",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:6:8"
             },
             {
               "word": "salute",
               "lemma": "salus",
               "role": "obl",
               "head": "impetrari",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:6:8"
             },
             {
               "word": "impetrari",
@@ -36504,7 +38001,8 @@ BOOKS.push(...[
               "lemma": "Cotta",
               "role": "nsubj",
               "head": "negat",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:7:7"
             },
             {
               "word": "se",
@@ -36532,21 +38030,24 @@ BOOKS.push(...[
               "lemma": "hostim",
               "role": "obl",
               "head": "negat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:7:5"
             },
             {
               "word": "iturum",
               "lemma": "iturus",
               "role": "amod",
               "head": "hostem",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:7:5"
             },
             {
               "word": "negat",
               "lemma": "nego",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:7:7"
             },
             {
               "word": "atque",
@@ -36590,7 +38091,8 @@ BOOKS.push(...[
               "lemma": "Sabinus",
               "role": "nsubj",
               "head": "facit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:28"
             },
             {
               "word": "quos",
@@ -36618,14 +38120,16 @@ BOOKS.push(...[
               "lemma": "tribunus",
               "role": "nsubj",
               "head": "habebat",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:5"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "tribunos",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:5"
             },
             {
               "word": "circum",
@@ -36646,7 +38150,8 @@ BOOKS.push(...[
               "lemma": "habeo",
               "role": "acl:relcl",
               "head": "Sabinus",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:9"
             },
             {
               "word": "et",
@@ -36660,35 +38165,40 @@ BOOKS.push(...[
               "lemma": "primus",
               "role": "amod",
               "head": "ordinum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Plur",
+              "agreement": "1:0:12"
             },
             {
               "word": "ordinum",
               "lemma": "ordo",
               "role": "nmod",
               "head": "centuriones",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:13"
             },
             {
               "word": "centuriones",
               "lemma": "centurio",
               "role": "obj",
               "head": "sequi",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:0:13"
             },
             {
               "word": "se",
               "lemma": "sui",
               "role": "nsubj",
               "head": "sequi",
-              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes",
+              "agreement": "1:0:15"
             },
             {
               "word": "sequi",
               "lemma": "sequor",
               "role": "xcomp",
               "head": "iubet",
-              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass",
+              "agreement": "1:0:15"
             },
             {
               "word": "iubet",
@@ -36751,14 +38261,16 @@ BOOKS.push(...[
               "lemma": "iussus",
               "role": "amod",
               "head": "arma",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:0:25"
             },
             {
               "word": "arma",
               "lemma": "arma",
               "role": "obj",
               "head": "abicere",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:0:25"
             },
             {
               "word": "abicere",
@@ -36779,7 +38291,8 @@ BOOKS.push(...[
               "lemma": "facio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:0:28"
             },
             {
               "word": "suisque",
@@ -36877,14 +38390,16 @@ BOOKS.push(...[
               "lemma": "ago",
               "role": "advcl",
               "head": "interficitur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:1:8"
             },
             {
               "word": "longiorque",
               "lemma": "longiusqus",
               "role": "nsubj",
               "head": "agunt",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:8"
             },
             {
               "word": "consulto",
@@ -36912,14 +38427,16 @@ BOOKS.push(...[
               "lemma": "instituo",
               "role": "advcl",
               "head": "interficitur",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:1:13"
             },
             {
               "word": "sermo",
               "lemma": "sermo",
               "role": "nsubj:pass",
               "head": "instituitur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:1:13"
             },
             {
               "word": ",",
@@ -36975,14 +38492,16 @@ BOOKS.push(...[
               "lemma": "suus",
               "role": "det",
               "head": "more",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes",
+              "agreement": "1:2:4"
             },
             {
               "word": "more",
               "lemma": "mos",
               "role": "obl",
               "head": "conclamant",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:4"
             },
             {
               "word": "victoriam",
@@ -37024,7 +38543,8 @@ BOOKS.push(...[
               "lemma": "impetuqum",
               "role": "nsubj",
               "head": "perturbant",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:2:15"
             },
             {
               "word": "in",
@@ -37038,7 +38558,8 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "ordines",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "1:2:14"
             },
             {
               "word": "facto",
@@ -37052,14 +38573,16 @@ BOOKS.push(...[
               "lemma": "ordo",
               "role": "obj",
               "head": "perturbant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:2:14"
             },
             {
               "word": "perturbant",
               "lemma": "perturbo",
               "role": "conj",
               "head": "conclamant",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:2:15"
             },
             {
               "word": ".",
@@ -37080,7 +38603,8 @@ BOOKS.push(...[
               "lemma": "Lucius",
               "role": "nsubj:pass",
               "head": "interficitur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "1:3:5"
             },
             {
               "word": "Cotta",
@@ -37101,7 +38625,8 @@ BOOKS.push(...[
               "lemma": "interficio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:3:5"
             },
             {
               "word": "cum",
@@ -37115,21 +38640,24 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "parte",
-              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:3:8"
             },
             {
               "word": "parte",
               "lemma": "pars",
               "role": "obl",
               "head": "interficitur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:3:8"
             },
             {
               "word": "militum",
               "lemma": "miles",
               "role": "nmod",
               "head": "parte",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:3:8"
             },
             {
               "word": ".",
@@ -37143,7 +38671,8 @@ BOOKS.push(...[
               "lemma": "reliquus",
               "role": "nsubj",
               "head": "recipiunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind",
+              "agreement": "1:4:5"
             },
             {
               "word": "se",
@@ -37171,7 +38700,8 @@ BOOKS.push(...[
               "lemma": "recipio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:4:5"
             },
             {
               "word": "unde",
@@ -37220,21 +38750,24 @@ BOOKS.push(...[
               "lemma": "Lucius",
               "role": "nsubj:pass",
               "head": "premeretur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": "Petrosidius",
               "lemma": "petrosidus",
               "role": "amod",
               "head": "Lucius",
-              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": "aquilifer",
               "lemma": "aquilifer",
               "role": "amod",
               "head": "Lucius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing",
+              "agreement": "1:5:3"
             },
             {
               "word": ",",
@@ -37255,28 +38788,32 @@ BOOKS.push(...[
               "lemma": "magnus",
               "role": "amod",
               "head": "multitudine",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "1:5:9"
             },
             {
               "word": "multitudine",
               "lemma": "multitudo",
               "role": "obl",
               "head": "premeretur",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:5:9"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "multitudine",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:5:9"
             },
             {
               "word": "premeretur",
               "lemma": "premo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:5:11"
             },
             {
               "word": ",",
@@ -37325,7 +38862,8 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj:pass",
               "head": "occiditur",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "1:6:6"
             },
             {
               "word": "pro",
@@ -37360,7 +38898,8 @@ BOOKS.push(...[
               "lemma": "occido",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "1:6:6"
             },
             {
               "word": ".",
@@ -37374,7 +38913,8 @@ BOOKS.push(...[
               "lemma": "ille",
               "role": "nsubj",
               "head": "sustinent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:7:6"
             },
             {
               "word": "aegre",
@@ -37409,7 +38949,8 @@ BOOKS.push(...[
               "lemma": "sustineo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:7:6"
             },
             {
               "word": ";",
@@ -37444,7 +38985,8 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "salute",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "1:8:6"
             },
             {
               "word": "desperata",
@@ -37458,7 +39000,8 @@ BOOKS.push(...[
               "lemma": "salus",
               "role": "obl",
               "head": "interficiunt",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "1:8:6"
             },
             {
               "word": "se",
@@ -37472,14 +39015,16 @@ BOOKS.push(...[
               "lemma": "ipse",
               "role": "nsubj",
               "head": "interficiunt",
-              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "1:8:9"
             },
             {
               "word": "interficiunt",
               "lemma": "interficio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:8:9"
             },
             {
               "word": ".",
@@ -37493,7 +39038,8 @@ BOOKS.push(...[
               "lemma": "paucus",
               "role": "nsubj",
               "head": "perveniunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Ind",
+              "agreement": "1:9:15"
             },
             {
               "word": "ex",
@@ -37521,14 +39067,16 @@ BOOKS.push(...[
               "lemma": "incersus",
               "role": "amod",
               "head": "itineribus",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "1:9:6"
             },
             {
               "word": "itineribus",
               "lemma": "itieer",
               "role": "obl",
               "head": "lapsi",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "1:9:6"
             },
             {
               "word": "per",
@@ -37542,7 +39090,8 @@ BOOKS.push(...[
               "lemma": "silvas",
               "role": "obl",
               "head": "perveniunt",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "1:9:8"
             },
             {
               "word": "ad",
@@ -37556,14 +39105,16 @@ BOOKS.push(...[
               "lemma": "titus",
               "role": "nmod",
               "head": "silvas",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:9:8"
             },
             {
               "word": "Labienum",
               "lemma": "labien",
               "role": "nmod",
               "head": "silvas",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "1:9:8"
             },
             {
               "word": "legatum",
@@ -37591,7 +39142,8 @@ BOOKS.push(...[
               "lemma": "pervenio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "1:9:15"
             },
             {
               "word": "atque",
@@ -37685,28 +39237,32 @@ BOOKS.push(...[
               "lemma": "is",
               "role": "det",
               "head": "legione",
-              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs"
+              "morph": "Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs",
+              "agreement": "0:0:4"
             },
             {
               "word": "legione",
               "lemma": "legio",
               "role": "obl",
               "head": "fortissimi",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:0:4"
             },
             {
               "word": "fortissimi",
               "lemma": "fortis",
               "role": "amod",
               "head": "viri",
-              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:6"
             },
             {
               "word": "viri",
               "lemma": "virus",
               "role": "root",
               "head": "",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:0:6"
             },
             {
               "word": ",",
@@ -37734,28 +39290,32 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "appropinquarent",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel",
+              "agreement": "0:0:13"
             },
             {
               "word": "primis",
               "lemma": "primus",
               "role": "amod",
               "head": "ordinibus",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Plur"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurO|NumType=Ord|Number=Plur",
+              "agreement": "0:0:12"
             },
             {
               "word": "ordinibus",
               "lemma": "ordo",
               "role": "obl:arg",
               "head": "appropinquarent",
-              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:0:12"
             },
             {
               "word": "appropinquarent",
               "lemma": "appropinquo",
               "role": "acl:relcl",
               "head": "viri",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:0:13"
             },
             {
               "word": ",",
@@ -37790,14 +39350,16 @@ BOOKS.push(...[
               "lemma": "Lucius",
               "role": "conj",
               "head": "Titus",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing",
+              "agreement": "0:0:18"
             },
             {
               "word": "Vorenus",
               "lemma": "Vorenus",
               "role": "amod",
               "head": "Lucius",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:0:18"
             },
             {
               "word": ".",
@@ -37811,14 +39373,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "nsubj",
               "head": "habebant",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:1:6"
             },
             {
               "word": "perpetuas",
               "lemma": "perpetuus",
               "role": "amod",
               "head": "controversias",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:1:5"
             },
             {
               "word": "inter",
@@ -37839,14 +39403,16 @@ BOOKS.push(...[
               "lemma": "controversia",
               "role": "obj",
               "head": "habebant",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:1:5"
             },
             {
               "word": "habebant",
               "lemma": "habeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:1:6"
             },
             {
               "word": ",",
@@ -37881,14 +39447,16 @@ BOOKS.push(...[
               "lemma": "omnibus",
               "role": "amod",
               "head": "annis",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur",
+              "agreement": "0:1:12"
             },
             {
               "word": "annis",
               "lemma": "annus",
               "role": "obl",
               "head": "contendebant",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:1:12"
             },
             {
               "word": "de",
@@ -37909,14 +39477,16 @@ BOOKS.push(...[
               "lemma": "summus",
               "role": "amod",
               "head": "simultatibus",
-              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur"
+              "morph": "Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur",
+              "agreement": "0:1:16"
             },
             {
               "word": "simultatibus",
               "lemma": "simultas",
               "role": "obl",
               "head": "contendebant",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:1:16"
             },
             {
               "word": "contendebant",
@@ -37944,14 +39514,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "Pullo",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem",
+              "agreement": "0:2:3"
             },
             {
               "word": "Pullo",
               "lemma": "pullus",
               "role": "obl",
               "head": "dubitas",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:3"
             },
             {
               "word": ",",
@@ -38007,14 +39579,16 @@ BOOKS.push(...[
               "lemma": "\"qui",
               "role": "nsubj",
               "head": "dubitas",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:2:12"
             },
             {
               "word": "dubitas",
               "lemma": "dubeo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:2:12"
             },
             {
               "word": ",",
@@ -38070,35 +39644,40 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "det",
               "head": "locum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:3:3"
             },
             {
               "word": "locum",
               "lemma": "locus",
               "role": "obj",
               "head": "exspectas",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:3:3"
             },
             {
               "word": "tuae",
               "lemma": "tuus",
               "role": "det",
               "head": "virtutis",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs",
+              "agreement": "0:3:6"
             },
             {
               "word": "probandae",
               "lemma": "probo",
               "role": "acl",
               "head": "locum",
-              "morph": "Aspect=Prosp|Case=Gen|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Prosp|Case=Gen|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:3:5"
             },
             {
               "word": "virtutis",
               "lemma": "virtus",
               "role": "nmod",
               "head": "probandae",
-              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:3:5"
             },
             {
               "word": "exspectas",
@@ -38119,14 +39698,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "dies",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:4:2"
             },
             {
               "word": "dies",
               "lemma": "dies",
               "role": "nsubj",
               "head": "iudicabit.",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Sing",
+              "agreement": "0:4:6"
             },
             {
               "word": "de",
@@ -38140,21 +39721,24 @@ BOOKS.push(...[
               "lemma": "noster",
               "role": "det",
               "head": "controversiis",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs",
+              "agreement": "0:4:5"
             },
             {
               "word": "controversiis",
               "lemma": "controversia",
               "role": "obl",
               "head": "iudicabit.",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:4:5"
             },
             {
               "word": "iudicabit.",
               "lemma": "iudico",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:6"
             },
             {
               "word": "\"",
@@ -38217,28 +39801,32 @@ BOOKS.push(...[
               "lemma": "quisque",
               "role": "det",
               "head": "pars",
-              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Tot",
+              "agreement": "0:4:16"
             },
             {
               "word": "pars",
               "lemma": "pars",
               "role": "nsubj",
               "head": "irrumpit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing",
+              "agreement": "0:4:16"
             },
             {
               "word": "hostium",
               "lemma": "hostius",
               "role": "nmod",
               "head": "pars",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:4:16"
             },
             {
               "word": "confertissima",
               "lemma": "confertus",
               "role": "amod",
               "head": "pars",
-              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:4:16"
             },
             {
               "word": "est",
@@ -38259,7 +39847,8 @@ BOOKS.push(...[
               "lemma": "irrumpo",
               "role": "conj",
               "head": "procedit",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:4:21"
             },
             {
               "word": ".",
@@ -38280,7 +39869,8 @@ BOOKS.push(...[
               "lemma": "Vorenus",
               "role": "nsubj",
               "head": "continet",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:5:7"
             },
             {
               "word": "quidem",
@@ -38315,7 +39905,8 @@ BOOKS.push(...[
               "lemma": "contineo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:5:7"
             },
             {
               "word": ",",
@@ -38336,14 +39927,16 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "nmod",
               "head": "veritus",
-              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot"
+              "morph": "Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot",
+              "agreement": "0:5:11"
             },
             {
               "word": "veritus",
               "lemma": "veritus",
               "role": "nsubj",
               "head": "subsequitur",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:5:13"
             },
             {
               "word": "existimationem",
@@ -38357,7 +39950,8 @@ BOOKS.push(...[
               "lemma": "subsequor",
               "role": "conj",
               "head": "continet",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:5:13"
             },
             {
               "word": ".",
@@ -38371,28 +39965,32 @@ BOOKS.push(...[
               "lemma": "medioxr",
               "role": "amod",
               "head": "spatio",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "spatio",
               "lemma": "spatium",
               "role": "obl",
               "head": "immittit",
-              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:2"
             },
             {
               "word": "relicto",
               "lemma": "relinquo",
               "role": "advcl:abs",
               "head": "immittit",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:6:3"
             },
             {
               "word": "Pullo",
               "lemma": "pullus",
               "role": "nsubj:pass",
               "head": "relicto",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:6:3"
             },
             {
               "word": "pilum",
@@ -38476,14 +40074,16 @@ BOOKS.push(...[
               "lemma": "qui",
               "role": "nsubj",
               "head": "percusso",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:7:2"
             },
             {
               "word": "percusso",
               "lemma": "percutio",
               "role": "advcl:abs",
               "head": "protegunt",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:7:2"
             },
             {
               "word": "et",
@@ -38504,14 +40104,16 @@ BOOKS.push(...[
               "lemma": "hic",
               "role": "det",
               "head": "scutis",
-              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:7:6"
             },
             {
               "word": "scutis",
               "lemma": "scutus",
               "role": "obl:arg",
               "head": "protegunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:6"
             },
             {
               "word": "protegunt",
@@ -38546,21 +40148,24 @@ BOOKS.push(...[
               "lemma": "tela",
               "role": "nsubj",
               "head": "coniciunt",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:11"
             },
             {
               "word": "universi",
               "lemma": "universus",
               "role": "amod",
               "head": "tela",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:7:11"
             },
             {
               "word": "coniciunt",
               "lemma": "conicio",
               "role": "conj",
               "head": "protegunt",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:7:13"
             },
             {
               "word": "neque",
@@ -38602,21 +40207,24 @@ BOOKS.push(...[
               "lemma": "transfigo",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass",
+              "agreement": "0:8:1"
             },
             {
               "word": "scutum",
               "lemma": "scutus",
               "role": "nsubj:pass",
               "head": "Transfigitur",
-              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:2"
             },
             {
               "word": "Pulloni",
               "lemma": "pullonus",
               "role": "nmod",
               "head": "scutum",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:8:2"
             },
             {
               "word": "et",
@@ -38665,21 +40273,24 @@ BOOKS.push(...[
               "lemma": "averto",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:9:1"
             },
             {
               "word": "hic",
               "lemma": "hic",
               "role": "det",
               "head": "casus",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem",
+              "agreement": "0:9:3"
             },
             {
               "word": "casus",
               "lemma": "casus",
               "role": "nsubj",
               "head": "Avertit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:9:1"
             },
             {
               "word": "vaginam",
@@ -38721,7 +40332,8 @@ BOOKS.push(...[
               "lemma": "dexter",
               "role": "amod",
               "head": "manum",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:9:11"
             },
             {
               "word": "moratur",
@@ -38735,7 +40347,8 @@ BOOKS.push(...[
               "lemma": "manus",
               "role": "obj",
               "head": "moratur",
-              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing"
+              "morph": "Case=Acc|Gender=Fem|InflClass=IndEurU|Number=Sing",
+              "agreement": "0:9:11"
             },
             {
               "word": ",",
@@ -38756,14 +40369,16 @@ BOOKS.push(...[
               "lemma": "hoss",
               "role": "nsubj",
               "head": "circumsistunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:9:15"
             },
             {
               "word": "circumsistunt",
               "lemma": "circumspisto",
               "role": "conj",
               "head": "moratur",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:9:15"
             },
             {
               "word": ".",
@@ -38777,14 +40392,16 @@ BOOKS.push(...[
               "lemma": "succurro",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:10:1"
             },
             {
               "word": "inimicus",
               "lemma": "inimicus",
               "role": "nsubj",
               "head": "Succurrit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:10:1"
             },
             {
               "word": "illi",
@@ -38875,21 +40492,24 @@ BOOKS.push(...[
               "lemma": "omnis",
               "role": "det",
               "head": "multitudo",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot",
+              "agreement": "0:11:8"
             },
             {
               "word": "multitudo",
               "lemma": "multitudo",
               "role": "nsubj",
               "head": "convertit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:11:9"
             },
             {
               "word": "convertit",
               "lemma": "converto",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:11:9"
             },
             {
               "word": ":",
@@ -38938,14 +40558,16 @@ BOOKS.push(...[
               "lemma": "gladius",
               "role": "obl",
               "head": "gerit",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:13:1"
             },
             {
               "word": "comminus",
               "lemma": "comminus",
               "role": "nmod",
               "head": "Gladio",
-              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:13:1"
             },
             {
               "word": "rem",
@@ -38959,14 +40581,16 @@ BOOKS.push(...[
               "lemma": "gero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:13:4"
             },
             {
               "word": "Vorenus",
               "lemma": "Vorenus",
               "role": "nsubj",
               "head": "gerit",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:13:4"
             },
             {
               "word": "atque",
@@ -38980,28 +40604,32 @@ BOOKS.push(...[
               "lemma": "unus",
               "role": "det",
               "head": "interfecto",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|NumType=Card|NumValue=1|Number=Sing|PronType=Ind",
+              "agreement": "0:13:8"
             },
             {
               "word": "interfecto",
               "lemma": "interfero",
               "role": "obl",
               "head": "propellit",
-              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass"
+              "morph": "Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass",
+              "agreement": "0:13:8"
             },
             {
               "word": "reliquos",
               "lemma": "reliquus",
               "role": "amod",
               "head": "paulum",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:13:10"
             },
             {
               "word": "paulum",
               "lemma": "paulus",
               "role": "obj",
               "head": "propellit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:13:10"
             },
             {
               "word": "propellit",
@@ -39057,7 +40685,8 @@ BOOKS.push(...[
               "lemma": "locus",
               "role": "obl:arg",
               "head": "concidit",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:14:6"
             },
             {
               "word": "deiectus",
@@ -39071,7 +40700,8 @@ BOOKS.push(...[
               "lemma": "inferus",
               "role": "amod",
               "head": "locum",
-              "morph": "Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:14:6"
             },
             {
               "word": "concidit",
@@ -39113,14 +40743,16 @@ BOOKS.push(...[
               "lemma": "fero",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:15:4"
             },
             {
               "word": "subsidium",
               "lemma": "subsidium",
               "role": "nsubj",
               "head": "fert",
-              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:15:4"
             },
             {
               "word": "Pullo",
@@ -39148,21 +40780,24 @@ BOOKS.push(...[
               "lemma": "ambo",
               "role": "nsubj",
               "head": "recipiunt",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Ind"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Ind",
+              "agreement": "0:15:19"
             },
             {
               "word": "incolumes",
               "lemma": "incolus",
               "role": "amod",
               "head": "compluribus",
-              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur"
+              "morph": "Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur",
+              "agreement": "0:15:11"
             },
             {
               "word": "compluribus",
               "lemma": "complus",
               "role": "obl",
               "head": "recipiunt",
-              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur"
+              "morph": "Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur",
+              "agreement": "0:15:11"
             },
             {
               "word": "interfectis",
@@ -39218,7 +40853,8 @@ BOOKS.push(...[
               "lemma": "recipio",
               "role": "conj",
               "head": "fert",
-              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+              "agreement": "0:15:19"
             },
             {
               "word": ".",
@@ -39239,7 +40875,8 @@ BOOKS.push(...[
               "lemma": "fortuna",
               "role": "nsubj",
               "head": "versavit",
-              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing"
+              "morph": "Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing",
+              "agreement": "0:16:8"
             },
             {
               "word": "in",
@@ -39281,7 +40918,8 @@ BOOKS.push(...[
               "lemma": "versacio",
               "role": "root",
               "head": "",
-              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+              "morph": "Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+              "agreement": "0:16:8"
             },
             {
               "word": ",",
@@ -39302,21 +40940,24 @@ BOOKS.push(...[
               "lemma": "alter",
               "role": "nsubj",
               "head": "inimicus",
-              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:16:13"
             },
             {
               "word": "alteri",
               "lemma": "alter",
               "role": "nmod",
               "head": "inimicus",
-              "morph": "Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con"
+              "morph": "Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con",
+              "agreement": "0:16:13"
             },
             {
               "word": "inimicus",
               "lemma": "inimicus",
               "role": "amod",
               "head": "salutique",
-              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing"
+              "morph": "Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing",
+              "agreement": "0:16:15"
             },
             {
               "word": "auxilio",
@@ -39330,7 +40971,8 @@ BOOKS.push(...[
               "lemma": "salutus",
               "role": "obl",
               "head": "esset",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:16:15"
             },
             {
               "word": "esset",
@@ -39386,14 +41028,16 @@ BOOKS.push(...[
               "lemma": "uter",
               "role": "det",
               "head": "virtute",
-              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel"
+              "morph": "Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel",
+              "agreement": "0:16:24"
             },
             {
               "word": "virtute",
               "lemma": "virtus",
               "role": "obl",
               "head": "anteferendus",
-              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing"
+              "morph": "Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing",
+              "agreement": "0:16:24"
             },
             {
               "word": "anteferendus",

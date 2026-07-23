@@ -24,17 +24,26 @@ def parse_book(import_id: str, out_name: str) -> None:
         for line in lines:
             doc = pipeline(line)
             tokens = []
-            for sentence in doc.sentences:
+            for sentence_index, sentence in enumerate(doc.sentences):
                 words = sentence.words
+                agreement = {}
+                for index, word in enumerate(words, 1):
+                    if word.head and word.deprel in {"nsubj", "nsubj:pass", "amod", "det", "appos", "nmod"}:
+                        group = f"{len(chapter_lines)}:{sentence_index}:{word.head}"
+                        agreement[index] = group
+                        agreement[word.head] = group
                 for word in words:
                     head_word = words[word.head - 1].text if word.head else ""
-                    tokens.append({
+                    token = {
                         "word": word.text,
                         "lemma": word.lemma or "",
                         "role": word.deprel or "",
                         "head": head_word,
                         "morph": word.feats or "",
-                    })
+                    }
+                    if isinstance(word.id, int) and word.id in agreement:
+                        token["agreement"] = agreement[word.id]
+                    tokens.append(token)
             chapter_lines.append(tokens)
         syntax.append(chapter_lines)
     (folder / "syntax.json").write_text(json.dumps(syntax, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")

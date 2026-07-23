@@ -879,6 +879,13 @@ function syntaxRoleLabel(role) {
   return labels[role] || role || "syntactic role";
 }
 
+function syntaxPastel(group) {
+  const palette = ["#dbeafe", "#dcfce7", "#fef3c7", "#fce7f3", "#ede9fe", "#cffafe"];
+  let hash = 0;
+  for (const char of String(group || "")) hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  return palette[hash % palette.length];
+}
+
 function renderInteractiveLine(line, lang, syntaxTokens = null) {
   let syntaxIndex = 0;
   return String(line).split(/(\s+)/).map((part) => {
@@ -892,7 +899,7 @@ function renderInteractiveLine(line, lang, syntaxTokens = null) {
     const safeEn = htmlEscape(entry.en || entry.def);
     const safeNl = htmlEscape(entry.nl || "");
     const safeGrammar = htmlEscape(entry.grammar);
-    const syntaxAttrs = syntax ? ` data-syntax-role="${htmlEscape(syntax.role)}" data-syntax-head="${htmlEscape(syntax.head)}" data-syntax-morph="${htmlEscape(syntax.morph)}"` : "";
+    const syntaxAttrs = syntax ? ` data-syntax-role="${htmlEscape(syntax.role)}" data-syntax-head="${htmlEscape(syntax.head)}" data-syntax-morph="${htmlEscape(syntax.morph)}"${syntax.agreement ? ` data-syntax-agreement="${htmlEscape(syntax.agreement)}" style="--syntax-pastel:${syntaxPastel(syntax.agreement)}"` : ""}` : "";
     return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}"${syntaxAttrs}>${safeWord}</span>${after}`;
   }).join("");
 }
