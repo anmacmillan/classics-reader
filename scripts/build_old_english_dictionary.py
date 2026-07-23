@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = Path("/Users/alexandermacmillan/Downloads/doi-10.34894-totfgz.zip")
 OUTPUT = ROOT / "generated" / "imported-old-english-dictionary.js"
+BEOWULF_TEXT = ROOT / "imports" / "beowulf" / "old_english.txt"
 SEARCH_URL = "https://oldenglishthesaurus.arts.gla.ac.uk/category-selection"
 
 
@@ -175,6 +176,17 @@ def main() -> int:
             "grammar": "TOE",
             "lemma": word,
         })
+
+    # Preserve a dictionary key for every attested surface form.  These
+    # intentionally empty entries keep coverage honest while allowing app.js
+    # to use its existing live Old English Thesaurus fallback for forms that
+    # have no local lexical entry.
+    if BEOWULF_TEXT.exists():
+        for line in BEOWULF_TEXT.read_text(encoding="utf-8").splitlines():
+            for word in re.findall(r"[\wþðæƿȝ]+", line.lower(), flags=re.UNICODE):
+                key = normalise_key(word)
+                if key and key not in entries:
+                    entries[key] = {"def": "", "grammar": "TOE", "lemma": word}
 
     payload = json.dumps(entries, ensure_ascii=False, indent=2, sort_keys=True)
     OUTPUT.write_text(

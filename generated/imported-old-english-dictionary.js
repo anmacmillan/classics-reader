@@ -1527,6 +1527,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ā-ðenċan"
   },
+  "abead": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abead"
+  },
+  "abeag": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abeag"
+  },
+  "abealch": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abealch"
+  },
+  "abel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abel"
+  },
   "abelgan": {
     "def": "2280",
     "grammar": "vb.  3",
@@ -1542,10 +1562,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "ā-bīdan"
   },
+  "abreat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abreat"
+  },
   "abrecan": {
     "def": "break",
     "grammar": "vb. 4",
     "lemma": "ā-brecan"
+  },
+  "abredwade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abredwade"
   },
   "abredwian": {
     "def": "kill",
@@ -1557,10 +1587,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "ā-breġdan"
   },
+  "abreot": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abreot"
+  },
   "abreotan": {
     "def": "destroy, cut down, kill",
     "grammar": "vb. 2",
     "lemma": "ā-brēotan"
+  },
+  "abroten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abroten"
+  },
+  "abræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abræc"
+  },
+  "abræd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "abræd"
   },
   "abugan": {
     "def": "775 (n",
@@ -1577,10 +1627,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "ā-cennan"
   },
+  "acenned": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "acenned"
+  },
   "acigan": {
     "def": "summon",
     "grammar": "vb. I",
     "lemma": "ā-ċīġan"
+  },
+  "acigde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "acigde"
+  },
+  "acwealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "acwealde"
   },
   "acwellan": {
     "def": "886, 1055, 2121",
@@ -1591,6 +1656,16 @@ const OLD_ENGLISH_DICT = {
     "def": "utter",
     "grammar": "vb. 5",
     "lemma": "ā-cweðan"
+  },
+  "acwyð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "acwyð"
+  },
+  "acwæð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "acwæð"
   },
   "ad": {
     "def": "funeral pile or fire",
@@ -1607,10 +1682,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ād-faru"
   },
+  "ade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ade"
+  },
   "adfaru": {
     "def": "way to (onto) the funeral pile",
     "grammar": "f.",
     "lemma": "ād-faru"
+  },
+  "adfære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "adfære"
   },
   "adl": {
     "def": "disease",
@@ -1627,10 +1712,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ā-fēdan"
   },
+  "afeded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "afeded"
+  },
   "afyllan": {
     "def": "with)",
     "grammar": "vb. I",
     "lemma": "ā-fyllan"
+  },
+  "afylled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "afylled"
   },
   "ag": {
     "def": "adj",
@@ -1682,10 +1777,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ā-gangan"
   },
+  "agangen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "agangen"
+  },
   "age": {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "āgen"
+  },
+  "ageaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ageaf"
+  },
+  "ageald": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ageald"
   },
   "agen": {
     "def": "adj",
@@ -1717,10 +1827,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "āgend-frēa"
   },
+  "agendes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "agendes"
+  },
   "agendfrea": {
     "def": "lord",
     "grammar": "wk.",
     "lemma": "āgend-frēa"
+  },
+  "agendfrean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "agendfrean"
   },
   "agifan": {
     "def": "2929",
@@ -1732,10 +1852,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "āg-lǣċa"
   },
+  "aglæcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aglæcan"
+  },
+  "aglæcean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aglæcean"
+  },
   "aglæcwif": {
     "def": "troublemaker, female adversary",
     "grammar": "n.",
     "lemma": "āg-lǣċ-wīf"
+  },
+  "agol": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "agol"
   },
   "agyldan": {
     "def": "make pos-sible",
@@ -1767,6 +1902,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "āh-lǣċa"
   },
+  "ahafen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahafen"
+  },
   "ahebban": {
     "def": "lift, extract",
     "grammar": "vb. 6",
@@ -1777,35 +1917,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ā-hlēapan"
   },
+  "ahleop": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahleop"
+  },
   "ahli(e)hhan(ahlæhhan)": {
     "def": "LAUGH, exult",
     "grammar": "vb.  6",
     "lemma": "ā-hli(e)hhan(ā-hlæhhan)"
+  },
+  "ahlog": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahlog"
   },
   "ahlæca": {
     "def": "see āg-lǣċa",
     "grammar": "",
     "lemma": "āh-lǣċa"
   },
+  "ahlæcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahlæcan"
+  },
   "ahreddan": {
     "def": "2930",
     "grammar": "vb.  I",
     "lemma": "ā-hreddan"
+  },
+  "ahredde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahredde"
   },
   "ahsian(ascian)": {
     "def": "ASK, go in search of, seek",
     "grammar": "vb. II",
     "lemma": "āhsian(āscian)"
   },
+  "ahsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahsode"
+  },
+  "ahsodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahsodon"
+  },
   "aht": {
     "def": "anything",
     "grammar": "n.",
     "lemma": "āht"
   },
+  "ahte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahte"
+  },
   "ahyrdan": {
     "def": "1460",
     "grammar": "vb. I",
     "lemma": "ā-hyrdan"
+  },
+  "ahæfen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ahæfen"
   },
   "al walda": {
     "def": "omnipotent (one), God",
@@ -1827,6 +2007,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "al-walda"
   },
+  "alamp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alamp"
+  },
+  "aldor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldor"
+  },
   "aldor( )": {
     "def": "see ealdor(-)",
     "grammar": "",
@@ -1842,10 +2032,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "aldor(-)"
   },
+  "aldorbealu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorbealu"
+  },
+  "aldorceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorceare"
+  },
+  "aldordagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldordagum"
+  },
+  "aldorgedal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorgedal"
+  },
+  "aldorlease": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorlease"
+  },
+  "aldorleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorleasne"
+  },
+  "aldorþegn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldorþegn"
+  },
+  "aldre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldre"
+  },
+  "aldres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldres"
+  },
+  "aldrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aldrum"
+  },
   "alecgan": {
     "def": "lay down",
     "grammar": "vb. I",
     "lemma": "ā-lecgan"
+  },
+  "aledon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aledon"
+  },
+  "alegde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alegde"
+  },
+  "alegdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alegdon"
   },
   "aleh": {
     "def": "see ā-lēogan",
@@ -1862,20 +2117,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ā-licgan"
   },
+  "alicgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alicgean"
+  },
   "alimpan": {
     "def": "occur, arise, come (to pass)",
     "grammar": "vb. 3",
     "lemma": "ā-limpan"
+  },
+  "altogether": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "altogether"
+  },
+  "alumpen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alumpen"
   },
   "alwalda": {
     "def": "omnipotent (one), God",
     "grammar": "wk.",
     "lemma": "al-walda"
   },
+  "alwealdan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alwealdan"
+  },
+  "alyfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alyfde"
+  },
+  "alysed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alysed"
+  },
+  "alæg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alæg"
+  },
   "alætan": {
     "def": "give up",
     "grammar": "vb. 7",
     "lemma": "ā-lǣtan"
+  },
+  "alæte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "alæte"
   },
   "alуfan": {
     "def": "grant, entrust",
@@ -2087,6 +2382,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "an-wīġ-ġearo"
   },
+  "ana": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ana"
+  },
   "ancor": {
     "def": "303, 1883",
     "grammar": "m.",
@@ -2106,6 +2406,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ANCHOR-rope",
     "grammar": "fj",
     "lemma": "ancor-bend"
+  },
+  "ancre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ancre"
   },
   "and": {
     "def": "cf",
@@ -2247,6 +2552,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "anda"
   },
+  "andan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "andan"
+  },
   "anddrysno": {
     "def": "reverence",
     "grammar": "f",
@@ -2271,6 +2581,11 @@ const OLD_ENGLISH_DICT = {
     "def": "extending away in the opposite direction (OED)",
     "grammar": "adj.",
     "lemma": "and-long"
+  },
+  "andlongne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "andlongne"
   },
   "andrysn": {
     "def": "see and-drysno",
@@ -2297,6 +2612,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "and-swarian(w.chiefstressonprefix)"
   },
+  "andswarode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "andswarode"
+  },
   "andswaru": {
     "def": "1493",
     "grammar": "f.",
@@ -2312,10 +2632,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "and-wlita"
   },
+  "andwlitan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "andwlitan"
+  },
+  "ane": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ane"
+  },
+  "anes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anes"
+  },
   "anfeald": {
     "def": "simple, plain",
     "grammar": "adj.",
     "lemma": "ān-feald"
+  },
+  "anfealdne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anfealdne"
   },
   "ang": {
     "def": "ONly",
@@ -2327,10 +2667,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ānga"
   },
+  "angan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "angan"
+  },
   "ange": {
     "def": "ONly",
     "grammar": "wk.",
     "lemma": "ānga"
+  },
+  "angeald": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "angeald"
   },
   "angeat": {
     "def": "see on-ġitan",
@@ -2341,6 +2691,11 @@ const OLD_ENGLISH_DICT = {
     "def": "one who goes alONE, solitary one (Grendel)",
     "grammar": "wk.",
     "lemma": "ān-genġa"
+  },
+  "angengea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "angengea"
   },
   "angyldan": {
     "def": "pay (a pen-alty) for",
@@ -2357,15 +2712,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "an-hār"
   },
+  "anhydig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anhydig"
+  },
   "anhуdig": {
     "def": "resolute, strong-minded",
     "grammar": "adj.",
     "lemma": "ān-hӯdiġ"
   },
+  "anne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anne"
+  },
+  "anpaðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anpaðas"
+  },
   "anpæð": {
     "def": "ONE-by-one PATH, narrow path (Bu",
     "grammar": "m.",
     "lemma": "ān-pæð"
+  },
+  "anra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anra"
+  },
+  "anre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anre"
   },
   "anræd": {
     "def": "1575",
@@ -2377,6 +2757,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "an-sund"
   },
+  "ansyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ansyn"
+  },
+  "ansyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ansyne"
+  },
   "ansуn": {
     "def": "form, sight",
     "grammar": "fi.",
@@ -2386,6 +2776,11 @@ const OLD_ENGLISH_DICT = {
     "def": "fixed or appropriate time, time when something is due",
     "grammar": "fi.",
     "lemma": "ān-tīd"
+  },
+  "anum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anum"
   },
   "anung": {
     "def": "by all means, certainly",
@@ -2406,6 +2801,11 @@ const OLD_ENGLISH_DICT = {
     "def": "God",
     "grammar": "wk.",
     "lemma": "an-walda"
+  },
+  "anwaldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "anwaldan"
   },
   "anwiggearo": {
     "def": "adj",
@@ -2452,6 +2852,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ār-stafas"
   },
+  "aras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aras"
+  },
+  "arað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arað"
+  },
+  "are": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "are"
+  },
   "arfæst": {
     "def": "merciful",
     "grammar": "adj.",
@@ -2472,35 +2887,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "ārian"
   },
+  "aris": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aris"
+  },
   "arisan": {
     "def": "ARISE (lit",
     "grammar": "vb. 1",
     "lemma": "ā-rīsan"
+  },
+  "arna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arna"
+  },
+  "arscyldinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arscyldinga"
+  },
+  "arscyldingum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arscyldingum"
   },
   "arstafas": {
     "def": "generosity, favor, grace",
     "grammar": "m.",
     "lemma": "ār-stafas"
   },
+  "arstafum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arstafum"
+  },
+  "arum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arum"
+  },
   "aræran": {
     "def": "establish, exalt",
     "grammar": "vb. I",
     "lemma": "ā-rǣran"
+  },
+  "arærdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "arærdon"
+  },
+  "aræred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aræred"
   },
   "asecgan": {
     "def": "declare",
     "grammar": "vb. III",
     "lemma": "ā-secgan"
   },
+  "aseted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aseted"
+  },
   "asettan": {
     "def": "place, appoint",
     "grammar": "vb. I",
     "lemma": "ā-settan"
   },
+  "asetton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "asetton"
+  },
   "asingan": {
     "def": "1159",
     "grammar": "vb. 3",
     "lemma": "ā-singan"
+  },
+  "astag": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "astag"
+  },
+  "astah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "astah"
   },
   "astandan": {
     "def": "get up",
@@ -2512,10 +2987,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "ā-stīgan"
   },
+  "astigeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "astigeð"
+  },
+  "astod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "astod"
+  },
+  "asungen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "asungen"
+  },
   "aswebban": {
     "def": "(put to sleep), kill",
     "grammar": "vb. I",
     "lemma": "ā-swebban"
+  },
+  "aswefede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aswefede"
+  },
+  "ateah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ateah"
+  },
+  "atelic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "atelic"
   },
   "atelic(=atol lic)": {
     "def": "horrible, dreaded",
@@ -2562,10 +3067,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "āter-tān"
   },
+  "atertanum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "atertanum"
+  },
   "atol": {
     "def": "dire, terrible (applied 7× [marked+] to the monsters, see Kl",
     "grammar": "adj.",
     "lemma": "atol"
+  },
+  "atolan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "atolan"
+  },
+  "atole": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "atole"
+  },
+  "attor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "attor"
   },
   "attor sceaða": {
     "def": "venomous enemy (dragon)",
@@ -2597,6 +3122,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "āttor-sceaða"
   },
+  "attres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "attres"
+  },
   "aw": {
     "def": "always",
     "grammar": "adv.",
@@ -2617,10 +3147,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ā-wrecan"
   },
+  "awræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "awræc"
+  },
   "awyrdan": {
     "def": "destroy",
     "grammar": "vb.  I",
     "lemma": "ā-wyrdan"
+  },
+  "awyrded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "awyrded"
   },
   "að": {
     "def": "2739",
@@ -2637,15 +3177,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "āð-sweord"
   },
+  "aða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aða"
+  },
   "aðencan": {
     "def": "intend",
     "grammar": "vb. I",
     "lemma": "ā-ðenċan"
   },
+  "aðohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aðohte"
+  },
   "aðsweord": {
     "def": "OATH",
     "grammar": "n.",
     "lemma": "āð-sweord"
+  },
+  "aþas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aþas"
   },
   "aþum sweoras": {
     "def": "son-in-law and father-in-law",
@@ -2672,6 +3227,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "āþum-swēoras"
   },
+  "aþumsweorum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "aþumsweorum"
+  },
   "b": {
     "def": "2578",
     "grammar": "n.",
@@ -2682,6 +3242,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bā"
   },
+  "bad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bad"
+  },
   "baldor": {
     "def": "see bealdor",
     "grammar": "",
@@ -2691,6 +3256,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see bealo",
     "grammar": "",
     "lemma": "balu"
+  },
+  "balwon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "balwon"
   },
   "bam": {
     "def": "see bēġen",
@@ -2797,20 +3367,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "bana"
   },
+  "banan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banan"
+  },
   "bancofa": {
     "def": "body",
     "grammar": "wk.",
     "lemma": "bān-cofa"
+  },
+  "bancofan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bancofan"
   },
   "bane": {
     "def": "murderer",
     "grammar": "wk.",
     "lemma": "bana"
   },
+  "banena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banena"
+  },
   "banfag": {
     "def": "decorated with BONE, i",
     "grammar": "adj.",
     "lemma": "bān-fāg"
+  },
+  "banfatu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banfatu"
   },
   "banfæt": {
     "def": "body",
@@ -2827,6 +3417,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "bān-hrinġ"
   },
+  "banhringas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banhringas"
+  },
   "banhus": {
     "def": "body",
     "grammar": "n.",
@@ -2836,6 +3431,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(BONE LOCKer), joint",
     "grammar": "wk.",
     "lemma": "bān-loca"
+  },
+  "banlocan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banlocan"
+  },
+  "banum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "banum"
   },
   "bat": {
     "def": "ship",
@@ -2856,6 +3461,11 @@ const OLD_ENGLISH_DICT = {
     "def": "BOAT-GUARD, boat-keeper",
     "grammar": "m.",
     "lemma": "bāt-weard"
+  },
+  "batwearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "batwearde"
   },
   "be": {
     "def": "2578",
@@ -3857,6 +4467,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bēacen"
   },
+  "beacna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beacna"
+  },
   "beado": {
     "def": "fwō",
     "grammar": "",
@@ -3942,6 +4557,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "beado-grīma"
   },
+  "beadogriman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadogriman"
+  },
   "beadohrægl": {
     "def": "war-garment, shirt (or coat) of mail",
     "grammar": "n.",
@@ -3952,6 +4572,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "beado-lēoma"
   },
+  "beadomecas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadomecas"
+  },
   "beadomece": {
     "def": "battle-sword",
     "grammar": "mja.",
@@ -3961,6 +4586,11 @@ const OLD_ENGLISH_DICT = {
     "def": "warrior",
     "grammar": "m.",
     "lemma": "beado-rinċ"
+  },
+  "beadorinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadorinca"
   },
   "beadu folm": {
     "def": "battle-hand",
@@ -4042,20 +4672,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "beadu-folm"
   },
+  "beadufolme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadufolme"
+  },
   "beadulac": {
     "def": "(battle-sport, -exercise), battle",
     "grammar": "n.",
     "lemma": "beadu-lāc"
+  },
+  "beadulace": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadulace"
   },
   "beadurof": {
     "def": "bold in battle",
     "grammar": "adj.",
     "lemma": "beadu-rōf"
   },
+  "beadurofes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadurofes"
+  },
   "beadurun": {
     "def": "battle-counsel (-RUNE), hostile speech",
     "grammar": "f.",
     "lemma": "beadu-rūn"
+  },
+  "beadurune": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadurune"
   },
   "beaduscearp": {
     "def": "battle-SHARP",
@@ -4067,10 +4717,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "beadu-scrūd"
   },
+  "beaduscruda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beaduscruda"
+  },
   "beaduserce": {
     "def": "(battle-SARK), coat of mail",
     "grammar": "wk.",
     "lemma": "beadu-serċe"
+  },
+  "beadusercean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadusercean"
+  },
+  "beaduwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beaduwe"
+  },
+  "beadwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadwa"
+  },
+  "beadwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beadwe"
   },
   "beag": {
     "def": "(precious) ring, circlet, (bracelet, collar",
@@ -4117,10 +4792,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "bēag-hroden"
   },
+  "beaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beaga"
+  },
+  "beagas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beagas"
+  },
+  "beage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beage"
+  },
+  "beages": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beages"
+  },
   "beaggyfa": {
     "def": "ring-GIVer, lord, king",
     "grammar": "wk.",
     "lemma": "bēag-ġyfa"
+  },
+  "beaggyfan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beaggyfan"
   },
   "beaghroden": {
     "def": "ring-adorned (cf",
@@ -4192,6 +4892,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bēah-hord"
   },
+  "beahhorda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beahhorda"
+  },
+  "beahhordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beahhordes"
+  },
+  "beahhordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beahhordum"
+  },
   "beahsele": {
     "def": "ring-hall, hall (in which rings are given)",
     "grammar": "mi.",
@@ -4201,6 +4916,16 @@ const OLD_ENGLISH_DICT = {
     "def": "ring-band, ring, circlet",
     "grammar": "wk.",
     "lemma": "bēah-wriða"
+  },
+  "beahwriðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beahwriðan"
+  },
+  "beahðege": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beahðege"
   },
   "beahðegu": {
     "def": "receiving of a ring",
@@ -4222,10 +4947,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "bealdian"
   },
+  "bealdode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealdode"
+  },
   "bealdor": {
     "def": "(prec",
     "grammar": "m.",
     "lemma": "bealdor"
+  },
+  "bealewa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealewa"
   },
   "bealo": {
     "def": "adj",
@@ -4297,6 +5032,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "bealo-hycgende"
   },
+  "bealohycgendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealohycgendra"
+  },
+  "bealohydig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealohydig"
+  },
   "bealohуdig": {
     "def": "intending harm, hostile",
     "grammar": "adj.",
@@ -4307,6 +5052,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "bealo-nīð"
   },
+  "bealoniðbiorna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealoniðbiorna"
+  },
+  "bealoniðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealoniðe"
+  },
+  "bealuwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealuwa"
+  },
+  "bealwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealwa"
+  },
+  "bealwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bealwe"
+  },
+  "beanstanes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beanstanes"
+  },
   "bearhtm": {
     "def": "noise",
     "grammar": "m.",
@@ -4316,6 +5091,11 @@ const OLD_ENGLISH_DICT = {
     "def": "breast, embrace",
     "grammar": "m.",
     "lemma": "bearm"
+  },
+  "bearme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bearme"
   },
   "bearn": {
     "def": "son",
@@ -4332,15 +5112,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "bearn-ġebyrdo"
   },
+  "bearna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bearna"
+  },
+  "bearne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bearne"
+  },
   "bearngebyrdo": {
     "def": "OEG §589",
     "grammar": "f",
     "lemma": "bearn-ġebyrdo"
   },
+  "bearnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bearnum"
+  },
   "bearu": {
     "def": "wood",
     "grammar": "mwa.",
     "lemma": "bearu"
+  },
+  "bearwas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bearwas"
   },
   "beat": {
     "def": "strike, stamp",
@@ -4357,6 +5157,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "bēatan"
   },
+  "beateð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beateð"
+  },
+  "bebead": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bebead"
+  },
   "bebeodan": {
     "def": "order",
     "grammar": "vb. 2",
@@ -4367,15 +5177,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "be-beorgan"
   },
+  "bebeorh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bebeorh"
+  },
+  "bebohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bebohte"
+  },
   "bebugan": {
     "def": "surround",
     "grammar": "vb. 2",
     "lemma": "be-būgan"
   },
+  "bebugeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bebugeð"
+  },
   "bebycgan": {
     "def": "for)",
     "grammar": "vb. I",
     "lemma": "be-bycgan"
+  },
+  "becearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "becearf"
   },
   "beceorfan": {
     "def": "w",
@@ -4387,30 +5217,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bēcn"
   },
+  "becom": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "becom"
+  },
   "becuman": {
     "def": "115, 192, 2552 (w",
     "grammar": "vb.  4",
     "lemma": "be-cuman"
+  },
+  "becwom": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "becwom"
+  },
+  "bed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bed"
   },
   "bed(d)": {
     "def": "1791",
     "grammar": "nja.",
     "lemma": "bed(d)"
   },
+  "beddes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beddes"
+  },
+  "beddum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beddum"
+  },
   "bedælan": {
     "def": "deprive",
     "grammar": "vb. I",
     "lemma": "be-dǣlan"
+  },
+  "bedæled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bedæled"
   },
   "bee": {
     "def": "bēo(ð), see eom",
     "grammar": "b",
     "lemma": "bēon"
   },
+  "befangen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "befangen"
+  },
   "befeallan": {
     "def": "w",
     "grammar": "vb. 7",
     "lemma": "be-feallan"
+  },
+  "befeallen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "befeallen"
   },
   "befleon": {
     "def": "escape",
@@ -4421,6 +5291,11 @@ const OLD_ENGLISH_DICT = {
     "def": "encompass, encircle, envelop",
     "grammar": "vb. 7",
     "lemma": "be-fōn"
+  },
+  "befongen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "befongen"
   },
   "beforan": {
     "def": "in front",
@@ -4437,6 +5312,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bēg"
   },
+  "bega": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bega"
+  },
   "begang": {
     "def": "see be-gong",
     "grammar": "",
@@ -4447,10 +5327,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "bēġen"
   },
+  "begeat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "begeat"
+  },
+  "begeate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "begeate"
+  },
+  "begeaton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "begeaton"
+  },
   "begen": {
     "def": "769, 2707",
     "grammar": "num.",
     "lemma": "bēġen"
+  },
+  "beget": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beget"
   },
   "begitan": {
     "def": "obtain",
@@ -4461,6 +5361,11 @@ const OLD_ENGLISH_DICT = {
     "def": "lament, grieve over",
     "grammar": "vb. II",
     "lemma": "be-gnornian"
+  },
+  "begnornodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "begnornodon"
   },
   "begong": {
     "def": "compass, expanse, region",
@@ -4482,20 +5387,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 4",
     "lemma": "be-helan"
   },
+  "beheold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beheold"
+  },
+  "behofað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "behofað"
+  },
   "behofian": {
     "def": "have need of, require",
     "grammar": "vb. II",
     "lemma": "be-hōfian"
+  },
+  "beholen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beholen"
   },
   "behon": {
     "def": "instr",
     "grammar": "vb. 7",
     "lemma": "be-hōn"
   },
+  "behongen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "behongen"
+  },
   "behreosan": {
     "def": "apm",
     "grammar": "vb.  2",
     "lemma": "be-hrēosan"
+  },
+  "behrorene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "behrorene"
   },
   "beirnan": {
     "def": "‘came into his mind’ (‘occurred’ to him), 67",
@@ -4506,6 +5436,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see bǣl",
     "grammar": "",
     "lemma": "bēl"
+  },
+  "belamp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "belamp"
+  },
+  "beleac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beleac"
   },
   "belean": {
     "def": "dissuade or keep from",
@@ -4522,10 +5462,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "be-limpan"
   },
+  "beloren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beloren"
+  },
   "belucan": {
     "def": "close",
     "grammar": "vb. 2",
     "lemma": "be-lūcan"
+  },
+  "bemearn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bemearn"
   },
   "bemiðan": {
     "def": "[2217]",
@@ -4562,6 +5512,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "bēna"
   },
+  "benam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "benam"
+  },
+  "benan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "benan"
+  },
   "benc": {
     "def": "1188, 1243, bugon þā tō benċe: 327, 1013",
     "grammar": "fi.",
@@ -4587,6 +5547,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "benċ-þel"
   },
+  "bence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bence"
+  },
   "bencsweg": {
     "def": "BENCH-noise, conviv-ial sound",
     "grammar": "mi.",
@@ -4597,15 +5562,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "benċ-þel"
   },
+  "bencþelu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bencþelu"
+  },
   "bend": {
     "def": "fetter",
     "grammar": "fj",
     "lemma": "bend"
   },
+  "bendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bendum"
+  },
   "bene": {
     "def": "petitioning",
     "grammar": "wk.",
     "lemma": "bēna"
+  },
+  "benemdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "benemdon"
   },
   "benemnanvb.i": {
     "def": "1097",
@@ -4622,10 +5602,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ben-ġeat"
   },
+  "bengeato": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bengeato"
+  },
   "beniman": {
     "def": "deprive of (dat",
     "grammar": "vb. 4",
     "lemma": "be-niman"
+  },
+  "benne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "benne"
+  },
+  "beo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beo"
   },
   "beod": {
     "def": "tender, give",
@@ -4656,6 +5651,11 @@ const OLD_ENGLISH_DICT = {
     "def": "table-companion",
     "grammar": "m.",
     "lemma": "bēod-ġenēat"
+  },
+  "beodgeneatas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beodgeneatas"
   },
   "beon": {
     "def": "bēo(ð), see eom",
@@ -4702,6 +5702,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "bēor-þegu"
   },
+  "beore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beore"
+  },
   "beorg": {
     "def": "preserve, save, protect",
     "grammar": "vb. 3",
@@ -4712,10 +5717,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "beorgan"
   },
+  "beorgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorgas"
+  },
   "beorge": {
     "def": "preserve, save, protect",
     "grammar": "vb. 3",
     "lemma": "beorgan"
+  },
+  "beorges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorges"
   },
   "beorh": {
     "def": "adv",
@@ -4726,6 +5741,21 @@ const OLD_ENGLISH_DICT = {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "beorhte"
+  },
+  "beorhta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhta"
+  },
+  "beorhtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtan"
+  },
+  "beorhtdena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtdena"
   },
   "beorhte": {
     "def": "adv",
@@ -4747,6 +5777,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "beorhtian"
   },
+  "beorhtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtne"
+  },
+  "beorhtode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtode"
+  },
+  "beorhtost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtost"
+  },
+  "beorhtre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtre"
+  },
+  "beorhtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorhtum"
+  },
   "beorn": {
     "def": "1880, see byrnan",
     "grammar": "1880",
@@ -4762,20 +5817,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "beorn-cyning"
   },
+  "beorna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorna"
+  },
+  "beornas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beornas"
+  },
   "beorncyning": {
     "def": "(warrior-) KING",
     "grammar": "m.",
     "lemma": "beorn-cyning"
+  },
+  "beorne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorne"
   },
   "beorscealc": {
     "def": "‘BEER’-drinker, feaster (see Kl",
     "grammar": "m.",
     "lemma": "bēor-scealc"
   },
+  "beorscealca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorscealca"
+  },
   "beorsele": {
     "def": "‘BEER’-hall, banquet-hall",
     "grammar": "mi.",
     "lemma": "bēor-sele"
+  },
+  "beorþege": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beorþege"
   },
   "beorþegu": {
     "def": "(‘BEER’-taking), liquor-drinking",
@@ -4802,6 +5882,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "bēot-word"
   },
+  "beotwordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beotwordum"
+  },
+  "beowulf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beowulf"
+  },
+  "beowulfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beowulfe"
+  },
+  "beowulfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beowulfes"
+  },
   "ber": {
     "def": "carry, wear, bring",
     "grammar": "vb. 4",
@@ -4822,6 +5922,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "be-rēafian"
   },
+  "bereafod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bereafod"
+  },
+  "beredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beredon"
+  },
+  "beren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beren"
+  },
   "bereofan": {
     "def": "w",
     "grammar": "vb.  2",
@@ -4841,6 +5956,11 @@ const OLD_ENGLISH_DICT = {
     "def": "BARE, make clear",
     "grammar": "vb. I",
     "lemma": "berian"
+  },
+  "berofene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "berofene"
   },
   "berst": {
     "def": "BURST (intr",
@@ -4867,6 +5987,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "be-settan"
   },
+  "besette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "besette"
+  },
   "besittan": {
     "def": "2936",
     "grammar": "vb.  5",
@@ -4877,10 +6002,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "be-smiþian"
   },
+  "besmiþod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "besmiþod"
+  },
+  "besnyðede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "besnyðede"
+  },
   "besnyððan": {
     "def": "deprive (dat",
     "grammar": "vb.  I",
     "lemma": "be-snyððan"
+  },
+  "bestymed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bestymed"
   },
   "bestуman": {
     "def": "wet, suffuse",
@@ -4892,10 +6032,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "be-swǣlan"
   },
+  "beswæled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beswæled"
+  },
+  "besyred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "besyred"
+  },
   "besyrwan": {
     "def": "entrap, trick",
     "grammar": "vb. I",
     "lemma": "be-syrwan"
+  },
+  "besæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "besæt"
   },
   "bet lic": {
     "def": "excellent, splendid",
@@ -4932,20 +6087,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "be-timbran"
   },
+  "betimbredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "betimbredon"
+  },
   "betlic": {
     "def": "excellent, splendid",
     "grammar": "adj.",
     "lemma": "bet-liċ"
+  },
+  "betost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "betost"
+  },
+  "betst": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "betst"
+  },
+  "betsta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "betsta"
+  },
+  "betstan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "betstan"
+  },
+  "bewand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewand"
+  },
+  "bewenede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewenede"
   },
   "bewennan": {
     "def": "attend to, entertain",
     "grammar": "vb. I",
     "lemma": "be-wennan"
   },
+  "beweotede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beweotede"
+  },
   "beweotian": {
     "def": "see be-witian",
     "grammar": "",
     "lemma": "be-weotian"
+  },
+  "beweotode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beweotode"
+  },
+  "beweredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beweredon"
   },
   "bewerian": {
     "def": "defend against (dat",
@@ -4962,6 +6167,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "be-witian"
   },
+  "bewitiað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewitiað"
+  },
+  "bewitigað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewitigað"
+  },
+  "beworhton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "beworhton"
+  },
+  "bewunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewunden"
+  },
   "bewyrcan": {
     "def": "sur-round",
     "grammar": "vb.  I",
@@ -4971,6 +6196,11 @@ const OLD_ENGLISH_DICT = {
     "def": "offer",
     "grammar": "vb.  I",
     "lemma": "be-wæġnan"
+  },
+  "bewægned": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bewægned"
   },
   "bi": {
     "def": "cut",
@@ -5092,10 +6322,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "bīdan"
   },
+  "bidon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bidon"
+  },
   "bifon": {
     "def": "see be-fōn",
     "grammar": "",
     "lemma": "bi-fōn"
+  },
+  "bifongen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bifongen"
   },
   "big": {
     "def": "see be",
@@ -5107,10 +6347,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bi-gong"
   },
+  "bil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bil"
+  },
   "bil(l)": {
     "def": "blade",
     "grammar": "n.",
     "lemma": "bil(l)"
+  },
+  "bill": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bill"
+  },
+  "billa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "billa"
+  },
+  "bille": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bille"
+  },
+  "billes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "billes"
+  },
+  "billum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "billum"
   },
   "bind": {
     "def": "join",
@@ -5127,10 +6397,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "bindan"
   },
+  "bineat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bineat"
+  },
   "bineotan": {
     "def": "see be-nēotan",
     "grammar": "",
     "lemma": "bi-nēotan"
+  },
+  "bio": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bio"
   },
   "bio(ð)": {
     "def": "see bēon",
@@ -5167,10 +6447,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bīor-"
   },
+  "biorgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biorgas"
+  },
+  "biorges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biorges"
+  },
   "biorh": {
     "def": "see beorg",
     "grammar": "",
     "lemma": "biorh"
+  },
+  "biorn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biorn"
   },
   "biorn( )": {
     "def": "see beorn(-)",
@@ -5187,10 +6482,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "biorn(-)"
   },
+  "biorsele": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biorsele"
+  },
+  "biowulf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biowulf"
+  },
+  "biowulfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biowulfe"
+  },
+  "biowulfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biowulfes"
+  },
+  "bioðabrocene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bioðabrocene"
+  },
   "bis(i)gu": {
     "def": "see bysigu",
     "grammar": "",
     "lemma": "bis(i)gu"
+  },
+  "bisgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bisgum"
+  },
+  "bisigu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bisigu"
   },
   "bit": {
     "def": "cut",
@@ -5212,6 +6542,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "biter"
   },
+  "biteran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biteran"
+  },
+  "bitere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bitere"
+  },
   "bitr": {
     "def": "sorely",
     "grammar": "adv.",
@@ -5221,6 +6561,11 @@ const OLD_ENGLISH_DICT = {
     "def": "sorely",
     "grammar": "adv.",
     "lemma": "bitre"
+  },
+  "biwenede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biwenede"
   },
   "biwennan": {
     "def": "see be-wennan",
@@ -5232,10 +6577,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "bið"
   },
+  "biðandgit": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðandgit"
+  },
+  "biðdrihtguman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðdrihtguman"
+  },
+  "biðgemyndgad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðgemyndgad"
+  },
+  "biðgeomorlic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðgeomorlic"
+  },
+  "biðgrim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðgrim"
+  },
+  "biðmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðmanna"
+  },
+  "biðmægþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðmægþa"
+  },
+  "biðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðon"
+  },
+  "biðse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðse"
+  },
+  "biðswylc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðswylc"
+  },
+  "biðæghwæm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðæghwæm"
+  },
+  "biðþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðþe"
+  },
+  "biðþæm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "biðþæm"
+  },
   "blac": {
     "def": "brilliant",
     "grammar": "adj.",
     "lemma": "blāc"
+  },
+  "blaca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blaca"
+  },
+  "blacne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blacne"
   },
   "blanc": {
     "def": "(white or grey?, cf",
@@ -5251,6 +6671,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(white or grey?, cf",
     "grammar": "wk.",
     "lemma": "blanca"
+  },
+  "blancum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blancum"
   },
   "blea": {
     "def": "wretchedly, pitiably",
@@ -5307,6 +6732,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blīð-heort"
   },
+  "bliðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bliðne"
+  },
   "blod": {
     "def": "1616, 1667",
     "grammar": "n.",
@@ -5357,6 +6787,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blōd-fāg"
   },
+  "blodge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blodge"
+  },
   "blodig": {
     "def": "blood-stained",
     "grammar": "adj.",
@@ -5371,6 +6806,11 @@ const OLD_ENGLISH_DICT = {
     "def": "with BLOODY (TOOTH) teeth",
     "grammar": "adj.",
     "lemma": "blōdiġ-tōð"
+  },
+  "blodigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blodigan"
   },
   "blodigtoð": {
     "def": "with BLOODY (TOOTH) teeth",
@@ -5396,6 +6836,21 @@ const OLD_ENGLISH_DICT = {
     "def": "(having mixed hair, i",
     "grammar": "adj.",
     "lemma": "blonden-feax"
+  },
+  "blondenfeaxe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blondenfeaxe"
+  },
+  "blondenfeaxum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blondenfeaxum"
+  },
+  "blondenfexa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blondenfexa"
   },
   "blæc": {
     "def": "1801",
@@ -5447,6 +6902,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "blǣd-fæst"
   },
+  "blædfæstne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "blædfæstne"
+  },
+  "boden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "boden"
+  },
   "bodi": {
     "def": "1802",
     "grammar": "vb. II",
@@ -5462,6 +6927,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "bodian"
   },
+  "bodode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bodode"
+  },
   "bolc": {
     "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
     "grammar": "wk.",
@@ -5471,6 +6941,11 @@ const OLD_ENGLISH_DICT = {
     "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
     "grammar": "wk.",
     "lemma": "bolca"
+  },
+  "bolcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bolcan"
   },
   "bolce": {
     "def": "passageway from the quarter-deck to the forecastle (or gangplank, laid between the ship and the shore)",
@@ -5492,10 +6967,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "bold-āgend(e)"
   },
+  "bolda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bolda"
+  },
   "boldagend(e)": {
     "def": "house-OWner (-owning)",
     "grammar": "mc.",
     "lemma": "bold-āgend(e)"
+  },
+  "boldagendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "boldagendra"
   },
   "bolgen mod": {
     "def": "enraged",
@@ -5517,6 +7002,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "bolster"
   },
+  "bolstrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bolstrum"
+  },
   "bon": {
     "def": "see bana",
     "grammar": "",
@@ -5536,6 +7026,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see bana",
     "grammar": "",
     "lemma": "bona"
+  },
+  "bonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bonan"
   },
   "bone": {
     "def": "see bana",
@@ -5612,20 +7107,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "bord-wudu"
   },
+  "borda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "borda"
+  },
   "bordhreoða": {
     "def": "shield-covering, shield, phalanx",
     "grammar": "wk.",
     "lemma": "bord-hrēoða"
+  },
+  "bordhreoðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bordhreoðan"
   },
   "bordhæbbend(e)": {
     "def": "(BOARD-HAVing), shield-bearer",
     "grammar": "mc.",
     "lemma": "bord-hæbbend(e)"
   },
+  "bordhæbbende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bordhæbbende"
+  },
   "bordrand": {
     "def": "shield",
     "grammar": "m.",
     "lemma": "bord-rand"
+  },
+  "bordweal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bordweal"
   },
   "bordweal(l)": {
     "def": "‘shield-WALL,’ (pro-tecting) shield or formation of shields",
@@ -5637,6 +7152,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "bord-wudu"
   },
+  "boren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "boren"
+  },
   "born": {
     "def": "see byrnan",
     "grammar": "",
@@ -5647,25 +7167,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "bōt"
   },
+  "bote": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bote"
+  },
   "botm": {
     "def": "1506",
     "grammar": "m.",
     "lemma": "botm"
+  },
+  "botme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "botme"
   },
   "brad": {
     "def": "wide, spacious",
     "grammar": "adj.",
     "lemma": "brād"
   },
+  "brade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brade"
+  },
+  "bradne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bradne"
+  },
   "brand": {
     "def": "see brond",
     "grammar": "",
     "lemma": "brand"
   },
+  "breac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breac"
+  },
+  "breat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breat"
+  },
   "brec": {
     "def": "1511, 1567",
     "grammar": "vb. 4",
     "lemma": "brecan"
+  },
+  "breca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breca"
   },
   "brecan": {
     "def": "1511, 1567",
@@ -5682,6 +7237,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "brecð"
   },
+  "brecða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brecða"
+  },
   "bregd": {
     "def": "draw, swing, fling",
     "grammar": "vb. 3",
@@ -5696,6 +7256,11 @@ const OLD_ENGLISH_DICT = {
     "def": "draw, swing, fling",
     "grammar": "vb. 3",
     "lemma": "breġdan"
+  },
+  "bregdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bregdon"
   },
   "brego": {
     "def": "chief, lord (w",
@@ -5746,6 +7311,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ship",
     "grammar": "m.",
     "lemma": "brenting"
+  },
+  "brentingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brentingas"
   },
   "breost": {
     "def": "BREAST",
@@ -5827,25 +7397,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fni.",
     "lemma": "brēost-ġehyġd"
   },
+  "breostgehygdum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breostgehygdum"
+  },
   "breostgewæde": {
     "def": "BREAST-garment, mail shirt (or coat)",
     "grammar": "nja.",
     "lemma": "brēost-ġewǣde"
+  },
+  "breostgewædu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breostgewædu"
   },
   "breosthord": {
     "def": "(BREAST-HOARD), breast, mind, heart",
     "grammar": "n.",
     "lemma": "brēost-hord"
   },
+  "breostnet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breostnet"
+  },
   "breostnet(t)": {
     "def": "BREAST-NET, mail shirt (or coat)",
     "grammar": "nja.",
     "lemma": "brēost-net(t)"
   },
+  "breostum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breostum"
+  },
   "breostweorðung": {
     "def": "BREAST-orna-ment",
     "grammar": "f.",
     "lemma": "brēost-weorðung"
+  },
+  "breostweorðunge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breostweorðunge"
   },
   "breostwylm": {
     "def": "(BREAST-WELLing), emotion",
@@ -5866,6 +7461,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(break), cut down, kill",
     "grammar": "vb. 2",
     "lemma": "brēotan"
+  },
+  "breþer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "breþer"
   },
   "brim": {
     "def": "sea, water (of sea, lake)",
@@ -5957,25 +7557,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "brim-clif"
   },
+  "brimclifu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimclifu"
+  },
+  "brimes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimes"
+  },
   "brimlad": {
     "def": "sea-passage, voyage",
     "grammar": "f.",
     "lemma": "brim-lād"
+  },
+  "brimlade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimlade"
   },
   "brimliðend(e)": {
     "def": "seafarer",
     "grammar": "mc.",
     "lemma": "brim-līðend(e)"
   },
+  "brimliðende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimliðende"
+  },
   "brimstream": {
     "def": "ocean-STREAM, sea’s current, sea",
     "grammar": "m.",
     "lemma": "brim-strēam"
   },
+  "brimstreamas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimstreamas"
+  },
+  "brimu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimu"
+  },
   "brimwisa": {
     "def": "sea-leader, -king",
     "grammar": "wk.",
     "lemma": "brim-wīsa"
+  },
+  "brimwisan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brimwisan"
   },
   "brimwylf": {
     "def": "she-WOLF of the sea or lake",
@@ -6042,6 +7677,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "brōga"
   },
+  "brogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brogan"
+  },
   "brogden mæl": {
     "def": "(ornamented with a wavy pattern, i",
     "grammar": "n.",
@@ -6057,20 +7697,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "brogden-mǣl"
   },
+  "brogdne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brogdne"
+  },
   "broge": {
     "def": "horror",
     "grammar": "wk.",
     "lemma": "brōga"
+  },
+  "brohton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brohton"
   },
   "brond": {
     "def": "fire",
     "grammar": "m.",
     "lemma": "brond"
   },
+  "bronda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bronda"
+  },
+  "bronde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bronde"
+  },
+  "brondinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brondinga"
+  },
   "bront": {
     "def": "steep, high",
     "grammar": "adj.",
     "lemma": "bront"
+  },
+  "brontne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brontne"
+  },
+  "brosinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brosinga"
+  },
+  "brosnaðæfter": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brosnaðæfter"
   },
   "brosni": {
     "def": "fall to pieces",
@@ -6092,6 +7772,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "brōðor"
   },
+  "broðrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "broðrum"
+  },
+  "broþor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "broþor"
+  },
   "bruc": {
     "def": "make use of, enjoy",
     "grammar": "vb. 2",
@@ -6106,6 +7796,16 @@ const OLD_ENGLISH_DICT = {
     "def": "make use of, enjoy",
     "grammar": "vb. 2",
     "lemma": "brūcan"
+  },
+  "bruceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bruceð"
+  },
+  "brugdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brugdon"
   },
   "brun": {
     "def": "bright, reflective (sword)",
@@ -6141,6 +7841,26 @@ const OLD_ENGLISH_DICT = {
     "def": "of a (BROWN or) reflec-tive color, shining",
     "grammar": "adj.",
     "lemma": "brūn-fāg"
+  },
+  "brunfagne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brunfagne"
+  },
+  "bryd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bryd"
+  },
+  "brydbure": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brydbure"
+  },
+  "bryde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bryde"
   },
   "bryne leoma": {
     "def": "gleam of fire",
@@ -6182,6 +7902,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "bryne-wylm"
   },
+  "brynewylmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brynewylmum"
+  },
+  "brytnade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brytnade"
+  },
   "brytni": {
     "def": "dispense",
     "grammar": "vb. II",
@@ -6207,6 +7937,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "brytta"
   },
+  "bryttan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bryttan"
+  },
+  "bryttað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bryttað"
+  },
   "brytte": {
     "def": "distributor, dispenser",
     "grammar": "wk.",
@@ -6226,6 +7966,21 @@ const OLD_ENGLISH_DICT = {
     "def": "dispense",
     "grammar": "vb.  II",
     "lemma": "bryttian"
+  },
+  "bræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bræc"
+  },
+  "bræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bræce"
+  },
+  "brægd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "brægd"
   },
   "brуd": {
     "def": "2930",
@@ -6267,6 +8022,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "būan"
   },
+  "budon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "budon"
+  },
   "bue": {
     "def": "(1) reside",
     "grammar": "vb. 7",
@@ -6292,10 +8052,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "būgan"
   },
+  "bugeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bugeð"
+  },
+  "bugon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bugon"
+  },
   "bun": {
     "def": "drinking vessel",
     "grammar": "wk.",
     "lemma": "bune"
+  },
+  "bunan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bunan"
+  },
+  "bunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bunden"
   },
   "bunden heord": {
     "def": "with hair BOUND up",
@@ -6332,6 +8112,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "bunden-heord"
   },
+  "bundenheorde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bundenheorde"
+  },
+  "bundenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bundenne"
+  },
   "bundenstefna": {
     "def": "ship with BOUND prow",
     "grammar": "wk.",
@@ -6342,10 +8132,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "bune"
   },
+  "buon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "buon"
+  },
   "bur": {
     "def": "2546",
     "grammar": "wk.",
     "lemma": "burne"
+  },
+  "bure": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bure"
+  },
+  "burgan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burgan"
+  },
+  "burgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burgum"
   },
   "burh": {
     "def": "residence, ‘man-or,’ hence fortified place, stronghold, town",
@@ -6417,6 +8227,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "burh-loca"
   },
+  "burhlocan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burhlocan"
+  },
   "burhstede": {
     "def": "fortified place",
     "grammar": "mi.",
@@ -6427,15 +8242,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "burh-wela"
   },
+  "burhwelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burhwelan"
+  },
   "burn": {
     "def": "2546",
     "grammar": "wk.",
     "lemma": "burne"
   },
+  "burnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burnan"
+  },
   "burne": {
     "def": "2546",
     "grammar": "wk.",
     "lemma": "burne"
+  },
+  "burston": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burston"
   },
   "buruh ðelu": {
     "def": "stronghold-floor",
@@ -6451,6 +8281,21 @@ const OLD_ENGLISH_DICT = {
     "def": "stronghold-floor",
     "grammar": "f.",
     "lemma": "buruh-ðelu"
+  },
+  "burum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "burum"
+  },
+  "butan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "butan"
+  },
+  "buton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "buton"
   },
   "buton(butan)": {
     "def": "w",
@@ -6492,6 +8337,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "byldan"
   },
+  "byman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byman"
+  },
   "byr": {
     "def": "son",
     "grammar": "mi.",
@@ -6507,6 +8357,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "byrele"
   },
+  "byrelas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byrelas"
+  },
   "byrele": {
     "def": "1161",
     "grammar": "mi.",
@@ -6516,6 +8371,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see beran",
     "grammar": "",
     "lemma": "byreð"
+  },
+  "byreðblodig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byreðblodig"
   },
   "byrg": {
     "def": "eat",
@@ -6532,10 +8392,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "byrġan"
   },
+  "byrgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byrgean"
+  },
   "byrht": {
     "def": "see beorht",
     "grammar": "",
     "lemma": "byrht"
+  },
+  "byrhtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byrhtan"
   },
   "byrig": {
     "def": "see burh",
@@ -6577,6 +8447,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "byrnan"
   },
+  "byrnende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byrnende"
+  },
+  "byrnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byrnum"
+  },
   "byrnwiga": {
     "def": "mailed warrior",
     "grammar": "wk.",
@@ -6587,10 +8467,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "bysigu"
   },
+  "bysigum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bysigum"
+  },
+  "bywan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bywan"
+  },
   "byð": {
     "def": "see eom",
     "grammar": "",
     "lemma": "byð"
+  },
+  "byðhim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "byðhim"
   },
   "bæd": {
     "def": "urge on",
@@ -6602,10 +8497,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "bǣdan"
   },
+  "bædde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bædde"
+  },
   "bæde": {
     "def": "urge on",
     "grammar": "vb. I",
     "lemma": "bǣdan"
+  },
+  "bædon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bædon"
   },
   "bæl": {
     "def": "fire, flame",
@@ -6652,6 +8557,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "bǣl-wudu"
   },
+  "bæle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bæle"
+  },
+  "bælfyra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bælfyra"
+  },
   "bælfуr": {
     "def": "funeral FIRE",
     "grammar": "n.",
@@ -6672,6 +8587,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "bǣr"
   },
+  "bæran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bæran"
+  },
   "bærn": {
     "def": "2313",
     "grammar": "vb. I",
@@ -6686,6 +8606,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2313",
     "grammar": "vb. I",
     "lemma": "bærnan"
+  },
+  "bæron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "bæron"
   },
   "bæð": {
     "def": "1861",
@@ -6722,6 +8647,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "can"
   },
+  "cain": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cain"
+  },
+  "caines": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "caines"
+  },
   "camp": {
     "def": "fight",
     "grammar": "m.",
@@ -6752,10 +8687,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ċeald"
   },
+  "cealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cealde"
+  },
+  "cealdost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cealdost"
+  },
+  "cealdum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cealdum"
+  },
   "ceap": {
     "def": "purchase",
     "grammar": "m.",
     "lemma": "ċēap"
+  },
+  "ceape": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceape"
   },
   "cear sið": {
     "def": "expedition that brings sorrow (CARE)",
@@ -6777,6 +8732,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ċear-wælm"
   },
+  "cearað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cearað"
+  },
+  "ceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceare"
+  },
   "ceari": {
     "def": "be anxious",
     "grammar": "vb. II",
@@ -6797,15 +8762,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ċear-sīð"
   },
+  "cearsiðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cearsiðum"
+  },
   "cearu": {
     "def": "sorrow, grief, 1303",
     "grammar": "f.",
     "lemma": "cearu"
   },
+  "cearwylmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cearwylmas"
+  },
   "cearwælm": {
     "def": "mi",
     "grammar": "",
     "lemma": "ċear-wælm"
+  },
+  "cearwælmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cearwælmum"
   },
   "ceaster buend": {
     "def": "town-dweller, fortress-dweller",
@@ -6822,6 +8802,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "ċeaster-būend"
   },
+  "ceasterbuendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceasterbuendum"
+  },
   "celæs": {
     "def": "see note]",
     "grammar": "",
@@ -6837,6 +8822,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "cempa"
   },
+  "cempan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cempan"
+  },
   "cempe": {
     "def": "warrior",
     "grammar": "wk.",
@@ -6846,6 +8836,11 @@ const OLD_ENGLISH_DICT = {
     "def": "F",
     "grammar": "adj.",
     "lemma": "cēne"
+  },
+  "cende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cende"
   },
   "cene": {
     "def": "F",
@@ -6867,6 +8862,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "cennan"
   },
+  "cenned": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cenned"
+  },
+  "cenoste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cenoste"
+  },
+  "cenra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cenra"
+  },
   "cenðu": {
     "def": "boldness",
     "grammar": "f.",
@@ -6877,10 +8887,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ċēol"
   },
+  "ceoles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceoles"
+  },
   "ceorl": {
     "def": "908",
     "grammar": "m.",
     "lemma": "ċeorl"
+  },
+  "ceorlas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceorlas"
+  },
+  "ceorle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ceorle"
   },
   "ceos": {
     "def": "CHOOSE, taste, try",
@@ -6897,15 +8922,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ċēosan"
   },
+  "ciosan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ciosan"
+  },
   "clam(m)": {
     "def": "grasp, grip, clasp",
     "grammar": "clom",
     "lemma": "clam(m)"
   },
+  "clammum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "clammum"
+  },
   "clif": {
     "def": "1911",
     "grammar": "n.",
     "lemma": "clif"
+  },
+  "clifu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "clifu"
+  },
+  "clommum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "clommum"
   },
   "cniht wesende": {
     "def": "being a boy or young man",
@@ -6936,6 +8981,16 @@ const OLD_ENGLISH_DICT = {
     "def": "1219",
     "grammar": "m.",
     "lemma": "cnyht"
+  },
+  "cnyhtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cnyhtum"
+  },
+  "cnysedan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cnysedan"
   },
   "cnyss": {
     "def": "strike",
@@ -6972,10 +9027,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "collen-ferhð"
   },
+  "collenferð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "collenferð"
+  },
+  "colran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "colran"
+  },
+  "com": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "com"
+  },
+  "come": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "come"
+  },
+  "comon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "comon"
+  },
+  "compe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "compe"
+  },
   "con": {
     "def": "const, see cunnan",
     "grammar": "const",
     "lemma": "con"
+  },
+  "const": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "const"
   },
   "copyrightу2008.universityoftorontopress": {
     "def": "except fair uses permitted under U",
@@ -6986,6 +9076,16 @@ const OLD_ENGLISH_DICT = {
     "def": "troop, band, host",
     "grammar": "n.",
     "lemma": "corðor"
+  },
+  "corðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "corðre"
+  },
+  "corþre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "corþre"
   },
   "costi": {
     "def": "try, make trial of",
@@ -7002,6 +9102,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "costian"
   },
+  "costode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "costode"
+  },
   "cring": {
     "def": "fall (in battle), die",
     "grammar": "vb. 3",
@@ -7016,6 +9121,16 @@ const OLD_ENGLISH_DICT = {
     "def": "fall (in battle), die",
     "grammar": "vb. 3",
     "lemma": "cringan"
+  },
+  "crunge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "crunge"
+  },
+  "crungon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "crungon"
   },
   "cræft": {
     "def": "power",
@@ -7052,6 +9167,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 4",
     "lemma": "cuman"
   },
+  "cumbles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cumbles"
+  },
   "cumbol": {
     "def": "banner, standard",
     "grammar": "n.",
@@ -7061,6 +9181,16 @@ const OLD_ENGLISH_DICT = {
     "def": "visitor",
     "grammar": "wk.",
     "lemma": "cuma"
+  },
+  "cumen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cumen"
+  },
+  "cumene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cumene"
   },
   "cunn": {
     "def": "1180",
@@ -7077,6 +9207,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prp.",
     "lemma": "cunnan"
   },
+  "cunnedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cunnedon"
+  },
   "cunni": {
     "def": "try, make trial of, tempt, explore",
     "grammar": "vb. II",
@@ -7091,6 +9226,16 @@ const OLD_ENGLISH_DICT = {
     "def": "try, make trial of, tempt, explore",
     "grammar": "vb. II",
     "lemma": "cunnian"
+  },
+  "cunnode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cunnode"
+  },
+  "cunnon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cunnon"
   },
   "cur": {
     "def": "see ċēosan",
@@ -7122,10 +9267,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "cūð-līċe"
   },
+  "cuðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuðe"
+  },
   "cuðlice": {
     "def": "familiarly",
     "grammar": "adv.",
     "lemma": "cūð-līċe"
+  },
+  "cuðlicor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuðlicor"
+  },
+  "cuðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuðon"
+  },
+  "cuþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuþ"
+  },
+  "cuþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuþe"
+  },
+  "cuþon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cuþon"
   },
   "cw": {
     "def": "613, 923",
@@ -7136,6 +9311,11 @@ const OLD_ENGLISH_DICT = {
     "def": "613, 923",
     "grammar": "fi.",
     "lemma": "cwēn"
+  },
+  "cwealdest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwealdest"
   },
   "cwealm": {
     "def": "killing",
@@ -7182,6 +9362,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "cwealm-cuma"
   },
+  "cwealmcuman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwealmcuman"
+  },
   "cwecc": {
     "def": "brandish",
     "grammar": "vb. I",
@@ -7196,6 +9381,11 @@ const OLD_ENGLISH_DICT = {
     "def": "brandish",
     "grammar": "vb. I",
     "lemma": "cweċċan"
+  },
+  "cwehte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwehte"
   },
   "cwell": {
     "def": "1334",
@@ -7252,6 +9442,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "cwic(o)"
   },
+  "cwice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwice"
+  },
+  "cwices": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwices"
+  },
+  "cwicne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwicne"
+  },
+  "cwico": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwico"
+  },
   "cwið": {
     "def": "bewail, lament, mourn for",
     "grammar": "vb. I",
@@ -7267,6 +9477,46 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "cwīðan"
   },
+  "cwiðæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwiðæt"
+  },
+  "cwom": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwom"
+  },
+  "cwoman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwoman"
+  },
+  "cwome": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwome"
+  },
+  "cwomon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwomon"
+  },
+  "cwædon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwædon"
+  },
+  "cwæð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwæð"
+  },
+  "cwæðþæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cwæðþæt"
+  },
   "cym": {
     "def": "257",
     "grammar": "mi.",
@@ -7281,6 +9531,26 @@ const OLD_ENGLISH_DICT = {
     "def": "see cuman",
     "grammar": "",
     "lemma": "cymen"
+  },
+  "cymest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cymest"
+  },
+  "cymeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cymeð"
+  },
+  "cymlicor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cymlicor"
+  },
+  "cyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyn"
   },
   "cyn(n)": {
     "def": "etiquette, courtesy",
@@ -7322,10 +9592,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "cyning-bald"
   },
+  "cyningbalde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyningbalde"
+  },
+  "cyninge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyninge"
+  },
+  "cyninges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyninges"
+  },
+  "cynna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cynna"
+  },
+  "cynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cynne"
+  },
+  "cynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cynnes"
+  },
   "cyst": {
     "def": "w",
     "grammar": "f.",
     "lemma": "cyst"
+  },
+  "cystum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cystum"
+  },
+  "cyð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyð"
+  },
+  "cyðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "cyðan"
   },
   "cуm lice": {
     "def": "beautifully, splendidly, nobly",
@@ -7382,6 +9697,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "dagian"
   },
+  "dagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dagum"
+  },
+  "dareðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dareðum"
+  },
   "daroð": {
     "def": "javelin",
     "grammar": "m.",
@@ -7396,6 +9721,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1323, 2372",
     "grammar": "adj.",
     "lemma": "dēad"
+  },
+  "deadne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deadne"
   },
   "deag": {
     "def": "conceal (be con-cealed?)",
@@ -7422,10 +9752,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "deal(l)"
   },
+  "dealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dealle"
+  },
   "dear": {
     "def": "dearst, see durran",
     "grammar": "dearst",
     "lemma": "dear"
+  },
+  "dearst": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dearst"
   },
   "deað": {
     "def": "447, 488, 1491, 1768, 2119, 2236, 2728, 2890",
@@ -7537,10 +9877,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "dēað-bed(d)"
   },
+  "deaðbedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðbedde"
+  },
+  "deaðbiðsella": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðbiðsella"
+  },
   "deaðcwalu": {
     "def": "DEATH, destruction",
     "grammar": "f.",
     "lemma": "dēað-cwalu"
+  },
+  "deaðcwalum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðcwalum"
   },
   "deaðcwealm": {
     "def": "DEATH, slaughter",
@@ -7552,25 +9907,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "dēað-dæġ"
   },
+  "deaðdæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðdæge"
+  },
+  "deaðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðe"
+  },
+  "deaðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðes"
+  },
+  "deaðfornam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðfornam"
+  },
   "deaðfæge": {
     "def": "doomed to DEATH",
     "grammar": "adj.",
     "lemma": "dēað-fǣġe"
+  },
+  "deaðnimeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðnimeð"
+  },
+  "deaðoferswyðeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðoferswyðeð"
+  },
+  "deaðrenian": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðrenian"
   },
   "deaðscua": {
     "def": "DEATH-shadow",
     "grammar": "wk.",
     "lemma": "dēað-scua"
   },
+  "deaðungemete": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðungemete"
+  },
   "deaðwerig": {
     "def": "(DEATH-WEARY), dead",
     "grammar": "adj.",
     "lemma": "dēað-wēriġ"
   },
+  "deaðwerigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðwerigne"
+  },
   "deaðwic": {
     "def": "1275",
     "grammar": "n.",
     "lemma": "dēað-wīċ"
+  },
+  "deaðwrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaðwrecan"
+  },
+  "deaþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaþe"
+  },
+  "deaþscua": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaþscua"
+  },
+  "deaþwic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deaþwic"
   },
   "dem": {
     "def": "assign",
@@ -7581,6 +10001,11 @@ const OLD_ENGLISH_DICT = {
     "def": "assign",
     "grammar": "vb. I",
     "lemma": "dēman"
+  },
+  "demdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "demdon"
   },
   "deme": {
     "def": "assign",
@@ -7596,6 +10021,46 @@ const OLD_ENGLISH_DICT = {
     "def": "lair",
     "grammar": "nja.",
     "lemma": "den(n)"
+  },
+  "dena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dena"
+  },
+  "dene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dene"
+  },
+  "denia": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "denia"
+  },
+  "deniga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deniga"
+  },
+  "denigea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "denigea"
+  },
+  "denn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "denn"
+  },
+  "dennes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dennes"
+  },
+  "denum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "denum"
   },
   "deo": {
     "def": "precious, excellent, beloved",
@@ -7652,25 +10117,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dēor-mōd"
   },
+  "deoran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deoran"
+  },
   "deorc": {
     "def": "1790",
     "grammar": "adj.",
     "lemma": "deorc"
+  },
+  "deorcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deorcum"
   },
   "deore": {
     "def": "precious, excellent, beloved",
     "grammar": "adj.",
     "lemma": "dēore"
   },
+  "deorestan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deorestan"
+  },
   "deorlic": {
     "def": "bold",
     "grammar": "adj.",
     "lemma": "dēor-liċ"
   },
+  "deorlice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deorlice"
+  },
   "deormod": {
     "def": "bold, brave",
     "grammar": "adj.",
     "lemma": "dēor-mōd"
+  },
+  "deorre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deorre"
+  },
+  "deorum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deorum"
   },
   "deoð": {
     "def": "see dēað",
@@ -7681,6 +10176,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see dōn",
     "grammar": "",
     "lemma": "dēð"
+  },
+  "deðeadig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "deðeadig"
   },
   "dio": {
     "def": "see dēore",
@@ -7712,6 +10212,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "disc"
   },
+  "discas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "discas"
+  },
+  "dogera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogera"
+  },
   "dogor": {
     "def": "day",
     "grammar": "n.",
@@ -7727,15 +10237,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dōgor-ġerīm"
   },
+  "dogora": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogora"
+  },
+  "dogore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogore"
+  },
+  "dogores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogores"
+  },
   "dogorgerim": {
     "def": "number of days",
     "grammar": "n.",
     "lemma": "dōgor-ġerīm"
   },
+  "dogorgerimes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogorgerimes"
+  },
+  "dogra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogra"
+  },
+  "dogrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dogrum"
+  },
+  "dohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dohte"
+  },
   "dohte(st)": {
     "def": "see dugan",
     "grammar": "",
     "lemma": "dohte(st)"
+  },
+  "dohtest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dohtest"
   },
   "dohtor": {
     "def": "1929, 1981, 2020 (dohtľr), 2174",
@@ -7787,15 +10337,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dol-ġilp"
   },
+  "dolgilpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dolgilpe"
+  },
   "dollic": {
     "def": "daring, fool-hardy",
     "grammar": "adj.",
     "lemma": "dol-liċ"
   },
+  "dollicra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dollicra"
+  },
   "dolscaða": {
     "def": "mad ravager, des-perate foe",
     "grammar": "wk.",
     "lemma": "dol-scaða"
+  },
+  "dolsceaðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dolsceaðan"
   },
   "dom": {
     "def": "judgment, decree, authority",
@@ -7822,10 +10387,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dōm-lēas"
   },
+  "dome": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dome"
+  },
+  "domes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "domes"
+  },
   "domleas": {
     "def": "inglorious",
     "grammar": "adj.",
     "lemma": "dōm-lēas"
+  },
+  "domleasan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "domleasan"
   },
   "don": {
     "def": "act",
@@ -7847,6 +10427,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "dorste"
   },
+  "dorston": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dorston"
+  },
+  "doðswa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "doðswa"
+  },
   "drac": {
     "def": "2211, [F",
     "grammar": "wk.",
@@ -7857,10 +10447,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "draca"
   },
+  "dracan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dracan"
+  },
   "drace": {
     "def": "2211, [F",
     "grammar": "wk.",
     "lemma": "draca"
+  },
+  "dranc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dranc"
+  },
+  "dreah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dreah"
   },
   "dream": {
     "def": "rejoicing, festivity",
@@ -7907,6 +10512,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "drēam-lēas"
   },
+  "dreama": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dreama"
+  },
+  "dreame": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dreame"
+  },
   "dreamhealdende": {
     "def": "(joy-HOLDing), with power over glad-ness, hence (as subst",
     "grammar": "adj.",
@@ -7916,6 +10531,11 @@ const OLD_ENGLISH_DICT = {
     "def": "joyLESS",
     "grammar": "adj.",
     "lemma": "drēam-lēas"
+  },
+  "dreamum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dreamum"
   },
   "dref": {
     "def": "make turbid",
@@ -7946,6 +10566,11 @@ const OLD_ENGLISH_DICT = {
     "def": "bear oneself",
     "grammar": "vb. 2",
     "lemma": "drēogan"
+  },
+  "dreoh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dreoh"
   },
   "dreor": {
     "def": "dripping blood",
@@ -7992,6 +10617,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "drepe"
   },
+  "drepen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drepen"
+  },
   "drif": {
     "def": "2808",
     "grammar": "vb. 1",
@@ -8001,6 +10631,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2808",
     "grammar": "vb. 1",
     "lemma": "drīfan"
+  },
+  "drifað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drifað"
   },
   "drife": {
     "def": "2808",
@@ -8021,6 +10656,36 @@ const OLD_ENGLISH_DICT = {
     "def": "see dryhten",
     "grammar": "",
     "lemma": "drihten"
+  },
+  "drihtguman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtguman"
+  },
+  "drihtlice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtlice"
+  },
+  "drihtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtne"
+  },
+  "drihtnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtnes"
+  },
+  "drihtscype": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtscype"
+  },
+  "drihtsele": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drihtsele"
   },
   "drinc": {
     "def": "1648",
@@ -8062,10 +10727,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "drīoriġ"
   },
+  "driorigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "driorigne"
+  },
   "drohtoð": {
     "def": "course",
     "grammar": "m.",
     "lemma": "drohtoð"
+  },
+  "drohtoðþær": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drohtoðþær"
   },
   "drop": {
     "def": "see drepan",
@@ -8081,6 +10756,31 @@ const OLD_ENGLISH_DICT = {
     "def": "see drepan",
     "grammar": "",
     "lemma": "dropen"
+  },
+  "drugon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drugon"
+  },
+  "druncen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "druncen"
+  },
+  "druncne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "druncne"
+  },
+  "druncon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "druncon"
+  },
+  "drusade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drusade"
   },
   "drusi": {
     "def": "stagnate, subside",
@@ -8237,15 +10937,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "dryht-guma"
   },
+  "dryhtguman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtguman"
+  },
+  "dryhtgumum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtgumum"
+  },
   "dryhtlic": {
     "def": "noble, lordly, splen-did",
     "grammar": "adj.",
     "lemma": "dryht-liċ"
   },
+  "dryhtmaðma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtmaðma"
+  },
   "dryhtmaððum": {
     "def": "noble treasure, splendid jewel",
     "grammar": "m.",
     "lemma": "dryht-māððum"
+  },
+  "dryhtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtne"
+  },
+  "dryhtnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtnes"
   },
   "dryhtscype": {
     "def": "valor, bravery",
@@ -8262,6 +10987,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "dryht-sib(b)"
   },
+  "dryhtsibbe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dryhtsibbe"
+  },
   "drync fæt": {
     "def": "DRINKing-vessel, cup",
     "grammar": "n.",
@@ -8276,6 +11006,11 @@ const OLD_ENGLISH_DICT = {
     "def": "DRINKing-vessel, cup",
     "grammar": "n.",
     "lemma": "drynċ-fæt"
+  },
+  "drysmaþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "drysmaþ"
   },
   "dug": {
     "def": "do well, be good, be strong",
@@ -8292,10 +11027,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prp.",
     "lemma": "dugan"
   },
+  "dugeðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dugeðum"
+  },
+  "dugoðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dugoðe"
+  },
   "duguð": {
     "def": "host",
     "grammar": "f.",
     "lemma": "duguð"
+  },
+  "duguða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguða"
+  },
+  "duguðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguðe"
+  },
+  "duguðeal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguðeal"
+  },
+  "duguðellor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguðellor"
+  },
+  "duguðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguðum"
+  },
+  "duguðunlytel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguðunlytel"
+  },
+  "duguþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "duguþe"
   },
   "durr": {
     "def": "DARE (in neg",
@@ -8316,6 +11096,11 @@ const OLD_ENGLISH_DICT = {
     "def": "[F",
     "grammar": "fu.",
     "lemma": "duru"
+  },
+  "dweleð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dweleð"
   },
   "dwell": {
     "def": "hinder, stand in one’s way",
@@ -8347,6 +11132,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "dydon",
     "lemma": "dyde"
   },
+  "dydest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dydest"
+  },
+  "dydon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dydon"
+  },
+  "dygel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dygel"
+  },
   "dyhte": {
     "def": "strong, good",
     "grammar": "adj.",
@@ -8356,6 +11156,16 @@ const OLD_ENGLISH_DICT = {
     "def": "strong, good",
     "grammar": "adj.",
     "lemma": "dyhtiġ"
+  },
+  "dyhttig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyhttig"
+  },
+  "dynede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dynede"
   },
   "dynn": {
     "def": "767, 1317, 2558, [F",
@@ -8377,15 +11187,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "dyrne"
   },
+  "dyre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyre"
+  },
   "dyrn": {
     "def": "hidden",
     "grammar": "adj.",
     "lemma": "dyrne"
   },
+  "dyrnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyrnan"
+  },
   "dyrne": {
     "def": "hidden",
     "grammar": "adj.",
     "lemma": "dyrne"
+  },
+  "dyrnne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyrnne"
+  },
+  "dyrnra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyrnra"
+  },
+  "dyrnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dyrnum"
   },
   "dyrr": {
     "def": "see durran",
@@ -8472,10 +11307,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "dǣd-hata"
   },
+  "dæda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæda"
+  },
   "dædcene": {
     "def": "daring in DEEDs",
     "grammar": "adj.",
     "lemma": "dǣd-cēne"
+  },
+  "dæde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæde"
   },
   "dædfruma": {
     "def": "doer of (evil) DEEDs",
@@ -8486,6 +11331,11 @@ const OLD_ENGLISH_DICT = {
     "def": "one who shows his HATred by DEEDs, persecutor",
     "grammar": "wk.",
     "lemma": "dǣd-hata"
+  },
+  "dædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dædum"
   },
   "dæg": {
     "def": "731, 2306, 2646",
@@ -8512,10 +11362,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "dæġ-rīm"
   },
+  "dæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæge"
+  },
+  "dæges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæges"
+  },
+  "dæghrefne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæghrefne"
+  },
   "dæghwil": {
     "def": "DAY-WHILE, (space of a) day",
     "grammar": "f.",
     "lemma": "dæġ-hwīl"
+  },
+  "dæghwila": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæghwila"
   },
   "dægrim": {
     "def": "number of DAYs",
@@ -8532,10 +11402,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "dǣlan"
   },
+  "dælas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dælas"
+  },
+  "dælde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dælde"
+  },
   "dæle": {
     "def": "distribute, dispense",
     "grammar": "vb. I",
     "lemma": "dǣlan"
+  },
+  "dæleþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "dæleþ"
   },
   "dу": {
     "def": "see dēore",
@@ -8607,10 +11492,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ēacen-cræftiġ"
   },
+  "eacne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eacne"
+  },
+  "eacnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eacnum"
+  },
   "eade": {
     "def": "fortunate, blessed",
     "grammar": "adj.",
     "lemma": "ēadiġ"
+  },
+  "eadgilse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eadgilse"
   },
   "eadig": {
     "def": "fortunate, blessed",
@@ -8637,6 +11537,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ēadiġ-līċe"
   },
+  "eafera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafera"
+  },
+  "eaferan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaferan"
+  },
+  "eaferum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaferum"
+  },
+  "eafeþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafeþum"
+  },
   "eafo": {
     "def": "wk",
     "grammar": "eafera",
@@ -8662,15 +11582,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "eafera",
     "lemma": "eafora"
   },
+  "eaforan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaforan"
+  },
   "eafore": {
     "def": "wk",
     "grammar": "eafera",
     "lemma": "eafora"
   },
+  "eafores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafores"
+  },
+  "eaforheafodsegn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaforheafodsegn"
+  },
+  "eaforum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaforum"
+  },
   "eafoð": {
     "def": "strength, power",
     "grammar": "n.",
     "lemma": "eafoð"
+  },
+  "eafoðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafoðond"
+  },
+  "eafoðuncuþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafoðuncuþes"
+  },
+  "eafoþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eafoþes"
   },
   "eag": {
     "def": "1766",
@@ -8681,6 +11636,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1766",
     "grammar": "wk.",
     "lemma": "ēaġe"
+  },
+  "eagena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eagena"
   },
   "eagor stream": {
     "def": "sea-STREAM, sea",
@@ -8697,6 +11657,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ēagor-strēam"
   },
+  "eagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eagum"
+  },
   "eaht": {
     "def": "3123",
     "grammar": "num.",
@@ -8712,6 +11677,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "eahta"
   },
+  "eahtedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eahtedon"
+  },
   "eahti": {
     "def": "deliberate (about something)",
     "grammar": "vb.  II",
@@ -8726,6 +11696,21 @@ const OLD_ENGLISH_DICT = {
     "def": "deliberate (about something)",
     "grammar": "vb.  II",
     "lemma": "eahtian"
+  },
+  "eahtodan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eahtodan"
+  },
+  "eahtode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eahtode"
+  },
+  "eal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eal"
   },
   "eal(l)": {
     "def": "1424",
@@ -8857,6 +11842,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "eald-sweord"
   },
+  "ealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealde"
+  },
   "ealder": {
     "def": "see ealdor-dagas",
     "grammar": "",
@@ -8872,6 +11862,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ealder-"
   },
+  "ealderdagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealderdagum"
+  },
+  "ealdes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdes"
+  },
   "ealdfæder": {
     "def": "late FATHER, ancestor",
     "grammar": "mc.",
@@ -8882,15 +11882,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "eald-ġeseġen"
   },
+  "ealdgesegena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdgesegena"
+  },
   "ealdgesið": {
     "def": "OLD associate or re-tainer",
     "grammar": "m.",
     "lemma": "eald-ġesīð"
   },
+  "ealdgesiðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdgesiðas"
+  },
   "ealdgestreon": {
     "def": "1458",
     "grammar": "n.",
     "lemma": "eald-ġestrēon"
+  },
+  "ealdgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdgestreona"
+  },
+  "ealdgestreonum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdgestreonum"
+  },
+  "ealdgewin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdgewin"
   },
   "ealdgewinna": {
     "def": "OLD adversary (‘hostis antiquus,’ see Kl",
@@ -8906,6 +11931,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2778 (i",
     "grammar": "m.",
     "lemma": "eald-hlāford"
+  },
+  "ealdhlafordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdhlafordes"
   },
   "ealdmetod": {
     "def": "God of OLD",
@@ -8967,10 +11997,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ealdor-lēas"
   },
+  "ealdorleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdorleasne"
+  },
+  "ealdre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdre"
+  },
+  "ealdres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdres"
+  },
   "ealdsweord": {
     "def": "ancient SWORD",
     "grammar": "n.",
     "lemma": "eald-sweord"
+  },
+  "ealdum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealdum"
+  },
+  "ealfela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealfela"
+  },
+  "ealgearo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealgearo"
   },
   "ealgi": {
     "def": "defend",
@@ -8986,6 +12046,56 @@ const OLD_ENGLISH_DICT = {
     "def": "defend",
     "grammar": "vb. II",
     "lemma": "ealgian"
+  },
+  "ealgode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealgode"
+  },
+  "ealgylden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealgylden"
+  },
+  "eall": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eall"
+  },
+  "ealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealle"
+  },
+  "ealles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealles"
+  },
+  "eallgearo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eallgearo"
+  },
+  "eallgylden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eallgylden"
+  },
+  "eallirenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eallirenne"
+  },
+  "eallum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eallum"
+  },
+  "ealne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealne"
   },
   "ealo": {
     "def": "nja",
@@ -9012,15 +12122,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "ealo-drincend(e)"
   },
+  "ealobence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealobence"
+  },
   "ealodrincend(e)": {
     "def": "ALE-DRINKer",
     "grammar": "mc.",
     "lemma": "ealo-drincend(e)"
   },
+  "ealodrincende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealodrincende"
+  },
   "ealond": {
     "def": "‡seaboard",
     "grammar": "n.",
     "lemma": "ēa-lond"
+  },
+  "ealowæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealowæge"
+  },
+  "ealra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealra"
   },
   "ealu scerwen": {
     "def": "(dispensing of ALE [bitter drink], i",
@@ -9042,15 +12172,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ealu-scerwen"
   },
+  "ealubence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealubence"
+  },
   "ealuscerwen": {
     "def": "(dispensing of ALE [bitter drink], i",
     "grammar": "fj",
     "lemma": "ealu-scerwen"
   },
+  "ealuwæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ealuwæge"
+  },
   "eam": {
     "def": "881",
     "grammar": "m.",
     "lemma": "ēam"
+  },
+  "eame": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eame"
+  },
+  "eanmundes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eanmundes"
   },
   "eard": {
     "def": "estate, region, residence, home",
@@ -9067,6 +12217,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "eard-lufu(-lufe)"
   },
+  "eardas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eardas"
+  },
+  "earde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earde"
+  },
   "eardi": {
     "def": "remain",
     "grammar": "vb. II",
@@ -9082,10 +12242,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "eardian"
   },
+  "eardlufan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eardlufan"
+  },
   "eardlufu(lufe)": {
     "def": "(home-LOVE), dear home",
     "grammar": "",
     "lemma": "eard-lufu(-lufe)"
+  },
+  "eardode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eardode"
+  },
+  "eardodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eardodon"
+  },
+  "earfeþo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earfeþo"
   },
   "earfoð lice": {
     "def": "pain-fully, sorrowfully",
@@ -9122,10 +12302,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "earfoð-þrāg"
   },
+  "earfoðþrage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earfoðþrage"
+  },
   "earg": {
     "def": "spiritless",
     "grammar": "adj.",
     "lemma": "earg"
+  },
+  "earges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earges"
   },
   "earm": {
     "def": "2361",
@@ -9187,25 +12377,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "earm-bēag"
   },
+  "earmbeaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earmbeaga"
+  },
+  "earme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earme"
+  },
   "earmlic": {
     "def": "pitiable",
     "grammar": "adj.",
     "lemma": "earm-liċ"
+  },
+  "earmran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earmran"
+  },
+  "earmre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earmre"
   },
   "earmread(hread)": {
     "def": "ARM-ornament",
     "grammar": "f.",
     "lemma": "earm-rēad(-hrēad)"
   },
+  "earmreade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earmreade"
+  },
   "earmsceapen": {
     "def": "miserable",
     "grammar": "adj.",
     "lemma": "earm-sceapen"
   },
+  "earmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earmum"
+  },
   "earn": {
     "def": "3026",
     "grammar": "m.",
     "lemma": "earn"
+  },
+  "earnanæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earnanæs"
+  },
+  "earne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "earne"
   },
   "eart": {
     "def": "see eom",
@@ -9222,6 +12452,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ēastan"
   },
+  "eastdena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eastdena"
+  },
+  "eastdenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eastdenum"
+  },
   "easte": {
     "def": "[F",
     "grammar": "adv.",
@@ -9231,6 +12471,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see atol",
     "grammar": "",
     "lemma": "eatol"
+  },
+  "eatolne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eatolne"
+  },
+  "eaweðþurh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaweðþurh"
   },
   "eaxl": {
     "def": "816, 1537, 1547",
@@ -9257,10 +12507,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "eaxl-ġestealla"
   },
+  "eaxle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaxle"
+  },
   "eaxlgestealla": {
     "def": "shoulder-companion, fellow, associate",
     "grammar": "wk.",
     "lemma": "eaxl-ġestealla"
+  },
+  "eaxlgesteallan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaxlgesteallan"
+  },
+  "eaxlum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaxlum"
   },
   "eað": {
     "def": "478, 2291, 2764",
@@ -9307,6 +12572,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ēað-fynde"
   },
+  "eaþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eaþe"
+  },
   "ec": {
     "def": "see ēac",
     "grammar": "",
@@ -9316,6 +12586,11 @@ const OLD_ENGLISH_DICT = {
     "def": "enduring, lasting",
     "grammar": "adj.",
     "lemma": "ēċe"
+  },
+  "ecean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecean"
   },
   "ecg": {
     "def": "sword",
@@ -9382,25 +12657,110 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ecg-þracu"
   },
+  "ecga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecga"
+  },
   "ecgbana": {
     "def": "slayer with the sword",
     "grammar": "wk.",
     "lemma": "ecg-bana"
+  },
+  "ecgbanan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgbanan"
   },
   "ecgclif": {
     "def": "sea-CLIFF (= ēġ-clif: EStn",
     "grammar": "n.",
     "lemma": "ecg-clif"
   },
+  "ecge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecge"
+  },
   "ecghete": {
     "def": "sword-HATE, hostility, war",
     "grammar": "mi.",
     "lemma": "ecg-hete"
   },
+  "ecglafes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecglafes"
+  },
+  "ecgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgum"
+  },
+  "ecgwelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgwelan"
+  },
+  "ecgðeowes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgðeowes"
+  },
+  "ecgðioes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgðioes"
+  },
+  "ecgðiowes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgðiowes"
+  },
+  "ecgþeo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgþeo"
+  },
+  "ecgþeow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgþeow"
+  },
+  "ecgþeowes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgþeowes"
+  },
   "ecgþracu": {
     "def": "sword-storm, fight",
     "grammar": "f.",
     "lemma": "ecg-þracu"
+  },
+  "ecgþræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecgþræce"
+  },
+  "eclafes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eclafes"
+  },
+  "ecne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecne"
+  },
+  "ecum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecum"
+  },
+  "ecþeowes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ecþeowes"
   },
   "ed hwyrft": {
     "def": "change, reversal (of fortune)",
@@ -9452,6 +12812,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ed-hwyrft"
   },
+  "edrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "edrum"
+  },
+  "edwendan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "edwendan"
+  },
   "edwenden": {
     "def": "turning back, rever-sal, change (of fortune)",
     "grammar": "fj",
@@ -9476,6 +12846,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see æfnan",
     "grammar": "",
     "lemma": "efnan"
+  },
+  "efnanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "efnanne"
+  },
+  "efnde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "efnde"
   },
   "efne": {
     "def": "just",
@@ -9532,10 +12912,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "eft-cyme"
   },
+  "eftcymes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eftcymes"
+  },
   "eftsið": {
     "def": "going (or coming) back, return",
     "grammar": "m.",
     "lemma": "eft-sīð"
+  },
+  "eftsiðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eftsiðas"
+  },
+  "eftsiðeorla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eftsiðeorla"
+  },
+  "eftsiðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eftsiðes"
   },
   "eg stream": {
     "def": "water-STREAM, (pl",
@@ -9577,6 +12977,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "eġesa"
   },
+  "egesan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "egesan"
+  },
   "egese": {
     "def": "fear, horror",
     "grammar": "wk.",
@@ -9586,6 +12991,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2929",
     "grammar": "adj.",
     "lemma": "eġes-ful(l)"
+  },
+  "egesfull": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "egesfull"
   },
   "egeslic": {
     "def": "2309, 2825",
@@ -9612,6 +13022,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "eġsa"
   },
+  "egsan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "egsan"
+  },
   "egse": {
     "def": "see eġesa",
     "grammar": "",
@@ -9632,10 +13047,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "eġsian"
   },
+  "egsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "egsode"
+  },
   "egstream": {
     "def": "water-STREAM, (pl",
     "grammar": "m.",
     "lemma": "ēg-strēam"
+  },
+  "egstreamum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "egstreamum"
   },
   "eht": {
     "def": "pursue, persecute",
@@ -9652,6 +13077,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ēhtan"
   },
+  "ehtende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ehtende"
+  },
   "ehti(g)": {
     "def": "see eahtian",
     "grammar": "",
@@ -9666,6 +13096,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see eahtian",
     "grammar": "",
     "lemma": "ehti(ġ)an"
+  },
+  "ehtigað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ehtigað"
+  },
+  "ehton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ehton"
   },
   "el": {
     "def": "yldo",
@@ -9706,6 +13146,16 @@ const OLD_ENGLISH_DICT = {
     "def": "yldo",
     "grammar": "eldo",
     "lemma": "elde"
+  },
+  "eldo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eldo"
+  },
+  "eldum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eldum"
   },
   "ell": {
     "def": "otherwise",
@@ -9807,6 +13257,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "ellen-dǣd"
   },
+  "ellendædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellendædum"
+  },
   "ellengæst": {
     "def": "powerful or bold demon",
     "grammar": "mi.",
@@ -9817,25 +13272,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ellen-līċe"
   },
+  "ellenmærðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellenmærðum"
+  },
   "ellenmærþu": {
     "def": "fame for courage",
     "grammar": "f.",
     "lemma": "ellen-mǣrþu"
+  },
+  "ellenmærþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellenmærþum"
   },
   "ellenrof": {
     "def": "strong",
     "grammar": "adj.",
     "lemma": "ellen-rōf"
   },
+  "ellenrofum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellenrofum"
+  },
   "ellensioc": {
     "def": "(strength-SICK), Copyright ӯ 2008",
     "grammar": "adj.",
     "lemma": "ellen-sīoc"
   },
+  "ellensiocne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellensiocne"
+  },
   "ellenweorc": {
     "def": "WORK of valor, cou-rageous deed",
     "grammar": "n.",
     "lemma": "ellen-weorc"
+  },
+  "ellenweorca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellenweorca"
   },
   "elles": {
     "def": "otherwise",
@@ -9872,15 +13352,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ellor-gāst"
   },
+  "ellorgæst": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellorgæst"
+  },
+  "ellorgæstas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ellorgæstas"
+  },
   "ellorsið": {
     "def": "journey ELsewhere, death",
     "grammar": "m.",
     "lemma": "ellor-sīð"
   },
+  "elne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "elne"
+  },
   "elne(s)": {
     "def": "see ellen",
     "grammar": "",
     "lemma": "elne(s)"
+  },
+  "elnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "elnes"
   },
   "elr": {
     "def": "another",
@@ -9892,6 +13392,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "comp.",
     "lemma": "elra"
   },
+  "elran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "elran"
+  },
   "elre": {
     "def": "another",
     "grammar": "comp.",
@@ -9901,6 +13406,11 @@ const OLD_ENGLISH_DICT = {
     "def": "336",
     "grammar": "adj.",
     "lemma": "el-þēodiġ"
+  },
+  "elþeodige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "elþeodige"
   },
   "en": {
     "def": "1254",
@@ -10002,6 +13512,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ende-dōgor"
   },
+  "endedogores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "endedogores"
+  },
   "endedæg": {
     "def": "death",
     "grammar": "m.",
@@ -10042,15 +13557,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ent"
   },
+  "enta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "enta"
+  },
   "entisc": {
     "def": "made by giants, giant",
     "grammar": "adj.",
     "lemma": "entisc"
   },
+  "entiscne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "entiscne"
+  },
+  "eode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eode"
+  },
+  "eoderas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eoderas"
+  },
+  "eodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eodon"
+  },
   "eodor": {
     "def": "precinct",
     "grammar": "m.",
     "lemma": "eodor"
+  },
+  "eodur": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eodur"
   },
   "eofer": {
     "def": "1112",
@@ -10067,10 +13612,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eofer-sprēot"
   },
+  "eoferas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eoferas"
+  },
   "eoferspreot": {
     "def": "boar-spear",
     "grammar": "m.",
     "lemma": "eofer-sprēot"
+  },
+  "eoferspreotum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eoferspreotum"
   },
   "eofor heafod segn": {
     "def": "boar’s-HEAD-SIGN, banner",
@@ -10092,6 +13647,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "eofor-līċ"
   },
+  "eofores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eofores"
+  },
   "eoforheafodsegn": {
     "def": "boar’s-HEAD-SIGN, banner",
     "grammar": "m.",
@@ -10107,15 +13667,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "eofoð"
   },
+  "eofoðo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eofoðo"
+  },
   "eolet": {
     "def": "224 (n",
     "grammar": "voyage",
     "lemma": "eolet"
   },
+  "eoletes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eoletes"
+  },
   "eom": {
     "def": "335, 407, 1475, 2527, [F",
     "grammar": "anv.",
     "lemma": "eom"
+  },
+  "eomer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eomer"
   },
   "eor": {
     "def": "see yrre",
@@ -10146,6 +13721,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1208",
     "grammar": "m.",
     "lemma": "eorclan-stān"
+  },
+  "eorclanstanas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorclanstanas"
   },
   "eored geatwe": {
     "def": "warlike equip-ment",
@@ -10237,15 +13817,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "eorl-weorod"
   },
+  "eorla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorla"
+  },
+  "eorlas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlas"
+  },
+  "eorles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorles"
+  },
   "eorlgestreon": {
     "def": "(warriors’) treasure, riches",
     "grammar": "n.",
     "lemma": "eorl-ġestrēon"
   },
+  "eorlgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlgestreona"
+  },
   "eorlgewæde": {
     "def": "dress of a warrior, armor",
     "grammar": "nja.",
     "lemma": "eorl-ġewǣde"
+  },
+  "eorlgewædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlgewædum"
+  },
+  "eorlic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlic"
   },
   "eorlic(=eorl lic)": {
     "def": "manly, heroic",
@@ -10266,6 +13876,16 @@ const OLD_ENGLISH_DICT = {
     "def": "nobility, rank",
     "grammar": "mi.",
     "lemma": "eorl-scipe"
+  },
+  "eorlscype": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlscype"
+  },
+  "eorlum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorlum"
   },
   "eorlweorod": {
     "def": "band of warriors",
@@ -10307,6 +13927,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "eormen-cyn(n)"
   },
+  "eormencynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eormencynnes"
+  },
   "eormengrund": {
     "def": "spacious (GROUND) earth",
     "grammar": "m.",
@@ -10317,6 +13942,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "eormen-lāf"
   },
+  "eormenlafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eormenlafe"
+  },
+  "eormenrices": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eormenrices"
+  },
   "eorr": {
     "def": "see yrre",
     "grammar": "",
@@ -10326,6 +13961,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see yrre",
     "grammar": "",
     "lemma": "eorre"
+  },
+  "eorres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorres"
   },
   "eorð": {
     "def": "752, 1730, 2727, 3049",
@@ -10427,6 +14067,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eorð-weard"
   },
+  "eorðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorðan"
+  },
   "eorðbuend(e)": {
     "def": "(EARTH-dweller,) man, native",
     "grammar": "mc.",
@@ -10436,6 +14081,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1155",
     "grammar": "m.",
     "lemma": "eorð-cyning"
+  },
+  "eorðcyninges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorðcyninges"
   },
   "eorðdraca": {
     "def": "EARTH-DRAGON (‘dragon that lives in the earth’)",
@@ -10447,10 +14097,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "eorðe"
   },
+  "eorðhuse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorðhuse"
+  },
   "eorðreced": {
     "def": "EARTH-house",
     "grammar": "m.",
     "lemma": "eorð-reċed"
+  },
+  "eorðscrafa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorðscrafa"
   },
   "eorðscræf": {
     "def": "subterra-nean chamber",
@@ -10467,10 +14127,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eorð-weal(l)"
   },
+  "eorðweall": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorðweall"
+  },
   "eorðweard": {
     "def": "region of EARTH",
     "grammar": "m.",
     "lemma": "eorð-weard"
+  },
+  "eorþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eorþan"
   },
   "eot": {
     "def": "giant",
@@ -10487,10 +14157,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "eoten"
   },
+  "eotena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eotena"
+  },
+  "eotenas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eotenas"
+  },
   "eotenisc": {
     "def": "made by giants, giant",
     "grammar": "adj.",
     "lemma": "eotenisc"
+  },
+  "eotenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eotenum"
   },
   "eoton weard": {
     "def": "watch against a giant",
@@ -10501,6 +14186,11 @@ const OLD_ENGLISH_DICT = {
     "def": "watch against a giant",
     "grammar": "f.",
     "lemma": "eoton-weard"
+  },
+  "eotonisc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eotonisc"
   },
   "eotonweard": {
     "def": "watch against a giant",
@@ -10527,10 +14217,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "poss.",
     "lemma": "ēower"
   },
+  "eowerne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eowerne"
+  },
+  "eoweð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eoweð"
+  },
+  "eowic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eowic"
+  },
+  "eowra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eowra"
+  },
+  "eowre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eowre"
+  },
+  "eowrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eowrum"
+  },
+  "erede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "erede"
+  },
   "est": {
     "def": "good will",
     "grammar": "fi.",
     "lemma": "ēst"
+  },
+  "este": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "este"
+  },
+  "estum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "estum"
+  },
+  "etan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "etan"
+  },
+  "eteðangenga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eteðangenga"
   },
   "etonisc": {
     "def": "see eotenisc",
@@ -10572,6 +14317,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ēðe"
   },
+  "eðel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eðel"
+  },
   "eðel riht": {
     "def": "ancestral RIGHT, privi-leges belonging to a hereditary estate, ancestral domain",
     "grammar": "n.",
@@ -10596,6 +14346,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ancestral RIGHT, privi-leges belonging to a hereditary estate, ancestral domain",
     "grammar": "n.",
     "lemma": "ēðel-riht"
+  },
+  "eðelwyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eðelwyn"
   },
   "eðelwyn(n)": {
     "def": "enjoyment of hered-itary estate, delightful home",
@@ -10662,20 +14417,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ēþel-stōl"
   },
+  "eþelstolas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eþelstolas"
+  },
   "eþelturf": {
     "def": "native soil, country",
     "grammar": "fc.",
     "lemma": "ēþel-turf"
+  },
+  "eþeltyrf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eþeltyrf"
   },
   "eþelweard": {
     "def": "GUARDian of the na-tive land, king",
     "grammar": "m.",
     "lemma": "ēþel-weard"
   },
+  "eþelwearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eþelwearde"
+  },
+  "eþgesyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eþgesyne"
+  },
   "eþgesуne": {
     "def": "easily visible (with the connotation of ‘in abundance’)",
     "grammar": "adj.",
     "lemma": "ēþ-ġesӯne"
+  },
+  "eþle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "eþle"
   },
   "f": {
     "def": "grapple, seize",
@@ -10712,15 +14492,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fācen-stafas"
   },
+  "facne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "facne"
+  },
   "fag": {
     "def": "colored, decorated, vari-egated, shining",
     "grammar": "f",
     "lemma": "fāg"
   },
+  "fage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fage"
+  },
+  "fagne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fagne"
+  },
+  "fagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fagum"
+  },
   "fah": {
     "def": "(1) hostile, (FOE)",
     "grammar": "f",
     "lemma": "fāh"
+  },
+  "fahne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fahne"
   },
   "famig heals": {
     "def": "FOAMY-necked",
@@ -10742,6 +14547,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "fāne"
   },
+  "fand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fand"
+  },
   "fane": {
     "def": "fāra, see fāh",
     "grammar": "f",
@@ -10751,6 +14561,11 @@ const OLD_ENGLISH_DICT = {
     "def": "proceed, FARE",
     "grammar": "vb. 6",
     "lemma": "faran"
+  },
+  "fara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fara"
   },
   "faran": {
     "def": "proceed, FARE",
@@ -10762,10 +14577,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "faran"
   },
+  "farenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "farenne"
+  },
   "faroð": {
     "def": "current, sea",
     "grammar": "m.",
     "lemma": "faroð"
+  },
+  "faroðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "faroðe"
+  },
+  "fatu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fatu"
   },
   "fe": {
     "def": "FEW, a few",
@@ -10812,20 +14642,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "2757",
     "lemma": "fealo"
   },
+  "fealone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fealone"
+  },
   "fealu": {
     "def": "pale (?), glossy or glinting (?)",
     "grammar": "adj.",
     "lemma": "fealu"
+  },
+  "fealwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fealwe"
+  },
+  "feara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feara"
   },
   "feasceaft": {
     "def": "destitute, poor, wretched",
     "grammar": "adj.",
     "lemma": "fēa-sceaft"
   },
+  "feasceafte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feasceafte"
+  },
+  "feasceaftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feasceaftum"
+  },
+  "feaum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feaum"
+  },
   "feax": {
     "def": "1647, fexe 2967",
     "grammar": "n.",
     "lemma": "feax"
+  },
+  "feaxe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feaxe"
   },
   "fee": {
     "def": "FEW, a few",
@@ -10836,6 +14701,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see fōn",
     "grammar": "",
     "lemma": "fēhð"
+  },
+  "fehðoþer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fehðoþer"
   },
   "fel": {
     "def": "many, nearly always w",
@@ -10927,10 +14797,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fela-mōdiġ"
   },
+  "felamodigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "felamodigra"
+  },
+  "felasinnigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "felasinnigne"
+  },
   "fele": {
     "def": "many, nearly always w",
     "grammar": "nu.",
     "lemma": "fela"
+  },
+  "fellum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fellum"
+  },
+  "fen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fen"
   },
   "fen freoðo": {
     "def": "280), FEN-refuge",
@@ -11007,6 +14897,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fen-hop"
   },
+  "fenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fenne"
+  },
   "feo": {
     "def": "see feoh",
     "grammar": "",
@@ -11052,6 +14947,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "feoh-ġift"
   },
+  "feohgiftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feohgiftum"
+  },
+  "feohgyftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feohgyftum"
+  },
   "feohleas": {
     "def": "(money-LESS, i",
     "grammar": "adj.",
@@ -11086,6 +14991,16 @@ const OLD_ENGLISH_DICT = {
     "def": "reach",
     "grammar": "vb. 3",
     "lemma": "fēolan"
+  },
+  "feoll": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feoll"
+  },
+  "feollon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feollon"
   },
   "feond": {
     "def": "FIEND",
@@ -11137,10 +15052,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "fēond-scipe"
   },
+  "feonda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feonda"
+  },
+  "feonde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feonde"
+  },
+  "feondes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feondes"
+  },
   "feondgrap": {
     "def": "enemy’s GRIP or clutch",
     "grammar": "f.",
     "lemma": "fēond-grāp"
+  },
+  "feondgrapum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feondgrapum"
   },
   "feondscaða": {
     "def": "dire foe",
@@ -11151,6 +15086,16 @@ const OLD_ENGLISH_DICT = {
     "def": "hosility",
     "grammar": "mi.",
     "lemma": "fēond-scipe"
+  },
+  "feondum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feondum"
+  },
+  "feor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feor"
   },
   "feor buend": {
     "def": "FAR dweller",
@@ -11196,6 +15141,21 @@ const OLD_ENGLISH_DICT = {
     "def": "OEG § ̄589",
     "grammar": "f.",
     "lemma": "feor-cӯþð(u)"
+  },
+  "feore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feore"
+  },
+  "feores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feores"
+  },
+  "feorh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorh"
   },
   "feorh bealu": {
     "def": "(life-BALE), deadly attack",
@@ -11322,6 +15282,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "feorh-wund"
   },
+  "feorhbealo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhbealo"
+  },
   "feorhbealu": {
     "def": "(life-BALE), deadly attack",
     "grammar": "nwa.",
@@ -11332,25 +15297,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "feorh-ben(n)"
   },
+  "feorhbennum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhbennum"
+  },
   "feorhbona": {
     "def": "(life-)slayer",
     "grammar": "wk.",
     "lemma": "feorh-bona"
+  },
+  "feorhbonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhbonan"
   },
   "feorhcyn(n)": {
     "def": "(life-race), human race",
     "grammar": "nja.",
     "lemma": "feorh-cyn(n)"
   },
+  "feorhcynna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhcynna"
+  },
   "feorhgeniðla": {
     "def": "life-enemy, dead-ly foe",
     "grammar": "wk.",
     "lemma": "feorh-ġenīðla"
   },
+  "feorhgeniðlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhgeniðlan"
+  },
   "feorhlast": {
     "def": "(life-track, i",
     "grammar": "m.",
     "lemma": "feorh-lāst"
+  },
+  "feorhlastas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhlastas"
+  },
+  "feorhlege": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhlege"
   },
   "feorhlegu": {
     "def": "OEG § ̄606), LAYing down of life, fate, death",
@@ -11372,10 +15367,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "feorh-wund"
   },
+  "feorhwunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorhwunde"
+  },
   "feorm": {
     "def": "sustenance, tending to, taking care of",
     "grammar": "f.",
     "lemma": "feorm"
+  },
+  "feorme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorme"
   },
   "feormend leas": {
     "def": "without a cleaner or polisher",
@@ -11401,6 +15406,21 @@ const OLD_ENGLISH_DICT = {
     "def": "without a cleaner or polisher",
     "grammar": "adj.",
     "lemma": "feormend-lēas"
+  },
+  "feormendlease": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feormendlease"
+  },
+  "feormie": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feormie"
+  },
+  "feormynd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feormynd"
   },
   "feormynd(=feormend": {
     "def": "mc",
@@ -11432,15 +15452,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "feorran-cund"
   },
+  "feorrancundum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorrancundum"
+  },
   "feorre": {
     "def": "remove",
     "grammar": "vb.  I",
     "lemma": "feorran"
   },
+  "feorum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorum"
+  },
   "feorweg": {
     "def": "(pl",
     "grammar": "m.",
     "lemma": "feor-weġ"
+  },
+  "feorwegum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feorwegum"
   },
   "feower": {
     "def": "1637, 2163",
@@ -11467,6 +15502,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "fēower-tӯne"
   },
+  "feowertyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feowertyne"
+  },
   "feowertуne": {
     "def": "num",
     "grammar": "num.",
@@ -11482,10 +15522,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "fēran"
   },
+  "ferdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferdon"
+  },
   "fere": {
     "def": "FARE",
     "grammar": "vb. I",
     "lemma": "fēran"
+  },
+  "feredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feredon"
   },
   "ferh": {
     "def": "see feorh",
@@ -11506,6 +15556,11 @@ const OLD_ENGLISH_DICT = {
     "def": "GUARD over life, i",
     "grammar": "f.",
     "lemma": "ferh-weard"
+  },
+  "ferhwearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhwearde"
   },
   "ferhð": {
     "def": "mind, spirit, heart",
@@ -11542,15 +15597,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ferhð-ġenīðla"
   },
+  "ferhðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhðe"
+  },
+  "ferhðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhðes"
+  },
   "ferhðfrec": {
     "def": "bold in spirit",
     "grammar": "adj.",
     "lemma": "ferhð-frec"
   },
+  "ferhðfrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhðfrecan"
+  },
   "ferhðgeniðla": {
     "def": "deadly foe",
     "grammar": "wk.",
     "lemma": "ferhð-ġenīðla"
+  },
+  "ferhðgeniðlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhðgeniðlan"
+  },
+  "ferhðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhðum"
+  },
+  "ferhþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhþe"
+  },
+  "ferhþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferhþum"
   },
   "feri": {
     "def": "lead, bring",
@@ -11566,6 +15656,16 @@ const OLD_ENGLISH_DICT = {
     "def": "lead, bring",
     "grammar": "vb. I",
     "lemma": "ferian"
+  },
+  "ferigeaðge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ferigeaðge"
+  },
+  "fet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fet"
   },
   "fetel hilt": {
     "def": "linked HILT",
@@ -11597,10 +15697,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "fetian"
   },
+  "fetod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fetod"
+  },
   "fex": {
     "def": "see feax",
     "grammar": "",
     "lemma": "fex"
+  },
+  "fexe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fexe"
+  },
+  "feðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feðan"
   },
   "feðe gest": {
     "def": "foot-GUEST or -warrior (BGdSL 32 [1907] 565 ̄f",
@@ -11627,15 +15742,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fēðe-wīġ"
   },
+  "feðecempa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feðecempa"
+  },
   "feðegest": {
     "def": "foot-GUEST or -warrior (BGdSL 32 [1907] 565 ̄f",
     "grammar": "mi.",
     "lemma": "fēðe-ġest"
   },
+  "feðegestum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feðegestum"
+  },
+  "feðergearwum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feðergearwum"
+  },
   "feðewig": {
     "def": "fight on foot",
     "grammar": "n.",
     "lemma": "fēðe-wīġ"
+  },
+  "feðewiges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feðewiges"
   },
   "feþ": {
     "def": "pace",
@@ -11646,6 +15781,11 @@ const OLD_ENGLISH_DICT = {
     "def": "troop",
     "grammar": "wk.",
     "lemma": "fēþa"
+  },
+  "feþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feþan"
   },
   "feþe": {
     "def": "pace",
@@ -11691,6 +15831,11 @@ const OLD_ENGLISH_DICT = {
     "def": "walking-track, step",
     "grammar": "m.",
     "lemma": "fēþe-lāst"
+  },
+  "feþelastum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "feþelastum"
   },
   "fif": {
     "def": "fīfe, 420",
@@ -11787,6 +15932,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "fīf-tӯne"
   },
+  "fin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fin"
+  },
   "find": {
     "def": "1156, 1378, 1838, 2294, 2870, 3162 (devise)",
     "grammar": "vb. 3",
@@ -11806,6 +15956,21 @@ const OLD_ENGLISH_DICT = {
     "def": "760",
     "grammar": "m.",
     "lemma": "finġer"
+  },
+  "finna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "finna"
+  },
+  "finne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "finne"
+  },
+  "finnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "finnes"
   },
   "fiond": {
     "def": "see fēond",
@@ -11846,6 +16011,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see fyrġen-",
     "grammar": "",
     "lemma": "firġen-"
+  },
+  "fitela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fitela"
   },
   "fl": {
     "def": "2438, 3119 (arrowhead, barb: Moore Kl",
@@ -12227,10 +16397,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "folc-toga"
   },
+  "folca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folca"
+  },
   "folcagend(e)": {
     "def": "leader of people, chief",
     "grammar": "mc.",
     "lemma": "folc-āgend(e)"
+  },
+  "folcagende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folcagende"
   },
   "folccwen": {
     "def": "FOLK-QUEEN",
@@ -12242,6 +16422,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "folc-cyning"
   },
+  "folce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folce"
+  },
+  "folces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folces"
+  },
   "folcred": {
     "def": "people’s benefit, what is good for the people",
     "grammar": "m.",
@@ -12251,6 +16441,16 @@ const OLD_ENGLISH_DICT = {
     "def": "inheritance (?)",
     "grammar": "n.",
     "lemma": "folc-riht"
+  },
+  "folcrihta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folcrihta"
+  },
+  "folcscare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folcscare"
   },
   "folcscaru": {
     "def": "FOLK-SHARE, nation (?), heritable land (?)",
@@ -12266,6 +16466,21 @@ const OLD_ENGLISH_DICT = {
     "def": "FOLK-leader, chief",
     "grammar": "wk.",
     "lemma": "folc-toga"
+  },
+  "folctogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folctogan"
+  },
+  "folcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folcum"
+  },
+  "folcwaldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folcwaldan"
   },
   "fold": {
     "def": "earth, ground",
@@ -12302,15 +16517,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fold-weġ"
   },
+  "foldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foldan"
+  },
   "foldbold": {
     "def": "BUILDing",
     "grammar": "n.",
     "lemma": "fold-bold"
   },
+  "foldbuend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foldbuend"
+  },
   "foldbuend(e)": {
     "def": "earth-dweller, human (being)",
     "grammar": "mc.",
     "lemma": "fold-būend(e)"
+  },
+  "foldbuende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foldbuende"
+  },
+  "foldbuendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foldbuendum"
   },
   "folde": {
     "def": "earth, ground",
@@ -12321,6 +16556,16 @@ const OLD_ENGLISH_DICT = {
     "def": "WAY, path",
     "grammar": "m.",
     "lemma": "fold-weġ"
+  },
+  "foldwegas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foldwegas"
+  },
+  "folgedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folgedon"
   },
   "folgi": {
     "def": "FOLLOW, pursue",
@@ -12337,15 +16582,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "folgian"
   },
+  "folgode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folgode"
+  },
   "folm": {
     "def": "hand",
     "grammar": "f.",
     "lemma": "folm"
   },
+  "folma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folma"
+  },
+  "folme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folme"
+  },
+  "folmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "folmum"
+  },
   "fon": {
     "def": "grapple, seize",
     "grammar": "vb. 7",
     "lemma": "fōn"
+  },
+  "fond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fond"
   },
   "fondi": {
     "def": "see fandian",
@@ -13057,6 +17327,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "foran"
   },
+  "forbarn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forbarn"
+  },
   "forberan": {
     "def": "restrain",
     "grammar": "vb.  4",
@@ -13076,6 +17351,11 @@ const OLD_ENGLISH_DICT = {
     "def": "vb",
     "grammar": "vb.  I",
     "lemma": "for-bærnan"
+  },
+  "forbærst": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forbærst"
   },
   "ford": {
     "def": "‡water-way (sea)",
@@ -13152,20 +17432,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fore-mǣre"
   },
+  "foremærost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foremærost"
+  },
   "foresnotor": {
     "def": "very prudent or per-ceptive",
     "grammar": "adj.",
     "lemma": "fore-snotor"
+  },
+  "foresnotre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foresnotre"
   },
   "foreþanc": {
     "def": "m",
     "grammar": "m.",
     "lemma": "fore-þanc"
   },
+  "forgeaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgeaf"
+  },
+  "forgeald": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgeald"
+  },
   "forgifan": {
     "def": "grant",
     "grammar": "vb. 5",
     "lemma": "for-ġifan"
+  },
+  "forgolden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgolden"
+  },
+  "forgrand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgrand"
+  },
+  "forgrap": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgrap"
   },
   "forgrindan": {
     "def": "crush (w",
@@ -13177,15 +17492,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "for-grīpan"
   },
+  "forgrunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgrunden"
+  },
   "forgyldan": {
     "def": "pay for, re-quite",
     "grammar": "vb. 3",
     "lemma": "for-ġyldan"
   },
+  "forgylde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgylde"
+  },
+  "forgymeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgymeð"
+  },
   "forgytan": {
     "def": "1751",
     "grammar": "vb. 5",
     "lemma": "for-ġytan"
+  },
+  "forgyteðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forgyteðond"
   },
   "forgуman": {
     "def": "be unmindful of",
@@ -13202,10 +17537,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "for-healdan"
   },
+  "forhealden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forhealden"
+  },
   "forhicgan": {
     "def": "scorn",
     "grammar": "vb. III",
     "lemma": "for-hicgan"
+  },
+  "forhicge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forhicge"
   },
   "forht": {
     "def": "2230, 2967",
@@ -13217,15 +17562,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "for-lācan"
   },
+  "forleas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forleas"
+  },
   "forleosan": {
     "def": "LOSE",
     "grammar": "vb. 2",
     "lemma": "for-lēosan"
   },
+  "forlet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forlet"
+  },
+  "forleton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forleton"
+  },
+  "forloren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forloren"
+  },
   "forlædan": {
     "def": "2039",
     "grammar": "vb. I",
     "lemma": "for-lǣdan"
+  },
+  "forlæddan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forlæddan"
   },
   "forlætan": {
     "def": "LET",
@@ -13242,25 +17612,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "forma"
   },
+  "forman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forman"
+  },
   "forme": {
     "def": "716, 1463, 1527, 2625",
     "grammar": "adj.",
     "lemma": "forma"
+  },
+  "fornam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fornam"
+  },
+  "fornamon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fornamon"
   },
   "forniman": {
     "def": "carry off, destroy",
     "grammar": "vb. 4",
     "lemma": "for-niman"
   },
+  "foron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "foron"
+  },
   "forscrifan": {
     "def": "proscribe, condemn",
     "grammar": "vb. 1",
     "lemma": "for-scrīfan"
   },
+  "forscrifen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forscrifen"
+  },
   "forsendan": {
     "def": "SEND away, dispatch, put to death",
     "grammar": "vb. I",
     "lemma": "for-sendan"
+  },
+  "forsended": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsended"
+  },
+  "forsiteðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsiteðond"
   },
   "forsittan": {
     "def": "fail, diminish (intr",
@@ -13272,6 +17677,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "for-sīðian"
   },
+  "forsiðod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsiðod"
+  },
   "forst": {
     "def": "1609",
     "grammar": "m.",
@@ -13281,6 +17691,21 @@ const OLD_ENGLISH_DICT = {
     "def": "hin-der, prevent",
     "grammar": "vb. 6",
     "lemma": "for-standan"
+  },
+  "forstes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forstes"
+  },
+  "forstod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forstod"
+  },
+  "forstode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forstode"
   },
   "forsw(e)orcan": {
     "def": "1767",
@@ -13292,20 +17717,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "for-swāpan"
   },
+  "forswealg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forswealg"
+  },
   "forswelgan": {
     "def": "1122, 2080",
     "grammar": "vb. 3",
     "lemma": "for-swelgan"
+  },
+  "forsweop": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsweop"
   },
   "forswerian": {
     "def": "w",
     "grammar": "vb. 6",
     "lemma": "for-swerian"
   },
+  "forsworceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsworceð"
+  },
+  "forsworen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forsworen"
+  },
   "forweorpan": {
     "def": "2872",
     "grammar": "vb. 3",
     "lemma": "for-weorpan"
+  },
+  "forwrat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forwrat"
   },
   "forwrecan": {
     "def": "banish",
@@ -13317,10 +17767,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "for-wrītan"
   },
+  "forwræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forwræc"
+  },
+  "forwurpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forwurpe"
+  },
   "forwyrnan": {
     "def": "(w",
     "grammar": "vb. I",
     "lemma": "for-wyrnan"
+  },
+  "forwyrnde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forwyrnde"
+  },
+  "forwyrne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forwyrne"
   },
   "forð": {
     "def": "forward, on(ward), away",
@@ -13382,6 +17852,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "for",
     "lemma": "for-ðām"
   },
+  "forðforlacen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðforlacen"
+  },
+  "forðgefremede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðgefremede"
+  },
   "forðgerimed": {
     "def": "vb",
     "grammar": "pp.",
@@ -13392,20 +17872,105 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "forð-ġesceaft"
   },
+  "forðgestop": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðgestop"
+  },
+  "forðgewat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðgewat"
+  },
   "forðgewiten": {
     "def": "de-parted, dead",
     "grammar": "pp.",
     "lemma": "forð-ġewiten"
+  },
+  "forðgewitenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðgewitenum"
+  },
+  "forðnear": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðnear"
+  },
+  "forðofer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðofer"
+  },
+  "forðofereodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðofereodon"
   },
   "forðon": {
     "def": "see for-ðām",
     "grammar": "",
     "lemma": "for-ðon"
   },
+  "forðonsended": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðonsended"
+  },
+  "forðonsendon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðonsendon"
+  },
+  "forðscile": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðscile"
+  },
+  "forðscyle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðscyle"
+  },
+  "forðsprecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðsprecan"
+  },
+  "forðtela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðtela"
+  },
+  "forðunder": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðunder"
+  },
   "forðweg": {
     "def": "WAY FORTH",
     "grammar": "m.",
     "lemma": "forð-weġ"
+  },
+  "forðwisade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðwisade"
+  },
+  "forðþonon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forðþonon"
+  },
+  "forþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forþan"
+  },
+  "forþon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "forþon"
   },
   "forþringan": {
     "def": "drive out, expel",
@@ -13442,10 +18007,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fōt-ġemearc"
   },
+  "fotgemearces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fotgemearces"
+  },
   "fotlast": {
     "def": "FOOT-print, track",
     "grammar": "m.",
     "lemma": "fōt-lāst"
+  },
+  "fotum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fotum"
   },
   "fracod": {
     "def": "useless",
@@ -13456,6 +18031,11 @@ const OLD_ENGLISH_DICT = {
     "def": "w",
     "grammar": "from",
     "lemma": "fram"
+  },
+  "francna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "francna"
   },
   "fre": {
     "def": "lord, king",
@@ -13522,6 +18102,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "frēa-drihten"
   },
+  "freadrihtnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freadrihtnes"
+  },
+  "frean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frean"
+  },
+  "freaware": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freaware"
+  },
   "freawine": {
     "def": "( ̄friend and) lord",
     "grammar": "mi.",
@@ -13531,6 +18126,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(lordly, i",
     "grammar": "f.",
     "lemma": "frēa-wrāsn"
+  },
+  "freawrasnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freawrasnum"
   },
   "frec": {
     "def": "audacious",
@@ -13551,6 +18151,11 @@ const OLD_ENGLISH_DICT = {
     "def": "audacious",
     "grammar": "adj.",
     "lemma": "frēcne"
+  },
+  "frecnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frecnan"
   },
   "frecne": {
     "def": "audacious",
@@ -13577,6 +18182,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fremde"
   },
+  "fremede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fremede"
+  },
+  "fremedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fremedon"
+  },
+  "fremeðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fremeðon"
+  },
   "fremm": {
     "def": "perform",
     "grammar": "vb. I",
@@ -13587,10 +18207,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "fremman"
   },
+  "fremmaðgena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fremmaðgena"
+  },
   "fremme": {
     "def": "perform",
     "grammar": "vb. I",
     "lemma": "fremman"
+  },
+  "fremu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fremu"
   },
   "freo burh": {
     "def": "(FREE, i",
@@ -13662,10 +18292,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "frēod"
   },
+  "freode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freode"
+  },
   "freodrihten": {
     "def": "m",
     "grammar": "",
     "lemma": "frēo-drihten"
+  },
+  "freodryhtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freodryhtne"
   },
   "freog": {
     "def": "3176",
@@ -13686,6 +18326,11 @@ const OLD_ENGLISH_DICT = {
     "def": "noble, excellent",
     "grammar": "adj.",
     "lemma": "frēo-liċ"
+  },
+  "freolicu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freolicu"
   },
   "freond": {
     "def": "supporter, ally",
@@ -13742,10 +18387,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "frēond-scipe"
   },
+  "freonda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freonda"
+  },
   "freondlar": {
     "def": "FRIENDly counsel (LORE)",
     "grammar": "f.",
     "lemma": "frēond-lār"
+  },
+  "freondlarum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freondlarum"
   },
   "freondlaþu": {
     "def": "FRIENDship, good will (or invitation?)",
@@ -13757,10 +18412,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "frēond-līċe"
   },
+  "freondlicor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freondlicor"
+  },
   "freondscipe": {
     "def": "2069",
     "grammar": "mi.",
     "lemma": "frēond-scipe"
+  },
+  "freondum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freondum"
   },
   "freowine": {
     "def": "noble (or dear) friend",
@@ -13822,6 +18487,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "freoðu-webbe"
   },
+  "frescyninge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frescyninge"
+  },
+  "fresena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fresena"
+  },
+  "freslondum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freslondum"
+  },
+  "fresna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fresna"
+  },
+  "freswæle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "freswæle"
+  },
   "fret": {
     "def": "devour, consume",
     "grammar": "vb. 5",
@@ -13846,6 +18536,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ask, question",
     "grammar": "vb. 5",
     "lemma": "fricgan"
+  },
+  "fricgcean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fricgcean"
   },
   "fricge": {
     "def": "ask, question",
@@ -13882,6 +18577,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fr",
     "lemma": "friġnan"
   },
+  "frin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frin"
+  },
+  "frinan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frinan"
+  },
   "frioðo wær": {
     "def": "compact of peace",
     "grammar": "f.",
@@ -13896,6 +18601,16 @@ const OLD_ENGLISH_DICT = {
     "def": "compact of peace",
     "grammar": "f.",
     "lemma": "frioðo-wǣr"
+  },
+  "frioðowære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frioðowære"
+  },
+  "frioðuwære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frioðuwære"
   },
   "friðu sib(b)": {
     "def": "pledge of peace",
@@ -13912,20 +18627,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "friðu-sib(b)"
   },
+  "friðusibb": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "friðusibb"
+  },
   "frod": {
     "def": "wise, old (‘old and wise’)",
     "grammar": "adj.",
     "lemma": "frōd"
+  },
+  "froda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "froda"
+  },
+  "frodan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frodan"
+  },
+  "frode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frode"
   },
   "frofor": {
     "def": "solace, relief, help",
     "grammar": "f.",
     "lemma": "frōfor"
   },
+  "frofre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frofre"
+  },
   "from": {
     "def": "prep",
     "grammar": "prep.",
     "lemma": "from"
+  },
+  "frome": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frome"
+  },
+  "fromum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fromum"
+  },
+  "froncum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "froncum"
   },
   "frum": {
     "def": "maker, doer, chief",
@@ -13967,6 +18722,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "fruma"
   },
+  "frumcyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frumcyn"
+  },
   "frumcyn(n)": {
     "def": "lineage, origin",
     "grammar": "nja.",
@@ -13982,15 +18742,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "frum-gār"
   },
+  "frumgare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frumgare"
+  },
   "frumsceaft": {
     "def": "begin-ning, origin",
     "grammar": "fi.",
     "lemma": "frum-sceaft"
   },
+  "frumsceafte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frumsceafte"
+  },
+  "frysland": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frysland"
+  },
+  "frysna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frysna"
+  },
+  "frysum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frysum"
+  },
+  "frægn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frægn"
+  },
+  "fræt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fræt"
+  },
+  "frætewum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frætewum"
+  },
   "frætw": {
     "def": "make beauti-ful",
     "grammar": "vb. I",
     "lemma": "frætwan"
+  },
+  "frætwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frætwa"
   },
   "frætwan": {
     "def": "make beauti-ful",
@@ -14001,6 +18806,21 @@ const OLD_ENGLISH_DICT = {
     "def": "make beauti-ful",
     "grammar": "vb. I",
     "lemma": "frætwan"
+  },
+  "frætwum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "frætwum"
+  },
+  "fugle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fugle"
+  },
+  "fuglum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fuglum"
   },
   "fugol": {
     "def": "218",
@@ -14021,6 +18841,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see feohtan",
     "grammar": "",
     "lemma": "fuhton"
+  },
+  "ful": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ful"
   },
   "ful læstan": {
     "def": "w",
@@ -14047,6 +18872,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ful-lǣstan"
   },
+  "full": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "full"
+  },
   "full eode": {
     "def": "w",
     "grammar": "pret.",
@@ -14067,6 +18897,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pret.",
     "lemma": "full-ēode"
   },
+  "fulle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fulle"
+  },
   "fulleode": {
     "def": "w",
     "grammar": "pret.",
@@ -14076,6 +18911,11 @@ const OLD_ENGLISH_DICT = {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "ful-lǣstan"
+  },
+  "fullæstu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fullæstu"
   },
   "fult": {
     "def": "support",
@@ -14092,6 +18932,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fultum"
   },
+  "funde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "funde"
+  },
+  "funden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "funden"
+  },
   "fundi": {
     "def": "be eager to go",
     "grammar": "vb. II",
@@ -14102,10 +18952,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "fundian"
   },
+  "fundiaþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fundiaþ"
+  },
   "fundie": {
     "def": "be eager to go",
     "grammar": "vb. II",
     "lemma": "fundian"
+  },
+  "fundode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fundode"
+  },
+  "fundon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fundon"
   },
   "furð": {
     "def": "first",
@@ -14121,6 +18986,16 @@ const OLD_ENGLISH_DICT = {
     "def": "first",
     "grammar": "adv.",
     "lemma": "furðum"
+  },
+  "furður": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "furður"
+  },
+  "furþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "furþum"
   },
   "furþur": {
     "def": "furthermore, further on",
@@ -14142,10 +19017,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fūs-liċ"
   },
+  "fuse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fuse"
+  },
   "fuslic": {
     "def": "ready",
     "grammar": "adj.",
     "lemma": "fūs-liċ"
+  },
+  "fuslicu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fuslicu"
+  },
+  "fyftyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyftyne"
   },
   "fyht": {
     "def": "see feohte",
@@ -14182,6 +19072,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fyl-wēriġ"
   },
+  "fyll": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyll"
+  },
+  "fylle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fylle"
+  },
   "fyllo": {
     "def": "plenty, feast",
     "grammar": "f",
@@ -14191,6 +19091,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(FALL-WEARY), killed",
     "grammar": "adj.",
     "lemma": "fyl-wēriġ"
+  },
+  "fylwerigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fylwerigne"
   },
   "fyr": {
     "def": "f",
@@ -14206,6 +19111,16 @@ const OLD_ENGLISH_DICT = {
     "def": "curi-osity, anxiety",
     "grammar": "",
     "lemma": "fyr-wet(t)"
+  },
+  "fyra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyra"
+  },
+  "fyrbendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrbendum"
   },
   "fyrd gestealla": {
     "def": "war-comrade",
@@ -14297,6 +19212,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "fyrd-ġestealla"
   },
+  "fyrdgesteallum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrdgesteallum"
+  },
   "fyrdhom": {
     "def": "war-garment, shirt (or coat) of mail",
     "grammar": "m.",
@@ -14306,6 +19226,11 @@ const OLD_ENGLISH_DICT = {
     "def": "war-garment, mail shirt (or coat)",
     "grammar": "n.",
     "lemma": "fyrd-hræġl"
+  },
+  "fyrdhwate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrdhwate"
   },
   "fyrdhwæt": {
     "def": "active in war, war-like",
@@ -14317,10 +19242,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fyrd-lēoð"
   },
+  "fyrdraca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrdraca"
+  },
   "fyrdsearo": {
     "def": "armor",
     "grammar": "nwa.",
     "lemma": "fyrd-searo"
+  },
+  "fyrdsearu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrdsearu"
   },
   "fyrdwyrðe": {
     "def": "distinguished (WORTHy) in war",
@@ -14331,6 +19266,11 @@ const OLD_ENGLISH_DICT = {
     "def": "f",
     "grammar": "firen",
     "lemma": "fyren"
+  },
+  "fyredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyredon"
   },
   "fyren": {
     "def": "f",
@@ -14357,15 +19297,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "fyren-ðearf"
   },
+  "fyrena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrena"
+  },
   "fyrendæd": {
     "def": "violent or wicked DEED, crime",
     "grammar": "fi.",
     "lemma": "fyren-dǣd"
   },
+  "fyrendæda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrendæda"
+  },
+  "fyrendædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrendædum"
+  },
+  "fyrene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrene"
+  },
+  "fyrenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrenum"
+  },
   "fyrenðearf": {
     "def": "dire distress",
     "grammar": "f.",
     "lemma": "fyren-ðearf"
+  },
+  "fyrenðearfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrenðearfe"
+  },
+  "fyres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyres"
   },
   "fyrgen beam": {
     "def": "mountain-tree",
@@ -14402,6 +19377,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fyrġen-bēam"
   },
+  "fyrgenbeamas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrgenbeamas"
+  },
   "fyrgenholt": {
     "def": "mountain-wood",
     "grammar": "n.",
@@ -14411,6 +19391,11 @@ const OLD_ENGLISH_DICT = {
     "def": "mountain-STREAM (or waterfall?",
     "grammar": "m.",
     "lemma": "fyrġen-strēam"
+  },
+  "fyrheard": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrheard"
   },
   "fyri": {
     "def": "see ferian",
@@ -14507,6 +19492,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fyrn-dagas"
   },
+  "fyrndagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrndagum"
+  },
   "fyrngeweorc": {
     "def": "ancient WORK",
     "grammar": "n.",
@@ -14517,30 +19507,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "fyrn-ġewin(n)"
   },
+  "fyrngewinnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrngewinnes"
+  },
   "fyrnman(n)": {
     "def": "ancient MAN, per-son of old",
     "grammar": "mc.",
     "lemma": "fyrn-man(n)"
+  },
+  "fyrnmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrnmanna"
   },
   "fyrnwita": {
     "def": "counselor since old times",
     "grammar": "wk.",
     "lemma": "fyrn-wita"
   },
+  "fyrnwitan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrnwitan"
+  },
   "fyrst": {
     "def": "time (granted for doing something)",
     "grammar": "mi.",
     "lemma": "fyrst"
+  },
+  "fyrste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrste"
+  },
+  "fyrwet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrwet"
   },
   "fyrwet(t)": {
     "def": "curi-osity, anxiety",
     "grammar": "",
     "lemma": "fyr-wet(t)"
   },
+  "fyrwylmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrwylmum"
+  },
+  "fyrwyt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fyrwyt"
+  },
   "fæc": {
     "def": "2240",
     "grammar": "n.",
     "lemma": "fæc"
+  },
+  "fædde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fædde"
   },
   "fæder": {
     "def": "262, 316, 459, 1609, 2048, 2608, 2928",
@@ -14572,10 +19602,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "fæderen-mǣġ"
   },
+  "fæderenmæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæderenmæge"
+  },
   "fæderæþelu": {
     "def": "paternal rank or excellence",
     "grammar": "nja.",
     "lemma": "fæder-æþelu"
+  },
+  "fæderæþelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæderæþelum"
   },
   "fæg": {
     "def": "rejoicing",
@@ -14607,15 +19647,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fæġen"
   },
+  "fæger": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæger"
+  },
   "fæger(seeappx.c§25)": {
     "def": "FAIR, beautiful",
     "grammar": "adj.",
     "lemma": "fǣġer(seeAppx.C§25)"
   },
+  "fægere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fægere"
+  },
+  "fæges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæges"
+  },
+  "fæghðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæghðe"
+  },
+  "fægne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fægne"
+  },
+  "fægre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fægre"
+  },
+  "fægum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fægum"
+  },
   "fæhð(o)": {
     "def": "enmity, hostile act, battle",
     "grammar": "f.",
     "lemma": "fǣhð(o)"
+  },
+  "fæhða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæhða"
+  },
+  "fæhðaras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæhðaras"
+  },
+  "fæhðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæhðe"
+  },
+  "fæhðgewearð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæhðgewearð"
+  },
+  "fæhðo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæhðo"
   },
   "fælsi": {
     "def": "cleanse, purge",
@@ -14632,6 +19732,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "fǣlsian"
   },
+  "fælsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fælsode"
+  },
   "fæm": {
     "def": "woman (who is unmarried)",
     "grammar": "wk.",
@@ -14641,6 +19746,11 @@ const OLD_ENGLISH_DICT = {
     "def": "woman (who is unmarried)",
     "grammar": "wk.",
     "lemma": "fǣmne"
+  },
+  "fæmnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæmnan"
   },
   "fæmne": {
     "def": "woman (who is unmarried)",
@@ -14702,6 +19812,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "fǣr-gripe"
   },
+  "færgripum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "færgripum"
+  },
   "færgryre": {
     "def": "(terror caused by) sud-den attack, awful horror",
     "grammar": "mi.",
@@ -14726,6 +19841,11 @@ const OLD_ENGLISH_DICT = {
     "def": "hostile attack, sudden aÑiction",
     "grammar": "m.",
     "lemma": "fǣr-nīð"
+  },
+  "færniða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "færniða"
   },
   "fæs": {
     "def": "firmly",
@@ -14757,10 +19877,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "fæsten"
   },
+  "fæstne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæstne"
+  },
+  "fæstor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæstor"
+  },
   "fæstræd": {
     "def": "610",
     "grammar": "adj.",
     "lemma": "fæst-rǣd"
+  },
+  "fæstrædne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæstrædne"
   },
   "fæt": {
     "def": "cup",
@@ -14797,6 +19932,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "fǣted-hlēor"
   },
+  "fætedhleore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fætedhleore"
+  },
   "fætgold": {
     "def": "plated GOLD",
     "grammar": "n.",
@@ -14822,6 +19962,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "fǣttum"
   },
+  "fætum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fætum"
+  },
   "fæðer gearwe": {
     "def": "FEATHER-GEAR",
     "grammar": "fw",
@@ -14842,6 +19987,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "fæðer-ġearwe"
   },
+  "fæðm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæðm"
+  },
   "fæðmi": {
     "def": "embrace, enfold",
     "grammar": "vb. II",
@@ -14857,10 +20007,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "fæðmian"
   },
+  "fæðmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæðmum"
+  },
   "fæþm": {
     "def": "188, 2128",
     "grammar": "m.",
     "lemma": "fæþm"
+  },
+  "fæþmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "fæþmum"
   },
   "fуf tуne": {
     "def": "see fīf-tӯne",
@@ -14997,6 +20157,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "conj.",
     "lemma": "ġē"
   },
+  "ga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ga"
+  },
   "gad": {
     "def": "lack, want",
     "grammar": "n.",
@@ -15016,6 +20181,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see ġealdor",
     "grammar": "",
     "lemma": "galdor"
+  },
+  "galdre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "galdre"
   },
   "gale": {
     "def": "sound",
@@ -15052,6 +20222,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "galga"
   },
+  "galgan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "galgan"
+  },
   "galge": {
     "def": "2446",
     "grammar": "wk.",
@@ -15067,6 +20242,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nwa.",
     "lemma": "galg-trēow"
   },
+  "galgtreowum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "galgtreowum"
+  },
   "gam": {
     "def": "see gomen",
     "grammar": "",
@@ -15077,10 +20257,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "gamen"
   },
+  "gamela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gamela"
+  },
+  "gamelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gamelum"
+  },
   "gamen": {
     "def": "see gomen",
     "grammar": "",
     "lemma": "gamen"
+  },
+  "gamene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gamene"
   },
   "gamol": {
     "def": "old, aged, ancient",
@@ -15122,10 +20317,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "gangan"
   },
+  "ganges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ganges"
+  },
   "ganot": {
     "def": "sea-bird",
     "grammar": "m.",
     "lemma": "ganot"
+  },
+  "ganotes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ganotes"
   },
   "gar": {
     "def": "(1) spear, according to 1765 (gāres fliht), for throwing",
@@ -15212,6 +20417,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "gār-wīġend"
   },
+  "garas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "garas"
+  },
   "garcene": {
     "def": "(spear-bold), brave",
     "grammar": "adj.",
@@ -15222,10 +20432,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gār-cwealm"
   },
+  "gardena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gardena"
+  },
+  "gardenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gardenum"
+  },
+  "gare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gare"
+  },
+  "gares": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gares"
+  },
   "garholt": {
     "def": "spear-shaft, i",
     "grammar": "n.",
     "lemma": "gār-holt"
+  },
+  "garmundes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "garmundes"
   },
   "garsecg": {
     "def": "sea",
@@ -15236,6 +20471,11 @@ const OLD_ENGLISH_DICT = {
     "def": "spear-fighter, war-rior",
     "grammar": "wk.",
     "lemma": "gār-wiga"
+  },
+  "garwigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "garwigan"
   },
   "garwigend": {
     "def": "spear-fighter, war-rior",
@@ -15267,10 +20507,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "gāst-bona"
   },
+  "gasta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gasta"
+  },
   "gastbona": {
     "def": "soul-slayer, devil, 177",
     "grammar": "wk.",
     "lemma": "gāst-bona"
+  },
+  "gastes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gastes"
   },
   "ge": {
     "def": "p",
@@ -19247,10 +24497,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġeador"
   },
+  "geaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geaf"
+  },
+  "geafon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geafon"
+  },
   "geahsian": {
     "def": "hear",
     "grammar": "vb.  II",
     "lemma": "ġe-āhsian"
+  },
+  "geahsod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geahsod"
   },
   "geald": {
     "def": "see ġyldan",
@@ -19271,6 +24536,11 @@ const OLD_ENGLISH_DICT = {
     "def": "vaulted, †spacious",
     "grammar": "adj.",
     "lemma": "ġēap"
+  },
+  "geapne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geapne"
   },
   "gear": {
     "def": "adj",
@@ -19322,6 +24592,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġeār-dagas"
   },
+  "geardagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geardagum"
+  },
+  "geardas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geardas"
+  },
+  "geardum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geardum"
+  },
   "geare": {
     "def": "adj",
     "grammar": "adj.",
@@ -19347,6 +24632,61 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġearo-folm"
   },
+  "gearu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gearu"
+  },
+  "gearwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gearwe"
+  },
+  "gearwor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gearwor"
+  },
+  "gearwost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gearwost"
+  },
+  "geat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geat"
+  },
+  "geata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geata"
+  },
+  "geate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geate"
+  },
+  "geates": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geates"
+  },
+  "geatisc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geatisc"
+  },
+  "geatmecga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geatmecga"
+  },
+  "geatmæcgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geatmæcgum"
+  },
   "geato lic": {
     "def": "richly equipped, splendid, stately",
     "grammar": "adj.",
@@ -19361,6 +24701,11 @@ const OLD_ENGLISH_DICT = {
     "def": "richly equipped, splendid, stately",
     "grammar": "adj.",
     "lemma": "ġeato-liċ"
+  },
+  "geatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geatum"
   },
   "geatw": {
     "def": "precious objects",
@@ -19377,6 +24722,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "ġeatwa"
   },
+  "gebad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebad"
+  },
   "gebannan": {
     "def": "command, order",
     "grammar": "vb. 7",
@@ -19387,10 +24737,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-barn"
   },
+  "gebeacnod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebeacnod"
+  },
+  "gebead": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebead"
+  },
+  "gebeah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebeah"
+  },
+  "gebearg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebearg"
+  },
+  "gebearh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebearh"
+  },
+  "gebeaten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebeaten"
+  },
   "gebedda": {
     "def": "665",
     "grammar": "wk.",
     "lemma": "ġe-bedda"
+  },
+  "gebeddan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebeddan"
   },
   "gebeodan": {
     "def": "show",
@@ -19401,6 +24786,11 @@ const OLD_ENGLISH_DICT = {
     "def": "protect",
     "grammar": "vb. 3",
     "lemma": "ġe-beorgan"
+  },
+  "gebeotedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebeotedon"
   },
   "gebeotian": {
     "def": "536",
@@ -19417,15 +24807,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-bētan"
   },
+  "gebette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebette"
+  },
+  "gebettest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebettest"
+  },
   "gebidan": {
     "def": "2529",
     "grammar": "vb. 1",
     "lemma": "ġe-bīdan"
   },
+  "gebidanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebidanne"
+  },
+  "gebide": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebide"
+  },
+  "gebiden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebiden"
+  },
   "gebindan": {
     "def": "420",
     "grammar": "vb. 3",
     "lemma": "ġe-bindan"
+  },
+  "geblodegod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geblodegod"
+  },
+  "gebogen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebogen"
+  },
+  "gebohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebohte"
+  },
+  "gebolgen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebolgen"
+  },
+  "gebolgne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebolgne"
+  },
+  "geboren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geboren"
   },
   "gebrecan": {
     "def": "crush, destroy",
@@ -19442,15 +24887,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-bringan"
   },
+  "gebrocen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebrocen"
+  },
+  "gebroden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebroden"
+  },
   "gebroðor": {
     "def": "1191",
     "grammar": "mc.",
     "lemma": "ġe-brōðor"
   },
+  "gebroðrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebroðrum"
+  },
   "gebræc": {
     "def": "2259",
     "grammar": "n.",
     "lemma": "ġe-bræc"
+  },
+  "gebræd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebræd"
+  },
+  "gebrægd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebrægd"
   },
   "gebuan": {
     "def": "settle in",
@@ -19461,6 +24931,21 @@ const OLD_ENGLISH_DICT = {
     "def": "fall",
     "grammar": "vb. 2",
     "lemma": "ġe-būgan"
+  },
+  "gebulge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebulge"
+  },
+  "gebun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebun"
+  },
+  "gebunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebunden"
   },
   "gebycgan": {
     "def": "pay for, obtain",
@@ -19477,45 +24962,135 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "ġe-byrnan"
   },
+  "gebæded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebæded"
+  },
   "gebæran": {
     "def": "behave, fare",
     "grammar": "vb. I",
     "lemma": "ġe-bǣran"
+  },
+  "gebæted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gebæted"
+  },
+  "geceapod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geceapod"
+  },
+  "geceas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geceas"
+  },
+  "geceos": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geceos"
   },
   "geceosan": {
     "def": "1759",
     "grammar": "vb. 2",
     "lemma": "ġe-ċēosan"
   },
+  "geceosenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geceosenne"
+  },
   "gecnawan": {
     "def": "vb",
     "grammar": "vb.  7",
     "lemma": "ġe-cnāwan"
+  },
+  "gecorone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecorone"
   },
   "gecranc": {
     "def": "see ġe-cringan",
     "grammar": "",
     "lemma": "ġe-cranc"
   },
+  "gecrang": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecrang"
+  },
   "gecringan": {
     "def": "fall (in battle), die",
     "grammar": "vb. 3",
     "lemma": "ġe-cringan"
+  },
+  "gecrong": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecrong"
   },
   "gecweðan": {
     "def": "2664",
     "grammar": "vb. 5",
     "lemma": "ġe-cweðan"
   },
+  "gecwæde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecwæde"
+  },
+  "gecwædon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecwædon"
+  },
+  "gecwæð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecwæð"
+  },
   "gecynde": {
     "def": "natural, inherited",
     "grammar": "adj.",
     "lemma": "ġe-cynde"
   },
+  "gecypan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecypan"
+  },
   "gecyssan": {
     "def": "1870",
     "grammar": "vb. I",
     "lemma": "ġe-cyssan"
+  },
+  "gecyste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecyste"
+  },
+  "gecyðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecyðan"
+  },
+  "gecyðanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecyðanne"
+  },
+  "gecyðed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecyðed"
+  },
+  "gecyþed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gecyþed"
   },
   "gecуpan": {
     "def": "buy",
@@ -19542,20 +25117,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-dēfe"
   },
+  "gedeðhim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedeðhim"
+  },
   "gedigan": {
     "def": "survive, endure",
     "grammar": "vb.  I",
     "lemma": "ġe-dīġan"
+  },
+  "gedigde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedigde"
+  },
+  "gedigest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedigest"
+  },
+  "gedigeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedigeð"
   },
   "gedon": {
     "def": "render",
     "grammar": "anv.",
     "lemma": "ġe-dōn"
   },
+  "gedrefed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedrefed"
+  },
   "gedreosan": {
     "def": "fall, decline",
     "grammar": "vb.  2",
     "lemma": "ġe-drēosan"
+  },
+  "gedreoseð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedreoseð"
+  },
+  "gedriht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedriht"
+  },
+  "gedrogen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedrogen"
   },
   "gedryht": {
     "def": "fi",
@@ -19572,15 +25187,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "ġe-dūfan"
   },
+  "gedygan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedygan"
+  },
   "gedælan": {
     "def": "sever (wið, from)",
     "grammar": "vb.  I",
     "lemma": "ġe-dǣlan"
   },
+  "gedælde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gedælde"
+  },
   "gedуgan": {
     "def": "see ġe-dīġan",
     "grammar": "",
     "lemma": "ġe-dӯġan"
+  },
+  "geeawed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geeawed"
+  },
+  "geendod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geendod"
+  },
+  "geeode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geeode"
+  },
+  "geeodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geeodon"
+  },
+  "gefandod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefandod"
   },
   "gefaran": {
     "def": "act",
@@ -19602,10 +25252,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ġe-feallan"
   },
+  "gefealleð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefealleð"
+  },
+  "gefean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefean"
+  },
   "gefegon": {
     "def": "-feh, see ġe-fēon",
     "grammar": "",
     "lemma": "ġe-fēgon"
+  },
+  "gefeh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefeh"
+  },
+  "gefeng": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefeng"
   },
   "gefeoht": {
     "def": "2048",
@@ -19617,15 +25287,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "ġe-feohtan"
   },
+  "gefeohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefeohte"
+  },
+  "gefeoll": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefeoll"
+  },
   "gefeon": {
     "def": "rejoice",
     "grammar": "vb. 5",
     "lemma": "ġe-fēon"
   },
+  "gefeormod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefeormod"
+  },
   "geferan": {
     "def": "reach, attain, bring about",
     "grammar": "vb. I",
     "lemma": "ġe-fēran"
+  },
+  "geferdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geferdon"
+  },
+  "gefere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefere"
+  },
+  "gefered": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefered"
+  },
+  "geferede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geferede"
+  },
+  "geferedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geferedon"
   },
   "geferian": {
     "def": "3107",
@@ -19647,20 +25357,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ġe-fōn"
   },
+  "gefondad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefondad"
+  },
   "gefrecnian": {
     "def": "1333 (n",
     "grammar": "vb. II",
     "lemma": "ġe-frēcnian"
+  },
+  "gefremed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefremed"
+  },
+  "gefremede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefremede"
+  },
+  "gefremedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefremedon"
   },
   "gefremman": {
     "def": "advance (w",
     "grammar": "vb. I",
     "lemma": "ġe-fremman"
   },
+  "gefremmanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefremmanne"
+  },
   "gefricgan": {
     "def": "learn (orig",
     "grammar": "vb. 5",
     "lemma": "ġe-fricgan"
+  },
+  "gefricge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefricge"
+  },
+  "gefricgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefricgean"
+  },
+  "gefricgeað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefricgeað"
   },
   "gefrignan": {
     "def": "(orig",
@@ -19672,30 +25422,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-frūnen"
   },
+  "gefrungon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrungon"
+  },
+  "gefrunon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrunon"
+  },
   "gefræge": {
     "def": "well known, re-nowned",
     "grammar": "adj.",
     "lemma": "ġe-frǣġe"
+  },
+  "gefrægen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrægen"
+  },
+  "gefrægn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrægn"
+  },
+  "gefrætwade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrætwade"
   },
   "gefrætwian": {
     "def": "deck",
     "grammar": "vb. II",
     "lemma": "ġe-frætwian"
   },
+  "gefrætwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefrætwod"
+  },
+  "gefyldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefyldan"
+  },
   "gefyllan": {
     "def": "kill",
     "grammar": "vb. I",
     "lemma": "ġe-fyllan"
+  },
+  "gefyrðred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefyrðred"
+  },
+  "gefysed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefysed"
   },
   "gefæg(?)": {
     "def": "satisfactory, pleasing, dear",
     "grammar": "adj.",
     "lemma": "ġe-fæġ(?)"
   },
+  "gefægnod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefægnod"
+  },
   "gefægon": {
     "def": "see ġe-fēon",
     "grammar": "",
     "lemma": "ġe-fǣgon"
+  },
+  "gefægra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefægra"
+  },
+  "gefælsod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gefælsod"
   },
   "gegan": {
     "def": "2676",
@@ -19706,6 +25516,16 @@ const OLD_ENGLISH_DICT = {
     "def": "reach (see Lorz 1908: 24)",
     "grammar": "vb. 7",
     "lemma": "ġe-gangan"
+  },
+  "gegangenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegangenne"
+  },
+  "gegangeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegangeð"
   },
   "gegiredan": {
     "def": "see ġe-ġyrwan",
@@ -19737,6 +25557,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ġeġn-cwide"
   },
+  "gegncwida": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegncwida"
+  },
   "gegncwide": {
     "def": "answer",
     "grammar": "mi.",
@@ -19752,40 +25577,120 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġeġnum"
   },
+  "gegongen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegongen"
+  },
   "gegretan": {
     "def": "address",
     "grammar": "vb. I",
     "lemma": "ġe-grētan"
+  },
+  "gegrette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegrette"
+  },
+  "gegyred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegyred"
+  },
+  "gegyrede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegyrede"
   },
   "gegyrwan": {
     "def": "equip",
     "grammar": "vb. I",
     "lemma": "ġe-ġyrwan"
   },
+  "gegyrwed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gegyrwed"
+  },
   "gehatan": {
     "def": "(vow, threat-en)",
     "grammar": "vb. 7",
     "lemma": "ġe-hātan"
+  },
+  "gehate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehate"
+  },
+  "gehaten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehaten"
+  },
+  "geheald": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geheald"
   },
   "gehealdan": {
     "def": "keep, guard, rule",
     "grammar": "vb. 7",
     "lemma": "ġe-healdan"
   },
+  "gehealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehealde"
+  },
+  "gehealdeþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehealdeþ"
+  },
   "geheawan": {
     "def": "cut (to pieces)",
     "grammar": "vb. 7",
     "lemma": "ġe-hēawan"
+  },
+  "geheawe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geheawe"
+  },
+  "geheaðerod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geheaðerod"
   },
   "gehedan": {
     "def": "HEED, care for",
     "grammar": "vb. I",
     "lemma": "ġe-hēdan"
   },
+  "gehedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehedde"
+  },
   "gehegan": {
     "def": "hold (a meeting)",
     "grammar": "vb. I",
     "lemma": "ġe-hēġan"
+  },
+  "geheold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geheold"
+  },
+  "gehet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehet"
+  },
+  "geheton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geheton"
   },
   "gehladan": {
     "def": "895",
@@ -19807,40 +25712,140 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "ġe-hnǣġan"
   },
+  "gehnægde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehnægde"
+  },
+  "gehogodest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehogodest"
+  },
+  "gehroden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehroden"
+  },
   "gehwa": {
     "def": "each (one)",
     "grammar": "pron.",
     "lemma": "ġe-hwā"
+  },
+  "gehwam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwam"
+  },
+  "gehwane": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwane"
+  },
+  "gehwearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwearf"
   },
   "gehwelc": {
     "def": "see ġe-hwylċ",
     "grammar": "",
     "lemma": "ġe-hwelċ"
   },
+  "gehwelcne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwelcne"
+  },
   "gehweorfan": {
     "def": "pass",
     "grammar": "vb. 3",
     "lemma": "ġe-hweorfan"
+  },
+  "gehwone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwone"
   },
   "gehwylc": {
     "def": "every (one), w",
     "grammar": "pron.",
     "lemma": "ġe-hwylċ"
   },
+  "gehwylce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwylce"
+  },
+  "gehwylces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwylces"
+  },
+  "gehwylcne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwylcne"
+  },
+  "gehwylcre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwylcre"
+  },
+  "gehwylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwylcum"
+  },
+  "gehwæm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwæm"
+  },
   "gehwær": {
     "def": "on every occasion",
     "grammar": "adv.",
     "lemma": "ġe-hwǣr"
+  },
+  "gehwære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwære"
+  },
+  "gehwæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwæs"
+  },
+  "gehwæðer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwæðer"
+  },
+  "gehwæðrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwæðrum"
   },
   "gehwæþer": {
     "def": "each (of two), both",
     "grammar": "pron.",
     "lemma": "ġe-hwæþer"
   },
+  "gehwæþres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehwæþres"
+  },
   "gehycgan": {
     "def": "1988",
     "grammar": "vb. III",
     "lemma": "ġe-hycgan"
+  },
+  "gehydde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehydde"
   },
   "gehygd": {
     "def": "2045",
@@ -19851,6 +25856,26 @@ const OLD_ENGLISH_DICT = {
     "def": "OEG § ̄610",
     "grammar": "ni.",
     "lemma": "ġe-hyld"
+  },
+  "gehyrað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehyrað"
+  },
+  "gehyrde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehyrde"
+  },
+  "gehyrdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehyrdon"
+  },
+  "gehyre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gehyre"
   },
   "gehðo": {
     "def": "see ġiohðo",
@@ -19877,20 +25902,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-lāc"
   },
+  "gelacum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelacum"
+  },
   "gelad": {
     "def": "1410",
     "grammar": "n.",
     "lemma": "ġe-lād"
+  },
+  "gelafede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelafede"
   },
   "gelafian": {
     "def": "LAVE, refresh",
     "grammar": "vb. II",
     "lemma": "ġe-lafian"
   },
+  "gelamp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelamp"
+  },
   "gelang": {
     "def": "dependent on (æt)",
     "grammar": "adj.",
     "lemma": "ġe-lang"
+  },
+  "geldenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geldenne"
+  },
+  "geleah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geleah"
   },
   "gelenge": {
     "def": "adj",
@@ -19907,50 +25957,155 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-līċ"
   },
+  "gelice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelice"
+  },
   "gelicgan": {
     "def": "3146",
     "grammar": "vb. 5",
     "lemma": "ġe-licgan"
+  },
+  "gelicost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelicost"
   },
   "gelimpan": {
     "def": "come to pass, befall, turn out",
     "grammar": "vb. 3",
     "lemma": "ġe-limpan"
   },
+  "gelimpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelimpe"
+  },
+  "gelimpeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelimpeð"
+  },
+  "gelocen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelocen"
+  },
   "gelome": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "ġe-lōme"
+  },
+  "gelomp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelomp"
   },
   "gelong": {
     "def": "see ġe-lang",
     "grammar": "",
     "lemma": "ġe-long"
   },
+  "gelumpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelumpe"
+  },
+  "gelumpen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelumpen"
+  },
+  "gelyfan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelyfan"
+  },
+  "gelyfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelyfde"
+  },
+  "gelæded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelæded"
+  },
+  "gelæg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelæg"
+  },
   "gelæran": {
     "def": "advise, persuade (w",
     "grammar": "vb. I",
     "lemma": "ġe-lǣran"
+  },
+  "gelærdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelærdon"
   },
   "gelæstan": {
     "def": "serve, stand by",
     "grammar": "vb. I",
     "lemma": "ġe-lǣstan"
   },
+  "gelæste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelæste"
+  },
+  "gelæsted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelæsted"
+  },
+  "gelæsten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gelæsten"
+  },
   "gelуfan": {
     "def": "trust",
     "grammar": "vb. I",
     "lemma": "ġe-lӯfan"
+  },
+  "geman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geman"
+  },
+  "gemealt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemealt"
+  },
+  "gemearcod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemearcod"
   },
   "gemede": {
     "def": "agreement, consent",
     "grammar": "nja.",
     "lemma": "ġe-mēde"
   },
+  "gemedu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemedu"
+  },
   "gemeltan": {
     "def": "897, 1608, 1615, 2628 (fig",
     "grammar": "vb.  3",
     "lemma": "ġe-meltan"
+  },
+  "gemenged": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemenged"
   },
   "gemet": {
     "def": "fit, proper",
@@ -19962,20 +26117,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-mētan"
   },
+  "gemete": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemete"
+  },
   "gemeting": {
     "def": "encounter",
     "grammar": "f.",
     "lemma": "ġe-mēting"
+  },
+  "gemette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemette"
+  },
+  "gemetton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemetton"
+  },
+  "gemon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemon"
   },
   "gemong": {
     "def": "throng, troop",
     "grammar": "n.",
     "lemma": "ġe-mong"
   },
+  "gemonge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemonge"
+  },
   "gemunan": {
     "def": "bear in MIND, remember, think of",
     "grammar": "prp.",
     "lemma": "ġe-munan"
+  },
+  "gemunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemunde"
+  },
+  "gemundon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemundon"
   },
   "gemynd": {
     "def": "memorial",
@@ -19992,6 +26182,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġe-myndiġ"
   },
+  "gemyndum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemyndum"
+  },
   "gemyne": {
     "def": "see ġe-munan",
     "grammar": "",
@@ -20002,10 +26197,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-mǣnan"
   },
+  "gemænden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemænden"
+  },
   "gemæne": {
     "def": "in com-mon, mutual, shared",
     "grammar": "adj.",
     "lemma": "ġe-mǣne"
+  },
+  "gemænra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gemænra"
   },
   "gen": {
     "def": "further",
@@ -20016,6 +26221,11 @@ const OLD_ENGLISH_DICT = {
     "def": "further",
     "grammar": "adv.",
     "lemma": "ġēna"
+  },
+  "genam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genam"
   },
   "gend": {
     "def": "see genġan",
@@ -20037,20 +26247,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġe-neahhe"
   },
+  "genearwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genearwod"
+  },
   "genehost": {
     "def": "see ġe-neahhe",
     "grammar": "",
     "lemma": "ġe-nehost"
+  },
+  "genered": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genered"
   },
   "genesan": {
     "def": "survive, get safely through",
     "grammar": "vb. 5",
     "lemma": "ġe-nesan"
   },
+  "genesen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genesen"
+  },
+  "geneðde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geneðde"
+  },
+  "geneðdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geneðdon"
+  },
   "geneþan": {
     "def": "1469",
     "grammar": "vb. I",
     "lemma": "ġe-nēþan"
+  },
+  "geneþde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geneþde"
   },
   "geng": {
     "def": "go, ride (cf",
@@ -20061,6 +26301,11 @@ const OLD_ENGLISH_DICT = {
     "def": "go, ride (cf",
     "grammar": "vb. I",
     "lemma": "genġan"
+  },
+  "gengde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gengde"
   },
   "genge": {
     "def": "go, ride (cf",
@@ -20077,10 +26322,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-nip"
   },
+  "genipu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genipu"
+  },
+  "geniwad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geniwad"
+  },
+  "geniwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geniwod"
+  },
   "genog": {
     "def": "abundant, many",
     "grammar": "adj.",
     "lemma": "ġe-nōg"
+  },
+  "genoge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genoge"
+  },
+  "genom": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genom"
+  },
+  "genumen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genumen"
   },
   "genung": {
     "def": "straightway, directly, completely",
@@ -20097,15 +26372,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġēnunga"
   },
+  "genydde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genydde"
+  },
+  "genyded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genyded"
+  },
   "genyttian": {
     "def": "w",
     "grammar": "vb. II",
     "lemma": "ġe-nyttian"
   },
+  "genyttod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genyttod"
+  },
   "genægan": {
     "def": "(approach), assail, attack",
     "grammar": "vb. I",
     "lemma": "ġe-nǣġan"
+  },
+  "genægdan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genægdan"
+  },
+  "genægdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genægdon"
+  },
+  "genæged": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genæged"
+  },
+  "genæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "genæs"
   },
   "geo": {
     "def": "of old",
@@ -20137,6 +26447,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġēoc"
   },
+  "geoce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geoce"
+  },
   "geocor": {
     "def": "grief-filled, sad",
     "grammar": "adj.",
@@ -20151,6 +26466,16 @@ const OLD_ENGLISH_DICT = {
     "def": "sea, ocean",
     "grammar": "m.",
     "lemma": "ġeofon"
+  },
+  "geofena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geofena"
+  },
+  "geofenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geofenes"
   },
   "geofon": {
     "def": "sea, ocean",
@@ -20177,10 +26502,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġeogoð-feorh"
   },
+  "geogoðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geogoðe"
+  },
+  "geogoðfeore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geogoðfeore"
+  },
   "geogoðfeorh": {
     "def": "(period of ̄) YOUTH",
     "grammar": "m.",
     "lemma": "ġeogoð-feorh"
+  },
+  "geogoðgeweox": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geogoðgeweox"
+  },
+  "geogoþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geogoþe"
+  },
+  "geoguðfeore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geoguðfeore"
   },
   "geolo": {
     "def": "2610",
@@ -20201,6 +26551,11 @@ const OLD_ENGLISH_DICT = {
     "def": "YELLOW shield (ref",
     "grammar": "m.",
     "lemma": "ġeolo-rand"
+  },
+  "geolwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geolwe"
   },
   "geomo": {
     "def": "sadly",
@@ -20276,6 +26631,11 @@ const OLD_ENGLISH_DICT = {
     "def": "lament",
     "grammar": "vb. II",
     "lemma": "ġeōmrian"
+  },
+  "geomrode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geomrode"
   },
   "geomuru": {
     "def": "see ġeōmor",
@@ -20372,10 +26732,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "ġeond-brǣdan"
   },
+  "geondbræded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geondbræded"
+  },
   "geondhweorfan": {
     "def": "pass through, go about",
     "grammar": "vb. 3",
     "lemma": "ġeond-hweorfan"
+  },
+  "geondseh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geondseh"
   },
   "geondseon": {
     "def": "look over",
@@ -20392,6 +26762,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pret.",
     "lemma": "ġēong"
   },
+  "geonga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geonga"
+  },
+  "geongan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geongan"
+  },
+  "geonge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geonge"
+  },
+  "geongne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geongne"
+  },
+  "geongum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geongum"
+  },
   "geor": {
     "def": "willingly, earnest-ly",
     "grammar": "adv.",
@@ -20407,6 +26802,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġeorne"
   },
+  "geornor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geornor"
+  },
   "geosceaft": {
     "def": "that which has been de-termined of old, fate",
     "grammar": "fi.",
@@ -20416,6 +26816,11 @@ const OLD_ENGLISH_DICT = {
     "def": "demon sent by fate, fated spirit",
     "grammar": "m.",
     "lemma": "ġeō-sceaft-gāst"
+  },
+  "geosceaftgasta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geosceaftgasta"
   },
   "geot": {
     "def": "flow, rush",
@@ -20432,10 +26837,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "ġēotan"
   },
+  "geotena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geotena"
+  },
+  "geotende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geotende"
+  },
   "gerad": {
     "def": "skilful, apt",
     "grammar": "adj.",
     "lemma": "ġe-rād"
+  },
+  "gerade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gerade"
+  },
+  "geregnad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geregnad"
+  },
+  "gereorded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gereorded"
   },
   "gereordian": {
     "def": "1788",
@@ -20452,6 +26882,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġe-rūm-līċe"
   },
+  "gerumlicor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gerumlicor"
+  },
+  "gerymed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gerymed"
+  },
   "gerysne": {
     "def": "proper, fit, becoming, appropriate",
     "grammar": "",
@@ -20462,20 +26902,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-rǣċan"
   },
+  "geræhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geræhte"
+  },
   "geræsan": {
     "def": "2839",
     "grammar": "vb. I",
     "lemma": "ġe-rǣsan"
+  },
+  "geræsde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geræsde"
   },
   "gesaca": {
     "def": "1773",
     "grammar": "wk.",
     "lemma": "ġe-saca"
   },
+  "gesacan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesacan"
+  },
   "gesacu": {
     "def": "contention, enmity",
     "grammar": "f.",
     "lemma": "ġe-sacu"
+  },
+  "gesaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesaga"
+  },
+  "gesawon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesawon"
   },
   "gescad": {
     "def": "discrimination",
@@ -20497,15 +26962,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-sceap"
   },
+  "gesceapu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesceapu"
+  },
+  "gesceat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesceat"
+  },
+  "gesceawod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesceawod"
+  },
+  "gesced": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesced"
+  },
   "gesceod": {
     "def": "see ġe-sceðþan",
     "grammar": "",
     "lemma": "ġe-sceōd"
   },
+  "gesceop": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesceop"
+  },
   "gesceotan": {
     "def": "w",
     "grammar": "vb. 2",
     "lemma": "ġe-scēotan"
+  },
+  "gescer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gescer"
   },
   "gesceran": {
     "def": "cut through",
@@ -20522,6 +27017,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ni.",
     "lemma": "ġe-scipe"
   },
+  "gescod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gescod"
+  },
+  "gescraf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gescraf"
+  },
   "gescrifan": {
     "def": "assign, w",
     "grammar": "vb. 1",
@@ -20537,25 +27042,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġe-scæp-hwīl"
   },
+  "gescæphwile": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gescæphwile"
+  },
+  "gescær": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gescær"
+  },
+  "geseah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geseah"
+  },
+  "gesealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesealde"
+  },
   "gesecan": {
     "def": "look for",
     "grammar": "vb. I",
     "lemma": "ġe-sēċan"
+  },
+  "gesecanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesecanne"
+  },
+  "gesecean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesecean"
+  },
+  "geseceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geseceð"
   },
   "gesecgan": {
     "def": "tell",
     "grammar": "vb. III",
     "lemma": "ġe-secgan"
   },
+  "gesegan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesegan"
+  },
   "gesegan(on)": {
     "def": "ġe-sēgan (-on), see ġe-sēon",
     "grammar": "",
     "lemma": "ġe-sēgan(-on)"
   },
+  "gesegon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesegon"
+  },
   "geselda": {
     "def": "(one in the same hall), companion, associate, comrade",
     "grammar": "wk.",
     "lemma": "ġe-selda"
+  },
+  "geseldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geseldan"
   },
   "gesellan": {
     "def": "make a present of, 1029",
@@ -20567,10 +27122,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ġe-sēon"
   },
+  "geseted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geseted"
+  },
+  "geseten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geseten"
+  },
   "gesettan": {
     "def": "establish",
     "grammar": "vb. I",
     "lemma": "ġe-settan"
+  },
+  "gesette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesette"
   },
   "gesigan": {
     "def": "fall",
@@ -20587,15 +27157,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ġe-sīð"
   },
+  "gesiða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesiða"
+  },
+  "gesiðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesiðas"
+  },
+  "gesiðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesiðes"
+  },
+  "gesiðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesiðum"
+  },
+  "gesiþas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesiþas"
+  },
   "geslean": {
     "def": "459 (n",
     "grammar": "vb. 6",
     "lemma": "ġe-slēan"
   },
+  "geslogon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geslogon"
+  },
+  "gesloh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesloh"
+  },
   "geslyht": {
     "def": "battle, conflict",
     "grammar": "ni.",
     "lemma": "ġe-slyht"
+  },
+  "geslyhta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geslyhta"
+  },
+  "gesohtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesohtan"
+  },
+  "gesohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesohte"
+  },
+  "gesohton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesohton"
+  },
+  "gesprang": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesprang"
   },
   "gesprecan": {
     "def": "675, 1398, 1466, 3094",
@@ -20606,6 +27236,16 @@ const OLD_ENGLISH_DICT = {
     "def": "arise",
     "grammar": "vb. 3",
     "lemma": "ġe-springan"
+  },
+  "gesprong": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesprong"
+  },
+  "gespræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gespræc"
   },
   "gest sele": {
     "def": "GUEST-hall, (royal ̄) hall for retainers (BGdSL 32 [1907] 9–16, 565–7)",
@@ -20622,6 +27262,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ġest-sele"
   },
+  "gestah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestah"
+  },
   "gestandan": {
     "def": "take one’s stand",
     "grammar": "vb. 6",
@@ -20637,15 +27282,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "ġe-steppan"
   },
+  "gestepte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestepte"
+  },
   "gestigan": {
     "def": "set out",
     "grammar": "vb. 1",
     "lemma": "ġe-stīgan"
   },
+  "gestod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestod"
+  },
+  "gestodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestodon"
+  },
   "gestreon": {
     "def": "treasure",
     "grammar": "n.",
     "lemma": "ġe-strēon"
+  },
+  "gestrynan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestrynan"
   },
   "gestrуnan": {
     "def": "gain",
@@ -20657,15 +27322,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ġest-sele"
   },
+  "gestæled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gestæled"
+  },
   "gesund": {
     "def": "safe, unharmed",
     "grammar": "adj.",
     "lemma": "ġe-sund"
   },
+  "gesunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesunde"
+  },
+  "gesundne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesundne"
+  },
+  "geswac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geswac"
+  },
+  "geswearc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geswearc"
+  },
   "geswencan": {
     "def": "strike down",
     "grammar": "vb. I",
     "lemma": "ġe-swenċan"
+  },
+  "geswenced": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geswenced"
   },
   "gesweorcan": {
     "def": "1789",
@@ -20682,6 +27377,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġe-swinġ"
   },
+  "gesyhð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesyhð"
+  },
+  "gesyhðsorhcearig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesyhðsorhcearig"
+  },
+  "gesyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesyne"
+  },
+  "gesyngad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesyngad"
+  },
   "gesyngian": {
     "def": "do wrong",
     "grammar": "vb. II",
@@ -20692,10 +27407,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġe-synto"
   },
+  "gesyntum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesyntum"
+  },
+  "gesæd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesæd"
+  },
+  "gesægd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesægd"
+  },
+  "gesægde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesægde"
+  },
+  "gesæged": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesæged"
+  },
   "gesælan": {
     "def": "chance, turn out ( ̄favorably)",
     "grammar": "vb. I",
     "lemma": "ġe-sǣlan"
+  },
+  "gesælde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesælde"
+  },
+  "gesæled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesæled"
+  },
+  "gesæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gesæt"
   },
   "gesуne": {
     "def": "evident",
@@ -20717,30 +27472,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġētan"
   },
+  "geteah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geteah"
+  },
   "getenge": {
     "def": "close to (w",
     "grammar": "adj.",
     "lemma": "ġe-tenġe"
+  },
+  "geteode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geteode"
   },
   "geteogan": {
     "def": "assign, allot",
     "grammar": "vb. II",
     "lemma": "ġe-tēoġan"
   },
+  "geteoh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geteoh"
+  },
+  "geteohhod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geteohhod"
+  },
   "geteon": {
     "def": "1545, 2610",
     "grammar": "vb. 2",
     "lemma": "ġe-tēon"
+  },
+  "geteoð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geteoð"
+  },
+  "getiðad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getiðad"
   },
   "getrum": {
     "def": "company",
     "grammar": "n.",
     "lemma": "ġe-trum"
   },
+  "getrume": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getrume"
+  },
+  "getruwedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getruwedon"
+  },
   "getruwian": {
     "def": "trust",
     "grammar": "vb. II",
     "lemma": "ġe-truwian"
+  },
+  "getruwode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getruwode"
+  },
+  "getrywe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getrywe"
   },
   "getrуwe": {
     "def": "faithful",
@@ -20752,6 +27557,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-twǣfan"
   },
+  "getwæfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getwæfde"
+  },
+  "getwæfeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getwæfeð"
+  },
   "getwæman": {
     "def": "hinder",
     "grammar": "vb. I",
@@ -20761,6 +27576,11 @@ const OLD_ENGLISH_DICT = {
     "def": "point out, assign",
     "grammar": "vb. I",
     "lemma": "ġe-tǣċan"
+  },
+  "getæhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "getæhte"
   },
   "getæse": {
     "def": "1320",
@@ -20772,10 +27592,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prp.",
     "lemma": "ġe-unnan"
   },
+  "geuðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geuðe"
+  },
+  "gewac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewac"
+  },
   "gewadan": {
     "def": "advance (to a cer-tain point)",
     "grammar": "vb. 6",
     "lemma": "ġe-wadan"
+  },
+  "gewaden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewaden"
+  },
+  "gewanod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewanod"
+  },
+  "gewat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewat"
   },
   "gewealc": {
     "def": "464",
@@ -20792,6 +27637,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "ġe-wealdan"
   },
+  "gewealdene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewealdene"
+  },
+  "gewealdum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewealdum"
+  },
+  "gewearð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewearð"
+  },
   "geweaxan": {
     "def": "increase",
     "grammar": "vb. 7",
@@ -20807,15 +27667,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-wendan"
   },
+  "gewende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewende"
+  },
+  "geweold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geweold"
+  },
   "geweorc": {
     "def": "2711",
     "grammar": "n.",
     "lemma": "ġe-weorc"
   },
+  "geweorces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geweorces"
+  },
+  "geweorðad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geweorðad"
+  },
   "geweorðan": {
     "def": "w",
     "grammar": "vb. 3",
     "lemma": "ġe-weorðan"
+  },
+  "geweorðod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geweorðod"
+  },
+  "geweox": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geweox"
+  },
+  "gewergad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewergad"
   },
   "gewican": {
     "def": "give way, fail",
@@ -20832,15 +27727,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ni.",
     "lemma": "ġe-wif(orġe-wife)"
   },
+  "gewin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewin"
+  },
   "gewin(n)": {
     "def": "struggle, fight",
     "grammar": "n.",
     "lemma": "ġe-win(n)"
   },
+  "gewindan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewindan"
+  },
   "gewindanvb.3": {
     "def": "turn",
     "grammar": "go",
     "lemma": "ġe-windanvb.3"
+  },
+  "gewinnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewinnes"
   },
   "gewiofu": {
     "def": "see ġe-wif",
@@ -20852,6 +27762,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġe-wis-līċe"
   },
+  "gewislicost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewislicost"
+  },
   "gewit(t)": {
     "def": "senses",
     "grammar": "nja.",
@@ -20862,45 +27777,170 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "ġe-wītan"
   },
+  "gewitaþforðberan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewitaþforðberan"
+  },
+  "gewiteð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewiteð"
+  },
+  "gewiteðþonne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewiteðþonne"
+  },
+  "gewitnad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewitnad"
+  },
+  "gewiton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewiton"
+  },
+  "gewitte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewitte"
+  },
   "gewittig": {
     "def": "conscious",
     "grammar": "adj.",
     "lemma": "ġe-wittiġ"
+  },
+  "geworden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geworden"
+  },
+  "geworht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geworht"
+  },
+  "geworhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geworhte"
+  },
+  "geworhton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geworhton"
   },
   "gewrecan": {
     "def": "punish",
     "grammar": "vb. 5",
     "lemma": "ġe-wrecan"
   },
+  "gewrecen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewrecen"
+  },
   "gewrixle": {
     "def": "nja",
     "grammar": "nja.",
     "lemma": "ġe-wrixle"
+  },
+  "gewræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewræc"
+  },
+  "gewræcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewræcan"
   },
   "gewunian": {
     "def": "†remain with, stand by (someone)",
     "grammar": "vb. II",
     "lemma": "ġe-wunian"
   },
+  "gewunigen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewunigen"
+  },
+  "gewurþad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewurþad"
+  },
   "gewyrcan": {
     "def": "perform, carry out, accomplish, achieve",
     "grammar": "vb. I",
     "lemma": "ġe-wyrċan"
+  },
+  "gewyrce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewyrce"
+  },
+  "gewyrcean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewyrcean"
+  },
+  "gewyrhtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewyrhtum"
   },
   "gewyrpan": {
     "def": "recover",
     "grammar": "vb. I",
     "lemma": "ġe-wyrpan"
   },
+  "gewyrpte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewyrpte"
+  },
   "gewæde": {
     "def": "equipment, armor",
     "grammar": "nja.",
     "lemma": "ġe-wǣde"
   },
+  "gewædu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gewædu"
+  },
+  "geywan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geywan"
+  },
   "geæfnan": {
     "def": "carry out",
     "grammar": "vb. I",
     "lemma": "ġe-æfnan"
+  },
+  "geæfndon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geæfndon"
+  },
+  "geæfned": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geæfned"
+  },
+  "geæhted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geæhted"
+  },
+  "geæhtlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geæhtlan"
   },
   "geæhtle(a?)": {
     "def": "consider-ation, esteem",
@@ -20912,15 +27952,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-þāh"
   },
+  "geþeah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþeah"
+  },
   "geþearfian": {
     "def": "‡necessitate, impose necessity",
     "grammar": "vb.  II",
     "lemma": "ġe-þearfian"
   },
+  "geþearfod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþearfod"
+  },
+  "geþenc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþenc"
+  },
   "geþencan": {
     "def": "remember",
     "grammar": "vb. I",
     "lemma": "ġe-þenċan"
+  },
+  "geþencean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþencean"
+  },
+  "geþeoh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþeoh"
   },
   "geþeon": {
     "def": "flourish",
@@ -20942,6 +28007,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "ġe-þinġe"
   },
+  "geþingea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþingea"
+  },
+  "geþinged": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþinged"
+  },
+  "geþinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþinges"
+  },
+  "geþingeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþingeð"
+  },
+  "geþingo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþingo"
+  },
   "geþoht": {
     "def": "256, 610",
     "grammar": "m.",
@@ -20952,10 +28042,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "ġe-þolian"
   },
+  "geþolianne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþolianne"
+  },
+  "geþolode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþolode"
+  },
   "geþonc": {
     "def": "2332",
     "grammar": "m.",
     "lemma": "ġe-þonc"
+  },
+  "geþoncum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþoncum"
+  },
+  "geþrang": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþrang"
   },
   "geþring": {
     "def": "tumult",
@@ -20982,6 +28092,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġe-þungen"
   },
+  "geþuren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþuren"
+  },
   "geþwære": {
     "def": "united, loyal",
     "grammar": "adj.",
@@ -20991,6 +28106,16 @@ const OLD_ENGLISH_DICT = {
     "def": "1395",
     "grammar": "fi.",
     "lemma": "ġe-þyld"
+  },
+  "geþyldum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþyldum"
+  },
+  "geþywe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "geþywe"
   },
   "geþægon": {
     "def": "see ġe-þicgan",
@@ -21007,10 +28132,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ġe-ӯwan"
   },
+  "gid": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gid"
+  },
   "gid(d)": {
     "def": "tale, ( ̄formal) speech, sententious utterance",
     "grammar": "nja.",
     "lemma": "ġid(d)"
+  },
+  "gidd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gidd"
+  },
+  "gidda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gidda"
+  },
+  "giddum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giddum"
   },
   "gif": {
     "def": "2972",
@@ -21072,10 +28217,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "ġifeðe"
   },
+  "gifeþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gifeþe"
+  },
   "gifheal(l)": {
     "def": "GIFt-HALL, hall for the dispensing of gifts",
     "grammar": "f.",
     "lemma": "ġif-heal(l)"
+  },
+  "gifhealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gifhealle"
   },
   "gifr": {
     "def": "ravenous",
@@ -21087,10 +28242,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġīfre"
   },
+  "gifrost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gifrost"
+  },
   "gifsceat(t)": {
     "def": "GIFt",
     "grammar": "m.",
     "lemma": "ġif-sceat(t)"
+  },
+  "gifsceattas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gifsceattas"
   },
   "gifstol": {
     "def": "GIFt-seat, throne",
@@ -21102,10 +28267,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ġifu"
   },
+  "gifðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gifðum"
+  },
   "gigant": {
     "def": "113",
     "grammar": "m.",
     "lemma": "ġīgant"
+  },
+  "giganta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giganta"
+  },
+  "gigantas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gigantas"
   },
   "gilp": {
     "def": "w",
@@ -21172,10 +28352,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ġilp-hlæden"
   },
+  "gim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gim"
+  },
   "gim(m)": {
     "def": "jewel",
     "grammar": "m.",
     "lemma": "ġim(m)"
+  },
+  "gimfæste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gimfæste"
   },
   "gin fæst": {
     "def": "adj",
@@ -21197,10 +28387,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġin-fæst"
   },
+  "ginfæstan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ginfæstan"
+  },
   "gingæst": {
     "def": "see ġeong",
     "grammar": "",
     "lemma": "ġinġæst"
+  },
+  "gingæste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gingæste"
+  },
+  "ginne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ginne"
   },
   "gio": {
     "def": "see ġeō",
@@ -21227,6 +28432,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġiogoð"
   },
+  "giogoðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giogoðe"
+  },
+  "giogoðætgædere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giogoðætgædere"
+  },
+  "gioguðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gioguðe"
+  },
+  "giohðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giohðe"
+  },
   "giohðo": {
     "def": "sorrow, care",
     "grammar": "f.",
@@ -21247,6 +28472,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġiōmor(-)"
   },
+  "giomorgyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giomorgyd"
+  },
+  "giomormod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giomormod"
+  },
   "giond": {
     "def": "see ġeond-",
     "grammar": "",
@@ -21262,6 +28497,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġiond-"
   },
+  "giondwlitan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "giondwlitan"
+  },
   "giong": {
     "def": "pret",
     "grammar": "pret.",
@@ -21272,10 +28512,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "ġist"
   },
+  "gistas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gistas"
+  },
   "git": {
     "def": "see þū",
     "grammar": "",
     "lemma": "ġit"
+  },
+  "glad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "glad"
   },
   "gladi": {
     "def": "‡glisten, shine",
@@ -21287,10 +28537,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "gladian"
   },
+  "gladiað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gladiað"
+  },
   "gladie": {
     "def": "‡glisten, shine",
     "grammar": "vb. II",
     "lemma": "gladian"
+  },
+  "gladum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gladum"
   },
   "gled": {
     "def": "flame",
@@ -21321,6 +28581,11 @@ const OLD_ENGLISH_DICT = {
     "def": "fire-terror, terrible fire",
     "grammar": "wk.",
     "lemma": "glēd-eġesa"
+  },
+  "gledum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gledum"
   },
   "gleo": {
     "def": "OEG § ̄120",
@@ -21362,6 +28627,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "glēo-bēam"
   },
+  "gleobeames": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gleobeames"
+  },
   "gleodream": {
     "def": "enjoyment, entertain-ment, revelry",
     "grammar": "m.",
@@ -21371,6 +28641,11 @@ const OLD_ENGLISH_DICT = {
     "def": "singer, musician",
     "grammar": "mc.",
     "lemma": "glēo-man(n)"
+  },
+  "gleomannes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gleomannes"
   },
   "glid": {
     "def": "2073",
@@ -21386,6 +28661,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2073",
     "grammar": "vb. 1",
     "lemma": "glīdan"
+  },
+  "glidon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "glidon"
   },
   "glitini": {
     "def": "GLITTer, shine",
@@ -21442,6 +28722,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "glæd-mōd"
   },
+  "glæde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "glæde"
+  },
   "glædman": {
     "def": "cheerful, bright, gra-cious",
     "grammar": "adj.",
@@ -21452,10 +28737,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "glæd-mōd"
   },
+  "glædne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "glædne"
+  },
   "gneað": {
     "def": "miserly, sparing",
     "grammar": "adj.",
     "lemma": "gnēað"
+  },
+  "gneaðgifa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gneaðgifa"
   },
   "gnorn": {
     "def": "sorrow, aÑiction",
@@ -21477,6 +28772,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "gnornian"
   },
+  "gnornode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gnornode"
+  },
   "god": {
     "def": "eÌcient, excel-lent, strong, brave",
     "grammar": "adj.",
@@ -21492,10 +28792,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "gōd-fremmend(e)"
   },
+  "goda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goda"
+  },
+  "godan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godan"
+  },
+  "gode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gode"
+  },
+  "godes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godes"
+  },
   "godfremmend(e)": {
     "def": "one doing GOOD, acting proper-ly",
     "grammar": "mc.",
     "lemma": "gōd-fremmend(e)"
+  },
+  "godfremmendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godfremmendra"
+  },
+  "godne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godne"
+  },
+  "godra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godra"
+  },
+  "godum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "godum"
   },
   "gold": {
     "def": "1193, 2765, 3012, 3052, 3134",
@@ -21667,15 +29007,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "gold-ǣht"
   },
+  "golde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "golde"
+  },
+  "goldes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldes"
+  },
   "goldfag": {
     "def": "adj",
     "grammar": "",
     "lemma": "gold-fāg"
   },
+  "goldfah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldfah"
+  },
+  "goldfahne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldfahne"
+  },
   "goldgyfa": {
     "def": "GOLD-GIVer, lord",
     "grammar": "wk.",
     "lemma": "gold-ġyfa"
+  },
+  "goldgyfan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldgyfan"
   },
   "goldhladen": {
     "def": "(LADEN) adorned with GOLD",
@@ -21691,6 +29056,16 @@ const OLD_ENGLISH_DICT = {
     "def": "GOLD-spell, curse on gold",
     "grammar": "f.",
     "lemma": "gold-hwatu"
+  },
+  "goldhwæte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldhwæte"
+  },
+  "goldmaðmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "goldmaðmas"
   },
   "goldmaððum": {
     "def": "GOLD-treasure",
@@ -21727,6 +29102,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "gomen"
   },
+  "gomban": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomban"
+  },
   "gombe(wk.f.?)( a?": {
     "def": "tribute",
     "grammar": "",
@@ -21751,6 +29131,31 @@ const OLD_ENGLISH_DICT = {
     "def": "gomol, see gamol",
     "grammar": "gomol",
     "lemma": "gomel"
+  },
+  "gomela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomela"
+  },
+  "gomelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomelan"
+  },
+  "gomele": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomele"
+  },
+  "gomelra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomelra"
+  },
+  "gomelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomelum"
   },
   "gomen": {
     "def": "entertainment, diversion, pastime, sport, play",
@@ -21777,25 +29182,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "gomen-wudu"
   },
+  "gomene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomene"
+  },
   "gomenwaþ": {
     "def": "diverting (i",
     "grammar": "f.",
     "lemma": "gomen-wāþ"
+  },
+  "gomenwaþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomenwaþe"
   },
   "gomenwudu": {
     "def": "WOOD of enter-tainment (lyre or harp)",
     "grammar": "mu.",
     "lemma": "gomen-wudu"
   },
+  "gomol": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gomol"
+  },
+  "gongan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gongan"
+  },
+  "good": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "good"
+  },
   "gram": {
     "def": "hostile",
     "grammar": "adj.",
     "lemma": "gram"
   },
+  "graman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "graman"
+  },
+  "grames": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grames"
+  },
+  "gramum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gramum"
+  },
   "grap": {
     "def": "claw",
     "grammar": "f.",
     "lemma": "grāp"
+  },
+  "grape": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grape"
   },
   "grapi": {
     "def": "grasp",
@@ -21812,6 +29262,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "grāpian"
   },
+  "grapode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grapode"
+  },
+  "grapum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grapum"
+  },
+  "grendel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grendel"
+  },
+  "grendeles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grendeles"
+  },
+  "grendle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grendle"
+  },
+  "grendles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grendles"
+  },
   "greot": {
     "def": "weep",
     "grammar": "vb.  2",
@@ -21827,6 +29307,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  2",
     "lemma": "grēotan"
   },
+  "greoteþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "greoteþ"
+  },
+  "greow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "greow"
+  },
   "gret": {
     "def": "touch, attack",
     "grammar": "vb.  I",
@@ -21841,6 +29331,21 @@ const OLD_ENGLISH_DICT = {
     "def": "touch, attack",
     "grammar": "vb.  I",
     "lemma": "grētan"
+  },
+  "greted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "greted"
+  },
+  "grette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grette"
+  },
+  "grim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grim"
   },
   "grim helm": {
     "def": "mask-HELMet, helmet (with a mask-like frontal plate)",
@@ -21882,6 +29387,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "grīm-helm"
   },
+  "grimhelmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimhelmas"
+  },
   "grimlic": {
     "def": "terrible",
     "grammar": "adj.",
@@ -21892,15 +29402,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "grimme"
   },
+  "grimma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimma"
+  },
+  "grimman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimman"
+  },
   "grimme": {
     "def": "terribly",
     "grammar": "adv.",
     "lemma": "grimme"
   },
+  "grimmon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimmon"
+  },
   "grimmon(n)": {
     "def": "mask-MAN, helmet-ed warrior",
     "grammar": "mc.",
     "lemma": "grīm-mon(n)"
+  },
+  "grimne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimne"
+  },
+  "grimre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grimre"
   },
   "grip": {
     "def": "grasp, clutch",
@@ -22022,10 +29557,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "grund-wyrġen(n)"
   },
+  "grundas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grundas"
+  },
   "grundbuend": {
     "def": "inhabitant of the earth, human (being)",
     "grammar": "mc.",
     "lemma": "grund-būend"
+  },
+  "grundbuendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grundbuendra"
+  },
+  "grunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grunde"
   },
   "grundhyrde": {
     "def": "guardian of the deep",
@@ -22042,6 +29592,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "grund-wyrġen(n)"
   },
+  "grundwyrgenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grundwyrgenne"
+  },
   "gry": {
     "def": "terror, horror",
     "grammar": "mi.",
@@ -22052,10 +29607,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "gryn(n)"
   },
+  "grynna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "grynna"
+  },
   "gryr": {
     "def": "terror, horror",
     "grammar": "mi.",
     "lemma": "gryre"
+  },
+  "gryra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryra"
   },
   "gryre": {
     "def": "terror, horror",
@@ -22157,30 +29722,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "gryre-fāh"
   },
+  "gryrefahne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryrefahne"
+  },
   "gryregeatwe": {
     "def": "terrible armor, warlike equipment",
     "grammar": "fw",
     "lemma": "gryre-ġeatwe"
+  },
+  "gryregeatwum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryregeatwum"
   },
   "gryregiest": {
     "def": "dreadful stranger",
     "grammar": "mi.",
     "lemma": "gryre-ġiest"
   },
+  "gryregieste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryregieste"
+  },
   "gryreleoð": {
     "def": "terrible song",
     "grammar": "n.",
     "lemma": "gryre-lēoð"
+  },
+  "gryreleoðgalan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryreleoðgalan"
   },
   "gryrelic": {
     "def": "terrible, horrible, asm",
     "grammar": "adj.",
     "lemma": "gryre-liċ"
   },
+  "gryrelicne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryrelicne"
+  },
   "gryresið": {
     "def": "dreadful (perilous) expedition",
     "grammar": "m.",
     "lemma": "gryre-sīð"
+  },
+  "gryresiðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryresiðas"
+  },
+  "gryrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gryrum"
   },
   "græde": {
     "def": "fierce",
@@ -22227,6 +29827,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "grǣġ-mǣl"
   },
+  "græge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "græge"
+  },
   "græghama": {
     "def": "the GREY-coated one",
     "grammar": "wk.",
@@ -22256,6 +29861,11 @@ const OLD_ENGLISH_DICT = {
     "def": "GRASS-MOLD, greensward, grassy turf",
     "grammar": "wk.",
     "lemma": "græs-molde"
+  },
+  "græsmoldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "græsmoldan"
   },
   "græsmolde": {
     "def": "GRASS-MOLD, greensward, grassy turf",
@@ -22362,15 +29972,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "guma"
   },
+  "guman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guman"
+  },
   "gumcyn(n)": {
     "def": "humanKIND, (hu-man) race",
     "grammar": "nja.",
     "lemma": "gum-cyn(n)"
   },
+  "gumcynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumcynnes"
+  },
+  "gumcynnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumcynnum"
+  },
   "gumcyst": {
     "def": "manly virtue, munifi-cence",
     "grammar": "fi.",
     "lemma": "gum-cyst"
+  },
+  "gumcyste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumcyste"
+  },
+  "gumcystum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumcystum"
   },
   "gumdream": {
     "def": "pleasures of men",
@@ -22387,10 +30022,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "guma"
   },
+  "gumena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumena"
+  },
   "gumfeþa": {
     "def": "band on foot",
     "grammar": "wk.",
     "lemma": "gum-fēþa"
+  },
+  "gummanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gummanna"
   },
   "gummon(n)": {
     "def": "MAN",
@@ -22401,6 +30046,16 @@ const OLD_ENGLISH_DICT = {
     "def": "throne",
     "grammar": "m.",
     "lemma": "gum-stōl"
+  },
+  "gumstole": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumstole"
+  },
+  "gumum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gumum"
   },
   "guð": {
     "def": "war, battle, fight",
@@ -22807,20 +30462,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "gūð-wudu"
   },
+  "guða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guða"
+  },
   "guðbeorn": {
     "def": "warrior",
     "grammar": "m.",
     "lemma": "gūð-beorn"
+  },
+  "guðbeorna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðbeorna"
   },
   "guðbil(l)": {
     "def": "war-sword",
     "grammar": "n.",
     "lemma": "gūð-bil(l)"
   },
+  "guðbill": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðbill"
+  },
+  "guðbilla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðbilla"
+  },
   "guðbyrne": {
     "def": "war-corslet",
     "grammar": "wk.",
     "lemma": "gūð-byrne"
+  },
+  "guðceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðceare"
   },
   "guðcearu": {
     "def": "war-CARE, grief-laden strife",
@@ -22842,10 +30522,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gūð-dēað"
   },
+  "guðdeaðfornam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðdeaðfornam"
+  },
+  "guðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðe"
+  },
   "guðfloga": {
     "def": "war-FLIer",
     "grammar": "wk.",
     "lemma": "gūð-floga"
+  },
+  "guðfornam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðfornam"
   },
   "guðfreca": {
     "def": "fighter",
@@ -22857,20 +30552,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "gūð-fremmend(e)"
   },
+  "guðfremmendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðfremmendra"
+  },
+  "guðgeata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgeata"
+  },
+  "guðgeatawum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgeatawum"
+  },
   "guðgetawa": {
     "def": "war-equipment",
     "grammar": "fw",
     "lemma": "gūð-ġetawa"
+  },
+  "guðgetwæfed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgetwæfed"
   },
   "guðgeweorc": {
     "def": "warlike deed",
     "grammar": "n.",
     "lemma": "gūð-ġeweorc"
   },
+  "guðgeweorca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgeweorca"
+  },
+  "guðgewæda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgewæda"
+  },
   "guðgewæde": {
     "def": "war-garment, ar-mor",
     "grammar": "nja.",
     "lemma": "gūð-ġewǣde"
+  },
+  "guðgewædo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgewædo"
+  },
+  "guðgewædu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðgewædu"
   },
   "guðhelm": {
     "def": "war-HELMet",
@@ -22887,15 +30622,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "gūð-hrēð"
   },
+  "guðhreðgyfeþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðhreðgyfeþe"
+  },
+  "guðkyning": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðkyning"
+  },
+  "guðlaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðlaf"
+  },
   "guðleoð": {
     "def": "war-song",
     "grammar": "n.",
     "lemma": "gūð-lēoð"
   },
+  "guðnimeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðnimeð"
+  },
+  "guðonsæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðonsæge"
+  },
   "guðrec": {
     "def": "war-(REEK), smoke",
     "grammar": "mi.",
     "lemma": "gūð-rēċ"
+  },
+  "guðreouw": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðreouw"
   },
   "guðreow": {
     "def": "fierce in battle",
@@ -22907,6 +30672,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gūð-rinċ"
   },
+  "guðrinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðrinca"
+  },
   "guðrof": {
     "def": "brave in battle",
     "grammar": "adj.",
@@ -22917,15 +30687,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "gūð-rǣs"
   },
+  "guðræsa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðræsa"
+  },
   "guðscear": {
     "def": "slaughter (SHEARing) in battle, carnage",
     "grammar": "m.",
     "lemma": "gūð-scear"
   },
+  "guðsceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðsceare"
+  },
   "guðsceaða": {
     "def": "enemy, destroyer",
     "grammar": "wk.",
     "lemma": "gūð-sceaða"
+  },
+  "guðscil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðscil"
   },
   "guðsearo": {
     "def": "armor",
@@ -22942,10 +30727,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "gūð-sweord"
   },
+  "guðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðum"
+  },
   "guðwerig": {
     "def": "worn out (WEARY) with fighting, dead",
     "grammar": "adj.",
     "lemma": "gūð-wēriġ"
+  },
+  "guðwerigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðwerigne"
   },
   "guðwiga": {
     "def": "warrior",
@@ -22956,6 +30751,11 @@ const OLD_ENGLISH_DICT = {
     "def": "war-friend, warrior, sword",
     "grammar": "mi.",
     "lemma": "gūð-wine"
+  },
+  "guðwinum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guðwinum"
   },
   "guðwudu": {
     "def": "battle-WOOD, spear",
@@ -22972,10 +30772,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "gūþ-mōd"
   },
+  "guþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guþe"
+  },
+  "guþgeweorca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "guþgeweorca"
+  },
   "guþmod": {
     "def": "of warlike mind, 306",
     "grammar": "adj.",
     "lemma": "gūþ-mōd"
+  },
+  "gyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyd"
   },
   "gyd(d)": {
     "def": "see ġid(d)",
@@ -22997,6 +30812,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "ġyddian"
   },
+  "gyddode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyddode"
+  },
+  "gyddum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyddum"
+  },
   "gyf": {
     "def": "pp",
     "grammar": "pp.",
@@ -23011,6 +30836,11 @@ const OLD_ENGLISH_DICT = {
     "def": "pp",
     "grammar": "pp.",
     "lemma": "ġyfen"
+  },
+  "gyfenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyfenes"
   },
   "gyfeþ": {
     "def": "see ġifeðe",
@@ -23041,6 +30871,16 @@ const OLD_ENGLISH_DICT = {
     "def": "covered with gold",
     "grammar": "adj.",
     "lemma": "gylden"
+  },
+  "gyldenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyldenne"
+  },
+  "gyldnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyldnum"
   },
   "gyll": {
     "def": "YELL, cry out, re-sound",
@@ -23082,20 +30922,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ġylp-word"
   },
+  "gylpan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gylpan"
+  },
+  "gylpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gylpe"
+  },
+  "gylpeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gylpeð"
+  },
   "gylpspræc": {
     "def": "boasting SPEECH",
     "grammar": "fj",
     "lemma": "ġylp-sprǣċ"
+  },
+  "gylpspræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gylpspræce"
   },
   "gylpword": {
     "def": "675",
     "grammar": "n.",
     "lemma": "ġylp-word"
   },
+  "gylpworda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gylpworda"
+  },
+  "gym": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gym"
+  },
+  "gymeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gymeð"
+  },
   "gyn(n)": {
     "def": "see ġin(n)",
     "grammar": "",
     "lemma": "ġyn(n)"
+  },
+  "gynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gynne"
   },
   "gyrd": {
     "def": "belt",
@@ -23112,6 +30992,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "gyrdan"
   },
+  "gyrded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyrded"
+  },
   "gyre": {
     "def": "ġeġyred, see ġyrwan",
     "grammar": "",
@@ -23126,6 +31011,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ġeġyred, see ġyrwan",
     "grammar": "",
     "lemma": "ġyrede"
+  },
+  "gyredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyredon"
   },
   "gyrn": {
     "def": "m",
@@ -23147,6 +31037,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "gyrn-wracu"
   },
+  "gyrnwræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyrnwræce"
+  },
   "gyrw": {
     "def": "make ready, dress, equip, garnish",
     "grammar": "vb.  I",
@@ -23167,6 +31062,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ġyst"
   },
+  "gyste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyste"
+  },
   "gystr": {
     "def": "1334",
     "grammar": "adv.",
@@ -23182,15 +31082,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ġystran"
   },
+  "gyt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gyt"
+  },
+  "gytsaðgromhydig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gytsaðgromhydig"
+  },
   "gædeling": {
     "def": "kinsman, companion",
     "grammar": "m.",
     "lemma": "gædeling"
   },
+  "gædelinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gædelinges"
+  },
+  "gædelingum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gædelingum"
+  },
   "gæst": {
     "def": "see ġist",
     "grammar": "",
     "lemma": "gæst"
+  },
+  "gæsta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gæsta"
+  },
+  "gæstas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gæstas"
+  },
+  "gæða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gæða"
+  },
+  "gæþeft": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "gæþeft"
   },
   "gуm": {
     "def": "care, heed, be intent (on)",
@@ -23232,6 +31172,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "habban"
   },
+  "habbaðwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "habbaðwe"
+  },
   "habbe": {
     "def": "hold",
     "grammar": "vb. III",
@@ -23267,6 +31212,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hafa"
   },
+  "hafalan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafalan"
+  },
+  "hafast": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafast"
+  },
+  "hafað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafað"
+  },
+  "hafaðonfunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafaðonfunden"
+  },
+  "hafaðþæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafaðþæs"
+  },
   "hafe": {
     "def": "see habban",
     "grammar": "",
@@ -23282,6 +31252,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hafela"
   },
+  "hafelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafelan"
+  },
   "hafele": {
     "def": "head",
     "grammar": "wk.",
@@ -23291,6 +31266,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see hebban",
     "grammar": "",
     "lemma": "hafen"
+  },
+  "hafenade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafenade"
   },
   "hafeni": {
     "def": "raise, lift",
@@ -23317,6 +31297,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hafoc"
   },
+  "hafu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hafu"
+  },
   "hag": {
     "def": "enclosure, entrench-ment",
     "grammar": "wk.",
@@ -23326,6 +31311,11 @@ const OLD_ENGLISH_DICT = {
     "def": "enclosure, entrench-ment",
     "grammar": "wk.",
     "lemma": "haga"
+  },
+  "hagan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hagan"
   },
   "hage": {
     "def": "enclosure, entrench-ment",
@@ -23337,10 +31327,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hāl"
   },
+  "halan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "halan"
+  },
   "hale": {
     "def": "381, 1553, ~ (dryhten) 686",
     "grammar": "adj.",
     "lemma": "hāliġ"
+  },
+  "halga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "halga"
   },
   "halig": {
     "def": "381, 1553, ~ (dryhten) 686",
@@ -23367,15 +31367,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hām-weorðung"
   },
+  "hama": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hama"
+  },
+  "hamas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hamas"
+  },
   "hamer": {
     "def": "1285",
     "grammar": "m.",
     "lemma": "hamer"
   },
+  "hamere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hamere"
+  },
+  "hames": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hames"
+  },
   "hamweorðung": {
     "def": "honor to a HOME",
     "grammar": "f.",
     "lemma": "hām-weorðung"
+  },
+  "hamweorðunge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hamweorðunge"
   },
   "hand": {
     "def": "HAND",
@@ -23462,20 +31487,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hand-sporu"
   },
+  "handa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handa"
+  },
+  "handbanan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handbanan"
+  },
   "handbona": {
     "def": "slayer with the HAND",
     "grammar": "wk.",
     "lemma": "hand-bona"
+  },
+  "handbonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handbonan"
   },
   "handgestealla": {
     "def": "comrade, as-sociate",
     "grammar": "wk.",
     "lemma": "hand-ġestealla"
   },
+  "handgesteallan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handgesteallan"
+  },
   "handgewriþen": {
     "def": "twisted or woven by HAND",
     "grammar": "adj.",
     "lemma": "hand-ġewriþen"
+  },
+  "handgewriþene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handgewriþene"
+  },
+  "handscale": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "handscale"
   },
   "handscolu": {
     "def": "f",
@@ -23486,6 +31541,11 @@ const OLD_ENGLISH_DICT = {
     "def": "HAND-SPUR, nail (or claw)",
     "grammar": "wk.",
     "lemma": "hand-sporu"
+  },
+  "hangað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hangað"
   },
   "hangi": {
     "def": "2447",
@@ -23502,10 +31562,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "hangian"
   },
+  "hangode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hangode"
+  },
   "har": {
     "def": "grey, old",
     "grammar": "adj.",
     "lemma": "hār"
+  },
+  "hare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hare"
+  },
+  "hares": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hares"
+  },
+  "harne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "harne"
+  },
+  "harum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "harum"
   },
   "hat": {
     "def": "2605",
@@ -23517,10 +31602,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "hātan"
   },
+  "hataðheaðomære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hataðheaðomære"
+  },
   "hate": {
     "def": "call",
     "grammar": "vb. 7",
     "lemma": "hātan"
+  },
+  "haten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "haten"
+  },
+  "hates": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hates"
   },
   "hati": {
     "def": "persecute",
@@ -23536,6 +31636,26 @@ const OLD_ENGLISH_DICT = {
     "def": "persecute",
     "grammar": "vb. II",
     "lemma": "hatian"
+  },
+  "hatne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hatne"
+  },
+  "hatode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hatode"
+  },
+  "haton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "haton"
+  },
+  "hatost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hatost"
   },
   "haðor(heaðor)": {
     "def": "confinement",
@@ -23561,6 +31681,16 @@ const OLD_ENGLISH_DICT = {
     "def": "great town (or fortress)",
     "grammar": "fc.",
     "lemma": "hēa-burh"
+  },
+  "heafde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafde"
+  },
+  "heafdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafdon"
   },
   "heafo": {
     "def": "-u, see hæf",
@@ -23607,15 +31737,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hēafod-beorg"
   },
+  "heafodbeorge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafodbeorge"
+  },
+  "heafodmaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafodmaga"
+  },
   "heafodmæg": {
     "def": "(HEAD-, i",
     "grammar": "m.",
     "lemma": "hēafod-mǣġ"
   },
+  "heafodmægum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafodmægum"
+  },
   "heafodweard": {
     "def": "HEAD-watch",
     "grammar": "f.",
     "lemma": "hēafod-weard"
+  },
+  "heafodwearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafodwearde"
   },
   "heafol": {
     "def": "see hafela",
@@ -23627,10 +31777,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "heafola"
   },
+  "heafolan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafolan"
+  },
   "heafole": {
     "def": "see hafela",
     "grammar": "",
     "lemma": "heafola"
+  },
+  "heafu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heafu"
   },
   "heah": {
     "def": "lofty, exalted",
@@ -23737,6 +31897,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hēah-cyning"
   },
+  "heahcyninges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heahcyninges"
+  },
   "heahgesceap": {
     "def": "(HIGH) destiny",
     "grammar": "n.",
@@ -23746,6 +31911,16 @@ const OLD_ENGLISH_DICT = {
     "def": "splendid treasure",
     "grammar": "n.",
     "lemma": "hēah-ġestrēon"
+  },
+  "heahgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heahgestreona"
+  },
+  "heahlufan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heahlufan"
   },
   "heahlufu(lufe)": {
     "def": "HIGH LOVE, great esteem",
@@ -23766,6 +31941,11 @@ const OLD_ENGLISH_DICT = {
     "def": "lofty place",
     "grammar": "mi.",
     "lemma": "hēah-stede"
+  },
+  "heal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heal"
   },
   "heal reced": {
     "def": "HALL-building",
@@ -23832,15 +32012,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "healdan"
   },
+  "healdanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healdanne"
+  },
   "healde": {
     "def": "keep, guard, oc-cupy, possess, rule",
     "grammar": "vb. 7",
     "lemma": "healdan"
   },
+  "healdeðhigemæðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healdeðhigemæðum"
+  },
   "healf": {
     "def": "1087",
     "grammar": "adj.",
     "lemma": "healf"
+  },
+  "healfa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healfa"
+  },
+  "healfdene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healfdene"
+  },
+  "healfdenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healfdenes"
+  },
+  "healfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healfe"
+  },
+  "healfre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healfre"
+  },
+  "healgamen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healgamen"
+  },
+  "heall": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heall"
+  },
+  "healle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healle"
+  },
+  "healp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healp"
   },
   "healreced": {
     "def": "HALL-building",
@@ -23887,6 +32122,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heals-bēag"
   },
+  "healsbeaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healsbeaga"
+  },
+  "healsbeah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healsbeah"
+  },
+  "healse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healse"
+  },
   "healsgebedda": {
     "def": "dear BEDfel-low, consort",
     "grammar": "wk.",
@@ -23912,6 +32162,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "heal-sittend(e)"
   },
+  "healsittendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healsittendra"
+  },
+  "healsittendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healsittendum"
+  },
+  "healsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healsode"
+  },
   "healwudu": {
     "def": "HALL-WOOD",
     "grammar": "mu.",
@@ -23922,10 +32187,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "heal-ærn"
   },
+  "healærna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healærna"
+  },
   "healðegn": {
     "def": "HALL-THEGN",
     "grammar": "m.",
     "lemma": "heal-ðeġn"
+  },
+  "healðegnas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healðegnas"
+  },
+  "healðegnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "healðegnes"
   },
   "hean": {
     "def": "humiliated, wretched, despised",
@@ -23937,10 +32217,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hēan(ne)"
   },
+  "heanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heanne"
+  },
   "heap": {
     "def": "troop, company",
     "grammar": "m.",
     "lemma": "hēap"
+  },
+  "heape": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heape"
   },
   "hear": {
     "def": "sorely",
@@ -23982,6 +32272,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "heard-hicgende"
   },
+  "hearda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hearda"
+  },
+  "heardan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardan"
+  },
   "hearde": {
     "def": "sorely",
     "grammar": "adv.",
@@ -23996,6 +32296,36 @@ const OLD_ENGLISH_DICT = {
     "def": "394, 799",
     "grammar": "adj.",
     "lemma": "heard-hicgende"
+  },
+  "heardne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardne"
+  },
+  "heardra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardra"
+  },
+  "heardran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardran"
+  },
+  "heardred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardred"
+  },
+  "heardrede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardrede"
+  },
+  "heardum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heardum"
   },
   "hearh(hearg)": {
     "def": "‘idol-fane,’ heathen temple, sanctuary",
@@ -24027,6 +32357,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hearm-scaþa"
   },
+  "hearme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hearme"
+  },
   "hearmscaþa": {
     "def": "pernicious ene-my",
     "grammar": "wk.",
@@ -24037,10 +32372,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hearpe"
   },
+  "hearpan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hearpan"
+  },
   "hearpe": {
     "def": "2458, 3023, ~ (wyn[ne]): 2107, 2262",
     "grammar": "wk.",
     "lemma": "hearpe"
+  },
+  "heaum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaum"
   },
   "heaw": {
     "def": "vb",
@@ -24056,6 +32401,11 @@ const OLD_ENGLISH_DICT = {
     "def": "vb",
     "grammar": "vb. 7",
     "lemma": "hēawan"
+  },
+  "heaðabeardna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðabeardna"
   },
   "heaðeri": {
     "def": "confine",
@@ -24237,10 +32587,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "heaðo-wǣd"
   },
+  "heaðobeardna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðobeardna"
+  },
   "heaðobyrne": {
     "def": "(war-BYRNIE), mail shirt or coat",
     "grammar": "wk.",
     "lemma": "heaðo-byrne"
+  },
+  "heaðofyrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðofyrum"
+  },
+  "heaðogrim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðogrim"
   },
   "heaðogrim(m)": {
     "def": "battle-GRIM, fierce",
@@ -24251,6 +32616,21 @@ const OLD_ENGLISH_DICT = {
     "def": "(battle-sport), battle",
     "grammar": "n.",
     "lemma": "heaðo-lāc"
+  },
+  "heaðolace": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðolace"
+  },
+  "heaðolaces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðolaces"
+  },
+  "heaðoliðendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðoliðendum"
   },
   "heaðomære": {
     "def": "renowned in battle",
@@ -24267,20 +32647,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heaðo-rinċ"
   },
+  "heaðorincum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðorincum"
+  },
+  "heaðorof": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðorof"
+  },
   "heaðoræs": {
     "def": "storm of battle",
     "grammar": "m.",
     "lemma": "heaðo-rǣs"
+  },
+  "heaðoræsa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðoræsa"
+  },
+  "heaðoscearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðoscearde"
   },
   "heaðoscearp": {
     "def": "battle-SHARP",
     "grammar": "adj.",
     "lemma": "heaðo-scearp"
   },
+  "heaðoscil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðoscil"
+  },
   "heaðosioc": {
     "def": "battle-SICK, wound-ed",
     "grammar": "adj.",
     "lemma": "heaðo-sīoc"
+  },
+  "heaðosiocum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðosiocum"
+  },
+  "heaðosteapne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðosteapne"
   },
   "heaðotorht": {
     "def": "clear(-sounding) in battle",
@@ -24297,10 +32712,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "heaðo-wylm"
   },
+  "heaðowylma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðowylma"
+  },
+  "heaðowylmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðowylmas"
+  },
   "heaðowæd": {
     "def": "war-garment, armor",
     "grammar": "f.",
     "lemma": "heaðo-wǣd"
+  },
+  "heaðowædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðowædum"
   },
   "heaðu sweng": {
     "def": "battle-stroke",
@@ -24312,10 +32742,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "heaðu-swenġ"
   },
+  "heaðufyres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðufyres"
+  },
   "heaðusweng": {
     "def": "battle-stroke",
     "grammar": "mi.",
     "lemma": "heaðu-swenġ"
+  },
+  "heaðuswenge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaðuswenge"
   },
   "heaþo deor": {
     "def": "battle-brave",
@@ -24382,30 +32822,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "heaþo-dēor"
   },
+  "heaþodeorum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþodeorum"
+  },
   "heaþogeong": {
     "def": "YOUNG (in war)",
     "grammar": "adj.",
     "lemma": "heaþo-ġeong"
+  },
+  "heaþolafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþolafe"
   },
   "heaþoliðend(e)": {
     "def": "war-traveler, warrior who is journey-ing to battle",
     "grammar": "mc.",
     "lemma": "heaþo-līðend(e)"
   },
+  "heaþoliðende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoliðende"
+  },
   "heaþorof": {
     "def": "brave in battle",
     "grammar": "adj.",
     "lemma": "heaþo-rōf"
+  },
+  "heaþorofe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþorofe"
+  },
+  "heaþoræmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoræmas"
+  },
+  "heaþoræs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoræs"
+  },
+  "heaþoræsas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoræsas"
   },
   "heaþosteap": {
     "def": "(STEEP) towering in battle",
     "grammar": "adj.",
     "lemma": "heaþo-stēap"
   },
+  "heaþosteapa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþosteapa"
+  },
   "heaþoswat": {
     "def": "battle-SWEAT, blood shed in battle",
     "grammar": "m.",
     "lemma": "heaþo-swāt"
+  },
+  "heaþoswata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoswata"
+  },
+  "heaþoswate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heaþoswate"
   },
   "hebb": {
     "def": "raise, lift",
@@ -24431,6 +32921,11 @@ const OLD_ENGLISH_DICT = {
     "def": "HEED, care for",
     "grammar": "vb. I",
     "lemma": "hēdan"
+  },
+  "hedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hedde"
   },
   "hede": {
     "def": "HEED, care for",
@@ -24461,6 +32956,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see hātan",
     "grammar": "",
     "lemma": "heht"
+  },
+  "hel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hel"
   },
   "hel rune": {
     "def": "one skilled in the mysteries of HELL, demon",
@@ -24502,6 +33002,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "hell-bend"
   },
+  "hellbendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hellbendum"
+  },
+  "helle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helle"
+  },
   "helm": {
     "def": "cover",
     "grammar": "m.",
@@ -24517,10 +33027,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "helm-berend"
   },
+  "helmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helmas"
+  },
   "helmberend": {
     "def": "(HELMet-BEARer), warrior",
     "grammar": "mc.",
     "lemma": "helm-berend"
+  },
+  "helme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helme"
+  },
+  "helmes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helmes"
+  },
+  "helminga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helminga"
+  },
+  "helmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helmum"
   },
   "help": {
     "def": "2684",
@@ -24537,10 +33072,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  3",
     "lemma": "helpan"
   },
+  "helrunan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "helrunan"
+  },
   "helrune": {
     "def": "one skilled in the mysteries of HELL, demon",
     "grammar": "wk.",
     "lemma": "hel-rūne"
+  },
+  "hemminges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hemminges"
+  },
+  "hengest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hengest"
+  },
+  "hengeste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hengeste"
+  },
+  "hengestes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hengestes"
   },
   "heo": {
     "def": "safe, pleasant, good",
@@ -24562,15 +33122,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heofon"
   },
+  "heofena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heofena"
+  },
+  "heofenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heofenes"
+  },
+  "heofenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heofenum"
+  },
   "heofon": {
     "def": "414",
     "grammar": "m.",
     "lemma": "heofon"
   },
+  "heofones": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heofones"
+  },
+  "heofungdagas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heofungdagas"
+  },
+  "heold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heold"
+  },
+  "heolde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heolde"
+  },
+  "heoldon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heoldon"
+  },
   "heolfor": {
     "def": "blood, gore",
     "grammar": "m.",
     "lemma": "heolfor"
+  },
+  "heolfre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heolfre"
   },
   "heolster": {
     "def": "hiding-place",
@@ -24592,6 +33197,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "heonan"
   },
+  "heonon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heonon"
+  },
   "heor": {
     "def": "2463, 2507",
     "grammar": "wk.",
@@ -24601,6 +33211,11 @@ const OLD_ENGLISH_DICT = {
     "def": "hinge",
     "grammar": "m.",
     "lemma": "heor(r)"
+  },
+  "heora": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heora"
   },
   "heore": {
     "def": "safe, pleasant, good",
@@ -24697,20 +33312,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heoro-wearh"
   },
+  "heorodreore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorodreore"
+  },
   "heorodreorig": {
     "def": "(sword-) gory, blood-stained",
     "grammar": "adj.",
     "lemma": "heoro-drēoriġ"
+  },
+  "heorodreorigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorodreorigne"
+  },
+  "heorogar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorogar"
   },
   "heorogifre": {
     "def": "(sword-greedy), fiercely ravenous",
     "grammar": "adj.",
     "lemma": "heoro-ġīfre"
   },
+  "heorogrim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorogrim"
+  },
   "heorohocyhte": {
     "def": "(sword-HOOKed), barbed",
     "grammar": "adj.",
     "lemma": "heoro-hōcyhte"
+  },
+  "heorohocyhtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorohocyhtum"
   },
   "heorosweng": {
     "def": "sword-stroke",
@@ -24722,15 +33362,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "heorot"
   },
+  "heorote": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorote"
+  },
+  "heorotes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorotes"
+  },
+  "heorowearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorowearde"
+  },
   "heorowearh": {
     "def": "fierce outcast, sav-age foe",
     "grammar": "m.",
     "lemma": "heoro-wearh"
   },
+  "heorras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorras"
+  },
   "heort": {
     "def": "2463, 2507",
     "grammar": "wk.",
     "lemma": "heorte"
+  },
+  "heortan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heortan"
   },
   "heorte": {
     "def": "2463, 2507",
@@ -24741,6 +33406,21 @@ const OLD_ENGLISH_DICT = {
     "def": "sword",
     "grammar": "mu.",
     "lemma": "heoru"
+  },
+  "heorudreore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorudreore"
+  },
+  "heorugrimme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorugrimme"
+  },
+  "heorute": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorute"
   },
   "heorð": {
     "def": "floor of a fireplace",
@@ -24761,6 +33441,21 @@ const OLD_ENGLISH_DICT = {
     "def": "HEARTH-compan-ion, retainer",
     "grammar": "m.",
     "lemma": "heorð-ġenēat"
+  },
+  "heorðgeneatas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorðgeneatas"
+  },
+  "heorðgeneatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heorðgeneatum"
+  },
+  "heoðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heoðe"
   },
   "her": {
     "def": "1248, 2347, 2638",
@@ -24977,15 +33672,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-wæs(t)m"
   },
+  "herebeald": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herebeald"
+  },
+  "herebealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herebealde"
+  },
   "herebroga": {
     "def": "war-terror",
     "grammar": "wk.",
     "lemma": "here-brōga"
   },
+  "herebrogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herebrogan"
+  },
   "herebyrne": {
     "def": "(battle-BYRNIE), shirt (or coat) of mail",
     "grammar": "wk.",
     "lemma": "here-byrne"
+  },
+  "heregar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heregar"
   },
   "heregeong": {
     "def": "invasion",
@@ -24997,6 +33712,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "here-grīma"
   },
+  "heregriman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heregriman"
+  },
+  "heremodes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heremodes"
+  },
+  "herenet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herenet"
+  },
   "herenet(t)": {
     "def": "war-NET, mail shirt or coat",
     "grammar": "nja.",
@@ -25007,10 +33737,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-nīð"
   },
+  "hereniðhearda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hereniðhearda"
+  },
   "herepad": {
     "def": "shirt (or coat) of mail",
     "grammar": "f.",
     "lemma": "here-pād"
+  },
+  "hererices": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hererices"
   },
   "hererinc": {
     "def": "warrior",
@@ -25022,10 +33762,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "here-sceaft"
   },
+  "heresceafta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heresceafta"
+  },
   "heresceorp": {
     "def": "war-dress, armor",
     "grammar": "n.",
     "lemma": "here-sceorp"
+  },
+  "herescyldinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herescyldinga"
   },
   "heresped": {
     "def": "success in war",
@@ -25036,6 +33786,11 @@ const OLD_ENGLISH_DICT = {
     "def": "war-arrow",
     "grammar": "m.",
     "lemma": "here-strǣl"
+  },
+  "heresyrcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heresyrcan"
   },
   "heresyrce": {
     "def": "(battle-SARK), shirt (or coat) of mail",
@@ -25052,10 +33807,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "here-wǣd"
   },
+  "herewædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herewædum"
+  },
   "herewæs(t)m": {
     "def": "(warlike stature), martial vigor",
     "grammar": "m.",
     "lemma": "here-wæs(t)m"
+  },
+  "herewæsmun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herewæsmun"
   },
   "herg": {
     "def": "see hearh",
@@ -25086,6 +33851,11 @@ const OLD_ENGLISH_DICT = {
     "def": "laud",
     "grammar": "vb. I",
     "lemma": "herian"
+  },
+  "herige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "herige"
   },
   "het": {
     "def": "288 ̄n",
@@ -25147,25 +33917,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hetend"
   },
+  "hetende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hetende"
+  },
   "hetenið": {
     "def": "enmity",
     "grammar": "m.",
     "lemma": "hete-nīð"
+  },
+  "heteniðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heteniðas"
   },
   "hetesweng": {
     "def": "hostile blow",
     "grammar": "mi.",
     "lemma": "hete-swenġ"
   },
+  "heteswengeas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heteswengeas"
+  },
   "heteþanc": {
     "def": "THOUGHT of HATE",
     "grammar": "m.",
     "lemma": "hete-þanc"
   },
+  "heteþancum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "heteþancum"
+  },
   "hettend": {
     "def": "enemy, np",
     "grammar": "mc.",
     "lemma": "hettend"
+  },
+  "hetware": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hetware"
+  },
+  "hi": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hi"
   },
   "hicge": {
     "def": "see hycgan",
@@ -25186,6 +33986,16 @@ const OLD_ENGLISH_DICT = {
     "def": "to this place, here",
     "grammar": "adv.",
     "lemma": "hider"
+  },
+  "hie": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hie"
+  },
+  "hiera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiera"
   },
   "hig": {
     "def": "mi",
@@ -25242,6 +34052,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "hiġe-þrym(m)"
   },
+  "higelac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higelac"
+  },
+  "higelace": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higelace"
+  },
+  "higelaces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higelaces"
+  },
   "higemæðu": {
     "def": "see hyġe-mēðe",
     "grammar": "",
@@ -25252,15 +34077,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hiġe-rōf"
   },
+  "higerofne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higerofne"
+  },
+  "higes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higes"
+  },
   "higeþihtig": {
     "def": "strong-willed, deter-mined",
     "grammar": "adj.",
     "lemma": "hiġe-þīhtiġ"
   },
+  "higeþihtigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higeþihtigne"
+  },
   "higeþrym(m)": {
     "def": "greatness of heart",
     "grammar": "mja.",
     "lemma": "hiġe-þrym(m)"
+  },
+  "higeþrymmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higeþrymmum"
+  },
+  "higum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "higum"
   },
   "hild": {
     "def": "war, battle",
@@ -25326,6 +34176,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(adj",
     "grammar": "wk.",
     "lemma": "hild-lata"
+  },
+  "hilde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hilde"
   },
   "hilde bil(l)": {
     "def": "battle-sword",
@@ -25617,10 +34472,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hilde-wǣpen"
   },
+  "hildebil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildebil"
+  },
   "hildebil(l)": {
     "def": "battle-sword",
     "grammar": "n.",
     "lemma": "hilde-bil(l)"
+  },
+  "hildebille": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildebille"
   },
   "hildeblac": {
     "def": "battle-pale, mortally wounded",
@@ -25632,6 +34497,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hilde-bord"
   },
+  "hildebordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildebordum"
+  },
+  "hildeburh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildeburh"
+  },
   "hildecumbor": {
     "def": "battle-banner",
     "grammar": "n.",
@@ -25642,15 +34517,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "hilde-cyst"
   },
+  "hildecystum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildecystum"
+  },
   "hildedeor": {
     "def": "brave in battle",
     "grammar": "adj.",
     "lemma": "hilde-dēor"
   },
+  "hildedior": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildedior"
+  },
+  "hildediore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildediore"
+  },
   "hildefreca": {
     "def": "see hild-freca",
     "grammar": "",
     "lemma": "hilde-freca"
+  },
+  "hildefrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildefrecan"
+  },
+  "hildegeatwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildegeatwa"
   },
   "hildegeatwe": {
     "def": "war-equipment",
@@ -25662,6 +34562,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hilde-ġiċel"
   },
+  "hildegicelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildegicelum"
+  },
   "hildegrap": {
     "def": "hostile grasp",
     "grammar": "f.",
@@ -25672,30 +34577,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hilde-hlem(m)"
   },
+  "hildehlemma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildehlemma"
+  },
+  "hildehlæmmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildehlæmmum"
+  },
   "hildeleoma": {
     "def": "battle-light",
     "grammar": "wk.",
     "lemma": "hilde-lēoma"
+  },
+  "hildeleoman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildeleoman"
   },
   "hildemece": {
     "def": "battle-sword",
     "grammar": "mja.",
     "lemma": "hilde-mēċe"
   },
+  "hildemeceas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildemeceas"
+  },
   "hildemecg": {
     "def": "warrior",
     "grammar": "mja.",
     "lemma": "hilde-mecg"
+  },
+  "hildemecgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildemecgas"
   },
   "hilderand": {
     "def": "battle-shield",
     "grammar": "m.",
     "lemma": "hilde-rand"
   },
+  "hilderandas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hilderandas"
+  },
   "hilderinc": {
     "def": "warrior",
     "grammar": "m.",
     "lemma": "hilde-rinċ"
+  },
+  "hilderinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hilderinca"
+  },
+  "hilderince": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hilderince"
+  },
+  "hilderinces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hilderinces"
   },
   "hilderæs": {
     "def": "storm of battle",
@@ -25727,30 +34677,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hilde-tūx(=tūsc)"
   },
+  "hildetuxum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildetuxum"
+  },
   "hildewisa": {
     "def": "leader in battle",
     "grammar": "wk.",
     "lemma": "hilde-wīsa"
+  },
+  "hildewisan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildewisan"
   },
   "hildewæpen": {
     "def": "war-WEAPON",
     "grammar": "n.",
     "lemma": "hilde-wǣpen"
   },
+  "hildewæpnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildewæpnum"
+  },
   "hildfreca": {
     "def": "fighter, warrior",
     "grammar": "wk.",
     "lemma": "hild-freca"
+  },
+  "hildfrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildfrecan"
   },
   "hildfruma": {
     "def": "war-chief",
     "grammar": "wk.",
     "lemma": "hild-fruma"
   },
+  "hildfruman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildfruman"
+  },
   "hildlata": {
     "def": "(adj",
     "grammar": "wk.",
     "lemma": "hild-lata"
+  },
+  "hildlatan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hildlatan"
   },
   "hilt": {
     "def": "OEG § ̄636), HILT",
@@ -25761,6 +34741,16 @@ const OLD_ENGLISH_DICT = {
     "def": "HILTED",
     "grammar": "adj.",
     "lemma": "hilted"
+  },
+  "hiltum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiltum"
+  },
+  "him": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "him"
   },
   "hin fus": {
     "def": "eager to get away",
@@ -25782,15 +34772,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hindema"
   },
+  "hindeman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hindeman"
+  },
   "hindeme": {
     "def": "last",
     "grammar": "adj.",
     "lemma": "hindema"
   },
+  "hine": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hine"
+  },
   "hinfus": {
     "def": "eager to get away",
     "grammar": "adj.",
     "lemma": "hin-fūs"
+  },
+  "hio": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hio"
   },
   "hiof": {
     "def": "lament",
@@ -25806,6 +34811,16 @@ const OLD_ENGLISH_DICT = {
     "def": "lament",
     "grammar": "vb. 2",
     "lemma": "hīofan"
+  },
+  "hiold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiold"
+  },
+  "hiora": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiora"
   },
   "hioro drync": {
     "def": "sword-DRINK",
@@ -25857,15 +34872,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hioro-drynċ"
   },
+  "hiorodryncum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiorodryncum"
+  },
+  "hiorogar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiorogar"
+  },
   "hioroserce": {
     "def": "(battle-SARK), shirt (or coat) of mail",
     "grammar": "wk.",
     "lemma": "hioro-serċe"
   },
+  "hiorosercean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiorosercean"
+  },
+  "hiorote": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiorote"
+  },
   "hioroweallende": {
     "def": "WELLing fiercely",
     "grammar": "adj.",
     "lemma": "hioro-weallende"
+  },
+  "hiorte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hiorte"
+  },
+  "hira": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hira"
+  },
+  "hire": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hire"
+  },
+  "his": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "his"
+  },
+  "hit": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hit"
   },
   "hit(hyt)": {
     "def": "hit (hyt), see hē",
@@ -25886,6 +34946,16 @@ const OLD_ENGLISH_DICT = {
     "def": "load, heap up, lay",
     "grammar": "vb. 6",
     "lemma": "hladan"
+  },
+  "hladen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hladen"
+  },
+  "hladon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hladon"
   },
   "hlaford": {
     "def": "2642",
@@ -25912,15 +34982,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hlāford-lēas"
   },
+  "hlaforde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlaforde"
+  },
+  "hlafordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlafordes"
+  },
   "hlafordleas": {
     "def": "without a chief",
     "grammar": "adj.",
     "lemma": "hlāford-lēas"
   },
+  "hlafordlease": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlafordlease"
+  },
   "hlaw": {
     "def": "see hlǣw",
     "grammar": "",
     "lemma": "hlāw"
+  },
+  "hlawe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlawe"
   },
   "hleahtor": {
     "def": "festivity",
@@ -25942,6 +35032,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "hlēapan"
   },
+  "hleat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hleat"
+  },
   "hleo": {
     "def": "cover, shelter, pro-tection, hence protector (cf",
     "grammar": "m.",
@@ -25961,6 +35056,11 @@ const OLD_ENGLISH_DICT = {
     "def": "sheltering town, strong-hold",
     "grammar": "fc.",
     "lemma": "hlēo-burh"
+  },
+  "hleonian": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hleonian"
   },
   "hleonian(hlinian)": {
     "def": "LEAN",
@@ -25986,6 +35086,11 @@ const OLD_ENGLISH_DICT = {
     "def": "cheek-cushion, pillow",
     "grammar": "m.",
     "lemma": "hlēor-bolster"
+  },
+  "hleorberan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hleorberan"
   },
   "hleorberg": {
     "def": "cheek-guard (on helmet)",
@@ -26052,6 +35157,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "hlēoþrian"
   },
+  "hli": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hli"
+  },
+  "hlifade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlifade"
+  },
   "hlifi": {
     "def": "tower",
     "grammar": "vb. II",
@@ -26076,6 +35191,11 @@ const OLD_ENGLISH_DICT = {
     "def": "BED of rest",
     "grammar": "nja.",
     "lemma": "hlim-bed(d)"
+  },
+  "hlimbed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlimbed"
   },
   "hlimbed(d)": {
     "def": "BED of rest",
@@ -26102,10 +35222,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hlið"
   },
+  "hliðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hliðes"
+  },
   "hlud": {
     "def": "89",
     "grammar": "adj.",
     "lemma": "hlūd"
+  },
+  "hludne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hludne"
+  },
+  "hlyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlyn"
   },
   "hlyn(n)": {
     "def": "sound",
@@ -26127,6 +35262,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "hlynnan"
   },
+  "hlynode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlynode"
+  },
   "hlynsi": {
     "def": "resound",
     "grammar": "vb. II",
@@ -26142,25 +35282,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "hlynsian"
   },
+  "hlynsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlynsode"
+  },
   "hlytm": {
     "def": "LOT (Gr",
     "grammar": "mi.",
     "lemma": "hlytm"
+  },
+  "hlytme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlytme"
   },
   "hlæst": {
     "def": "load",
     "grammar": "m.",
     "lemma": "hlæst"
   },
+  "hlæste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlæste"
+  },
   "hlæw": {
     "def": "288 ̄n",
     "grammar": "hl",
     "lemma": "hlǣw"
   },
+  "hlæwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hlæwe"
+  },
+  "hnagran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hnagran"
+  },
   "hnah": {
     "def": "mean, poor, illiberal",
     "grammar": "adj.",
     "lemma": "hnāh"
+  },
+  "hnahran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hnahran"
   },
   "hnit": {
     "def": "clash together",
@@ -26177,10 +35347,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "hnītan"
   },
+  "hniton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hniton"
+  },
+  "hnæf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hnæf"
+  },
+  "hnæfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hnæfes"
+  },
+  "hoces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hoces"
+  },
+  "hoe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hoe"
+  },
   "hof": {
     "def": "house, court",
     "grammar": "n.",
     "lemma": "hof"
+  },
+  "hofe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hofe"
+  },
+  "hofu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hofu"
+  },
+  "hofum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hofum"
+  },
+  "hogode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hogode"
   },
   "hoh": {
     "def": "3157",
@@ -26191,6 +35406,16 @@ const OLD_ENGLISH_DICT = {
     "def": "well-disposed, loyal, trusty",
     "grammar": "adj.",
     "lemma": "hold"
+  },
+  "holdne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holdne"
+  },
+  "holdra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holdra"
   },
   "holing": {
     "def": "without cause, 1076",
@@ -26232,15 +35457,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "holm-wylm"
   },
+  "holma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holma"
+  },
+  "holmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holmas"
+  },
   "holmclif": {
     "def": "sea-CLIFF, cliff by the waterside",
     "grammar": "n.",
     "lemma": "holm-clif"
   },
+  "holmclife": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holmclife"
+  },
+  "holmclifu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holmclifu"
+  },
+  "holme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holme"
+  },
   "holmwylm": {
     "def": "surge of the sea",
     "grammar": "mi.",
     "lemma": "holm-wylm"
+  },
+  "holmwylme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "holmwylme"
   },
   "holt": {
     "def": "copse",
@@ -26266,6 +35521,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see hamer",
     "grammar": "",
     "lemma": "homer"
+  },
+  "homera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "homera"
   },
   "hond": {
     "def": "see hand(-)",
@@ -26352,20 +35612,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hond-wundor"
   },
+  "honda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "honda"
+  },
   "hondgemot": {
     "def": "HAND-MEETing, battle",
     "grammar": "n.",
     "lemma": "hond-ġemōt"
+  },
+  "hondgemota": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondgemota"
   },
   "hondgesella": {
     "def": "companion (who is close to one’s side), close associate",
     "grammar": "wk.",
     "lemma": "hond-ġesella"
   },
+  "hondgesellum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondgesellum"
+  },
+  "hondgesteallan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondgesteallan"
+  },
   "hondgeweorc": {
     "def": "deed of strength",
     "grammar": "n.",
     "lemma": "hond-ġeweorc"
+  },
+  "hondgeweorce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondgeweorce"
   },
   "hondlocen": {
     "def": "(LOCKed) linked by HAND",
@@ -26377,10 +35662,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hond-rǣs"
   },
+  "hondscio": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondscio"
+  },
+  "hondscole": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondscole"
+  },
+  "hondum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondum"
+  },
   "hondwundor": {
     "def": "WONDRous thing wrought by HAND",
     "grammar": "n.",
     "lemma": "hond-wundor"
+  },
+  "hondwundra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hondwundra"
   },
   "hongi": {
     "def": "see hangian",
@@ -26391,6 +35696,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see hangian",
     "grammar": "",
     "lemma": "hongian"
+  },
+  "hongiað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hongiað"
   },
   "hongie": {
     "def": "see hangian",
@@ -26532,10 +35842,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "hord-burh"
   },
+  "horde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "horde"
+  },
+  "hordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordes"
+  },
   "hordgestreon": {
     "def": "stored-up posses-sions, treasure",
     "grammar": "n.",
     "lemma": "hord-ġestrēon"
+  },
+  "hordgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordgestreona"
+  },
+  "hordgestreonum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordgestreonum"
   },
   "hordmaððum": {
     "def": "HOARD-treasure, jewel",
@@ -26552,25 +35882,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hord-wela"
   },
+  "hordwelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordwelan"
+  },
   "hordweorþung": {
     "def": "honoring with gifts",
     "grammar": "f.",
     "lemma": "hord-weorþung"
+  },
+  "hordweorþunge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordweorþunge"
   },
   "hordwyn(n)": {
     "def": "HOARD-joy, de-lightful treasure",
     "grammar": "fj",
     "lemma": "hord-wyn(n)"
   },
+  "hordwynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordwynne"
+  },
   "hordwyrðe": {
     "def": "WORTHy of being HOARDed",
     "grammar": "adj.",
     "lemma": "hord-wyrðe"
   },
+  "hordwyrðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordwyrðne"
+  },
   "hordærn": {
     "def": "treasure-house",
     "grammar": "n.",
     "lemma": "hord-ærn"
+  },
+  "hordærna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordærna"
+  },
+  "hordærne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hordærne"
   },
   "horn": {
     "def": "2943",
@@ -26622,6 +35982,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "horn-boga"
   },
+  "hornbogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hornbogan"
+  },
   "horngeap": {
     "def": "wide-gabled",
     "grammar": "adj.",
@@ -26631,6 +35996,11 @@ const OLD_ENGLISH_DICT = {
     "def": "gabled house",
     "grammar": "n.",
     "lemma": "horn-reċed"
+  },
+  "hornum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hornum"
   },
   "hors": {
     "def": "OS hros(s), NHG Ross",
@@ -26642,6 +36012,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hōs"
   },
+  "hose": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hose"
+  },
   "hoðm": {
     "def": "concealment, grave (?)",
     "grammar": "wk.",
@@ -26652,10 +36027,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hoðma"
   },
+  "hoðman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hoðman"
+  },
   "hoðme": {
     "def": "concealment, grave (?)",
     "grammar": "wk.",
     "lemma": "hoðma"
+  },
+  "hra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hra"
   },
   "hra fyl(l)": {
     "def": "FALL of corpses, slaughter",
@@ -26672,10 +36057,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hrā-fyl(l)"
   },
+  "hrafyl": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrafyl"
+  },
   "hrafyl(l)": {
     "def": "FALL of corpses, slaughter",
     "grammar": "mi.",
     "lemma": "hrā-fyl(l)"
+  },
+  "hran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hran"
+  },
+  "hraðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hraðe"
   },
   "hraþ": {
     "def": "adv",
@@ -26686,6 +36086,11 @@ const OLD_ENGLISH_DICT = {
     "def": "adv",
     "grammar": "hr",
     "lemma": "hraþe"
+  },
+  "hraþor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hraþor"
   },
   "hrea wic": {
     "def": "place of corpses",
@@ -26702,25 +36107,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hrēam"
   },
+  "hreas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreas"
+  },
   "hreawic": {
     "def": "place of corpses",
     "grammar": "n.",
     "lemma": "hrēa-wīċ"
+  },
+  "hrefn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrefn"
   },
   "hrefn(hræfn)": {
     "def": "RAVEN",
     "grammar": "m.",
     "lemma": "hrefn(hræfn)"
   },
+  "hrefne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrefne"
+  },
+  "hrefnesholt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrefnesholt"
+  },
   "hreme": {
     "def": "w",
     "grammar": "adj.",
     "lemma": "hrēmiġ"
   },
+  "hremge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hremge"
+  },
   "hremig": {
     "def": "w",
     "grammar": "adj.",
     "lemma": "hrēmiġ"
+  },
+  "hreo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreo"
   },
   "hreoh": {
     "def": "fierce, savage, trou-bled",
@@ -26742,6 +36177,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hrēoh-mōd"
   },
+  "hreon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreon"
+  },
   "hreos": {
     "def": "rush",
     "grammar": "vb. 2",
@@ -26757,10 +36197,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "hrēosan"
   },
+  "hreosnabeorh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreosnabeorh"
+  },
+  "hreoum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreoum"
+  },
   "hreow": {
     "def": "distress",
     "grammar": "f.",
     "lemma": "hrēow"
+  },
+  "hreowa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreowa"
   },
   "hreð": {
     "def": "SB §§ ̄267[a], 288, OEG § ̄636), glory, triumph, as",
@@ -26777,15 +36232,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "hrēð-sigor"
   },
+  "hreðel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðel"
+  },
   "hreðer": {
     "def": "breast, heart",
     "grammar": "n.",
     "lemma": "hreðer"
   },
+  "hreðles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðles"
+  },
+  "hreðlingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðlingas"
+  },
+  "hreðmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðmanna"
+  },
+  "hreðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðra"
+  },
+  "hreðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðre"
+  },
+  "hreðric": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðric"
+  },
   "hreðsigor": {
     "def": "glorious victory",
     "grammar": "m.",
     "lemma": "hrēð-sigor"
+  },
+  "hreðsigora": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðsigora"
+  },
+  "hreðæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreðæt"
   },
   "hreþ": {
     "def": "see hraþe",
@@ -26796,6 +36296,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see hraþe",
     "grammar": "",
     "lemma": "hreþe"
+  },
+  "hreþel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreþel"
   },
   "hreþer bealo": {
     "def": "(heart-BALE), dis-tress",
@@ -26811,6 +36316,26 @@ const OLD_ENGLISH_DICT = {
     "def": "(heart-BALE), dis-tress",
     "grammar": "nwa.",
     "lemma": "hreþer-bealo"
+  },
+  "hreþles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreþles"
+  },
+  "hreþling": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreþling"
+  },
+  "hreþre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreþre"
+  },
+  "hreþric": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hreþric"
   },
   "hrin": {
     "def": "vb",
@@ -26947,15 +36472,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hrinġ-weorðung"
   },
+  "hringa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringa"
+  },
   "hringan": {
     "def": "resound",
     "grammar": "vb. I",
     "lemma": "hrinġan"
   },
+  "hringas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringas"
+  },
   "hringboga": {
     "def": "coiled creature (dragon)",
     "grammar": "wk.",
     "lemma": "hrinġ-boga"
+  },
+  "hringbogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringbogan"
+  },
+  "hringde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringde"
+  },
+  "hringdena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringdena"
+  },
+  "hringdene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringdene"
+  },
+  "hringdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringdon"
   },
   "hringe": {
     "def": "resound",
@@ -26992,6 +36552,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hrinġed-stefna"
   },
+  "hringedstefnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringedstefnan"
+  },
   "hringiren": {
     "def": "RING-IRON, iron rings (of mail shirt)",
     "grammar": "n.",
@@ -27007,6 +36572,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hrinġ-naca"
   },
+  "hringnet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringnet"
+  },
   "hringnet(t)": {
     "def": "RING-NET, shirt (or coat) of mail",
     "grammar": "nja.",
@@ -27017,10 +36587,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hrinġ-sele"
   },
+  "hringum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringum"
+  },
   "hringweorðung": {
     "def": "RING-adornment",
     "grammar": "f.",
     "lemma": "hrinġ-weorðung"
+  },
+  "hringweorðunge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hringweorðunge"
   },
   "hrod": {
     "def": "vb",
@@ -27082,6 +36662,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hron-rād"
   },
+  "hronesnæsse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hronesnæsse"
+  },
   "hronfisc": {
     "def": "whale (-FISH, cf",
     "grammar": "m.",
@@ -27092,15 +36677,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hron-rād"
   },
+  "hronrade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hronrade"
+  },
   "hror": {
     "def": "vigorous, strong",
     "grammar": "adj.",
     "lemma": "hrōr"
   },
+  "hroran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroran"
+  },
+  "hroðgar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroðgar"
+  },
+  "hroðgare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroðgare"
+  },
+  "hroðgares": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroðgares"
+  },
+  "hroðmund": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroðmund"
+  },
   "hroðor": {
     "def": "comfort, benefit, advan-tage, satisfaction",
     "grammar": "n.",
     "lemma": "hrōðor"
+  },
+  "hroðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroðre"
+  },
+  "hroþgar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroþgar"
+  },
+  "hroþgare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroþgare"
+  },
+  "hroþgares": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroþgares"
+  },
+  "hroþra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroþra"
+  },
+  "hroþulf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hroþulf"
+  },
+  "hrunting": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrunting"
+  },
+  "hruntinge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hruntinge"
   },
   "hrur": {
     "def": "see hrēosan",
@@ -27121,6 +36776,11 @@ const OLD_ENGLISH_DICT = {
     "def": "earth, ground",
     "grammar": "wk.",
     "lemma": "hrūse"
+  },
+  "hrusan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrusan"
   },
   "hruse": {
     "def": "earth, ground",
@@ -27147,6 +36807,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hryre"
   },
+  "hrysedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrysedon"
+  },
   "hryssan(hrissan)": {
     "def": "shake, (cause to) rattle",
     "grammar": "vb. I",
@@ -27166,6 +36831,16 @@ const OLD_ENGLISH_DICT = {
     "def": "963",
     "grammar": "adv.",
     "lemma": "hræd-līċe"
+  },
+  "hrædlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrædlan"
+  },
+  "hrædles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrædles"
   },
   "hrædlice": {
     "def": "963",
@@ -27192,6 +36867,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hræġl"
   },
+  "hrægla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrægla"
+  },
+  "hrægles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hrægles"
+  },
   "hræð": {
     "def": "see hreðer",
     "grammar": "",
@@ -27207,15 +36892,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hræðre"
   },
+  "hræþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hræþe"
+  },
   "hu": {
     "def": "HOW",
     "grammar": "adv.",
     "lemma": "hū"
   },
+  "huga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "huga"
+  },
   "hund": {
     "def": "HOUND",
     "grammar": "m.",
     "lemma": "hund"
+  },
+  "hundum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hundum"
+  },
+  "hunla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hunla"
   },
   "huru": {
     "def": "at any rate, to be sure, however",
@@ -27227,10 +36932,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "hūs"
   },
+  "husa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "husa"
+  },
+  "huses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "huses"
+  },
   "huð": {
     "def": "plunder",
     "grammar": "f.",
     "lemma": "hūð"
+  },
+  "huðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "huðe"
   },
   "hw": {
     "def": "n",
@@ -27241,6 +36961,11 @@ const OLD_ENGLISH_DICT = {
     "def": "n",
     "grammar": "m.",
     "lemma": "hwā"
+  },
+  "hwam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwam"
   },
   "hwan": {
     "def": "see hwā",
@@ -27257,6 +36982,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hwanan"
   },
+  "hwanon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwanon"
+  },
   "hwar": {
     "def": "see hwǣr",
     "grammar": "",
@@ -27266,6 +36996,11 @@ const OLD_ENGLISH_DICT = {
     "def": "-um, see hwæt",
     "grammar": "",
     "lemma": "hwate"
+  },
+  "hwata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwata"
   },
   "hwate": {
     "def": "-um, see hwæt",
@@ -27277,6 +37012,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "hwatu"
   },
+  "hwatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwatum"
+  },
+  "hwaþere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwaþere"
+  },
   "hwe": {
     "def": "n",
     "grammar": "m.",
@@ -27286,6 +37031,11 @@ const OLD_ENGLISH_DICT = {
     "def": "arch",
     "grammar": "",
     "lemma": "hwealf"
+  },
+  "hwearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwearf"
   },
   "hwearf lata": {
     "def": "one slow to flee, stalwart one (?)",
@@ -27367,15 +37117,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "hwettan"
   },
+  "hwetton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwetton"
+  },
   "hwil": {
     "def": "time, space of time",
     "grammar": "f.",
     "lemma": "hwīl"
   },
+  "hwile": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwile"
+  },
+  "hwilum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwilum"
+  },
   "hwit": {
     "def": "shining",
     "grammar": "adj.",
     "lemma": "hwīt"
+  },
+  "hwita": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwita"
+  },
+  "hwone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwone"
   },
   "hworf": {
     "def": "see hweorfan",
@@ -27392,6 +37167,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hworfan"
   },
+  "hwurfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwurfe"
+  },
   "hwyder": {
     "def": "to what place",
     "grammar": "adv.",
@@ -27401,6 +37181,16 @@ const OLD_ENGLISH_DICT = {
     "def": "WHICH, what",
     "grammar": "pron.",
     "lemma": "hwylċ"
+  },
+  "hwylce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwylce"
+  },
+  "hwylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwylcum"
   },
   "hwyrf": {
     "def": "98",
@@ -27412,6 +37202,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "hwyrfan"
   },
+  "hwyrfaþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwyrfaþ"
+  },
   "hwyrfe": {
     "def": "98",
     "grammar": "vb. I",
@@ -27421,6 +37216,11 @@ const OLD_ENGLISH_DICT = {
     "def": "motion, going",
     "grammar": "mi.",
     "lemma": "hwyrft"
+  },
+  "hwyrftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwyrftum"
   },
   "hwæder": {
     "def": "see hwyder",
@@ -27442,6 +37242,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "hwæðer"
   },
+  "hwæðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwæðre"
+  },
   "hwæþ": {
     "def": "however, yet",
     "grammar": "hw",
@@ -27452,6 +37257,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "conj.",
     "lemma": "hwæþer"
   },
+  "hwæþere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hwæþere"
+  },
   "hwæþr": {
     "def": "however, yet",
     "grammar": "hw",
@@ -27461,6 +37271,11 @@ const OLD_ENGLISH_DICT = {
     "def": "however, yet",
     "grammar": "hw",
     "lemma": "hwæþre"
+  },
+  "hy": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hy"
   },
   "hycg": {
     "def": "intend, resolve",
@@ -27477,10 +37292,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "hycgan"
   },
+  "hydan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hydan"
+  },
+  "hyde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyde"
+  },
   "hyg": {
     "def": "see hiġe",
     "grammar": "",
     "lemma": "hyġe"
+  },
+  "hygd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygd"
+  },
+  "hygde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygde"
   },
   "hyge": {
     "def": "see hiġe",
@@ -27537,15 +37372,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "hyġe-bend"
   },
+  "hygebendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygebendum"
+  },
   "hygegiomor": {
     "def": "sad in mind",
     "grammar": "adj.",
     "lemma": "hyġe-ġiōmor"
   },
+  "hygelac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygelac"
+  },
+  "hygelace": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygelace"
+  },
+  "hygelaces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygelaces"
+  },
   "hygemeðe": {
     "def": "wearying the mind, weary of mind",
     "grammar": "adj.",
     "lemma": "hyġe-mēðe"
+  },
+  "hygesorga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hygesorga"
   },
   "hygesorh": {
     "def": "heart-SORROW",
@@ -27556,6 +37416,11 @@ const OLD_ENGLISH_DICT = {
     "def": "solace",
     "grammar": "mi.",
     "lemma": "hyht"
+  },
+  "hylaces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hylaces"
   },
   "hyld": {
     "def": "bend down",
@@ -27582,25 +37447,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "hylt"
   },
+  "hym": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hym"
+  },
+  "hynde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hynde"
+  },
+  "hyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyne"
+  },
+  "hynða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hynða"
+  },
+  "hynðo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hynðo"
+  },
+  "hynðu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hynðu"
+  },
   "hyr": {
     "def": "guardian, keeper",
     "grammar": "mja.",
     "lemma": "hyrde"
+  },
+  "hyra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyra"
+  },
+  "hyran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyran"
   },
   "hyrd": {
     "def": "guardian, keeper",
     "grammar": "mja.",
     "lemma": "hyrde"
   },
+  "hyrdas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyrdas"
+  },
   "hyrde": {
     "def": "guardian, keeper",
     "grammar": "mja.",
     "lemma": "hyrde"
   },
+  "hyrdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyrdon"
+  },
+  "hyre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyre"
+  },
   "hyrst": {
     "def": "decorate, ornament",
     "grammar": "vb. I",
     "lemma": "hyrstan"
+  },
+  "hyrsta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyrsta"
   },
   "hyrstan": {
     "def": "decorate, ornament",
@@ -27611,6 +37536,11 @@ const OLD_ENGLISH_DICT = {
     "def": "decorate, ornament",
     "grammar": "vb. I",
     "lemma": "hyrstan"
+  },
+  "hyrsted": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyrsted"
   },
   "hyrsted gold": {
     "def": "decoratively wrought GOLD",
@@ -27626,6 +37556,11 @@ const OLD_ENGLISH_DICT = {
     "def": "decoratively wrought GOLD",
     "grammar": "n.",
     "lemma": "hyrsted-gold"
+  },
+  "hyrstum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyrstum"
   },
   "hyrt": {
     "def": "encourage, refl",
@@ -27652,15 +37587,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "hyse"
   },
+  "hyt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyt"
+  },
   "hyt(t)(hit[t])": {
     "def": "HEAT",
     "grammar": "fj",
     "lemma": "hyt(t)(hit[t])"
   },
+  "hyðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyðe"
+  },
+  "hyðweard": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hyðweard"
+  },
+  "hæbbe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæbbe"
+  },
   "hæf": {
     "def": "sea",
     "grammar": "n.",
     "lemma": "hæf"
+  },
+  "hæfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæfde"
+  },
+  "hæfdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæfdon"
   },
   "hæfe": {
     "def": "see hebban",
@@ -27707,10 +37672,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "hæft-mēċe"
   },
+  "hæftnyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæftnyd"
+  },
   "hæftnуd": {
     "def": "3155",
     "grammar": "fi.",
     "lemma": "hæft-nӯd"
+  },
+  "hæfton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæfton"
   },
   "hæg steald": {
     "def": "1889",
@@ -27727,6 +37702,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hæġ-steald"
   },
+  "hægstealdra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hægstealdra"
+  },
   "hæl": {
     "def": "mc",
     "grammar": "h",
@@ -27737,10 +37717,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "h",
     "lemma": "hæle"
   },
+  "hæleð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleð"
+  },
+  "hæleða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleða"
+  },
+  "hæleðhealfdena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðhealfdena"
+  },
+  "hæleðhiofende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðhiofende"
+  },
+  "hæleðin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðin"
+  },
+  "hæleðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðne"
+  },
+  "hæleðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðum"
+  },
+  "hæleðunder": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleðunder"
+  },
+  "hæleþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæleþa"
+  },
   "hælo": {
     "def": "prosperity, luck",
     "grammar": "f",
     "lemma": "hǣlo"
+  },
+  "hæreðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæreðes"
+  },
+  "hæreþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæreþes"
   },
   "hærg træf": {
     "def": "heathen temple",
@@ -27751,6 +37786,11 @@ const OLD_ENGLISH_DICT = {
     "def": "heathen temple",
     "grammar": "n.",
     "lemma": "hærg-træf"
+  },
+  "hærgtrafum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hærgtrafum"
   },
   "hærgtræf": {
     "def": "heathen temple",
@@ -27772,6 +37812,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "hǣste"
   },
+  "hæstne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæstne"
+  },
   "hæð stapa": {
     "def": "HEATH-stalker (stag)",
     "grammar": "wk.",
@@ -27792,6 +37837,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "hǣð-stapa"
   },
+  "hæðcen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæðcen"
+  },
+  "hæðcyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæðcyn"
+  },
+  "hæðcynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæðcynne"
+  },
+  "hæðen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæðen"
+  },
+  "hæðnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæðnum"
+  },
   "hæðstapa": {
     "def": "HEATH-stalker (stag)",
     "grammar": "wk.",
@@ -27811,6 +37881,21 @@ const OLD_ENGLISH_DICT = {
     "def": "986",
     "grammar": "adj.",
     "lemma": "hǣþen"
+  },
+  "hæþene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæþene"
+  },
+  "hæþenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæþenes"
+  },
+  "hæþenra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "hæþenra"
   },
   "hуd": {
     "def": "2766",
@@ -27942,6 +38027,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ides"
   },
+  "idese": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "idese"
+  },
   "in": {
     "def": "inside, inwardly",
     "grammar": "adv.",
@@ -28007,6 +38097,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "in",
     "lemma": "inċ"
   },
+  "incer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "incer"
+  },
   "incge laf": {
     "def": "2577, see note",
     "grammar": "f.",
@@ -28022,15 +38117,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "inċġe-lāf"
   },
+  "incgelafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "incgelafe"
+  },
   "infrod": {
     "def": "very old and wise",
     "grammar": "adj.",
     "lemma": "in-frōd"
   },
+  "infrodum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "infrodum"
+  },
   "ingang": {
     "def": "1549",
     "grammar": "m.",
     "lemma": "in-gang"
+  },
+  "ingelde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ingelde"
   },
   "ingenga": {
     "def": "invader",
@@ -28041,6 +38151,11 @@ const OLD_ENGLISH_DICT = {
     "def": "house-property, pos-sessions in the house",
     "grammar": "n.",
     "lemma": "in-ġesteald"
+  },
+  "ingwina": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ingwina"
   },
   "inn": {
     "def": "inside",
@@ -28101,6 +38216,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see inwit-sorh",
     "grammar": "",
     "lemma": "inwid-sorg"
+  },
+  "inwidsorge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "inwidsorge"
   },
   "inwit feng": {
     "def": "malicious grasp, 1447",
@@ -28207,6 +38327,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "inwit-hrōf"
   },
+  "inwitnet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "inwitnet"
+  },
   "inwitnet(t)": {
     "def": "NET of malice",
     "grammar": "nja.",
@@ -28216,6 +38341,16 @@ const OLD_ENGLISH_DICT = {
     "def": "enmity, hostile act",
     "grammar": "m.",
     "lemma": "inwit-nīð"
+  },
+  "inwitniða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "inwitniða"
+  },
+  "inwitniþas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "inwitniþas"
   },
   "inwitscear": {
     "def": "malicious slaughter",
@@ -28237,6 +38372,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "inwit-þanc"
   },
+  "inwitþancum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "inwitþancum"
+  },
   "io meowle": {
     "def": "woman (or wife) of old, i",
     "grammar": "wk.",
@@ -28252,15 +38392,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "iō-meowle"
   },
+  "iofore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "iofore"
+  },
   "iogoð": {
     "def": "see ġeogoð",
     "grammar": "",
     "lemma": "iogoð"
   },
+  "iogoþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "iogoþe"
+  },
+  "iomeowlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "iomeowlan"
+  },
   "iomeowle": {
     "def": "woman (or wife) of old, i",
     "grammar": "wk.",
     "lemma": "iō-meowle"
+  },
+  "iren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "iren"
   },
   "iren bend": {
     "def": "IRON BAND",
@@ -28317,10 +38477,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "īren-þrēat"
   },
+  "irena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "irena"
+  },
   "irenbend": {
     "def": "IRON BAND",
     "grammar": "fj",
     "lemma": "īren-bend"
+  },
+  "irenbendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "irenbendum"
+  },
+  "irenbyrnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "irenbyrnan"
   },
   "irenbyrne": {
     "def": "IRON shirt (or coat) of mail",
@@ -28331,6 +38506,11 @@ const OLD_ENGLISH_DICT = {
     "def": "IRON-HARD",
     "grammar": "adj.",
     "lemma": "īren-heard"
+  },
+  "irenna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "irenna"
   },
   "irenþreat": {
     "def": "band having IRON ar-mor, armed troop",
@@ -28387,6 +38567,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "īsern-scūr"
   },
+  "isernbyrnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "isernbyrnan"
+  },
   "isernbyrne": {
     "def": "IRON mail shirt (or coat)",
     "grammar": "wk.",
@@ -28397,10 +38582,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "īsern-scūr"
   },
+  "isernscure": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "isernscure"
+  },
   "isgebind": {
     "def": "ICy BOND",
     "grammar": "n.",
     "lemma": "īs-ġebind"
+  },
+  "isgebinde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "isgebinde"
   },
   "isig": {
     "def": "ICY, covered with ice (?)",
@@ -28426,6 +38621,16 @@ const OLD_ENGLISH_DICT = {
     "def": "gp",
     "grammar": "mc.",
     "lemma": "iū-mon(n)"
+  },
+  "iumonna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "iumonna"
+  },
+  "kyning": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "kyning"
   },
   "kyning wuldor": {
     "def": "the glory of KINGs (= cyninga wuldor), i",
@@ -28482,15 +38687,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "lācan"
   },
+  "lacende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lacende"
+  },
+  "lacum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lacum"
+  },
   "lad": {
     "def": "passage, journey",
     "grammar": "f.",
     "lemma": "lād"
   },
+  "lade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lade"
+  },
   "laf": {
     "def": "heirloom",
     "grammar": "f.",
     "lemma": "lāf"
+  },
+  "lafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lafe"
+  },
+  "lagon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lagon"
   },
   "lagu": {
     "def": "sea, lake, water",
@@ -28542,10 +38772,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "lagu-strēam"
   },
+  "lagustreamas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lagustreamas"
+  },
   "lagustræt": {
     "def": "sea-road (-STREET)",
     "grammar": "f.",
     "lemma": "lagu-strǣt"
+  },
+  "lagustræte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lagustræte"
   },
   "lah": {
     "def": "see lēon",
@@ -28632,10 +38872,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "land-weard"
   },
+  "landa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "landa"
+  },
   "landbuend": {
     "def": "earth-dweller",
     "grammar": "mc.",
     "lemma": "land-būend"
+  },
+  "landbuendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "landbuendum"
+  },
+  "lande": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lande"
+  },
+  "landes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "landes"
   },
   "landfruma": {
     "def": "prince of the LAND, king",
@@ -28647,10 +38907,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "land-ġemyrċe"
   },
+  "landgemyrcu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "landgemyrcu"
+  },
   "landgeweorc": {
     "def": "LAND-WORK, strong-hold",
     "grammar": "n.",
     "lemma": "land-ġeweorc"
+  },
+  "landwara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "landwara"
   },
   "landwaru": {
     "def": "people of the LAND",
@@ -28661,6 +38931,11 @@ const OLD_ENGLISH_DICT = {
     "def": "LAND-GUARD, shore watch",
     "grammar": "m.",
     "lemma": "land-weard"
+  },
+  "lang": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lang"
   },
   "lang twidig": {
     "def": "granted for a LONG time, lasting",
@@ -28687,6 +38962,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "langað"
   },
+  "lange": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lange"
+  },
   "langtwidig": {
     "def": "granted for a LONG time, lasting",
     "grammar": "adj.",
@@ -28697,10 +38977,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "lār"
   },
+  "lara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lara"
+  },
+  "lare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lare"
+  },
+  "larena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "larena"
+  },
   "last": {
     "def": "footprint",
     "grammar": "m.",
     "lemma": "lāst"
+  },
+  "lastas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lastas"
   },
   "lað": {
     "def": "despicable, hostile (used as subst",
@@ -28757,20 +39057,100 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lāð-liċ"
   },
+  "laða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laða"
+  },
+  "laðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðan"
+  },
   "laðbite": {
     "def": "hostile BITE, wound",
     "grammar": "mi.",
     "lemma": "lāð-bite"
+  },
+  "laðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðes"
   },
   "laðgeteona": {
     "def": "LOATHly spoiler, evil-doer",
     "grammar": "wk.",
     "lemma": "lāð-ġetēona"
   },
+  "laðgeteonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðgeteonan"
+  },
+  "laðgewidru": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðgewidru"
+  },
   "laðlic": {
     "def": "terrible",
     "grammar": "adj.",
     "lemma": "lāð-liċ"
+  },
+  "laðlicu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðlicu"
+  },
+  "laðlyft": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðlyft"
+  },
+  "laðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðne"
+  },
+  "laðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðond"
+  },
+  "laðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðra"
+  },
+  "laðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðum"
+  },
+  "laðwiðlaþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laðwiðlaþum"
+  },
+  "laþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laþan"
+  },
+  "laþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laþes"
+  },
+  "laþond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laþond"
+  },
+  "laþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "laþum"
   },
   "le": {
     "def": "lend",
@@ -28797,10 +39177,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lēafnes-word"
   },
+  "leafum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leafum"
+  },
+  "leag": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leag"
+  },
   "lean": {
     "def": "requital, recompense",
     "grammar": "n.",
     "lemma": "lēan"
+  },
+  "leana": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leana"
+  },
+  "leane": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leane"
   },
   "leani": {
     "def": "requite, recompense (someone for something)",
@@ -28816,6 +39216,21 @@ const OLD_ENGLISH_DICT = {
     "def": "requite, recompense (someone for something)",
     "grammar": "vb. II",
     "lemma": "lēanian"
+  },
+  "leanige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leanige"
+  },
+  "leanode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leanode"
+  },
+  "leanum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leanum"
   },
   "leas": {
     "def": "devoid of, without",
@@ -28842,15 +39257,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "lēas-scēawere"
   },
+  "leassceaweras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leassceaweras"
+  },
   "leassceawere": {
     "def": "deceitful ob-server, spy",
     "grammar": "mja.",
     "lemma": "lēas-scēawere"
   },
+  "leasum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leasum"
+  },
   "lee": {
     "def": "lend",
     "grammar": "vb. 1",
     "lemma": "lēon"
+  },
+  "leg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leg"
   },
   "leg( )": {
     "def": "see līġ(-)",
@@ -28866,6 +39296,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see līġ(-)",
     "grammar": "",
     "lemma": "lēġ(-)"
+  },
+  "legdraca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "legdraca"
+  },
+  "lege": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lege"
   },
   "leger": {
     "def": "place of lying",
@@ -28887,6 +39327,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "leġer-bed(d)"
   },
+  "legerbedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "legerbedde"
+  },
+  "legere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "legere"
+  },
+  "lemede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lemede"
+  },
   "lemman(lemian)": {
     "def": "LAME, hinder, oppress",
     "grammar": "vb. I",
@@ -28902,6 +39357,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "len",
     "lemma": "lenġ(e)"
   },
+  "lenge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lenge"
+  },
+  "lengest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lengest"
+  },
   "lengr": {
     "def": "see long",
     "grammar": "",
@@ -28916,6 +39381,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see long",
     "grammar": "",
     "lemma": "lengra"
+  },
+  "leo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leo"
   },
   "leod": {
     "def": "member of a nation (regul",
@@ -29027,35 +39497,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "lēod-scipe"
   },
+  "leoda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leoda"
+  },
+  "leodbealewa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodbealewa"
+  },
   "leodbealo": {
     "def": "harm to a people, widespread aÑiction",
     "grammar": "nwa.",
     "lemma": "lēod-bealo"
+  },
+  "leodbyrig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodbyrig"
+  },
+  "leodcyning": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodcyning"
+  },
+  "leode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leode"
   },
   "leodfruma": {
     "def": "prince of a people",
     "grammar": "wk.",
     "lemma": "lēod-fruma"
   },
+  "leodfruman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodfruman"
+  },
   "leodgebyrgea": {
     "def": "protector of a people, prince",
     "grammar": "wk.",
     "lemma": "lēod-ġebyrġea"
+  },
+  "leodgebyrgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodgebyrgean"
   },
   "leodhryre": {
     "def": "fall of a people, na-tional calamity",
     "grammar": "mi.",
     "lemma": "lēod-hryre"
   },
+  "leodhryres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodhryres"
+  },
   "leodsceaða": {
     "def": "people’s enemy",
     "grammar": "wk.",
     "lemma": "lēod-sceaða"
   },
+  "leodsceaðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodsceaðan"
+  },
   "leodscipe": {
     "def": "country",
     "grammar": "mi.",
     "lemma": "lēod-scipe"
+  },
+  "leodum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leodum"
   },
   "leof": {
     "def": "well loved",
@@ -29072,15 +39592,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "lēof-liċ"
   },
+  "leofa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofa"
+  },
   "leofað": {
     "def": "see lifiġan",
     "grammar": "",
     "lemma": "leofað"
   },
+  "leofes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofes"
+  },
+  "leofestan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofestan"
+  },
   "leoflic": {
     "def": "precious, admirable",
     "grammar": "adj.",
     "lemma": "lēof-liċ"
+  },
+  "leofne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofne"
+  },
+  "leofost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofost"
+  },
+  "leofra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofra"
+  },
+  "leofre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofre"
+  },
+  "leofum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leofum"
   },
   "leog": {
     "def": "belie, misrepresent",
@@ -29102,6 +39662,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lēoht"
   },
+  "leohtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leohtan"
+  },
+  "leohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leohte"
+  },
   "leom": {
     "def": "see lim",
     "grammar": "",
@@ -29111,6 +39681,11 @@ const OLD_ENGLISH_DICT = {
     "def": "gleam, luminary",
     "grammar": "wk.",
     "lemma": "lēoma"
+  },
+  "leoman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leoman"
   },
   "leome": {
     "def": "see lim",
@@ -29141,6 +39716,11 @@ const OLD_ENGLISH_DICT = {
     "def": "devise",
     "grammar": "vb. II",
     "lemma": "leornian"
+  },
+  "leornode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leornode"
   },
   "leoð": {
     "def": "lay",
@@ -29177,10 +39757,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "leoðo-cræft"
   },
+  "leoðocræftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leoðocræftum"
+  },
+  "leoðosyrcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leoðosyrcan"
+  },
   "leoðosyrce": {
     "def": "(limb-SARK), coat or shirt of mail",
     "grammar": "wk.",
     "lemma": "leoðo-syrċe"
+  },
+  "leoðwæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leoðwæs"
+  },
+  "let": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "let"
+  },
+  "lete": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lete"
+  },
+  "leton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "leton"
   },
   "lett": {
     "def": "w",
@@ -29196,6 +39806,16 @@ const OLD_ENGLISH_DICT = {
     "def": "w",
     "grammar": "vb. I",
     "lemma": "lettan"
+  },
+  "letton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "letton"
+  },
+  "li": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "li"
   },
   "lic": {
     "def": "451, 1122",
@@ -29247,6 +39867,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "līċ-syrċe"
   },
+  "licaðleng": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "licaðleng"
+  },
+  "lice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lice"
+  },
+  "lices": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lices"
+  },
   "licg": {
     "def": "lie low, lie bereft of life",
     "grammar": "vb. 5",
@@ -29261,6 +39896,16 @@ const OLD_ENGLISH_DICT = {
     "def": "lie low, lie bereft of life",
     "grammar": "vb. 5",
     "lemma": "licgan"
+  },
+  "licgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "licgean"
+  },
+  "lichaman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lichaman"
   },
   "lichoma": {
     "def": "1007, 1754",
@@ -29282,6 +39927,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "līcian"
   },
+  "licodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "licodon"
+  },
   "licsar": {
     "def": "bodily pain, wound",
     "grammar": "n.",
@@ -29302,10 +39952,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "lid-man(n)"
   },
+  "liden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "liden"
+  },
   "lidman(n)": {
     "def": "seafarer, mariner",
     "grammar": "mc.",
     "lemma": "lid-man(n)"
+  },
+  "lidmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lidmanna"
   },
   "lif": {
     "def": "197, 790, 806, 1387, 2343, 2823, 2845",
@@ -29397,15 +40057,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "līf-wyn(n)"
   },
+  "lifað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifað"
+  },
   "lifbysig": {
     "def": "struggling for LIFE, in torment of death",
     "grammar": "adj.",
     "lemma": "līf-bysiġ"
   },
+  "lifdagas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifdagas"
+  },
+  "lifde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifde"
+  },
+  "lifdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifdon"
+  },
   "lifdæg": {
     "def": "793, 1622",
     "grammar": "m.",
     "lemma": "līf-dæġ"
+  },
+  "life": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "life"
+  },
+  "lifes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifes"
   },
   "liffrea": {
     "def": "lord of LIFE (God)",
@@ -29422,6 +40112,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "līf-ġesceaft"
   },
+  "lifgesceafta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifgesceafta"
+  },
   "lifig": {
     "def": "3167",
     "grammar": "vb. III",
@@ -29437,15 +40132,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "lifiġan"
   },
+  "lifwraðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifwraðe"
+  },
   "lifwraðu": {
     "def": "LIFE-protection",
     "grammar": "f.",
     "lemma": "līf-wraðu"
   },
+  "lifwraþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifwraþe"
+  },
   "lifwyn(n)": {
     "def": "joy of LIFE",
     "grammar": "fi.",
     "lemma": "līf-wyn(n)"
+  },
+  "lifwynna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lifwynna"
   },
   "lig": {
     "def": "fire",
@@ -29507,6 +40217,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "līġ-draca"
   },
+  "lige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lige"
+  },
   "lige torn": {
     "def": "pretended injury or in-sult",
     "grammar": "n.",
@@ -29522,10 +40237,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "līġ-eġesa"
   },
+  "ligegesan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ligegesan"
+  },
+  "liges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "liges"
+  },
   "ligetorn": {
     "def": "pretended injury or in-sult",
     "grammar": "n.",
     "lemma": "liġe-torn"
+  },
+  "ligetorne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ligetorne"
+  },
+  "ligeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ligeð"
   },
   "ligg": {
     "def": "see līġ",
@@ -29536,6 +40271,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see līġ",
     "grammar": "",
     "lemma": "liġġe"
+  },
+  "ligyðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ligyðum"
   },
   "ligуð": {
     "def": "wave of flame",
@@ -29637,6 +40377,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "lind-wiga"
   },
+  "linde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "linde"
+  },
   "lindgestealla": {
     "def": "shield-comrade, companion in arms",
     "grammar": "wk.",
@@ -29647,10 +40392,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "lind-hæbbend(e)"
   },
+  "lindhæbbende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lindhæbbende"
+  },
+  "lindhæbbendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lindhæbbendra"
+  },
   "lindplega": {
     "def": "shield-PLAY, battle",
     "grammar": "wk.",
     "lemma": "lind-plega"
+  },
+  "lindplegan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lindplegan"
   },
   "lindwiga": {
     "def": "shield-warrior",
@@ -29677,10 +40437,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "liss"
   },
+  "lissa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lissa"
+  },
   "list": {
     "def": "cunning",
     "grammar": "mfi.",
     "lemma": "list"
+  },
+  "listum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "listum"
   },
   "lix": {
     "def": "glitter, gleam",
@@ -29696,6 +40466,11 @@ const OLD_ENGLISH_DICT = {
     "def": "glitter, gleam",
     "grammar": "vb. I",
     "lemma": "līxan"
+  },
+  "lixte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lixte"
   },
   "lið": {
     "def": "pass",
@@ -29727,15 +40502,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "līðan"
   },
+  "liðende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "liðende"
+  },
+  "liðost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "liðost"
+  },
   "liðwæge": {
     "def": "cup of strong drink",
     "grammar": "nja.",
     "lemma": "līð-wǣġe"
   },
+  "liþrea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "liþrea"
+  },
   "loc": {
     "def": "see lūcan",
     "grammar": "",
     "lemma": "locen"
+  },
+  "locast": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "locast"
   },
   "loce": {
     "def": "see lūcan",
@@ -29746,6 +40541,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see lūcan",
     "grammar": "",
     "lemma": "locen"
+  },
+  "locene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "locene"
+  },
+  "locenra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "locenra"
   },
   "loci": {
     "def": "1654",
@@ -29792,15 +40597,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "lof-dǣd"
   },
+  "lofdædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lofdædum"
+  },
   "lofgeorn": {
     "def": "3182 (n",
     "grammar": "adj.",
     "lemma": "lof-ġeorn"
   },
+  "lofgeornost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lofgeornost"
+  },
   "log": {
     "def": "lōgon, see lēan",
     "grammar": "l",
     "lemma": "lōg"
+  },
+  "logon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "logon"
+  },
+  "lomp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lomp"
+  },
+  "lond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lond"
   },
   "lond riht": {
     "def": "privileges belonging to the owner of land, do-main",
@@ -29827,10 +40657,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "lond-riht"
   },
+  "londbuend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "londbuend"
+  },
   "londriht": {
     "def": "privileges belonging to the owner of land, do-main",
     "grammar": "n.",
     "lemma": "lond-riht"
+  },
+  "londrihtes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "londrihtes"
   },
   "long": {
     "def": "2093",
@@ -29887,10 +40727,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "long-ġestrēon"
   },
+  "longgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "longgestreona"
+  },
   "longsum": {
     "def": "long-lasting, en-during",
     "grammar": "adj.",
     "lemma": "long-sum"
+  },
+  "longsumne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "longsumne"
+  },
+  "losade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "losade"
+  },
+  "losaðli": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "losaðli"
+  },
+  "losaþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "losaþ"
   },
   "losi": {
     "def": "escape, get away safely",
@@ -29947,6 +40812,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "luf-tācen"
   },
+  "lufan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lufan"
+  },
   "lufe": {
     "def": "gladness, comfort (?)",
     "grammar": "f.",
@@ -29971,6 +40841,11 @@ const OLD_ENGLISH_DICT = {
     "def": "treat kindly",
     "grammar": "vb. II",
     "lemma": "lufian"
+  },
+  "lufode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lufode"
   },
   "luftacen": {
     "def": "TOKEN of LOVE",
@@ -30007,10 +40882,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "lust"
   },
+  "lustum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lustum"
+  },
   "lyfað": {
     "def": "lyfde, see lifiġan",
     "grammar": "lyfde",
     "lemma": "lyfað"
+  },
+  "lyfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lyfde"
   },
   "lyft": {
     "def": "sky",
@@ -30057,6 +40942,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "lyft-wyn(n)"
   },
+  "lyfte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lyfte"
+  },
   "lyftfloga": {
     "def": "air-FLIer",
     "grammar": "wk.",
@@ -30071,6 +40961,11 @@ const OLD_ENGLISH_DICT = {
     "def": "air-joy, delight in air",
     "grammar": "fj",
     "lemma": "lyft-wyn(n)"
+  },
+  "lyftwynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lyftwynne"
   },
   "lyhð": {
     "def": "see lēan",
@@ -30092,6 +40987,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "lystan"
   },
+  "lyt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lyt"
+  },
+  "lytel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lytel"
+  },
+  "lythwon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lythwon"
+  },
+  "lytle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lytle"
+  },
   "læ": {
     "def": "mut-able, perishable, perishing",
     "grammar": "adj.",
@@ -30107,10 +41022,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "lǣdan"
   },
+  "læddon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læddon"
+  },
   "læde": {
     "def": "bring",
     "grammar": "vb. I",
     "lemma": "lǣdan"
+  },
+  "læded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læded"
   },
   "læf": {
     "def": "1178",
@@ -30122,10 +41047,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "lǣfan"
   },
+  "læfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læfde"
+  },
   "læfe": {
     "def": "1178",
     "grammar": "vb. I",
     "lemma": "lǣfan"
+  },
+  "læg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læg"
+  },
+  "lægon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lægon"
   },
   "læn": {
     "def": "mut-able, perishable, perishing",
@@ -30151,6 +41091,16 @@ const OLD_ENGLISH_DICT = {
     "def": "transitory DAYS",
     "grammar": "m.",
     "lemma": "lǣn-dagas"
+  },
+  "lænan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lænan"
+  },
+  "lændaga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lændaga"
   },
   "lændagas": {
     "def": "transitory DAYS",
@@ -30192,6 +41142,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "l",
     "lemma": "lǣsest"
   },
+  "læssa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læssa"
+  },
+  "læssan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læssan"
+  },
   "læst": {
     "def": "( ̄follow), do service, avail",
     "grammar": "vb. I",
@@ -30217,10 +41177,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "lǣtan"
   },
+  "lætaðhildebord": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "lætaðhildebord"
+  },
   "læte": {
     "def": "allow (w",
     "grammar": "vb. 7",
     "lemma": "lǣtan"
+  },
+  "læteðhworfan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "læteðhworfan"
   },
   "lуt": {
     "def": "LITTle, small number",
@@ -30267,10 +41237,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "mā"
   },
+  "madma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "madma"
+  },
   "madma(s)": {
     "def": "see māððum",
     "grammar": "",
     "lemma": "mādma(s)"
+  },
+  "madmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "madmas"
+  },
+  "madme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "madme"
+  },
+  "madmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "madmum"
   },
   "mag": {
     "def": "(1) son",
@@ -30347,10 +41337,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mago-rinċ"
   },
+  "magorinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "magorinca"
+  },
   "magoðegn": {
     "def": "young retainer, THEGN",
     "grammar": "m.",
     "lemma": "mago-ðeġn"
+  },
+  "magoþegn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "magoþegn"
+  },
+  "magoþegna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "magoþegna"
+  },
+  "magoþegnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "magoþegnum"
+  },
+  "magum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "magum"
+  },
+  "maguþegnas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maguþegnas"
+  },
+  "maguþegne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maguþegne"
   },
   "man": {
     "def": "offense, wickedness, guilt",
@@ -30417,15 +41442,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mān-scaða"
   },
+  "manaðswa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manaðswa"
+  },
+  "mancynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mancynne"
+  },
+  "mancynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mancynnes"
+  },
+  "mandream": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mandream"
+  },
+  "mandrihtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mandrihtne"
+  },
+  "mandryhten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mandryhten"
+  },
+  "mandryhtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mandryhtne"
+  },
+  "mandryhtnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mandryhtnes"
+  },
   "mane": {
     "def": "see moniġ",
     "grammar": "",
     "lemma": "maniġ"
   },
+  "manegum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manegum"
+  },
   "manfordædla": {
     "def": "guilty destroy-er, malefactor",
     "grammar": "wk.",
     "lemma": "mān-for-dǣdla"
+  },
+  "manfordædlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manfordædlan"
   },
   "mani": {
     "def": "urge",
@@ -30447,15 +41522,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "maniġ"
   },
+  "manige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manige"
+  },
+  "manigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manigra"
+  },
+  "manigre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manigre"
+  },
+  "manigum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manigum"
+  },
   "manlice": {
     "def": "MANfulLY, nobly",
     "grammar": "adv.",
     "lemma": "man-līċe"
   },
+  "manna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "manna"
+  },
+  "mannan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mannan"
+  },
+  "mannes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mannes"
+  },
+  "mannon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mannon"
+  },
   "manscaða": {
     "def": "guilty ravager, criminal assailant",
     "grammar": "wk.",
     "lemma": "mān-scaða"
+  },
+  "mansceaða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mansceaða"
   },
   "mar": {
     "def": "see miċel",
@@ -30467,10 +41587,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "māra"
   },
+  "maran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maran"
+  },
   "mare": {
     "def": "see miċel",
     "grammar": "",
     "lemma": "māra"
+  },
+  "maðelode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðelode"
   },
   "maðm æht": {
     "def": "precious property, treasure",
@@ -30482,10 +41612,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "māðm-ǣht"
   },
+  "maðma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðma"
+  },
+  "maðmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðmas"
+  },
+  "maðmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðmum"
+  },
   "maðmæht": {
     "def": "precious property, treasure",
     "grammar": "fi.",
     "lemma": "māðm-ǣht"
+  },
+  "maðmæhta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðmæhta"
   },
   "maðð": {
     "def": "precious or valuable thing, treasure",
@@ -30537,6 +41687,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "māððum-wela"
   },
+  "maððumsigla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maððumsigla"
+  },
   "maððumsigle": {
     "def": "precious jewel",
     "grammar": "nja.",
@@ -30546,6 +41701,16 @@ const OLD_ENGLISH_DICT = {
     "def": "WEALth of treasure",
     "grammar": "wk.",
     "lemma": "māððum-wela"
+  },
+  "maððumwelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maððumwelan"
+  },
+  "maðþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maðþum"
   },
   "maðþum fæt": {
     "def": "precious vessel",
@@ -30577,6 +41742,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "māðþum-sweord"
   },
+  "maþelade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþelade"
+  },
   "maþeli": {
     "def": "speak, discourse, make a speech (orig",
     "grammar": "vb. II",
@@ -30591,6 +41761,11 @@ const OLD_ENGLISH_DICT = {
     "def": "speak, discourse, make a speech (orig",
     "grammar": "vb. II",
     "lemma": "maþelian"
+  },
+  "maþelode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþelode"
   },
   "maþm gestreon": {
     "def": "treasure",
@@ -30612,10 +41787,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "māþm-ġestrēon"
   },
+  "maþma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþma"
+  },
+  "maþmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþmas"
+  },
+  "maþme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþme"
+  },
   "maþmgestreon": {
     "def": "treasure",
     "grammar": "n.",
     "lemma": "māþm-ġestrēon"
+  },
+  "maþmgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþmgestreona"
+  },
+  "maþðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþðum"
   },
   "maþðum gifu": {
     "def": "treasure-GIVing",
@@ -30627,6 +41827,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "māþðum-ġifu"
   },
+  "maþðumgife": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "maþðumgife"
+  },
   "maþðumgifu": {
     "def": "treasure-GIVing",
     "grammar": "f.",
@@ -30637,10 +41842,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "mē"
   },
+  "meaglum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meaglum"
+  },
   "meagol": {
     "def": "forceful, hearty",
     "grammar": "adj.",
     "lemma": "mēagol"
+  },
+  "meaht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meaht"
+  },
+  "meahte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meahte"
+  },
+  "meahton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meahton"
+  },
+  "mealt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mealt"
+  },
+  "meara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meara"
+  },
+  "mearas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mearas"
   },
   "mearc": {
     "def": "limit",
@@ -30667,6 +41907,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mearc-stapa"
   },
+  "mearcaðmorhopu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mearcaðmorhopu"
+  },
+  "mearce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mearce"
+  },
   "mearci": {
     "def": "make a mark upon",
     "grammar": "vb. II",
@@ -30687,6 +41937,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mearc-stapa"
   },
+  "mearcstapan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mearcstapan"
+  },
   "mearh": {
     "def": "horse, steed",
     "grammar": "m.",
@@ -30697,20 +41952,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "mearn"
   },
+  "mearum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mearum"
+  },
   "mec": {
     "def": "sword",
     "grammar": "mja.",
     "lemma": "mēċe"
+  },
+  "meca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meca"
   },
   "mece": {
     "def": "sword",
     "grammar": "mja.",
     "lemma": "mēċe"
   },
+  "meces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meces"
+  },
+  "mecum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mecum"
+  },
   "med": {
     "def": "reward",
     "grammar": "f.",
     "lemma": "mēd"
+  },
+  "mede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mede"
   },
   "medo": {
     "def": "MEAD",
@@ -30777,10 +42057,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "medo-benċ"
   },
+  "medobence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medobence"
+  },
+  "medoful": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medoful"
+  },
   "medoful(l)": {
     "def": "MEAD-cup",
     "grammar": "n.",
     "lemma": "medo-ful(l)"
+  },
+  "medoheal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medoheal"
   },
   "medoheal(l)": {
     "def": "MEAD-HALL",
@@ -30792,10 +42087,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "medo-stīġ"
   },
+  "medostigge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medostigge"
+  },
   "medoærn": {
     "def": "MEAD-hall",
     "grammar": "n.",
     "lemma": "medo-ærn"
+  },
+  "medu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medu"
   },
   "medu dream": {
     "def": "MEAD-gladness, festivity",
@@ -30817,6 +42122,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "medu-seld"
   },
+  "medubenc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medubenc"
+  },
+  "medubence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "medubence"
+  },
   "medudream": {
     "def": "MEAD-gladness, festivity",
     "grammar": "m.",
@@ -30827,6 +42142,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "medu-seld"
   },
+  "mehte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mehte"
+  },
   "meld": {
     "def": "2405",
     "grammar": "wk.",
@@ -30836,6 +42156,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2405",
     "grammar": "wk.",
     "lemma": "melda"
+  },
+  "meldan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meldan"
   },
   "melde": {
     "def": "2405",
@@ -30887,6 +42212,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "meniġeo"
   },
+  "menn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "menn"
+  },
   "meodo setl": {
     "def": "MEAD-(house-)SEAT, i",
     "grammar": "n.",
@@ -30912,10 +42242,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "meodo-setl"
   },
+  "meodosetla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meodosetla"
+  },
   "meodowong": {
     "def": "plain near the MEAD-hall",
     "grammar": "m.",
     "lemma": "meodo-wong"
+  },
+  "meodowongas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meodowongas"
   },
   "meodu benc": {
     "def": "-heal(l), see medo-",
@@ -30942,10 +42282,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "meodu-benċ"
   },
+  "meodubence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meodubence"
+  },
+  "meoduhealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meoduhealle"
+  },
   "meoduscenc": {
     "def": "MEAD-vessel, -cup, dp",
     "grammar": "mi.",
     "lemma": "meodu-scenċ"
+  },
+  "meoduscencum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meoduscencum"
   },
   "meoto": {
     "def": "meditation, thought(s)",
@@ -30967,6 +42322,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "meotod-"
   },
+  "meotodsceaft": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meotodsceaft"
+  },
   "meowl": {
     "def": "woman (orig",
     "grammar": "wk.",
@@ -30986,6 +42346,11 @@ const OLD_ENGLISH_DICT = {
     "def": "aim",
     "grammar": "m.",
     "lemma": "merċels"
+  },
+  "mercelses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mercelses"
   },
   "mere": {
     "def": "lake, pool, †sea",
@@ -31107,6 +42472,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mere-fara"
   },
+  "merefaran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "merefaran"
+  },
   "merefisc": {
     "def": "sea-FISH",
     "grammar": "m.",
@@ -31117,15 +42487,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "mere-grund"
   },
+  "meregrundas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meregrundas"
+  },
   "merehrægl": {
     "def": "sea-garment, sail",
     "grammar": "n.",
     "lemma": "mere-hræġl"
   },
+  "merehrægla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "merehrægla"
+  },
   "mereliðend(e)": {
     "def": "seafarer",
     "grammar": "mc.",
     "lemma": "mere-līðend(e)"
+  },
+  "mereliðende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mereliðende"
   },
   "merestrengo": {
     "def": "STRENGth in the sea",
@@ -31137,10 +42522,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "mere-strǣt"
   },
+  "merestræta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "merestræta"
+  },
   "merewif": {
     "def": "MERE-woman, water-witch",
     "grammar": "n.",
     "lemma": "mere-wīf"
+  },
+  "merewioingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "merewioingas"
   },
   "merg": {
     "def": "see morgen",
@@ -31156,6 +42551,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see morgen",
     "grammar": "",
     "lemma": "merġen"
+  },
+  "mergenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mergenne"
   },
   "met": {
     "def": "†traverse (cf",
@@ -31187,10 +42587,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "metod-sceaft"
   },
+  "metode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "metode"
+  },
+  "metodes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "metodes"
+  },
   "metodsceaft": {
     "def": "decree of fate, death",
     "grammar": "fi.",
     "lemma": "metod-sceaft"
+  },
+  "metodsceafte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "metodsceafte"
+  },
+  "mette": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mette"
+  },
+  "metton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "metton"
   },
   "meðel stede": {
     "def": "place of assembly (cf",
@@ -31237,10 +42662,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "meþel-word"
   },
+  "meþelwordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meþelwordum"
+  },
+  "meþle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "meþle"
+  },
   "micel": {
     "def": "large, MUCH",
     "grammar": "adj.",
     "lemma": "miċel"
+  },
+  "micelne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "micelne"
+  },
+  "miclan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "miclan"
+  },
+  "micle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "micle"
+  },
+  "micles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "micles"
+  },
+  "miclum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "miclum"
   },
   "mid": {
     "def": "2705",
@@ -31251,6 +42711,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2705",
     "grammar": "wk.",
     "lemma": "midde"
+  },
+  "middan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "middan"
   },
   "middan geard": {
     "def": "world, earth (considered as the center of the universe, the region between heaven and hell, or the inhabited land surrounded by the sea)",
@@ -31266,6 +42731,16 @@ const OLD_ENGLISH_DICT = {
     "def": "world, earth (considered as the center of the universe, the region between heaven and hell, or the inhabited land surrounded by the sea)",
     "grammar": "m.",
     "lemma": "middan-ġeard"
+  },
+  "middangearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "middangearde"
+  },
+  "middangeardes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "middangeardes"
   },
   "midde": {
     "def": "2705",
@@ -31287,6 +42762,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "middel-niht"
   },
+  "middelnihtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "middelnihtum"
+  },
   "miht": {
     "def": "power, strength",
     "grammar": "fi.",
@@ -31301,6 +42781,21 @@ const OLD_ENGLISH_DICT = {
     "def": "powerful, strong",
     "grammar": "adj.",
     "lemma": "mihtiġ"
+  },
+  "mihtigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mihtigan"
+  },
+  "mihton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mihton"
+  },
+  "mihtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mihtum"
   },
   "mil": {
     "def": "benevolent, friendly, affable, kind",
@@ -31327,10 +42822,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "milde"
   },
+  "mildum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mildum"
+  },
+  "mildust": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mildust"
+  },
   "milgemearc": {
     "def": "measure by MILEs",
     "grammar": "n.",
     "lemma": "mīl-ġemearc"
+  },
+  "milgemearces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "milgemearces"
   },
   "milts": {
     "def": "fjō",
@@ -31341,6 +42851,36 @@ const OLD_ENGLISH_DICT = {
     "def": "gs",
     "grammar": "gs.",
     "lemma": "mīn"
+  },
+  "mine": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mine"
+  },
+  "mines": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mines"
+  },
+  "minne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "minne"
+  },
+  "minra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "minra"
+  },
+  "minre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "minre"
+  },
+  "minum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "minum"
   },
   "miss": {
     "def": "w",
@@ -31362,6 +42902,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "missere"
   },
+  "missera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "missera"
+  },
   "missere": {
     "def": "half-year, season",
     "grammar": "n.",
@@ -31382,6 +42927,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "mistiġ"
   },
+  "misthleoþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "misthleoþum"
+  },
   "misthliþ": {
     "def": "MISTy hill, cover of darkness",
     "grammar": "n.",
@@ -31391,6 +42941,11 @@ const OLD_ENGLISH_DICT = {
     "def": "MISTY, dark",
     "grammar": "adj.",
     "lemma": "mistiġ"
+  },
+  "mistige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mistige"
   },
   "mod": {
     "def": "spirit, heart",
@@ -31487,6 +43042,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "mōd-þrӯð"
   },
+  "modceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modceare"
+  },
   "modcearu": {
     "def": "sorrow of soul",
     "grammar": "f.",
@@ -31497,10 +43057,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "mōdiġ"
   },
+  "modega": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modega"
+  },
+  "modes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modes"
+  },
+  "modgan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modgan"
+  },
+  "modge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modge"
+  },
   "modgehygd": {
     "def": "thought",
     "grammar": "fni.",
     "lemma": "mōd-ġehyġd"
+  },
+  "modgehygdum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modgehygdum"
+  },
+  "modges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modges"
   },
   "modgeþonc": {
     "def": "THOUGHT(s), mind",
@@ -31527,10 +43117,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "mōdiġ-līċ"
   },
+  "modigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modigan"
+  },
+  "modige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modige"
+  },
+  "modiges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modiges"
+  },
   "modiglic": {
     "def": "gallant",
     "grammar": "adj.",
     "lemma": "mōdiġ-līċ"
+  },
+  "modiglicran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modiglicran"
+  },
+  "modigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modigra"
+  },
+  "modlufan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modlufan"
   },
   "modlufu(lufe)": {
     "def": "heart’s LOVE, affection",
@@ -31547,10 +43167,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mōd-sefa"
   },
+  "modsefan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modsefan"
+  },
   "modþracu": {
     "def": "impetuous courage, daring",
     "grammar": "f.",
     "lemma": "mōd-þracu"
+  },
+  "modþræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "modþræce"
   },
   "modþrуð": {
     "def": "force of will, arro-gance",
@@ -31632,35 +43262,85 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mōna"
   },
+  "monan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monan"
+  },
   "moncyn(n)": {
     "def": "196, 1955",
     "grammar": "nja.",
     "lemma": "mon-cyn(n)"
+  },
+  "moncynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "moncynnes"
   },
   "mondream": {
     "def": "pleasure of human life",
     "grammar": "m.",
     "lemma": "mon-drēam"
   },
+  "mondreamum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mondreamum"
+  },
+  "mondrihten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mondrihten"
+  },
   "mondryhten": {
     "def": "(human) lord (never in ref",
     "grammar": "m.",
     "lemma": "mon-dryhten"
+  },
+  "mondryhtnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mondryhtnes"
   },
   "mone": {
     "def": "94",
     "grammar": "wk.",
     "lemma": "mōna"
   },
+  "monegum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monegum"
+  },
   "monig": {
     "def": "(pl",
     "grammar": "adj.",
     "lemma": "moniġ"
   },
+  "monige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monige"
+  },
+  "monna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monna"
+  },
+  "monnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monnes"
+  },
   "monðwære": {
     "def": "mild, kind",
     "grammar": "adj.",
     "lemma": "mon-ðwǣre"
+  },
+  "monðwærust": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "monðwærust"
   },
   "mor": {
     "def": "marsh, wasteland",
@@ -31676,6 +43356,16 @@ const OLD_ENGLISH_DICT = {
     "def": "MOOR-retreat, i",
     "grammar": "n.",
     "lemma": "mōr-hop"
+  },
+  "moras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "moras"
+  },
+  "more": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "more"
   },
   "morg": {
     "def": "MORNing, MORROW",
@@ -31757,6 +43447,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "morgen-long"
   },
+  "morgenlongne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morgenlongne"
+  },
   "morgensweg": {
     "def": "MORNing-sound (of wailing)",
     "grammar": "mi.",
@@ -31766,6 +43461,11 @@ const OLD_ENGLISH_DICT = {
     "def": "MORNing",
     "grammar": "fi.",
     "lemma": "morgen-tīd"
+  },
+  "morgne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morgne"
   },
   "morhop": {
     "def": "MOOR-retreat, i",
@@ -31797,6 +43497,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nwa.",
     "lemma": "morð-bealu"
   },
+  "morðbeala": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morðbeala"
+  },
   "morðbealu": {
     "def": "MURDer(-BALE), slaughter",
     "grammar": "nwa.",
@@ -31806,6 +43511,21 @@ const OLD_ENGLISH_DICT = {
     "def": "slaying, assault",
     "grammar": "n.",
     "lemma": "morðor"
+  },
+  "morðorbealo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morðorbealo"
+  },
+  "morðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morðre"
+  },
+  "morðres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morðres"
   },
   "morþor bealo": {
     "def": "MURDER, slaugh-ter",
@@ -31852,6 +43572,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nwa.",
     "lemma": "morþor-bealo"
   },
+  "morþorbed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morþorbed"
+  },
   "morþorbed(d)": {
     "def": "BED of death (by violence)",
     "grammar": "nja.",
@@ -31861,6 +43586,31 @@ const OLD_ENGLISH_DICT = {
     "def": "MURDERous HATE or hostility",
     "grammar": "mi.",
     "lemma": "morþor-hete"
+  },
+  "morþorhetes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morþorhetes"
+  },
+  "morþre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "morþre"
+  },
+  "most": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "most"
+  },
+  "moste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "moste"
+  },
+  "moston": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "moston"
   },
   "mot": {
     "def": "(1) may, have opportunity, be allowed",
@@ -31876,6 +43626,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(1) may, have opportunity, be allowed",
     "grammar": "prp.",
     "lemma": "mōtan"
+  },
+  "moton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "moton"
+  },
+  "multon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "multon"
   },
   "mund": {
     "def": "236, 514, 1461, 3022, 3091",
@@ -31932,6 +43692,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "mund-gripe"
   },
+  "mundum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mundum"
+  },
   "murn": {
     "def": "be sad, pres",
     "grammar": "vb. 3",
@@ -31946,6 +43711,11 @@ const OLD_ENGLISH_DICT = {
     "def": "be sad, pres",
     "grammar": "vb. 3",
     "lemma": "murnan"
+  },
+  "murnende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "murnende"
   },
   "muð bona": {
     "def": "one who destroys with the MOUTH, devourer",
@@ -31972,6 +43742,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "mūð-bona"
   },
+  "muðbonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "muðbonan"
+  },
   "muþ": {
     "def": "opening, way of entry ([‡]door",
     "grammar": "wk.",
@@ -31981,6 +43756,11 @@ const OLD_ENGLISH_DICT = {
     "def": "opening, way of entry ([‡]door",
     "grammar": "wk.",
     "lemma": "mūþa"
+  },
+  "muþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "muþan"
   },
   "muþe": {
     "def": "opening, way of entry ([‡]door",
@@ -31996,6 +43776,11 @@ const OLD_ENGLISH_DICT = {
     "def": "MIND, desire, 2572",
     "grammar": "mi.",
     "lemma": "myne"
+  },
+  "myndgað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "myndgað"
   },
   "myndgi": {
     "def": "reMIND",
@@ -32042,6 +43827,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "myrċe"
   },
+  "myrcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "myrcan"
+  },
   "myrce": {
     "def": "dark",
     "grammar": "adj.",
@@ -32051,6 +43841,11 @@ const OLD_ENGLISH_DICT = {
     "def": "disturbance, trouble, aÑiction",
     "grammar": "f.",
     "lemma": "myrð(u)"
+  },
+  "myrðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "myrðe"
   },
   "mæ": {
     "def": "insignificant, small",
@@ -32096,6 +43891,11 @@ const OLD_ENGLISH_DICT = {
     "def": "relatives, (ex-tended) family",
     "grammar": "fc.",
     "lemma": "mǣġ-burg"
+  },
+  "mægburge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægburge"
   },
   "mæge": {
     "def": "might, strength",
@@ -32232,25 +44032,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pres.",
     "lemma": "mæġen-āgende"
   },
+  "mægenagendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægenagendra"
+  },
+  "mægenbyrðenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægenbyrðenne"
+  },
   "mægenbyrþen(n)": {
     "def": "mighty load (BURTHEN), immense BURDEN",
     "grammar": "fj",
     "lemma": "mæġen-byrþen(n)"
+  },
+  "mægenbyrþenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægenbyrþenne"
   },
   "mægencræft": {
     "def": "strength",
     "grammar": "m.",
     "lemma": "mæġen-cræft"
   },
+  "mægene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægene"
+  },
   "mægenellen": {
     "def": "potent valor",
     "grammar": "n.",
     "lemma": "mæġen-ellen"
   },
+  "mægenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægenes"
+  },
   "mægenfultum": {
     "def": "powerful help",
     "grammar": "m.",
     "lemma": "mæġen-fultum"
+  },
+  "mægenfultuma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægenfultuma"
   },
   "mægenhreð": {
     "def": "(MAIN-glory), glorious host",
@@ -32272,6 +44102,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "mæġen-wudu"
   },
+  "mæges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæges"
+  },
+  "mægnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægnes"
+  },
+  "mægum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægum"
+  },
   "mægwine": {
     "def": "kinsman (and friend)",
     "grammar": "mi.",
@@ -32282,10 +44127,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fc.",
     "lemma": "mæġð"
   },
+  "mægðscyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægðscyne"
+  },
   "mægþ": {
     "def": "people (orig",
     "grammar": "f.",
     "lemma": "mǣġþ"
+  },
+  "mægþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægþa"
+  },
+  "mægþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægþe"
+  },
+  "mægþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mægþum"
   },
   "mæl": {
     "def": "suitable time, occasion",
@@ -32312,6 +44177,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "mǣl-ġesceaft"
   },
+  "mæla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæla"
+  },
+  "mælceare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mælceare"
+  },
   "mælcearu": {
     "def": "CARE or sorrow of the time",
     "grammar": "f.",
@@ -32321,6 +44196,16 @@ const OLD_ENGLISH_DICT = {
     "def": "time-allotment, des-tiny, fate",
     "grammar": "fi.",
     "lemma": "mǣl-ġesceaft"
+  },
+  "mælgesceafta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mælgesceafta"
+  },
+  "mælum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mælum"
   },
   "mæn": {
     "def": "complain of",
@@ -32332,10 +44217,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "mǣnan"
   },
+  "mænde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mænde"
+  },
+  "mændon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mændon"
+  },
   "mæne": {
     "def": "complain of",
     "grammar": "vb. I",
     "lemma": "mǣnan"
+  },
+  "mæned": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæned"
   },
   "mænigo": {
     "def": "see meniġeo",
@@ -32347,20 +44247,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "mǣre"
   },
+  "mæra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæra"
+  },
+  "mæran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæran"
+  },
   "mære": {
     "def": "glorious, illus-trious",
     "grammar": "adj.",
     "lemma": "mǣre"
+  },
+  "mæres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæres"
+  },
+  "mærne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærne"
+  },
+  "mærost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærost"
+  },
+  "mæru": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæru"
+  },
+  "mærum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærum"
+  },
+  "mærða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærða"
   },
   "mærðo": {
     "def": "glory, glorious deed",
     "grammar": "f.",
     "lemma": "mǣrðo"
   },
+  "mærðu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærðu"
+  },
+  "mærþo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mærþo"
+  },
   "mæst": {
     "def": "36, 1905",
     "grammar": "m.",
     "lemma": "mæst"
+  },
+  "mæste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæste"
   },
   "mæt": {
     "def": "insignificant, small",
@@ -32371,6 +44326,16 @@ const OLD_ENGLISH_DICT = {
     "def": "insignificant, small",
     "grammar": "adj.",
     "lemma": "mǣte"
+  },
+  "mæton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mæton"
+  },
+  "mætost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "mætost"
   },
   "n": {
     "def": "NO",
@@ -32391,6 +44356,11 @@ const OLD_ENGLISH_DICT = {
     "def": "boat, ship",
     "grammar": "wk.",
     "lemma": "naca"
+  },
+  "nacan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nacan"
   },
   "nace": {
     "def": "boat, ship",
@@ -32422,6 +44392,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nal",
     "lemma": "nalas"
   },
+  "nales": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nales"
+  },
+  "nallas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nallas"
+  },
+  "nalles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nalles"
+  },
+  "nalæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nalæs"
+  },
   "nam": {
     "def": "1457, [F",
     "grammar": "wk.",
@@ -32431,6 +44421,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1457, [F",
     "grammar": "wk.",
     "lemma": "nama"
+  },
+  "naman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "naman"
   },
   "name": {
     "def": "1457, [F",
@@ -32461,6 +44456,16 @@ const OLD_ENGLISH_DICT = {
     "def": "some (one), a cer-tain (one)",
     "grammar": "pron.",
     "lemma": "nāt-hwylċ"
+  },
+  "nathwylces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nathwylces"
+  },
+  "nathwylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nathwylcum"
   },
   "ne": {
     "def": "NO",
@@ -32537,6 +44542,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "nearo-cræft"
   },
+  "nearocræftum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nearocræftum"
+  },
+  "nearofages": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nearofages"
+  },
   "nearofah": {
     "def": "cruelly hostile",
     "grammar": "adj.",
@@ -32546,6 +44561,11 @@ const OLD_ENGLISH_DICT = {
     "def": "severe distress",
     "grammar": "f.",
     "lemma": "nearo-þearf"
+  },
+  "nearoþearfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nearoþearfe"
   },
   "nearw": {
     "def": "closely",
@@ -32587,6 +44607,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "nefa"
   },
+  "nefan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nefan"
+  },
   "nefe": {
     "def": "1203 (grand-son?)",
     "grammar": "wk.",
@@ -32622,6 +44647,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nemne"
   },
+  "nemdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nemdon"
+  },
   "nemn": {
     "def": "call",
     "grammar": "vb. I",
@@ -32631,6 +44661,11 @@ const OLD_ENGLISH_DICT = {
     "def": "call",
     "grammar": "vb. I",
     "lemma": "nemnan"
+  },
+  "nemnað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nemnað"
   },
   "nemne": {
     "def": "call",
@@ -32652,6 +44687,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "nēod-laðu"
   },
+  "neodlaðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neodlaðum"
+  },
   "neon": {
     "def": "see nēan",
     "grammar": "",
@@ -32672,6 +44712,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n",
     "lemma": "nēosan"
   },
+  "neosian": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neosian"
+  },
   "neot": {
     "def": "w",
     "grammar": "vb. 2",
@@ -32687,10 +44732,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 2",
     "lemma": "nēotan"
   },
+  "neowle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neowle"
+  },
   "neowol": {
     "def": "steep",
     "grammar": "adj.",
     "lemma": "neowol"
+  },
+  "nereð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nereð"
   },
   "neri": {
     "def": "protect, preserve",
@@ -32717,10 +44772,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "nēðan"
   },
+  "neðdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neðdon"
+  },
   "neðe": {
     "def": "2228",
     "grammar": "vb. I",
     "lemma": "nēðan"
+  },
+  "neðende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neðende"
+  },
+  "neþdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "neþdon"
+  },
+  "nicera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nicera"
+  },
+  "niceras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niceras"
   },
   "nicor": {
     "def": "water-monster",
@@ -32742,6 +44822,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "nicor-hūs"
   },
+  "nicorhusa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nicorhusa"
+  },
+  "nicras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nicras"
+  },
   "niehst": {
     "def": "see nēah",
     "grammar": "",
@@ -32751,6 +44841,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see nēah",
     "grammar": "",
     "lemma": "nīehsta"
+  },
+  "niehstan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niehstan"
   },
   "niehste": {
     "def": "see nēah",
@@ -32766,6 +44861,11 @@ const OLD_ENGLISH_DICT = {
     "def": "575",
     "grammar": "num.",
     "lemma": "nigon"
+  },
+  "nigene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nigene"
   },
   "nigon": {
     "def": "575",
@@ -32817,10 +44917,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "niht-weorc"
   },
+  "nihta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihta"
+  },
   "nihtbealu": {
     "def": "NIGHT-attack",
     "grammar": "nwa.",
     "lemma": "niht-bealu"
+  },
+  "nihtbealwa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihtbealwa"
+  },
+  "nihtes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihtes"
   },
   "nihthelm": {
     "def": "cover of NIGHT",
@@ -32832,10 +44947,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "niht-long"
   },
+  "nihtlongne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihtlongne"
+  },
+  "nihtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihtum"
+  },
   "nihtweorc": {
     "def": "NIGHT-WORK, noc-turnal deed",
     "grammar": "n.",
     "lemma": "niht-weorc"
+  },
+  "nihtweorce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nihtweorce"
   },
   "nim": {
     "def": "seize",
@@ -32857,6 +44987,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "nīod"
   },
+  "niode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niode"
+  },
   "nios(i)": {
     "def": "see nēosan",
     "grammar": "",
@@ -32872,10 +45007,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nīos(i)an"
   },
+  "niosan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niosan"
+  },
+  "niosað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niosað"
+  },
+  "niosian": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niosian"
+  },
   "niow": {
     "def": "see nīwe",
     "grammar": "",
     "lemma": "nīowe"
+  },
+  "niowan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niowan"
   },
   "niowe": {
     "def": "see nīwe",
@@ -32902,6 +45057,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "nīpan"
   },
+  "nipende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nipende"
+  },
+  "nis": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nis"
+  },
   "niw": {
     "def": "783 (un-heard of, startling)",
     "grammar": "adj.",
@@ -32917,15 +45082,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "nīw-tyrwed"
   },
+  "niwan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niwan"
+  },
   "niwe": {
     "def": "783 (un-heard of, startling)",
     "grammar": "adj.",
     "lemma": "nīwe"
   },
+  "niwra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niwra"
+  },
   "niwtyrwed": {
     "def": "NEW-TARRed",
     "grammar": "adj.",
     "lemma": "nīw-tyrwed"
+  },
+  "niwtyrwydne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niwtyrwydne"
+  },
+  "nið": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nið"
   },
   "nið draca": {
     "def": "hostile or malicious DRAGON",
@@ -33022,10 +45207,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "nīð-wundor"
   },
+  "niða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niða"
+  },
   "niðdraca": {
     "def": "hostile or malicious DRAGON",
     "grammar": "wk.",
     "lemma": "nīð-draca"
+  },
+  "niðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niðe"
   },
   "niðgripe": {
     "def": "malicious GRIP",
@@ -33046,6 +45241,11 @@ const OLD_ENGLISH_DICT = {
     "def": "hostile",
     "grammar": "adj.",
     "lemma": "nīð-hēdiġ"
+  },
+  "niðhedige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niðhedige"
   },
   "niðsele": {
     "def": "hostile or battle hall",
@@ -33077,6 +45277,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "nīþ-grim(m)"
   },
+  "niþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niþe"
+  },
   "niþer": {
     "def": "3044",
     "grammar": "adv.",
@@ -33087,6 +45292,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "nīþ-ġeweorc"
   },
+  "niþgeweorca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niþgeweorca"
+  },
+  "niþgrim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niþgrim"
+  },
   "niþgrim(m)": {
     "def": "GRIM, cruel, nsf",
     "grammar": "adj.",
@@ -33096,6 +45311,11 @@ const OLD_ENGLISH_DICT = {
     "def": "men",
     "grammar": "mja.",
     "lemma": "niþðas"
+  },
+  "niþða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "niþða"
   },
   "niþðas": {
     "def": "men",
@@ -33142,6 +45362,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "norð"
   },
+  "norðdenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "norðdenum"
+  },
   "norþ": {
     "def": "adv",
     "grammar": "adv.",
@@ -33151,6 +45376,11 @@ const OLD_ENGLISH_DICT = {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "norþan"
+  },
+  "norþanwind": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "norþanwind"
   },
   "norþe": {
     "def": "adv",
@@ -33162,10 +45392,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "nōse"
   },
+  "nosan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nosan"
+  },
   "nose": {
     "def": "promontory, cape",
     "grammar": "wk.",
     "lemma": "nōse"
+  },
+  "not": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "not"
   },
   "noðer": {
     "def": "and not",
@@ -33176,6 +45416,11 @@ const OLD_ENGLISH_DICT = {
     "def": "254, 375, 395, 424, 489, 602, 658, 939, 946, 1174, 1338, 1343, 1376, 1474, 1761, 1782, 1818, 2053, 2247a, 2508, 2646, 2666, 2729, 2743, 2747, 2884, 2900, 2910, 3007, 3013, 3101, 3114, [F",
     "grammar": "I.",
     "lemma": "nū"
+  },
+  "numen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "numen"
   },
   "nuð": {
     "def": "just now, at this moment",
@@ -33191,6 +45436,36 @@ const OLD_ENGLISH_DICT = {
     "def": "just now, at this moment",
     "grammar": "adv.",
     "lemma": "nūða"
+  },
+  "nyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nyd"
+  },
+  "nyde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nyde"
+  },
+  "nydgesteallan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nydgesteallan"
+  },
+  "nydgripe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nydgripe"
+  },
+  "nydwracu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nydwracu"
+  },
+  "nyhstan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nyhstan"
   },
   "nyll": {
     "def": "see willan",
@@ -33222,6 +45497,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "nyman"
   },
+  "nymeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nymeð"
+  },
+  "nymeðnydbade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nymeðnydbade"
+  },
+  "nymðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nymðe"
+  },
   "nymþ": {
     "def": "if",
     "grammar": "conj.",
@@ -33236,6 +45526,11 @@ const OLD_ENGLISH_DICT = {
     "def": "beneficial",
     "grammar": "adj.",
     "lemma": "nyt(t)"
+  },
+  "nytte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nytte"
   },
   "nyðer": {
     "def": "see niþer",
@@ -33297,6 +45592,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "nǣġan"
   },
+  "nægde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nægde"
+  },
   "næge": {
     "def": "accost, address",
     "grammar": "vb. I",
@@ -33322,15 +45622,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "næġl(i)an"
   },
+  "nægla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nægla"
+  },
+  "nægled": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nægled"
+  },
+  "nægling": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nægling"
+  },
   "næne": {
     "def": "no one, none",
     "grammar": "pron.",
     "lemma": "nǣniġ"
   },
+  "nænegum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nænegum"
+  },
   "nænig": {
     "def": "no one, none",
     "grammar": "pron.",
     "lemma": "nǣniġ"
+  },
+  "nænigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nænigne"
+  },
+  "nænigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "nænigra"
   },
   "nær": {
     "def": "see eom",
@@ -33341,6 +45671,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see eom",
     "grammar": "n",
     "lemma": "nǣre"
+  },
+  "næron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "næron"
   },
   "næs": {
     "def": "by No means",
@@ -33362,10 +45697,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "næs-hlið"
   },
+  "næshleoðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "næshleoðum"
+  },
   "næshlið": {
     "def": "(slope of ̄) headland",
     "grammar": "n.",
     "lemma": "næs-hlið"
+  },
+  "næssa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "næssa"
+  },
+  "næssas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "næssas"
+  },
+  "næsse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "næsse"
   },
   "nуd": {
     "def": "compulsion, distress",
@@ -33441,6 +45796,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see nēah",
     "grammar": "",
     "lemma": "nӯhsta"
+  },
+  "o": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "o"
   },
   "o hwær": {
     "def": "2870",
@@ -33962,10 +46322,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  3",
     "lemma": "ofer-weorpan"
   },
+  "ofercomon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofercomon"
+  },
   "ofercuman": {
     "def": "1273",
     "grammar": "vb. 4",
     "lemma": "ofer-cuman"
+  },
+  "ofercumen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofercumen"
+  },
+  "ofercwom": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofercwom"
   },
   "ofereode": {
     "def": "see ofer-gān",
@@ -33987,6 +46362,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "ofer-gān"
   },
+  "oferhelmað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferhelmað"
+  },
   "oferhelmian": {
     "def": "OVERhang, over-shadow",
     "grammar": "vb. II",
@@ -33997,15 +46377,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "ofer-hīgian"
   },
+  "oferhogode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferhogode"
+  },
   "oferhycgan": {
     "def": "scorn",
     "grammar": "vb.  III",
     "lemma": "ofer-hycgan"
   },
+  "oferhyda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferhyda"
+  },
   "oferhygd": {
     "def": "pride, arrogance",
     "grammar": "",
     "lemma": "ofer-hyġd"
+  },
+  "oferhygda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferhygda"
+  },
+  "ofermaðmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofermaðmum"
   },
   "ofermaððum": {
     "def": "exceeding treas-ure",
@@ -34016,6 +46416,16 @@ const OLD_ENGLISH_DICT = {
     "def": "superior force",
     "grammar": "n.",
     "lemma": "ofer-mæġen"
+  },
+  "ofermægene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofermægene"
+  },
+  "ofersawon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofersawon"
   },
   "ofersecan": {
     "def": "OVERtax, put to too severe a trial",
@@ -34032,25 +46442,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ofer-sittan"
   },
+  "ofersitte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofersitte"
+  },
+  "ofersohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofersohte"
+  },
+  "oferswam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferswam"
+  },
   "oferswimman": {
     "def": "SWIM OVER",
     "grammar": "vb. 3",
     "lemma": "ofer-swimman"
+  },
+  "oferswyðeþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferswyðeþ"
   },
   "oferswуðan": {
     "def": "over-come",
     "grammar": "vb. I",
     "lemma": "ofer-swӯðan"
   },
+  "oferwearp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oferwearp"
+  },
   "oferweorpan": {
     "def": "stumble (elsewhere trans",
     "grammar": "vb.  3",
     "lemma": "ofer-weorpan"
   },
+  "ofeste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofeste"
+  },
   "offerian": {
     "def": "carry OFF",
     "grammar": "vb. I",
     "lemma": "of-ferian"
+  },
+  "ofgeaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofgeaf"
+  },
+  "ofgeafon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofgeafon"
+  },
+  "ofgefan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofgefan"
   },
   "ofgyfan": {
     "def": "leave",
@@ -34082,15 +46537,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ofost-līċe"
   },
+  "ofoste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofoste"
+  },
   "ofostlice": {
     "def": "in haste",
     "grammar": "adv.",
     "lemma": "ofost-līċe"
   },
+  "ofre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofre"
+  },
   "ofsceotan": {
     "def": "2439",
     "grammar": "vb. 2",
     "lemma": "of-scēotan"
+  },
+  "ofscet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofscet"
   },
   "ofsittan": {
     "def": "w",
@@ -34102,20 +46572,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "of-slēan"
   },
+  "ofsloh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofsloh"
+  },
+  "ofste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofste"
+  },
+  "ofsæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofsæt"
+  },
   "oft": {
     "def": "165, 171, 444, 480, 572, 857, 907, 951, 1065, 1238, 1247, 1252, 1428, 1526, 1885, 1887, 2018, 2029, 2296, 2478, 2500, 2867, 2937, 3019, 3077, 3116",
     "grammar": "adv.",
     "lemma": "oft"
+  },
+  "ofteah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ofteah"
   },
   "ofteon": {
     "def": "deprive (w",
     "grammar": "vb. 1",
     "lemma": "of-tēon"
   },
+  "oftor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oftor"
+  },
+  "oftost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oftost"
+  },
   "ofþyncan": {
     "def": "displease",
     "grammar": "vb. I",
     "lemma": "of-þynċan"
+  },
+  "ohteres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ohteres"
+  },
+  "ohtheres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ohtheres"
   },
   "ohwær": {
     "def": "2870",
@@ -34126,6 +46636,11 @@ const OLD_ENGLISH_DICT = {
     "def": "attendant",
     "grammar": "m.",
     "lemma": "ombeht"
+  },
+  "ombiht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ombiht"
   },
   "ombiht þegn": {
     "def": "attendant, oÌcer",
@@ -34142,6 +46657,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ombiht-þeġn"
   },
+  "ombihtþegne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ombihtþegne"
+  },
   "ome": {
     "def": "rusty",
     "grammar": "adj.",
@@ -34151,6 +46671,11 @@ const OLD_ENGLISH_DICT = {
     "def": "rusty",
     "grammar": "adj.",
     "lemma": "ōmiġ"
+  },
+  "omige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "omige"
   },
   "on": {
     "def": "prefix, = 1",
@@ -34987,6 +47512,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "on-arn"
   },
+  "onbad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onbad"
+  },
+  "onband": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onband"
+  },
   "onberan": {
     "def": "weaken, di-minish",
     "grammar": "vb.  4",
@@ -35002,10 +47537,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "on-bindan"
   },
+  "onboren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onboren"
+  },
   "onbregdan": {
     "def": "723",
     "grammar": "vb. 3",
     "lemma": "on-breġdan"
+  },
+  "onbræd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onbræd"
   },
   "oncer": {
     "def": "see ancor-",
@@ -35022,6 +47567,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "oncer-"
   },
+  "oncerbendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oncerbendum"
+  },
+  "oncirde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oncirde"
+  },
   "oncirran": {
     "def": "change (trans",
     "grammar": "vb. I",
@@ -35032,10 +47587,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  7",
     "lemma": "on-cnāwan"
   },
+  "oncniow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oncniow"
+  },
   "oncweðan": {
     "def": "answer",
     "grammar": "vb. 5",
     "lemma": "on-cweðan"
+  },
+  "oncyðeorla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oncyðeorla"
+  },
+  "oncyþðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oncyþðe"
   },
   "oncуð(ð)": {
     "def": "grief, distress",
@@ -35142,10 +47712,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ond-drysne"
   },
+  "ondhwearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondhwearf"
+  },
   "ondhweorfan": {
     "def": "turn (intr",
     "grammar": "vb.  3",
     "lemma": "ond-hweorfan"
+  },
+  "ondlangne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondlangne"
   },
   "ondlean": {
     "def": "see and-lēan",
@@ -35156,6 +47736,21 @@ const OLD_ENGLISH_DICT = {
     "def": "see and-long",
     "grammar": "",
     "lemma": "ond-long"
+  },
+  "ondlonge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondlonge"
+  },
+  "ondred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondred"
+  },
+  "ondrede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondrede"
   },
   "ondrys": {
     "def": "see ond-drysne",
@@ -35177,6 +47772,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "on-drǣdan"
   },
+  "ondrædað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondrædað"
+  },
+  "ondsaca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondsaca"
+  },
+  "ondsacan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondsacan"
+  },
   "ondsendeþ": {
     "def": "see on-sendan",
     "grammar": "",
@@ -35186,6 +47796,31 @@ const OLD_ENGLISH_DICT = {
     "def": "onSLAUGHT, counter-blow",
     "grammar": "mi.",
     "lemma": "ond-slyht"
+  },
+  "ondsware": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondsware"
+  },
+  "ondswarode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondswarode"
+  },
+  "ondswaru": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ondswaru"
+  },
+  "onela": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onela"
+  },
+  "onelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onelan"
   },
   "onett": {
     "def": "move quickly",
@@ -35202,15 +47837,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "ōnettan"
   },
+  "onetton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onetton"
+  },
+  "onfand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onfand"
+  },
+  "onfeng": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onfeng"
+  },
   "onfindan": {
     "def": "find out, dis-cover, perceive",
     "grammar": "vb. 3",
     "lemma": "on-findan"
   },
+  "onfoh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onfoh"
+  },
   "onfon": {
     "def": "receive, take",
     "grammar": "vb. 7",
     "lemma": "on-fōn"
+  },
+  "onfunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onfunde"
+  },
+  "onfunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onfunden"
+  },
+  "ongan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongan"
   },
   "ongeador": {
     "def": "toGETHER",
@@ -35222,15 +47892,95 @@ const OLD_ENGLISH_DICT = {
     "grammar": "prep.",
     "lemma": "on-ġēan"
   },
+  "ongeat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongeat"
+  },
+  "ongeaton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongeaton"
+  },
+  "ongenðeowes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenðeowes"
+  },
+  "ongenðio": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenðio"
+  },
+  "ongenðioes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenðioes"
+  },
+  "ongenþeoes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenþeoes"
+  },
+  "ongenþeow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenþeow"
+  },
+  "ongenþio": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongenþio"
+  },
   "onginnan": {
     "def": "undertake",
     "grammar": "vb. 3",
     "lemma": "on-ġinnan"
   },
+  "onginneðgeomormod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onginneðgeomormod"
+  },
+  "ongit": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongit"
+  },
   "ongitan": {
     "def": "perceive, see, hear, understand",
     "grammar": "",
     "lemma": "on-ġitan"
+  },
+  "ongite": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongite"
+  },
+  "ongon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongon"
+  },
+  "ongunnen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongunnen"
+  },
+  "ongunnon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongunnon"
+  },
+  "ongytan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongytan"
+  },
+  "ongyton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ongyton"
   },
   "onhohsni": {
     "def": "check, stop (?)",
@@ -35247,15 +47997,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "onhōhsnian"
   },
+  "onhohsnode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onhohsnode"
+  },
   "onhreran": {
     "def": "arouse",
     "grammar": "vb. I",
     "lemma": "on-hrēran"
   },
+  "onhrered": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onhrered"
+  },
   "onirnan": {
     "def": "†give way, spring open",
     "grammar": "vb. 3",
     "lemma": "on-irnan"
+  },
+  "onlah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onlah"
+  },
+  "onleac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onleac"
   },
   "onleon": {
     "def": "lend",
@@ -35267,6 +48037,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "on-līcnes(s)"
   },
+  "onlicnæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onlicnæs"
+  },
   "onlucan": {
     "def": "disclose",
     "grammar": "vb. 2",
@@ -35277,15 +48052,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "on-lǣtan"
   },
+  "onlæteð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onlæteð"
+  },
   "onmedla": {
     "def": "arrogance, pre-sumption, effrontery",
     "grammar": "wk.",
     "lemma": "on-mēdla"
   },
+  "onmedlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onmedlan"
+  },
   "onmunan": {
     "def": "consider worthy of (or fit for)",
     "grammar": "prp.",
     "lemma": "on-munan"
+  },
+  "onmunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onmunde"
   },
   "onsacan": {
     "def": "contest, fight (dat",
@@ -35297,15 +48087,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "on-sēċan"
   },
+  "onsend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onsend"
+  },
   "onsendan(ond)": {
     "def": "SEND, send away",
     "grammar": "vb.  I",
     "lemma": "on-sendan(ond-)"
   },
+  "onsende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onsende"
+  },
   "onsittan": {
     "def": "vb",
     "grammar": "vb. 5",
     "lemma": "on-sittan"
+  },
+  "onspeon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onspeon"
   },
   "onsponnan": {
     "def": "unfasten",
@@ -35317,15 +48122,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "on-springan"
   },
+  "onsprungon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onsprungon"
+  },
+  "onstealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onstealde"
+  },
   "onstellan": {
     "def": "bring about",
     "grammar": "vb. I",
     "lemma": "on-stellan"
   },
+  "onswaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onswaf"
+  },
   "onswifan": {
     "def": "swing, turn (trans",
     "grammar": "vb. 1",
     "lemma": "on-swīfan"
+  },
+  "onsyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onsyn"
   },
   "onsæce": {
     "def": "see on-sēċan",
@@ -35336,6 +48161,11 @@ const OLD_ENGLISH_DICT = {
     "def": "attacking, as-sailing (see Aant",
     "grammar": "adj.",
     "lemma": "on-sǣġe"
+  },
+  "onsæl": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onsæl"
   },
   "onsælan": {
     "def": "loosen, disclose",
@@ -35351,6 +48181,11 @@ const OLD_ENGLISH_DICT = {
     "def": "incite, impel",
     "grammar": "vb. I",
     "lemma": "on-tyhtan"
+  },
+  "ontyhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ontyhte"
   },
   "onwacnian": {
     "def": "AWAKE (intr",
@@ -35377,15 +48212,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "on-windan"
   },
+  "onwindeðwælrapas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onwindeðwælrapas"
+  },
   "onwoc": {
     "def": "see on-wæcnan",
     "grammar": "",
     "lemma": "on-wōc"
   },
+  "onwocon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onwocon"
+  },
+  "onwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onwod"
+  },
   "onwæcnan": {
     "def": "vb",
     "grammar": "pret.",
     "lemma": "on-wæcnan"
+  },
+  "onðah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "onðah"
   },
   "onðeon": {
     "def": "prosper, thrive",
@@ -35406,6 +48261,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2271",
     "grammar": "adj.",
     "lemma": "open"
+  },
+  "opene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "opene"
   },
   "openi": {
     "def": "vb",
@@ -35547,6 +48407,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "orc-nēas"
   },
+  "orcas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orcas"
+  },
   "orcneas": {
     "def": "evil spirits, monsters",
     "grammar": "m.",
@@ -35577,10 +48442,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ord-fruma"
   },
+  "orde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orde"
+  },
   "ordfruma": {
     "def": "one who goes before",
     "grammar": "wk.",
     "lemma": "ord-fruma"
+  },
+  "ore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ore"
   },
   "oret mecg": {
     "def": "warrior",
@@ -35597,6 +48472,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "ōret-mecg"
   },
+  "oretmecgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oretmecgas"
+  },
   "orett": {
     "def": "warrior",
     "grammar": "wk.",
@@ -35612,10 +48492,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ōretta"
   },
+  "oreðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oreðe"
+  },
   "oreðe(s)": {
     "def": "see oruð",
     "grammar": "",
     "lemma": "oreðe(s)"
+  },
+  "oreðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oreðes"
   },
   "orleahtre": {
     "def": "blameless",
@@ -35637,15 +48527,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ni.",
     "lemma": "or-leġe"
   },
+  "orleges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orleges"
+  },
   "orleghwil": {
     "def": "time of war, fight",
     "grammar": "f.",
     "lemma": "orleġ-hwīl"
   },
+  "orleghwila": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orleghwila"
+  },
+  "orleghwile": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orleghwile"
+  },
   "oruð": {
     "def": "2523",
     "grammar": "n.",
     "lemma": "oruð"
+  },
+  "oruðaglæcean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oruðaglæcean"
   },
   "orwearde": {
     "def": "without GUARDian, in an undefended condition",
@@ -35657,10 +48567,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "or-wēna"
   },
+  "orðoncum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orðoncum"
+  },
   "orþanc": {
     "def": "skill, craft",
     "grammar": "m.",
     "lemma": "or-þanc"
+  },
+  "orþancum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "orþancum"
+  },
+  "oslaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oslaf"
   },
   "ower": {
     "def": "see ō-hwǣr",
@@ -35671,6 +48596,11 @@ const OLD_ENGLISH_DICT = {
     "def": "anything",
     "grammar": "fni.",
     "lemma": "ō-wiht"
+  },
+  "owihte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "owihte"
   },
   "oð": {
     "def": "until",
@@ -35757,15 +48687,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "oð-wītan"
   },
+  "oðdomes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðdomes"
+  },
   "oðeode": {
     "def": "see oð-gān",
     "grammar": "",
     "lemma": "oð-ēode"
   },
+  "oðeodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðeodon"
+  },
   "oðer": {
     "def": "(cf",
     "grammar": "adj.",
     "lemma": "ōðer"
+  },
+  "oðerne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðerne"
+  },
+  "oðferede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðferede"
   },
   "oðferian": {
     "def": "2141",
@@ -35777,10 +48727,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "oð-gān"
   },
+  "oðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðre"
+  },
+  "oðres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðres"
+  },
+  "oðrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðrum"
+  },
+  "oðw": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðw"
+  },
   "oðwitan": {
     "def": "reproach, blame",
     "grammar": "vb. 1",
     "lemma": "oð-wītan"
+  },
+  "oðworuldende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðworuldende"
   },
   "oðð": {
     "def": "437, 635, 637, 693, 1491, 1763, 1764a, 1764b, 1765a, 1765b, 1766a, 1766b, 1848, 2253, 2376, 2434, 2494, 2495, 2536, 2840, 2870, 2922, 3006 (n",
@@ -35791,6 +48766,26 @@ const OLD_ENGLISH_DICT = {
     "def": "437, 635, 637, 693, 1491, 1763, 1764a, 1764b, 1765a, 1765b, 1766a, 1766b, 1848, 2253, 2376, 2434, 2494, 2495, 2536, 2840, 2870, 2922, 3006 (n",
     "grammar": "conj.",
     "lemma": "oððe"
+  },
+  "oððone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oððone"
+  },
+  "oððæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oððæt"
+  },
+  "oððþæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oððþæt"
+  },
+  "oðþæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oðþæt"
   },
   "oþ beran": {
     "def": "BEAR (off ̄)",
@@ -35817,10 +48812,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 4",
     "lemma": "oþ-beran"
   },
+  "oþer": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþer"
+  },
+  "oþerne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþerne"
+  },
+  "oþres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþres"
+  },
+  "oþrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþrum"
+  },
+  "oþðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþðe"
+  },
+  "oþðæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþðæt"
+  },
+  "oþþæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "oþþæt"
+  },
+  "passage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "passage"
+  },
   "r": {
     "def": "opportunity",
     "grammar": "m.",
     "lemma": "rūm"
+  },
+  "rad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rad"
   },
   "rand": {
     "def": "see rond",
@@ -35847,10 +48887,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "rand-wiga"
   },
+  "randas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "randas"
+  },
+  "rande": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rande"
+  },
   "randwiga": {
     "def": "(shield-)warrior",
     "grammar": "wk.",
     "lemma": "rand-wiga"
+  },
+  "randwigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "randwigan"
   },
   "rasi": {
     "def": "explore",
@@ -35867,6 +48922,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "rāsian"
   },
+  "rasod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rasod"
+  },
   "raþ": {
     "def": "see hraþe",
     "grammar": "",
@@ -35882,6 +48942,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "reon"
   },
+  "rea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rea"
+  },
+  "reafedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "reafedon"
+  },
   "reafi": {
     "def": "plunder, rifle",
     "grammar": "vb. II",
@@ -35896,6 +48966,11 @@ const OLD_ENGLISH_DICT = {
     "def": "plunder, rifle",
     "grammar": "vb. II",
     "lemma": "rēafian"
+  },
+  "reafode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "reafode"
   },
   "rec": {
     "def": "3155",
@@ -35917,10 +48992,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "reċċan"
   },
+  "reccenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "reccenne"
+  },
+  "recceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "recceð"
+  },
+  "rece": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rece"
+  },
   "reced": {
     "def": "building, hall",
     "grammar": "m.",
     "lemma": "reċed"
+  },
+  "receda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "receda"
+  },
+  "recede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "recede"
+  },
+  "recedes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "recedes"
   },
   "ree": {
     "def": "see rōwan",
@@ -35942,6 +49047,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "reġn-heard"
   },
+  "regnhearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "regnhearde"
+  },
   "regni": {
     "def": "prepare, trim",
     "grammar": "r",
@@ -35957,6 +49067,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "r",
     "lemma": "reġnian"
   },
+  "rehte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rehte"
+  },
+  "relations": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "relations"
+  },
   "ren weard": {
     "def": "GUARDian of the house (see note on 142)",
     "grammar": "m.",
@@ -35971,6 +49091,11 @@ const OLD_ENGLISH_DICT = {
     "def": "GUARDian of the house (see note on 142)",
     "grammar": "m.",
     "lemma": "ren-weard"
+  },
+  "renweardas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "renweardas"
   },
   "reoc": {
     "def": "fierce, savage",
@@ -36002,6 +49127,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "reord"
   },
+  "reorde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "reorde"
+  },
   "reordi": {
     "def": "talk",
     "grammar": "vb. II",
@@ -36026,6 +49156,11 @@ const OLD_ENGLISH_DICT = {
     "def": "weep",
     "grammar": "vb. 2",
     "lemma": "rēotan"
+  },
+  "reotað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "reotað"
   },
   "reote": {
     "def": "weep",
@@ -36067,10 +49202,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "rīċe"
   },
+  "rica": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rica"
+  },
   "rice": {
     "def": "realm, rule",
     "grammar": "nja.",
     "lemma": "rīċe"
+  },
+  "rices": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rices"
+  },
+  "ricone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ricone"
   },
   "ricone(recene)": {
     "def": "quickly, at once",
@@ -36132,6 +49282,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "man",
     "lemma": "rinċ"
   },
+  "rinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rinca"
+  },
+  "rince": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rince"
+  },
   "riod": {
     "def": "see rīdan",
     "grammar": "",
@@ -36162,15 +49322,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "rīxian"
   },
+  "rixode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rixode"
+  },
+  "roden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "roden"
+  },
+  "rodera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rodera"
+  },
+  "roderas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "roderas"
+  },
+  "roderum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "roderum"
+  },
   "rodor": {
     "def": "heaven",
     "grammar": "m.",
     "lemma": "rodor"
   },
+  "rodores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rodores"
+  },
   "rof": {
     "def": "brave, strong",
     "grammar": "adj.",
     "lemma": "rōf"
+  },
+  "rofan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rofan"
+  },
+  "rofne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rofne"
   },
   "rond": {
     "def": "2673 (n",
@@ -36187,10 +49387,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "rond-hæbbend(e)"
   },
+  "rondas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rondas"
+  },
+  "ronde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ronde"
+  },
   "rondhæbbend(e)": {
     "def": "shield-bearer (-HAVing), warrior",
     "grammar": "mc.",
     "lemma": "rond-hæbbend(e)"
+  },
+  "rondhæbbendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rondhæbbendra"
   },
   "row": {
     "def": "539",
@@ -36206,6 +49421,11 @@ const OLD_ENGLISH_DICT = {
     "def": "539",
     "grammar": "vb. 7",
     "lemma": "rōwan"
+  },
+  "ruin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ruin"
   },
   "rum": {
     "def": "opportunity",
@@ -36226,6 +49446,11 @@ const OLD_ENGLISH_DICT = {
     "def": "noble-spirited",
     "grammar": "adj.",
     "lemma": "rūm-heort"
+  },
+  "rumne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rumne"
   },
   "run": {
     "def": "(secret) consultation, council",
@@ -36261,6 +49486,16 @@ const OLD_ENGLISH_DICT = {
     "def": "confidant, trusted adviser",
     "grammar": "wk.",
     "lemma": "rūn-wita"
+  },
+  "rune": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rune"
+  },
+  "runstafas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "runstafas"
   },
   "runstæf": {
     "def": "1695",
@@ -36327,6 +49562,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "rǣdan"
   },
+  "rædas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "rædas"
+  },
   "rædbora": {
     "def": "wk",
     "grammar": "wk.",
@@ -36342,6 +49582,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "rǣdend"
   },
+  "ræhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ræhte"
+  },
   "ræs": {
     "def": "2690",
     "grammar": "vb. I",
@@ -36351,6 +49596,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2690",
     "grammar": "vb. I",
     "lemma": "rǣsan"
+  },
+  "ræsde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ræsde"
   },
   "ræse": {
     "def": "2690",
@@ -36362,6 +49612,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ræst"
   },
+  "ræste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ræste"
+  },
+  "ræsum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ræsum"
+  },
   "ræsw": {
     "def": "(counselor), prince, leader",
     "grammar": "wk.",
@@ -36371,6 +49631,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(counselor), prince, leader",
     "grammar": "wk.",
     "lemma": "rǣswa"
+  },
+  "ræswan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ræswan"
   },
   "ræswe": {
     "def": "(counselor), prince, leader",
@@ -36452,6 +49717,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sand"
   },
+  "sande": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sande"
+  },
   "sang": {
     "def": "cry",
     "grammar": "m.",
@@ -36512,10 +49782,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sāriġ-mōd"
   },
+  "sarigmodum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sarigmodum"
+  },
+  "sarigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sarigne"
+  },
   "sarlic": {
     "def": "sad",
     "grammar": "adj.",
     "lemma": "sār-liċ"
+  },
+  "sarum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sarum"
+  },
+  "sawele": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawele"
   },
   "sawl berend": {
     "def": "(SOUL-BEARer), human being",
@@ -36531,6 +49821,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(SOUL-BEARer), human being",
     "grammar": "mc.",
     "lemma": "sāwl-berend"
+  },
+  "sawlberendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawlberendra"
+  },
+  "sawle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawle"
   },
   "sawol": {
     "def": "life",
@@ -36562,6 +49862,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sāwol-lēas"
   },
+  "sawolleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawolleasne"
+  },
+  "sawon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawon"
+  },
   "sawul drior": {
     "def": "life-blood, ds",
     "grammar": "m.",
@@ -36577,6 +49887,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sāwul-drīor"
   },
+  "sawuldriore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawuldriore"
+  },
+  "sawulleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sawulleasne"
+  },
   "scac": {
     "def": "pass, depart",
     "grammar": "vb. 6",
@@ -36591,6 +49911,11 @@ const OLD_ENGLISH_DICT = {
     "def": "pass, depart",
     "grammar": "vb. 6",
     "lemma": "scacan"
+  },
+  "scacen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scacen"
   },
   "scad": {
     "def": "settle",
@@ -36622,6 +49947,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "scadu-helm"
   },
+  "scaduhelma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scaduhelma"
+  },
   "scami(g)": {
     "def": "1026",
     "grammar": "vb. II",
@@ -36637,6 +49967,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "scami(ġ)an"
   },
+  "scamiende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scamiende"
+  },
+  "scamigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scamigan"
+  },
+  "scan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scan"
+  },
   "scaþ": {
     "def": "see sceaþa",
     "grammar": "",
@@ -36646,6 +49991,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see sceaþa",
     "grammar": "",
     "lemma": "scaþa"
+  },
+  "scaþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scaþan"
   },
   "scaþe": {
     "def": "see sceaþa",
@@ -36671,6 +50021,11 @@ const OLD_ENGLISH_DICT = {
     "def": "sceaceð, see scacan",
     "grammar": "sceace",
     "lemma": "sceacen"
+  },
+  "sceaceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceaceð"
   },
   "scead": {
     "def": "SHADE(s), shadows",
@@ -36722,10 +50077,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "sceadu-genġa"
   },
+  "sceal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceal"
+  },
   "scealc": {
     "def": "retainer, warrior, man",
     "grammar": "m.",
     "lemma": "scealc"
+  },
+  "sceall": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceall"
+  },
+  "scealt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scealt"
   },
   "sceap": {
     "def": "see scyppan",
@@ -36757,6 +50127,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sceat(t)"
   },
+  "sceata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceata"
+  },
+  "sceatas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceatas"
+  },
+  "sceattas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceattas"
+  },
+  "sceawedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceawedon"
+  },
   "sceawi": {
     "def": "view, examine, see",
     "grammar": "vb. II",
@@ -36767,10 +50157,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "scēawian"
   },
+  "sceawiað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceawiað"
+  },
   "sceawie": {
     "def": "view, examine, see",
     "grammar": "vb. II",
     "lemma": "scēawian"
+  },
+  "sceawigan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceawigan"
+  },
+  "sceawige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceawige"
+  },
+  "sceawode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceawode"
+  },
+  "sceaðona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceaðona"
   },
   "sceaþ": {
     "def": "enemy",
@@ -36787,6 +50202,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "sceaþa"
   },
+  "sceaþena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceaþena"
+  },
   "sced": {
     "def": "see scādan",
     "grammar": "",
@@ -36796,6 +50216,26 @@ const OLD_ENGLISH_DICT = {
     "def": "see scādan",
     "grammar": "",
     "lemma": "scēde"
+  },
+  "scedelandum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scedelandum"
+  },
+  "scedenigge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scedenigge"
+  },
+  "scefing": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scefing"
+  },
+  "sceft": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceft"
   },
   "sceft(sceaft)": {
     "def": "SHAFT (of arrow)",
@@ -36822,6 +50262,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "scenċan"
   },
+  "scencte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scencte"
+  },
   "scenn(scenn": {
     "def": "sword-guard (?), plate of metal on handle of sword (?)",
     "grammar": "",
@@ -36836,6 +50281,31 @@ const OLD_ENGLISH_DICT = {
     "def": "sword-guard (?), plate of metal on handle of sword (?)",
     "grammar": "",
     "lemma": "scenn(scenna"
+  },
+  "scennum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scennum"
+  },
+  "sceoc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceoc"
+  },
+  "sceolde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceolde"
+  },
+  "sceoldest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceoldest"
+  },
+  "sceoldon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceoldon"
   },
   "sceot": {
     "def": "1744",
@@ -36852,10 +50322,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  2",
     "lemma": "scēotan"
   },
+  "sceotend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceotend"
+  },
   "sceotendmc.": {
     "def": "warrior",
     "grammar": "SHOOTer",
     "lemma": "scēotendmc."
+  },
+  "sceotendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceotendum"
+  },
+  "sceoteð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceoteð"
   },
   "scep": {
     "def": "see scyppan",
@@ -36886,6 +50371,16 @@ const OLD_ENGLISH_DICT = {
     "def": "cut",
     "grammar": "vb. 4",
     "lemma": "sceran"
+  },
+  "sceðþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceðþan"
+  },
+  "sceþede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sceþede"
   },
   "sceþð": {
     "def": "injure, harm",
@@ -36927,6 +50422,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "scildiġ"
   },
+  "scilding": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scilding"
+  },
+  "scildinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scildinga"
+  },
+  "scildingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scildingas"
+  },
+  "scildunga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scildunga"
+  },
   "scildweall": {
     "def": "SHIELD-WALL, phalanx (?)",
     "grammar": "m.",
@@ -36952,6 +50467,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "scīnan"
   },
+  "scineð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scineð"
+  },
   "scinn": {
     "def": "evil spirit, demon",
     "grammar": "wk.",
@@ -36966,6 +50486,16 @@ const OLD_ENGLISH_DICT = {
     "def": "evil spirit, demon",
     "grammar": "wk.",
     "lemma": "scinna"
+  },
+  "scinnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scinnum"
+  },
+  "scinon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scinon"
   },
   "scion": {
     "def": "see scīnan",
@@ -37007,10 +50537,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mja.",
     "lemma": "scip-here"
   },
+  "scipe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scipe"
+  },
+  "scipes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scipes"
+  },
   "sciphere": {
     "def": "naval force",
     "grammar": "mja.",
     "lemma": "scip-here"
+  },
+  "scipherge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scipherge"
   },
   "scir": {
     "def": "resplendent, glorious, clear",
@@ -37027,6 +50572,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "scīr-ham"
   },
+  "sciran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sciran"
+  },
   "scireð": {
     "def": "see sceran",
     "grammar": "",
@@ -37036,6 +50586,21 @@ const OLD_ENGLISH_DICT = {
     "def": "in bright armor",
     "grammar": "adj.",
     "lemma": "scīr-ham"
+  },
+  "scirhame": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scirhame"
+  },
+  "scoc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scoc"
+  },
+  "scod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scod"
   },
   "scof": {
     "def": "see scūfan",
@@ -37052,10 +50617,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "scofen"
   },
+  "scolde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scolde"
+  },
+  "scoldon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scoldon"
+  },
   "scop": {
     "def": "singer",
     "grammar": "m.",
     "lemma": "scop"
+  },
+  "scopes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scopes"
   },
   "scrif": {
     "def": "judge, impose (sentence), w",
@@ -37087,6 +50667,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  1",
     "lemma": "scrīðan"
   },
+  "scriþað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scriþað"
+  },
   "scucc": {
     "def": "devil",
     "grammar": "wk.",
@@ -37101,6 +50686,11 @@ const OLD_ENGLISH_DICT = {
     "def": "devil",
     "grammar": "wk.",
     "lemma": "scucca"
+  },
+  "scuccum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scuccum"
   },
   "scuf": {
     "def": "push, move forward",
@@ -37117,6 +50707,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  2",
     "lemma": "scūfan"
   },
+  "scufon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scufon"
+  },
+  "scufun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scufun"
+  },
   "scul": {
     "def": "(pres",
     "grammar": "prp.",
@@ -37131,6 +50731,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(pres",
     "grammar": "prp.",
     "lemma": "sculan"
+  },
+  "sculon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sculon"
   },
   "scur heard": {
     "def": "SHOWER-HARD, hard(ened) in the storm of battle (?)",
@@ -37202,10 +50807,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "scyldan"
   },
+  "scyldas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldas"
+  },
   "scylde": {
     "def": "1658 (n",
     "grammar": "vb. I",
     "lemma": "scyldan"
+  },
+  "scyldes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldes"
   },
   "scyldfreca": {
     "def": "(SHIELD-)warrior",
@@ -37216,6 +50831,36 @@ const OLD_ENGLISH_DICT = {
     "def": "3071 (cf",
     "grammar": "adj.",
     "lemma": "scyldiġ"
+  },
+  "scylding": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scylding"
+  },
+  "scyldinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldinga"
+  },
+  "scyldingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldingas"
+  },
+  "scyldingum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldingum"
+  },
+  "scyldunga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldunga"
+  },
+  "scyldungas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyldungas"
   },
   "scyldwiga": {
     "def": "(SHIELD-)warrior",
@@ -37252,6 +50897,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "scyndan"
   },
+  "scynded": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scynded"
+  },
+  "scynscaþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scynscaþa"
+  },
   "scynscaþa(scin)": {
     "def": "demonic foe, hostile demon",
     "grammar": "wk.",
@@ -37261,6 +50916,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see scip",
     "grammar": "",
     "lemma": "scyp"
+  },
+  "scypon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scypon"
   },
   "scypp": {
     "def": "mc",
@@ -37281,6 +50941,16 @@ const OLD_ENGLISH_DICT = {
     "def": "mc",
     "grammar": "mc.",
     "lemma": "scyppen"
+  },
+  "scyppend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyppend"
+  },
+  "scyran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "scyran"
   },
   "scу": {
     "def": "beautiful, lovely",
@@ -37307,10 +50977,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "siġ"
   },
+  "seah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seah"
+  },
+  "sealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sealde"
+  },
+  "sealdest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sealdest"
+  },
+  "sealdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sealdon"
+  },
   "sealma(selma)": {
     "def": "bedstead, bed, couch",
     "grammar": "wk.",
     "lemma": "sealma(selma)"
+  },
+  "sealman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sealman"
   },
   "sealo brun": {
     "def": "[SALLOW- or] dark-BROWN",
@@ -37432,6 +51127,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "searo-bend"
   },
+  "searobendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searobendum"
+  },
   "searofah": {
     "def": "cunningly decorated",
     "grammar": "adj.",
@@ -37441,6 +51141,21 @@ const OLD_ENGLISH_DICT = {
     "def": "precious jewel",
     "grammar": "m.",
     "lemma": "searo-ġim(m)"
+  },
+  "searogimma": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searogimma"
+  },
+  "searogimmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searogimmas"
+  },
+  "searogrim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searogrim"
   },
   "searogrim(m)": {
     "def": "fierce in battle",
@@ -37452,6 +51167,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "searo-hæbbend(e)"
   },
+  "searohæbbendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searohæbbendra"
+  },
+  "searonet": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searonet"
+  },
   "searonet(t)": {
     "def": "armor-NET or battle-net, mail shirt or coat",
     "grammar": "nja.",
@@ -37461,6 +51186,16 @@ const OLD_ENGLISH_DICT = {
     "def": "treacherous quarrel",
     "grammar": "m.",
     "lemma": "searo-nīð"
+  },
+  "searoniða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searoniða"
+  },
+  "searoniðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searoniðas"
   },
   "searowundor": {
     "def": "curious WONDER, wonderful thing",
@@ -37472,10 +51207,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "searo-þonc"
   },
+  "searoþoncum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searoþoncum"
+  },
+  "searwum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "searwum"
+  },
   "seax": {
     "def": "short sword (with single edge)",
     "grammar": "n.",
     "lemma": "seax"
+  },
+  "seað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seað"
   },
   "sec": {
     "def": "see secg",
@@ -37502,20 +51252,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "sēċan"
   },
+  "secean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secean"
+  },
+  "seceanne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seceanne"
+  },
+  "seceaðto": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seceaðto"
+  },
+  "seceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seceð"
+  },
   "secg": {
     "def": "man",
     "grammar": "mja.",
     "lemma": "secg"
+  },
+  "secga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secga"
   },
   "secgan": {
     "def": "tell",
     "grammar": "vb. III",
     "lemma": "secgan"
   },
+  "secganne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secganne"
+  },
+  "secgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secgas"
+  },
+  "secgaðsæliðend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secgaðsæliðend"
+  },
   "secge": {
     "def": "tell",
     "grammar": "vb. III",
     "lemma": "secgan"
+  },
+  "secggende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secggende"
+  },
+  "secgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "secgum"
   },
   "see": {
     "def": "2717, 2863",
@@ -37536,6 +51336,11 @@ const OLD_ENGLISH_DICT = {
     "def": "heart, spirit",
     "grammar": "wk.",
     "lemma": "sefa"
+  },
+  "sefan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sefan"
   },
   "sefe": {
     "def": "heart, spirit",
@@ -37582,10 +51387,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "seġl-rād"
   },
+  "seglrade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seglrade"
+  },
   "segn": {
     "def": "standard",
     "grammar": "m.",
     "lemma": "seġn"
+  },
+  "segne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "segne"
   },
   "sel": {
     "def": "hall",
@@ -37727,6 +51542,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sele-drēam"
   },
+  "seleful": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seleful"
+  },
   "seleful(l)": {
     "def": "hall-cup",
     "grammar": "n.",
@@ -37742,20 +51562,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "sele-rest"
   },
+  "selereste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selereste"
+  },
   "selerædend(e)": {
     "def": "hall-counselor, -ruler",
     "grammar": "mc.",
     "lemma": "sele-rǣdend(e)"
+  },
+  "selerædende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selerædende"
   },
   "selest": {
     "def": "see gōd",
     "grammar": "",
     "lemma": "sēlest"
   },
+  "selesta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selesta"
+  },
+  "selestan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selestan"
+  },
   "seleweard": {
     "def": "hall-GUARD(ian)",
     "grammar": "m.",
     "lemma": "sele-weard"
+  },
+  "seleð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seleð"
+  },
+  "seleðhim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seleðhim"
   },
   "seleþegn": {
     "def": "hall-THEGN, chamber-lain, oÌcial of the court, attendant",
@@ -37766,6 +51616,31 @@ const OLD_ENGLISH_DICT = {
     "def": "1964",
     "grammar": "pron.",
     "lemma": "self"
+  },
+  "selfa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selfa"
+  },
+  "selfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selfe"
+  },
+  "selfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selfes"
+  },
+  "selfne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selfne"
+  },
+  "selfre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selfre"
   },
   "sell": {
     "def": "see gōd",
@@ -37792,6 +51667,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "syl",
     "lemma": "sel-liċ"
   },
+  "sellice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sellice"
+  },
   "selr": {
     "def": "see gōd",
     "grammar": "",
@@ -37801,6 +51681,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see gōd",
     "grammar": "",
     "lemma": "sēlra"
+  },
+  "selran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "selran"
   },
   "selre": {
     "def": "see gōd",
@@ -37837,6 +51722,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "sendan"
   },
+  "sendeþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sendeþ"
+  },
   "seo": {
     "def": "see sē",
     "grammar": "",
@@ -37846,6 +51736,11 @@ const OLD_ENGLISH_DICT = {
     "def": "weakened",
     "grammar": "adj.",
     "lemma": "sēoc"
+  },
+  "seoce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seoce"
   },
   "seof": {
     "def": "2195",
@@ -37861,6 +51756,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2195",
     "grammar": "num.",
     "lemma": "seofan"
+  },
+  "seofon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seofon"
   },
   "seofonniht": {
     "def": "week",
@@ -37882,6 +51782,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "seolfa"
   },
+  "seomade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seomade"
+  },
   "seomi": {
     "def": "rest, lie, remain, hover, hang",
     "grammar": "vb.  II",
@@ -37897,15 +51802,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "seomian"
   },
+  "seomode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seomode"
+  },
   "seon": {
     "def": "2717, 2863",
     "grammar": "vb. 5",
     "lemma": "sēon"
   },
+  "seonowe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seonowe"
+  },
   "seonu": {
     "def": "817",
     "grammar": "fw",
     "lemma": "seonu"
+  },
+  "seowed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seowed"
   },
   "seowi": {
     "def": "put together, link",
@@ -37952,10 +51872,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "seoððan"
   },
+  "seoþðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seoþðan"
+  },
   "ses(s)": {
     "def": "SEAT",
     "grammar": "m.",
     "lemma": "ses(s)"
+  },
+  "sesse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sesse"
   },
   "set": {
     "def": "see sittan",
@@ -37977,6 +51907,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "setl"
   },
+  "setle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "setle"
+  },
+  "setles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "setles"
+  },
+  "setlum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "setlum"
+  },
   "sett": {
     "def": "325, 1242",
     "grammar": "vb. I",
@@ -37991,6 +51936,11 @@ const OLD_ENGLISH_DICT = {
     "def": "325, 1242",
     "grammar": "vb. I",
     "lemma": "settan"
+  },
+  "setton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "setton"
   },
   "sex ben(n)": {
     "def": "dagger-wound",
@@ -38007,10 +51957,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "sex-ben(n)"
   },
+  "sexbennum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sexbennum"
+  },
+  "seðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "seðan"
+  },
   "si": {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "sīde"
+  },
+  "sib": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sib"
   },
   "sib æðeling": {
     "def": "related noble",
@@ -38026,6 +51991,16 @@ const OLD_ENGLISH_DICT = {
     "def": "related noble",
     "grammar": "m.",
     "lemma": "sib-æðeling"
+  },
+  "sibb": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sibb"
+  },
+  "sibbe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sibbe"
   },
   "sibbe gedriht": {
     "def": "band of kinsmen",
@@ -38046,6 +52021,11 @@ const OLD_ENGLISH_DICT = {
     "def": "related noble",
     "grammar": "m.",
     "lemma": "sib-æðeling"
+  },
+  "sibæðelingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sibæðelingas"
   },
   "sid": {
     "def": "adv",
@@ -38087,6 +52067,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sīd-rand"
   },
+  "sidan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sidan"
+  },
   "side": {
     "def": "adv",
     "grammar": "adv.",
@@ -38101,6 +52086,16 @@ const OLD_ENGLISH_DICT = {
     "def": "roomy",
     "grammar": "adj.",
     "lemma": "sīd-fæþmed"
+  },
+  "sidne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sidne"
+  },
+  "sidra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sidra"
   },
   "sidrand": {
     "def": "broad shield",
@@ -38297,10 +52292,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "siġe-folc"
   },
+  "sigefolca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigefolca"
+  },
   "sigehreð": {
     "def": "see hrēð), glory of victory",
     "grammar": "",
     "lemma": "siġe-hrēð"
+  },
+  "sigehreðig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigehreðig"
+  },
+  "sigehreðsecgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigehreðsecgum"
   },
   "sigehreþig": {
     "def": "victorious, trium-phant",
@@ -38312,6 +52322,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "siġe-hwīl"
   },
+  "sigehwila": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigehwila"
+  },
   "sigel": {
     "def": "sun",
     "grammar": "n.",
@@ -38322,30 +52337,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "siġe-lēas"
   },
+  "sigeleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigeleasne"
+  },
+  "sigemunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigemunde"
+  },
+  "sigemundes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigemundes"
+  },
   "sigerof": {
     "def": "courageous in victory, victorious",
     "grammar": "adj.",
     "lemma": "siġe-rōf"
+  },
+  "sigescyldinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigescyldinga"
+  },
+  "sigescyldingum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigescyldingum"
   },
   "sigewæpen": {
     "def": "victory-WEAPON",
     "grammar": "n.",
     "lemma": "siġe-wǣpen"
   },
+  "sigewæpnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigewæpnum"
+  },
   "sigeþeod": {
     "def": "victorious or glorious people",
     "grammar": "f.",
     "lemma": "siġe-þēod"
+  },
+  "sigeþeode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigeþeode"
   },
   "sigl": {
     "def": "jewel, brooch, necklace",
     "grammar": "n.",
     "lemma": "siġle"
   },
+  "sigla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigla"
+  },
   "sigle": {
     "def": "jewel, brooch, necklace",
     "grammar": "n.",
     "lemma": "siġle"
+  },
+  "siglu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siglu"
+  },
+  "sigon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigon"
   },
   "sigor": {
     "def": "triumph, glory",
@@ -38367,10 +52432,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sigor-ēadiġ"
   },
+  "sigora": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigora"
+  },
   "sigoreadig": {
     "def": "victorious",
     "grammar": "adj.",
     "lemma": "sigor-ēadiġ"
+  },
+  "sigores": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sigores"
   },
   "sin": {
     "def": "his",
@@ -38557,10 +52632,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "sinċ-þego"
   },
+  "sinca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sinca"
+  },
+  "since": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "since"
+  },
+  "sinces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sinces"
+  },
   "sincfag": {
     "def": "richly decorated",
     "grammar": "adj.",
     "lemma": "sinċ-fāg"
+  },
+  "sincfage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincfage"
+  },
+  "sincfato": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincfato"
   },
   "sincfæt": {
     "def": "precious cup, costly object",
@@ -38572,10 +52672,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sinċ-ġestrēon"
   },
+  "sincgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincgestreona"
+  },
+  "sincgestreonum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincgestreonum"
+  },
   "sincgifa": {
     "def": "treasure-GIVer",
     "grammar": "wk.",
     "lemma": "sinċ-ġifa"
+  },
+  "sincgifan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincgifan"
+  },
+  "sincgyfan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sincgyfan"
   },
   "sincmaðþum": {
     "def": "treasure, jewel",
@@ -38607,6 +52727,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "sin",
     "lemma": "sin-gāla"
   },
+  "singale": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "singale"
+  },
+  "singales": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "singales"
+  },
   "singan": {
     "def": "ring (out)",
     "grammar": "vb. 3",
@@ -38621,6 +52751,11 @@ const OLD_ENGLISH_DICT = {
     "def": "huge army",
     "grammar": "mja.",
     "lemma": "sin-here"
+  },
+  "sinherge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sinherge"
   },
   "sinne": {
     "def": "culpable",
@@ -38642,10 +52777,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "sint"
   },
+  "sinum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sinum"
+  },
   "sio": {
     "def": "see sē",
     "grammar": "",
     "lemma": "sīo"
+  },
+  "sioleða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sioleða"
   },
   "sioloð": {
     "def": "water, sea (?)",
@@ -38666,6 +52811,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see seomian",
     "grammar": "",
     "lemma": "siomian"
+  },
+  "site": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "site"
+  },
+  "siteð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siteð"
   },
   "sitt": {
     "def": "2906",
@@ -38717,15 +52872,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sīð-fæt"
   },
+  "siða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siða"
+  },
+  "siðalyfed": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðalyfed"
+  },
+  "siðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðas"
+  },
   "siðast": {
     "def": "latest, last",
     "grammar": "s",
     "lemma": "sīðast"
   },
+  "siðbeowulfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðbeowulfes"
+  },
+  "siðdrugon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðdrugon"
+  },
+  "siðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðe"
+  },
+  "siðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðes"
+  },
+  "siðestan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðestan"
+  },
+  "siðfate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðfate"
+  },
   "siðfrom": {
     "def": "eager to depart",
     "grammar": "adj.",
     "lemma": "sīð-from"
+  },
+  "siðfrome": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðfrome"
   },
   "siðfæt": {
     "def": "adventure",
@@ -38747,6 +52952,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "sīðian"
   },
+  "siðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðne"
+  },
+  "siðode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðode"
+  },
   "siðð": {
     "def": "then (i",
     "grammar": "I.",
@@ -38762,10 +52977,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "siððan"
   },
+  "siðþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siðþan"
+  },
+  "siþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siþes"
+  },
+  "siþðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siþðan"
+  },
+  "siþþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "siþþan"
+  },
+  "slat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slat"
+  },
   "sle": {
     "def": "681",
     "grammar": "vb. 6",
     "lemma": "slēan"
+  },
+  "slea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slea"
   },
   "sleac": {
     "def": "slothful",
@@ -38812,6 +53057,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "slīðen"
   },
+  "sliðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sliðne"
+  },
+  "sliðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sliðra"
+  },
+  "slog": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slog"
+  },
+  "slogon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slogon"
+  },
+  "sloh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sloh"
+  },
+  "slægen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slægen"
+  },
   "slæp": {
     "def": "1251",
     "grammar": "m.",
@@ -38827,10 +53102,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "slǣpan"
   },
+  "slæpende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slæpende"
+  },
+  "slæpendne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "slæpendne"
+  },
   "smið": {
     "def": "worker in metals",
     "grammar": "m.",
     "lemma": "smið"
+  },
+  "smiþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "smiþes"
   },
   "snel lic": {
     "def": "quick, brave",
@@ -38847,6 +53137,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "snel-liċ"
   },
+  "snella": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snella"
+  },
   "snellic": {
     "def": "quick, brave",
     "grammar": "adj.",
@@ -38856,6 +53151,21 @@ const OLD_ENGLISH_DICT = {
     "def": "wise",
     "grammar": "adj.",
     "lemma": "snot(t)or"
+  },
+  "snotera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snotera"
+  },
+  "snotere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snotere"
+  },
+  "snotor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snotor"
   },
   "snotor lice": {
     "def": "wisely, prudently, comp",
@@ -38877,6 +53187,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "snotor-līċe"
   },
+  "snotorlicor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snotorlicor"
+  },
+  "snotra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snotra"
+  },
+  "snottra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snottra"
+  },
+  "snottre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snottre"
+  },
   "snu": {
     "def": "without delay",
     "grammar": "adv.",
@@ -38891,6 +53221,11 @@ const OLD_ENGLISH_DICT = {
     "def": "without delay",
     "grammar": "adv.",
     "lemma": "snūde"
+  },
+  "snyredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snyredon"
   },
   "snyri": {
     "def": "move quickly",
@@ -38912,10 +53247,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f",
     "lemma": "snyttru"
   },
+  "snyttrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "snyttrum"
+  },
   "socn": {
     "def": "(‡)persecution, visita-tion",
     "grammar": "f.",
     "lemma": "sōcn"
+  },
+  "socne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "socne"
   },
   "sof": {
     "def": "gently, pleasantly",
@@ -38931,6 +53276,21 @@ const OLD_ENGLISH_DICT = {
     "def": "gently, pleasantly",
     "grammar": "adv.",
     "lemma": "sōfte"
+  },
+  "sohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sohte"
+  },
+  "sohtest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sohtest"
+  },
+  "sohton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sohton"
   },
   "somod": {
     "def": "see samod",
@@ -38952,6 +53312,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "sōna"
   },
+  "song": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "song"
+  },
   "sorg( )": {
     "def": "see sorh(-)",
     "grammar": "",
@@ -38966,6 +53331,21 @@ const OLD_ENGLISH_DICT = {
     "def": "see sorh(-)",
     "grammar": "",
     "lemma": "sorg(-)"
+  },
+  "sorga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorga"
+  },
+  "sorgcearig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorgcearig"
+  },
+  "sorge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorge"
   },
   "sorgi": {
     "def": "grieve, care",
@@ -39062,6 +53442,26 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sorh-ful(l)"
   },
+  "sorhfull": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhfull"
+  },
+  "sorhfullne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhfullne"
+  },
+  "sorhfulne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhfulne"
+  },
+  "sorhge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhge"
+  },
   "sorhleas": {
     "def": "adj",
     "grammar": "adj.",
@@ -39072,10 +53472,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sorh-lēoð"
   },
+  "sorhleoðgæleð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhleoðgæleð"
+  },
   "sorhwylm": {
     "def": "surging SORROW or care",
     "grammar": "mi.",
     "lemma": "sorh-wylm"
+  },
+  "sorhwylmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhwylmas"
+  },
+  "sorhwylmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sorhwylmum"
   },
   "soð": {
     "def": "2109",
@@ -39132,10 +53547,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sōð-fæst"
   },
+  "soðfæstra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðfæstra"
+  },
+  "soðic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðic"
+  },
+  "soðis": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðis"
+  },
   "soðlice": {
     "def": "faithfully",
     "grammar": "adv.",
     "lemma": "sōð-līċe"
+  },
+  "soðmetod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðmetod"
+  },
+  "soðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðond"
+  },
+  "soðspecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðspecan"
+  },
+  "soðæfter": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soðæfter"
+  },
+  "soþlice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "soþlice"
   },
   "spec": {
     "def": "see sprecan",
@@ -39157,10 +53612,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "spēd"
   },
+  "spel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spel"
+  },
   "spel(l)": {
     "def": "story, message",
     "grammar": "n.",
     "lemma": "spel(l)"
+  },
+  "spell": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spell"
+  },
+  "spella": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spella"
+  },
+  "speow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "speow"
+  },
+  "spite": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spite"
   },
   "spiw": {
     "def": "disgorge, pour out",
@@ -39192,6 +53672,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "spōwan"
   },
+  "sprang": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sprang"
+  },
   "sprec": {
     "def": "3172",
     "grammar": "vb. 5",
@@ -39206,6 +53691,11 @@ const OLD_ENGLISH_DICT = {
     "def": "3172",
     "grammar": "vb. 5",
     "lemma": "sprecan"
+  },
+  "sprecen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sprecen"
   },
   "spring": {
     "def": "bound, burst forth, spread",
@@ -39222,10 +53712,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "springan"
   },
+  "sprong": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sprong"
+  },
+  "sprungon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sprungon"
+  },
   "spræc": {
     "def": "language",
     "grammar": "fj",
     "lemma": "sprǣċ"
+  },
+  "spræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spræce"
+  },
+  "spræcon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "spræcon"
   },
   "st": {
     "def": "rock",
@@ -39307,6 +53817,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "stān-boga"
   },
+  "stanbogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stanbogan"
+  },
+  "stancleofu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stancleofu"
+  },
   "stanclif": {
     "def": "2540",
     "grammar": "n.",
@@ -39322,10 +53842,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "standan"
   },
+  "standað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "standað"
+  },
   "stande": {
     "def": "continue in a certain state",
     "grammar": "vb. 6",
     "lemma": "standan"
+  },
+  "standeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "standeð"
+  },
+  "stane": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stane"
   },
   "stanfah": {
     "def": "embellished with STONEs, paved",
@@ -39337,10 +53872,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "stān-hlið"
   },
+  "stanhliðo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stanhliðo"
+  },
   "stapol": {
     "def": "pillar, large upright stone (megalith)",
     "grammar": "m.",
     "lemma": "stapol"
+  },
+  "stapole": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stapole"
+  },
+  "stapulum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stapulum"
+  },
+  "starað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "starað"
+  },
+  "starede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "starede"
+  },
+  "staredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "staredon"
   },
   "stari": {
     "def": "look",
@@ -39357,6 +53922,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "starian"
   },
+  "starige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "starige"
+  },
   "ste": {
     "def": "rock",
     "grammar": "m.",
@@ -39366,6 +53936,16 @@ const OLD_ENGLISH_DICT = {
     "def": "high, towering",
     "grammar": "adj.",
     "lemma": "stēap"
+  },
+  "steape": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "steape"
+  },
+  "steapne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "steapne"
   },
   "stearc": {
     "def": "secure, unyielding",
@@ -39402,6 +53982,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "stefn"
   },
+  "stefne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stefne"
+  },
   "step": {
     "def": "raise, exalt",
     "grammar": "vb. I",
@@ -39432,6 +54017,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "steppan"
   },
+  "stepte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stepte"
+  },
   "stig": {
     "def": "2213",
     "grammar": "f.",
@@ -39446,6 +54036,11 @@ const OLD_ENGLISH_DICT = {
     "def": "step, go up, mount",
     "grammar": "vb. 1",
     "lemma": "stīgan"
+  },
+  "stigon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stigon"
   },
   "still": {
     "def": "fixed",
@@ -39492,6 +54087,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "stīð-mōd"
   },
+  "stiðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stiðond"
+  },
+  "stiðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stiðra"
+  },
+  "stod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stod"
+  },
+  "stodan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stodan"
+  },
+  "stodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stodon"
+  },
+  "stonc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stonc"
+  },
   "stond": {
     "def": "see standan",
     "grammar": "",
@@ -39517,10 +54142,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "storm"
   },
+  "storme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "storme"
+  },
   "stow": {
     "def": "1006, 1378",
     "grammar": "f.",
     "lemma": "stōw"
+  },
+  "stowe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stowe"
   },
   "strang": {
     "def": "1844",
@@ -39531,6 +54166,16 @@ const OLD_ENGLISH_DICT = {
     "def": "current (pl",
     "grammar": "m.",
     "lemma": "strēam"
+  },
+  "streamas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "streamas"
+  },
+  "stred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stred"
   },
   "streg": {
     "def": "STREW, spread",
@@ -39547,6 +54192,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "strēġan"
   },
+  "strenge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "strenge"
+  },
   "strengel": {
     "def": "chief, ruler",
     "grammar": "m.",
@@ -39561,6 +54211,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2540",
     "grammar": "f",
     "lemma": "strenġo"
+  },
+  "strengum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "strengum"
   },
   "strong": {
     "def": "see strang",
@@ -39587,15 +54242,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "strǣl"
   },
+  "stræla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stræla"
+  },
+  "stræle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stræle"
+  },
   "stræt": {
     "def": "916, 1634",
     "grammar": "f.",
     "lemma": "strǣt"
   },
+  "stræte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stræte"
+  },
   "stund": {
     "def": "time and again, 1423",
     "grammar": "f.",
     "lemma": "stund"
+  },
+  "stundum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stundum"
+  },
+  "style": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "style"
+  },
+  "stylecg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "stylecg"
+  },
+  "styrede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "styrede"
+  },
+  "styreþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "styreþ"
   },
   "styri": {
     "def": "1374",
@@ -39621,6 +54316,11 @@ const OLD_ENGLISH_DICT = {
     "def": "shout",
     "grammar": "vb. I",
     "lemma": "styrman"
+  },
+  "styrmde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "styrmde"
   },
   "styrme": {
     "def": "shout",
@@ -39712,10 +54412,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sum"
   },
+  "sume": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sume"
+  },
+  "sumne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sumne"
+  },
   "sun": {
     "def": "648",
     "grammar": "wk.",
     "lemma": "sunne"
+  },
+  "suna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "suna"
   },
   "sund": {
     "def": "swimming, voyage",
@@ -39752,6 +54467,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mu.",
     "lemma": "sund-wudu"
   },
+  "sunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sunde"
+  },
+  "sundes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sundes"
+  },
   "sundgebland": {
     "def": "commotion of water, surging water",
     "grammar": "n.",
@@ -39761,6 +54486,11 @@ const OLD_ENGLISH_DICT = {
     "def": "act of swimming",
     "grammar": "fj",
     "lemma": "sund-nyt(t)"
+  },
+  "sundnytte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sundnytte"
   },
   "sundor nyt(t)": {
     "def": "special service",
@@ -39777,6 +54507,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "sundor-nyt(t)"
   },
+  "sundornytte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sundornytte"
+  },
   "sundur": {
     "def": "apart, in two",
     "grammar": "adv.",
@@ -39792,6 +54527,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "sunne"
   },
+  "sunnan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sunnan"
+  },
   "sunne": {
     "def": "648",
     "grammar": "wk.",
@@ -39806,6 +54546,26 @@ const OLD_ENGLISH_DICT = {
     "def": "adv",
     "grammar": "adv.",
     "lemma": "sūð"
+  },
+  "suðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "suðan"
+  },
+  "suðdena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "suðdena"
+  },
+  "suðdene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "suðdene"
+  },
+  "suðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "suðne"
   },
   "suþ": {
     "def": "1966",
@@ -39832,6 +54592,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "swā"
   },
+  "swac": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swac"
+  },
   "swan": {
     "def": "young man (in prose: ‘herdsman’)",
     "grammar": "m.",
@@ -39856,6 +54621,11 @@ const OLD_ENGLISH_DICT = {
     "def": "SWAN-ROAD, sea",
     "grammar": "f.",
     "lemma": "swan-rād"
+  },
+  "swanrade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swanrade"
   },
   "swat": {
     "def": "(†)blood",
@@ -39902,10 +54672,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "swāt-swaðu"
   },
+  "swaðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swaðe"
+  },
   "swaðu": {
     "def": "remained behind), 2098",
     "grammar": "f.",
     "lemma": "swaðu"
+  },
+  "swaþredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swaþredon"
   },
   "swaþri": {
     "def": "subside, become still",
@@ -39927,15 +54707,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "swaþul"
   },
+  "swaþule": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swaþule"
+  },
   "swe": {
     "def": "thus, in this manner",
     "grammar": "I.",
     "lemma": "swā"
   },
+  "swealg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swealg"
+  },
+  "swealh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swealh"
+  },
+  "swealt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swealt"
+  },
   "sweart": {
     "def": "black, dark",
     "grammar": "adj.",
     "lemma": "sweart"
+  },
+  "sweartum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweartum"
   },
   "swebb": {
     "def": "†kill",
@@ -39962,6 +54767,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "swefan"
   },
+  "swefað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swefað"
+  },
   "swefe": {
     "def": "sleep, sleep in death",
     "grammar": "vb. 5",
@@ -39972,10 +54782,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "600",
     "lemma": "swefeð"
   },
+  "swefeðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swefeðond"
+  },
+  "swefeðsare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swefeðsare"
+  },
+  "swefeþæfter": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swefeþæfter"
+  },
   "sweg": {
     "def": "noise, music",
     "grammar": "mi.",
     "lemma": "swēġ"
+  },
+  "swege": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swege"
   },
   "swegl": {
     "def": "sky, heaven",
@@ -39991,6 +54821,16 @@ const OLD_ENGLISH_DICT = {
     "def": "clothed with radiance",
     "grammar": "adj.",
     "lemma": "sweġl-wered"
+  },
+  "swegle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swegle"
+  },
+  "swegles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swegles"
   },
   "sweglwered": {
     "def": "clothed with radiance",
@@ -40072,20 +54912,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "swenċan"
   },
+  "swencte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swencte"
+  },
   "sweng": {
     "def": "stroke",
     "grammar": "mi.",
     "lemma": "swenġ"
+  },
+  "swenge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swenge"
+  },
+  "swengum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swengum"
   },
   "sweofot": {
     "def": "sleep",
     "grammar": "m.",
     "lemma": "sweofot"
   },
+  "sweofote": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweofote"
+  },
   "sweoloð": {
     "def": "heat, flames",
     "grammar": "m.",
     "lemma": "sweoloð"
+  },
+  "sweoloðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweoloðe"
+  },
+  "sweona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweona"
   },
   "sweorc": {
     "def": "become sinister",
@@ -40101,6 +54971,11 @@ const OLD_ENGLISH_DICT = {
     "def": "become sinister",
     "grammar": "vb. 3",
     "lemma": "sweorcan"
+  },
+  "sweorceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweorceð"
   },
   "sweord": {
     "def": "§ ̄3",
@@ -40157,25 +55032,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "sweord-lēoma"
   },
+  "sweorda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweorda"
+  },
   "sweordbealo": {
     "def": "SWORD-destruction, death by the sword",
     "grammar": "nwa.",
     "lemma": "sweord-bealo"
+  },
+  "sweorde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweorde"
+  },
+  "sweordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweordes"
   },
   "sweordfreca": {
     "def": "(SWORD-) warrior",
     "grammar": "wk.",
     "lemma": "sweord-freca"
   },
+  "sweordfrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweordfrecan"
+  },
   "sweordleoma": {
     "def": "SWORD-light",
     "grammar": "wk.",
     "lemma": "sweord-lēoma"
   },
+  "sweordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweordum"
+  },
   "sweotol": {
     "def": "apparent, unmistak-able",
     "grammar": "adj.",
     "lemma": "sweotol"
+  },
+  "sweotolan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweotolan"
+  },
+  "sweoðeode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweoðeode"
   },
   "sweri": {
     "def": "2738",
@@ -40192,6 +55102,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "swerian"
   },
+  "swertinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swertinges"
+  },
   "sweðri": {
     "def": "diminish, cease",
     "grammar": "vb.  II",
@@ -40206,6 +55121,11 @@ const OLD_ENGLISH_DICT = {
     "def": "diminish, cease",
     "grammar": "vb.  II",
     "lemma": "sweðrian"
+  },
+  "sweðrode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sweðrode"
   },
   "swic": {
     "def": "escape",
@@ -40227,6 +55147,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swift"
   },
+  "swifta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swifta"
+  },
   "swig": {
     "def": "980",
     "grammar": "adj.",
@@ -40236,6 +55161,11 @@ const OLD_ENGLISH_DICT = {
     "def": "980",
     "grammar": "adj.",
     "lemma": "swīġe"
+  },
+  "swigedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swigedon"
   },
   "swigi": {
     "def": "2897 (w",
@@ -40251,6 +55181,16 @@ const OLD_ENGLISH_DICT = {
     "def": "2897 (w",
     "grammar": "vb. II",
     "lemma": "swīgian"
+  },
+  "swigode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swigode"
+  },
+  "swigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swigra"
   },
   "swilc": {
     "def": "see swylċe",
@@ -40307,15 +55247,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "swingan"
   },
+  "swingeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swingeð"
+  },
   "swinlic": {
     "def": "boar-figure",
     "grammar": "n.",
     "lemma": "swīn-līċ"
   },
+  "swinlicum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swinlicum"
+  },
+  "swiorice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiorice"
+  },
   "swioðol": {
     "def": "fire, flame",
     "grammar": "m.",
     "lemma": "swioðol"
+  },
+  "swioðole": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swioðole"
   },
   "swið": {
     "def": "harsh",
@@ -40372,6 +55332,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "swīð-ferhð"
   },
+  "swiðferhðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiðferhðum"
+  },
+  "swiðferhþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiðferhþe"
+  },
+  "swiðferhþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiðferhþes"
+  },
   "swiðhicgende": {
     "def": "strong-minded, courageous",
     "grammar": "adj.",
@@ -40381,6 +55356,21 @@ const OLD_ENGLISH_DICT = {
     "def": "strong-minded, stout-hearted",
     "grammar": "adj.",
     "lemma": "swīð-mōd"
+  },
+  "swiðor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiðor"
+  },
+  "swiðre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiðre"
+  },
+  "swiþor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swiþor"
   },
   "swog": {
     "def": "roar",
@@ -40396,6 +55386,11 @@ const OLD_ENGLISH_DICT = {
     "def": "roar",
     "grammar": "vb.  7",
     "lemma": "swōgan"
+  },
+  "swogende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swogende"
   },
   "swor": {
     "def": "see swerian",
@@ -40416,6 +55411,21 @@ const OLD_ENGLISH_DICT = {
     "def": "see swylċ",
     "grammar": "",
     "lemma": "swulċes"
+  },
+  "swulge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swulge"
+  },
+  "swuncon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swuncon"
+  },
+  "swurd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swurd"
   },
   "swurd( )": {
     "def": "see sweord(-)",
@@ -40447,6 +55457,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "swylċe"
   },
+  "swylcra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swylcra"
+  },
+  "swylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swylcum"
+  },
   "swylt": {
     "def": "death",
     "grammar": "mi.",
@@ -40467,15 +55487,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "swylt-dæġ"
   },
+  "swyltdæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swyltdæge"
+  },
+  "swymman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swymman"
+  },
   "swymman(swimman)": {
     "def": "SWIM",
     "grammar": "vb.  3",
     "lemma": "swymman(swimman)"
   },
+  "swyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swyn"
+  },
   "swynsian(swinsian)": {
     "def": "make a (pleasing or cheerful) sound",
     "grammar": "vb.  II",
     "lemma": "swynsian(swinsian)"
+  },
+  "swynsode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swynsode"
   },
   "swyrd": {
     "def": "see sweord",
@@ -40497,6 +55537,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "swyrd-ġifu"
   },
+  "swyð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swyð"
+  },
+  "swyðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swyðe"
+  },
+  "swyðferhð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swyðferhð"
+  },
+  "swæf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæf"
+  },
+  "swæfon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæfon"
+  },
+  "swæfun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæfun"
+  },
   "swæs": {
     "def": "dear",
     "grammar": "adj.",
@@ -40517,10 +55587,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "swǣs-līċe"
   },
+  "swæse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæse"
+  },
   "swæslice": {
     "def": "gently",
     "grammar": "adv.",
     "lemma": "swǣs-līċe"
+  },
+  "swæsne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæsne"
+  },
+  "swæsra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "swæsra"
   },
   "swæþer(=swahwæþer)": {
     "def": "whichever of two",
@@ -40536,6 +55621,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see swīð(e)",
     "grammar": "",
     "lemma": "swӯð(e)"
+  },
+  "sy": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sy"
   },
   "syfan wintre": {
     "def": "SEVEN years old",
@@ -40597,6 +55687,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "sylf"
   },
+  "sylfa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sylfa"
+  },
+  "sylfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sylfe"
+  },
+  "sylfes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sylfes"
+  },
+  "sylfne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sylfne"
+  },
+  "sylfra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sylfra"
+  },
   "syll": {
     "def": "see sellan",
     "grammar": "",
@@ -40616,6 +55731,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see sel-liċ",
     "grammar": "",
     "lemma": "syl-liċ"
+  },
+  "syllicran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syllicran"
   },
   "sym(b)le(sim[b]le)": {
     "def": "ever, always, regularly",
@@ -40641,6 +55761,21 @@ const OLD_ENGLISH_DICT = {
     "def": "happiness of feasting, delightful feast",
     "grammar": "fj",
     "lemma": "symbel-wyn(n)"
+  },
+  "symbelwynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "symbelwynne"
+  },
+  "symbla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "symbla"
+  },
+  "symble": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "symble"
   },
   "syml": {
     "def": "ds",
@@ -40747,6 +55882,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "syndon"
   },
+  "syndolh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syndolh"
+  },
   "syndolh(sin)": {
     "def": "very great wound",
     "grammar": "n.",
@@ -40762,15 +55902,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "syn-gāles"
   },
+  "synn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "synn"
+  },
+  "synnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "synnum"
+  },
   "synscaða": {
     "def": "hostile attacker, malefactor",
     "grammar": "wk.",
     "lemma": "syn-scaða"
   },
+  "synscaðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "synscaðan"
+  },
   "synsnæd": {
     "def": "huge morsel",
     "grammar": "fi.",
     "lemma": "syn-snǣd"
+  },
+  "synsnædum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "synsnædum"
   },
   "synt": {
     "def": "see eom",
@@ -40782,10 +55942,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "syrċe"
   },
+  "syrcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syrcan"
+  },
   "syrce": {
     "def": "226, 334",
     "grammar": "wk.",
     "lemma": "syrċe"
+  },
+  "syrede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syrede"
   },
   "syrw": {
     "def": "ambush",
@@ -40816,6 +55986,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see siððan",
     "grammar": "",
     "lemma": "syððan"
+  },
+  "syðþan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syðþan"
+  },
+  "syþðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "syþðan"
   },
   "s¬": {
     "def": "dem",
@@ -41047,6 +56227,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sǣ-bāt"
   },
+  "sæbebugeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæbebugeð"
+  },
   "sæc": {
     "def": "see sacu",
     "grammar": "",
@@ -41057,6 +56242,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "sæċ(ċ)"
   },
+  "sæcca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæcca"
+  },
+  "sæcce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæcce"
+  },
   "sæce": {
     "def": "see sacu",
     "grammar": "",
@@ -41066,6 +56261,11 @@ const OLD_ENGLISH_DICT = {
     "def": "SEA-KING",
     "grammar": "m.",
     "lemma": "sǣ-cyning"
+  },
+  "sæcyninga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæcyninga"
   },
   "sæd": {
     "def": "sǣde, see secgan",
@@ -41087,10 +56287,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sǣ-dēor"
   },
+  "sædne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sædne"
+  },
   "sædraca": {
     "def": "SEA-snake",
     "grammar": "wk.",
     "lemma": "sǣ-draca"
+  },
+  "sædracan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sædracan"
   },
   "sæg": {
     "def": "slay",
@@ -41102,6 +56312,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "sǣġan"
   },
+  "sægde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægde"
+  },
+  "sægdest": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægdest"
+  },
+  "sægdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægdon"
+  },
   "sæge": {
     "def": "slay",
     "grammar": "vb. I",
@@ -41111,6 +56336,16 @@ const OLD_ENGLISH_DICT = {
     "def": "curved (or spacious) (for use on the SEA)",
     "grammar": "adj.",
     "lemma": "sǣ-ġēap"
+  },
+  "sægeata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægeata"
+  },
+  "sægeatas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægeatas"
   },
   "sægenga": {
     "def": "SEA-goer, i",
@@ -41127,20 +56362,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "sǣ-grund"
   },
+  "sægrunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sægrunde"
+  },
   "sæl": {
     "def": "hall",
     "grammar": "n.",
     "lemma": "sæl"
+  },
+  "sæla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæla"
   },
   "sælac": {
     "def": "SEA-booty",
     "grammar": "n.",
     "lemma": "sǣ-lāc"
   },
+  "sælace": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sælace"
+  },
   "sælad": {
     "def": "SEA-journey, voyage",
     "grammar": "f.",
     "lemma": "sǣ-lād"
+  },
+  "sælade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sælade"
   },
   "sælan": {
     "def": "fasten, moor",
@@ -41152,6 +56407,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "sæld"
   },
+  "sælde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sælde"
+  },
+  "sældon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sældon"
+  },
   "sæle": {
     "def": "fasten, moor",
     "grammar": "vb. I",
@@ -41162,6 +56427,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "sǣ-līðend"
   },
+  "sæliþende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæliþende"
+  },
+  "sælum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sælum"
+  },
   "sæm": {
     "def": "worse, weak-er",
     "grammar": "adj.",
@@ -41171,6 +56446,16 @@ const OLD_ENGLISH_DICT = {
     "def": "329",
     "grammar": "mc.",
     "lemma": "sǣ-man(n)"
+  },
+  "sæmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæmanna"
+  },
+  "sæmannum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæmannum"
   },
   "sæmeþe": {
     "def": "SEA-weary",
@@ -41187,6 +56472,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sǣmra"
   },
+  "sæmran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæmran"
+  },
   "sæmre": {
     "def": "worse, weak-er",
     "grammar": "adj.",
@@ -41202,25 +56492,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "sǣne"
   },
+  "sænra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sænra"
+  },
   "sænæs(s)": {
     "def": "(SEA-)headland",
     "grammar": "mja.",
     "lemma": "sǣ-næs(s)"
+  },
+  "sænæssas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sænæssas"
+  },
+  "sæoþbær": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæoþbær"
   },
   "særinc": {
     "def": "SEA-man, -warrior",
     "grammar": "m.",
     "lemma": "sǣ-rinċ"
   },
+  "sæside": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæside"
+  },
   "sæsið": {
     "def": "voyage",
     "grammar": "m.",
     "lemma": "sǣ-sīð"
   },
+  "sæsiðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæsiðe"
+  },
+  "sæsohtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæsohtan"
+  },
+  "sæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæt"
+  },
+  "sæton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæton"
+  },
   "sæweal(l)": {
     "def": "SEA-WALL, shore",
     "grammar": "m.",
     "lemma": "sǣ-weal(l)"
+  },
+  "sæwealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæwealle"
+  },
+  "sæwille": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæwille"
   },
   "sæwong": {
     "def": "plain by the SEA, shore",
@@ -41236,6 +56576,16 @@ const OLD_ENGLISH_DICT = {
     "def": "SEA-WELLing, billow",
     "grammar": "mi.",
     "lemma": "sǣ-wylm"
+  },
+  "sæwylmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæwylmas"
+  },
+  "sæwæron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "sæwæron"
   },
   "sу": {
     "def": "see eom",
@@ -41262,6 +56612,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "tācen"
   },
+  "tacne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tacne"
+  },
+  "talast": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "talast"
+  },
+  "talað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "talað"
+  },
   "tali": {
     "def": "consider (some-one or something to be such and such)",
     "grammar": "vb. II",
@@ -41277,15 +56642,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "talian"
   },
+  "talige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "talige"
+  },
   "te": {
     "def": "1036 (lead)",
     "grammar": "vb. 2",
     "lemma": "tēon"
   },
+  "teah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "teah"
+  },
+  "tealde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tealde"
+  },
+  "tealdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tealdon"
+  },
   "tear": {
     "def": "1872",
     "grammar": "m.",
     "lemma": "tēar"
+  },
+  "tearas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tearas"
   },
   "tee": {
     "def": "1036 (lead)",
@@ -41332,6 +56722,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "tellan"
   },
+  "teodan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "teodan"
+  },
+  "teode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "teode"
+  },
   "teog": {
     "def": "SB § ̄415[e], OEG § ̄761",
     "grammar": "vb. II",
@@ -41352,6 +56752,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "teoh(h)"
   },
+  "teohhe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "teohhe"
+  },
   "teohhi": {
     "def": "assign",
     "grammar": "vb. II",
@@ -41367,10 +56772,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "teohhian"
   },
+  "teohhode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "teohhode"
+  },
   "teon": {
     "def": "1036 (lead)",
     "grammar": "vb. 2",
     "lemma": "tēon"
+  },
+  "that": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "that"
+  },
+  "the": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "the"
+  },
+  "this": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "this"
   },
   "tid": {
     "def": "147, 1915, 2226",
@@ -41397,6 +56822,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "tilian"
   },
+  "till": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "till"
+  },
+  "tilu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tilu"
+  },
   "timbr": {
     "def": "307",
     "grammar": "vb. I",
@@ -41411,6 +56846,16 @@ const OLD_ENGLISH_DICT = {
     "def": "307",
     "grammar": "vb. I",
     "lemma": "timbran"
+  },
+  "timbred": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "timbred"
+  },
+  "time": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "time"
   },
   "tir": {
     "def": "glory",
@@ -41467,6 +56912,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "tīr-ēadiġ"
   },
+  "tireadigum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tireadigum"
+  },
+  "tires": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tires"
+  },
   "tirfæst": {
     "def": "full of glory, famous",
     "grammar": "adj.",
@@ -41476,6 +56931,11 @@ const OLD_ENGLISH_DICT = {
     "def": "without glory, van-quished",
     "grammar": "adj.",
     "lemma": "tīr-lēas"
+  },
+  "tirleases": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tirleases"
   },
   "tiðian(tigðian)": {
     "def": "grant",
@@ -41702,6 +57162,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  4",
     "lemma": "tō-brecan"
   },
+  "tobrocen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tobrocen"
+  },
   "todrifan": {
     "def": "sep-arate",
     "grammar": "vb. 1",
@@ -41727,6 +57192,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "togen"
   },
+  "togenes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "togenes"
+  },
+  "toglad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "toglad"
+  },
   "toglidan": {
     "def": "split (intr",
     "grammar": "vb.  1",
@@ -41741,6 +57216,11 @@ const OLD_ENGLISH_DICT = {
     "def": "spring apart",
     "grammar": "vb. 1",
     "lemma": "tō-hlīdan"
+  },
+  "tohlidene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tohlidene"
   },
   "tolucan": {
     "def": "destroy",
@@ -41772,10 +57252,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "torn-ġemōt"
   },
+  "torna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "torna"
+  },
+  "torne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "torne"
+  },
   "torngemot": {
     "def": "hostile MEETing",
     "grammar": "n.",
     "lemma": "torn-ġemōt"
+  },
+  "tornost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tornost"
   },
   "tosomne": {
     "def": "3122",
@@ -41786,6 +57281,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(WAKE up), stir up",
     "grammar": "vb. I",
     "lemma": "tō-weċċan"
+  },
+  "towehton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "towehton"
   },
   "tr": {
     "def": "adj",
@@ -41872,6 +57372,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "trēow-loga"
   },
+  "treowlogan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "treowlogan"
+  },
+  "trode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "trode"
+  },
   "trodu": {
     "def": "track, footprint",
     "grammar": "f.",
@@ -41897,6 +57407,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "truwian"
   },
+  "truwode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "truwode"
+  },
   "tryddi": {
     "def": "see treddian",
     "grammar": "",
@@ -41911,6 +57426,21 @@ const OLD_ENGLISH_DICT = {
     "def": "see treddian",
     "grammar": "",
     "lemma": "tryddian"
+  },
+  "tryddode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tryddode"
+  },
+  "trywe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "trywe"
+  },
+  "træd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "træd"
   },
   "trуw": {
     "def": "faithful",
@@ -41942,6 +57472,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "twēġen"
   },
+  "twega": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "twega"
+  },
   "twege": {
     "def": "f",
     "grammar": "m.",
@@ -41957,6 +57492,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "num.",
     "lemma": "twelf"
   },
+  "twelfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "twelfe"
+  },
   "tweo": {
     "def": "in dp",
     "grammar": "distrib.",
@@ -41971,6 +57511,31 @@ const OLD_ENGLISH_DICT = {
     "def": "in dp",
     "grammar": "distrib.",
     "lemma": "twēone"
+  },
+  "tweonum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tweonum"
+  },
+  "twæm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "twæm"
+  },
+  "tydre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tydre"
+  },
+  "tyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tyn"
+  },
+  "tyne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "tyne"
   },
   "tуd": {
     "def": "craven",
@@ -42032,6 +57597,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ufan"
   },
+  "ufaran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ufaran"
+  },
   "ufe": {
     "def": "comp",
     "grammar": "ufara",
@@ -42047,6 +57617,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "ufara",
     "lemma": "ufera"
   },
+  "uferan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uferan"
+  },
   "ufere": {
     "def": "comp",
     "grammar": "ufara",
@@ -42056,6 +57631,11 @@ const OLD_ENGLISH_DICT = {
     "def": "farther away",
     "grammar": "adv.",
     "lemma": "ufor"
+  },
+  "uht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uht"
   },
   "uht floga": {
     "def": "(dawn- or) night-FLIer",
@@ -42107,6 +57687,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ūht-sceaða"
   },
+  "uhtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uhtan"
+  },
   "uhtaoruh": {
     "def": "time just before daybreak, dawn",
     "grammar": "wk.",
@@ -42126,6 +57711,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(dawn- or) night-FLIer",
     "grammar": "wk.",
     "lemma": "ūht-floga"
+  },
+  "uhthlem": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uhthlem"
   },
   "uhthlem(m)": {
     "def": "crash or uproar at (dawn or) night",
@@ -42161,6 +57751,16 @@ const OLD_ENGLISH_DICT = {
     "def": "being a child",
     "grammar": "adj.",
     "lemma": "umbor-wesende"
+  },
+  "umborwesendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "umborwesendum"
+  },
+  "un": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "un"
   },
   "un bliðe": {
     "def": "sorrowful",
@@ -42807,10 +58407,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pers.",
     "lemma": "uncer"
   },
+  "uncran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uncran"
+  },
   "uncuð": {
     "def": "2214",
     "grammar": "adj.",
     "lemma": "un-cūð"
+  },
+  "uncuðgelad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uncuðgelad"
+  },
+  "uncuðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uncuðne"
+  },
+  "uncuþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uncuþes"
   },
   "undearnunga": {
     "def": "without conceal-ment, openly",
@@ -42832,6 +58452,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "undern-mǣl"
   },
+  "underne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "underne"
+  },
   "undernmæl": {
     "def": "morning-time",
     "grammar": "n.",
@@ -42841,6 +58466,26 @@ const OLD_ENGLISH_DICT = {
     "def": "not hidden, apparent, revealed, obvious",
     "grammar": "",
     "lemma": "un-dyrne"
+  },
+  "unferð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unferð"
+  },
+  "unferðlæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unferðlæt"
+  },
+  "unferðmaþelode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unferðmaþelode"
+  },
+  "unferþþyle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unferþþyle"
   },
   "unflitme": {
     "def": "without dispute (?), 1097 (n",
@@ -42862,6 +58507,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-frōd"
   },
+  "unfrodum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unfrodum"
+  },
   "unfrom": {
     "def": "inactive, feeble",
     "grammar": "adj.",
@@ -42877,10 +58527,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-fǣġe"
   },
+  "unfæger": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unfæger"
+  },
   "unfæger(seeappx.c§25)": {
     "def": "UNFAIR, ugly, eerie, horrible",
     "grammar": "adj.",
     "lemma": "un-fǣġer(seeAppx.C§25)"
+  },
+  "unfægne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unfægne"
   },
   "ungeara": {
     "def": "re-cently",
@@ -42897,6 +58557,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "un-ġemete"
   },
+  "ungyfeðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ungyfeðe"
+  },
   "ungyfeðe(gifeðe)": {
     "def": "not granted, denied",
     "grammar": "adj.",
@@ -42906,6 +58571,16 @@ const OLD_ENGLISH_DICT = {
     "def": "adj",
     "grammar": "",
     "lemma": "un-hēore"
+  },
+  "unheoru": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unheoru"
+  },
+  "unhiore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unhiore"
   },
   "unhlitme": {
     "def": "not reluctantly, eagerly, earnestly (?), 1129 (n",
@@ -42917,10 +58592,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-hrōr"
   },
+  "unhyre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unhyre"
+  },
   "unhælo": {
     "def": "‡evil, destruction",
     "grammar": "f",
     "lemma": "un-hǣlo"
+  },
+  "unigmetes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unigmetes"
   },
   "unigmetes(=ungemetes": {
     "def": "adv",
@@ -42932,10 +58617,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-lēof"
   },
+  "unleofe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unleofe"
+  },
+  "unli": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unli"
+  },
+  "unlifgendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unlifgendum"
+  },
   "unlifigende": {
     "def": "not LIVing, dead",
     "grammar": "",
     "lemma": "un-lifiġende"
+  },
+  "unly": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unly"
+  },
+  "unlytel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unlytel"
   },
   "unlуtel": {
     "def": "great",
@@ -42961,6 +58671,11 @@ const OLD_ENGLISH_DICT = {
     "def": "wish (some-one to have something), grant",
     "grammar": "prp.",
     "lemma": "unnan"
+  },
+  "unnyt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unnyt"
   },
   "unnyt(t)": {
     "def": "unusable",
@@ -42992,6 +58707,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "un-rōt"
   },
+  "unrote": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unrote"
+  },
   "unslaw": {
     "def": "(‡)not blunt, sharp",
     "grammar": "adj.",
@@ -43001,6 +58721,11 @@ const OLD_ENGLISH_DICT = {
     "def": "folly",
     "grammar": "f",
     "lemma": "un-snyttru"
+  },
+  "unsnyttrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unsnyttrum"
   },
   "unsofte": {
     "def": "hardly, with diÌculty",
@@ -43012,15 +58737,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "un-swīðe"
   },
+  "unswiðor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unswiðor"
+  },
   "unsynnig": {
     "def": "guiltless",
     "grammar": "adj.",
     "lemma": "un-synniġ"
   },
+  "unsynnigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unsynnigne"
+  },
   "unsynnum": {
     "def": "guiltlessly",
     "grammar": "adv.",
     "lemma": "un-synnum"
+  },
+  "untydras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "untydras"
   },
   "untæle": {
     "def": "blameless",
@@ -43036,6 +58776,11 @@ const OLD_ENGLISH_DICT = {
     "def": "not (WEAK) mean, splendid",
     "grammar": "adj.",
     "lemma": "un-wāc-liċ"
+  },
+  "unwaclicne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "unwaclicne"
   },
   "unwearnum": {
     "def": "without hin-drance, irresistibly",
@@ -43097,6 +58842,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "uppe"
   },
+  "uppriht": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uppriht"
+  },
   "upprihte": {
     "def": "UPRIGHT",
     "grammar": "adv.",
@@ -43116,6 +58866,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see iċ",
     "grammar": "",
     "lemma": "ūrum"
+  },
+  "us": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "us"
   },
   "user": {
     "def": "see ūre",
@@ -43151,6 +58906,11 @@ const OLD_ENGLISH_DICT = {
     "def": "ūssum, see ūre",
     "grammar": "",
     "lemma": "ūsses"
+  },
+  "ussum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ussum"
   },
   "ut": {
     "def": "outside",
@@ -43197,6 +58957,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ūtan-weard"
   },
+  "utanweardne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "utanweardne"
+  },
   "ute": {
     "def": "outside",
     "grammar": "adv.",
@@ -43232,6 +58997,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ūð-genġe"
   },
+  "uðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "uðe"
+  },
   "uðgenge": {
     "def": "w",
     "grammar": "adj.",
@@ -43256,6 +59026,11 @@ const OLD_ENGLISH_DICT = {
     "def": "Gr",
     "grammar": "m.",
     "lemma": "wā"
+  },
+  "waca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waca"
   },
   "waci": {
     "def": "OEG § ̄764), keep WATCH, be awake",
@@ -43292,10 +59067,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wada"
   },
+  "wado": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wado"
+  },
+  "wadu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wadu"
+  },
   "wag": {
     "def": "1662",
     "grammar": "m.",
     "lemma": "wāg"
+  },
+  "wage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wage"
+  },
+  "wagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wagum"
   },
   "wald swaþu": {
     "def": "n",
@@ -43312,10 +59107,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "waldend"
   },
+  "waldendes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waldendes"
+  },
   "waldswaþu": {
     "def": "n",
     "grammar": "f.",
     "lemma": "wald-swaþu"
+  },
+  "waldswaþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waldswaþum"
   },
   "walu": {
     "def": "pl",
@@ -43326,6 +59131,11 @@ const OLD_ENGLISH_DICT = {
     "def": "adj",
     "grammar": "adj.",
     "lemma": "wan"
+  },
+  "wand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wand"
   },
   "wandri": {
     "def": "WANDER, rove, circle",
@@ -43346,6 +59156,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see wong",
     "grammar": "",
     "lemma": "wang"
+  },
+  "wange": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wange"
   },
   "wani": {
     "def": "WANE, diminish, waste away",
@@ -43377,6 +59192,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "wāniġean"
   },
+  "wanode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wanode"
+  },
+  "wanre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wanre"
+  },
+  "waraðwintrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waraðwintrum"
+  },
   "wari": {
     "def": "occupy, inhabit",
     "grammar": "vb. II",
@@ -43392,15 +59222,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "warian"
   },
+  "warigeað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "warigeað"
+  },
+  "warode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "warode"
+  },
   "waroð": {
     "def": "234",
     "grammar": "m.",
     "lemma": "waroð"
   },
+  "waroðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waroðas"
+  },
+  "waroðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "waroðe"
+  },
   "wast": {
     "def": "wāt, see witan",
     "grammar": "w",
     "lemma": "wāst"
+  },
+  "wat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wat"
   },
   "waðol": {
     "def": "wandering",
@@ -43452,6 +59307,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "wēa-dǣd"
   },
+  "weal": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weal"
+  },
   "weal(l)": {
     "def": "cavern, rock, elevated shore [229, 572, 1224",
     "grammar": "m.",
@@ -43461,6 +59321,11 @@ const OLD_ENGLISH_DICT = {
     "def": "survivors of calamity",
     "grammar": "f.",
     "lemma": "wēa-lāf"
+  },
+  "wealafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealafe"
   },
   "weald": {
     "def": "have power over, rule, WIELD, possess",
@@ -43482,6 +59347,36 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "wealdend"
   },
+  "wealdende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealdende"
+  },
+  "wealdendes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealdendes"
+  },
+  "wealhðeo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealhðeo"
+  },
+  "wealhþeo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealhþeo"
+  },
+  "wealhþeon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealhþeon"
+  },
+  "wealhþeow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealhþeow"
+  },
   "weall": {
     "def": "surge, seethe, boil",
     "grammar": "vb. 7",
@@ -43502,6 +59397,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "weallan"
   },
+  "weallas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weallas"
+  },
+  "weallaðwælniðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weallaðwælniðas"
+  },
   "weallclif": {
     "def": "CLIFF (see weal[l])",
     "grammar": "n.",
@@ -43512,10 +59417,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 7",
     "lemma": "weallan"
   },
+  "weallende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weallende"
+  },
+  "weallendu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weallendu"
+  },
+  "wealles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wealles"
+  },
+  "wean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wean"
+  },
+  "weana": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weana"
+  },
   "weard": {
     "def": "watch",
     "grammar": "f.",
     "lemma": "weard"
+  },
+  "weardade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weardade"
+  },
+  "wearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearde"
   },
   "weardi": {
     "def": "GUARD, (†)occupy",
@@ -43532,15 +59472,90 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "weardian"
   },
+  "weardode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weardode"
+  },
+  "weardodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weardodon"
+  },
   "wearn": {
     "def": "‡refusal",
     "grammar": "f.",
     "lemma": "wearn"
   },
+  "wearne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearne"
+  },
+  "wearp": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearp"
+  },
+  "wearð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearð"
+  },
+  "wearðealgearo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðealgearo"
+  },
+  "wearðgrendles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðgrendles"
+  },
+  "wearðheremod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðheremod"
+  },
+  "wearðhim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðhim"
+  },
+  "wearðin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðin"
+  },
+  "wearðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðon"
+  },
+  "wearðongenðiow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearðongenðiow"
+  },
+  "wearþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearþ"
+  },
+  "wearþhe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wearþhe"
+  },
   "weaspel(l)": {
     "def": "news of WOE, discour-aging turn of events",
     "grammar": "n.",
     "lemma": "wēa-spel(l)"
+  },
+  "weaspelle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weaspelle"
   },
   "weax": {
     "def": "grow, increase, flourish",
@@ -43556,6 +59571,16 @@ const OLD_ENGLISH_DICT = {
     "def": "grow, increase, flourish",
     "grammar": "vb. 7",
     "lemma": "weaxan"
+  },
+  "weaxeðond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weaxeðond"
+  },
+  "web": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "web"
   },
   "web(b)": {
     "def": "WEB, tapestry",
@@ -43577,15 +59602,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  I",
     "lemma": "weċċan"
   },
+  "weccean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weccean"
+  },
   "wed(d)": {
     "def": "2998",
     "grammar": "nja.",
     "lemma": "wed(d)"
   },
+  "wedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedde"
+  },
   "weder": {
     "def": "1136",
     "grammar": "n.",
     "lemma": "weder"
+  },
+  "wedera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedera"
+  },
+  "wedergeata": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedergeata"
+  },
+  "wedergeatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedergeatum"
+  },
+  "wedermearce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedermearce"
+  },
+  "wedra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wedra"
   },
   "wee": {
     "def": "misery, trouble",
@@ -43692,6 +59752,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wēl-þungen"
   },
+  "welandes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "welandes"
+  },
   "wele": {
     "def": "rich",
     "grammar": "adj.",
@@ -43702,10 +59767,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "wēl-hwylċ"
   },
+  "welhwylcra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "welhwylcra"
+  },
   "welig": {
     "def": "rich",
     "grammar": "adj.",
     "lemma": "weliġ"
+  },
+  "weligne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weligne"
+  },
+  "well": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "well"
   },
   "welþungen": {
     "def": "accomplished, excellent",
@@ -43722,10 +59802,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "wēnan"
   },
+  "wende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wende"
+  },
+  "wendeðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wendeðon"
+  },
+  "wendla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wendla"
+  },
+  "wendon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wendon"
+  },
   "wene": {
     "def": "expect, think",
     "grammar": "vb. I",
     "lemma": "wēnan"
+  },
+  "wenede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wenede"
+  },
+  "weneþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weneþ"
   },
   "wenn": {
     "def": "attach to one-self ̄), †entertain, present",
@@ -43742,10 +59852,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "wennan"
   },
+  "wenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wenum"
+  },
   "weo": {
     "def": "gp",
     "grammar": "gp.",
     "lemma": "weora"
+  },
+  "weohstan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weohstan"
+  },
+  "weohstanes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weohstanes"
+  },
+  "weol": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weol"
+  },
+  "weold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weold"
+  },
+  "weoldon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weoldon"
+  },
+  "weoll": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weoll"
   },
   "weor": {
     "def": "gp",
@@ -43762,6 +59907,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "weorc"
   },
+  "weorce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorce"
+  },
+  "weorces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorces"
+  },
+  "weorcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorcum"
+  },
   "weore": {
     "def": "gp",
     "grammar": "gp.",
@@ -43771,6 +59931,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see werod",
     "grammar": "",
     "lemma": "weorod"
+  },
+  "weoroda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weoroda"
+  },
+  "weorode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorode"
   },
   "weorp": {
     "def": "pret",
@@ -43832,15 +60002,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "weorðan"
   },
+  "weorðað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðað"
+  },
+  "weorðdenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðdenum"
+  },
   "weorðe": {
     "def": "come to pass, arise",
     "grammar": "vb. 3",
     "lemma": "weorðan"
   },
+  "weorðeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðeð"
+  },
   "weorðful(l)": {
     "def": "WORTHy, val-ued, praiseworthy",
     "grammar": "adj.",
     "lemma": "weorð-ful(l)"
+  },
+  "weorðfullost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðfullost"
   },
   "weorði": {
     "def": "exalt, ennoble, adorn",
@@ -43862,10 +60052,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "weorð-līċe"
   },
+  "weorðlicost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðlicost"
+  },
   "weorðmynd": {
     "def": "glory",
     "grammar": "f.",
     "lemma": "weorð-mynd"
+  },
+  "weorðmynda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðmynda"
+  },
+  "weorðmyndum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðmyndum"
+  },
+  "weorðode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorðode"
+  },
+  "weorþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorþa"
+  },
+  "weorþad": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorþad"
+  },
+  "weorþeð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorþeð"
+  },
+  "weorþode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorþode"
+  },
+  "weorþra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weorþra"
   },
   "weoten": {
     "def": "see wita",
@@ -43887,6 +60122,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "weotian(witian)"
   },
+  "weotode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weotode"
+  },
+  "weox": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weox"
+  },
+  "weoxstanes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weoxstanes"
+  },
   "wer": {
     "def": "1352 (male person)",
     "grammar": "m.",
@@ -43902,6 +60152,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "wer-þēod"
   },
+  "wera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wera"
+  },
+  "weras": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weras"
+  },
   "were": {
     "def": "579",
     "grammar": "adj.",
@@ -43911,6 +60171,26 @@ const OLD_ENGLISH_DICT = {
     "def": "sweet drink",
     "grammar": "n.",
     "lemma": "wered"
+  },
+  "werede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "werede"
+  },
+  "weredon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weredon"
+  },
+  "weres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "weres"
+  },
+  "wereð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wereð"
   },
   "werg": {
     "def": "wērgum, see wēriġ",
@@ -43922,6 +60202,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "werġa(wērga?)"
   },
+  "wergan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wergan"
+  },
   "werge": {
     "def": "wērgum, see wēriġ",
     "grammar": "w",
@@ -43931,6 +60216,16 @@ const OLD_ENGLISH_DICT = {
     "def": "2882",
     "grammar": "mc.",
     "lemma": "werġend"
+  },
+  "wergendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wergendra"
+  },
+  "wergum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wergum"
   },
   "werhðo": {
     "def": "damnation, punishment in hell",
@@ -43977,10 +60272,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "werod"
   },
+  "werodes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "werodes"
+  },
+  "werudes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "werudes"
+  },
   "werþeod": {
     "def": "people, nation",
     "grammar": "f.",
     "lemma": "wer-þēod"
+  },
+  "werþeode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "werþeode"
   },
   "wes": {
     "def": "see eom",
@@ -44002,15 +60312,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wēste"
   },
+  "westdenum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "westdenum"
+  },
   "weste": {
     "def": "deserted",
     "grammar": "adj.",
     "lemma": "wēste"
   },
+  "westen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "westen"
+  },
   "westen(n)": {
     "def": "desert, wilder-ness",
     "grammar": "nja.",
     "lemma": "wēsten(n)"
+  },
+  "westenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "westenne"
+  },
+  "westne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "westne"
   },
   "wi": {
     "def": "far and wide, far",
@@ -44042,15 +60372,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wīċ-stede"
   },
+  "wica": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wica"
+  },
   "wicg": {
     "def": "horse",
     "grammar": "nja.",
     "lemma": "wicg"
   },
+  "wicga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wicga"
+  },
+  "wicge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wicge"
+  },
   "wicstede": {
     "def": "place of residence, home, inhabited place",
     "grammar": "mi.",
     "lemma": "wīċ-stede"
+  },
+  "wicum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wicum"
+  },
+  "wicun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wicun"
   },
   "wid": {
     "def": "far and wide, far",
@@ -44127,10 +60482,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wīd-wegas"
   },
+  "widan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "widan"
+  },
+  "widcuðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "widcuðne"
+  },
   "widcuþ": {
     "def": "WIDEly known, famous",
     "grammar": "adj.",
     "lemma": "wīd-cūþ"
+  },
+  "widcuþes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "widcuþes"
+  },
+  "widcuþwerum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "widcuþwerum"
   },
   "wide": {
     "def": "far and wide, far",
@@ -44152,10 +60527,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wīde-ferhð"
   },
+  "wideferhþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wideferhþ"
+  },
   "widfloga": {
     "def": "far-FLIer",
     "grammar": "wk.",
     "lemma": "wīd-floga"
+  },
+  "widre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "widre"
   },
   "widscofen": {
     "def": "pushed far, far-reaching, great",
@@ -44181,6 +60566,21 @@ const OLD_ENGLISH_DICT = {
     "def": "love for a woman (or WIFE)",
     "grammar": "wk.",
     "lemma": "wīf-lufu(-lufe)"
+  },
+  "wifa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wifa"
+  },
+  "wife": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wife"
+  },
+  "wifes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wifes"
   },
   "wiflufu(lufe)": {
     "def": "love for a woman (or WIFE)",
@@ -44452,6 +60852,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nwa.",
     "lemma": "wīġ-bealu"
   },
+  "wigbil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigbil"
+  },
   "wigbil(l)": {
     "def": "battle-sword",
     "grammar": "n.",
@@ -44472,15 +60877,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wīġ-cræftiġ"
   },
+  "wigcræftigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigcræftigne"
+  },
   "wige": {
     "def": "fight",
     "grammar": "vb.  1",
     "lemma": "wīgan"
   },
+  "wigena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigena"
+  },
   "wigend": {
     "def": "warrior",
     "grammar": "mc.",
     "lemma": "wīġend"
+  },
+  "wigendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigendra"
+  },
+  "wiges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiges"
   },
   "wigeð": {
     "def": "see wegan",
@@ -44492,10 +60917,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "wīġ-freca"
   },
+  "wigfrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigfrecan"
+  },
   "wigfruma": {
     "def": "war-chief",
     "grammar": "wk.",
     "lemma": "wīġ-fruma"
+  },
+  "wigfruman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigfruman"
   },
   "wigg": {
     "def": "see wīġ",
@@ -44512,6 +60947,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "wīġ-ġetawa"
   },
+  "wiggetawum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiggetawum"
+  },
   "wiggeweorþad": {
     "def": "distin-guished in battle",
     "grammar": "adj.",
@@ -44526,6 +60966,11 @@ const OLD_ENGLISH_DICT = {
     "def": "war-head, i",
     "grammar": "wk.",
     "lemma": "wīġ-heafola"
+  },
+  "wigheafolan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigheafolan"
   },
   "wigheap": {
     "def": "band of warriors",
@@ -44542,6 +60987,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wīġ-hryre"
   },
+  "wiglaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiglaf"
+  },
   "wigsigor": {
     "def": "(war-) victory",
     "grammar": "",
@@ -44551,6 +61001,11 @@ const OLD_ENGLISH_DICT = {
     "def": "success in war, victory",
     "grammar": "fi.",
     "lemma": "wīġ-spēd"
+  },
+  "wigspeda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigspeda"
   },
   "wigte": {
     "def": "see wītiġ",
@@ -44562,15 +61017,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wiġtiġ"
   },
+  "wigum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigum"
+  },
   "wigweorþung": {
     "def": "honor to idols, sac-rifice",
     "grammar": "f.",
     "lemma": "wīġ-weorþung"
   },
+  "wigweorþunga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wigweorþunga"
+  },
+  "wihstanes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wihstanes"
+  },
   "wiht": {
     "def": "creature, being",
     "grammar": "fni.",
     "lemma": "wiht"
+  },
+  "wihte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wihte"
+  },
+  "wil": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wil"
   },
   "wil cuma": {
     "def": "388, 394, 1894",
@@ -44632,10 +61112,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wil-sīð"
   },
+  "wilaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wilaf"
+  },
   "wilcuma": {
     "def": "388, 394, 1894",
     "grammar": "wk.",
     "lemma": "wil-cuma"
+  },
+  "wilcuman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wilcuman"
+  },
+  "wildeor": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wildeor"
   },
   "wildeor[wild deor]": {
     "def": "WILD animal",
@@ -44652,6 +61147,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wildēor[wild-dēor]"
   },
+  "wile": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wile"
+  },
   "wilgeofa": {
     "def": "joy-GIVer, lord",
     "grammar": "wk.",
@@ -44661,6 +61161,11 @@ const OLD_ENGLISH_DICT = {
     "def": "close companion",
     "grammar": "m.",
     "lemma": "wil-ġesīþ"
+  },
+  "wilgesiþas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wilgesiþas"
   },
   "will": {
     "def": "wish, desire",
@@ -44681,6 +61186,16 @@ const OLD_ENGLISH_DICT = {
     "def": "wish, desire",
     "grammar": "wk.",
     "lemma": "willa"
+  },
+  "willum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "willum"
+  },
+  "wilna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wilna"
   },
   "wilni": {
     "def": "ask for (gen",
@@ -44777,6 +61292,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wind-ġeard"
   },
+  "windagum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "windagum"
+  },
   "windan": {
     "def": "WIND, fly, curl, eddy",
     "grammar": "vb. 3",
@@ -44792,6 +61312,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "windiġ"
   },
+  "windge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "windge"
+  },
   "windgeard": {
     "def": "home of the WINDs",
     "grammar": "m.",
@@ -44801,6 +61326,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2456",
     "grammar": "adj.",
     "lemma": "windiġ"
+  },
+  "windige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "windige"
   },
   "windæg": {
     "def": "DAY of struggle or hardship",
@@ -44877,6 +61407,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wine-drihten"
   },
+  "winedrihtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winedrihtne"
+  },
+  "winedryhten": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winedryhten"
+  },
   "winegeomor": {
     "def": "mourning one’s friends",
     "grammar": "adj.",
@@ -44887,10 +61427,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wine-lēas"
   },
+  "wineleasum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wineleasum"
+  },
+  "winemagas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winemagas"
+  },
   "winemæg": {
     "def": "friend and kinsman, retainer",
     "grammar": "m.",
     "lemma": "wine-mǣġ"
+  },
+  "wines": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wines"
   },
   "wini": {
     "def": "winiġea, see wine",
@@ -44906,6 +61461,11 @@ const OLD_ENGLISH_DICT = {
     "def": "winiġea, see wine",
     "grammar": "wini",
     "lemma": "winia"
+  },
+  "winigea": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winigea"
   },
   "winn": {
     "def": "fight",
@@ -44937,15 +61497,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "winter"
   },
+  "wintra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wintra"
+  },
+  "wintrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wintrum"
+  },
+  "wintrys": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wintrys"
+  },
+  "winum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winum"
+  },
   "winærn": {
     "def": "WINE-hall",
     "grammar": "n.",
     "lemma": "wīn-ærn"
   },
+  "winærnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "winærnes"
+  },
   "wir": {
     "def": "(gold or silver) WIRE, metal band, ornament",
     "grammar": "m.",
     "lemma": "wīr"
+  },
+  "wira": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wira"
+  },
+  "wirum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wirum"
   },
   "wis": {
     "def": "leader",
@@ -44997,6 +61592,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "wīsa"
   },
+  "wisade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisade"
+  },
+  "wisan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisan"
+  },
   "wiscan(wуscan)": {
     "def": "WISH",
     "grammar": "vb. I",
@@ -45006,6 +61611,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1959",
     "grammar": "m.",
     "lemma": "wīs-dōm"
+  },
+  "wisdome": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisdome"
   },
   "wise": {
     "def": "leader",
@@ -45037,6 +61647,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "wīsian"
   },
+  "wisige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisige"
+  },
+  "wisode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisode"
+  },
+  "wisra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisra"
+  },
   "wiss": {
     "def": "-on, see witan",
     "grammar": "",
@@ -45046,6 +61671,11 @@ const OLD_ENGLISH_DICT = {
     "def": "-on, see witan",
     "grammar": "",
     "lemma": "wisse"
+  },
+  "wisson": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wisson"
   },
   "wist": {
     "def": "see wīscan",
@@ -45066,6 +61696,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see wīscan",
     "grammar": "",
     "lemma": "wīston"
+  },
+  "wistfylle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wistfylle"
   },
   "wistfyllo": {
     "def": "FILL of feasting, plenti-ful meal",
@@ -45101,6 +61736,11 @@ const OLD_ENGLISH_DICT = {
     "def": "wise",
     "grammar": "adj.",
     "lemma": "wītiġ"
+  },
+  "witena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "witena"
   },
   "witig": {
     "def": "wise",
@@ -45192,6 +61832,51 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "wið-habban"
   },
+  "wiðaglæcean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðaglæcean"
+  },
+  "wiðattorsceaðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðattorsceaðan"
+  },
+  "wiðblode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðblode"
+  },
+  "wiðbrecan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðbrecan"
+  },
+  "wiðeallum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðeallum"
+  },
+  "wiðearm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðearm"
+  },
+  "wiðecge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðecge"
+  },
+  "wiðeorðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðeorðan"
+  },
+  "wiðeotena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðeotena"
+  },
   "wiðer ræhtes": {
     "def": "opposite",
     "grammar": "adv.",
@@ -45212,15 +61897,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "wiðer-ræhtes"
   },
+  "wiðergyld": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðergyld"
+  },
   "wiðerræhtes": {
     "def": "opposite",
     "grammar": "adv.",
     "lemma": "wiðer-ræhtes"
   },
+  "wiðfeng": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfeng"
+  },
+  "wiðfeond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfeond"
+  },
+  "wiðfeonda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfeonda"
+  },
+  "wiðfeonde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfeonde"
+  },
   "wiðfon": {
     "def": "w",
     "grammar": "vb. 7",
     "lemma": "wið-fōn"
+  },
+  "wiðfreond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfreond"
+  },
+  "wiðfærgryrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðfærgryrum"
+  },
+  "wiðgeatas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgeatas"
+  },
+  "wiðgod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgod"
+  },
+  "wiðgode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgode"
+  },
+  "wiðgrendel": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgrendel"
+  },
+  "wiðgrendle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgrendle"
+  },
+  "wiðgrendles": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðgrendles"
   },
   "wiðgripan": {
     "def": "grapple WITH",
@@ -45232,6 +61982,86 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. III",
     "lemma": "wið-habban"
   },
+  "wiðhalse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhalse"
+  },
+  "wiðhettendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhettendum"
+  },
+  "wiðhis": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhis"
+  },
+  "wiðhrefnawudu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhrefnawudu"
+  },
+  "wiðhron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhron"
+  },
+  "wiðhroþgar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhroþgar"
+  },
+  "wiðhugas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhugas"
+  },
+  "wiðhæfde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhæfde"
+  },
+  "wiðhæleþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðhæleþa"
+  },
+  "wiðlaðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðlaðum"
+  },
+  "wiðlice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðlice"
+  },
+  "wiðlige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðlige"
+  },
+  "wiðmanna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðmanna"
+  },
+  "wiðmæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðmæge"
+  },
+  "wiðniðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðniðe"
+  },
+  "wiðord": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðord"
+  },
   "wiðr": {
     "def": "resistance",
     "grammar": "nja.",
@@ -45242,10 +62072,110 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "wiðre"
   },
+  "wiðres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðres"
+  },
+  "wiðrihte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðrihte"
+  },
+  "wiðrond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðrond"
+  },
+  "wiðsande": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðsande"
+  },
+  "wiðsorgum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðsorgum"
+  },
+  "wiðsteapne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðsteapne"
+  },
+  "wiðsylfne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðsylfne"
+  },
+  "wiðwinde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðwinde"
+  },
+  "wiðwraðwerod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðwraðwerod"
+  },
+  "wiðwraþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðwraþum"
+  },
+  "wiðwulf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðwulf"
+  },
+  "wiðælfylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðælfylcum"
+  },
+  "wiððam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiððam"
+  },
+  "wiðþam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþam"
+  },
+  "wiðþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþe"
+  },
+  "wiðþeodþreaum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþeodþreaum"
+  },
+  "wiðþone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþone"
+  },
+  "wiðþyrse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþyrse"
+  },
+  "wiðþæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wiðþæs"
+  },
   "wlanc": {
     "def": "see wlonc",
     "grammar": "",
     "lemma": "wlanc"
+  },
+  "wlat": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wlat"
   },
   "wlati": {
     "def": "gaze, look out for (w",
@@ -45261,6 +62191,16 @@ const OLD_ENGLISH_DICT = {
     "def": "gaze, look out for (w",
     "grammar": "vb. II",
     "lemma": "wlātian"
+  },
+  "wlatode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wlatode"
+  },
+  "wlence": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wlence"
   },
   "wlenco": {
     "def": "high spirit, daring",
@@ -45322,6 +62262,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wlite-beorht"
   },
+  "wlitebeorhtne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wlitebeorhtne"
+  },
   "wliteseon": {
     "def": "sight, spectacle",
     "grammar": "fi.",
@@ -45332,15 +62277,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wlitiġ"
   },
+  "wliton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wliton"
+  },
   "wlonc": {
     "def": "high-spirited, bold",
     "grammar": "adj.",
     "lemma": "wlonc"
   },
+  "wlonces": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wlonces"
+  },
   "woc": {
     "def": "see wæcnan",
     "grammar": "",
     "lemma": "wōc"
+  },
+  "wocun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wocun"
+  },
+  "wod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wod"
   },
   "woh": {
     "def": "perverse",
@@ -45392,6 +62357,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wolcen"
   },
+  "wolcnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wolcnum"
+  },
   "wold": {
     "def": "see willan",
     "grammar": "",
@@ -45401,6 +62371,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see willan",
     "grammar": "",
     "lemma": "wolde"
+  },
+  "woldon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "woldon"
   },
   "wollen tear": {
     "def": "with gushing TEARs",
@@ -45417,6 +62392,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wollen-tēar"
   },
+  "wollenteare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wollenteare"
+  },
   "wom": {
     "def": "see wōh",
     "grammar": "",
@@ -45426,6 +62406,11 @@ const OLD_ENGLISH_DICT = {
     "def": "blot, injury, mis-fortune",
     "grammar": "m.",
     "lemma": "wom(m)"
+  },
+  "wommum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wommum"
   },
   "won": {
     "def": "pret",
@@ -45492,20 +62477,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wong-stede"
   },
+  "wongas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wongas"
+  },
+  "wonge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonge"
+  },
   "wongstede": {
     "def": "place",
     "grammar": "mi.",
     "lemma": "wong-stede"
+  },
+  "wonhydum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonhydum"
   },
   "wonhуd(hygd)": {
     "def": "recklessness",
     "grammar": "fni.",
     "lemma": "won-hӯd(-hyġd)"
   },
+  "wonna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonna"
+  },
+  "wonredes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonredes"
+  },
+  "wonreding": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonreding"
+  },
   "wonsceaft": {
     "def": "misery",
     "grammar": "fi.",
     "lemma": "won-sceaft"
+  },
+  "wonsæli": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wonsæli"
   },
   "wonsæli(sælig)": {
     "def": "unfortunate, unlucky",
@@ -45517,10 +62537,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wōp"
   },
+  "wope": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wope"
+  },
   "worc": {
     "def": "see weorc",
     "grammar": "",
     "lemma": "worc"
+  },
+  "worca": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worca"
+  },
+  "worcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worcum"
   },
   "word": {
     "def": "utterance, speech",
@@ -45577,10 +62612,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "word-riht"
   },
+  "worda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worda"
+  },
+  "wordcwida": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordcwida"
+  },
   "wordcwide": {
     "def": "WORDs, speech",
     "grammar": "mi.",
     "lemma": "word-cwide"
+  },
+  "wordcwydas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordcwydas"
+  },
+  "wordcwydum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordcwydum"
+  },
+  "worde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worde"
+  },
+  "wordes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordes"
+  },
+  "wordgyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordgyd"
   },
   "wordgyd(d)": {
     "def": "song, account, eulogy",
@@ -45597,6 +62667,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "word-riht"
   },
+  "wordrihta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordrihta"
+  },
+  "wordum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wordum"
+  },
   "worh": {
     "def": "see wyrċan",
     "grammar": "",
@@ -45612,10 +62692,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "worhte"
   },
+  "worlde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worlde"
+  },
   "worn": {
     "def": "great quantity",
     "grammar": "m.",
     "lemma": "worn"
+  },
+  "worna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worna"
   },
   "worold": {
     "def": "1738 (‘everything’)",
@@ -45657,15 +62747,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "worold-ār"
   },
+  "woroldare": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "woroldare"
+  },
   "woroldcyning": {
     "def": "(earthly) KING",
     "grammar": "m.",
     "lemma": "worold-cyning"
   },
+  "woroldcyninga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "woroldcyninga"
+  },
+  "worolde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worolde"
+  },
   "woroldræden(n)": {
     "def": "WORLDly rule, leadership (?)",
     "grammar": "f.",
     "lemma": "worold-rǣden(n)"
+  },
+  "woroldrædenne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "woroldrædenne"
   },
   "woruld candel": {
     "def": "WORLD-CANDLE (sun)",
@@ -45702,6 +62812,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "woruld-candel"
   },
+  "worulde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worulde"
+  },
   "woruldende": {
     "def": "END of the WORLD",
     "grammar": "mja.",
@@ -45731,6 +62846,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see weorð-mynd",
     "grammar": "",
     "lemma": "worð-mynd"
+  },
+  "worðmyndum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "worðmyndum"
   },
   "wracu": {
     "def": "punishment",
@@ -45767,6 +62887,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "wrāð-līċe"
   },
+  "wraðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wraðra"
+  },
+  "wraþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wraþum"
+  },
   "wrec": {
     "def": "force",
     "grammar": "vb. 5",
@@ -45792,10 +62922,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "wreċċa"
   },
+  "wreccena": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wreccena"
+  },
   "wrece": {
     "def": "force",
     "grammar": "vb. 5",
     "lemma": "wrecan"
+  },
+  "wrecen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wrecen"
   },
   "wrecend": {
     "def": "mc",
@@ -45816,6 +62956,11 @@ const OLD_ENGLISH_DICT = {
     "def": "HILT wrapped with a grip or with twisted ornamentation",
     "grammar": "adj.",
     "lemma": "wreoþen-hilt"
+  },
+  "wridað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wridað"
   },
   "wridi": {
     "def": "flourish",
@@ -45847,6 +62992,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "wrītan"
   },
+  "writen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "writen"
+  },
   "wrixl": {
     "def": "2969",
     "grammar": "f.",
@@ -45861,6 +63011,11 @@ const OLD_ENGLISH_DICT = {
     "def": "change, vary, ex-change",
     "grammar": "vb. I",
     "lemma": "wrixlan"
+  },
+  "wriðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wriðon"
   },
   "wriþ": {
     "def": "bind, tie",
@@ -45927,6 +63082,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wræċċa"
   },
+  "wræccan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wræccan"
+  },
   "wræcce": {
     "def": "see wreċċa",
     "grammar": "",
@@ -45942,15 +63102,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wræc-lāst"
   },
+  "wræclastas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wræclastas"
+  },
   "wræcmæcg": {
     "def": "banished man, outcast",
     "grammar": "mja.",
     "lemma": "wræc-mæcġ"
   },
+  "wræcmæcgas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wræcmæcgas"
+  },
   "wræcsið": {
     "def": "misery",
     "grammar": "m.",
     "lemma": "wræc-sīð"
+  },
+  "wræcsiðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wræcsiðum"
   },
   "wræt lic": {
     "def": "ornamental, splendid, wonder-inspiring",
@@ -45967,10 +63142,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wrǣt-liċ"
   },
+  "wræte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wræte"
+  },
   "wrætlic": {
     "def": "ornamental, splendid, wonder-inspiring",
     "grammar": "adj.",
     "lemma": "wrǣt-liċ"
+  },
+  "wrætlicne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wrætlicne"
+  },
+  "wrætta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wrætta"
+  },
+  "wrættum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wrættum"
   },
   "wudu": {
     "def": "1364",
@@ -46012,6 +63207,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wuldor-torht"
   },
+  "wuldortorhtan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wuldortorhtan"
+  },
+  "wuldres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wuldres"
+  },
   "wuldur cyning": {
     "def": "KING of glory (God)",
     "grammar": "m.",
@@ -46026,6 +63231,11 @@ const OLD_ENGLISH_DICT = {
     "def": "KING of glory (God)",
     "grammar": "m.",
     "lemma": "wuldur-cyning"
+  },
+  "wuldurcyninge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wuldurcyninge"
   },
   "wulf": {
     "def": "3027",
@@ -46042,15 +63252,55 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wulf-hliþ"
   },
+  "wulfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wulfe"
+  },
+  "wulfgar": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wulfgar"
+  },
+  "wulfhleoþu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wulfhleoþu"
+  },
   "wulfhliþ": {
     "def": "WOLF-slope, retreat of wolves",
     "grammar": "n.",
     "lemma": "wulf-hliþ"
   },
+  "wunað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunað"
+  },
+  "wunaðhe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunaðhe"
+  },
+  "wunaðwælreste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunaðwælreste"
+  },
   "wund": {
     "def": "[F",
     "grammar": "adj.",
     "lemma": "wund"
+  },
+  "wunde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunde"
+  },
+  "wunden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunden"
   },
   "wunden feax": {
     "def": "with (WOUND) braided hair, or with curly mane",
@@ -46122,6 +63372,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "wunden-stefna"
   },
+  "wunder": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunder"
+  },
   "wunder fæt": {
     "def": "WONDERful vessel",
     "grammar": "n.",
@@ -46132,10 +63387,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wunder-fæt"
   },
+  "wunderfatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunderfatum"
+  },
   "wunderfæt": {
     "def": "WONDERful vessel",
     "grammar": "n.",
     "lemma": "wunder-fæt"
+  },
+  "wundnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundnum"
+  },
+  "wundon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundon"
   },
   "wundor": {
     "def": "astonishing thing",
@@ -46207,10 +63477,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wundor-bebod"
   },
+  "wundorbebodum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundorbebodum"
+  },
   "wundordeað": {
     "def": "strange DEATH",
     "grammar": "m.",
     "lemma": "wundor-dēað"
+  },
+  "wundordeaðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundordeaðe"
+  },
+  "wundorlic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundorlic"
   },
   "wundorl√c": {
     "def": "strange",
@@ -46222,10 +63507,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fi.",
     "lemma": "wundor-sīon"
   },
+  "wundorsiona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundorsiona"
+  },
   "wundorsmiþ": {
     "def": "WONDER-SMITH, i",
     "grammar": "m.",
     "lemma": "wundor-smiþ"
+  },
+  "wundorsmiþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundorsmiþa"
+  },
+  "wundra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundra"
+  },
+  "wundre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundre"
+  },
+  "wundrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundrum"
+  },
+  "wundum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundum"
+  },
+  "wundur": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wundur"
   },
   "wundur maððum": {
     "def": "WONDERful jewel",
@@ -46267,6 +63587,31 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.  II",
     "lemma": "wunian"
   },
+  "wunne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunne"
+  },
+  "wunnon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunnon"
+  },
+  "wunode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wunode"
+  },
+  "wurde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wurde"
+  },
+  "wurdon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wurdon"
+  },
   "wurð": {
     "def": "see weorð-",
     "grammar": "",
@@ -46282,10 +63627,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wurð-"
   },
+  "wurðan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wurðan"
+  },
+  "wurðaþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wurðaþ"
+  },
   "wutun": {
     "def": "introd",
     "grammar": "uton",
     "lemma": "wutun"
+  },
+  "wyl": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyl"
   },
   "wyl(l)": {
     "def": "see willan",
@@ -46297,10 +63657,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wylla",
     "lemma": "wyl(l)e"
   },
+  "wyle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyle"
+  },
+  "wyllað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyllað"
+  },
+  "wylle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wylle"
+  },
   "wylm": {
     "def": "surging, flood",
     "grammar": "mi.",
     "lemma": "wylm"
+  },
+  "wylmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wylmas"
+  },
+  "wylmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wylmum"
+  },
+  "wylt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wylt"
+  },
+  "wyn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyn"
   },
   "wyn leas": {
     "def": "joyLESS",
@@ -46352,10 +63747,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "wyn-lēas"
   },
+  "wynleasne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wynleasne"
+  },
+  "wynne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wynne"
+  },
+  "wynnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wynnum"
+  },
   "wynsum": {
     "def": "admirable, fine",
     "grammar": "adj.",
     "lemma": "wyn-sum"
+  },
+  "wynsuman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wynsuman"
+  },
+  "wynsume": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wynsume"
   },
   "wyrc": {
     "def": "do, make",
@@ -46376,6 +63796,11 @@ const OLD_ENGLISH_DICT = {
     "def": "destroy",
     "grammar": "vb. I",
     "lemma": "wyrdan"
+  },
+  "wyrda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrda"
   },
   "wyrdan": {
     "def": "destroy",
@@ -46422,10 +63847,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wyrm-hord"
   },
+  "wyrmas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrmas"
+  },
   "wyrmcyn(n)": {
     "def": "1425",
     "grammar": "nja.",
     "lemma": "wyrm-cyn(n)"
+  },
+  "wyrmcynnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrmcynnes"
+  },
+  "wyrme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrme"
+  },
+  "wyrmes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrmes"
   },
   "wyrmfah": {
     "def": "with serpentine orna-mentation",
@@ -46442,6 +63887,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "wyrp"
   },
+  "wyrpe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrpe"
+  },
   "wyrs": {
     "def": "525 (n",
     "grammar": "compar.",
@@ -46452,6 +63902,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "compar.",
     "lemma": "wyrsa"
   },
+  "wyrsan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrsan"
+  },
   "wyrse": {
     "def": "525 (n",
     "grammar": "compar.",
@@ -46461,6 +63916,11 @@ const OLD_ENGLISH_DICT = {
     "def": "1364",
     "grammar": "fi.",
     "lemma": "wyrt"
+  },
+  "wyrtum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrtum"
   },
   "wyruld": {
     "def": "see worold-",
@@ -46477,6 +63937,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "wyruld-"
   },
+  "wyruldcyninga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyruldcyninga"
+  },
   "wyrð": {
     "def": "WORTHy of, fit for",
     "grammar": "adj.",
@@ -46486,6 +63951,16 @@ const OLD_ENGLISH_DICT = {
     "def": "WORTHy of, fit for",
     "grammar": "adj.",
     "lemma": "wyrðe"
+  },
+  "wyrðne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrðne"
+  },
+  "wyrðra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wyrðra"
   },
   "wæ": {
     "def": "wæs, see eom",
@@ -46506,6 +63981,16 @@ const OLD_ENGLISH_DICT = {
     "def": "except fair uses permitted under U",
     "grammar": "",
     "lemma": "wæċċend(-)"
+  },
+  "wæccende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæccende"
+  },
+  "wæccendne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæccendne"
   },
   "wæcn": {
     "def": "vb",
@@ -46606,6 +64091,16 @@ const OLD_ENGLISH_DICT = {
     "def": "(billowy) sea",
     "grammar": "m.",
     "lemma": "wǣġ-holm"
+  },
+  "wægliðendum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wægliðendum"
+  },
+  "wægmundinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wægmundinga"
   },
   "wægsweord": {
     "def": "SWORD with wavy ornamentation",
@@ -46872,35 +64367,75 @@ const OLD_ENGLISH_DICT = {
     "grammar": "nja.",
     "lemma": "wæl-bed(d)"
   },
+  "wælbedde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælbedde"
+  },
   "wælbend": {
     "def": "deadly BOND",
     "grammar": "fj",
     "lemma": "wæl-bend"
+  },
+  "wælbende": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælbende"
   },
   "wælbleat": {
     "def": "deadly, mortal (?)",
     "grammar": "adj.",
     "lemma": "wæl-blēat"
   },
+  "wælbleate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælbleate"
+  },
   "wældeað": {
     "def": "DEATH by slaughter",
     "grammar": "m.",
     "lemma": "wæl-dēað"
+  },
+  "wældeaðfornam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wældeaðfornam"
   },
   "wældreor": {
     "def": "blood of slaugh-ter",
     "grammar": "m.",
     "lemma": "wæl-drēor"
   },
+  "wældreore": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wældreore"
+  },
+  "wæle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæle"
+  },
   "wælfag": {
     "def": "slaughter-stained (?)",
     "grammar": "adj.",
     "lemma": "wæl-fāg"
   },
+  "wælfagne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfagne"
+  },
   "wælfeal(l)": {
     "def": "slaughter",
     "grammar": "m.",
     "lemma": "wæl-feal(l)"
+  },
+  "wælfealle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfealle"
   },
   "wælfus": {
     "def": "ready for death",
@@ -46912,15 +64447,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wæl-fyl(l)"
   },
+  "wælfylla": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfylla"
+  },
+  "wælfylle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfylle"
+  },
   "wælfyllo": {
     "def": "abundance of slain, FILL of slaughter",
     "grammar": "f",
     "lemma": "wæl-fyllo"
   },
+  "wælfyra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfyra"
+  },
+  "wælfyre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfyre"
+  },
   "wælfæhð": {
     "def": "deadly FEUD",
     "grammar": "f.",
     "lemma": "wæl-fǣhð"
+  },
+  "wælfæhða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælfæhða"
   },
   "wælfуr": {
     "def": "deadly FIRE",
@@ -46931,6 +64491,11 @@ const OLD_ENGLISH_DICT = {
     "def": "slaughtering demon",
     "grammar": "mi.",
     "lemma": "wæl-gǣst"
+  },
+  "wælhlem": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælhlem"
   },
   "wælhlem(m)": {
     "def": "slaughter-uproar, onslaught",
@@ -46952,15 +64517,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wæll-seax"
   },
+  "wællseaxe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wællseaxe"
+  },
   "wælm": {
     "def": "see wylm",
     "grammar": "",
     "lemma": "wælm"
   },
+  "wælmes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælmes"
+  },
   "wælnið": {
     "def": "deadly hate, hostility",
     "grammar": "m.",
     "lemma": "wæl-nīð"
+  },
+  "wælniðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælniðe"
+  },
+  "wælniðwera": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælniðwera"
   },
   "wælrap": {
     "def": "water-fetter (ice)",
@@ -46992,10 +64577,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "wæl-rǣs"
   },
+  "wælræse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælræse"
+  },
   "wælsceaft": {
     "def": "battle-(SHAFT, i",
     "grammar": "m.",
     "lemma": "wæl-sceaft"
+  },
+  "wælsceaftas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælsceaftas"
+  },
+  "wælses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælses"
+  },
+  "wælsinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælsinges"
   },
   "wælsliht": {
     "def": "SLAUGHTer",
@@ -47007,10 +64612,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mi.",
     "lemma": "wæl-stenġ"
   },
+  "wælstenge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælstenge"
+  },
   "wælstow": {
     "def": "2051, 2984",
     "grammar": "f.",
     "lemma": "wæl-stōw"
+  },
+  "wælstowe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wælstowe"
+  },
+  "wæn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæn"
   },
   "wæn(wægn)": {
     "def": "WAGON",
@@ -47032,6 +64652,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "wǣpen"
   },
+  "wæpna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæpna"
+  },
+  "wæpne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæpne"
+  },
   "wæpned mon(n)": {
     "def": "1284",
     "grammar": "mc.",
@@ -47042,25 +64672,60 @@ const OLD_ENGLISH_DICT = {
     "grammar": "mc.",
     "lemma": "wǣpned-mon(n)"
   },
+  "wæpnedmen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæpnedmen"
+  },
   "wæpnedmon(n)": {
     "def": "1284",
     "grammar": "mc.",
     "lemma": "wǣpned-mon(n)"
+  },
+  "wæpnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæpnes"
+  },
+  "wæpnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæpnum"
   },
   "wær": {
     "def": "treaty",
     "grammar": "f.",
     "lemma": "wǣr"
   },
+  "wæran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæran"
+  },
   "wære": {
     "def": "wæs, see eom",
     "grammar": "w",
     "lemma": "wǣre"
   },
+  "wæron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæron"
+  },
+  "wæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæs"
+  },
   "wæstm": {
     "def": "stature, form",
     "grammar": "m.",
     "lemma": "wæstm"
+  },
+  "wæstmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæstmum"
   },
   "wæter": {
     "def": "sea",
@@ -47097,15 +64762,70 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "wæter-ӯð"
   },
+  "wætere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wætere"
+  },
   "wæteregesa": {
     "def": "WATER-terror, awful water",
     "grammar": "wk.",
     "lemma": "wæter-eġesa"
   },
+  "wæteregesan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæteregesan"
+  },
+  "wæteres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæteres"
+  },
+  "wæteryðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wæteryðum"
+  },
   "wæterуð": {
     "def": "wave of the sea",
     "grammar": "fj",
     "lemma": "wæter-ӯð"
+  },
+  "wætre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "wætre"
+  },
+  "xii": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "xii"
+  },
+  "xiia": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "xiia"
+  },
+  "xvna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "xvna"
+  },
+  "xxx": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "xxx"
+  },
+  "xxxtiges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "xxxtiges"
+  },
+  "y": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "y"
   },
   "yfel": {
     "def": "harm",
@@ -47127,6 +64847,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "ylca"
   },
+  "ylcan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ylcan"
+  },
   "ylce": {
     "def": "2239",
     "grammar": "pron.",
@@ -47136,6 +64861,11 @@ const OLD_ENGLISH_DICT = {
     "def": "vb",
     "grammar": "vb. I",
     "lemma": "yldan"
+  },
+  "ylda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ylda"
   },
   "yldan": {
     "def": "vb",
@@ -47156,6 +64886,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see eald",
     "grammar": "",
     "lemma": "yldesta"
+  },
+  "yldestan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yldestan"
   },
   "yldeste": {
     "def": "see eald",
@@ -47181,6 +64916,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see eald",
     "grammar": "",
     "lemma": "yldra"
+  },
+  "yldum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yldum"
   },
   "ylf": {
     "def": "2007]",
@@ -47272,10 +65012,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 5",
     "lemma": "ymb-sittan"
   },
+  "ymbbearh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbbearh"
+  },
   "ymbbeorgan": {
     "def": "protect (round about)",
     "grammar": "vb. 3",
     "lemma": "ymb-beorgan"
+  },
+  "ymbe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbe"
   },
   "ymbe fon": {
     "def": "enclose",
@@ -47317,10 +65067,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 3",
     "lemma": "ymbe-hweorfan"
   },
+  "ymbefeng": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbefeng"
+  },
   "ymbefon": {
     "def": "enclose",
     "grammar": "vb. 7",
     "lemma": "ymbe-fōn"
+  },
+  "ymbehwearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbehwearf"
   },
   "ymbehweorfan": {
     "def": "2296",
@@ -47332,15 +65092,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "anv.",
     "lemma": "ymb-ēode"
   },
+  "ymbesittendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbesittendra"
+  },
   "ymbsittan": {
     "def": "564",
     "grammar": "vb. 5",
     "lemma": "ymb-sittan"
   },
+  "ymbsittend": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbsittend"
+  },
+  "ymbsittendra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbsittendra"
+  },
+  "ymbsæton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ymbsæton"
+  },
   "ypp": {
     "def": "raised floor, high seat",
     "grammar": "wk.",
     "lemma": "yppe"
+  },
+  "yppan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yppan"
   },
   "yppe": {
     "def": "raised floor, high seat",
@@ -47387,15 +65172,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "yrfe-lāf"
   },
+  "yrfelafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yrfelafe"
+  },
   "yrfeweard": {
     "def": "heir",
     "grammar": "m.",
     "lemma": "yrfe-weard"
   },
+  "yrfeweardas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yrfeweardas"
+  },
+  "yrmenlafes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yrmenlafes"
+  },
+  "yrmðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yrmðe"
+  },
   "yrmþ(u)": {
     "def": "1259",
     "grammar": "f.",
     "lemma": "yrmþ(u)"
+  },
+  "yrmþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yrmþe"
   },
   "yrr": {
     "def": "2092",
@@ -47442,6 +65252,91 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ys"
   },
+  "ywde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ywde"
+  },
+  "yða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yða"
+  },
+  "yðde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðde"
+  },
+  "yðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðe"
+  },
+  "yðelice": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðelice"
+  },
+  "yðgebland": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðgebland"
+  },
+  "yðgeblond": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðgeblond"
+  },
+  "yðgewinne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðgewinne"
+  },
+  "yðgewinnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðgewinnes"
+  },
+  "yðlafe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðlafe"
+  },
+  "yðlidan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðlidan"
+  },
+  "yðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yðum"
+  },
+  "yþa": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yþa"
+  },
+  "yþe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yþe"
+  },
+  "yþgesene": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yþgesene"
+  },
+  "yþlade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yþlade"
+  },
+  "yþum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "yþum"
+  },
   "æ": {
     "def": "adv",
     "grammar": "adv.",
@@ -47467,6 +65362,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ǣdre"
   },
+  "ædrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ædrum"
+  },
   "æf": {
     "def": "at any time (in any case)",
     "grammar": "adv.",
@@ -47491,6 +65391,11 @@ const OLD_ENGLISH_DICT = {
     "def": "cause for resentment, irritant",
     "grammar": "wk.",
     "lemma": "æf-þunca"
+  },
+  "æfen": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æfen"
   },
   "æfen grom": {
     "def": "angry (hostile, op-pressive) in the EVENing",
@@ -47552,10 +65457,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fj",
     "lemma": "ǣfen-ræst"
   },
+  "æfenræste": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æfenræste"
+  },
   "æfenspræc": {
     "def": "EVENing-SPEECH",
     "grammar": "fj",
     "lemma": "ǣfen-sprǣċ"
+  },
+  "æfenspræce": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æfenspræce"
   },
   "æfn": {
     "def": "perform, do",
@@ -47566,6 +65481,11 @@ const OLD_ENGLISH_DICT = {
     "def": "perform, do",
     "grammar": "vb. I",
     "lemma": "æfnan"
+  },
+  "æfnde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æfnde"
   },
   "æfne": {
     "def": "perform, do",
@@ -47682,15 +65602,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "pron.",
     "lemma": "ǣġ-hwylċ"
   },
+  "æghwylcne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwylcne"
+  },
+  "æghwylcum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwylcum"
+  },
   "æghwær": {
     "def": "in all cir-cumstances",
     "grammar": "adv.",
     "lemma": "ǣġ-hwǣr"
   },
+  "æghwæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwæs"
+  },
   "æghwæðer": {
     "def": "2844",
     "grammar": "pron.",
     "lemma": "ǣġ-hwæðer"
+  },
+  "æghwæðrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwæðrum"
+  },
+  "æghwæþres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwæþres"
+  },
+  "æghwæþrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æghwæþrum"
   },
   "æglæca": {
     "def": "see āg-lǣċa",
@@ -47702,10 +65652,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "ǣġ-weard"
   },
+  "ægwearde": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ægwearde"
+  },
   "æht": {
     "def": "2248",
     "grammar": "fi.",
     "lemma": "ǣht"
+  },
+  "æhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æhte"
   },
   "æhti": {
     "def": "see eahtian",
@@ -47792,6 +65752,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "ǣled-lēoma"
   },
+  "æledleoman": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æledleoman"
+  },
+  "ælfheres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ælfheres"
+  },
   "ælfylce": {
     "def": "foreign people or army",
     "grammar": "nja.",
@@ -47802,10 +65772,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "æl-mihtiġ"
   },
+  "ælmihtiga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ælmihtiga"
+  },
   "ælwiht": {
     "def": "alien creature, mon-ster",
     "grammar": "fi.",
     "lemma": "æl-wiht"
+  },
+  "ælwihta": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ælwihta"
   },
   "æn": {
     "def": "adv",
@@ -47827,15 +65807,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "ǣne"
   },
+  "ænegum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænegum"
+  },
+  "ængum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ængum"
+  },
   "ænig": {
     "def": "503, 534, si",
     "grammar": "pron.",
     "lemma": "ǣniġ"
   },
+  "ænige": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænige"
+  },
+  "ænigne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænigne"
+  },
+  "ænigra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænigra"
+  },
+  "ænigum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænigum"
+  },
   "ænlic": {
     "def": "peerless, glorious, beautiful",
     "grammar": "adj.",
     "lemma": "ǣn-liċ"
+  },
+  "ænlicu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ænlicu"
   },
   "ænn": {
     "def": "see ān",
@@ -47861,6 +65876,11 @@ const OLD_ENGLISH_DICT = {
     "def": "‘APPLE-FALLOW,’ dapple-dun (?)",
     "grammar": "adj.",
     "lemma": "æppel-fealu"
+  },
+  "æppelfealuwe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æppelfealuwe"
   },
   "ær": {
     "def": "EARlier",
@@ -47952,6 +65972,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "ǣr-dæġ"
   },
+  "ærdæge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærdæge"
+  },
   "æren": {
     "def": "message",
     "grammar": "nja.",
@@ -47982,6 +66007,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "ǣr-ġestrēon"
   },
+  "ærgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærgestreona"
+  },
   "ærgeweorc": {
     "def": "ancient WORK",
     "grammar": "n.",
@@ -47996,6 +66026,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2225",
     "grammar": "n.",
     "lemma": "ærn"
+  },
+  "ærnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærnes"
   },
   "æror": {
     "def": "see ǣr",
@@ -48012,6 +66047,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ǣrra"
   },
+  "ærran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærran"
+  },
   "ærre": {
     "def": "EARlier",
     "grammar": "adj.",
@@ -48021,6 +66061,16 @@ const OLD_ENGLISH_DICT = {
     "def": "ancient WEALth",
     "grammar": "wk.",
     "lemma": "ǣr-wela"
+  },
+  "ærwelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærwelan"
+  },
+  "ærþon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ærþon"
   },
   "æs": {
     "def": "carrion, carcass",
@@ -48062,15 +66112,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "æsc-wiga"
   },
+  "æschere": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æschere"
+  },
+  "æscheres": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æscheres"
+  },
   "æscholt": {
     "def": "(ASH wood, i",
     "grammar": "n.",
     "lemma": "æsc-holt"
   },
+  "æscum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æscum"
+  },
   "æscwiga": {
     "def": "(spear) warrior",
     "grammar": "wk.",
     "lemma": "æsc-wiga"
+  },
+  "æse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æse"
   },
   "æt": {
     "def": "3026",
@@ -48397,10 +66467,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 4",
     "lemma": "æt-beran"
   },
+  "ætbær": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætbær"
+  },
+  "ætbæron": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætbæron"
+  },
+  "æte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æte"
+  },
+  "ætfealh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætfealh"
+  },
   "ætfeolan": {
     "def": "stick to, hold firmly",
     "grammar": "vb. 3",
     "lemma": "æt-fēolan"
+  },
+  "ætferede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætferede"
   },
   "ætferian": {
     "def": "carry away (w",
@@ -48422,10 +66517,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "æt-gædere"
   },
+  "æthran": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æthran"
+  },
   "æthrinan": {
     "def": "touch",
     "grammar": "vb. 1",
     "lemma": "æt-hrīnan"
+  },
+  "æthwearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æthwearf"
   },
   "æthweorfan": {
     "def": "turn (intr",
@@ -48442,6 +66547,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adv.",
     "lemma": "æt-somne"
   },
+  "ætspranc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætspranc"
+  },
   "ætspringan": {
     "def": "SPRING out, flow out",
     "grammar": "vb. 3",
@@ -48457,10 +66567,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "æt-steppan"
   },
+  "ætstod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætstod"
+  },
+  "ætstop": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætstop"
+  },
+  "ættren": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ættren"
+  },
   "ættren(ætren)": {
     "def": "poisonous, venom-ous",
     "grammar": "adj.",
     "lemma": "ǣttren(ǣtren)"
+  },
+  "ætwand": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætwand"
   },
   "ætwegan": {
     "def": "carry, carry away",
@@ -48477,15 +66607,65 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 1",
     "lemma": "æt-wītan"
   },
+  "ætwiton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætwiton"
+  },
+  "ætwæg": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ætwæg"
+  },
+  "æðeling": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðeling"
+  },
+  "æðelinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðelinga"
+  },
+  "æðelingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðelingas"
+  },
+  "æðelinge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðelinge"
+  },
+  "æðelinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðelinges"
+  },
+  "æðelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðelum"
+  },
   "æðm": {
     "def": "breathing",
     "grammar": "m.",
     "lemma": "ǣðm"
   },
+  "æðme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æðme"
+  },
   "æþel": {
     "def": "excellent, glorious",
     "grammar": "adj.",
     "lemma": "æþele"
+  },
+  "æþelan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelan"
   },
   "æþele": {
     "def": "excellent, glorious",
@@ -48497,10 +66677,45 @@ const OLD_ENGLISH_DICT = {
     "grammar": "m.",
     "lemma": "æþeling"
   },
+  "æþelinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelinga"
+  },
+  "æþelingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelingas"
+  },
+  "æþelinge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelinge"
+  },
+  "æþelinges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelinges"
+  },
+  "æþellingum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþellingum"
+  },
   "æþelu": {
     "def": "not found",
     "grammar": "nja.",
     "lemma": "æþelu"
+  },
+  "æþelum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "æþelum"
+  },
+  "ða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ða"
   },
   "ðafi": {
     "def": "submit to",
@@ -48517,6 +66732,81 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "ðafian"
   },
+  "ðah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðah"
+  },
+  "ðam": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðam"
+  },
+  "ðanc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðanc"
+  },
+  "ðara": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðara"
+  },
+  "ðas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðas"
+  },
+  "ðe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðe"
+  },
+  "ðeah": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeah"
+  },
+  "ðearf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðearf"
+  },
+  "ðearfe": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðearfe"
+  },
+  "ðec": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðec"
+  },
+  "ðegn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðegn"
+  },
+  "ðegna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðegna"
+  },
+  "ðegne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðegne"
+  },
+  "ðeh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeh"
+  },
+  "ðeod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeod"
+  },
   "ðeod kyning": {
     "def": "see þēod-cyning",
     "grammar": "",
@@ -48526,6 +66816,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see þēod-cyning",
     "grammar": "",
     "lemma": "ðēod-kyning"
+  },
+  "ðeodcyning": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeodcyning"
+  },
+  "ðeoden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeoden"
   },
   "ðeoden leas": {
     "def": "lord-LESS, deprived of one’s chief",
@@ -48552,10 +66852,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "ðēoden-lēas"
   },
+  "ðeodenlease": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeodenlease"
+  },
   "ðeodkyning": {
     "def": "see þēod-cyning",
     "grammar": "",
     "lemma": "ðēod-kyning"
+  },
+  "ðeodne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeodne"
+  },
+  "ðeodnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeodnes"
+  },
+  "ðeodsceaða": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeodsceaða"
+  },
+  "ðeon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðeon"
+  },
+  "ðes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðes"
+  },
+  "ðicgean": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðicgean"
+  },
+  "ðin": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðin"
+  },
+  "ðine": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðine"
+  },
+  "ðing": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðing"
+  },
+  "ðinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðinga"
+  },
+  "ðinne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðinne"
+  },
+  "ðinra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðinra"
+  },
+  "ðiod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðiod"
   },
   "ðiod( )": {
     "def": "þēoden",
@@ -48572,10 +66942,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "ðīod(-)"
   },
+  "ðiodcyning": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðiodcyning"
+  },
+  "ðis": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðis"
+  },
+  "ðisse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðisse"
+  },
+  "ðisses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðisses"
+  },
+  "ðolode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðolode"
+  },
+  "ðon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðon"
+  },
+  "ðonan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðonan"
+  },
+  "ðone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðone"
+  },
+  "ðonne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðonne"
+  },
+  "ðonon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðonon"
+  },
+  "ðorfte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðorfte"
+  },
   "ðreat": {
     "def": "troop, company",
     "grammar": "m.",
     "lemma": "ðrēat"
+  },
+  "ðreate": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðreate"
+  },
+  "ðrowode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðrowode"
+  },
+  "ðrym": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðrym"
   },
   "ðrym(m)": {
     "def": "force",
@@ -48597,6 +67037,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "ðrysman"
   },
+  "ðryðlic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðryðlic"
+  },
+  "ðryðswyð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðryðswyð"
+  },
+  "ðryþærn": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðryþærn"
+  },
   "ðrуð swуð( swið)": {
     "def": "strong, powerful",
     "grammar": "adj.",
@@ -48611,6 +67066,81 @@ const OLD_ENGLISH_DICT = {
     "def": "strong, powerful",
     "grammar": "adj.",
     "lemma": "ðrӯð-swӯð(-swīð)"
+  },
+  "ðu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðu"
+  },
+  "ðuhte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðuhte"
+  },
+  "ðurh": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðurh"
+  },
+  "ðurhfon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðurhfon"
+  },
+  "ðurhwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðurhwod"
+  },
+  "ðy": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðy"
+  },
+  "ðyle": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðyle"
+  },
+  "ðys": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðys"
+  },
+  "ðyssum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðyssum"
+  },
+  "ðæm": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðæm"
+  },
+  "ðær": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðær"
+  },
+  "ðæra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðæra"
+  },
+  "ðære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðære"
+  },
+  "ðæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðæs"
+  },
+  "ðæt": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "ðæt"
   },
   "ð‰rel": {
     "def": "pierced through",
@@ -48672,6 +67202,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "þanc-hycgende"
   },
+  "þance": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þance"
+  },
+  "þancedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þancedon"
+  },
   "þanchycgende": {
     "def": "taking THOUGHT, contemplative, meditative",
     "grammar": "adj.",
@@ -48691,6 +67231,16 @@ const OLD_ENGLISH_DICT = {
     "def": "w",
     "grammar": "vb. II",
     "lemma": "þancian"
+  },
+  "þancode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þancode"
+  },
+  "þancodon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þancodon"
   },
   "þane": {
     "def": "see þonan",
@@ -48717,6 +67267,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þāra"
   },
+  "þas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þas"
+  },
   "þe": {
     "def": "vb",
     "grammar": "vb. I",
@@ -48742,6 +67297,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "þearfa"
   },
+  "þearft": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þearft"
+  },
   "þearl": {
     "def": "hard",
     "grammar": "adv.",
@@ -48756,6 +67316,11 @@ const OLD_ENGLISH_DICT = {
     "def": "usage, manner",
     "grammar": "m.",
     "lemma": "þēaw"
+  },
+  "þeawum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeawum"
   },
   "þec": {
     "def": "see þū",
@@ -48807,15 +67372,50 @@ const OLD_ENGLISH_DICT = {
     "grammar": "f.",
     "lemma": "þeġn-sorg"
   },
+  "þegna": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegna"
+  },
+  "þegnas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegnas"
+  },
+  "þegne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegne"
+  },
+  "þegnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegnes"
+  },
   "þegnsorg": {
     "def": "SORROW for THEGNs",
     "grammar": "f.",
     "lemma": "þeġn-sorg"
   },
+  "þegnsorge": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegnsorge"
+  },
+  "þegnum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegnum"
+  },
   "þegon": {
     "def": "-un, see þicgan",
     "grammar": "",
     "lemma": "þēgon"
+  },
+  "þegun": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þegun"
   },
   "þeh": {
     "def": "see þēah",
@@ -48852,6 +67452,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "þenċan"
   },
+  "þenceð": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þenceð"
+  },
   "þend": {
     "def": "as long as",
     "grammar": "I.",
@@ -48886,6 +67491,11 @@ const OLD_ENGLISH_DICT = {
     "def": "560",
     "grammar": "vb. II",
     "lemma": "þēnian"
+  },
+  "þenode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þenode"
   },
   "þeo": {
     "def": "slave",
@@ -48967,10 +67577,25 @@ const OLD_ENGLISH_DICT = {
     "grammar": "fw",
     "lemma": "þēod-þrēa"
   },
+  "þeoda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeoda"
+  },
   "þeodcyning": {
     "def": "KING of a people, king (over wide dominions)",
     "grammar": "m.",
     "lemma": "þēod-cyning"
+  },
+  "þeodcyninga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodcyninga"
+  },
+  "þeodcyninges": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodcyninges"
   },
   "þeode": {
     "def": "chief, lord, prince, king",
@@ -48987,10 +67612,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "þēod-ġestrēon"
   },
+  "þeodgestreona": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodgestreona"
+  },
+  "þeodgestreonum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodgestreonum"
+  },
+  "þeodnas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodnas"
+  },
+  "þeodne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodne"
+  },
+  "þeodnes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodnes"
+  },
   "þeodsceaða": {
     "def": "2688",
     "grammar": "wk.",
     "lemma": "þēod-sceaða"
+  },
+  "þeodscyldingas": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeodscyldingas"
   },
   "þeodþrea": {
     "def": "wk",
@@ -49001,6 +67656,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2219",
     "grammar": "m.",
     "lemma": "þēof"
+  },
+  "þeofes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeofes"
   },
   "þeon": {
     "def": "vb",
@@ -49026,6 +67686,21 @@ const OLD_ENGLISH_DICT = {
     "def": "gloomy",
     "grammar": "adj.",
     "lemma": "þēostre"
+  },
+  "þeostrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeostrum"
+  },
+  "þeow": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þeow"
+  },
+  "þes": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þes"
   },
   "þicg": {
     "def": "take, consume ( ̄food, drink)",
@@ -49057,15 +67732,40 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þinċean"
   },
+  "þinceað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinceað"
+  },
   "þincee": {
     "def": "see þynċan",
     "grammar": "",
     "lemma": "þinċean"
   },
+  "þinceðhim": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinceðhim"
+  },
+  "þine": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þine"
+  },
+  "þines": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þines"
+  },
   "þing": {
     "def": "affair, 409 (n",
     "grammar": "n.",
     "lemma": "þinġ"
+  },
+  "þinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinga"
   },
   "þingi": {
     "def": "settle, make arrangements",
@@ -49082,15 +67782,80 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "þingian"
   },
+  "þingode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þingode"
+  },
+  "þinne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinne"
+  },
+  "þinra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinra"
+  },
+  "þinre": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinre"
+  },
+  "þinum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þinum"
+  },
+  "þioden": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þioden"
+  },
   "þis": {
     "def": "see þ¬s",
     "grammar": "",
     "lemma": "þis"
   },
+  "þisne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þisne"
+  },
+  "þisse": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þisse"
+  },
+  "þisses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þisses"
+  },
+  "þissum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þissum"
+  },
   "þo": {
     "def": "see sē",
     "grammar": "",
     "lemma": "þone"
+  },
+  "þohte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þohte"
+  },
+  "þohton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þohton"
+  },
+  "þolað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þolað"
   },
   "þoli": {
     "def": "endure",
@@ -49107,6 +67872,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "þolian"
   },
+  "þolode": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þolode"
+  },
   "þon": {
     "def": "see sē",
     "grammar": "",
@@ -49121,6 +67891,11 @@ const OLD_ENGLISH_DICT = {
     "def": "see sē",
     "grammar": "",
     "lemma": "þone"
+  },
+  "þonne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þonne"
   },
   "þonne(ðonnejust15×)": {
     "def": "conj",
@@ -49147,10 +67922,20 @@ const OLD_ENGLISH_DICT = {
     "grammar": "",
     "lemma": "þorfte"
   },
+  "þorfton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þorfton"
+  },
   "þrag": {
     "def": "114, 1257",
     "grammar": "f.",
     "lemma": "þrāg"
+  },
+  "þrage": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrage"
   },
   "þrea nedla": {
     "def": "sore NEED, dire necessity",
@@ -49187,10 +67972,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "wk.",
     "lemma": "þrēa-nēdla"
   },
+  "þreanedlan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreanedlan"
+  },
+  "þreanyd": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreanyd"
+  },
+  "þreanydum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreanydum"
+  },
   "þreanуd": {
     "def": "distress, dire NEED, sore aÑiction",
     "grammar": "fi.",
     "lemma": "þrēa-nӯd"
+  },
+  "þreatedon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreatedon"
   },
   "þreati": {
     "def": "harass",
@@ -49207,6 +68012,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "þrēatian"
   },
+  "þreatum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreatum"
+  },
   "þrec wudu": {
     "def": "(might-WOOD), spear",
     "grammar": "mu.",
@@ -49221,6 +68031,11 @@ const OLD_ENGLISH_DICT = {
     "def": "(might-WOOD), spear",
     "grammar": "mu.",
     "lemma": "þrec-wudu"
+  },
+  "þreo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þreo"
   },
   "þreohund": {
     "def": "THREE HUNDred",
@@ -49251,6 +68066,11 @@ const OLD_ENGLISH_DICT = {
     "def": "2688",
     "grammar": "num.",
     "lemma": "þridda"
+  },
+  "þriddan": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þriddan"
   },
   "þridde": {
     "def": "2688",
@@ -49292,6 +68112,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "adj.",
     "lemma": "þrīst-hӯdiġ"
   },
+  "þristhydig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þristhydig"
+  },
   "þristhуdig": {
     "def": "bold-minded, brave",
     "grammar": "adj.",
@@ -49306,6 +68131,16 @@ const OLD_ENGLISH_DICT = {
     "def": "w",
     "grammar": "num.",
     "lemma": "þrītiġ"
+  },
+  "þrong": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrong"
+  },
+  "þrowade": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrowade"
   },
   "þrowi": {
     "def": "2658",
@@ -49322,6 +68157,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. II",
     "lemma": "þrōwian"
   },
+  "þrungon": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrungon"
+  },
+  "þrydlicost": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrydlicost"
+  },
+  "þrym": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrym"
+  },
   "þrym lic": {
     "def": "magnificent",
     "grammar": "adj.",
@@ -49336,6 +68186,36 @@ const OLD_ENGLISH_DICT = {
     "def": "magnificent",
     "grammar": "adj.",
     "lemma": "þrym-liċ"
+  },
+  "þrymmum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þrymmum"
+  },
+  "þryðlic": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þryðlic"
+  },
+  "þryðo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þryðo"
+  },
+  "þryðswyðbeheold": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þryðswyðbeheold"
+  },
+  "þryðum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þryðum"
+  },
+  "þryðword": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þryðword"
   },
   "þrуd lic": {
     "def": "see þrӯð-liċ",
@@ -49421,6 +68301,16 @@ const OLD_ENGLISH_DICT = {
     "def": "see þynċan",
     "grammar": "",
     "lemma": "þūhte"
+  },
+  "þuhton": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þuhton"
+  },
+  "þunede": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þunede"
   },
   "þuni": {
     "def": "groan, creak",
@@ -49582,6 +68472,16 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb.   4",
     "lemma": "þurh-brecan"
   },
+  "þurhbræc": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þurhbræc"
+  },
+  "þurhdeaf": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þurhdeaf"
+  },
   "þurhdufan": {
     "def": "(DIVE), swim THROUGH",
     "grammar": "vb.  2",
@@ -49591,6 +68491,11 @@ const OLD_ENGLISH_DICT = {
     "def": "EAT THROUGH",
     "grammar": "vb. 5",
     "lemma": "þurh-etan"
+  },
+  "þurhetone": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þurhetone"
   },
   "þurhfon": {
     "def": "penetrate",
@@ -49607,6 +68512,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. 6",
     "lemma": "þurh-wadan"
   },
+  "þurhwod": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þurhwod"
+  },
   "þus": {
     "def": "so",
     "grammar": "adv.",
@@ -49617,10 +68527,35 @@ const OLD_ENGLISH_DICT = {
     "grammar": "n.",
     "lemma": "þūsend"
   },
+  "þusenda": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þusenda"
+  },
+  "þusendo": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þusendo"
+  },
+  "þy": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þy"
+  },
+  "þyder": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þyder"
+  },
   "þyder(þider)": {
     "def": "THITHER, to that place, there",
     "grammar": "adv.",
     "lemma": "þyder(þider)"
+  },
+  "þyhtig": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þyhtig"
   },
   "þyl": {
     "def": "orator, spokesman, oÌcial entertainer (see Commentary, pp",
@@ -49647,6 +68582,11 @@ const OLD_ENGLISH_DICT = {
     "grammar": "vb. I",
     "lemma": "þynċan"
   },
+  "þynceðme": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þynceðme"
+  },
   "þyrs": {
     "def": "demon",
     "grammar": "mi.",
@@ -49666,6 +68606,36 @@ const OLD_ENGLISH_DICT = {
     "def": "2635",
     "grammar": "adj.",
     "lemma": "þys-liċ"
+  },
+  "þyslicu": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þyslicu"
+  },
+  "þysne": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þysne"
+  },
+  "þysses": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þysses"
+  },
+  "þyssum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þyssum"
+  },
+  "þystrum": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þystrum"
+  },
+  "þywað": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þywað"
   },
   "þ¬(speltðe5×)": {
     "def": "number, and case), who, that, Copyright ӯ 2008",
@@ -49687,6 +68657,21 @@ const OLD_ENGLISH_DICT = {
     "grammar": "I.",
     "lemma": "þǣr"
   },
+  "þæra": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þæra"
+  },
+  "þære": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þære"
+  },
+  "þæs": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þæs"
+  },
   "þæt": {
     "def": "pron",
     "grammar": "pron.",
@@ -49697,10 +68682,30 @@ const OLD_ENGLISH_DICT = {
     "grammar": "conj.",
     "lemma": "þæt(usuallyspelt³)"
   },
+  "þætte": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þætte"
+  },
   "þætte(=þætðe:1846": {
     "def": "conj",
     "grammar": "",
     "lemma": "þætte(=þætðe:1846"
+  },
+  "þþoeþþ": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þþoeþþ"
+  },
+  "þþoeþþscyldinga": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þþoeþþscyldinga"
+  },
+  "þþoeþþweard": {
+    "def": "",
+    "grammar": "TOE",
+    "lemma": "þþoeþþweard"
   },
   "þу": {
     "def": "see sē",
