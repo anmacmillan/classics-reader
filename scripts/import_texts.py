@@ -18,6 +18,7 @@ DATA_PATH = ROOT / "data.js"
 DICTIONARY_PATH = ROOT / "dictionary.js"
 IMPORTED_LATIN_DICTIONARY_PATH = ROOT / "generated" / "imported-latin-dictionary.js"
 IMPORTED_GREEK_DICTIONARY_PATH = ROOT / "generated" / "imported-greek-dictionary.js"
+IMPORTED_OLD_ENGLISH_DICTIONARY_PATH = ROOT / "generated" / "imported-old-english-dictionary.js"
 
 
 def read_lines(path: Path) -> list[str]:
@@ -35,6 +36,11 @@ def load_existing_ids() -> set[str]:
 
 
 def load_dictionary_keys(dictionary_name: str) -> set[str]:
+    if dictionary_name == "OLD_ENGLISH_DICT":
+        if not IMPORTED_OLD_ENGLISH_DICTIONARY_PATH.exists():
+            return set()
+        supplement = IMPORTED_OLD_ENGLISH_DICTIONARY_PATH.read_text(encoding="utf-8")
+        return set(re.findall(r'^\s*"([^"]+)":', supplement, flags=re.MULTILINE))
     text = DICTIONARY_PATH.read_text(encoding="utf-8")
     start = text.index(f"const {dictionary_name} = {{")
     end = text.index("\n};", start)
@@ -183,7 +189,7 @@ def main() -> int:
     dictionary_keys = {
         "greek": load_dictionary_keys("GREEK_DICT"),
         "latin": load_dictionary_keys("LATIN_DICT"),
-        "old_english": set(),
+        "old_english": load_dictionary_keys("OLD_ENGLISH_DICT"),
     }
     books = []
     seen_ids = set()
