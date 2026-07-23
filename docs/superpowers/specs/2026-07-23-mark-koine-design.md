@@ -2,18 +2,18 @@
 
 ## Goal
 
-Add a compact, verse-referenced Koine Greek reader for selected narrative passages from the Gospel according to Mark, giving the Classics Reader a first New Testament text suitable for gradual home study.
+Add a complete, verse-referenced Koine Greek reader for the Gospel according to Mark, giving the Classics Reader a first New Testament text suitable for gradual home study.
 
 ## Scope
 
 - Import id: `mark-koine`.
 - Source text: pinned Perseus canonical Greek and Perseus/World English Bible reference text, with PROIEL Greek New Testament morphology for dictionary-linked forms.
-- Coverage: 15 short narrative units spanning Mark 1–16, from the opening and calling of the disciples through the empty tomb.
+- Coverage: all 16 chapters and 673 standard-text verses spanning Mark 1–16, from the opening through the empty tomb.
 - Presentation: one Greek verse per displayed line, one aligned English line, standard Mark chapter:verse references, and dictionary coverage for every Greek form.
 
 ## Selection
 
-The selection follows Mark’s narrative arc: opening ministry, healings, parables, miracles, confession and transfiguration, teaching, entry into Jerusalem, passion, crucifixion, and resurrection. It is intentionally a foundation rather than a full-Gospel edition; a later expansion can add further chapters without changing the import format.
+The standard PROIEL text omits the four verse numbers conventionally absent from the critical text (7:16, 9:44, 9:46, 11:26). Perseus’ separately marked alternate ending 16:20a is not silently folded into the standard 16:20; the reader uses the complete standard Gospel text.
 
 ## Validation and release
 

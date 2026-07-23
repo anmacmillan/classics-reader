@@ -7,7 +7,7 @@
   "lang": "greek",
   "chapters": [
     {
-      "title": "Markus 1:1–20 — Η αρχή και η κλήση των μαθητών",
+      "title": "Markus 1:1–45 — Η αρχή και η διακονία",
       "startLine": 1,
       "original": "greek-01.txt",
       "english": "english-01.txt",
@@ -16,91 +16,91 @@
       "translationUrl": "https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0031.tlg002"
     },
     {
-      "title": "Markus 1:21–45 — Η εξουσία και οι θεραπείες",
+      "title": "Markus 2:1–28 — Συγκρούσεις και θεραπείες",
       "startLine": 1,
       "original": "greek-02.txt",
       "english": "english-02.txt"
     },
     {
-      "title": "Markus 2:1–17 — Ο παραλυτικός και ο Λευί",
+      "title": "Markus 3:1–35 — Οι δώδεκα μαθητές",
       "startLine": 1,
       "original": "greek-03.txt",
       "english": "english-03.txt"
     },
     {
-      "title": "Markus 4:1–20 — Η παραβολή του σπορέως",
+      "title": "Markus 4:1–41 — Οι παραβολές και η θύελλα",
       "startLine": 1,
       "original": "greek-04.txt",
       "english": "english-04.txt"
     },
     {
-      "title": "Markus 4:35–41 — Η κατάπαυση της θύελλας",
+      "title": "Markus 5:1–43 — Ο Γερασηνός και η θυγάτηρ του Ιαείρου",
       "startLine": 1,
       "original": "greek-05.txt",
       "english": "english-05.txt"
     },
     {
-      "title": "Markus 5:1–20 — Ο δαιμονισμένος των Γερασηνῶν",
+      "title": "Markus 6:1–56 — Απόρριψη και πολλαπλασιασμός",
       "startLine": 1,
       "original": "greek-06.txt",
       "english": "english-06.txt"
     },
     {
-      "title": "Markus 5:21–43 — Η θυγάτηρ του Ιαείρου",
+      "title": "Markus 7:1–37 — Καθαρότητα και πίστη",
       "startLine": 1,
       "original": "greek-07.txt",
       "english": "english-07.txt"
     },
     {
-      "title": "Markus 6:30–44 — Ο χορτασμός των πεντακισχιλίων",
+      "title": "Markus 8:1–38 — Ο άρτος και η ομολογία",
       "startLine": 1,
       "original": "greek-08.txt",
       "english": "english-08.txt"
     },
     {
-      "title": "Markus 8:27–38 — Η ομολογία του Πέτρου",
+      "title": "Markus 9:1–50 — Η μεταμόρφωση και η μαθητεία",
       "startLine": 1,
       "original": "greek-09.txt",
       "english": "english-09.txt"
     },
     {
-      "title": "Markus 9:2–13 — Η μεταμόρφωση",
+      "title": "Markus 10:1–52 — Ο γάμος, τα παιδία και ο πλούτος",
       "startLine": 1,
       "original": "greek-10.txt",
       "english": "english-10.txt"
     },
     {
-      "title": "Markus 10:13–31 — Τα παιδία και ο πλούσιος",
+      "title": "Markus 11:1–33 — Η είσοδος και ο ναός",
       "startLine": 1,
       "original": "greek-11.txt",
       "english": "english-11.txt"
     },
     {
-      "title": "Markus 11:1–11 — Η είσοδος στα Ιεροσόλυμα",
+      "title": "Markus 12:1–44 — Παραβολές και εντολές",
       "startLine": 1,
       "original": "greek-12.txt",
       "english": "english-12.txt"
     },
     {
-      "title": "Markus 14:32–52 — Η Γεθσημανή και η σύλληψη",
+      "title": "Markus 13:1–37 — Ο λόγος στο Όρος των Ελαιών",
       "startLine": 1,
       "original": "greek-13.txt",
       "english": "english-13.txt"
     },
     {
-      "title": "Markus 15:1–27 — Η δίκη και η σταύρωση (1)",
+      "title": "Markus 14:1–72 — Το δείπνο και η σύλληψη",
       "startLine": 1,
       "original": "greek-14.txt",
       "english": "english-14.txt"
     },
     {
-      "title": "Markus 15:29–39 — Η δίκη και η σταύρωση (2)",
+      "title": "Markus 15:1–47 — Η δίκη και η σταύρωση",
       "startLine": 1,
       "original": "greek-15.txt",
       "english": "english-15.txt"
     },
     {
-      "title": "Markus 16:1–8 — Ο κενός τάφος",
+      "title": "Markus 16:1–20 — Ο κενός τάφος και η ανάσταση",
       "startLine": 1,
       "original": "greek-16.txt",
       "english": "english-16.txt"

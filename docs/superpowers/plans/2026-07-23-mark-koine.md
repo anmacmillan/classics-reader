@@ -1,12 +1,12 @@
 # Gospel of Mark Koine Reader Implementation Plan
 
-**Goal:** Add and deploy a compact, fully dictionary-covered Gospel of Mark Koine Greek selection.
+**Goal:** Add and deploy the complete standard-text Gospel of Mark in Koine Greek.
 
 ### 1. Pin and extract sources
 
-- Create `imports/mark-koine/manifest.json` and 15 Greek/English unit files.
+- Create `imports/mark-koine/manifest.json` and 16 Greek/English chapter files.
 - Create a reproducible extractor using pinned Perseus and PROIEL revisions.
-- Extract verse-referenced narrative passages and assert aligned line counts.
+- Extract all 16 chapters and every verse represented in the standard PROIEL text; assert aligned line counts.
 
 ### 2. Build Greek dictionary coverage
 

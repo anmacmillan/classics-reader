@@ -16,25 +16,19 @@ TMP = Path("/tmp/mark-koine-source")
 PERSEUS = "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/91595f89e15b4d3000cd93efcf8990720c8be2b9/data/tlg0031/tlg002"
 PROIEL = "https://raw.githubusercontent.com/proiel/proiel-treebank/8e388967a1335ed12335ddc655fe46993ee7d57a/greek-nt.xml"
 
-# Small narrative arc; ranges deliberately avoid the five verses absent from PROIEL.
-RANGES = [
-    ("1", 1, 20, "Η αρχή και η κλήση των μαθητών"),
-    ("1", 21, 45, "Η εξουσία και οι θεραπείες"),
-    ("2", 1, 17, "Ο παραλυτικός και ο Λευί"),
-    ("4", 1, 20, "Η παραβολή του σπορέως"),
-    ("4", 35, 41, "Η κατάπαυση της θύελλας"),
-    ("5", 1, 20, "Ο δαιμονισμένος των Γερασηνῶν"),
-    ("5", 21, 43, "Η θυγάτηρ του Ιαείρου"),
-    ("6", 30, 44, "Ο χορτασμός των πεντακισχιλίων"),
-    ("8", 27, 38, "Η ομολογία του Πέτρου"),
-    ("9", 2, 13, "Η μεταμόρφωση"),
-    ("10", 13, 31, "Τα παιδία και ο πλούσιος"),
-    ("11", 1, 11, "Η είσοδος στα Ιεροσόλυμα"),
-    ("14", 32, 52, "Η Γεθσημανή και η σύλληψη"),
-    ("15", 1, 27, "Η δίκη και η σταύρωση (1)"),
-    ("15", 29, 39, "Η δίκη και η σταύρωση (2)"),
-    ("16", 1, 8, "Ο κενός τάφος"),
-]
+# Complete PROIEL Mark text, one chapter per reader unit. The standard text
+# omits the four unattested verse numbers (7:16, 9:44, 9:46, 11:26); 16:20
+# is present, while Perseus' 16:20a is an explicitly marked alternate ending.
+CHAPTER_TITLES = {
+    "1": "Η αρχή και η διακονία", "2": "Συγκρούσεις και θεραπείες",
+    "3": "Οι δώδεκα μαθητές", "4": "Οι παραβολές και η θύελλα",
+    "5": "Ο Γερασηνός και η θυγάτηρ του Ιαείρου", "6": "Απόρριψη και πολλαπλασιασμός",
+    "7": "Καθαρότητα και πίστη", "8": "Ο άρτος και η ομολογία",
+    "9": "Η μεταμόρφωση και η μαθητεία", "10": "Ο γάμος, τα παιδία και ο πλούτος",
+    "11": "Η είσοδος και ο ναός", "12": "Παραβολές και εντολές",
+    "13": "Ο λόγος στο Όρος των Ελαιών", "14": "Το δείπνο και η σύλληψη",
+    "15": "Η δίκη και η σταύρωση", "16": "Ο κενός τάφος και η ανάσταση",
+}
 
 POS = {"N": "n", "A": "a", "S": "l", "M": "m", "V": "v", "R": "r",
        "C": "c", "G": "c", "D": "d", "P": "p", "I": "i", "X": "x", "T": "b"}
@@ -84,15 +78,17 @@ def main() -> None:
         cp = tok.get("citation-part") or ""
         if cp.startswith("MARK "):
             by_verse.setdefault(cp[5:].replace(".", ":"), []).append(tok)
-    selected: list[tuple[str, int, int, str]] = []
-    for ch, start, end, title in RANGES:
-        selected.append((ch, start, end, title))
+    selected: list[tuple[str, list[str], str]] = []
+    for ch in map(str, range(1, 17)):
+        verses = sorted((k for k in by_verse if k.startswith(ch + ":")),
+                        key=lambda k: int(k.split(":", 1)[1]))
+        selected.append((ch, verses, CHAPTER_TITLES[ch]))
     OUT.mkdir(parents=True, exist_ok=True)
     tbroot = ET.Element("treebank")
-    for i, (ch, start, end, title) in enumerate(selected, 1):
+    for i, (ch, verses, title) in enumerate(selected, 1):
         greek_lines, english_lines = [], []
-        for verse in range(start, end + 1):
-            key = f"{ch}:{verse}"
+        for key in verses:
+            verse = key.split(":", 1)[1]
             toks = by_verse.get(key)
             if not toks or key not in english:
                 raise RuntimeError(f"missing source verse {key}")
@@ -113,8 +109,8 @@ def main() -> None:
         (OUT / f"english-{i:02}.txt").write_text("\n".join(english_lines) + "\n", encoding="utf-8")
     ET.ElementTree(tbroot).write(TMP / "mark-treebank.xml", encoding="utf-8", xml_declaration=True)
     chapters = []
-    for i, (ch, start, end, title) in enumerate(selected, 1):
-        chapter = {"title": f"Markus {ch}:{start}–{end} — {title}", "startLine": 1,
+    for i, (ch, verses, title) in enumerate(selected, 1):
+        chapter = {"title": f"Markus {ch}:1–{verses[-1].split(':', 1)[1]} — {title}", "startLine": 1,
                    "original": f"greek-{i:02}.txt", "english": f"english-{i:02}.txt"}
         if i == 1:
             chapter.update({"translationCredit": "Grieks: Perseus Digital Library (tlg0031.tlg002.perseus-grc2) · EN: World English Bible via Perseus · Parsing: PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0)",
