@@ -21,6 +21,16 @@
    "lemma": "ἐγώ",
    "grammar": "pron sg fem dat",
    "count": 3
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc dat",
+   "count": 3
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg dat",
+   "count": 1
   }
  ],
  "ἔννεπε": [
@@ -48,7 +58,7 @@
   {
    "lemma": "ὅς",
    "grammar": "pron sg masc nom",
-   "count": 19
+   "count": 28
   }
  ],
  "μάλα": [
@@ -62,7 +72,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj pl neut acc",
-   "count": 24
+   "count": 32
   },
   {
    "lemma": "πολύς",
@@ -126,7 +136,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj pl masc gen",
-   "count": 6
+   "count": 7
   },
   {
    "lemma": "πολύς",
@@ -139,13 +149,18 @@
    "lemma": "δέ",
    "grammar": "partic",
    "count": 298
+  },
+  {
+   "lemma": "δέ",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "ἀνθρώπων": [
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun pl masc gen",
-   "count": 34
+   "count": 37
   }
  ],
  "ἴδεν": [
@@ -171,12 +186,17 @@
   {
    "lemma": "καί",
    "grammar": "conj",
-   "count": 79
+   "count": 541
   },
   {
    "lemma": "καί",
    "grammar": "adv",
    "count": 19
+  },
+  {
+   "lemma": "καί#1",
+   "grammar": "adv",
+   "count": 5
   }
  ],
  "νόον": [
@@ -190,7 +210,7 @@
   {
    "lemma": "γιγνώσκω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 2
+   "count": 3
   }
  ],
  "ὅ": [
@@ -200,13 +220,13 @@
    "count": 11
   },
   {
-   "lemma": "ὁ",
-   "grammar": "pron sg masc nom",
-   "count": 7
-  },
-  {
    "lemma": "ὅς",
    "grammar": "pron sg neut nom",
+   "count": 11
+  },
+  {
+   "lemma": "ὁ",
+   "grammar": "pron sg masc nom",
    "count": 7
   },
   {
@@ -236,7 +256,7 @@
   {
    "lemma": "ἐν",
    "grammar": "prep",
-   "count": 302
+   "count": 353
   },
   {
    "lemma": "εἰς",
@@ -274,14 +294,14 @@
   {
    "lemma": "ὅς",
    "grammar": "pron sg masc acc",
-   "count": 19
+   "count": 23
   }
  ],
  "κατὰ": [
   {
    "lemma": "κατά",
    "grammar": "prep",
-   "count": 95
+   "count": 100
   }
  ],
  "θυμόν": [
@@ -321,7 +341,7 @@
   {
    "lemma": "ψυχή",
    "grammar": "noun sg fem acc",
-   "count": 4
+   "count": 7
   }
  ],
  "νόστον": [
@@ -346,12 +366,12 @@
   },
   {
    "lemma": "ἀλλά",
-   "grammar": "adv",
-   "count": 12
+   "grammar": "conj",
+   "count": 17
   },
   {
    "lemma": "ἀλλά",
-   "grammar": "conj",
+   "grammar": "adv",
    "count": 12
   }
  ],
@@ -420,6 +440,11 @@
   },
   {
    "lemma": "αὐτός",
+   "grammar": "pron 3rd pl masc gen",
+   "count": 14
+  },
+  {
+   "lemma": "αὐτός",
    "grammar": "adj pl neut gen",
    "count": 4
   }
@@ -428,7 +453,7 @@
   {
    "lemma": "γάρ",
    "grammar": "adv",
-   "count": 282
+   "count": 304
   },
   {
    "lemma": "γάρ",
@@ -468,7 +493,7 @@
   {
    "lemma": "ὅς",
    "grammar": "pron pl masc nom",
-   "count": 11
+   "count": 12
   },
   {
    "lemma": "ὁ",
@@ -535,7 +560,12 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg masc nom",
-   "count": 275
+   "count": 359
+  },
+  {
+   "lemma": "ὁ",
+   "grammar": "pron 3rd sg masc nom",
+   "count": 11
   },
   {
    "lemma": "ὁ",
@@ -605,17 +635,17 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl masc gen",
-   "count": 228
+   "count": 265
   },
   {
    "lemma": "ὁ",
    "grammar": "article pl neut gen",
-   "count": 90
+   "count": 97
   },
   {
    "lemma": "ὁ",
    "grammar": "article pl fem gen",
-   "count": 51
+   "count": 53
   },
   {
    "lemma": "ὁ",
@@ -668,7 +698,7 @@
   {
    "lemma": "θυγάτηρ",
    "grammar": "noun sg fem voc",
-   "count": 1
+   "count": 2
   }
  ],
  "διός": [
@@ -700,6 +730,16 @@
    "lemma": "ἐγώ",
    "grammar": "pron pl masc dat",
    "count": 4
+  },
+  {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl masc dat",
+   "count": 1
+  },
+  {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl dat",
+   "count": 1
   }
  ],
  "ἔνθ": [
@@ -717,6 +757,11 @@
   },
   {
    "lemma": "ἄλλος",
+   "grammar": "pron pl masc nom",
+   "count": 4
+  },
+  {
+   "lemma": "ἄλλος",
    "grammar": "adj pl masc voc",
    "count": 1
   }
@@ -725,7 +770,7 @@
   {
    "lemma": "μέν",
    "grammar": "adv",
-   "count": 358
+   "count": 360
   },
   {
    "lemma": "μέν",
@@ -738,6 +783,11 @@
    "lemma": "πᾶς",
    "grammar": "adj pl masc nom",
    "count": 29
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl masc nom",
+   "count": 5
   }
  ],
  "ὅσοι": [
@@ -812,14 +862,14 @@
   {
    "lemma": "θάλασσα",
    "grammar": "noun sg fem acc",
-   "count": 1
+   "count": 7
   }
  ],
  "τὸν": [
   {
    "lemma": "ὁ",
    "grammar": "article sg masc acc",
-   "count": 283
+   "count": 361
   },
   {
    "lemma": "ὁ",
@@ -940,13 +990,18 @@
    "lemma": "εἰμί",
    "grammar": "verb pres inf act",
    "count": 161
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb pres inf act",
+   "count": 3
   }
  ],
  "ὅτε": [
   {
    "lemma": "ὅτε",
    "grammar": "conj",
-   "count": 21
+   "count": 26
   }
  ],
  "δὴ": [
@@ -993,12 +1048,12 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg masc dat",
-   "count": 88
+   "count": 113
   },
   {
    "lemma": "ὁ",
    "grammar": "article sg neut dat",
-   "count": 72
+   "count": 82
   },
   {
    "lemma": "ὁ",
@@ -1030,7 +1085,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl masc nom",
-   "count": 198
+   "count": 237
   },
   {
    "lemma": "ἕ",
@@ -1046,6 +1101,11 @@
    "lemma": "ὁ",
    "grammar": "pron pl masc nom",
    "count": 9
+  },
+  {
+   "lemma": "ὁ",
+   "grammar": "pron 3rd pl masc nom",
+   "count": 6
   },
   {
    "lemma": "ἕ",
@@ -1090,7 +1150,7 @@
   {
    "lemma": "εἰς",
    "grammar": "prep",
-   "count": 210
+   "count": 277
   },
   {
    "lemma": "εἰμί",
@@ -1137,7 +1197,7 @@
   {
    "lemma": "μετά",
    "grammar": "prep",
-   "count": 67
+   "count": 84
   }
  ],
  "οἷσι": [
@@ -1165,7 +1225,7 @@
   {
    "lemma": "ἅπας",
    "grammar": "adj pl masc nom",
-   "count": 3
+   "count": 4
   }
  ],
  "νόσφι": [
@@ -1316,7 +1376,7 @@
   {
    "lemma": "ἔσχατος",
    "grammar": "adj pl masc nom",
-   "count": 1
+   "count": 3
   }
  ],
  "ἀνδρῶν": [
@@ -1394,6 +1454,11 @@
    "lemma": "δέ",
    "grammar": "partic",
    "count": 815
+  },
+  {
+   "lemma": "δέ",
+   "grammar": "adv",
+   "count": 53
   }
  ],
  "ζηνὸς": [
@@ -1436,6 +1501,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd pl imperf ind act",
    "count": 18
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 10
   }
  ],
  "τοῖσι": [
@@ -1567,12 +1637,12 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg masc gen",
-   "count": 145
+   "count": 182
   },
   {
    "lemma": "ὁ",
    "grammar": "article sg neut gen",
-   "count": 131
+   "count": 145
   },
   {
    "lemma": "ὁ",
@@ -1703,7 +1773,7 @@
   {
    "lemma": "ἐκ",
    "grammar": "prep",
-   "count": 43
+   "count": 48
   }
  ],
  "ἡμέων": [
@@ -1717,7 +1787,7 @@
   {
    "lemma": "γάρ",
    "grammar": "adv",
-   "count": 52
+   "count": 53
   },
   {
    "lemma": "γάρ",
@@ -1761,6 +1831,11 @@
    "lemma": "αὐτός",
    "grammar": "pron pl common nom",
    "count": 1
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron pl masc nom",
+   "count": 1
   }
  ],
  "σφῇσιν": [
@@ -1795,7 +1870,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb 3rd pl pres ind act",
-   "count": 8
+   "count": 10
   }
  ],
  "ὡς": [
@@ -1807,7 +1882,7 @@
   {
    "lemma": "ὡς",
    "grammar": "adv",
-   "count": 2
+   "count": 10
   }
  ],
  "νῦν": [
@@ -1815,6 +1890,11 @@
    "lemma": "νῦν",
    "grammar": "adv",
    "count": 62
+  },
+  {
+   "lemma": "νῦν#1",
+   "grammar": "adv",
+   "count": 2
   }
  ],
  "αἴγισθος": [
@@ -1907,6 +1987,11 @@
    "lemma": "ἐγώ",
    "grammar": "pron pl masc nom",
    "count": 2
+  },
+  {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl nom",
+   "count": 1
   }
  ],
  "ἑρμείαν": [
@@ -1952,6 +2037,11 @@
   },
   {
    "lemma": "αὐτός",
+   "grammar": "pron 3rd sg masc acc",
+   "count": 50
+  },
+  {
+   "lemma": "αὐτός",
    "grammar": "pron sg masc acc",
    "count": 1
   }
@@ -1988,7 +2078,7 @@
   {
    "lemma": "ἐκ",
    "grammar": "prep",
-   "count": 110
+   "count": 123
   }
  ],
  "ὀρέσταο": [
@@ -2023,7 +2113,7 @@
   {
    "lemma": "ἄν",
    "grammar": "adv",
-   "count": 184
+   "count": 187
   },
   {
    "lemma": "ἐάν",
@@ -2087,7 +2177,7 @@
   {
    "lemma": "οὐ",
    "grammar": "adv",
-   "count": 176
+   "count": 185
   }
  ],
  "φρένας": [
@@ -2472,7 +2562,7 @@
   {
    "lemma": "θάλασσα",
    "grammar": "noun sg fem gen",
-   "count": 3
+   "count": 4
   }
  ],
  "νῆσος": [
@@ -2526,7 +2616,7 @@
   {
    "lemma": "θυγάτηρ",
    "grammar": "noun sg fem nom",
-   "count": 6
+   "count": 7
   }
  ],
  "ὀλοόφρονος": [
@@ -2568,7 +2658,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb 3rd sg pres ind act",
-   "count": 45
+   "count": 49
   }
  ],
  "δέ": [
@@ -2580,7 +2670,7 @@
   {
    "lemma": "δέ",
    "grammar": "adv",
-   "count": 1
+   "count": 5
   }
  ],
  "κίονας": [
@@ -2595,6 +2685,16 @@
    "lemma": "αὐτός",
    "grammar": "adj sg masc nom",
    "count": 48
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron sg masc nom",
+   "count": 2
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg masc nom",
+   "count": 2
   }
  ],
  "μακράς": [
@@ -2627,7 +2727,7 @@
   {
    "lemma": "οὐρανός",
    "grammar": "noun sg masc acc",
-   "count": 3
+   "count": 4
   }
  ],
  "ἀμφὶς": [
@@ -2783,6 +2883,11 @@
  "σοί": [
   {
    "lemma": "σύ",
+   "grammar": "pron 2nd sg dat",
+   "count": 2
+  },
+  {
+   "lemma": "σύ",
    "grammar": "pron sg dat",
    "count": 1
   },
@@ -2855,7 +2960,7 @@
   {
    "lemma": "παρά",
    "grammar": "prep",
-   "count": 67
+   "count": 76
   }
  ],
  "νηυσὶ": [
@@ -2918,8 +3023,18 @@
   },
   {
    "lemma": "τίς",
+   "grammar": "pron sg neut acc",
+   "count": 22
+  },
+  {
+   "lemma": "τίς",
    "grammar": "adj sg neut nom",
    "count": 10
+  },
+  {
+   "lemma": "τίς",
+   "grammar": "pron sg neut nom",
+   "count": 7
   },
   {
    "lemma": "τί",
@@ -2928,11 +3043,6 @@
   },
   {
    "lemma": "τις",
-   "grammar": "pron sg neut acc",
-   "count": 2
-  },
-  {
-   "lemma": "τίς",
    "grammar": "pron sg neut acc",
    "count": 2
   },
@@ -2972,7 +3082,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg fem acc",
-   "count": 239
+   "count": 292
   },
   {
    "lemma": "ὁ",
@@ -3022,7 +3132,7 @@
   {
    "lemma": "τέκνον",
    "grammar": "noun sg neut voc",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐμόν": [
@@ -3054,6 +3164,11 @@
    "lemma": "σύ",
    "grammar": "pron sg acc",
    "count": 10
+  },
+  {
+   "lemma": "σύ",
+   "grammar": "pron 2nd sg acc",
+   "count": 7
   },
   {
    "lemma": "σύ",
@@ -3098,7 +3213,7 @@
   {
    "lemma": "πῶς",
    "grammar": "adv",
-   "count": 35
+   "count": 41
   }
  ],
  "ἔπειτ": [
@@ -3125,6 +3240,16 @@
    "lemma": "ἐγώ",
    "grammar": "pron sg masc nom",
    "count": 10
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc nom",
+   "count": 2
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg nom",
+   "count": 1
   }
  ],
  "θείοιο": [
@@ -3145,7 +3270,7 @@
   {
    "lemma": "περί",
    "grammar": "prep",
-   "count": 158
+   "count": 166
   }
  ],
  "ἐστὶ": [
@@ -3206,7 +3331,7 @@
   {
    "lemma": "ἀλλά",
    "grammar": "conj",
-   "count": 3
+   "count": 14
   },
   {
    "lemma": "ἀλλά",
@@ -3318,6 +3443,11 @@
    "lemma": "πᾶς",
    "grammar": "adj pl neut dat",
    "count": 4
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl masc dat",
+   "count": 1
   }
  ],
  "κυκλώπεσσι": [
@@ -3449,7 +3579,7 @@
   {
    "lemma": "ἀπό",
    "grammar": "prep",
-   "count": 41
+   "count": 54
   }
  ],
  "πατρίδος": [
@@ -3530,6 +3660,11 @@
    "lemma": "πᾶς",
    "grammar": "adj pl neut gen",
    "count": 10
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl masc gen",
+   "count": 1
   }
  ],
  "ἀθανάτων": [
@@ -3564,7 +3699,12 @@
   {
    "lemma": "εἰ",
    "grammar": "conj",
-   "count": 119
+   "count": 121
+  },
+  {
+   "lemma": "εἰ#1",
+   "grammar": "adv",
+   "count": 4
   },
   {
    "lemma": "Εἰ",
@@ -3582,6 +3722,16 @@
    "lemma": "οὗτος",
    "grammar": "adj sg neut nom",
    "count": 22
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg neut acc",
+   "count": 5
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg neut nom",
+   "count": 1
   }
  ],
  "μακάρεσσι": [
@@ -3689,17 +3839,17 @@
  ],
  "εἴπῃ": [
   {
+   "lemma": "λέγω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 2
+  },
+  {
    "lemma": "εἶπον",
    "grammar": "verb 2nd sg aor subj mp",
    "count": 1
   },
   {
    "lemma": "εἶπον",
-   "grammar": "verb 3rd sg aor subj act",
-   "count": 1
-  },
-  {
-   "lemma": "λέγω",
    "grammar": "verb 3rd sg aor subj act",
    "count": 1
   }
@@ -3793,7 +3943,7 @@
   {
    "lemma": "υἱός",
    "grammar": "noun sg masc acc",
-   "count": 2
+   "count": 4
   }
  ],
  "μᾶλλον": [
@@ -3805,7 +3955,7 @@
   {
    "lemma": "μᾶλλον",
    "grammar": "adv",
-   "count": 3
+   "count": 5
   }
  ],
  "ἐποτρύνω": [
@@ -3824,7 +3974,7 @@
   {
    "lemma": "καί",
    "grammar": "conj",
-   "count": 8
+   "count": 10
   },
   {
    "lemma": "καί",
@@ -4017,7 +4167,7 @@
   {
    "lemma": "πατήρ",
    "grammar": "noun sg masc gen",
-   "count": 14
+   "count": 16
   }
  ],
  "φίλου": [
@@ -4069,7 +4219,7 @@
   {
    "lemma": "ἵνα",
    "grammar": "conj",
-   "count": 39
+   "count": 64
   }
  ],
  "κλέος": [
@@ -4121,7 +4271,7 @@
   {
    "lemma": "ὑπό",
    "grammar": "prep",
-   "count": 73
+   "count": 78
   }
  ],
  "ποσσὶν": [
@@ -4216,7 +4366,7 @@
   {
    "lemma": "ἐπί",
    "grammar": "prep",
-   "count": 11
+   "count": 13
   }
  ],
  "ὑγρὴν": [
@@ -4230,7 +4380,7 @@
   {
    "lemma": "ἐπί",
    "grammar": "prep",
-   "count": 20
+   "count": 27
   }
  ],
  "ἀπείρονα": [
@@ -4387,7 +4537,7 @@
   {
    "lemma": "κατά",
    "grammar": "prep",
-   "count": 17
+   "count": 21
   }
  ],
  "οὐλύμποιο": [
@@ -4429,7 +4579,7 @@
   {
    "lemma": "ἐπί",
    "grammar": "prep",
-   "count": 176
+   "count": 195
   }
  ],
  "προθύροις": [
@@ -4526,6 +4676,11 @@
    "lemma": "ἄρα",
    "grammar": "partic",
    "count": 4
+  },
+  {
+   "lemma": "ἆρα",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "μνηστῆρας": [
@@ -4644,7 +4799,7 @@
   {
    "lemma": "οἶνος",
    "grammar": "noun sg masc acc",
-   "count": 4
+   "count": 5
   }
  ],
  "ἔμισγον": [
@@ -4750,6 +4905,11 @@
  ],
  "ἴδε": [
   {
+   "lemma": "ὁράω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 3
+  },
+  {
    "lemma": "εἶδον",
    "grammar": "verb 3rd sg aor ind act",
    "count": 1
@@ -4834,7 +4994,7 @@
   {
    "lemma": "ἔρχομαι",
    "grammar": "part sg aor act masc nom",
-   "count": 7
+   "count": 10
   }
  ],
  "μνηστήρων": [
@@ -4897,12 +5057,12 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl neut acc",
-   "count": 215
+   "count": 233
   },
   {
    "lemma": "ὁ",
    "grammar": "article pl neut nom",
-   "count": 39
+   "count": 44
   },
   {
    "lemma": "ὁ",
@@ -5059,7 +5219,7 @@
   {
    "lemma": "χαίρω",
    "grammar": "verb 2nd sg pres imperat act",
-   "count": 2
+   "count": 3
   }
  ],
  "ξεῖνε": [
@@ -5073,7 +5233,7 @@
   {
    "lemma": "παρά",
    "grammar": "prep",
-   "count": 21
+   "count": 22
   }
  ],
  "ἄμμι": [
@@ -5148,7 +5308,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg fem nom",
-   "count": 161
+   "count": 183
   },
   {
    "lemma": "ὁ",
@@ -5226,7 +5386,7 @@
   {
    "lemma": "πρός",
    "grammar": "prep",
-   "count": 163
+   "count": 187
   }
  ],
  "κίονα": [
@@ -5270,6 +5430,11 @@
   },
   {
    "lemma": "ἄλλος",
+   "grammar": "pron pl neut nom",
+   "count": 2
+  },
+  {
+   "lemma": "ἄλλος",
    "grammar": "adj dual fem nom",
    "count": 1
   }
@@ -5291,12 +5456,12 @@
  "πολλά": [
   {
    "lemma": "πολύς",
-   "grammar": "adj pl neut nom",
-   "count": 1
+   "grammar": "adj pl neut acc",
+   "count": 6
   },
   {
    "lemma": "πολύς",
-   "grammar": "adj pl neut acc",
+   "grammar": "adj pl neut nom",
    "count": 1
   }
  ],
@@ -5305,6 +5470,11 @@
    "lemma": "αὐτός",
    "grammar": "adj sg fem acc",
    "count": 9
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg fem acc",
+   "count": 3
   }
  ],
  "θρόνον": [
@@ -5436,7 +5606,7 @@
   {
    "lemma": "μή",
    "grammar": "adv",
-   "count": 136
+   "count": 159
   },
   {
    "lemma": "μή",
@@ -5777,13 +5947,13 @@
  "ἦλθον": [
   {
    "lemma": "ἔρχομαι",
-   "grammar": "verb 1st sg aor ind act",
-   "count": 2
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 4
   },
   {
    "lemma": "ἔρχομαι",
-   "grammar": "verb 3rd pl aor ind act",
-   "count": 1
+   "grammar": "verb 1st sg aor ind act",
+   "count": 3
   }
  ],
  "μνηστῆρες": [
@@ -5837,7 +6007,7 @@
   {
    "lemma": "χείρ",
    "grammar": "noun pl fem acc",
-   "count": 8
+   "count": 12
   }
  ],
  "ἔχευαν": [
@@ -6212,6 +6382,11 @@
    "lemma": "οὗτος",
    "grammar": "adj pl neut nom",
    "count": 8
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron pl neut acc",
+   "count": 2
   }
  ],
  "μέλει": [
@@ -6219,6 +6394,11 @@
    "lemma": "μέλω",
    "grammar": "verb 3rd sg pres ind act",
    "count": 5
+  },
+  {
+   "lemma": "μέλει",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
   }
  ],
  "κίθαρις": [
@@ -6291,12 +6471,12 @@
   {
    "lemma": "ὅς",
    "grammar": "pron sg masc gen",
-   "count": 17
+   "count": 18
   },
   {
    "lemma": "ὅς",
    "grammar": "pron sg neut gen",
-   "count": 16
+   "count": 17
   },
   {
    "lemma": "οὗ",
@@ -6355,7 +6535,12 @@
   {
    "lemma": "ἤ",
    "grammar": "conj",
-   "count": 14
+   "count": 22
+  },
+  {
+   "lemma": "ἤ",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "εἰν": [
@@ -6437,7 +6622,7 @@
   {
    "lemma": "πούς",
    "grammar": "noun pl masc acc",
-   "count": 6
+   "count": 7
   }
  ],
  "ἀφνειότεροι": [
@@ -6495,6 +6680,11 @@
    "lemma": "τις",
    "grammar": "pron sg masc nom",
    "count": 6
+  },
+  {
+   "lemma": "τὶς",
+   "grammar": "pron sg masc nom",
+   "count": 4
   },
   {
    "lemma": "τις",
@@ -6599,8 +6789,18 @@
    "count": 5
   },
   {
+   "lemma": "τίς",
+   "grammar": "pron sg masc nom",
+   "count": 5
+  },
+  {
    "lemma": "τις",
    "grammar": "adj sg common nom",
+   "count": 2
+  },
+  {
+   "lemma": "τίς",
+   "grammar": "pron sg fem nom",
    "count": 2
   },
   {
@@ -6611,6 +6811,11 @@
   {
    "lemma": "τίς",
    "grammar": "irreg",
+   "count": 1
+  },
+  {
+   "lemma": "τὶς",
+   "grammar": "pron sg masc nom",
    "count": 1
   }
  ],
@@ -6632,7 +6837,7 @@
   {
    "lemma": "πόλις",
    "grammar": "noun sg fem nom",
-   "count": 7
+   "count": 8
   }
  ],
  "τοκῆες": [
@@ -6823,7 +7028,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj pl masc nom",
-   "count": 12
+   "count": 17
   }
  ],
  "ἴσαν": [
@@ -6878,6 +7083,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg imperf ind act",
    "count": 69
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 21
   },
   {
    "lemma": "εἰμί",
@@ -6957,7 +7167,7 @@
   {
    "lemma": "υἱός",
    "grammar": "noun sg masc nom",
-   "count": 4
+   "count": 6
   }
  ],
  "ἀτὰρ": [
@@ -6992,7 +7202,7 @@
   {
    "lemma": "ὧδε",
    "grammar": "adv",
-   "count": 5
+   "count": 10
   }
  ],
  "ξὺν": [
@@ -7118,7 +7328,7 @@
   {
    "lemma": "ἀγρός",
    "grammar": "noun sg masc gen",
-   "count": 2
+   "count": 3
   }
  ],
  "πόληος": [
@@ -7250,7 +7460,7 @@
   {
    "lemma": "οὐκέτι",
    "grammar": "adv",
-   "count": 8
+   "count": 11
   }
  ],
  "φασὶ": [
@@ -7299,7 +7509,7 @@
   {
    "lemma": "σύν",
    "grammar": "prep",
-   "count": 14
+   "count": 19
   }
  ],
  "ἀμφιπόλῳ": [
@@ -7351,7 +7561,7 @@
   {
    "lemma": "ἄν",
    "grammar": "adv",
-   "count": 32
+   "count": 33
   },
   {
    "lemma": "ἐάν",
@@ -7502,7 +7712,7 @@
   {
    "lemma": "ἔτι",
    "grammar": "adv",
-   "count": 56
+   "count": 59
   }
  ],
  "ζωὸς": [
@@ -7542,7 +7752,7 @@
   {
    "lemma": "ἀνήρ",
    "grammar": "noun pl masc nom",
-   "count": 7
+   "count": 8
   }
  ],
  "ἄγριοι": [
@@ -7729,6 +7939,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg pres ind act",
    "count": 50
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 18
   }
  ],
  "αὐτοῖο": [
@@ -7951,7 +8166,7 @@
   {
    "lemma": "οὐ",
    "grammar": "adv",
-   "count": 138
+   "count": 155
   }
  ],
  "οἶδ": [
@@ -8019,7 +8234,7 @@
   {
    "lemma": "υἱός",
    "grammar": "noun sg masc nom",
-   "count": 1
+   "count": 6
   }
  ],
  "κτεάτεσσιν": [
@@ -8106,7 +8321,7 @@
   {
    "lemma": "γίγνομαι",
    "grammar": "verb aor inf mid",
-   "count": 24
+   "count": 25
   },
   {
    "lemma": "γίγνομαι",
@@ -8124,6 +8339,11 @@
    "lemma": "σύ",
    "grammar": "pron sg nom",
    "count": 2
+  },
+  {
+   "lemma": "σύ",
+   "grammar": "pron 2nd sg nom",
+   "count": 1
   }
  ],
  "με": [
@@ -8134,12 +8354,22 @@
   },
   {
    "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc acc",
+   "count": 10
+  },
+  {
+   "lemma": "ἐγώ",
    "grammar": "pron sg masc acc",
    "count": 6
   },
   {
    "lemma": "ἐγώ",
    "grammar": "pron sg fem acc",
+   "count": 1
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg acc",
    "count": 1
   }
  ],
@@ -8284,6 +8514,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg pres ind act",
    "count": 17
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
   }
  ],
  "ὑβρίζοντες": [
@@ -8489,7 +8724,7 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb 3rd pl aor ind act",
-   "count": 3
+   "count": 5
   }
  ],
  "θανόντι": [
@@ -8673,6 +8908,11 @@
    "lemma": "ἐγώ",
    "grammar": "pron sg masc dat",
    "count": 2
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc dat",
+   "count": 1
   }
  ],
  "ὀδύνας": [
@@ -8833,7 +9073,7 @@
   {
    "lemma": "οἶκος",
    "grammar": "noun sg masc acc",
-   "count": 3
+   "count": 4
   }
  ],
  "ἀρνεῖται": [
@@ -8868,7 +9108,7 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb aor inf act",
-   "count": 8
+   "count": 9
   }
  ],
  "δύναται": [
@@ -8876,6 +9116,11 @@
    "lemma": "δύναμαι",
    "grammar": "verb 3rd sg pres ind mp",
    "count": 6
+  },
+  {
+   "lemma": "δύναμαι",
+   "grammar": "verb 3rd sg pres ind mid",
+   "count": 4
   }
  ],
  "φθινύθουσιν": [
@@ -8907,6 +9152,11 @@
   }
  ],
  "αὐτόν": [
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg masc acc",
+   "count": 25
+  },
   {
    "lemma": "αὐτός",
    "grammar": "adj sg masc acc",
@@ -8980,7 +9230,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "part sg pres act masc nom",
-   "count": 33
+   "count": 35
   }
  ],
  "πήληκα": [
@@ -9006,7 +9256,7 @@
   {
    "lemma": "δύο",
    "grammar": "num",
-   "count": 1
+   "count": 7
   }
  ],
  "δοῦρε": [
@@ -9053,7 +9303,7 @@
   {
    "lemma": "οἶκος",
    "grammar": "noun sg masc dat",
-   "count": 5
+   "count": 6
   }
  ],
  "ἡμετέρῳ": [
@@ -9207,7 +9457,7 @@
   {
    "lemma": "πατήρ",
    "grammar": "noun sg masc nom",
-   "count": 5
+   "count": 6
   }
  ],
  "ἐμός": [
@@ -9458,7 +9708,7 @@
   {
    "lemma": "μήτηρ",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 5
   }
  ],
  "θυμὸς": [
@@ -9584,9 +9834,19 @@
    "lemma": "σύ",
    "grammar": "pron sg dat",
    "count": 5
+  },
+  {
+   "lemma": "σύ",
+   "grammar": "pron 2nd sg dat",
+   "count": 4
   }
  ],
  "αὐτῷ": [
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg masc dat",
+   "count": 50
+  },
   {
    "lemma": "αὐτός",
    "grammar": "adj sg masc dat",
@@ -9815,7 +10075,7 @@
   {
    "lemma": "ἔρχομαι",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 6
+   "count": 12
   }
  ],
  "ἀχαιῶν": [
@@ -10040,6 +10300,11 @@
    "lemma": "πᾶς",
    "grammar": "adj pl masc acc",
    "count": 19
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl masc acc",
+   "count": 4
   }
  ],
  "πατροφονῆα": [
@@ -10067,7 +10332,7 @@
   {
    "lemma": "πατήρ",
    "grammar": "noun sg masc acc",
-   "count": 4
+   "count": 9
   }
  ],
  "κλυτὸν": [
@@ -10119,7 +10384,7 @@
   {
    "lemma": "καλός",
    "grammar": "adj sg neut nom",
-   "count": 13
+   "count": 14
   },
   {
    "lemma": "καλός",
@@ -10136,7 +10401,7 @@
   {
    "lemma": "μέγας",
    "grammar": "adj sg masc acc",
-   "count": 1
+   "count": 2
   }
  ],
  "ἄλκιμος": [
@@ -10185,7 +10450,7 @@
   {
    "lemma": "ἤδη",
    "grammar": "adv",
-   "count": 38
+   "count": 42
   }
  ],
  "πού": [
@@ -10359,7 +10624,7 @@
   {
    "lemma": "οἷος",
    "grammar": "pron pl neut acc",
-   "count": 4
+   "count": 5
   },
   {
    "lemma": "οἷος",
@@ -10397,7 +10662,7 @@
   {
    "lemma": "μή",
    "grammar": "adv",
-   "count": 26
+   "count": 27
   },
   {
    "lemma": "μή",
@@ -10559,12 +10824,17 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg neut acc",
-   "count": 294
+   "count": 319
   },
   {
    "lemma": "ὁ",
    "grammar": "article sg neut nom",
-   "count": 103
+   "count": 118
+  },
+  {
+   "lemma": "ὁ",
+   "grammar": "article sg neut voc",
+   "count": 2
   },
   {
    "lemma": "ὁ",
@@ -10616,7 +10886,7 @@
   {
    "lemma": "θεός",
    "grammar": "noun sg masc acc",
-   "count": 8
+   "count": 9
   },
   {
    "lemma": "θεός",
@@ -10689,7 +10959,7 @@
   {
    "lemma": "ἀκούω",
    "grammar": "part pl pres act masc nom",
-   "count": 3
+   "count": 4
   }
  ],
  "λυγρόν": [
@@ -10801,7 +11071,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg fem dat",
-   "count": 104
+   "count": 125
   },
   {
    "lemma": "τῇ",
@@ -10997,7 +11267,7 @@
   {
    "lemma": "οἶδα",
    "grammar": "verb 2nd sg perf ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ἔργ": [
@@ -11035,6 +11305,11 @@
   {
    "lemma": "εἷς",
    "grammar": "noun sg masc acc",
+   "count": 1
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg neut nom",
    "count": 1
   }
  ],
@@ -11138,7 +11413,7 @@
   {
    "lemma": "κεφαλή",
    "grammar": "noun sg fem acc",
-   "count": 4
+   "count": 5
   }
  ],
  "ποθέω": [
@@ -11180,7 +11455,7 @@
   {
    "lemma": "κατά",
    "grammar": "prep",
-   "count": 23
+   "count": 24
   }
  ],
  "ἑλλάδα": [
@@ -11362,6 +11637,11 @@
    "lemma": "οὗτος",
    "grammar": "adj sg neut dat",
    "count": 7
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg masc dat",
+   "count": 1
   }
  ],
  "νέμεσις": [
@@ -11396,7 +11676,7 @@
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun pl masc nom",
-   "count": 6
+   "count": 7
   },
   {
    "lemma": "ἄνθρωπος",
@@ -11443,7 +11723,7 @@
   {
    "lemma": "ἀκούω",
    "grammar": "verb pres inf act",
-   "count": 7
+   "count": 8
   }
  ],
  "ἀπώλεσε": [
@@ -11472,6 +11752,11 @@
    "lemma": "αὐτός",
    "grammar": "adj sg fem gen",
    "count": 6
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg fem gen",
+   "count": 2
   }
  ],
  "ἔργα": [
@@ -11596,7 +11881,7 @@
   {
    "lemma": "πάλιν",
    "grammar": "adv",
-   "count": 15
+   "count": 26
   }
  ],
  "βεβήκει": [
@@ -11735,6 +12020,11 @@
    "lemma": "ἄρχω",
    "grammar": "verb 3rd sg imperf ind mp",
    "count": 1
+  },
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 1
   }
  ],
  "μητρὸς": [
@@ -11769,7 +12059,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "part pl pres act masc nom",
-   "count": 9
+   "count": 11
   },
   {
    "lemma": "ἔχω",
@@ -11800,7 +12090,7 @@
   {
    "lemma": "μηδέ",
    "grammar": "conj",
-   "count": 1
+   "count": 2
   }
  ],
  "βοητὺς": [
@@ -11829,6 +12119,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg pres ind act",
    "count": 23
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
   }
  ],
  "ἀοιδοῦ": [
@@ -12164,7 +12459,7 @@
   {
    "lemma": "ὅς",
    "grammar": "pron sg neut nom",
-   "count": 7
+   "count": 8
   },
   {
    "lemma": "ὁ",
@@ -12179,6 +12474,11 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg neut nom",
+   "count": 1
+  },
+  {
+   "lemma": "ὁ",
+   "grammar": "pron 3rd sg neut nom",
    "count": 1
   }
  ],
@@ -12390,6 +12690,11 @@
    "lemma": "αὐτός",
    "grammar": "adj sg masc nom",
    "count": 5
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron sg masc nom",
+   "count": 1
   }
  ],
  "βασιλῆες": [
@@ -12518,7 +12823,7 @@
   {
    "lemma": "κτῆμα",
    "grammar": "noun pl neut acc",
-   "count": 2
+   "count": 3
   }
  ],
  "ἔχοις": [
@@ -12608,6 +12913,11 @@
    "lemma": "οὗτος",
    "grammar": "adj sg masc nom",
    "count": 37
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg masc nom",
+   "count": 2
   }
  ],
  "ἀνήρ": [
@@ -12693,6 +13003,11 @@
   }
  ],
  "αὐτοῦ": [
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg masc gen",
+   "count": 66
+  },
   {
    "lemma": "αὐτός",
    "grammar": "adj sg masc gen",
@@ -12823,7 +13138,7 @@
   {
    "lemma": "οὖν",
    "grammar": "adv",
-   "count": 191
+   "count": 192
   },
   {
    "lemma": "οὖν",
@@ -12872,6 +13187,11 @@
   },
   {
    "lemma": "τις",
+   "grammar": "pron sg masc acc",
+   "count": 1
+  },
+  {
+   "lemma": "τὶς",
    "grammar": "pron sg masc acc",
    "count": 1
   }
@@ -12990,7 +13310,7 @@
   {
    "lemma": "ἔρχομαι",
    "grammar": "verb aor inf act",
-   "count": 1
+   "count": 2
   }
  ],
  "τερπομένοισι": [
@@ -13053,7 +13373,7 @@
   {
    "lemma": "αὐλή",
    "grammar": "noun sg fem gen",
-   "count": 1
+   "count": 2
   }
  ],
  "ὑψηλὸς": [
@@ -13236,7 +13556,7 @@
   {
    "lemma": "δίδωμι",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 4
+   "count": 5
   }
  ],
  "ἶσα": [
@@ -13352,6 +13672,11 @@
    "lemma": "θύρα",
    "grammar": "noun pl fem acc",
    "count": 6
+  },
+  {
+   "lemma": "θύρα",
+   "grammar": "noun sg fem gen",
+   "count": 1
   }
  ],
  "θαλάμου": [
@@ -13573,7 +13898,7 @@
   {
    "lemma": "ὁδός",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 5
   }
  ],
  "πέφραδ": [
@@ -13684,6 +14009,11 @@
    "lemma": "αὐτός",
    "grammar": "adj pl masc acc",
    "count": 19
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl masc acc",
+   "count": 14
   },
   {
    "lemma": "αὐτός",
@@ -14044,6 +14374,11 @@
    "count": 25
   },
   {
+   "lemma": "ὑμεῖς",
+   "grammar": "pron 2nd pl dat",
+   "count": 7
+  },
+  {
    "lemma": "σύ",
    "grammar": "pron pl dat",
    "count": 1
@@ -14088,7 +14423,7 @@
   {
    "lemma": "πόλις",
    "grammar": "noun sg fem acc",
-   "count": 19
+   "count": 21
   }
  ],
  "εὖ": [
@@ -14237,6 +14572,11 @@
    "lemma": "κακός",
    "grammar": "adv",
    "count": 9
+  },
+  {
+   "lemma": "κακῶς",
+   "grammar": "adv",
+   "count": 3
   }
  ],
  "ἀφίει": [
@@ -14961,6 +15301,11 @@
    "count": 2
   },
   {
+   "lemma": "πρῶτος",
+   "grammar": "num sg neut acc",
+   "count": 2
+  },
+  {
    "lemma": "πρότερος",
    "grammar": "adj sg masc acc superl",
    "count": 1
@@ -15096,7 +15441,12 @@
   {
    "lemma": "ὅτι",
    "grammar": "conj",
-   "count": 187
+   "count": 215
+  },
+  {
+   "lemma": "ὅτι",
+   "grammar": "adv",
+   "count": 2
   },
   {
    "lemma": "ὅστις",
@@ -15404,7 +15754,7 @@
   {
    "lemma": "ἀνίστημι",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "κάλχας": [
@@ -15498,7 +15848,7 @@
   {
    "lemma": "διά",
    "grammar": "prep",
-   "count": 82
+   "count": 89
   }
  ],
  "μαντοσύνην": [
@@ -15593,6 +15943,11 @@
   },
   {
    "lemma": "σύ",
+   "grammar": "pron 2nd sg nom",
+   "count": 4
+  },
+  {
+   "lemma": "σύ",
    "grammar": "pron sg nom",
    "count": 3
   }
@@ -15671,7 +16026,7 @@
   {
    "lemma": "βασιλεύς",
    "grammar": "noun sg masc nom",
-   "count": 2
+   "count": 5
   }
  ],
  "χώσεται": [
@@ -15887,12 +16242,12 @@
  ],
  "εἴπῃς": [
   {
-   "lemma": "εἶπον",
+   "lemma": "λέγω",
    "grammar": "verb 2nd sg aor subj act",
-   "count": 1
+   "count": 2
   },
   {
-   "lemma": "λέγω",
+   "lemma": "εἶπον",
    "grammar": "verb 2nd sg aor subj act",
    "count": 1
   }
@@ -16081,6 +16436,11 @@
   {
    "lemma": "τέκνον",
    "grammar": "noun pl neut voc",
+   "count": 3
+  },
+  {
+   "lemma": "τέκνον",
+   "grammar": "noun pl neut acc",
    "count": 2
   }
  ],
@@ -16214,7 +16574,7 @@
   {
    "lemma": "ἄγγελος",
    "grammar": "noun pl masc gen",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐλήλυθα": [
@@ -16282,7 +16642,7 @@
   {
    "lemma": "πρό",
    "grammar": "prep",
-   "count": 10
+   "count": 11
   }
  ],
  "τῶνδε": [
@@ -16364,6 +16724,11 @@
   },
   {
    "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc gen",
+   "count": 3
+  },
+  {
+   "lemma": "ἐγώ",
    "grammar": "pron sg masc gen",
    "count": 1
   }
@@ -16438,7 +16803,7 @@
   {
    "lemma": "χώρα",
    "grammar": "noun sg fem gen",
-   "count": 4
+   "count": 5
   }
  ],
  "ὁρᾷς": [
@@ -16455,8 +16820,18 @@
    "count": 18
   },
   {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl masc acc",
+   "count": 2
+  },
+  {
    "lemma": "ἐγώ",
    "grammar": "pron pl fem acc",
+   "count": 1
+  },
+  {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl acc",
    "count": 1
   }
  ],
@@ -16485,12 +16860,12 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl masc dat",
-   "count": 109
+   "count": 121
   },
   {
    "lemma": "ὁ",
    "grammar": "article pl neut dat",
-   "count": 46
+   "count": 54
   }
  ],
  "σοῖς": [
@@ -16580,6 +16955,11 @@
    "lemma": "ἄλλος",
    "grammar": "adj sg neut nom",
    "count": 8
+  },
+  {
+   "lemma": "ἄλλος",
+   "grammar": "pron sg neut nom",
+   "count": 2
   }
  ],
  "φῦλον": [
@@ -16614,7 +16994,7 @@
   {
    "lemma": "πρός",
    "grammar": "prep",
-   "count": 3
+   "count": 4
   }
  ],
  "παλλάδος": [
@@ -16729,7 +17109,7 @@
   {
    "lemma": "οὐ",
    "grammar": "adv",
-   "count": 37
+   "count": 38
   }
  ],
  "οἵα": [
@@ -17061,6 +17441,11 @@
    "lemma": "ἐγώ",
    "grammar": "pron pl masc gen",
    "count": 1
+  },
+  {
+   "lemma": "ἡμεῖς",
+   "grammar": "pron 1st pl gen",
+   "count": 1
   }
  ],
  "οὐδὲν": [
@@ -17073,6 +17458,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg neut nom",
    "count": 8
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg neut acc",
+   "count": 2
   }
  ],
  "ἐξειδὼς": [
@@ -17112,7 +17502,7 @@
   {
    "lemma": "θεός",
    "grammar": "noun sg masc gen",
-   "count": 12
+   "count": 24
   },
   {
    "lemma": "θεός",
@@ -17124,7 +17514,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 3rd sg pres ind act",
-   "count": 6
+   "count": 38
   },
   {
    "lemma": "λέγω",
@@ -17244,14 +17634,14 @@
   {
    "lemma": "ἀκούω",
    "grammar": "part sg aor act masc nom",
-   "count": 8
+   "count": 9
   }
  ],
  "ἀπ": [
   {
    "lemma": "ἀπό",
    "grammar": "prep",
-   "count": 4
+   "count": 8
   }
  ],
  "οἶσθά": [
@@ -17272,7 +17662,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl fem acc",
-   "count": 110
+   "count": 127
   }
  ],
  "ξυμφορὰς": [
@@ -17363,7 +17753,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article sg fem gen",
-   "count": 176
+   "count": 200
   }
  ],
  "προθυμίας": [
@@ -17520,7 +17910,7 @@
   {
    "lemma": "γῆ",
    "grammar": "noun sg fem gen",
-   "count": 6
+   "count": 11
   }
  ],
  "κρατεῖς": [
@@ -17566,6 +17956,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg neut nom",
    "count": 4
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg neut acc",
+   "count": 1
   }
  ],
  "πύργος": [
@@ -17605,6 +18000,11 @@
   {
    "lemma": "ἔσω",
    "grammar": "prep",
+   "count": 1
+  },
+  {
+   "lemma": "ἔσω",
+   "grammar": "adv",
    "count": 1
   }
  ],
@@ -17669,6 +18069,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg pres ind act",
    "count": 38
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
   }
  ],
  "ὑμῶν": [
@@ -17681,13 +18086,18 @@
    "lemma": "σύ",
    "grammar": "pron pl masc gen",
    "count": 2
+  },
+  {
+   "lemma": "ὑμεῖς",
+   "grammar": "pron 2nd pl gen",
+   "count": 2
   }
  ],
  "ὅστις": [
   {
    "lemma": "ὅστις",
    "grammar": "pron sg masc nom",
-   "count": 3
+   "count": 4
   }
  ],
  "ἴσου": [
@@ -17714,6 +18124,11 @@
  "ἔρχεται": [
   {
    "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd sg pres ind mid",
+   "count": 7
+  },
+  {
+   "lemma": "ἔρχομαι",
    "grammar": "verb 3rd sg pres ind mp",
    "count": 1
   }
@@ -17732,6 +18147,11 @@
   {
    "lemma": "μόνος",
    "grammar": "adj sg masc acc",
+   "count": 2
+  },
+  {
+   "lemma": "μόνος",
+   "grammar": "adj sg neut acc",
    "count": 1
   }
  ],
@@ -17907,6 +18327,11 @@
    "lemma": "οὗτος",
    "grammar": "adj sg fem acc",
    "count": 10
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg fem acc",
+   "count": 1
   }
  ],
  "ἔπραξα": [
@@ -18097,6 +18522,11 @@
    "lemma": "ὅταν",
    "grammar": "conj",
    "count": 28
+  },
+  {
+   "lemma": "ὅταν",
+   "grammar": "adv",
+   "count": 4
   }
  ],
  "ἵκηται": [
@@ -18145,7 +18575,7 @@
   {
    "lemma": "θεός",
    "grammar": "noun sg masc nom",
-   "count": 3
+   "count": 7
   }
  ],
  "δοκῶ": [
@@ -18227,7 +18657,7 @@
   {
    "lemma": "ὄπισθεν",
    "grammar": "adv",
-   "count": 2
+   "count": 3
   }
  ],
  "κατιδών": [
@@ -18276,7 +18706,7 @@
   {
    "lemma": "φημί",
    "grammar": "verb 3rd sg imperf ind act",
-   "count": 106
+   "count": 109
   }
  ],
  "ἀπολλόδωρος": [
@@ -18340,6 +18770,11 @@
    "lemma": "βούλομαι",
    "grammar": "part sg pres mp masc nom",
    "count": 7
+  },
+  {
+   "lemma": "βούλομαι",
+   "grammar": "part sg pres mid masc nom",
+   "count": 1
   }
  ],
  "διαπυθέσθαι": [
@@ -18435,7 +18870,7 @@
   {
    "lemma": "Φίλιππος",
    "grammar": "noun sg masc gen",
-   "count": 1
+   "count": 2
   }
  ],
  "εἰδέναι": [
@@ -18463,7 +18898,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb pres inf act",
-   "count": 42
+   "count": 43
   }
  ],
  "διήγησαι": [
@@ -18485,13 +18920,18 @@
    "lemma": "εἰμί",
    "grammar": "verb 2nd sg pres ind act",
    "count": 13
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 2nd sg pres ind act",
+   "count": 4
   }
  ],
  "τοὺς": [
   {
    "lemma": "ὁ",
    "grammar": "article pl masc acc",
-   "count": 152
+   "count": 170
   }
  ],
  "ἑταίρου": [
@@ -18505,7 +18945,7 @@
   {
    "lemma": "λόγος",
    "grammar": "noun pl masc acc",
-   "count": 13
+   "count": 14
   }
  ],
  "ἀπαγγέλλειν": [
@@ -18558,6 +18998,11 @@
    "lemma": "ταύτῃ",
    "grammar": "adv",
    "count": 1
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg fem dat",
+   "count": 1
   }
  ],
  "εἶπον": [
@@ -18565,6 +19010,11 @@
    "lemma": "λέγω",
    "grammar": "verb 1st sg aor ind act",
    "count": 18
+  },
+  {
+   "lemma": "λέγω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
   }
  ],
  "παντάπασιν": [
@@ -18586,6 +19036,11 @@
    "lemma": "σύ",
    "grammar": "pron sg common dat",
    "count": 19
+  },
+  {
+   "lemma": "σύ",
+   "grammar": "pron 2nd sg dat",
+   "count": 5
   }
  ],
  "διηγεῖσθαι": [
@@ -18634,7 +19089,7 @@
   {
    "lemma": "ὥστε",
    "grammar": "conj",
-   "count": 34
+   "count": 41
   }
  ],
  "ἐμὲ": [
@@ -18669,7 +19124,7 @@
   {
    "lemma": "ἔτος",
    "grammar": "noun pl neut gen",
-   "count": 3
+   "count": 4
   }
  ],
  "ἀγάθων": [
@@ -18749,12 +19204,12 @@
   {
    "lemma": "ἡμέρα",
    "grammar": "noun sg fem gen",
-   "count": 7
+   "count": 8
   },
   {
    "lemma": "ἡμέρα",
    "grammar": "noun pl fem acc",
-   "count": 4
+   "count": 7
   }
  ],
  "λέγῃ": [
@@ -18787,7 +19242,7 @@
   {
    "lemma": "ἔτος",
    "grammar": "noun pl neut acc",
-   "count": 3
+   "count": 4
   }
  ],
  "περιτρέχων": [
@@ -18897,6 +19352,16 @@
    "lemma": "πᾶς",
    "grammar": "adj sg masc acc",
    "count": 8
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl neut acc",
+   "count": 6
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl neut nom",
+   "count": 3
   }
  ],
  "πράττειν": [
@@ -18931,7 +19396,7 @@
   {
    "lemma": "γίγνομαι",
    "grammar": "verb 3rd sg aor ind mid",
-   "count": 11
+   "count": 21
   }
  ],
  "συνουσία": [
@@ -19298,6 +19763,11 @@
    "lemma": "δέω",
    "grammar": "verb 3rd sg pres ind act",
    "count": 58
+  },
+  {
+   "lemma": "δεῖ",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 2
   }
  ],
  "διηγήσασθαι": [
@@ -19394,6 +19864,11 @@
    "lemma": "ἄλλος",
    "grammar": "adj pl masc acc",
    "count": 24
+  },
+  {
+   "lemma": "ἄλλος",
+   "grammar": "pron pl masc acc",
+   "count": 1
   }
  ],
  "τινάς": [
@@ -19436,6 +19911,11 @@
    "lemma": "σύ",
    "grammar": "pron pl common acc",
    "count": 12
+  },
+  {
+   "lemma": "ὑμεῖς",
+   "grammar": "pron 2nd pl acc",
+   "count": 5
   }
  ],
  "ἑταίρους": [
@@ -19478,6 +19958,11 @@
    "lemma": "σύ",
    "grammar": "pron pl common nom",
    "count": 10
+  },
+  {
+   "lemma": "ὑμεῖς",
+   "grammar": "pron 2nd pl nom",
+   "count": 3
   }
  ],
  "ἡγεῖσθε": [
@@ -19653,7 +20138,7 @@
   {
    "lemma": "λόγος",
    "grammar": "noun pl masc dat",
-   "count": 6
+   "count": 7
   }
  ],
  "τοιοῦτος": [
@@ -19753,6 +20238,11 @@
  "σου": [
   {
    "lemma": "σύ",
+   "grammar": "pron 2nd sg gen",
+   "count": 15
+  },
+  {
+   "lemma": "σύ",
    "grammar": "pron sg common gen",
    "count": 4
   }
@@ -19838,7 +20328,7 @@
   {
    "lemma": "ὅς",
    "grammar": "pron pl neut acc",
-   "count": 37
+   "count": 39
   }
  ],
  "ὀλιγάκις": [
@@ -19852,7 +20342,7 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb 3rd sg imperf ind act",
-   "count": 2
+   "count": 3
   }
  ],
  "ὅποι": [
@@ -19887,7 +20377,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb aor inf act",
-   "count": 73
+   "count": 75
   }
  ],
  "δεῖπνον": [
@@ -19929,7 +20419,7 @@
   {
    "lemma": "ὄχλος",
    "grammar": "noun sg masc acc",
-   "count": 1
+   "count": 7
   }
  ],
  "ὡμολόγησα": [
@@ -19971,7 +20461,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb 2nd sg pres ind act",
-   "count": 7
+   "count": 8
   }
  ],
  "ἐθέλειν": [
@@ -20000,6 +20490,11 @@
    "lemma": "οὕτως",
    "grammar": "adv",
    "count": 43
+  },
+  {
+   "lemma": "οὕτω(ς)",
+   "grammar": "adv",
+   "count": 6
   }
  ],
  "κελεύῃς": [
@@ -20177,7 +20672,7 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 3
+   "count": 5
   }
  ],
  "θοίνην": [
@@ -20246,7 +20741,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 2nd sg pres ind act",
-   "count": 30
+   "count": 33
   }
  ],
  "σώκρατες": [
@@ -20281,7 +20776,7 @@
   {
    "lemma": "ὁράω",
    "grammar": "verb 2nd sg pres imperat act",
-   "count": 6
+   "count": 7
   }
  ],
  "ἀπολογήσῃ": [
@@ -20414,6 +20909,11 @@
    "lemma": "ἑαυτοῦ",
    "grammar": "pron sg masc dat",
    "count": 7
+  },
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd sg masc dat",
+   "count": 1
   }
  ],
  "προσέχοντα": [
@@ -20483,7 +20983,7 @@
   {
    "lemma": "οἰκία",
    "grammar": "noun sg fem dat",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀνεῳγμένην": [
@@ -20504,7 +21004,7 @@
   {
    "lemma": "θύρα",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 5
   }
  ],
  "αὐτόθι": [
@@ -20525,7 +21025,7 @@
   {
    "lemma": "πάσχω",
    "grammar": "verb aor inf act",
-   "count": 3
+   "count": 4
   }
  ],
  "οἷ": [
@@ -20539,7 +21039,7 @@
   {
    "lemma": "εὐθύς",
    "grammar": "adv",
-   "count": 13
+   "count": 40
   }
  ],
  "παῖδά": [
@@ -20588,7 +21088,7 @@
   {
    "lemma": "ὁράω",
    "grammar": "verb aor inf act",
-   "count": 7
+   "count": 9
   }
  ],
  "ἀγάθωνα": [
@@ -20656,7 +21156,7 @@
   {
    "lemma": "ἔρχομαι",
    "grammar": "verb 2nd sg aor ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "αὖθις": [
@@ -20740,7 +21240,7 @@
   {
    "lemma": "ὑπό",
    "grammar": "prep",
-   "count": 12
+   "count": 14
   }
  ],
  "δεῦρ": [
@@ -21077,7 +21577,7 @@
   {
    "lemma": "πολλάκις",
    "grammar": "adv",
-   "count": 11
+   "count": 12
   }
  ],
  "μεταπέμψασθαι": [
@@ -21098,7 +21598,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj sg masc acc",
-   "count": 5
+   "count": 6
   }
  ],
  "χρόνον": [
@@ -21274,7 +21774,12 @@
   {
    "lemma": "ἐάν",
    "grammar": "conj",
-   "count": 34
+   "count": 38
+  },
+  {
+   "lemma": "ἄν",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "ἁπτώμεθα": [
@@ -21288,7 +21793,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl fem dat",
-   "count": 38
+   "count": 41
   }
  ],
  "κύλιξιν": [
@@ -21356,7 +21861,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj sg fem gen",
-   "count": 2
+   "count": 3
   }
  ],
  "καλῆς": [
@@ -21399,6 +21904,11 @@
    "lemma": "εἰμί",
    "grammar": "part sg pres act fem nom",
    "count": 10
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "part sg pres act fem nom",
+   "count": 1
   }
  ],
  "σὴ": [
@@ -21464,7 +21974,7 @@
   {
    "lemma": "σφόδρα",
    "grammar": "adv",
-   "count": 8
+   "count": 9
   }
  ],
  "ἐξέλαμψεν": [
@@ -21513,7 +22023,7 @@
   {
    "lemma": "ὀλίγος",
    "grammar": "adj sg neut acc",
-   "count": 4
+   "count": 6
   },
   {
    "lemma": "ὀλίγος",
@@ -21665,6 +22175,11 @@
   },
   {
    "lemma": "τίς",
+   "grammar": "pron sg masc acc",
+   "count": 2
+  },
+  {
+   "lemma": "τίς",
    "grammar": "adj pl neut nom",
    "count": 1
   }
@@ -21704,7 +22219,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 1st sg pres ind act",
-   "count": 20
+   "count": 25
   }
  ],
  "ὄντι": [
@@ -21880,7 +22395,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 2nd pl pres ind act",
-   "count": 3
+   "count": 5
   }
  ],
  "ἀκοῦσαι": [
@@ -21978,7 +22493,7 @@
   {
    "lemma": "ἱκανός",
    "grammar": "adj sg masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀμφότερα": [
@@ -22019,6 +22534,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg masc nom",
    "count": 15
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg masc nom",
+   "count": 4
   }
  ],
  "παρόντων": [
@@ -22044,7 +22564,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb pres inf act",
-   "count": 14
+   "count": 16
   }
  ],
  "μεθύσκεσθαι": [
@@ -22058,7 +22578,7 @@
   {
    "lemma": "λέγω",
    "grammar": "part sg pres act masc nom",
-   "count": 8
+   "count": 16
   }
  ],
  "ἀηδής": [
@@ -22115,7 +22635,7 @@
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun pl masc dat",
-   "count": 15
+   "count": 16
   }
  ],
  "μέθη": [
@@ -22356,6 +22876,11 @@
   },
   {
    "lemma": "μηδείς",
+   "grammar": "pron sg neut acc",
+   "count": 2
+  },
+  {
+   "lemma": "μηδείς",
    "grammar": "adj sg neut nom",
    "count": 1
   }
@@ -22432,7 +22957,7 @@
   {
    "lemma": "διά",
    "grammar": "prep",
-   "count": 12
+   "count": 13
   }
  ],
  "οἵων": [
@@ -22484,7 +23009,7 @@
   {
    "lemma": "ἀρχή",
    "grammar": "noun sg fem nom",
-   "count": 1
+   "count": 2
   }
  ],
  "εὐριπίδου": [
@@ -22644,7 +23169,7 @@
   {
    "lemma": "θεός",
    "grammar": "noun sg masc dat",
-   "count": 5
+   "count": 7
   }
  ],
  "ἕνα": [
@@ -22652,6 +23177,11 @@
    "lemma": "εἷς",
    "grammar": "adj sg masc acc",
    "count": 8
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg masc acc",
+   "count": 3
   }
  ],
  "πώποτε": [
@@ -22885,6 +23415,11 @@
    "lemma": "τοιοῦτος",
    "grammar": "adj pl masc gen",
    "count": 1
+  },
+  {
+   "lemma": "τοιοῦτος",
+   "grammar": "pron pl neut gen",
+   "count": 1
   }
  ],
  "πέρι": [
@@ -22933,7 +23468,7 @@
   {
    "lemma": "ἡμέρα",
    "grammar": "noun sg fem acc",
-   "count": 9
+   "count": 10
   }
  ],
  "ἀξίως": [
@@ -23017,7 +23552,7 @@
   {
    "lemma": "θεός",
    "grammar": "noun sg masc acc",
-   "count": 5
+   "count": 6
   }
  ],
  "συνδοκεῖ": [
@@ -23076,7 +23611,7 @@
   {
    "lemma": "λόγος",
    "grammar": "noun sg masc acc",
-   "count": 28
+   "count": 41
   }
  ],
  "ἔρωτος": [
@@ -23136,6 +23671,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg masc nom",
    "count": 2
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg masc nom",
+   "count": 1
   }
  ],
  "ἐναντία": [
@@ -23202,6 +23742,11 @@
    "lemma": "οὐδέ",
    "grammar": "adv",
    "count": 37
+  },
+  {
+   "lemma": "οὐδέ",
+   "grammar": "conj",
+   "count": 2
   }
  ],
  "ἀριστοφάνης": [
@@ -23230,6 +23775,11 @@
    "lemma": "πᾶς",
    "grammar": "adj sg fem nom",
    "count": 12
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron sg fem nom",
+   "count": 1
   }
  ],
  "τουτωνὶ": [
@@ -23332,7 +23882,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 9
+   "count": 24
   }
  ],
  "ἐμέμνητο": [
@@ -23407,7 +23957,7 @@
   {
    "lemma": "μέγας",
    "grammar": "adj sg masc nom",
-   "count": 9
+   "count": 10
   }
  ],
  "ἔρως": [
@@ -23517,6 +24067,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd pl pres ind act",
    "count": 5
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
   }
  ],
  "λέγονται": [
@@ -23645,7 +24200,7 @@
   {
    "lemma": "γῆ",
    "grammar": "noun sg fem acc",
-   "count": 13
+   "count": 17
   },
   {
    "lemma": "Γῆ",
@@ -24093,6 +24648,11 @@
    "lemma": "ἑαυτοῦ",
    "grammar": "pron pl masc gen",
    "count": 11
+  },
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd pl masc gen",
+   "count": 1
   }
  ],
  "ἀπεχόμενοι": [
@@ -24120,7 +24680,7 @@
   {
    "lemma": "ἀλλήλων",
    "grammar": "pron pl masc acc",
-   "count": 5
+   "count": 7
   }
  ],
  "μαχόμενοί": [
@@ -24134,7 +24694,7 @@
   {
    "lemma": "μετά",
    "grammar": "prep",
-   "count": 6
+   "count": 14
   }
  ],
  "τοιοῦτοι": [
@@ -24421,7 +24981,7 @@
   {
    "lemma": "ὁ",
    "grammar": "article pl fem nom",
-   "count": 47
+   "count": 53
   }
  ],
  "γυναῖκες": [
@@ -24580,7 +25140,7 @@
   {
    "lemma": "ὄνομα",
    "grammar": "noun sg neut dat",
-   "count": 3
+   "count": 5
   }
  ],
  "προσήκοντας": [
@@ -25290,7 +25850,7 @@
   {
    "lemma": "λόγος",
    "grammar": "noun sg masc nom",
-   "count": 16
+   "count": 17
   }
  ],
  "ἁπλῶς": [
@@ -25319,6 +25879,11 @@
    "lemma": "εἷς",
    "grammar": "adj sg masc nom",
    "count": 12
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg masc nom",
+   "count": 8
   }
  ],
  "ὀρθότερόν": [
@@ -25389,6 +25954,11 @@
    "lemma": "εἰμί",
    "grammar": "part sg pres act fem gen",
    "count": 5
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "part sg pres act fem gen",
+   "count": 1
   }
  ],
  "ἐστόν": [
@@ -25589,6 +26159,11 @@
    "lemma": "ἑαυτοῦ",
    "grammar": "pron sg fem gen",
    "count": 3
+  },
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd sg fem gen",
+   "count": 1
   }
  ],
  "πραττομένη": [
@@ -25698,6 +26273,11 @@
    "lemma": "πᾶς",
    "grammar": "adj sg masc nom",
    "count": 10
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron sg masc nom",
+   "count": 2
   }
  ],
  "ἄξιος": [
@@ -25745,6 +26325,11 @@
    "lemma": "ἀληθής",
    "grammar": "adv",
    "count": 4
+  },
+  {
+   "lemma": "ἀληθῶς",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "πάνδημός": [
@@ -25766,6 +26351,11 @@
    "lemma": "οὗτος",
    "grammar": "adj sg masc nom",
    "count": 6
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron sg masc nom",
+   "count": 2
   }
  ],
  "φαῦλοι": [
@@ -25826,7 +26416,7 @@
   {
    "lemma": "βλέπω",
    "grammar": "part pl pres act masc nom",
-   "count": 2
+   "count": 3
   }
  ],
  "ἀμελοῦντες": [
@@ -25844,6 +26434,11 @@
   }
  ],
  "αὐτοῖς": [
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl masc dat",
+   "count": 50
+  },
   {
    "lemma": "αὐτός",
    "grammar": "adj pl masc dat",
@@ -25872,6 +26467,11 @@
    "lemma": "ὅμοιος",
    "grammar": "adv",
    "count": 15
+  },
+  {
+   "lemma": "ὁμοίως",
+   "grammar": "adv",
+   "count": 2
   }
  ],
  "ἀγαθόν": [
@@ -25884,6 +26484,11 @@
    "lemma": "ἀγαθός",
    "grammar": "adj sg neut nom",
    "count": 2
+  },
+  {
+   "lemma": "ἀγαθός",
+   "grammar": "adj sg masc acc",
+   "count": 1
   }
  ],
  "ἐναντίον": [
@@ -26047,6 +26652,11 @@
    "lemma": "αὐτός",
    "grammar": "adj sg fem dat",
    "count": 8
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg fem dat",
+   "count": 5
   }
  ],
  "παιδεραστίᾳ": [
@@ -26307,7 +26917,7 @@
   {
    "lemma": "ψυχή",
    "grammar": "noun sg fem gen",
-   "count": 8
+   "count": 9
   }
  ],
  "σώματος": [
@@ -26399,6 +27009,11 @@
    "lemma": "οὗτος",
    "grammar": "adj pl masc nom",
    "count": 12
+  },
+  {
+   "lemma": "οὗτος",
+   "grammar": "pron pl masc nom",
+   "count": 1
   }
  ],
  "ὄνειδος": [
@@ -26627,7 +27242,7 @@
   {
    "lemma": "λόγος",
    "grammar": "noun sg masc dat",
-   "count": 11
+   "count": 12
   }
  ],
  "πειρώμενοι": [
@@ -26944,6 +27559,11 @@
    "lemma": "φανερός",
    "grammar": "adv",
    "count": 1
+  },
+  {
+   "lemma": "φανερῶς",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "λάθρᾳ": [
@@ -27051,7 +27671,7 @@
   {
    "lemma": "ἐξουσία",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 5
   }
  ],
  "δέδωκε": [
@@ -27133,7 +27753,7 @@
   {
    "lemma": "χρῆμα",
    "grammar": "noun pl neut acc",
-   "count": 23
+   "count": 24
   },
   {
    "lemma": "χρῆμα",
@@ -27180,7 +27800,7 @@
   {
    "lemma": "δύναμις",
    "grammar": "noun sg fem acc",
-   "count": 9
+   "count": 10
   }
  ],
  "ἐθέλοι": [
@@ -27375,6 +27995,11 @@
    "lemma": "δίδωμι",
    "grammar": "verb 3rd sg perf ind mp",
    "count": 1
+  },
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 3rd sg perf ind pass",
+   "count": 1
   }
  ],
  "νόμου": [
@@ -27416,14 +28041,14 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 3rd pl pres ind act",
-   "count": 3
+   "count": 10
   }
  ],
  "πολλοί": [
   {
    "lemma": "πολύς",
    "grammar": "adj pl masc nom",
-   "count": 3
+   "count": 6
   }
  ],
  "ὀμνύντι": [
@@ -27487,6 +28112,11 @@
    "lemma": "πᾶς",
    "grammar": "adj sg fem acc",
    "count": 8
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron sg fem acc",
+   "count": 1
   }
  ],
  "πεποιήκασι": [
@@ -27606,6 +28236,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd sg pres subj act",
    "count": 16
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd sg pres subj act",
+   "count": 1
   }
  ],
  "ἡλικιῶται": [
@@ -27633,7 +28268,7 @@
   {
    "lemma": "ἐάν",
    "grammar": "conj",
-   "count": 16
+   "count": 17
   }
  ],
  "ὁρῶσιν": [
@@ -27675,7 +28310,7 @@
   {
    "lemma": "λέγω",
    "grammar": "part pl pres act masc acc",
-   "count": 1
+   "count": 3
   }
  ],
  "βλέψας": [
@@ -27822,7 +28457,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj pl masc acc",
-   "count": 6
+   "count": 7
   }
  ],
  "ὑποσχέσεις": [
@@ -27941,7 +28576,7 @@
   {
    "lemma": "αἰτία",
    "grammar": "noun sg fem gen",
-   "count": 2
+   "count": 3
   },
   {
    "lemma": "αἰτία",
@@ -28494,7 +29129,7 @@
   {
    "lemma": "πλοῦτος",
    "grammar": "noun sg masc gen",
-   "count": 1
+   "count": 2
   }
  ],
  "χαρισάμενος": [
@@ -28626,7 +29261,7 @@
   {
    "lemma": "ἀπάτη",
    "grammar": "noun sg fem nom",
-   "count": 1
+   "count": 2
   }
  ],
  "δεδηλωκέναι": [
@@ -28780,7 +29415,7 @@
   {
    "lemma": "κάτω",
    "grammar": "adv",
-   "count": 5
+   "count": 6
   }
  ],
  "ἰατρὸν": [
@@ -28795,6 +29430,11 @@
    "lemma": "κατάκειμαι",
    "grammar": "verb pres inf mp",
    "count": 3
+  },
+  {
+   "lemma": "κατάκειμαι",
+   "grammar": "verb pres inf mid",
+   "count": 1
   }
  ],
  "δίκαιος": [
@@ -28822,7 +29462,12 @@
   {
    "lemma": "ἕως",
    "grammar": "prep",
-   "count": 12
+   "count": 15
+  },
+  {
+   "lemma": "ἕως",
+   "grammar": "conj",
+   "count": 1
   }
  ],
  "παύσωμαι": [
@@ -28836,6 +29481,11 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb 1st sg fut ind act",
+   "count": 3
+  },
+  {
+   "lemma": "ποιέω",
+   "grammar": "verb 1st sg aor subj act",
    "count": 2
   }
  ],
@@ -28899,7 +29549,7 @@
   {
    "lemma": "ὕδωρ",
    "grammar": "noun sg neut dat",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀνακογχυλίασον": [
@@ -29241,7 +29891,7 @@
   {
    "lemma": "λέγω",
    "grammar": "verb 3rd sg imperf ind act",
-   "count": 4
+   "count": 13
   }
  ],
  "ἀγαθοῖς": [
@@ -29286,7 +29936,7 @@
   {
    "lemma": "ὄνομα",
    "grammar": "noun sg neut nom",
-   "count": 4
+   "count": 5
   }
  ],
  "ἰατρικόν": [
@@ -29479,7 +30129,7 @@
   {
    "lemma": "ἀγαθός",
    "grammar": "adj sg masc nom",
-   "count": 6
+   "count": 7
   }
  ],
  "δημιουργός": [
@@ -29500,7 +30150,7 @@
   {
    "lemma": "σῶμα",
    "grammar": "noun sg neut dat",
-   "count": 5
+   "count": 6
   }
  ],
  "ἐναντιώτατα": [
@@ -29668,6 +30318,11 @@
   },
   {
    "lemma": "αὐτός",
+   "grammar": "pron 3rd pl neut acc",
+   "count": 3
+  },
+  {
+   "lemma": "αὐτός",
    "grammar": "adj pl neut nom",
    "count": 1
   }
@@ -29691,6 +30346,11 @@
    "lemma": "εἷς",
    "grammar": "adj sg neut acc",
    "count": 7
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg neut nom",
+   "count": 3
   },
   {
    "lemma": "εἷς",
@@ -29803,7 +30463,7 @@
   {
    "lemma": "γίγνομαι",
    "grammar": "verb 3rd sg perf ind act",
-   "count": 4
+   "count": 5
   }
  ],
  "μουσικῆς": [
@@ -29857,7 +30517,7 @@
   {
    "lemma": "ἀδύνατος",
    "grammar": "adj sg neut nom",
-   "count": 6
+   "count": 7
   }
  ],
  "ὁμολογοῦν": [
@@ -29913,7 +30573,7 @@
   {
    "lemma": "ἐκεῖ",
    "grammar": "adv",
-   "count": 12
+   "count": 19
   }
  ],
  "ἐντίθησιν": [
@@ -30389,12 +31049,12 @@
  "ἔλεγον": [
   {
    "lemma": "λέγω",
-   "grammar": "verb 1st sg imperf ind act",
-   "count": 4
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 12
   },
   {
    "lemma": "λέγω",
-   "grammar": "verb 3rd pl imperf ind act",
+   "grammar": "verb 1st sg imperf ind act",
    "count": 4
   }
  ],
@@ -30437,7 +31097,7 @@
   {
    "lemma": "λαμβάνω",
    "grammar": "verb 3rd sg aor subj act",
-   "count": 1
+   "count": 2
   }
  ],
  "σώφρονα": [
@@ -30510,7 +31170,7 @@
   {
    "lemma": "ὥρα",
    "grammar": "noun sg fem gen",
-   "count": 4
+   "count": 8
   },
   {
    "lemma": "ὥρα",
@@ -30779,7 +31439,7 @@
   {
    "lemma": "ὅσος",
    "grammar": "pron pl neut acc",
-   "count": 3
+   "count": 8
   },
   {
    "lemma": "ὅσος",
@@ -30805,7 +31465,7 @@
   {
    "lemma": "μέγας",
    "grammar": "adj sg fem acc",
-   "count": 3
+   "count": 4
   }
  ],
  "συλλήβδην": [
@@ -30973,7 +31633,7 @@
   {
    "lemma": "θαυμάζω",
    "grammar": "verb pres inf act",
-   "count": 2
+   "count": 3
   }
  ],
  "κόσμιον": [
@@ -31202,6 +31862,11 @@
   {
    "lemma": "δοκέω",
    "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  },
+  {
+   "lemma": "δόξα",
+   "grammar": "noun sg fem dat",
    "count": 1
   }
  ],
@@ -31456,6 +32121,11 @@
    "lemma": "τρίτος",
    "grammar": "adj sg masc acc",
    "count": 2
+  },
+  {
+   "lemma": "τρίτος",
+   "grammar": "num sg neut acc",
+   "count": 1
   }
  ],
  "προσῆν": [
@@ -31545,6 +32215,11 @@
   {
    "lemma": "ὅλος",
    "grammar": "adj sg neut nom",
+   "count": 2
+  },
+  {
+   "lemma": "ὅλος",
+   "grammar": "adj sg masc acc",
    "count": 1
   }
  ],
@@ -31552,7 +32227,7 @@
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun sg masc gen",
-   "count": 13
+   "count": 20
   }
  ],
  "στρογγύλον": [
@@ -31581,6 +32256,11 @@
    "lemma": "κύκλος",
    "grammar": "noun sg masc dat",
    "count": 5
+  },
+  {
+   "lemma": "κύκλῳ",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "τέτταρας": [
@@ -31670,13 +32350,18 @@
    "lemma": "εἷς",
    "grammar": "adj sg fem acc",
    "count": 5
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg fem acc",
+   "count": 4
   }
  ],
  "ὦτα": [
   {
    "lemma": "οὖς",
    "grammar": "noun pl neut acc",
-   "count": 3
+   "count": 4
   }
  ],
  "τέτταρα": [
@@ -31795,7 +32480,7 @@
   {
    "lemma": "ἥλιος",
    "grammar": "noun sg masc gen",
-   "count": 2
+   "count": 3
   }
  ],
  "ἔκγονον": [
@@ -32065,6 +32750,11 @@
    "lemma": "αὐτός",
    "grammar": "adj pl masc acc",
    "count": 6
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl masc acc",
+   "count": 6
   }
  ],
  "διατεμῶ": [
@@ -32086,6 +32776,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 3rd pl fut ind mid",
    "count": 3
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd pl fut ind mid",
+   "count": 1
   }
  ],
  "χρησιμώτεροι": [
@@ -32336,7 +33031,7 @@
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun sg masc nom",
-   "count": 5
+   "count": 9
   }
  ],
  "ἰᾶσθαι": [
@@ -32525,7 +33220,7 @@
   {
    "lemma": "μνημεῖον",
    "grammar": "noun sg neut acc",
-   "count": 1
+   "count": 2
   }
  ],
  "παλαιοῦ": [
@@ -33147,6 +33842,11 @@
    "lemma": "τις",
    "grammar": "adj pl common nom",
    "count": 7
+  },
+  {
+   "lemma": "τὶς",
+   "grammar": "pron pl masc nom",
+   "count": 3
   }
  ],
  "ἀναισχύντους": [
@@ -33374,6 +34074,11 @@
  "οὗτοί": [
   {
    "lemma": "οὗτος",
+   "grammar": "pron pl masc nom",
+   "count": 2
+  },
+  {
+   "lemma": "οὗτος",
    "grammar": "adj pl masc nom",
    "count": 1
   }
@@ -33404,6 +34109,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg masc dat",
    "count": 2
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg masc dat",
+   "count": 1
   }
  ],
  "δόξειεν": [
@@ -33567,7 +34277,7 @@
   {
    "lemma": "ἐθέλω",
    "grammar": "verb 1st sg pres ind act",
-   "count": 1
+   "count": 3
   }
  ],
  "συντῆξαι": [
@@ -33589,6 +34299,11 @@
    "lemma": "αὐτός",
    "grammar": "adj sg neut acc",
    "count": 3
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg neut acc",
+   "count": 2
   },
   {
    "lemma": "αὐτός",
@@ -33931,6 +34646,11 @@
    "lemma": "μηδείς",
    "grammar": "adj sg masc nom",
    "count": 3
+  },
+  {
+   "lemma": "μηδείς",
+   "grammar": "pron sg masc nom",
+   "count": 1
   }
  ],
  "πραττέτω": [
@@ -34068,7 +34788,7 @@
   {
    "lemma": "ἀπέρχομαι",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἄριστον": [
@@ -34413,7 +35133,7 @@
   {
    "lemma": "ὁράω",
    "grammar": "part sg aor act masc nom",
-   "count": 7
+   "count": 13
   }
  ],
  "σὴν": [
@@ -34662,6 +35382,11 @@
    "lemma": "ἀποκρίνω",
    "grammar": "verb 2nd sg pres ind mp",
    "count": 1
+  },
+  {
+   "lemma": "ἀποκρίνω",
+   "grammar": "verb 2nd sg pres ind mid",
+   "count": 1
   }
  ],
  "διοίσει": [
@@ -34841,7 +35566,7 @@
   {
    "lemma": "διέρχομαι",
    "grammar": "verb aor inf act",
-   "count": 4
+   "count": 5
   }
  ],
  "τυγχάνει": [
@@ -35549,7 +36274,7 @@
   {
    "lemma": "τόπος",
    "grammar": "noun sg masc nom",
-   "count": 1
+   "count": 4
   }
  ],
  "ἵζει": [
@@ -35598,7 +36323,7 @@
   {
    "lemma": "ἄνθρωπος",
    "grammar": "noun sg masc acc",
-   "count": 4
+   "count": 5
   }
  ],
  "βίᾳ": [
@@ -35834,7 +36559,7 @@
   {
    "lemma": "δυνατός",
    "grammar": "adj sg neut nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐλλείπειν": [
@@ -35876,7 +36601,7 @@
   {
    "lemma": "ἅπτω",
    "grammar": "verb 3rd sg aor subj mid",
-   "count": 1
+   "count": 2
   }
  ],
  "πρέπει": [
@@ -36140,7 +36865,7 @@
   {
    "lemma": "βασιλεία",
    "grammar": "noun sg fem acc",
-   "count": 1
+   "count": 5
   }
  ],
  "ἔφυ": [
@@ -36192,7 +36917,7 @@
   {
    "lemma": "εἰρήνη",
    "grammar": "noun sg fem acc",
-   "count": 1
+   "count": 2
   }
  ],
  "πελάγει": [
@@ -36284,13 +37009,18 @@
    "lemma": "πᾶς",
    "grammar": "adj pl fem acc",
    "count": 4
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl fem acc",
+   "count": 1
   }
  ],
  "τιθεὶς": [
   {
    "lemma": "τίθημι",
    "grammar": "part sg pres act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "συνιέναι": [
@@ -36934,7 +37664,7 @@
   {
    "lemma": "λίθος",
    "grammar": "noun sg masc acc",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀφωνίᾳ": [
@@ -36976,7 +37706,7 @@
   {
    "lemma": "μετά",
    "grammar": "prep",
-   "count": 4
+   "count": 5
   }
  ],
  "ἐγκωμιάσεσθαι": [
@@ -37079,7 +37809,7 @@
   {
    "lemma": "ἀλήθεια",
    "grammar": "noun sg fem acc",
-   "count": 3
+   "count": 4
   }
  ],
  "ἀνατιθέναι": [
@@ -37105,6 +37835,11 @@
   {
    "lemma": "ἔχω",
    "grammar": "part pl pres act neut acc",
+   "count": 1
+  },
+  {
+   "lemma": "ἔχω",
+   "grammar": "part pl pres act neut nom",
    "count": 1
   }
  ],
@@ -37140,7 +37875,7 @@
   {
    "lemma": "κινέω",
    "grammar": "part pl pres act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀνατίθετε": [
@@ -37628,7 +38363,7 @@
   {
    "lemma": "εἶτα",
    "grammar": "adv",
-   "count": 3
+   "count": 4
   }
  ],
  "εἰκός": [
@@ -37739,6 +38474,11 @@
    "lemma": "ὑγιής",
    "grammar": "adj sg masc nom",
    "count": 1
+  },
+  {
+   "lemma": "ὑγιής",
+   "grammar": "adj sg fem nom",
+   "count": 1
   }
  ],
  "ὑγιής": [
@@ -37759,7 +38499,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "part pl pres act masc acc",
-   "count": 5
+   "count": 7
   }
  ],
  "ἔχουσι": [
@@ -37916,7 +38656,7 @@
   {
    "lemma": "οὔπω",
    "grammar": "adv",
-   "count": 2
+   "count": 3
   }
  ],
  "ἕτοιμον": [
@@ -38432,7 +39172,7 @@
   {
    "lemma": "δοξάζω",
    "grammar": "verb pres inf act",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐπίστασθαί": [
@@ -38495,6 +39235,11 @@
   {
    "lemma": "κακός",
    "grammar": "adj sg neut nom",
+   "count": 1
+  },
+  {
+   "lemma": "κακός",
+   "grammar": "adj sg neut acc",
    "count": 1
   }
  ],
@@ -39017,7 +39762,7 @@
   {
    "lemma": "εἰσέρχομαι",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 3
   }
  ],
  "βεβαρημένος": [
@@ -39051,12 +39796,12 @@
  "παιδίον": [
   {
    "lemma": "παιδίον",
-   "grammar": "noun sg neut acc",
-   "count": 1
+   "grammar": "noun sg neut nom",
+   "count": 4
   },
   {
    "lemma": "παιδίον",
-   "grammar": "noun sg neut nom",
+   "grammar": "noun sg neut acc",
    "count": 1
   }
  ],
@@ -39634,7 +40379,7 @@
   {
    "lemma": "χρεία",
    "grammar": "noun sg fem acc",
-   "count": 1
+   "count": 3
   }
  ],
  "πειράσομαί": [
@@ -40140,6 +40885,11 @@
    "lemma": "ἑαυτοῦ",
    "grammar": "pron sg masc gen",
    "count": 10
+  },
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd sg masc gen",
+   "count": 1
   }
  ],
  "προσθετέον": [
@@ -40181,6 +40931,11 @@
   {
    "lemma": "θαυμάζω",
    "grammar": "verb 1st sg imperf ind act",
+   "count": 1
+  },
+  {
+   "lemma": "θαυμάζω",
+   "grammar": "verb 3rd pl imperf ind act",
    "count": 1
   }
  ],
@@ -40853,7 +41608,7 @@
   {
    "lemma": "οὐδέποτε",
    "grammar": "adv",
-   "count": 5
+   "count": 6
   }
  ],
  "ἀπολλύς": [
@@ -40867,7 +41622,7 @@
   {
    "lemma": "θρίξ",
    "grammar": "noun pl fem acc",
-   "count": 1
+   "count": 2
   }
  ],
  "σάρκα": [
@@ -40928,7 +41683,7 @@
   {
    "lemma": "ἐπιθυμία",
    "grammar": "noun pl fem nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἡδοναί": [
@@ -40992,6 +41747,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 1st pl pres ind act",
    "count": 4
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 1st pl pres ind act",
+   "count": 1
   }
  ],
  "ἐπιστήμας": [
@@ -41210,6 +41970,11 @@
    "lemma": "οἶδα",
    "grammar": "verb 2nd sg perf imperat act",
    "count": 1
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 1
   }
  ],
  "ἐθέλεις": [
@@ -41363,7 +42128,7 @@
   {
    "lemma": "βασιλεία",
    "grammar": "noun sg fem gen",
-   "count": 1
+   "count": 2
   }
  ],
  "οἰομένους": [
@@ -41540,6 +42305,11 @@
   }
  ],
  "ὄνομά": [
+  {
+   "lemma": "ὄνομα",
+   "grammar": "noun sg neut nom",
+   "count": 2
+  },
   {
    "lemma": "ὄνομα",
    "grammar": "noun sg neut acc",
@@ -41838,6 +42608,11 @@
    "lemma": "ἐκεῖνος",
    "grammar": "adj pl masc dat",
    "count": 2
+  },
+  {
+   "lemma": "ἐκεῖνος",
+   "grammar": "pron pl masc dat",
+   "count": 1
   }
  ],
  "οἵους": [
@@ -42108,7 +42883,7 @@
   {
    "lemma": "ὅστις",
    "grammar": "pron pl masc nom",
-   "count": 3
+   "count": 5
   }
  ],
  "ποιήσουσι": [
@@ -42206,7 +42981,7 @@
   {
    "lemma": "μηκέτι",
    "grammar": "adv",
-   "count": 4
+   "count": 6
   }
  ],
  "ἑνί": [
@@ -42412,14 +43187,14 @@
   {
    "lemma": "ἕνεκα",
    "grammar": "prep",
-   "count": 1
+   "count": 4
   }
  ],
  "ἔμπροσθεν": [
   {
    "lemma": "ἔμπροσθεν",
    "grammar": "prep",
-   "count": 1
+   "count": 3
   }
  ],
  "πόνοι": [
@@ -42440,6 +43215,11 @@
   {
    "lemma": "αὐξάνω",
    "grammar": "part sg pres mp neut nom",
+   "count": 1
+  },
+  {
+   "lemma": "αὐξάνω",
+   "grammar": "part sg pres pass masc acc",
    "count": 1
   }
  ],
@@ -42482,7 +43262,7 @@
   {
    "lemma": "οὐρανός",
    "grammar": "noun sg masc dat",
-   "count": 1
+   "count": 2
   }
  ],
  "τῳ": [
@@ -43132,7 +43912,7 @@
   {
    "lemma": "φωνή",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 3
   }
  ],
  "σκέψεσθε": [
@@ -43188,7 +43968,7 @@
   {
    "lemma": "βοάω",
    "grammar": "part sg pres act masc gen",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐρωτῶντος": [
@@ -43202,7 +43982,7 @@
   {
    "lemma": "ὅπου",
    "grammar": "adv",
-   "count": 2
+   "count": 8
   }
  ],
  "κελεύοντος": [
@@ -43402,8 +44182,18 @@
  "μου": [
   {
    "lemma": "ἐγώ",
+   "grammar": "pron 1st sg masc gen",
+   "count": 13
+  },
+  {
+   "lemma": "ἐγώ",
    "grammar": "pron sg common gen",
    "count": 6
+  },
+  {
+   "lemma": "ἐγώ",
+   "grammar": "pron 1st sg gen",
+   "count": 2
   }
  ],
  "γελᾶτε": [
@@ -44141,7 +44931,7 @@
   {
    "lemma": "εἰσέρχομαι",
    "grammar": "verb aor inf act",
-   "count": 1
+   "count": 4
   }
  ],
  "ἔδοξε": [
@@ -44734,7 +45524,7 @@
   {
    "lemma": "γυνή",
    "grammar": "noun sg fem nom",
-   "count": 1
+   "count": 3
   }
  ],
  "μειράκιον": [
@@ -45414,7 +46204,7 @@
   {
    "lemma": "ὁράω",
    "grammar": "verb 3rd pl aor ind act",
-   "count": 2
+   "count": 6
   },
   {
    "lemma": "ὁράω",
@@ -45475,7 +46265,7 @@
   {
    "lemma": "ὥρα",
    "grammar": "noun sg fem dat",
-   "count": 2
+   "count": 3
   }
  ],
  "ἡγησάμην": [
@@ -45517,7 +46307,7 @@
   {
    "lemma": "οἶδα",
    "grammar": "verb 3rd sg plup ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "διανοηθείς": [
@@ -45832,7 +46622,7 @@
   {
    "lemma": "ὀψέ",
    "grammar": "adv",
-   "count": 2
+   "count": 3
   }
  ],
  "προσηνάγκασα": [
@@ -45903,6 +46693,11 @@
    "lemma": "δεῦρο",
    "grammar": "adv",
    "count": 2
+  },
+  {
+   "lemma": "δεῦρο",
+   "grammar": "interj",
+   "count": 1
   }
  ],
  "ἠκούσατε": [
@@ -46285,7 +47080,12 @@
   {
    "lemma": "ἔξω",
    "grammar": "adv",
-   "count": 5
+   "count": 8
+  },
+  {
+   "lemma": "ἔξω",
+   "grammar": "prep",
+   "count": 1
   }
  ],
  "ποικίλλειν": [
@@ -46313,7 +47113,7 @@
   {
    "lemma": "καθεύδω",
    "grammar": "verb 2nd sg pres ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "φαίνῃ": [
@@ -46391,6 +47191,11 @@
    "lemma": "οὐδείς",
    "grammar": "adj sg masc acc",
    "count": 4
+  },
+  {
+   "lemma": "οὐδείς",
+   "grammar": "pron sg masc acc",
+   "count": 2
   }
  ],
  "κυριώτερον": [
@@ -46684,14 +47489,14 @@
   {
    "lemma": "λέγω",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀφεὶς": [
   {
    "lemma": "ἀφίημι",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "βέλη": [
@@ -46801,7 +47606,7 @@
   {
    "lemma": "ὅλος",
    "grammar": "adj sg fem acc",
-   "count": 2
+   "count": 6
   }
  ],
  "ποιήσαντος": [
@@ -46865,6 +47670,11 @@
    "lemma": "εἰμί",
    "grammar": "verb 2nd pl pres ind act",
    "count": 2
+  },
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 1
   }
  ],
  "ὑπερηφανίας": [
@@ -47368,7 +48178,7 @@
   {
    "lemma": "στρατιώτης",
    "grammar": "noun pl masc nom",
-   "count": 4
+   "count": 5
   }
  ],
  "ὑπέβλεπον": [
@@ -47571,7 +48381,7 @@
   {
    "lemma": "ἥλιος",
    "grammar": "noun sg masc nom",
-   "count": 1
+   "count": 3
   }
  ],
  "ἀνέσχεν": [
@@ -47655,7 +48465,7 @@
   {
    "lemma": "σῴζω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "τετρωμένον": [
@@ -47969,6 +48779,11 @@
    "lemma": "ἀσφαλής",
    "grammar": "adv",
    "count": 1
+  },
+  {
+   "lemma": "ἀσφαλῶς",
+   "grammar": "adv",
+   "count": 1
   }
  ],
  "ἀπῄει": [
@@ -48028,6 +48843,11 @@
   }
  ],
  "μηδενὶ": [
+  {
+   "lemma": "μηδείς",
+   "grammar": "pron sg masc dat",
+   "count": 3
+  },
   {
    "lemma": "μηδείς",
    "grammar": "adj sg masc dat",
@@ -48267,7 +49087,7 @@
   {
    "lemma": "μόνος",
    "grammar": "adj pl masc acc",
-   "count": 3
+   "count": 4
   }
  ],
  "εὑρήσει": [
@@ -48344,7 +49164,7 @@
   {
    "lemma": "ποιέω",
    "grammar": "verb 3rd sg perf ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "χαρμίδην": [
@@ -48454,7 +49274,7 @@
   {
    "lemma": "παρρησία",
    "grammar": "noun sg fem dat",
-   "count": 1
+   "count": 2
   }
  ],
  "κομψῶς": [
@@ -48895,7 +49715,7 @@
   {
    "lemma": "καθεύδω",
    "grammar": "part pl pres act masc acc",
-   "count": 1
+   "count": 3
   }
  ],
  "οἰχομένους": [
@@ -49173,7 +49993,7 @@
   {
    "lemma": "αἷμα",
    "grammar": "noun sg neut gen",
-   "count": 1
+   "count": 3
   }
  ],
  "σπέρματος": [
@@ -49404,7 +50224,17 @@
   {
    "lemma": "πνεῦμα",
    "grammar": "noun sg neut nom",
-   "count": 2
+   "count": 5
+  },
+  {
+   "lemma": "πνεῦμα",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  },
+  {
+   "lemma": "πνεῦμα",
+   "grammar": "noun sg neut voc",
+   "count": 1
   }
  ],
  "ὁποῖόν": [
@@ -49423,7 +50253,7 @@
   {
    "lemma": "ἄνεμος",
    "grammar": "noun sg masc nom",
-   "count": 3
+   "count": 5
   }
  ],
  "ἐξεμούμενον": [
@@ -49622,7 +50452,7 @@
   {
    "lemma": "κόσμος",
    "grammar": "noun sg masc acc",
-   "count": 2
+   "count": 3
   }
  ],
  "στοιχείων": [
@@ -49748,7 +50578,7 @@
   {
    "lemma": "λαμβάνω",
    "grammar": "part sg aor act masc nom",
-   "count": 7
+   "count": 8
   }
  ],
  "χρᾷ": [
@@ -49763,6 +50593,11 @@
    "lemma": "αὐτός",
    "grammar": "adj pl fem dat",
    "count": 2
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl fem dat",
+   "count": 1
   }
  ],
  "αἰσθέσθαι": [
@@ -49931,6 +50766,11 @@
    "lemma": "πᾶς",
    "grammar": "adj pl fem gen",
    "count": 2
+  },
+  {
+   "lemma": "πᾶς",
+   "grammar": "pron pl fem gen",
+   "count": 1
   }
  ],
  "φαντασιῶν": [
@@ -50049,7 +50889,7 @@
   {
    "lemma": "κρατέω",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 3
   }
  ],
  "εὔρουν": [
@@ -50106,6 +50946,11 @@
    "lemma": "ψυχή",
    "grammar": "noun sg fem voc",
    "count": 1
+  },
+  {
+   "lemma": "ψυχή",
+   "grammar": "noun sg fem nom",
+   "count": 1
   }
  ],
  "τιμῆσαι": [
@@ -50143,7 +50988,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb 2nd sg fut ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "βίος": [
@@ -50312,13 +51157,18 @@
    "lemma": "γίγνομαι",
    "grammar": "verb 3rd sg pres ind mp",
    "count": 9
+  },
+  {
+   "lemma": "γίγνομαι",
+   "grammar": "verb 3rd sg pres ind mid",
+   "count": 4
   }
  ],
  "ὤφθη": [
   {
    "lemma": "ὁράω",
    "grammar": "verb 3rd sg aor ind pass",
-   "count": 1
+   "count": 2
   }
  ],
  "κακοδαιμονῶν": [
@@ -50657,10 +51507,15 @@
   {
    "lemma": "ἀπέρχομαι",
    "grammar": "verb aor inf act",
-   "count": 2
+   "count": 3
   }
  ],
  "εἰσίν": [
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 5
+  },
   {
    "lemma": "εἰμί",
    "grammar": "verb 3rd pl pres ind act",
@@ -50725,7 +51580,7 @@
   {
    "lemma": "οἶδα",
    "grammar": "part sg perf act fem nom",
-   "count": 1
+   "count": 2
   }
  ],
  "δυναμένη": [
@@ -50865,7 +51720,7 @@
   {
    "lemma": "αἰών",
    "grammar": "noun sg masc dat",
-   "count": 1
+   "count": 2
   }
  ],
  "μνῆμαι": [
@@ -51228,6 +52083,11 @@
    "lemma": "λευκός",
    "grammar": "adj pl neut acc",
    "count": 1
+  },
+  {
+   "lemma": "λευκός",
+   "grammar": "adj pl neut nom",
+   "count": 1
   }
  ],
  "μέλανα": [
@@ -51380,6 +52240,11 @@
    "lemma": "ἑκατόν",
    "grammar": "adj",
    "count": 8
+  },
+  {
+   "lemma": "ἑκατόν",
+   "grammar": "num",
+   "count": 1
   }
  ],
  "ἔτεσιν": [
@@ -51408,6 +52273,11 @@
    "lemma": "αὐτός",
    "grammar": "adj pl neut acc",
    "count": 4
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl neut acc",
+   "count": 2
   }
  ],
  "ὄψεται": [
@@ -52194,7 +53064,7 @@
   {
    "lemma": "μικρός",
    "grammar": "adj sg neut acc",
-   "count": 3
+   "count": 4
   }
  ],
  "παρεκκλῖνον": [
@@ -52250,7 +53120,7 @@
   {
    "lemma": "λίθος",
    "grammar": "noun sg masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐθισθείη": [
@@ -52334,6 +53204,11 @@
   {
    "lemma": "παραγίγνομαι",
    "grammar": "verb 3rd sg pres ind mp",
+   "count": 1
+  },
+  {
+   "lemma": "παραγίγνομαι",
+   "grammar": "verb 3rd sg pres ind mid",
    "count": 1
   }
  ],
@@ -52687,7 +53562,7 @@
   {
    "lemma": "ἔχω",
    "grammar": "verb 3rd sg imperf ind act",
-   "count": 3
+   "count": 6
   }
  ],
  "διδάξοντος": [
@@ -52736,7 +53611,7 @@
   {
    "lemma": "δειλός",
    "grammar": "adj pl masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ὀργάς": [
@@ -53070,7 +53945,7 @@
   {
    "lemma": "πίπτω",
    "grammar": "verb 3rd sg pres ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "πράττοντας": [
@@ -53495,6 +54370,11 @@
   {
    "lemma": "λυπέω",
    "grammar": "part sg pres mp masc nom",
+   "count": 1
+  },
+  {
+   "lemma": "λυπέω",
+   "grammar": "part sg pres pass masc nom",
    "count": 1
   }
  ],
@@ -53996,7 +54876,7 @@
   {
    "lemma": "δίκαιος",
    "grammar": "adj pl masc acc",
-   "count": 2
+   "count": 3
   }
  ],
  "σώφρονας": [
@@ -54111,7 +54991,7 @@
   {
    "lemma": "ἐπί",
    "grammar": "prep",
-   "count": 1
+   "count": 2
   }
  ],
  "σωφρόνως": [
@@ -54221,7 +55101,7 @@
   {
    "lemma": "ἰατρός",
    "grammar": "noun pl masc gen",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀκούουσι": [
@@ -54277,14 +55157,14 @@
   {
    "lemma": "φόβος",
    "grammar": "noun sg masc acc",
-   "count": 1
+   "count": 2
   }
  ],
  "φθόνον": [
   {
    "lemma": "φθόνος",
    "grammar": "noun sg masc acc",
-   "count": 1
+   "count": 2
   }
  ],
  "χαρὰν": [
@@ -54495,6 +55375,11 @@
    "lemma": "δύναμαι",
    "grammar": "verb pres inf mp",
    "count": 1
+  },
+  {
+   "lemma": "δύναμαι",
+   "grammar": "verb pres inf pass",
+   "count": 1
   }
  ],
  "αὐτὰς": [
@@ -54502,6 +55387,11 @@
    "lemma": "αὐτός",
    "grammar": "adj pl fem acc",
    "count": 3
+  },
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd pl fem acc",
+   "count": 1
   }
  ],
  "ποία": [
@@ -54647,6 +55537,11 @@
    "lemma": "ἕξ",
    "grammar": "adj",
    "count": 4
+  },
+  {
+   "lemma": "ἕξ",
+   "grammar": "num",
+   "count": 1
   }
  ],
  "μέσα": [
@@ -54716,7 +55611,7 @@
   {
    "lemma": "ἐσθίω",
    "grammar": "verb aor inf act",
-   "count": 1
+   "count": 5
   }
  ],
  "ἀλείπτης": [
@@ -55882,7 +56777,7 @@
   {
    "lemma": "λέγω",
    "grammar": "part pl pres act masc nom",
-   "count": 3
+   "count": 9
   }
  ],
  "πραότητα": [
@@ -55937,6 +56832,11 @@
    "lemma": "τρεῖς",
    "grammar": "adj",
    "count": 3
+  },
+  {
+   "lemma": "τρεῖς",
+   "grammar": "num pl fem acc",
+   "count": 2
   },
   {
    "lemma": "τρεῖς",
@@ -56151,7 +57051,7 @@
   {
    "lemma": "λοιπός",
    "grammar": "adj sg neut acc",
-   "count": 1
+   "count": 2
   }
  ],
  "ἡδὺς": [
@@ -56319,7 +57219,7 @@
   {
    "lemma": "καιρός",
    "grammar": "noun sg masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "διελόμενοι": [
@@ -56904,12 +57804,22 @@
    "lemma": "γίγνομαι",
    "grammar": "part sg pres mp fem gen",
    "count": 1
+  },
+  {
+   "lemma": "γίγνομαι",
+   "grammar": "part sg pres mid fem gen",
+   "count": 1
   }
  ],
  "ἑαυτοὺς": [
   {
    "lemma": "ἑαυτοῦ",
    "grammar": "pron pl masc acc",
+   "count": 1
+  },
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd pl masc acc",
    "count": 1
   }
  ],
@@ -56945,7 +57855,7 @@
   {
    "lemma": "ξύλον",
    "grammar": "noun pl neut gen",
-   "count": 2
+   "count": 4
   }
  ],
  "ὀρθοῦντες": [
@@ -56970,6 +57880,11 @@
   }
  ],
  "αὐτήν": [
+  {
+   "lemma": "αὐτός",
+   "grammar": "pron 3rd sg fem acc",
+   "count": 3
+  },
   {
    "lemma": "αὐτός",
    "grammar": "adj sg fem acc",
@@ -57202,7 +58117,7 @@
   {
    "lemma": "ἡμέρα",
    "grammar": "noun pl fem dat",
-   "count": 3
+   "count": 5
   }
  ],
  "ἀθηνῶν": [
@@ -57338,7 +58253,7 @@
   {
    "lemma": "ἡμέρα",
    "grammar": "noun sg fem dat",
-   "count": 10
+   "count": 11
   }
  ],
  "κατιδὼν": [
@@ -57715,6 +58630,11 @@
    "lemma": "τριάκοντα",
    "grammar": "adj",
    "count": 9
+  },
+  {
+   "lemma": "τριάκοντα",
+   "grammar": "num",
+   "count": 2
   }
  ],
  "πολεμίων": [
@@ -57848,6 +58768,11 @@
    "lemma": "εἷς",
    "grammar": "adj sg fem dat",
    "count": 3
+  },
+  {
+   "lemma": "εἷς",
+   "grammar": "num sg fem dat",
+   "count": 1
   }
  ],
  "τριήρει": [
@@ -57903,7 +58828,7 @@
   {
    "lemma": "βασιλεύς",
    "grammar": "noun sg masc acc",
-   "count": 7
+   "count": 9
   }
  ],
  "πολεμεῖν": [
@@ -57959,7 +58884,7 @@
   {
    "lemma": "νύξ",
    "grammar": "noun sg fem gen",
-   "count": 7
+   "count": 8
   }
  ],
  "ἀπέδρασαν": [
@@ -58023,6 +58948,11 @@
    "lemma": "ἑξήκοντα",
    "grammar": "adj",
    "count": 3
+  },
+  {
+   "lemma": "ἑξήκοντα",
+   "grammar": "num",
+   "count": 2
   }
  ],
  "κλαζομενῶν": [
@@ -58037,6 +58967,11 @@
    "lemma": "πέντε",
    "grammar": "adj",
    "count": 4
+  },
+  {
+   "lemma": "πέντε",
+   "grammar": "num",
+   "count": 2
   }
  ],
  "τριήρεσι": [
@@ -58097,6 +59032,11 @@
   {
    "lemma": "πεζός",
    "grammar": "adj sg fem dat",
+   "count": 1
+  },
+  {
+   "lemma": "πεζῇ",
+   "grammar": "adv",
    "count": 1
   }
  ],
@@ -58258,7 +59198,7 @@
   {
    "lemma": "ὥρα",
    "grammar": "noun sg fem acc",
-   "count": 1
+   "count": 2
   }
  ],
  "ἧκον": [
@@ -58380,7 +59320,7 @@
   {
    "lemma": "πλοῖον",
    "grammar": "noun pl neut nom",
-   "count": 1
+   "count": 2
   }
  ],
  "συνήθροισε": [
@@ -58431,6 +59371,11 @@
   }
  ],
  "πέραν": [
+  {
+   "lemma": "πέραν",
+   "grammar": "adv",
+   "count": 3
+  },
   {
    "lemma": "πέραν",
    "grammar": "prep",
@@ -58502,7 +59447,7 @@
   {
    "lemma": "γίγνομαι",
    "grammar": "part sg aor mid fem gen",
-   "count": 4
+   "count": 8
   }
  ],
  "ἐκλάμψαντος": [
@@ -58565,14 +59510,14 @@
   {
    "lemma": "ὁράω",
    "grammar": "part pl aor act masc nom",
-   "count": 1
+   "count": 3
   }
  ],
  "ἔφυγον": [
   {
    "lemma": "φεύγω",
    "grammar": "verb 3rd pl aor ind act",
-   "count": 6
+   "count": 9
   }
  ],
  "συνορμίσαντες": [
@@ -58614,7 +59559,7 @@
   {
    "lemma": "ἀποθνῄσκω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 4
+   "count": 6
   }
  ],
  "ἄγοντες": [
@@ -59111,7 +60056,7 @@
   {
    "lemma": "πόλις",
    "grammar": "noun pl fem gen",
-   "count": 1
+   "count": 2
   }
  ],
  "στρατηγοὺς": [
@@ -60046,7 +60991,7 @@
   {
    "lemma": "φεύγω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 2
+   "count": 3
   }
  ],
  "σπάρτης": [
@@ -60297,6 +61242,11 @@
    "lemma": "ἑκατόν",
    "grammar": "adj",
    "count": 7
+  },
+  {
+   "lemma": "ἑκατόν",
+   "grammar": "num",
+   "count": 2
   }
  ],
  "πεντήκοντα": [
@@ -60304,6 +61254,11 @@
    "lemma": "πεντήκοντα",
    "grammar": "adj",
    "count": 5
+  },
+  {
+   "lemma": "πεντήκοντα",
+   "grammar": "num",
+   "count": 1
   }
  ],
  "σίτου": [
@@ -60591,6 +61546,11 @@
    "lemma": "τρίτος",
    "grammar": "adj sg fem nom",
    "count": 1
+  },
+  {
+   "lemma": "τρίτος",
+   "grammar": "num sg fem nom",
+   "count": 1
   }
  ],
  "ἐνενηκοστή": [
@@ -60779,7 +61739,7 @@
   {
    "lemma": "χώρα",
    "grammar": "noun sg fem acc",
-   "count": 2
+   "count": 3
   }
  ],
  "ἐδῄου": [
@@ -60989,7 +61949,7 @@
   {
    "lemma": "κώμη",
    "grammar": "noun pl fem acc",
-   "count": 1
+   "count": 3
   }
  ],
  "ἐνέπρησαν": [
@@ -61017,7 +61977,7 @@
   {
    "lemma": "πολύς",
    "grammar": "adj sg fem acc",
-   "count": 1
+   "count": 2
   }
  ],
  "στάγης": [
@@ -61087,7 +62047,7 @@
   {
    "lemma": "λαμβάνω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 2
+   "count": 3
   }
  ],
  "ἑπτὰ": [
@@ -61812,12 +62772,12 @@
  "σκότος": [
   {
    "lemma": "σκότος",
-   "grammar": "noun sg neut acc",
-   "count": 1
+   "grammar": "noun sg neut nom",
+   "count": 2
   },
   {
    "lemma": "σκότος",
-   "grammar": "noun sg neut nom",
+   "grammar": "noun sg neut acc",
    "count": 1
   }
  ],
@@ -61846,6 +62806,11 @@
   {
    "lemma": "ἐξέρχομαι",
    "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  },
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "verb 1st sg aor ind act",
    "count": 1
   }
  ],
@@ -61902,7 +62867,7 @@
   {
    "lemma": "ἀφίημι",
    "grammar": "verb 3rd pl aor ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ἡρακλείᾳ": [
@@ -62913,6 +63878,11 @@
    "lemma": "δύναμαι",
    "grammar": "verb 3rd sg imperf ind mp",
    "count": 1
+  },
+  {
+   "lemma": "δύναμαι",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 1
   }
  ],
  "κοιρατάδᾳ": [
@@ -63052,7 +64022,7 @@
   {
    "lemma": "θάνατος",
    "grammar": "noun sg masc gen",
-   "count": 2
+   "count": 3
   }
  ],
  "προδοσίαν": [
@@ -63227,7 +64197,7 @@
   {
    "lemma": "ὄχλος",
    "grammar": "noun sg masc dat",
-   "count": 1
+   "count": 4
   }
  ],
  "ἀποβαινόντων": [
@@ -63318,7 +64288,7 @@
   {
    "lemma": "ἄγγελος",
    "grammar": "noun pl masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "δέονται": [
@@ -63923,7 +64893,7 @@
   {
    "lemma": "ὄχλος",
    "grammar": "noun sg masc nom",
-   "count": 2
+   "count": 9
   }
  ],
  "ἡθροίσθη": [
@@ -64199,7 +65169,7 @@
   {
    "lemma": "πρέσβυς",
    "grammar": "adj pl masc gen comp",
-   "count": 1
+   "count": 4
   }
  ],
  "ἐλαττοῦσθαι": [
@@ -64479,7 +65449,7 @@
   {
    "lemma": "σῴζω",
    "grammar": "verb aor inf act",
-   "count": 1
+   "count": 3
   }
  ],
  "προτέραν": [
@@ -65221,7 +66191,7 @@
   {
    "lemma": "καταλείπω",
    "grammar": "part sg aor act masc nom",
-   "count": 1
+   "count": 2
   }
  ],
  "ἀντίοχον": [
@@ -65780,6 +66750,11 @@
  "δώδεκα": [
   {
    "lemma": "δώδεκα",
+   "grammar": "num",
+   "count": 6
+  },
+  {
+   "lemma": "δώδεκα",
    "grammar": "adj",
    "count": 3
   }
@@ -66320,7 +67295,7 @@
   {
    "lemma": "σῴζω",
    "grammar": "verb 3rd sg aor subj pass",
-   "count": 2
+   "count": 3
   }
  ],
  "διαλλάξειν": [
@@ -67118,7 +68093,7 @@
   {
    "lemma": "ὁρμάω",
    "grammar": "verb 3rd sg aor ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐφορμούντων": [
@@ -67398,7 +68373,7 @@
   {
    "lemma": "γίγνομαι",
    "grammar": "verb 3rd pl aor ind mid",
-   "count": 1
+   "count": 2
   }
  ],
  "βοήθειαν": [
@@ -67768,6 +68743,11 @@
  "χεῖρον": [
   {
    "lemma": "κακός",
+   "grammar": "adj sg neut acc comp",
+   "count": 1
+  },
+  {
+   "lemma": "χείρων",
    "grammar": "adj sg neut acc comp",
    "count": 1
   }
@@ -68245,7 +69225,7 @@
   {
    "lemma": "ἀπέρχομαι",
    "grammar": "verb 3rd pl aor ind act",
-   "count": 1
+   "count": 4
   }
  ],
  "καταπλευσάντων": [
@@ -68358,6 +69338,11 @@
    "lemma": "δέω",
    "grammar": "verb aor inf act",
    "count": 1
+  },
+  {
+   "lemma": "δέω#1",
+   "grammar": "verb aor inf act",
+   "count": 1
   }
  ],
  "διηγοῦντο": [
@@ -68399,7 +69384,7 @@
   {
    "lemma": "παραδίδωμι",
    "grammar": "verb aor inf pass",
-   "count": 1
+   "count": 2
   }
  ],
  "βουλὴ": [
@@ -68427,7 +69412,7 @@
   {
    "lemma": "κατηγορέω",
    "grammar": "verb 3rd pl imperf ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ὑποσχεῖν": [
@@ -68483,7 +69468,7 @@
   {
    "lemma": "μαρτύριον",
    "grammar": "noun sg neut acc",
-   "count": 1
+   "count": 2
   }
  ],
  "βουλὴν": [
@@ -68602,7 +69587,7 @@
   {
    "lemma": "κατηγορέω",
    "grammar": "verb 3rd pl pres ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ψευσόμεθα": [
@@ -68735,6 +69720,11 @@
   {
    "lemma": "ἱμάτιον",
    "grammar": "noun pl neut acc",
+   "count": 5
+  },
+  {
+   "lemma": "ἱμάτιον",
+   "grammar": "noun pl neut nom",
    "count": 1
   }
  ],
@@ -68987,7 +69977,7 @@
   {
    "lemma": "σῴζω",
    "grammar": "verb aor inf pass",
-   "count": 1
+   "count": 2
   }
  ],
  "ἐπιστέλλειν": [
@@ -69099,7 +70089,7 @@
   {
    "lemma": "ἀφίημι",
    "grammar": "verb pres inf act",
-   "count": 1
+   "count": 3
   }
  ],
  "κλήσεις": [
@@ -69148,7 +70138,7 @@
   {
    "lemma": "ἀναβαίνω",
    "grammar": "part sg aor act masc nom",
-   "count": 2
+   "count": 3
   }
  ],
  "ἐβόων": [
@@ -69358,7 +70348,7 @@
   {
    "lemma": "εὑρίσκω",
    "grammar": "verb 2nd pl fut ind act",
-   "count": 1
+   "count": 2
   }
  ],
  "ἡμαρτηκότας": [
@@ -69446,6 +70436,11 @@
   }
  ],
  "δεδεμένον": [
+  {
+   "lemma": "δέω#1",
+   "grammar": "part sg perf pass masc acc",
+   "count": 2
+  },
   {
    "lemma": "δέω",
    "grammar": "part sg perf mp masc acc",
@@ -69946,7 +70941,7 @@
   {
    "lemma": "ἁμαρτία",
    "grammar": "noun pl fem nom",
-   "count": 1
+   "count": 3
   }
  ],
  "γεγενῆσθαι": [
@@ -70464,6 +71459,7042 @@
   {
    "lemma": "μισέω",
    "grammar": "part sg pres mp masc nom",
+   "count": 1
+  }
+ ],
+ "εὐαγγελίου": [
+  {
+   "lemma": "εὐαγγέλιον",
+   "grammar": "noun sg neut gen",
+   "count": 3
+  }
+ ],
+ "ἰησοῦ": [
+  {
+   "lemma": "Ἰησοῦς",
+   "grammar": "noun sg masc gen",
+   "count": 3
+  },
+  {
+   "lemma": "Ἰησοῦς",
+   "grammar": "noun sg masc dat",
+   "count": 3
+  },
+  {
+   "lemma": "Ἰησοῦς",
+   "grammar": "noun sg masc voc",
+   "count": 2
+  }
+ ],
+ "χριστοῦ": [
+  {
+   "lemma": "Χριστός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "καθὼς": [
+  {
+   "lemma": "καθώς",
+   "grammar": "adv",
+   "count": 5
+  }
+ ],
+ "γέγραπται": [
+  {
+   "lemma": "γράφω",
+   "grammar": "verb 3rd sg perf ind pass",
+   "count": 3
+  }
+ ],
+ "ἡσαΐᾳ": [
+  {
+   "lemma": "Ἠσαΐας",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "προφήτῃ": [
+  {
+   "lemma": "προφήτης",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ἰδοὺ": [
+  {
+   "lemma": "ἰδοὺ",
+   "grammar": "interj",
+   "count": 5
+  }
+ ],
+ "ἀποστέλλω": [
+  {
+   "lemma": "ἀποστέλλω",
+   "grammar": "verb 1st sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἄγγελόν": [
+  {
+   "lemma": "ἄγγελος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "προσώπου": [
+  {
+   "lemma": "πρόσωπον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "κατασκευάσει": [
+  {
+   "lemma": "κατασκευάζω",
+   "grammar": "verb 3rd sg fut ind act",
+   "count": 1
+  }
+ ],
+ "ὁδόν": [
+  {
+   "lemma": "ὁδός",
+   "grammar": "noun sg fem acc",
+   "count": 3
+  }
+ ],
+ "φωνὴ": [
+  {
+   "lemma": "φωνή",
+   "grammar": "noun sg fem nom",
+   "count": 3
+  }
+ ],
+ "ἐρήμῳ": [
+  {
+   "lemma": "ἔρημος",
+   "grammar": "adj sg fem dat",
+   "count": 2
+  },
+  {
+   "lemma": "ἔρημος",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "ἑτοιμάσατε": [
+  {
+   "lemma": "ἑτοιμάζω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "κυρίου": [
+  {
+   "lemma": "κύριος",
+   "grammar": "noun sg masc gen",
+   "count": 2
+  }
+ ],
+ "εὐθείας": [
+  {
+   "lemma": "εὐθύς",
+   "grammar": "adj pl fem acc",
+   "count": 1
+  }
+ ],
+ "ποιεῖτε": [
+  {
+   "lemma": "ποιέω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 2
+  },
+  {
+   "lemma": "ποιέω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "τρίβους": [
+  {
+   "lemma": "τρίβος",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "ἰωάννης": [
+  {
+   "lemma": "Ἰωάν(ν)ης",
+   "grammar": "noun sg masc nom",
+   "count": 2
+  }
+ ],
+ "βαπτίζων": [
+  {
+   "lemma": "βαπτίζω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "κηρύσσων": [
+  {
+   "lemma": "κηρύσσω",
+   "grammar": "part sg pres act masc nom",
+   "count": 3
+  }
+ ],
+ "βάπτισμα": [
+  {
+   "lemma": "βάπτισμα",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "μετανοίας": [
+  {
+   "lemma": "μετάνοια",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἄφεσιν": [
+  {
+   "lemma": "ἄφεσις",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἁμαρτιῶν": [
+  {
+   "lemma": "ἁμαρτία",
+   "grammar": "noun pl fem gen",
+   "count": 1
+  }
+ ],
+ "ἐξεπορεύετο": [
+  {
+   "lemma": "ἐκπορεύομαι",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 1
+  }
+ ],
+ "ἰουδαία": [
+  {
+   "lemma": "Ἰουδαῖος",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "χώρα": [
+  {
+   "lemma": "χώρα",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἱεροσολυμεῖται": [
+  {
+   "lemma": "Ἱεροσολυμίτης",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "ἐβαπτίζοντο": [
+  {
+   "lemma": "βαπτίζω",
+   "grammar": "verb 3rd pl imperf ind pass",
+   "count": 1
+  }
+ ],
+ "ἰορδάνῃ": [
+  {
+   "lemma": "Ἰορδάνης",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ποταμῷ": [
+  {
+   "lemma": "ποταμός",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ἐξομολογούμενοι": [
+  {
+   "lemma": "ἐξομολογέω",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "ἁμαρτίας": [
+  {
+   "lemma": "ἁμαρτία",
+   "grammar": "noun pl fem acc",
+   "count": 3
+  }
+ ],
+ "ἐνδεδυμένος": [
+  {
+   "lemma": "ἐνδύω",
+   "grammar": "part sg perf pass masc nom",
+   "count": 1
+  }
+ ],
+ "καμήλου": [
+  {
+   "lemma": "κάμηλος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ζώνην": [
+  {
+   "lemma": "ζώνη",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "δερματίνην": [
+  {
+   "lemma": "δερμάτινος",
+   "grammar": "adj sg fem acc",
+   "count": 1
+  }
+ ],
+ "ὀσφὺν": [
+  {
+   "lemma": "ὀσφῦς",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐσθίων": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀκρίδας": [
+  {
+   "lemma": "ἀκρίς",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "μέλι": [
+  {
+   "lemma": "μέλι",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἄγριον": [
+  {
+   "lemma": "ἄγριος",
+   "grammar": "adj sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἐκήρυσσεν": [
+  {
+   "lemma": "κηρύσσω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἰσχυρότερός": [
+  {
+   "lemma": "ἰσχυρός",
+   "grammar": "adj sg masc nom comp",
+   "count": 1
+  }
+ ],
+ "ὀπίσω": [
+  {
+   "lemma": "ὀπίσω",
+   "grammar": "prep",
+   "count": 5
+  }
+ ],
+ "εἰμὶ": [
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 1st sg pres ind act",
+   "count": 1
+  }
+ ],
+ "κύψας": [
+  {
+   "lemma": "κύπτω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "λῦσαι": [
+  {
+   "lemma": "λύω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἱμάντα": [
+  {
+   "lemma": "ἱμάς",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ὑποδημάτων": [
+  {
+   "lemma": "ὑπόδημα",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "ἐβάπτισα": [
+  {
+   "lemma": "βαπτίζω",
+   "grammar": "verb 1st sg aor ind act",
+   "count": 1
+  }
+ ],
+ "βαπτίσει": [
+  {
+   "lemma": "βαπτίζω",
+   "grammar": "verb 3rd sg fut ind act",
+   "count": 1
+  }
+ ],
+ "πνεύματι": [
+  {
+   "lemma": "πνεῦμα",
+   "grammar": "noun sg neut dat",
+   "count": 4
+  }
+ ],
+ "ἁγίῳ": [
+  {
+   "lemma": "ἅγιος",
+   "grammar": "adj sg neut dat",
+   "count": 1
+  }
+ ],
+ "ἐκείναις": [
+  {
+   "lemma": "ἐκεῖνος",
+   "grammar": "pron pl fem dat",
+   "count": 1
+  }
+ ],
+ "ἰησοῦς": [
+  {
+   "lemma": "Ἰησοῦς",
+   "grammar": "noun sg masc nom",
+   "count": 24
+  }
+ ],
+ "ναζαρὲτ": [
+  {
+   "lemma": "Ναζαρά",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "γαλιλαίας": [
+  {
+   "lemma": "Γαλιλαία",
+   "grammar": "noun sg fem gen",
+   "count": 3
+  }
+ ],
+ "ἐβαπτίσθη": [
+  {
+   "lemma": "βαπτίζω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "ἰορδάνην": [
+  {
+   "lemma": "Ἰορδάνης",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἰωάννου": [
+  {
+   "lemma": "Ἰωάν(ν)ης",
+   "grammar": "noun sg masc gen",
+   "count": 2
+  }
+ ],
+ "ἀναβαίνων": [
+  {
+   "lemma": "ἀναβαίνω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ὕδατος": [
+  {
+   "lemma": "ὕδωρ",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "εἶδεν": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 5
+  }
+ ],
+ "σχιζομένους": [
+  {
+   "lemma": "σχίζω",
+   "grammar": "part pl pres pass masc acc",
+   "count": 1
+  }
+ ],
+ "οὐρανοὺς": [
+  {
+   "lemma": "οὐρανός",
+   "grammar": "noun pl masc acc",
+   "count": 1
+  }
+ ],
+ "περιστερὰν": [
+  {
+   "lemma": "περιστερά",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "καταβαῖνον": [
+  {
+   "lemma": "καταβαίνω",
+   "grammar": "part sg pres act neut acc",
+   "count": 1
+  }
+ ],
+ "οὐρανῶν": [
+  {
+   "lemma": "οὐρανός",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἀγαπητός": [
+  {
+   "lemma": "ἀγαπητός",
+   "grammar": "adj sg masc nom",
+   "count": 2
+  }
+ ],
+ "εὐδόκησα": [
+  {
+   "lemma": "εὐδοκέω",
+   "grammar": "verb 1st sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐκβάλλει": [
+  {
+   "lemma": "ἐκβάλλω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἔρημον": [
+  {
+   "lemma": "ἔρημος",
+   "grammar": "adj sg masc acc",
+   "count": 3
+  },
+  {
+   "lemma": "ἔρημος",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "τεσσεράκοντα": [
+  {
+   "lemma": "τεσσεράκοντα",
+   "grammar": "num",
+   "count": 1
+  }
+ ],
+ "πειραζόμενος": [
+  {
+   "lemma": "πειράζω",
+   "grammar": "part sg pres pass masc nom",
+   "count": 1
+  }
+ ],
+ "σατανᾶ": [
+  {
+   "lemma": "Σατανᾶς",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  },
+  {
+   "lemma": "Σατανᾶς",
+   "grammar": "noun sg masc voc",
+   "count": 1
+  }
+ ],
+ "θηρίων": [
+  {
+   "lemma": "θηρίον",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "διηκόνουν": [
+  {
+   "lemma": "διακονέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἰωάννην": [
+  {
+   "lemma": "Ἰωάν(ν)ης",
+   "grammar": "noun sg masc acc",
+   "count": 6
+  }
+ ],
+ "γαλιλαίαν": [
+  {
+   "lemma": "Γαλιλαία",
+   "grammar": "noun sg fem acc",
+   "count": 3
+  }
+ ],
+ "εὐαγγέλιον": [
+  {
+   "lemma": "εὐαγγέλιον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "πεπλήρωται": [
+  {
+   "lemma": "πληρόω",
+   "grammar": "verb 3rd sg perf ind pass",
+   "count": 1
+  }
+ ],
+ "ἤγγικεν": [
+  {
+   "lemma": "ἐγγίζω",
+   "grammar": "verb 3rd sg perf ind act",
+   "count": 1
+  }
+ ],
+ "βασιλεία": [
+  {
+   "lemma": "βασιλεία",
+   "grammar": "noun sg fem nom",
+   "count": 3
+  }
+ ],
+ "μετανοεῖτε": [
+  {
+   "lemma": "μετανοέω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 1
+  }
+ ],
+ "πιστεύετε": [
+  {
+   "lemma": "πιστεύω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 1
+  }
+ ],
+ "εὐαγγελίῳ": [
+  {
+   "lemma": "εὐαγγέλιον",
+   "grammar": "noun sg neut dat",
+   "count": 1
+  }
+ ],
+ "παράγων": [
+  {
+   "lemma": "παράγω",
+   "grammar": "part sg pres act masc nom",
+   "count": 2
+  }
+ ],
+ "σίμωνα": [
+  {
+   "lemma": "Σίμων",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "ἀνδρέαν": [
+  {
+   "lemma": "Ἀνδρέας",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἀδελφὸν": [
+  {
+   "lemma": "ἀδελφός",
+   "grammar": "noun sg masc acc",
+   "count": 3
+  }
+ ],
+ "σίμωνος": [
+  {
+   "lemma": "Σίμων",
+   "grammar": "noun sg masc gen",
+   "count": 3
+  }
+ ],
+ "ἀμφιβάλλοντας": [
+  {
+   "lemma": "βάλλω",
+   "grammar": "part pl pres act masc acc",
+   "count": 1
+  }
+ ],
+ "θαλάσσῃ": [
+  {
+   "lemma": "θάλασσα",
+   "grammar": "noun sg fem dat",
+   "count": 4
+  }
+ ],
+ "ἁλεεῖς": [
+  {
+   "lemma": "ἁλιεύς",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  },
+  {
+   "lemma": "ἁλιεύς",
+   "grammar": "noun pl masc acc",
+   "count": 1
+  }
+ ],
+ "δεῦτε": [
+  {
+   "lemma": "δεῦτε",
+   "grammar": "interj",
+   "count": 2
+  }
+ ],
+ "ἀφέντες": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "part pl aor act masc nom",
+   "count": 4
+  }
+ ],
+ "δίκτυα": [
+  {
+   "lemma": "δίκτυον",
+   "grammar": "noun pl neut acc",
+   "count": 2
+  }
+ ],
+ "ἠκολούθησαν": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "προβὰς": [
+  {
+   "lemma": "προβαίνω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἰάκωβον": [
+  {
+   "lemma": "Ἰάκωβος",
+   "grammar": "noun sg masc acc",
+   "count": 4
+  }
+ ],
+ "ζεβεδαίου": [
+  {
+   "lemma": "Ζεβεδαῖος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "πλοίῳ": [
+  {
+   "lemma": "πλοῖον",
+   "grammar": "noun sg neut dat",
+   "count": 5
+  }
+ ],
+ "καταρτίζοντας": [
+  {
+   "lemma": "καταρτίζω",
+   "grammar": "part pl pres act masc acc",
+   "count": 1
+  }
+ ],
+ "ἐκάλεσεν": [
+  {
+   "lemma": "καλέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ζεβεδαῖον": [
+  {
+   "lemma": "Ζεβεδαῖος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "μισθωτῶν": [
+  {
+   "lemma": "μισθωτός",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "εἰσπορεύονται": [
+  {
+   "lemma": "εἰσπορεύομαι",
+   "grammar": "verb 3rd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "καφαρναούμ": [
+  {
+   "lemma": "Καφαρναούμ",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "σάββασιν": [
+  {
+   "lemma": "σάββατον",
+   "grammar": "noun pl neut dat",
+   "count": 1
+  }
+ ],
+ "ἐδίδασκεν": [
+  {
+   "lemma": "διδάσκω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 3
+  }
+ ],
+ "συναγωγήν": [
+  {
+   "lemma": "συναγωγή",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐξεπλήσσοντο": [
+  {
+   "lemma": "ἐκπλήσσω",
+   "grammar": "verb 3rd pl imperf ind pass",
+   "count": 2
+  }
+ ],
+ "διδαχῇ": [
+  {
+   "lemma": "διδαχή",
+   "grammar": "noun sg fem dat",
+   "count": 2
+  }
+ ],
+ "διδάσκων": [
+  {
+   "lemma": "διδάσκω",
+   "grammar": "part sg pres act masc nom",
+   "count": 2
+  }
+ ],
+ "γραμματεῖς": [
+  {
+   "lemma": "γραμματεύς",
+   "grammar": "noun pl masc nom",
+   "count": 3
+  }
+ ],
+ "συναγωγῇ": [
+  {
+   "lemma": "συναγωγή",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "ἀκαθάρτῳ": [
+  {
+   "lemma": "ἀκάθαρτος",
+   "grammar": "adj sg neut dat",
+   "count": 2
+  }
+ ],
+ "ἀνέκραξεν": [
+  {
+   "lemma": "ἀνακράζω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ναζαρηνέ": [
+  {
+   "lemma": "Ναζαρηνός",
+   "grammar": "noun sg masc voc",
+   "count": 1
+  }
+ ],
+ "ἀπολέσαι": [
+  {
+   "lemma": "ἀπόλλυμι",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "οἴδαμέν": [
+  {
+   "lemma": "οἶδα",
+   "grammar": "verb 1st pl perf ind act",
+   "count": 1
+  }
+ ],
+ "ἅγιος": [
+  {
+   "lemma": "ἅγιος",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἐπετίμησεν": [
+  {
+   "lemma": "ἐπιτιμέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 4
+  }
+ ],
+ "φιμώθητι": [
+  {
+   "lemma": "φιμόω",
+   "grammar": "verb 2nd sg aor imperat pass",
+   "count": 1
+  }
+ ],
+ "ἔξελθε": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 2
+  }
+ ],
+ "σπαράξαν": [
+  {
+   "lemma": "σπαράσσω",
+   "grammar": "part sg aor act neut nom",
+   "count": 1
+  }
+ ],
+ "ἀκάθαρτον": [
+  {
+   "lemma": "ἀκάθαρτος",
+   "grammar": "adj sg neut nom",
+   "count": 1
+  },
+  {
+   "lemma": "ἀκάθαρτος",
+   "grammar": "adj sg neut voc",
+   "count": 1
+  }
+ ],
+ "φωνῆσαν": [
+  {
+   "lemma": "φωνέω",
+   "grammar": "part sg aor act neut nom",
+   "count": 1
+  }
+ ],
+ "φωνῇ": [
+  {
+   "lemma": "φωνή",
+   "grammar": "noun sg fem dat",
+   "count": 3
+  }
+ ],
+ "μεγάλῃ": [
+  {
+   "lemma": "μέγας",
+   "grammar": "adj sg fem dat",
+   "count": 4
+  }
+ ],
+ "ἐξῆλθεν": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 8
+  }
+ ],
+ "ἐθαμβήθησαν": [
+  {
+   "lemma": "θαμβέω",
+   "grammar": "verb 3rd pl aor ind pass",
+   "count": 1
+  }
+ ],
+ "συζητεῖν": [
+  {
+   "lemma": "συζητέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "διδαχὴ": [
+  {
+   "lemma": "διδαχή",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "καινὴ": [
+  {
+   "lemma": "καινός",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "πνεύμασι": [
+  {
+   "lemma": "πνεῦμα",
+   "grammar": "noun pl neut dat",
+   "count": 1
+  }
+ ],
+ "ἀκαθάρτοις": [
+  {
+   "lemma": "ἀκάθαρτος",
+   "grammar": "adj pl neut dat",
+   "count": 1
+  }
+ ],
+ "ἐπιτάσσει": [
+  {
+   "lemma": "ἐπιτάσσω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ὑπακούουσιν": [
+  {
+   "lemma": "ὑπακούω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἀκοὴ": [
+  {
+   "lemma": "ἀκοή",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "πανταχοῦ": [
+  {
+   "lemma": "πανταχοῦ",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "περίχωρον": [
+  {
+   "lemma": "περίχωρος",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "συναγωγῆς": [
+  {
+   "lemma": "συναγωγή",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐξελθόντες": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "οἰκίαν": [
+  {
+   "lemma": "οἰκία",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "ἀνδρέου": [
+  {
+   "lemma": "Ἀνδρέας",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ἰακώβου": [
+  {
+   "lemma": "Ἰάκωβος",
+   "grammar": "noun sg masc gen",
+   "count": 3
+  }
+ ],
+ "πενθερὰ": [
+  {
+   "lemma": "πενθερά",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "κατέκειτο": [
+  {
+   "lemma": "κατάκειμαι",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 2
+  }
+ ],
+ "πυρέσσουσα": [
+  {
+   "lemma": "πυρέσσω",
+   "grammar": "part sg pres act fem nom",
+   "count": 1
+  }
+ ],
+ "προσελθὼν": [
+  {
+   "lemma": "προσέρχομαι",
+   "grammar": "part sg aor act masc nom",
+   "count": 2
+  }
+ ],
+ "ἤγειρεν": [
+  {
+   "lemma": "ἐγείρω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "χειρός": [
+  {
+   "lemma": "χείρ",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἀφῆκεν": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 4
+  }
+ ],
+ "πυρετός": [
+  {
+   "lemma": "πυρετός",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "διηκόνει": [
+  {
+   "lemma": "διακονέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "ὀψίας": [
+  {
+   "lemma": "ὄψιος",
+   "grammar": "adj sg fem gen",
+   "count": 2
+  }
+ ],
+ "ἔδυ": [
+  {
+   "lemma": "τρέχω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἔφερον": [
+  {
+   "lemma": "φέρω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "δαιμονιζομένους": [
+  {
+   "lemma": "δαιμονίζομαι",
+   "grammar": "part pl pres mid masc acc",
+   "count": 1
+  }
+ ],
+ "ὅλη": [
+  {
+   "lemma": "ὅλος",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἐπισυνηγμένη": [
+  {
+   "lemma": "ἐπισυνάγω",
+   "grammar": "part sg perf pass fem nom",
+   "count": 1
+  }
+ ],
+ "ἐθεράπευσεν": [
+  {
+   "lemma": "θεραπεύω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ποικίλαις": [
+  {
+   "lemma": "ποικίλος",
+   "grammar": "adj pl fem dat",
+   "count": 1
+  }
+ ],
+ "νόσοις": [
+  {
+   "lemma": "νόσος",
+   "grammar": "noun pl fem dat",
+   "count": 1
+  }
+ ],
+ "δαιμόνια": [
+  {
+   "lemma": "δαιμόνιον",
+   "grammar": "noun pl neut acc",
+   "count": 3
+  }
+ ],
+ "ἐξέβαλεν": [
+  {
+   "lemma": "ἐκβάλλω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 2
+  }
+ ],
+ "ἤφιεν": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "λαλεῖν": [
+  {
+   "lemma": "λαλέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ᾔδεισαν": [
+  {
+   "lemma": "οἶδα",
+   "grammar": "verb 3rd pl plup ind act",
+   "count": 2
+  }
+ ],
+ "πρωῒ": [
+  {
+   "lemma": "πρωΐ",
+   "grammar": "adv",
+   "count": 3
+  }
+ ],
+ "ἔννυχα": [
+  {
+   "lemma": "ἔννυχος",
+   "grammar": "adj pl neut acc",
+   "count": 1
+  }
+ ],
+ "λίαν": [
+  {
+   "lemma": "λίαν",
+   "grammar": "adv",
+   "count": 3
+  }
+ ],
+ "ἀναστὰς": [
+  {
+   "lemma": "ἀνίστημι",
+   "grammar": "part sg aor act masc nom",
+   "count": 2
+  }
+ ],
+ "ἀπῆλθεν": [
+  {
+   "lemma": "ἀπέρχομαι",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 5
+  }
+ ],
+ "τόπον": [
+  {
+   "lemma": "τόπος",
+   "grammar": "noun sg masc acc",
+   "count": 4
+  }
+ ],
+ "προσηύχετο": [
+  {
+   "lemma": "προσεύχομαι",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 2
+  }
+ ],
+ "κατεδίωξεν": [
+  {
+   "lemma": "καταδιώκω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "σίμων": [
+  {
+   "lemma": "Σίμων",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  },
+  {
+   "lemma": "Σίμων",
+   "grammar": "noun sg masc voc",
+   "count": 1
+  }
+ ],
+ "εὗρον": [
+  {
+   "lemma": "εὑρίσκω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 2
+  }
+ ],
+ "ζητοῦσίν": [
+  {
+   "lemma": "ζητέω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἄγωμεν": [
+  {
+   "lemma": "ἄγω",
+   "grammar": "verb 1st pl pres subj act",
+   "count": 2
+  }
+ ],
+ "ἀλλαχοῦ": [
+  {
+   "lemma": "ἀλλαχοῦ",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "ἐχομένας": [
+  {
+   "lemma": "ἔχω",
+   "grammar": "part pl pres mid fem acc",
+   "count": 1
+  }
+ ],
+ "κωμοπόλεις": [
+  {
+   "lemma": "κωμόπολις",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "κηρύξω": [
+  {
+   "lemma": "κηρύσσω",
+   "grammar": "verb 1st sg aor subj act",
+   "count": 1
+  }
+ ],
+ "συναγωγὰς": [
+  {
+   "lemma": "συναγωγή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "ἐκβάλλων": [
+  {
+   "lemma": "ἐκβάλλω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "λεπρὸς": [
+  {
+   "lemma": "λεπρός",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "παρακαλῶν": [
+  {
+   "lemma": "παρακαλέω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "γονυπετῶν": [
+  {
+   "lemma": "γονυπετέω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "θέλῃς": [
+  {
+   "lemma": "ἐθέλω",
+   "grammar": "verb 2nd sg pres subj act",
+   "count": 1
+  }
+ ],
+ "δύνασαί": [
+  {
+   "lemma": "δύναμαι",
+   "grammar": "verb 2nd sg pres ind mid",
+   "count": 1
+  }
+ ],
+ "καθαρίσαι": [
+  {
+   "lemma": "καθαρίζω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "σπλαγχνισθεὶς": [
+  {
+   "lemma": "σπλαγχνίζομαι",
+   "grammar": "part sg aor pass masc nom",
+   "count": 1
+  }
+ ],
+ "ἐκτείνας": [
+  {
+   "lemma": "ἐκτείνω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "χεῖρα": [
+  {
+   "lemma": "χείρ",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἥψατο": [
+  {
+   "lemma": "ἅπτω",
+   "grammar": "verb 3rd sg aor ind mid",
+   "count": 4
+  }
+ ],
+ "καθαρίσθητι": [
+  {
+   "lemma": "καθαρίζω",
+   "grammar": "verb 2nd sg aor imperat pass",
+   "count": 1
+  }
+ ],
+ "λέπρα": [
+  {
+   "lemma": "λέπρα",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἐκαθερίσθη": [
+  {
+   "lemma": "καθαρίζω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "ἐμβριμησάμενος": [
+  {
+   "lemma": "ἐμβριμάομαι",
+   "grammar": "part sg aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "ὕπαγε": [
+  {
+   "lemma": "ὑπάγω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 7
+  }
+ ],
+ "σεαυτὸν": [
+  {
+   "lemma": "σεαυτοῦ",
+   "grammar": "pron 2nd sg masc acc",
+   "count": 2
+  }
+ ],
+ "δεῖξον": [
+  {
+   "lemma": "δείκνυμι",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "ἱερεῖ": [
+  {
+   "lemma": "ἱερεύς",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "προσένεγκε": [
+  {
+   "lemma": "προσφέρω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "καθαρισμοῦ": [
+  {
+   "lemma": "καθαρισμός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "προσέταξεν": [
+  {
+   "lemma": "προστάσσω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "μωϋσῆς": [
+  {
+   "lemma": "Μωϋσῆς",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἐξελθὼν": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part sg aor act masc nom",
+   "count": 2
+  }
+ ],
+ "ἤρξατο": [
+  {
+   "lemma": "ἄρχω",
+   "grammar": "verb 3rd sg aor ind mid",
+   "count": 9
+  }
+ ],
+ "κηρύσσειν": [
+  {
+   "lemma": "κηρύσσω",
+   "grammar": "verb pres inf act",
+   "count": 2
+  }
+ ],
+ "διαφημίζειν": [
+  {
+   "lemma": "διαφημίζω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ἐρήμοις": [
+  {
+   "lemma": "ἔρημος",
+   "grammar": "adj pl masc dat",
+   "count": 1
+  }
+ ],
+ "τόποις": [
+  {
+   "lemma": "τόπος",
+   "grammar": "noun pl masc dat",
+   "count": 1
+  }
+ ],
+ "ἤρχοντο": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd pl imperf ind mid",
+   "count": 1
+  }
+ ],
+ "πάντοθεν": [
+  {
+   "lemma": "πάντοθεν",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "καφαρναοὺμ": [
+  {
+   "lemma": "Καφαρναούμ",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "ἡμερῶν": [
+  {
+   "lemma": "ἡμέρα",
+   "grammar": "noun pl fem gen",
+   "count": 1
+  }
+ ],
+ "ἠκούσθη": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "συνήχθησαν": [
+  {
+   "lemma": "συνάγω",
+   "grammar": "verb 3rd pl aor ind pass",
+   "count": 1
+  }
+ ],
+ "χωρεῖν": [
+  {
+   "lemma": "χωρέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ἐλάλει": [
+  {
+   "lemma": "λαλέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 2
+  }
+ ],
+ "ἔρχονται": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd pl pres ind mid",
+   "count": 6
+  }
+ ],
+ "φέροντες": [
+  {
+   "lemma": "φέρω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "παραλυτικὸν": [
+  {
+   "lemma": "παραλυτικός",
+   "grammar": "adj sg masc acc",
+   "count": 1
+  }
+ ],
+ "αἰρόμενον": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "part sg pres pass masc acc",
+   "count": 1
+  }
+ ],
+ "τεσσάρων": [
+  {
+   "lemma": "τέσσαρες",
+   "grammar": "num pl masc gen",
+   "count": 1
+  }
+ ],
+ "δυνάμενοι": [
+  {
+   "lemma": "δύναμαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "προσενέγκαι": [
+  {
+   "lemma": "προσφέρω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἀπεστέγασαν": [
+  {
+   "lemma": "ἀποστεγάζω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "στέγην": [
+  {
+   "lemma": "στέγη",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐξορύξαντες": [
+  {
+   "lemma": "ἐξορύσσω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "χαλῶσι": [
+  {
+   "lemma": "χαλάω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "κράβαττον": [
+  {
+   "lemma": "κράβαττος",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "παραλυτικὸς": [
+  {
+   "lemma": "παραλυτικός",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "πίστιν": [
+  {
+   "lemma": "πίστις",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "παραλυτικῷ": [
+  {
+   "lemma": "παραλυτικός",
+   "grammar": "adj sg masc dat",
+   "count": 3
+  }
+ ],
+ "ἀφίενταί": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 3rd pl pres ind pass",
+   "count": 2
+  }
+ ],
+ "γραμματέων": [
+  {
+   "lemma": "γραμματεύς",
+   "grammar": "noun pl masc gen",
+   "count": 5
+  }
+ ],
+ "καθήμενοι": [
+  {
+   "lemma": "κάθημαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "διαλογιζόμενοι": [
+  {
+   "lemma": "διαλογίζομαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "καρδίαις": [
+  {
+   "lemma": "καρδία",
+   "grammar": "noun pl fem dat",
+   "count": 2
+  }
+ ],
+ "λαλεῖ": [
+  {
+   "lemma": "λαλέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "βλασφημεῖ": [
+  {
+   "lemma": "βλασφημέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἐπιγνοὺς": [
+  {
+   "lemma": "ἐπιγιγνώσκω",
+   "grammar": "part sg aor act masc nom",
+   "count": 2
+  }
+ ],
+ "διαλογίζονται": [
+  {
+   "lemma": "διαλογίζομαι",
+   "grammar": "verb 3rd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "ἑαυτοῖς": [
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd pl masc dat",
+   "count": 3
+  }
+ ],
+ "διαλογίζεσθε": [
+  {
+   "lemma": "διαλογίζομαι",
+   "grammar": "verb 2nd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "εὐκοπώτερον": [
+  {
+   "lemma": "εὔκοπος",
+   "grammar": "adj sg neut nom comp",
+   "count": 1
+  }
+ ],
+ "ἔγειρε": [
+  {
+   "lemma": "ἐγείρω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 3
+  }
+ ],
+ "ἆρον": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 2
+  }
+ ],
+ "κράβαττόν": [
+  {
+   "lemma": "κράβαττος",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "εἰδῆτε": [
+  {
+   "lemma": "οἶδα",
+   "grammar": "verb 2nd pl perf subj act",
+   "count": 1
+  }
+ ],
+ "οἶκόν": [
+  {
+   "lemma": "οἶκος",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "ἠγέρθη": [
+  {
+   "lemma": "ἐγείρω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 2
+  }
+ ],
+ "ἄρας": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἐξίστασθαι": [
+  {
+   "lemma": "ἐξίστημι",
+   "grammar": "verb pres inf mid",
+   "count": 1
+  }
+ ],
+ "εἴδαμεν": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 1st pl aor ind act",
+   "count": 1
+  }
+ ],
+ "λευεὶν": [
+  {
+   "lemma": "Λευί",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἁλφαίου": [
+  {
+   "lemma": "Ἁλφαῖος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "καθήμενον": [
+  {
+   "lemma": "κάθημαι",
+   "grammar": "part sg pres mid masc acc",
+   "count": 3
+  }
+ ],
+ "τελώνιον": [
+  {
+   "lemma": "τελώνιον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἀκολούθει": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 2
+  }
+ ],
+ "ἠκολούθησεν": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "τελῶναι": [
+  {
+   "lemma": "τελώνης",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "ἁμαρτωλοὶ": [
+  {
+   "lemma": "ἁμαρτωλός",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "συνανέκειντο": [
+  {
+   "lemma": "συνανάκειμαι",
+   "grammar": "verb 3rd pl imperf ind mid",
+   "count": 1
+  }
+ ],
+ "μαθηταῖς": [
+  {
+   "lemma": "μαθητής",
+   "grammar": "noun pl masc dat",
+   "count": 7
+  }
+ ],
+ "ἠκολούθουν": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "φαρισαίων": [
+  {
+   "lemma": "Φαρισαῖος",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἤσθιεν": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "τελωνῶν": [
+  {
+   "lemma": "τελώνης",
+   "grammar": "noun pl masc gen",
+   "count": 2
+  }
+ ],
+ "ἁμαρτωλῶν": [
+  {
+   "lemma": "ἁμαρτωλός",
+   "grammar": "adj pl masc gen",
+   "count": 3
+  }
+ ],
+ "ἐσθίει": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "πίνει": [
+  {
+   "lemma": "πίνω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἰσχύοντες": [
+  {
+   "lemma": "ἰσχύω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἰατροῦ": [
+  {
+   "lemma": "ἰατρός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "καλέσαι": [
+  {
+   "lemma": "καλέω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἁμαρτωλούς": [
+  {
+   "lemma": "ἁμαρτωλός",
+   "grammar": "noun pl masc acc",
+   "count": 1
+  }
+ ],
+ "διδάσκειν": [
+  {
+   "lemma": "διδάσκω",
+   "grammar": "verb pres inf act",
+   "count": 3
+  }
+ ],
+ "συνάγεται": [
+  {
+   "lemma": "συνάγω",
+   "grammar": "verb 3rd sg pres ind pass",
+   "count": 1
+  }
+ ],
+ "πλεῖστος": [
+  {
+   "lemma": "πολύς",
+   "grammar": "adj sg masc nom superl",
+   "count": 1
+  }
+ ],
+ "πλοῖον": [
+  {
+   "lemma": "πλοῖον",
+   "grammar": "noun sg neut acc",
+   "count": 4
+  }
+ ],
+ "ἐμβάντα": [
+  {
+   "lemma": "ἐμβαίνω",
+   "grammar": "part sg aor act masc acc",
+   "count": 1
+  }
+ ],
+ "καθῆσθαι": [
+  {
+   "lemma": "κάθημαι",
+   "grammar": "verb pres inf mid",
+   "count": 1
+  }
+ ],
+ "παραβολαῖς": [
+  {
+   "lemma": "παραβολή",
+   "grammar": "noun pl fem dat",
+   "count": 2
+  }
+ ],
+ "ἀκούετε": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 2
+  }
+ ],
+ "σπείρων": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "part sg pres act masc nom",
+   "count": 2
+  }
+ ],
+ "σπεῖραι": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "σπείρειν": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ἔπεσεν": [
+  {
+   "lemma": "πίπτω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 4
+  }
+ ],
+ "πετεινὰ": [
+  {
+   "lemma": "πετεινόν",
+   "grammar": "noun pl neut nom",
+   "count": 1
+  }
+ ],
+ "κατέφαγεν": [
+  {
+   "lemma": "κατεσθίω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "πετρῶδες": [
+  {
+   "lemma": "πετρώδης",
+   "grammar": "adj sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἐξανέτειλεν": [
+  {
+   "lemma": "ἐξανατέλλω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "βάθος": [
+  {
+   "lemma": "βάθος",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἀνέτειλεν": [
+  {
+   "lemma": "ἀνατέλλω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐκαυματίσθη": [
+  {
+   "lemma": "καυματίζω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "ῥίζαν": [
+  {
+   "lemma": "ῥίζα",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "ἐξηράνθη": [
+  {
+   "lemma": "ξηραίνω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 2
+  }
+ ],
+ "ἀκάνθας": [
+  {
+   "lemma": "ἄκανθα",
+   "grammar": "noun pl fem acc",
+   "count": 2
+  }
+ ],
+ "ἀνέβησαν": [
+  {
+   "lemma": "ἀναβαίνω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἄκανθαι": [
+  {
+   "lemma": "ἄκανθα",
+   "grammar": "noun pl fem nom",
+   "count": 1
+  }
+ ],
+ "συνέπνιξαν": [
+  {
+   "lemma": "συμπνίγω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "καρπὸν": [
+  {
+   "lemma": "καρπός",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "καλήν": [
+  {
+   "lemma": "καλός",
+   "grammar": "adj sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐδίδου": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 2
+  }
+ ],
+ "ἀναβαίνοντα": [
+  {
+   "lemma": "ἀναβαίνω",
+   "grammar": "part sg pres act masc acc",
+   "count": 1
+  }
+ ],
+ "ἔφερεν": [
+  {
+   "lemma": "φέρω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἀκουέτω": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 3rd sg pres imperat act",
+   "count": 1
+  }
+ ],
+ "μόνας": [
+  {
+   "lemma": "μόνος",
+   "grammar": "adj pl fem acc",
+   "count": 1
+  }
+ ],
+ "ἠρώτουν": [
+  {
+   "lemma": "ἐρωτάω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "παραβολάς": [
+  {
+   "lemma": "παραβολή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "μυστήριον": [
+  {
+   "lemma": "μυστήριον",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "βλέπωσιν": [
+  {
+   "lemma": "βλέπω",
+   "grammar": "verb 3rd pl pres subj act",
+   "count": 1
+  }
+ ],
+ "ἴδωσιν": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀκούωσιν": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 3rd pl pres subj act",
+   "count": 1
+  }
+ ],
+ "συνιῶσιν": [
+  {
+   "lemma": "συνίημι",
+   "grammar": "verb 3rd pl pres subj act",
+   "count": 1
+  }
+ ],
+ "μήποτε": [
+  {
+   "lemma": "μήποτε",
+   "grammar": "conj",
+   "count": 1
+  }
+ ],
+ "ἐπιστρέψωσιν": [
+  {
+   "lemma": "ἐπιστρέφω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀφεθῇ": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 3rd sg aor subj pass",
+   "count": 1
+  }
+ ],
+ "οἴδατε": [
+  {
+   "lemma": "οἶδα",
+   "grammar": "verb 2nd pl perf ind act",
+   "count": 1
+  }
+ ],
+ "παραβολὴν": [
+  {
+   "lemma": "παραβολή",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "παραβολὰς": [
+  {
+   "lemma": "παραβολή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "γνώσεσθε": [
+  {
+   "lemma": "γιγνώσκω",
+   "grammar": "verb 2nd pl fut ind mid",
+   "count": 1
+  }
+ ],
+ "σπείρει": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "σπείρεται": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "verb 3rd sg pres ind pass",
+   "count": 1
+  }
+ ],
+ "ἀκούσωσιν": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 2
+  }
+ ],
+ "σατανᾶς": [
+  {
+   "lemma": "Σατανᾶς",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "αἴρει": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἐσπαρμένον": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "part sg perf pass masc acc",
+   "count": 1
+  }
+ ],
+ "πετρώδη": [
+  {
+   "lemma": "πετρώδης",
+   "grammar": "adj pl neut acc",
+   "count": 1
+  }
+ ],
+ "σπειρόμενοι": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "part pl pres pass masc nom",
+   "count": 2
+  }
+ ],
+ "χαρᾶς": [
+  {
+   "lemma": "χαρά",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "λαμβάνουσιν": [
+  {
+   "lemma": "λαμβάνω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "πρόσκαιροί": [
+  {
+   "lemma": "πρόσκαιρος",
+   "grammar": "adj pl masc nom",
+   "count": 1
+  }
+ ],
+ "θλίψεως": [
+  {
+   "lemma": "θλῖψις",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "διωγμοῦ": [
+  {
+   "lemma": "διωγμός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "σκανδαλίζονται": [
+  {
+   "lemma": "σκανδαλίζω",
+   "grammar": "verb 3rd pl pres ind pass",
+   "count": 1
+  }
+ ],
+ "ἀκούσαντες": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "part pl aor act masc nom",
+   "count": 2
+  }
+ ],
+ "μέριμναι": [
+  {
+   "lemma": "μέριμνα",
+   "grammar": "noun pl fem nom",
+   "count": 1
+  }
+ ],
+ "αἰῶνος": [
+  {
+   "lemma": "αἰών",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "λοιπὰ": [
+  {
+   "lemma": "λοιπός",
+   "grammar": "adj pl neut acc",
+   "count": 1
+  }
+ ],
+ "εἰσπορευόμεναι": [
+  {
+   "lemma": "εἰσπορεύομαι",
+   "grammar": "part pl pres mid fem nom",
+   "count": 1
+  }
+ ],
+ "συνπνίγουσιν": [
+  {
+   "lemma": "συμπνίγω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἄκαρπος": [
+  {
+   "lemma": "ἄκαρπος",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἐκεῖνοί": [
+  {
+   "lemma": "ἐκεῖνος",
+   "grammar": "pron pl masc nom",
+   "count": 1
+  }
+ ],
+ "καλὴν": [
+  {
+   "lemma": "καλός",
+   "grammar": "adj sg fem acc",
+   "count": 1
+  }
+ ],
+ "σπαρέντες": [
+  {
+   "lemma": "σπείρω",
+   "grammar": "part pl aor pass masc nom",
+   "count": 1
+  }
+ ],
+ "ἀκούουσιν": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "παραδέχονται": [
+  {
+   "lemma": "παραδέχομαι",
+   "grammar": "verb 3rd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "καρποφοροῦσιν": [
+  {
+   "lemma": "καρποφορέω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἐκείνῃ": [
+  {
+   "lemma": "ἐκεῖνος",
+   "grammar": "pron sg fem dat",
+   "count": 1
+  }
+ ],
+ "διέλθωμεν": [
+  {
+   "lemma": "διέρχομαι",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 1
+  }
+ ],
+ "παραλαμβάνουσιν": [
+  {
+   "lemma": "παραλαμβάνω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "λαῖλαψ": [
+  {
+   "lemma": "λαῖλαψ",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "μεγάλη": [
+  {
+   "lemma": "μέγας",
+   "grammar": "adj sg fem nom",
+   "count": 3
+  }
+ ],
+ "ἀνέμου": [
+  {
+   "lemma": "ἄνεμος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "κύματα": [
+  {
+   "lemma": "κῦμα",
+   "grammar": "noun pl neut nom",
+   "count": 1
+  }
+ ],
+ "ἐπέβαλλεν": [
+  {
+   "lemma": "ἐπιβάλλω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "γεμίζεσθαι": [
+  {
+   "lemma": "γεμίζω",
+   "grammar": "verb pres inf pass",
+   "count": 1
+  }
+ ],
+ "πρύμνῃ": [
+  {
+   "lemma": "πρύμνα",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "προσκεφάλαιον": [
+  {
+   "lemma": "προσκεφάλαιον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "καθεύδων": [
+  {
+   "lemma": "καθεύδω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἐγείρουσιν": [
+  {
+   "lemma": "ἐγείρω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "διδάσκαλε": [
+  {
+   "lemma": "διδάσκαλος",
+   "grammar": "noun sg masc voc",
+   "count": 3
+  }
+ ],
+ "ἀπολλύμεθα": [
+  {
+   "lemma": "ἀπόλλυμι",
+   "grammar": "verb 1st pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "διεγερθεὶς": [
+  {
+   "lemma": "διεγείρω",
+   "grammar": "part sg aor pass masc nom",
+   "count": 1
+  }
+ ],
+ "ἀνέμῳ": [
+  {
+   "lemma": "ἄνεμος",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "σιώπα": [
+  {
+   "lemma": "σιωπάω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 1
+  }
+ ],
+ "πεφίμωσο": [
+  {
+   "lemma": "φιμόω",
+   "grammar": "verb 2nd sg perf imperat pass",
+   "count": 1
+  }
+ ],
+ "ἐκόπασεν": [
+  {
+   "lemma": "κοπάζω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "γαλήνη": [
+  {
+   "lemma": "γαλήνη",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἔχετε": [
+  {
+   "lemma": "ἔχω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 2
+  }
+ ],
+ "ἐφοβήθησαν": [
+  {
+   "lemma": "φοβέω",
+   "grammar": "verb 3rd pl aor ind pass",
+   "count": 2
+  }
+ ],
+ "θάλασσα": [
+  {
+   "lemma": "θάλασσα",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ὑπακούει": [
+  {
+   "lemma": "ὑπακούω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "γερασηνῶν": [
+  {
+   "lemma": "Γερασηνός",
+   "grammar": "adj pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἐξελθόντος": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part sg aor act masc gen",
+   "count": 1
+  }
+ ],
+ "πλοίου": [
+  {
+   "lemma": "πλοῖον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "ὑπήντησεν": [
+  {
+   "lemma": "ὑπαντάω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "μνημείων": [
+  {
+   "lemma": "μνημεῖον",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "κατοίκησιν": [
+  {
+   "lemma": "κατοίκησις",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "μνήμασιν": [
+  {
+   "lemma": "μνῆμα",
+   "grammar": "noun pl neut dat",
+   "count": 2
+  }
+ ],
+ "ἁλύσει": [
+  {
+   "lemma": "ἅλυσις",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "πέδαις": [
+  {
+   "lemma": "πέδη",
+   "grammar": "noun pl fem dat",
+   "count": 1
+  }
+ ],
+ "ἁλύσεσιν": [
+  {
+   "lemma": "ἅλυσις",
+   "grammar": "noun pl fem dat",
+   "count": 1
+  }
+ ],
+ "δεδέσθαι": [
+  {
+   "lemma": "δέω#1",
+   "grammar": "verb perf inf pass",
+   "count": 1
+  }
+ ],
+ "διεσπάσθαι": [
+  {
+   "lemma": "διασπάω",
+   "grammar": "verb perf inf pass",
+   "count": 1
+  }
+ ],
+ "ἁλύσεις": [
+  {
+   "lemma": "ἅλυσις",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "πέδας": [
+  {
+   "lemma": "πέδη",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "συντετρῖφθαι": [
+  {
+   "lemma": "συντρίβω",
+   "grammar": "verb perf inf pass",
+   "count": 1
+  }
+ ],
+ "ἴσχυεν": [
+  {
+   "lemma": "ἰσχύω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "δαμάσαι": [
+  {
+   "lemma": "δαμάζω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "διαπαντὸς": [
+  {
+   "lemma": "διαπαντός",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "ὄρεσιν": [
+  {
+   "lemma": "ὄρος#1",
+   "grammar": "noun pl neut dat",
+   "count": 1
+  }
+ ],
+ "κράζων": [
+  {
+   "lemma": "κράζω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "κατακόπτων": [
+  {
+   "lemma": "κατακόπτω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἑαυτὸν": [
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd sg masc acc",
+   "count": 3
+  }
+ ],
+ "λίθοις": [
+  {
+   "lemma": "λίθος",
+   "grammar": "noun pl masc dat",
+   "count": 1
+  }
+ ],
+ "ἰησοῦν": [
+  {
+   "lemma": "Ἰησοῦς",
+   "grammar": "noun sg masc acc",
+   "count": 8
+  }
+ ],
+ "μακρόθεν": [
+  {
+   "lemma": "μακρόθεν",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "ἔδραμεν": [
+  {
+   "lemma": "τρέχω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "προσεκύνησεν": [
+  {
+   "lemma": "προσκυνέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "κράξας": [
+  {
+   "lemma": "κράζω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "υἱὲ": [
+  {
+   "lemma": "υἱός",
+   "grammar": "noun sg masc voc",
+   "count": 1
+  }
+ ],
+ "ὑψίστου": [
+  {
+   "lemma": "ὕψιστος",
+   "grammar": "adj sg masc gen superl",
+   "count": 1
+  }
+ ],
+ "ὁρκίζω": [
+  {
+   "lemma": "ὁρκίζω",
+   "grammar": "verb 1st sg pres ind act",
+   "count": 1
+  }
+ ],
+ "βασανίσῃς": [
+  {
+   "lemma": "βασανίζω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐπηρώτα": [
+  {
+   "lemma": "ἐπερωτάω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 5
+  }
+ ],
+ "λεγιὼν": [
+  {
+   "lemma": "λεγιών",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "παρεκάλει": [
+  {
+   "lemma": "παρακαλέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 2
+  }
+ ],
+ "ἀποστείλῃ": [
+  {
+   "lemma": "ἀποστέλλω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ὄρει": [
+  {
+   "lemma": "ὄρος#1",
+   "grammar": "noun sg neut dat",
+   "count": 1
+  }
+ ],
+ "ἀγέλη": [
+  {
+   "lemma": "ἀγέλη",
+   "grammar": "noun sg fem nom",
+   "count": 2
+  }
+ ],
+ "χοίρων": [
+  {
+   "lemma": "χοῖρος",
+   "grammar": "noun pl masc gen",
+   "count": 2
+  }
+ ],
+ "βοσκομένη": [
+  {
+   "lemma": "βόσκω",
+   "grammar": "part sg pres pass fem nom",
+   "count": 1
+  }
+ ],
+ "παρεκάλεσαν": [
+  {
+   "lemma": "παρακαλέω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "πέμψον": [
+  {
+   "lemma": "πέμπω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "χοίρους": [
+  {
+   "lemma": "χοῖρος",
+   "grammar": "noun pl masc acc",
+   "count": 2
+  }
+ ],
+ "εἰσέλθωμεν": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐπέτρεψεν": [
+  {
+   "lemma": "ἐπιτρέπω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐξελθόντα": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part pl aor act neut nom",
+   "count": 1
+  }
+ ],
+ "πνεύματα": [
+  {
+   "lemma": "πνεῦμα",
+   "grammar": "noun pl neut nom",
+   "count": 1
+  }
+ ],
+ "ἀκάθαρτα": [
+  {
+   "lemma": "ἀκάθαρτος",
+   "grammar": "adj pl neut nom",
+   "count": 1
+  }
+ ],
+ "εἰσῆλθον": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "κρημνοῦ": [
+  {
+   "lemma": "κρημνός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "δισχίλιοι": [
+  {
+   "lemma": "δισχίλιοι",
+   "grammar": "num pl masc nom",
+   "count": 1
+  }
+ ],
+ "ἐπνίγοντο": [
+  {
+   "lemma": "πνίγω",
+   "grammar": "verb 3rd pl imperf ind pass",
+   "count": 1
+  }
+ ],
+ "βόσκοντες": [
+  {
+   "lemma": "βόσκω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀπήγγειλαν": [
+  {
+   "lemma": "ἀπαγγέλλω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 2
+  }
+ ],
+ "ἀγρούς": [
+  {
+   "lemma": "ἀγρός",
+   "grammar": "noun pl masc acc",
+   "count": 1
+  }
+ ],
+ "γεγονός": [
+  {
+   "lemma": "γίγνομαι",
+   "grammar": "part sg perf act neut nom",
+   "count": 1
+  }
+ ],
+ "θεωροῦσιν": [
+  {
+   "lemma": "θεωρέω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 2
+  }
+ ],
+ "δαιμονιζόμενον": [
+  {
+   "lemma": "δαιμονίζομαι",
+   "grammar": "part sg pres mid masc acc",
+   "count": 1
+  }
+ ],
+ "ἱματισμένον": [
+  {
+   "lemma": "ἱματίζω",
+   "grammar": "part sg perf pass masc acc",
+   "count": 1
+  }
+ ],
+ "σωφρονοῦντα": [
+  {
+   "lemma": "σωφρονέω",
+   "grammar": "part sg pres act masc acc",
+   "count": 1
+  }
+ ],
+ "ἐσχηκότα": [
+  {
+   "lemma": "ἔχω",
+   "grammar": "part sg perf act masc acc",
+   "count": 1
+  }
+ ],
+ "λεγιῶνα": [
+  {
+   "lemma": "λεγιών",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "διηγήσαντο": [
+  {
+   "lemma": "διηγέομαι",
+   "grammar": "verb 3rd pl aor ind mid",
+   "count": 1
+  }
+ ],
+ "δαιμονιζομένῳ": [
+  {
+   "lemma": "δαιμονίζομαι",
+   "grammar": "part sg pres mid masc dat",
+   "count": 1
+  }
+ ],
+ "ἤρξαντο": [
+  {
+   "lemma": "ἄρχω",
+   "grammar": "verb 3rd pl aor ind mid",
+   "count": 2
+  }
+ ],
+ "παρακαλεῖν": [
+  {
+   "lemma": "παρακαλέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ὁρίων": [
+  {
+   "lemma": "ὅριον",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "ἐμβαίνοντος": [
+  {
+   "lemma": "ἐμβαίνω",
+   "grammar": "part sg pres act masc gen",
+   "count": 1
+  }
+ ],
+ "δαιμονισθεὶς": [
+  {
+   "lemma": "δαιμονίζομαι",
+   "grammar": "part sg aor pass masc nom",
+   "count": 1
+  }
+ ],
+ "σούς": [
+  {
+   "lemma": "σός",
+   "grammar": "pron 2nd pl masc acc",
+   "count": 1
+  }
+ ],
+ "ἀπάγγειλον": [
+  {
+   "lemma": "ἀπαγγέλλω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "κύριός": [
+  {
+   "lemma": "κύριος",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἠλέησέν": [
+  {
+   "lemma": "ἐλεέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "δεκαπόλει": [
+  {
+   "lemma": "Δεκάπολις",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "διαπεράσαντος": [
+  {
+   "lemma": "διαπεράω",
+   "grammar": "part sg aor act masc gen",
+   "count": 1
+  }
+ ],
+ "συνήχθη": [
+  {
+   "lemma": "συνάγω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "πολὺς": [
+  {
+   "lemma": "πολύς",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἀρχισυναγώγων": [
+  {
+   "lemma": "ἀρχισυνάγωγος",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἰάειρος": [
+  {
+   "lemma": "Ἰάϊρος",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "παρακαλεῖ": [
+  {
+   "lemma": "παρακαλέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "θυγάτριόν": [
+  {
+   "lemma": "θυγάτριον",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "ἐσχάτως": [
+  {
+   "lemma": "ἐσχάτως",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "ἐπιθῇς": [
+  {
+   "lemma": "ἐπιτίθημι",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ζήσῃ": [
+  {
+   "lemma": "ζῶ",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἠκολούθει": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "πολύς": [
+  {
+   "lemma": "πολύς",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "συνέθλιβον": [
+  {
+   "lemma": "συνθλίβω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ῥύσει": [
+  {
+   "lemma": "ῥύσις",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "παθοῦσα": [
+  {
+   "lemma": "πάσχω",
+   "grammar": "part sg aor act fem nom",
+   "count": 1
+  }
+ ],
+ "δαπανήσασα": [
+  {
+   "lemma": "δαπανάω",
+   "grammar": "part sg aor act fem nom",
+   "count": 1
+  }
+ ],
+ "ὠφεληθεῖσα": [
+  {
+   "lemma": "ὠφελέω",
+   "grammar": "part sg aor pass fem nom",
+   "count": 1
+  }
+ ],
+ "ἐλθοῦσα": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part sg aor act fem nom",
+   "count": 2
+  }
+ ],
+ "ἀκούσασα": [
+  {
+   "lemma": "ἀκούω",
+   "grammar": "part sg aor act fem nom",
+   "count": 1
+  }
+ ],
+ "ἱματίου": [
+  {
+   "lemma": "ἱμάτιον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "ἅψωμαι": [
+  {
+   "lemma": "ἅπτω",
+   "grammar": "verb 1st sg aor subj mid",
+   "count": 1
+  }
+ ],
+ "ἱματίων": [
+  {
+   "lemma": "ἱμάτιον",
+   "grammar": "noun pl neut gen",
+   "count": 2
+  }
+ ],
+ "σωθήσομαι": [
+  {
+   "lemma": "σῴζω",
+   "grammar": "verb 1st sg fut ind pass",
+   "count": 1
+  }
+ ],
+ "πηγὴ": [
+  {
+   "lemma": "πηγή",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἴαται": [
+  {
+   "lemma": "ἰάομαι",
+   "grammar": "verb 3rd sg perf ind pass",
+   "count": 1
+  }
+ ],
+ "μάστιγος": [
+  {
+   "lemma": "μάστιξ",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐξελθοῦσαν": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part sg aor act fem acc",
+   "count": 1
+  }
+ ],
+ "ἐπιστραφεὶς": [
+  {
+   "lemma": "ἐπιστρέφω",
+   "grammar": "part sg aor pass masc nom",
+   "count": 2
+  }
+ ],
+ "μαθηταὶ": [
+  {
+   "lemma": "μαθητής",
+   "grammar": "noun pl masc nom",
+   "count": 5
+  }
+ ],
+ "βλέπεις": [
+  {
+   "lemma": "βλέπω",
+   "grammar": "verb 2nd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "συνθλίβοντά": [
+  {
+   "lemma": "συνθλίβω",
+   "grammar": "part sg pres act masc acc",
+   "count": 1
+  }
+ ],
+ "περιεβλέπετο": [
+  {
+   "lemma": "περιβλέπω",
+   "grammar": "verb 3rd sg imperf ind mid",
+   "count": 1
+  }
+ ],
+ "ποιήσασαν": [
+  {
+   "lemma": "ποιέω",
+   "grammar": "part sg aor act fem acc",
+   "count": 1
+  }
+ ],
+ "φοβηθεῖσα": [
+  {
+   "lemma": "φοβέω",
+   "grammar": "part sg aor pass fem nom",
+   "count": 1
+  }
+ ],
+ "τρέμουσα": [
+  {
+   "lemma": "τρέμω",
+   "grammar": "part sg pres act fem nom",
+   "count": 1
+  }
+ ],
+ "προσέπεσεν": [
+  {
+   "lemma": "προσπίπτω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "πίστις": [
+  {
+   "lemma": "πίστις",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "σέσωκέν": [
+  {
+   "lemma": "σῴζω",
+   "grammar": "verb 3rd sg perf ind act",
+   "count": 1
+  }
+ ],
+ "μάστιγός": [
+  {
+   "lemma": "μάστιξ",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "λαλοῦντος": [
+  {
+   "lemma": "λαλέω",
+   "grammar": "part sg pres act masc gen",
+   "count": 2
+  }
+ ],
+ "ἀρχισυναγώγου": [
+  {
+   "lemma": "ἀρχισυνάγωγος",
+   "grammar": "noun sg masc gen",
+   "count": 2
+  }
+ ],
+ "σκύλλεις": [
+  {
+   "lemma": "σκύλλω",
+   "grammar": "verb 2nd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "διδάσκαλον": [
+  {
+   "lemma": "διδάσκαλος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "παρακούσας": [
+  {
+   "lemma": "παρακούω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "λαλούμενον": [
+  {
+   "lemma": "λαλέω",
+   "grammar": "part sg pres pass masc acc",
+   "count": 1
+  }
+ ],
+ "ἀρχισυναγώγῳ": [
+  {
+   "lemma": "ἀρχισυνάγωγος",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "φοβοῦ": [
+  {
+   "lemma": "φοβέω",
+   "grammar": "verb 2nd sg pres imperat mid",
+   "count": 1
+  }
+ ],
+ "πίστευε": [
+  {
+   "lemma": "πιστεύω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 1
+  }
+ ],
+ "συνακολουθῆσαι": [
+  {
+   "lemma": "συνακολουθέω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "πέτρον": [
+  {
+   "lemma": "Πέτρος",
+   "grammar": "noun sg masc acc",
+   "count": 3
+  }
+ ],
+ "θεωρεῖ": [
+  {
+   "lemma": "θεωρέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "θόρυβον": [
+  {
+   "lemma": "θόρυβος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "κλαίοντας": [
+  {
+   "lemma": "κλαίω",
+   "grammar": "part pl pres act masc acc",
+   "count": 1
+  }
+ ],
+ "ἀλαλάζοντας": [
+  {
+   "lemma": "ἀλαλάζω",
+   "grammar": "part pl pres act masc acc",
+   "count": 1
+  }
+ ],
+ "θορυβεῖσθε": [
+  {
+   "lemma": "θορυβέω",
+   "grammar": "verb 2nd pl pres ind pass",
+   "count": 1
+  }
+ ],
+ "κλαίετε": [
+  {
+   "lemma": "κλαίω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "καθεύδει": [
+  {
+   "lemma": "καθεύδω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "κατεγέλων": [
+  {
+   "lemma": "καταγελάω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἐκβαλὼν": [
+  {
+   "lemma": "ἐκβάλλω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "παραλαμβάνει": [
+  {
+   "lemma": "παραλαμβάνω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 3
+  }
+ ],
+ "παιδίου": [
+  {
+   "lemma": "παιδίον",
+   "grammar": "noun sg neut gen",
+   "count": 2
+  }
+ ],
+ "εἰσπορεύεται": [
+  {
+   "lemma": "εἰσπορεύομαι",
+   "grammar": "verb 3rd sg pres ind mid",
+   "count": 1
+  }
+ ],
+ "χειρὸς": [
+  {
+   "lemma": "χείρ",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ταλιθὰ": [
+  {
+   "lemma": "ταλιθά",
+   "grammar": "irreg",
+   "count": 1
+  }
+ ],
+ "κούμ": [
+  {
+   "lemma": "κούμ",
+   "grammar": "irreg",
+   "count": 1
+  }
+ ],
+ "μεθερμηνευόμενον": [
+  {
+   "lemma": "μεθερμηνεύω",
+   "grammar": "part sg pres pass neut nom",
+   "count": 3
+  }
+ ],
+ "κοράσιον": [
+  {
+   "lemma": "κοράσιον",
+   "grammar": "noun sg neut voc",
+   "count": 1
+  },
+  {
+   "lemma": "κοράσιον",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "περιεπάτει": [
+  {
+   "lemma": "περιπατέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἐξέστησαν": [
+  {
+   "lemma": "ἐξίστημι",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐκστάσει": [
+  {
+   "lemma": "ἔκστασις",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "διεστείλατο": [
+  {
+   "lemma": "διαστέλλω",
+   "grammar": "verb 3rd sg aor ind mid",
+   "count": 2
+  }
+ ],
+ "γνοῖ": [
+  {
+   "lemma": "γιγνώσκω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "δοθῆναι": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb aor inf pass",
+   "count": 1
+  }
+ ],
+ "συνάγονται": [
+  {
+   "lemma": "συνάγω",
+   "grammar": "verb 3rd pl pres ind pass",
+   "count": 1
+  }
+ ],
+ "ἀπόστολοι": [
+  {
+   "lemma": "ἀπόστολος",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "ἐδίδαξαν": [
+  {
+   "lemma": "διδάσκω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἰδίαν": [
+  {
+   "lemma": "ἴδιος",
+   "grammar": "adj sg fem acc",
+   "count": 3
+  }
+ ],
+ "ἀναπαύσασθε": [
+  {
+   "lemma": "ἀναπαύω",
+   "grammar": "verb 2nd pl aor imperat mid",
+   "count": 1
+  }
+ ],
+ "ἐρχόμενοι": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "ὑπάγοντες": [
+  {
+   "lemma": "ὑπάγω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "εὐκαίρουν": [
+  {
+   "lemma": "εὐκαιρέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ὑπάγοντας": [
+  {
+   "lemma": "ὑπάγω",
+   "grammar": "part pl pres act masc acc",
+   "count": 1
+  }
+ ],
+ "ἐπέγνωσαν": [
+  {
+   "lemma": "ἐπιγιγνώσκω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "συνέδραμον": [
+  {
+   "lemma": "συντρέχω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "προῆλθον": [
+  {
+   "lemma": "προέρχομαι",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐσπλαγχνίσθη": [
+  {
+   "lemma": "σπλαγχνίζομαι",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "πρόβατα": [
+  {
+   "lemma": "πρόβατον",
+   "grammar": "noun pl neut nom",
+   "count": 1
+  }
+ ],
+ "ποιμένα": [
+  {
+   "lemma": "ποιμήν",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "προσελθόντες": [
+  {
+   "lemma": "προσέρχομαι",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἔρημός": [
+  {
+   "lemma": "ἔρημος",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "ὥρα": [
+  {
+   "lemma": "ὥρα",
+   "grammar": "noun sg fem nom",
+   "count": 4
+  }
+ ],
+ "πολλή": [
+  {
+   "lemma": "πολύς",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἀπόλυσον": [
+  {
+   "lemma": "ἀπολύω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "ἀπελθόντες": [
+  {
+   "lemma": "ἀπέρχομαι",
+   "grammar": "part pl aor act masc nom",
+   "count": 2
+  }
+ ],
+ "ἀγροὺς": [
+  {
+   "lemma": "ἀγρός",
+   "grammar": "noun pl masc acc",
+   "count": 3
+  }
+ ],
+ "ἀγοράσωσιν": [
+  {
+   "lemma": "ἀγοράζω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "φάγωσιν": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀποκριθεὶς": [
+  {
+   "lemma": "ἀποκρίνω",
+   "grammar": "part sg aor pass masc nom",
+   "count": 7
+  }
+ ],
+ "δότε": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "ἀγοράσωμεν": [
+  {
+   "lemma": "ἀγοράζω",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 1
+  }
+ ],
+ "δηναρίων": [
+  {
+   "lemma": "δηνάριον",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "διακοσίων": [
+  {
+   "lemma": "διακόσιοι",
+   "grammar": "num pl neut gen",
+   "count": 1
+  }
+ ],
+ "ἄρτους": [
+  {
+   "lemma": "ἄρτος",
+   "grammar": "noun pl masc acc",
+   "count": 5
+  }
+ ],
+ "δώσομεν": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 1st pl fut ind act",
+   "count": 1
+  }
+ ],
+ "πόσους": [
+  {
+   "lemma": "πόσος",
+   "grammar": "pron pl masc acc",
+   "count": 1
+  }
+ ],
+ "ὑπάγετε": [
+  {
+   "lemma": "ὑπάγω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 3
+  }
+ ],
+ "ἴδετε": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "γνόντες": [
+  {
+   "lemma": "γιγνώσκω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἰχθύας": [
+  {
+   "lemma": "ἰχθύς",
+   "grammar": "noun pl masc acc",
+   "count": 3
+  }
+ ],
+ "ἐπέταξεν": [
+  {
+   "lemma": "ἐπιτάσσω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἀνακλῖναι": [
+  {
+   "lemma": "ἀνακλίνω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "συμπόσια": [
+  {
+   "lemma": "συμπόσιον",
+   "grammar": "noun pl neut acc",
+   "count": 2
+  }
+ ],
+ "χλωρῷ": [
+  {
+   "lemma": "χλωρός",
+   "grammar": "adj sg masc dat",
+   "count": 1
+  }
+ ],
+ "χόρτῳ": [
+  {
+   "lemma": "χόρτος",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ἀνέπεσαν": [
+  {
+   "lemma": "ἀναπίπτω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "πρασιαὶ": [
+  {
+   "lemma": "πρασιά",
+   "grammar": "noun pl fem nom",
+   "count": 2
+  }
+ ],
+ "ἀναβλέψας": [
+  {
+   "lemma": "ἀναβλέπω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "εὐλόγησεν": [
+  {
+   "lemma": "εὐλογέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "κατέκλασεν": [
+  {
+   "lemma": "κατακλάω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "παρατιθῶσιν": [
+  {
+   "lemma": "παρατίθημι",
+   "grammar": "verb 3rd pl pres subj act",
+   "count": 1
+  }
+ ],
+ "ἐμέρισεν": [
+  {
+   "lemma": "μερίζω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἔφαγον": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐχορτάσθησαν": [
+  {
+   "lemma": "χορτάζω",
+   "grammar": "verb 3rd pl aor ind pass",
+   "count": 1
+  }
+ ],
+ "ἦραν": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "κλασμάτων": [
+  {
+   "lemma": "κλάσμα",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "κοφίνων": [
+  {
+   "lemma": "κόφινος",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "πληρώματα": [
+  {
+   "lemma": "πλήρωμα",
+   "grammar": "noun pl neut acc",
+   "count": 1
+  }
+ ],
+ "ἰχθύων": [
+  {
+   "lemma": "ἰχθύς",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "φαγόντες": [
+  {
+   "lemma": "ἐσθίω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "πεντακισχίλιοι": [
+  {
+   "lemma": "πεντακισχίλιοι",
+   "grammar": "num pl masc nom",
+   "count": 1
+  }
+ ],
+ "καισαρείας": [
+  {
+   "lemma": "Καισάρεια",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ὁδῷ": [
+  {
+   "lemma": "ὁδός",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "μαθητὰς": [
+  {
+   "lemma": "μαθητής",
+   "grammar": "noun pl masc acc",
+   "count": 2
+  }
+ ],
+ "εἶπαν": [
+  {
+   "lemma": "λέγω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 2
+  }
+ ],
+ "βαπτιστήν": [
+  {
+   "lemma": "βαπτιστής",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἡλείαν": [
+  {
+   "lemma": "Ἡλίας",
+   "grammar": "noun sg masc acc",
+   "count": 3
+  }
+ ],
+ "προφητῶν": [
+  {
+   "lemma": "προφήτης",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "πέτρος": [
+  {
+   "lemma": "Πέτρος",
+   "grammar": "noun sg masc nom",
+   "count": 4
+  }
+ ],
+ "χριστός": [
+  {
+   "lemma": "Χριστός",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "λέγωσιν": [
+  {
+   "lemma": "λέγω",
+   "grammar": "verb 3rd pl pres subj act",
+   "count": 1
+  }
+ ],
+ "ἀποδοκιμασθῆναι": [
+  {
+   "lemma": "ἀποδοκιμάζω",
+   "grammar": "verb aor inf pass",
+   "count": 1
+  }
+ ],
+ "ἀρχιερέων": [
+  {
+   "lemma": "ἀρχιερεύς",
+   "grammar": "noun pl masc gen",
+   "count": 2
+  }
+ ],
+ "ἀποκτανθῆναι": [
+  {
+   "lemma": "ἀποκτείνω",
+   "grammar": "verb aor inf pass",
+   "count": 1
+  }
+ ],
+ "ἀναστῆναι": [
+  {
+   "lemma": "ἀνίστημι",
+   "grammar": "verb aor inf act",
+   "count": 2
+  }
+ ],
+ "προσλαβόμενος": [
+  {
+   "lemma": "προσλαμβάνω",
+   "grammar": "part sg aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "ἐπιτιμᾶν": [
+  {
+   "lemma": "ἐπιτιμέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "πέτρῳ": [
+  {
+   "lemma": "Πέτρος",
+   "grammar": "noun sg masc dat",
+   "count": 3
+  }
+ ],
+ "φρονεῖς": [
+  {
+   "lemma": "φρονέω",
+   "grammar": "verb 2nd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "προσκαλεσάμενος": [
+  {
+   "lemma": "προσκαλέω",
+   "grammar": "part sg aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "θέλει": [
+  {
+   "lemma": "ἐθέλω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἀκολουθεῖν": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "ἀπαρνησάσθω": [
+  {
+   "lemma": "ἀπαρνέομαι",
+   "grammar": "verb 3rd sg aor imperat mid",
+   "count": 1
+  }
+ ],
+ "ἀράτω": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "verb 3rd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "σταυρὸν": [
+  {
+   "lemma": "σταυρός",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "ἀκολουθείτω": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 3rd sg pres imperat act",
+   "count": 1
+  }
+ ],
+ "θέλῃ": [
+  {
+   "lemma": "ἐθέλω",
+   "grammar": "verb 3rd sg pres subj act",
+   "count": 1
+  }
+ ],
+ "ἀπολέσει": [
+  {
+   "lemma": "ἀπόλλυμι",
+   "grammar": "verb 3rd sg fut ind act",
+   "count": 2
+  }
+ ],
+ "σώσει": [
+  {
+   "lemma": "σῴζω",
+   "grammar": "verb 3rd sg fut ind act",
+   "count": 1
+  }
+ ],
+ "ὠφελεῖ": [
+  {
+   "lemma": "ὠφελέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "κερδῆσαι": [
+  {
+   "lemma": "κερδαίνω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ζημιωθῆναι": [
+  {
+   "lemma": "ζημιόω",
+   "grammar": "verb aor inf pass",
+   "count": 1
+  }
+ ],
+ "δοῖ": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀντάλλαγμα": [
+  {
+   "lemma": "ἀντάλλαγμα",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἐπαισχυνθῇ": [
+  {
+   "lemma": "ἐπαισχύνομαι",
+   "grammar": "verb 3rd sg aor subj pass",
+   "count": 1
+  }
+ ],
+ "ἐμοὺς": [
+  {
+   "lemma": "ἐμός",
+   "grammar": "pron 1st pl masc acc",
+   "count": 1
+  }
+ ],
+ "γενεᾷ": [
+  {
+   "lemma": "γενεά",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "μοιχαλίδι": [
+  {
+   "lemma": "μοιχαλίς",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "ἁμαρτωλῷ": [
+  {
+   "lemma": "ἁμαρτωλός",
+   "grammar": "adj sg fem dat",
+   "count": 1
+  }
+ ],
+ "ἐπαισχυνθήσεται": [
+  {
+   "lemma": "ἐπαισχύνομαι",
+   "grammar": "verb 3rd sg fut ind pass",
+   "count": 1
+  }
+ ],
+ "ἔλθῃ": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἁγίων": [
+  {
+   "lemma": "ἅγιος",
+   "grammar": "adj pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἀναφέρει": [
+  {
+   "lemma": "ἀναφέρω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ὄρος": [
+  {
+   "lemma": "ὄρος#1",
+   "grammar": "noun sg neut acc",
+   "count": 2
+  }
+ ],
+ "ὑψηλὸν": [
+  {
+   "lemma": "ὑψηλός",
+   "grammar": "adj sg neut acc",
+   "count": 1
+  }
+ ],
+ "μετεμορφώθη": [
+  {
+   "lemma": "μεταμορφόω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "στίλβοντα": [
+  {
+   "lemma": "στίλβω",
+   "grammar": "part pl pres act neut nom",
+   "count": 1
+  }
+ ],
+ "γναφεὺς": [
+  {
+   "lemma": "γναφεύς",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "λευκᾶναι": [
+  {
+   "lemma": "λευκαίνω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἡλείας": [
+  {
+   "lemma": "Ἡλίας",
+   "grammar": "noun sg masc nom",
+   "count": 4
+  }
+ ],
+ "μωϋσεῖ": [
+  {
+   "lemma": "Μωϋσῆς",
+   "grammar": "noun sg masc dat",
+   "count": 2
+  }
+ ],
+ "συνλαλοῦντες": [
+  {
+   "lemma": "συλλαλέω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ῥαββεί": [
+  {
+   "lemma": "ῥαββί",
+   "grammar": "noun",
+   "count": 2
+  }
+ ],
+ "ποιήσωμεν": [
+  {
+   "lemma": "ποιέω",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 1
+  }
+ ],
+ "σκηνάς": [
+  {
+   "lemma": "σκηνή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "ἡλείᾳ": [
+  {
+   "lemma": "Ἡλίας",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ἀποκριθῇ": [
+  {
+   "lemma": "ἀποκρίνω",
+   "grammar": "verb 3rd sg aor subj pass",
+   "count": 1
+  }
+ ],
+ "ἔκφοβοι": [
+  {
+   "lemma": "ἔκφοβος",
+   "grammar": "adj pl masc nom",
+   "count": 1
+  }
+ ],
+ "νεφέλη": [
+  {
+   "lemma": "νεφέλη",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἐπισκιάζουσα": [
+  {
+   "lemma": "ἐπισκιάζω",
+   "grammar": "part sg pres act fem nom",
+   "count": 1
+  }
+ ],
+ "νεφέλης": [
+  {
+   "lemma": "νεφέλη",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐξάπινα": [
+  {
+   "lemma": "ἐξάπινα",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "περιβλεψάμενοι": [
+  {
+   "lemma": "περιβλέπω",
+   "grammar": "part pl aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "καταβαινόντων": [
+  {
+   "lemma": "καταβαίνω",
+   "grammar": "part pl pres act masc gen",
+   "count": 1
+  }
+ ],
+ "ὄρους": [
+  {
+   "lemma": "ὄρος#1",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "διηγήσωνται": [
+  {
+   "lemma": "διηγέομαι",
+   "grammar": "verb 3rd pl aor subj mid",
+   "count": 1
+  }
+ ],
+ "νεκρῶν": [
+  {
+   "lemma": "νεκρός",
+   "grammar": "adj pl masc gen",
+   "count": 2
+  }
+ ],
+ "ἀναστῇ": [
+  {
+   "lemma": "ἀνίστημι",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐκράτησαν": [
+  {
+   "lemma": "κρατέω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 2
+  }
+ ],
+ "συζητοῦντες": [
+  {
+   "lemma": "συζητέω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἐπηρώτων": [
+  {
+   "lemma": "ἐπερωτάω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "φαρισαῖοι": [
+  {
+   "lemma": "Φαρισαῖος",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "ἀποκαθιστάνει": [
+  {
+   "lemma": "ἀποκαθιστάνω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "πάθῃ": [
+  {
+   "lemma": "πάσχω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐξουθενωθῇ": [
+  {
+   "lemma": "ἐξουθενέω",
+   "grammar": "verb 3rd sg pres subj act",
+   "count": 1
+  }
+ ],
+ "ἐλήλυθεν": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 3rd sg perf ind act",
+   "count": 1
+  }
+ ],
+ "ἤθελον": [
+  {
+   "lemma": "ἐθέλω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "προσέφερον": [
+  {
+   "lemma": "προσφέρω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "παιδία": [
+  {
+   "lemma": "παιδίον",
+   "grammar": "noun pl neut acc",
+   "count": 2
+  }
+ ],
+ "ἐπετίμων": [
+  {
+   "lemma": "ἐπιτιμέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "προσφέρουσιν": [
+  {
+   "lemma": "προσφέρω",
+   "grammar": "part pl pres act masc dat",
+   "count": 1
+  }
+ ],
+ "ἠγανάκτησεν": [
+  {
+   "lemma": "ἀγανακτέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἄφετε": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 2
+  }
+ ],
+ "ἔρχεσθαι": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb pres inf mid",
+   "count": 1
+  }
+ ],
+ "κωλύετε": [
+  {
+   "lemma": "κωλύω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 1
+  }
+ ],
+ "ἀμὴν": [
+  {
+   "lemma": "ἀμήν",
+   "grammar": "interj",
+   "count": 2
+  }
+ ],
+ "δέξηται": [
+  {
+   "lemma": "δέχομαι",
+   "grammar": "verb 3rd sg aor subj mid",
+   "count": 1
+  }
+ ],
+ "εἰσέλθῃ": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐναγκαλισάμενος": [
+  {
+   "lemma": "ἐναγκαλίζομαι",
+   "grammar": "part sg aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "κατευλόγει": [
+  {
+   "lemma": "κατευλογέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἐκπορευομένου": [
+  {
+   "lemma": "ἐκπορεύομαι",
+   "grammar": "part sg pres mid masc gen",
+   "count": 1
+  }
+ ],
+ "προσδραμὼν": [
+  {
+   "lemma": "προστρέχω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "γονυπετήσας": [
+  {
+   "lemma": "γονυπετέω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀγαθέ": [
+  {
+   "lemma": "ἀγαθός",
+   "grammar": "adj sg masc voc",
+   "count": 1
+  }
+ ],
+ "ζωὴν": [
+  {
+   "lemma": "ζωή",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "αἰώνιον": [
+  {
+   "lemma": "αἰώνιος",
+   "grammar": "adj sg fem acc",
+   "count": 2
+  }
+ ],
+ "κληρονομήσω": [
+  {
+   "lemma": "κληρονομέω",
+   "grammar": "verb 1st sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐντολὰς": [
+  {
+   "lemma": "ἐντολή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "μοιχεύσῃς": [
+  {
+   "lemma": "μοιχεύω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "φονεύσῃς": [
+  {
+   "lemma": "φονεύω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "κλέψῃς": [
+  {
+   "lemma": "κλέπτω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ψευδομαρτυρήσῃς": [
+  {
+   "lemma": "ψευδομαρτυρέω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀποστερήσῃς": [
+  {
+   "lemma": "ἀποστερέω",
+   "grammar": "verb 2nd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "τίμα": [
+  {
+   "lemma": "τιμάω",
+   "grammar": "verb 2nd sg pres imperat act",
+   "count": 1
+  }
+ ],
+ "ἐφυλαξάμην": [
+  {
+   "lemma": "φυλάσσω",
+   "grammar": "verb 1st sg aor ind mid",
+   "count": 1
+  }
+ ],
+ "νεότητός": [
+  {
+   "lemma": "νεότης",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐμβλέψας": [
+  {
+   "lemma": "ἐμβλέπω",
+   "grammar": "part sg aor act masc nom",
+   "count": 2
+  }
+ ],
+ "ἠγάπησεν": [
+  {
+   "lemma": "ἀγαπάω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ὑστερεῖ": [
+  {
+   "lemma": "ὑστερέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "πώλησον": [
+  {
+   "lemma": "πωλέω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "δὸς": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "πτωχοῖς": [
+  {
+   "lemma": "πτωχός",
+   "grammar": "adj pl masc dat comp",
+   "count": 1
+  }
+ ],
+ "θησαυρὸν": [
+  {
+   "lemma": "θησαυρός",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "στυγνάσας": [
+  {
+   "lemma": "στυγνάζω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "περιβλεψάμενος": [
+  {
+   "lemma": "περιβλέπω",
+   "grammar": "part sg aor mid masc nom",
+   "count": 2
+  }
+ ],
+ "δυσκόλως": [
+  {
+   "lemma": "δυσκόλως",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "εἰσελεύσονται": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "verb 3rd pl fut ind mid",
+   "count": 1
+  }
+ ],
+ "ἐθαμβοῦντο": [
+  {
+   "lemma": "θαμβέω",
+   "grammar": "verb 3rd pl imperf ind pass",
+   "count": 1
+  }
+ ],
+ "δύσκολόν": [
+  {
+   "lemma": "δύσκολος",
+   "grammar": "adj sg neut nom",
+   "count": 1
+  }
+ ],
+ "εὐκοπώτερόν": [
+  {
+   "lemma": "εὔκοπος",
+   "grammar": "adj sg neut nom comp",
+   "count": 1
+  }
+ ],
+ "κάμηλον": [
+  {
+   "lemma": "κάμηλος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "τρυμαλιᾶς": [
+  {
+   "lemma": "τρυμαλιά",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "ῥαφίδος": [
+  {
+   "lemma": "ῥαφίς",
+   "grammar": "noun sg fem gen",
+   "count": 1
+  }
+ ],
+ "πλούσιον": [
+  {
+   "lemma": "πλούσιος",
+   "grammar": "adj sg masc acc",
+   "count": 1
+  }
+ ],
+ "περισσῶς": [
+  {
+   "lemma": "περισσῶς",
+   "grammar": "adv",
+   "count": 2
+  }
+ ],
+ "ἑαυτούς": [
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd pl masc acc",
+   "count": 1
+  }
+ ],
+ "δυνατὰ": [
+  {
+   "lemma": "δυνατός",
+   "grammar": "adj pl neut nom",
+   "count": 1
+  }
+ ],
+ "ἀφήκαμεν": [
+  {
+   "lemma": "ἀφίημι",
+   "grammar": "verb 1st pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἠκολουθήκαμέν": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "verb 1st pl perf ind act",
+   "count": 1
+  }
+ ],
+ "ἀδελφοὺς": [
+  {
+   "lemma": "ἀδελφός",
+   "grammar": "noun pl masc acc",
+   "count": 2
+  }
+ ],
+ "ἀδελφὰς": [
+  {
+   "lemma": "ἀδελφή",
+   "grammar": "noun pl fem acc",
+   "count": 2
+  }
+ ],
+ "ἑκατονταπλασίονα": [
+  {
+   "lemma": "ἑκατονταπλασίων",
+   "grammar": "adj pl neut acc",
+   "count": 1
+  }
+ ],
+ "καιρῷ": [
+  {
+   "lemma": "καιρός",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "οἰκίας": [
+  {
+   "lemma": "οἰκία",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "μητέρας": [
+  {
+   "lemma": "μήτηρ",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "διωγμῶν": [
+  {
+   "lemma": "διωγμός",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "ἐρχομένῳ": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part sg pres mid masc dat",
+   "count": 1
+  }
+ ],
+ "πρῶτοι": [
+  {
+   "lemma": "πρῶτος",
+   "grammar": "num pl masc nom",
+   "count": 2
+  }
+ ],
+ "ἐγγίζουσιν": [
+  {
+   "lemma": "ἐγγίζω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἱεροσόλυμα": [
+  {
+   "lemma": "Ἱεροσόλυμα",
+   "grammar": "noun pl neut acc",
+   "count": 2
+  }
+ ],
+ "βηθανίαν": [
+  {
+   "lemma": "Βηθανία",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "ἐλαιῶν": [
+  {
+   "lemma": "ἐλαία",
+   "grammar": "noun pl fem gen",
+   "count": 1
+  }
+ ],
+ "ἀποστέλλει": [
+  {
+   "lemma": "ἀποστέλλω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 2
+  }
+ ],
+ "μαθητῶν": [
+  {
+   "lemma": "μαθητής",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "κώμην": [
+  {
+   "lemma": "κώμη",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "κατέναντι": [
+  {
+   "lemma": "κατέναντι",
+   "grammar": "prep",
+   "count": 1
+  }
+ ],
+ "εἰσπορευόμενοι": [
+  {
+   "lemma": "εἰσπορεύομαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "πῶλον": [
+  {
+   "lemma": "πῶλος",
+   "grammar": "noun sg masc acc",
+   "count": 4
+  }
+ ],
+ "κεκάθικεν": [
+  {
+   "lemma": "καθίζω",
+   "grammar": "verb 3rd sg perf ind act",
+   "count": 1
+  }
+ ],
+ "λύσατε": [
+  {
+   "lemma": "λύω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "φέρετε": [
+  {
+   "lemma": "φέρω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 1
+  }
+ ],
+ "εἴπατε": [
+  {
+   "lemma": "λέγω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 2
+  }
+ ],
+ "κύριος": [
+  {
+   "lemma": "κύριος",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἀμφόδου": [
+  {
+   "lemma": "ἄμφοδον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "λύουσιν": [
+  {
+   "lemma": "λύω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἑστηκότων": [
+  {
+   "lemma": "ἵστημι",
+   "grammar": "part pl perf act masc gen",
+   "count": 1
+  }
+ ],
+ "λύοντες": [
+  {
+   "lemma": "λύω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "φέρουσιν": [
+  {
+   "lemma": "φέρω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 2
+  }
+ ],
+ "ἐπιβάλλουσιν": [
+  {
+   "lemma": "ἐπιβάλλω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἐκάθισεν": [
+  {
+   "lemma": "καθίζω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἔστρωσαν": [
+  {
+   "lemma": "στρωννύω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "στιβάδας": [
+  {
+   "lemma": "στιβάς",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "κόψαντες": [
+  {
+   "lemma": "κόπτω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀγρῶν": [
+  {
+   "lemma": "ἀγρός",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "προάγοντες": [
+  {
+   "lemma": "προάγω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀκολουθοῦντες": [
+  {
+   "lemma": "ἀκολουθέω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἔκραζον": [
+  {
+   "lemma": "κράζω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ὡσαννά": [
+  {
+   "lemma": "ὡσαννά",
+   "grammar": "interj",
+   "count": 1
+  }
+ ],
+ "εὐλογημένος": [
+  {
+   "lemma": "εὐλογέω",
+   "grammar": "part sg perf pass masc nom",
+   "count": 1
+  }
+ ],
+ "ἐρχόμενος": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part sg pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "εὐλογημένη": [
+  {
+   "lemma": "εὐλογέω",
+   "grammar": "part sg perf pass fem nom",
+   "count": 1
+  }
+ ],
+ "ἐρχομένη": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part sg pres mid fem nom",
+   "count": 1
+  }
+ ],
+ "δαυείδ": [
+  {
+   "lemma": "Δαυίδ",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "ὡσαννὰ": [
+  {
+   "lemma": "ὡσαννά",
+   "grammar": "interj",
+   "count": 1
+  }
+ ],
+ "ὑψίστοις": [
+  {
+   "lemma": "ὕψιστος",
+   "grammar": "adj pl neut dat superl",
+   "count": 1
+  }
+ ],
+ "εἰσῆλθεν": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἱερόν": [
+  {
+   "lemma": "ἱερόν",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "χωρίον": [
+  {
+   "lemma": "χωρίον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "γεθσημανεί": [
+  {
+   "lemma": "Γεθσημανί",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "καθίσατε": [
+  {
+   "lemma": "καθίζω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "προσεύξωμαι": [
+  {
+   "lemma": "προσεύχομαι",
+   "grammar": "verb 1st sg aor subj mid",
+   "count": 1
+  }
+ ],
+ "ἐκθαμβεῖσθαι": [
+  {
+   "lemma": "ἐκθαμβέω",
+   "grammar": "verb pres inf pass",
+   "count": 1
+  }
+ ],
+ "ἀδημονεῖν": [
+  {
+   "lemma": "ἀδημονέω",
+   "grammar": "verb pres inf act",
+   "count": 1
+  }
+ ],
+ "περίλυπός": [
+  {
+   "lemma": "περίλυπος",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "μείνατε": [
+  {
+   "lemma": "μένω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "γρηγορεῖτε": [
+  {
+   "lemma": "γρηγορέω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 2
+  }
+ ],
+ "προελθὼν": [
+  {
+   "lemma": "προέρχομαι",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἔπιπτεν": [
+  {
+   "lemma": "πίπτω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "παρέλθῃ": [
+  {
+   "lemma": "παρέρχομαι",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἀββᾶ": [
+  {
+   "lemma": "ἀββά",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "δυνατά": [
+  {
+   "lemma": "δυνατός",
+   "grammar": "adj pl neut nom",
+   "count": 1
+  }
+ ],
+ "παρένεγκε": [
+  {
+   "lemma": "παραφέρω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "ποτήριον": [
+  {
+   "lemma": "ποτήριον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "εὑρίσκει": [
+  {
+   "lemma": "εὑρίσκω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ἴσχυσας": [
+  {
+   "lemma": "ἰσχύω",
+   "grammar": "verb 2nd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "γρηγορῆσαι": [
+  {
+   "lemma": "γρηγορέω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "προσεύχεσθε": [
+  {
+   "lemma": "προσεύχομαι",
+   "grammar": "verb 2nd pl pres imperat mid",
+   "count": 1
+  }
+ ],
+ "ἔλθητε": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "verb 2nd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "πειρασμόν": [
+  {
+   "lemma": "πειρασμός",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "πρόθυμον": [
+  {
+   "lemma": "πρόθυμος",
+   "grammar": "adj sg neut nom",
+   "count": 1
+  }
+ ],
+ "σὰρξ": [
+  {
+   "lemma": "σάρξ",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἀσθενής": [
+  {
+   "lemma": "ἀσθενής",
+   "grammar": "adj sg fem nom",
+   "count": 1
+  }
+ ],
+ "προσηύξατο": [
+  {
+   "lemma": "προσεύχομαι",
+   "grammar": "verb 3rd sg aor ind mid",
+   "count": 1
+  }
+ ],
+ "ὑποστρέψας": [
+  {
+   "lemma": "ὑποστρέφω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "εὗρεν": [
+  {
+   "lemma": "εὑρίσκω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ὀφθαλμοὶ": [
+  {
+   "lemma": "ὀφθαλμός",
+   "grammar": "noun pl masc nom",
+   "count": 1
+  }
+ ],
+ "καταβαρυνόμενοι": [
+  {
+   "lemma": "καταβαρέω",
+   "grammar": "part pl pres pass masc nom",
+   "count": 1
+  }
+ ],
+ "ἀποκριθῶσιν": [
+  {
+   "lemma": "ἀποκρίνω",
+   "grammar": "verb 3rd pl aor subj pass",
+   "count": 1
+  }
+ ],
+ "καθεύδετε": [
+  {
+   "lemma": "καθεύδω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ἀναπαύεσθε": [
+  {
+   "lemma": "ἀναπαύω",
+   "grammar": "verb 2nd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "ἀπέχει": [
+  {
+   "lemma": "ἀπέχω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "παραδίδοται": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "verb 3rd sg pres ind pass",
+   "count": 1
+  }
+ ],
+ "ἐγείρεσθε": [
+  {
+   "lemma": "ἐγείρω",
+   "grammar": "verb 2nd pl pres imperat mid",
+   "count": 1
+  }
+ ],
+ "παραδιδούς": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ἤγγισεν": [
+  {
+   "lemma": "ἐγγίζω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἰούδας": [
+  {
+   "lemma": "Ἰούδας",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἰσκαριώτης": [
+  {
+   "lemma": "Ἰσκαριώθ",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "μαχαιρῶν": [
+  {
+   "lemma": "μάχαιρα",
+   "grammar": "noun pl fem gen",
+   "count": 2
+  }
+ ],
+ "δεδώκει": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 3rd sg plup ind act",
+   "count": 1
+  }
+ ],
+ "παραδιδοὺς": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "σύνσημον": [
+  {
+   "lemma": "σύσσημον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "φιλήσω": [
+  {
+   "lemma": "φιλέω",
+   "grammar": "verb 1st sg aor subj act",
+   "count": 1
+  }
+ ],
+ "κρατήσατε": [
+  {
+   "lemma": "κρατέω",
+   "grammar": "verb 2nd pl aor imperat act",
+   "count": 1
+  }
+ ],
+ "ἀπάγετε": [
+  {
+   "lemma": "ἀπάγω",
+   "grammar": "verb 2nd pl pres imperat act",
+   "count": 1
+  }
+ ],
+ "κατεφίλησεν": [
+  {
+   "lemma": "καταφιλέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐπέβαλον": [
+  {
+   "lemma": "ἐπιβάλλω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "παρεστηκότων": [
+  {
+   "lemma": "παρίστημι",
+   "grammar": "part pl perf act masc gen",
+   "count": 1
+  }
+ ],
+ "σπασάμενος": [
+  {
+   "lemma": "σπάω",
+   "grammar": "part sg aor mid masc nom",
+   "count": 1
+  }
+ ],
+ "μάχαιραν": [
+  {
+   "lemma": "μάχαιρα",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἔπαισεν": [
+  {
+   "lemma": "παίω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "δοῦλον": [
+  {
+   "lemma": "δοῦλος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἀρχιερέως": [
+  {
+   "lemma": "ἀρχιερεύς",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ἀφεῖλεν": [
+  {
+   "lemma": "ἀφαιρέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ὠτάριον": [
+  {
+   "lemma": "ὠτίον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "λῃστὴν": [
+  {
+   "lemma": "λῃστής",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἐξήλθατε": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "verb 2nd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "συλλαβεῖν": [
+  {
+   "lemma": "συλλαμβάνω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἤμην": [
+  {
+   "lemma": "εἰμί#1",
+   "grammar": "verb 1st sg imperf ind mid",
+   "count": 1
+  }
+ ],
+ "ἱερῷ": [
+  {
+   "lemma": "ἱερόν",
+   "grammar": "noun sg neut dat",
+   "count": 1
+  }
+ ],
+ "ἐκρατήσατέ": [
+  {
+   "lemma": "κρατέω",
+   "grammar": "verb 2nd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "πληρωθῶσιν": [
+  {
+   "lemma": "πληρόω",
+   "grammar": "verb 3rd pl aor subj pass",
+   "count": 1
+  }
+ ],
+ "γραφαί": [
+  {
+   "lemma": "γραφή",
+   "grammar": "noun pl fem nom",
+   "count": 1
+  }
+ ],
+ "νεανίσκος": [
+  {
+   "lemma": "νεανίσκος",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "συνηκολούθει": [
+  {
+   "lemma": "συνακολουθέω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "περιβεβλημένος": [
+  {
+   "lemma": "περιβάλλω",
+   "grammar": "part sg perf pass masc nom",
+   "count": 1
+  }
+ ],
+ "σινδόνα": [
+  {
+   "lemma": "σινδών",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "γυμνοῦ": [
+  {
+   "lemma": "γυμνός",
+   "grammar": "adj sg neut gen",
+   "count": 1
+  }
+ ],
+ "κρατοῦσιν": [
+  {
+   "lemma": "κρατέω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "γυμνὸς": [
+  {
+   "lemma": "γυμνός",
+   "grammar": "adj sg masc nom",
+   "count": 1
+  }
+ ],
+ "συμβούλιον": [
+  {
+   "lemma": "συμβούλιον",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἑτοιμάσαντες": [
+  {
+   "lemma": "ἑτοιμάζω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀρχιερεῖς": [
+  {
+   "lemma": "ἀρχιερεύς",
+   "grammar": "noun pl masc nom",
+   "count": 5
+  }
+ ],
+ "συνέδριον": [
+  {
+   "lemma": "συνέδριον",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "δήσαντες": [
+  {
+   "lemma": "δέω#1",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀπήνεγκαν": [
+  {
+   "lemma": "ἀποφέρω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "παρέδωκαν": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "πειλάτῳ": [
+  {
+   "lemma": "Πιλᾶτος",
+   "grammar": "noun sg masc dat",
+   "count": 1
+  }
+ ],
+ "ἐπηρώτησεν": [
+  {
+   "lemma": "ἐπερωτάω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "πειλᾶτος": [
+  {
+   "lemma": "Πιλᾶτος",
+   "grammar": "noun sg masc nom",
+   "count": 6
+  }
+ ],
+ "ἰουδαίων": [
+  {
+   "lemma": "Ἰουδαῖος",
+   "grammar": "adj pl masc gen",
+   "count": 5
+  }
+ ],
+ "πόσα": [
+  {
+   "lemma": "πόσος",
+   "grammar": "pron pl neut acc",
+   "count": 1
+  }
+ ],
+ "ἀπεκρίθη": [
+  {
+   "lemma": "ἀποκρίνω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 2
+  }
+ ],
+ "πειλᾶτον": [
+  {
+   "lemma": "Πιλᾶτος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἑορτὴν": [
+  {
+   "lemma": "ἑορτή",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἀπέλυεν": [
+  {
+   "lemma": "ἀπολύω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "δέσμιον": [
+  {
+   "lemma": "δέσμιος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "παρῃτοῦντο": [
+  {
+   "lemma": "παραιτέομαι",
+   "grammar": "verb 3rd pl imperf ind mid",
+   "count": 1
+  }
+ ],
+ "λεγόμενος": [
+  {
+   "lemma": "λέγω",
+   "grammar": "part sg pres pass masc nom",
+   "count": 1
+  }
+ ],
+ "βαραββᾶς": [
+  {
+   "lemma": "Βαραββᾶς",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "στασιαστῶν": [
+  {
+   "lemma": "στασιαστής",
+   "grammar": "noun pl masc gen",
+   "count": 1
+  }
+ ],
+ "δεδεμένος": [
+  {
+   "lemma": "δέω#1",
+   "grammar": "part sg perf pass masc nom",
+   "count": 1
+  }
+ ],
+ "στάσει": [
+  {
+   "lemma": "στάσις",
+   "grammar": "noun sg fem dat",
+   "count": 1
+  }
+ ],
+ "φόνον": [
+  {
+   "lemma": "φόνος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "πεποιήκεισαν": [
+  {
+   "lemma": "ποιέω",
+   "grammar": "verb 3rd pl plup ind act",
+   "count": 1
+  }
+ ],
+ "αἰτεῖσθαι": [
+  {
+   "lemma": "αἰτέω",
+   "grammar": "verb pres inf mid",
+   "count": 1
+  }
+ ],
+ "θέλετε": [
+  {
+   "lemma": "ἐθέλω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 2
+  }
+ ],
+ "ἀπολύσω": [
+  {
+   "lemma": "ἀπολύω",
+   "grammar": "verb 1st sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἐγίνωσκεν": [
+  {
+   "lemma": "γιγνώσκω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "παραδεδώκεισαν": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "verb 3rd pl plup ind act",
+   "count": 1
+  }
+ ],
+ "ἀνέσεισαν": [
+  {
+   "lemma": "ἀνασείω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "βαραββᾶν": [
+  {
+   "lemma": "Βαραββᾶς",
+   "grammar": "noun sg masc acc",
+   "count": 2
+  }
+ ],
+ "ἀπολύσῃ": [
+  {
+   "lemma": "ἀπολύω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 1
+  }
+ ],
+ "ἔκραξαν": [
+  {
+   "lemma": "κράζω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 2
+  }
+ ],
+ "σταύρωσον": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 2
+  }
+ ],
+ "ἱκανὸν": [
+  {
+   "lemma": "ἱκανός",
+   "grammar": "adj sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἀπέλυσεν": [
+  {
+   "lemma": "ἀπολύω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "παρέδωκεν": [
+  {
+   "lemma": "παραδίδωμι",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "φραγελλώσας": [
+  {
+   "lemma": "φραγελλόω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "σταυρωθῇ": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "verb 3rd sg aor subj pass",
+   "count": 1
+  }
+ ],
+ "ἀπήγαγον": [
+  {
+   "lemma": "ἀπάγω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "πραιτώριον": [
+  {
+   "lemma": "πραιτώριον",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "συνκαλοῦσιν": [
+  {
+   "lemma": "συγκαλέω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "σπεῖραν": [
+  {
+   "lemma": "σπεῖρα",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐνδιδύσκουσιν": [
+  {
+   "lemma": "ἐνδιδύσκω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "πορφύραν": [
+  {
+   "lemma": "πορφύρα",
+   "grammar": "noun sg fem acc",
+   "count": 2
+  }
+ ],
+ "περιτιθέασιν": [
+  {
+   "lemma": "περιτίθημι",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "πλέξαντες": [
+  {
+   "lemma": "πλέκω",
+   "grammar": "part pl aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἀκάνθινον": [
+  {
+   "lemma": "ἀκάνθινος",
+   "grammar": "adj sg masc acc",
+   "count": 1
+  }
+ ],
+ "στέφανον": [
+  {
+   "lemma": "στέφανος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἀσπάζεσθαι": [
+  {
+   "lemma": "ἀσπάζομαι",
+   "grammar": "verb pres inf mid",
+   "count": 1
+  }
+ ],
+ "βασιλεῦ": [
+  {
+   "lemma": "βασιλεύς",
+   "grammar": "noun sg masc voc",
+   "count": 1
+  }
+ ],
+ "ἔτυπτον": [
+  {
+   "lemma": "τύπτω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "καλάμῳ": [
+  {
+   "lemma": "κάλαμος",
+   "grammar": "noun sg masc dat",
+   "count": 2
+  }
+ ],
+ "ἐνέπτυον": [
+  {
+   "lemma": "ἐμπτύω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "τιθέντες": [
+  {
+   "lemma": "τίθημι",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "γόνατα": [
+  {
+   "lemma": "γόνυ",
+   "grammar": "noun pl neut acc",
+   "count": 1
+  }
+ ],
+ "προσεκύνουν": [
+  {
+   "lemma": "προσκυνέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἐνέπαιξαν": [
+  {
+   "lemma": "ἐμπαίζω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐξέδυσαν": [
+  {
+   "lemma": "ἐκδύω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐνέδυσαν": [
+  {
+   "lemma": "ἐνδύω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐξάγουσιν": [
+  {
+   "lemma": "ἐξάγω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "σταυρώσουσιν": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "verb 3rd pl fut ind act",
+   "count": 1
+  }
+ ],
+ "ἀγγαρεύουσιν": [
+  {
+   "lemma": "ἀγγαρεύω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "παράγοντά": [
+  {
+   "lemma": "παράγω",
+   "grammar": "part sg pres act masc acc",
+   "count": 1
+  }
+ ],
+ "κυρηναῖον": [
+  {
+   "lemma": "Κυρηναῖος",
+   "grammar": "adj sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἐρχόμενον": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part sg pres mid masc acc",
+   "count": 1
+  }
+ ],
+ "ἀλεξάνδρου": [
+  {
+   "lemma": "Ἀλέξανδρος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ῥούφου": [
+  {
+   "lemma": "Ῥοῦφος",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ἄρῃ": [
+  {
+   "lemma": "ἀείρω",
+   "grammar": "verb 3rd sg aor subj act",
+   "count": 2
+  }
+ ],
+ "γολγοθᾶν": [
+  {
+   "lemma": "Γολγοθᾶ",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "κρανίου": [
+  {
+   "lemma": "κρανίον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "ἐδίδουν": [
+  {
+   "lemma": "δίδωμι",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἐσμυρνισμένον": [
+  {
+   "lemma": "σμυρνίζω",
+   "grammar": "part sg perf pass masc acc",
+   "count": 1
+  }
+ ],
+ "σταυροῦσιν": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "verb 3rd pl pres ind act",
+   "count": 2
+  }
+ ],
+ "διαμερίζονται": [
+  {
+   "lemma": "διαμερίζω",
+   "grammar": "verb 3rd pl pres ind mid",
+   "count": 1
+  }
+ ],
+ "βάλλοντες": [
+  {
+   "lemma": "βάλλω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "κλῆρον": [
+  {
+   "lemma": "κλῆρος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἐσταύρωσαν": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἐπιγραφὴ": [
+  {
+   "lemma": "ἐπιγραφή",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἐπιγεγραμμένη": [
+  {
+   "lemma": "ἐπιγράφω",
+   "grammar": "part sg perf pass fem nom",
+   "count": 1
+  }
+ ],
+ "λῃστάς": [
+  {
+   "lemma": "λῃστής",
+   "grammar": "noun pl masc acc",
+   "count": 1
+  }
+ ],
+ "δεξιῶν": [
+  {
+   "lemma": "δεξιός",
+   "grammar": "adj pl neut gen",
+   "count": 1
+  }
+ ],
+ "εὐωνύμων": [
+  {
+   "lemma": "εὐώνυμος",
+   "grammar": "adj pl neut gen",
+   "count": 1
+  }
+ ],
+ "παραπορευόμενοι": [
+  {
+   "lemma": "παραπορεύομαι",
+   "grammar": "part pl pres mid masc nom",
+   "count": 1
+  }
+ ],
+ "ἐβλασφήμουν": [
+  {
+   "lemma": "βλασφημέω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "κεφαλὰς": [
+  {
+   "lemma": "κεφαλή",
+   "grammar": "noun pl fem acc",
+   "count": 1
+  }
+ ],
+ "οὐὰ": [
+  {
+   "lemma": "οὐά",
+   "grammar": "interj",
+   "count": 1
+  }
+ ],
+ "καταλύων": [
+  {
+   "lemma": "καταλύω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "ναὸν": [
+  {
+   "lemma": "ναός",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "οἰκοδομῶν": [
+  {
+   "lemma": "οἰκοδομέω",
+   "grammar": "part sg pres act masc nom",
+   "count": 1
+  }
+ ],
+ "τρισὶν": [
+  {
+   "lemma": "τρεῖς",
+   "grammar": "num pl fem dat",
+   "count": 1
+  }
+ ],
+ "σῶσον": [
+  {
+   "lemma": "σῴζω",
+   "grammar": "verb 2nd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "καταβὰς": [
+  {
+   "lemma": "καταβαίνω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "σταυροῦ": [
+  {
+   "lemma": "σταυρός",
+   "grammar": "noun sg masc gen",
+   "count": 2
+  }
+ ],
+ "ἐμπαίζοντες": [
+  {
+   "lemma": "ἐμπαίζω",
+   "grammar": "part pl pres act masc nom",
+   "count": 1
+  }
+ ],
+ "χριστὸς": [
+  {
+   "lemma": "Χριστός",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἰσραὴλ": [
+  {
+   "lemma": "Ἰσραήλ",
+   "grammar": "noun",
+   "count": 1
+  }
+ ],
+ "καταβάτω": [
+  {
+   "lemma": "καταβαίνω",
+   "grammar": "verb 3rd sg aor imperat act",
+   "count": 1
+  }
+ ],
+ "ἴδωμεν": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 2
+  }
+ ],
+ "πιστεύσωμεν": [
+  {
+   "lemma": "πιστεύω",
+   "grammar": "verb 1st pl aor subj act",
+   "count": 1
+  }
+ ],
+ "συνεσταυρωμένοι": [
+  {
+   "lemma": "συσταυρόω",
+   "grammar": "part pl perf pass masc nom",
+   "count": 1
+  }
+ ],
+ "ὠνείδιζον": [
+  {
+   "lemma": "ὀνειδίζω",
+   "grammar": "verb 3rd pl imperf ind act",
+   "count": 1
+  }
+ ],
+ "ἕκτης": [
+  {
+   "lemma": "ἕκτος",
+   "grammar": "num sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐνάτης": [
+  {
+   "lemma": "ἔνατος",
+   "grammar": "num sg fem gen",
+   "count": 1
+  }
+ ],
+ "ἐνάτῃ": [
+  {
+   "lemma": "ἔνατος",
+   "grammar": "num sg fem dat",
+   "count": 1
+  }
+ ],
+ "ἐβόησεν": [
+  {
+   "lemma": "βοάω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "ἑλωῒ": [
+  {
+   "lemma": "ἑλωΐ",
+   "grammar": "irreg",
+   "count": 2
+  }
+ ],
+ "λεμὰ": [
+  {
+   "lemma": "λεμά",
+   "grammar": "irreg",
+   "count": 1
+  }
+ ],
+ "σαβαχθανεί": [
+  {
+   "lemma": "σαβαχθάνι",
+   "grammar": "irreg",
+   "count": 1
+  }
+ ],
+ "ἐγκατέλιπές": [
+  {
+   "lemma": "ἐγκαταλείπω",
+   "grammar": "verb 2nd sg aor ind act",
+   "count": 1
+  }
+ ],
+ "παρεστώτων": [
+  {
+   "lemma": "παρίστημι",
+   "grammar": "part pl perf act masc gen",
+   "count": 1
+  }
+ ],
+ "φωνεῖ": [
+  {
+   "lemma": "φωνέω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "δραμὼν": [
+  {
+   "lemma": "τρέχω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "γεμίσας": [
+  {
+   "lemma": "γεμίζω",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "σπόγγον": [
+  {
+   "lemma": "σπόγγος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ὄξους": [
+  {
+   "lemma": "ὄξος",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "περιθεὶς": [
+  {
+   "lemma": "περιτίθημι",
+   "grammar": "part sg aor act masc nom",
+   "count": 1
+  }
+ ],
+ "ἐπότιζεν": [
+  {
+   "lemma": "ποτίζω",
+   "grammar": "verb 3rd sg imperf ind act",
+   "count": 1
+  }
+ ],
+ "καθελεῖν": [
+  {
+   "lemma": "καθαιρέω",
+   "grammar": "verb aor inf act",
+   "count": 1
+  }
+ ],
+ "ἐξέπνευσεν": [
+  {
+   "lemma": "ἐκπνέω",
+   "grammar": "verb 3rd sg aor ind act",
+   "count": 2
+  }
+ ],
+ "καταπέτασμα": [
+  {
+   "lemma": "καταπέτασμα",
+   "grammar": "noun sg neut nom",
+   "count": 1
+  }
+ ],
+ "ναοῦ": [
+  {
+   "lemma": "ναός",
+   "grammar": "noun sg masc gen",
+   "count": 1
+  }
+ ],
+ "ἐσχίσθη": [
+  {
+   "lemma": "σχίζω",
+   "grammar": "verb 3rd sg aor ind pass",
+   "count": 1
+  }
+ ],
+ "ἄνωθεν": [
+  {
+   "lemma": "ἄνωθεν",
+   "grammar": "adv",
+   "count": 1
+  }
+ ],
+ "κεντυρίων": [
+  {
+   "lemma": "κεντυρίων",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "παρεστηκὼς": [
+  {
+   "lemma": "παρίστημι",
+   "grammar": "part sg perf act masc nom",
+   "count": 1
+  }
+ ],
+ "ἐναντίας": [
+  {
+   "lemma": "ἐναντίος",
+   "grammar": "adj sg fem gen",
+   "count": 1
+  }
+ ],
+ "διαγενομένου": [
+  {
+   "lemma": "διαγίγνομαι",
+   "grammar": "part sg aor mid neut gen",
+   "count": 1
+  }
+ ],
+ "σαββάτου": [
+  {
+   "lemma": "σάββατον",
+   "grammar": "noun sg neut gen",
+   "count": 1
+  }
+ ],
+ "μαρία": [
+  {
+   "lemma": "Μαρία",
+   "grammar": "noun sg fem nom",
+   "count": 2
+  }
+ ],
+ "μαγδαληνὴ": [
+  {
+   "lemma": "Μαγδαληνή",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "σαλώμη": [
+  {
+   "lemma": "Σαλώμη",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἠγόρασαν": [
+  {
+   "lemma": "ἀγοράζω",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "ἀρώματα": [
+  {
+   "lemma": "ἄρωμα",
+   "grammar": "noun pl neut acc",
+   "count": 1
+  }
+ ],
+ "ἐλθοῦσαι": [
+  {
+   "lemma": "ἔρχομαι",
+   "grammar": "part pl aor act fem nom",
+   "count": 1
+  }
+ ],
+ "ἀλείψωσιν": [
+  {
+   "lemma": "ἀλείφω",
+   "grammar": "verb 3rd pl aor subj act",
+   "count": 1
+  }
+ ],
+ "σαββάτων": [
+  {
+   "lemma": "σάββατον",
+   "grammar": "noun pl neut gen",
+   "count": 1
+  }
+ ],
+ "μνῆμα": [
+  {
+   "lemma": "μνῆμα",
+   "grammar": "noun sg neut acc",
+   "count": 1
+  }
+ ],
+ "ἀνατείλαντος": [
+  {
+   "lemma": "ἀνατέλλω",
+   "grammar": "part sg aor act masc gen",
+   "count": 1
+  }
+ ],
+ "ἑαυτάς": [
+  {
+   "lemma": "ἑαυτοῦ",
+   "grammar": "pron 3rd pl fem acc",
+   "count": 1
+  }
+ ],
+ "ἀποκυλίσει": [
+  {
+   "lemma": "ἀποκυλίω",
+   "grammar": "verb 3rd sg fut ind act",
+   "count": 1
+  }
+ ],
+ "μνημείου": [
+  {
+   "lemma": "μνημεῖον",
+   "grammar": "noun sg neut gen",
+   "count": 2
+  }
+ ],
+ "ἀναβλέψασαι": [
+  {
+   "lemma": "ἀναβλέπω",
+   "grammar": "part pl aor act fem nom",
+   "count": 1
+  }
+ ],
+ "ἀνακεκύλισται": [
+  {
+   "lemma": "ἀνακυλίω",
+   "grammar": "verb 3rd sg perf ind pass",
+   "count": 1
+  }
+ ],
+ "εἰσελθοῦσαι": [
+  {
+   "lemma": "εἰσέρχομαι",
+   "grammar": "part pl aor act fem nom",
+   "count": 1
+  }
+ ],
+ "νεανίσκον": [
+  {
+   "lemma": "νεανίσκος",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "δεξιοῖς": [
+  {
+   "lemma": "δεξιός",
+   "grammar": "adj pl neut dat",
+   "count": 1
+  }
+ ],
+ "περιβεβλημένον": [
+  {
+   "lemma": "περιβάλλω",
+   "grammar": "part sg perf pass masc acc",
+   "count": 1
+  }
+ ],
+ "στολὴν": [
+  {
+   "lemma": "στολή",
+   "grammar": "noun sg fem acc",
+   "count": 1
+  }
+ ],
+ "λευκήν": [
+  {
+   "lemma": "λευκός",
+   "grammar": "adj sg fem acc",
+   "count": 1
+  }
+ ],
+ "ἐξεθαμβήθησαν": [
+  {
+   "lemma": "ἐκθαμβέω",
+   "grammar": "verb 3rd pl aor ind pass",
+   "count": 1
+  }
+ ],
+ "ἐκθαμβεῖσθε": [
+  {
+   "lemma": "ἐκθαμβέω",
+   "grammar": "verb 2nd pl pres imperat pass",
+   "count": 1
+  }
+ ],
+ "ζητεῖτε": [
+  {
+   "lemma": "ζητέω",
+   "grammar": "verb 2nd pl pres ind act",
+   "count": 1
+  }
+ ],
+ "ναζαρηνὸν": [
+  {
+   "lemma": "Ναζαρηνός",
+   "grammar": "noun sg masc acc",
+   "count": 1
+  }
+ ],
+ "ἐσταυρωμένον": [
+  {
+   "lemma": "σταυρόω",
+   "grammar": "part sg perf pass masc acc",
+   "count": 1
+  }
+ ],
+ "ἔθηκαν": [
+  {
+   "lemma": "τίθημι",
+   "grammar": "verb 3rd pl aor ind act",
+   "count": 1
+  }
+ ],
+ "προάγει": [
+  {
+   "lemma": "προάγω",
+   "grammar": "verb 3rd sg pres ind act",
+   "count": 1
+  }
+ ],
+ "ὄψεσθε": [
+  {
+   "lemma": "ὁράω",
+   "grammar": "verb 2nd pl fut ind mid",
+   "count": 1
+  }
+ ],
+ "ἐξελθοῦσαι": [
+  {
+   "lemma": "ἐξέρχομαι",
+   "grammar": "part pl aor act fem nom",
+   "count": 1
+  }
+ ],
+ "τρόμος": [
+  {
+   "lemma": "τρόμος",
+   "grammar": "noun sg masc nom",
+   "count": 1
+  }
+ ],
+ "ἔκστασις": [
+  {
+   "lemma": "ἔκστασις",
+   "grammar": "noun sg fem nom",
+   "count": 1
+  }
+ ],
+ "ἐφοβοῦντο": [
+  {
+   "lemma": "φοβέω",
+   "grammar": "verb 3rd pl imperf ind mid",
    "count": 1
   }
  ]

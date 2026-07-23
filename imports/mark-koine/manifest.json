@@ -1,0 +1,114 @@
+{
+  "id": "mark-koine",
+  "title": "Marcus — Evangelium volgens Marcus",
+  "shortTitle": "Een eerste leestocht door het Markusevangelie",
+  "author": "Marcus",
+  "year": 70,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Markus 1:1–20 — Η αρχή και η κλήση των μαθητών",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: Perseus Digital Library (tlg0031.tlg002.perseus-grc2) · EN: World English Bible via Perseus · Parsing: PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0031.tlg002"
+    },
+    {
+      "title": "Markus 1:21–45 — Η εξουσία και οι θεραπείες",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Markus 2:1–17 — Ο παραλυτικός και ο Λευί",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Markus 4:1–20 — Η παραβολή του σπορέως",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Markus 4:35–41 — Η κατάπαυση της θύελλας",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Markus 5:1–20 — Ο δαιμονισμένος των Γερασηνῶν",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Markus 5:21–43 — Η θυγάτηρ του Ιαείρου",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Markus 6:30–44 — Ο χορτασμός των πεντακισχιλίων",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Markus 8:27–38 — Η ομολογία του Πέτρου",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Markus 9:2–13 — Η μεταμόρφωση",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Markus 10:13–31 — Τα παιδία και ο πλούσιος",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Markus 11:1–11 — Η είσοδος στα Ιεροσόλυμα",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt"
+    },
+    {
+      "title": "Markus 14:32–52 — Η Γεθσημανή και η σύλληψη",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt"
+    },
+    {
+      "title": "Markus 15:1–27 — Η δίκη και η σταύρωση (1)",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt"
+    },
+    {
+      "title": "Markus 15:29–39 — Η δίκη και η σταύρωση (2)",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt"
+    },
+    {
+      "title": "Markus 16:1–8 — Ο κενός τάφος",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt"
+    }
+  ],
+  "source": {
+    "greek": "Perseus Digital Library, tlg0031.tlg002.perseus-grc2 (revision 91595f89e15b4d3000cd93efcf8990720c8be2b9)",
+    "english": "Perseus English reference (World English Bible), revision 91595f89e15b4d3000cd93efcf8990720c8be2b9",
+    "parsing": "PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0), revision 8e388967a1335ed12335ddc655fe46993ee7d57a"
+  }
+}
