@@ -5,6 +5,8 @@
   "author": "Isotta Nogarola",
   "year": 1451,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "De pari aut impari Evae atque Adae peccato",

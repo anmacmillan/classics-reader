@@ -5,6 +5,8 @@
   "author": "Francesco Petrarch",
   "year": 1336,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Epistolae familiares IV.1",

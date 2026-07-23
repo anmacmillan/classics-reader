@@ -5,6 +5,8 @@
   "author": "Ovidius",
   "year": 8,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Een oud verhaal uit Lycië (VI.313–328)",

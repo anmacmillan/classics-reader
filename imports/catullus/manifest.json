@@ -5,6 +5,8 @@
   "author": "Catullus",
   "year": -55,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Gedicht 1 (10 verzen)",

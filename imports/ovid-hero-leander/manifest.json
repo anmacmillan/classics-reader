@@ -5,6 +5,8 @@
   "author": "Ovidius",
   "year": 10,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Leander stuurt een brief (18.1–24)",

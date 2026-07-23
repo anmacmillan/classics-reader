@@ -5,6 +5,8 @@
   "author": "Poggio Bracciolini",
   "year": 1420,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Letter X to Niccolò Niccoli",

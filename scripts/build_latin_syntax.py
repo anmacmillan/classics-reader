@@ -9,14 +9,14 @@ reviewed treebank.
 from __future__ import annotations
 import json
 from pathlib import Path
+import argparse
 import stanza
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def parse_book(import_id: str, out_name: str) -> None:
+def parse_book(import_id: str, pipeline) -> None:
     folder = ROOT / "imports" / import_id
     manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
-    pipeline = stanza.Pipeline("la", processors="tokenize,pos,lemma,depparse", tokenize_no_ssplit=False, verbose=False)
     syntax = []
     for chapter in manifest["chapters"]:
         lines = (folder / chapter["original"]).read_text(encoding="utf-8").splitlines()
@@ -49,4 +49,17 @@ def parse_book(import_id: str, out_name: str) -> None:
     (folder / "syntax.json").write_text(json.dumps(syntax, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 if __name__ == "__main__":
-    parse_book("caesar-de-bello-gallico-curriculum", "caesar-latin-syntax.json")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("imports", nargs="*", help="Latin import IDs (default: every Latin import)")
+    args = parser.parse_args()
+    import_ids = args.imports
+    if not import_ids:
+        import_ids = []
+        for manifest_path in sorted((ROOT / "imports").glob("*/manifest.json")):
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            if manifest.get("lang") == "latin":
+                import_ids.append(manifest["id"])
+    pipeline = stanza.Pipeline("la", processors="tokenize,pos,lemma,depparse", tokenize_no_ssplit=False, verbose=False)
+    for import_id in import_ids:
+        print(f"Parsing {import_id}...", flush=True)
+        parse_book(import_id, pipeline)

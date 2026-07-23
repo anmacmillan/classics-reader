@@ -5,6 +5,8 @@
   "author": "Seneca the Younger",
   "year": 49,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "De Brevitate Vitae - complete work",

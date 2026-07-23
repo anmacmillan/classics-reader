@@ -152,8 +152,11 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
         raise ValueError(f"{import_dir.name}: manifest requires at least one chapter")
 
     syntax = None
-    if manifest.get("syntax"):
-        syntax_path = import_dir / manifest["syntax"]
+    syntax_name = manifest.get("syntax")
+    if not syntax_name and manifest["lang"] == "latin" and (import_dir / "syntax.json").exists():
+        syntax_name = "syntax.json"
+    if syntax_name:
+        syntax_path = import_dir / syntax_name
         if not syntax_path.exists():
             raise ValueError(f"missing syntax file: {syntax_path.relative_to(ROOT)}")
         syntax = json.loads(syntax_path.read_text(encoding="utf-8"))

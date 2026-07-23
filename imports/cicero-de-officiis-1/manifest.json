@@ -5,6 +5,8 @@
   "author": "Cicero",
   "year": -44,
   "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Aan zijn zoon Marcus; het plan van het werk (§§1–10)",
