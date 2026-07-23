@@ -1,0 +1,186 @@
+{
+  "id": "matthew-koine",
+  "title": "Matthaeus — Evangelie volgens Matteüs",
+  "shortTitle": "Het volledige evangelie volgens matteüs",
+  "author": "Matthaeus",
+  "year": 80,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Matthaeus 1:1–25",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: Perseus Digital Library · EN: World English Bible via Perseus · Parsing: PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://catalog.perseus.org/"
+    },
+    {
+      "title": "Matthaeus 2:1–23",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Matthaeus 3:1–17",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Matthaeus 4:1–25",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Matthaeus 5:1–48",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Matthaeus 6:1–34",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Matthaeus 7:1–29",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Matthaeus 8:1–34",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Matthaeus 9:1–38",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Matthaeus 10:1–42",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Matthaeus 11:1–30",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Matthaeus 12:1–50",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt"
+    },
+    {
+      "title": "Matthaeus 13:1–58",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt"
+    },
+    {
+      "title": "Matthaeus 14:1–36",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt"
+    },
+    {
+      "title": "Matthaeus 15:1–39",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt"
+    },
+    {
+      "title": "Matthaeus 16:1–28",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt"
+    },
+    {
+      "title": "Matthaeus 17:1–27",
+      "startLine": 1,
+      "original": "greek-17.txt",
+      "english": "english-17.txt"
+    },
+    {
+      "title": "Matthaeus 18:1–35",
+      "startLine": 1,
+      "original": "greek-18.txt",
+      "english": "english-18.txt"
+    },
+    {
+      "title": "Matthaeus 19:1–30",
+      "startLine": 1,
+      "original": "greek-19.txt",
+      "english": "english-19.txt"
+    },
+    {
+      "title": "Matthaeus 20:1–34",
+      "startLine": 1,
+      "original": "greek-20.txt",
+      "english": "english-20.txt"
+    },
+    {
+      "title": "Matthaeus 21:1–46",
+      "startLine": 1,
+      "original": "greek-21.txt",
+      "english": "english-21.txt"
+    },
+    {
+      "title": "Matthaeus 22:1–46",
+      "startLine": 1,
+      "original": "greek-22.txt",
+      "english": "english-22.txt"
+    },
+    {
+      "title": "Matthaeus 23:1–39",
+      "startLine": 1,
+      "original": "greek-23.txt",
+      "english": "english-23.txt"
+    },
+    {
+      "title": "Matthaeus 24:1–51",
+      "startLine": 1,
+      "original": "greek-24.txt",
+      "english": "english-24.txt"
+    },
+    {
+      "title": "Matthaeus 25:1–46",
+      "startLine": 1,
+      "original": "greek-25.txt",
+      "english": "english-25.txt"
+    },
+    {
+      "title": "Matthaeus 26:1–75",
+      "startLine": 1,
+      "original": "greek-26.txt",
+      "english": "english-26.txt"
+    },
+    {
+      "title": "Matthaeus 27:1–66",
+      "startLine": 1,
+      "original": "greek-27.txt",
+      "english": "english-27.txt"
+    },
+    {
+      "title": "Matthaeus 28:1–20",
+      "startLine": 1,
+      "original": "greek-28.txt",
+      "english": "english-28.txt"
+    }
+  ],
+  "source": {
+    "greek": "Perseus Digital Library, tlg0031.tlg001.perseus-grc2 (revision 91595f89e15b4d3000cd93efcf8990720c8be2b9)",
+    "english": "Perseus English reference (World English Bible), revision 91595f89e15b4d3000cd93efcf8990720c8be2b9)",
+    "parsing": "PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0), revision 8e388967a1335ed12335ddc655fe46993ee7d57a"
+  }
+}

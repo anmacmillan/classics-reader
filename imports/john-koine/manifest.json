@@ -1,0 +1,144 @@
+{
+  "id": "john-koine",
+  "title": "Ioannes — Evangelie volgens Johannes",
+  "shortTitle": "Het volledige evangelie volgens johannes",
+  "author": "Ioannes",
+  "year": 95,
+  "lang": "greek",
+  "chapters": [
+    {
+      "title": "Ioannes 1:1–51",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Grieks: Perseus Digital Library · EN: World English Bible via Perseus · Parsing: PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0)",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://catalog.perseus.org/"
+    },
+    {
+      "title": "Ioannes 2:1–25",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Ioannes 3:1–36",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Ioannes 4:1–54",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Ioannes 5:1–47",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Ioannes 6:1–71",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Ioannes 7:1–53",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Ioannes 8:1–59",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Ioannes 9:1–41",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Ioannes 10:1–42",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Ioannes 11:1–57",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Ioannes 12:1–50",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt"
+    },
+    {
+      "title": "Ioannes 13:1–38",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt"
+    },
+    {
+      "title": "Ioannes 14:1–31",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt"
+    },
+    {
+      "title": "Ioannes 15:1–27",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt"
+    },
+    {
+      "title": "Ioannes 16:1–33",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt"
+    },
+    {
+      "title": "Ioannes 17:1–26",
+      "startLine": 1,
+      "original": "greek-17.txt",
+      "english": "english-17.txt"
+    },
+    {
+      "title": "Ioannes 18:1–40",
+      "startLine": 1,
+      "original": "greek-18.txt",
+      "english": "english-18.txt"
+    },
+    {
+      "title": "Ioannes 19:1–42",
+      "startLine": 1,
+      "original": "greek-19.txt",
+      "english": "english-19.txt"
+    },
+    {
+      "title": "Ioannes 20:1–31",
+      "startLine": 1,
+      "original": "greek-20.txt",
+      "english": "english-20.txt"
+    },
+    {
+      "title": "Ioannes 21:1–24",
+      "startLine": 1,
+      "original": "greek-21.txt",
+      "english": "english-21.txt"
+    }
+  ],
+  "source": {
+    "greek": "Perseus Digital Library, tlg0031.tlg004.perseus-grc2 (revision 91595f89e15b4d3000cd93efcf8990720c8be2b9)",
+    "english": "Perseus English reference (World English Bible), revision 91595f89e15b4d3000cd93efcf8990720c8be2b9)",
+    "parsing": "PROIEL Greek New Testament treebank (CC BY-NC-SA 3.0), revision 8e388967a1335ed12335ddc655fe46993ee7d57a"
+  }
+}
