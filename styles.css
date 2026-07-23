@@ -590,6 +590,25 @@ body.reader-mode .reader-pane {
   padding-top: 8px;
 }
 
+.tooltip-syntax {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--text-dim);
+  background: rgba(59, 130, 246, 0.08);
+  border-left: 2px solid rgba(59, 130, 246, 0.45);
+  padding: 5px 7px;
+  margin: 2px 0 8px;
+}
+
+.tooltip-syntax strong {
+  color: var(--accent-2, #60a5fa);
+}
+
+.syntax-code {
+  color: var(--text-muted);
+  font-size: 0.68rem;
+}
+
 .tooltip-definition div + div {
   margin-top: 4px;
 }

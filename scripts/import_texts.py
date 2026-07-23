@@ -151,10 +151,22 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
     if not manifest["chapters"]:
         raise ValueError(f"{import_dir.name}: manifest requires at least one chapter")
 
+    syntax = None
+    if manifest.get("syntax"):
+        syntax_path = import_dir / manifest["syntax"]
+        if not syntax_path.exists():
+            raise ValueError(f"missing syntax file: {syntax_path.relative_to(ROOT)}")
+        syntax = json.loads(syntax_path.read_text(encoding="utf-8"))
+        if len(syntax) != len(manifest["chapters"]):
+            raise ValueError(f"{import_dir.name}: syntax chapter count does not match manifest")
     chapters = []
     originals = []
-    for chapter in manifest["chapters"]:
+    for index, chapter in enumerate(manifest["chapters"]):
         built, original = build_chapter(import_dir, chapter)
+        if syntax is not None:
+            if len(syntax[index]) != len(original):
+                raise ValueError(f"{import_dir.name}: syntax line count does not match chapter")
+            built["syntax"] = syntax[index]
         chapters.append(built)
         originals.append(original)
 

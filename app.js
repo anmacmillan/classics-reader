@@ -577,7 +577,7 @@ function renderChapter() {
     // Original line with interactive word wrapping
     const origEl = document.createElement("div");
     origEl.className = "original-line";
-    origEl.innerHTML = renderInteractiveLine(line, book.lang);
+    origEl.innerHTML = renderInteractiveLine(line, book.lang, ch.syntax?.[lineIdx]);
     row.appendChild(origEl);
 
     // Translation lines
@@ -865,18 +865,35 @@ function htmlEscape(value) {
     .replace(/"/g, "&quot;");
 }
 
-function renderInteractiveLine(line, lang) {
+function syntaxRoleLabel(role) {
+  const labels = {
+    root: "main verb / root", nsubj: "subject", "nsubj:pass": "passive subject",
+    obj: "direct object", "iobj": "indirect object", obl: "oblique complement",
+    "obl:arg": "argument complement", amod: "adjectival modifier", det: "determiner",
+    advmod: "adverbial modifier", nmod: "nominal modifier", acl: "relative/participial modifier",
+    ccomp: "complement clause", xcomp: "complementary infinitive", advcl: "adverbial clause",
+    conj: "co-ordinate word", cc: "co-ordinating conjunction", mark: "subordinator",
+    case: "preposition", cop: "copula", "aux:pass": "passive auxiliary", aux: "auxiliary",
+    appos: "apposition", vocative: "vocative"
+  };
+  return labels[role] || role || "syntactic role";
+}
+
+function renderInteractiveLine(line, lang, syntaxTokens = null) {
+  let syntaxIndex = 0;
   return String(line).split(/(\s+)/).map((part) => {
     if (/^\s+$/.test(part)) return part;
     const { before, word, after } = splitIntoWordAndPunctuation(part);
     const entry = getDictionaryEntry(word, lang);
+    const syntax = syntaxTokens?.[syntaxIndex++];
     const safeWord = htmlEscape(word);
     if (!entry) return `${before}${safeWord}${after}`;
     const safeLemma = htmlEscape(entry.lemma || entry.def);
     const safeEn = htmlEscape(entry.en || entry.def);
     const safeNl = htmlEscape(entry.nl || "");
     const safeGrammar = htmlEscape(entry.grammar);
-    return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}">${safeWord}</span>${after}`;
+    const syntaxAttrs = syntax ? ` data-syntax-role="${htmlEscape(syntax.role)}" data-syntax-head="${htmlEscape(syntax.head)}" data-syntax-morph="${htmlEscape(syntax.morph)}"` : "";
+    return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}"${syntaxAttrs}>${safeWord}</span>${after}`;
   }).join("");
 }
 
@@ -894,6 +911,11 @@ function setupWordHover() {
     const en = wordSpan.getAttribute("data-en");
     const nl = wordSpan.getAttribute("data-nl");
     const grammar = wordSpan.getAttribute("data-grammar");
+    const syntax = wordSpan.getAttribute("data-syntax-role") ? {
+      role: wordSpan.getAttribute("data-syntax-role"),
+      head: wordSpan.getAttribute("data-syntax-head"),
+      morph: wordSpan.getAttribute("data-syntax-morph")
+    } : null;
     const lang = wordSpan.getAttribute("data-lang");
     activeVocabularyCandidate = vocabularyEntryFor(rawWord, lemma || rawWord, en, nl, grammar, lang);
     showTooltip(
@@ -903,7 +925,8 @@ function setupWordHover() {
       en,
       nl,
       grammar || "Grammatica onbekend",
-      activeVocabularyCandidate
+      activeVocabularyCandidate,
+      syntax
     );
 
     if (!en && lang === "old_english") {
@@ -929,7 +952,8 @@ function setupWordHover() {
             entry.def || "",
             "",
             entry.grammar || "TOE",
-            activeVocabularyCandidate
+            activeVocabularyCandidate,
+            syntax
           );
         }
       }).catch(() => {});
@@ -969,7 +993,7 @@ function setupWordHover() {
   document.getElementById("word-tooltip")?.addEventListener("mouseleave", hideTooltip);
 }
 
-function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry) {
+function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax = null) {
   const tooltip = document.getElementById("word-tooltip");
   const content = document.getElementById("tooltip-content");
   if (!tooltip || !content) return;
@@ -981,6 +1005,7 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry) {
     </div>
     <div class="tooltip-lemma">${lemma}</div>
     <div class="tooltip-grammar">${grammar}</div>
+    ${syntax ? `<div class="tooltip-syntax"><strong>Syntax</strong><br>Role: ${htmlEscape(syntaxRoleLabel(syntax.role))}${syntax.role && syntax.role !== syntaxRoleLabel(syntax.role) ? ` <span class="syntax-code">(${htmlEscape(syntax.role)})</span>` : ""}${syntax.head ? ` · head: ${htmlEscape(syntax.head)}` : ""}${syntax.morph ? `<br>Morphology: ${htmlEscape(syntax.morph)}` : ""}</div>` : ""}
     <div class="tooltip-definition">
       <div><strong>EN</strong> ${en || "Translation not found"}</div>
       <div><strong>NL</strong> ${nl || "Vertaling niet gevonden"}</div>
@@ -992,7 +1017,7 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry) {
   content.querySelector(".tooltip-save")?.addEventListener("click", (event) => {
     event.stopPropagation();
     toggleVocabularyEntry(vocabularyEntry);
-    showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry);
+    showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax);
   });
 
   tooltip.classList.remove("hidden");
