@@ -5,6 +5,8 @@
   "author": "Lucas",
   "year": 80,
   "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Lucas 1:1–80",

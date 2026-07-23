@@ -5,6 +5,8 @@
   "author": "Xenophon",
   "year": -401,
   "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "De opstand van Cyrus: begin van de expeditie (1.1.1–1.1.18)",

@@ -5,6 +5,8 @@
   "author": "Marcus",
   "year": 70,
   "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Markus 1:1–45 — Η αρχή και η διακονία",

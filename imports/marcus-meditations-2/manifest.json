@@ -5,6 +5,8 @@
   "author": "Marcus Aurelius",
   "year": 170,
   "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "II.1 — Bij dageraad: de mensen die je zult ontmoeten",

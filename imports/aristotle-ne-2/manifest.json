@@ -5,6 +5,8 @@
   "author": "Aristoteles",
   "year": -340,
   "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
       "title": "Deugd door gewoonte (1103a)",
