@@ -9,6 +9,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const IMPORTS_DIR = path.join(ROOT, "imports");
 const BASE_DICTIONARY = path.join(ROOT, "dictionary.js");
 const OUTPUT = path.join(ROOT, "generated", "imported-latin-dictionary.js");
+const CATULLUS_OVERRIDES = path.join(ROOT, "imports", "catullus", "latin-overrides.json");
 
 const OVERRIDES = {
   abire: { lemma: "abeo, abire, abii, abitus", en: "to go away; to depart", grammar: "V PRES ACTIVE INF" },
@@ -726,6 +727,13 @@ const OVERRIDES = {
   xenocratem: { lemma: "Xenocrates, Xenocratis", en: "Xenocrates (of Chalcedon, head of the Academy after Speusippus, famed for gravity of character)", grammar: "N ACC S M (proper name)" },
   xenophontem: { lemma: "Xenophon, Xenophontis", en: "Xenophon (Athenian soldier-historian, pupil of Socrates, source for Prodicus' Choice of Hercules)", grammar: "N ACC S M (proper name)" }
 };
+
+// Catullus contains many unattested proper names and deliberately archaic
+// poetic forms. Keep their reviewed fallback entries beside that import so
+// the general Whitaker pipeline remains strict for every other text.
+if (fs.existsSync(CATULLUS_OVERRIDES)) {
+  Object.assign(OVERRIDES, JSON.parse(fs.readFileSync(CATULLUS_OVERRIDES, "utf8")));
+}
 
 function normalise(value) {
   return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();

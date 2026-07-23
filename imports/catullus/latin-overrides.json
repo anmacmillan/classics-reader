@@ -1,0 +1,1412 @@
+{
+  "acme": {
+    "lemma": "acme",
+    "en": "ace",
+    "grammar": "UNKNOWN"
+  },
+  "adiitque": {
+    "lemma": "adiitque",
+    "en": "and added",
+    "grammar": "UNKNOWN"
+  },
+  "adiurarit": {
+    "lemma": "adiurarit",
+    "en": "he had sworn",
+    "grammar": "UNKNOWN"
+  },
+  "adoneus": {
+    "lemma": "adoneus",
+    "en": "Latin form adoneus (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "adspernata": {
+    "lemma": "adspernata",
+    "en": "aspernata",
+    "grammar": "UNKNOWN"
+  },
+  "aeeteos": {
+    "lemma": "aeeteos",
+    "en": "the aetians",
+    "grammar": "UNKNOWN"
+  },
+  "aganippe": {
+    "lemma": "aganippe",
+    "en": "Latin form aganippe (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "alfene": {
+    "lemma": "alfene",
+    "en": "finally",
+    "grammar": "UNKNOWN"
+  },
+  "amathunta": {
+    "lemma": "amathunta",
+    "en": "Latin form amathunta (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "amathusia": {
+    "lemma": "amathusia",
+    "en": "Latin form amathusia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "ameana": {
+    "lemma": "ameana",
+    "en": "amena",
+    "grammar": "UNKNOWN"
+  },
+  "amphitryoniades": {
+    "lemma": "amphitryoniades",
+    "en": "hosts",
+    "grammar": "UNKNOWN"
+  },
+  "ancona": {
+    "lemma": "ancona",
+    "en": "Latin form ancona (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "androgeoneae": {
+    "lemma": "androgeoneae",
+    "en": "androgenic",
+    "grammar": "UNKNOWN"
+  },
+  "antimacho": {
+    "lemma": "antimacho",
+    "en": "Latin form antimacho (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "aonios": {
+    "lemma": "aonios",
+    "en": "Aeons",
+    "grammar": "UNKNOWN"
+  },
+  "argivorum": {
+    "lemma": "argivorum",
+    "en": "Argives",
+    "grammar": "UNKNOWN"
+  },
+  "ariadna": {
+    "lemma": "ariadna",
+    "en": "Ariadne",
+    "grammar": "UNKNOWN"
+  },
+  "arnor": {
+    "lemma": "arnor",
+    "en": "I don't know",
+    "grammar": "UNKNOWN"
+  },
+  "arnore": {
+    "lemma": "arnore",
+    "en": "anore",
+    "grammar": "UNKNOWN"
+  },
+  "arsinoes": {
+    "lemma": "arsinoes",
+    "en": "Latin form arsinoes (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "athon": {
+    "lemma": "athon",
+    "en": "Latin form athon (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "audibant": {
+    "lemma": "audibant",
+    "en": "they were listening",
+    "grammar": "UNKNOWN"
+  },
+  "aufilena": {
+    "lemma": "aufilena",
+    "en": "Latin form aufilena (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "aufilenam": {
+    "lemma": "aufilenam",
+    "en": "aufilena",
+    "grammar": "UNKNOWN"
+  },
+  "aufilenum": {
+    "lemma": "aufilenum",
+    "en": "Latin form aufilenum (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "aureli": {
+    "lemma": "aureli",
+    "en": "ears",
+    "grammar": "UNKNOWN"
+  },
+  "auricilla": {
+    "lemma": "auricilla",
+    "en": "small ear",
+    "grammar": "UNKNOWN"
+  },
+  "battiadae": {
+    "lemma": "battiadae",
+    "en": "battiadas",
+    "grammar": "UNKNOWN"
+  },
+  "bereniceo": {
+    "lemma": "bereniceo",
+    "en": "Berenice",
+    "grammar": "UNKNOWN"
+  },
+  "bithynia": {
+    "lemma": "bithynia",
+    "en": "Latin form bithynia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "bithynos": {
+    "lemma": "bithynos",
+    "en": "Latin form bithynos (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "bononiensis": {
+    "lemma": "bononiensis",
+    "en": "of Bologna",
+    "grammar": "UNKNOWN"
+  },
+  "brixia": {
+    "lemma": "brixia",
+    "en": "Latin form brixia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "caecilio": {
+    "lemma": "caecilio",
+    "en": "I am blind",
+    "grammar": "UNKNOWN"
+  },
+  "canopiis": {
+    "lemma": "canopiis",
+    "en": "canopies",
+    "grammar": "UNKNOWN"
+  },
+  "catulle": {
+    "lemma": "catulle",
+    "en": "puppy",
+    "grammar": "UNKNOWN"
+  },
+  "catulli": {
+    "lemma": "catulli",
+    "en": "puppies",
+    "grammar": "UNKNOWN"
+  },
+  "catullo": {
+    "lemma": "catullo",
+    "en": "with a puppy",
+    "grammar": "UNKNOWN"
+  },
+  "catullum": {
+    "lemma": "catullum",
+    "en": "puppy",
+    "grammar": "UNKNOWN"
+  },
+  "catullus": {
+    "lemma": "catullus",
+    "en": "puppy",
+    "grammar": "UNKNOWN"
+  },
+  "cecropiae": {
+    "lemma": "cecropiae",
+    "en": "cecropia",
+    "grammar": "UNKNOWN"
+  },
+  "cecropiam": {
+    "lemma": "cecropiam",
+    "en": "cecropia",
+    "grammar": "UNKNOWN"
+  },
+  "celtiber": {
+    "lemma": "celtiber",
+    "en": "Latin form celtiber (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "celtiberia": {
+    "lemma": "celtiberia",
+    "en": "Latin form celtiberia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "celtiberiae": {
+    "lemma": "celtiberiae",
+    "en": "Celtiberia",
+    "grammar": "UNKNOWN"
+  },
+  "cessasti": {
+    "lemma": "cessasti",
+    "en": "you stopped",
+    "grammar": "UNKNOWN"
+  },
+  "chalybon": {
+    "lemma": "chalybon",
+    "en": "steel",
+    "grammar": "UNKNOWN"
+  },
+  "chinea": {
+    "lemma": "chinea",
+    "en": "china",
+    "grammar": "UNKNOWN"
+  },
+  "chiron": {
+    "lemma": "chiron",
+    "en": "Latin form chiron (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "chommoda": {
+    "lemma": "chommoda",
+    "en": "clothes",
+    "grammar": "UNKNOWN"
+  },
+  "cieros": {
+    "lemma": "cieros",
+    "en": "candles",
+    "grammar": "UNKNOWN"
+  },
+  "cinna": {
+    "lemma": "cinna",
+    "en": "cina",
+    "grammar": "UNKNOWN"
+  },
+  "cinnae": {
+    "lemma": "cinnae",
+    "en": "cinnabar",
+    "grammar": "UNKNOWN"
+  },
+  "cognoram": {
+    "lemma": "cognoram",
+    "en": "I know",
+    "grammar": "UNKNOWN"
+  },
+  "cognossem": {
+    "lemma": "cognossem",
+    "en": "I had known",
+    "grammar": "UNKNOWN"
+  },
+  "comparasti": {
+    "lemma": "comparasti",
+    "en": "you have compared",
+    "grammar": "UNKNOWN"
+  },
+  "conscelerasse": {
+    "lemma": "conscelerasse",
+    "en": "had accelerated",
+    "grammar": "UNKNOWN"
+  },
+  "constemens": {
+    "lemma": "constemens",
+    "en": "condescending",
+    "grammar": "UNKNOWN"
+  },
+  "corneli": {
+    "lemma": "corneli",
+    "en": "Cornelius",
+    "grammar": "UNKNOWN"
+  },
+  "crannonisque": {
+    "lemma": "crannonisque",
+    "en": "and crannons",
+    "grammar": "UNKNOWN"
+  },
+  "croesum": {
+    "lemma": "croesum",
+    "en": "cross",
+    "grammar": "UNKNOWN"
+  },
+  "cupisti": {
+    "lemma": "cupisti",
+    "en": "you wanted",
+    "grammar": "UNKNOWN"
+  },
+  "custodibant": {
+    "lemma": "custodibant",
+    "en": "they kept",
+    "grammar": "UNKNOWN"
+  },
+  "cybele": {
+    "lemma": "cybele",
+    "en": "basket",
+    "grammar": "UNKNOWN"
+  },
+  "cybeles": {
+    "lemma": "cybeles",
+    "en": "baskets",
+    "grammar": "UNKNOWN"
+  },
+  "cycladas": {
+    "lemma": "cycladas",
+    "en": "cyclades",
+    "grammar": "UNKNOWN"
+  },
+  "cytore": {
+    "lemma": "cytore",
+    "en": "Latin form cytore (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "daulias": {
+    "lemma": "daulias",
+    "en": "Latin form daulias (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "delphi": {
+    "lemma": "delphi",
+    "en": "Latin form delphi (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "desissemque": {
+    "lemma": "desissemque",
+    "en": "and stopped",
+    "grammar": "UNKNOWN"
+  },
+  "dindymenae": {
+    "lemma": "dindymenae",
+    "en": "turkeys",
+    "grammar": "UNKNOWN"
+  },
+  "dindymi": {
+    "lemma": "dindymi",
+    "en": "dynamite",
+    "grammar": "UNKNOWN"
+  },
+  "donarunt": {
+    "lemma": "donarunt",
+    "en": "they gave",
+    "grammar": "UNKNOWN"
+  },
+  "durrachium": {
+    "lemma": "durrachium",
+    "en": "Latin form durrachium (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "duxti": {
+    "lemma": "duxti",
+    "en": "led",
+    "grammar": "UNKNOWN"
+  },
+  "ecfututa": {
+    "lemma": "ecfututa",
+    "en": "splashed out",
+    "grammar": "UNKNOWN"
+  },
+  "egnatius": {
+    "lemma": "egnatius",
+    "en": "better",
+    "grammar": "UNKNOWN"
+  },
+  "elocridicos": {
+    "lemma": "elocridicos",
+    "en": "eloquent",
+    "grammar": "UNKNOWN"
+  },
+  "emathiae": {
+    "lemma": "emathiae",
+    "en": "red blood cells",
+    "grammar": "UNKNOWN"
+  },
+  "eone": {
+    "lemma": "eone",
+    "en": "eon",
+    "grammar": "UNKNOWN"
+  },
+  "erechthei": {
+    "lemma": "erechthei",
+    "en": "Latin form erechthei (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "erechtheum": {
+    "lemma": "erechtheum",
+    "en": "Latin form erechtheum (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "erifugae": {
+    "lemma": "erifugae",
+    "en": "erifuga",
+    "grammar": "UNKNOWN"
+  },
+  "erudituli": {
+    "lemma": "erudituli",
+    "en": "learned",
+    "grammar": "UNKNOWN"
+  },
+  "erycina": {
+    "lemma": "erycina",
+    "en": "ericina",
+    "grammar": "UNKNOWN"
+  },
+  "etruscus": {
+    "lemma": "etruscus",
+    "en": "Etruscan",
+    "grammar": "UNKNOWN"
+  },
+  "evirastis": {
+    "lemma": "evirastis",
+    "en": "you have turned away",
+    "grammar": "UNKNOWN"
+  },
+  "explicasset": {
+    "lemma": "explicasset",
+    "en": "he explained",
+    "grammar": "UNKNOWN"
+  },
+  "fabulle": {
+    "lemma": "fabulle",
+    "en": "fable",
+    "grammar": "UNKNOWN"
+  },
+  "fabullo": {
+    "lemma": "fabullo",
+    "en": "the story",
+    "grammar": "UNKNOWN"
+  },
+  "fabullum": {
+    "lemma": "fabullum",
+    "en": "a story",
+    "grammar": "UNKNOWN"
+  },
+  "fabullus": {
+    "lemma": "fabullus",
+    "en": "fable",
+    "grammar": "UNKNOWN"
+  },
+  "falsiparens": {
+    "lemma": "falsiparens",
+    "en": "falsifying",
+    "grammar": "UNKNOWN"
+  },
+  "favoni": {
+    "lemma": "favoni",
+    "en": "favor",
+    "grammar": "UNKNOWN"
+  },
+  "fescennina": {
+    "lemma": "fescennina",
+    "en": "Latin form fescennina (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "flammma": {
+    "lemma": "flammma",
+    "en": "flame",
+    "grammar": "UNKNOWN"
+  },
+  "floridulo": {
+    "lemma": "floridulo",
+    "en": "flowery",
+    "grammar": "UNKNOWN"
+  },
+  "fratresque": {
+    "lemma": "fratresque",
+    "en": "and brothers",
+    "grammar": "UNKNOWN"
+  },
+  "fratribus": {
+    "lemma": "fratribus",
+    "en": "brothers",
+    "grammar": "UNKNOWN"
+  },
+  "frigerans": {
+    "lemma": "frigerans",
+    "en": "chilling",
+    "grammar": "UNKNOWN"
+  },
+  "fuficio": {
+    "lemma": "fuficio",
+    "en": "flying",
+    "grammar": "UNKNOWN"
+  },
+  "fugarunt": {
+    "lemma": "fugarunt",
+    "en": "they fled",
+    "grammar": "UNKNOWN"
+  },
+  "furum": {
+    "lemma": "furum",
+    "en": "a thief",
+    "grammar": "UNKNOWN"
+  },
+  "gelli": {
+    "lemma": "gelli",
+    "en": "gel",
+    "grammar": "UNKNOWN"
+  },
+  "gellius": {
+    "lemma": "gellius",
+    "en": "gellier",
+    "grammar": "UNKNOWN"
+  },
+  "gnosia": {
+    "lemma": "gnosia",
+    "en": "gnosis",
+    "grammar": "UNKNOWN"
+  },
+  "golgos": {
+    "lemma": "golgos",
+    "en": "Latin form golgos (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "gortynia": {
+    "lemma": "gortynia",
+    "en": "Latin form gortynia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "hadriae": {
+    "lemma": "hadriae",
+    "en": "hadria",
+    "grammar": "UNKNOWN"
+  },
+  "hadriatici": {
+    "lemma": "hadriatici",
+    "en": "Adriatic Sea",
+    "grammar": "UNKNOWN"
+  },
+  "harpocratem": {
+    "lemma": "harpocratem",
+    "en": "Harpocrat",
+    "grammar": "UNKNOWN"
+  },
+  "hederigerae": {
+    "lemma": "hederigerae",
+    "en": "ivy",
+    "grammar": "UNKNOWN"
+  },
+  "heliconii": {
+    "lemma": "heliconii",
+    "en": "heliconia",
+    "grammar": "UNKNOWN"
+  },
+  "hellesponto": {
+    "lemma": "hellesponto",
+    "en": "Hellespont",
+    "grammar": "UNKNOWN"
+  },
+  "heroes": {
+    "lemma": "heroes",
+    "en": "Latin form heroes (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "hibera": {
+    "lemma": "hibera",
+    "en": "winter",
+    "grammar": "UNKNOWN"
+  },
+  "hiberis": {
+    "lemma": "hiberis",
+    "en": "you fly",
+    "grammar": "UNKNOWN"
+  },
+  "hiberum": {
+    "lemma": "hiberum",
+    "en": "winter",
+    "grammar": "UNKNOWN"
+  },
+  "hinsidias": {
+    "lemma": "hinsidias",
+    "en": "insidious",
+    "grammar": "UNKNOWN"
+  },
+  "hionios": {
+    "lemma": "hionios",
+    "en": "Ionians",
+    "grammar": "UNKNOWN"
+  },
+  "hiulcat": {
+    "lemma": "hiulcat",
+    "en": "snorts",
+    "grammar": "UNKNOWN"
+  },
+  "hydrochoi": {
+    "lemma": "hydrochoi",
+    "en": "Latin form hydrochoi (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "hyperboreos": {
+    "lemma": "hyperboreos",
+    "en": "Hyperboreans",
+    "grammar": "UNKNOWN"
+  },
+  "iacchus": {
+    "lemma": "iacchus",
+    "en": "layer",
+    "grammar": "UNKNOWN"
+  },
+  "iactastis": {
+    "lemma": "iactastis",
+    "en": "you boasted",
+    "grammar": "UNKNOWN"
+  },
+  "idaeosne": {
+    "lemma": "idaeosne",
+    "en": "ideos",
+    "grammar": "UNKNOWN"
+  },
+  "idri": {
+    "lemma": "idri",
+    "en": "water",
+    "grammar": "UNKNOWN"
+  },
+  "immernor": {
+    "lemma": "immernor",
+    "en": "I do not immerse",
+    "grammar": "UNKNOWN"
+  },
+  "imula": {
+    "lemma": "imula",
+    "en": "Latin form imula (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "inambulatioque": {
+    "lemma": "inambulatioque",
+    "en": "walking",
+    "grammar": "UNKNOWN"
+  },
+  "inger": {
+    "lemma": "inger",
+    "en": "Latin form inger (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "involasti": {
+    "lemma": "involasti",
+    "en": "you flew in",
+    "grammar": "UNKNOWN"
+  },
+  "ipsithilla": {
+    "lemma": "ipsithilla",
+    "en": "Latin form ipsithilla (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "irrumasti": {
+    "lemma": "irrumasti",
+    "en": "you rushed",
+    "grammar": "UNKNOWN"
+  },
+  "isset": {
+    "lemma": "isset",
+    "en": "would have been",
+    "grammar": "UNKNOWN"
+  },
+  "itoni": {
+    "lemma": "itoni",
+    "en": "Latin form itoni (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "ityli": {
+    "lemma": "ityli",
+    "en": "ityl",
+    "grammar": "UNKNOWN"
+  },
+  "lacteolae": {
+    "lemma": "lacteolae",
+    "en": "Latin form lacteolae (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "langore": {
+    "lemma": "langore",
+    "en": "languor",
+    "grammar": "UNKNOWN"
+  },
+  "lanuvinus": {
+    "lemma": "lanuvinus",
+    "en": "fluffy",
+    "grammar": "UNKNOWN"
+  },
+  "laodamia": {
+    "lemma": "laodamia",
+    "en": "Latin form laodamia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "larisaea": {
+    "lemma": "larisaea",
+    "en": "Latin form larisaea (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "laserpiciferis": {
+    "lemma": "laserpiciferis",
+    "en": "laser picifers",
+    "grammar": "UNKNOWN"
+  },
+  "latonia": {
+    "lemma": "latonia",
+    "en": "Latvia",
+    "grammar": "UNKNOWN"
+  },
+  "legarat": {
+    "lemma": "legarat",
+    "en": "had read",
+    "grammar": "UNKNOWN"
+  },
+  "libyssae": {
+    "lemma": "libyssae",
+    "en": "libyssa",
+    "grammar": "UNKNOWN"
+  },
+  "libystinis": {
+    "lemma": "libystinis",
+    "en": "libistines",
+    "grammar": "UNKNOWN"
+  },
+  "lydiae": {
+    "lemma": "lydiae",
+    "en": "of Lydia",
+    "grammar": "UNKNOWN"
+  },
+  "maeciliam": {
+    "lemma": "maeciliam",
+    "en": "emaciation",
+    "grammar": "UNKNOWN"
+  },
+  "mamurrae": {
+    "lemma": "mamurrae",
+    "en": "the wall",
+    "grammar": "UNKNOWN"
+  },
+  "mamurram": {
+    "lemma": "mamurram",
+    "en": "I mutter",
+    "grammar": "UNKNOWN"
+  },
+  "manli": {
+    "lemma": "manli",
+    "en": "Latin form manli (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "marrucine": {
+    "lemma": "marrucine",
+    "en": "brown",
+    "grammar": "UNKNOWN"
+  },
+  "memmi": {
+    "lemma": "memmi",
+    "en": "myself",
+    "grammar": "UNKNOWN"
+  },
+  "midae": {
+    "lemma": "midae",
+    "en": "midas",
+    "grammar": "UNKNOWN"
+  },
+  "minoa": {
+    "lemma": "minoa",
+    "en": "Minos",
+    "grammar": "UNKNOWN"
+  },
+  "minoidi": {
+    "lemma": "minoidi",
+    "en": "minoid",
+    "grammar": "UNKNOWN"
+  },
+  "minois": {
+    "lemma": "minois",
+    "en": "minors",
+    "grammar": "UNKNOWN"
+  },
+  "minotauro": {
+    "lemma": "minotauro",
+    "en": "minotaur",
+    "grammar": "UNKNOWN"
+  },
+  "mollicellas": {
+    "lemma": "mollicellas",
+    "en": "tender",
+    "grammar": "UNKNOWN"
+  },
+  "naiasin": {
+    "lemma": "naiasin",
+    "en": "Latin form naiasin (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "nequisse": {
+    "lemma": "nequisse",
+    "en": "nobody",
+    "grammar": "UNKNOWN"
+  },
+  "nereides": {
+    "lemma": "nereides",
+    "en": "Nereids",
+    "grammar": "UNKNOWN"
+  },
+  "nereine": {
+    "lemma": "nereine",
+    "en": "Latin form nereine (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "nicaeaeque": {
+    "lemma": "nicaeaeque",
+    "en": "Nice and",
+    "grammar": "UNKNOWN"
+  },
+  "noctifer": {
+    "lemma": "noctifer",
+    "en": "nocturnal",
+    "grammar": "UNKNOWN"
+  },
+  "norat": {
+    "lemma": "norat",
+    "en": "he knows",
+    "grammar": "UNKNOWN"
+  },
+  "nymphas": {
+    "lemma": "nymphas",
+    "en": "nymphs",
+    "grammar": "UNKNOWN"
+  },
+  "nysigenis": {
+    "lemma": "nysigenis",
+    "en": "Latin form nysigenis (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "oarion": {
+    "lemma": "oarion",
+    "en": "Latin form oarion (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "obierim": {
+    "lemma": "obierim",
+    "en": "I will die",
+    "grammar": "UNKNOWN"
+  },
+  "oetaeis": {
+    "lemma": "oetaeis",
+    "en": "oetaeus",
+    "grammar": "UNKNOWN"
+  },
+  "oetaeos": {
+    "lemma": "oetaeos",
+    "en": "Latin form oetaeos (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "optuma": {
+    "lemma": "optuma",
+    "en": "the best",
+    "grammar": "UNKNOWN"
+  },
+  "pacificasset": {
+    "lemma": "pacificasset",
+    "en": "would have pacified",
+    "grammar": "UNKNOWN"
+  },
+  "paduam": {
+    "lemma": "paduam",
+    "en": "paddy field",
+    "grammar": "UNKNOWN"
+  },
+  "parnasi": {
+    "lemma": "parnasi",
+    "en": "Parnassus",
+    "grammar": "UNKNOWN"
+  },
+  "pasithea": {
+    "lemma": "pasithea",
+    "en": "pasthea",
+    "grammar": "UNKNOWN"
+  },
+  "peli": {
+    "lemma": "peli",
+    "en": "hair",
+    "grammar": "UNKNOWN"
+  },
+  "peliaco": {
+    "lemma": "peliaco",
+    "en": "Pelican",
+    "grammar": "UNKNOWN"
+  },
+  "pelopis": {
+    "lemma": "pelopis",
+    "en": "Latin form pelopis (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "penelopeo": {
+    "lemma": "penelopeo",
+    "en": "penelope",
+    "grammar": "UNKNOWN"
+  },
+  "perierat": {
+    "lemma": "perierat",
+    "en": "had perished",
+    "grammar": "UNKNOWN"
+  },
+  "pessimae": {
+    "lemma": "pessimae",
+    "en": "the worst",
+    "grammar": "UNKNOWN"
+  },
+  "pessimus": {
+    "lemma": "pessimus",
+    "en": "the worst",
+    "grammar": "UNKNOWN"
+  },
+  "pharsalia": {
+    "lemma": "pharsalia",
+    "en": "farce",
+    "grammar": "UNKNOWN"
+  },
+  "pharsalum": {
+    "lemma": "pharsalum",
+    "en": "a farce",
+    "grammar": "UNKNOWN"
+  },
+  "phasellus": {
+    "lemma": "phasellus",
+    "en": "Latin form phasellus (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "phasidos": {
+    "lemma": "phasidos",
+    "en": "Latin form phasidos (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "pheneum": {
+    "lemma": "pheneum",
+    "en": "phenium",
+    "grammar": "UNKNOWN"
+  },
+  "phryx": {
+    "lemma": "phryx",
+    "en": "Latin form phryx (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "phthiotica": {
+    "lemma": "phthiotica",
+    "en": "phthyotic",
+    "grammar": "UNKNOWN"
+  },
+  "pipleum": {
+    "lemma": "pipleum",
+    "en": "people",
+    "grammar": "UNKNOWN"
+  },
+  "piraei": {
+    "lemma": "piraei",
+    "en": "piraeus",
+    "grammar": "UNKNOWN"
+  },
+  "pisauri": {
+    "lemma": "pisauri",
+    "en": "to be weighed",
+    "grammar": "UNKNOWN"
+  },
+  "poetis": {
+    "lemma": "poetis",
+    "en": "poets",
+    "grammar": "UNKNOWN"
+  },
+  "polyxenia": {
+    "lemma": "polyxenia",
+    "en": "Latin form polyxenia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "pose": {
+    "lemma": "pose",
+    "en": "Latin form pose (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "postumiae": {
+    "lemma": "postumiae",
+    "en": "posthumous",
+    "grammar": "UNKNOWN"
+  },
+  "postumio": {
+    "lemma": "postumio",
+    "en": "posthumous",
+    "grammar": "UNKNOWN"
+  },
+  "praeoptarit": {
+    "lemma": "praeoptarit",
+    "en": "preferred",
+    "grammar": "UNKNOWN"
+  },
+  "praetoribus": {
+    "lemma": "praetoribus",
+    "en": "to the praetors",
+    "grammar": "UNKNOWN"
+  },
+  "priapus": {
+    "lemma": "priapus",
+    "en": "Latin form priapus (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "prometheus": {
+    "lemma": "prometheus",
+    "en": "Latin form prometheus (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "propontida": {
+    "lemma": "propontida",
+    "en": "proposed",
+    "grammar": "UNKNOWN"
+  },
+  "protesilaeam": {
+    "lemma": "protesilaeam",
+    "en": "prosthesis",
+    "grammar": "UNKNOWN"
+  },
+  "pulcherrirma": {
+    "lemma": "pulcherrirma",
+    "en": "beautiful",
+    "grammar": "UNKNOWN"
+  },
+  "putastis": {
+    "lemma": "putastis",
+    "en": "you thought",
+    "grammar": "UNKNOWN"
+  },
+  "quac": {
+    "lemma": "quac",
+    "en": "what",
+    "grammar": "UNKNOWN"
+  },
+  "ravide": {
+    "lemma": "ravide",
+    "en": "happy",
+    "grammar": "UNKNOWN"
+  },
+  "recepso": {
+    "lemma": "recepso",
+    "en": "after receiving",
+    "grammar": "UNKNOWN"
+  },
+  "religasset": {
+    "lemma": "religasset",
+    "en": "had tied",
+    "grammar": "UNKNOWN"
+  },
+  "requierant": {
+    "lemma": "requierant",
+    "en": "they had rested",
+    "grammar": "UNKNOWN"
+  },
+  "requiesset": {
+    "lemma": "requiesset",
+    "en": "rest",
+    "grammar": "UNKNOWN"
+  },
+  "rhamnusia": {
+    "lemma": "rhamnusia",
+    "en": "Latin form rhamnusia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "rhodumque": {
+    "lemma": "rhodumque",
+    "en": "and Rhodes",
+    "grammar": "UNKNOWN"
+  },
+  "rhoeteo": {
+    "lemma": "rhoeteo",
+    "en": "rheoten",
+    "grammar": "UNKNOWN"
+  },
+  "rosido": {
+    "lemma": "rosido",
+    "en": "dewy",
+    "grammar": "UNKNOWN"
+  },
+  "runculeia": {
+    "lemma": "runculeia",
+    "en": "Latin form runculeia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "rusum": {
+    "lemma": "rusum",
+    "en": "Russian",
+    "grammar": "UNKNOWN"
+  },
+  "s": {
+    "lemma": "s",
+    "en": "Latin form s (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "sacas": {
+    "lemma": "sacas",
+    "en": "sacks",
+    "grammar": "UNKNOWN"
+  },
+  "saetaba": {
+    "lemma": "saetaba",
+    "en": "was buzzing",
+    "grammar": "UNKNOWN"
+  },
+  "saetabum": {
+    "lemma": "saetabum",
+    "en": "the age",
+    "grammar": "UNKNOWN"
+  },
+  "salisubsili": {
+    "lemma": "salisubsili",
+    "en": "jump up",
+    "grammar": "UNKNOWN"
+  },
+  "sapphica": {
+    "lemma": "sapphica",
+    "en": "sapphic",
+    "grammar": "UNKNOWN"
+  },
+  "sarapim": {
+    "lemma": "sarapim",
+    "en": "syrup",
+    "grammar": "UNKNOWN"
+  },
+  "satrachi": {
+    "lemma": "satrachi",
+    "en": "Latin form satrachi (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "saturasset": {
+    "lemma": "saturasset",
+    "en": "he would have had enough",
+    "grammar": "UNKNOWN"
+  },
+  "scamandri": {
+    "lemma": "scamandri",
+    "en": "Scamander",
+    "grammar": "UNKNOWN"
+  },
+  "septimille": {
+    "lemma": "septimille",
+    "en": "seven thousand",
+    "grammar": "UNKNOWN"
+  },
+  "septimio": {
+    "lemma": "septimio",
+    "en": "the seventh",
+    "grammar": "UNKNOWN"
+  },
+  "sestianus": {
+    "lemma": "sestianus",
+    "en": "Latin form sestianus (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "sestio": {
+    "lemma": "sestio",
+    "en": "session",
+    "grammar": "UNKNOWN"
+  },
+  "simonideis": {
+    "lemma": "simonideis",
+    "en": "Simonides",
+    "grammar": "UNKNOWN"
+  },
+  "sirmio": {
+    "lemma": "sirmio",
+    "en": "I'm sorry",
+    "grammar": "UNKNOWN"
+  },
+  "sodalibus": {
+    "lemma": "sodalibus",
+    "en": "members",
+    "grammar": "UNKNOWN"
+  },
+  "specus": {
+    "lemma": "specus",
+    "en": "cave",
+    "grammar": "UNKNOWN"
+  },
+  "stymphalia": {
+    "lemma": "stymphalia",
+    "en": "Latin form stymphalia (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "subrepsti": {
+    "lemma": "subrepsti",
+    "en": "you stole",
+    "grammar": "UNKNOWN"
+  },
+  "suffenum": {
+    "lemma": "suffenum",
+    "en": "sleepy",
+    "grammar": "UNKNOWN"
+  },
+  "suffenus": {
+    "lemma": "suffenus",
+    "en": "tired",
+    "grammar": "UNKNOWN"
+  },
+  "tagus": {
+    "lemma": "tagus",
+    "en": "roof",
+    "grammar": "UNKNOWN"
+  },
+  "talasio": {
+    "lemma": "talasio",
+    "en": "thalassium",
+    "grammar": "UNKNOWN"
+  },
+  "tamenetsi": {
+    "lemma": "tamenetsi",
+    "en": "nevertheless",
+    "grammar": "UNKNOWN"
+  },
+  "tappone": {
+    "lemma": "tappone",
+    "en": "tap",
+    "grammar": "UNKNOWN"
+  },
+  "telemacho": {
+    "lemma": "telemacho",
+    "en": "telemachus",
+    "grammar": "UNKNOWN"
+  },
+  "ten": {
+    "lemma": "ten",
+    "en": "Latin form ten (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "tethyi": {
+    "lemma": "tethyi",
+    "en": "Tethys",
+    "grammar": "UNKNOWN"
+  },
+  "tethys": {
+    "lemma": "tethys",
+    "en": "Latin form tethys (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "tetuli": {
+    "lemma": "tetuli",
+    "en": "I took care of it",
+    "grammar": "UNKNOWN"
+  },
+  "tetulisset": {
+    "lemma": "tetulisset",
+    "en": "he would have cared",
+    "grammar": "UNKNOWN"
+  },
+  "tetulit": {
+    "lemma": "tetulit",
+    "en": "petulant",
+    "grammar": "UNKNOWN"
+  },
+  "themis": {
+    "lemma": "themis",
+    "en": "themes",
+    "grammar": "UNKNOWN"
+  },
+  "thespiae": {
+    "lemma": "thespiae",
+    "en": "thespians",
+    "grammar": "UNKNOWN"
+  },
+  "thessala": {
+    "lemma": "thessala",
+    "en": "thessaly",
+    "grammar": "UNKNOWN"
+  },
+  "thessalia": {
+    "lemma": "thessalia",
+    "en": "thessaly",
+    "grammar": "UNKNOWN"
+  },
+  "thessaliae": {
+    "lemma": "thessaliae",
+    "en": "of Thessaly",
+    "grammar": "UNKNOWN"
+  },
+  "thiae": {
+    "lemma": "thiae",
+    "en": "of these",
+    "grammar": "UNKNOWN"
+  },
+  "thyiadas": {
+    "lemma": "thyiadas",
+    "en": "Latin form thyiadas (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "thyniam": {
+    "lemma": "thyniam",
+    "en": "Thyme",
+    "grammar": "UNKNOWN"
+  },
+  "thynos": {
+    "lemma": "thynos",
+    "en": "thins",
+    "grammar": "UNKNOWN"
+  },
+  "thyonianus": {
+    "lemma": "thyonianus",
+    "en": "Thyonian",
+    "grammar": "UNKNOWN"
+  },
+  "tiburs": {
+    "lemma": "tiburs",
+    "en": "tiger",
+    "grammar": "UNKNOWN"
+  },
+  "tiburtem": {
+    "lemma": "tiburtem",
+    "en": "tumult",
+    "grammar": "UNKNOWN"
+  },
+  "trinacria": {
+    "lemma": "trinacria",
+    "en": "Latin form trinacria (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "troicaque": {
+    "lemma": "troicaque",
+    "en": "troika",
+    "grammar": "UNKNOWN"
+  },
+  "umber": {
+    "lemma": "umber",
+    "en": "shadow",
+    "grammar": "UNKNOWN"
+  },
+  "uraniae": {
+    "lemma": "uraniae",
+    "en": "of uranium",
+    "grammar": "UNKNOWN"
+  },
+  "uriosque": {
+    "lemma": "uriosque",
+    "en": "and urios",
+    "grammar": "UNKNOWN"
+  },
+  "vatiniana": {
+    "lemma": "vatiniana",
+    "en": "Latin form vatiniana (proper name or poetic form)",
+    "grammar": "UNKNOWN"
+  },
+  "vatiniano": {
+    "lemma": "vatiniano",
+    "en": "Vatinian",
+    "grammar": "UNKNOWN"
+  },
+  "veraniolo": {
+    "lemma": "veraniolo",
+    "en": "summer man",
+    "grammar": "UNKNOWN"
+  },
+  "veraniolum": {
+    "lemma": "veraniolum",
+    "en": "summer",
+    "grammar": "UNKNOWN"
+  },
+  "veronae": {
+    "lemma": "veronae",
+    "en": "verona",
+    "grammar": "UNKNOWN"
+  },
+  "veronam": {
+    "lemma": "veronam",
+    "en": "verona",
+    "grammar": "UNKNOWN"
+  },
+  "veronensum": {
+    "lemma": "veronensum",
+    "en": "veronense",
+    "grammar": "UNKNOWN"
+  },
+  "vibenni": {
+    "lemma": "vibenni",
+    "en": "live",
+    "grammar": "UNKNOWN"
+  },
+  "violasse": {
+    "lemma": "violasse",
+    "en": "to have violated",
+    "grammar": "UNKNOWN"
+  },
+  "volusi": {
+    "lemma": "volusi",
+    "en": "I wanted",
+    "grammar": "UNKNOWN"
+  },
+  "voraciore": {
+    "lemma": "voraciore",
+    "en": "more voracious",
+    "grammar": "UNKNOWN"
+  }
+}

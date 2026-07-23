@@ -1,0 +1,707 @@
+{
+  "id": "catullus",
+  "title": "Catullus — Carmina",
+  "shortTitle": "De volledige gedichten van Catullus",
+  "author": "Catullus",
+  "year": -55,
+  "lang": "latin",
+  "chapters": [
+    {
+      "title": "Gedicht 1 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-001.txt",
+      "english": "english-001.txt",
+      "translationCredit": "Latijn: Perseus Digital Library (phi0472.phi001.perseus-lat2) · EN: Perseus English reference",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://catalog.perseus.org/catalog/urn:cts:latinLit:phi0472.phi001"
+    },
+    {
+      "title": "Gedicht 2 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-002.txt",
+      "english": "english-002.txt"
+    },
+    {
+      "title": "Gedicht 3 (18 verzen)",
+      "startLine": 1,
+      "original": "latin-003.txt",
+      "english": "english-003.txt"
+    },
+    {
+      "title": "Gedicht 4 (27 verzen)",
+      "startLine": 1,
+      "original": "latin-004.txt",
+      "english": "english-004.txt"
+    },
+    {
+      "title": "Gedicht 5 (13 verzen)",
+      "startLine": 1,
+      "original": "latin-005.txt",
+      "english": "english-005.txt"
+    },
+    {
+      "title": "Gedicht 6 (17 verzen)",
+      "startLine": 1,
+      "original": "latin-006.txt",
+      "english": "english-006.txt"
+    },
+    {
+      "title": "Gedicht 7 (12 verzen)",
+      "startLine": 1,
+      "original": "latin-007.txt",
+      "english": "english-007.txt"
+    },
+    {
+      "title": "Gedicht 8 (19 verzen)",
+      "startLine": 1,
+      "original": "latin-008.txt",
+      "english": "english-008.txt"
+    },
+    {
+      "title": "Gedicht 9 (11 verzen)",
+      "startLine": 1,
+      "original": "latin-009.txt",
+      "english": "english-009.txt"
+    },
+    {
+      "title": "Gedicht 10 (34 verzen)",
+      "startLine": 1,
+      "original": "latin-010.txt",
+      "english": "english-010.txt"
+    },
+    {
+      "title": "Gedicht 11 (24 verzen)",
+      "startLine": 1,
+      "original": "latin-011.txt",
+      "english": "english-011.txt"
+    },
+    {
+      "title": "Gedicht 12 (17 verzen)",
+      "startLine": 1,
+      "original": "latin-012.txt",
+      "english": "english-012.txt"
+    },
+    {
+      "title": "Gedicht 13 (14 verzen)",
+      "startLine": 1,
+      "original": "latin-013.txt",
+      "english": "english-013.txt"
+    },
+    {
+      "title": "Gedicht 14 (23 verzen)",
+      "startLine": 1,
+      "original": "latin-014.txt",
+      "english": "english-014.txt"
+    },
+    {
+      "title": "Gedicht 14a (3 verzen)",
+      "startLine": 1,
+      "original": "latin-015.txt",
+      "english": "english-015.txt"
+    },
+    {
+      "title": "Gedicht 15 (19 verzen)",
+      "startLine": 1,
+      "original": "latin-016.txt",
+      "english": "english-016.txt"
+    },
+    {
+      "title": "Gedicht 16 (14 verzen)",
+      "startLine": 1,
+      "original": "latin-017.txt",
+      "english": "english-017.txt"
+    },
+    {
+      "title": "Gedicht 17 (26 verzen)",
+      "startLine": 1,
+      "original": "latin-018.txt",
+      "english": "english-018.txt"
+    },
+    {
+      "title": "Gedicht 21 (13 verzen)",
+      "startLine": 1,
+      "original": "latin-019.txt",
+      "english": "english-019.txt"
+    },
+    {
+      "title": "Gedicht 22 (21 verzen)",
+      "startLine": 1,
+      "original": "latin-020.txt",
+      "english": "english-020.txt"
+    },
+    {
+      "title": "Gedicht 23 (27 verzen)",
+      "startLine": 1,
+      "original": "latin-021.txt",
+      "english": "english-021.txt"
+    },
+    {
+      "title": "Gedicht 24 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-022.txt",
+      "english": "english-022.txt"
+    },
+    {
+      "title": "Gedicht 25 (13 verzen)",
+      "startLine": 1,
+      "original": "latin-023.txt",
+      "english": "english-023.txt"
+    },
+    {
+      "title": "Gedicht 26 (5 verzen)",
+      "startLine": 1,
+      "original": "latin-024.txt",
+      "english": "english-024.txt"
+    },
+    {
+      "title": "Gedicht 27 (7 verzen)",
+      "startLine": 1,
+      "original": "latin-025.txt",
+      "english": "english-025.txt"
+    },
+    {
+      "title": "Gedicht 28 (15 verzen)",
+      "startLine": 1,
+      "original": "latin-026.txt",
+      "english": "english-026.txt"
+    },
+    {
+      "title": "Gedicht 29 (24 verzen)",
+      "startLine": 1,
+      "original": "latin-027.txt",
+      "english": "english-027.txt"
+    },
+    {
+      "title": "Gedicht 30 (12 verzen)",
+      "startLine": 1,
+      "original": "latin-028.txt",
+      "english": "english-028.txt"
+    },
+    {
+      "title": "Gedicht 31 (14 verzen)",
+      "startLine": 1,
+      "original": "latin-029.txt",
+      "english": "english-029.txt"
+    },
+    {
+      "title": "Gedicht 32 (11 verzen)",
+      "startLine": 1,
+      "original": "latin-030.txt",
+      "english": "english-030.txt"
+    },
+    {
+      "title": "Gedicht 33 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-031.txt",
+      "english": "english-031.txt"
+    },
+    {
+      "title": "Gedicht 34 (24 verzen)",
+      "startLine": 1,
+      "original": "latin-032.txt",
+      "english": "english-032.txt"
+    },
+    {
+      "title": "Gedicht 35 (18 verzen)",
+      "startLine": 1,
+      "original": "latin-033.txt",
+      "english": "english-033.txt"
+    },
+    {
+      "title": "Gedicht 36 (20 verzen)",
+      "startLine": 1,
+      "original": "latin-034.txt",
+      "english": "english-034.txt"
+    },
+    {
+      "title": "Gedicht 37 (20 verzen)",
+      "startLine": 1,
+      "original": "latin-035.txt",
+      "english": "english-035.txt"
+    },
+    {
+      "title": "Gedicht 38 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-036.txt",
+      "english": "english-036.txt"
+    },
+    {
+      "title": "Gedicht 39 (21 verzen)",
+      "startLine": 1,
+      "original": "latin-037.txt",
+      "english": "english-037.txt"
+    },
+    {
+      "title": "Gedicht 40 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-038.txt",
+      "english": "english-038.txt"
+    },
+    {
+      "title": "Gedicht 41 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-039.txt",
+      "english": "english-039.txt"
+    },
+    {
+      "title": "Gedicht 42 (24 verzen)",
+      "startLine": 1,
+      "original": "latin-040.txt",
+      "english": "english-040.txt"
+    },
+    {
+      "title": "Gedicht 43 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-041.txt",
+      "english": "english-041.txt"
+    },
+    {
+      "title": "Gedicht 44 (21 verzen)",
+      "startLine": 1,
+      "original": "latin-042.txt",
+      "english": "english-042.txt"
+    },
+    {
+      "title": "Gedicht 45 (26 verzen)",
+      "startLine": 1,
+      "original": "latin-043.txt",
+      "english": "english-043.txt"
+    },
+    {
+      "title": "Gedicht 46 (11 verzen)",
+      "startLine": 1,
+      "original": "latin-044.txt",
+      "english": "english-044.txt"
+    },
+    {
+      "title": "Gedicht 47 (7 verzen)",
+      "startLine": 1,
+      "original": "latin-045.txt",
+      "english": "english-045.txt"
+    },
+    {
+      "title": "Gedicht 48 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-046.txt",
+      "english": "english-046.txt"
+    },
+    {
+      "title": "Gedicht 49 (7 verzen)",
+      "startLine": 1,
+      "original": "latin-047.txt",
+      "english": "english-047.txt"
+    },
+    {
+      "title": "Gedicht 50 (21 verzen)",
+      "startLine": 1,
+      "original": "latin-048.txt",
+      "english": "english-048.txt"
+    },
+    {
+      "title": "Gedicht 51 (15 verzen)",
+      "startLine": 1,
+      "original": "latin-049.txt",
+      "english": "english-049.txt"
+    },
+    {
+      "title": "Gedicht 52 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-050.txt",
+      "english": "english-050.txt"
+    },
+    {
+      "title": "Gedicht 53 (5 verzen)",
+      "startLine": 1,
+      "original": "latin-051.txt",
+      "english": "english-051.txt"
+    },
+    {
+      "title": "Gedicht 54 (7 verzen)",
+      "startLine": 1,
+      "original": "latin-052.txt",
+      "english": "english-052.txt"
+    },
+    {
+      "title": "Gedicht 55 (22 verzen)",
+      "startLine": 1,
+      "original": "latin-053.txt",
+      "english": "english-053.txt"
+    },
+    {
+      "title": "Gedicht 56 (7 verzen)",
+      "startLine": 1,
+      "original": "latin-054.txt",
+      "english": "english-054.txt"
+    },
+    {
+      "title": "Gedicht 57 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-055.txt",
+      "english": "english-055.txt"
+    },
+    {
+      "title": "Gedicht 58 (5 verzen)",
+      "startLine": 1,
+      "original": "latin-056.txt",
+      "english": "english-056.txt"
+    },
+    {
+      "title": "Gedicht 59 (5 verzen)",
+      "startLine": 1,
+      "original": "latin-057.txt",
+      "english": "english-057.txt"
+    },
+    {
+      "title": "Gedicht 60 (5 verzen)",
+      "startLine": 1,
+      "original": "latin-058.txt",
+      "english": "english-058.txt"
+    },
+    {
+      "title": "Gedicht 61 (228 verzen)",
+      "startLine": 1,
+      "original": "latin-059.txt",
+      "english": "english-059.txt"
+    },
+    {
+      "title": "Gedicht 62 (66 verzen)",
+      "startLine": 1,
+      "original": "latin-060.txt",
+      "english": "english-060.txt"
+    },
+    {
+      "title": "Gedicht 63 (93 verzen)",
+      "startLine": 1,
+      "original": "latin-061.txt",
+      "english": "english-061.txt"
+    },
+    {
+      "title": "Gedicht 64 (409 verzen)",
+      "startLine": 1,
+      "original": "latin-062.txt",
+      "english": "english-062.txt"
+    },
+    {
+      "title": "Gedicht 65 (23 verzen)",
+      "startLine": 1,
+      "original": "latin-063.txt",
+      "english": "english-063.txt"
+    },
+    {
+      "title": "Gedicht 66 (94 verzen)",
+      "startLine": 1,
+      "original": "latin-064.txt",
+      "english": "english-064.txt"
+    },
+    {
+      "title": "Gedicht 67 (48 verzen)",
+      "startLine": 1,
+      "original": "latin-065.txt",
+      "english": "english-065.txt"
+    },
+    {
+      "title": "Gedicht 68 (40 verzen)",
+      "startLine": 1,
+      "original": "latin-066.txt",
+      "english": "english-066.txt"
+    },
+    {
+      "title": "Gedicht 68a (119 verzen)",
+      "startLine": 1,
+      "original": "latin-067.txt",
+      "english": "english-067.txt"
+    },
+    {
+      "title": "Gedicht 69 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-068.txt",
+      "english": "english-068.txt"
+    },
+    {
+      "title": "Gedicht 70 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-069.txt",
+      "english": "english-069.txt"
+    },
+    {
+      "title": "Gedicht 71 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-070.txt",
+      "english": "english-070.txt"
+    },
+    {
+      "title": "Gedicht 72 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-071.txt",
+      "english": "english-071.txt"
+    },
+    {
+      "title": "Gedicht 73 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-072.txt",
+      "english": "english-072.txt"
+    },
+    {
+      "title": "Gedicht 74 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-073.txt",
+      "english": "english-073.txt"
+    },
+    {
+      "title": "Gedicht 75 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-074.txt",
+      "english": "english-074.txt"
+    },
+    {
+      "title": "Gedicht 76 (26 verzen)",
+      "startLine": 1,
+      "original": "latin-075.txt",
+      "english": "english-075.txt"
+    },
+    {
+      "title": "Gedicht 77 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-076.txt",
+      "english": "english-076.txt"
+    },
+    {
+      "title": "Gedicht 78 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-077.txt",
+      "english": "english-077.txt"
+    },
+    {
+      "title": "Gedicht 79 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-078.txt",
+      "english": "english-078.txt"
+    },
+    {
+      "title": "Gedicht 80 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-079.txt",
+      "english": "english-079.txt"
+    },
+    {
+      "title": "Gedicht 81 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-080.txt",
+      "english": "english-080.txt"
+    },
+    {
+      "title": "Gedicht 82 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-081.txt",
+      "english": "english-081.txt"
+    },
+    {
+      "title": "Gedicht 83 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-082.txt",
+      "english": "english-082.txt"
+    },
+    {
+      "title": "Gedicht 84 (12 verzen)",
+      "startLine": 1,
+      "original": "latin-083.txt",
+      "english": "english-083.txt"
+    },
+    {
+      "title": "Gedicht 85 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-084.txt",
+      "english": "english-084.txt"
+    },
+    {
+      "title": "Gedicht 86 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-085.txt",
+      "english": "english-085.txt"
+    },
+    {
+      "title": "Gedicht 87 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-086.txt",
+      "english": "english-086.txt"
+    },
+    {
+      "title": "Gedicht 88 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-087.txt",
+      "english": "english-087.txt"
+    },
+    {
+      "title": "Gedicht 89 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-088.txt",
+      "english": "english-088.txt"
+    },
+    {
+      "title": "Gedicht 90 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-089.txt",
+      "english": "english-089.txt"
+    },
+    {
+      "title": "Gedicht 91 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-090.txt",
+      "english": "english-090.txt"
+    },
+    {
+      "title": "Gedicht 92 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-091.txt",
+      "english": "english-091.txt"
+    },
+    {
+      "title": "Gedicht 93 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-092.txt",
+      "english": "english-092.txt"
+    },
+    {
+      "title": "Gedicht 94 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-093.txt",
+      "english": "english-093.txt"
+    },
+    {
+      "title": "Gedicht 95 (9 verzen)",
+      "startLine": 1,
+      "original": "latin-094.txt",
+      "english": "english-094.txt"
+    },
+    {
+      "title": "Gedicht 96 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-095.txt",
+      "english": "english-095.txt"
+    },
+    {
+      "title": "Gedicht 97 (12 verzen)",
+      "startLine": 1,
+      "original": "latin-096.txt",
+      "english": "english-096.txt"
+    },
+    {
+      "title": "Gedicht 98 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-097.txt",
+      "english": "english-097.txt"
+    },
+    {
+      "title": "Gedicht 99 (16 verzen)",
+      "startLine": 1,
+      "original": "latin-098.txt",
+      "english": "english-098.txt"
+    },
+    {
+      "title": "Gedicht 100 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-099.txt",
+      "english": "english-099.txt"
+    },
+    {
+      "title": "Gedicht 101 (10 verzen)",
+      "startLine": 1,
+      "original": "latin-100.txt",
+      "english": "english-100.txt"
+    },
+    {
+      "title": "Gedicht 102 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-101.txt",
+      "english": "english-101.txt"
+    },
+    {
+      "title": "Gedicht 103 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-102.txt",
+      "english": "english-102.txt"
+    },
+    {
+      "title": "Gedicht 104 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-103.txt",
+      "english": "english-103.txt"
+    },
+    {
+      "title": "Gedicht 105 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-104.txt",
+      "english": "english-104.txt"
+    },
+    {
+      "title": "Gedicht 106 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-105.txt",
+      "english": "english-105.txt"
+    },
+    {
+      "title": "Gedicht 107 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-106.txt",
+      "english": "english-106.txt"
+    },
+    {
+      "title": "Gedicht 108 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-107.txt",
+      "english": "english-107.txt"
+    },
+    {
+      "title": "Gedicht 109 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-108.txt",
+      "english": "english-108.txt"
+    },
+    {
+      "title": "Gedicht 110 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-109.txt",
+      "english": "english-109.txt"
+    },
+    {
+      "title": "Gedicht 111 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-110.txt",
+      "english": "english-110.txt"
+    },
+    {
+      "title": "Gedicht 112 (2 verzen)",
+      "startLine": 1,
+      "original": "latin-111.txt",
+      "english": "english-111.txt"
+    },
+    {
+      "title": "Gedicht 113 (4 verzen)",
+      "startLine": 1,
+      "original": "latin-112.txt",
+      "english": "english-112.txt"
+    },
+    {
+      "title": "Gedicht 114 (6 verzen)",
+      "startLine": 1,
+      "original": "latin-113.txt",
+      "english": "english-113.txt"
+    },
+    {
+      "title": "Gedicht 115 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-114.txt",
+      "english": "english-114.txt"
+    },
+    {
+      "title": "Gedicht 116 (8 verzen)",
+      "startLine": 1,
+      "original": "latin-115.txt",
+      "english": "english-115.txt"
+    }
+  ],
+  "source": {
+    "latin": "Perseus Digital Library, phi0472.phi001.perseus-lat2 (revision e69eee761e5bd89c00a5d0744efa2367c5e1d7e3)",
+    "english": "Perseus English reference (revision e69eee761e5bd89c00a5d0744efa2367c5e1d7e3)"
+  }
+}
