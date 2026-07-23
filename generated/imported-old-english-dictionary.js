@@ -1528,23 +1528,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-ðenċan"
   },
   "abead": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the word declared:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "abead"
   },
   "abeag": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: craftily clamped; though there crashed from sill",
+    "grammar": "Contextual translation",
     "lemma": "abeag"
   },
   "abealch": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: held the house of the hoard in earth",
+    "grammar": "Contextual translation",
     "lemma": "abealch"
   },
   "abel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by sovran God for slaughtered Abel.",
+    "grammar": "Contextual translation",
     "lemma": "abel"
   },
   "abelgan": {
@@ -1563,8 +1563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-bīdan"
   },
   "abreat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whom she killed on his couch, a clansman famous,",
+    "grammar": "Contextual translation",
     "lemma": "abreat"
   },
   "abrecan": {
@@ -1573,8 +1573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-brecan"
   },
   "abredwade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-gear brave: though a brother's child",
+    "grammar": "Contextual translation",
     "lemma": "abredwade"
   },
   "abredwian": {
@@ -1588,8 +1588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-breġdan"
   },
   "abreot": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ancient and awful, gave answering blow;",
+    "grammar": "Contextual translation",
     "lemma": "abreot"
   },
   "abreotan": {
@@ -1598,18 +1598,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-brēotan"
   },
   "abroten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the wolf-of-the-waves had won his life.",
+    "grammar": "Contextual translation",
     "lemma": "abroten"
   },
   "abræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: prince and people must pay betimes!",
+    "grammar": "Contextual translation",
     "lemma": "abræc"
   },
   "abræd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but once in his life! But Wyrd denied it,",
+    "grammar": "Contextual translation",
     "lemma": "abræd"
   },
   "abugan": {
@@ -1628,8 +1628,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-cennan"
   },
   "acenned": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor any brood that was born to him",
+    "grammar": "Contextual translation",
     "lemma": "acenned"
   },
   "acigan": {
@@ -1638,13 +1638,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-ċīġan"
   },
   "acigde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And now the sage young son of Weohstan",
+    "grammar": "Contextual translation",
     "lemma": "acigde"
   },
   "acwealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the doughty-in-combat a dragon killed",
+    "grammar": "Contextual translation",
     "lemma": "acwealde"
   },
   "acwellan": {
@@ -1658,13 +1658,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-cweðan"
   },
   "acwyð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tests the temper and tries the soul",
+    "grammar": "Contextual translation",
     "lemma": "acwyð"
   },
   "acwæð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: let him wield the wine hall: a word he added:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "acwæð"
   },
   "ad": {
@@ -1683,8 +1683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ād-faru"
   },
   "ade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: All on the pyre were plain to see",
+    "grammar": "Contextual translation",
     "lemma": "ade"
   },
   "adfaru": {
@@ -1693,8 +1693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ād-faru"
   },
   "adfære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and bear the bountiful breaker-of-rings",
+    "grammar": "Contextual translation",
     "lemma": "adfære"
   },
   "adl": {
@@ -1713,8 +1713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-fēdan"
   },
   "afeded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the land they loved, would lead them back!",
+    "grammar": "Contextual translation",
     "lemma": "afeded"
   },
   "afyllan": {
@@ -1723,8 +1723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-fyllan"
   },
   "afylled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled with friends; the folk of Scyldings",
+    "grammar": "Contextual translation",
     "lemma": "afylled"
   },
   "ag": {
@@ -1778,8 +1778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-gangan"
   },
   "agangen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: destiny dire, and the doom to be seen",
+    "grammar": "Contextual translation",
     "lemma": "agangen"
   },
   "age": {
@@ -1788,13 +1788,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āgen"
   },
   "ageaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Soon the sage old sire5 of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "ageaf"
   },
   "ageald": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, since fate was with me,",
+    "grammar": "Contextual translation",
     "lemma": "ageald"
   },
   "agen": {
@@ -1828,8 +1828,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āgend-frēa"
   },
   "agendes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet no greed for gold, but the grace of heaven,",
+    "grammar": "Contextual translation",
     "lemma": "agendes"
   },
   "agendfrea": {
@@ -1838,8 +1838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āgend-frēa"
   },
   "agendfrean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warrior blithe. The wave-roamer bode",
+    "grammar": "Contextual translation",
     "lemma": "agendfrean"
   },
   "agifan": {
@@ -1853,13 +1853,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āg-lǣċa"
   },
   "aglæcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: monster cruel, be mine to quell",
+    "grammar": "Contextual translation",
     "lemma": "aglæcan"
   },
   "aglæcean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no sword to the serpent, if sure I knew",
+    "grammar": "Contextual translation",
     "lemma": "aglæcean"
   },
   "aglæcwif": {
@@ -1868,8 +1868,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āg-lǣċ-wīf"
   },
   "agol": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then sang on her head that seemly blade",
+    "grammar": "Contextual translation",
     "lemma": "agol"
   },
   "agyldan": {
@@ -1903,8 +1903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āh-lǣċa"
   },
   "ahafen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: then after wassail was wail uplifted,",
+    "grammar": "Contextual translation",
     "lemma": "ahafen"
   },
   "ahebban": {
@@ -1918,8 +1918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-hlēapan"
   },
   "ahleop": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Leaped up the graybeard: God he thanked,",
+    "grammar": "Contextual translation",
     "lemma": "ahleop"
   },
   "ahli(e)hhan(ahlæhhan)": {
@@ -1928,8 +1928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-hli(e)hhan(ā-hlæhhan)"
   },
   "ahlog": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy liegemen. Then laughed his heart;",
+    "grammar": "Contextual translation",
     "lemma": "ahlog"
   },
   "ahlæca": {
@@ -1938,8 +1938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āh-lǣċa"
   },
   "ahlæcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rest for the night; he knew there waited",
+    "grammar": "Contextual translation",
     "lemma": "ahlæcan"
   },
   "ahreddan": {
@@ -1948,8 +1948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-hreddan"
   },
   "ahredde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ancient and awful, gave answering blow;",
+    "grammar": "Contextual translation",
     "lemma": "ahredde"
   },
   "ahsian(ascian)": {
@@ -1958,13 +1958,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āhsian(āscian)"
   },
   "ahsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what time, in his daring, dangers he sought,",
+    "grammar": "Contextual translation",
     "lemma": "ahsode"
   },
   "ahsodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: avenging the Weders,2 whose woe they sought, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ahsodon"
   },
   "aht": {
@@ -1973,8 +1973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āht"
   },
   "ahte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the leader beloved who long had ruled....",
+    "grammar": "Contextual translation",
     "lemma": "ahte"
   },
   "ahyrdan": {
@@ -1983,8 +1983,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-hyrdan"
   },
   "ahæfen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heaped from hoard. \u0015 The hardy Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "ahæfen"
   },
   "al walda": {
@@ -2008,13 +2008,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "al-walda"
   },
   "alamp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: carried the cup, till come the moment",
+    "grammar": "Contextual translation",
     "lemma": "alamp"
   },
   "aldor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: away from the world, till awoke an heir,",
+    "grammar": "Contextual translation",
     "lemma": "aldor"
   },
   "aldor( )": {
@@ -2033,53 +2033,53 @@ const OLD_ENGLISH_DICT = {
     "lemma": "aldor(-)"
   },
   "aldorbealu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aught ill for thy earls, as erst thou must!\"",
+    "grammar": "Contextual translation",
     "lemma": "aldorbealu"
   },
   "aldorceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to earls and athelings all he proved.",
+    "grammar": "Contextual translation",
     "lemma": "aldorceare"
   },
   "aldordagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet ne'er in his life-day, late or early,",
+    "grammar": "Contextual translation",
     "lemma": "aldordagum"
   },
   "aldorgedal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from edge of iron. Yet his end and parting",
+    "grammar": "Contextual translation",
     "lemma": "aldorgedal"
   },
   "aldorlease": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that erst they had lacked an earl for leader",
+    "grammar": "Contextual translation",
     "lemma": "aldorlease"
   },
   "aldorleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spoiled of life, so scathed had left him",
+    "grammar": "Contextual translation",
     "lemma": "aldorleasne"
   },
   "aldorþegn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when he knew his noble no more lived,",
+    "grammar": "Contextual translation",
     "lemma": "aldorþegn"
   },
   "aldre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the doughty prince, if he deign at all",
+    "grammar": "Contextual translation",
     "lemma": "aldre"
   },
   "aldres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that here was the last of life, an end",
+    "grammar": "Contextual translation",
     "lemma": "aldres"
   },
   "aldrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to risk your lives? No living man,",
+    "grammar": "Contextual translation",
     "lemma": "aldrum"
   },
   "alecgan": {
@@ -2088,18 +2088,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-lecgan"
   },
   "aledon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: there laid they down their darling lord",
+    "grammar": "Contextual translation",
     "lemma": "aledon"
   },
   "alegde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght a hand laid down,",
+    "grammar": "Contextual translation",
     "lemma": "alegde"
   },
   "alegdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and breastplates bright, as the boon he asked;",
+    "grammar": "Contextual translation",
     "lemma": "alegdon"
   },
   "aleh": {
@@ -2118,8 +2118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-licgan"
   },
   "alicgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: joy of the house and home-delight",
+    "grammar": "Contextual translation",
     "lemma": "alicgean"
   },
   "alimpan": {
@@ -2128,13 +2128,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-limpan"
   },
   "altogether": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "altogether"
   },
   "alumpen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: life from body, since lusty banquet",
+    "grammar": "Contextual translation",
     "lemma": "alumpen"
   },
   "alwalda": {
@@ -2143,23 +2143,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "al-walda"
   },
   "alwealdan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"For the sight I see to the Sovran Ruler",
+    "grammar": "Contextual translation",
     "lemma": "alwealdan"
   },
   "alyfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Never to any man erst I trusted,",
+    "grammar": "Contextual translation",
     "lemma": "alyfde"
   },
   "alysed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: deftly they do\u001bed: now drowsed the mere,",
+    "grammar": "Contextual translation",
     "lemma": "alysed"
   },
   "alæg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the gleaming blade that its glory fell.",
+    "grammar": "Contextual translation",
     "lemma": "alæg"
   },
   "alætan": {
@@ -2168,8 +2168,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-lǣtan"
   },
   "alæte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as in youthful days of yore thou vowedst",
+    "grammar": "Contextual translation",
     "lemma": "alæte"
   },
   "alуfan": {
@@ -2383,8 +2383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "an-wīġ-ġearo"
   },
   "ana": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one against all; until empty stood",
+    "grammar": "Contextual translation",
     "lemma": "ana"
   },
   "ancor": {
@@ -2408,8 +2408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ancor-bend"
   },
   "ancre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broad-bosomed ship. \u0015 Then shone the boars2",
+    "grammar": "Contextual translation",
     "lemma": "ancre"
   },
   "and": {
@@ -2553,8 +2553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "anda"
   },
   "andan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wakeful, ready, with warrior's wrath,",
+    "grammar": "Contextual translation",
     "lemma": "andan"
   },
   "anddrysno": {
@@ -2583,8 +2583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "and-long"
   },
   "andlongne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'TWAS now, men say, in his sovran's need",
+    "grammar": "Contextual translation",
     "lemma": "andlongne"
   },
   "andrysn": {
@@ -2613,8 +2613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "and-swarian(w.chiefstressonprefix)"
   },
   "andswarode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him the sturdy-in-war bespake with words,",
+    "grammar": "Contextual translation",
     "lemma": "andswarode"
   },
   "andswaru": {
@@ -2633,18 +2633,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "and-wlita"
   },
   "andwlitan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the head of the earl, while all about him",
+    "grammar": "Contextual translation",
     "lemma": "andwlitan"
   },
   "ane": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with night returning, anew began",
+    "grammar": "Contextual translation",
     "lemma": "ane"
   },
   "anes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over their enemy all prevailed,",
+    "grammar": "Contextual translation",
     "lemma": "anes"
   },
   "anfeald": {
@@ -2653,8 +2653,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ān-feald"
   },
   "anfealdne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: simple advice: the sooner the better",
+    "grammar": "Contextual translation",
     "lemma": "anfealdne"
   },
   "ang": {
@@ -2668,8 +2668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ānga"
   },
   "angan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his only daughter. Their o\u001bspring bold",
+    "grammar": "Contextual translation",
     "lemma": "angan"
   },
   "ange": {
@@ -2678,8 +2678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ānga"
   },
   "angeald": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THEN sank they to sleep. With sorrow one bought",
+    "grammar": "Contextual translation",
     "lemma": "angeald"
   },
   "angeat": {
@@ -2693,8 +2693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ān-genġa"
   },
   "angengea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lonely roamer, wrought unceasing,",
+    "grammar": "Contextual translation",
     "lemma": "angengea"
   },
   "angyldan": {
@@ -2713,8 +2713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "an-hār"
   },
   "anhydig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thy glory droop! Now, great in deeds,",
+    "grammar": "Contextual translation",
     "lemma": "anhydig"
   },
   "anhуdig": {
@@ -2723,13 +2723,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ān-hӯdiġ"
   },
   "anne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet a single atheling up she seized",
+    "grammar": "Contextual translation",
     "lemma": "anne"
   },
   "anpaðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: narrow passes and unknown ways,",
+    "grammar": "Contextual translation",
     "lemma": "anpaðas"
   },
   "anpæð": {
@@ -2738,13 +2738,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ān-pæð"
   },
   "anra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: savage, to sever the soul of each,",
+    "grammar": "Contextual translation",
     "lemma": "anra"
   },
   "anre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Scyldings'-bulwark, a boon I seek, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "anre"
   },
   "anræd": {
@@ -2758,13 +2758,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "an-sund"
   },
   "ansyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his peerless presence! I pray you, though, tell",
+    "grammar": "Contextual translation",
     "lemma": "ansyn"
   },
   "ansyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"For the sight I see to the Sovran Ruler",
+    "grammar": "Contextual translation",
     "lemma": "ansyne"
   },
   "ansуn": {
@@ -2778,8 +2778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ān-tīd"
   },
   "anum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all save one. 'Twas widely known",
+    "grammar": "Contextual translation",
     "lemma": "anum"
   },
   "anung": {
@@ -2803,8 +2803,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "an-walda"
   },
   "anwaldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his Maker's mercy put his trust",
+    "grammar": "Contextual translation",
     "lemma": "anwaldan"
   },
   "anwiggearo": {
@@ -2853,18 +2853,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ār-stafas"
   },
   "aras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Uprose the mighty one, ringed with his men,",
+    "grammar": "Contextual translation",
     "lemma": "aras"
   },
   "arað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He forces pledges, favors none",
+    "grammar": "Contextual translation",
     "lemma": "arað"
   },
   "are": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "are"
   },
   "arfæst": {
@@ -2888,8 +2888,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ārian"
   },
   "aris": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Rise, O realm-warder! Ride we anon,",
+    "grammar": "Contextual translation",
     "lemma": "aris"
   },
   "arisan": {
@@ -2898,18 +2898,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-rīsan"
   },
   "arna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of gift and grace to gain him honor!\"",
+    "grammar": "Contextual translation",
     "lemma": "arna"
   },
   "arscyldinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over surge of ocean the Honor-Scyldings,",
+    "grammar": "Contextual translation",
     "lemma": "arscyldinga"
   },
   "arscyldingum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the heroes a help. Was not Heremod thus",
+    "grammar": "Contextual translation",
     "lemma": "arscyldingum"
   },
   "arstafas": {
@@ -2918,13 +2918,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ār-stafas"
   },
   "arstafum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in grace and mercy guard you well,",
+    "grammar": "Contextual translation",
     "lemma": "arstafum"
   },
   "arum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: faithfully watching till once again",
+    "grammar": "Contextual translation",
     "lemma": "arum"
   },
   "aræran": {
@@ -2933,13 +2933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-rǣran"
   },
   "arærdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There were many to bind the brother's wounds",
+    "grammar": "Contextual translation",
     "lemma": "arærdon"
   },
   "aræred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the better breed! So, borne aloft,",
+    "grammar": "Contextual translation",
     "lemma": "aræred"
   },
   "asecgan": {
@@ -2948,8 +2948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-secgan"
   },
   "aseted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so heroes heard, a hall-defender,",
+    "grammar": "Contextual translation",
     "lemma": "aseted"
   },
   "asettan": {
@@ -2958,8 +2958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-settan"
   },
   "asetton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: High o'er his head they hoist the standard,",
+    "grammar": "Contextual translation",
     "lemma": "asetton"
   },
   "asingan": {
@@ -2968,13 +2968,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-singan"
   },
   "astag": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in smoke engulfed it. \u0015 Again uprose",
+    "grammar": "Contextual translation",
     "lemma": "astag"
   },
   "astah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bewept them the woman: great wailing ascended.",
+    "grammar": "Contextual translation",
     "lemma": "astah"
   },
   "astandan": {
@@ -2988,18 +2988,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-stīgan"
   },
   "astigeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thence the welter of waters washes up",
+    "grammar": "Contextual translation",
     "lemma": "astigeð"
   },
   "astod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of his boast at evening: up he bounded,",
+    "grammar": "Contextual translation",
     "lemma": "astod"
   },
   "asungen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nished,",
+    "grammar": "Contextual translation",
     "lemma": "asungen"
   },
   "aswebban": {
@@ -3008,18 +3008,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-swebban"
   },
   "aswefede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: put to sleep by the sword. And since, by them",
+    "grammar": "Contextual translation",
     "lemma": "aswefede"
   },
   "ateah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Heorot this monster of harm had made!",
+    "grammar": "Contextual translation",
     "lemma": "ateah"
   },
   "atelic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled, each one,",
+    "grammar": "Contextual translation",
     "lemma": "atelic"
   },
   "atelic(=atol lic)": {
@@ -3068,8 +3068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āter-tān"
   },
   "atertanum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: iron was its edge, all etched with poison,",
+    "grammar": "Contextual translation",
     "lemma": "atertanum"
   },
   "atol": {
@@ -3078,18 +3078,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "atol"
   },
   "atolan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the warrior seized; yet scathed she not",
+    "grammar": "Contextual translation",
     "lemma": "atolan"
   },
   "atole": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from sword-clash dread of your Danish clan",
+    "grammar": "Contextual translation",
     "lemma": "atole"
   },
   "attor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his breast was boiling, baleful and deep,",
+    "grammar": "Contextual translation",
     "lemma": "attor"
   },
   "attor sceaða": {
@@ -3123,8 +3123,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āttor-sceaða"
   },
   "attres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght I must fear me now,",
+    "grammar": "Contextual translation",
     "lemma": "attres"
   },
   "aw": {
@@ -3148,8 +3148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-wrecan"
   },
   "awræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of virtue advise thee! This verse I have said for thee,",
+    "grammar": "Contextual translation",
     "lemma": "awræc"
   },
   "awyrdan": {
@@ -3158,8 +3158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-wyrdan"
   },
   "awyrded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slain by the sword: at the slaughter they fell.",
+    "grammar": "Contextual translation",
     "lemma": "awyrded"
   },
   "að": {
@@ -3178,8 +3178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āð-sweord"
   },
   "aða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: feuds I sought not, nor falsely swore",
+    "grammar": "Contextual translation",
     "lemma": "aða"
   },
   "aðencan": {
@@ -3188,8 +3188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ā-ðenċan"
   },
   "aðohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and hardy 'neath helm, though this hero-work",
+    "grammar": "Contextual translation",
     "lemma": "aðohte"
   },
   "aðsweord": {
@@ -3198,8 +3198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āð-sweord"
   },
   "aþas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: treasures olden: oaths he3 swore me.",
+    "grammar": "Contextual translation",
     "lemma": "aþas"
   },
   "aþum sweoras": {
@@ -3228,8 +3228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "āþum-swēoras"
   },
   "aþumsweorum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when father and son-in-law stood in feud",
+    "grammar": "Contextual translation",
     "lemma": "aþumsweorum"
   },
   "b": {
@@ -3243,8 +3243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bā"
   },
   "bad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high, gabled wide, the hot surge waiting",
+    "grammar": "Contextual translation",
     "lemma": "bad"
   },
   "baldor": {
@@ -3258,8 +3258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "balu"
   },
   "balwon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in baleful bonds, where bide he must,",
+    "grammar": "Contextual translation",
     "lemma": "balwon"
   },
   "bam": {
@@ -3368,8 +3368,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bana"
   },
   "banan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish hands.",
+    "grammar": "Contextual translation",
     "lemma": "banan"
   },
   "bancofa": {
@@ -3378,8 +3378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bān-cofa"
   },
   "bancofan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: well could it ward the warrior's body",
+    "grammar": "Contextual translation",
     "lemma": "bancofan"
   },
   "bane": {
@@ -3388,8 +3388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bana"
   },
   "banena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after havoc of heroes, those hardy Scyldings?",
+    "grammar": "Contextual translation",
     "lemma": "banena"
   },
   "banfag": {
@@ -3398,8 +3398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bān-fāg"
   },
   "banfatu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re placed,",
+    "grammar": "Contextual translation",
     "lemma": "banfatu"
   },
   "banfæt": {
@@ -3418,8 +3418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bān-hrinġ"
   },
   "banhringas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: her bone-rings breaking: the blade pierced through",
+    "grammar": "Contextual translation",
     "lemma": "banhringas"
   },
   "banhus": {
@@ -3433,13 +3433,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bān-loca"
   },
   "banlocan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bone-frame bit, drank blood in streams,",
+    "grammar": "Contextual translation",
     "lemma": "banlocan"
   },
   "banum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-grim, burning; its bitter teeth",
+    "grammar": "Contextual translation",
     "lemma": "banum"
   },
   "bat": {
@@ -3463,8 +3463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bāt-weard"
   },
   "batwearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rose over Hrothgar's hoarded gems.",
+    "grammar": "Contextual translation",
     "lemma": "batwearde"
   },
   "be": {
@@ -4468,8 +4468,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēacen"
   },
   "beacna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his own good will, and the ensign took,",
+    "grammar": "Contextual translation",
     "lemma": "beacna"
   },
   "beado": {
@@ -4558,8 +4558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beado-grīma"
   },
   "beadogriman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall part from its plating. Polishers sleep",
+    "grammar": "Contextual translation",
     "lemma": "beadogriman"
   },
   "beadohrægl": {
@@ -4573,8 +4573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beado-lēoma"
   },
   "beadomecas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brandished in battle, could bite that helm.",
+    "grammar": "Contextual translation",
     "lemma": "beadomecas"
   },
   "beadomece": {
@@ -4588,8 +4588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beado-rinċ"
   },
   "beadorinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re lay.",
+    "grammar": "Contextual translation",
     "lemma": "beadorinca"
   },
   "beadu folm": {
@@ -4673,8 +4673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-folm"
   },
   "beadufolme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that battle-hand bloody from baneful foe.",
+    "grammar": "Contextual translation",
     "lemma": "beadufolme"
   },
   "beadulac": {
@@ -4683,8 +4683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-lāc"
   },
   "beadulace": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to bandy-of-battle could bear at all \u0015",
+    "grammar": "Contextual translation",
     "lemma": "beadulace"
   },
   "beadurof": {
@@ -4693,8 +4693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-rōf"
   },
   "beadurofes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in ten days' time their toil had raised it,",
+    "grammar": "Contextual translation",
     "lemma": "beadurofes"
   },
   "beadurun": {
@@ -4703,8 +4703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-rūn"
   },
   "beadurune": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unbound the battle-runes.1 \u0015 Beowulf's quest,",
+    "grammar": "Contextual translation",
     "lemma": "beadurune"
   },
   "beaduscearp": {
@@ -4718,8 +4718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-scrūd"
   },
   "beaduscruda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of war-weeds, warding my breast,",
+    "grammar": "Contextual translation",
     "lemma": "beaduscruda"
   },
   "beaduserce": {
@@ -4728,23 +4728,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beadu-serċe"
   },
   "beadusercean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-sick warrior, \u0015 woven mail-coat,",
+    "grammar": "Contextual translation",
     "lemma": "beadusercean"
   },
   "beaduwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: none in the waste.... Yet war he desired,",
+    "grammar": "Contextual translation",
     "lemma": "beaduwe"
   },
   "beadwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold he bided the battle's issue.",
+    "grammar": "Contextual translation",
     "lemma": "beadwa"
   },
   "beadwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled with wrath,",
+    "grammar": "Contextual translation",
     "lemma": "beadwe"
   },
   "beag": {
@@ -4793,23 +4793,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēag-hroden"
   },
   "beaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the breast of the boat, the breaker-of-rings,2",
+    "grammar": "Contextual translation",
     "lemma": "beaga"
   },
   "beagas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Not reckless of promise, the rings he dealt,",
+    "grammar": "Contextual translation",
     "lemma": "beagas"
   },
   "beage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under gold-crown goes where the good pair sit,",
+    "grammar": "Contextual translation",
     "lemma": "beage"
   },
   "beages": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This jewel enjoy in thy jocund youth,",
+    "grammar": "Contextual translation",
     "lemma": "beages"
   },
   "beaggyfa": {
@@ -4818,8 +4818,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēag-ġyfa"
   },
   "beaggyfan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as forced to follow their fee-giver's slayer,",
+    "grammar": "Contextual translation",
     "lemma": "beaggyfan"
   },
   "beaghroden": {
@@ -4893,18 +4893,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēah-hord"
   },
   "beahhorda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crowned with glory, the king himself,",
+    "grammar": "Contextual translation",
     "lemma": "beahhorda"
   },
   "beahhordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over the ring-hoard to rule at will,",
+    "grammar": "Contextual translation",
     "lemma": "beahhordes"
   },
   "beahhordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awful earth-dragon, empty of breath,",
+    "grammar": "Contextual translation",
     "lemma": "beahhordum"
   },
   "beahsele": {
@@ -4918,13 +4918,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēah-wriða"
   },
   "beahwriðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people's peace-bringer, passed through the hall,",
+    "grammar": "Contextual translation",
     "lemma": "beahwriðan"
   },
   "beahðege": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slender and saddle-gay. Since such gift",
+    "grammar": "Contextual translation",
     "lemma": "beahðege"
   },
   "beahðegu": {
@@ -4948,8 +4948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bealdian"
   },
   "bealdode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gem gleamed bright on the breast of the queen.",
+    "grammar": "Contextual translation",
     "lemma": "bealdode"
   },
   "bealdor": {
@@ -4958,8 +4958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bealdor"
   },
   "bealewa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet none the earlier, empty-handed,",
+    "grammar": "Contextual translation",
     "lemma": "bealewa"
   },
   "bealo": {
@@ -5033,13 +5033,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bealo-hycgende"
   },
   "bealohycgendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heirloom old; and each of the two",
+    "grammar": "Contextual translation",
     "lemma": "bealohycgendra"
   },
   "bealohydig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and baleful he burst in his blatant rage,",
+    "grammar": "Contextual translation",
     "lemma": "bealohydig"
   },
   "bealohуdig": {
@@ -5053,33 +5053,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bealo-nīð"
   },
   "bealoniðbiorna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He had heard whence all the harm arose",
+    "grammar": "Contextual translation",
     "lemma": "bealoniðbiorna"
   },
   "bealoniðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to swell and smart; and soon he found",
+    "grammar": "Contextual translation",
     "lemma": "bealoniðe"
   },
   "bealuwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of cruel contest, if cure shall follow,",
+    "grammar": "Contextual translation",
     "lemma": "bealuwa"
   },
   "bealwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who had hoped of him help from harm and bale,",
+    "grammar": "Contextual translation",
     "lemma": "bealwa"
   },
   "bealwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awful earth-dragon, empty of breath,",
+    "grammar": "Contextual translation",
     "lemma": "bealwe"
   },
   "beanstanes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beanstan's bairn2 his boast achieved.",
+    "grammar": "Contextual translation",
     "lemma": "beanstanes"
   },
   "bearhtm": {
@@ -5093,8 +5093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bearm"
   },
   "bearme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his father's friends, by fee and gift,",
+    "grammar": "Contextual translation",
     "lemma": "bearme"
   },
   "bearn": {
@@ -5113,13 +5113,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bearn-ġebyrdo"
   },
   "bearna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the refuge ready for race of man,",
+    "grammar": "Contextual translation",
     "lemma": "bearna"
   },
   "bearne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where Hygd made him o\u001ber of hoard and realm,",
+    "grammar": "Contextual translation",
     "lemma": "bearne"
   },
   "bearngebyrdo": {
@@ -5128,8 +5128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bearn-ġebyrdo"
   },
   "bearnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tidings true to the tribes of men,",
+    "grammar": "Contextual translation",
     "lemma": "bearnum"
   },
   "bearu": {
@@ -5138,8 +5138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bearu"
   },
   "bearwas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and o'er it the frost-bound forest hanging,",
+    "grammar": "Contextual translation",
     "lemma": "bearwas"
   },
   "beat": {
@@ -5158,13 +5158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēatan"
   },
   "beateð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no glee-wood's gladness! No good hawk now eet",
+    "grammar": "Contextual translation",
     "lemma": "beateð"
   },
   "bebead": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-gear guarding, as bade the chief.",
+    "grammar": "Contextual translation",
     "lemma": "bebead"
   },
   "bebeodan": {
@@ -5178,13 +5178,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-beorgan"
   },
   "bebeorh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the royal riches, nor recks of his forebear.",
+    "grammar": "Contextual translation",
     "lemma": "bebeorh"
   },
   "bebohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or ever the day of my death be run!",
+    "grammar": "Contextual translation",
     "lemma": "bebohte"
   },
   "bebugan": {
@@ -5193,8 +5193,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-būgan"
   },
   "bebugeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: elds enfolded by water,",
+    "grammar": "Contextual translation",
     "lemma": "bebugeð"
   },
   "bebycgan": {
@@ -5203,8 +5203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-bycgan"
   },
   "becearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sword-stroke savage, that severed its head.",
+    "grammar": "Contextual translation",
     "lemma": "becearf"
   },
   "beceorfan": {
@@ -5218,8 +5218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēcn"
   },
   "becom": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd at fall of night",
+    "grammar": "Contextual translation",
     "lemma": "becom"
   },
   "becuman": {
@@ -5228,13 +5228,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-cuman"
   },
   "becwom": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil wrought, till his end drew nigh,",
+    "grammar": "Contextual translation",
     "lemma": "becwom"
   },
   "bed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bed in the bowers,1 when that bale was shown,",
+    "grammar": "Contextual translation",
     "lemma": "bed"
   },
   "bed(d)": {
@@ -5243,13 +5243,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bed(d)"
   },
   "beddes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dusk o'er the drinkers. The doughty ones rose:",
+    "grammar": "Contextual translation",
     "lemma": "beddes"
   },
   "beddum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beds and bolsters. \u0015 One beer-carouser",
+    "grammar": "Contextual translation",
     "lemma": "beddum"
   },
   "bedælan": {
@@ -5258,8 +5258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-dǣlan"
   },
   "bedæled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: parted from peace;1 the portal opended,",
+    "grammar": "Contextual translation",
     "lemma": "bedæled"
   },
   "bee": {
@@ -5268,8 +5268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēon"
   },
   "befangen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed to the moor.",
+    "grammar": "Contextual translation",
     "lemma": "befangen"
   },
   "befeallan": {
@@ -5278,8 +5278,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-feallan"
   },
   "befeallen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd the Frisian land,",
+    "grammar": "Contextual translation",
     "lemma": "befeallen"
   },
   "befleon": {
@@ -5293,8 +5293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-fōn"
   },
   "befongen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tightly grasped in gripe of anguish,",
+    "grammar": "Contextual translation",
     "lemma": "befongen"
   },
   "beforan": {
@@ -5313,8 +5313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēg"
   },
   "bega": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Beowulf over them both then gave",
+    "grammar": "Contextual translation",
     "lemma": "bega"
   },
   "begang": {
@@ -5328,18 +5328,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēġen"
   },
   "begeat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of that sudden raid on the sons of Finn.4",
+    "grammar": "Contextual translation",
     "lemma": "begeat"
   },
   "begeate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For Hrothgar that was the heaviest sorrow",
+    "grammar": "Contextual translation",
     "lemma": "begeate"
   },
   "begeaton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what earls have owned! Lo, erst from thee",
+    "grammar": "Contextual translation",
     "lemma": "begeaton"
   },
   "begen": {
@@ -5348,8 +5348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēġen"
   },
   "beget": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: threw away and wasted these weeds of battle,",
+    "grammar": "Contextual translation",
     "lemma": "beget"
   },
   "begitan": {
@@ -5363,8 +5363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-gnornian"
   },
   "begnornodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from life in the body forlorn away.",
+    "grammar": "Contextual translation",
     "lemma": "begnornodon"
   },
   "begong": {
@@ -5388,13 +5388,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-helan"
   },
   "beheold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-hearted. A henchman attended,",
+    "grammar": "Contextual translation",
     "lemma": "beheold"
   },
   "behofað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for daring deeds! Now the day is come",
+    "grammar": "Contextual translation",
     "lemma": "behofað"
   },
   "behofian": {
@@ -5403,8 +5403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-hōfian"
   },
   "beholen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the harbor of heaven is hidden away.",
+    "grammar": "Contextual translation",
     "lemma": "beholen"
   },
   "behon": {
@@ -5413,8 +5413,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-hōn"
   },
   "behongen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm on the earth a funeral-pile,",
+    "grammar": "Contextual translation",
     "lemma": "behongen"
   },
   "behreosan": {
@@ -5423,8 +5423,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-hrēosan"
   },
   "behrorene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unburnished bowls of bygone men",
+    "grammar": "Contextual translation",
     "lemma": "behrorene"
   },
   "beirnan": {
@@ -5438,13 +5438,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēl"
   },
   "belamp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with loathing deed, though he loved him not.",
+    "grammar": "Contextual translation",
     "lemma": "belamp"
   },
   "beleac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lashed by the winds, or winter locked them",
+    "grammar": "Contextual translation",
     "lemma": "beleac"
   },
   "belean": {
@@ -5463,8 +5463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-limpan"
   },
   "beloren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were the loved ones she lost at the linden-play,",
+    "grammar": "Contextual translation",
     "lemma": "beloren"
   },
   "belucan": {
@@ -5473,8 +5473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-lūcan"
   },
   "bemearn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft indeed, in earlier days,",
+    "grammar": "Contextual translation",
     "lemma": "bemearn"
   },
   "bemiðan": {
@@ -5513,13 +5513,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēna"
   },
   "benam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they lauded at length. \u0015 'Twas a lord unpeered,",
+    "grammar": "Contextual translation",
     "lemma": "benam"
   },
   "benan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: is Beowulf named. This boon they seek,",
+    "grammar": "Contextual translation",
     "lemma": "benan"
   },
   "benc": {
@@ -5548,8 +5548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "benċ-þel"
   },
   "bence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and bowed them to bench: the breastplates clanged,",
+    "grammar": "Contextual translation",
     "lemma": "bence"
   },
   "bencsweg": {
@@ -5563,8 +5563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "benċ-þel"
   },
   "bencþelu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the boards of the benches blood-besprinkled,",
+    "grammar": "Contextual translation",
     "lemma": "bencþelu"
   },
   "bend": {
@@ -5573,8 +5573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bend"
   },
   "bendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in baleful bonds, where bide he must,",
+    "grammar": "Contextual translation",
     "lemma": "bendum"
   },
   "bene": {
@@ -5583,8 +5583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēna"
   },
   "benemdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in what wise he should wend from the world at last.",
+    "grammar": "Contextual translation",
     "lemma": "benemdon"
   },
   "benemnanvb.i": {
@@ -5603,8 +5603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ben-ġeat"
   },
   "bengeato": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gashes burst, and blood gushed out",
+    "grammar": "Contextual translation",
     "lemma": "bengeato"
   },
   "beniman": {
@@ -5613,13 +5613,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-niman"
   },
   "benne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with struggle spent, and unspan his helmet.",
+    "grammar": "Contextual translation",
     "lemma": "benne"
   },
   "beo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Be thou in haste, and bid them hither,",
+    "grammar": "Contextual translation",
     "lemma": "beo"
   },
   "beod": {
@@ -5653,8 +5653,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēod-ġenēat"
   },
   "beodgeneatas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fellows at board; I am Beowulf named.",
+    "grammar": "Contextual translation",
     "lemma": "beodgeneatas"
   },
   "beon": {
@@ -5703,8 +5703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēor-þegu"
   },
   "beore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Boasted full oft, as my beer they drank,",
+    "grammar": "Contextual translation",
     "lemma": "beore"
   },
   "beorg": {
@@ -5718,8 +5718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorgan"
   },
   "beorgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea-cli\u001bs shining, steep high hills,",
+    "grammar": "Contextual translation",
     "lemma": "beorgas"
   },
   "beorge": {
@@ -5728,8 +5728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorgan"
   },
   "beorges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ill-enduring till evening came;",
+    "grammar": "Contextual translation",
     "lemma": "beorges"
   },
   "beorh": {
@@ -5743,18 +5743,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorhte"
   },
   "beorhta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: jewel-hall brightest, enjoy while thou canst,",
+    "grammar": "Contextual translation",
     "lemma": "beorhta"
   },
   "beorhtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bucklers bright; on the bench were there",
+    "grammar": "Contextual translation",
     "lemma": "beorhtan"
   },
   "beorhtdena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thou sovran of the Shining-Danes,",
+    "grammar": "Contextual translation",
     "lemma": "beorhtdena"
   },
   "beorhte": {
@@ -5778,28 +5778,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorhtian"
   },
   "beorhtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: A barrow bid ye the battle-fanned raise",
+    "grammar": "Contextual translation",
     "lemma": "beorhtne"
   },
   "beorhtode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bench-joy brightened. Bearers draw",
+    "grammar": "Contextual translation",
     "lemma": "beorhtode"
   },
   "beorhtost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his own good will, and the ensign took,",
+    "grammar": "Contextual translation",
     "lemma": "beorhtost"
   },
   "beorhtre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish hands.",
+    "grammar": "Contextual translation",
     "lemma": "beorhtre"
   },
   "beorhtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and hung it with helmets and harness of war",
+    "grammar": "Contextual translation",
     "lemma": "beorhtum"
   },
   "beorn": {
@@ -5818,13 +5818,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorn-cyning"
   },
   "beorna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by thievish wiles: for the warden's wrath",
+    "grammar": "Contextual translation",
     "lemma": "beorna"
   },
   "beornas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boat under blu\u001b. On board they climbed,",
+    "grammar": "Contextual translation",
     "lemma": "beornas"
   },
   "beorncyning": {
@@ -5833,8 +5833,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "beorn-cyning"
   },
   "beorne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over bicker of shields the bite of steel",
+    "grammar": "Contextual translation",
     "lemma": "beorne"
   },
   "beorscealc": {
@@ -5843,8 +5843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēor-scealc"
   },
   "beorscealca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beds and bolsters. \u0015 One beer-carouser",
+    "grammar": "Contextual translation",
     "lemma": "beorscealca"
   },
   "beorsele": {
@@ -5853,8 +5853,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēor-sele"
   },
   "beorþege": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Ring-Danes, outrevelled, to rest had gone.",
+    "grammar": "Contextual translation",
     "lemma": "beorþege"
   },
   "beorþegu": {
@@ -5883,23 +5883,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bēot-word"
   },
   "beotwordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard blade and my hand, for the hoard shall strive.\"",
+    "grammar": "Contextual translation",
     "lemma": "beotwordum"
   },
   "beowulf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Famed was this Beowulf: far flew the boast of him,",
+    "grammar": "Contextual translation",
     "lemma": "beowulf"
   },
   "beowulfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Bright-Danes' prince, from Beowulf hearing,",
+    "grammar": "Contextual translation",
     "lemma": "beowulfe"
   },
   "beowulfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unbound the battle-runes.1 \u0015 Beowulf's quest,",
+    "grammar": "Contextual translation",
     "lemma": "beowulfes"
   },
   "ber": {
@@ -5923,18 +5923,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-rēafian"
   },
   "bereafod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wiglaf loved, now the worm lies low,",
+    "grammar": "Contextual translation",
     "lemma": "bereafod"
   },
   "beredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They bared the bench-boards; abroad they spread",
+    "grammar": "Contextual translation",
     "lemma": "beredon"
   },
   "beren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: along with my lord these limbs of mine!3",
+    "grammar": "Contextual translation",
     "lemma": "beren"
   },
   "bereofan": {
@@ -5958,8 +5958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "berian"
   },
   "berofene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wine-hall waste and wind-swept chambers",
+    "grammar": "Contextual translation",
     "lemma": "berofene"
   },
   "berst": {
@@ -5988,8 +5988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-settan"
   },
   "besette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with swine-forms set it, that swords nowise,",
+    "grammar": "Contextual translation",
     "lemma": "besette"
   },
   "besittan": {
@@ -6003,13 +6003,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-smiþian"
   },
   "besmiþod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: craftily clamped; though there crashed from sill",
+    "grammar": "Contextual translation",
     "lemma": "besmiþod"
   },
   "besnyðede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from Swedish folk. 'Twas spread afar",
+    "grammar": "Contextual translation",
     "lemma": "besnyðede"
   },
   "besnyððan": {
@@ -6018,8 +6018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-snyððan"
   },
   "bestymed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the boards of the benches blood-besprinkled,",
+    "grammar": "Contextual translation",
     "lemma": "bestymed"
   },
   "bestуman": {
@@ -6033,13 +6033,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-swǣlan"
   },
   "beswæled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ery dragon,",
+    "grammar": "Contextual translation",
     "lemma": "beswæled"
   },
   "besyred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a golden goblet, nor gave he it back,",
+    "grammar": "Contextual translation",
     "lemma": "besyred"
   },
   "besyrwan": {
@@ -6048,8 +6048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-syrwan"
   },
   "besæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bereft of a ruler, to Ravenswood.",
+    "grammar": "Contextual translation",
     "lemma": "besæt"
   },
   "bet lic": {
@@ -6088,8 +6088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-timbran"
   },
   "betimbredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by ocean-farers far descried:",
+    "grammar": "Contextual translation",
     "lemma": "betimbredon"
   },
   "betlic": {
@@ -6098,33 +6098,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bet-liċ"
   },
   "betost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nished his course",
+    "grammar": "Contextual translation",
     "lemma": "betost"
   },
   "betst": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of war-weeds, warding my breast,",
+    "grammar": "Contextual translation",
     "lemma": "betst"
   },
   "betsta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of heroes best, I shall heartily love",
+    "grammar": "Contextual translation",
     "lemma": "betsta"
   },
   "betstan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then kissed the king of kin renowned,",
+    "grammar": "Contextual translation",
     "lemma": "betstan"
   },
   "bewand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in hero's hand who held it ever,",
+    "grammar": "Contextual translation",
     "lemma": "bewand"
   },
   "bewenede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hygelac now. We here have found",
+    "grammar": "Contextual translation",
     "lemma": "bewenede"
   },
   "bewennan": {
@@ -6133,8 +6133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-wennan"
   },
   "beweotede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from far, a hall-thane heralded forth,",
+    "grammar": "Contextual translation",
     "lemma": "beweotede"
   },
   "beweotian": {
@@ -6143,13 +6143,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-weotian"
   },
   "beweotode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the dark of night, a Dragon, to rage.",
+    "grammar": "Contextual translation",
     "lemma": "beweotode"
   },
   "beweredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish sprites",
+    "grammar": "Contextual translation",
     "lemma": "beweredon"
   },
   "bewerian": {
@@ -6168,23 +6168,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-witian"
   },
   "bewitiað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the sunbright skies, that their season ever",
+    "grammar": "Contextual translation",
     "lemma": "bewitiað"
   },
   "bewitigað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such as oft essay at hour of morn",
+    "grammar": "Contextual translation",
     "lemma": "bewitigað"
   },
   "beworhton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the battle-brave's beacon. Round brands of the pyre",
+    "grammar": "Contextual translation",
     "lemma": "beworhton"
   },
   "bewunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wound with wires, kept ward o'er the head,",
+    "grammar": "Contextual translation",
     "lemma": "bewunden"
   },
   "bewyrcan": {
@@ -6198,8 +6198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "be-wæġnan"
   },
   "bewægned": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and winsome words. Of wounden gold,",
+    "grammar": "Contextual translation",
     "lemma": "bewægned"
   },
   "bi": {
@@ -6323,8 +6323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bīdan"
   },
   "bidon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave band of thanes: some bode without,",
+    "grammar": "Contextual translation",
     "lemma": "bidon"
   },
   "bifon": {
@@ -6333,8 +6333,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bi-fōn"
   },
   "bifongen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the longest-lived of the loathsome race",
+    "grammar": "Contextual translation",
     "lemma": "bifongen"
   },
   "big": {
@@ -6348,8 +6348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bi-gong"
   },
   "bil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'MID the battle-gear saw he a blade triumphant,",
+    "grammar": "Contextual translation",
     "lemma": "bil"
   },
   "bil(l)": {
@@ -6358,28 +6358,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bil(l)"
   },
   "bill": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For winters this war-gear Weohstan kept,",
+    "grammar": "Contextual translation",
     "lemma": "bill"
   },
   "billa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bitter battle. Breca ne'er yet,",
+    "grammar": "Contextual translation",
     "lemma": "billa"
   },
   "bille": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Hrethel, by sword-draughts died, ed",
+    "grammar": "Contextual translation",
     "lemma": "bille"
   },
   "billes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that Freawaru's thane, for his father's deed,",
+    "grammar": "Contextual translation",
     "lemma": "billes"
   },
   "billum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with breastplate and blade: on his bosom lay",
+    "grammar": "Contextual translation",
     "lemma": "billum"
   },
   "bind": {
@@ -6398,8 +6398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bindan"
   },
   "bineat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons and warriors: well repaid he",
+    "grammar": "Contextual translation",
     "lemma": "bineat"
   },
   "bineotan": {
@@ -6408,8 +6408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bi-nēotan"
   },
   "bio": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sleeps, heart-sore, of his spoil bereaved.",
+    "grammar": "Contextual translation",
     "lemma": "bio"
   },
   "bio(ð)": {
@@ -6448,13 +6448,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bīor-"
   },
   "biorgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that old ill-doer open found,",
+    "grammar": "Contextual translation",
     "lemma": "biorgas"
   },
   "biorges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in mead-hall may live with loving friends.",
+    "grammar": "Contextual translation",
     "lemma": "biorges"
   },
   "biorh": {
@@ -6463,8 +6463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "biorh"
   },
   "biorn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght: the rocks resounded.",
+    "grammar": "Contextual translation",
     "lemma": "biorn"
   },
   "biorn( )": {
@@ -6483,28 +6483,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "biorn(-)"
   },
   "biorsele": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what promise we made to this prince of ours",
+    "grammar": "Contextual translation",
     "lemma": "biorsele"
   },
   "biowulf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what manner of sojourn the Sea-Geats made.",
+    "grammar": "Contextual translation",
     "lemma": "biowulf"
   },
   "biowulfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: its battling and bulwarks: that boast was vain!",
+    "grammar": "Contextual translation",
     "lemma": "biowulfe"
   },
   "biowulfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in shape of a sword a statelier prize.",
+    "grammar": "Contextual translation",
     "lemma": "biowulfes"
   },
   "bioðabrocene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: living away, for the land he kens.",
+    "grammar": "Contextual translation",
     "lemma": "bioðabrocene"
   },
   "bis(i)gu": {
@@ -6513,13 +6513,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bis(i)gu"
   },
   "bisgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the spirit's sentry; sleep is too fast",
+    "grammar": "Contextual translation",
     "lemma": "bisgum"
   },
   "bisigu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of cruel contest, if cure shall follow,",
+    "grammar": "Contextual translation",
     "lemma": "bisigu"
   },
   "bit": {
@@ -6543,13 +6543,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "biter"
   },
   "biteran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"UNDER harness his heart then is hit indeed",
+    "grammar": "Contextual translation",
     "lemma": "biteran"
   },
   "bitere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swollen and savage that song to hear,",
+    "grammar": "Contextual translation",
     "lemma": "bitere"
   },
   "bitr": {
@@ -6563,8 +6563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bitre"
   },
   "biwenede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when a thane of the Danes, in that doughty throng,",
+    "grammar": "Contextual translation",
     "lemma": "biwenede"
   },
   "biwennan": {
@@ -6578,68 +6578,68 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bið"
   },
   "biðandgit": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Therefore is insight always best,",
+    "grammar": "Contextual translation",
     "lemma": "biðandgit"
   },
   "biðdrihtguman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: glory ere death! When his days are told,",
+    "grammar": "Contextual translation",
     "lemma": "biðdrihtguman"
   },
   "biðgemyndgad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: can come from the old, disabled man!",
+    "grammar": "Contextual translation",
     "lemma": "biðgemyndgad"
   },
   "biðgeomorlic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unavenged must the atheling die!",
+    "grammar": "Contextual translation",
     "lemma": "biðgeomorlic"
   },
   "biðgrim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some ash-wielder old who has all in mind",
+    "grammar": "Contextual translation",
     "lemma": "biðgrim"
   },
   "biðmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielding the war-wood to win thy triumph",
+    "grammar": "Contextual translation",
     "lemma": "biðmanna"
   },
   "biðmægþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: e'en as terror of woman in war is less,",
+    "grammar": "Contextual translation",
     "lemma": "biðmægþa"
   },
   "biðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stealthily shooting the shafts from his bow!",
+    "grammar": "Contextual translation",
     "lemma": "biðon"
   },
   "biðse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waxes and wakes while the warden slumbers,",
+    "grammar": "Contextual translation",
     "lemma": "biðse"
   },
   "biðswylc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the burnished blade a baleful murder",
+    "grammar": "Contextual translation",
     "lemma": "biðswylc"
   },
   "biðæghwæm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Sorrow not, sage! It beseems us better",
+    "grammar": "Contextual translation",
     "lemma": "biðæghwæm"
   },
   "biðþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: watch for the foe! No wish shall fail thee",
+    "grammar": "Contextual translation",
     "lemma": "biðþe"
   },
   "biðþæm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wielder-of-Wonder. \u0015 Woe for that man",
+    "grammar": "Contextual translation",
     "lemma": "biðþæm"
   },
   "blac": {
@@ -6648,13 +6648,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blāc"
   },
   "blaca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rose gabled and gilt where the guest slept on",
+    "grammar": "Contextual translation",
     "lemma": "blaca"
   },
   "blacne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beams of a blaze that brightly shone.",
+    "grammar": "Contextual translation",
     "lemma": "blacne"
   },
   "blanc": {
@@ -6673,8 +6673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blanca"
   },
   "blancum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: back from the mere. Then Beowulf's glory",
+    "grammar": "Contextual translation",
     "lemma": "blancum"
   },
   "blea": {
@@ -6733,8 +6733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blīð-heort"
   },
   "bliðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bade him be blithe at the beer-carouse,",
+    "grammar": "Contextual translation",
     "lemma": "bliðne"
   },
   "blod": {
@@ -6788,8 +6788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blōd-fāg"
   },
   "blodge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that battle-hand bloody from baneful foe.",
+    "grammar": "Contextual translation",
     "lemma": "blodge"
   },
   "blodig": {
@@ -6808,8 +6808,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blōdiġ-tōð"
   },
   "blodigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: missed the mark and his mate shot down,",
+    "grammar": "Contextual translation",
     "lemma": "blodigan"
   },
   "blodigtoð": {
@@ -6838,18 +6838,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blonden-feax"
   },
   "blondenfeaxe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: blood-stained the mere. Old men together,",
+    "grammar": "Contextual translation",
     "lemma": "blondenfeaxe"
   },
   "blondenfeaxum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: owed the tears",
+    "grammar": "Contextual translation",
     "lemma": "blondenfeaxum"
   },
   "blondenfexa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then Ongentheow with edge of sword,",
+    "grammar": "Contextual translation",
     "lemma": "blondenfexa"
   },
   "blæc": {
@@ -6903,13 +6903,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "blǣd-fæst"
   },
   "blædfæstne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in battle brave. \u0015 Nor was Beowulf there;",
+    "grammar": "Contextual translation",
     "lemma": "blædfæstne"
   },
   "boden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his bairn and his bride: so he bent him again,",
+    "grammar": "Contextual translation",
     "lemma": "boden"
   },
   "bodi": {
@@ -6928,8 +6928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bodian"
   },
   "bodode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till a raven black the rapture-of-heaven2",
+    "grammar": "Contextual translation",
     "lemma": "bodode"
   },
   "bolc": {
@@ -6943,8 +6943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bolca"
   },
   "bolcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how they bore o'er the gangway glittering shields,",
+    "grammar": "Contextual translation",
     "lemma": "bolcan"
   },
   "bolce": {
@@ -6968,8 +6968,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bold-āgend(e)"
   },
   "bolda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quickly and truly: the king's own home,",
+    "grammar": "Contextual translation",
     "lemma": "bolda"
   },
   "boldagend(e)": {
@@ -6978,8 +6978,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bold-āgend(e)"
   },
   "boldagendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy chief, to heroes many",
+    "grammar": "Contextual translation",
     "lemma": "boldagendra"
   },
   "bolgen mod": {
@@ -7003,8 +7003,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bolster"
   },
   "bolstrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beds and bolsters. \u0015 One beer-carouser",
+    "grammar": "Contextual translation",
     "lemma": "bolstrum"
   },
   "bon": {
@@ -7028,8 +7028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bona"
   },
   "bonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with sturdy steps to the spot they knew",
+    "grammar": "Contextual translation",
     "lemma": "bonan"
   },
   "bone": {
@@ -7108,8 +7108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-wudu"
   },
   "borda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and those weeds of war that were wont to brave",
+    "grammar": "Contextual translation",
     "lemma": "borda"
   },
   "bordhreoða": {
@@ -7118,8 +7118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-hrēoða"
   },
   "bordhreoðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and Heardred, too, by hewing of swords",
+    "grammar": "Contextual translation",
     "lemma": "bordhreoðan"
   },
   "bordhæbbend(e)": {
@@ -7128,8 +7128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-hæbbend(e)"
   },
   "bordhæbbende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the morning earls had sat,",
+    "grammar": "Contextual translation",
     "lemma": "bordhæbbende"
   },
   "bordrand": {
@@ -7138,8 +7138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-rand"
   },
   "bordweal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: giants' sword crashing through giants'-helm",
+    "grammar": "Contextual translation",
     "lemma": "bordweal"
   },
   "bordweal(l)": {
@@ -7153,8 +7153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bord-wudu"
   },
   "boren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: A CUP she gave him, with kindly greeting",
+    "grammar": "Contextual translation",
     "lemma": "boren"
   },
   "born": {
@@ -7168,8 +7168,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bōt"
   },
   "bote": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish hands.",
+    "grammar": "Contextual translation",
     "lemma": "bote"
   },
   "botm": {
@@ -7178,8 +7178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "botm"
   },
   "botme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then bore this brine-wolf, when bottom she touched,",
+    "grammar": "Contextual translation",
     "lemma": "botme"
   },
   "brad": {
@@ -7188,13 +7188,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brād"
   },
   "brade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in arms o'erwhelming Hereric's nephew.",
+    "grammar": "Contextual translation",
     "lemma": "brade"
   },
   "bradne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the hardy Hygelac-thane,2",
+    "grammar": "Contextual translation",
     "lemma": "bradne"
   },
   "brand": {
@@ -7203,13 +7203,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brand"
   },
   "breac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and joyed while I could in my jewel-bestower.",
+    "grammar": "Contextual translation",
     "lemma": "breac"
   },
   "breat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for doom of death to the Danishmen.",
+    "grammar": "Contextual translation",
     "lemma": "breat"
   },
   "brec": {
@@ -7218,8 +7218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brecan"
   },
   "breca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bitter battle. Breca ne'er yet,",
+    "grammar": "Contextual translation",
     "lemma": "breca"
   },
   "brecan": {
@@ -7238,8 +7238,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brecð"
   },
   "brecða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heart-rending misery. Many nobles",
+    "grammar": "Contextual translation",
     "lemma": "brecða"
   },
   "bregd": {
@@ -7258,8 +7258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "breġdan"
   },
   "bregdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he gave to the king. So should kinsmen be,",
+    "grammar": "Contextual translation",
     "lemma": "bregdon"
   },
   "brego": {
@@ -7313,8 +7313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brenting"
   },
   "brentingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that ocean-wanderers oft may hail",
+    "grammar": "Contextual translation",
     "lemma": "brentingas"
   },
   "breost": {
@@ -7398,8 +7398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēost-ġehyġd"
   },
   "breostgehygdum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: This word was the last which the wise old man",
+    "grammar": "Contextual translation",
     "lemma": "breostgehygdum"
   },
   "breostgewæde": {
@@ -7408,8 +7408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēost-ġewǣde"
   },
   "breostgewædu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gear of the breast, and that gorgeous ring;",
+    "grammar": "Contextual translation",
     "lemma": "breostgewædu"
   },
   "breosthord": {
@@ -7418,8 +7418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēost-hord"
   },
   "breostnet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: braided breast-mail, barring death,",
+    "grammar": "Contextual translation",
     "lemma": "breostnet"
   },
   "breostnet(t)": {
@@ -7428,8 +7428,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēost-net(t)"
   },
   "breostum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sark braided my breast to ward, rm",
+    "grammar": "Contextual translation",
     "lemma": "breostum"
   },
   "breostweorðung": {
@@ -7438,8 +7438,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēost-weorðung"
   },
   "breostweorðunge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor fared he thence to the Frisian king",
+    "grammar": "Contextual translation",
     "lemma": "breostweorðunge"
   },
   "breostwylm": {
@@ -7463,8 +7463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brēotan"
   },
   "breþer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with edge of the sword his only brother, ed,",
+    "grammar": "Contextual translation",
     "lemma": "breþer"
   },
   "brim": {
@@ -7558,13 +7558,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brim-clif"
   },
   "brimclifu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea-cli\u001bs shining, steep high hills,",
+    "grammar": "Contextual translation",
     "lemma": "brimclifu"
   },
   "brimes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then they bore him over to ocean's billow,",
+    "grammar": "Contextual translation",
     "lemma": "brimes"
   },
   "brimlad": {
@@ -7573,8 +7573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brim-lād"
   },
   "brimlade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with Beowulf over the briny ways,",
+    "grammar": "Contextual translation",
     "lemma": "brimlade"
   },
   "brimliðend(e)": {
@@ -7583,8 +7583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brim-līðend(e)"
   },
   "brimliðende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the fathomless sea-ways sailor-folk",
+    "grammar": "Contextual translation",
     "lemma": "brimliðende"
   },
   "brimstream": {
@@ -7593,13 +7593,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brim-strēam"
   },
   "brimstreamas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oated forth o'er the waves,",
+    "grammar": "Contextual translation",
     "lemma": "brimstreamas"
   },
   "brimu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came bright God's beacon; the billows sank,",
+    "grammar": "Contextual translation",
     "lemma": "brimu"
   },
   "brimwisa": {
@@ -7608,8 +7608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brim-wīsa"
   },
   "brimwisan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ancient and awful, gave answering blow;",
+    "grammar": "Contextual translation",
     "lemma": "brimwisan"
   },
   "brimwylf": {
@@ -7678,8 +7678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brōga"
   },
   "brogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bitter battle. Breca ne'er yet,",
+    "grammar": "Contextual translation",
     "lemma": "brogan"
   },
   "brogden mæl": {
@@ -7698,8 +7698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brogden-mǣl"
   },
   "brogdne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-sick warrior, \u0015 woven mail-coat,",
+    "grammar": "Contextual translation",
     "lemma": "brogdne"
   },
   "broge": {
@@ -7708,8 +7708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brōga"
   },
   "brohton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lord of Scyldings, we've lustily brought thee,",
+    "grammar": "Contextual translation",
     "lemma": "brohton"
   },
   "brond": {
@@ -7718,18 +7718,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brond"
   },
   "bronda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in ten days' time their toil had raised it,",
+    "grammar": "Contextual translation",
     "lemma": "bronda"
   },
   "bronde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: those Danish people, their death-done comrade",
+    "grammar": "Contextual translation",
     "lemma": "bronde"
   },
   "brondinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beloved of his liegemen, to land of Brondings,",
+    "grammar": "Contextual translation",
     "lemma": "brondinga"
   },
   "bront": {
@@ -7738,18 +7738,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bront"
   },
   "brontne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mailed folk, that yon mighty vessel",
+    "grammar": "Contextual translation",
     "lemma": "brontne"
   },
   "brosinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to his bright-built burg the Brisings' necklace,",
+    "grammar": "Contextual translation",
     "lemma": "brosinga"
   },
   "brosnaðæfter": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over bicker of shields the bite of steel",
+    "grammar": "Contextual translation",
     "lemma": "brosnaðæfter"
   },
   "brosni": {
@@ -7773,13 +7773,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brōðor"
   },
   "broðrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though thou wast the bane1 of thy brethren dear,",
+    "grammar": "Contextual translation",
     "lemma": "broðrum"
   },
   "broþor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Yrmenlaf the elder brother,",
+    "grammar": "Contextual translation",
     "lemma": "broþor"
   },
   "bruc": {
@@ -7798,13 +7798,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brūcan"
   },
   "bruceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through days of warfare this world endures!",
+    "grammar": "Contextual translation",
     "lemma": "bruceð"
   },
   "brugdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with strenuous hands the sea-streets measured,",
+    "grammar": "Contextual translation",
     "lemma": "brugdon"
   },
   "brun": {
@@ -7843,23 +7843,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brūn-fāg"
   },
   "brunfagne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: killed by Weohstan, who won for his kin",
+    "grammar": "Contextual translation",
     "lemma": "brunfagne"
   },
   "bryd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when men are slain, does the murder-spear sink",
+    "grammar": "Contextual translation",
     "lemma": "bryd"
   },
   "brydbure": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crowned with glory, the king himself,",
+    "grammar": "Contextual translation",
     "lemma": "brydbure"
   },
   "bryde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor hoped from the seamen to save his hoard,",
+    "grammar": "Contextual translation",
     "lemma": "bryde"
   },
   "bryne leoma": {
@@ -7903,13 +7903,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bryne-wylm"
   },
   "brynewylmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quickly and truly: the king's own home,",
+    "grammar": "Contextual translation",
     "lemma": "brynewylmum"
   },
   "brytnade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bravest and best that broke the rings,",
+    "grammar": "Contextual translation",
     "lemma": "brytnade"
   },
   "brytni": {
@@ -7938,13 +7938,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "brytta"
   },
   "bryttan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the breast of the boat, the breaker-of-rings,2",
+    "grammar": "Contextual translation",
     "lemma": "bryttan"
   },
   "bryttað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how to sons of men Almighty God",
+    "grammar": "Contextual translation",
     "lemma": "bryttað"
   },
   "brytte": {
@@ -7968,18 +7968,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bryttian"
   },
   "bræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear in readiness; wonder seized him",
+    "grammar": "Contextual translation",
     "lemma": "bræc"
   },
   "bræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by word or work should warp the treaty,8",
+    "grammar": "Contextual translation",
     "lemma": "bræce"
   },
   "brægd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to men on earth. Now many an earl",
+    "grammar": "Contextual translation",
     "lemma": "brægd"
   },
   "brуd": {
@@ -8023,8 +8023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "būan"
   },
   "budon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the prince's thane. A pact he o\u001bered:",
+    "grammar": "Contextual translation",
     "lemma": "budon"
   },
   "bue": {
@@ -8053,13 +8053,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "būgan"
   },
   "bugeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when men are slain, does the murder-spear sink",
+    "grammar": "Contextual translation",
     "lemma": "bugeð"
   },
   "bugon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and bowed them to bench: the breastplates clanged,",
+    "grammar": "Contextual translation",
     "lemma": "bugon"
   },
   "bun": {
@@ -8068,13 +8068,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bune"
   },
   "bunan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old work of giants, by one alone;",
+    "grammar": "Contextual translation",
     "lemma": "bunan"
   },
   "bunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, hammer-forged, the falchion hard,",
+    "grammar": "Contextual translation",
     "lemma": "bunden"
   },
   "bunden heord": {
@@ -8113,13 +8113,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bunden-heord"
   },
   "bundenheorde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wailing her woe, the widow1 old,",
+    "grammar": "Contextual translation",
     "lemma": "bundenheorde"
   },
   "bundenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on its willing way, the well-braced craft.",
+    "grammar": "Contextual translation",
     "lemma": "bundenne"
   },
   "bundenstefna": {
@@ -8133,8 +8133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bune"
   },
   "buon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whenever his watch the warden keeps",
+    "grammar": "Contextual translation",
     "lemma": "buon"
   },
   "bur": {
@@ -8143,18 +8143,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "burne"
   },
   "bure": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To his bower was Beowulf brought in haste,",
+    "grammar": "Contextual translation",
     "lemma": "bure"
   },
   "burgan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with warlike front: to the woods they bent them,",
+    "grammar": "Contextual translation",
     "lemma": "burgan"
   },
   "burgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now Beowulf bode in the burg of the Scyldings,",
+    "grammar": "Contextual translation",
     "lemma": "burgum"
   },
   "burh": {
@@ -8228,8 +8228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "burh-loca"
   },
   "burhlocan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wise and wary, though winters few",
+    "grammar": "Contextual translation",
     "lemma": "burhlocan"
   },
   "burhstede": {
@@ -8243,8 +8243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "burh-wela"
   },
   "burhwelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: worthiest warrior wide earth o'er",
+    "grammar": "Contextual translation",
     "lemma": "burhwelan"
   },
   "burn": {
@@ -8253,8 +8253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "burne"
   },
   "burnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: an arch of stone; and within, a stream",
+    "grammar": "Contextual translation",
     "lemma": "burnan"
   },
   "burne": {
@@ -8263,8 +8263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "burne"
   },
   "burston": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the bone-frame burst. To Beowulf now",
+    "grammar": "Contextual translation",
     "lemma": "burston"
   },
   "buruh ðelu": {
@@ -8283,18 +8283,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "buruh-ðelu"
   },
   "burum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bed in the bowers,1 when that bale was shown,",
+    "grammar": "Contextual translation",
     "lemma": "burum"
   },
   "butan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: should breathe his last: but he broke away.",
+    "grammar": "Contextual translation",
     "lemma": "butan"
   },
   "buton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: save only the land and the lives of his men.",
+    "grammar": "Contextual translation",
     "lemma": "buton"
   },
   "buton(butan)": {
@@ -8338,8 +8338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byldan"
   },
   "byman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with dawn of day for those desperate men",
+    "grammar": "Contextual translation",
     "lemma": "byman"
   },
   "byr": {
@@ -8358,8 +8358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byrele"
   },
   "byrelas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bench-joy brightened. Bearers draw",
+    "grammar": "Contextual translation",
     "lemma": "byrelas"
   },
   "byrele": {
@@ -8373,8 +8373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byreð"
   },
   "byreðblodig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and my blood-covered body he'll bear as prey,",
+    "grammar": "Contextual translation",
     "lemma": "byreðblodig"
   },
   "byrg": {
@@ -8393,8 +8393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byrġan"
   },
   "byrgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and my blood-covered body he'll bear as prey,",
+    "grammar": "Contextual translation",
     "lemma": "byrgean"
   },
   "byrht": {
@@ -8403,8 +8403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byrht"
   },
   "byrhtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to his bright-built burg the Brisings' necklace,",
+    "grammar": "Contextual translation",
     "lemma": "byrhtan"
   },
   "byrig": {
@@ -8448,13 +8448,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byrnan"
   },
   "byrnende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that old ill-doer open found,",
+    "grammar": "Contextual translation",
     "lemma": "byrnende"
   },
   "byrnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with breastplate and blade: on his bosom lay",
+    "grammar": "Contextual translation",
     "lemma": "byrnum"
   },
   "byrnwiga": {
@@ -8468,13 +8468,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bysigu"
   },
   "bysigum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: than its noble master had need of then",
+    "grammar": "Contextual translation",
     "lemma": "bysigum"
   },
   "bywan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall part from its plating. Polishers sleep",
+    "grammar": "Contextual translation",
     "lemma": "bywan"
   },
   "byð": {
@@ -8483,8 +8483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "byð"
   },
   "byðhim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoard in the graves, and heathen gold",
+    "grammar": "Contextual translation",
     "lemma": "byðhim"
   },
   "bæd": {
@@ -8498,8 +8498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bǣdan"
   },
   "bædde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people's peace-bringer, passed through the hall,",
+    "grammar": "Contextual translation",
     "lemma": "bædde"
   },
   "bæde": {
@@ -8508,8 +8508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bǣdan"
   },
   "bædon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: altar-o\u001berings, asked with words5",
+    "grammar": "Contextual translation",
     "lemma": "bædon"
   },
   "bæl": {
@@ -8558,13 +8558,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bǣl-wudu"
   },
   "bæle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as the worm had wished. By its wall no more ew",
+    "grammar": "Contextual translation",
     "lemma": "bæle"
   },
   "bælfyra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes mourning their master dear. res",
+    "grammar": "Contextual translation",
     "lemma": "bælfyra"
   },
   "bælfуr": {
@@ -8588,8 +8588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bǣr"
   },
   "bæran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the sore distress of their sovran lord.",
+    "grammar": "Contextual translation",
     "lemma": "bæran"
   },
   "bærn": {
@@ -8608,8 +8608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "bærnan"
   },
   "bæron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea with sand; the sailors bore",
+    "grammar": "Contextual translation",
     "lemma": "bæron"
   },
   "bæð": {
@@ -8648,13 +8648,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "can"
   },
   "cain": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: cold sea-courses, since Cain cut down",
+    "grammar": "Contextual translation",
     "lemma": "cain"
   },
   "caines": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: On kin of Cain was the killing avenged",
+    "grammar": "Contextual translation",
     "lemma": "caines"
   },
   "camp": {
@@ -8688,18 +8688,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċeald"
   },
   "cealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: cold sea-courses, since Cain cut down",
+    "grammar": "Contextual translation",
     "lemma": "cealde"
   },
   "cealdost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: churning waves and chillest weather,",
+    "grammar": "Contextual translation",
     "lemma": "cealdost"
   },
   "cealdum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons and warriors: well repaid he",
+    "grammar": "Contextual translation",
     "lemma": "cealdum"
   },
   "ceap": {
@@ -8708,8 +8708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċēap"
   },
   "ceape": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though one of them bought it with blood of his heart,",
+    "grammar": "Contextual translation",
     "lemma": "ceape"
   },
   "cear sið": {
@@ -8733,13 +8733,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċear-wælm"
   },
   "cearað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lasting fame, nor fears for his life!",
+    "grammar": "Contextual translation",
     "lemma": "cearað"
   },
   "ceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: atheling-born, a band of twelve,",
+    "grammar": "Contextual translation",
     "lemma": "ceare"
   },
   "ceari": {
@@ -8763,8 +8763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċear-sīð"
   },
   "cearsiðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons and warriors: well repaid he",
+    "grammar": "Contextual translation",
     "lemma": "cearsiðum"
   },
   "cearu": {
@@ -8773,8 +8773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cearu"
   },
   "cearwylmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the boiling care-waves cooler grow;",
+    "grammar": "Contextual translation",
     "lemma": "cearwylmas"
   },
   "cearwælm": {
@@ -8783,8 +8783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċear-wælm"
   },
   "cearwælmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wells with war-hate, and wife-love now",
+    "grammar": "Contextual translation",
     "lemma": "cearwælmum"
   },
   "ceaster buend": {
@@ -8803,8 +8803,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċeaster-būend"
   },
   "ceasterbuendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: castle-dwellers and clansmen all,",
+    "grammar": "Contextual translation",
     "lemma": "ceasterbuendum"
   },
   "celæs": {
@@ -8823,8 +8823,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cempa"
   },
   "cempan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: comrades chose, the keenest of warriors",
+    "grammar": "Contextual translation",
     "lemma": "cempan"
   },
   "cempe": {
@@ -8838,8 +8838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cēne"
   },
   "cende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whoso of women this warrior bore",
+    "grammar": "Contextual translation",
     "lemma": "cende"
   },
   "cene": {
@@ -8863,18 +8863,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cennan"
   },
   "cenned": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To him an heir was afterward born,",
+    "grammar": "Contextual translation",
     "lemma": "cenned"
   },
   "cenoste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: comrades chose, the keenest of warriors",
+    "grammar": "Contextual translation",
     "lemma": "cenoste"
   },
   "cenra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: castle-dwellers and clansmen all,",
+    "grammar": "Contextual translation",
     "lemma": "cenra"
   },
   "cenðu": {
@@ -8888,8 +8888,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċēol"
   },
   "ceoles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: forth to fare; and far from thence",
+    "grammar": "Contextual translation",
     "lemma": "ceoles"
   },
   "ceorl": {
@@ -8898,13 +8898,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċeorl"
   },
   "ceorlas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The prince's journey by prudent folk",
+    "grammar": "Contextual translation",
     "lemma": "ceorlas"
   },
   "ceorle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unavenged must the atheling die!",
+    "grammar": "Contextual translation",
     "lemma": "ceorle"
   },
   "ceos": {
@@ -8923,8 +8923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ċēosan"
   },
   "ciosan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over young Heardred's head as lord",
+    "grammar": "Contextual translation",
     "lemma": "ciosan"
   },
   "clam(m)": {
@@ -8933,8 +8933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "clam(m)"
   },
   "clammum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swiftly, I thought, in strongest gripe",
+    "grammar": "Contextual translation",
     "lemma": "clammum"
   },
   "clif": {
@@ -8943,13 +8943,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "clif"
   },
   "clifu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm-bound over briny currents,",
+    "grammar": "Contextual translation",
     "lemma": "clifu"
   },
   "clommum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the warrior seized; yet scathed she not",
+    "grammar": "Contextual translation",
     "lemma": "clommum"
   },
   "cniht wesende": {
@@ -8983,13 +8983,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cnyht"
   },
   "cnyhtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Preserve thy strength, and these striplings here",
+    "grammar": "Contextual translation",
     "lemma": "cnyhtum"
   },
   "cnysedan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hewed the helm-boars; hero famed",
+    "grammar": "Contextual translation",
     "lemma": "cnysedan"
   },
   "cnyss": {
@@ -9028,33 +9028,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "collen-ferhð"
   },
   "collenferð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his track to retrace; he was troubled by doubt, nd",
+    "grammar": "Contextual translation",
     "lemma": "collenferð"
   },
   "colran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the boiling care-waves cooler grow;",
+    "grammar": "Contextual translation",
     "lemma": "colran"
   },
   "com": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: O Warriors'-shield, now I've wandered far, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "com"
   },
   "come": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of conquest, come to seek",
+    "grammar": "Contextual translation",
     "lemma": "come"
   },
   "comon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So presently to the palace there",
+    "grammar": "Contextual translation",
     "lemma": "comon"
   },
   "compe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the booty back, and breast-adornments;",
+    "grammar": "Contextual translation",
     "lemma": "compe"
   },
   "con": {
@@ -9063,8 +9063,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "con"
   },
   "const": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with thee alone! The land thou knowst not,",
+    "grammar": "Contextual translation",
     "lemma": "const"
   },
   "copyrightу2008.universityoftorontopress": {
@@ -9078,13 +9078,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "corðor"
   },
   "corðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And now the sage young son of Weohstan",
+    "grammar": "Contextual translation",
     "lemma": "corðre"
   },
   "corþre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: king amid clansmen; the queen was taken.",
+    "grammar": "Contextual translation",
     "lemma": "corþre"
   },
   "costi": {
@@ -9103,8 +9103,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "costian"
   },
   "costode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: outward go from the gold-decked hall:",
+    "grammar": "Contextual translation",
     "lemma": "costode"
   },
   "cring": {
@@ -9123,13 +9123,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cringan"
   },
   "crunge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting fall in death,",
+    "grammar": "Contextual translation",
     "lemma": "crunge"
   },
   "crungon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slain by the sword: at the slaughter they fell.",
+    "grammar": "Contextual translation",
     "lemma": "crungon"
   },
   "cræft": {
@@ -9168,8 +9168,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cuman"
   },
   "cumbles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the booty back, and breast-adornments;",
+    "grammar": "Contextual translation",
     "lemma": "cumbles"
   },
   "cumbol": {
@@ -9183,13 +9183,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cuma"
   },
   "cumen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fares hither to seek the steadfast friend.",
+    "grammar": "Contextual translation",
     "lemma": "cumen"
   },
   "cumene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Hither have fared to thee far-come men",
+    "grammar": "Contextual translation",
     "lemma": "cumene"
   },
   "cunn": {
@@ -9208,8 +9208,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cunnan"
   },
   "cunnedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oods,",
+    "grammar": "Contextual translation",
     "lemma": "cunnedon"
   },
   "cunni": {
@@ -9228,13 +9228,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cunnian"
   },
   "cunnode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some man, was raiding her monster-realm.",
+    "grammar": "Contextual translation",
     "lemma": "cunnode"
   },
   "cunnon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mournful their mood. No man is able",
+    "grammar": "Contextual translation",
     "lemma": "cunnon"
   },
   "cur": {
@@ -9268,8 +9268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cūð-līċe"
   },
   "cuðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"I knew him of yore in his youthful days;",
+    "grammar": "Contextual translation",
     "lemma": "cuðe"
   },
   "cuðlice": {
@@ -9278,28 +9278,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cūð-līċe"
   },
   "cuðlicor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No aliens ever at ease thus bore them,",
+    "grammar": "Contextual translation",
     "lemma": "cuðlicor"
   },
   "cuðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: asleep after feasting and fearless of sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "cuðon"
   },
   "cuþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all save one. 'Twas widely known",
+    "grammar": "Contextual translation",
     "lemma": "cuþ"
   },
   "cuþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clear song of the singer. He sang who knew4",
+    "grammar": "Contextual translation",
     "lemma": "cuþe"
   },
   "cuþon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in mood of their mind. Almighty they knew not,",
+    "grammar": "Contextual translation",
     "lemma": "cuþon"
   },
   "cw": {
@@ -9313,8 +9313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cwēn"
   },
   "cwealdest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that yesternight, unyieldingly,",
+    "grammar": "Contextual translation",
     "lemma": "cwealdest"
   },
   "cwealm": {
@@ -9363,8 +9363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cwealm-cuma"
   },
   "cwealmcuman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: su\u001ber that slaughterous stranger to live,",
+    "grammar": "Contextual translation",
     "lemma": "cwealmcuman"
   },
   "cwecc": {
@@ -9383,8 +9383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cweċċan"
   },
   "cwehte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's henchman; with hand of might",
+    "grammar": "Contextual translation",
     "lemma": "cwehte"
   },
   "cwell": {
@@ -9443,23 +9443,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cwic(o)"
   },
   "cwice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of mortal beings that breathe and move.",
+    "grammar": "Contextual translation",
     "lemma": "cwice"
   },
   "cwices": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and bright homes burned. The blaze stood high",
+    "grammar": "Contextual translation",
     "lemma": "cwices"
   },
   "cwicne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: su\u001ber that slaughterous stranger to live,",
+    "grammar": "Contextual translation",
     "lemma": "cwicne"
   },
   "cwico": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and hurriedly carried it hither back",
+    "grammar": "Contextual translation",
     "lemma": "cwico"
   },
   "cwið": {
@@ -9478,43 +9478,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cwīðan"
   },
   "cwiðæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegeman leal and their lives as well.",
+    "grammar": "Contextual translation",
     "lemma": "cwiðæt"
   },
   "cwom": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Themselves had seen me from slaughter come",
+    "grammar": "Contextual translation",
     "lemma": "cwom"
   },
   "cwoman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and shadowy shapes came striding on,",
+    "grammar": "Contextual translation",
     "lemma": "cwoman"
   },
   "cwome": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the monster was minded, ere morn should dawn,",
+    "grammar": "Contextual translation",
     "lemma": "cwome"
   },
   "cwomon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have urged thus over the ocean ways,",
+    "grammar": "Contextual translation",
     "lemma": "cwomon"
   },
   "cwædon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for their hero's passing his hearth-companions:",
+    "grammar": "Contextual translation",
     "lemma": "cwædon"
   },
   "cwæð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he bade make ready. Yon battle-king, said he,",
+    "grammar": "Contextual translation",
     "lemma": "cwæð"
   },
   "cwæðþæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how the Almighty made the earth,",
+    "grammar": "Contextual translation",
     "lemma": "cwæðþæt"
   },
   "cym": {
@@ -9533,23 +9533,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cymen"
   },
   "cymest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with winding gold, if thou winnest back.\"",
+    "grammar": "Contextual translation",
     "lemma": "cymest"
   },
   "cymeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus he urges and eggs him all the time",
+    "grammar": "Contextual translation",
     "lemma": "cymeð"
   },
   "cymlicor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No ship have I known so nobly dight",
+    "grammar": "Contextual translation",
     "lemma": "cymlicor"
   },
   "cyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and that wild brood worsted. I' the waves I slew",
+    "grammar": "Contextual translation",
     "lemma": "cyn"
   },
   "cyn(n)": {
@@ -9593,33 +9593,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cyning-bald"
   },
   "cyningbalde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: well-known roads. Courageous men",
+    "grammar": "Contextual translation",
     "lemma": "cyningbalde"
   },
   "cyninge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and hurriedly carried it hither back",
+    "grammar": "Contextual translation",
     "lemma": "cyninge"
   },
   "cyninges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From time to time, a thane of the king,",
+    "grammar": "Contextual translation",
     "lemma": "cyninges"
   },
   "cynna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of mortal beings that breathe and move.",
+    "grammar": "Contextual translation",
     "lemma": "cynna"
   },
   "cynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: On kin of Cain was the killing avenged",
+    "grammar": "Contextual translation",
     "lemma": "cynne"
   },
   "cynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that highest God o'er human kind",
+    "grammar": "Contextual translation",
     "lemma": "cynnes"
   },
   "cyst": {
@@ -9628,18 +9628,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "cyst"
   },
   "cystum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From time to time, a thane of the king,",
+    "grammar": "Contextual translation",
     "lemma": "cystum"
   },
   "cyð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: remember thy glory; thy might declare;",
+    "grammar": "Contextual translation",
     "lemma": "cyð"
   },
   "cyðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the burnished blade a baleful murder",
+    "grammar": "Contextual translation",
     "lemma": "cyðan"
   },
   "cуm lice": {
@@ -9698,13 +9698,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dagian"
   },
   "dagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by ocean-farers far descried:",
+    "grammar": "Contextual translation",
     "lemma": "dagum"
   },
   "dareðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trothbreakers, cowards, ten together,",
+    "grammar": "Contextual translation",
     "lemma": "dareðum"
   },
   "daroð": {
@@ -9723,8 +9723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēad"
   },
   "deadne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and dead indeed was his dearest thane.",
+    "grammar": "Contextual translation",
     "lemma": "deadne"
   },
   "deag": {
@@ -9753,8 +9753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "deal(l)"
   },
   "dealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-hearted. A henchman attended,",
+    "grammar": "Contextual translation",
     "lemma": "dealle"
   },
   "dear": {
@@ -9763,8 +9763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dear"
   },
   "dearst": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in struggle grim, \u0015 if Grendel's approach",
+    "grammar": "Contextual translation",
     "lemma": "dearst"
   },
   "deað": {
@@ -9878,13 +9878,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-bed(d)"
   },
   "deaðbedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Now the willing-giver to Weder folk",
+    "grammar": "Contextual translation",
     "lemma": "deaðbedde"
   },
   "deaðbiðsella": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ight of yours,",
+    "grammar": "Contextual translation",
     "lemma": "deaðbiðsella"
   },
   "deaðcwalu": {
@@ -9893,8 +9893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-cwalu"
   },
   "deaðcwalum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor grew for their grace, but for grisly slaughter,",
+    "grammar": "Contextual translation",
     "lemma": "deaðcwalum"
   },
   "deaðcwealm": {
@@ -9908,23 +9908,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-dæġ"
   },
   "deaðdæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that after death-day may draw to his Lord,",
+    "grammar": "Contextual translation",
     "lemma": "deaðdæge"
   },
   "deaðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when after death it endured the blow,",
+    "grammar": "Contextual translation",
     "lemma": "deaðe"
   },
   "deaðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: alone, for them all, and unblithe wept",
+    "grammar": "Contextual translation",
     "lemma": "deaðes"
   },
   "deaðfornam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: doughty dear-ones that death had reft.",
+    "grammar": "Contextual translation",
     "lemma": "deaðfornam"
   },
   "deaðfæge": {
@@ -9933,18 +9933,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-fǣġe"
   },
   "deaðnimeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the doom of the Lord whom death shall take.",
+    "grammar": "Contextual translation",
     "lemma": "deaðnimeð"
   },
   "deaðoferswyðeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wax dull and darken: Death even thee",
+    "grammar": "Contextual translation",
     "lemma": "deaðoferswyðeð"
   },
   "deaðrenian": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: not weave one another the net of wiles,",
+    "grammar": "Contextual translation",
     "lemma": "deaðrenian"
   },
   "deaðscua": {
@@ -9953,8 +9953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-scua"
   },
   "deaðungemete": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his portion now was past and gone ed",
+    "grammar": "Contextual translation",
     "lemma": "deaðungemete"
   },
   "deaðwerig": {
@@ -9963,8 +9963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-wēriġ"
   },
   "deaðwerigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor might they e'en, when morning broke,",
+    "grammar": "Contextual translation",
     "lemma": "deaðwerigne"
   },
   "deaðwic": {
@@ -9973,23 +9973,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēað-wīċ"
   },
   "deaðwrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of sorrow, the death of her son to avenge.",
+    "grammar": "Contextual translation",
     "lemma": "deaðwrecan"
   },
   "deaþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: glory ere death! When his days are told,",
+    "grammar": "Contextual translation",
     "lemma": "deaþe"
   },
   "deaþscua": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: death-shadow dark, and dogged them still,",
+    "grammar": "Contextual translation",
     "lemma": "deaþscua"
   },
   "deaþwic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reft of joy, to the realms of death,",
+    "grammar": "Contextual translation",
     "lemma": "deaþwic"
   },
   "dem": {
@@ -10003,8 +10003,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēman"
   },
   "demdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They praised his earlship, his acts of prowess",
+    "grammar": "Contextual translation",
     "lemma": "demdon"
   },
   "deme": {
@@ -10023,43 +10023,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "den(n)"
   },
   "dena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lest any foe to the folk of Danes",
+    "grammar": "Contextual translation",
     "lemma": "dena"
   },
   "dene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: day by day the Danes should honor,",
+    "grammar": "Contextual translation",
     "lemma": "dene"
   },
   "denia": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor might they e'en, when morning broke,",
+    "grammar": "Contextual translation",
     "lemma": "denia"
   },
   "deniga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to deal with any of Daneland's earls,",
+    "grammar": "Contextual translation",
     "lemma": "deniga"
   },
   "denigea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Danish clan. But comfort and help,",
+    "grammar": "Contextual translation",
     "lemma": "denigea"
   },
   "denn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and glistening gold the ground along;",
+    "grammar": "Contextual translation",
     "lemma": "denn"
   },
   "dennes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it had revelled by night, and anon come back,",
+    "grammar": "Contextual translation",
     "lemma": "dennes"
   },
   "denum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled the room; the Danes were bereft,",
+    "grammar": "Contextual translation",
     "lemma": "denum"
   },
   "deo": {
@@ -10118,8 +10118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēor-mōd"
   },
   "deoran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the darling, I dealt them due return!",
+    "grammar": "Contextual translation",
     "lemma": "deoran"
   },
   "deorc": {
@@ -10128,8 +10128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "deorc"
   },
   "deorcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dark ill-doer, in dusky nights",
+    "grammar": "Contextual translation",
     "lemma": "deorcum"
   },
   "deore": {
@@ -10138,8 +10138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēore"
   },
   "deorestan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and dead indeed was his dearest thane.",
+    "grammar": "Contextual translation",
     "lemma": "deorestan"
   },
   "deorlic": {
@@ -10148,8 +10148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēor-liċ"
   },
   "deorlice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such daring deed has done at all",
+    "grammar": "Contextual translation",
     "lemma": "deorlice"
   },
   "deormod": {
@@ -10158,13 +10158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēor-mōd"
   },
   "deorre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: doughty dear-ones that death had reft.",
+    "grammar": "Contextual translation",
     "lemma": "deorre"
   },
   "deorum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the gleaming blade that its glory fell.",
+    "grammar": "Contextual translation",
     "lemma": "deorum"
   },
   "deoð": {
@@ -10178,8 +10178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dēð"
   },
   "deðeadig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: men's gladness he gave up and God's light chose.",
+    "grammar": "Contextual translation",
     "lemma": "deðeadig"
   },
   "dio": {
@@ -10213,13 +10213,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "disc"
   },
   "discas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old work of giants, by one alone;",
+    "grammar": "Contextual translation",
     "lemma": "discas"
   },
   "dogera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of his days on earth. \u0015 To all the Danes",
+    "grammar": "Contextual translation",
     "lemma": "dogera"
   },
   "dogor": {
@@ -10238,18 +10238,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dōgor-ġerīm"
   },
   "dogora": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that he heard each day the din of revel",
+    "grammar": "Contextual translation",
     "lemma": "dogora"
   },
   "dogore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who by custom courtly cared for all",
+    "grammar": "Contextual translation",
     "lemma": "dogore"
   },
   "dogores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till in season due, on the second day,",
+    "grammar": "Contextual translation",
     "lemma": "dogores"
   },
   "dogorgerim": {
@@ -10258,23 +10258,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dōgor-ġerīm"
   },
   "dogorgerimes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his portion now was past and gone ed",
+    "grammar": "Contextual translation",
     "lemma": "dogorgerimes"
   },
   "dogra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: day by day the Danes should honor,",
+    "grammar": "Contextual translation",
     "lemma": "dogra"
   },
   "dogrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: because of his rule o'er the realm itself.",
+    "grammar": "Contextual translation",
     "lemma": "dogrum"
   },
   "dohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 though in bu\u001bet of battle thou brave hast been,",
+    "grammar": "Contextual translation",
     "lemma": "dohte"
   },
   "dohte(st)": {
@@ -10283,8 +10283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dohte(st)"
   },
   "dohtest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hygelac now. We here have found",
+    "grammar": "Contextual translation",
     "lemma": "dohtest"
   },
   "dohtor": {
@@ -10338,8 +10338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dol-ġilp"
   },
   "dolgilpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and wantonly dared in waters deep",
+    "grammar": "Contextual translation",
     "lemma": "dolgilpe"
   },
   "dollic": {
@@ -10348,8 +10348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dol-liċ"
   },
   "dollicra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who hath got him glory greater than all men",
+    "grammar": "Contextual translation",
     "lemma": "dollicra"
   },
   "dolscaða": {
@@ -10358,8 +10358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dol-scaða"
   },
   "dolsceaðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this deadly foe from his deeds to turn!",
+    "grammar": "Contextual translation",
     "lemma": "dolsceaðan"
   },
   "dom": {
@@ -10388,13 +10388,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dōm-lēas"
   },
   "dome": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the doom of the Lord whom death shall take.",
+    "grammar": "Contextual translation",
     "lemma": "dome"
   },
   "domes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil outlaw, such awful doom",
+    "grammar": "Contextual translation",
     "lemma": "domes"
   },
   "domleas": {
@@ -10403,8 +10403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dōm-lēas"
   },
   "domleasan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ight of yours,",
+    "grammar": "Contextual translation",
     "lemma": "domleasan"
   },
   "don": {
@@ -10428,13 +10428,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dorste"
   },
   "dorston": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trothbreakers, cowards, ten together,",
+    "grammar": "Contextual translation",
     "lemma": "dorston"
   },
   "doðswa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegemen are revelling: list and obey!\"",
+    "grammar": "Contextual translation",
     "lemma": "doðswa"
   },
   "drac": {
@@ -10448,8 +10448,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "draca"
   },
   "dracan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: es cræftum",
+    "grammar": "Contextual translation",
     "lemma": "dracan"
   },
   "drace": {
@@ -10458,13 +10458,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "draca"
   },
   "dranc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bone-frame bit, drank blood in streams,",
+    "grammar": "Contextual translation",
     "lemma": "dranc"
   },
   "dreah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: labored in woe for the loss of his thanes,",
+    "grammar": "Contextual translation",
     "lemma": "dreah"
   },
   "dream": {
@@ -10513,13 +10513,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drēam-lēas"
   },
   "dreama": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by that doomed one dyed, who in den of the moor",
+    "grammar": "Contextual translation",
     "lemma": "dreama"
   },
   "dreame": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reft of joy, to the realms of death,",
+    "grammar": "Contextual translation",
     "lemma": "dreame"
   },
   "dreamhealdende": {
@@ -10533,8 +10533,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drēam-lēas"
   },
   "dreamum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So lived the clansmen in cheer and revel",
+    "grammar": "Contextual translation",
     "lemma": "dreamum"
   },
   "dref": {
@@ -10568,8 +10568,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drēogan"
   },
   "dreoh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after long evil, with eyes may gaze!",
+    "grammar": "Contextual translation",
     "lemma": "dreoh"
   },
   "dreor": {
@@ -10618,8 +10618,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drepe"
   },
   "drepen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stealthily shooting the shafts from his bow!",
+    "grammar": "Contextual translation",
     "lemma": "drepen"
   },
   "drif": {
@@ -10633,8 +10633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drīfan"
   },
   "drifað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oda genipu",
+    "grammar": "Contextual translation",
     "lemma": "drifað"
   },
   "drife": {
@@ -10658,33 +10658,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drihten"
   },
   "drihtguman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So lived the clansmen in cheer and revel",
+    "grammar": "Contextual translation",
     "lemma": "drihtguman"
   },
   "drihtlice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er paths of the deep to the Danes they bore,",
+    "grammar": "Contextual translation",
     "lemma": "drihtlice"
   },
   "drihtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mighty Lord, for the man's brave words.",
+    "grammar": "Contextual translation",
     "lemma": "drihtne"
   },
   "drihtnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the Wielder's might, a work has done",
+    "grammar": "Contextual translation",
     "lemma": "drihtnes"
   },
   "drihtscype": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as loyal liegeman. So lost he his glory,",
+    "grammar": "Contextual translation",
     "lemma": "drihtscype"
   },
   "drihtsele": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dyed with gore, when the daylight broke,",
+    "grammar": "Contextual translation",
     "lemma": "drihtsele"
   },
   "drinc": {
@@ -10728,8 +10728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drīoriġ"
   },
   "driorigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So he carried the load. His lord and king",
+    "grammar": "Contextual translation",
     "lemma": "driorigne"
   },
   "drohtoð": {
@@ -10738,8 +10738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drohtoð"
   },
   "drohtoðþær": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a gedræg;",
+    "grammar": "Contextual translation",
     "lemma": "drohtoðþær"
   },
   "drop": {
@@ -10758,28 +10758,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dropen"
   },
   "drugon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that erst they had lacked an earl for leader",
+    "grammar": "Contextual translation",
     "lemma": "drugon"
   },
   "druncen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: drunken with beer, of Breca now,",
+    "grammar": "Contextual translation",
     "lemma": "druncen"
   },
   "druncne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Boasted full oft, as my beer they drank,",
+    "grammar": "Contextual translation",
     "lemma": "druncne"
   },
   "druncon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: owed wine for the warriors. Wyrd they knew not,",
+    "grammar": "Contextual translation",
     "lemma": "druncon"
   },
   "drusade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: deftly they do\u001bed: now drowsed the mere,",
+    "grammar": "Contextual translation",
     "lemma": "drusade"
   },
   "drusi": {
@@ -10938,13 +10938,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dryht-guma"
   },
   "dryhtguman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegemen are revelling: list and obey!\"",
+    "grammar": "Contextual translation",
     "lemma": "dryhtguman"
   },
   "dryhtgumum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nobly anew. The Night-Helm darkened",
+    "grammar": "Contextual translation",
     "lemma": "dryhtgumum"
   },
   "dryhtlic": {
@@ -10953,8 +10953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dryht-liċ"
   },
   "dryhtmaðma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold in the barrow. Beowulf paid",
+    "grammar": "Contextual translation",
     "lemma": "dryhtmaðma"
   },
   "dryhtmaððum": {
@@ -10963,13 +10963,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dryht-māððum"
   },
   "dryhtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from God Eternal: whence guerdon due",
+    "grammar": "Contextual translation",
     "lemma": "dryhtne"
   },
   "dryhtnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the doom of the Lord whom death shall take.",
+    "grammar": "Contextual translation",
     "lemma": "dryhtnes"
   },
   "dryhtscype": {
@@ -10988,8 +10988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dryht-sib(b)"
   },
   "dryhtsibbe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"So5 I hold not high the Heathobards' faith",
+    "grammar": "Contextual translation",
     "lemma": "dryhtsibbe"
   },
   "drync fæt": {
@@ -11008,8 +11008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "drynċ-fæt"
   },
   "drysmaþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil storms, and air grows dusk,",
+    "grammar": "Contextual translation",
     "lemma": "drysmaþ"
   },
   "dug": {
@@ -11028,13 +11028,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dugan"
   },
   "dugeðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that early and late hath loyal proved",
+    "grammar": "Contextual translation",
     "lemma": "dugeðum"
   },
   "dugoðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght. To his friends no wise",
+    "grammar": "Contextual translation",
     "lemma": "dugoðe"
   },
   "duguð": {
@@ -11043,38 +11043,38 @@ const OLD_ENGLISH_DICT = {
     "lemma": "duguð"
   },
   "duguða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when a thane of the Danes, in that doughty throng,",
+    "grammar": "Contextual translation",
     "lemma": "duguða"
   },
   "duguðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the Danish king: good courtier he!",
+    "grammar": "Contextual translation",
     "lemma": "duguðe"
   },
   "duguðeal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nobly anew. The Night-Helm darkened",
+    "grammar": "Contextual translation",
     "lemma": "duguðeal"
   },
   "duguðellor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or to cleanse the carven cup of price,",
+    "grammar": "Contextual translation",
     "lemma": "duguðellor"
   },
   "duguðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They praised his earlship, his acts of prowess",
+    "grammar": "Contextual translation",
     "lemma": "duguðum"
   },
   "duguðunlytel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no dearth of warriors, Weder and Dane.",
+    "grammar": "Contextual translation",
     "lemma": "duguðunlytel"
   },
   "duguþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: death-shadow dark, and dogged them still,",
+    "grammar": "Contextual translation",
     "lemma": "duguþe"
   },
   "durr": {
@@ -11098,8 +11098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "duru"
   },
   "dweleð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this wanter-of-wisdom weeneth none.",
+    "grammar": "Contextual translation",
     "lemma": "dweleð"
   },
   "dwell": {
@@ -11133,18 +11133,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dyde"
   },
   "dydest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aught ill for thy earls, as erst thou must!\"",
+    "grammar": "Contextual translation",
     "lemma": "dydest"
   },
   "dydon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thanes' huge treasure, than those had done",
+    "grammar": "Contextual translation",
     "lemma": "dydon"
   },
   "dygel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of treacherous spirits. Untrod is their home;",
+    "grammar": "Contextual translation",
     "lemma": "dygel"
   },
   "dyhte": {
@@ -11158,13 +11158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dyhtiġ"
   },
   "dyhttig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crested, with keen blade carves amain.",
+    "grammar": "Contextual translation",
     "lemma": "dyhttig"
   },
   "dynede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled the room; the Danes were bereft,",
+    "grammar": "Contextual translation",
     "lemma": "dynede"
   },
   "dynn": {
@@ -11188,8 +11188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dyrne"
   },
   "dyre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting-mask,",
+    "grammar": "Contextual translation",
     "lemma": "dyre"
   },
   "dyrn": {
@@ -11198,8 +11198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dyrne"
   },
   "dyrnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: footprint of foe who so far had gone",
+    "grammar": "Contextual translation",
     "lemma": "dyrnan"
   },
   "dyrne": {
@@ -11208,18 +11208,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dyrne"
   },
   "dyrnne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hated and hounded. To hidden lair,",
+    "grammar": "Contextual translation",
     "lemma": "dyrnne"
   },
   "dyrnra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of treacherous spirits. Untrod is their home;",
+    "grammar": "Contextual translation",
     "lemma": "dyrnra"
   },
   "dyrnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: not weave one another the net of wiles,",
+    "grammar": "Contextual translation",
     "lemma": "dyrnum"
   },
   "dyrr": {
@@ -11308,8 +11308,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dǣd-hata"
   },
   "dæda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Doomsman of Deeds and dreadful Lord,",
+    "grammar": "Contextual translation",
     "lemma": "dæda"
   },
   "dædcene": {
@@ -11318,8 +11318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dǣd-cēne"
   },
   "dæde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fearful quest, nor was Fitela there.",
+    "grammar": "Contextual translation",
     "lemma": "dæde"
   },
   "dædfruma": {
@@ -11333,8 +11333,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dǣd-hata"
   },
   "dædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled such deeds, that thy fame shall endure",
+    "grammar": "Contextual translation",
     "lemma": "dædum"
   },
   "dæg": {
@@ -11363,18 +11363,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dæġ-rīm"
   },
   "dæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in that same day of this our life,",
+    "grammar": "Contextual translation",
     "lemma": "dæge"
   },
   "dæges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: closed o'er the hero. Long while of the day",
+    "grammar": "Contextual translation",
     "lemma": "dæges"
   },
   "dæghrefne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that early and late hath loyal proved",
+    "grammar": "Contextual translation",
     "lemma": "dæghrefne"
   },
   "dæghwil": {
@@ -11383,8 +11383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dæġ-hwīl"
   },
   "dæghwila": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his mortal wound; full well he knew",
+    "grammar": "Contextual translation",
     "lemma": "dæghwila"
   },
   "dægrim": {
@@ -11403,13 +11403,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dǣlan"
   },
   "dælas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his folk's sure fortress in fee to hold,",
+    "grammar": "Contextual translation",
     "lemma": "dælas"
   },
   "dælde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Not reckless of promise, the rings he dealt,",
+    "grammar": "Contextual translation",
     "lemma": "dælde"
   },
   "dæle": {
@@ -11418,8 +11418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "dǣlan"
   },
   "dæleþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fated falls; and there follows another",
+    "grammar": "Contextual translation",
     "lemma": "dæleþ"
   },
   "dу": {
@@ -11493,13 +11493,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēacen-cræftiġ"
   },
   "eacne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The clashing waters were cleansed now, end",
+    "grammar": "Contextual translation",
     "lemma": "eacne"
   },
   "eacnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: her head I hewed with a hardy blade",
+    "grammar": "Contextual translation",
     "lemma": "eacnum"
   },
   "eade": {
@@ -11508,8 +11508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēadiġ"
   },
   "eadgilse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THE fall of his lord he was fain to requite",
+    "grammar": "Contextual translation",
     "lemma": "eadgilse"
   },
   "eadig": {
@@ -11538,23 +11538,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēadiġ-līċe"
   },
   "eafera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To him an heir was afterward born,",
+    "grammar": "Contextual translation",
     "lemma": "eafera"
   },
   "eaferan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o\u001bspring of ours, when all he minds",
+    "grammar": "Contextual translation",
     "lemma": "eaferan"
   },
   "eaferum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of that sudden raid on the sons of Finn.4",
+    "grammar": "Contextual translation",
     "lemma": "eaferum"
   },
   "eafeþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Though him the Maker with might endowed,",
+    "grammar": "Contextual translation",
     "lemma": "eafeþum"
   },
   "eafo": {
@@ -11583,8 +11583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eafora"
   },
   "eaforan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Still is he minded, as morning breaks,",
+    "grammar": "Contextual translation",
     "lemma": "eaforan"
   },
   "eafore": {
@@ -11593,18 +11593,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eafora"
   },
   "eafores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the folk-king there was forced to su\u001ber",
+    "grammar": "Contextual translation",
     "lemma": "eafores"
   },
   "eaforheafodsegn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I of kinsmen, save, Hygelac, thee!\"",
+    "grammar": "Contextual translation",
     "lemma": "eaforheafodsegn"
   },
   "eaforum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the heroes a help. Was not Heremod thus",
+    "grammar": "Contextual translation",
     "lemma": "eaforum"
   },
   "eafoð": {
@@ -11613,18 +11613,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eafoð"
   },
   "eafoðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall I prove him the prowess and pride of the Geats,",
+    "grammar": "Contextual translation",
     "lemma": "eafoðond"
   },
   "eafoðuncuþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: force of the foe. Fain, too, were I",
+    "grammar": "Contextual translation",
     "lemma": "eafoðuncuþes"
   },
   "eafoþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy and strong, that speech he had made,",
+    "grammar": "Contextual translation",
     "lemma": "eafoþes"
   },
   "eag": {
@@ -11638,8 +11638,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēaġe"
   },
   "eagena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or bite of blade, or brandished spear,",
+    "grammar": "Contextual translation",
     "lemma": "eagena"
   },
   "eagor stream": {
@@ -11658,8 +11658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēagor-strēam"
   },
   "eagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ireful he strode; there streamed from his eyes",
+    "grammar": "Contextual translation",
     "lemma": "eagum"
   },
   "eaht": {
@@ -11678,8 +11678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eahta"
   },
   "eahtedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sat assembled, and searched out counsel",
+    "grammar": "Contextual translation",
     "lemma": "eahtedon"
   },
   "eahti": {
@@ -11698,18 +11698,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eahtian"
   },
   "eahtodan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: chant their dirge, and their chieftain honor.",
+    "grammar": "Contextual translation",
     "lemma": "eahtodan"
   },
   "eahtode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: him who with Hrothgar the homestead ruled.",
+    "grammar": "Contextual translation",
     "lemma": "eahtode"
   },
   "eal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the boards of the benches blood-besprinkled,",
+    "grammar": "Contextual translation",
     "lemma": "eal"
   },
   "eal(l)": {
@@ -11843,8 +11843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-sweord"
   },
   "ealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: treasures olden: oaths he3 swore me.",
+    "grammar": "Contextual translation",
     "lemma": "ealde"
   },
   "ealder": {
@@ -11863,13 +11863,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealder-"
   },
   "ealderdagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such as oft he had done in days of old!",
+    "grammar": "Contextual translation",
     "lemma": "ealderdagum"
   },
   "ealdes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the wall were marvels, and many a vessel",
+    "grammar": "Contextual translation",
     "lemma": "ealdes"
   },
   "ealdfæder": {
@@ -11883,8 +11883,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-ġeseġen"
   },
   "ealdgesegena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stored with sagas and songs of old,",
+    "grammar": "Contextual translation",
     "lemma": "ealdgesegena"
   },
   "ealdgesið": {
@@ -11893,8 +11893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-ġesīð"
   },
   "ealdgesiðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Home then rode the hoary clansmen",
+    "grammar": "Contextual translation",
     "lemma": "ealdgesiðas"
   },
   "ealdgestreon": {
@@ -11903,18 +11903,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-ġestrēon"
   },
   "ealdgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst;",
+    "grammar": "Contextual translation",
     "lemma": "ealdgestreona"
   },
   "ealdgestreonum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with ancient treasure, as erst I did,",
+    "grammar": "Contextual translation",
     "lemma": "ealdgestreonum"
   },
   "ealdgewin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I on this head all hewn and bloody,",
+    "grammar": "Contextual translation",
     "lemma": "ealdgewin"
   },
   "ealdgewinna": {
@@ -11933,8 +11933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-hlāford"
   },
   "ealdhlafordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brightest of beacons. \u0015 The blade of his lord",
+    "grammar": "Contextual translation",
     "lemma": "ealdhlafordes"
   },
   "ealdmetod": {
@@ -11998,18 +11998,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealdor-lēas"
   },
   "ealdorleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs,",
+    "grammar": "Contextual translation",
     "lemma": "ealdorleasne"
   },
   "ealdre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: monster dire, on thy master dear,",
+    "grammar": "Contextual translation",
     "lemma": "ealdre"
   },
   "ealdres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in arms he fell. Now another comes,",
+    "grammar": "Contextual translation",
     "lemma": "ealdres"
   },
   "ealdsweord": {
@@ -12018,18 +12018,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eald-sweord"
   },
   "ealdum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he would all allot that the Lord had sent him,",
+    "grammar": "Contextual translation",
     "lemma": "ealdum"
   },
   "ealfela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stored with sagas and songs of old,",
+    "grammar": "Contextual translation",
     "lemma": "ealfela"
   },
   "ealgearo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thanes are friendly, the throng obedient,",
+    "grammar": "Contextual translation",
     "lemma": "ealgearo"
   },
   "ealgi": {
@@ -12048,53 +12048,53 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealgian"
   },
   "ealgode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under his banner the booty defending,",
+    "grammar": "Contextual translation",
     "lemma": "ealgode"
   },
   "ealgylden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gory sark, the gilded swine-crest,",
+    "grammar": "Contextual translation",
     "lemma": "ealgylden"
   },
   "eall": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and within it, then, to old and young",
+    "grammar": "Contextual translation",
     "lemma": "eall"
   },
   "ealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of Cain awoke all that woful breed,",
+    "grammar": "Contextual translation",
     "lemma": "ealle"
   },
   "ealles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: held safe and sound, when, seared with crime,",
+    "grammar": "Contextual translation",
     "lemma": "ealles"
   },
   "eallgearo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warding the treasure, his one delight,",
+    "grammar": "Contextual translation",
     "lemma": "eallgearo"
   },
   "eallgylden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: each human wight: let him hide it who will! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "eallgylden"
   },
   "eallirenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Warriors'-bulwark, he bade them work",
+    "grammar": "Contextual translation",
     "lemma": "eallirenne"
   },
   "eallum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled the room; the Danes were bereft,",
+    "grammar": "Contextual translation",
     "lemma": "eallum"
   },
   "ealne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thou art famed among folk both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "ealne"
   },
   "ealo": {
@@ -12123,8 +12123,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealo-drincend(e)"
   },
   "ealobence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the ale-bench honoring others thus!",
+    "grammar": "Contextual translation",
     "lemma": "ealobence"
   },
   "ealodrincend(e)": {
@@ -12133,8 +12133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealo-drincend(e)"
   },
   "ealodrincende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But Hemming's kinsman hindered this. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ealodrincende"
   },
   "ealond": {
@@ -12143,13 +12143,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēa-lond"
   },
   "ealowæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earls o'er the ale-cup, armed men,",
+    "grammar": "Contextual translation",
     "lemma": "ealowæge"
   },
   "ealra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the strength of His spirit sendeth wisdom,",
+    "grammar": "Contextual translation",
     "lemma": "ealra"
   },
   "ealu scerwen": {
@@ -12173,8 +12173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealu-scerwen"
   },
   "ealubence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the harness of war in which ye stand",
+    "grammar": "Contextual translation",
     "lemma": "ealubence"
   },
   "ealuscerwen": {
@@ -12183,8 +12183,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ealu-scerwen"
   },
   "ealuwæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft to the heroes Hrothgar's daughter,",
+    "grammar": "Contextual translation",
     "lemma": "ealuwæge"
   },
   "eam": {
@@ -12193,13 +12193,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēam"
   },
   "eame": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his uncle's side. In sorrowful dirges",
+    "grammar": "Contextual translation",
     "lemma": "eame"
   },
   "eanmundes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his shield, he seized; the old sword he drew: \u0015",
+    "grammar": "Contextual translation",
     "lemma": "eanmundes"
   },
   "eard": {
@@ -12218,13 +12218,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eard-lufu(-lufe)"
   },
   "eardas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The clashing waters were cleansed now, end",
+    "grammar": "Contextual translation",
     "lemma": "eardas"
   },
   "earde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: away from the world, till awoke an heir,",
+    "grammar": "Contextual translation",
     "lemma": "earde"
   },
   "eardi": {
@@ -12243,8 +12243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eardian"
   },
   "eardlufan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the folk and fastness that fostered them,",
+    "grammar": "Contextual translation",
     "lemma": "eardlufan"
   },
   "eardlufu(lufe)": {
@@ -12253,18 +12253,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eard-lufu(-lufe)"
   },
   "eardode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harassings heavy. O'er Heorot he lorded,",
+    "grammar": "Contextual translation",
     "lemma": "eardode"
   },
   "eardodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eaten with rust, as, on earth's lap resting,",
+    "grammar": "Contextual translation",
     "lemma": "eardodon"
   },
   "earfeþo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: than any man else, more ocean-endurance.",
+    "grammar": "Contextual translation",
     "lemma": "earfeþo"
   },
   "earfoð lice": {
@@ -12303,8 +12303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earfoð-þrāg"
   },
   "earfoðþrage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: else ever afterward anguish-days",
+    "grammar": "Contextual translation",
     "lemma": "earfoðþrage"
   },
   "earg": {
@@ -12313,8 +12313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earg"
   },
   "earges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and hardy 'neath helmet his harness bore",
+    "grammar": "Contextual translation",
     "lemma": "earges"
   },
   "earm": {
@@ -12378,13 +12378,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earm-bēag"
   },
   "earmbeaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reft of richness; rusty helms",
+    "grammar": "Contextual translation",
     "lemma": "earmbeaga"
   },
   "earme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through strength of himself and his swimming power,",
+    "grammar": "Contextual translation",
     "lemma": "earme"
   },
   "earmlic": {
@@ -12393,13 +12393,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earm-liċ"
   },
   "earmran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor adrift on the deep a more desolate man!",
+    "grammar": "Contextual translation",
     "lemma": "earmran"
   },
   "earmre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the weary and wounded; woes he threatened",
+    "grammar": "Contextual translation",
     "lemma": "earmre"
   },
   "earmread(hread)": {
@@ -12408,8 +12408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earm-rēad(-hrēad)"
   },
   "earmreade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she o\u001bered, to honor him, arm-jewels twain,",
+    "grammar": "Contextual translation",
     "lemma": "earmreade"
   },
   "earmsceapen": {
@@ -12418,8 +12418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earm-sceapen"
   },
   "earmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ocean-tides with your arms ye covered,",
+    "grammar": "Contextual translation",
     "lemma": "earmum"
   },
   "earn": {
@@ -12428,13 +12428,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "earn"
   },
   "earnanæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of word or of work. The warriors rose;",
+    "grammar": "Contextual translation",
     "lemma": "earnanæs"
   },
   "earne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain o'er the fallen, his feast shall praise",
+    "grammar": "Contextual translation",
     "lemma": "earne"
   },
   "eart": {
@@ -12453,13 +12453,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēastan"
   },
   "eastdena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: East-Danes' king, that your kin he knows,",
+    "grammar": "Contextual translation",
     "lemma": "eastdena"
   },
   "eastdenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his deed and its honor. To Eastern Danes",
+    "grammar": "Contextual translation",
     "lemma": "eastdenum"
   },
   "easte": {
@@ -12473,13 +12473,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eatol"
   },
   "eatolne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: pact of peace, but pushed their hosts",
+    "grammar": "Contextual translation",
     "lemma": "eatolne"
   },
   "eaweðþurh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: c his rage unmatched,",
+    "grammar": "Contextual translation",
     "lemma": "eaweðþurh"
   },
   "eaxl": {
@@ -12508,8 +12508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eaxl-ġestealla"
   },
   "eaxle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: took mortal hurt; a mighty wound",
+    "grammar": "Contextual translation",
     "lemma": "eaxle"
   },
   "eaxlgestealla": {
@@ -12518,13 +12518,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eaxl-ġestealla"
   },
   "eaxlgesteallan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He slew, wrath-swollen, his shoulder-comrades,",
+    "grammar": "Contextual translation",
     "lemma": "eaxlgesteallan"
   },
   "eaxlum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till the stout thane stood at the shoulder there",
+    "grammar": "Contextual translation",
     "lemma": "eaxlum"
   },
   "eað": {
@@ -12573,8 +12573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēað-fynde"
   },
   "eaþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: into Grendel's grasp. But God is able",
+    "grammar": "Contextual translation",
     "lemma": "eaþe"
   },
   "ec": {
@@ -12588,8 +12588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēċe"
   },
   "ecean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from God Eternal: whence guerdon due",
+    "grammar": "Contextual translation",
     "lemma": "ecean"
   },
   "ecg": {
@@ -12658,8 +12658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ecg-þracu"
   },
   "ecga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel's attack with terror of blades.",
+    "grammar": "Contextual translation",
     "lemma": "ecga"
   },
   "ecgbana": {
@@ -12668,8 +12668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ecg-bana"
   },
   "ecgbanan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with edge of the sword his only brother, ed,",
+    "grammar": "Contextual translation",
     "lemma": "ecgbanan"
   },
   "ecgclif": {
@@ -12678,8 +12678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ecg-clif"
   },
   "ecge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: its edge was famed with the Frisian earls.",
+    "grammar": "Contextual translation",
     "lemma": "ecge"
   },
   "ecghete": {
@@ -12688,48 +12688,48 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ecg-hete"
   },
   "ecglafes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: UNFERTH spake, the son of Ecglaf,",
+    "grammar": "Contextual translation",
     "lemma": "ecglafes"
   },
   "ecgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crested, with keen blade carves amain.",
+    "grammar": "Contextual translation",
     "lemma": "ecgum"
   },
   "ecgwelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the heroes a help. Was not Heremod thus",
+    "grammar": "Contextual translation",
     "lemma": "ecgwelan"
   },
   "ecgðeowes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gem gleamed bright on the breast of the queen.",
+    "grammar": "Contextual translation",
     "lemma": "ecgðeowes"
   },
   "ecgðioes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that safe and sound I can see thee now!\"",
+    "grammar": "Contextual translation",
     "lemma": "ecgðioes"
   },
   "ecgðiowes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus safe through struggles the son of Ecgtheow",
+    "grammar": "Contextual translation",
     "lemma": "ecgðiowes"
   },
   "ecgþeo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his aged father was Ecgtheow named,",
+    "grammar": "Contextual translation",
     "lemma": "ecgþeo"
   },
   "ecgþeow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: noble atheling, Ecgtheow named.",
+    "grammar": "Contextual translation",
     "lemma": "ecgþeow"
   },
   "ecgþeowes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf spake, bairn of Ecgtheow:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "ecgþeowes"
   },
   "ecgþracu": {
@@ -12738,28 +12738,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ecg-þracu"
   },
   "ecgþræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from sword-clash dread of your Danish clan",
+    "grammar": "Contextual translation",
     "lemma": "ecgþræce"
   },
   "eclafes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: More silent seemed the son of Ecglaf1",
+    "grammar": "Contextual translation",
     "lemma": "eclafes"
   },
   "ecne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Eormenric's hate: chose help eternal.",
+    "grammar": "Contextual translation",
     "lemma": "ecne"
   },
   "ecum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the Wielder-of-Wonders, with words I say,",
+    "grammar": "Contextual translation",
     "lemma": "ecum"
   },
   "ecþeowes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf spake, bairn of Ecgtheow:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "ecþeowes"
   },
   "ed hwyrft": {
@@ -12813,13 +12813,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ed-hwyrft"
   },
   "edrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bone-frame bit, drank blood in streams,",
+    "grammar": "Contextual translation",
     "lemma": "edrum"
   },
   "edwendan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if ever the end of ills is fated,",
+    "grammar": "Contextual translation",
     "lemma": "edwendan"
   },
   "edwenden": {
@@ -12848,13 +12848,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "efnan"
   },
   "efnanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proclaimed and closed. No queenly way",
+    "grammar": "Contextual translation",
     "lemma": "efnanne"
   },
   "efnde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: (sad was his soul) in the sea-waves' coil",
+    "grammar": "Contextual translation",
     "lemma": "efnde"
   },
   "efne": {
@@ -12913,8 +12913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eft-cyme"
   },
   "eftcymes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: daring shieldsmen, in doubt of twain:",
+    "grammar": "Contextual translation",
     "lemma": "eftcymes"
   },
   "eftsið": {
@@ -12923,18 +12923,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eft-sīð"
   },
   "eftsiðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of the prey, her path she took,",
+    "grammar": "Contextual translation",
     "lemma": "eftsiðas"
   },
   "eftsiðeorla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: woven war-sarks. The warden marked,",
+    "grammar": "Contextual translation",
     "lemma": "eftsiðeorla"
   },
   "eftsiðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at midnight hour, till it met its doom.",
+    "grammar": "Contextual translation",
     "lemma": "eftsiðes"
   },
   "eg stream": {
@@ -12978,8 +12978,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eġesa"
   },
   "egesan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who joyously the jewels divides,",
+    "grammar": "Contextual translation",
     "lemma": "egesan"
   },
   "egese": {
@@ -12993,8 +12993,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eġes-ful(l)"
   },
   "egesfull": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Soon the sage old sire5 of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "egesfull"
   },
   "egeslic": {
@@ -13023,8 +13023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eġsa"
   },
   "egsan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: c his rage unmatched,",
+    "grammar": "Contextual translation",
     "lemma": "egsan"
   },
   "egse": {
@@ -13048,8 +13048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eġsian"
   },
   "egsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awing the earls. Since erst he lay",
+    "grammar": "Contextual translation",
     "lemma": "egsode"
   },
   "egstream": {
@@ -13058,8 +13058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēg-strēam"
   },
   "egstreamum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor adrift on the deep a more desolate man!",
+    "grammar": "Contextual translation",
     "lemma": "egstreamum"
   },
   "eht": {
@@ -13078,8 +13078,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēhtan"
   },
   "ehtende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But the evil one ambushed old and young",
+    "grammar": "Contextual translation",
     "lemma": "ehtende"
   },
   "ehti(g)": {
@@ -13098,13 +13098,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ehti(ġ)an"
   },
   "ehtigað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thou art famed among folk both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "ehtigað"
   },
   "ehton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and swarmed on the stranger. But soon he marked",
+    "grammar": "Contextual translation",
     "lemma": "ehton"
   },
   "el": {
@@ -13148,13 +13148,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "elde"
   },
   "eldo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: legends of wonder, the wide-hearted king;",
+    "grammar": "Contextual translation",
     "lemma": "eldo"
   },
   "eldum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the stone-barrow steep. A strait path reached it,",
+    "grammar": "Contextual translation",
     "lemma": "eldum"
   },
   "ell": {
@@ -13258,8 +13258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-dǣd"
   },
   "ellendædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Strange the story: he said it all, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ellendædum"
   },
   "ellengæst": {
@@ -13273,8 +13273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-līċe"
   },
   "ellenmærðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: honor of earls. With the other not so,",
+    "grammar": "Contextual translation",
     "lemma": "ellenmærðum"
   },
   "ellenmærþu": {
@@ -13283,8 +13283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-mǣrþu"
   },
   "ellenmærþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his deed and its honor. To Eastern Danes",
+    "grammar": "Contextual translation",
     "lemma": "ellenmærþum"
   },
   "ellenrof": {
@@ -13293,8 +13293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-rōf"
   },
   "ellenrofum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to seek his seat, as the Sage commanded.",
+    "grammar": "Contextual translation",
     "lemma": "ellenrofum"
   },
   "ellensioc": {
@@ -13303,8 +13303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-sīoc"
   },
   "ellensiocne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: alive, where he left him, the lord of Weders,",
+    "grammar": "Contextual translation",
     "lemma": "ellensiocne"
   },
   "ellenweorc": {
@@ -13313,8 +13313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellen-weorc"
   },
   "ellenweorca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had passed a plenty, through perils dire,",
+    "grammar": "Contextual translation",
     "lemma": "ellenweorca"
   },
   "elles": {
@@ -13353,13 +13353,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellor-gāst"
   },
   "ellorgæst": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so poisoned the hell-sprite who perished within there.",
+    "grammar": "Contextual translation",
     "lemma": "ellorgæst"
   },
   "ellorgæstas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wandering spirits: one of them seemed,",
+    "grammar": "Contextual translation",
     "lemma": "ellorgæstas"
   },
   "ellorsið": {
@@ -13368,8 +13368,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ellor-sīð"
   },
   "elne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus had the dread-one by daring achieved",
+    "grammar": "Contextual translation",
     "lemma": "elne"
   },
   "elne(s)": {
@@ -13378,8 +13378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "elne(s)"
   },
   "elnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Firm still stood, nor failed in valor,",
+    "grammar": "Contextual translation",
     "lemma": "elnes"
   },
   "elr": {
@@ -13393,8 +13393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "elra"
   },
   "elran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the ways of earth, another wight",
+    "grammar": "Contextual translation",
     "lemma": "elran"
   },
   "elre": {
@@ -13408,8 +13408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "el-þēodiġ"
   },
   "elþeodige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's herald! Heroes so many",
+    "grammar": "Contextual translation",
     "lemma": "elþeodige"
   },
   "en": {
@@ -13513,8 +13513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ende-dōgor"
   },
   "endedogores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: daring shieldsmen, in doubt of twain:",
+    "grammar": "Contextual translation",
     "lemma": "endedogores"
   },
   "endedæg": {
@@ -13558,8 +13558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ent"
   },
   "enta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: giant-wrought, old. So owned and enjoyed it",
+    "grammar": "Contextual translation",
     "lemma": "enta"
   },
   "entisc": {
@@ -13568,23 +13568,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "entisc"
   },
   "entiscne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when his brother fell, with broad brand smote,",
+    "grammar": "Contextual translation",
     "lemma": "entiscne"
   },
   "eode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till the stout thane stood at the shoulder there",
+    "grammar": "Contextual translation",
     "lemma": "eode"
   },
   "eoderas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: adown the hall: one horse was decked",
+    "grammar": "Contextual translation",
     "lemma": "eoderas"
   },
   "eodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy-spirited, sat them down,",
+    "grammar": "Contextual translation",
     "lemma": "eodon"
   },
   "eodor": {
@@ -13593,8 +13593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eodor"
   },
   "eodur": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: defence-of-Scyldings, forth from hall;",
+    "grammar": "Contextual translation",
     "lemma": "eodur"
   },
   "eofer": {
@@ -13613,8 +13613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eofer-sprēot"
   },
   "eoferas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hewed the helm-boars; hero famed",
+    "grammar": "Contextual translation",
     "lemma": "eoferas"
   },
   "eoferspreot": {
@@ -13623,8 +13623,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eofer-sprēot"
   },
   "eoferspreotum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swift on the billows, with boar-spears well",
+    "grammar": "Contextual translation",
     "lemma": "eoferspreotum"
   },
   "eofor heafod segn": {
@@ -13648,8 +13648,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eofor-līċ"
   },
   "eofores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by kinsman for kinsman,1 with clash of sword,",
+    "grammar": "Contextual translation",
     "lemma": "eofores"
   },
   "eoforheafodsegn": {
@@ -13668,8 +13668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eofoð"
   },
   "eofoðo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor meet for any but me alone",
+    "grammar": "Contextual translation",
     "lemma": "eofoðo"
   },
   "eolet": {
@@ -13678,8 +13678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eolet"
   },
   "eoletes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their journey ended. Up then quickly",
+    "grammar": "Contextual translation",
     "lemma": "eoletes"
   },
   "eom": {
@@ -13688,8 +13688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eom"
   },
   "eomer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the spear-bold warrior; wisely he ruled",
+    "grammar": "Contextual translation",
     "lemma": "eomer"
   },
   "eor": {
@@ -13723,8 +13723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorclan-stān"
   },
   "eorclanstanas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he bore with him over the beaker-of-waves,",
+    "grammar": "Contextual translation",
     "lemma": "eorclanstanas"
   },
   "eored geatwe": {
@@ -13818,18 +13818,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorl-weorod"
   },
   "eorla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors in world than is one of you, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "eorla"
   },
   "eorlas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awing the earls. Since erst he lay",
+    "grammar": "Contextual translation",
     "lemma": "eorlas"
   },
   "eorles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the head of the earl, while all about him",
+    "grammar": "Contextual translation",
     "lemma": "eorles"
   },
   "eorlgestreon": {
@@ -13838,8 +13838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorl-ġestrēon"
   },
   "eorlgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard by the headland, hidden and closed;",
+    "grammar": "Contextual translation",
     "lemma": "eorlgestreona"
   },
   "eorlgewæde": {
@@ -13848,13 +13848,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorl-ġewǣde"
   },
   "eorlgewædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in martial mail, nor mourned for his life.",
+    "grammar": "Contextual translation",
     "lemma": "eorlgewædum"
   },
   "eorlic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: an earl's brave deed, or end the days",
+    "grammar": "Contextual translation",
     "lemma": "eorlic"
   },
   "eorlic(=eorl lic)": {
@@ -13878,13 +13878,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorl-scipe"
   },
   "eorlscype": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to measure might with this monster here",
+    "grammar": "Contextual translation",
     "lemma": "eorlscype"
   },
   "eorlum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earls, of their ale. Angry were both",
+    "grammar": "Contextual translation",
     "lemma": "eorlum"
   },
   "eorlweorod": {
@@ -13928,8 +13928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eormen-cyn(n)"
   },
   "eormencynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from sea to sea, of the sons of earth,",
+    "grammar": "Contextual translation",
     "lemma": "eormencynnes"
   },
   "eormengrund": {
@@ -13943,13 +13943,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eormen-lāf"
   },
   "eormenlafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which some earl forgotten, in ancient years,",
+    "grammar": "Contextual translation",
     "lemma": "eormenlafe"
   },
   "eormenrices": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Eormenric's hate: chose help eternal.",
+    "grammar": "Contextual translation",
     "lemma": "eormenrices"
   },
   "eorr": {
@@ -13963,8 +13963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorre"
   },
   "eorres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor harm his heart by the hand of a foe.",
+    "grammar": "Contextual translation",
     "lemma": "eorres"
   },
   "eorð": {
@@ -14068,8 +14068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorð-weard"
   },
   "eorðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how the Almighty made the earth,",
+    "grammar": "Contextual translation",
     "lemma": "eorðan"
   },
   "eorðbuend(e)": {
@@ -14083,8 +14083,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorð-cyning"
   },
   "eorðcyninges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the chattels the chieftain owned,",
+    "grammar": "Contextual translation",
     "lemma": "eorðcyninges"
   },
   "eorðdraca": {
@@ -14098,8 +14098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorðe"
   },
   "eorðhuse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of such besides there was store enough,",
+    "grammar": "Contextual translation",
     "lemma": "eorðhuse"
   },
   "eorðreced": {
@@ -14108,8 +14108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorð-reċed"
   },
   "eorðscrafa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seeking its den; now in death's sure clutch",
+    "grammar": "Contextual translation",
     "lemma": "eorðscrafa"
   },
   "eorðscræf": {
@@ -14128,8 +14128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorð-weal(l)"
   },
   "eorðweall": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his bairn and his bride: so he bent him again,",
+    "grammar": "Contextual translation",
     "lemma": "eorðweall"
   },
   "eorðweard": {
@@ -14138,8 +14138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eorð-weard"
   },
   "eorþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors in world than is one of you, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "eorþan"
   },
   "eot": {
@@ -14158,13 +14158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eoten"
   },
   "eotena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and that wild brood worsted. I' the waves I slew",
+    "grammar": "Contextual translation",
     "lemma": "eotena"
   },
   "eotenas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Etins7 and elves and evil-spirits,",
+    "grammar": "Contextual translation",
     "lemma": "eotenas"
   },
   "eotenisc": {
@@ -14173,8 +14173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eotenisc"
   },
   "eotenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: grew slack in battle. He, swiftly banished",
+    "grammar": "Contextual translation",
     "lemma": "eotenum"
   },
   "eoton weard": {
@@ -14188,8 +14188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "eoton-weard"
   },
   "eotonisc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when his brother fell, with broad brand smote,",
+    "grammar": "Contextual translation",
     "lemma": "eotonisc"
   },
   "eotonweard": {
@@ -14218,38 +14218,38 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēower"
   },
   "eowerne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall win that wealth, or war shall seize,",
+    "grammar": "Contextual translation",
     "lemma": "eowerne"
   },
   "eoweð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shadow his spirit; no sword-hate threatens",
+    "grammar": "Contextual translation",
     "lemma": "eoweð"
   },
   "eowic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in grace and mercy guard you well,",
+    "grammar": "Contextual translation",
     "lemma": "eowic"
   },
   "eowra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I would work the will of your people",
+    "grammar": "Contextual translation",
     "lemma": "eowra"
   },
   "eowre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I hear of the country whence ye came.\"",
+    "grammar": "Contextual translation",
     "lemma": "eowre"
   },
   "eowrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ye may wend your way in war-attire,",
+    "grammar": "Contextual translation",
     "lemma": "eowrum"
   },
   "erede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and as many others outward bore,",
+    "grammar": "Contextual translation",
     "lemma": "erede"
   },
   "est": {
@@ -14258,23 +14258,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēst"
   },
   "este": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the God of the ages was good to her",
+    "grammar": "Contextual translation",
     "lemma": "este"
   },
   "estum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This work of war most willingly",
+    "grammar": "Contextual translation",
     "lemma": "estum"
   },
   "etan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: will he fearless eat, \u0015 as oft before, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "etan"
   },
   "eteðangenga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless devour it, the roamer-lonely,",
+    "grammar": "Contextual translation",
     "lemma": "eteðangenga"
   },
   "etonisc": {
@@ -14318,8 +14318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēðe"
   },
   "eðel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the spear-bold warrior; wisely he ruled",
+    "grammar": "Contextual translation",
     "lemma": "eðel"
   },
   "eðel riht": {
@@ -14348,8 +14348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēðel-riht"
   },
   "eðelwyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for lordly treasure: with land he entrusted me,",
+    "grammar": "Contextual translation",
     "lemma": "eðelwyn"
   },
   "eðelwyn(n)": {
@@ -14418,8 +14418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēþel-stōl"
   },
   "eþelstolas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rings and royal-seat, reckoning naught",
+    "grammar": "Contextual translation",
     "lemma": "eþelstolas"
   },
   "eþelturf": {
@@ -14428,8 +14428,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēþel-turf"
   },
   "eþeltyrf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I heard in my home-land heralded clear.",
+    "grammar": "Contextual translation",
     "lemma": "eþeltyrf"
   },
   "eþelweard": {
@@ -14438,13 +14438,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēþel-weard"
   },
   "eþelwearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst to the East-Danes' heir and warden,",
+    "grammar": "Contextual translation",
     "lemma": "eþelwearde"
   },
   "eþgesyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: All on the pyre were plain to see",
+    "grammar": "Contextual translation",
     "lemma": "eþgesyne"
   },
   "eþgesуne": {
@@ -14453,8 +14453,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ēþ-ġesӯne"
   },
   "eþle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the heart of the hero of high-born race, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "eþle"
   },
   "f": {
@@ -14493,8 +14493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fācen-stafas"
   },
   "facne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the longest-lived of the loathsome race",
+    "grammar": "Contextual translation",
     "lemma": "facne"
   },
   "fag": {
@@ -14503,18 +14503,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fāg"
   },
   "fage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: blazoned with jewels: the blade had melted,",
+    "grammar": "Contextual translation",
     "lemma": "fage"
   },
   "fagne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end trod on,",
+    "grammar": "Contextual translation",
     "lemma": "fagne"
   },
   "fagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with bloody brand, \u0015 I boast not of it! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "fagum"
   },
   "fah": {
@@ -14523,8 +14523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fāh"
   },
   "fahne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dyed in gore, if death must take me;",
+    "grammar": "Contextual translation",
     "lemma": "fahne"
   },
   "famig heals": {
@@ -14548,8 +14548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fāne"
   },
   "fand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Found within it the atheling band",
+    "grammar": "Contextual translation",
     "lemma": "fand"
   },
   "fane": {
@@ -14563,8 +14563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "faran"
   },
   "fara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet I came unharmed from that hostile clutch,",
+    "grammar": "Contextual translation",
     "lemma": "fara"
   },
   "faran": {
@@ -14578,8 +14578,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "faran"
   },
   "farenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: athelings all were eager homeward",
+    "grammar": "Contextual translation",
     "lemma": "farenne"
   },
   "faroð": {
@@ -14588,13 +14588,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "faroð"
   },
   "faroðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then they bore him over to ocean's billow,",
+    "grammar": "Contextual translation",
     "lemma": "faroðe"
   },
   "fatu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ier old:",
+    "grammar": "Contextual translation",
     "lemma": "fatu"
   },
   "fe": {
@@ -14643,8 +14643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fealo"
   },
   "fealone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: atheling haughty, and O\u001ba's hall od",
+    "grammar": "Contextual translation",
     "lemma": "fealone"
   },
   "fealu": {
@@ -14653,13 +14653,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fealu"
   },
   "fealwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it faran",
+    "grammar": "Contextual translation",
     "lemma": "fealwe"
   },
   "feara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Foremost he1 fared, a few at his side",
+    "grammar": "Contextual translation",
     "lemma": "feara"
   },
   "feasceaft": {
@@ -14668,18 +14668,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēa-sceaft"
   },
   "feasceafte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from hostile hordes, after Hygelac's death.",
+    "grammar": "Contextual translation",
     "lemma": "feasceafte"
   },
   "feasceaftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: borne o\u001b was booty. His boon was granted",
+    "grammar": "Contextual translation",
     "lemma": "feasceaftum"
   },
   "feaum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Finn's own liegemen, and few were left;",
+    "grammar": "Contextual translation",
     "lemma": "feaum"
   },
   "feax": {
@@ -14688,8 +14688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feax"
   },
   "feaxe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And next by the hair into hall was borne",
+    "grammar": "Contextual translation",
     "lemma": "feaxe"
   },
   "fee": {
@@ -14703,8 +14703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēhð"
   },
   "fehðoþer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the frame of the body fragile yields,",
+    "grammar": "Contextual translation",
     "lemma": "fehðoþer"
   },
   "fel": {
@@ -14798,13 +14798,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fela-mōdiġ"
   },
   "felamodigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, since four were needed",
+    "grammar": "Contextual translation",
     "lemma": "felamodigra"
   },
   "felasinnigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ecked being. Seek if thou dare!",
+    "grammar": "Contextual translation",
     "lemma": "felasinnigne"
   },
   "fele": {
@@ -14813,13 +14813,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fela"
   },
   "fellum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: es cræftum",
+    "grammar": "Contextual translation",
     "lemma": "fellum"
   },
   "fen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ef of the giants",
+    "grammar": "Contextual translation",
     "lemma": "fen"
   },
   "fen freoðo": {
@@ -14898,8 +14898,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fen-hop"
   },
   "fenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed to the moor.",
+    "grammar": "Contextual translation",
     "lemma": "fenne"
   },
   "feo": {
@@ -14948,13 +14948,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feoh-ġift"
   },
   "feohgiftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his father's friends, by fee and gift,",
+    "grammar": "Contextual translation",
     "lemma": "feohgiftum"
   },
   "feohgyftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and at the fee-gifts, Folcwald's son",
+    "grammar": "Contextual translation",
     "lemma": "feohgyftum"
   },
   "feohleas": {
@@ -14993,13 +14993,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēolan"
   },
   "feoll": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the bold-in-battle bowed beneath it",
+    "grammar": "Contextual translation",
     "lemma": "feoll"
   },
   "feollon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the crush of combat when corpses fell.",
+    "grammar": "Contextual translation",
     "lemma": "feollon"
   },
   "feond": {
@@ -15053,18 +15053,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēond-scipe"
   },
   "feonda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ends' domain.",
+    "grammar": "Contextual translation",
     "lemma": "feonda"
   },
   "feonde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end outran! ll",
+    "grammar": "Contextual translation",
     "lemma": "feonde"
   },
   "feondes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngers, \u0015 the forepart of each",
+    "grammar": "Contextual translation",
     "lemma": "feondes"
   },
   "feondgrap": {
@@ -15073,8 +15073,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēond-grāp"
   },
   "feondgrapum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm to do",
+    "grammar": "Contextual translation",
     "lemma": "feondgrapum"
   },
   "feondscaða": {
@@ -15088,13 +15088,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēond-scipe"
   },
   "feondum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ve I bound,",
+    "grammar": "Contextual translation",
     "lemma": "feondum"
   },
   "feor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: odes æht",
+    "grammar": "Contextual translation",
     "lemma": "feor"
   },
   "feor buend": {
@@ -15143,18 +15143,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feor-cӯþð(u)"
   },
   "feore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet I came unharmed from that hostile clutch,",
+    "grammar": "Contextual translation",
     "lemma": "feore"
   },
   "feores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anbogan",
+    "grammar": "Contextual translation",
     "lemma": "feores"
   },
   "feorh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght for life,",
+    "grammar": "Contextual translation",
     "lemma": "feorh"
   },
   "feorh bealu": {
@@ -15283,8 +15283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-wund"
   },
   "feorhbealo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: make pact of peace, or compound for gold:",
+    "grammar": "Contextual translation",
     "lemma": "feorhbealo"
   },
   "feorhbealu": {
@@ -15298,8 +15298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-ben(n)"
   },
   "feorhbennum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ever on oath. For all these things,",
+    "grammar": "Contextual translation",
     "lemma": "feorhbennum"
   },
   "feorhbona": {
@@ -15308,8 +15308,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-bona"
   },
   "feorhbonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waves of woe. No way could he take",
+    "grammar": "Contextual translation",
     "lemma": "feorhbonan"
   },
   "feorhcyn(n)": {
@@ -15318,8 +15318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-cyn(n)"
   },
   "feorhcynna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stamp in the burgstead! Battle and death",
+    "grammar": "Contextual translation",
     "lemma": "feorhcynna"
   },
   "feorhgeniðla": {
@@ -15328,8 +15328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-ġenīðla"
   },
   "feorhgeniðlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the life-destroyer: too sturdy was he,",
+    "grammar": "Contextual translation",
     "lemma": "feorhgeniðlan"
   },
   "feorhlast": {
@@ -15338,13 +15338,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-lāst"
   },
   "feorhlastas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ymed",
+    "grammar": "Contextual translation",
     "lemma": "feorhlastas"
   },
   "feorhlege": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now I've bartered here for booty of treasure",
+    "grammar": "Contextual translation",
     "lemma": "feorhlege"
   },
   "feorhlegu": {
@@ -15368,8 +15368,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorh-wund"
   },
   "feorhwunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haughty hero.3 Hence Heardred's end.",
+    "grammar": "Contextual translation",
     "lemma": "feorhwunde"
   },
   "feorm": {
@@ -15378,8 +15378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorm"
   },
   "feorme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no further for me need'st food prepare!",
+    "grammar": "Contextual translation",
     "lemma": "feorme"
   },
   "feormend leas": {
@@ -15408,18 +15408,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feormend-lēas"
   },
   "feormendlease": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ier old:",
+    "grammar": "Contextual translation",
     "lemma": "feormendlease"
   },
   "feormie": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: None have I left to lift the sword,",
+    "grammar": "Contextual translation",
     "lemma": "feormie"
   },
   "feormynd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And the helmet hard, all haughty with gold,",
+    "grammar": "Contextual translation",
     "lemma": "feormynd"
   },
   "feormynd(=feormend": {
@@ -15453,8 +15453,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorran-cund"
   },
   "feorrancundum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him wander-weary, warrior-guest",
+    "grammar": "Contextual translation",
     "lemma": "feorrancundum"
   },
   "feorre": {
@@ -15463,8 +15463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feorran"
   },
   "feorum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: save only the land and the lives of his men.",
+    "grammar": "Contextual translation",
     "lemma": "feorum"
   },
   "feorweg": {
@@ -15473,8 +15473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "feor-weġ"
   },
   "feorwegum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fetched from far was freighted with him.",
+    "grammar": "Contextual translation",
     "lemma": "feorwegum"
   },
   "feower": {
@@ -15503,8 +15503,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēower-tӯne"
   },
   "feowertyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: foemen fearless, fourteen Geats,",
+    "grammar": "Contextual translation",
     "lemma": "feowertyne"
   },
   "feowertуne": {
@@ -15523,8 +15523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēran"
   },
   "ferdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: folk-leaders faring from far and near,",
+    "grammar": "Contextual translation",
     "lemma": "ferdon"
   },
   "fere": {
@@ -15533,8 +15533,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēran"
   },
   "feredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To their ship the Scylding warriors bore",
+    "grammar": "Contextual translation",
     "lemma": "feredon"
   },
   "ferh": {
@@ -15558,8 +15558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ferh-weard"
   },
   "ferhwearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: keen and gleaming, guard it kept",
+    "grammar": "Contextual translation",
     "lemma": "ferhwearde"
   },
   "ferhð": {
@@ -15598,13 +15598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ferhð-ġenīðla"
   },
   "ferhðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sorrowed in soul, \u0015 none the sooner escaped!",
+    "grammar": "Contextual translation",
     "lemma": "ferhðe"
   },
   "ferhðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and forethought of mind. How much awaits him",
+    "grammar": "Contextual translation",
     "lemma": "ferhðes"
   },
   "ferhðfrec": {
@@ -15613,8 +15613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ferhð-frec"
   },
   "ferhðfrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce-heart Finn there fell likewise,",
+    "grammar": "Contextual translation",
     "lemma": "ferhðfrecan"
   },
   "ferhðgeniðla": {
@@ -15623,23 +15623,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ferhð-ġenīðla"
   },
   "ferhðgeniðlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Its strength ever waned, when with weapon I struck",
+    "grammar": "Contextual translation",
     "lemma": "ferhðgeniðlan"
   },
   "ferhðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that men their master-friend mightily laud,",
+    "grammar": "Contextual translation",
     "lemma": "ferhðum"
   },
   "ferhþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as mine own, my son; preserve thou ever",
+    "grammar": "Contextual translation",
     "lemma": "ferhþe"
   },
   "ferhþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: merry at heart the highways measured,",
+    "grammar": "Contextual translation",
     "lemma": "ferhþum"
   },
   "feri": {
@@ -15658,13 +15658,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ferian"
   },
   "ferigeaðge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Whence, now, bear ye burnished shields,",
+    "grammar": "Contextual translation",
     "lemma": "ferigeaðge"
   },
   "fet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: e'en feet and hands. Then farther he hied;",
+    "grammar": "Contextual translation",
     "lemma": "fet"
   },
   "fetel hilt": {
@@ -15698,8 +15698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fetian"
   },
   "fetod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To his bower was Beowulf brought in haste,",
+    "grammar": "Contextual translation",
     "lemma": "fetod"
   },
   "fex": {
@@ -15708,13 +15708,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fex"
   },
   "fexe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the chieftain's blood, for that blow, in streams",
+    "grammar": "Contextual translation",
     "lemma": "fexe"
   },
   "feðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some warrior worse for wage to buy!",
+    "grammar": "Contextual translation",
     "lemma": "feðan"
   },
   "feðe gest": {
@@ -15743,8 +15743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēðe-wīġ"
   },
   "feðecempa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and they gazed on Wiglaf. Wearied he sat",
+    "grammar": "Contextual translation",
     "lemma": "feðecempa"
   },
   "feðegest": {
@@ -15753,13 +15753,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēðe-ġest"
   },
   "feðegestum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: With haste in the hall, by highest order,",
+    "grammar": "Contextual translation",
     "lemma": "feðegestum"
   },
   "feðergearwum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, sped from the string, a storm of arrows rm,",
+    "grammar": "Contextual translation",
     "lemma": "feðergearwum"
   },
   "feðewig": {
@@ -15768,8 +15768,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēðe-wīġ"
   },
   "feðewiges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor yet might Hetwaras2 haughtily boast",
+    "grammar": "Contextual translation",
     "lemma": "feðewiges"
   },
   "feþ": {
@@ -15783,8 +15783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēþa"
   },
   "feþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when warriors clashed and we warded our heads,",
+    "grammar": "Contextual translation",
     "lemma": "feþan"
   },
   "feþe": {
@@ -15833,8 +15833,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fēþe-lāst"
   },
   "feþelastum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forth they fared by the footpaths thence,",
+    "grammar": "Contextual translation",
     "lemma": "feþelastum"
   },
   "fif": {
@@ -15933,8 +15933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fīf-tӯne"
   },
   "fin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rmly. Finn to Hengest",
+    "grammar": "Contextual translation",
     "lemma": "fin"
   },
   "find": {
@@ -15958,18 +15958,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "finġer"
   },
   "finna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: od æfter faroðe",
+    "grammar": "Contextual translation",
     "lemma": "finna"
   },
   "finne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through the death-dyed winter dwelt with Finn,",
+    "grammar": "Contextual translation",
     "lemma": "finne"
   },
   "finnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of that sudden raid on the sons of Finn.4",
+    "grammar": "Contextual translation",
     "lemma": "finnes"
   },
   "fiond": {
@@ -16013,8 +16013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "firġen-"
   },
   "fitela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the feuds and the frauds, save to Fitela only,",
+    "grammar": "Contextual translation",
     "lemma": "fitela"
   },
   "fl": {
@@ -16398,8 +16398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folc-toga"
   },
   "folca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: O Warriors'-shield, now I've wandered far, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "folca"
   },
   "folcagend(e)": {
@@ -16408,8 +16408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folc-āgend(e)"
   },
   "folcagende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that owned their homesteads, hither to bring",
+    "grammar": "Contextual translation",
     "lemma": "folcagende"
   },
   "folccwen": {
@@ -16423,13 +16423,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folc-cyning"
   },
   "folce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to favor the folk, feeling their woe",
+    "grammar": "Contextual translation",
     "lemma": "folce"
   },
   "folces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm resolve.",
+    "grammar": "Contextual translation",
     "lemma": "folces"
   },
   "folcred": {
@@ -16443,13 +16443,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folc-riht"
   },
   "folcrihta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wealthy seat of the Waegmunding line,",
+    "grammar": "Contextual translation",
     "lemma": "folcrihta"
   },
   "folcscare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: save only the land and the lives of his men.",
+    "grammar": "Contextual translation",
     "lemma": "folcscare"
   },
   "folcscaru": {
@@ -16468,18 +16468,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folc-toga"
   },
   "folctogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: folk-leaders faring from far and near,",
+    "grammar": "Contextual translation",
     "lemma": "folctogan"
   },
   "folcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in fame with all folk, since his father had gone",
+    "grammar": "Contextual translation",
     "lemma": "folcum"
   },
   "folcwaldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and at the fee-gifts, Folcwald's son",
+    "grammar": "Contextual translation",
     "lemma": "folcwaldan"
   },
   "fold": {
@@ -16518,8 +16518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fold-weġ"
   },
   "foldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and braided bright the breast of earth",
+    "grammar": "Contextual translation",
     "lemma": "foldan"
   },
   "foldbold": {
@@ -16528,8 +16528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fold-bold"
   },
   "foldbuend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ying by night",
+    "grammar": "Contextual translation",
     "lemma": "foldbuend"
   },
   "foldbuend(e)": {
@@ -16538,13 +16538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fold-būend(e)"
   },
   "foldbuende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: folk of the land; his father they knew not,",
+    "grammar": "Contextual translation",
     "lemma": "foldbuende"
   },
   "foldbuendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that was the fairest, 'mid folk of earth,",
+    "grammar": "Contextual translation",
     "lemma": "foldbuendum"
   },
   "folde": {
@@ -16558,13 +16558,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fold-weġ"
   },
   "foldwegas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and ran a race when the road seemed fair.",
+    "grammar": "Contextual translation",
     "lemma": "foldwegas"
   },
   "folgedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as forced to follow their fee-giver's slayer,",
+    "grammar": "Contextual translation",
     "lemma": "folgedon"
   },
   "folgi": {
@@ -16583,8 +16583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folgian"
   },
   "folgode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mother of Ohtere and Onela.",
+    "grammar": "Contextual translation",
     "lemma": "folgode"
   },
   "folm": {
@@ -16593,18 +16593,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "folm"
   },
   "folma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: e'en feet and hands. Then farther he hied;",
+    "grammar": "Contextual translation",
     "lemma": "folma"
   },
   "folme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the hero reclining, \u0015 who clutched it boldly,",
+    "grammar": "Contextual translation",
     "lemma": "folme"
   },
   "folmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish hands.",
+    "grammar": "Contextual translation",
     "lemma": "folmum"
   },
   "fon": {
@@ -16613,8 +16613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fōn"
   },
   "fond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I then in the waters \u0015 'tis widely known \u0015",
+    "grammar": "Contextual translation",
     "lemma": "fond"
   },
   "fondi": {
@@ -17328,8 +17328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "foran"
   },
   "forbarn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: burned was the bright sword, her blood was so hot,",
+    "grammar": "Contextual translation",
     "lemma": "forbarn"
   },
   "forberan": {
@@ -17353,8 +17353,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-bærnan"
   },
   "forbærst": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was driven into the dragon's head, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "forbærst"
   },
   "ford": {
@@ -17433,8 +17433,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fore-mǣre"
   },
   "foremærost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that was the fairest, 'mid folk of earth,",
+    "grammar": "Contextual translation",
     "lemma": "foremærost"
   },
   "foresnotor": {
@@ -17443,8 +17443,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fore-snotor"
   },
   "foresnotre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a wall they built, the worthiest ever",
+    "grammar": "Contextual translation",
     "lemma": "foresnotre"
   },
   "foreþanc": {
@@ -17453,13 +17453,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fore-þanc"
   },
   "forgeaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Wielder of Wonder, with world's renown.",
+    "grammar": "Contextual translation",
     "lemma": "forgeaf"
   },
   "forgeald": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weary while: but their wage was paid them!",
+    "grammar": "Contextual translation",
     "lemma": "forgeald"
   },
   "forgifan": {
@@ -17468,18 +17468,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-ġifan"
   },
   "forgolden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold in the barrow. Beowulf paid",
+    "grammar": "Contextual translation",
     "lemma": "forgolden"
   },
   "forgrand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crushing the grim ones. Grendel now,",
+    "grammar": "Contextual translation",
     "lemma": "forgrand"
   },
   "forgrap": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's hall he had wholly purged,",
+    "grammar": "Contextual translation",
     "lemma": "forgrap"
   },
   "forgrindan": {
@@ -17493,8 +17493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-grīpan"
   },
   "forgrunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame had destroyed, and the stronghold all",
+    "grammar": "Contextual translation",
     "lemma": "forgrunden"
   },
   "forgyldan": {
@@ -17503,13 +17503,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-ġyldan"
   },
   "forgylde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: well may the Wielder reward thee still!\"",
+    "grammar": "Contextual translation",
     "lemma": "forgylde"
   },
   "forgymeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he gives for his pride; the promised future",
+    "grammar": "Contextual translation",
     "lemma": "forgymeð"
   },
   "forgytan": {
@@ -17518,8 +17518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-ġytan"
   },
   "forgyteðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he gives for his pride; the promised future",
+    "grammar": "Contextual translation",
     "lemma": "forgyteðond"
   },
   "forgуman": {
@@ -17538,8 +17538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-healdan"
   },
   "forhealden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sought him o'er seas, the sons of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "forhealden"
   },
   "forhicgan": {
@@ -17548,8 +17548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-hicgan"
   },
   "forhicge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hence shall I scorn \u0015 so Hygelac stay,",
+    "grammar": "Contextual translation",
     "lemma": "forhicge"
   },
   "forht": {
@@ -17563,8 +17563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-lācan"
   },
   "forleas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as loyal liegeman. So lost he his glory,",
+    "grammar": "Contextual translation",
     "lemma": "forleas"
   },
   "forleosan": {
@@ -17573,18 +17573,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-lēosan"
   },
   "forlet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the ruthless, in running! For rescue, however,",
+    "grammar": "Contextual translation",
     "lemma": "forlet"
   },
   "forleton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy heroes, from hoard in cave, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "forleton"
   },
   "forloren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"So held this king to the customs old,",
+    "grammar": "Contextual translation",
     "lemma": "forloren"
   },
   "forlædan": {
@@ -17593,8 +17593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-lǣdan"
   },
   "forlæddan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons that once they wielded fair",
+    "grammar": "Contextual translation",
     "lemma": "forlæddan"
   },
   "forlætan": {
@@ -17613,8 +17613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "forma"
   },
   "forman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Straightway he seized a sleeping warrior",
+    "grammar": "Contextual translation",
     "lemma": "forman"
   },
   "forme": {
@@ -17623,13 +17623,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "forma"
   },
   "fornam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with blade of battle: huge beast of the sea",
+    "grammar": "Contextual translation",
     "lemma": "fornam"
   },
   "fornamon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could the writhing monster rule it more.",
+    "grammar": "Contextual translation",
     "lemma": "fornamon"
   },
   "forniman": {
@@ -17638,8 +17638,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-niman"
   },
   "foron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but \"Welcome!\" he called to that Weder clan",
+    "grammar": "Contextual translation",
     "lemma": "foron"
   },
   "forscrifan": {
@@ -17648,8 +17648,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-scrīfan"
   },
   "forscrifen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since the Creator his exile doomed.",
+    "grammar": "Contextual translation",
     "lemma": "forscrifen"
   },
   "forsendan": {
@@ -17658,13 +17658,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-sendan"
   },
   "forsended": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to death was betrayed; for torrents of sorrow",
+    "grammar": "Contextual translation",
     "lemma": "forsended"
   },
   "forsiteðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or odious age; or the eyes' clear beam",
+    "grammar": "Contextual translation",
     "lemma": "forsiteðond"
   },
   "forsittan": {
@@ -17678,8 +17678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-sīðian"
   },
   "forsiðod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Life would have ended for Ecgtheow's son,",
+    "grammar": "Contextual translation",
     "lemma": "forsiðod"
   },
   "forst": {
@@ -17693,18 +17693,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-standan"
   },
   "forstes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when frosty fetters the Father loosens,",
+    "grammar": "Contextual translation",
     "lemma": "forstes"
   },
   "forstod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: withstanding entrance of edge or blade.",
+    "grammar": "Contextual translation",
     "lemma": "forstod"
   },
   "forstode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had not wisest God their Wyrd averted,",
+    "grammar": "Contextual translation",
     "lemma": "forstode"
   },
   "forsw(e)orcan": {
@@ -17718,8 +17718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-swāpan"
   },
   "forswealg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re devoured,",
+    "grammar": "Contextual translation",
     "lemma": "forswealg"
   },
   "forswelgan": {
@@ -17728,8 +17728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-swelgan"
   },
   "forsweop": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my warriors wane; for Wyrd hath swept them",
+    "grammar": "Contextual translation",
     "lemma": "forsweop"
   },
   "forswerian": {
@@ -17738,13 +17738,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-swerian"
   },
   "forsworceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or odious age; or the eyes' clear beam",
+    "grammar": "Contextual translation",
     "lemma": "forsworceð"
   },
   "forsworen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He was safe, by his spells, from sword of battle,",
+    "grammar": "Contextual translation",
     "lemma": "forsworen"
   },
   "forweorpan": {
@@ -17753,8 +17753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-weorpan"
   },
   "forwrat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a biting blade by his breastplate hanging,",
+    "grammar": "Contextual translation",
     "lemma": "forwrat"
   },
   "forwrecan": {
@@ -17768,13 +17768,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-wrītan"
   },
   "forwræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ill fared his feud,6 and far was he driven,",
+    "grammar": "Contextual translation",
     "lemma": "forwræc"
   },
   "forwurpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: threw away and wasted these weeds of battle,",
+    "grammar": "Contextual translation",
     "lemma": "forwurpe"
   },
   "forwyrnan": {
@@ -17783,13 +17783,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-wyrnan"
   },
   "forwyrnde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So he escaped not the common doom,",
+    "grammar": "Contextual translation",
     "lemma": "forwyrnde"
   },
   "forwyrne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and, Friend-of-the-folk, refuse it not,",
+    "grammar": "Contextual translation",
     "lemma": "forwyrne"
   },
   "forð": {
@@ -17853,13 +17853,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-ðām"
   },
   "forðforlacen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to mingle with monsters at mercy of foes,",
+    "grammar": "Contextual translation",
     "lemma": "forðforlacen"
   },
   "forðgefremede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: delights of power, and uplifted high",
+    "grammar": "Contextual translation",
     "lemma": "forðgefremede"
   },
   "forðgerimed": {
@@ -17873,13 +17873,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "forð-ġesceaft"
   },
   "forðgestop": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: O'er the stone he snu\u001bed. The stark-heart found",
+    "grammar": "Contextual translation",
     "lemma": "forðgestop"
   },
   "forðgewat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oat was the ship,",
+    "grammar": "Contextual translation",
     "lemma": "forðgewat"
   },
   "forðgewiten": {
@@ -17888,23 +17888,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "forð-ġewiten"
   },
   "forðgewitenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to me, though fallen, in father's place!",
+    "grammar": "Contextual translation",
     "lemma": "forðgewitenum"
   },
   "forðnear": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: e'en feet and hands. Then farther he hied;",
+    "grammar": "Contextual translation",
     "lemma": "forðnear"
   },
   "forðofer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eat famigheals",
+    "grammar": "Contextual translation",
     "lemma": "forðofer"
   },
   "forðofereodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with slaughter for Swedes the standards of Hygelac",
+    "grammar": "Contextual translation",
     "lemma": "forðofereodon"
   },
   "forðon": {
@@ -17913,38 +17913,38 @@ const OLD_ENGLISH_DICT = {
     "lemma": "for-ðon"
   },
   "forðonsended": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stamp in the burgstead! Battle and death",
+    "grammar": "Contextual translation",
     "lemma": "forðonsended"
   },
   "forðonsendon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who in former time forth had sent him",
+    "grammar": "Contextual translation",
     "lemma": "forðonsendon"
   },
   "forðscile": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that men their master-friend mightily laud,",
+    "grammar": "Contextual translation",
     "lemma": "forðscile"
   },
   "forðscyle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: folk and realm when forth thou goest",
+    "grammar": "Contextual translation",
     "lemma": "forðscyle"
   },
   "forðsprecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: due to the Danes, or their during love",
+    "grammar": "Contextual translation",
     "lemma": "forðsprecan"
   },
   "forðtela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as mine own, my son; preserve thou ever",
+    "grammar": "Contextual translation",
     "lemma": "forðtela"
   },
   "forðunder": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the chieftain's blood, for that blow, in streams",
+    "grammar": "Contextual translation",
     "lemma": "forðunder"
   },
   "forðweg": {
@@ -17953,23 +17953,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "forð-weġ"
   },
   "forðwisade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him wander-weary, warrior-guest",
+    "grammar": "Contextual translation",
     "lemma": "forðwisade"
   },
   "forðþonon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forth they fared by the footpaths thence,",
+    "grammar": "Contextual translation",
     "lemma": "forðþonon"
   },
   "forþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for my nerve and my might they knew full well.",
+    "grammar": "Contextual translation",
     "lemma": "forþan"
   },
   "forþon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ever he envied that other men",
+    "grammar": "Contextual translation",
     "lemma": "forþon"
   },
   "forþringan": {
@@ -18008,8 +18008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fōt-ġemearc"
   },
   "fotgemearces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ftiges",
+    "grammar": "Contextual translation",
     "lemma": "fotgemearces"
   },
   "fotlast": {
@@ -18018,8 +18018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fōt-lāst"
   },
   "fotum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who sat at the feet of the Scyldings' lord,",
+    "grammar": "Contextual translation",
     "lemma": "fotum"
   },
   "fracod": {
@@ -18033,8 +18033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fram"
   },
   "francna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Fell the corpse of the king into keeping of Franks,",
+    "grammar": "Contextual translation",
     "lemma": "francna"
   },
   "fre": {
@@ -18103,18 +18103,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēa-drihten"
   },
   "freadrihtnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain the life of their lord to shield,",
+    "grammar": "Contextual translation",
     "lemma": "freadrihtnes"
   },
   "frean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy Scyld to the shelter of God.",
+    "grammar": "Contextual translation",
     "lemma": "frean"
   },
   "freaware": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to earls in turn, the ale-cup tendered, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "freaware"
   },
   "freawine": {
@@ -18128,8 +18128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēa-wrāsn"
   },
   "freawrasnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: decked with gold, as in days of yore",
+    "grammar": "Contextual translation",
     "lemma": "freawrasnum"
   },
   "frec": {
@@ -18153,8 +18153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēcne"
   },
   "frecnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Should Frisian, moreover, with foeman's taunt,",
+    "grammar": "Contextual translation",
     "lemma": "frecnan"
   },
   "frecne": {
@@ -18183,18 +18183,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fremde"
   },
   "fremede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to play the hero and hazard my being",
+    "grammar": "Contextual translation",
     "lemma": "fremede"
   },
   "fremedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: we have heard, and what honor the athelings won!",
+    "grammar": "Contextual translation",
     "lemma": "fremedon"
   },
   "fremeðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: follows 'mid folk, of far times mindful,",
+    "grammar": "Contextual translation",
     "lemma": "fremeðon"
   },
   "fremm": {
@@ -18208,8 +18208,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fremman"
   },
   "fremmaðgena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now I've bartered here for booty of treasure",
+    "grammar": "Contextual translation",
     "lemma": "fremmaðgena"
   },
   "fremme": {
@@ -18218,8 +18218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fremman"
   },
   "fremu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of precious treasure. Not Thryth's pride showed she,",
+    "grammar": "Contextual translation",
     "lemma": "fremu"
   },
   "freo burh": {
@@ -18293,8 +18293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēod"
   },
   "freode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Love of mine will I assure thee,",
+    "grammar": "Contextual translation",
     "lemma": "freode"
   },
   "freodrihten": {
@@ -18303,8 +18303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēo-drihten"
   },
   "freodryhtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his leader-lord the liegeman young",
+    "grammar": "Contextual translation",
     "lemma": "freodryhtne"
   },
   "freog": {
@@ -18328,8 +18328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēo-liċ"
   },
   "freolicu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the stately dame by her spouse sat down.",
+    "grammar": "Contextual translation",
     "lemma": "freolicu"
   },
   "freond": {
@@ -18388,8 +18388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēond-scipe"
   },
   "freonda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the lives of loved ones. Long-tried king,",
+    "grammar": "Contextual translation",
     "lemma": "freonda"
   },
   "freondlar": {
@@ -18398,8 +18398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēond-lār"
   },
   "freondlarum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and ruler of all the realm to be:",
+    "grammar": "Contextual translation",
     "lemma": "freondlarum"
   },
   "freondlaþu": {
@@ -18413,8 +18413,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēond-līċe"
   },
   "freondlicor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For I heard of few heroes, in heartier mood,",
+    "grammar": "Contextual translation",
     "lemma": "freondlicor"
   },
   "freondscipe": {
@@ -18423,8 +18423,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frēond-scipe"
   },
   "freondum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to all: the other2 was urged to crime!",
+    "grammar": "Contextual translation",
     "lemma": "freondum"
   },
   "freowine": {
@@ -18488,28 +18488,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "freoðu-webbe"
   },
   "frescyninge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slain by my hand, the Hugas' champion.",
+    "grammar": "Contextual translation",
     "lemma": "frescyninge"
   },
   "fresena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with fretted gold, as his Frisian kin",
+    "grammar": "Contextual translation",
     "lemma": "fresena"
   },
   "freslondum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when the ruler of Geats in rush of battle,",
+    "grammar": "Contextual translation",
     "lemma": "freslondum"
   },
   "fresna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: otherge",
+    "grammar": "Contextual translation",
     "lemma": "fresna"
   },
   "freswæle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was fated to fall in the Frisian slaughter.5",
+    "grammar": "Contextual translation",
     "lemma": "freswæle"
   },
   "fret": {
@@ -18538,8 +18538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fricgan"
   },
   "fricgcean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his comrade fairly with question plied",
+    "grammar": "Contextual translation",
     "lemma": "fricgcean"
   },
   "fricge": {
@@ -18578,13 +18578,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "friġnan"
   },
   "frin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Ask not of pleasure! Pain is renewed",
+    "grammar": "Contextual translation",
     "lemma": "frin"
   },
   "frinan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Scyldings' friend, I fain will tell,",
+    "grammar": "Contextual translation",
     "lemma": "frinan"
   },
   "frioðo wær": {
@@ -18603,13 +18603,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frioðo-wǣr"
   },
   "frioðowære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wrath in his breast, to the ruler bearing",
+    "grammar": "Contextual translation",
     "lemma": "frioðowære"
   },
   "frioðuwære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rmly. Finn to Hengest",
+    "grammar": "Contextual translation",
     "lemma": "frioðuwære"
   },
   "friðu sib(b)": {
@@ -18628,8 +18628,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "friðu-sib(b)"
   },
   "friðusibb": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I heard under heaven! The high-born queen,",
+    "grammar": "Contextual translation",
     "lemma": "friðusibb"
   },
   "frod": {
@@ -18638,18 +18638,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frōd"
   },
   "froda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs.",
+    "grammar": "Contextual translation",
     "lemma": "froda"
   },
   "frodan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she pro\u001bered the warriors. Promised is she,",
+    "grammar": "Contextual translation",
     "lemma": "frodan"
   },
   "frode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now I've bartered here for booty of treasure",
+    "grammar": "Contextual translation",
     "lemma": "frode"
   },
   "frofor": {
@@ -18658,8 +18658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frōfor"
   },
   "frofre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friendless, a foundling, fate repaid him:",
+    "grammar": "Contextual translation",
     "lemma": "frofre"
   },
   "from": {
@@ -18668,18 +18668,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "from"
   },
   "frome": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: foemen fearless, fourteen Geats,",
+    "grammar": "Contextual translation",
     "lemma": "frome"
   },
   "fromum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his father's friends, by fee and gift,",
+    "grammar": "Contextual translation",
     "lemma": "fromum"
   },
   "froncum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for waging of war when once unhidden",
+    "grammar": "Contextual translation",
     "lemma": "froncum"
   },
   "frum": {
@@ -18723,8 +18723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fruma"
   },
   "frumcyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: your folk and home, lest hence ye fare",
+    "grammar": "Contextual translation",
     "lemma": "frumcyn"
   },
   "frumcyn(n)": {
@@ -18743,8 +18743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frum-gār"
   },
   "frumgare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Though well he wished it, in world no more",
+    "grammar": "Contextual translation",
     "lemma": "frumgare"
   },
   "frumsceaft": {
@@ -18753,38 +18753,38 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frum-sceaft"
   },
   "frumsceafte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who in former time forth had sent him",
+    "grammar": "Contextual translation",
     "lemma": "frumsceafte"
   },
   "frysland": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd the Frisian land,",
+    "grammar": "Contextual translation",
     "lemma": "frysland"
   },
   "frysna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Should Frisian, moreover, with foeman's taunt,",
+    "grammar": "Contextual translation",
     "lemma": "frysna"
   },
   "frysum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: feud with Frisians. Fairest of gems",
+    "grammar": "Contextual translation",
     "lemma": "frysum"
   },
   "frægn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shook his spear, and spake in parley.",
+    "grammar": "Contextual translation",
     "lemma": "frægn"
   },
   "fræt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he slew in slumber, in sleep devoured,",
+    "grammar": "Contextual translation",
     "lemma": "fræt"
   },
   "frætewum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end in his trappings tottered to fall!",
+    "grammar": "Contextual translation",
     "lemma": "frætewum"
   },
   "frætw": {
@@ -18793,8 +18793,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frætwan"
   },
   "frætwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fetched from far was freighted with him.",
+    "grammar": "Contextual translation",
     "lemma": "frætwa"
   },
   "frætwan": {
@@ -18808,18 +18808,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "frætwan"
   },
   "frætwum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now, the son of a certain slaughtering Dane,",
+    "grammar": "Contextual translation",
     "lemma": "frætwum"
   },
   "fugle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ota famiheals",
+    "grammar": "Contextual translation",
     "lemma": "fugle"
   },
   "fuglum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some should go to the gallows-tree",
+    "grammar": "Contextual translation",
     "lemma": "fuglum"
   },
   "fugol": {
@@ -18843,8 +18843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fuhton"
   },
   "ful": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Boasted full oft, as my beer they drank,",
+    "grammar": "Contextual translation",
     "lemma": "ful"
   },
   "ful læstan": {
@@ -18873,8 +18873,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ful-lǣstan"
   },
   "full": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the barrow delved near billowy surges,",
+    "grammar": "Contextual translation",
     "lemma": "full"
   },
   "full eode": {
@@ -18898,8 +18898,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "full-ēode"
   },
   "fulle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Qua\u001b of this cup, my king and lord,",
+    "grammar": "Contextual translation",
     "lemma": "fulle"
   },
   "fulleode": {
@@ -18913,8 +18913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ful-lǣstan"
   },
   "fullæstu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: atheling steadfast, with all thy strength",
+    "grammar": "Contextual translation",
     "lemma": "fullæstu"
   },
   "fult": {
@@ -18933,13 +18933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fultum"
   },
   "funde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hanging over the hoary rock,",
+    "grammar": "Contextual translation",
     "lemma": "funde"
   },
   "funden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friendless, a foundling, fate repaid him:",
+    "grammar": "Contextual translation",
     "lemma": "funden"
   },
   "fundi": {
@@ -18953,8 +18953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fundian"
   },
   "fundiaþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Lo, we seafarers say our will,",
+    "grammar": "Contextual translation",
     "lemma": "fundiaþ"
   },
   "fundie": {
@@ -18963,13 +18963,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fundian"
   },
   "fundode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fair lay earth's breast; and fain was the rover,",
+    "grammar": "Contextual translation",
     "lemma": "fundode"
   },
   "fundon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: went, welling with tears, the wonder to view.",
+    "grammar": "Contextual translation",
     "lemma": "fundon"
   },
   "furð": {
@@ -18988,13 +18988,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "furðum"
   },
   "furður": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eon fotes trem,",
+    "grammar": "Contextual translation",
     "lemma": "furður"
   },
   "furþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst I was ruling the folk of Danes,",
+    "grammar": "Contextual translation",
     "lemma": "furþum"
   },
   "furþur": {
@@ -19018,8 +19018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fūs-liċ"
   },
   "fuse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: athelings all were eager homeward",
+    "grammar": "Contextual translation",
     "lemma": "fuse"
   },
   "fuslic": {
@@ -19028,13 +19028,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fūs-liċ"
   },
   "fuslicu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear in readiness; wonder seized him",
+    "grammar": "Contextual translation",
     "lemma": "fuslicu"
   },
   "fyftyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fteen men of the folk of Danes,",
+    "grammar": "Contextual translation",
     "lemma": "fyftyne"
   },
   "fyht": {
@@ -19073,13 +19073,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyl-wēriġ"
   },
   "fyll": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for waging of war when once unhidden",
+    "grammar": "Contextual translation",
     "lemma": "fyll"
   },
   "fylle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nowise had they bliss from their booty then",
+    "grammar": "Contextual translation",
     "lemma": "fylle"
   },
   "fyllo": {
@@ -19093,8 +19093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyl-wēriġ"
   },
   "fylwerigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end in his trappings tottered to fall!",
+    "grammar": "Contextual translation",
     "lemma": "fylwerigne"
   },
   "fyr": {
@@ -19113,13 +19113,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyr-wet(t)"
   },
   "fyra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave men brought it! But battle-death seized",
+    "grammar": "Contextual translation",
     "lemma": "fyra"
   },
   "fyrbendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sts had struck it,",
+    "grammar": "Contextual translation",
     "lemma": "fyrbendum"
   },
   "fyrd gestealla": {
@@ -19213,8 +19213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrd-ġestealla"
   },
   "fyrdgesteallum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on men who failed when the foemen came!",
+    "grammar": "Contextual translation",
     "lemma": "fyrdgesteallum"
   },
   "fyrdhom": {
@@ -19228,8 +19228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrd-hræġl"
   },
   "fyrdhwate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: foemen fearless, fourteen Geats,",
+    "grammar": "Contextual translation",
     "lemma": "fyrdhwate"
   },
   "fyrdhwæt": {
@@ -19243,8 +19243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrd-lēoð"
   },
   "fyrdraca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then for the third time thought on its feud",
+    "grammar": "Contextual translation",
     "lemma": "fyrdraca"
   },
   "fyrdsearo": {
@@ -19253,8 +19253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrd-searo"
   },
   "fyrdsearu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear in readiness; wonder seized him",
+    "grammar": "Contextual translation",
     "lemma": "fyrdsearu"
   },
   "fyrdwyrðe": {
@@ -19268,8 +19268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyren"
   },
   "fyredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who carried my gifts to the Geatish court,",
+    "grammar": "Contextual translation",
     "lemma": "fyredon"
   },
   "fyren": {
@@ -19298,8 +19298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyren-ðearf"
   },
   "fyrena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Such heaping of horrors the hater of men,",
+    "grammar": "Contextual translation",
     "lemma": "fyrena"
   },
   "fyrendæd": {
@@ -19308,23 +19308,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyren-dǣd"
   },
   "fyrendæda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish deeds",
+    "grammar": "Contextual translation",
     "lemma": "fyrendæda"
   },
   "fyrendædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ight essayed,",
+    "grammar": "Contextual translation",
     "lemma": "fyrendædum"
   },
   "fyrene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eld of hell.",
+    "grammar": "Contextual translation",
     "lemma": "fyrene"
   },
   "fyrenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anbogan",
+    "grammar": "Contextual translation",
     "lemma": "fyrenum"
   },
   "fyrenðearf": {
@@ -19333,13 +19333,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyren-ðearf"
   },
   "fyrenðearfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to favor the folk, feeling their woe",
+    "grammar": "Contextual translation",
     "lemma": "fyrenðearfe"
   },
   "fyres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ery embraces; \u0015 nor favor nor change",
+    "grammar": "Contextual translation",
     "lemma": "fyres"
   },
   "fyrgen beam": {
@@ -19378,8 +19378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrġen-bēam"
   },
   "fyrgenbeamas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ash the forested hill",
+    "grammar": "Contextual translation",
     "lemma": "fyrgenbeamas"
   },
   "fyrgenholt": {
@@ -19393,8 +19393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrġen-strēam"
   },
   "fyrheard": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: keen and gleaming, guard it kept",
+    "grammar": "Contextual translation",
     "lemma": "fyrheard"
   },
   "fyri": {
@@ -19493,8 +19493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrn-dagas"
   },
   "fyrndagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: decked with gold, as in days of yore",
+    "grammar": "Contextual translation",
     "lemma": "fyrndagum"
   },
   "fyrngeweorc": {
@@ -19508,8 +19508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrn-ġewin(n)"
   },
   "fyrngewinnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oods o'erwhelmed,",
+    "grammar": "Contextual translation",
     "lemma": "fyrngewinnes"
   },
   "fyrnman(n)": {
@@ -19518,8 +19518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrn-man(n)"
   },
   "fyrnmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ier old:",
+    "grammar": "Contextual translation",
     "lemma": "fyrnmanna"
   },
   "fyrnwita": {
@@ -19528,8 +19528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrn-wita"
   },
   "fyrnwitan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: avenged her o\u001bspring. From Aeschere old,",
+    "grammar": "Contextual translation",
     "lemma": "fyrnwitan"
   },
   "fyrst": {
@@ -19538,13 +19538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyrst"
   },
   "fyrste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to fashion the folkstead. It fell, as he ordered,",
+    "grammar": "Contextual translation",
     "lemma": "fyrste"
   },
   "fyrwet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his comrade fairly with question plied",
+    "grammar": "Contextual translation",
     "lemma": "fyrwet"
   },
   "fyrwet(t)": {
@@ -19553,13 +19553,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fyr-wet(t)"
   },
   "fyrwylmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: murderous monster mad with rage,",
+    "grammar": "Contextual translation",
     "lemma": "fyrwylmum"
   },
   "fyrwyt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear in readiness; wonder seized him",
+    "grammar": "Contextual translation",
     "lemma": "fyrwyt"
   },
   "fæc": {
@@ -19568,8 +19568,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæc"
   },
   "fædde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Greedy and grim, no golden rings",
+    "grammar": "Contextual translation",
     "lemma": "fædde"
   },
   "fæder": {
@@ -19603,8 +19603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæderen-mǣġ"
   },
   "fæderenmæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with edge of the sword his only brother, ed,",
+    "grammar": "Contextual translation",
     "lemma": "fæderenmæge"
   },
   "fæderæþelu": {
@@ -19613,8 +19613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæder-æþelu"
   },
   "fæderæþelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: follow his father, his folk protect,",
+    "grammar": "Contextual translation",
     "lemma": "fæderæþelum"
   },
   "fæg": {
@@ -19648,8 +19648,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæġen"
   },
   "fæger": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the fair house fell not; too fast it was",
+    "grammar": "Contextual translation",
     "lemma": "fæger"
   },
   "fæger(seeappx.c§25)": {
@@ -19658,33 +19658,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣġer(seeAppx.C§25)"
   },
   "fægere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fastness fair, where his folk he ruled,",
+    "grammar": "Contextual translation",
     "lemma": "fægere"
   },
   "fæges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting-gear. First time, this,",
+    "grammar": "Contextual translation",
     "lemma": "fæges"
   },
   "fæghðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waves of woe. No way could he take",
+    "grammar": "Contextual translation",
     "lemma": "fæghðe"
   },
   "fægne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oor she sank.",
+    "grammar": "Contextual translation",
     "lemma": "fægne"
   },
   "fægre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his comrade fairly with question plied",
+    "grammar": "Contextual translation",
     "lemma": "fægre"
   },
   "fægum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Hondscio then was that harassing deadly,",
+    "grammar": "Contextual translation",
     "lemma": "fægum"
   },
   "fæhð(o)": {
@@ -19693,28 +19693,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣhð(o)"
   },
   "fæhða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then for the third time thought on its feud",
+    "grammar": "Contextual translation",
     "lemma": "fæhða"
   },
   "fæhðaras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swollen in rage went seeking the dragon.",
+    "grammar": "Contextual translation",
     "lemma": "fæhðaras"
   },
   "fæhðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ill fared his feud,6 and far was he driven,",
+    "grammar": "Contextual translation",
     "lemma": "fæhðe"
   },
   "fæhðgewearð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wealth under wall! Its watcher had killed",
+    "grammar": "Contextual translation",
     "lemma": "fæhðgewearð"
   },
   "fæhðo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ng; the hand that smote him",
+    "grammar": "Contextual translation",
     "lemma": "fæhðo"
   },
   "fælsi": {
@@ -19733,8 +19733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣlsian"
   },
   "fælsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: contest-crash, since, conqueror proud,",
+    "grammar": "Contextual translation",
     "lemma": "fælsode"
   },
   "fæm": {
@@ -19748,8 +19748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣmne"
   },
   "fæmnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and as little each of his liegemen all,",
+    "grammar": "Contextual translation",
     "lemma": "fæmnan"
   },
   "fæmne": {
@@ -19813,8 +19813,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣr-gripe"
   },
   "færgripum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how he would fare in fell attack.",
+    "grammar": "Contextual translation",
     "lemma": "færgripum"
   },
   "færgryre": {
@@ -19843,8 +19843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣr-nīð"
   },
   "færniða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what sudden harryings. Hall-folk fail me,",
+    "grammar": "Contextual translation",
     "lemma": "færniða"
   },
   "fæs": {
@@ -19878,13 +19878,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæsten"
   },
   "fæstne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: due to the Danes, or their during love",
+    "grammar": "Contextual translation",
     "lemma": "fæstne"
   },
   "fæstor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end outran! ll",
+    "grammar": "Contextual translation",
     "lemma": "fæstor"
   },
   "fæstræd": {
@@ -19893,8 +19893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæst-rǣd"
   },
   "fæstrædne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm resolve.",
+    "grammar": "Contextual translation",
     "lemma": "fæstrædne"
   },
   "fæt": {
@@ -19933,8 +19933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣted-hlēor"
   },
   "fætedhleore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: coursers eight, with carven head-gear,",
+    "grammar": "Contextual translation",
     "lemma": "fætedhleore"
   },
   "fætgold": {
@@ -19963,8 +19963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fǣttum"
   },
   "fætum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And the helmet hard, all haughty with gold,",
+    "grammar": "Contextual translation",
     "lemma": "fætum"
   },
   "fæðer gearwe": {
@@ -19988,8 +19988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæðer-ġearwe"
   },
   "fæðm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dishes lay there, and dear-decked swords",
+    "grammar": "Contextual translation",
     "lemma": "fæðm"
   },
   "fæðmi": {
@@ -20008,8 +20008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæðmian"
   },
   "fæðmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the man they mourned. Under mountain stream",
+    "grammar": "Contextual translation",
     "lemma": "fæðmum"
   },
   "fæþm": {
@@ -20018,8 +20018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "fæþm"
   },
   "fæþmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd in the Father's arms!",
+    "grammar": "Contextual translation",
     "lemma": "fæþmum"
   },
   "fуf tуne": {
@@ -20158,8 +20158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġē"
   },
   "ga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ee where she will!",
+    "grammar": "Contextual translation",
     "lemma": "ga"
   },
   "gad": {
@@ -20183,8 +20183,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "galdor"
   },
   "galdre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For all that heritage huge, that gold",
+    "grammar": "Contextual translation",
     "lemma": "galdre"
   },
   "gale": {
@@ -20223,8 +20223,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "galga"
   },
   "galgan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to bide and bear, that his bairn so young",
+    "grammar": "Contextual translation",
     "lemma": "galgan"
   },
   "galge": {
@@ -20243,8 +20243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "galg-trēow"
   },
   "galgtreowum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some with the morrow his sword should kill,",
+    "grammar": "Contextual translation",
     "lemma": "galgtreowum"
   },
   "gam": {
@@ -20258,13 +20258,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gamen"
   },
   "gamela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the hoary-headed would hasten to rest,",
+    "grammar": "Contextual translation",
     "lemma": "gamela"
   },
   "gamelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the golden hilt, for that gray-haired leader,",
+    "grammar": "Contextual translation",
     "lemma": "gamelum"
   },
   "gamen": {
@@ -20273,8 +20273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gamen"
   },
   "gamene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some should go to the gallows-tree",
+    "grammar": "Contextual translation",
     "lemma": "gamene"
   },
   "gamol": {
@@ -20318,8 +20318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gangan"
   },
   "ganges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm enough hold",
+    "grammar": "Contextual translation",
     "lemma": "ganges"
   },
   "ganot": {
@@ -20328,8 +20328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ganot"
   },
   "ganotes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: let our hoards be common, let heroes with gold",
+    "grammar": "Contextual translation",
     "lemma": "ganotes"
   },
   "gar": {
@@ -20418,8 +20418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gār-wīġend"
   },
   "garas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear of men; their weapons stacked,",
+    "grammar": "Contextual translation",
     "lemma": "garas"
   },
   "garcene": {
@@ -20433,23 +20433,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gār-cwealm"
   },
   "gardena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: LO, praise of the prowess of people-kings",
+    "grammar": "Contextual translation",
     "lemma": "gardena"
   },
   "gardenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from Spear-Dane men. But speedily now",
+    "grammar": "Contextual translation",
     "lemma": "gardenum"
   },
   "gare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stricken by spears; 'twas a sorrowful woman!",
+    "grammar": "Contextual translation",
     "lemma": "gare"
   },
   "gares": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ooding billow,",
+    "grammar": "Contextual translation",
     "lemma": "gares"
   },
   "garholt": {
@@ -20458,8 +20458,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gār-holt"
   },
   "garmundes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: help of heroes, Hemming's kinsman,",
+    "grammar": "Contextual translation",
     "lemma": "garmundes"
   },
   "garsecg": {
@@ -20473,8 +20473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gār-wiga"
   },
   "garwigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that board4 to the boss, and the breastplate failed",
+    "grammar": "Contextual translation",
     "lemma": "garwigan"
   },
   "garwigend": {
@@ -20508,8 +20508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gāst-bona"
   },
   "gasta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of treacherous spirits. Untrod is their home;",
+    "grammar": "Contextual translation",
     "lemma": "gasta"
   },
   "gastbona": {
@@ -20518,8 +20518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gāst-bona"
   },
   "gastes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spirit accurst: too cruel that sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "gastes"
   },
   "ge": {
@@ -24498,13 +24498,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeador"
   },
   "geaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce his mind,",
+    "grammar": "Contextual translation",
     "lemma": "geaf"
   },
   "geafon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gave him to ocean. Grave were their spirits,",
+    "grammar": "Contextual translation",
     "lemma": "geafon"
   },
   "geahsian": {
@@ -24513,8 +24513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-āhsian"
   },
   "geahsod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: More I hear, that the monster dire,",
+    "grammar": "Contextual translation",
     "lemma": "geahsod"
   },
   "geald": {
@@ -24538,8 +24538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēap"
   },
   "geapne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Grendel's gripe, \u0015 'neath the gabled roof·",
+    "grammar": "Contextual translation",
     "lemma": "geapne"
   },
   "gear": {
@@ -24593,18 +24593,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeār-dagas"
   },
   "geardagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: LO, praise of the prowess of people-kings",
+    "grammar": "Contextual translation",
     "lemma": "geardagum"
   },
   "geardas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: year to men's dwellings, as yet they do,",
+    "grammar": "Contextual translation",
     "lemma": "geardas"
   },
   "geardum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a son in his halls, whom heaven sent",
+    "grammar": "Contextual translation",
     "lemma": "geardum"
   },
   "geare": {
@@ -24633,58 +24633,58 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġearo-folm"
   },
   "gearu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re lay.",
+    "grammar": "Contextual translation",
     "lemma": "gearu"
   },
   "gearwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boat under blu\u001b. On board they climbed,",
+    "grammar": "Contextual translation",
     "lemma": "gearwe"
   },
   "gearwor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: racked with plagues, who should rob their hoard.",
+    "grammar": "Contextual translation",
     "lemma": "gearwor"
   },
   "gearwost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-hall of men, he gladly discerned,",
+    "grammar": "Contextual translation",
     "lemma": "gearwost"
   },
   "geat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at dawn of day, be dealt between us!\"",
+    "grammar": "Contextual translation",
     "lemma": "geat"
   },
   "geata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And now the bold one from bands of Geats",
+    "grammar": "Contextual translation",
     "lemma": "geata"
   },
   "geate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after giving of gold, for the Geat renowned. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "geate"
   },
   "geates": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf's battle-boast. \u0015 Bright with gold",
+    "grammar": "Contextual translation",
     "lemma": "geates"
   },
   "geatisc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their misery moaned they, their master's death.",
+    "grammar": "Contextual translation",
     "lemma": "geatisc"
   },
   "geatmecga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had the valiant Geat his vaunt made good,",
+    "grammar": "Contextual translation",
     "lemma": "geatmecga"
   },
   "geatmæcgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Gathered together, the Geatish men",
+    "grammar": "Contextual translation",
     "lemma": "geatmæcgum"
   },
   "geato lic": {
@@ -24703,8 +24703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeato-liċ"
   },
   "geatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: great among Geats, of Grendel's doings.",
+    "grammar": "Contextual translation",
     "lemma": "geatum"
   },
   "geatw": {
@@ -24723,8 +24723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeatwa"
   },
   "gebad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friendless, a foundling, fate repaid him:",
+    "grammar": "Contextual translation",
     "lemma": "gebad"
   },
   "gebannan": {
@@ -24738,33 +24738,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-barn"
   },
   "gebeacnod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bed in the bowers,1 when that bale was shown,",
+    "grammar": "Contextual translation",
     "lemma": "gebeacnod"
   },
   "gebead": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lonely and sorrowful, seeking his land,",
+    "grammar": "Contextual translation",
     "lemma": "gebead"
   },
   "gebeah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seamen hardy on hall-beds sank.",
+    "grammar": "Contextual translation",
     "lemma": "gebeah"
   },
   "gebearg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now, spire by spire, fast sped and glided",
+    "grammar": "Contextual translation",
     "lemma": "gebearg"
   },
   "gebearh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: braided breast-mail, barring death,",
+    "grammar": "Contextual translation",
     "lemma": "gebearh"
   },
   "gebeaten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Hrethel, by sword-draughts died, ed",
+    "grammar": "Contextual translation",
     "lemma": "gebeaten"
   },
   "gebedda": {
@@ -24773,8 +24773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bedda"
   },
   "gebeddan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: couch of his queen. The King-of-Glory",
+    "grammar": "Contextual translation",
     "lemma": "gebeddan"
   },
   "gebeodan": {
@@ -24788,8 +24788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-beorgan"
   },
   "gebeotedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Boasted full oft, as my beer they drank,",
+    "grammar": "Contextual translation",
     "lemma": "gebeotedon"
   },
   "gebeotian": {
@@ -24808,13 +24808,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bētan"
   },
   "gebette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all their sorrow and ills assuaged,",
+    "grammar": "Contextual translation",
     "lemma": "gebette"
   },
   "gebettest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: combat in Heorot? Hrothgar couldst thou",
+    "grammar": "Contextual translation",
     "lemma": "gebettest"
   },
   "gebidan": {
@@ -24823,18 +24823,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bīdan"
   },
   "gebidanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Too awful it is for an aged man",
+    "grammar": "Contextual translation",
     "lemma": "gebidanne"
   },
   "gebide": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yer.",
+    "grammar": "Contextual translation",
     "lemma": "gebide"
   },
   "gebiden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wise and wary, though winters few",
+    "grammar": "Contextual translation",
     "lemma": "gebiden"
   },
   "gebindan": {
@@ -24843,33 +24843,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bindan"
   },
   "geblodegod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-grim, burning; its bitter teeth",
+    "grammar": "Contextual translation",
     "lemma": "geblodegod"
   },
   "gebogen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: together amain: the mailed-one waited.",
+    "grammar": "Contextual translation",
     "lemma": "gebogen"
   },
   "gebohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could the cursed one thus procure at all.",
+    "grammar": "Contextual translation",
     "lemma": "gebohte"
   },
   "gebolgen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and baleful he burst in his blatant rage,",
+    "grammar": "Contextual translation",
     "lemma": "gebolgen"
   },
   "gebolgne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swollen and savage that song to hear,",
+    "grammar": "Contextual translation",
     "lemma": "gebolgne"
   },
   "geboren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the better breed! So, borne aloft,",
+    "grammar": "Contextual translation",
     "lemma": "geboren"
   },
   "gebrecan": {
@@ -24888,13 +24888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bringan"
   },
   "gebrocen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame with weeping (the wind was still),",
+    "grammar": "Contextual translation",
     "lemma": "gebrocen"
   },
   "gebroden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: His breastplate broad and bright of hues,",
+    "grammar": "Contextual translation",
     "lemma": "gebroden"
   },
   "gebroðor": {
@@ -24903,8 +24903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-brōðor"
   },
   "gebroðrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf brave, the brothers between.",
+    "grammar": "Contextual translation",
     "lemma": "gebroðrum"
   },
   "gebræc": {
@@ -24913,13 +24913,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bræc"
   },
   "gebræd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the friendless wight! \u0015 and I fought with that brand,",
+    "grammar": "Contextual translation",
     "lemma": "gebræd"
   },
   "gebrægd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold and battle-grim, brandished the sword,",
+    "grammar": "Contextual translation",
     "lemma": "gebrægd"
   },
   "gebuan": {
@@ -24933,18 +24933,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-būgan"
   },
   "gebulge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he had angered, breaking ancient law,",
+    "grammar": "Contextual translation",
     "lemma": "gebulge"
   },
   "gebun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Ring-Danes, outrevelled, to rest had gone.",
+    "grammar": "Contextual translation",
     "lemma": "gebun"
   },
   "gebunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: welded his lay; this warrior soon",
+    "grammar": "Contextual translation",
     "lemma": "gebunden"
   },
   "gebycgan": {
@@ -24963,8 +24963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-byrnan"
   },
   "gebæded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: than its noble master had need of then",
+    "grammar": "Contextual translation",
     "lemma": "gebæded"
   },
   "gebæran": {
@@ -24973,23 +24973,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-bǣran"
   },
   "gebæted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For Hrothgar soon a horse was saddled",
+    "grammar": "Contextual translation",
     "lemma": "gebæted"
   },
   "geceapod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall burn with the warrior. Wealth of jewels,",
+    "grammar": "Contextual translation",
     "lemma": "geceapod"
   },
   "geceas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Eormenric's hate: chose help eternal.",
+    "grammar": "Contextual translation",
     "lemma": "geceas"
   },
   "geceos": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ban, then, such baleful thoughts, Beowulf dearest,",
+    "grammar": "Contextual translation",
     "lemma": "geceos"
   },
   "geceosan": {
@@ -24998,8 +24998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-ċēosan"
   },
   "geceosenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people's leader, \u0015 and life be thine, \u0015 nd",
+    "grammar": "Contextual translation",
     "lemma": "geceosenne"
   },
   "gecnawan": {
@@ -25008,8 +25008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cnāwan"
   },
   "gecorone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: comrades chose, the keenest of warriors",
+    "grammar": "Contextual translation",
     "lemma": "gecorone"
   },
   "gecranc": {
@@ -25018,8 +25018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cranc"
   },
   "gecrang": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he ruined and ravaged. Reft of life,",
+    "grammar": "Contextual translation",
     "lemma": "gecrang"
   },
   "gecringan": {
@@ -25028,8 +25028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cringan"
   },
   "gecrong": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the booty back, and breast-adornments;",
+    "grammar": "Contextual translation",
     "lemma": "gecrong"
   },
   "gecweðan": {
@@ -25038,18 +25038,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cweðan"
   },
   "gecwæde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Beowulf dearest, do all bravely,",
+    "grammar": "Contextual translation",
     "lemma": "gecwæde"
   },
   "gecwædon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: We twain had talked, in time of youth,",
+    "grammar": "Contextual translation",
     "lemma": "gecwædon"
   },
   "gecwæð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eager they echoed, and all averred",
+    "grammar": "Contextual translation",
     "lemma": "gecwæð"
   },
   "gecynde": {
@@ -25058,8 +25058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cynde"
   },
   "gecypan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or from men of the Gifths, to get him help, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gecypan"
   },
   "gecyssan": {
@@ -25068,28 +25068,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-cyssan"
   },
   "gecyste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hale to his home, and in haste return.",
+    "grammar": "Contextual translation",
     "lemma": "gecyste"
   },
   "gecyðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and, swiftly after, such answer bring",
+    "grammar": "Contextual translation",
     "lemma": "gecyðan"
   },
   "gecyðanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I hear of the country whence ye came.\"",
+    "grammar": "Contextual translation",
     "lemma": "gecyðanne"
   },
   "gecyðed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whose might of mind to many was known,",
+    "grammar": "Contextual translation",
     "lemma": "gecyðed"
   },
   "gecyþed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To folk afar was my father known,",
+    "grammar": "Contextual translation",
     "lemma": "gecyþed"
   },
   "gecуpan": {
@@ -25118,8 +25118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dēfe"
   },
   "gedeðhim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his folk's sure fortress in fee to hold,",
+    "grammar": "Contextual translation",
     "lemma": "gedeðhim"
   },
   "gedigan": {
@@ -25128,18 +25128,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dīġan"
   },
   "gedigde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet I came unharmed from that hostile clutch,",
+    "grammar": "Contextual translation",
     "lemma": "gedigde"
   },
   "gedigest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if thou bidest the battle with bold-won life.\"",
+    "grammar": "Contextual translation",
     "lemma": "gedigest"
   },
   "gedigeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall succor and save from the shock of war.\"",
+    "grammar": "Contextual translation",
     "lemma": "gedigeð"
   },
   "gedon": {
@@ -25148,8 +25148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dōn"
   },
   "gedrefed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were dyed in blood. The Danish men",
+    "grammar": "Contextual translation",
     "lemma": "gedrefed"
   },
   "gedreosan": {
@@ -25158,18 +25158,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-drēosan"
   },
   "gedreoseð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet in the end it ever comes",
+    "grammar": "Contextual translation",
     "lemma": "gedreoseð"
   },
   "gedriht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Found within it the atheling band",
+    "grammar": "Contextual translation",
     "lemma": "gedriht"
   },
   "gedrogen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his mortal wound; full well he knew",
+    "grammar": "Contextual translation",
     "lemma": "gedrogen"
   },
   "gedryht": {
@@ -25188,8 +25188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dūfan"
   },
   "gedygan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ye heroes in harness, which of us twain",
+    "grammar": "Contextual translation",
     "lemma": "gedygan"
   },
   "gedælan": {
@@ -25198,8 +25198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dǣlan"
   },
   "gedælde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the monster was minded, ere morn should dawn,",
+    "grammar": "Contextual translation",
     "lemma": "gedælde"
   },
   "gedуgan": {
@@ -25208,28 +25208,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-dӯġan"
   },
   "geeawed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she o\u001bered, to honor him, arm-jewels twain,",
+    "grammar": "Contextual translation",
     "lemma": "geeawed"
   },
   "geendod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for sons of the soil; and soon it came,",
+    "grammar": "Contextual translation",
     "lemma": "geendod"
   },
   "geeode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet quickly under his kinsman's shield",
+    "grammar": "Contextual translation",
     "lemma": "geeode"
   },
   "geeodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sun shone from south. They strode along",
+    "grammar": "Contextual translation",
     "lemma": "geeodon"
   },
   "gefandod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sought the cup, and discovered soon",
+    "grammar": "Contextual translation",
     "lemma": "gefandod"
   },
   "gefaran": {
@@ -25253,13 +25253,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-feallan"
   },
   "gefealleð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the frame of the body fragile yields,",
+    "grammar": "Contextual translation",
     "lemma": "gefealleð"
   },
   "gefean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nowise had they bliss from their booty then",
+    "grammar": "Contextual translation",
     "lemma": "gefean"
   },
   "gefegon": {
@@ -25268,13 +25268,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fēgon"
   },
   "gefeh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had purged it anew. His night-work pleased him,",
+    "grammar": "Contextual translation",
     "lemma": "gefeh"
   },
   "gefeng": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Straightway he seized a sleeping warrior",
+    "grammar": "Contextual translation",
     "lemma": "gefeng"
   },
   "gefeoht": {
@@ -25288,13 +25288,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-feohtan"
   },
   "gefeohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Canst thou not, comrade, ken that sword",
+    "grammar": "Contextual translation",
     "lemma": "gefeohte"
   },
   "gefeoll": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: left in Heorot; heartsick thence",
+    "grammar": "Contextual translation",
     "lemma": "gefeoll"
   },
   "gefeon": {
@@ -25303,8 +25303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fēon"
   },
   "gefeormod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gendes",
+    "grammar": "Contextual translation",
     "lemma": "gefeormod"
   },
   "geferan": {
@@ -25313,28 +25313,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fēran"
   },
   "geferdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: (fearful their fate!), a folk estranged",
+    "grammar": "Contextual translation",
     "lemma": "geferdon"
   },
   "gefere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in woful fashion. Wondrous seems it,",
+    "grammar": "Contextual translation",
     "lemma": "gefere"
   },
   "gefered": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hast done such deeds, that for days to come",
+    "grammar": "Contextual translation",
     "lemma": "gefered"
   },
   "geferede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Hither have fared to thee far-come men",
+    "grammar": "Contextual translation",
     "lemma": "geferede"
   },
   "geferedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lying there lost. And little they mourned",
+    "grammar": "Contextual translation",
     "lemma": "geferedon"
   },
   "geferian": {
@@ -25358,8 +25358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fōn"
   },
   "gefondad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as ward for his wealth, now the one has found",
+    "grammar": "Contextual translation",
     "lemma": "gefondad"
   },
   "gefrecnian": {
@@ -25368,18 +25368,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-frēcnian"
   },
   "gefremed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what sudden harryings. Hall-folk fail me,",
+    "grammar": "Contextual translation",
     "lemma": "gefremed"
   },
   "gefremede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with night returning, anew began",
+    "grammar": "Contextual translation",
     "lemma": "gefremede"
   },
   "gefremedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of gift and grace to gain him honor!\"",
+    "grammar": "Contextual translation",
     "lemma": "gefremedon"
   },
   "gefremman": {
@@ -25388,8 +25388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fremman"
   },
   "gefremmanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against harassing terror to try their hand.",
+    "grammar": "Contextual translation",
     "lemma": "gefremmanne"
   },
   "gefricgan": {
@@ -25398,18 +25398,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fricgan"
   },
   "gefricge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for work of war I am willing still!",
+    "grammar": "Contextual translation",
     "lemma": "gefricge"
   },
   "gefricgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall lose and leave, when lords highborn",
+    "grammar": "Contextual translation",
     "lemma": "gefricgean"
   },
   "gefricgeað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the Swedish folk will seek us home",
+    "grammar": "Contextual translation",
     "lemma": "gefricgeað"
   },
   "gefrignan": {
@@ -25423,13 +25423,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-frūnen"
   },
   "gefrungon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against this Grendel a guard had set,",
+    "grammar": "Contextual translation",
     "lemma": "gefrungon"
   },
   "gefrunon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of spear-armed Danes, in days long sped,",
+    "grammar": "Contextual translation",
     "lemma": "gefrunon"
   },
   "gefræge": {
@@ -25438,18 +25438,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-frǣġe"
   },
   "gefrægen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ne'er heard I of host in haughtier throng",
+    "grammar": "Contextual translation",
     "lemma": "gefrægen"
   },
   "gefrægn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wide, I heard, was the work commanded,",
+    "grammar": "Contextual translation",
     "lemma": "gefrægn"
   },
   "gefrætwade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and braided bright the breast of earth",
+    "grammar": "Contextual translation",
     "lemma": "gefrætwade"
   },
   "gefrætwian": {
@@ -25458,13 +25458,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-frætwian"
   },
   "gefrætwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for hands to bedeck it, and dense was the throng",
+    "grammar": "Contextual translation",
     "lemma": "gefrætwod"
   },
   "gefyldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the Weders'-helm smote that worm asunder,",
+    "grammar": "Contextual translation",
     "lemma": "gefyldan"
   },
   "gefyllan": {
@@ -25473,13 +25473,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fyllan"
   },
   "gefyrðred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hasted the herald, the hoard so spurred him",
+    "grammar": "Contextual translation",
     "lemma": "gefyrðred"
   },
   "gefysed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then moved o'er the waters by might of the wind",
+    "grammar": "Contextual translation",
     "lemma": "gefysed"
   },
   "gefæg(?)": {
@@ -25488,8 +25488,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fæġ(?)"
   },
   "gefægnod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ll. The feud she avenged",
+    "grammar": "Contextual translation",
     "lemma": "gefægnod"
   },
   "gefægon": {
@@ -25498,13 +25498,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-fǣgon"
   },
   "gefægra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to all: the other2 was urged to crime!",
+    "grammar": "Contextual translation",
     "lemma": "gefægra"
   },
   "gefælsod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From ravage had rescued the roving stranger",
+    "grammar": "Contextual translation",
     "lemma": "gefælsod"
   },
   "gegan": {
@@ -25518,13 +25518,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-gangan"
   },
   "gegangenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lurked in his lair. Not light the task",
+    "grammar": "Contextual translation",
     "lemma": "gegangenne"
   },
   "gegangeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: art wise in words! I ween indeed",
+    "grammar": "Contextual translation",
     "lemma": "gegangeð"
   },
   "gegiredan": {
@@ -25558,8 +25558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeġn-cwide"
   },
   "gegncwida": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to give them hearing, gracious Hrothgar!",
+    "grammar": "Contextual translation",
     "lemma": "gegncwida"
   },
   "gegncwide": {
@@ -25578,8 +25578,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeġnum"
   },
   "gegongen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that here was the last of life, an end",
+    "grammar": "Contextual translation",
     "lemma": "gegongen"
   },
   "gegretan": {
@@ -25588,18 +25588,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-grētan"
   },
   "gegrette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Man to man, he made harangue,",
+    "grammar": "Contextual translation",
     "lemma": "gegrette"
   },
   "gegyred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who girded him now for the grim encounter.",
+    "grammar": "Contextual translation",
     "lemma": "gegyred"
   },
   "gegyrede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with four such gifts, so fashioned with gold,",
+    "grammar": "Contextual translation",
     "lemma": "gegyrede"
   },
   "gegyrwan": {
@@ -25608,8 +25608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-ġyrwan"
   },
   "gegyrwed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sark braided my breast to ward, rm",
+    "grammar": "Contextual translation",
     "lemma": "gegyrwed"
   },
   "gehatan": {
@@ -25618,18 +25618,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hātan"
   },
   "gehate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No harbor shall hide her \u0015 heed my promise! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gehate"
   },
   "gehaten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Freawaru name, when fretted gold",
+    "grammar": "Contextual translation",
     "lemma": "gehaten"
   },
   "geheald": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Have now and hold this house unpeered;",
+    "grammar": "Contextual translation",
     "lemma": "geheald"
   },
   "gehealdan": {
@@ -25638,13 +25638,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-healdan"
   },
   "gehealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in grace and mercy guard you well,",
+    "grammar": "Contextual translation",
     "lemma": "gehealde"
   },
   "gehealdeþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evils and exile, if only he gain",
+    "grammar": "Contextual translation",
     "lemma": "gehealdeþ"
   },
   "geheawan": {
@@ -25653,13 +25653,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hēawan"
   },
   "geheawe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my shield to hew though he hardy be,",
+    "grammar": "Contextual translation",
     "lemma": "geheawe"
   },
   "geheaðerod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so that marked with sin the man should be,",
+    "grammar": "Contextual translation",
     "lemma": "geheaðerod"
   },
   "gehedan": {
@@ -25668,8 +25668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hēdan"
   },
   "gehedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of fame under heaven than he himself. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gehedde"
   },
   "gehegan": {
@@ -25678,18 +25678,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hēġan"
   },
   "geheold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then Beowulf came as king this broad",
+    "grammar": "Contextual translation",
     "lemma": "geheold"
   },
   "gehet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to play the hero and hazard my being",
+    "grammar": "Contextual translation",
     "lemma": "gehet"
   },
   "geheton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Whiles they vowed in their heathen fanes",
+    "grammar": "Contextual translation",
     "lemma": "geheton"
   },
   "gehladan": {
@@ -25713,18 +25713,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hnǣġan"
   },
   "gehnægde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed abject,",
+    "grammar": "Contextual translation",
     "lemma": "gehnægde"
   },
   "gehogodest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"What came of thy quest, my kinsman Beowulf,",
+    "grammar": "Contextual translation",
     "lemma": "gehogodest"
   },
   "gehroden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over the cheek-guard; chased with gold,",
+    "grammar": "Contextual translation",
     "lemma": "gehroden"
   },
   "gehwa": {
@@ -25733,18 +25733,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hwā"
   },
   "gehwam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that he heard each day the din of revel",
+    "grammar": "Contextual translation",
     "lemma": "gehwam"
   },
   "gehwane": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: those care-paths cold when the king he slew.1",
+    "grammar": "Contextual translation",
     "lemma": "gehwane"
   },
   "gehwearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Fell the corpse of the king into keeping of Franks,",
+    "grammar": "Contextual translation",
     "lemma": "gehwearf"
   },
   "gehwelc": {
@@ -25753,8 +25753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hwelċ"
   },
   "gehwelcne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sovran of Scyldings, sorrows in plenty,",
+    "grammar": "Contextual translation",
     "lemma": "gehwelcne"
   },
   "gehweorfan": {
@@ -25763,8 +25763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hweorfan"
   },
   "gehwone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to guard for fear lest foemen come, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gehwone"
   },
   "gehwylc": {
@@ -25773,33 +25773,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hwylċ"
   },
   "gehwylce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: day by day the Danes should honor,",
+    "grammar": "Contextual translation",
     "lemma": "gehwylce"
   },
   "gehwylces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: savage, to sever the soul of each,",
+    "grammar": "Contextual translation",
     "lemma": "gehwylces"
   },
   "gehwylcne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave men brought it! But battle-death seized",
+    "grammar": "Contextual translation",
     "lemma": "gehwylcne"
   },
   "gehwylcre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from edge of iron. Yet his end and parting",
+    "grammar": "Contextual translation",
     "lemma": "gehwylcre"
   },
   "gehwylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of mortal beings that breathe and move.",
+    "grammar": "Contextual translation",
     "lemma": "gehwylcum"
   },
   "gehwæm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By night is a wonder weird to see,",
+    "grammar": "Contextual translation",
     "lemma": "gehwæm"
   },
   "gehwær": {
@@ -25808,23 +25808,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hwǣr"
   },
   "gehwære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall an earl have honor in every clan.",
+    "grammar": "Contextual translation",
     "lemma": "gehwære"
   },
   "gehwæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: our war by the wall, as Wyrd allots,",
+    "grammar": "Contextual translation",
     "lemma": "gehwæs"
   },
   "gehwæðer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by hardy Hygelac held full dear,",
+    "grammar": "Contextual translation",
     "lemma": "gehwæðer"
   },
   "gehwæðrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Eofor and Wulf a wealth of treasure,",
+    "grammar": "Contextual translation",
     "lemma": "gehwæðrum"
   },
   "gehwæþer": {
@@ -25833,8 +25833,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hwæþer"
   },
   "gehwæþres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Beowulf over them both then gave",
+    "grammar": "Contextual translation",
     "lemma": "gehwæþres"
   },
   "gehycgan": {
@@ -25843,8 +25843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hycgan"
   },
   "gehydde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: left the last of his lofty race,",
+    "grammar": "Contextual translation",
     "lemma": "gehydde"
   },
   "gehygd": {
@@ -25858,23 +25858,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-hyld"
   },
   "gehyrað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ocean-travellers, take from me",
+    "grammar": "Contextual translation",
     "lemma": "gehyrað"
   },
   "gehyrde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that he heard each day the din of revel",
+    "grammar": "Contextual translation",
     "lemma": "gehyrde"
   },
   "gehyrdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who from the wall that wailing heard,",
+    "grammar": "Contextual translation",
     "lemma": "gehyrdon"
   },
   "gehyre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I gather, this band is graciously bent",
+    "grammar": "Contextual translation",
     "lemma": "gehyre"
   },
   "gehðo": {
@@ -25903,8 +25903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lāc"
   },
   "gelacum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unsure at the sword-play. The Scylding queen spoke:",
+    "grammar": "Contextual translation",
     "lemma": "gelacum"
   },
   "gelad": {
@@ -25913,8 +25913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lād"
   },
   "gelafede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lave with water his winsome lord,",
+    "grammar": "Contextual translation",
     "lemma": "gelafede"
   },
   "gelafian": {
@@ -25923,8 +25923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lafian"
   },
   "gelamp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in wisdom's words, that her will was granted,",
+    "grammar": "Contextual translation",
     "lemma": "gelamp"
   },
   "gelang": {
@@ -25933,13 +25933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lang"
   },
   "geldenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: High o'er his head they hoist the standard,",
+    "grammar": "Contextual translation",
     "lemma": "geldenne"
   },
   "geleah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with bale and brand. In its barrow it trusted,",
+    "grammar": "Contextual translation",
     "lemma": "geleah"
   },
   "gelenge": {
@@ -25958,8 +25958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-līċ"
   },
   "gelice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And I heard that soon passed o'er the path of this treasure,",
+    "grammar": "Contextual translation",
     "lemma": "gelice"
   },
   "gelicgan": {
@@ -25968,8 +25968,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-licgan"
   },
   "gelicost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ota famiheals",
+    "grammar": "Contextual translation",
     "lemma": "gelicost"
   },
   "gelimpan": {
@@ -25978,18 +25978,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-limpan"
   },
   "gelimpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: be speedy thanks! A throng of sorrows",
+    "grammar": "Contextual translation",
     "lemma": "gelimpe"
   },
   "gelimpeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wonder-Wielder, of wealth and fame.",
+    "grammar": "Contextual translation",
     "lemma": "gelimpeð"
   },
   "gelocen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high o'er the hoard, of handiwork noblest,",
+    "grammar": "Contextual translation",
     "lemma": "gelocen"
   },
   "gelome": {
@@ -25998,8 +25998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lōme"
   },
   "gelomp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to fashion the folkstead. It fell, as he ordered,",
+    "grammar": "Contextual translation",
     "lemma": "gelomp"
   },
   "gelong": {
@@ -26008,33 +26008,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-long"
   },
   "gelumpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for gear of combat to give him requital,",
+    "grammar": "Contextual translation",
     "lemma": "gelumpe"
   },
   "gelumpen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by that bloody battle the boon had come.",
+    "grammar": "Contextual translation",
     "lemma": "gelumpen"
   },
   "gelyfan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: foe against foe. Then faith be his",
+    "grammar": "Contextual translation",
     "lemma": "gelyfan"
   },
   "gelyfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoar-haired, war-brave; help awaited",
+    "grammar": "Contextual translation",
     "lemma": "gelyfde"
   },
   "gelæded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fetched from far was freighted with him.",
+    "grammar": "Contextual translation",
     "lemma": "gelæded"
   },
   "gelæg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: black over blaze, and blent was the roar",
+    "grammar": "Contextual translation",
     "lemma": "gelæg"
   },
   "gelæran": {
@@ -26043,8 +26043,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lǣran"
   },
   "gelærdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So my vassals advised me well, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gelærdon"
   },
   "gelæstan": {
@@ -26053,18 +26053,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lǣstan"
   },
   "gelæste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beanstan's bairn2 his boast achieved.",
+    "grammar": "Contextual translation",
     "lemma": "gelæste"
   },
   "gelæsted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had the valiant Geat his vaunt made good,",
+    "grammar": "Contextual translation",
     "lemma": "gelæsted"
   },
   "gelæsten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegemen loyal: by lauded deeds",
+    "grammar": "Contextual translation",
     "lemma": "gelæsten"
   },
   "gelуfan": {
@@ -26073,18 +26073,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-lӯfan"
   },
   "geman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aged from earth; he is honored still",
+    "grammar": "Contextual translation",
     "lemma": "geman"
   },
   "gemealt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Waels; the worm was consumed.",
+    "grammar": "Contextual translation",
     "lemma": "gemealt"
   },
   "gemearcod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: marked with murder, from men's delights",
+    "grammar": "Contextual translation",
     "lemma": "gemearcod"
   },
   "gemede": {
@@ -26093,8 +26093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mēde"
   },
   "gemedu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my folk's agreement. \u0015 A greater ne'er saw I",
+    "grammar": "Contextual translation",
     "lemma": "gemedu"
   },
   "gemeltan": {
@@ -26103,8 +26103,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-meltan"
   },
   "gemenged": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: turbid the tide of tumbling waves",
+    "grammar": "Contextual translation",
     "lemma": "gemenged"
   },
   "gemet": {
@@ -26118,8 +26118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mētan"
   },
   "gemete": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that not ever at all might any man",
+    "grammar": "Contextual translation",
     "lemma": "gemete"
   },
   "gemeting": {
@@ -26128,18 +26128,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mēting"
   },
   "gemette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such as oft he had done in days of old!",
+    "grammar": "Contextual translation",
     "lemma": "gemette"
   },
   "gemetton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this lapsing life! \u0015 Not long it was",
+    "grammar": "Contextual translation",
     "lemma": "gemetton"
   },
   "gemon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o\u001bspring of ours, when all he minds",
+    "grammar": "Contextual translation",
     "lemma": "gemon"
   },
   "gemong": {
@@ -26148,8 +26148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mong"
   },
   "gemonge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mighty amid them the meadow-ways trod.",
+    "grammar": "Contextual translation",
     "lemma": "gemonge"
   },
   "gemunan": {
@@ -26158,13 +26158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-munan"
   },
   "gemunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then bethought him the hardy Hygelac-thane",
+    "grammar": "Contextual translation",
     "lemma": "gemunde"
   },
   "gemundon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their heathen hope; 'twas Hell they thought of",
+    "grammar": "Contextual translation",
     "lemma": "gemundon"
   },
   "gemynd": {
@@ -26183,8 +26183,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-myndiġ"
   },
   "gemyndum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood,",
+    "grammar": "Contextual translation",
     "lemma": "gemyndum"
   },
   "gemyne": {
@@ -26198,8 +26198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mǣnan"
   },
   "gemænden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or with malice of mind bemoan themselves",
+    "grammar": "Contextual translation",
     "lemma": "gemænden"
   },
   "gemæne": {
@@ -26208,8 +26208,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-mǣne"
   },
   "gemænra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warrior worthy! A wealth of treasure",
+    "grammar": "Contextual translation",
     "lemma": "gemænra"
   },
   "gen": {
@@ -26223,8 +26223,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēna"
   },
   "genam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wrathful, reckless, from resting-places,",
+    "grammar": "Contextual translation",
     "lemma": "genam"
   },
   "gend": {
@@ -26248,8 +26248,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-neahhe"
   },
   "genearwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hooked and barbed, it was hard beset,",
+    "grammar": "Contextual translation",
     "lemma": "genearwod"
   },
   "genehost": {
@@ -26258,8 +26258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nehost"
   },
   "genered": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had purged it anew. His night-work pleased him,",
+    "grammar": "Contextual translation",
     "lemma": "genered"
   },
   "genesan": {
@@ -26268,18 +26268,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nesan"
   },
   "genesen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: those care-paths cold when the king he slew.1",
+    "grammar": "Contextual translation",
     "lemma": "genesen"
   },
   "geneðde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the atheling dared the deed alone",
+    "grammar": "Contextual translation",
     "lemma": "geneðde"
   },
   "geneðdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, and fearlessly dared",
+    "grammar": "Contextual translation",
     "lemma": "geneðdon"
   },
   "geneþan": {
@@ -26288,8 +26288,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nēþan"
   },
   "geneþde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In war under water this work I essayed",
+    "grammar": "Contextual translation",
     "lemma": "geneþde"
   },
   "geng": {
@@ -26303,8 +26303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "genġan"
   },
   "gengde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Foremost he1 fared, a few at his side",
+    "grammar": "Contextual translation",
     "lemma": "gengde"
   },
   "genge": {
@@ -26323,18 +26323,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nip"
   },
   "genipu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from mountains gliding to gloom of the rocks,",
+    "grammar": "Contextual translation",
     "lemma": "genipu"
   },
   "geniwad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst time what was fashioned in far-o\u001b days.",
+    "grammar": "Contextual translation",
     "lemma": "geniwad"
   },
   "geniwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ecked, she bore with her; bale was returned,",
+    "grammar": "Contextual translation",
     "lemma": "geniwod"
   },
   "genog": {
@@ -26343,18 +26343,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nōg"
   },
   "genoge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ng; the hand that smote him",
+    "grammar": "Contextual translation",
     "lemma": "genoge"
   },
   "genom": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he burdened his bosom with beakers and plate",
+    "grammar": "Contextual translation",
     "lemma": "genom"
   },
   "genumen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the rounds and the rings they had reft erewhile,",
+    "grammar": "Contextual translation",
     "lemma": "genumen"
   },
   "genung": {
@@ -26373,13 +26373,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēnunga"
   },
   "genydde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the refuge ready for race of man,",
+    "grammar": "Contextual translation",
     "lemma": "genydde"
   },
   "genyded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was driven into the dragon's head, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "genyded"
   },
   "genyttian": {
@@ -26388,8 +26388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nyttian"
   },
   "genyttod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seeking its den; now in death's sure clutch",
+    "grammar": "Contextual translation",
     "lemma": "genyttod"
   },
   "genægan": {
@@ -26398,23 +26398,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-nǣġan"
   },
   "genægdan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs,",
+    "grammar": "Contextual translation",
     "lemma": "genægdan"
   },
   "genægdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eet to the Frisian land.",
+    "grammar": "Contextual translation",
     "lemma": "genægdon"
   },
   "genæged": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: done to death and dragged on the headland,",
+    "grammar": "Contextual translation",
     "lemma": "genæged"
   },
   "genæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rent were its hinges; the roof alone",
+    "grammar": "Contextual translation",
     "lemma": "genæs"
   },
   "geo": {
@@ -26448,8 +26448,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēoc"
   },
   "geoce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the slayer-of-souls would succor give them",
+    "grammar": "Contextual translation",
     "lemma": "geoce"
   },
   "geocor": {
@@ -26468,13 +26468,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeofon"
   },
   "geofena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Be glad with thy Geats; of those gifts be mindful,",
+    "grammar": "Contextual translation",
     "lemma": "geofena"
   },
   "geofenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er the paths of ocean, people of Geatland;",
+    "grammar": "Contextual translation",
     "lemma": "geofenes"
   },
   "geofon": {
@@ -26503,13 +26503,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeogoð-feorh"
   },
   "geogoðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielded, youthful, this widespread realm,",
+    "grammar": "Contextual translation",
     "lemma": "geogoðe"
   },
   "geogoðfeore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: striplings still, \u0015 to stake our lives",
+    "grammar": "Contextual translation",
     "lemma": "geogoðfeore"
   },
   "geogoðfeorh": {
@@ -26518,18 +26518,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeogoð-feorh"
   },
   "geogoðgeweox": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: obeyed him gladly till great grew his band",
+    "grammar": "Contextual translation",
     "lemma": "geogoðgeweox"
   },
   "geogoþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: death-shadow dark, and dogged them still,",
+    "grammar": "Contextual translation",
     "lemma": "geogoþe"
   },
   "geoguðfeore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Beowulf dearest, do all bravely,",
+    "grammar": "Contextual translation",
     "lemma": "geoguðfeore"
   },
   "geolo": {
@@ -26553,8 +26553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeolo-rand"
   },
   "geolwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Not long he lingered. The linden yellow,",
+    "grammar": "Contextual translation",
     "lemma": "geolwe"
   },
   "geomo": {
@@ -26633,8 +26633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeōmrian"
   },
   "geomrode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bewept them the woman: great wailing ascended.",
+    "grammar": "Contextual translation",
     "lemma": "geomrode"
   },
   "geomuru": {
@@ -26733,8 +26733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeond-brǣdan"
   },
   "geondbræded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They bared the bench-boards; abroad they spread",
+    "grammar": "Contextual translation",
     "lemma": "geondbræded"
   },
   "geondhweorfan": {
@@ -26743,8 +26743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeond-hweorfan"
   },
   "geondseh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which thither carried our king and lord.",
+    "grammar": "Contextual translation",
     "lemma": "geondseh"
   },
   "geondseon": {
@@ -26763,28 +26763,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēong"
   },
   "geonga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to shelter at all the spear-thane young.",
+    "grammar": "Contextual translation",
     "lemma": "geonga"
   },
   "geongan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst time now",
+    "grammar": "Contextual translation",
     "lemma": "geongan"
   },
   "geonge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people's peace-bringer, passed through the hall,",
+    "grammar": "Contextual translation",
     "lemma": "geonge"
   },
   "geongne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where the battle-king young, his burg within,",
+    "grammar": "Contextual translation",
     "lemma": "geongne"
   },
   "geongum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he would all allot that the Lord had sent him,",
+    "grammar": "Contextual translation",
     "lemma": "geongum"
   },
   "geor": {
@@ -26803,8 +26803,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeorne"
   },
   "geornor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: noisome abode: he knew too well",
+    "grammar": "Contextual translation",
     "lemma": "geornor"
   },
   "geosceaft": {
@@ -26818,8 +26818,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġeō-sceaft-gāst"
   },
   "geosceaftgasta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such fate-sent ghosts as Grendel, who,",
+    "grammar": "Contextual translation",
     "lemma": "geosceaftgasta"
   },
   "geot": {
@@ -26838,13 +26838,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġēotan"
   },
   "geotena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in this hall of gold my Geatish band",
+    "grammar": "Contextual translation",
     "lemma": "geotena"
   },
   "geotende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: raging waves, the race of giants",
+    "grammar": "Contextual translation",
     "lemma": "geotende"
   },
   "gerad": {
@@ -26853,18 +26853,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-rād"
   },
   "gerade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and artfully added an excellent tale,",
+    "grammar": "Contextual translation",
     "lemma": "gerade"
   },
   "geregnad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gay with gold, where the grim foes wrestled.",
+    "grammar": "Contextual translation",
     "lemma": "geregnad"
   },
   "gereorded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: etsittendum",
+    "grammar": "Contextual translation",
     "lemma": "gereorded"
   },
   "gereordian": {
@@ -26883,13 +26883,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-rūm-līċe"
   },
   "gerumlicor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in room remote their rest at night,",
+    "grammar": "Contextual translation",
     "lemma": "gerumlicor"
   },
   "gerymed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the banquet-hall on bench assigned,",
+    "grammar": "Contextual translation",
     "lemma": "gerymed"
   },
   "gerysne": {
@@ -26903,8 +26903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-rǣċan"
   },
   "geræhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to pierce the monster with point of sword,",
+    "grammar": "Contextual translation",
     "lemma": "geræhte"
   },
   "geræsan": {
@@ -26913,8 +26913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-rǣsan"
   },
   "geræsde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and never so daring in deed of valor, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "geræsde"
   },
   "gesaca": {
@@ -26923,8 +26923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-saca"
   },
   "gesacan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from spear and sword, till it seemed for me",
+    "grammar": "Contextual translation",
     "lemma": "gesacan"
   },
   "gesacu": {
@@ -26933,13 +26933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sacu"
   },
   "gesaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and add this word, \u0015 they are welcome guests",
+    "grammar": "Contextual translation",
     "lemma": "gesaga"
   },
   "gesawon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that sailors now could see the land,",
+    "grammar": "Contextual translation",
     "lemma": "gesawon"
   },
   "gescad": {
@@ -26963,23 +26963,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sceap"
   },
   "gesceapu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and shadowy shapes came striding on,",
+    "grammar": "Contextual translation",
     "lemma": "gesceapu"
   },
   "gesceat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as the grim destroyer those Geatish people",
+    "grammar": "Contextual translation",
     "lemma": "gesceat"
   },
   "gesceawod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet no greed for gold, but the grace of heaven,",
+    "grammar": "Contextual translation",
     "lemma": "gesceawod"
   },
   "gesced": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The Lord of Heaven allowed his cause;",
+    "grammar": "Contextual translation",
     "lemma": "gesced"
   },
   "gesceod": {
@@ -26988,8 +26988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sceōd"
   },
   "gesceop": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with limbs and leaves, made life for all",
+    "grammar": "Contextual translation",
     "lemma": "gesceop"
   },
   "gesceotan": {
@@ -26998,8 +26998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-scēotan"
   },
   "gescer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: answer to render the aged chief;",
+    "grammar": "Contextual translation",
     "lemma": "gescer"
   },
   "gesceran": {
@@ -27018,13 +27018,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-scipe"
   },
   "gescod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the warrior seized; yet scathed she not",
+    "grammar": "Contextual translation",
     "lemma": "gescod"
   },
   "gescraf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could his will have wielded the welcome respite",
+    "grammar": "Contextual translation",
     "lemma": "gescraf"
   },
   "gescrifan": {
@@ -27043,23 +27043,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-scæp-hwīl"
   },
   "gescæphwile": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forth he fared at the fated moment,",
+    "grammar": "Contextual translation",
     "lemma": "gescæphwile"
   },
   "gescær": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: strife hand to hand, and had helmets cloven,",
+    "grammar": "Contextual translation",
     "lemma": "gescær"
   },
   "geseah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now saw from the cli\u001b a Scylding clansman,",
+    "grammar": "Contextual translation",
     "lemma": "geseah"
   },
   "gesealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the high-born lady handed the cup",
+    "grammar": "Contextual translation",
     "lemma": "gesealde"
   },
   "gesecan": {
@@ -27068,18 +27068,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sēċan"
   },
   "gesecanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold and jewels; no journey far",
+    "grammar": "Contextual translation",
     "lemma": "gesecanne"
   },
   "gesecean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall spurn the sword, if he seek me here,",
+    "grammar": "Contextual translation",
     "lemma": "gesecean"
   },
   "geseceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: do doughty deeds, if the dark destroyer",
+    "grammar": "Contextual translation",
     "lemma": "geseceð"
   },
   "gesecgan": {
@@ -27088,8 +27088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-secgan"
   },
   "gesegan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in woful slaughter the Weders' king.",
+    "grammar": "Contextual translation",
     "lemma": "gesegan"
   },
   "gesegan(on)": {
@@ -27098,8 +27098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sēgan(-on)"
   },
   "gesegon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when once the warriors saw it in hall,",
+    "grammar": "Contextual translation",
     "lemma": "gesegon"
   },
   "geselda": {
@@ -27108,8 +27108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-selda"
   },
   "geseldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the hands of the heroes. Hygelac then",
+    "grammar": "Contextual translation",
     "lemma": "geseldan"
   },
   "gesellan": {
@@ -27123,13 +27123,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sēon"
   },
   "geseted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for whom the serpent-traced sword was wrought,",
+    "grammar": "Contextual translation",
     "lemma": "geseted"
   },
   "geseten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with many a treasure, when morn had come",
+    "grammar": "Contextual translation",
     "lemma": "geseten"
   },
   "gesettan": {
@@ -27138,8 +27138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-settan"
   },
   "gesette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: set, triumphant, sun and moon",
+    "grammar": "Contextual translation",
     "lemma": "gesette"
   },
   "gesigan": {
@@ -27158,28 +27158,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sīð"
   },
   "gesiða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Was none so daring that durst make bold",
+    "grammar": "Contextual translation",
     "lemma": "gesiða"
   },
   "gesiðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: until they lost at the linden-play2",
+    "grammar": "Contextual translation",
     "lemma": "gesiðas"
   },
   "gesiðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of trusty vassals betwixt the seas,",
+    "grammar": "Contextual translation",
     "lemma": "gesiðes"
   },
   "gesiðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his clansmen, came where the king abode",
+    "grammar": "Contextual translation",
     "lemma": "gesiðum"
   },
   "gesiþas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loving clansmen, as late he charged them,",
+    "grammar": "Contextual translation",
     "lemma": "gesiþas"
   },
   "geslean": {
@@ -27188,13 +27188,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-slēan"
   },
   "geslogon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in land and linked rings; nor at less price reckoned",
+    "grammar": "Contextual translation",
     "lemma": "geslogon"
   },
   "gesloh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thy father's combat1 a feud enkindled",
+    "grammar": "Contextual translation",
     "lemma": "gesloh"
   },
   "geslyht": {
@@ -27203,28 +27203,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-slyht"
   },
   "geslyhta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus safe through struggles the son of Ecgtheow",
+    "grammar": "Contextual translation",
     "lemma": "geslyhta"
   },
   "gesohtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under the shield-wall slaughtered lay,",
+    "grammar": "Contextual translation",
     "lemma": "gesohtan"
   },
   "gesohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Fleeing, he sought our South-Dane folk,",
+    "grammar": "Contextual translation",
     "lemma": "gesohte"
   },
   "gesohton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Haethcyn Hrethling of hope and life,",
+    "grammar": "Contextual translation",
     "lemma": "gesohton"
   },
   "gesprang": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all burned, bright blade, when the blood gushed o'er it,",
+    "grammar": "Contextual translation",
     "lemma": "gesprang"
   },
   "gesprecan": {
@@ -27238,13 +27238,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-springan"
   },
   "gesprong": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they had felled with their swords. Of Sigemund grew,",
+    "grammar": "Contextual translation",
     "lemma": "gesprong"
   },
   "gespræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Spake then his Vaunt the valiant man,",
+    "grammar": "Contextual translation",
     "lemma": "gespræc"
   },
   "gest sele": {
@@ -27263,8 +27263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġest-sele"
   },
   "gestah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This was my thought, when my thanes and I",
+    "grammar": "Contextual translation",
     "lemma": "gestah"
   },
   "gestandan": {
@@ -27283,8 +27283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-steppan"
   },
   "gestepte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in after days; and to Eadgils he proved",
+    "grammar": "Contextual translation",
     "lemma": "gestepte"
   },
   "gestigan": {
@@ -27293,13 +27293,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-stīgan"
   },
   "gestod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till the stout thane stood at the shoulder there",
+    "grammar": "Contextual translation",
     "lemma": "gestod"
   },
   "gestodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor yet about him his band of comrades,",
+    "grammar": "Contextual translation",
     "lemma": "gestodon"
   },
   "gestreon": {
@@ -27308,8 +27308,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-strēon"
   },
   "gestrynan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the grace that I give such gifts to my folk",
+    "grammar": "Contextual translation",
     "lemma": "gestrynan"
   },
   "gestrуnan": {
@@ -27323,8 +27323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġest-sele"
   },
   "gestæled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: faring far in feud of blood:",
+    "grammar": "Contextual translation",
     "lemma": "gestæled"
   },
   "gesund": {
@@ -27333,23 +27333,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sund"
   },
   "gesunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: safe in your seekings. Seaward I go,",
+    "grammar": "Contextual translation",
     "lemma": "gesunde"
   },
   "gesundne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that safe and sound they could see him again.",
+    "grammar": "Contextual translation",
     "lemma": "gesundne"
   },
   "geswac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to harm the heart: its hard edge failed",
+    "grammar": "Contextual translation",
     "lemma": "geswac"
   },
   "geswearc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the band of the hall, was a banquet dight",
+    "grammar": "Contextual translation",
     "lemma": "geswearc"
   },
   "geswencan": {
@@ -27358,8 +27358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-swenċan"
   },
   "geswenced": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sunk in his sins, but sorrow holds him",
+    "grammar": "Contextual translation",
     "lemma": "geswenced"
   },
   "gesweorcan": {
@@ -27378,23 +27378,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-swinġ"
   },
   "gesyhð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegeman leal and their lives as well.",
+    "grammar": "Contextual translation",
     "lemma": "gesyhð"
   },
   "gesyhðsorhcearig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: doom of death that the deed incurred.",
+    "grammar": "Contextual translation",
     "lemma": "gesyhðsorhcearig"
   },
   "gesyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slaughter for sins. 'Twas seen and told",
+    "grammar": "Contextual translation",
     "lemma": "gesyne"
   },
   "gesyngad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one brother the other, with bloody shaft.",
+    "grammar": "Contextual translation",
     "lemma": "gesyngad"
   },
   "gesyngian": {
@@ -27408,28 +27408,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-synto"
   },
   "gesyntum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bade him fare with the gifts to his folk beloved,",
+    "grammar": "Contextual translation",
     "lemma": "gesyntum"
   },
   "gesæd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for whom the serpent-traced sword was wrought,",
+    "grammar": "Contextual translation",
     "lemma": "gesæd"
   },
   "gesægd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was seen in sooth, with surest token, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gesægd"
   },
   "gesægde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar, gave, and his hest he added,",
+    "grammar": "Contextual translation",
     "lemma": "gesægde"
   },
   "gesæged": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they had felled with their swords. Of Sigemund grew,",
+    "grammar": "Contextual translation",
     "lemma": "gesæged"
   },
   "gesælan": {
@@ -27438,18 +27438,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-sǣlan"
   },
   "gesælde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And so it came that I killed with my sword",
+    "grammar": "Contextual translation",
     "lemma": "gesælde"
   },
   "gesæled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the olden age; and arm-rings many",
+    "grammar": "Contextual translation",
     "lemma": "gesæled"
   },
   "gesæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heart-rending misery. Many nobles",
+    "grammar": "Contextual translation",
     "lemma": "gesæt"
   },
   "gesуne": {
@@ -27473,8 +27473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġētan"
   },
   "geteah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the refuge-of-Ingwines right and power,",
+    "grammar": "Contextual translation",
     "lemma": "geteah"
   },
   "getenge": {
@@ -27483,8 +27483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-tenġe"
   },
   "geteode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the grace of The Wielder! \u0015 That warden of gold nd",
+    "grammar": "Contextual translation",
     "lemma": "geteode"
   },
   "geteogan": {
@@ -27493,13 +27493,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-tēoġan"
   },
   "geteoh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have speech at will: nor spurn their prayer",
+    "grammar": "Contextual translation",
     "lemma": "geteoh"
   },
   "geteohhod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: another house had been held apart,",
+    "grammar": "Contextual translation",
     "lemma": "geteohhod"
   },
   "geteon": {
@@ -27508,13 +27508,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-tēon"
   },
   "geteoð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght shall end",
+    "grammar": "Contextual translation",
     "lemma": "geteoð"
   },
   "getiðad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for bond of peace. So the barrow was plundered,",
+    "grammar": "Contextual translation",
     "lemma": "getiðad"
   },
   "getrum": {
@@ -27523,13 +27523,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-trum"
   },
   "getrume": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with stately band from the bride-bower strode;",
+    "grammar": "Contextual translation",
     "lemma": "getrume"
   },
   "getruwedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Pact of peace they plighted further",
+    "grammar": "Contextual translation",
     "lemma": "getruwedon"
   },
   "getruwian": {
@@ -27538,13 +27538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-truwian"
   },
   "getruwode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: steel-edged and sti\u001b. His strength he trusted,",
+    "grammar": "Contextual translation",
     "lemma": "getruwode"
   },
   "getrywe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Here every earl to the other is true,",
+    "grammar": "Contextual translation",
     "lemma": "getrywe"
   },
   "getrуwe": {
@@ -27558,13 +27558,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-twǣfan"
   },
   "getwæfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anbogan",
+    "grammar": "Contextual translation",
     "lemma": "getwæfde"
   },
   "getwæfeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lasts now a while: but erelong it shall be",
+    "grammar": "Contextual translation",
     "lemma": "getwæfeð"
   },
   "getwæman": {
@@ -27578,8 +27578,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-tǣċan"
   },
   "getæhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: burg-of-the-boldest; bade them go",
+    "grammar": "Contextual translation",
     "lemma": "getæhte"
   },
   "getæse": {
@@ -27593,13 +27593,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-unnan"
   },
   "geuðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet a sword the Sovran of Men vouchsafed me",
+    "grammar": "Contextual translation",
     "lemma": "geuðe"
   },
   "gewac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lord of the Geats, the grim foe smote",
+    "grammar": "Contextual translation",
     "lemma": "gewac"
   },
   "gewadan": {
@@ -27608,18 +27608,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wadan"
   },
   "gewaden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the curved prow such course had run",
+    "grammar": "Contextual translation",
     "lemma": "gewaden"
   },
   "gewanod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my warriors wane; for Wyrd hath swept them",
+    "grammar": "Contextual translation",
     "lemma": "gewanod"
   },
   "gewat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forth he fared at the fated moment,",
+    "grammar": "Contextual translation",
     "lemma": "gewat"
   },
   "gewealc": {
@@ -27638,18 +27638,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wealdan"
   },
   "gewealdene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his folk's sure fortress in fee to hold,",
+    "grammar": "Contextual translation",
     "lemma": "gewealdene"
   },
   "gewealdum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: prince and people must pay betimes!",
+    "grammar": "Contextual translation",
     "lemma": "gewealdum"
   },
   "gewearð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their mighty master. To many it seemed",
+    "grammar": "Contextual translation",
     "lemma": "gewearð"
   },
   "geweaxan": {
@@ -27668,13 +27668,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wendan"
   },
   "gewende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy hero, and hailed them thus:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "gewende"
   },
   "geweold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielded the victory, wisest Maker.",
+    "grammar": "Contextual translation",
     "lemma": "geweold"
   },
   "geweorc": {
@@ -27683,13 +27683,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-weorc"
   },
   "geweorces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this conqueror's-hour of the king was last,",
+    "grammar": "Contextual translation",
     "lemma": "geweorces"
   },
   "geweorðad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: worthied by weapons, if witness his features,",
+    "grammar": "Contextual translation",
     "lemma": "geweorðad"
   },
   "geweorðan": {
@@ -27698,18 +27698,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-weorðan"
   },
   "geweorðod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting and feeing by far-o\u001b men,",
+    "grammar": "Contextual translation",
     "lemma": "geweorðod"
   },
   "geweox": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to o\u001bspring of Ecgwela, Honor-Scyldings,",
+    "grammar": "Contextual translation",
     "lemma": "geweox"
   },
   "gewergad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, where the old man lay;",
+    "grammar": "Contextual translation",
     "lemma": "gewergad"
   },
   "gewican": {
@@ -27728,8 +27728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wif(orġe-wife)"
   },
   "gewin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spirit accurst: too cruel that sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "gewin"
   },
   "gewin(n)": {
@@ -27738,8 +27738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-win(n)"
   },
   "gewindan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ing himself free, and far away",
+    "grammar": "Contextual translation",
     "lemma": "gewindan"
   },
   "gewindanvb.3": {
@@ -27748,8 +27748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-windanvb.3"
   },
   "gewinnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Danes as was due; he endured all joyless",
+    "grammar": "Contextual translation",
     "lemma": "gewinnes"
   },
   "gewiofu": {
@@ -27763,8 +27763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wis-līċe"
   },
   "gewislicost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so far as my folk could fairly judge,",
+    "grammar": "Contextual translation",
     "lemma": "gewislicost"
   },
   "gewit(t)": {
@@ -27778,33 +27778,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wītan"
   },
   "gewitaþforðberan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the Scyldings' master. March, then, bearing",
+    "grammar": "Contextual translation",
     "lemma": "gewitaþforðberan"
   },
   "gewiteð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from mountains gliding to gloom of the rocks,",
+    "grammar": "Contextual translation",
     "lemma": "gewiteð"
   },
   "gewiteðþonne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the courts no wassail, as once was heard.",
+    "grammar": "Contextual translation",
     "lemma": "gewiteðþonne"
   },
   "gewitnad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hedged with horrors, in hell-bonds fast,",
+    "grammar": "Contextual translation",
     "lemma": "gewitnad"
   },
   "gewiton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They bent them to march, \u0015 the boat lay still,",
+    "grammar": "Contextual translation",
     "lemma": "gewiton"
   },
   "gewitte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to lose and lessen. At last the king",
+    "grammar": "Contextual translation",
     "lemma": "gewitte"
   },
   "gewittig": {
@@ -27813,23 +27813,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wittiġ"
   },
   "geworden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dole in the dwellings: 'twas dire exchange",
+    "grammar": "Contextual translation",
     "lemma": "geworden"
   },
   "geworht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for whom the serpent-traced sword was wrought,",
+    "grammar": "Contextual translation",
     "lemma": "geworht"
   },
   "geworhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting fall in death,",
+    "grammar": "Contextual translation",
     "lemma": "geworhte"
   },
   "geworhton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spake much in his sorrow, and sent you greetings",
+    "grammar": "Contextual translation",
     "lemma": "geworhton"
   },
   "gewrecan": {
@@ -27838,8 +27838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wrecan"
   },
   "gewrecen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one of a few,2 and the feud was avenged",
+    "grammar": "Contextual translation",
     "lemma": "gewrecen"
   },
   "gewrixle": {
@@ -27848,13 +27848,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wrixle"
   },
   "gewræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: On kin of Cain was the killing avenged",
+    "grammar": "Contextual translation",
     "lemma": "gewræc"
   },
   "gewræcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to harass in hatred by Hreosnabeorh.",
+    "grammar": "Contextual translation",
     "lemma": "gewræcan"
   },
   "gewunian": {
@@ -27863,13 +27863,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wunian"
   },
   "gewunigen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that to aid him, aged, in after days,",
+    "grammar": "Contextual translation",
     "lemma": "gewunigen"
   },
   "gewurþad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was worthily weaponed! \u0015 A warrior proud",
+    "grammar": "Contextual translation",
     "lemma": "gewurþad"
   },
   "gewyrcan": {
@@ -27878,18 +27878,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wyrċan"
   },
   "gewyrce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seek doom of glory, or Death shall take me.\"",
+    "grammar": "Contextual translation",
     "lemma": "gewyrce"
   },
   "gewyrcean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So becomes it a youth to quit him well",
+    "grammar": "Contextual translation",
     "lemma": "gewyrcean"
   },
   "gewyrhtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght defensive, Friend my Beowulf,",
+    "grammar": "Contextual translation",
     "lemma": "gewyrhtum"
   },
   "gewyrpan": {
@@ -27898,8 +27898,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wyrpan"
   },
   "gewyrpte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and fell adown; not doomed was he yet,",
+    "grammar": "Contextual translation",
     "lemma": "gewyrpte"
   },
   "gewæde": {
@@ -27908,13 +27908,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-wǣde"
   },
   "gewædu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons and weeds the way I show you.",
+    "grammar": "Contextual translation",
     "lemma": "gewædu"
   },
   "geywan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now to thee, my prince, I pro\u001ber them all,",
+    "grammar": "Contextual translation",
     "lemma": "geywan"
   },
   "geæfnan": {
@@ -27923,23 +27923,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-æfnan"
   },
   "geæfndon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far at sea: and so we performed it.",
+    "grammar": "Contextual translation",
     "lemma": "geæfndon"
   },
   "geæfned": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oaths were given, and ancient gold",
+    "grammar": "Contextual translation",
     "lemma": "geæfned"
   },
   "geæhted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: As they hastened onward, Hrothgar's gift",
+    "grammar": "Contextual translation",
     "lemma": "geæhted"
   },
   "geæhtlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: methinks, of our liking; their leader most surely,",
+    "grammar": "Contextual translation",
     "lemma": "geæhtlan"
   },
   "geæhtle(a?)": {
@@ -27953,8 +27953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þāh"
   },
   "geþeah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the land's beloved one. Lustily took he",
+    "grammar": "Contextual translation",
     "lemma": "geþeah"
   },
   "geþearfian": {
@@ -27963,13 +27963,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þearfian"
   },
   "geþearfod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lordless men, as their lot ordained.",
+    "grammar": "Contextual translation",
     "lemma": "geþearfod"
   },
   "geþenc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Have mind, thou honored o\u001bspring of Healfdene",
+    "grammar": "Contextual translation",
     "lemma": "geþenc"
   },
   "geþencan": {
@@ -27978,13 +27978,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þenċan"
   },
   "geþencean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: empire so ample, that end of it",
+    "grammar": "Contextual translation",
     "lemma": "geþencean"
   },
   "geþeoh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a royal treasure, and richly thrive!",
+    "grammar": "Contextual translation",
     "lemma": "geþeoh"
   },
   "geþeon": {
@@ -28008,28 +28008,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þinġe"
   },
   "geþingea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So ween I for thee a worse adventure",
+    "grammar": "Contextual translation",
     "lemma": "geþingea"
   },
   "geþinged": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end in that festal hall,",
+    "grammar": "Contextual translation",
     "lemma": "geþinged"
   },
   "geþinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and wooden war-shafts wait its end.\"",
+    "grammar": "Contextual translation",
     "lemma": "geþinges"
   },
   "geþingeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: If thy Hrethric should come to court of Geats,",
+    "grammar": "Contextual translation",
     "lemma": "geþingeð"
   },
   "geþingo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the prince's thane. A pact he o\u001bered:",
+    "grammar": "Contextual translation",
     "lemma": "geþingo"
   },
   "geþoht": {
@@ -28043,13 +28043,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þolian"
   },
   "geþolianne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for many a hero, 'twas hard to bear,",
+    "grammar": "Contextual translation",
     "lemma": "geþolianne"
   },
   "geþolode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endured the dole in his dark abode,",
+    "grammar": "Contextual translation",
     "lemma": "geþolode"
   },
   "geþonc": {
@@ -28058,13 +28058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þonc"
   },
   "geþoncum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and embittered the Lord. His breast within",
+    "grammar": "Contextual translation",
     "lemma": "geþoncum"
   },
   "geþrang": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till they got them sight of the Geatish cli\u001bs,",
+    "grammar": "Contextual translation",
     "lemma": "geþrang"
   },
   "geþring": {
@@ -28093,8 +28093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þungen"
   },
   "geþuren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, hammer-forged, the falchion hard,",
+    "grammar": "Contextual translation",
     "lemma": "geþuren"
   },
   "geþwære": {
@@ -28108,13 +28108,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-þyld"
   },
   "geþyldum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far and wide o'er folksteads many. Firmly thou",
+    "grammar": "Contextual translation",
     "lemma": "geþyldum"
   },
   "geþywe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and embittered the Lord. His breast within",
+    "grammar": "Contextual translation",
     "lemma": "geþywe"
   },
   "geþægon": {
@@ -28133,8 +28133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġe-ӯwan"
   },
   "gid": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and harping was heard with the hero-lay",
+    "grammar": "Contextual translation",
     "lemma": "gid"
   },
   "gid(d)": {
@@ -28143,18 +28143,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġid(d)"
   },
   "gidd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and we all at the banquet-board sat down.",
+    "grammar": "Contextual translation",
     "lemma": "gidd"
   },
   "gidda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who had made many vaunts, and was mindful of verses,",
+    "grammar": "Contextual translation",
     "lemma": "gidda"
   },
   "giddum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bewept them the woman: great wailing ascended.",
+    "grammar": "Contextual translation",
     "lemma": "giddum"
   },
   "gif": {
@@ -28218,8 +28218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġifeðe"
   },
   "gifeþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes such as the hest of fate",
+    "grammar": "Contextual translation",
     "lemma": "gifeþe"
   },
   "gifheal(l)": {
@@ -28228,8 +28228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġif-heal(l)"
   },
   "gifhealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors gathered the gift-hall round,",
+    "grammar": "Contextual translation",
     "lemma": "gifhealle"
   },
   "gifr": {
@@ -28243,8 +28243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġīfre"
   },
   "gifrost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: greediest spirit, those spared not by war",
+    "grammar": "Contextual translation",
     "lemma": "gifrost"
   },
   "gifsceat(t)": {
@@ -28253,8 +28253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġif-sceat(t)"
   },
   "gifsceattas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who carried my gifts to the Geatish court,",
+    "grammar": "Contextual translation",
     "lemma": "gifsceattas"
   },
   "gifstol": {
@@ -28268,8 +28268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġifu"
   },
   "gifðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: homestead and house. He had no need",
+    "grammar": "Contextual translation",
     "lemma": "gifðum"
   },
   "gigant": {
@@ -28278,13 +28278,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġīgant"
   },
   "giganta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as the giants had wrought it, ready and keen.",
+    "grammar": "Contextual translation",
     "lemma": "giganta"
   },
   "gigantas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as well as the giants that warred with God",
+    "grammar": "Contextual translation",
     "lemma": "gigantas"
   },
   "gilp": {
@@ -28353,8 +28353,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġilp-hlæden"
   },
   "gim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght resulted,",
+    "grammar": "Contextual translation",
     "lemma": "gim"
   },
   "gim(m)": {
@@ -28363,8 +28363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġim(m)"
   },
   "gimfæste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the glorious gift that God had sent him,",
+    "grammar": "Contextual translation",
     "lemma": "gimfæste"
   },
   "gin fæst": {
@@ -28388,8 +28388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġin-fæst"
   },
   "ginfæstan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though of sons of earth his strength was greatest,",
+    "grammar": "Contextual translation",
     "lemma": "ginfæstan"
   },
   "gingæst": {
@@ -28398,13 +28398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġinġæst"
   },
   "gingæste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earls in their glory: I after them go.\"",
+    "grammar": "Contextual translation",
     "lemma": "gingæste"
   },
   "ginne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielded, youthful, this widespread realm,",
+    "grammar": "Contextual translation",
     "lemma": "ginne"
   },
   "gio": {
@@ -28433,23 +28433,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġiogoð"
   },
   "giogoðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf spake, the bairn of Ecgtheow:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "giogoðe"
   },
   "giogoðætgædere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: young men together: the Geat, too, sat there,",
+    "grammar": "Contextual translation",
     "lemma": "giogoðætgædere"
   },
   "gioguðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or for years of his youth he would yearn at times,",
+    "grammar": "Contextual translation",
     "lemma": "gioguðe"
   },
   "giohðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broke through the breast-hoard. Beowulf spake,",
+    "grammar": "Contextual translation",
     "lemma": "giohðe"
   },
   "giohðo": {
@@ -28473,13 +28473,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġiōmor(-)"
   },
   "giomorgyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their misery moaned they, their master's death.",
+    "grammar": "Contextual translation",
     "lemma": "giomorgyd"
   },
   "giomormod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ower of my race have reft away.\"",
+    "grammar": "Contextual translation",
     "lemma": "giomormod"
   },
   "giond": {
@@ -28498,8 +28498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġiond-"
   },
   "giondwlitan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oor he easily saw",
+    "grammar": "Contextual translation",
     "lemma": "giondwlitan"
   },
   "giong": {
@@ -28513,8 +28513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġist"
   },
   "gistas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gold-friend of men.2 But the guests sat on,",
+    "grammar": "Contextual translation",
     "lemma": "gistas"
   },
   "git": {
@@ -28523,8 +28523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġit"
   },
   "glad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hand-fray of heroes. When heaven's jewel",
+    "grammar": "Contextual translation",
     "lemma": "glad"
   },
   "gladi": {
@@ -28538,8 +28538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gladian"
   },
   "gladiað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: goes with the lady along their hall,",
+    "grammar": "Contextual translation",
     "lemma": "gladiað"
   },
   "gladie": {
@@ -28548,8 +28548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gladian"
   },
   "gladum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she pro\u001bered the warriors. Promised is she,",
+    "grammar": "Contextual translation",
     "lemma": "gladum"
   },
   "gled": {
@@ -28583,8 +28583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glēd-eġesa"
   },
   "gledum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the doom of their lord, to a dreadful end.",
+    "grammar": "Contextual translation",
     "lemma": "gledum"
   },
   "gleo": {
@@ -28628,8 +28628,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glēo-bēam"
   },
   "gleobeames": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at side of hero! No harp's delight,",
+    "grammar": "Contextual translation",
     "lemma": "gleobeames"
   },
   "gleodream": {
@@ -28643,8 +28643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glēo-man(n)"
   },
   "gleomannes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gleeman's song. Then glad rose the revel;",
+    "grammar": "Contextual translation",
     "lemma": "gleomannes"
   },
   "glid": {
@@ -28663,8 +28663,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glīdan"
   },
   "glidon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swam o'er the waters. Winter's storm",
+    "grammar": "Contextual translation",
     "lemma": "glidon"
   },
   "glitini": {
@@ -28723,8 +28723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glæd-mōd"
   },
   "glæde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sage and sturdy, the Scyldings glad.",
+    "grammar": "Contextual translation",
     "lemma": "glæde"
   },
   "glædman": {
@@ -28738,8 +28738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "glæd-mōd"
   },
   "glædne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gracious Hrothgar: a good king he!)",
+    "grammar": "Contextual translation",
     "lemma": "glædne"
   },
   "gneað": {
@@ -28748,8 +28748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gnēað"
   },
   "gneaðgifa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Haereth's daughter. Nor humble her ways,",
+    "grammar": "Contextual translation",
     "lemma": "gneaðgifa"
   },
   "gnorn": {
@@ -28773,8 +28773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gnornian"
   },
   "gnornode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his uncle's side. In sorrowful dirges",
+    "grammar": "Contextual translation",
     "lemma": "gnornode"
   },
   "god": {
@@ -28793,23 +28793,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gōd-fremmend(e)"
   },
   "goda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And now the bold one from bands of Geats",
+    "grammar": "Contextual translation",
     "lemma": "goda"
   },
   "godan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against horror of Grendel. I hope to give",
+    "grammar": "Contextual translation",
     "lemma": "godan"
   },
   "gode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So becomes it a youth to quit him well",
+    "grammar": "Contextual translation",
     "lemma": "gode"
   },
   "godes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came bright God's beacon; the billows sank,",
+    "grammar": "Contextual translation",
     "lemma": "godes"
   },
   "godfremmend(e)": {
@@ -28818,23 +28818,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gōd-fremmend(e)"
   },
   "godfremmendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes such as the hest of fate",
+    "grammar": "Contextual translation",
     "lemma": "godfremmendra"
   },
   "godne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he bade make ready. Yon battle-king, said he,",
+    "grammar": "Contextual translation",
     "lemma": "godne"
   },
   "godra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that our noble master has need of the might",
+    "grammar": "Contextual translation",
     "lemma": "godra"
   },
   "godum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: let our hoards be common, let heroes with gold",
+    "grammar": "Contextual translation",
     "lemma": "godum"
   },
   "gold": {
@@ -29008,13 +29008,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gold-ǣht"
   },
   "golde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over the cheek-guard; chased with gold,",
+    "grammar": "Contextual translation",
     "lemma": "golde"
   },
   "goldes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with fretted gold, as his Frisian kin",
+    "grammar": "Contextual translation",
     "lemma": "goldes"
   },
   "goldfag": {
@@ -29023,13 +29023,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gold-fāg"
   },
   "goldfah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broad of gable and bright with gold:",
+    "grammar": "Contextual translation",
     "lemma": "goldfah"
   },
   "goldfahne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: valorous king, to his vassal gave it",
+    "grammar": "Contextual translation",
     "lemma": "goldfahne"
   },
   "goldgyfa": {
@@ -29038,8 +29038,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gold-ġyfa"
   },
   "goldgyfan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re should seize",
+    "grammar": "Contextual translation",
     "lemma": "goldgyfan"
   },
   "goldhladen": {
@@ -29058,13 +29058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gold-hwatu"
   },
   "goldhwæte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: racked with plagues, who should rob their hoard.",
+    "grammar": "Contextual translation",
     "lemma": "goldhwæte"
   },
   "goldmaðmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of wire-gold and jewels; a jealous warden,",
+    "grammar": "Contextual translation",
     "lemma": "goldmaðmas"
   },
   "goldmaððum": {
@@ -29103,8 +29103,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gomen"
   },
   "gomban": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gave him gifts: a good king he!",
+    "grammar": "Contextual translation",
     "lemma": "gomban"
   },
   "gombe(wk.f.?)( a?": {
@@ -29133,28 +29133,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gomel"
   },
   "gomela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Leaped up the graybeard: God he thanked,",
+    "grammar": "Contextual translation",
     "lemma": "gomela"
   },
   "gomelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wavering, death-bound. Wyrd full nigh",
+    "grammar": "Contextual translation",
     "lemma": "gomelan"
   },
   "gomele": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoary-haired, of the hero spake;",
+    "grammar": "Contextual translation",
     "lemma": "gomele"
   },
   "gomelra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: goes with the lady along their hall,",
+    "grammar": "Contextual translation",
     "lemma": "gomelra"
   },
   "gomelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unavenged must the atheling die!",
+    "grammar": "Contextual translation",
     "lemma": "gomelum"
   },
   "gomen": {
@@ -29183,8 +29183,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gomen-wudu"
   },
   "gomene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lo, sudden the shift! To me seated secure",
+    "grammar": "Contextual translation",
     "lemma": "gomene"
   },
   "gomenwaþ": {
@@ -29193,8 +29193,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gomen-wāþ"
   },
   "gomenwaþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from that merry journey, and many a youth,",
+    "grammar": "Contextual translation",
     "lemma": "gomenwaþe"
   },
   "gomenwudu": {
@@ -29203,18 +29203,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gomen-wudu"
   },
   "gomol": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broken in battle was Beowulf's sword,",
+    "grammar": "Contextual translation",
     "lemma": "gomol"
   },
   "gongan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with God's wrath laden, Grendel came.",
+    "grammar": "Contextual translation",
     "lemma": "gongan"
   },
   "good": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "good"
   },
   "gram": {
@@ -29223,18 +29223,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gram"
   },
   "graman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gay with gold, where the grim foes wrestled.",
+    "grammar": "Contextual translation",
     "lemma": "graman"
   },
   "grames": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the gripe of the grim one. Gruesome march",
+    "grammar": "Contextual translation",
     "lemma": "grames"
   },
   "gramum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crushing the grim ones. Grendel now,",
+    "grammar": "Contextual translation",
     "lemma": "gramum"
   },
   "grap": {
@@ -29243,8 +29243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grāp"
   },
   "grape": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-colored targe: but with gripe alone",
+    "grammar": "Contextual translation",
     "lemma": "grape"
   },
   "grapi": {
@@ -29263,33 +29263,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grāpian"
   },
   "grapode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that it gripped her neck and grasped her hard,",
+    "grammar": "Contextual translation",
     "lemma": "grapode"
   },
   "grapum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the gripe of the grim one. Gruesome march",
+    "grammar": "Contextual translation",
     "lemma": "grapum"
   },
   "grendel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel this monster grim was called,",
+    "grammar": "Contextual translation",
     "lemma": "grendel"
   },
   "grendeles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evils unending. These all I avenged.",
+    "grammar": "Contextual translation",
     "lemma": "grendeles"
   },
   "grendle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against this Grendel a guard had set,",
+    "grammar": "Contextual translation",
     "lemma": "grendle"
   },
   "grendles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the might of Grendel to men was known;",
+    "grammar": "Contextual translation",
     "lemma": "grendles"
   },
   "greot": {
@@ -29308,13 +29308,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grēotan"
   },
   "greoteþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sorrows in soul for that sharer of rings,",
+    "grammar": "Contextual translation",
     "lemma": "greoteþ"
   },
   "greow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: delights of power, and uplifted high",
+    "grammar": "Contextual translation",
     "lemma": "greow"
   },
   "gret": {
@@ -29333,18 +29333,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grētan"
   },
   "greted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and harping was heard with the hero-lay",
+    "grammar": "Contextual translation",
     "lemma": "greted"
   },
   "grette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-decked, greeting the guests in hall;",
+    "grammar": "Contextual translation",
     "lemma": "grette"
   },
   "grim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: grim and greedy, he grasped betimes,",
+    "grammar": "Contextual translation",
     "lemma": "grim"
   },
   "grim helm": {
@@ -29388,8 +29388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grīm-helm"
   },
   "grimhelmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harness gray and helmets grim,",
+    "grammar": "Contextual translation",
     "lemma": "grimhelmas"
   },
   "grimlic": {
@@ -29403,13 +29403,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grimme"
   },
   "grimma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel this monster grim was called,",
+    "grammar": "Contextual translation",
     "lemma": "grimma"
   },
   "grimman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with grisly grasp, and grappled with him.",
+    "grammar": "Contextual translation",
     "lemma": "grimman"
   },
   "grimme": {
@@ -29418,8 +29418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grimme"
   },
   "grimmon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er the man of war, as marched along",
+    "grammar": "Contextual translation",
     "lemma": "grimmon"
   },
   "grimmon(n)": {
@@ -29428,13 +29428,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grīm-mon(n)"
   },
   "grimne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for Guthlaf and Oslaf of grim attack",
+    "grammar": "Contextual translation",
     "lemma": "grimne"
   },
   "grimre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in struggle grim, \u0015 if Grendel's approach",
+    "grammar": "Contextual translation",
     "lemma": "grimre"
   },
   "grip": {
@@ -29558,8 +29558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grund-wyrġen(n)"
   },
   "grundas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a path o'er the plain, where she passed, and trod",
+    "grammar": "Contextual translation",
     "lemma": "grundas"
   },
   "grundbuend": {
@@ -29568,13 +29568,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grund-būend"
   },
   "grundbuendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for soul-possessors, and sons of earth;",
+    "grammar": "Contextual translation",
     "lemma": "grundbuendra"
   },
   "grunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sark braided my breast to ward, rm",
+    "grammar": "Contextual translation",
     "lemma": "grunde"
   },
   "grundhyrde": {
@@ -29593,8 +29593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grund-wyrġen(n)"
   },
   "grundwyrgenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the warrior was ware of that wolf-of-the-deep,",
+    "grammar": "Contextual translation",
     "lemma": "grundwyrgenne"
   },
   "gry": {
@@ -29608,8 +29608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryn(n)"
   },
   "grynna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I have borne from Grendel; but God still works",
+    "grammar": "Contextual translation",
     "lemma": "grynna"
   },
   "gryr": {
@@ -29618,8 +29618,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre"
   },
   "gryra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: never had Grendel these grim deeds wrought,",
+    "grammar": "Contextual translation",
     "lemma": "gryra"
   },
   "gryre": {
@@ -29723,8 +29723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-fāh"
   },
   "gryrefahne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and victory's honors. \u0015 His arm he lifted",
+    "grammar": "Contextual translation",
     "lemma": "gryrefahne"
   },
   "gryregeatwe": {
@@ -29733,8 +29733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-ġeatwe"
   },
   "gryregeatwum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in mail of battle, and marched to the hall.",
+    "grammar": "Contextual translation",
     "lemma": "gryregeatwum"
   },
   "gryregiest": {
@@ -29743,8 +29743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-ġiest"
   },
   "gryregieste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Stout by the stone-way his shield he raised,",
+    "grammar": "Contextual translation",
     "lemma": "gryregieste"
   },
   "gryreleoð": {
@@ -29753,8 +29753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-lēoð"
   },
   "gryreleoðgalan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: God's foe sounding his grisly song,",
+    "grammar": "Contextual translation",
     "lemma": "gryreleoðgalan"
   },
   "gryrelic": {
@@ -29763,8 +29763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-liċ"
   },
   "gryrelicne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the grisly guest. Then girt him Beowulf",
+    "grammar": "Contextual translation",
     "lemma": "gryrelicne"
   },
   "gryresið": {
@@ -29773,13 +29773,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gryre-sīð"
   },
   "gryresiðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on paths of peril prepared to go",
+    "grammar": "Contextual translation",
     "lemma": "gryresiðas"
   },
   "gryrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel's attack with terror of blades.",
+    "grammar": "Contextual translation",
     "lemma": "gryrum"
   },
   "græde": {
@@ -29828,8 +29828,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "grǣġ-mǣl"
   },
   "græge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harness gray and helmets grim,",
+    "grammar": "Contextual translation",
     "lemma": "græge"
   },
   "græghama": {
@@ -29863,8 +29863,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "græs-molde"
   },
   "græsmoldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: burned in his blood. Then Beowulf strode,",
+    "grammar": "Contextual translation",
     "lemma": "græsmoldan"
   },
   "græsmolde": {
@@ -29973,8 +29973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "guma"
   },
   "guman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their mail and weapons: the men pushed o\u001b,",
+    "grammar": "Contextual translation",
     "lemma": "guman"
   },
   "gumcyn(n)": {
@@ -29983,13 +29983,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gum-cyn(n)"
   },
   "gumcynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"We are by kin of the clan of Geats,",
+    "grammar": "Contextual translation",
     "lemma": "gumcynnes"
   },
   "gumcynnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: among sons of men, if still she liveth,",
+    "grammar": "Contextual translation",
     "lemma": "gumcynnum"
   },
   "gumcyst": {
@@ -29998,13 +29998,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gum-cyst"
   },
   "gumcyste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd thy lesson!",
+    "grammar": "Contextual translation",
     "lemma": "gumcyste"
   },
   "gumcystum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I got me a friend for goodness famed,",
+    "grammar": "Contextual translation",
     "lemma": "gumcystum"
   },
   "gumdream": {
@@ -30023,8 +30023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "guma"
   },
   "gumena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: save only the land and the lives of his men.",
+    "grammar": "Contextual translation",
     "lemma": "gumena"
   },
   "gumfeþa": {
@@ -30033,8 +30033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gum-fēþa"
   },
   "gummanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with four such gifts, so fashioned with gold,",
+    "grammar": "Contextual translation",
     "lemma": "gummanna"
   },
   "gummon(n)": {
@@ -30048,13 +30048,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gum-stōl"
   },
   "gumstole": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: safely sought, where since she prospered,",
+    "grammar": "Contextual translation",
     "lemma": "gumstole"
   },
   "gumum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the might of Grendel to men was known;",
+    "grammar": "Contextual translation",
     "lemma": "gumum"
   },
   "guð": {
@@ -30463,8 +30463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-wudu"
   },
   "guða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his last of all: \"I have lived through many",
+    "grammar": "Contextual translation",
     "lemma": "guða"
   },
   "guðbeorn": {
@@ -30473,8 +30473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-beorn"
   },
   "guðbeorna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: straightway thither; his steed then turned,",
+    "grammar": "Contextual translation",
     "lemma": "guðbeorna"
   },
   "guðbil(l)": {
@@ -30483,13 +30483,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-bil(l)"
   },
   "guðbill": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: res. No victor's glory",
+    "grammar": "Contextual translation",
     "lemma": "guðbill"
   },
   "guðbilla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end!",
+    "grammar": "Contextual translation",
     "lemma": "guðbilla"
   },
   "guðbyrne": {
@@ -30498,8 +30498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-byrne"
   },
   "guðceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, Grendel's mother,",
+    "grammar": "Contextual translation",
     "lemma": "guðceare"
   },
   "guðcearu": {
@@ -30523,13 +30523,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-dēað"
   },
   "guðdeaðfornam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what earls have owned! Lo, erst from thee",
+    "grammar": "Contextual translation",
     "lemma": "guðdeaðfornam"
   },
   "guðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in struggle grim, \u0015 if Grendel's approach",
+    "grammar": "Contextual translation",
     "lemma": "guðe"
   },
   "guðfloga": {
@@ -30538,8 +30538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-floga"
   },
   "guðfornam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: greediest spirit, those spared not by war",
+    "grammar": "Contextual translation",
     "lemma": "guðfornam"
   },
   "guðfreca": {
@@ -30553,18 +30553,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-fremmend(e)"
   },
   "guðfremmendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clearly ye lack from clansmen here,",
+    "grammar": "Contextual translation",
     "lemma": "guðfremmendra"
   },
   "guðgeata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Geatish war-prince Grendel's mother.",
+    "grammar": "Contextual translation",
     "lemma": "guðgeata"
   },
   "guðgeatawum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ye may wend your way in war-attire,",
+    "grammar": "Contextual translation",
     "lemma": "guðgeatawum"
   },
   "guðgetawa": {
@@ -30573,8 +30573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-ġetawa"
   },
   "guðgetwæfed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my strength had been lost had the Lord not shielded me.",
+    "grammar": "Contextual translation",
     "lemma": "guðgetwæfed"
   },
   "guðgeweorc": {
@@ -30583,13 +30583,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-ġeweorc"
   },
   "guðgeweorca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in boastful speech of his battle-deeds,",
+    "grammar": "Contextual translation",
     "lemma": "guðgeweorca"
   },
   "guðgewæda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earlship to earn as the old sire did:",
+    "grammar": "Contextual translation",
     "lemma": "guðgewæda"
   },
   "guðgewæde": {
@@ -30598,13 +30598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-ġewǣde"
   },
   "guðgewædo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and gear of battle: God they thanked",
+    "grammar": "Contextual translation",
     "lemma": "guðgewædo"
   },
   "guðgewædu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old sword of Eotens, Onela's gift,",
+    "grammar": "Contextual translation",
     "lemma": "guðgewædu"
   },
   "guðhelm": {
@@ -30623,18 +30623,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-hrēð"
   },
   "guðhreðgyfeþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the glory was given, and Grendel thence",
+    "grammar": "Contextual translation",
     "lemma": "guðhreðgyfeþe"
   },
   "guðkyning": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame had destroyed, and the stronghold all",
+    "grammar": "Contextual translation",
     "lemma": "guðkyning"
   },
   "guðlaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for Guthlaf and Oslaf of grim attack",
+    "grammar": "Contextual translation",
     "lemma": "guðlaf"
   },
   "guðleoð": {
@@ -30643,13 +30643,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-lēoð"
   },
   "guðnimeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and play the hero. Hardily I",
+    "grammar": "Contextual translation",
     "lemma": "guðnimeð"
   },
   "guðonsæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a bargain hard: for Haethcyn proved",
+    "grammar": "Contextual translation",
     "lemma": "guðonsæge"
   },
   "guðrec": {
@@ -30658,8 +30658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-rēċ"
   },
   "guðreouw": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sage and sturdy, the Scyldings glad.",
+    "grammar": "Contextual translation",
     "lemma": "guðreouw"
   },
   "guðreow": {
@@ -30673,8 +30673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-rinċ"
   },
   "guðrinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that our noble master has need of the might",
+    "grammar": "Contextual translation",
     "lemma": "guðrinca"
   },
   "guðrof": {
@@ -30688,8 +30688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-rǣs"
   },
   "guðræsa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel to guerdon for grim raids many,",
+    "grammar": "Contextual translation",
     "lemma": "guðræsa"
   },
   "guðscear": {
@@ -30698,8 +30698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-scear"
   },
   "guðsceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after gripe of battle, from Geatland's lord,",
+    "grammar": "Contextual translation",
     "lemma": "guðsceare"
   },
   "guðsceaða": {
@@ -30708,8 +30708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-sceaða"
   },
   "guðscil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst time sought",
+    "grammar": "Contextual translation",
     "lemma": "guðscil"
   },
   "guðsearo": {
@@ -30728,8 +30728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-sweord"
   },
   "guðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: most excellent seemed. Hence O\u001ba was praised",
+    "grammar": "Contextual translation",
     "lemma": "guðum"
   },
   "guðwerig": {
@@ -30738,8 +30738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-wēriġ"
   },
   "guðwerigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel stretched there, spent with war,",
+    "grammar": "Contextual translation",
     "lemma": "guðwerigne"
   },
   "guðwiga": {
@@ -30753,8 +30753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūð-wine"
   },
   "guðwinum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: none at all, of the neighboring clans",
+    "grammar": "Contextual translation",
     "lemma": "guðwinum"
   },
   "guðwudu": {
@@ -30773,13 +30773,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūþ-mōd"
   },
   "guþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-colored targe: but with gripe alone",
+    "grammar": "Contextual translation",
     "lemma": "guþe"
   },
   "guþgeweorca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in grim war-deeds, than Grendel deems him.",
+    "grammar": "Contextual translation",
     "lemma": "guþgeweorca"
   },
   "guþmod": {
@@ -30788,8 +30788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gūþ-mōd"
   },
   "gyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gleeman's song. Then glad rose the revel;",
+    "grammar": "Contextual translation",
     "lemma": "gyd"
   },
   "gyd(d)": {
@@ -30813,13 +30813,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġyddian"
   },
   "gyddode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and answer uttered the eager-for-combat.",
+    "grammar": "Contextual translation",
     "lemma": "gyddode"
   },
   "gyddum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in sorrowful songs, how ceaselessly Grendel",
+    "grammar": "Contextual translation",
     "lemma": "gyddum"
   },
   "gyf": {
@@ -30838,8 +30838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġyfen"
   },
   "gyfenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ee where she will!",
+    "grammar": "Contextual translation",
     "lemma": "gyfenes"
   },
   "gyfeþ": {
@@ -30873,13 +30873,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gylden"
   },
   "gyldenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a gold-wove banner, guerdon of triumph,",
+    "grammar": "Contextual translation",
     "lemma": "gyldenne"
   },
   "gyldnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under gold-crown goes where the good pair sit,",
+    "grammar": "Contextual translation",
     "lemma": "gyldnum"
   },
   "gyll": {
@@ -30923,18 +30923,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġylp-word"
   },
   "gylpan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Not at all could the king of his comrades-in-arms",
+    "grammar": "Contextual translation",
     "lemma": "gylpan"
   },
   "gylpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with bloody brand, \u0015 I boast not of it! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "gylpe"
   },
   "gylpeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of his treasure, paces this hall,",
+    "grammar": "Contextual translation",
     "lemma": "gylpeð"
   },
   "gylpspræc": {
@@ -30943,8 +30943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġylp-sprǣċ"
   },
   "gylpspræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in boastful speech of his battle-deeds,",
+    "grammar": "Contextual translation",
     "lemma": "gylpspræce"
   },
   "gylpword": {
@@ -30953,18 +30953,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġylp-word"
   },
   "gylpworda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Spake then his Vaunt the valiant man,",
+    "grammar": "Contextual translation",
     "lemma": "gylpworda"
   },
   "gym": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of men, and the better part choose,",
+    "grammar": "Contextual translation",
     "lemma": "gym"
   },
   "gymeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who joyously the jewels divides,",
+    "grammar": "Contextual translation",
     "lemma": "gymeð"
   },
   "gyn(n)": {
@@ -30973,8 +30973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġyn(n)"
   },
   "gynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under wide earth for that earl of Geats,",
+    "grammar": "Contextual translation",
     "lemma": "gynne"
   },
   "gyrd": {
@@ -30993,8 +30993,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gyrdan"
   },
   "gyrded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst was slain,",
+    "grammar": "Contextual translation",
     "lemma": "gyrded"
   },
   "gyre": {
@@ -31013,8 +31013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġyrede"
   },
   "gyredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the guest-room to garnish. Gold-gay shone the hangings",
+    "grammar": "Contextual translation",
     "lemma": "gyredon"
   },
   "gyrn": {
@@ -31038,8 +31038,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gyrn-wracu"
   },
   "gyrnwræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the guest, to depart, though more gladly he pondered",
+    "grammar": "Contextual translation",
     "lemma": "gyrnwræce"
   },
   "gyrw": {
@@ -31063,8 +31063,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġyst"
   },
   "gyste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and entered in. At the awful sight",
+    "grammar": "Contextual translation",
     "lemma": "gyste"
   },
   "gystr": {
@@ -31083,13 +31083,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ġystran"
   },
   "gyt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: High o'er his head they hoist the standard,",
+    "grammar": "Contextual translation",
     "lemma": "gyt"
   },
   "gytsaðgromhydig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him seems too little what long he possessed.",
+    "grammar": "Contextual translation",
     "lemma": "gytsaðgromhydig"
   },
   "gædeling": {
@@ -31098,13 +31098,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gædeling"
   },
   "gædelinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old sword of Eotens, Onela's gift,",
+    "grammar": "Contextual translation",
     "lemma": "gædelinges"
   },
   "gædelingum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght had wakened.",
+    "grammar": "Contextual translation",
     "lemma": "gædelingum"
   },
   "gæst": {
@@ -31113,23 +31113,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "gæst"
   },
   "gæsta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: greediest spirit, those spared not by war",
+    "grammar": "Contextual translation",
     "lemma": "gæsta"
   },
   "gæstas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From the height of the hill no hostile words",
+    "grammar": "Contextual translation",
     "lemma": "gæstas"
   },
   "gæða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and work of Wayland.5 Fares Wyrd6 as she must.\"",
+    "grammar": "Contextual translation",
     "lemma": "gæða"
   },
   "gæþeft": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall bid him battle. Blithe to mead",
+    "grammar": "Contextual translation",
     "lemma": "gæþeft"
   },
   "gуm": {
@@ -31173,8 +31173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "habban"
   },
   "habbaðwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To that mighty-one come we on mickle errand,",
+    "grammar": "Contextual translation",
     "lemma": "habbaðwe"
   },
   "habbe": {
@@ -31213,28 +31213,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hafa"
   },
   "hafalan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to hide my head;3 for his shall I be,",
+    "grammar": "Contextual translation",
     "lemma": "hafalan"
   },
   "hafast": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: less stout in struggle. Thyself hast now",
+    "grammar": "Contextual translation",
     "lemma": "hafast"
   },
   "hafað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the race of man what ruth for me",
+    "grammar": "Contextual translation",
     "lemma": "hafað"
   },
   "hafaðonfunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But he has found no feud will happen;",
+    "grammar": "Contextual translation",
     "lemma": "hafaðonfunden"
   },
   "hafaðþæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-decked maid, to the glad son of Froda.",
+    "grammar": "Contextual translation",
     "lemma": "hafaðþæs"
   },
   "hafe": {
@@ -31253,8 +31253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hafela"
   },
   "hafelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: helmet from head; to his henchman gave, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hafelan"
   },
   "hafele": {
@@ -31268,8 +31268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hafen"
   },
   "hafenade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By the wall then went he; his weapon raised",
+    "grammar": "Contextual translation",
     "lemma": "hafenade"
   },
   "hafeni": {
@@ -31298,8 +31298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hafoc"
   },
   "hafu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght I must fear me now,",
+    "grammar": "Contextual translation",
     "lemma": "hafu"
   },
   "hag": {
@@ -31313,8 +31313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "haga"
   },
   "hagan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for liegemen all than a life of shame!\"",
+    "grammar": "Contextual translation",
     "lemma": "hagan"
   },
   "hage": {
@@ -31328,8 +31328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hāl"
   },
   "halan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his body hale; the breastplate hindered,",
+    "grammar": "Contextual translation",
     "lemma": "halan"
   },
   "hale": {
@@ -31338,8 +31338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hāliġ"
   },
   "halga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heorogar, then Hrothgar, then Halga brave;",
+    "grammar": "Contextual translation",
     "lemma": "halga"
   },
   "halig": {
@@ -31368,13 +31368,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hām-weorðung"
   },
   "hama": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a hoard-gem of heroes, since Hama bore",
+    "grammar": "Contextual translation",
     "lemma": "hama"
   },
   "hamas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: houses and high burg. Hengest still",
+    "grammar": "Contextual translation",
     "lemma": "hamas"
   },
   "hamer": {
@@ -31383,13 +31383,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hamer"
   },
   "hamere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, hammer-forged, the falchion hard,",
+    "grammar": "Contextual translation",
     "lemma": "hamere"
   },
   "hames": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght: but few escaped",
+    "grammar": "Contextual translation",
     "lemma": "hames"
   },
   "hamweorðung": {
@@ -31398,8 +31398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hām-weorðung"
   },
   "hamweorðunge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And to Eofor he gave his only daughter",
+    "grammar": "Contextual translation",
     "lemma": "hamweorðunge"
   },
   "hand": {
@@ -31488,13 +31488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hand-sporu"
   },
   "handa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: carried the carven cup in hand,",
+    "grammar": "Contextual translation",
     "lemma": "handa"
   },
   "handbanan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But here in Heorot a hand hath slain him",
+    "grammar": "Contextual translation",
     "lemma": "handbanan"
   },
   "handbona": {
@@ -31503,8 +31503,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hand-bona"
   },
   "handbonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when Heatholaf with hand he slew",
+    "grammar": "Contextual translation",
     "lemma": "handbonan"
   },
   "handgestealla": {
@@ -31513,8 +31513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hand-ġestealla"
   },
   "handgesteallan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ames, the folk-commander!",
+    "grammar": "Contextual translation",
     "lemma": "handgesteallan"
   },
   "handgewriþen": {
@@ -31523,13 +31523,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hand-ġewriþen"
   },
   "handgewriþene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but forged fetters he found his lot,",
+    "grammar": "Contextual translation",
     "lemma": "handgewriþene"
   },
   "handscale": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his hand-companions, \u0015 the hall resounded, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "handscale"
   },
   "handscolu": {
@@ -31543,8 +31543,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hand-sporu"
   },
   "hangað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rides on the gallows. A rime he makes,",
+    "grammar": "Contextual translation",
     "lemma": "hangað"
   },
   "hangi": {
@@ -31563,8 +31563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hangian"
   },
   "hangode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but me he attacked in his terror of might,",
+    "grammar": "Contextual translation",
     "lemma": "hangode"
   },
   "har": {
@@ -31573,23 +31573,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hār"
   },
   "hare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then he bade them bear him the boar-head standard,",
+    "grammar": "Contextual translation",
     "lemma": "hare"
   },
   "hares": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard sword hilted, and helmet too,",
+    "grammar": "Contextual translation",
     "lemma": "hares"
   },
   "harne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that herded the hoard:1 under hoary rock",
+    "grammar": "Contextual translation",
     "lemma": "harne"
   },
   "harum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoary hero, in hand was laid,",
+    "grammar": "Contextual translation",
     "lemma": "harum"
   },
   "hat": {
@@ -31603,8 +31603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hātan"
   },
   "hataðheaðomære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the needs of my land! No longer I tarry.",
+    "grammar": "Contextual translation",
     "lemma": "hataðheaðomære"
   },
   "hate": {
@@ -31613,13 +31613,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hātan"
   },
   "haten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel this monster grim was called,",
+    "grammar": "Contextual translation",
     "lemma": "haten"
   },
   "hates": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I could gain as I did in Grendel's day.",
+    "grammar": "Contextual translation",
     "lemma": "hates"
   },
   "hati": {
@@ -31638,23 +31638,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hatian"
   },
   "hatne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one that guarded the golden hoard re",
+    "grammar": "Contextual translation",
     "lemma": "hatne"
   },
   "hatode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as the grim destroyer those Geatish people",
+    "grammar": "Contextual translation",
     "lemma": "hatode"
   },
   "haton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: horribly seething, with sword-blood hot,",
+    "grammar": "Contextual translation",
     "lemma": "haton"
   },
   "hatost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sweat hot; but the hilt I brought back",
+    "grammar": "Contextual translation",
     "lemma": "hatost"
   },
   "haðor(heaðor)": {
@@ -31683,13 +31683,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēa-burh"
   },
   "heafde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sword-stroke savage, that severed its head.",
+    "grammar": "Contextual translation",
     "lemma": "heafde"
   },
   "heafdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: At their heads they set their shields of war,",
+    "grammar": "Contextual translation",
     "lemma": "heafdon"
   },
   "heafo": {
@@ -31738,13 +31738,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēafod-beorg"
   },
   "heafodbeorge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: O'er the roof of the helmet high, a ridge,",
+    "grammar": "Contextual translation",
     "lemma": "heafodbeorge"
   },
   "heafodmaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd me favor. Few indeed",
+    "grammar": "Contextual translation",
     "lemma": "heafodmaga"
   },
   "heafodmæg": {
@@ -31753,8 +31753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēafod-mǣġ"
   },
   "heafodmægum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thy closest kin, whence curse of hell",
+    "grammar": "Contextual translation",
     "lemma": "heafodmægum"
   },
   "heafodweard": {
@@ -31763,8 +31763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēafod-weard"
   },
   "heafodwearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the living earl by the other dead,",
+    "grammar": "Contextual translation",
     "lemma": "heafodwearde"
   },
   "heafol": {
@@ -31778,8 +31778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heafola"
   },
   "heafolan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had mind of his glory: with might his glaive",
+    "grammar": "Contextual translation",
     "lemma": "heafolan"
   },
   "heafole": {
@@ -31788,8 +31788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heafola"
   },
   "heafu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: each other greet o'er the gannet's-bath,",
+    "grammar": "Contextual translation",
     "lemma": "heafu"
   },
   "heah": {
@@ -31898,8 +31898,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēah-cyning"
   },
   "heahcyninges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'twas the battle-seat of the best of kings,",
+    "grammar": "Contextual translation",
     "lemma": "heahcyninges"
   },
   "heahgesceap": {
@@ -31913,13 +31913,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēah-ġestrēon"
   },
   "heahgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that some one of mortals had searched his treasure,",
+    "grammar": "Contextual translation",
     "lemma": "heahgestreona"
   },
   "heahlufan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain of the fair life fate had sent her,",
+    "grammar": "Contextual translation",
     "lemma": "heahlufan"
   },
   "heahlufu(lufe)": {
@@ -31943,8 +31943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēah-stede"
   },
   "heal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bode not in breast. The burg was reddened",
+    "grammar": "Contextual translation",
     "lemma": "heal"
   },
   "heal reced": {
@@ -32013,8 +32013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "healdan"
   },
   "healdanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in seat ancestral assigns him bliss,",
+    "grammar": "Contextual translation",
     "lemma": "healdanne"
   },
   "healde": {
@@ -32023,8 +32023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "healdan"
   },
   "healdeðhigemæðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the living earl by the other dead,",
+    "grammar": "Contextual translation",
     "lemma": "healdeðhigemæðum"
   },
   "healf": {
@@ -32033,48 +32033,48 @@ const OLD_ENGLISH_DICT = {
     "lemma": "healf"
   },
   "healfa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aiming their swords on every side",
+    "grammar": "Contextual translation",
     "lemma": "healfa"
   },
   "healfdene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haughty Healfdene, who held through life,",
+    "grammar": "Contextual translation",
     "lemma": "healfdene"
   },
   "healfdenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THUS seethed unceasing the son of Healfdene",
+    "grammar": "Contextual translation",
     "lemma": "healfdenes"
   },
   "healfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Scyldings' lord, from that side again,",
+    "grammar": "Contextual translation",
     "lemma": "healfe"
   },
   "healfre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hall and high-seat, and half the power",
+    "grammar": "Contextual translation",
     "lemma": "healfre"
   },
   "healgamen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as Hrothgar's singer the hall-joy woke",
+    "grammar": "Contextual translation",
     "lemma": "healgamen"
   },
   "heall": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gory the hall: I had heroes the less,",
+    "grammar": "Contextual translation",
     "lemma": "heall"
   },
   "healle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high in the hall: there harps rang out,",
+    "grammar": "Contextual translation",
     "lemma": "healle"
   },
   "healp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heedless of harm, though his hand was burned,",
+    "grammar": "Contextual translation",
     "lemma": "healp"
   },
   "healreced": {
@@ -32123,18 +32123,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heals-bēag"
   },
   "healsbeaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: corselet and rings, and of collars the noblest",
+    "grammar": "Contextual translation",
     "lemma": "healsbeaga"
   },
   "healsbeah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and each kept watch o'er the other's weal.",
+    "grammar": "Contextual translation",
     "lemma": "healsbeah"
   },
   "healse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Scyldings' chieftain, that choicest thane,",
+    "grammar": "Contextual translation",
     "lemma": "healse"
   },
   "healsgebedda": {
@@ -32163,18 +32163,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heal-sittend(e)"
   },
   "healsittendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The liegemen were lusty; my life-days never",
+    "grammar": "Contextual translation",
     "lemma": "healsittendra"
   },
   "healsittendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 for he at ale-bench often-times",
+    "grammar": "Contextual translation",
     "lemma": "healsittendum"
   },
   "healsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The leader then, by thy life, besought me",
+    "grammar": "Contextual translation",
     "lemma": "healsode"
   },
   "healwudu": {
@@ -32188,8 +32188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heal-ærn"
   },
   "healærna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of halls the noblest: Heorot1 he named it",
+    "grammar": "Contextual translation",
     "lemma": "healærna"
   },
   "healðegn": {
@@ -32198,13 +32198,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heal-ðeġn"
   },
   "healðegnas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such hardy heroes, such hall-thanes, found!",
+    "grammar": "Contextual translation",
     "lemma": "healðegnas"
   },
   "healðegnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the hall-thane's2 hate. Such held themselves",
+    "grammar": "Contextual translation",
     "lemma": "healðegnes"
   },
   "hean": {
@@ -32218,8 +32218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēan(ne)"
   },
   "heanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beheld that hand, on the high roof gazing,",
+    "grammar": "Contextual translation",
     "lemma": "heanne"
   },
   "heap": {
@@ -32228,8 +32228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēap"
   },
   "heape": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ames, the folk-commander!",
+    "grammar": "Contextual translation",
     "lemma": "heape"
   },
   "hear": {
@@ -32273,13 +32273,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heard-hicgende"
   },
   "hearda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-gear guarding, as bade the chief.",
+    "grammar": "Contextual translation",
     "lemma": "hearda"
   },
   "heardan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swiftly, I thought, in strongest gripe",
+    "grammar": "Contextual translation",
     "lemma": "heardan"
   },
   "hearde": {
@@ -32298,33 +32298,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heard-hicgende"
   },
   "heardne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sword-stroke savage, that severed its head.",
+    "grammar": "Contextual translation",
     "lemma": "heardne"
   },
   "heardra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harassings heavy. O'er Heorot he lorded,",
+    "grammar": "Contextual translation",
     "lemma": "heardra"
   },
   "heardran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ne'er heard I a harder 'neath heaven's dome,",
+    "grammar": "Contextual translation",
     "lemma": "heardran"
   },
   "heardred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but the son of Ongentheow sought again",
+    "grammar": "Contextual translation",
     "lemma": "heardred"
   },
   "heardrede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with harryings horrid, that Hygelac perished,3",
+    "grammar": "Contextual translation",
     "lemma": "heardrede"
   },
   "heardum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel in grimmest grasp thou killedst, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "heardum"
   },
   "hearh(hearg)": {
@@ -32358,8 +32358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hearm-scaþa"
   },
   "hearme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trusty as ever, the earl's return.",
+    "grammar": "Contextual translation",
     "lemma": "hearme"
   },
   "hearmscaþa": {
@@ -32373,8 +32373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hearpe"
   },
   "hearpan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high in the hall: there harps rang out,",
+    "grammar": "Contextual translation",
     "lemma": "hearpan"
   },
   "hearpe": {
@@ -32383,8 +32383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hearpe"
   },
   "heaum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the dark of night, a Dragon, to rage.",
+    "grammar": "Contextual translation",
     "lemma": "heaum"
   },
   "heaw": {
@@ -32403,8 +32403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēawan"
   },
   "heaðabeardna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and on him the old-time heirlooms glisten",
+    "grammar": "Contextual translation",
     "lemma": "heaðabeardna"
   },
   "heaðeri": {
@@ -32588,8 +32588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-wǣd"
   },
   "heaðobeardna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but briefest while, though the bride be fair!1",
+    "grammar": "Contextual translation",
     "lemma": "heaðobeardna"
   },
   "heaðobyrne": {
@@ -32598,13 +32598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-byrne"
   },
   "heaðofyrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that broke from the barrow. The brooklet's wave",
+    "grammar": "Contextual translation",
     "lemma": "heaðofyrum"
   },
   "heaðogrim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless rushed on us: rough was the surge.",
+    "grammar": "Contextual translation",
     "lemma": "heaðogrim"
   },
   "heaðogrim(m)": {
@@ -32618,18 +32618,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-lāc"
   },
   "heaðolace": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: not one of you pair, in the play of war",
+    "grammar": "Contextual translation",
     "lemma": "heaðolace"
   },
   "heaðolaces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the shield-companion sound and alive,",
+    "grammar": "Contextual translation",
     "lemma": "heaðolaces"
   },
   "heaðoliðendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting-wanderers",
+    "grammar": "Contextual translation",
     "lemma": "heaðoliðendum"
   },
   "heaðomære": {
@@ -32648,13 +32648,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-rinċ"
   },
   "heaðorincum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a hero that hither his henchmen has led.\"",
+    "grammar": "Contextual translation",
     "lemma": "heaðorincum"
   },
   "heaðorof": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the bulwark-of-earls1 bade bring within,",
+    "grammar": "Contextual translation",
     "lemma": "heaðorof"
   },
   "heaðoræs": {
@@ -32663,13 +32663,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-rǣs"
   },
   "heaðoræsa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 though in bu\u001bet of battle thou brave hast been,",
+    "grammar": "Contextual translation",
     "lemma": "heaðoræsa"
   },
   "heaðoscearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For edges of iron had ended its days,",
+    "grammar": "Contextual translation",
     "lemma": "heaðoscearde"
   },
   "heaðoscearp": {
@@ -32678,8 +32678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-scearp"
   },
   "heaðoscil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ng's helpmate dear.",
+    "grammar": "Contextual translation",
     "lemma": "heaðoscil"
   },
   "heaðosioc": {
@@ -32688,13 +32688,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-sīoc"
   },
   "heaðosiocum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at wish and word of his wounded king, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "heaðosiocum"
   },
   "heaðosteapne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then he bade them bear him the boar-head standard,",
+    "grammar": "Contextual translation",
     "lemma": "heaðosteapne"
   },
   "heaðotorht": {
@@ -32713,13 +32713,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-wylm"
   },
   "heaðowylma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high, gabled wide, the hot surge waiting",
+    "grammar": "Contextual translation",
     "lemma": "heaðowylma"
   },
   "heaðowylmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harbored in heart ere hot death-waves ed",
+    "grammar": "Contextual translation",
     "lemma": "heaðowylmas"
   },
   "heaðowæd": {
@@ -32728,8 +32728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðo-wǣd"
   },
   "heaðowædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with weapons of war and weeds of battle,",
+    "grammar": "Contextual translation",
     "lemma": "heaðowædum"
   },
   "heaðu sweng": {
@@ -32743,8 +32743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðu-swenġ"
   },
   "heaðufyres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I could gain as I did in Grendel's day.",
+    "grammar": "Contextual translation",
     "lemma": "heaðufyres"
   },
   "heaðusweng": {
@@ -32753,8 +32753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaðu-swenġ"
   },
   "heaðuswenge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his baleful stress. \u0015 Then the barrow's keeper",
+    "grammar": "Contextual translation",
     "lemma": "heaðuswenge"
   },
   "heaþo deor": {
@@ -32823,8 +32823,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-dēor"
   },
   "heaþodeorum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the strain of their struggle stood, to earth",
+    "grammar": "Contextual translation",
     "lemma": "heaþodeorum"
   },
   "heaþogeong": {
@@ -32833,8 +32833,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-ġeong"
   },
   "heaþolafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when Heatholaf with hand he slew",
+    "grammar": "Contextual translation",
     "lemma": "heaþolafe"
   },
   "heaþoliðend(e)": {
@@ -32843,8 +32843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-līðend(e)"
   },
   "heaþoliðende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: needs of a thane as in those old days",
+    "grammar": "Contextual translation",
     "lemma": "heaþoliðende"
   },
   "heaþorof": {
@@ -32853,23 +32853,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-rōf"
   },
   "heaþorofe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From time to time, the tried-in-battle",
+    "grammar": "Contextual translation",
     "lemma": "heaþorofe"
   },
   "heaþoræmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: billows bore to the Battling Reamas,",
+    "grammar": "Contextual translation",
     "lemma": "heaþoræmas"
   },
   "heaþoræs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with blade of battle: huge beast of the sea",
+    "grammar": "Contextual translation",
     "lemma": "heaþoræs"
   },
   "heaþoræsas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght repaid",
+    "grammar": "Contextual translation",
     "lemma": "heaþoræsas"
   },
   "heaþosteap": {
@@ -32878,8 +32878,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-stēap"
   },
   "heaþosteapa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the high battle-helmet, the haughty spear,",
+    "grammar": "Contextual translation",
     "lemma": "heaþosteapa"
   },
   "heaþoswat": {
@@ -32888,13 +32888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heaþo-swāt"
   },
   "heaþoswata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sweat hot; but the hilt I brought back",
+    "grammar": "Contextual translation",
     "lemma": "heaþoswata"
   },
   "heaþoswate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, in battle-droppings,3",
+    "grammar": "Contextual translation",
     "lemma": "heaþoswate"
   },
   "hebb": {
@@ -32923,8 +32923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hēdan"
   },
   "hedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: craft and keenness and courage enduring.",
+    "grammar": "Contextual translation",
     "lemma": "hedde"
   },
   "hede": {
@@ -32958,8 +32958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heht"
   },
   "hel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his heathen soul,-and hell received it.",
+    "grammar": "Contextual translation",
     "lemma": "hel"
   },
   "hel rune": {
@@ -33003,13 +33003,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hell-bend"
   },
   "hellbendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so that marked with sin the man should be,",
+    "grammar": "Contextual translation",
     "lemma": "hellbendum"
   },
   "helle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eld of hell.",
+    "grammar": "Contextual translation",
     "lemma": "helle"
   },
   "helm": {
@@ -33028,8 +33028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "helm-berend"
   },
   "helmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for hard-sword and helmet, if hap should bring",
+    "grammar": "Contextual translation",
     "lemma": "helmas"
   },
   "helmberend": {
@@ -33038,23 +33038,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "helm-berend"
   },
   "helme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy 'neath helmet:\u0015\"Hygelac's, we,",
+    "grammar": "Contextual translation",
     "lemma": "helme"
   },
   "helmes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: O'er the roof of the helmet high, a ridge,",
+    "grammar": "Contextual translation",
     "lemma": "helmes"
   },
   "helminga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Through the hall then went the Helmings' Lady,",
+    "grammar": "Contextual translation",
     "lemma": "helminga"
   },
   "helmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm on the earth a funeral-pile,",
+    "grammar": "Contextual translation",
     "lemma": "helmum"
   },
   "help": {
@@ -33073,8 +33073,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "helpan"
   },
   "helrunan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where the haunts of these Hell-Runes3 be.",
+    "grammar": "Contextual translation",
     "lemma": "helrunan"
   },
   "helrune": {
@@ -33083,23 +33083,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hel-rūne"
   },
   "hemminges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by wrath and lying his life should reave!",
+    "grammar": "Contextual translation",
     "lemma": "hemminges"
   },
   "hengest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: houses and high burg. Hengest still",
+    "grammar": "Contextual translation",
     "lemma": "hengest"
   },
   "hengeste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapon, nor war could he wage on Hengest,",
+    "grammar": "Contextual translation",
     "lemma": "hengeste"
   },
   "hengestes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the folk of Hengest favor with rings,",
+    "grammar": "Contextual translation",
     "lemma": "hengestes"
   },
   "heo": {
@@ -33123,18 +33123,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heofon"
   },
   "heofena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor Heaven's-Helmet heeded they ever,",
+    "grammar": "Contextual translation",
     "lemma": "heofena"
   },
   "heofenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the harbor of heaven is hidden away.",
+    "grammar": "Contextual translation",
     "lemma": "heofenes"
   },
   "heofenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no hero 'neath heaven, \u0015 who harbored that freight!",
+    "grammar": "Contextual translation",
     "lemma": "heofenum"
   },
   "heofon": {
@@ -33143,28 +33143,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heofon"
   },
   "heofones": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ne'er heard I a harder 'neath heaven's dome,",
+    "grammar": "Contextual translation",
     "lemma": "heofones"
   },
   "heofungdagas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sung in her sorrow, and said full oft",
+    "grammar": "Contextual translation",
     "lemma": "heofungdagas"
   },
   "heold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haughty Healfdene, who held through life,",
+    "grammar": "Contextual translation",
     "lemma": "heold"
   },
   "heolde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nobly to govern, so none of the guests",
+    "grammar": "Contextual translation",
     "lemma": "heolde"
   },
   "heoldon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-gear guarding, as bade the chief.",
+    "grammar": "Contextual translation",
     "lemma": "heoldon"
   },
   "heolfor": {
@@ -33173,8 +33173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heolfor"
   },
   "heolfre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: horribly seething, with sword-blood hot,",
+    "grammar": "Contextual translation",
     "lemma": "heolfre"
   },
   "heolster": {
@@ -33198,8 +33198,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heonan"
   },
   "heonon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: od under foldan.",
+    "grammar": "Contextual translation",
     "lemma": "heonon"
   },
   "heor": {
@@ -33213,8 +33213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heor(r)"
   },
   "heora": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: None of them thought that thence their steps",
+    "grammar": "Contextual translation",
     "lemma": "heora"
   },
   "heore": {
@@ -33313,8 +33313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoro-wearh"
   },
   "heorodreore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: horribly seething, with sword-blood hot,",
+    "grammar": "Contextual translation",
     "lemma": "heorodreore"
   },
   "heorodreorig": {
@@ -33323,13 +33323,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoro-drēoriġ"
   },
   "heorodreorigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lord Eternal, for life extended",
+    "grammar": "Contextual translation",
     "lemma": "heorodreorigne"
   },
   "heorogar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heorogar, then Hrothgar, then Halga brave;",
+    "grammar": "Contextual translation",
     "lemma": "heorogar"
   },
   "heorogifre": {
@@ -33338,8 +33338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoro-ġīfre"
   },
   "heorogrim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold and battle-grim, brandished the sword,",
+    "grammar": "Contextual translation",
     "lemma": "heorogrim"
   },
   "heorohocyhte": {
@@ -33348,8 +33348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoro-hōcyhte"
   },
   "heorohocyhtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hooked and barbed, it was hard beset,",
+    "grammar": "Contextual translation",
     "lemma": "heorohocyhtum"
   },
   "heorosweng": {
@@ -33363,18 +33363,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heorot"
   },
   "heorote": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in Heorot Grendel with hate hath wrought,",
+    "grammar": "Contextual translation",
     "lemma": "heorote"
   },
   "heorotes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under Heorot's roof:",
+    "grammar": "Contextual translation",
     "lemma": "heorotes"
   },
   "heorowearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet not to his son the sovran left it,",
+    "grammar": "Contextual translation",
     "lemma": "heorowearde"
   },
   "heorowearh": {
@@ -33383,8 +33383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoro-wearh"
   },
   "heorras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rent were its hinges; the roof alone",
+    "grammar": "Contextual translation",
     "lemma": "heorras"
   },
   "heort": {
@@ -33393,8 +33393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heorte"
   },
   "heortan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by day and by night, till death's fell wave",
+    "grammar": "Contextual translation",
     "lemma": "heortan"
   },
   "heorte": {
@@ -33408,18 +33408,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heoru"
   },
   "heorudreore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gory the hall: I had heroes the less,",
+    "grammar": "Contextual translation",
     "lemma": "heorudreore"
   },
   "heorugrimme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if ever it hap that Hrethel's heir",
+    "grammar": "Contextual translation",
     "lemma": "heorugrimme"
   },
   "heorute": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Heorot this monster of harm had made!",
+    "grammar": "Contextual translation",
     "lemma": "heorute"
   },
   "heorð": {
@@ -33443,18 +33443,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "heorð-ġenēat"
   },
   "heorðgeneatas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and Hygelac's own hearth-fellows we.",
+    "grammar": "Contextual translation",
     "lemma": "heorðgeneatas"
   },
   "heorðgeneatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Sat on the headland the hero king,",
+    "grammar": "Contextual translation",
     "lemma": "heorðgeneatum"
   },
   "heoðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy 'neath helm, till the hearth he neared.",
+    "grammar": "Contextual translation",
     "lemma": "heoðe"
   },
   "her": {
@@ -33673,13 +33673,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-wæs(t)m"
   },
   "herebeald": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bairn in the burg, than his birthright sons,",
+    "grammar": "Contextual translation",
     "lemma": "herebeald"
   },
   "herebealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: homestead and house. So the helmet-of-Weders",
+    "grammar": "Contextual translation",
     "lemma": "herebealde"
   },
   "herebroga": {
@@ -33688,8 +33688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-brōga"
   },
   "herebrogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting feared to hold him.",
+    "grammar": "Contextual translation",
     "lemma": "herebrogan"
   },
   "herebyrne": {
@@ -33698,8 +33698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-byrne"
   },
   "heregar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this hoard-hold of heroes. Heorogar was dead,",
+    "grammar": "Contextual translation",
     "lemma": "heregar"
   },
   "heregeong": {
@@ -33713,18 +33713,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-grīma"
   },
   "heregriman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and under helmets Hrothgar greet;",
+    "grammar": "Contextual translation",
     "lemma": "heregriman"
   },
   "heremodes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since the hand and heart of Heremod",
+    "grammar": "Contextual translation",
     "lemma": "heremodes"
   },
   "herenet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-net hard, and holy God",
+    "grammar": "Contextual translation",
     "lemma": "herenet"
   },
   "herenet(t)": {
@@ -33738,8 +33738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-nīð"
   },
   "hereniðhearda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er the width of waters; war arose,",
+    "grammar": "Contextual translation",
     "lemma": "hereniðhearda"
   },
   "herepad": {
@@ -33748,8 +33748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-pād"
   },
   "hererices": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs,",
+    "grammar": "Contextual translation",
     "lemma": "hererices"
   },
   "hererinc": {
@@ -33763,8 +33763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-sceaft"
   },
   "heresceafta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spears in multitude? Messenger, I,",
+    "grammar": "Contextual translation",
     "lemma": "heresceafta"
   },
   "heresceorp": {
@@ -33773,8 +33773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-sceorp"
   },
   "herescyldinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heaped from hoard. \u0015 The hardy Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "herescyldinga"
   },
   "heresped": {
@@ -33788,8 +33788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-strǣl"
   },
   "heresyrcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce tusks to tear his mail,",
+    "grammar": "Contextual translation",
     "lemma": "heresyrcan"
   },
   "heresyrce": {
@@ -33808,8 +33808,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-wǣd"
   },
   "herewædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then on the strand, with steeds and treasure",
+    "grammar": "Contextual translation",
     "lemma": "herewædum"
   },
   "herewæs(t)m": {
@@ -33818,8 +33818,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "here-wæs(t)m"
   },
   "herewæsmun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght no feebler I count me,",
+    "grammar": "Contextual translation",
     "lemma": "herewæsmun"
   },
   "herg": {
@@ -33853,8 +33853,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "herian"
   },
   "herige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the lord of the Geats will give me aid",
+    "grammar": "Contextual translation",
     "lemma": "herige"
   },
   "het": {
@@ -33918,8 +33918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hetend"
   },
   "hetende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that neighbor foemen annoy and fright thee, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hetende"
   },
   "hetenið": {
@@ -33928,8 +33928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hete-nīð"
   },
   "heteniðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harassed Hrothgar, what hate he bore him,",
+    "grammar": "Contextual translation",
     "lemma": "heteniðas"
   },
   "hetesweng": {
@@ -33938,8 +33938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hete-swenġ"
   },
   "heteswengeas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but for pressure of peril, some prince's thane.",
+    "grammar": "Contextual translation",
     "lemma": "heteswengeas"
   },
   "heteþanc": {
@@ -33948,8 +33948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hete-þanc"
   },
   "heteþancum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in Heorot Grendel with hate hath wrought,",
+    "grammar": "Contextual translation",
     "lemma": "heteþancum"
   },
   "hettend": {
@@ -33958,13 +33958,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hettend"
   },
   "hetware": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: coats of mail, when he came to the sea!",
+    "grammar": "Contextual translation",
     "lemma": "hetware"
   },
   "hi": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then they bore him over to ocean's billow,",
+    "grammar": "Contextual translation",
     "lemma": "hi"
   },
   "hicge": {
@@ -33988,13 +33988,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hider"
   },
   "hie": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that erst they had lacked an earl for leader",
+    "grammar": "Contextual translation",
     "lemma": "hie"
   },
   "hiera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: uncle and nephew, true each to the other one,",
+    "grammar": "Contextual translation",
     "lemma": "hiera"
   },
   "hig": {
@@ -34053,18 +34053,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hiġe-þrym(m)"
   },
   "higelac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hence shall I scorn \u0015 so Hygelac stay,",
+    "grammar": "Contextual translation",
     "lemma": "higelac"
   },
   "higelace": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Hygelac send, if Hild4 should take me,",
+    "grammar": "Contextual translation",
     "lemma": "higelace"
   },
   "higelaces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: This heard in his home Hygelac's thane,",
+    "grammar": "Contextual translation",
     "lemma": "higelaces"
   },
   "higemæðu": {
@@ -34078,13 +34078,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hiġe-rōf"
   },
   "higerofne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they whetted the hero, and hailed good omens.",
+    "grammar": "Contextual translation",
     "lemma": "higerofne"
   },
   "higes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heavy at heart, \u0015 in the hero young",
+    "grammar": "Contextual translation",
     "lemma": "higes"
   },
   "higeþihtig": {
@@ -34093,8 +34093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hiġe-þīhtiġ"
   },
   "higeþihtigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the hardy hero with hand he grasped,",
+    "grammar": "Contextual translation",
     "lemma": "higeþihtigne"
   },
   "higeþrym(m)": {
@@ -34103,13 +34103,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hiġe-þrym(m)"
   },
   "higeþrymmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for high-hearted valor, Hrothgar ye seek!\"",
+    "grammar": "Contextual translation",
     "lemma": "higeþrymmum"
   },
   "higum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re had broken the frame of bones,",
+    "grammar": "Contextual translation",
     "lemma": "higum"
   },
   "hild": {
@@ -34178,8 +34178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hild-lata"
   },
   "hilde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end in that festal hall,",
+    "grammar": "Contextual translation",
     "lemma": "hilde"
   },
   "hilde bil(l)": {
@@ -34473,8 +34473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-wǣpen"
   },
   "hildebil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the house's wardens. That war-sword then",
+    "grammar": "Contextual translation",
     "lemma": "hildebil"
   },
   "hildebil(l)": {
@@ -34483,8 +34483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-bil(l)"
   },
   "hildebille": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with blade of battle: huge beast of the sea",
+    "grammar": "Contextual translation",
     "lemma": "hildebille"
   },
   "hildeblac": {
@@ -34498,13 +34498,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-bord"
   },
   "hildebordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm on the earth a funeral-pile,",
+    "grammar": "Contextual translation",
     "lemma": "hildebordum"
   },
   "hildeburh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hildeburh needed not hold in value",
+    "grammar": "Contextual translation",
     "lemma": "hildeburh"
   },
   "hildecumbor": {
@@ -34518,8 +34518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-cyst"
   },
   "hildecystum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sons of athelings, armed stood",
+    "grammar": "Contextual translation",
     "lemma": "hildecystum"
   },
   "hildedeor": {
@@ -34528,13 +34528,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-dēor"
   },
   "hildedior": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the bairn of Weohstan bade command,",
+    "grammar": "Contextual translation",
     "lemma": "hildedior"
   },
   "hildediore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: useless to men as of yore it was.",
+    "grammar": "Contextual translation",
     "lemma": "hildediore"
   },
   "hildefreca": {
@@ -34543,13 +34543,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-freca"
   },
   "hildefrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when him at the van of his victor-folk",
+    "grammar": "Contextual translation",
     "lemma": "hildefrecan"
   },
   "hildegeatwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though alone, and his arms were laden with thirty",
+    "grammar": "Contextual translation",
     "lemma": "hildegeatwa"
   },
   "hildegeatwe": {
@@ -34563,8 +34563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-ġiċel"
   },
   "hildegicelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, in battle-droppings,3",
+    "grammar": "Contextual translation",
     "lemma": "hildegicelum"
   },
   "hildegrap": {
@@ -34578,13 +34578,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-hlem(m)"
   },
   "hildehlemma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he had passed a-plenty, and perils of war,",
+    "grammar": "Contextual translation",
     "lemma": "hildehlemma"
   },
   "hildehlæmmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ight of years,",
+    "grammar": "Contextual translation",
     "lemma": "hildehlæmmum"
   },
   "hildeleoma": {
@@ -34593,8 +34593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-lēoma"
   },
   "hildeleoman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ames; wide drove and far",
+    "grammar": "Contextual translation",
     "lemma": "hildeleoman"
   },
   "hildemece": {
@@ -34603,8 +34603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-mēċe"
   },
   "hildemeceas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with harryings horrid, that Hygelac perished,3",
+    "grammar": "Contextual translation",
     "lemma": "hildemeceas"
   },
   "hildemecg": {
@@ -34613,8 +34613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-mecg"
   },
   "hildemecgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-hearted heroes of war,",
+    "grammar": "Contextual translation",
     "lemma": "hildemecgas"
   },
   "hilderand": {
@@ -34623,8 +34623,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-rand"
   },
   "hilderandas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: At their heads they set their shields of war,",
+    "grammar": "Contextual translation",
     "lemma": "hilderandas"
   },
   "hilderinc": {
@@ -34633,18 +34633,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-rinċ"
   },
   "hilderinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and went with these warriors, one of eight,",
+    "grammar": "Contextual translation",
     "lemma": "hilderinca"
   },
   "hilderince": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: closed o'er the hero. Long while of the day",
+    "grammar": "Contextual translation",
     "lemma": "hilderince"
   },
   "hilderinces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heathen's \"hand-spear,\" hostile warrior's",
+    "grammar": "Contextual translation",
     "lemma": "hilderinces"
   },
   "hilderæs": {
@@ -34678,8 +34678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-tūx(=tūsc)"
   },
   "hildetuxum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce tusks to tear his mail,",
+    "grammar": "Contextual translation",
     "lemma": "hildetuxum"
   },
   "hildewisa": {
@@ -34688,8 +34688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-wīsa"
   },
   "hildewisan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the presence of Healfdene's head-of-armies3",
+    "grammar": "Contextual translation",
     "lemma": "hildewisan"
   },
   "hildewæpen": {
@@ -34698,8 +34698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilde-wǣpen"
   },
   "hildewæpnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with weapons of war and weeds of battle,",
+    "grammar": "Contextual translation",
     "lemma": "hildewæpnum"
   },
   "hildfreca": {
@@ -34708,8 +34708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hild-freca"
   },
   "hildfrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght: but few escaped",
+    "grammar": "Contextual translation",
     "lemma": "hildfrecan"
   },
   "hildfruma": {
@@ -34718,8 +34718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hild-fruma"
   },
   "hildfruman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoary hero, in hand was laid,",
+    "grammar": "Contextual translation",
     "lemma": "hildfruman"
   },
   "hildlata": {
@@ -34728,8 +34728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hild-lata"
   },
   "hildlatan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eeting life. Befell erelong",
+    "grammar": "Contextual translation",
     "lemma": "hildlatan"
   },
   "hilt": {
@@ -34743,13 +34743,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hilted"
   },
   "hiltum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high by its hilts the Hygelac-thane,",
+    "grammar": "Contextual translation",
     "lemma": "hiltum"
   },
   "him": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till before him the folk, both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "him"
   },
   "hin fus": {
@@ -34773,8 +34773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hindema"
   },
   "hindeman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which to the fray thy father carried",
+    "grammar": "Contextual translation",
     "lemma": "hindeman"
   },
   "hindeme": {
@@ -34783,8 +34783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hindema"
   },
   "hine": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that to aid him, aged, in after days,",
+    "grammar": "Contextual translation",
     "lemma": "hine"
   },
   "hinfus": {
@@ -34793,8 +34793,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hin-fūs"
   },
   "hio": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and work of Wayland.5 Fares Wyrd6 as she must.\"",
+    "grammar": "Contextual translation",
     "lemma": "hio"
   },
   "hiof": {
@@ -34813,13 +34813,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hīofan"
   },
   "hiold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain of the fair life fate had sent her,",
+    "grammar": "Contextual translation",
     "lemma": "hiold"
   },
   "hiora": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at the Scylding lord's feet sat: men had faith in his spirit,",
+    "grammar": "Contextual translation",
     "lemma": "hiora"
   },
   "hioro drync": {
@@ -34873,13 +34873,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hioro-drynċ"
   },
   "hiorodryncum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lord of his folk, in the Frisian land,",
+    "grammar": "Contextual translation",
     "lemma": "hiorodryncum"
   },
   "hiorogar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that its story be straightway said to thee. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hiorogar"
   },
   "hioroserce": {
@@ -34888,13 +34888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hioro-serċe"
   },
   "hiorosercean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Up stood then with shield the sturdy champion,",
+    "grammar": "Contextual translation",
     "lemma": "hiorosercean"
   },
   "hiorote": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle to seek o'er the briny sea,",
+    "grammar": "Contextual translation",
     "lemma": "hiorote"
   },
   "hioroweallende": {
@@ -34903,28 +34903,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hioro-weallende"
   },
   "hiorte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but there staid behind him his stronger hand",
+    "grammar": "Contextual translation",
     "lemma": "hiorte"
   },
   "hira": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as forced to follow their fee-giver's slayer,",
+    "grammar": "Contextual translation",
     "lemma": "hira"
   },
   "hire": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in wisdom's words, that her will was granted,",
+    "grammar": "Contextual translation",
     "lemma": "hire"
   },
   "his": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such honor of combat, that all his kin",
+    "grammar": "Contextual translation",
     "lemma": "his"
   },
   "hit": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in rapid achievement that ready it stood there,",
+    "grammar": "Contextual translation",
     "lemma": "hit"
   },
   "hit(hyt)": {
@@ -34948,13 +34948,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hladan"
   },
   "hladen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then on the strand, with steeds and treasure",
+    "grammar": "Contextual translation",
     "lemma": "hladen"
   },
   "hladon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old work of giants, by one alone;",
+    "grammar": "Contextual translation",
     "lemma": "hladon"
   },
   "hlaford": {
@@ -34983,13 +34983,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlāford-lēas"
   },
   "hlaforde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"I remember the time, when mead we took,",
+    "grammar": "Contextual translation",
     "lemma": "hlaforde"
   },
   "hlafordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus made their mourning the men of Geatland,",
+    "grammar": "Contextual translation",
     "lemma": "hlafordes"
   },
   "hlafordleas": {
@@ -34998,8 +34998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlāford-lēas"
   },
   "hlafordlease": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sore beset and stole their way,",
+    "grammar": "Contextual translation",
     "lemma": "hlafordlease"
   },
   "hlaw": {
@@ -35008,8 +35008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlāw"
   },
   "hlawe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: roared o'er the hillock:10 heads all were melted,",
+    "grammar": "Contextual translation",
     "lemma": "hlawe"
   },
   "hleahtor": {
@@ -35033,8 +35033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlēapan"
   },
   "hleat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haughty hero.3 Hence Heardred's end.",
+    "grammar": "Contextual translation",
     "lemma": "hleat"
   },
   "hleo": {
@@ -35058,8 +35058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlēo-burh"
   },
   "hleonian": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hanging over the hoary rock,",
+    "grammar": "Contextual translation",
     "lemma": "hleonian"
   },
   "hleonian(hlinian)": {
@@ -35088,8 +35088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlēor-bolster"
   },
   "hleorberan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over the cheek-guard; chased with gold,",
+    "grammar": "Contextual translation",
     "lemma": "hleorberan"
   },
   "hleorberg": {
@@ -35158,13 +35158,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlēoþrian"
   },
   "hli": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to folk of mine memorial fair",
+    "grammar": "Contextual translation",
     "lemma": "hli"
   },
   "hlifade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: treasure at banquet: there towered the hall,",
+    "grammar": "Contextual translation",
     "lemma": "hlifade"
   },
   "hlifi": {
@@ -35193,8 +35193,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlim-bed(d)"
   },
   "hlimbed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Found on the sand there, stretched at rest,",
+    "grammar": "Contextual translation",
     "lemma": "hlimbed"
   },
   "hlimbed(d)": {
@@ -35223,8 +35223,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlið"
   },
   "hliðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trusty as ever, the earl's return.",
+    "grammar": "Contextual translation",
     "lemma": "hliðes"
   },
   "hlud": {
@@ -35233,13 +35233,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlūd"
   },
   "hludne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high in the hall: there harps rang out,",
+    "grammar": "Contextual translation",
     "lemma": "hludne"
   },
   "hlyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then was laughter of liegemen loud resounding",
+    "grammar": "Contextual translation",
     "lemma": "hlyn"
   },
   "hlyn(n)": {
@@ -35263,8 +35263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlynnan"
   },
   "hlynode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: roared o'er the hillock:10 heads all were melted,",
+    "grammar": "Contextual translation",
     "lemma": "hlynode"
   },
   "hlynsi": {
@@ -35283,8 +35283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlynsian"
   },
   "hlynsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: those savage hall-guards: the house resounded. rm",
+    "grammar": "Contextual translation",
     "lemma": "hlynsode"
   },
   "hlytm": {
@@ -35293,8 +35293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlytm"
   },
   "hlytme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a lighted torch and led the way.",
+    "grammar": "Contextual translation",
     "lemma": "hlytme"
   },
   "hlæst": {
@@ -35303,8 +35303,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlæst"
   },
   "hlæste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no hero 'neath heaven, \u0015 who harbored that freight!",
+    "grammar": "Contextual translation",
     "lemma": "hlæste"
   },
   "hlæw": {
@@ -35313,13 +35313,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hlǣw"
   },
   "hlæwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was seen of the serpent: the sword had ta'en him.",
+    "grammar": "Contextual translation",
     "lemma": "hlæwe"
   },
   "hnagran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght no feebler I count me,",
+    "grammar": "Contextual translation",
     "lemma": "hnagran"
   },
   "hnah": {
@@ -35328,8 +35328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hnāh"
   },
   "hnahran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my precious hoard, on a punier man,",
+    "grammar": "Contextual translation",
     "lemma": "hnahran"
   },
   "hnit": {
@@ -35348,28 +35348,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hnītan"
   },
   "hniton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when warriors clashed and we warded our heads,",
+    "grammar": "Contextual translation",
     "lemma": "hniton"
   },
   "hnæf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Healfdene's hero, Hnaef the Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "hnæf"
   },
   "hnæfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: It was Hildeburh's hest, at Hnaef's own pyre",
+    "grammar": "Contextual translation",
     "lemma": "hnæfes"
   },
   "hoces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: None doubted why the daughter of Hoc",
+    "grammar": "Contextual translation",
     "lemma": "hoces"
   },
   "hoe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The folk of the Weders fashioned there",
+    "grammar": "Contextual translation",
     "lemma": "hoe"
   },
   "hof": {
@@ -35378,23 +35378,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hof"
   },
   "hofe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and Hrothgar homeward hasten away,",
+    "grammar": "Contextual translation",
     "lemma": "hofe"
   },
   "hofu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re belched out,",
+    "grammar": "Contextual translation",
     "lemma": "hofu"
   },
   "hofum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and lending thee might when thou lackest men.",
+    "grammar": "Contextual translation",
     "lemma": "hofum"
   },
   "hogode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This was my thought, when my thanes and I",
+    "grammar": "Contextual translation",
     "lemma": "hogode"
   },
   "hoh": {
@@ -35408,13 +35408,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hold"
   },
   "holdne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To thy lord and liege in loyal mood",
+    "grammar": "Contextual translation",
     "lemma": "holdne"
   },
   "holdra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gory the hall: I had heroes the less,",
+    "grammar": "Contextual translation",
     "lemma": "holdra"
   },
   "holing": {
@@ -35458,13 +35458,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "holm-wylm"
   },
   "holma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The leader then, by thy life, besought me",
+    "grammar": "Contextual translation",
     "lemma": "holma"
   },
   "holmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: here o'er the waters? A warden I,",
+    "grammar": "Contextual translation",
     "lemma": "holmas"
   },
   "holmclif": {
@@ -35473,18 +35473,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "holm-clif"
   },
   "holmclife": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood on the foreland there.",
+    "grammar": "Contextual translation",
     "lemma": "holmclife"
   },
   "holmclifu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a warden that watched the water-side,",
+    "grammar": "Contextual translation",
     "lemma": "holmclifu"
   },
   "holme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haste o'er the billows; nor him I abandoned.",
+    "grammar": "Contextual translation",
     "lemma": "holme"
   },
   "holmwylm": {
@@ -35493,8 +35493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "holm-wylm"
   },
   "holmwylme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till he came in ken of that cavern-hall,",
+    "grammar": "Contextual translation",
     "lemma": "holmwylme"
   },
   "holt": {
@@ -35523,8 +35523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "homer"
   },
   "homera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For edges of iron had ended its days,",
+    "grammar": "Contextual translation",
     "lemma": "homera"
   },
   "hond": {
@@ -35613,8 +35613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-wundor"
   },
   "honda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: held in hand; hateful alive",
+    "grammar": "Contextual translation",
     "lemma": "honda"
   },
   "hondgemot": {
@@ -35623,8 +35623,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-ġemōt"
   },
   "hondgemota": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: strife hand to hand, and had helmets cloven,",
+    "grammar": "Contextual translation",
     "lemma": "hondgemota"
   },
   "hondgesella": {
@@ -35633,13 +35633,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-ġesella"
   },
   "hondgesellum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my warrior-friends, if War should seize me;",
+    "grammar": "Contextual translation",
     "lemma": "hondgesellum"
   },
   "hondgesteallan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or with deep-hid treachery death contrive",
+    "grammar": "Contextual translation",
     "lemma": "hondgesteallan"
   },
   "hondgeweorc": {
@@ -35648,8 +35648,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-ġeweorc"
   },
   "hondgeweorce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of its prizes: prone it sank",
+    "grammar": "Contextual translation",
     "lemma": "hondgeweorce"
   },
   "hondlocen": {
@@ -35663,18 +35663,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-rǣs"
   },
   "hondscio": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where safe and sound we sentried the hall.",
+    "grammar": "Contextual translation",
     "lemma": "hondscio"
   },
   "hondscole": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grandson of Garmund, grim in war.",
+    "grammar": "Contextual translation",
     "lemma": "hondscole"
   },
   "hondum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: His breastplate broad and bright of hues,",
+    "grammar": "Contextual translation",
     "lemma": "hondum"
   },
   "hondwundor": {
@@ -35683,8 +35683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hond-wundor"
   },
   "hondwundra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: His glance too fell on a gold-wove banner",
+    "grammar": "Contextual translation",
     "lemma": "hondwundra"
   },
   "hongi": {
@@ -35698,8 +35698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hongian"
   },
   "hongiað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and o'er it the frost-bound forest hanging,",
+    "grammar": "Contextual translation",
     "lemma": "hongiað"
   },
   "hongie": {
@@ -35843,13 +35843,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-burh"
   },
   "horde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heaped from hoard. \u0015 The hardy Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "horde"
   },
   "hordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that herded the hoard:1 under hoary rock",
+    "grammar": "Contextual translation",
     "lemma": "hordes"
   },
   "hordgestreon": {
@@ -35858,13 +35858,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-ġestrēon"
   },
   "hordgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such heap from the hoard as hands could bear",
+    "grammar": "Contextual translation",
     "lemma": "hordgestreona"
   },
   "hordgestreonum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was heavily laden: high its mast",
+    "grammar": "Contextual translation",
     "lemma": "hordgestreonum"
   },
   "hordmaððum": {
@@ -35883,8 +35883,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-wela"
   },
   "hordwelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his days on earth, and the dragon with him,",
+    "grammar": "Contextual translation",
     "lemma": "hordwelan"
   },
   "hordweorþung": {
@@ -35893,8 +35893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-weorþung"
   },
   "hordweorþunge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my precious hoard, on a punier man,",
+    "grammar": "Contextual translation",
     "lemma": "hordweorþunge"
   },
   "hordwyn(n)": {
@@ -35903,8 +35903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-wyn(n)"
   },
   "hordwynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by day and by night, till death's fell wave",
+    "grammar": "Contextual translation",
     "lemma": "hordwynne"
   },
   "hordwyrðe": {
@@ -35913,8 +35913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-wyrðe"
   },
   "hordwyrðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: there laid within it his lordly heirlooms",
+    "grammar": "Contextual translation",
     "lemma": "hordwyrðne"
   },
   "hordærn": {
@@ -35923,13 +35923,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hord-ærn"
   },
   "hordærna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Powerful this plague-of-the-people thus",
+    "grammar": "Contextual translation",
     "lemma": "hordærna"
   },
   "hordærne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ier-afar had fallen to ground",
+    "grammar": "Contextual translation",
     "lemma": "hordærne"
   },
   "horn": {
@@ -35983,8 +35983,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "horn-boga"
   },
   "hornbogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by kinsman's deed, was the death-bed strewn,",
+    "grammar": "Contextual translation",
     "lemma": "hornbogan"
   },
   "horngeap": {
@@ -35998,8 +35998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "horn-reċed"
   },
   "hornum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the horn-proud hart, this holt should seek, rst",
+    "grammar": "Contextual translation",
     "lemma": "hornum"
   },
   "hors": {
@@ -36013,8 +36013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hōs"
   },
   "hose": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: measured the path to the mead-house fair.",
+    "grammar": "Contextual translation",
     "lemma": "hose"
   },
   "hoðm": {
@@ -36028,8 +36028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hoðma"
   },
   "hoðman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reft of revel. The rider sleepeth,",
+    "grammar": "Contextual translation",
     "lemma": "hoðman"
   },
   "hoðme": {
@@ -36038,8 +36038,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hoðma"
   },
   "hra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heorot's battle. The body sprang far",
+    "grammar": "Contextual translation",
     "lemma": "hra"
   },
   "hra fyl(l)": {
@@ -36058,8 +36058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrā-fyl(l)"
   },
   "hrafyl": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hatred and murder. To Hrothgar I",
+    "grammar": "Contextual translation",
     "lemma": "hrafyl"
   },
   "hrafyl(l)": {
@@ -36068,13 +36068,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrā-fyl(l)"
   },
   "hran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by day and by night, till death's fell wave",
+    "grammar": "Contextual translation",
     "lemma": "hran"
   },
   "hraðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their journey ended. Up then quickly",
+    "grammar": "Contextual translation",
     "lemma": "hraðe"
   },
   "hraþ": {
@@ -36088,8 +36088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hraþe"
   },
   "hraþor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haste o'er the billows; nor him I abandoned.",
+    "grammar": "Contextual translation",
     "lemma": "hraþor"
   },
   "hrea wic": {
@@ -36108,8 +36108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēam"
   },
   "hreas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wide split the war-helm: wan he fell,",
+    "grammar": "Contextual translation",
     "lemma": "hreas"
   },
   "hreawic": {
@@ -36118,8 +36118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēa-wīċ"
   },
   "hrefn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rose gabled and gilt where the guest slept on",
+    "grammar": "Contextual translation",
     "lemma": "hrefn"
   },
   "hrefn(hræfn)": {
@@ -36128,13 +36128,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrefn(hræfn)"
   },
   "hrefne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sorrow-song for his son there hanging",
+    "grammar": "Contextual translation",
     "lemma": "hrefne"
   },
   "hrefnesholt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sore beset and stole their way,",
+    "grammar": "Contextual translation",
     "lemma": "hrefnesholt"
   },
   "hreme": {
@@ -36143,8 +36143,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēmiġ"
   },
   "hremge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: coats of mail, when he came to the sea!",
+    "grammar": "Contextual translation",
     "lemma": "hremge"
   },
   "hremig": {
@@ -36153,8 +36153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēmiġ"
   },
   "hreo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless rushed on us: rough was the surge.",
+    "grammar": "Contextual translation",
     "lemma": "hreo"
   },
   "hreoh": {
@@ -36178,8 +36178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēoh-mōd"
   },
   "hreon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the hoary hero, at heart was sad",
+    "grammar": "Contextual translation",
     "lemma": "hreon"
   },
   "hreos": {
@@ -36198,13 +36198,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēosan"
   },
   "hreosnabeorh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: strife-keen, bold, nor brooked o'er the seas",
+    "grammar": "Contextual translation",
     "lemma": "hreosnabeorh"
   },
   "hreoum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his baleful stress. \u0015 Then the barrow's keeper",
+    "grammar": "Contextual translation",
     "lemma": "hreoum"
   },
   "hreow": {
@@ -36213,8 +36213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēow"
   },
   "hreowa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she had carried the corpse with cruel hands.",
+    "grammar": "Contextual translation",
     "lemma": "hreowa"
   },
   "hreð": {
@@ -36233,8 +36233,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēð-sigor"
   },
   "hreðel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friend-of-his-folk, from my father took me,",
+    "grammar": "Contextual translation",
     "lemma": "hreðel"
   },
   "hreðer": {
@@ -36243,33 +36243,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hreðer"
   },
   "hreðles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the bulwark-of-earls1 bade bring within,",
+    "grammar": "Contextual translation",
     "lemma": "hreðles"
   },
   "hreðlingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er peaceful plains in pride advancing,",
+    "grammar": "Contextual translation",
     "lemma": "hreðlingas"
   },
   "hreðmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my noblest thanes. Nor need'st thou then",
+    "grammar": "Contextual translation",
     "lemma": "hreðmanna"
   },
   "hreðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heavy at heart, \u0015 in the hero young",
+    "grammar": "Contextual translation",
     "lemma": "hreðra"
   },
   "hreðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that gift-throne of Geats. To the good old man",
+    "grammar": "Contextual translation",
     "lemma": "hreðre"
   },
   "hreðric": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethric and Hrothmund, with heroes' bairns,",
+    "grammar": "Contextual translation",
     "lemma": "hreðric"
   },
   "hreðsigor": {
@@ -36278,13 +36278,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrēð-sigor"
   },
   "hreðsigora": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ames; wide drove and far",
+    "grammar": "Contextual translation",
     "lemma": "hreðsigora"
   },
   "hreðæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but once in his life! But Wyrd denied it,",
+    "grammar": "Contextual translation",
     "lemma": "hreðæt"
   },
   "hreþ": {
@@ -36298,8 +36298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hreþe"
   },
   "hreþel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to whom, at home, gave Hrethel the Geat",
+    "grammar": "Contextual translation",
     "lemma": "hreþel"
   },
   "hreþer bealo": {
@@ -36318,23 +36318,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hreþer-bealo"
   },
   "hreþles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if ever it hap that Hrethel's heir",
+    "grammar": "Contextual translation",
     "lemma": "hreþles"
   },
   "hreþling": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was it thence to go to the giver of rings,",
+    "grammar": "Contextual translation",
     "lemma": "hreþling"
   },
   "hreþre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bode not in breast. The burg was reddened",
+    "grammar": "Contextual translation",
     "lemma": "hreþre"
   },
   "hreþric": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and lending thee might when thou lackest men.",
+    "grammar": "Contextual translation",
     "lemma": "hreþric"
   },
   "hrin": {
@@ -36473,8 +36473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġ-weorðung"
   },
   "hringa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the lord of rings to the lair she haunted",
+    "grammar": "Contextual translation",
     "lemma": "hringa"
   },
   "hringan": {
@@ -36483,8 +36483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġan"
   },
   "hringas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: corselet and rings, and of collars the noblest",
+    "grammar": "Contextual translation",
     "lemma": "hringas"
   },
   "hringboga": {
@@ -36493,28 +36493,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġ-boga"
   },
   "hringbogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lord of the Geats, against the loathed-one;",
+    "grammar": "Contextual translation",
     "lemma": "hringbogan"
   },
   "hringde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: killed by Weohstan, who won for his kin",
+    "grammar": "Contextual translation",
     "lemma": "hringde"
   },
   "hringdena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in haste shall o'erwhelm, thou hero of war!",
+    "grammar": "Contextual translation",
     "lemma": "hringdena"
   },
   "hringdene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that haughty house, and heed wherever",
+    "grammar": "Contextual translation",
     "lemma": "hringdene"
   },
   "hringdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and bowed them to bench: the breastplates clanged,",
+    "grammar": "Contextual translation",
     "lemma": "hringdon"
   },
   "hringe": {
@@ -36553,8 +36553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġed-stefna"
   },
   "hringedstefnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce",
+    "grammar": "Contextual translation",
     "lemma": "hringedstefnan"
   },
   "hringiren": {
@@ -36573,8 +36573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġ-naca"
   },
   "hringnet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: CAME now to ocean the ever-courageous",
+    "grammar": "Contextual translation",
     "lemma": "hringnet"
   },
   "hringnet(t)": {
@@ -36588,8 +36588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġ-sele"
   },
   "hringum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the folk of Hengest favor with rings,",
+    "grammar": "Contextual translation",
     "lemma": "hringum"
   },
   "hringweorðung": {
@@ -36598,8 +36598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrinġ-weorðung"
   },
   "hringweorðunge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: memorial jewel. No maiden fair",
+    "grammar": "Contextual translation",
     "lemma": "hringweorðunge"
   },
   "hrod": {
@@ -36663,8 +36663,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hron-rād"
   },
   "hronesnæsse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: countless quite! \u0015 and the king was borne,",
+    "grammar": "Contextual translation",
     "lemma": "hronesnæsse"
   },
   "hronfisc": {
@@ -36678,8 +36678,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hron-rād"
   },
   "hronrade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who house by the whale-path, heard his mandate,",
+    "grammar": "Contextual translation",
     "lemma": "hronrade"
   },
   "hror": {
@@ -36688,28 +36688,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrōr"
   },
   "hroran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Soon from the hardy one helmet and armor",
+    "grammar": "Contextual translation",
     "lemma": "hroran"
   },
   "hroðgar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heorogar, then Hrothgar, then Halga brave;",
+    "grammar": "Contextual translation",
     "lemma": "hroðgar"
   },
   "hroðgare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Hrothgar was given such glory of war,",
+    "grammar": "Contextual translation",
     "lemma": "hroðgare"
   },
   "hroðgares": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's henchman; with hand of might",
+    "grammar": "Contextual translation",
     "lemma": "hroðgares"
   },
   "hroðmund": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethric and Hrothmund, with heroes' bairns,",
+    "grammar": "Contextual translation",
     "lemma": "hroðmund"
   },
   "hroðor": {
@@ -36718,43 +36718,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrōðor"
   },
   "hroðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sorrow-song for his son there hanging",
+    "grammar": "Contextual translation",
     "lemma": "hroðre"
   },
   "hroþgar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THEN Hrothgar went with his hero-train,",
+    "grammar": "Contextual translation",
     "lemma": "hroþgar"
   },
   "hroþgare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He was for Hrothgar of heroes the dearest,",
+    "grammar": "Contextual translation",
     "lemma": "hroþgare"
   },
   "hroþgares": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that he the home of Hrothgar sought, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hroþgares"
   },
   "hroþra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by hardy Hygelac held full dear,",
+    "grammar": "Contextual translation",
     "lemma": "hroþra"
   },
   "hroþulf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar and Hrothulf. Heorot now",
+    "grammar": "Contextual translation",
     "lemma": "hroþulf"
   },
   "hrunting": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Hrunting\" they named the hilted sword,",
+    "grammar": "Contextual translation",
     "lemma": "hrunting"
   },
   "hruntinge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard of edge: with Hrunting I",
+    "grammar": "Contextual translation",
     "lemma": "hruntinge"
   },
   "hrur": {
@@ -36778,8 +36778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hrūse"
   },
   "hrusan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the strain of their struggle stood, to earth",
+    "grammar": "Contextual translation",
     "lemma": "hrusan"
   },
   "hruse": {
@@ -36808,8 +36808,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hryre"
   },
   "hrysedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anchored their sea-wood, with armor clashing",
+    "grammar": "Contextual translation",
     "lemma": "hrysedon"
   },
   "hryssan(hrissan)": {
@@ -36833,13 +36833,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hræd-līċe"
   },
   "hrædlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: armor excellent, heirloom of Hrethel",
+    "grammar": "Contextual translation",
     "lemma": "hrædlan"
   },
   "hrædles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethel's son see, when he stares at the treasure,",
+    "grammar": "Contextual translation",
     "lemma": "hrædles"
   },
   "hrædlice": {
@@ -36868,13 +36868,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hræġl"
   },
   "hrægla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: armor excellent, heirloom of Hrethel",
+    "grammar": "Contextual translation",
     "lemma": "hrægla"
   },
   "hrægles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf lov'd, these battle-weeds wear,",
+    "grammar": "Contextual translation",
     "lemma": "hrægles"
   },
   "hræð": {
@@ -36893,8 +36893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hræðre"
   },
   "hræþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swift on the billows, with boar-spears well",
+    "grammar": "Contextual translation",
     "lemma": "hræþe"
   },
   "hu": {
@@ -36903,8 +36903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hū"
   },
   "huga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since for my doughtiness Daeghrefn fell,",
+    "grammar": "Contextual translation",
     "lemma": "huga"
   },
   "hund": {
@@ -36913,13 +36913,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hund"
   },
   "hundum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nay, though the heath-rover, harried by dogs,",
+    "grammar": "Contextual translation",
     "lemma": "hundum"
   },
   "hunla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ng,\" the light-of-battle,",
+    "grammar": "Contextual translation",
     "lemma": "hunla"
   },
   "huru": {
@@ -36933,13 +36933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hūs"
   },
   "husa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that lordly building, and long it bode so.",
+    "grammar": "Contextual translation",
     "lemma": "husa"
   },
   "huses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that haughty house, and heed wherever",
+    "grammar": "Contextual translation",
     "lemma": "huses"
   },
   "huð": {
@@ -36948,8 +36948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hūð"
   },
   "huðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain of his fell spoil, faring homeward,",
+    "grammar": "Contextual translation",
     "lemma": "huðe"
   },
   "hw": {
@@ -36963,8 +36963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwā"
   },
   "hwam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for whom the serpent-traced sword was wrought,",
+    "grammar": "Contextual translation",
     "lemma": "hwam"
   },
   "hwan": {
@@ -36983,8 +36983,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwanan"
   },
   "hwanon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Whence, now, bear ye burnished shields,",
+    "grammar": "Contextual translation",
     "lemma": "hwanon"
   },
   "hwar": {
@@ -36998,8 +36998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwate"
   },
   "hwata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when he and the wolf were wasting the slain.\"",
+    "grammar": "Contextual translation",
     "lemma": "hwata"
   },
   "hwate": {
@@ -37013,13 +37013,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwatu"
   },
   "hwatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet not to his son the sovran left it,",
+    "grammar": "Contextual translation",
     "lemma": "hwatum"
   },
   "hwaþere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet I came unharmed from that hostile clutch,",
+    "grammar": "Contextual translation",
     "lemma": "hwaþere"
   },
   "hwe": {
@@ -37033,8 +37033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwealf"
   },
   "hwearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in fame with all folk, since his father had gone",
+    "grammar": "Contextual translation",
     "lemma": "hwearf"
   },
   "hwearf lata": {
@@ -37118,8 +37118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwettan"
   },
   "hwetton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they whetted the hero, and hailed good omens.",
+    "grammar": "Contextual translation",
     "lemma": "hwetton"
   },
   "hwil": {
@@ -37128,13 +37128,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwīl"
   },
   "hwile": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so long a while; the Lord endowed him,",
+    "grammar": "Contextual translation",
     "lemma": "hwile"
   },
   "hwilum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Whiles they vowed in their heathen fanes",
+    "grammar": "Contextual translation",
     "lemma": "hwilum"
   },
   "hwit": {
@@ -37143,13 +37143,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwīt"
   },
   "hwita": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And the helmet white that his head protected",
+    "grammar": "Contextual translation",
     "lemma": "hwita"
   },
   "hwone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to deal with any of Daneland's earls,",
+    "grammar": "Contextual translation",
     "lemma": "hwone"
   },
   "hworf": {
@@ -37168,8 +37168,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hworfan"
   },
   "hwurfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Full of winters, he fared away",
+    "grammar": "Contextual translation",
     "lemma": "hwurfe"
   },
   "hwyder": {
@@ -37183,13 +37183,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwylċ"
   },
   "hwylce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the lofty hall, sore longing to know",
+    "grammar": "Contextual translation",
     "lemma": "hwylce"
   },
   "hwylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Helper of Heroes, the hoard to open, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hwylcum"
   },
   "hwyrf": {
@@ -37203,8 +37203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwyrfan"
   },
   "hwyrfaþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of mortal beings that breathe and move.",
+    "grammar": "Contextual translation",
     "lemma": "hwyrfaþ"
   },
   "hwyrfe": {
@@ -37218,8 +37218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwyrft"
   },
   "hwyrftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where the haunts of these Hell-Runes3 be.",
+    "grammar": "Contextual translation",
     "lemma": "hwyrftum"
   },
   "hwæder": {
@@ -37243,8 +37243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwæðer"
   },
   "hwæðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tottered that guest, and terror seized him;",
+    "grammar": "Contextual translation",
     "lemma": "hwæðre"
   },
   "hwæþ": {
@@ -37258,8 +37258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwæþer"
   },
   "hwæþere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And so it came that I killed with my sword",
+    "grammar": "Contextual translation",
     "lemma": "hwæþere"
   },
   "hwæþr": {
@@ -37273,8 +37273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hwæþre"
   },
   "hy": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes in haste, till the hall they saw,",
+    "grammar": "Contextual translation",
     "lemma": "hy"
   },
   "hycg": {
@@ -37293,13 +37293,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hycgan"
   },
   "hydan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to hide my head;3 for his shall I be,",
+    "grammar": "Contextual translation",
     "lemma": "hydan"
   },
   "hyde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: booty from barrow, can burden with pride",
+    "grammar": "Contextual translation",
     "lemma": "hyde"
   },
   "hyg": {
@@ -37308,13 +37308,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyġe"
   },
   "hygd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Haughty that house, a hero the king,",
+    "grammar": "Contextual translation",
     "lemma": "hygd"
   },
   "hygde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and each kept watch o'er the other's weal.",
+    "grammar": "Contextual translation",
     "lemma": "hygde"
   },
   "hyge": {
@@ -37373,8 +37373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyġe-bend"
   },
   "hygebendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his breast's wild billows he banned in vain;",
+    "grammar": "Contextual translation",
     "lemma": "hygebendum"
   },
   "hygegiomor": {
@@ -37383,18 +37383,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyġe-ġiōmor"
   },
   "hygelac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd me favor. Few indeed",
+    "grammar": "Contextual translation",
     "lemma": "hygelac"
   },
   "hygelace": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or with deep-hid treachery death contrive",
+    "grammar": "Contextual translation",
     "lemma": "hygelace"
   },
   "hygelaces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For him the keen-souled kinsman of Hygelac",
+    "grammar": "Contextual translation",
     "lemma": "hygelaces"
   },
   "hygemeðe": {
@@ -37403,8 +37403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyġe-mēðe"
   },
   "hygesorga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that gift-throne of Geats. To the good old man",
+    "grammar": "Contextual translation",
     "lemma": "hygesorga"
   },
   "hygesorh": {
@@ -37418,8 +37418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyht"
   },
   "hylaces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heedful of high deeds, Hygelac's kinsman;",
+    "grammar": "Contextual translation",
     "lemma": "hylaces"
   },
   "hyld": {
@@ -37448,33 +37448,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hylt"
   },
   "hym": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He bound to the beach the broad-bosomed ship",
+    "grammar": "Contextual translation",
     "lemma": "hym"
   },
   "hynde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as the grim destroyer those Geatish people",
+    "grammar": "Contextual translation",
     "lemma": "hynde"
   },
   "hyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then they bore him over to ocean's billow,",
+    "grammar": "Contextual translation",
     "lemma": "hyne"
   },
   "hynða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harassings heavy. O'er Heorot he lorded,",
+    "grammar": "Contextual translation",
     "lemma": "hynða"
   },
   "hynðo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in Heorot Grendel with hate hath wrought,",
+    "grammar": "Contextual translation",
     "lemma": "hynðo"
   },
   "hynðu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hatred and murder. To Hrothgar I",
+    "grammar": "Contextual translation",
     "lemma": "hynðu"
   },
   "hyr": {
@@ -37483,13 +37483,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrde"
   },
   "hyra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the pain of their people. Their practice this,",
+    "grammar": "Contextual translation",
     "lemma": "hyra"
   },
   "hyran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who house by the whale-path, heard his mandate,",
+    "grammar": "Contextual translation",
     "lemma": "hyran"
   },
   "hyrd": {
@@ -37498,8 +37498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrde"
   },
   "hyrdas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the house's wardens. That war-sword then",
+    "grammar": "Contextual translation",
     "lemma": "hyrdas"
   },
   "hyrde": {
@@ -37508,13 +37508,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrde"
   },
   "hyrdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: obeyed him gladly till great grew his band",
+    "grammar": "Contextual translation",
     "lemma": "hyrdon"
   },
   "hyre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the God of the ages was good to her",
+    "grammar": "Contextual translation",
     "lemma": "hyre"
   },
   "hyrst": {
@@ -37523,8 +37523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrstan"
   },
   "hyrsta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: They placed in the barrow that precious booty,",
+    "grammar": "Contextual translation",
     "lemma": "hyrsta"
   },
   "hyrstan": {
@@ -37538,8 +37538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrstan"
   },
   "hyrsted": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: helmet from head; to his henchman gave, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hyrsted"
   },
   "hyrsted gold": {
@@ -37558,8 +37558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyrsted-gold"
   },
   "hyrstum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unburnished bowls of bygone men",
+    "grammar": "Contextual translation",
     "lemma": "hyrstum"
   },
   "hyrt": {
@@ -37588,8 +37588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyse"
   },
   "hyt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish foe was fain to thrust",
+    "grammar": "Contextual translation",
     "lemma": "hyt"
   },
   "hyt(t)(hit[t])": {
@@ -37598,18 +37598,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hyt(t)(hit[t])"
   },
   "hyðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In the roadstead rocked a ring-dight vessel,",
+    "grammar": "Contextual translation",
     "lemma": "hyðe"
   },
   "hyðweard": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stirred by winds, on the strand updrove.",
+    "grammar": "Contextual translation",
     "lemma": "hyðweard"
   },
   "hæbbe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bold-in-battle. Blessed God",
+    "grammar": "Contextual translation",
     "lemma": "hæbbe"
   },
   "hæf": {
@@ -37618,13 +37618,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hæf"
   },
   "hæfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whose message had might in many a land.",
+    "grammar": "Contextual translation",
     "lemma": "hæfde"
   },
   "hæfdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Ring-Danes, outrevelled, to rest had gone.",
+    "grammar": "Contextual translation",
     "lemma": "hæfdon"
   },
   "hæfe": {
@@ -37673,8 +37673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hæft-mēċe"
   },
   "hæftnyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: deaths enow, and doom of battle,",
+    "grammar": "Contextual translation",
     "lemma": "hæftnyd"
   },
   "hæftnуd": {
@@ -37683,8 +37683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hæft-nӯd"
   },
   "hæfton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from captive of hell. Too closely held him",
+    "grammar": "Contextual translation",
     "lemma": "hæfton"
   },
   "hæg steald": {
@@ -37703,8 +37703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hæġ-steald"
   },
   "hægstealdra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: CAME now to ocean the ever-courageous",
+    "grammar": "Contextual translation",
     "lemma": "hægstealdra"
   },
   "hæl": {
@@ -37718,48 +37718,48 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hæle"
   },
   "hæleð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the woe of these days; not wisest men",
+    "grammar": "Contextual translation",
     "lemma": "hæleð"
   },
   "hæleða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: blithe in Heorot. Heroes revelled,",
+    "grammar": "Contextual translation",
     "lemma": "hæleða"
   },
   "hæleðhealfdena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Healfdene's hero, Hnaef the Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "hæleðhealfdena"
   },
   "hæleðhiofende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and they laid amid it the mighty chieftain,",
+    "grammar": "Contextual translation",
     "lemma": "hæleðhiofende"
   },
   "hæleðin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reft of revel. The rider sleepeth,",
+    "grammar": "Contextual translation",
     "lemma": "hæleðin"
   },
   "hæleðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that warden of rings. Few words he spake:",
+    "grammar": "Contextual translation",
     "lemma": "hæleðne"
   },
   "hæleðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in far-o\u001b years, to folk of thine,",
+    "grammar": "Contextual translation",
     "lemma": "hæleðum"
   },
   "hæleðunder": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no hero 'neath heaven, \u0015 who harbored that freight!",
+    "grammar": "Contextual translation",
     "lemma": "hæleðunder"
   },
   "hæleþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this hoard-hold of heroes. Heorogar was dead,",
+    "grammar": "Contextual translation",
     "lemma": "hæleþa"
   },
   "hælo": {
@@ -37768,13 +37768,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hǣlo"
   },
   "hæreðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with manly words. The mead dispensing,",
+    "grammar": "Contextual translation",
     "lemma": "hæreðes"
   },
   "hæreþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in those fortress walls she had found a home,",
+    "grammar": "Contextual translation",
     "lemma": "hæreþes"
   },
   "hærg træf": {
@@ -37788,8 +37788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hærg-træf"
   },
   "hærgtrafum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Whiles they vowed in their heathen fanes",
+    "grammar": "Contextual translation",
     "lemma": "hærgtrafum"
   },
   "hærgtræf": {
@@ -37813,8 +37813,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hǣste"
   },
   "hæstne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel in grimmest grasp thou killedst, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "hæstne"
   },
   "hæð stapa": {
@@ -37838,28 +37838,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hǣð-stapa"
   },
   "hæðcen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how Ongentheow reft at Ravenswood",
+    "grammar": "Contextual translation",
     "lemma": "hæðcen"
   },
   "hæðcyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bairn in the burg, than his birthright sons,",
+    "grammar": "Contextual translation",
     "lemma": "hæðcyn"
   },
   "hæðcynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though one of them bought it with blood of his heart,",
+    "grammar": "Contextual translation",
     "lemma": "hæðcynne"
   },
   "hæðen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dread him sore. 'Tis his doom to seek",
+    "grammar": "Contextual translation",
     "lemma": "hæðen"
   },
   "hæðnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came by chance that cave within",
+    "grammar": "Contextual translation",
     "lemma": "hæðnum"
   },
   "hæðstapa": {
@@ -37883,18 +37883,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "hǣþen"
   },
   "hæþene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his heathen soul,-and hell received it.",
+    "grammar": "Contextual translation",
     "lemma": "hæþene"
   },
   "hæþenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heathen's \"hand-spear,\" hostile warrior's",
+    "grammar": "Contextual translation",
     "lemma": "hæþenes"
   },
   "hæþenra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their heathen hope; 'twas Hell they thought of",
+    "grammar": "Contextual translation",
     "lemma": "hæþenra"
   },
   "hуd": {
@@ -38028,8 +38028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ides"
   },
   "idese": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of womankind; and one, accursed,",
+    "grammar": "Contextual translation",
     "lemma": "idese"
   },
   "in": {
@@ -38098,8 +38098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inċ"
   },
   "incer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: not one of you pair, in the play of war",
+    "grammar": "Contextual translation",
     "lemma": "incer"
   },
   "incge laf": {
@@ -38118,8 +38118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inċġe-lāf"
   },
   "incgelafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lord of the Geats, the grim foe smote",
+    "grammar": "Contextual translation",
     "lemma": "incgelafe"
   },
   "infrod": {
@@ -38128,8 +38128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "in-frōd"
   },
   "infrodum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the hoary-headed. Heavy with winters,",
+    "grammar": "Contextual translation",
     "lemma": "infrodum"
   },
   "ingang": {
@@ -38138,8 +38138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "in-gang"
   },
   "ingelde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And thus be broken on both their sides",
+    "grammar": "Contextual translation",
     "lemma": "ingelde"
   },
   "ingenga": {
@@ -38153,8 +38153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "in-ġesteald"
   },
   "ingwina": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the refuge-of-Ingwines right and power,",
+    "grammar": "Contextual translation",
     "lemma": "ingwina"
   },
   "inn": {
@@ -38218,8 +38218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inwid-sorg"
   },
   "inwidsorge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their bale of battle borne so long,",
+    "grammar": "Contextual translation",
     "lemma": "inwidsorge"
   },
   "inwit feng": {
@@ -38328,8 +38328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inwit-hrōf"
   },
   "inwitnet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he gave to the king. So should kinsmen be,",
+    "grammar": "Contextual translation",
     "lemma": "inwitnet"
   },
   "inwitnet(t)": {
@@ -38343,13 +38343,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inwit-nīð"
   },
   "inwitniða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that of these folk-horrors fewer she wrought,",
+    "grammar": "Contextual translation",
     "lemma": "inwitniða"
   },
   "inwitniþas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall have mutual peace, and from murderous strife,",
+    "grammar": "Contextual translation",
     "lemma": "inwitniþas"
   },
   "inwitscear": {
@@ -38373,8 +38373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "inwit-þanc"
   },
   "inwitþancum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: prompt to answer, propped on his arm.",
+    "grammar": "Contextual translation",
     "lemma": "inwitþancum"
   },
   "io meowle": {
@@ -38393,8 +38393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "iō-meowle"
   },
   "iofore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethel's o\u001bspring, when home he came,",
+    "grammar": "Contextual translation",
     "lemma": "iofore"
   },
   "iogoð": {
@@ -38403,13 +38403,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "iogoð"
   },
   "iogoþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: both old and young; no evil fear,",
+    "grammar": "Contextual translation",
     "lemma": "iogoþe"
   },
   "iomeowlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the sea-king6 he slew, and his spouse redeemed,",
+    "grammar": "Contextual translation",
     "lemma": "iomeowlan"
   },
   "iomeowle": {
@@ -38418,8 +38418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "iō-meowle"
   },
   "iren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best blade; the dragon died in its blood.",
+    "grammar": "Contextual translation",
     "lemma": "iren"
   },
   "iren bend": {
@@ -38478,8 +38478,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īren-þrēat"
   },
   "irena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: choicest of weapons, \u0015 the well-chased sword,",
+    "grammar": "Contextual translation",
     "lemma": "irena"
   },
   "irenbend": {
@@ -38488,13 +38488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īren-bend"
   },
   "irenbendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: within and without by its iron bands",
+    "grammar": "Contextual translation",
     "lemma": "irenbendum"
   },
   "irenbyrnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But Eofor took from Ongentheow,",
+    "grammar": "Contextual translation",
     "lemma": "irenbyrnan"
   },
   "irenbyrne": {
@@ -38508,8 +38508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īren-heard"
   },
   "irenna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no farest of falchions fashioned on earth,",
+    "grammar": "Contextual translation",
     "lemma": "irenna"
   },
   "irenþreat": {
@@ -38568,8 +38568,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īsern-scūr"
   },
   "isernbyrnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Cast o\u001b then his corselet of iron,",
+    "grammar": "Contextual translation",
     "lemma": "isernbyrnan"
   },
   "isernbyrne": {
@@ -38583,8 +38583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īsern-scūr"
   },
   "isernscure": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ames feed on the fearless warrior",
+    "grammar": "Contextual translation",
     "lemma": "isernscure"
   },
   "isgebind": {
@@ -38593,8 +38593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "īs-ġebind"
   },
   "isgebinde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in icy fetters. Then fared another",
+    "grammar": "Contextual translation",
     "lemma": "isgebinde"
   },
   "isig": {
@@ -38623,13 +38623,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "iū-mon(n)"
   },
   "iumonna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For all that heritage huge, that gold",
+    "grammar": "Contextual translation",
     "lemma": "iumonna"
   },
   "kyning": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: banquet and beaker, battle-famed king.",
+    "grammar": "Contextual translation",
     "lemma": "kyning"
   },
   "kyning wuldor": {
@@ -38688,13 +38688,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lācan"
   },
   "lacende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hushed by its hurt, its hoard all near,",
+    "grammar": "Contextual translation",
     "lemma": "lacende"
   },
   "lacum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No less these loaded the lordly gifts,",
+    "grammar": "Contextual translation",
     "lemma": "lacum"
   },
   "lad": {
@@ -38703,8 +38703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lād"
   },
   "lade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: are never molested. \u0015 Light from east,",
+    "grammar": "Contextual translation",
     "lemma": "lade"
   },
   "laf": {
@@ -38713,13 +38713,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāf"
   },
   "lafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Beowulf brandished blade ancestral,",
+    "grammar": "Contextual translation",
     "lemma": "lafe"
   },
   "lagon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By it there stood the stoups and jars;",
+    "grammar": "Contextual translation",
     "lemma": "lagon"
   },
   "lagu": {
@@ -38773,8 +38773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lagu-strēam"
   },
   "lagustreamas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it waft o'er the waters those well-loved thanes,",
+    "grammar": "Contextual translation",
     "lemma": "lagustreamas"
   },
   "lagustræt": {
@@ -38783,8 +38783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lagu-strǣt"
   },
   "lagustræte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have urged thus over the ocean ways,",
+    "grammar": "Contextual translation",
     "lemma": "lagustræte"
   },
   "lah": {
@@ -38873,8 +38873,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "land-weard"
   },
   "landa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the gleam of it lightened o'er lands afar.",
+    "grammar": "Contextual translation",
     "lemma": "landa"
   },
   "landbuend": {
@@ -38883,18 +38883,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "land-būend"
   },
   "landbuendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for a light to lighten the land-dwellers,",
+    "grammar": "Contextual translation",
     "lemma": "landbuendum"
   },
   "lande": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swam then to strand the sailors'-refuge,",
+    "grammar": "Contextual translation",
     "lemma": "lande"
   },
   "landes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Each of them had a hundred thousand3",
+    "grammar": "Contextual translation",
     "lemma": "landes"
   },
   "landfruma": {
@@ -38908,8 +38908,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "land-ġemyrċe"
   },
   "landgemyrcu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nes.",
+    "grammar": "Contextual translation",
     "lemma": "landgemyrcu"
   },
   "landgeweorc": {
@@ -38918,8 +38918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "land-ġeweorc"
   },
   "landwara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to its hoard it hastened at hint of dawn.",
+    "grammar": "Contextual translation",
     "lemma": "landwara"
   },
   "landwaru": {
@@ -38933,8 +38933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "land-weard"
   },
   "lang": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when I all angrily upright stood.",
+    "grammar": "Contextual translation",
     "lemma": "lang"
   },
   "lang twidig": {
@@ -38963,8 +38963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "langað"
   },
   "lange": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so long a while; the Lord endowed him,",
+    "grammar": "Contextual translation",
     "lemma": "lange"
   },
   "langtwidig": {
@@ -38978,18 +38978,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lār"
   },
   "lara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: counsel in kindness: requital be mine.",
+    "grammar": "Contextual translation",
     "lemma": "lara"
   },
   "lare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: atheling haughty, and O\u001ba's hall od",
+    "grammar": "Contextual translation",
     "lemma": "lare"
   },
   "larena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people-protector: be pleased to advise us!",
+    "grammar": "Contextual translation",
     "lemma": "larena"
   },
   "last": {
@@ -38998,8 +38998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāst"
   },
   "lastas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trace of the traitor. Not troublous seemed",
+    "grammar": "Contextual translation",
     "lemma": "lastas"
   },
   "lað": {
@@ -39058,13 +39058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāð-liċ"
   },
   "laða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boiling with wrath was the barrow's keeper,",
+    "grammar": "Contextual translation",
     "lemma": "laða"
   },
   "laðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame.2 Nor far was that day",
+    "grammar": "Contextual translation",
     "lemma": "laðan"
   },
   "laðbite": {
@@ -39073,8 +39073,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāð-bite"
   },
   "laðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and heavy of heart a head-watch3 keeps",
+    "grammar": "Contextual translation",
     "lemma": "laðes"
   },
   "laðgeteona": {
@@ -39083,13 +39083,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāð-ġetēona"
   },
   "laðgeteonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ME thus often the evil monsters",
+    "grammar": "Contextual translation",
     "lemma": "laðgeteonan"
   },
   "laðgewidru": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil storms, and air grows dusk,",
+    "grammar": "Contextual translation",
     "lemma": "laðgewidru"
   },
   "laðlic": {
@@ -39098,58 +39098,58 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lāð-liċ"
   },
   "laðlicu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his horrible prey. Well paid for that",
+    "grammar": "Contextual translation",
     "lemma": "laðlicu"
   },
   "laðlyft": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all landsfolk frighting. No living thing ew.",
+    "grammar": "Contextual translation",
     "lemma": "laðlyft"
   },
   "laðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loathsome, lying their leader near,",
+    "grammar": "Contextual translation",
     "lemma": "laðne"
   },
   "laðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: too long, too loathsome. Not late the respite;",
+    "grammar": "Contextual translation",
     "lemma": "laðond"
   },
   "laðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lest any foe to the folk of Danes",
+    "grammar": "Contextual translation",
     "lemma": "laðra"
   },
   "laðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor e'en could he harass that hero at all",
+    "grammar": "Contextual translation",
     "lemma": "laðum"
   },
   "laðwiðlaþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: foe against foe. Then faith be his",
+    "grammar": "Contextual translation",
     "lemma": "laðwiðlaþum"
   },
   "laþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the linked harness, with loathsome hand.",
+    "grammar": "Contextual translation",
     "lemma": "laþan"
   },
   "laþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trace of the traitor. Not troublous seemed",
+    "grammar": "Contextual translation",
     "lemma": "laþes"
   },
   "laþond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loathly and long, that lay on his folk,",
+    "grammar": "Contextual translation",
     "lemma": "laþond"
   },
   "laþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish sprites",
+    "grammar": "Contextual translation",
     "lemma": "laþum"
   },
   "le": {
@@ -39178,13 +39178,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēafnes-word"
   },
   "leafum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with limbs and leaves, made life for all",
+    "grammar": "Contextual translation",
     "lemma": "leafum"
   },
   "leag": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So he told his sorrowful tidings,",
+    "grammar": "Contextual translation",
     "lemma": "leag"
   },
   "lean": {
@@ -39193,13 +39193,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēan"
   },
   "leana": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who took the trappings, and truly promised",
+    "grammar": "Contextual translation",
     "lemma": "leana"
   },
   "leane": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a gold-wove banner, guerdon of triumph,",
+    "grammar": "Contextual translation",
     "lemma": "leane"
   },
   "leani": {
@@ -39218,18 +39218,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēanian"
   },
   "leanige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght,",
+    "grammar": "Contextual translation",
     "lemma": "leanige"
   },
   "leanode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Me for this struggle the Scyldings'-friend",
+    "grammar": "Contextual translation",
     "lemma": "leanode"
   },
   "leanum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"So held this king to the customs old,",
+    "grammar": "Contextual translation",
     "lemma": "leanum"
   },
   "leas": {
@@ -39258,8 +39258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēas-scēawere"
   },
   "leassceaweras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: suspect to wander your way as spies",
+    "grammar": "Contextual translation",
     "lemma": "leassceaweras"
   },
   "leassceawere": {
@@ -39268,8 +39268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēas-scēawere"
   },
   "leasum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the friendless wight! \u0015 and I fought with that brand,",
+    "grammar": "Contextual translation",
     "lemma": "leasum"
   },
   "lee": {
@@ -39278,8 +39278,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēon"
   },
   "leg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the famed-one's funeral. \" Fire shall devour",
+    "grammar": "Contextual translation",
     "lemma": "leg"
   },
   "leg( )": {
@@ -39298,13 +39298,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēġ(-)"
   },
   "legdraca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loathsome, lying their leader near,",
+    "grammar": "Contextual translation",
     "lemma": "legdraca"
   },
   "lege": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he never could hope unharmed to near,",
+    "grammar": "Contextual translation",
     "lemma": "lege"
   },
   "leger": {
@@ -39328,18 +39328,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "leġer-bed(d)"
   },
   "legerbedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and there his body on bed of death",
+    "grammar": "Contextual translation",
     "lemma": "legerbedde"
   },
   "legere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fty measures",
+    "grammar": "Contextual translation",
     "lemma": "legere"
   },
   "lemede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had lamed him too long; a load of care",
+    "grammar": "Contextual translation",
     "lemma": "lemede"
   },
   "lemman(lemian)": {
@@ -39358,13 +39358,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lenġ(e)"
   },
   "lenge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame.2 Nor far was that day",
+    "grammar": "Contextual translation",
     "lemma": "lenge"
   },
   "lengest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: any on earth, for that uproar at dawn,",
+    "grammar": "Contextual translation",
     "lemma": "lengest"
   },
   "lengr": {
@@ -39383,8 +39383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lengra"
   },
   "leo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the son of Ecglaf, the sword bade him take,",
+    "grammar": "Contextual translation",
     "lemma": "leo"
   },
   "leod": {
@@ -39498,13 +39498,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-scipe"
   },
   "leoda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And now the bold one from bands of Geats",
+    "grammar": "Contextual translation",
     "lemma": "leoda"
   },
   "leodbealewa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For over their ale men also told",
+    "grammar": "Contextual translation",
     "lemma": "leodbealewa"
   },
   "leodbealo": {
@@ -39513,18 +39513,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-bealo"
   },
   "leodbyrig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lands and cities he left his sons",
+    "grammar": "Contextual translation",
     "lemma": "leodbyrig"
   },
   "leodcyning": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: leader beloved, and long he ruled",
+    "grammar": "Contextual translation",
     "lemma": "leodcyning"
   },
   "leode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegemen loyal: by lauded deeds",
+    "grammar": "Contextual translation",
     "lemma": "leode"
   },
   "leodfruma": {
@@ -39533,8 +39533,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-fruma"
   },
   "leodfruman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For Hrothgar that was the heaviest sorrow",
+    "grammar": "Contextual translation",
     "lemma": "leodfruman"
   },
   "leodgebyrgea": {
@@ -39543,8 +39543,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-ġebyrġea"
   },
   "leodgebyrgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people-protector: be pleased to advise us!",
+    "grammar": "Contextual translation",
     "lemma": "leodgebyrgean"
   },
   "leodhryre": {
@@ -39553,8 +39553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-hryre"
   },
   "leodhryres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and gift-seat's master. \u0015 A good king he!",
+    "grammar": "Contextual translation",
     "lemma": "leodhryres"
   },
   "leodsceaða": {
@@ -39563,8 +39563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-sceaða"
   },
   "leodsceaðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when I all angrily upright stood.",
+    "grammar": "Contextual translation",
     "lemma": "leodsceaðan"
   },
   "leodscipe": {
@@ -39573,8 +39573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēod-scipe"
   },
   "leodum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to folk of the Danes.\"",
+    "grammar": "Contextual translation",
     "lemma": "leodum"
   },
   "leof": {
@@ -39593,8 +39593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēof-liċ"
   },
   "leofa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This jewel enjoy in thy jocund youth,",
+    "grammar": "Contextual translation",
     "lemma": "leofa"
   },
   "leofað": {
@@ -39603,13 +39603,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "leofað"
   },
   "leofes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of lief and of loath, who long time here,",
+    "grammar": "Contextual translation",
     "lemma": "leofes"
   },
   "leofestan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd him",
+    "grammar": "Contextual translation",
     "lemma": "leofestan"
   },
   "leoflic": {
@@ -39618,28 +39618,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēof-liċ"
   },
   "leofne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: there laid they down their darling lord",
+    "grammar": "Contextual translation",
     "lemma": "leofne"
   },
   "leofost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He was for Hrothgar of heroes the dearest,",
+    "grammar": "Contextual translation",
     "lemma": "leofost"
   },
   "leofra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Helpful at haven the harbor-guard stood,",
+    "grammar": "Contextual translation",
     "lemma": "leofra"
   },
   "leofre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: glowing and grim! For God is my witness",
+    "grammar": "Contextual translation",
     "lemma": "leofre"
   },
   "leofum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were the loved ones she lost at the linden-play,",
+    "grammar": "Contextual translation",
     "lemma": "leofum"
   },
   "leog": {
@@ -39663,13 +39663,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēoht"
   },
   "leohtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: repaid him at war, \u0015 such power I wielded, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "leohtan"
   },
   "leohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for a light to lighten the land-dwellers,",
+    "grammar": "Contextual translation",
     "lemma": "leohte"
   },
   "leom": {
@@ -39683,8 +39683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lēoma"
   },
   "leoman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for a light to lighten the land-dwellers,",
+    "grammar": "Contextual translation",
     "lemma": "leoman"
   },
   "leome": {
@@ -39718,8 +39718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "leornian"
   },
   "leornode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: washed by waves; but the warlike king,",
+    "grammar": "Contextual translation",
     "lemma": "leornode"
   },
   "leoð": {
@@ -39758,13 +39758,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "leoðo-cræft"
   },
   "leoðocræftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high o'er the hoard, of handiwork noblest,",
+    "grammar": "Contextual translation",
     "lemma": "leoðocræftum"
   },
   "leoðosyrcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the linked harness, with loathsome hand.",
+    "grammar": "Contextual translation",
     "lemma": "leoðosyrcan"
   },
   "leoðosyrce": {
@@ -39773,23 +39773,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "leoðo-syrċe"
   },
   "leoðwæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nished,",
+    "grammar": "Contextual translation",
     "lemma": "leoðwæs"
   },
   "let": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: house and home when Heardred fell,",
+    "grammar": "Contextual translation",
     "lemma": "let"
   },
   "lete": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by no means to seek that slaughtering monster,",
+    "grammar": "Contextual translation",
     "lemma": "lete"
   },
   "leton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a gold-wove banner; let billows take him,",
+    "grammar": "Contextual translation",
     "lemma": "leton"
   },
   "lett": {
@@ -39808,13 +39808,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lettan"
   },
   "letton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: are never molested. \u0015 Light from east,",
+    "grammar": "Contextual translation",
     "lemma": "letton"
   },
   "li": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was each to other. The outlaw dire",
+    "grammar": "Contextual translation",
     "lemma": "li"
   },
   "lic": {
@@ -39868,18 +39868,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līċ-syrċe"
   },
   "licaðleng": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thy kinsman's kingdom! Thy keen mind pleases me",
+    "grammar": "Contextual translation",
     "lemma": "licaðleng"
   },
   "lice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his body hale; the breastplate hindered,",
+    "grammar": "Contextual translation",
     "lemma": "lice"
   },
   "lices": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no further for me need'st food prepare!",
+    "grammar": "Contextual translation",
     "lemma": "lices"
   },
   "licg": {
@@ -39898,13 +39898,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "licgan"
   },
   "licgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: should breathe his last: but he broke away.",
+    "grammar": "Contextual translation",
     "lemma": "licgean"
   },
   "lichaman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: glowing and grim! For God is my witness",
+    "grammar": "Contextual translation",
     "lemma": "lichaman"
   },
   "lichoma": {
@@ -39928,8 +39928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līcian"
   },
   "licodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Well these words to the woman seemed,",
+    "grammar": "Contextual translation",
     "lemma": "licodon"
   },
   "licsar": {
@@ -39953,8 +39953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lid-man(n)"
   },
   "liden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: headlands broad. Their haven was found,",
+    "grammar": "Contextual translation",
     "lemma": "liden"
   },
   "lidman(n)": {
@@ -39963,8 +39963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lid-man(n)"
   },
   "lidmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swam then to strand the sailors'-refuge,",
+    "grammar": "Contextual translation",
     "lemma": "lidmanna"
   },
   "lif": {
@@ -40058,8 +40058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-wyn(n)"
   },
   "lifað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trusting the ground with treasure of earls,",
+    "grammar": "Contextual translation",
     "lemma": "lifað"
   },
   "lifbysig": {
@@ -40068,18 +40068,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-bysiġ"
   },
   "lifdagas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: useless deeming his days and years",
+    "grammar": "Contextual translation",
     "lemma": "lifdagas"
   },
   "lifde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: haughty Healfdene, who held through life,",
+    "grammar": "Contextual translation",
     "lemma": "lifde"
   },
   "lifdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So lived the clansmen in cheer and revel",
+    "grammar": "Contextual translation",
     "lemma": "lifdon"
   },
   "lifdæg": {
@@ -40088,13 +40088,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-dæġ"
   },
   "life": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of all that had laden the lord of his folk.",
+    "grammar": "Contextual translation",
     "lemma": "life"
   },
   "lifes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in that same day of this our life,",
+    "grammar": "Contextual translation",
     "lemma": "lifes"
   },
   "liffrea": {
@@ -40113,8 +40113,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-ġesceaft"
   },
   "lifgesceafta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: royal, throned, rich in goods,",
+    "grammar": "Contextual translation",
     "lemma": "lifgesceafta"
   },
   "lifig": {
@@ -40133,8 +40133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lifiġan"
   },
   "lifwraðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sole with his sword in stress and need.",
+    "grammar": "Contextual translation",
     "lemma": "lifwraðe"
   },
   "lifwraðu": {
@@ -40143,8 +40143,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-wraðu"
   },
   "lifwraþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he left behind him his hand in pledge,",
+    "grammar": "Contextual translation",
     "lemma": "lifwraþe"
   },
   "lifwyn(n)": {
@@ -40153,8 +40153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līf-wyn(n)"
   },
   "lifwynna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed away,",
+    "grammar": "Contextual translation",
     "lemma": "lifwynna"
   },
   "lig": {
@@ -40218,8 +40218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līġ-draca"
   },
   "lige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boiling with wrath was the barrow's keeper,",
+    "grammar": "Contextual translation",
     "lemma": "lige"
   },
   "lige torn": {
@@ -40238,13 +40238,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līġ-eġesa"
   },
   "ligegesan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one that guarded the golden hoard re",
+    "grammar": "Contextual translation",
     "lemma": "ligegesan"
   },
   "liges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame.2 Nor far was that day",
+    "grammar": "Contextual translation",
     "lemma": "liges"
   },
   "ligetorn": {
@@ -40253,13 +40253,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "liġe-torn"
   },
   "ligetorne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the weaver-of-peace3 from warrior dear",
+    "grammar": "Contextual translation",
     "lemma": "ligetorne"
   },
   "ligeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this is hardest of heart-bales. The hand lies low",
+    "grammar": "Contextual translation",
     "lemma": "ligeð"
   },
   "ligg": {
@@ -40273,8 +40273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "liġġe"
   },
   "ligyðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aming, its foes to seek,",
+    "grammar": "Contextual translation",
     "lemma": "ligyðum"
   },
   "ligуð": {
@@ -40378,8 +40378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lind-wiga"
   },
   "linde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their craft of contest, who carried against him",
+    "grammar": "Contextual translation",
     "lemma": "linde"
   },
   "lindgestealla": {
@@ -40393,13 +40393,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lind-hæbbend(e)"
   },
   "lindhæbbende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: linden-wielders:4 yet word-of-leave",
+    "grammar": "Contextual translation",
     "lemma": "lindhæbbende"
   },
   "lindhæbbendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: followed in force. The footprints led",
+    "grammar": "Contextual translation",
     "lemma": "lindhæbbendra"
   },
   "lindplega": {
@@ -40408,8 +40408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lind-plega"
   },
   "lindplegan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were the loved ones she lost at the linden-play,",
+    "grammar": "Contextual translation",
     "lemma": "lindplegan"
   },
   "lindwiga": {
@@ -40438,8 +40438,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "liss"
   },
   "lissa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gladly give them. Thy grace alone",
+    "grammar": "Contextual translation",
     "lemma": "lissa"
   },
   "list": {
@@ -40448,8 +40448,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "list"
   },
   "listum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that bone-decked, brave house break asunder, re",
+    "grammar": "Contextual translation",
     "lemma": "listum"
   },
   "lix": {
@@ -40468,8 +40468,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līxan"
   },
   "lixte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the gleam of it lightened o'er lands afar.",
+    "grammar": "Contextual translation",
     "lemma": "lixte"
   },
   "lið": {
@@ -40503,13 +40503,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līðan"
   },
   "liðende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that sailors now could see the land,",
+    "grammar": "Contextual translation",
     "lemma": "liðende"
   },
   "liðost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of men he was mildest and most beloved,",
+    "grammar": "Contextual translation",
     "lemma": "liðost"
   },
   "liðwæge": {
@@ -40518,8 +40518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "līð-wǣġe"
   },
   "liþrea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so long a while; the Lord endowed him,",
+    "grammar": "Contextual translation",
     "lemma": "liþrea"
   },
   "loc": {
@@ -40528,8 +40528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "locen"
   },
   "locast": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sign of glory; thou seest it here.",
+    "grammar": "Contextual translation",
     "lemma": "locast"
   },
   "loce": {
@@ -40543,13 +40543,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "locen"
   },
   "locene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the linked harness, with loathsome hand.",
+    "grammar": "Contextual translation",
     "lemma": "locene"
   },
   "locenra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Each of them had a hundred thousand3",
+    "grammar": "Contextual translation",
     "lemma": "locenra"
   },
   "loci": {
@@ -40598,8 +40598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lof-dǣd"
   },
   "lofdædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: liegemen loyal: by lauded deeds",
+    "grammar": "Contextual translation",
     "lemma": "lofdædum"
   },
   "lofgeorn": {
@@ -40608,8 +40608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lof-ġeorn"
   },
   "lofgeornost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of men he was mildest and most beloved,",
+    "grammar": "Contextual translation",
     "lemma": "lofgeornost"
   },
   "log": {
@@ -40618,18 +40618,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lōg"
   },
   "logon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was little blamed, though they loved him dear;",
+    "grammar": "Contextual translation",
     "lemma": "logon"
   },
   "lomp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what manner of sojourn the Sea-Geats made.",
+    "grammar": "Contextual translation",
     "lemma": "lomp"
   },
   "lond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: beloved of his liegemen, to land of Brondings,",
+    "grammar": "Contextual translation",
     "lemma": "lond"
   },
   "lond riht": {
@@ -40658,8 +40658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lond-riht"
   },
   "londbuend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Land-dwellers here2 and liegemen mine,",
+    "grammar": "Contextual translation",
     "lemma": "londbuend"
   },
   "londriht": {
@@ -40668,8 +40668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lond-riht"
   },
   "londrihtes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: joy of the house and home-delight",
+    "grammar": "Contextual translation",
     "lemma": "londrihtes"
   },
   "long": {
@@ -40728,8 +40728,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "long-ġestrēon"
   },
   "longgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weeping his friends, yet wished to bide",
+    "grammar": "Contextual translation",
     "lemma": "longgestreona"
   },
   "longsum": {
@@ -40738,23 +40738,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "long-sum"
   },
   "longsumne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lasting fame, nor fears for his life!",
+    "grammar": "Contextual translation",
     "lemma": "longsumne"
   },
   "losade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet there, my prince, this people of thine",
+    "grammar": "Contextual translation",
     "lemma": "losade"
   },
   "losaðli": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after bite of brand in his blood must slumber, ies",
+    "grammar": "Contextual translation",
     "lemma": "losaðli"
   },
   "losaþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No harbor shall hide her \u0015 heed my promise! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "losaþ"
   },
   "losi": {
@@ -40813,8 +40813,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "luf-tācen"
   },
   "lufan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: estate, high station: He swayeth all things.",
+    "grammar": "Contextual translation",
     "lemma": "lufan"
   },
   "lufe": {
@@ -40843,8 +40843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lufian"
   },
   "lufode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came through the high hall Haereth's daughter,",
+    "grammar": "Contextual translation",
     "lemma": "lufode"
   },
   "luftacen": {
@@ -40883,8 +40883,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lust"
   },
   "lustum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lord of Scyldings, we've lustily brought thee,",
+    "grammar": "Contextual translation",
     "lemma": "lustum"
   },
   "lyfað": {
@@ -40893,8 +40893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lyfað"
   },
   "lyfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gave me in guerdon great gifts of price.",
+    "grammar": "Contextual translation",
     "lemma": "lyfde"
   },
   "lyft": {
@@ -40943,8 +40943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lyft-wyn(n)"
   },
   "lyfte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hushed by its hurt, its hoard all near,",
+    "grammar": "Contextual translation",
     "lemma": "lyfte"
   },
   "lyftfloga": {
@@ -40963,8 +40963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lyft-wyn(n)"
   },
   "lyftwynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fty measures",
+    "grammar": "Contextual translation",
     "lemma": "lyftwynne"
   },
   "lyhð": {
@@ -40988,23 +40988,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lystan"
   },
   "lyt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high the hall, and Hygd2 right young,",
+    "grammar": "Contextual translation",
     "lemma": "lyt"
   },
   "lytel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end.1",
+    "grammar": "Contextual translation",
     "lemma": "lytel"
   },
   "lythwon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was little blamed, though they loved him dear;",
+    "grammar": "Contextual translation",
     "lemma": "lythwon"
   },
   "lytle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: store of slaughter. But seldom ever",
+    "grammar": "Contextual translation",
     "lemma": "lytle"
   },
   "læ": {
@@ -41023,8 +41023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣdan"
   },
   "læddon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nished,",
+    "grammar": "Contextual translation",
     "lemma": "læddon"
   },
   "læde": {
@@ -41033,8 +41033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣdan"
   },
   "læded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heartily love, when hence he goes",
+    "grammar": "Contextual translation",
     "lemma": "læded"
   },
   "læf": {
@@ -41048,8 +41048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣfan"
   },
   "læfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: men's gladness he gave up and God's light chose.",
+    "grammar": "Contextual translation",
     "lemma": "læfde"
   },
   "læfe": {
@@ -41058,13 +41058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣfan"
   },
   "læg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with breastplate and blade: on his bosom lay",
+    "grammar": "Contextual translation",
     "lemma": "læg"
   },
   "lægon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the edge of ocean up they lay,",
+    "grammar": "Contextual translation",
     "lemma": "lægon"
   },
   "læn": {
@@ -41093,13 +41093,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣn-dagas"
   },
   "lænan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: et lifdagas",
+    "grammar": "Contextual translation",
     "lemma": "lænan"
   },
   "lændaga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re were worthless,",
+    "grammar": "Contextual translation",
     "lemma": "lændaga"
   },
   "lændagas": {
@@ -41143,13 +41143,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣsest"
   },
   "læssa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the mother of Grendel. Less grim, though, that terror,",
+    "grammar": "Contextual translation",
     "lemma": "læssa"
   },
   "læssan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No less these loaded the lordly gifts,",
+    "grammar": "Contextual translation",
     "lemma": "læssan"
   },
   "læst": {
@@ -41178,8 +41178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣtan"
   },
   "lætaðhildebord": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but let here the battle-shields bide your parley,",
+    "grammar": "Contextual translation",
     "lemma": "lætaðhildebord"
   },
   "læte": {
@@ -41188,8 +41188,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "lǣtan"
   },
   "læteðhworfan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: estate, high station: He swayeth all things.",
+    "grammar": "Contextual translation",
     "lemma": "læteðhworfan"
   },
   "lуt": {
@@ -41238,8 +41238,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mā"
   },
   "madma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the mast the mighty one. Many a treasure",
+    "grammar": "Contextual translation",
     "lemma": "madma"
   },
   "madma(s)": {
@@ -41248,18 +41248,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mādma(s)"
   },
   "madmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the good youth gold for his gallant thought.",
+    "grammar": "Contextual translation",
     "lemma": "madmas"
   },
   "madme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the gleaming blade that its glory fell.",
+    "grammar": "Contextual translation",
     "lemma": "madme"
   },
   "madmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with steeds and treasures contemned by none",
+    "grammar": "Contextual translation",
     "lemma": "madmum"
   },
   "mag": {
@@ -41338,8 +41338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mago-rinċ"
   },
   "magorinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy liegemen. Then laughed his heart;",
+    "grammar": "Contextual translation",
     "lemma": "magorinca"
   },
   "magoðegn": {
@@ -41348,33 +41348,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mago-ðeġn"
   },
   "magoþegn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the clansman keen, of conquest proud,",
+    "grammar": "Contextual translation",
     "lemma": "magoþegn"
   },
   "magoþegna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the murky moor; of men-at-arms",
+    "grammar": "Contextual translation",
     "lemma": "magoþegna"
   },
   "magoþegnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Be guardian, thou, to this group of my thanes,",
+    "grammar": "Contextual translation",
     "lemma": "magoþegnum"
   },
   "magum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his keenness of courage, though kinsmen had found him",
+    "grammar": "Contextual translation",
     "lemma": "magum"
   },
   "maguþegnas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I will bid my men your boat meanwhile",
+    "grammar": "Contextual translation",
     "lemma": "maguþegnas"
   },
   "maguþegne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: girded warrior. Grendel on him",
+    "grammar": "Contextual translation",
     "lemma": "maguþegne"
   },
   "man": {
@@ -41443,43 +41443,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mān-scaða"
   },
   "manaðswa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that rightfully ought to be owned by thee!",
+    "grammar": "Contextual translation",
     "lemma": "manaðswa"
   },
   "mancynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the slaughter's sake, from sight of men.",
+    "grammar": "Contextual translation",
     "lemma": "mancynne"
   },
   "mancynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Such heaping of horrors the hater of men,",
+    "grammar": "Contextual translation",
     "lemma": "mancynnes"
   },
   "mandream": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: marked with murder, from men's delights",
+    "grammar": "Contextual translation",
     "lemma": "mandream"
   },
   "mandrihtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mild of mood, to the master loyal!",
+    "grammar": "Contextual translation",
     "lemma": "mandrihtne"
   },
   "mandryhten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By his sovran he sat, come safe from battle,",
+    "grammar": "Contextual translation",
     "lemma": "mandryhten"
   },
   "mandryhtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: even as oft as evil threatened",
+    "grammar": "Contextual translation",
     "lemma": "mandryhtne"
   },
   "mandryhtnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ourish a spear",
+    "grammar": "Contextual translation",
     "lemma": "mandryhtnes"
   },
   "mane": {
@@ -41488,8 +41488,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "maniġ"
   },
   "manegum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whose might of mind to many was known,",
+    "grammar": "Contextual translation",
     "lemma": "manegum"
   },
   "manfordædla": {
@@ -41498,8 +41498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mān-for-dǣdla"
   },
   "manfordædlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to devour their victim, vengeful creatures,",
+    "grammar": "Contextual translation",
     "lemma": "manfordædlan"
   },
   "mani": {
@@ -41523,23 +41523,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "maniġ"
   },
   "manige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ne'er met I as strangers of mood so strong.",
+    "grammar": "Contextual translation",
     "lemma": "manige"
   },
   "manigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with many a largess; and leave to thy kin",
+    "grammar": "Contextual translation",
     "lemma": "manigra"
   },
   "manigre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for many a tribe this mid-earth round,",
+    "grammar": "Contextual translation",
     "lemma": "manigre"
   },
   "manigum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielded 'neath welkin, and warded them bravely",
+    "grammar": "Contextual translation",
     "lemma": "manigum"
   },
   "manlice": {
@@ -41548,23 +41548,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "man-līċe"
   },
   "manna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the noble monarch who needed men!",
+    "grammar": "Contextual translation",
     "lemma": "manna"
   },
   "mannan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it waft o'er the waters those well-loved thanes,",
+    "grammar": "Contextual translation",
     "lemma": "mannan"
   },
   "mannes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the man's2 brave mood. The Maker then",
+    "grammar": "Contextual translation",
     "lemma": "mannes"
   },
   "mannon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor adrift on the deep a more desolate man!",
+    "grammar": "Contextual translation",
     "lemma": "mannon"
   },
   "manscaða": {
@@ -41573,8 +41573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mān-scaða"
   },
   "mansceaða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old folk-defender, feud will I seek,",
+    "grammar": "Contextual translation",
     "lemma": "mansceaða"
   },
   "mar": {
@@ -41588,8 +41588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māra"
   },
   "maran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my folk's agreement. \u0015 A greater ne'er saw I",
+    "grammar": "Contextual translation",
     "lemma": "maran"
   },
   "mare": {
@@ -41598,8 +41598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māra"
   },
   "maðelode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wulfgar spake to his winsome lord:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "maðelode"
   },
   "maðm æht": {
@@ -41613,18 +41613,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māðm-ǣht"
   },
   "maðma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the haven-of-heroes, Healfdene's son,",
+    "grammar": "Contextual translation",
     "lemma": "maðma"
   },
   "maðmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I wanted for nought in the wage I gained,",
+    "grammar": "Contextual translation",
     "lemma": "maðmas"
   },
   "maðmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and armor their roomy and ring-dight ship",
+    "grammar": "Contextual translation",
     "lemma": "maðmum"
   },
   "maðmæht": {
@@ -41633,8 +41633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māðm-ǣht"
   },
   "maðmæhta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: precious things, though a plenty he saw,",
+    "grammar": "Contextual translation",
     "lemma": "maðmæhta"
   },
   "maðð": {
@@ -41688,8 +41688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māððum-wela"
   },
   "maððumsigla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then the clansman keen, of conquest proud,",
+    "grammar": "Contextual translation",
     "lemma": "maððumsigla"
   },
   "maððumsigle": {
@@ -41703,13 +41703,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māððum-wela"
   },
   "maððumwelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have joy in the jewels and gems, lay down",
+    "grammar": "Contextual translation",
     "lemma": "maððumwelan"
   },
   "maðþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of his treasure, paces this hall,",
+    "grammar": "Contextual translation",
     "lemma": "maðþum"
   },
   "maðþum fæt": {
@@ -41743,8 +41743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māðþum-sweord"
   },
   "maþelade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: esh.",
+    "grammar": "Contextual translation",
     "lemma": "maþelade"
   },
   "maþeli": {
@@ -41763,8 +41763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "maþelian"
   },
   "maþelode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Astride his steed, the strand-ward answered,",
+    "grammar": "Contextual translation",
     "lemma": "maþelode"
   },
   "maþm gestreon": {
@@ -41788,18 +41788,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māþm-ġestrēon"
   },
   "maþma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warrior worthy! A wealth of treasure",
+    "grammar": "Contextual translation",
     "lemma": "maþma"
   },
   "maþmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Long as I rule this realm so wide,",
+    "grammar": "Contextual translation",
     "lemma": "maþmas"
   },
   "maþme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mounted with gold; on the mead-bench since",
+    "grammar": "Contextual translation",
     "lemma": "maþme"
   },
   "maþmgestreon": {
@@ -41808,13 +41808,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māþm-ġestrēon"
   },
   "maþmgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor grudged she gifts to the Geatish men,",
+    "grammar": "Contextual translation",
     "lemma": "maþmgestreona"
   },
   "maþðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 'twas judgment of God, \u0015 or have joy in his hall.",
+    "grammar": "Contextual translation",
     "lemma": "maþðum"
   },
   "maþðum gifu": {
@@ -41828,8 +41828,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "māþðum-ġifu"
   },
   "maþðumgife": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after giving of gold, for the Geat renowned. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "maþðumgife"
   },
   "maþðumgifu": {
@@ -41843,8 +41843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mē"
   },
   "meaglum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst had greeted in gracious form,",
+    "grammar": "Contextual translation",
     "lemma": "meaglum"
   },
   "meagol": {
@@ -41853,33 +41853,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mēagol"
   },
   "meaht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and war-hate wakens, with words like these:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "meaht"
   },
   "meahte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eet should harm the land.",
+    "grammar": "Contextual translation",
     "lemma": "meahte"
   },
   "meahton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when the sheen of the sun they saw no more,",
+    "grammar": "Contextual translation",
     "lemma": "meahton"
   },
   "mealt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quickly and truly: the king's own home,",
+    "grammar": "Contextual translation",
     "lemma": "mealt"
   },
   "meara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: each like the others, arms and horses",
+    "grammar": "Contextual translation",
     "lemma": "meara"
   },
   "mearas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it faran",
+    "grammar": "Contextual translation",
     "lemma": "mearas"
   },
   "mearc": {
@@ -41908,13 +41908,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mearc-stapa"
   },
   "mearcaðmorhopu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with my life-blood redden his lair in the fen:",
+    "grammar": "Contextual translation",
     "lemma": "mearcaðmorhopu"
   },
   "mearce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in Swedish land, of the sea-kings' line,",
+    "grammar": "Contextual translation",
     "lemma": "mearce"
   },
   "mearci": {
@@ -41938,8 +41938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mearc-stapa"
   },
   "mearcstapan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: march-stalkers mighty the moorland haunting,",
+    "grammar": "Contextual translation",
     "lemma": "mearcstapan"
   },
   "mearh": {
@@ -41953,8 +41953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mearn"
   },
   "mearum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on horses white, the hardy warriors,",
+    "grammar": "Contextual translation",
     "lemma": "mearum"
   },
   "mec": {
@@ -41963,8 +41963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mēċe"
   },
   "meca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could help him at strife: too strong was his hand,",
+    "grammar": "Contextual translation",
     "lemma": "meca"
   },
   "mece": {
@@ -41973,13 +41973,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mēċe"
   },
   "meces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ooding billow,",
+    "grammar": "Contextual translation",
     "lemma": "meces"
   },
   "mecum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but at break of day, by my brand sore hurt,",
+    "grammar": "Contextual translation",
     "lemma": "mecum"
   },
   "med": {
@@ -41988,8 +41988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mēd"
   },
   "mede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to play the hero and hazard my being",
+    "grammar": "Contextual translation",
     "lemma": "mede"
   },
   "medo": {
@@ -42058,13 +42058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medo-benċ"
   },
   "medobence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: along the mead-seats, making his song",
+    "grammar": "Contextual translation",
     "lemma": "medobence"
   },
   "medoful": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Beowulf bore the beaker of mead.",
+    "grammar": "Contextual translation",
     "lemma": "medoful"
   },
   "medoful(l)": {
@@ -42073,8 +42073,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medo-ful(l)"
   },
   "medoheal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then was this mead-house at morning tide",
+    "grammar": "Contextual translation",
     "lemma": "medoheal"
   },
   "medoheal(l)": {
@@ -42088,8 +42088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medo-stīġ"
   },
   "medostigge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: measured the path to the mead-house fair.",
+    "grammar": "Contextual translation",
     "lemma": "medostigge"
   },
   "medoærn": {
@@ -42098,8 +42098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medo-ærn"
   },
   "medu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sad in spirit, he said to his comrades:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "medu"
   },
   "medu dream": {
@@ -42123,13 +42123,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medu-seld"
   },
   "medubenc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: many a mead-bench \u0015 men have told me \u0015",
+    "grammar": "Contextual translation",
     "lemma": "medubenc"
   },
   "medubence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: an heirloom there at the ale-bench gave,",
+    "grammar": "Contextual translation",
     "lemma": "medubence"
   },
   "medudream": {
@@ -42143,8 +42143,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "medu-seld"
   },
   "mehte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the parleying-place7 he could ply no longer",
+    "grammar": "Contextual translation",
     "lemma": "mehte"
   },
   "meld": {
@@ -42158,8 +42158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "melda"
   },
   "meldan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the killing of clansmen; that cup of price",
+    "grammar": "Contextual translation",
     "lemma": "meldan"
   },
   "melde": {
@@ -42213,8 +42213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meniġeo"
   },
   "menn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tless prince; but payment came,",
+    "grammar": "Contextual translation",
     "lemma": "menn"
   },
   "meodo setl": {
@@ -42243,8 +42243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meodo-setl"
   },
   "meodosetla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from many a tribe, the mead-bench tore,",
+    "grammar": "Contextual translation",
     "lemma": "meodosetla"
   },
   "meodowong": {
@@ -42253,8 +42253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meodo-wong"
   },
   "meodowongas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mighty amid them the meadow-ways trod.",
+    "grammar": "Contextual translation",
     "lemma": "meodowongas"
   },
   "meodu benc": {
@@ -42283,13 +42283,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meodu-benċ"
   },
   "meodubence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mounted with gold; on the mead-bench since",
+    "grammar": "Contextual translation",
     "lemma": "meodubence"
   },
   "meoduhealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of this life of mine in the mead-hall here.\"",
+    "grammar": "Contextual translation",
     "lemma": "meoduhealle"
   },
   "meoduscenc": {
@@ -42298,8 +42298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meodu-scenċ"
   },
   "meoduscencum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst had greeted in gracious form,",
+    "grammar": "Contextual translation",
     "lemma": "meoduscencum"
   },
   "meoto": {
@@ -42323,8 +42323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meotod-"
   },
   "meotodsceaft": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bewailed her doom when dawning came,",
+    "grammar": "Contextual translation",
     "lemma": "meotodsceaft"
   },
   "meowl": {
@@ -42348,8 +42348,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "merċels"
   },
   "mercelses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his own dear liege laid low with an arrow,",
+    "grammar": "Contextual translation",
     "lemma": "mercelses"
   },
   "mere": {
@@ -42473,8 +42473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-fara"
   },
   "merefaran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy seafarer's, sorely galled him;",
+    "grammar": "Contextual translation",
     "lemma": "merefaran"
   },
   "merefisc": {
@@ -42488,8 +42488,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-grund"
   },
   "meregrundas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood,",
+    "grammar": "Contextual translation",
     "lemma": "meregrundas"
   },
   "merehrægl": {
@@ -42498,8 +42498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-hræġl"
   },
   "merehrægla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they drove through the deep, and Daneland left.",
+    "grammar": "Contextual translation",
     "lemma": "merehrægla"
   },
   "mereliðend(e)": {
@@ -42508,8 +42508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-līðend(e)"
   },
   "mereliðende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ocean-travellers, take from me",
+    "grammar": "Contextual translation",
     "lemma": "mereliðende"
   },
   "merestrengo": {
@@ -42523,8 +42523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-strǣt"
   },
   "merestræta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with strenuous hands the sea-streets measured,",
+    "grammar": "Contextual translation",
     "lemma": "merestræta"
   },
   "merewif": {
@@ -42533,8 +42533,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mere-wīf"
   },
   "merewioingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could that earl give treasure! And ever since",
+    "grammar": "Contextual translation",
     "lemma": "merewioingas"
   },
   "merg": {
@@ -42553,8 +42553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "merġen"
   },
   "mergenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but at break of day, by my brand sore hurt,",
+    "grammar": "Contextual translation",
     "lemma": "mergenne"
   },
   "met": {
@@ -42588,13 +42588,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "metod-sceaft"
   },
   "metode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 'twas judgment of God, \u0015 or have joy in his hall.",
+    "grammar": "Contextual translation",
     "lemma": "metode"
   },
   "metodes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his mettle, his might, the mercy of God!",
+    "grammar": "Contextual translation",
     "lemma": "metodes"
   },
   "metodsceaft": {
@@ -42603,18 +42603,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "metod-sceaft"
   },
   "metodsceafte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Waegmunding name. For Wyrd hath swept them,",
+    "grammar": "Contextual translation",
     "lemma": "metodsceafte"
   },
   "mette": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that never he met in this middle-world,",
+    "grammar": "Contextual translation",
     "lemma": "mette"
   },
   "metton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood on the foreland there.",
+    "grammar": "Contextual translation",
     "lemma": "metton"
   },
   "meðel stede": {
@@ -42663,13 +42663,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "meþel-word"
   },
   "meþelwordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shook his spear, and spake in parley.",
+    "grammar": "Contextual translation",
     "lemma": "meþelwordum"
   },
   "meþle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that each should look on the other again,",
+    "grammar": "Contextual translation",
     "lemma": "meþle"
   },
   "micel": {
@@ -42678,28 +42678,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "miċel"
   },
   "micelne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re a barrow high,",
+    "grammar": "Contextual translation",
     "lemma": "micelne"
   },
   "miclan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil outlaw, such awful doom",
+    "grammar": "Contextual translation",
     "lemma": "miclan"
   },
   "micle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with stately band from the bride-bower strode;",
+    "grammar": "Contextual translation",
     "lemma": "micle"
   },
   "micles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Full well they wist that on warriors many",
+    "grammar": "Contextual translation",
     "lemma": "micles"
   },
   "miclum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This work of war most willingly",
+    "grammar": "Contextual translation",
     "lemma": "miclum"
   },
   "mid": {
@@ -42713,8 +42713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "midde"
   },
   "middan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a biting blade by his breastplate hanging,",
+    "grammar": "Contextual translation",
     "lemma": "middan"
   },
   "middan geard": {
@@ -42733,13 +42733,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "middan-ġeard"
   },
   "middangearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in land and linked rings; nor at less price reckoned",
+    "grammar": "Contextual translation",
     "lemma": "middangearde"
   },
   "middangeardes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: should more achieve in middle-earth",
+    "grammar": "Contextual translation",
     "lemma": "middangeardes"
   },
   "midde": {
@@ -42763,8 +42763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "middel-niht"
   },
   "middelnihtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spread hot round the barrow in horror-billows",
+    "grammar": "Contextual translation",
     "lemma": "middelnihtum"
   },
   "miht": {
@@ -42783,18 +42783,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mihtiġ"
   },
   "mihtigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mighty Lord, for the man's brave words.",
+    "grammar": "Contextual translation",
     "lemma": "mihtigan"
   },
   "mihton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broad of gable and bright with gold:",
+    "grammar": "Contextual translation",
     "lemma": "mihton"
   },
   "mihtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by single strength. In sooth 'tis told",
+    "grammar": "Contextual translation",
     "lemma": "mihtum"
   },
   "mil": {
@@ -42823,13 +42823,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "milde"
   },
   "mildum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such words of mildness as man should use.",
+    "grammar": "Contextual translation",
     "lemma": "mildum"
   },
   "mildust": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quoth that of all the kings of earth,",
+    "grammar": "Contextual translation",
     "lemma": "mildust"
   },
   "milgemearc": {
@@ -42838,8 +42838,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mīl-ġemearc"
   },
   "milgemearces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in measure of miles that the mere expands,",
+    "grammar": "Contextual translation",
     "lemma": "milgemearces"
   },
   "milts": {
@@ -42853,33 +42853,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mīn"
   },
   "mine": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I will bid my men your boat meanwhile",
+    "grammar": "Contextual translation",
     "lemma": "mine"
   },
   "mines": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with my life-blood redden his lair in the fen:",
+    "grammar": "Contextual translation",
     "lemma": "mines"
   },
   "minne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ocean-travellers, take from me",
+    "grammar": "Contextual translation",
     "lemma": "minne"
   },
   "minra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I alone with my liegemen here,",
+    "grammar": "Contextual translation",
     "lemma": "minra"
   },
   "minre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I heard in my home-land heralded clear.",
+    "grammar": "Contextual translation",
     "lemma": "minre"
   },
   "minum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Sore is my soul to say to any",
+    "grammar": "Contextual translation",
     "lemma": "minum"
   },
   "miss": {
@@ -42903,8 +42903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "missere"
   },
   "missera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what murder and massacre, many a year,",
+    "grammar": "Contextual translation",
     "lemma": "missera"
   },
   "missere": {
@@ -42928,8 +42928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mistiġ"
   },
   "misthleoþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THEN from the moorland, by misty crags,",
+    "grammar": "Contextual translation",
     "lemma": "misthleoþum"
   },
   "misthliþ": {
@@ -42943,8 +42943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mistiġ"
   },
   "mistige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of misty moorlands: men may say not",
+    "grammar": "Contextual translation",
     "lemma": "mistige"
   },
   "mod": {
@@ -43043,8 +43043,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōd-þrӯð"
   },
   "modceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for those ruthless raids, unresting I su\u001bered",
+    "grammar": "Contextual translation",
     "lemma": "modceare"
   },
   "modcearu": {
@@ -43058,23 +43058,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōdiġ"
   },
   "modega": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For him the keen-souled kinsman of Hygelac",
+    "grammar": "Contextual translation",
     "lemma": "modega"
   },
   "modes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heart-rending misery. Many nobles",
+    "grammar": "Contextual translation",
     "lemma": "modes"
   },
   "modgan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his mettle, his might, the mercy of God!",
+    "grammar": "Contextual translation",
     "lemma": "modgan"
   },
   "modge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on horses white, the hardy warriors,",
+    "grammar": "Contextual translation",
     "lemma": "modge"
   },
   "modgehygd": {
@@ -43083,13 +43083,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōd-ġehyġd"
   },
   "modgehygdum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to know what manner of men they were.",
+    "grammar": "Contextual translation",
     "lemma": "modgehygdum"
   },
   "modges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy seafarer's, sorely galled him;",
+    "grammar": "Contextual translation",
     "lemma": "modges"
   },
   "modgeþonc": {
@@ -43118,18 +43118,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōdiġ-līċ"
   },
   "modigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the funeral pyre. No fragments merely",
+    "grammar": "Contextual translation",
     "lemma": "modigan"
   },
   "modige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that each should look on the other again,",
+    "grammar": "Contextual translation",
     "lemma": "modige"
   },
   "modiges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heedless of harm, though his hand was burned,",
+    "grammar": "Contextual translation",
     "lemma": "modiges"
   },
   "modiglic": {
@@ -43138,18 +43138,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōdiġ-līċ"
   },
   "modiglicran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ne'er met I as strangers of mood so strong.",
+    "grammar": "Contextual translation",
     "lemma": "modiglicran"
   },
   "modigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The sturdy shieldsman showed that bright",
+    "grammar": "Contextual translation",
     "lemma": "modigra"
   },
   "modlufan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: If ever on earth I am able to win me",
+    "grammar": "Contextual translation",
     "lemma": "modlufan"
   },
   "modlufu(lufe)": {
@@ -43168,8 +43168,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōd-sefa"
   },
   "modsefan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in mood of their mind. Almighty they knew not,",
+    "grammar": "Contextual translation",
     "lemma": "modsefan"
   },
   "modþracu": {
@@ -43178,8 +43178,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōd-þracu"
   },
   "modþræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the good youth gold for his gallant thought.",
+    "grammar": "Contextual translation",
     "lemma": "modþræce"
   },
   "modþrуð": {
@@ -43263,8 +43263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōna"
   },
   "monan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: set, triumphant, sun and moon",
+    "grammar": "Contextual translation",
     "lemma": "monan"
   },
   "moncyn(n)": {
@@ -43273,8 +43273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mon-cyn(n)"
   },
   "moncynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He was the mightiest man of valor",
+    "grammar": "Contextual translation",
     "lemma": "moncynnes"
   },
   "mondream": {
@@ -43283,13 +43283,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mon-drēam"
   },
   "mondreamum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: companions at board! So he passed alone,",
+    "grammar": "Contextual translation",
     "lemma": "mondreamum"
   },
   "mondrihten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: king of my kindred, kind to me! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "mondrihten"
   },
   "mondryhten": {
@@ -43298,8 +43298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mon-dryhten"
   },
   "mondryhtnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hot at the heart. In heavy mood",
+    "grammar": "Contextual translation",
     "lemma": "mondryhtnes"
   },
   "mone": {
@@ -43308,8 +43308,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōna"
   },
   "monegum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from many a tribe, the mead-bench tore,",
+    "grammar": "Contextual translation",
     "lemma": "monegum"
   },
   "monig": {
@@ -43318,18 +43318,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "moniġ"
   },
   "monige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their mighty master. To many it seemed",
+    "grammar": "Contextual translation",
     "lemma": "monige"
   },
   "monna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the wiser men, the ways to scan,",
+    "grammar": "Contextual translation",
     "lemma": "monna"
   },
   "monnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Whiles He letteth right lustily fare",
+    "grammar": "Contextual translation",
     "lemma": "monnes"
   },
   "monðwære": {
@@ -43338,8 +43338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mon-ðwǣre"
   },
   "monðwærust": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quoth that of all the kings of earth,",
+    "grammar": "Contextual translation",
     "lemma": "monðwærust"
   },
   "mor": {
@@ -43358,13 +43358,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōr-hop"
   },
   "moras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: march-riever5 mighty, in moorland living,",
+    "grammar": "Contextual translation",
     "lemma": "moras"
   },
   "more": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THEN from the moorland, by misty crags,",
+    "grammar": "Contextual translation",
     "lemma": "more"
   },
   "morg": {
@@ -43448,8 +43448,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morgen-long"
   },
   "morgenlongne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at the fort on the cli\u001b, where, full of sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "morgenlongne"
   },
   "morgensweg": {
@@ -43463,8 +43463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morgen-tīd"
   },
   "morgne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rst-of-Geats.",
+    "grammar": "Contextual translation",
     "lemma": "morgne"
   },
   "morhop": {
@@ -43498,8 +43498,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morð-bealu"
   },
   "morðbeala": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless murder; he recked no whit,",
+    "grammar": "Contextual translation",
     "lemma": "morðbeala"
   },
   "morðbealu": {
@@ -43513,18 +43513,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morðor"
   },
   "morðorbealo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From the Ruler-of-Man no wrath shall seize me,",
+    "grammar": "Contextual translation",
     "lemma": "morðorbealo"
   },
   "morðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best blade; the dragon died in its blood.",
+    "grammar": "Contextual translation",
     "lemma": "morðre"
   },
   "morðres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: murder-marked, and his mother as well.",
+    "grammar": "Contextual translation",
     "lemma": "morðres"
   },
   "morþor bealo": {
@@ -43573,8 +43573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morþor-bealo"
   },
   "morþorbed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For the eldest of these, by unmeet chance,",
+    "grammar": "Contextual translation",
     "lemma": "morþorbed"
   },
   "morþorbed(d)": {
@@ -43588,28 +43588,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "morþor-hete"
   },
   "morþorhetes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that murderous hatred to mind recall,",
+    "grammar": "Contextual translation",
     "lemma": "morþorhetes"
   },
   "morþre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: marked with murder, from men's delights",
+    "grammar": "Contextual translation",
     "lemma": "morþre"
   },
   "most": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And this is my hest, that in Heorot now",
+    "grammar": "Contextual translation",
     "lemma": "most"
   },
   "moste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and ne'er could the prince4 approach his throne,",
+    "grammar": "Contextual translation",
     "lemma": "moste"
   },
   "moston": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: should fall to them in Frisian land;",
+    "grammar": "Contextual translation",
     "lemma": "moston"
   },
   "mot": {
@@ -43628,13 +43628,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mōtan"
   },
   "moton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: grace that we greet him, the good one, now.\"",
+    "grammar": "Contextual translation",
     "lemma": "moton"
   },
   "multon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: roared o'er the hillock:10 heads all were melted,",
+    "grammar": "Contextual translation",
     "lemma": "multon"
   },
   "mund": {
@@ -43693,8 +43693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mund-gripe"
   },
   "mundum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shook his spear, and spake in parley.",
+    "grammar": "Contextual translation",
     "lemma": "mundum"
   },
   "murn": {
@@ -43713,8 +43713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "murnan"
   },
   "murnende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mournful their mood. No man is able",
+    "grammar": "Contextual translation",
     "lemma": "murnende"
   },
   "muð bona": {
@@ -43743,8 +43743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mūð-bona"
   },
   "muðbonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: girded warrior. Grendel on him",
+    "grammar": "Contextual translation",
     "lemma": "muðbonan"
   },
   "muþ": {
@@ -43758,8 +43758,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mūþa"
   },
   "muþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the house's mouth. All hastily, then,",
+    "grammar": "Contextual translation",
     "lemma": "muþan"
   },
   "muþe": {
@@ -43778,8 +43778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "myne"
   },
   "myndgað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that rightfully ought to be owned by thee!",
+    "grammar": "Contextual translation",
     "lemma": "myndgað"
   },
   "myndgi": {
@@ -43828,8 +43828,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "myrċe"
   },
   "myrcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the murky moor; of men-at-arms",
+    "grammar": "Contextual translation",
     "lemma": "myrcan"
   },
   "myrce": {
@@ -43843,8 +43843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "myrð(u)"
   },
   "myrðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harmful in heart and hated of God,",
+    "grammar": "Contextual translation",
     "lemma": "myrðe"
   },
   "mæ": {
@@ -43893,8 +43893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣġ-burg"
   },
   "mægburge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall fail your folk; his freehold-land",
+    "grammar": "Contextual translation",
     "lemma": "mægburge"
   },
   "mæge": {
@@ -44033,13 +44033,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-āgende"
   },
   "mægenagendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forsooth among folk but few achieve,",
+    "grammar": "Contextual translation",
     "lemma": "mægenagendra"
   },
   "mægenbyrðenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under the earth-wall. Eager, I seized",
+    "grammar": "Contextual translation",
     "lemma": "mægenbyrðenne"
   },
   "mægenbyrþen(n)": {
@@ -44048,8 +44048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-byrþen(n)"
   },
   "mægenbyrþenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of burden brave he bore with him.",
+    "grammar": "Contextual translation",
     "lemma": "mægenbyrþenne"
   },
   "mægencræft": {
@@ -44058,8 +44058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-cræft"
   },
   "mægene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he who of men in might was strongest",
+    "grammar": "Contextual translation",
     "lemma": "mægene"
   },
   "mægenellen": {
@@ -44068,8 +44068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-ellen"
   },
   "mægenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to deal with any of Daneland's earls,",
+    "grammar": "Contextual translation",
     "lemma": "mægenes"
   },
   "mægenfultum": {
@@ -44078,8 +44078,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-fultum"
   },
   "mægenfultuma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor was that the meanest of mighty helps",
+    "grammar": "Contextual translation",
     "lemma": "mægenfultuma"
   },
   "mægenhreð": {
@@ -44103,18 +44103,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġen-wudu"
   },
   "mæges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For the eldest of these, by unmeet chance,",
+    "grammar": "Contextual translation",
     "lemma": "mæges"
   },
   "mægnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his mettle, his might, the mercy of God!",
+    "grammar": "Contextual translation",
     "lemma": "mægnes"
   },
   "mægum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's hall he had wholly purged,",
+    "grammar": "Contextual translation",
     "lemma": "mægum"
   },
   "mægwine": {
@@ -44128,8 +44128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæġð"
   },
   "mægðscyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re shall eat it. No earl must carry",
+    "grammar": "Contextual translation",
     "lemma": "mægðscyne"
   },
   "mægþ": {
@@ -44138,18 +44138,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣġþ"
   },
   "mægþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall an earl have honor in every clan.",
+    "grammar": "Contextual translation",
     "lemma": "mægþa"
   },
   "mægþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for many a tribe this mid-earth round,",
+    "grammar": "Contextual translation",
     "lemma": "mægþe"
   },
   "mægþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from many a tribe, the mead-bench tore,",
+    "grammar": "Contextual translation",
     "lemma": "mægþum"
   },
   "mæl": {
@@ -44178,13 +44178,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣl-ġesceaft"
   },
   "mæla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: even as oft as evil threatened",
+    "grammar": "Contextual translation",
     "lemma": "mæla"
   },
   "mælceare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THUS seethed unceasing the son of Healfdene",
+    "grammar": "Contextual translation",
     "lemma": "mælceare"
   },
   "mælcearu": {
@@ -44198,13 +44198,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣl-ġesceaft"
   },
   "mælgesceafta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and threat me with horrors. At home I bided",
+    "grammar": "Contextual translation",
     "lemma": "mælgesceafta"
   },
   "mælum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft indeed, in earlier days,",
+    "grammar": "Contextual translation",
     "lemma": "mælum"
   },
   "mæn": {
@@ -44218,13 +44218,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣnan"
   },
   "mænde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ower of my race have reft away.\"",
+    "grammar": "Contextual translation",
     "lemma": "mænde"
   },
   "mændon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had sorrowing told, from sea-ways landed,",
+    "grammar": "Contextual translation",
     "lemma": "mændon"
   },
   "mæne": {
@@ -44233,8 +44233,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣnan"
   },
   "mæned": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eager they echoed, and all averred",
+    "grammar": "Contextual translation",
     "lemma": "mæned"
   },
   "mænigo": {
@@ -44248,13 +44248,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣre"
   },
   "mæra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The monster meant \u0015 if he might at all \u0015",
+    "grammar": "Contextual translation",
     "lemma": "mæra"
   },
   "mæran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To that mighty-one come we on mickle errand,",
+    "grammar": "Contextual translation",
     "lemma": "mæran"
   },
   "mære": {
@@ -44263,33 +44263,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣre"
   },
   "mæres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their praised prince, if power were theirs;",
+    "grammar": "Contextual translation",
     "lemma": "mæres"
   },
   "mærne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the mast the mighty one. Many a treasure",
+    "grammar": "Contextual translation",
     "lemma": "mærne"
   },
   "mærost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He had of all heroes the highest renown",
+    "grammar": "Contextual translation",
     "lemma": "mærost"
   },
   "mæru": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such merry men over mead in hall",
+    "grammar": "Contextual translation",
     "lemma": "mæru"
   },
   "mærum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this mission of mine, to thy master-lord,",
+    "grammar": "Contextual translation",
     "lemma": "mærum"
   },
   "mærða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: kinsman and follower. Fame a plenty",
+    "grammar": "Contextual translation",
     "lemma": "mærða"
   },
   "mærðo": {
@@ -44298,13 +44298,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣrðo"
   },
   "mærðu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old folk-defender, feud will I seek,",
+    "grammar": "Contextual translation",
     "lemma": "mærðu"
   },
   "mærþo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: remember thy glory; thy might declare;",
+    "grammar": "Contextual translation",
     "lemma": "mærþo"
   },
   "mæst": {
@@ -44313,8 +44313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mæst"
   },
   "mæste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the mast the mighty one. Many a treasure",
+    "grammar": "Contextual translation",
     "lemma": "mæste"
   },
   "mæt": {
@@ -44328,13 +44328,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "mǣte"
   },
   "mæton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with strenuous hands the sea-streets measured,",
+    "grammar": "Contextual translation",
     "lemma": "mæton"
   },
   "mætost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor was that the meanest of mighty helps",
+    "grammar": "Contextual translation",
     "lemma": "mætost"
   },
   "n": {
@@ -44358,8 +44358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "naca"
   },
   "nacan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the breast of the bark their bright array,",
+    "grammar": "Contextual translation",
     "lemma": "nacan"
   },
   "nace": {
@@ -44393,23 +44393,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nalas"
   },
   "nales": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quoth that he counted it keen in battle,",
+    "grammar": "Contextual translation",
     "lemma": "nales"
   },
   "nallas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce his mind,",
+    "grammar": "Contextual translation",
     "lemma": "nallas"
   },
   "nalles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'Tis plain that for prowess, not plunged into exile,",
+    "grammar": "Contextual translation",
     "lemma": "nalles"
   },
   "nalæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No less these loaded the lordly gifts,",
+    "grammar": "Contextual translation",
     "lemma": "nalæs"
   },
   "nam": {
@@ -44423,8 +44423,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nama"
   },
   "naman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of halls the noblest: Heorot1 he named it",
+    "grammar": "Contextual translation",
     "lemma": "naman"
   },
   "name": {
@@ -44458,13 +44458,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nāt-hwylċ"
   },
   "nathwylces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after havoc of heroes, those hardy Scyldings?",
+    "grammar": "Contextual translation",
     "lemma": "nathwylces"
   },
   "nathwylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he was now in some hall, he knew not which,",
+    "grammar": "Contextual translation",
     "lemma": "nathwylcum"
   },
   "ne": {
@@ -44543,13 +44543,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nearo-cræft"
   },
   "nearocræftum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to strand and sea-waves stood anear,",
+    "grammar": "Contextual translation",
     "lemma": "nearocræftum"
   },
   "nearofages": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wide was the dragon's warring seen,",
+    "grammar": "Contextual translation",
     "lemma": "nearofages"
   },
   "nearofah": {
@@ -44563,8 +44563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nearo-þearf"
   },
   "nearoþearfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nicors1 by night, in need and peril",
+    "grammar": "Contextual translation",
     "lemma": "nearoþearfe"
   },
   "nearw": {
@@ -44608,8 +44608,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nefa"
   },
   "nefan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: uncle to nephew; as ever the twain",
+    "grammar": "Contextual translation",
     "lemma": "nefan"
   },
   "nefe": {
@@ -44648,8 +44648,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nemne"
   },
   "nemdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Grendel in days long gone they named him,",
+    "grammar": "Contextual translation",
     "lemma": "nemdon"
   },
   "nemn": {
@@ -44663,8 +44663,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nemnan"
   },
   "nemnað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: is Beowulf named. This boon they seek,",
+    "grammar": "Contextual translation",
     "lemma": "nemnað"
   },
   "nemne": {
@@ -44688,8 +44688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nēod-laðu"
   },
   "neodlaðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had passed in peace to the prince's mind.",
+    "grammar": "Contextual translation",
     "lemma": "neodlaðum"
   },
   "neon": {
@@ -44713,8 +44713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nēosan"
   },
   "neosian": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd at fall of night",
+    "grammar": "Contextual translation",
     "lemma": "neosian"
   },
   "neot": {
@@ -44733,8 +44733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nēotan"
   },
   "neowle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: headlands sheer, and the haunts of the Nicors.",
+    "grammar": "Contextual translation",
     "lemma": "neowle"
   },
   "neowol": {
@@ -44743,8 +44743,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "neowol"
   },
   "nereð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: windy walls. For Wyrd oft saveth",
+    "grammar": "Contextual translation",
     "lemma": "nereð"
   },
   "neri": {
@@ -44773,8 +44773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nēðan"
   },
   "neðdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far at sea: and so we performed it.",
+    "grammar": "Contextual translation",
     "lemma": "neðdon"
   },
   "neðe": {
@@ -44783,23 +44783,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nēðan"
   },
   "neðende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: its vigor and valor: ventures desperate",
+    "grammar": "Contextual translation",
     "lemma": "neðende"
   },
   "neþdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to risk your lives? No living man,",
+    "grammar": "Contextual translation",
     "lemma": "neþdon"
   },
   "nicera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ba ed in battle and banned, his steps",
+    "grammar": "Contextual translation",
     "lemma": "nicera"
   },
   "niceras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nicors1 by night, in need and peril",
+    "grammar": "Contextual translation",
     "lemma": "niceras"
   },
   "nicor": {
@@ -44823,13 +44823,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nicor-hūs"
   },
   "nicorhusa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: headlands sheer, and the haunts of the Nicors.",
+    "grammar": "Contextual translation",
     "lemma": "nicorhusa"
   },
   "nicras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and nicors that lay on the ledge of the ness \u0015",
+    "grammar": "Contextual translation",
     "lemma": "nicras"
   },
   "niehst": {
@@ -44843,8 +44843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīehsta"
   },
   "niehstan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf spake, and a battle-vow made",
+    "grammar": "Contextual translation",
     "lemma": "niehstan"
   },
   "niehste": {
@@ -44863,8 +44863,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nigon"
   },
   "nigene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nine of the nicors. Of night-fought battles",
+    "grammar": "Contextual translation",
     "lemma": "nigene"
   },
   "nigon": {
@@ -44918,8 +44918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "niht-weorc"
   },
   "nihta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By night is a wonder weird to see,",
+    "grammar": "Contextual translation",
     "lemma": "nihta"
   },
   "nihtbealu": {
@@ -44928,13 +44928,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "niht-bealu"
   },
   "nihtbealwa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: most baneful of burdens and bales of the night.",
+    "grammar": "Contextual translation",
     "lemma": "nihtbealwa"
   },
   "nihtes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nicors1 by night, in need and peril",
+    "grammar": "Contextual translation",
     "lemma": "nihtes"
   },
   "nihthelm": {
@@ -44948,13 +44948,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "niht-long"
   },
   "nihtlongne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thou darst await through the watch of night!\"",
+    "grammar": "Contextual translation",
     "lemma": "nihtlongne"
   },
   "nihtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-bright hall, in gloomy nights;",
+    "grammar": "Contextual translation",
     "lemma": "nihtum"
   },
   "nihtweorc": {
@@ -44963,8 +44963,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "niht-weorc"
   },
   "nihtweorce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had purged it anew. His night-work pleased him,",
+    "grammar": "Contextual translation",
     "lemma": "nihtweorce"
   },
   "nim": {
@@ -44988,8 +44988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīod"
   },
   "niode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus in the hall the whole of that day",
+    "grammar": "Contextual translation",
     "lemma": "niode"
   },
   "nios(i)": {
@@ -45008,18 +45008,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīos(i)an"
   },
   "niosan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght: but few escaped",
+    "grammar": "Contextual translation",
     "lemma": "niosan"
   },
   "niosað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by kinsman for kinsman,1 with clash of sword,",
+    "grammar": "Contextual translation",
     "lemma": "niosað"
   },
   "niosian": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it had revelled by night, and anon come back,",
+    "grammar": "Contextual translation",
     "lemma": "niosian"
   },
   "niow": {
@@ -45028,8 +45028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīowe"
   },
   "niowan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the band of the hall, was a banquet dight",
+    "grammar": "Contextual translation",
     "lemma": "niowan"
   },
   "niowe": {
@@ -45058,13 +45058,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīpan"
   },
   "nipende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: darkling night, and the northern wind",
+    "grammar": "Contextual translation",
     "lemma": "nipende"
   },
   "nis": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yon hero in harness! No henchman he",
+    "grammar": "Contextual translation",
     "lemma": "nis"
   },
   "niw": {
@@ -45083,8 +45083,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīw-tyrwed"
   },
   "niwan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The hoard-guard was heartened; high heaved his breast",
+    "grammar": "Contextual translation",
     "lemma": "niwan"
   },
   "niwe": {
@@ -45093,8 +45093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīwe"
   },
   "niwra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their lord beloved? Little1 kept back",
+    "grammar": "Contextual translation",
     "lemma": "niwra"
   },
   "niwtyrwed": {
@@ -45103,13 +45103,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīw-tyrwed"
   },
   "niwtyrwydne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: your new-tarred ship by shore of ocean",
+    "grammar": "Contextual translation",
     "lemma": "niwtyrwydne"
   },
   "nið": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who in harm and hatred hales his soul",
+    "grammar": "Contextual translation",
     "lemma": "nið"
   },
   "nið draca": {
@@ -45208,8 +45208,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīð-wundor"
   },
   "niða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ba ed in battle and banned, his steps",
+    "grammar": "Contextual translation",
     "lemma": "niða"
   },
   "niðdraca": {
@@ -45218,8 +45218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīð-draca"
   },
   "niðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Geats' lord boasted; his brand had failed,",
+    "grammar": "Contextual translation",
     "lemma": "niðe"
   },
   "niðgripe": {
@@ -45243,8 +45243,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīð-hēdiġ"
   },
   "niðhedige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the rounds and the rings they had reft erewhile,",
+    "grammar": "Contextual translation",
     "lemma": "niðhedige"
   },
   "niðsele": {
@@ -45278,8 +45278,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīþ-grim(m)"
   },
   "niþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was driven into the dragon's head, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "niþe"
   },
   "niþer": {
@@ -45293,13 +45293,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nīþ-ġeweorc"
   },
   "niþgeweorca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold in battle; we both, this night,",
+    "grammar": "Contextual translation",
     "lemma": "niþgeweorca"
   },
   "niþgrim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: most baneful of burdens and bales of the night.",
+    "grammar": "Contextual translation",
     "lemma": "niþgrim"
   },
   "niþgrim(m)": {
@@ -45313,8 +45313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "niþðas"
   },
   "niþða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the refuge ready for race of man,",
+    "grammar": "Contextual translation",
     "lemma": "niþða"
   },
   "niþðas": {
@@ -45363,8 +45363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "norð"
   },
   "norðdenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: din redoubled. Danes of the North",
+    "grammar": "Contextual translation",
     "lemma": "norðdenum"
   },
   "norþ": {
@@ -45378,8 +45378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "norþan"
   },
   "norþanwind": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: darkling night, and the northern wind",
+    "grammar": "Contextual translation",
     "lemma": "norþanwind"
   },
   "norþe": {
@@ -45393,8 +45393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nōse"
   },
   "nosan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: trusty as ever, the earl's return.",
+    "grammar": "Contextual translation",
     "lemma": "nosan"
   },
   "nose": {
@@ -45403,8 +45403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nōse"
   },
   "not": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "not"
   },
   "noðer": {
@@ -45418,8 +45418,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nū"
   },
   "numen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: king amid clansmen; the queen was taken.",
+    "grammar": "Contextual translation",
     "lemma": "numen"
   },
   "nuð": {
@@ -45438,33 +45438,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nūða"
   },
   "nyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as ward for his wealth, now the one has found",
+    "grammar": "Contextual translation",
     "lemma": "nyd"
   },
   "nyde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the refuge ready for race of man,",
+    "grammar": "Contextual translation",
     "lemma": "nyde"
   },
   "nydgesteallan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stood side by side in stress of war,",
+    "grammar": "Contextual translation",
     "lemma": "nydgesteallan"
   },
   "nydgripe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tightly grasped in gripe of anguish,",
+    "grammar": "Contextual translation",
     "lemma": "nydgripe"
   },
   "nydwracu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: most baneful of burdens and bales of the night.",
+    "grammar": "Contextual translation",
     "lemma": "nydwracu"
   },
   "nyhstan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the last of his raids this ring bore with him,",
+    "grammar": "Contextual translation",
     "lemma": "nyhstan"
   },
   "nyll": {
@@ -45498,18 +45498,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nyman"
   },
   "nymeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: art wise in words! I ween indeed",
+    "grammar": "Contextual translation",
     "lemma": "nymeð"
   },
   "nymeðnydbade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He forces pledges, favors none",
+    "grammar": "Contextual translation",
     "lemma": "nymeðnydbade"
   },
   "nymðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my strength had been lost had the Lord not shielded me.",
+    "grammar": "Contextual translation",
     "lemma": "nymðe"
   },
   "nymþ": {
@@ -45528,8 +45528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nyt(t)"
   },
   "nytte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-hearted. A henchman attended,",
+    "grammar": "Contextual translation",
     "lemma": "nytte"
   },
   "nyðer": {
@@ -45593,8 +45593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nǣġan"
   },
   "nægde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wishing to greet the wise old king,",
+    "grammar": "Contextual translation",
     "lemma": "nægde"
   },
   "næge": {
@@ -45623,18 +45623,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "næġl(i)an"
   },
   "nægla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the sturdy nails to steel was likest, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "nægla"
   },
   "nægled": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she whom I heard these hall-companions",
+    "grammar": "Contextual translation",
     "lemma": "nægled"
   },
   "nægling": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was driven into the dragon's head, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "nægling"
   },
   "næne": {
@@ -45643,8 +45643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nǣniġ"
   },
   "nænegum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He forces pledges, favors none",
+    "grammar": "Contextual translation",
     "lemma": "nænegum"
   },
   "nænig": {
@@ -45653,13 +45653,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nǣniġ"
   },
   "nænigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ne'er heard I so mighty, 'neath heaven's dome,",
+    "grammar": "Contextual translation",
     "lemma": "nænigne"
   },
   "nænigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this kinship new: thou shalt never lack",
+    "grammar": "Contextual translation",
     "lemma": "nænigra"
   },
   "nær": {
@@ -45673,8 +45673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nǣre"
   },
   "næron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the Weders' lord. I wot 'twere shame",
+    "grammar": "Contextual translation",
     "lemma": "næron"
   },
   "næs": {
@@ -45698,8 +45698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "næs-hlið"
   },
   "næshleoðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and nicors that lay on the ledge of the ness \u0015",
+    "grammar": "Contextual translation",
     "lemma": "næshleoðum"
   },
   "næshlið": {
@@ -45708,18 +45708,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "næs-hlið"
   },
   "næssa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from mountains gliding to gloom of the rocks,",
+    "grammar": "Contextual translation",
     "lemma": "næssa"
   },
   "næssas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by wolf-cli\u001bs haunt they and windy headlands,",
+    "grammar": "Contextual translation",
     "lemma": "næssas"
   },
   "næsse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to strand and sea-waves stood anear,",
+    "grammar": "Contextual translation",
     "lemma": "næsse"
   },
   "nуd": {
@@ -45798,8 +45798,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "nӯhsta"
   },
   "o": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: prince of Scyldings, thy part in the world.",
+    "grammar": "Contextual translation",
     "lemma": "o"
   },
   "o hwær": {
@@ -46323,8 +46323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-weorpan"
   },
   "ofercomon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over their enemy all prevailed,",
+    "grammar": "Contextual translation",
     "lemma": "ofercomon"
   },
   "ofercuman": {
@@ -46333,13 +46333,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-cuman"
   },
   "ofercumen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ba ed in battle and banned, his steps",
+    "grammar": "Contextual translation",
     "lemma": "ofercumen"
   },
   "ofercwom": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for comfort and help: so he conquered the foe,",
+    "grammar": "Contextual translation",
     "lemma": "ofercwom"
   },
   "ofereode": {
@@ -46363,8 +46363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-gān"
   },
   "oferhelmað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdily rooted, shadows the wave.",
+    "grammar": "Contextual translation",
     "lemma": "oferhelmað"
   },
   "oferhelmian": {
@@ -46378,8 +46378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-hīgian"
   },
   "oferhogode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though long it had watched o'er the wealth of the hoard! \u0015",
+    "grammar": "Contextual translation",
     "lemma": "oferhogode"
   },
   "oferhycgan": {
@@ -46388,8 +46388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-hycgan"
   },
   "oferhyda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of men, and the better part choose,",
+    "grammar": "Contextual translation",
     "lemma": "oferhyda"
   },
   "oferhygd": {
@@ -46398,13 +46398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-hyġd"
   },
   "oferhygda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wends at his will, no worse he knoweth,",
+    "grammar": "Contextual translation",
     "lemma": "oferhygda"
   },
   "ofermaðmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethel's o\u001bspring, when home he came,",
+    "grammar": "Contextual translation",
     "lemma": "ofermaðmum"
   },
   "ofermaððum": {
@@ -46418,13 +46418,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-mæġen"
   },
   "ofermægene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him there the Hetwaras humbled in war,",
+    "grammar": "Contextual translation",
     "lemma": "ofermægene"
   },
   "ofersawon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Themselves had seen me from slaughter come",
+    "grammar": "Contextual translation",
     "lemma": "ofersawon"
   },
   "ofersecan": {
@@ -46443,18 +46443,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-sittan"
   },
   "ofersitte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ogan",
+    "grammar": "Contextual translation",
     "lemma": "ofersitte"
   },
   "ofersohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so the tale is told, and he tried too far",
+    "grammar": "Contextual translation",
     "lemma": "ofersohte"
   },
   "oferswam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from strife with the hero to seek their homes!",
+    "grammar": "Contextual translation",
     "lemma": "oferswam"
   },
   "oferswimman": {
@@ -46463,8 +46463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-swimman"
   },
   "oferswyðeþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so the Wise-and-Brave1 may worst his foes, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "oferswyðeþ"
   },
   "oferswуðan": {
@@ -46473,8 +46473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-swӯðan"
   },
   "oferwearp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Spent with struggle, stumbled the warrior,",
+    "grammar": "Contextual translation",
     "lemma": "oferwearp"
   },
   "oferweorpan": {
@@ -46483,8 +46483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofer-weorpan"
   },
   "ofeste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Be thou in haste, and bid them hither,",
+    "grammar": "Contextual translation",
     "lemma": "ofeste"
   },
   "offerian": {
@@ -46493,18 +46493,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "of-ferian"
   },
   "ofgeaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wonder-smiths' work, since the world was rid",
+    "grammar": "Contextual translation",
     "lemma": "ofgeaf"
   },
   "ofgeafon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The ninth hour came. The noble Scyldings",
+    "grammar": "Contextual translation",
     "lemma": "ofgeafon"
   },
   "ofgefan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eeting life. Befell erelong",
+    "grammar": "Contextual translation",
     "lemma": "ofgefan"
   },
   "ofgyfan": {
@@ -46538,8 +46538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofost-līċe"
   },
   "ofoste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sleeps, heart-sore, of his spoil bereaved.",
+    "grammar": "Contextual translation",
     "lemma": "ofoste"
   },
   "ofostlice": {
@@ -46548,8 +46548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ofost-līċe"
   },
   "ofre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the brink he yields ere he brave the plunge",
+    "grammar": "Contextual translation",
     "lemma": "ofre"
   },
   "ofsceotan": {
@@ -46558,8 +46558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "of-scēotan"
   },
   "ofscet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his own dear liege laid low with an arrow,",
+    "grammar": "Contextual translation",
     "lemma": "ofscet"
   },
   "ofsittan": {
@@ -46573,18 +46573,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "of-slēan"
   },
   "ofsloh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And so it came that I killed with my sword",
+    "grammar": "Contextual translation",
     "lemma": "ofsloh"
   },
   "ofste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Haste was hers; she would hie afar",
+    "grammar": "Contextual translation",
     "lemma": "ofste"
   },
   "ofsæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: On the hall-guest she hurled herself, hent her short sword,",
+    "grammar": "Contextual translation",
     "lemma": "ofsæt"
   },
   "oft": {
@@ -46593,8 +46593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oft"
   },
   "ofteah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from many a tribe, the mead-bench tore,",
+    "grammar": "Contextual translation",
     "lemma": "ofteah"
   },
   "ofteon": {
@@ -46603,13 +46603,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "of-tēon"
   },
   "oftor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oftener far than an only time,",
+    "grammar": "Contextual translation",
     "lemma": "oftor"
   },
   "oftost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old, gigantic, \u0015 how oft He guides",
+    "grammar": "Contextual translation",
     "lemma": "oftost"
   },
   "ofþyncan": {
@@ -46618,13 +46618,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "of-þynċan"
   },
   "ohteres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he wielded the Weder-Geats. \u0015 Wandering exiles",
+    "grammar": "Contextual translation",
     "lemma": "ohteres"
   },
   "ohtheres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs.",
+    "grammar": "Contextual translation",
     "lemma": "ohtheres"
   },
   "ohwær": {
@@ -46638,8 +46638,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ombeht"
   },
   "ombiht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's herald! Heroes so many",
+    "grammar": "Contextual translation",
     "lemma": "ombiht"
   },
   "ombiht þegn": {
@@ -46658,8 +46658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ombiht-þeġn"
   },
   "ombihtþegne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: choicest of weapons, \u0015 the well-chased sword,",
+    "grammar": "Contextual translation",
     "lemma": "ombihtþegne"
   },
   "ome": {
@@ -46673,8 +46673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ōmiġ"
   },
   "omige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dishes lay there, and dear-decked swords",
+    "grammar": "Contextual translation",
     "lemma": "omige"
   },
   "on": {
@@ -47513,13 +47513,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-arn"
   },
   "onbad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that some one of mortals had searched his treasure,",
+    "grammar": "Contextual translation",
     "lemma": "onbad"
   },
   "onband": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unbound the battle-runes.1 \u0015 Beowulf's quest,",
+    "grammar": "Contextual translation",
     "lemma": "onband"
   },
   "onberan": {
@@ -47538,8 +47538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-bindan"
   },
   "onboren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for bond of peace. So the barrow was plundered,",
+    "grammar": "Contextual translation",
     "lemma": "onboren"
   },
   "onbregdan": {
@@ -47548,8 +47548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-breġdan"
   },
   "onbræd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and baleful he burst in his blatant rage,",
+    "grammar": "Contextual translation",
     "lemma": "onbræd"
   },
   "oncer": {
@@ -47568,13 +47568,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oncer-"
   },
   "oncerbendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He bound to the beach the broad-bosomed ship",
+    "grammar": "Contextual translation",
     "lemma": "oncerbendum"
   },
   "oncirde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sought his citadel, sorrowing much:",
+    "grammar": "Contextual translation",
     "lemma": "oncirde"
   },
   "oncirran": {
@@ -47588,8 +47588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-cnāwan"
   },
   "oncniow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and clear his cry 'neath the cli\u001b-rocks gray.",
+    "grammar": "Contextual translation",
     "lemma": "oncniow"
   },
   "oncweðan": {
@@ -47598,13 +47598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-cweðan"
   },
   "oncyðeorla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ill for earls, when Aeschere's head",
+    "grammar": "Contextual translation",
     "lemma": "oncyðeorla"
   },
   "oncyþðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all their sorrow and ills assuaged,",
+    "grammar": "Contextual translation",
     "lemma": "oncyþðe"
   },
   "oncуð(ð)": {
@@ -47713,8 +47713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ond-drysne"
   },
   "ondhwearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless rushed on us: rough was the surge.",
+    "grammar": "Contextual translation",
     "lemma": "ondhwearf"
   },
   "ondhweorfan": {
@@ -47723,8 +47723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ond-hweorfan"
   },
   "ondlangne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ight.",
+    "grammar": "Contextual translation",
     "lemma": "ondlangne"
   },
   "ondlean": {
@@ -47738,18 +47738,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ond-long"
   },
   "ondlonge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the weary and wounded; woes he threatened",
+    "grammar": "Contextual translation",
     "lemma": "ondlonge"
   },
   "ondred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yer-afar with a host,",
+    "grammar": "Contextual translation",
     "lemma": "ondred"
   },
   "ondrede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sung in her sorrow, and said full oft",
+    "grammar": "Contextual translation",
     "lemma": "ondrede"
   },
   "ondrys": {
@@ -47773,18 +47773,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-drǣdan"
   },
   "ondrædað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re: the folk of earth",
+    "grammar": "Contextual translation",
     "lemma": "ondrædað"
   },
   "ondsaca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end, the foe of God,",
+    "grammar": "Contextual translation",
     "lemma": "ondsaca"
   },
   "ondsacan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: God's foe sounding his grisly song,",
+    "grammar": "Contextual translation",
     "lemma": "ondsacan"
   },
   "ondsendeþ": {
@@ -47798,28 +47798,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ond-slyht"
   },
   "ondsware": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and, swiftly after, such answer bring",
+    "grammar": "Contextual translation",
     "lemma": "ondsware"
   },
   "ondswarode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To him the stateliest spake in answer;",
+    "grammar": "Contextual translation",
     "lemma": "ondswarode"
   },
   "ondswaru": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of every man, as it is to-day.",
+    "grammar": "Contextual translation",
     "lemma": "ondswaru"
   },
   "onela": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brown-bright helmet, breastplate ringed,",
+    "grammar": "Contextual translation",
     "lemma": "onela"
   },
   "onelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and I heard that \u0015 was \u0015's queen,",
+    "grammar": "Contextual translation",
     "lemma": "onelan"
   },
   "onett": {
@@ -47838,18 +47838,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ōnettan"
   },
   "onetton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er the man of war, as marched along",
+    "grammar": "Contextual translation",
     "lemma": "onetton"
   },
   "onfand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: its war-song wild. But the warrior found",
+    "grammar": "Contextual translation",
     "lemma": "onfand"
   },
   "onfeng": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no hero 'neath heaven, \u0015 who harbored that freight!",
+    "grammar": "Contextual translation",
     "lemma": "onfeng"
   },
   "onfindan": {
@@ -47858,8 +47858,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-findan"
   },
   "onfoh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Qua\u001b of this cup, my king and lord,",
+    "grammar": "Contextual translation",
     "lemma": "onfoh"
   },
   "onfon": {
@@ -47868,18 +47868,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-fōn"
   },
   "onfunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Soon then saw that shepherd-of-evils",
+    "grammar": "Contextual translation",
     "lemma": "onfunde"
   },
   "onfunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and save her life when the liegemen saw her.",
+    "grammar": "Contextual translation",
     "lemma": "onfunden"
   },
   "ongan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a winsome life, till one began",
+    "grammar": "Contextual translation",
     "lemma": "ongan"
   },
   "ongeador": {
@@ -47893,43 +47893,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-ġēan"
   },
   "ongeat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to favor the folk, feeling their woe",
+    "grammar": "Contextual translation",
     "lemma": "ongeat"
   },
   "ongeaton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swollen and savage that song to hear,",
+    "grammar": "Contextual translation",
     "lemma": "ongeaton"
   },
   "ongenðeowes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard battle-horror, when Hrethel died,",
+    "grammar": "Contextual translation",
     "lemma": "ongenðeowes"
   },
   "ongenðio": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from Swedish folk. 'Twas spread afar",
+    "grammar": "Contextual translation",
     "lemma": "ongenðio"
   },
   "ongenðioes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the blade's fell blow, to bairn of Hygelac;",
+    "grammar": "Contextual translation",
     "lemma": "ongenðioes"
   },
   "ongenþeoes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with sturdy steps to the spot they knew",
+    "grammar": "Contextual translation",
     "lemma": "ongenþeoes"
   },
   "ongenþeow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by kinsman for kinsman,1 with clash of sword,",
+    "grammar": "Contextual translation",
     "lemma": "ongenþeow"
   },
   "ongenþio": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sought his citadel, sorrowing much:",
+    "grammar": "Contextual translation",
     "lemma": "ongenþio"
   },
   "onginnan": {
@@ -47938,13 +47938,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-ġinnan"
   },
   "onginneðgeomormod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that spear-death of men,3 \u0015 he is stern of mood,",
+    "grammar": "Contextual translation",
     "lemma": "onginneðgeomormod"
   },
   "ongit": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd thy lesson!",
+    "grammar": "Contextual translation",
     "lemma": "ongit"
   },
   "ongitan": {
@@ -47953,33 +47953,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-ġitan"
   },
   "ongite": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And fare in haste. I would fain behold",
+    "grammar": "Contextual translation",
     "lemma": "ongite"
   },
   "ongon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he smote with sword; his steel drove in",
+    "grammar": "Contextual translation",
     "lemma": "ongon"
   },
   "ongunnen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I gained in youth! These Grendel-deeds",
+    "grammar": "Contextual translation",
     "lemma": "ongunnen"
   },
   "ongunnon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No aliens ever at ease thus bore them,",
+    "grammar": "Contextual translation",
     "lemma": "ongunnon"
   },
   "ongytan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oor of the sea.",
+    "grammar": "Contextual translation",
     "lemma": "ongytan"
   },
   "ongyton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: broad of gable and bright with gold:",
+    "grammar": "Contextual translation",
     "lemma": "ongyton"
   },
   "onhohsni": {
@@ -47998,8 +47998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "onhōhsnian"
   },
   "onhohsnode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by wrath and lying his life should reave!",
+    "grammar": "Contextual translation",
     "lemma": "onhohsnode"
   },
   "onhreran": {
@@ -48008,8 +48008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-hrēran"
   },
   "onhrered": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and clear his cry 'neath the cli\u001b-rocks gray.",
+    "grammar": "Contextual translation",
     "lemma": "onhrered"
   },
   "onirnan": {
@@ -48018,13 +48018,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-irnan"
   },
   "onlah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: drunk with wine, now this weapon he lent",
+    "grammar": "Contextual translation",
     "lemma": "onlah"
   },
   "onleac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the warriors' leader his word-hoard unlocked:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "onleac"
   },
   "onleon": {
@@ -48038,8 +48038,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-līcnes(s)"
   },
   "onlicnæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of womankind; and one, accursed,",
+    "grammar": "Contextual translation",
     "lemma": "onlicnæs"
   },
   "onlucan": {
@@ -48053,8 +48053,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-lǣtan"
   },
   "onlæteð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when frosty fetters the Father loosens,",
+    "grammar": "Contextual translation",
     "lemma": "onlæteð"
   },
   "onmedla": {
@@ -48063,8 +48063,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-mēdla"
   },
   "onmedlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Haethcyn Hrethling of hope and life,",
+    "grammar": "Contextual translation",
     "lemma": "onmedlan"
   },
   "onmunan": {
@@ -48073,8 +48073,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-munan"
   },
   "onmunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from all his army to aid him now,",
+    "grammar": "Contextual translation",
     "lemma": "onmunde"
   },
   "onsacan": {
@@ -48088,8 +48088,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-sēċan"
   },
   "onsend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To Hygelac send, if Hild4 should take me,",
+    "grammar": "Contextual translation",
     "lemma": "onsend"
   },
   "onsendan(ond)": {
@@ -48098,8 +48098,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-sendan(ond-)"
   },
   "onsende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: out of his mercy this man hath sent",
+    "grammar": "Contextual translation",
     "lemma": "onsende"
   },
   "onsittan": {
@@ -48108,8 +48108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-sittan"
   },
   "onspeon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the king and conqueror covered with blood,",
+    "grammar": "Contextual translation",
     "lemma": "onspeon"
   },
   "onsponnan": {
@@ -48123,13 +48123,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-springan"
   },
   "onsprungon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: showed on his shoulder, and sinews cracked,",
+    "grammar": "Contextual translation",
     "lemma": "onsprungon"
   },
   "onstealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In the throng was this one thirteenth man,",
+    "grammar": "Contextual translation",
     "lemma": "onstealde"
   },
   "onstellan": {
@@ -48138,8 +48138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-stellan"
   },
   "onswaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght: the rocks resounded.",
+    "grammar": "Contextual translation",
     "lemma": "onswaf"
   },
   "onswifan": {
@@ -48148,8 +48148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-swīfan"
   },
   "onsyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and viewed all these vessels. No vestige now",
+    "grammar": "Contextual translation",
     "lemma": "onsyn"
   },
   "onsæce": {
@@ -48163,8 +48163,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-sǣġe"
   },
   "onsæl": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 But sit to the banquet, unbind thy words,",
+    "grammar": "Contextual translation",
     "lemma": "onsæl"
   },
   "onsælan": {
@@ -48183,8 +48183,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-tyhtan"
   },
   "ontyhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but grievously gotten; too grim the fate",
+    "grammar": "Contextual translation",
     "lemma": "ontyhte"
   },
   "onwacnian": {
@@ -48213,8 +48213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-windan"
   },
   "onwindeðwælrapas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: unwinds the wave-bonds, wielding all",
+    "grammar": "Contextual translation",
     "lemma": "onwindeðwælrapas"
   },
   "onwoc": {
@@ -48223,13 +48223,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-wōc"
   },
   "onwocon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of Cain awoke all that woful breed,",
+    "grammar": "Contextual translation",
     "lemma": "onwocon"
   },
   "onwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to all: the other2 was urged to crime!",
+    "grammar": "Contextual translation",
     "lemma": "onwod"
   },
   "onwæcnan": {
@@ -48238,8 +48238,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "on-wæcnan"
   },
   "onðah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for deeds of daring that decked his name",
+    "grammar": "Contextual translation",
     "lemma": "onðah"
   },
   "onðeon": {
@@ -48263,8 +48263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "open"
   },
   "opene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'erwhelmed his heart. His hoard-of-bliss",
+    "grammar": "Contextual translation",
     "lemma": "opene"
   },
   "openi": {
@@ -48408,8 +48408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "orc-nēas"
   },
   "orcas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ogan,",
+    "grammar": "Contextual translation",
     "lemma": "orcas"
   },
   "orcneas": {
@@ -48443,8 +48443,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ord-fruma"
   },
   "orde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to pierce the monster with point of sword,",
+    "grammar": "Contextual translation",
     "lemma": "orde"
   },
   "ordfruma": {
@@ -48453,8 +48453,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ord-fruma"
   },
   "ore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was fain to fare. Ne'er failed his valor",
+    "grammar": "Contextual translation",
     "lemma": "ore"
   },
   "oret mecg": {
@@ -48473,8 +48473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ōret-mecg"
   },
   "oretmecgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: asked of the heroes their home and kin.",
+    "grammar": "Contextual translation",
     "lemma": "oretmecgas"
   },
   "orett": {
@@ -48493,8 +48493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ōretta"
   },
   "oreðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and never so daring in deed of valor, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "oreðe"
   },
   "oreðe(s)": {
@@ -48503,8 +48503,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oreðe(s)"
   },
   "oreðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght I must fear me now,",
+    "grammar": "Contextual translation",
     "lemma": "oreðes"
   },
   "orleahtre": {
@@ -48528,8 +48528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "or-leġe"
   },
   "orleges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In the throng was this one thirteenth man,",
+    "grammar": "Contextual translation",
     "lemma": "orleges"
   },
   "orleghwil": {
@@ -48538,13 +48538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "orleġ-hwīl"
   },
   "orleghwila": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Through store of struggles I strove in youth,",
+    "grammar": "Contextual translation",
     "lemma": "orleghwila"
   },
   "orleghwile": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er friend and foe. \u0015 Now our folk may look",
+    "grammar": "Contextual translation",
     "lemma": "orleghwile"
   },
   "oruð": {
@@ -48553,8 +48553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oruð"
   },
   "oruðaglæcean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for pact of peace! The poison-breath",
+    "grammar": "Contextual translation",
     "lemma": "oruðaglæcean"
   },
   "orwearde": {
@@ -48568,8 +48568,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "or-wēna"
   },
   "orðoncum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wide and wondrous, wound with bands;",
+    "grammar": "Contextual translation",
     "lemma": "orðoncum"
   },
   "orþanc": {
@@ -48578,13 +48578,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "or-þanc"
   },
   "orþancum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-net woven by wit of the smith:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "orþancum"
   },
   "oslaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for Guthlaf and Oslaf of grim attack",
+    "grammar": "Contextual translation",
     "lemma": "oslaf"
   },
   "ower": {
@@ -48598,8 +48598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ō-wiht"
   },
   "owihte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hosts to our heart: thou hast harbored us well.",
+    "grammar": "Contextual translation",
     "lemma": "owihte"
   },
   "oð": {
@@ -48688,8 +48688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oð-wītan"
   },
   "oðdomes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in what wise he should wend from the world at last.",
+    "grammar": "Contextual translation",
     "lemma": "oðdomes"
   },
   "oðeode": {
@@ -48698,8 +48698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oð-ēode"
   },
   "oðeodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed before him",
+    "grammar": "Contextual translation",
     "lemma": "oðeodon"
   },
   "oðer": {
@@ -48708,13 +48708,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ōðer"
   },
   "oðerne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: missed the mark and his mate shot down,",
+    "grammar": "Contextual translation",
     "lemma": "oðerne"
   },
   "oðferede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from Grendel's mother, \u0015 and gained my life,",
+    "grammar": "Contextual translation",
     "lemma": "oðferede"
   },
   "oðferian": {
@@ -48728,23 +48728,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oð-gān"
   },
   "oðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: At the words the worm came once again,",
+    "grammar": "Contextual translation",
     "lemma": "oðre"
   },
   "oðres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Still is he minded, as morning breaks,",
+    "grammar": "Contextual translation",
     "lemma": "oðres"
   },
   "oðrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: held in hand; hateful alive",
+    "grammar": "Contextual translation",
     "lemma": "oðrum"
   },
   "oðw": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Each of them had a hundred thousand3",
+    "grammar": "Contextual translation",
     "lemma": "oðw"
   },
   "oðwitan": {
@@ -48753,8 +48753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oð-wītan"
   },
   "oðworuldende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but let him lie where he long had been",
+    "grammar": "Contextual translation",
     "lemma": "oðworuldende"
   },
   "oðð": {
@@ -48768,23 +48768,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oððe"
   },
   "oððone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had passed a plenty, through perils dire,",
+    "grammar": "Contextual translation",
     "lemma": "oððone"
   },
   "oððæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a winsome life, till one began",
+    "grammar": "Contextual translation",
     "lemma": "oððæt"
   },
   "oððþæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: obeyed him gladly till great grew his band",
+    "grammar": "Contextual translation",
     "lemma": "oððþæt"
   },
   "oðþæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till before him the folk, both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "oðþæt"
   },
   "oþ beran": {
@@ -48813,43 +48813,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "oþ-beran"
   },
   "oþer": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: than any man else, more ocean-endurance.",
+    "grammar": "Contextual translation",
     "lemma": "oþer"
   },
   "oþerne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Man to man, he made harangue,",
+    "grammar": "Contextual translation",
     "lemma": "oþerne"
   },
   "oþres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till in season due, on the second day,",
+    "grammar": "Contextual translation",
     "lemma": "oþres"
   },
   "oþrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Here every earl to the other is true,",
+    "grammar": "Contextual translation",
     "lemma": "oþrum"
   },
   "oþðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght,",
+    "grammar": "Contextual translation",
     "lemma": "oþðe"
   },
   "oþðæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: faithfully watching till once again",
+    "grammar": "Contextual translation",
     "lemma": "oþðæt"
   },
   "oþþæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: away from the world, till awoke an heir,",
+    "grammar": "Contextual translation",
     "lemma": "oþþæt"
   },
   "passage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "passage"
   },
   "r": {
@@ -48858,8 +48858,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rūm"
   },
   "rad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warrior blithe. The wave-roamer bode",
+    "grammar": "Contextual translation",
     "lemma": "rad"
   },
   "rand": {
@@ -48888,13 +48888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rand-wiga"
   },
   "randas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how they bore o'er the gangway glittering shields,",
+    "grammar": "Contextual translation",
     "lemma": "randas"
   },
   "rande": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sovran strong: under shield he died.",
+    "grammar": "Contextual translation",
     "lemma": "rande"
   },
   "randwiga": {
@@ -48903,8 +48903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rand-wiga"
   },
   "randwigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aged Scylding; and eager the Geat,",
+    "grammar": "Contextual translation",
     "lemma": "randwigan"
   },
   "rasi": {
@@ -48923,8 +48923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rāsian"
   },
   "rasod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that costly cup, and the king implored",
+    "grammar": "Contextual translation",
     "lemma": "rasod"
   },
   "raþ": {
@@ -48943,13 +48943,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reon"
   },
   "rea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was seen of the serpent: the sword had ta'en him.",
+    "grammar": "Contextual translation",
     "lemma": "rea"
   },
   "reafedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weaker warriors won the spoil,",
+    "grammar": "Contextual translation",
     "lemma": "reafedon"
   },
   "reafi": {
@@ -48968,8 +48968,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rēafian"
   },
   "reafode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his people to wield the place-of-war.",
+    "grammar": "Contextual translation",
     "lemma": "reafode"
   },
   "rec": {
@@ -48993,18 +48993,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reċċan"
   },
   "reccenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when I all angrily upright stood.",
+    "grammar": "Contextual translation",
     "lemma": "reccenne"
   },
   "recceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his wanton mood, of weapons recks not;",
+    "grammar": "Contextual translation",
     "lemma": "recceð"
   },
   "rece": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: deaths enow, and doom of battle,",
+    "grammar": "Contextual translation",
     "lemma": "rece"
   },
   "reced": {
@@ -49013,18 +49013,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reċed"
   },
   "receda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of houses 'neath heaven, where Hrothgar lived,",
+    "grammar": "Contextual translation",
     "lemma": "receda"
   },
   "recede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To the house the warrior walked apace,",
+    "grammar": "Contextual translation",
     "lemma": "recede"
   },
   "recedes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they set their bucklers, their broad shields, down,",
+    "grammar": "Contextual translation",
     "lemma": "recedes"
   },
   "ree": {
@@ -49048,8 +49048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reġn-heard"
   },
   "regnhearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they set their bucklers, their broad shields, down,",
+    "grammar": "Contextual translation",
     "lemma": "regnhearde"
   },
   "regni": {
@@ -49068,13 +49068,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reġnian"
   },
   "rehte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then was song and glee. The gray-haired Scylding,",
+    "grammar": "Contextual translation",
     "lemma": "rehte"
   },
   "relations": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "relations"
   },
   "ren weard": {
@@ -49093,8 +49093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ren-weard"
   },
   "renweardas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: those savage hall-guards: the house resounded. rm",
+    "grammar": "Contextual translation",
     "lemma": "renweardas"
   },
   "reoc": {
@@ -49128,8 +49128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "reord"
   },
   "reorde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The hoard-guard heard a human voice;",
+    "grammar": "Contextual translation",
     "lemma": "reorde"
   },
   "reordi": {
@@ -49158,8 +49158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rēotan"
   },
   "reotað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the heavens weep. Now is help once more",
+    "grammar": "Contextual translation",
     "lemma": "reotað"
   },
   "reote": {
@@ -49203,8 +49203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rīċe"
   },
   "rica": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of houses 'neath heaven, where Hrothgar lived,",
+    "grammar": "Contextual translation",
     "lemma": "rica"
   },
   "rice": {
@@ -49213,13 +49213,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rīċe"
   },
   "rices": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors none more worthy to rule!",
+    "grammar": "Contextual translation",
     "lemma": "rices"
   },
   "ricone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There were many to bind the brother's wounds",
+    "grammar": "Contextual translation",
     "lemma": "ricone"
   },
   "ricone(recene)": {
@@ -49283,13 +49283,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rinċ"
   },
   "rinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of buildings best, for your band of thanes",
+    "grammar": "Contextual translation",
     "lemma": "rinca"
   },
   "rince": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my precious hoard, on a punier man,",
+    "grammar": "Contextual translation",
     "lemma": "rince"
   },
   "riod": {
@@ -49323,28 +49323,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rīxian"
   },
   "rixode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end outran! ll",
+    "grammar": "Contextual translation",
     "lemma": "rixode"
   },
   "roden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bode not in breast. The burg was reddened",
+    "grammar": "Contextual translation",
     "lemma": "roden"
   },
   "rodera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The Lord of Heaven allowed his cause;",
+    "grammar": "Contextual translation",
     "lemma": "rodera"
   },
   "roderas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the heavens weep. Now is help once more",
+    "grammar": "Contextual translation",
     "lemma": "roderas"
   },
   "roderum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of houses 'neath heaven, where Hrothgar lived,",
+    "grammar": "Contextual translation",
     "lemma": "roderum"
   },
   "rodor": {
@@ -49353,8 +49353,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rodor"
   },
   "rodores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heaven's candle. The hall he scanned.",
+    "grammar": "Contextual translation",
     "lemma": "rodores"
   },
   "rof": {
@@ -49363,13 +49363,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rōf"
   },
   "rofan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re-dread dragon,",
+    "grammar": "Contextual translation",
     "lemma": "rofan"
   },
   "rofne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aged Scylding; and eager the Geat,",
+    "grammar": "Contextual translation",
     "lemma": "rofne"
   },
   "rond": {
@@ -49388,13 +49388,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rond-hæbbend(e)"
   },
   "rondas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they set their bucklers, their broad shields, down,",
+    "grammar": "Contextual translation",
     "lemma": "rondas"
   },
   "ronde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: cruel killing, your king and lord!\"",
+    "grammar": "Contextual translation",
     "lemma": "ronde"
   },
   "rondhæbbend(e)": {
@@ -49403,8 +49403,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rond-hæbbend(e)"
   },
   "rondhæbbendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors none more worthy to rule!",
+    "grammar": "Contextual translation",
     "lemma": "rondhæbbendra"
   },
   "row": {
@@ -49423,8 +49423,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rōwan"
   },
   "ruin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There is no horrible inconsistency here such as the critics strive and cry about.",
+    "grammar": "Contextual translation",
     "lemma": "ruin"
   },
   "rum": {
@@ -49448,8 +49448,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rūm-heort"
   },
   "rumne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in greatness of soul would succor bring,",
+    "grammar": "Contextual translation",
     "lemma": "rumne"
   },
   "run": {
@@ -49488,13 +49488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rūn-wita"
   },
   "rune": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sat assembled, and searched out counsel",
+    "grammar": "Contextual translation",
     "lemma": "rune"
   },
   "runstafas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in runic staves it was rightly said",
+    "grammar": "Contextual translation",
     "lemma": "runstafas"
   },
   "runstæf": {
@@ -49563,8 +49563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rǣdan"
   },
   "rædas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of men, and the better part choose,",
+    "grammar": "Contextual translation",
     "lemma": "rædas"
   },
   "rædbora": {
@@ -49583,8 +49583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rǣdend"
   },
   "ræhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish claw,",
+    "grammar": "Contextual translation",
     "lemma": "ræhte"
   },
   "ræs": {
@@ -49598,8 +49598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rǣsan"
   },
   "ræsde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re-dread dragon,",
+    "grammar": "Contextual translation",
     "lemma": "ræsde"
   },
   "ræse": {
@@ -49613,13 +49613,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ræst"
   },
   "ræste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wrathful, reckless, from resting-places,",
+    "grammar": "Contextual translation",
     "lemma": "ræste"
   },
   "ræsum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghts where Hygelac fell,",
+    "grammar": "Contextual translation",
     "lemma": "ræsum"
   },
   "ræsw": {
@@ -49633,8 +49633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "rǣswa"
   },
   "ræswan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the chieftain of clansmen, children four:",
+    "grammar": "Contextual translation",
     "lemma": "ræswan"
   },
   "ræswe": {
@@ -49718,8 +49718,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sand"
   },
   "sande": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: your new-tarred ship by shore of ocean",
+    "grammar": "Contextual translation",
     "lemma": "sande"
   },
   "sang": {
@@ -49783,13 +49783,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sāriġ-mōd"
   },
   "sarigmodum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for rapture of ravens. But rescue came",
+    "grammar": "Contextual translation",
     "lemma": "sarigmodum"
   },
   "sarigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rides on the gallows. A rime he makes,",
+    "grammar": "Contextual translation",
     "lemma": "sarigne"
   },
   "sarlic": {
@@ -49798,13 +49798,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sār-liċ"
   },
   "sarum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus he urges and eggs him all the time",
+    "grammar": "Contextual translation",
     "lemma": "sarum"
   },
   "sawele": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waxes and wakes while the warden slumbers,",
+    "grammar": "Contextual translation",
     "lemma": "sawele"
   },
   "sawl berend": {
@@ -49823,13 +49823,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sāwl-berend"
   },
   "sawlberendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd his way",
+    "grammar": "Contextual translation",
     "lemma": "sawlberendra"
   },
   "sawle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who in harm and hatred hales his soul",
+    "grammar": "Contextual translation",
     "lemma": "sawle"
   },
   "sawol": {
@@ -49863,13 +49863,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sāwol-lēas"
   },
   "sawolleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she bore the bravest and best one, dead,",
+    "grammar": "Contextual translation",
     "lemma": "sawolleasne"
   },
   "sawon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a monster of marvel: the men looked on.",
+    "grammar": "Contextual translation",
     "lemma": "sawon"
   },
   "sawul drior": {
@@ -49888,13 +49888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sāwul-drīor"
   },
   "sawuldriore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: closed on his neck, and covered him",
+    "grammar": "Contextual translation",
     "lemma": "sawuldriore"
   },
   "sawulleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: went, welling with tears, the wonder to view.",
+    "grammar": "Contextual translation",
     "lemma": "sawulleasne"
   },
   "scac": {
@@ -49913,8 +49913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scacan"
   },
   "scacen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ower was gone.",
+    "grammar": "Contextual translation",
     "lemma": "scacen"
   },
   "scad": {
@@ -49948,8 +49948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scadu-helm"
   },
   "scaduhelma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and shadowy shapes came striding on,",
+    "grammar": "Contextual translation",
     "lemma": "scaduhelma"
   },
   "scami(g)": {
@@ -49968,18 +49968,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scami(ġ)an"
   },
   "scamiende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the sore distress of their sovran lord.",
+    "grammar": "Contextual translation",
     "lemma": "scamiende"
   },
   "scamigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he su\u001bered no shame in that soldier throng.",
+    "grammar": "Contextual translation",
     "lemma": "scamigan"
   },
   "scan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the crowd of clansmen. Corselets glistened",
+    "grammar": "Contextual translation",
     "lemma": "scan"
   },
   "scaþ": {
@@ -49993,8 +49993,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scaþa"
   },
   "scaþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ying",
+    "grammar": "Contextual translation",
     "lemma": "scaþan"
   },
   "scaþe": {
@@ -50023,8 +50023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sceacen"
   },
   "sceaceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From the Ruler-of-Man no wrath shall seize me,",
+    "grammar": "Contextual translation",
     "lemma": "sceaceð"
   },
   "scead": {
@@ -50078,8 +50078,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sceadu-genġa"
   },
   "sceal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So becomes it a youth to quit him well",
+    "grammar": "Contextual translation",
     "lemma": "sceal"
   },
   "scealc": {
@@ -50088,13 +50088,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scealc"
   },
   "sceall": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re: the folk of earth",
+    "grammar": "Contextual translation",
     "lemma": "sceall"
   },
   "scealt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thy closest kin, whence curse of hell",
+    "grammar": "Contextual translation",
     "lemma": "scealt"
   },
   "sceap": {
@@ -50128,23 +50128,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sceat(t)"
   },
   "sceata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the ways of earth, another wight",
+    "grammar": "Contextual translation",
     "lemma": "sceata"
   },
   "sceatas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and braided bright the breast of earth",
+    "grammar": "Contextual translation",
     "lemma": "sceatas"
   },
   "sceattas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who have scattered their gold o'er Scandia's isle.",
+    "grammar": "Contextual translation",
     "lemma": "sceattas"
   },
   "sceawedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end,",
+    "grammar": "Contextual translation",
     "lemma": "sceawedon"
   },
   "sceawi": {
@@ -50158,8 +50158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scēawian"
   },
   "sceawiað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: these wall-hid wonders, \u0015 the way I show you, \u0015 ll",
+    "grammar": "Contextual translation",
     "lemma": "sceawiað"
   },
   "sceawie": {
@@ -50168,23 +50168,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scēawian"
   },
   "sceawigan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and mark the trail of the mother of Grendel.",
+    "grammar": "Contextual translation",
     "lemma": "sceawigan"
   },
   "sceawige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And fare in haste. I would fain behold",
+    "grammar": "Contextual translation",
     "lemma": "sceawige"
   },
   "sceawode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who saw by the gait of the graceless foe",
+    "grammar": "Contextual translation",
     "lemma": "sceawode"
   },
   "sceaðona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that amid the Scyldings a scathing monster,",
+    "grammar": "Contextual translation",
     "lemma": "sceaðona"
   },
   "sceaþ": {
@@ -50203,8 +50203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sceaþa"
   },
   "sceaþena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft Scyld the Scefing from squadroned foes,",
+    "grammar": "Contextual translation",
     "lemma": "sceaþena"
   },
   "sced": {
@@ -50218,23 +50218,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scēde"
   },
   "scedelandum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Scyld, in the Scandian lands.",
+    "grammar": "Contextual translation",
     "lemma": "scedelandum"
   },
   "scedenigge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who have scattered their gold o'er Scandia's isle.",
+    "grammar": "Contextual translation",
     "lemma": "scedenigge"
   },
   "scefing": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft Scyld the Scefing from squadroned foes,",
+    "grammar": "Contextual translation",
     "lemma": "scefing"
   },
   "sceft": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, sped from the string, a storm of arrows rm,",
+    "grammar": "Contextual translation",
     "lemma": "sceft"
   },
   "sceft(sceaft)": {
@@ -50263,8 +50263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scenċan"
   },
   "scencte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: served the clear mead. Oft minstrels sang",
+    "grammar": "Contextual translation",
     "lemma": "scencte"
   },
   "scenn(scenn": {
@@ -50283,28 +50283,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scenn(scenna"
   },
   "scennum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So on the guard of shining gold",
+    "grammar": "Contextual translation",
     "lemma": "scennum"
   },
   "sceoc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: or to cleanse the carven cup of price,",
+    "grammar": "Contextual translation",
     "lemma": "sceoc"
   },
   "sceolde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re were worthless,",
+    "grammar": "Contextual translation",
     "lemma": "sceolde"
   },
   "sceoldest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: joys in the killing, and carries the jewel4",
+    "grammar": "Contextual translation",
     "lemma": "sceoldest"
   },
   "sceoldon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall part from its plating. Polishers sleep",
+    "grammar": "Contextual translation",
     "lemma": "sceoldon"
   },
   "sceot": {
@@ -50323,8 +50323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scēotan"
   },
   "sceotend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came the walker-in-shadow. Warriors slept",
+    "grammar": "Contextual translation",
     "lemma": "sceotend"
   },
   "sceotendmc.": {
@@ -50333,13 +50333,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scēotendmc."
   },
   "sceotendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he su\u001bered no shame in that soldier throng.",
+    "grammar": "Contextual translation",
     "lemma": "sceotendum"
   },
   "sceoteð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anbogan",
+    "grammar": "Contextual translation",
     "lemma": "sceoteð"
   },
   "scep": {
@@ -50373,13 +50373,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sceran"
   },
   "sceðþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eet should harm the land.",
+    "grammar": "Contextual translation",
     "lemma": "sceðþan"
   },
   "sceþede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where water never could work him harm,",
+    "grammar": "Contextual translation",
     "lemma": "sceþede"
   },
   "sceþð": {
@@ -50423,23 +50423,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scildiġ"
   },
   "scilding": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and we all at the banquet-board sat down.",
+    "grammar": "Contextual translation",
     "lemma": "scilding"
   },
   "scildinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now saw from the cli\u001b a Scylding clansman,",
+    "grammar": "Contextual translation",
     "lemma": "scildinga"
   },
   "scildingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lifeless lies, who land and hoard",
+    "grammar": "Contextual translation",
     "lemma": "scildingas"
   },
   "scildunga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oor of the ocean that outcast fell.",
+    "grammar": "Contextual translation",
     "lemma": "scildunga"
   },
   "scildweall": {
@@ -50468,8 +50468,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scīnan"
   },
   "scineð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ether-robed sun from the south shall beam!\"",
+    "grammar": "Contextual translation",
     "lemma": "scineð"
   },
   "scinn": {
@@ -50488,13 +50488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scinna"
   },
   "scinnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from havoc in hall. This hero now,",
+    "grammar": "Contextual translation",
     "lemma": "scinnum"
   },
   "scinon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the guest-room to garnish. Gold-gay shone the hangings",
+    "grammar": "Contextual translation",
     "lemma": "scinon"
   },
   "scion": {
@@ -50538,13 +50538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scip-here"
   },
   "scipe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but \"Welcome!\" he called to that Weder clan",
+    "grammar": "Contextual translation",
     "lemma": "scipe"
   },
   "scipes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the breast of the boat, the breaker-of-rings,2",
+    "grammar": "Contextual translation",
     "lemma": "scipes"
   },
   "sciphere": {
@@ -50553,8 +50553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scip-here"
   },
   "scipherge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eet should harm the land.",
+    "grammar": "Contextual translation",
     "lemma": "scipherge"
   },
   "scir": {
@@ -50573,8 +50573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scīr-ham"
   },
   "sciran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So on the guard of shining gold",
+    "grammar": "Contextual translation",
     "lemma": "sciran"
   },
   "scireð": {
@@ -50588,18 +50588,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scīr-ham"
   },
   "scirhame": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but \"Welcome!\" he called to that Weder clan",
+    "grammar": "Contextual translation",
     "lemma": "scirhame"
   },
   "scoc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when, sped from the string, a storm of arrows rm,",
+    "grammar": "Contextual translation",
     "lemma": "scoc"
   },
   "scod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: every way blameless, till age had broken",
+    "grammar": "Contextual translation",
     "lemma": "scod"
   },
   "scof": {
@@ -50618,13 +50618,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scofen"
   },
   "scolde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who house by the whale-path, heard his mandate,",
+    "grammar": "Contextual translation",
     "lemma": "scolde"
   },
   "scoldon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a heaped hoard that hence should go",
+    "grammar": "Contextual translation",
     "lemma": "scoldon"
   },
   "scop": {
@@ -50633,8 +50633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scop"
   },
   "scopes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clear song of the singer. He sang who knew4",
+    "grammar": "Contextual translation",
     "lemma": "scopes"
   },
   "scrif": {
@@ -50668,8 +50668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scrīðan"
   },
   "scriþað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where the haunts of these Hell-Runes3 be.",
+    "grammar": "Contextual translation",
     "lemma": "scriþað"
   },
   "scucc": {
@@ -50688,8 +50688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scucca"
   },
   "scuccum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from havoc in hall. This hero now,",
+    "grammar": "Contextual translation",
     "lemma": "scuccum"
   },
   "scuf": {
@@ -50708,13 +50708,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scūfan"
   },
   "scufon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their mail and weapons: the men pushed o\u001b,",
+    "grammar": "Contextual translation",
     "lemma": "scufon"
   },
   "scufun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when they had hastily haled it out,",
+    "grammar": "Contextual translation",
     "lemma": "scufun"
   },
   "scul": {
@@ -50733,8 +50733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sculan"
   },
   "sculon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bold in battle; we both, this night,",
+    "grammar": "Contextual translation",
     "lemma": "sculon"
   },
   "scur heard": {
@@ -50808,8 +50808,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyldan"
   },
   "scyldas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There, weary of ocean, the wall along",
+    "grammar": "Contextual translation",
     "lemma": "scyldas"
   },
   "scylde": {
@@ -50818,8 +50818,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyldan"
   },
   "scyldes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Scyld, in the Scandian lands.",
+    "grammar": "Contextual translation",
     "lemma": "scyldes"
   },
   "scyldfreca": {
@@ -50833,33 +50833,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyldiġ"
   },
   "scylding": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the hoary-headed would hasten to rest,",
+    "grammar": "Contextual translation",
     "lemma": "scylding"
   },
   "scyldinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: while wielded words the winsome Scyld,",
+    "grammar": "Contextual translation",
     "lemma": "scyldinga"
   },
   "scyldingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sage and sturdy, the Scyldings glad.",
+    "grammar": "Contextual translation",
     "lemma": "scyldingas"
   },
   "scyldingum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that amid the Scyldings a scathing monster,",
+    "grammar": "Contextual translation",
     "lemma": "scyldingum"
   },
   "scyldunga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: A while it was held by Heorogar king,",
+    "grammar": "Contextual translation",
     "lemma": "scyldunga"
   },
   "scyldungas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and wielded the war-place on Withergild's fall,",
+    "grammar": "Contextual translation",
     "lemma": "scyldungas"
   },
   "scyldwiga": {
@@ -50898,13 +50898,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyndan"
   },
   "scynded": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was climbing higher. Clansmen hastened",
+    "grammar": "Contextual translation",
     "lemma": "scynded"
   },
   "scynscaþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: him1 could not hurl to haunts of darkness;",
+    "grammar": "Contextual translation",
     "lemma": "scynscaþa"
   },
   "scynscaþa(scin)": {
@@ -50918,8 +50918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyp"
   },
   "scypon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To their ship the Scylding warriors bore",
+    "grammar": "Contextual translation",
     "lemma": "scypon"
   },
   "scypp": {
@@ -50943,13 +50943,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "scyppen"
   },
   "scyppend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since the Creator his exile doomed.",
+    "grammar": "Contextual translation",
     "lemma": "scyppend"
   },
   "scyran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: soon as they seized him, his sword-doom was spoken,",
+    "grammar": "Contextual translation",
     "lemma": "scyran"
   },
   "scу": {
@@ -50978,23 +50978,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġ"
   },
   "seah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's herald! Heroes so many",
+    "grammar": "Contextual translation",
     "lemma": "seah"
   },
   "sealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he would all allot that the Lord had sent him,",
+    "grammar": "Contextual translation",
     "lemma": "sealde"
   },
   "sealdest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the goodly gifts thou gavest me,",
+    "grammar": "Contextual translation",
     "lemma": "sealdest"
   },
   "sealdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bench-joy brightened. Bearers draw",
+    "grammar": "Contextual translation",
     "lemma": "sealdon"
   },
   "sealma(selma)": {
@@ -51003,8 +51003,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sealma(selma)"
   },
   "sealman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the courts no wassail, as once was heard.",
+    "grammar": "Contextual translation",
     "lemma": "sealman"
   },
   "sealo brun": {
@@ -51128,8 +51128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "searo-bend"
   },
   "searobendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with greedy hand grasped me. A glove hung by him6",
+    "grammar": "Contextual translation",
     "lemma": "searobendum"
   },
   "searofah": {
@@ -51143,18 +51143,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "searo-ġim(m)"
   },
   "searogimma": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of gems and jewels. The gentle wife",
+    "grammar": "Contextual translation",
     "lemma": "searogimma"
   },
   "searogimmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gorgeous heirlooms, golden store,",
+    "grammar": "Contextual translation",
     "lemma": "searogimmas"
   },
   "searogrim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were as battle-bold as thy boast is loud!",
+    "grammar": "Contextual translation",
     "lemma": "searogrim"
   },
   "searogrim(m)": {
@@ -51168,13 +51168,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "searo-hæbbend(e)"
   },
   "searohæbbendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Who are ye, then, ye armed men,",
+    "grammar": "Contextual translation",
     "lemma": "searohæbbendra"
   },
   "searonet": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-net woven by wit of the smith:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "searonet"
   },
   "searonet(t)": {
@@ -51188,13 +51188,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "searo-nīð"
   },
   "searoniða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I heard men tell such terror of falchions,",
+    "grammar": "Contextual translation",
     "lemma": "searoniða"
   },
   "searoniðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed he,",
+    "grammar": "Contextual translation",
     "lemma": "searoniðas"
   },
   "searowundor": {
@@ -51208,13 +51208,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "searo-þonc"
   },
   "searoþoncum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: craftily clamped; though there crashed from sill",
+    "grammar": "Contextual translation",
     "lemma": "searoþoncum"
   },
   "searwum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yon hero in harness! No henchman he",
+    "grammar": "Contextual translation",
     "lemma": "searwum"
   },
   "seax": {
@@ -51223,8 +51223,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seax"
   },
   "seað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the woe of these days; not wisest men",
+    "grammar": "Contextual translation",
     "lemma": "seað"
   },
   "sec": {
@@ -51253,23 +51253,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sēċan"
   },
   "secean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that after death-day may draw to his Lord,",
+    "grammar": "Contextual translation",
     "lemma": "secean"
   },
   "seceanne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: while with courage keen that coiled foe",
+    "grammar": "Contextual translation",
     "lemma": "seceanne"
   },
   "seceaðto": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: death-hate of men: so I deem it sure",
+    "grammar": "Contextual translation",
     "lemma": "seceaðto"
   },
   "seceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that old ill-doer open found,",
+    "grammar": "Contextual translation",
     "lemma": "seceð"
   },
   "secg": {
@@ -51278,8 +51278,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "secg"
   },
   "secga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bent to the ocean and entered our boat,",
+    "grammar": "Contextual translation",
     "lemma": "secga"
   },
   "secgan": {
@@ -51288,18 +51288,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "secgan"
   },
   "secganne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Sore is my soul to say to any",
+    "grammar": "Contextual translation",
     "lemma": "secganne"
   },
   "secgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea with sand; the sailors bore",
+    "grammar": "Contextual translation",
     "lemma": "secgas"
   },
   "secgaðsæliðend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Seafarers say how stands this hall,",
+    "grammar": "Contextual translation",
     "lemma": "secgaðsæliðend"
   },
   "secge": {
@@ -51308,13 +51308,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "secgan"
   },
   "secggende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when he and the wolf were wasting the slain.\"",
+    "grammar": "Contextual translation",
     "lemma": "secggende"
   },
   "secgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boundless cares. There came unhidden",
+    "grammar": "Contextual translation",
     "lemma": "secgum"
   },
   "see": {
@@ -51338,8 +51338,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sefa"
   },
   "sefan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in greatness of soul would succor bring,",
+    "grammar": "Contextual translation",
     "lemma": "sefan"
   },
   "sefe": {
@@ -51388,8 +51388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seġl-rād"
   },
   "seglrade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the road-of-sails their ruthless quest, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "seglrade"
   },
   "segn": {
@@ -51398,8 +51398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seġn"
   },
   "segne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under his banner the booty defending,",
+    "grammar": "Contextual translation",
     "lemma": "segne"
   },
   "sel": {
@@ -51543,8 +51543,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sele-drēam"
   },
   "seleful": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: banquet and beaker, battle-famed king.",
+    "grammar": "Contextual translation",
     "lemma": "seleful"
   },
   "seleful(l)": {
@@ -51563,8 +51563,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sele-rest"
   },
   "selereste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seamen hardy on hall-beds sank.",
+    "grammar": "Contextual translation",
     "lemma": "selereste"
   },
   "selerædend(e)": {
@@ -51573,8 +51573,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sele-rǣdend(e)"
   },
   "selerædende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to say in sooth, no son of the halls,",
+    "grammar": "Contextual translation",
     "lemma": "selerædende"
   },
   "selest": {
@@ -51583,13 +51583,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sēlest"
   },
   "selesta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of buildings best, for your band of thanes",
+    "grammar": "Contextual translation",
     "lemma": "selesta"
   },
   "selestan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave and wise, the best of men, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "selestan"
   },
   "seleweard": {
@@ -51598,13 +51598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sele-weard"
   },
   "seleð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ymed,",
+    "grammar": "Contextual translation",
     "lemma": "seleð"
   },
   "seleðhim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the heart of the hero of high-born race, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "seleðhim"
   },
   "seleþegn": {
@@ -51618,28 +51618,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "self"
   },
   "selfa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loving clansmen, as late he charged them,",
+    "grammar": "Contextual translation",
     "lemma": "selfa"
   },
   "selfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Themselves had seen me from slaughter come",
+    "grammar": "Contextual translation",
     "lemma": "selfe"
   },
   "selfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by single strength. In sooth 'tis told",
+    "grammar": "Contextual translation",
     "lemma": "selfes"
   },
   "selfne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hadst thou but seen himself, what time",
+    "grammar": "Contextual translation",
     "lemma": "selfne"
   },
   "selfre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bairn of her body on brands to lay,",
+    "grammar": "Contextual translation",
     "lemma": "selfre"
   },
   "sell": {
@@ -51668,8 +51668,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sel-liċ"
   },
   "sellice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea-dragons strange that sounded the deep,",
+    "grammar": "Contextual translation",
     "lemma": "sellice"
   },
   "selr": {
@@ -51683,8 +51683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sēlra"
   },
   "selran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ne'er heard I so mighty, 'neath heaven's dome,",
+    "grammar": "Contextual translation",
     "lemma": "selran"
   },
   "selre": {
@@ -51723,8 +51723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sendan"
   },
   "sendeþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghts and feasts, nor feud he dreads",
+    "grammar": "Contextual translation",
     "lemma": "sendeþ"
   },
   "seo": {
@@ -51738,8 +51738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sēoc"
   },
   "seoce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stared at the surges, sick in heart,",
+    "grammar": "Contextual translation",
     "lemma": "seoce"
   },
   "seof": {
@@ -51758,8 +51758,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seofan"
   },
   "seofon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a sennight strove ye. In swimming he topped thee,",
+    "grammar": "Contextual translation",
     "lemma": "seofon"
   },
   "seofonniht": {
@@ -51783,8 +51783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seolfa"
   },
   "seomade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lured, or lurked in the livelong night",
+    "grammar": "Contextual translation",
     "lemma": "seomade"
   },
   "seomi": {
@@ -51803,8 +51803,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seomian"
   },
   "seomode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fettered by cable and fast at anchor,",
+    "grammar": "Contextual translation",
     "lemma": "seomode"
   },
   "seon": {
@@ -51813,8 +51813,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sēon"
   },
   "seonowe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: showed on his shoulder, and sinews cracked,",
+    "grammar": "Contextual translation",
     "lemma": "seonowe"
   },
   "seonu": {
@@ -51823,8 +51823,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seonu"
   },
   "seowed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-net woven by wit of the smith:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "seowed"
   },
   "seowi": {
@@ -51873,8 +51873,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "seoððan"
   },
   "seoþðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Lo, sudden the shift! To me seated secure",
+    "grammar": "Contextual translation",
     "lemma": "seoþðan"
   },
   "ses(s)": {
@@ -51883,8 +51883,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ses(s)"
   },
   "sesse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wise in his thought, to the wall of rock;",
+    "grammar": "Contextual translation",
     "lemma": "sesse"
   },
   "set": {
@@ -51908,18 +51908,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "setl"
   },
   "setle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Went then to her place. \u0015 That was proudest of feasts;",
+    "grammar": "Contextual translation",
     "lemma": "setle"
   },
   "setles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Glad was the Geats' lord, going betimes",
+    "grammar": "Contextual translation",
     "lemma": "setles"
   },
   "setlum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the swords on the settles,1 and shields a-many",
+    "grammar": "Contextual translation",
     "lemma": "setlum"
   },
   "sett": {
@@ -51938,8 +51938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "settan"
   },
   "setton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There, weary of ocean, the wall along",
+    "grammar": "Contextual translation",
     "lemma": "setton"
   },
   "sex ben(n)": {
@@ -51958,13 +51958,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sex-ben(n)"
   },
   "sexbennum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And beside him is stretched that slayer-of-men",
+    "grammar": "Contextual translation",
     "lemma": "sexbennum"
   },
   "seðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: then edge of the sword must seal his doom.",
+    "grammar": "Contextual translation",
     "lemma": "seðan"
   },
   "si": {
@@ -51973,8 +51973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīde"
   },
   "sib": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: uncle and nephew, true each to the other one,",
+    "grammar": "Contextual translation",
     "lemma": "sib"
   },
   "sib æðeling": {
@@ -51993,13 +51993,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sib-æðeling"
   },
   "sibb": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their lives to save. But the soul of one",
+    "grammar": "Contextual translation",
     "lemma": "sibb"
   },
   "sibbe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: feud unfading, \u0015 refused consent",
+    "grammar": "Contextual translation",
     "lemma": "sibbe"
   },
   "sibbe gedriht": {
@@ -52023,8 +52023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sib-æðeling"
   },
   "sibæðelingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So had they killed it, kinsmen both,",
+    "grammar": "Contextual translation",
     "lemma": "sibæðelingas"
   },
   "sid": {
@@ -52068,8 +52068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīd-rand"
   },
   "sidan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yer-afar with a host,",
+    "grammar": "Contextual translation",
     "lemma": "sidan"
   },
   "side": {
@@ -52088,13 +52088,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīd-fæþmed"
   },
   "sidne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght,",
+    "grammar": "Contextual translation",
     "lemma": "sidne"
   },
   "sidra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boundless cares. There came unhidden",
+    "grammar": "Contextual translation",
     "lemma": "sidra"
   },
   "sidrand": {
@@ -52293,8 +52293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-folc"
   },
   "sigefolca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the proud-band's revel, till presently",
+    "grammar": "Contextual translation",
     "lemma": "sigefolca"
   },
   "sigehreð": {
@@ -52303,13 +52303,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-hrēð"
   },
   "sigehreðig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of conquest, come to seek",
+    "grammar": "Contextual translation",
     "lemma": "sigehreðig"
   },
   "sigehreðsecgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy hero, as heart shall prompt thee.\"",
+    "grammar": "Contextual translation",
     "lemma": "sigehreðsecgum"
   },
   "sigehreþig": {
@@ -52323,8 +52323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-hwīl"
   },
   "sigehwila": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in danger's day! \u0015 Of deeds of valor",
+    "grammar": "Contextual translation",
     "lemma": "sigehwila"
   },
   "sigel": {
@@ -52338,18 +52338,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-lēas"
   },
   "sigeleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: cry of the conquered, clamorous pain",
+    "grammar": "Contextual translation",
     "lemma": "sigeleasne"
   },
   "sigemunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they had felled with their swords. Of Sigemund grew,",
+    "grammar": "Contextual translation",
     "lemma": "sigemunde"
   },
   "sigemundes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he had heard in saga of Sigemund.",
+    "grammar": "Contextual translation",
     "lemma": "sigemundes"
   },
   "sigerof": {
@@ -52358,13 +52358,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-rōf"
   },
   "sigescyldinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he vaunts him safe, from the Victor-Scyldings.",
+    "grammar": "Contextual translation",
     "lemma": "sigescyldinga"
   },
   "sigescyldingum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eld where full too many",
+    "grammar": "Contextual translation",
     "lemma": "sigescyldingum"
   },
   "sigewæpen": {
@@ -52373,8 +52373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-wǣpen"
   },
   "sigewæpnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He was safe, by his spells, from sword of battle,",
+    "grammar": "Contextual translation",
     "lemma": "sigewæpnum"
   },
   "sigeþeod": {
@@ -52383,8 +52383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġe-þēod"
   },
   "sigeþeode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under the shield-wall slaughtered lay,",
+    "grammar": "Contextual translation",
     "lemma": "sigeþeode"
   },
   "sigl": {
@@ -52393,8 +52393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġle"
   },
   "sigla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of gems and jewels. The gentle wife",
+    "grammar": "Contextual translation",
     "lemma": "sigla"
   },
   "sigle": {
@@ -52403,13 +52403,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siġle"
   },
   "siglu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that wit could prompt in their wisest men.",
+    "grammar": "Contextual translation",
     "lemma": "siglu"
   },
   "sigon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes in haste, till the hall they saw,",
+    "grammar": "Contextual translation",
     "lemma": "sigon"
   },
   "sigor": {
@@ -52433,8 +52433,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sigor-ēadiġ"
   },
   "sigora": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: venture to vaunt, though the Victory-Wielder,",
+    "grammar": "Contextual translation",
     "lemma": "sigora"
   },
   "sigoreadig": {
@@ -52443,8 +52443,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sigor-ēadiġ"
   },
   "sigores": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a gold-wove banner, guerdon of triumph,",
+    "grammar": "Contextual translation",
     "lemma": "sigores"
   },
   "sin": {
@@ -52633,18 +52633,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sinċ-þego"
   },
   "sinca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mighty feuds; I mind them all.",
+    "grammar": "Contextual translation",
     "lemma": "sinca"
   },
   "since": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with a saddle all shining and set in jewels;",
+    "grammar": "Contextual translation",
     "lemma": "since"
   },
   "sinces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Joyous then was the Jewel-giver,",
+    "grammar": "Contextual translation",
     "lemma": "sinces"
   },
   "sincfag": {
@@ -52653,13 +52653,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sinċ-fāg"
   },
   "sincfage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-bright hall, in gloomy nights;",
+    "grammar": "Contextual translation",
     "lemma": "sincfage"
   },
   "sincfato": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: carried the cup, till come the moment",
+    "grammar": "Contextual translation",
     "lemma": "sincfato"
   },
   "sincfæt": {
@@ -52673,13 +52673,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sinċ-ġestrēon"
   },
   "sincgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rich possessions. To son of mine",
+    "grammar": "Contextual translation",
     "lemma": "sincgestreona"
   },
   "sincgestreonum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: even as truly, with treasure and jewels,",
+    "grammar": "Contextual translation",
     "lemma": "sincgestreonum"
   },
   "sincgifa": {
@@ -52688,13 +52688,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sinċ-ġifa"
   },
   "sincgifan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for sons of the soil; and soon it came,",
+    "grammar": "Contextual translation",
     "lemma": "sincgifan"
   },
   "sincgyfan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: more graciously gathered round giver-of-rings!",
+    "grammar": "Contextual translation",
     "lemma": "sincgyfan"
   },
   "sincmaðþum": {
@@ -52728,13 +52728,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sin-gāla"
   },
   "singale": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: feud unfading, \u0015 refused consent",
+    "grammar": "Contextual translation",
     "lemma": "singale"
   },
   "singales": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to harry my home, the hellish foe;",
+    "grammar": "Contextual translation",
     "lemma": "singales"
   },
   "singan": {
@@ -52753,8 +52753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sin-here"
   },
   "sinherge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bereft of a ruler, to Ravenswood.",
+    "grammar": "Contextual translation",
     "lemma": "sinherge"
   },
   "sinne": {
@@ -52778,8 +52778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sint"
   },
   "sinum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and Hrothgar homeward hasten away,",
+    "grammar": "Contextual translation",
     "lemma": "sinum"
   },
   "sio": {
@@ -52788,8 +52788,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīo"
   },
   "sioleða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from strife with the hero to seek their homes!",
+    "grammar": "Contextual translation",
     "lemma": "sioleða"
   },
   "sioloð": {
@@ -52813,13 +52813,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siomian"
   },
   "site": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 But sit to the banquet, unbind thy words,",
+    "grammar": "Contextual translation",
     "lemma": "site"
   },
   "siteð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the awesome thing in any wise",
+    "grammar": "Contextual translation",
     "lemma": "siteð"
   },
   "sitt": {
@@ -52873,18 +52873,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīð-fæt"
   },
   "siða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: safe in your seekings. Seaward I go,",
+    "grammar": "Contextual translation",
     "lemma": "siða"
   },
   "siðalyfed": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the chambered treasure, when chance allowed me",
+    "grammar": "Contextual translation",
     "lemma": "siðalyfed"
   },
   "siðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Waelsing's wanderings wide, his struggles,",
+    "grammar": "Contextual translation",
     "lemma": "siðas"
   },
   "siðast": {
@@ -52893,33 +52893,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīðast"
   },
   "siðbeowulfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Beowulf's quest right cleverly sang,",
+    "grammar": "Contextual translation",
     "lemma": "siðbeowulfes"
   },
   "siðdrugon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and widespread ways. The world's great candle,",
+    "grammar": "Contextual translation",
     "lemma": "siðdrugon"
   },
   "siðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: told of his triumph! Truth I claim it,",
+    "grammar": "Contextual translation",
     "lemma": "siðe"
   },
   "siðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-friend of men, now I go on this quest,",
+    "grammar": "Contextual translation",
     "lemma": "siðes"
   },
   "siðestan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold untold and gained in terror,",
+    "grammar": "Contextual translation",
     "lemma": "siðestan"
   },
   "siðfate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stress of this sort! Himself who chose us",
+    "grammar": "Contextual translation",
     "lemma": "siðfate"
   },
   "siðfrom": {
@@ -52928,8 +52928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīð-from"
   },
   "siðfrome": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: edge of the blade: 'twas a big-hearted man!",
+    "grammar": "Contextual translation",
     "lemma": "siðfrome"
   },
   "siðfæt": {
@@ -52953,13 +52953,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sīðian"
   },
   "siðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: even such a man as seemed to him meet.",
+    "grammar": "Contextual translation",
     "lemma": "siðne"
   },
   "siðode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in greed of vengeance, Grendel's mother",
+    "grammar": "Contextual translation",
     "lemma": "siðode"
   },
   "siðð": {
@@ -52978,28 +52978,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "siððan"
   },
   "siðþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under his banner the booty defending,",
+    "grammar": "Contextual translation",
     "lemma": "siðþan"
   },
   "siþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though spent with swimming. The sea upbore me,",
+    "grammar": "Contextual translation",
     "lemma": "siþes"
   },
   "siþðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since the Creator his exile doomed.",
+    "grammar": "Contextual translation",
     "lemma": "siþðan"
   },
   "siþþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: go he that listeth, when light of dawn",
+    "grammar": "Contextual translation",
     "lemma": "siþþan"
   },
   "slat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ercely asunder,",
+    "grammar": "Contextual translation",
     "lemma": "slat"
   },
   "sle": {
@@ -53008,8 +53008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "slēan"
   },
   "slea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No skill is his to strike against me,",
+    "grammar": "Contextual translation",
     "lemma": "slea"
   },
   "sleac": {
@@ -53058,33 +53058,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "slīðen"
   },
   "sliðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who in harm and hatred hales his soul",
+    "grammar": "Contextual translation",
     "lemma": "sliðne"
   },
   "sliðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thus safe through struggles the son of Ecgtheow",
+    "grammar": "Contextual translation",
     "lemma": "sliðra"
   },
   "slog": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by sovran God for slaughtered Abel.",
+    "grammar": "Contextual translation",
     "lemma": "slog"
   },
   "slogon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting-mask,",
+    "grammar": "Contextual translation",
     "lemma": "slogon"
   },
   "sloh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: reckless of life, and so wrathfully smote",
+    "grammar": "Contextual translation",
     "lemma": "sloh"
   },
   "slægen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with blood of foemen, and Finn was slain,",
+    "grammar": "Contextual translation",
     "lemma": "slægen"
   },
   "slæp": {
@@ -53103,13 +53103,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "slǣpan"
   },
   "slæpende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he slew in slumber, in sleep devoured,",
+    "grammar": "Contextual translation",
     "lemma": "slæpende"
   },
   "slæpendne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ercely asunder,",
+    "grammar": "Contextual translation",
     "lemma": "slæpendne"
   },
   "smið": {
@@ -53118,8 +53118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "smið"
   },
   "smiþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-net woven by wit of the smith:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "smiþes"
   },
   "snel lic": {
@@ -53138,8 +53138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "snel-liċ"
   },
   "snella": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and faced his foe with fell intent.",
+    "grammar": "Contextual translation",
     "lemma": "snella"
   },
   "snellic": {
@@ -53153,18 +53153,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "snot(t)or"
   },
   "snotera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with his clansmen, came where the king abode",
+    "grammar": "Contextual translation",
     "lemma": "snotera"
   },
   "snotere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The prince's journey by prudent folk",
+    "grammar": "Contextual translation",
     "lemma": "snotere"
   },
   "snotor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with the woe of these days; not wisest men",
+    "grammar": "Contextual translation",
     "lemma": "snotor"
   },
   "snotor lice": {
@@ -53188,23 +53188,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "snotor-līċe"
   },
   "snotorlicor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"These words of thine the wisest God",
+    "grammar": "Contextual translation",
     "lemma": "snotorlicor"
   },
   "snotra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Me this war-gear the wise old prince,",
+    "grammar": "Contextual translation",
     "lemma": "snotra"
   },
   "snottra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-friend of men, now I go on this quest,",
+    "grammar": "Contextual translation",
     "lemma": "snottra"
   },
   "snottre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Soon,1 then, saw the sage companions",
+    "grammar": "Contextual translation",
     "lemma": "snottre"
   },
   "snu": {
@@ -53223,8 +53223,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "snūde"
   },
   "snyredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then hied that troop where the herald led them,",
+    "grammar": "Contextual translation",
     "lemma": "snyredon"
   },
   "snyri": {
@@ -53248,8 +53248,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "snyttru"
   },
   "snyttrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Beowulf's quest right cleverly sang,",
+    "grammar": "Contextual translation",
     "lemma": "snyttrum"
   },
   "socn": {
@@ -53258,8 +53258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sōcn"
   },
   "socne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to harry my home, the hellish foe;",
+    "grammar": "Contextual translation",
     "lemma": "socne"
   },
   "sof": {
@@ -53278,18 +53278,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sōfte"
   },
   "sohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in room remote their rest at night,",
+    "grammar": "Contextual translation",
     "lemma": "sohte"
   },
   "sohtest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to succor and save, thou hast sought us here.",
+    "grammar": "Contextual translation",
     "lemma": "sohtest"
   },
   "sohton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for high-hearted valor, Hrothgar ye seek!\"",
+    "grammar": "Contextual translation",
     "lemma": "sohton"
   },
   "somod": {
@@ -53313,8 +53313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sōna"
   },
   "song": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the steel ring sang, as they strode along",
+    "grammar": "Contextual translation",
     "lemma": "song"
   },
   "sorg( )": {
@@ -53333,18 +53333,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sorg(-)"
   },
   "sorga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: boundless cares. There came unhidden",
+    "grammar": "Contextual translation",
     "lemma": "sorga"
   },
   "sorgcearig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: her hair upbound, for Beowulf's death",
+    "grammar": "Contextual translation",
     "lemma": "sorgcearig"
   },
   "sorge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: asleep after feasting and fearless of sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "sorge"
   },
   "sorgi": {
@@ -53443,23 +53443,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sorh-ful(l)"
   },
   "sorhfull": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in greed of vengeance, Grendel's mother",
+    "grammar": "Contextual translation",
     "lemma": "sorhfull"
   },
   "sorhfullne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could you dissuade, from swimming the main.",
+    "grammar": "Contextual translation",
     "lemma": "sorhfullne"
   },
   "sorhfulne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of sorrow, the death of her son to avenge.",
+    "grammar": "Contextual translation",
     "lemma": "sorhfulne"
   },
   "sorhge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with loathing deed, though he loved him not.",
+    "grammar": "Contextual translation",
     "lemma": "sorhge"
   },
   "sorhleas": {
@@ -53473,8 +53473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sorh-lēoð"
   },
   "sorhleoðgæleð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the courts no wassail, as once was heard.",
+    "grammar": "Contextual translation",
     "lemma": "sorhleoðgæleð"
   },
   "sorhwylm": {
@@ -53483,13 +53483,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sorh-wylm"
   },
   "sorhwylmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to death was betrayed; for torrents of sorrow",
+    "grammar": "Contextual translation",
     "lemma": "sorhwylmas"
   },
   "sorhwylmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his wide-known woes? With waves of care",
+    "grammar": "Contextual translation",
     "lemma": "sorhwylmum"
   },
   "soð": {
@@ -53548,18 +53548,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sōð-fæst"
   },
   "soðfæstra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harbored in heart ere hot death-waves ed",
+    "grammar": "Contextual translation",
     "lemma": "soðfæstra"
   },
   "soðic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: told of his triumph! Truth I claim it,",
+    "grammar": "Contextual translation",
     "lemma": "soðic"
   },
   "soðis": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by single strength. In sooth 'tis told",
+    "grammar": "Contextual translation",
     "lemma": "soðis"
   },
   "soðlice": {
@@ -53568,28 +53568,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sōð-līċe"
   },
   "soðmetod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seasons and times: the true God he!",
+    "grammar": "Contextual translation",
     "lemma": "soðmetod"
   },
   "soðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Lo, so may he say who sooth and right",
+    "grammar": "Contextual translation",
     "lemma": "soðond"
   },
   "soðspecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mournful he looked on those men unloved:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "soðspecan"
   },
   "soðæfter": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who is willing to say the sooth aright.",
+    "grammar": "Contextual translation",
     "lemma": "soðæfter"
   },
   "soþlice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if sooth it is \u0015 the saying of men,",
+    "grammar": "Contextual translation",
     "lemma": "soþlice"
   },
   "spec": {
@@ -53613,8 +53613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "spēd"
   },
   "spel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and artfully added an excellent tale,",
+    "grammar": "Contextual translation",
     "lemma": "spel"
   },
   "spel(l)": {
@@ -53623,23 +53623,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "spel(l)"
   },
   "spell": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wood-of-delight; now lays he chanted",
+    "grammar": "Contextual translation",
     "lemma": "spell"
   },
   "spella": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their lord beloved? Little1 kept back",
+    "grammar": "Contextual translation",
     "lemma": "spella"
   },
   "speow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his sovran's shoulder, shieldsman good,",
+    "grammar": "Contextual translation",
     "lemma": "speow"
   },
   "spite": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There is no horrible inconsistency here such as the critics strive and cry about.",
+    "grammar": "Contextual translation",
     "lemma": "spite"
   },
   "spiw": {
@@ -53673,8 +53673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "spōwan"
   },
   "sprang": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Famed was this Beowulf: far flew the boast of him,",
+    "grammar": "Contextual translation",
     "lemma": "sprang"
   },
   "sprec": {
@@ -53693,8 +53693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sprecan"
   },
   "sprecen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors' wassail and words of power,",
+    "grammar": "Contextual translation",
     "lemma": "sprecen"
   },
   "spring": {
@@ -53713,13 +53713,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "springan"
   },
   "sprong": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Heorot's battle. The body sprang far",
+    "grammar": "Contextual translation",
     "lemma": "sprong"
   },
   "sprungon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waxed full wild for that weighty blow,",
+    "grammar": "Contextual translation",
     "lemma": "sprungon"
   },
   "spræc": {
@@ -53728,13 +53728,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sprǣċ"
   },
   "spræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: drunken with beer, of Breca now,",
+    "grammar": "Contextual translation",
     "lemma": "spræce"
   },
   "spræcon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sovran wise, what once was said:",
+    "grammar": "Contextual translation",
     "lemma": "spræcon"
   },
   "st": {
@@ -53818,13 +53818,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stān-boga"
   },
   "stanbogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: where foemen fought with furious clashings,",
+    "grammar": "Contextual translation",
     "lemma": "stanbogan"
   },
   "stancleofu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stayed by the strength of his single manhood,",
+    "grammar": "Contextual translation",
     "lemma": "stancleofu"
   },
   "stanclif": {
@@ -53843,8 +53843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "standan"
   },
   "standað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the ruler who gave you golden rings",
+    "grammar": "Contextual translation",
     "lemma": "standað"
   },
   "stande": {
@@ -53853,13 +53853,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "standan"
   },
   "standeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in measure of miles that the mere expands,",
+    "grammar": "Contextual translation",
     "lemma": "standeð"
   },
   "stane": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: When the dragon awoke, new woe was kindled.",
+    "grammar": "Contextual translation",
     "lemma": "stane"
   },
   "stanfah": {
@@ -53873,8 +53873,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stān-hlið"
   },
   "stanhliðo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: les,",
+    "grammar": "Contextual translation",
     "lemma": "stanhliðo"
   },
   "stapol": {
@@ -53883,28 +53883,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stapol"
   },
   "stapole": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stood by the steps, the steep roof saw,",
+    "grammar": "Contextual translation",
     "lemma": "stapole"
   },
   "stapulum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: then sat, and stared at the structure of giants,",
+    "grammar": "Contextual translation",
     "lemma": "stapulum"
   },
   "starað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to delight each mortal that looks upon them.",
+    "grammar": "Contextual translation",
     "lemma": "starað"
   },
   "starede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: (save her lord alone) of the liegemen dear",
+    "grammar": "Contextual translation",
     "lemma": "starede"
   },
   "staredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stared at the surges, sick in heart,",
+    "grammar": "Contextual translation",
     "lemma": "staredon"
   },
   "stari": {
@@ -53923,8 +53923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "starian"
   },
   "starige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that I on this head all hewn and bloody,",
+    "grammar": "Contextual translation",
     "lemma": "starige"
   },
   "ste": {
@@ -53938,13 +53938,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stēap"
   },
   "steape": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea-cli\u001bs shining, steep high hills,",
+    "grammar": "Contextual translation",
     "lemma": "steape"
   },
   "steapne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stood by the steps, the steep roof saw,",
+    "grammar": "Contextual translation",
     "lemma": "steapne"
   },
   "stearc": {
@@ -53983,8 +53983,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stefn"
   },
   "stefne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the band of the hall, was a banquet dight",
+    "grammar": "Contextual translation",
     "lemma": "stefne"
   },
   "step": {
@@ -54018,8 +54018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "steppan"
   },
   "stepte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Though him the Maker with might endowed,",
+    "grammar": "Contextual translation",
     "lemma": "stepte"
   },
   "stig": {
@@ -54038,8 +54038,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stīgan"
   },
   "stigon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors ready; waves were churning",
+    "grammar": "Contextual translation",
     "lemma": "stigon"
   },
   "still": {
@@ -54088,33 +54088,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stīð-mōd"
   },
   "stiðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: steel-edged and sti\u001b. His strength he trusted,",
+    "grammar": "Contextual translation",
     "lemma": "stiðond"
   },
   "stiðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the sturdy nails to steel was likest, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "stiðra"
   },
   "stod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In the roadstead rocked a ring-dight vessel,",
+    "grammar": "Contextual translation",
     "lemma": "stod"
   },
   "stodan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: it had come to the end of its earth-hall joys.",
+    "grammar": "Contextual translation",
     "lemma": "stodan"
   },
   "stodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-gear of men; their weapons stacked,",
+    "grammar": "Contextual translation",
     "lemma": "stodon"
   },
   "stonc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: When the dragon awoke, new woe was kindled.",
+    "grammar": "Contextual translation",
     "lemma": "stonc"
   },
   "stond": {
@@ -54143,8 +54143,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "storm"
   },
   "storme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce",
+    "grammar": "Contextual translation",
     "lemma": "storme"
   },
   "stow": {
@@ -54153,8 +54153,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stōw"
   },
   "stowe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for soul-possessors, and sons of earth;",
+    "grammar": "Contextual translation",
     "lemma": "stowe"
   },
   "strang": {
@@ -54168,13 +54168,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "strēam"
   },
   "streamas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors ready; waves were churning",
+    "grammar": "Contextual translation",
     "lemma": "streamas"
   },
   "stred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For the eldest of these, by unmeet chance,",
+    "grammar": "Contextual translation",
     "lemma": "stred"
   },
   "streg": {
@@ -54193,8 +54193,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "strēġan"
   },
   "strenge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But the man remembered his mighty power,",
+    "grammar": "Contextual translation",
     "lemma": "strenge"
   },
   "strengel": {
@@ -54213,8 +54213,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "strenġo"
   },
   "strengum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who oft stood stout in the iron-shower,",
+    "grammar": "Contextual translation",
     "lemma": "strengum"
   },
   "strong": {
@@ -54243,13 +54243,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "strǣl"
   },
   "stræla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who oft stood stout in the iron-shower,",
+    "grammar": "Contextual translation",
     "lemma": "stræla"
   },
   "stræle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"UNDER harness his heart then is hit indeed",
+    "grammar": "Contextual translation",
     "lemma": "stræle"
   },
   "stræt": {
@@ -54258,8 +54258,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "strǣt"
   },
   "stræte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: itende",
+    "grammar": "Contextual translation",
     "lemma": "stræte"
   },
   "stund": {
@@ -54268,28 +54268,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "stund"
   },
   "stundum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hot with blood; but the horn sang oft",
+    "grammar": "Contextual translation",
     "lemma": "stundum"
   },
   "style": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the sturdy nails to steel was likest, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "style"
   },
   "stylecg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: steel-edged and sti\u001b. His strength he trusted,",
+    "grammar": "Contextual translation",
     "lemma": "stylecg"
   },
   "styrede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the perilous breath of a poison-foe",
+    "grammar": "Contextual translation",
     "lemma": "styrede"
   },
   "styreþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wan to welkin when winds bestir",
+    "grammar": "Contextual translation",
     "lemma": "styreþ"
   },
   "styri": {
@@ -54318,8 +54318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "styrman"
   },
   "styrmde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Weder-Geat prince a word outgo;",
+    "grammar": "Contextual translation",
     "lemma": "styrmde"
   },
   "styrme": {
@@ -54413,13 +54413,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sum"
   },
   "sume": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave band of thanes: some bode without,",
+    "grammar": "Contextual translation",
     "lemma": "sume"
   },
   "sumne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sundry to seize in the stately house.",
+    "grammar": "Contextual translation",
     "lemma": "sumne"
   },
   "sun": {
@@ -54428,8 +54428,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sunne"
   },
   "suna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rich possessions. To son of mine",
+    "grammar": "Contextual translation",
     "lemma": "suna"
   },
   "sund": {
@@ -54468,13 +54468,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sund-wudu"
   },
   "sunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a sennight strove ye. In swimming he topped thee,",
+    "grammar": "Contextual translation",
     "lemma": "sunde"
   },
   "sundes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: less doughty in swimming whom death had seized.",
+    "grammar": "Contextual translation",
     "lemma": "sundes"
   },
   "sundgebland": {
@@ -54488,8 +54488,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sund-nyt(t)"
   },
   "sundnytte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Hrethel, by sword-draughts died, ed",
+    "grammar": "Contextual translation",
     "lemma": "sundnytte"
   },
   "sundor nyt(t)": {
@@ -54508,8 +54508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sundor-nyt(t)"
   },
   "sundornytte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so heroes heard, a hall-defender,",
+    "grammar": "Contextual translation",
     "lemma": "sundornytte"
   },
   "sundur": {
@@ -54528,8 +54528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sunne"
   },
   "sunnan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: set, triumphant, sun and moon",
+    "grammar": "Contextual translation",
     "lemma": "sunnan"
   },
   "sunne": {
@@ -54548,23 +54548,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sūð"
   },
   "suðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and widespread ways. The world's great candle,",
+    "grammar": "Contextual translation",
     "lemma": "suðan"
   },
   "suðdena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Fleeing, he sought our South-Dane folk,",
+    "grammar": "Contextual translation",
     "lemma": "suðdena"
   },
   "suðdene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by no means to seek that slaughtering monster,",
+    "grammar": "Contextual translation",
     "lemma": "suðdene"
   },
   "suðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that from sea to sea, or south or north,",
+    "grammar": "Contextual translation",
     "lemma": "suðne"
   },
   "suþ": {
@@ -54593,8 +54593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swā"
   },
   "swac": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght 1460 ahyrded heaþoswate;",
+    "grammar": "Contextual translation",
     "lemma": "swac"
   },
   "swan": {
@@ -54623,8 +54623,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swan-rād"
   },
   "swanrade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far o'er the swan-road he fain would seek,",
+    "grammar": "Contextual translation",
     "lemma": "swanrade"
   },
   "swat": {
@@ -54673,8 +54673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swāt-swaðu"
   },
   "swaðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and a little space his life preserved;",
+    "grammar": "Contextual translation",
     "lemma": "swaðe"
   },
   "swaðu": {
@@ -54683,8 +54683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swaðu"
   },
   "swaþredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came bright God's beacon; the billows sank,",
+    "grammar": "Contextual translation",
     "lemma": "swaþredon"
   },
   "swaþri": {
@@ -54708,8 +54708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swaþul"
   },
   "swaþule": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in smoke engulfed it. \u0015 Again uprose",
+    "grammar": "Contextual translation",
     "lemma": "swaþule"
   },
   "swe": {
@@ -54718,18 +54718,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swā"
   },
   "swealg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: deaths enow, and doom of battle,",
+    "grammar": "Contextual translation",
     "lemma": "swealg"
   },
   "swealh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swallowed him piecemeal: swiftly thus",
+    "grammar": "Contextual translation",
     "lemma": "swealh"
   },
   "swealt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best blade; the dragon died in its blood.",
+    "grammar": "Contextual translation",
     "lemma": "swealt"
   },
   "sweart": {
@@ -54738,8 +54738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweart"
   },
   "sweartum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-bright hall, in gloomy nights;",
+    "grammar": "Contextual translation",
     "lemma": "sweartum"
   },
   "swebb": {
@@ -54768,8 +54768,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swefan"
   },
   "swefað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And the helmet hard, all haughty with gold,",
+    "grammar": "Contextual translation",
     "lemma": "swefað"
   },
   "swefe": {
@@ -54783,18 +54783,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swefeð"
   },
   "swefeðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghts and feasts, nor feud he dreads",
+    "grammar": "Contextual translation",
     "lemma": "swefeðond"
   },
   "swefeðsare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wiglaf loved, now the worm lies low,",
+    "grammar": "Contextual translation",
     "lemma": "swefeðsare"
   },
   "swefeþæfter": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: shall rest after revel. Arrived was the hour",
+    "grammar": "Contextual translation",
     "lemma": "swefeþæfter"
   },
   "sweg": {
@@ -54803,8 +54803,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swēġ"
   },
   "swege": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eld. Din rose in hall.",
+    "grammar": "Contextual translation",
     "lemma": "swege"
   },
   "swegl": {
@@ -54823,13 +54823,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweġl-wered"
   },
   "swegle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and under the sky she saw them lying,",
+    "grammar": "Contextual translation",
     "lemma": "swegle"
   },
   "swegles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under vault of heaven, more valiant found,",
+    "grammar": "Contextual translation",
     "lemma": "swegles"
   },
   "sweglwered": {
@@ -54913,8 +54913,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swenċan"
   },
   "swencte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that sore beset him; sea-beasts many",
+    "grammar": "Contextual translation",
     "lemma": "swencte"
   },
   "sweng": {
@@ -54923,13 +54923,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swenġ"
   },
   "swenge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so the tale is told, and he tried too far",
+    "grammar": "Contextual translation",
     "lemma": "swenge"
   },
   "swengum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For shelter he gave them, sword-death came,",
+    "grammar": "Contextual translation",
     "lemma": "swengum"
   },
   "sweofot": {
@@ -54938,8 +54938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweofot"
   },
   "sweofote": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he slew in slumber, in sleep devoured,",
+    "grammar": "Contextual translation",
     "lemma": "sweofote"
   },
   "sweoloð": {
@@ -54948,13 +54948,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweoloð"
   },
   "sweoloðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bairn of her body on brands to lay,",
+    "grammar": "Contextual translation",
     "lemma": "sweoloðe"
   },
   "sweona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: (as the wealthy do) when he went from earth.",
+    "grammar": "Contextual translation",
     "lemma": "sweona"
   },
   "sweorc": {
@@ -54973,8 +54973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweorcan"
   },
   "sweorceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: illness or age; no evil cares",
+    "grammar": "Contextual translation",
     "lemma": "sweorceð"
   },
   "sweord": {
@@ -55033,8 +55033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweord-lēoma"
   },
   "sweorda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when to play of swords the son of Healfdene",
+    "grammar": "Contextual translation",
     "lemma": "sweorda"
   },
   "sweordbealo": {
@@ -55043,13 +55043,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweord-bealo"
   },
   "sweorde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the darling, I dealt them due return!",
+    "grammar": "Contextual translation",
     "lemma": "sweorde"
   },
   "sweordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: then edge of the sword must seal his doom.",
+    "grammar": "Contextual translation",
     "lemma": "sweordes"
   },
   "sweordfreca": {
@@ -55058,8 +55058,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweord-freca"
   },
   "sweordfrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to a stouter swordsman. Himself, though, durst not",
+    "grammar": "Contextual translation",
     "lemma": "sweordfrecan"
   },
   "sweordleoma": {
@@ -55068,8 +55068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweord-lēoma"
   },
   "sweordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: put to sleep by the sword. And since, by them",
+    "grammar": "Contextual translation",
     "lemma": "sweordum"
   },
   "sweotol": {
@@ -55078,13 +55078,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweotol"
   },
   "sweotolan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was seen in sooth, with surest token, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "sweotolan"
   },
   "sweoðeode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Merowings' favor has failed us wholly.",
+    "grammar": "Contextual translation",
     "lemma": "sweoðeode"
   },
   "sweri": {
@@ -55103,8 +55103,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swerian"
   },
   "swertinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the last of his raids this ring bore with him,",
+    "grammar": "Contextual translation",
     "lemma": "swertinges"
   },
   "sweðri": {
@@ -55123,8 +55123,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sweðrian"
   },
   "sweðrode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: since the hand and heart of Heremod",
+    "grammar": "Contextual translation",
     "lemma": "sweðrode"
   },
   "swic": {
@@ -55148,8 +55148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swift"
   },
   "swifta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no glee-wood's gladness! No good hawk now eet",
+    "grammar": "Contextual translation",
     "lemma": "swifta"
   },
   "swig": {
@@ -55163,8 +55163,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swīġe"
   },
   "swigedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Healfdene; silent were all:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "swigedon"
   },
   "swigi": {
@@ -55183,13 +55183,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swīgian"
   },
   "swigode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: would they wail as dead, or welcome home,",
+    "grammar": "Contextual translation",
     "lemma": "swigode"
   },
   "swigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: More silent seemed the son of Ecglaf1",
+    "grammar": "Contextual translation",
     "lemma": "swigra"
   },
   "swilc": {
@@ -55248,8 +55248,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swingan"
   },
   "swingeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no glee-wood's gladness! No good hawk now eet",
+    "grammar": "Contextual translation",
     "lemma": "swingeð"
   },
   "swinlic": {
@@ -55258,13 +55258,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swīn-līċ"
   },
   "swinlicum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with swine-forms set it, that swords nowise,",
+    "grammar": "Contextual translation",
     "lemma": "swinlicum"
   },
   "swiorice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the bravest and best that broke the rings,",
+    "grammar": "Contextual translation",
     "lemma": "swiorice"
   },
   "swioðol": {
@@ -55273,8 +55273,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swioðol"
   },
   "swioðole": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the warriors wakened. Wood-smoke rose",
+    "grammar": "Contextual translation",
     "lemma": "swioðole"
   },
   "swið": {
@@ -55333,18 +55333,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swīð-ferhð"
   },
   "swiðferhðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how it were best for bold-hearted men",
+    "grammar": "Contextual translation",
     "lemma": "swiðferhðum"
   },
   "swiðferhþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy-spirited, sat them down,",
+    "grammar": "Contextual translation",
     "lemma": "swiðferhþe"
   },
   "swiðferhþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the warrior's wayfaring wise men mourned,",
+    "grammar": "Contextual translation",
     "lemma": "swiðferhþes"
   },
   "swiðhicgende": {
@@ -55358,18 +55358,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swīð-mōd"
   },
   "swiðor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on wreaking his vengeance than roaming the deep,",
+    "grammar": "Contextual translation",
     "lemma": "swiðor"
   },
   "swiðre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and a little space his life preserved;",
+    "grammar": "Contextual translation",
     "lemma": "swiðre"
   },
   "swiþor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: force of the foe. Fain, too, were I",
+    "grammar": "Contextual translation",
     "lemma": "swiþor"
   },
   "swog": {
@@ -55388,8 +55388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swōgan"
   },
   "swogende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the warriors wakened. Wood-smoke rose",
+    "grammar": "Contextual translation",
     "lemma": "swogende"
   },
   "swor": {
@@ -55413,18 +55413,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swulċes"
   },
   "swulge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in smoke engulfed it. \u0015 Again uprose",
+    "grammar": "Contextual translation",
     "lemma": "swulge"
   },
   "swuncon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a sennight strove ye. In swimming he topped thee,",
+    "grammar": "Contextual translation",
     "lemma": "swuncon"
   },
   "swurd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Naked swords, as we swam along,",
+    "grammar": "Contextual translation",
     "lemma": "swurd"
   },
   "swurd( )": {
@@ -55458,13 +55458,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swylċe"
   },
   "swylcra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I heard men tell such terror of falchions,",
+    "grammar": "Contextual translation",
     "lemma": "swylcra"
   },
   "swylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes such as the hest of fate",
+    "grammar": "Contextual translation",
     "lemma": "swylcum"
   },
   "swylt": {
@@ -55488,13 +55488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swylt-dæġ"
   },
   "swyltdæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the grace that I give such gifts to my folk",
+    "grammar": "Contextual translation",
     "lemma": "swyltdæge"
   },
   "swymman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy-in-spirit, of sea-booty glad,",
+    "grammar": "Contextual translation",
     "lemma": "swymman"
   },
   "swymman(swimman)": {
@@ -55503,8 +55503,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swymman(swimman)"
   },
   "swyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the gory sark, the gilded swine-crest,",
+    "grammar": "Contextual translation",
     "lemma": "swyn"
   },
   "swynsian(swinsian)": {
@@ -55513,8 +55513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swynsian(swinsian)"
   },
   "swynsode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then was laughter of liegemen loud resounding",
+    "grammar": "Contextual translation",
     "lemma": "swynsode"
   },
   "swyrd": {
@@ -55538,33 +55538,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swyrd-ġifu"
   },
   "swyð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: assuaged his sorrow; too sore the anguish,",
+    "grammar": "Contextual translation",
     "lemma": "swyð"
   },
   "swyðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for neighbor and comrade. His nephew was ever",
+    "grammar": "Contextual translation",
     "lemma": "swyðe"
   },
   "swyðferhð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's hall; the hardy and wise one",
+    "grammar": "Contextual translation",
     "lemma": "swyðferhð"
   },
   "swæf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So slumbered the stout-heart. Stately the hall",
+    "grammar": "Contextual translation",
     "lemma": "swæf"
   },
   "swæfon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: came the walker-in-shadow. Warriors slept",
+    "grammar": "Contextual translation",
     "lemma": "swæfon"
   },
   "swæfun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slept in the hall. Too soon came back",
+    "grammar": "Contextual translation",
     "lemma": "swæfun"
   },
   "swæs": {
@@ -55588,8 +55588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swǣs-līċe"
   },
   "swæse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: loving clansmen, as late he charged them,",
+    "grammar": "Contextual translation",
     "lemma": "swæse"
   },
   "swæslice": {
@@ -55598,13 +55598,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swǣs-līċe"
   },
   "swæsne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whence he hied to his home so dear",
+    "grammar": "Contextual translation",
     "lemma": "swæsne"
   },
   "swæsra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Was none so daring that durst make bold",
+    "grammar": "Contextual translation",
     "lemma": "swæsra"
   },
   "swæþer(=swahwæþer)": {
@@ -55623,8 +55623,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "swӯð(e)"
   },
   "sy": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes to help thee. Of Hygelac I know,",
+    "grammar": "Contextual translation",
     "lemma": "sy"
   },
   "syfan wintre": {
@@ -55688,28 +55688,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sylf"
   },
   "sylfa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of fame under heaven than he himself. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "sylfa"
   },
   "sylfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by no means to seek that slaughtering monster,",
+    "grammar": "Contextual translation",
     "lemma": "sylfe"
   },
   "sylfes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: soon as my purpose was plain to him,",
+    "grammar": "Contextual translation",
     "lemma": "sylfes"
   },
   "sylfne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: venture to vaunt, though the Victory-Wielder,",
+    "grammar": "Contextual translation",
     "lemma": "sylfne"
   },
   "sylfra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: until they lost at the linden-play2",
+    "grammar": "Contextual translation",
     "lemma": "sylfra"
   },
   "syll": {
@@ -55733,8 +55733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syl-liċ"
   },
   "syllicran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in woful slaughter the Weders' king.",
+    "grammar": "Contextual translation",
     "lemma": "syllicran"
   },
   "sym(b)le(sim[b]le)": {
@@ -55763,18 +55763,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "symbel-wyn(n)"
   },
   "symbelwynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after long evil, with eyes may gaze!",
+    "grammar": "Contextual translation",
     "lemma": "symbelwynne"
   },
   "symbla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Went then to her place. \u0015 That was proudest of feasts;",
+    "grammar": "Contextual translation",
     "lemma": "symbla"
   },
   "symble": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: asleep after feasting and fearless of sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "symble"
   },
   "syml": {
@@ -55883,8 +55883,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syndon"
   },
   "syndolh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: showed on his shoulder, and sinews cracked,",
+    "grammar": "Contextual translation",
     "lemma": "syndolh"
   },
   "syndolh(sin)": {
@@ -55903,13 +55903,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syn-gāles"
   },
   "synn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: (as the wealthy do) when he went from earth.",
+    "grammar": "Contextual translation",
     "lemma": "synn"
   },
   "synnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sunk in his sins, but sorrow holds him",
+    "grammar": "Contextual translation",
     "lemma": "synnum"
   },
   "synscaða": {
@@ -55918,8 +55918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syn-scaða"
   },
   "synscaðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the accursed to kill, \u0015 no keenest blade,",
+    "grammar": "Contextual translation",
     "lemma": "synscaðan"
   },
   "synsnæd": {
@@ -55928,8 +55928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syn-snǣd"
   },
   "synsnædum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swallowed him piecemeal: swiftly thus",
+    "grammar": "Contextual translation",
     "lemma": "synsnædum"
   },
   "synt": {
@@ -55943,8 +55943,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syrċe"
   },
   "syrcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anchored their sea-wood, with armor clashing",
+    "grammar": "Contextual translation",
     "lemma": "syrcan"
   },
   "syrce": {
@@ -55953,8 +55953,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syrċe"
   },
   "syrede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lured, or lurked in the livelong night",
+    "grammar": "Contextual translation",
     "lemma": "syrede"
   },
   "syrw": {
@@ -55988,13 +55988,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "syððan"
   },
   "syðþan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end,",
+    "grammar": "Contextual translation",
     "lemma": "syðþan"
   },
   "syþðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nd at fall of night",
+    "grammar": "Contextual translation",
     "lemma": "syþðan"
   },
   "s¬": {
@@ -56228,8 +56228,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-bāt"
   },
   "sæbebugeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so wide as washeth the wave of Ocean",
+    "grammar": "Contextual translation",
     "lemma": "sæbebugeð"
   },
   "sæc": {
@@ -56243,13 +56243,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sæċ(ċ)"
   },
   "sæcca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the woman to wed so and ward o\u001b feud,",
+    "grammar": "Contextual translation",
     "lemma": "sæcca"
   },
   "sæcce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: less stout in struggle. Thyself hast now",
+    "grammar": "Contextual translation",
     "lemma": "sæcce"
   },
   "sæce": {
@@ -56263,8 +56263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-cyning"
   },
   "sæcyninga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs'-helmet,",
+    "grammar": "Contextual translation",
     "lemma": "sæcyninga"
   },
   "sæd": {
@@ -56288,8 +56288,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-dēor"
   },
   "sædne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the king and conqueror covered with blood,",
+    "grammar": "Contextual translation",
     "lemma": "sædne"
   },
   "sædraca": {
@@ -56298,8 +56298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-draca"
   },
   "sædracan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea-dragons strange that sounded the deep,",
+    "grammar": "Contextual translation",
     "lemma": "sædracan"
   },
   "sæg": {
@@ -56313,18 +56313,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣġan"
   },
   "sægde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clear song of the singer. He sang who knew4",
+    "grammar": "Contextual translation",
     "lemma": "sægde"
   },
   "sægdest": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: told of his triumph! Truth I claim it,",
+    "grammar": "Contextual translation",
     "lemma": "sægdest"
   },
   "sægdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And seamen, too, have said me this, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "sægdon"
   },
   "sæge": {
@@ -56338,13 +56338,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-ġēap"
   },
   "sægeata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the lofty hall, sore longing to know",
+    "grammar": "Contextual translation",
     "lemma": "sægeata"
   },
   "sægeatas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people's leader, \u0015 and life be thine, \u0015 nd",
+    "grammar": "Contextual translation",
     "lemma": "sægeatas"
   },
   "sægenga": {
@@ -56363,8 +56363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-grund"
   },
   "sægrunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seated to banquet at bottom of sea;",
+    "grammar": "Contextual translation",
     "lemma": "sægrunde"
   },
   "sæl": {
@@ -56373,8 +56373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sæl"
   },
   "sæla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seasons and times: the true God he!",
+    "grammar": "Contextual translation",
     "lemma": "sæla"
   },
   "sælac": {
@@ -56383,8 +56383,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-lāc"
   },
   "sælace": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdy-in-spirit, of sea-booty glad,",
+    "grammar": "Contextual translation",
     "lemma": "sælace"
   },
   "sælad": {
@@ -56393,8 +56393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-lād"
   },
   "sælade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on wreaking his vengeance than roaming the deep,",
+    "grammar": "Contextual translation",
     "lemma": "sælade"
   },
   "sælan": {
@@ -56408,13 +56408,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sæld"
   },
   "sælde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the water had waited and watched afar.",
+    "grammar": "Contextual translation",
     "lemma": "sælde"
   },
   "sældon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: anchored their sea-wood, with armor clashing",
+    "grammar": "Contextual translation",
     "lemma": "sældon"
   },
   "sæle": {
@@ -56428,13 +56428,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-līðend"
   },
   "sæliþende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And seamen, too, have said me this, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "sæliþende"
   },
   "sælum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors' wassail and words of power,",
+    "grammar": "Contextual translation",
     "lemma": "sælum"
   },
   "sæm": {
@@ -56448,13 +56448,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-man(n)"
   },
   "sæmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spears of the seafarers stood together,",
+    "grammar": "Contextual translation",
     "lemma": "sæmanna"
   },
   "sæmannum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the proud one's prowess, would prove it no longer,",
+    "grammar": "Contextual translation",
     "lemma": "sæmannum"
   },
   "sæmeþe": {
@@ -56473,8 +56473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣmra"
   },
   "sæmran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: less stout in struggle. Thyself hast now",
+    "grammar": "Contextual translation",
     "lemma": "sæmran"
   },
   "sæmre": {
@@ -56493,8 +56493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣne"
   },
   "sænra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: less doughty in swimming whom death had seized.",
+    "grammar": "Contextual translation",
     "lemma": "sænra"
   },
   "sænæs(s)": {
@@ -56503,13 +56503,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-næs(s)"
   },
   "sænæssas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: headlands broad. Their haven was found,",
+    "grammar": "Contextual translation",
     "lemma": "sænæssas"
   },
   "sæoþbær": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though spent with swimming. The sea upbore me,",
+    "grammar": "Contextual translation",
     "lemma": "sæoþbær"
   },
   "særinc": {
@@ -56518,8 +56518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-rinċ"
   },
   "sæside": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friend to the friendless, and forces sent",
+    "grammar": "Contextual translation",
     "lemma": "sæside"
   },
   "sæsið": {
@@ -56528,23 +56528,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-sīð"
   },
   "sæsiðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had sorrowing told, from sea-ways landed,",
+    "grammar": "Contextual translation",
     "lemma": "sæsiðe"
   },
   "sæsohtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he wielded the Weder-Geats. \u0015 Wandering exiles",
+    "grammar": "Contextual translation",
     "lemma": "sæsohtan"
   },
   "sæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: atheling excellent, unblithe sat,",
+    "grammar": "Contextual translation",
     "lemma": "sæt"
   },
   "sæton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: uncle and nephew, true each to the other one,",
+    "grammar": "Contextual translation",
     "lemma": "sæton"
   },
   "sæweal(l)": {
@@ -56553,13 +56553,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-weal(l)"
   },
   "sæwealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hygelac Hrethling: at home he dwelt",
+    "grammar": "Contextual translation",
     "lemma": "sæwealle"
   },
   "sæwille": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: safe in your seekings. Seaward I go,",
+    "grammar": "Contextual translation",
     "lemma": "sæwille"
   },
   "sæwong": {
@@ -56578,13 +56578,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "sǣ-wylm"
   },
   "sæwylmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy heroes, and hails you all",
+    "grammar": "Contextual translation",
     "lemma": "sæwylmas"
   },
   "sæwæron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Together we twain on the tides abode",
+    "grammar": "Contextual translation",
     "lemma": "sæwæron"
   },
   "sу": {
@@ -56613,18 +56613,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tācen"
   },
   "tacne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: was seen in sooth, with surest token, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "tacne"
   },
   "talast": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: were as battle-bold as thy boast is loud!",
+    "grammar": "Contextual translation",
     "lemma": "talast"
   },
   "talað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Sage this seems to the Scylding's-friend,",
+    "grammar": "Contextual translation",
     "lemma": "talað"
   },
   "tali": {
@@ -56643,8 +56643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "talian"
   },
   "talige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: told of his triumph! Truth I claim it,",
+    "grammar": "Contextual translation",
     "lemma": "talige"
   },
   "te": {
@@ -56653,18 +56653,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tēon"
   },
   "teah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-sark braided my breast to ward, rm",
+    "grammar": "Contextual translation",
     "lemma": "teah"
   },
   "tealde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to men on earth. Now many an earl",
+    "grammar": "Contextual translation",
     "lemma": "tealde"
   },
   "tealdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the splendid leader. Long was he spurned,",
+    "grammar": "Contextual translation",
     "lemma": "tealdon"
   },
   "tear": {
@@ -56673,8 +56673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tēar"
   },
   "tearas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Scyldings' chieftain, that choicest thane,",
+    "grammar": "Contextual translation",
     "lemma": "tearas"
   },
   "tee": {
@@ -56723,13 +56723,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tellan"
   },
   "teodan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No less these loaded the lordly gifts,",
+    "grammar": "Contextual translation",
     "lemma": "teodan"
   },
   "teode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the weapon-smith worked it wondrously,",
+    "grammar": "Contextual translation",
     "lemma": "teode"
   },
   "teog": {
@@ -56753,8 +56753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "teoh(h)"
   },
   "teohhe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the weary and wounded; woes he threatened",
+    "grammar": "Contextual translation",
     "lemma": "teohhe"
   },
   "teohhi": {
@@ -56773,8 +56773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "teohhian"
   },
   "teohhode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Full oft for less have I largess showered,",
+    "grammar": "Contextual translation",
     "lemma": "teohhode"
   },
   "teon": {
@@ -56783,18 +56783,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tēon"
   },
   "that": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: There is no horrible inconsistency here such as the critics strive and cry about.",
+    "grammar": "Contextual translation",
     "lemma": "that"
   },
   "the": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "the"
   },
   "this": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "this"
   },
   "tid": {
@@ -56823,13 +56823,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tilian"
   },
   "till": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet here must the hand of the henchman peerless",
+    "grammar": "Contextual translation",
     "lemma": "till"
   },
   "tilu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their sovran king. \u0015 They were clansmen good.",
+    "grammar": "Contextual translation",
     "lemma": "tilu"
   },
   "timbr": {
@@ -56848,13 +56848,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "timbran"
   },
   "timbred": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heroes in haste, till the hall they saw,",
+    "grammar": "Contextual translation",
     "lemma": "timbred"
   },
   "time": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The singer has sung his lays, and the epic resumes its story.",
+    "grammar": "Contextual translation",
     "lemma": "time"
   },
   "tir": {
@@ -56913,13 +56913,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tīr-ēadiġ"
   },
   "tireadigum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tless prince; but payment came,",
+    "grammar": "Contextual translation",
     "lemma": "tireadigum"
   },
   "tires": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sign of glory; thou seest it here.",
+    "grammar": "Contextual translation",
     "lemma": "tires"
   },
   "tirfæst": {
@@ -56933,8 +56933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tīr-lēas"
   },
   "tirleases": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who saw by the gait of the graceless foe",
+    "grammar": "Contextual translation",
     "lemma": "tirleases"
   },
   "tiðian(tigðian)": {
@@ -57163,8 +57163,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tō-brecan"
   },
   "tobrocen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Though braced within by iron bands,",
+    "grammar": "Contextual translation",
     "lemma": "tobrocen"
   },
   "todrifan": {
@@ -57193,13 +57193,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "togen"
   },
   "togenes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rewood from far \u0015 o'er the folk they ruled \u0015",
+    "grammar": "Contextual translation",
     "lemma": "togenes"
   },
   "toglad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when Ongentheow met Eofor there.",
+    "grammar": "Contextual translation",
     "lemma": "toglad"
   },
   "toglidan": {
@@ -57218,8 +57218,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tō-hlīdan"
   },
   "tohlidene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rent were its hinges; the roof alone",
+    "grammar": "Contextual translation",
     "lemma": "tohlidene"
   },
   "tolucan": {
@@ -57253,13 +57253,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "torn-ġemōt"
   },
   "torna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tless prince; but payment came,",
+    "grammar": "Contextual translation",
     "lemma": "torna"
   },
   "torne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that doomed him now with the dragon to strive.",
+    "grammar": "Contextual translation",
     "lemma": "torne"
   },
   "torngemot": {
@@ -57268,8 +57268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "torn-ġemōt"
   },
   "tornost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she had carried the corpse with cruel hands.",
+    "grammar": "Contextual translation",
     "lemma": "tornost"
   },
   "tosomne": {
@@ -57283,8 +57283,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tō-weċċan"
   },
   "towehton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the storm of their strife, were seen afar,",
+    "grammar": "Contextual translation",
     "lemma": "towehton"
   },
   "tr": {
@@ -57373,13 +57373,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "trēow-loga"
   },
   "treowlogan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the laggards in war the wood had left,",
+    "grammar": "Contextual translation",
     "lemma": "treowlogan"
   },
   "trode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who saw by the gait of the graceless foe",
+    "grammar": "Contextual translation",
     "lemma": "trode"
   },
   "trodu": {
@@ -57408,8 +57408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "truwian"
   },
   "truwode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In truth, the Geats' prince gladly trusted",
+    "grammar": "Contextual translation",
     "lemma": "truwode"
   },
   "tryddi": {
@@ -57428,18 +57428,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "tryddian"
   },
   "tryddode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with stately band from the bride-bower strode;",
+    "grammar": "Contextual translation",
     "lemma": "tryddode"
   },
   "trywe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: kindred in amity. Unferth the spokesman",
+    "grammar": "Contextual translation",
     "lemma": "trywe"
   },
   "træd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in man's guise trod the misery-track",
+    "grammar": "Contextual translation",
     "lemma": "træd"
   },
   "trуw": {
@@ -57473,8 +57473,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "twēġen"
   },
   "twega": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: better from battle-rush bear his wounds.",
+    "grammar": "Contextual translation",
     "lemma": "twega"
   },
   "twege": {
@@ -57493,8 +57493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "twelf"
   },
   "twelfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then about that barrow the battle-keen rode,",
+    "grammar": "Contextual translation",
     "lemma": "twelfe"
   },
   "tweo": {
@@ -57513,28 +57513,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "twēone"
   },
   "tweonum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that from sea to sea, or south or north,",
+    "grammar": "Contextual translation",
     "lemma": "tweonum"
   },
   "twæm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf brave, the brothers between.",
+    "grammar": "Contextual translation",
     "lemma": "twæm"
   },
   "tydre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the laggards in war the wood had left,",
+    "grammar": "Contextual translation",
     "lemma": "tydre"
   },
   "tyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by ocean-farers far descried:",
+    "grammar": "Contextual translation",
     "lemma": "tyn"
   },
   "tyne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that the laggards in war the wood had left,",
+    "grammar": "Contextual translation",
     "lemma": "tyne"
   },
   "tуd": {
@@ -57598,8 +57598,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ufan"
   },
   "ufaran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: because of his rule o'er the realm itself.",
+    "grammar": "Contextual translation",
     "lemma": "ufaran"
   },
   "ufe": {
@@ -57618,8 +57618,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ufera"
   },
   "uferan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THE fall of his lord he was fain to requite",
+    "grammar": "Contextual translation",
     "lemma": "uferan"
   },
   "ufere": {
@@ -57633,8 +57633,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ufor"
   },
   "uht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the wall were marvels, and many a vessel",
+    "grammar": "Contextual translation",
     "lemma": "uht"
   },
   "uht floga": {
@@ -57688,8 +57688,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūht-sceaða"
   },
   "uhtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then at the dawning, as day was breaking,",
+    "grammar": "Contextual translation",
     "lemma": "uhtan"
   },
   "uhtaoruh": {
@@ -57713,8 +57713,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūht-floga"
   },
   "uhthlem": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No boast can be from breed of Grendel,",
+    "grammar": "Contextual translation",
     "lemma": "uhthlem"
   },
   "uhthlem(m)": {
@@ -57753,13 +57753,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "umbor-wesende"
   },
   "umborwesendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of gift and grace to gain him honor!\"",
+    "grammar": "Contextual translation",
     "lemma": "umborwesendum"
   },
   "un": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with oath, upon honor, openly promised",
+    "grammar": "Contextual translation",
     "lemma": "un"
   },
   "un bliðe": {
@@ -58408,8 +58408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "uncer"
   },
   "uncran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o\u001bspring of ours, when all he minds",
+    "grammar": "Contextual translation",
     "lemma": "uncran"
   },
   "uncuð": {
@@ -58418,18 +58418,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-cūð"
   },
   "uncuðgelad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: narrow passes and unknown ways,",
+    "grammar": "Contextual translation",
     "lemma": "uncuðgelad"
   },
   "uncuðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: c his rage unmatched,",
+    "grammar": "Contextual translation",
     "lemma": "uncuðne"
   },
   "uncuþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Strange the story: he said it all, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "uncuþes"
   },
   "undearnunga": {
@@ -58453,8 +58453,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "undern-mǣl"
   },
   "underne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er friend and foe. \u0015 Now our folk may look",
+    "grammar": "Contextual translation",
     "lemma": "underne"
   },
   "undernmæl": {
@@ -58468,23 +58468,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-dyrne"
   },
   "unferð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"What a deal hast uttered, dear my Unferth,",
+    "grammar": "Contextual translation",
     "lemma": "unferð"
   },
   "unferðlæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And let Unferth wield this wondrous sword,",
+    "grammar": "Contextual translation",
     "lemma": "unferðlæt"
   },
   "unferðmaþelode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: UNFERTH spake, the son of Ecglaf,",
+    "grammar": "Contextual translation",
     "lemma": "unferðmaþelode"
   },
   "unferþþyle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: kindred in amity. Unferth the spokesman",
+    "grammar": "Contextual translation",
     "lemma": "unferþþyle"
   },
   "unflitme": {
@@ -58508,8 +58508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-frōd"
   },
   "unfrodum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his soul to seek the saints' reward.",
+    "grammar": "Contextual translation",
     "lemma": "unfrodum"
   },
   "unfrom": {
@@ -58528,8 +58528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-fǣġe"
   },
   "unfæger": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame to see.",
+    "grammar": "Contextual translation",
     "lemma": "unfæger"
   },
   "unfæger(seeappx.c§25)": {
@@ -58538,8 +58538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-fǣġer(seeAppx.C§25)"
   },
   "unfægne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earl undoomed if he doughty be!",
+    "grammar": "Contextual translation",
     "lemma": "unfægne"
   },
   "ungeara": {
@@ -58558,8 +58558,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-ġemete"
   },
   "ungyfeðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could that earl give treasure! And ever since",
+    "grammar": "Contextual translation",
     "lemma": "ungyfeðe"
   },
   "ungyfeðe(gifeðe)": {
@@ -58573,13 +58573,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-hēore"
   },
   "unheoru": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: claw uncanny. 'Twas clear, they said,",
+    "grammar": "Contextual translation",
     "lemma": "unheoru"
   },
   "unhiore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood of ocean. Within 'twas full",
+    "grammar": "Contextual translation",
     "lemma": "unhiore"
   },
   "unhlitme": {
@@ -58593,8 +58593,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-hrōr"
   },
   "unhyre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: set forth all doleful. Dead was her son",
+    "grammar": "Contextual translation",
     "lemma": "unhyre"
   },
   "unhælo": {
@@ -58603,8 +58603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-hǣlo"
   },
   "unigmetes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the hoary-headed would hasten to rest,",
+    "grammar": "Contextual translation",
     "lemma": "unigmetes"
   },
   "unigmetes(=ungemetes": {
@@ -58618,18 +58618,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-lēof"
   },
   "unleofe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wiglaf spake, the son of Weohstan, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "unleofe"
   },
   "unli": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my elder brother, had breathed his last,",
+    "grammar": "Contextual translation",
     "lemma": "unli"
   },
   "unlifgendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that is the warrior's worthiest doom.",
+    "grammar": "Contextual translation",
     "lemma": "unlifgendum"
   },
   "unlifigende": {
@@ -58638,13 +58638,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-lifiġende"
   },
   "unly": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the lifeless corse was clear devoured,",
+    "grammar": "Contextual translation",
     "lemma": "unly"
   },
   "unlytel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: pain a-plenty. \u0015 'Twas proof of this,",
+    "grammar": "Contextual translation",
     "lemma": "unlytel"
   },
   "unlуtel": {
@@ -58673,8 +58673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "unnan"
   },
   "unnyt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: empty and idle, when evening sun",
+    "grammar": "Contextual translation",
     "lemma": "unnyt"
   },
   "unnyt(t)": {
@@ -58708,8 +58708,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-rōt"
   },
   "unrote": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re had broken the frame of bones,",
+    "grammar": "Contextual translation",
     "lemma": "unrote"
   },
   "unslaw": {
@@ -58723,8 +58723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-snyttru"
   },
   "unsnyttrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: empire so ample, that end of it",
+    "grammar": "Contextual translation",
     "lemma": "unsnyttrum"
   },
   "unsofte": {
@@ -58738,8 +58738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-swīðe"
   },
   "unswiðor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with atheling's heirloom. Its edge was turned",
+    "grammar": "Contextual translation",
     "lemma": "unswiðor"
   },
   "unsynnig": {
@@ -58748,8 +58748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-synniġ"
   },
   "unsynnigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by devilish craft, of dragon-skins.",
+    "grammar": "Contextual translation",
     "lemma": "unsynnigne"
   },
   "unsynnum": {
@@ -58758,8 +58758,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-synnum"
   },
   "untydras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of Cain awoke all that woful breed,",
+    "grammar": "Contextual translation",
     "lemma": "untydras"
   },
   "untæle": {
@@ -58778,8 +58778,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "un-wāc-liċ"
   },
   "unwaclicne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: THEN fashioned for him the folk of Geats",
+    "grammar": "Contextual translation",
     "lemma": "unwaclicne"
   },
   "unwearnum": {
@@ -58843,8 +58843,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "uppe"
   },
   "uppriht": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with many another. He might not so,",
+    "grammar": "Contextual translation",
     "lemma": "uppriht"
   },
   "upprihte": {
@@ -58868,8 +58868,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūrum"
   },
   "us": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: people-protector: be pleased to advise us!",
+    "grammar": "Contextual translation",
     "lemma": "us"
   },
   "user": {
@@ -58908,8 +58908,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūsses"
   },
   "ussum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"I remember the time, when mead we took,",
+    "grammar": "Contextual translation",
     "lemma": "ussum"
   },
   "ut": {
@@ -58958,8 +58958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūtan-weard"
   },
   "utanweardne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Savage and burning, the barrow he circled",
+    "grammar": "Contextual translation",
     "lemma": "utanweardne"
   },
   "ute": {
@@ -58998,8 +58998,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ūð-genġe"
   },
   "uðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to wake him with water.2 Nowise it availed.",
+    "grammar": "Contextual translation",
     "lemma": "uðe"
   },
   "uðgenge": {
@@ -59028,8 +59028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wā"
   },
   "waca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: watch for the foe! No wish shall fail thee",
+    "grammar": "Contextual translation",
     "lemma": "waca"
   },
   "waci": {
@@ -59068,13 +59068,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wada"
   },
   "wado": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: churning waves and chillest weather,",
+    "grammar": "Contextual translation",
     "lemma": "wado"
   },
   "wadu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the welling waters. No wise of thee",
+    "grammar": "Contextual translation",
     "lemma": "wadu"
   },
   "wag": {
@@ -59083,13 +59083,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wāg"
   },
   "wage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to spy on the wall there, in splendor hanging,",
+    "grammar": "Contextual translation",
     "lemma": "wage"
   },
   "wagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that were wove on the wall, and wonders many",
+    "grammar": "Contextual translation",
     "lemma": "wagum"
   },
   "wald swaþu": {
@@ -59108,8 +59108,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "waldend"
   },
   "waldendes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his hidden craft by the creature's head. \u0015 ee",
+    "grammar": "Contextual translation",
     "lemma": "waldendes"
   },
   "waldswaþu": {
@@ -59118,8 +59118,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wald-swaþu"
   },
   "waldswaþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: along the woodland, widely seen,",
+    "grammar": "Contextual translation",
     "lemma": "waldswaþum"
   },
   "walu": {
@@ -59133,8 +59133,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wan"
   },
   "wand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: res,",
+    "grammar": "Contextual translation",
     "lemma": "wand"
   },
   "wandri": {
@@ -59158,8 +59158,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wang"
   },
   "wange": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: struggle grim between Grendel and me,",
+    "grammar": "Contextual translation",
     "lemma": "wange"
   },
   "wani": {
@@ -59193,18 +59193,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wāniġean"
   },
   "wanode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he ruined and ravaged. Reft of life,",
+    "grammar": "Contextual translation",
     "lemma": "wanode"
   },
   "wanre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hath wielded ever! \u0015 Thro' wan night striding,",
+    "grammar": "Contextual translation",
     "lemma": "wanre"
   },
   "waraðwintrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hoard in the graves, and heathen gold",
+    "grammar": "Contextual translation",
     "lemma": "waraðwintrum"
   },
   "wari": {
@@ -59223,13 +59223,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "warian"
   },
   "warigeað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by wolf-cli\u001bs haunt they and windy headlands,",
+    "grammar": "Contextual translation",
     "lemma": "warigeað"
   },
   "warode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when Grendel guarded that golden hall,",
+    "grammar": "Contextual translation",
     "lemma": "warode"
   },
   "waroð": {
@@ -59238,13 +59238,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "waroð"
   },
   "waroðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sandy strand of the sea to tread",
+    "grammar": "Contextual translation",
     "lemma": "waroðas"
   },
   "waroðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Straight to the strand his steed he rode,",
+    "grammar": "Contextual translation",
     "lemma": "waroðe"
   },
   "wast": {
@@ -59253,8 +59253,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wāst"
   },
   "wat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of wandering death-sprite. I wot not whither,1",
+    "grammar": "Contextual translation",
     "lemma": "wat"
   },
   "waðol": {
@@ -59308,8 +59308,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēa-dǣd"
   },
   "weal": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they set their bucklers, their broad shields, down,",
+    "grammar": "Contextual translation",
     "lemma": "weal"
   },
   "weal(l)": {
@@ -59323,8 +59323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēa-lāf"
   },
   "wealafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and rescue his remnant by right of arms",
+    "grammar": "Contextual translation",
     "lemma": "wealafe"
   },
   "weald": {
@@ -59348,33 +59348,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wealdend"
   },
   "wealdende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sad in heart, 'twas heaviest sorrow.",
+    "grammar": "Contextual translation",
     "lemma": "wealdende"
   },
   "wealdendes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: could he barrier life for that leader-of-battles",
+    "grammar": "Contextual translation",
     "lemma": "wealdendes"
   },
   "wealhðeo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wealhtheow spake amid warriors, and said:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "wealhðeo"
   },
   "wealhþeo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain would the war-lord Wealhtheow seek,",
+    "grammar": "Contextual translation",
     "lemma": "wealhþeo"
   },
   "wealhþeon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-in-war, from Wealhtheow's hand,",
+    "grammar": "Contextual translation",
     "lemma": "wealhþeon"
   },
   "wealhþeow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with winsome words. Came Wealhtheow forth,",
+    "grammar": "Contextual translation",
     "lemma": "wealhþeow"
   },
   "weall": {
@@ -59398,13 +59398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weallan"
   },
   "weallas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: windy walls. For Wyrd oft saveth",
+    "grammar": "Contextual translation",
     "lemma": "weallas"
   },
   "weallaðwælniðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oaths of the earls, when Ingeld's breast",
+    "grammar": "Contextual translation",
     "lemma": "weallaðwælniðas"
   },
   "weallclif": {
@@ -59418,28 +59418,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weallan"
   },
   "weallende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: churning waves and chillest weather,",
+    "grammar": "Contextual translation",
     "lemma": "weallende"
   },
   "weallendu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the welling waters. No wise of thee",
+    "grammar": "Contextual translation",
     "lemma": "weallendu"
   },
   "wealles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with bale and brand. In its barrow it trusted,",
+    "grammar": "Contextual translation",
     "lemma": "wealles"
   },
   "wean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: assuaged his sorrow; too sore the anguish,",
+    "grammar": "Contextual translation",
     "lemma": "wean"
   },
   "weana": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sovran of Scyldings, sorrows in plenty,",
+    "grammar": "Contextual translation",
     "lemma": "weana"
   },
   "weard": {
@@ -59448,13 +59448,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weard"
   },
   "weardade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and a little space his life preserved;",
+    "grammar": "Contextual translation",
     "lemma": "weardade"
   },
   "wearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'gainst hostile warriors hold my watch.\"",
+    "grammar": "Contextual translation",
     "lemma": "wearde"
   },
   "weardi": {
@@ -59473,13 +59473,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weardian"
   },
   "weardode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the hapless wight a while had kept",
+    "grammar": "Contextual translation",
     "lemma": "weardode"
   },
   "weardodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: night-foe savage, to seek us out",
+    "grammar": "Contextual translation",
     "lemma": "weardodon"
   },
   "wearn": {
@@ -59488,63 +59488,63 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wearn"
   },
   "wearne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have speech at will: nor spurn their prayer",
+    "grammar": "Contextual translation",
     "lemma": "wearne"
   },
   "wearp": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ung away fretted sword, featly jewelled,",
+    "grammar": "Contextual translation",
     "lemma": "wearp"
   },
   "wearð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awing the earls. Since erst he lay",
+    "grammar": "Contextual translation",
     "lemma": "wearð"
   },
   "wearðealgearo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in rapid achievement that ready it stood there,",
+    "grammar": "Contextual translation",
     "lemma": "wearðealgearo"
   },
   "wearðgrendles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have I gained in youth! These Grendel-deeds",
+    "grammar": "Contextual translation",
     "lemma": "wearðgrendles"
   },
   "wearðheremod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in far-o\u001b years, to folk of thine,",
+    "grammar": "Contextual translation",
     "lemma": "wearðheremod"
   },
   "wearðhim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But here in Heorot a hand hath slain him",
+    "grammar": "Contextual translation",
     "lemma": "wearðhim"
   },
   "wearðin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lled Heorot; the hand all had viewed,",
+    "grammar": "Contextual translation",
     "lemma": "wearðin"
   },
   "wearðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Swift on the billows, with boar-spears well",
+    "grammar": "Contextual translation",
     "lemma": "wearðon"
   },
   "wearðongenðiow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till Hrethelings fought in the fenced town.1",
+    "grammar": "Contextual translation",
     "lemma": "wearðongenðiow"
   },
   "wearþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slaughter for sins. 'Twas seen and told",
+    "grammar": "Contextual translation",
     "lemma": "wearþ"
   },
   "wearþhe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when Heatholaf with hand he slew",
+    "grammar": "Contextual translation",
     "lemma": "wearþhe"
   },
   "weaspel(l)": {
@@ -59553,8 +59553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēa-spel(l)"
   },
   "weaspelle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: would turn this tale of trouble and woe.",
+    "grammar": "Contextual translation",
     "lemma": "weaspelle"
   },
   "weax": {
@@ -59573,13 +59573,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weaxan"
   },
   "weaxeðond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till all within him obstinate pride",
+    "grammar": "Contextual translation",
     "lemma": "weaxeðond"
   },
   "web": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that were wove on the wall, and wonders many",
+    "grammar": "Contextual translation",
     "lemma": "web"
   },
   "web(b)": {
@@ -59603,8 +59603,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weċċan"
   },
   "weccean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tests the temper and tries the soul",
+    "grammar": "Contextual translation",
     "lemma": "weccean"
   },
   "wed(d)": {
@@ -59613,8 +59613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wed(d)"
   },
   "wedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: And to Eofor he gave his only daughter",
+    "grammar": "Contextual translation",
     "lemma": "wedde"
   },
   "weder": {
@@ -59623,28 +59623,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weder"
   },
   "wedera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Weders'3 clansmen climbed ashore,",
+    "grammar": "Contextual translation",
     "lemma": "wedera"
   },
   "wedergeata": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: After these words the Weder-Geat lord",
+    "grammar": "Contextual translation",
     "lemma": "wedergeata"
   },
   "wedergeatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aided in honor, till, older grown,",
+    "grammar": "Contextual translation",
     "lemma": "wedergeatum"
   },
   "wedermearce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 winding-neck'd wood, \u0015 to Weders' bounds,",
+    "grammar": "Contextual translation",
     "lemma": "wedermearce"
   },
   "wedra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: set forth all doleful. Dead was her son",
+    "grammar": "Contextual translation",
     "lemma": "wedra"
   },
   "wee": {
@@ -59753,8 +59753,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēl-þungen"
   },
   "welandes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and work of Wayland.5 Fares Wyrd6 as she must.\"",
+    "grammar": "Contextual translation",
     "lemma": "welandes"
   },
   "wele": {
@@ -59768,8 +59768,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēl-hwylċ"
   },
   "welhwylcra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that once was willing each wish to please.",
+    "grammar": "Contextual translation",
     "lemma": "welhwylcra"
   },
   "welig": {
@@ -59778,13 +59778,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weliġ"
   },
   "weligne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He minded the prizes his prince had given him,",
+    "grammar": "Contextual translation",
     "lemma": "weligne"
   },
   "well": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood at her father's bidding",
+    "grammar": "Contextual translation",
     "lemma": "well"
   },
   "welþungen": {
@@ -59803,23 +59803,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēnan"
   },
   "wende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for woes that weighed on me waited help",
+    "grammar": "Contextual translation",
     "lemma": "wende"
   },
   "wendeðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from ever an enemy: all the world",
+    "grammar": "Contextual translation",
     "lemma": "wendeðon"
   },
   "wendla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wulfgar spake, the Wendles' chieftain,",
+    "grammar": "Contextual translation",
     "lemma": "wendla"
   },
   "wendon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So well had weened the wisest Scyldings",
+    "grammar": "Contextual translation",
     "lemma": "wendon"
   },
   "wene": {
@@ -59828,13 +59828,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēnan"
   },
   "wenede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the folk of Hengest favor with rings,",
+    "grammar": "Contextual translation",
     "lemma": "wenede"
   },
   "weneþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghts and feasts, nor feud he dreads",
+    "grammar": "Contextual translation",
     "lemma": "weneþ"
   },
   "wenn": {
@@ -59853,8 +59853,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wennan"
   },
   "wenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all the morning earls had sat,",
+    "grammar": "Contextual translation",
     "lemma": "wenum"
   },
   "weo": {
@@ -59863,33 +59863,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weora"
   },
   "weohstan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who was slain by the sword-edge, son of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "weohstan"
   },
   "weohstanes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the youth for those that had yielded to fear!",
+    "grammar": "Contextual translation",
     "lemma": "weohstanes"
   },
   "weol": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swam o'er the waters. Winter's storm",
+    "grammar": "Contextual translation",
     "lemma": "weol"
   },
   "weold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: while wielded words the winsome Scyld,",
+    "grammar": "Contextual translation",
     "lemma": "weold"
   },
   "weoldon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dearest of blades, when the Danish slew him",
+    "grammar": "Contextual translation",
     "lemma": "weoldon"
   },
   "weoll": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for strength of old struggles, now stricken with age,",
+    "grammar": "Contextual translation",
     "lemma": "weoll"
   },
   "weor": {
@@ -59908,18 +59908,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorc"
   },
   "weorce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had sorrow of soul, and for Scyldings all,",
+    "grammar": "Contextual translation",
     "lemma": "weorce"
   },
   "weorces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: none in the waste.... Yet war he desired,",
+    "grammar": "Contextual translation",
     "lemma": "weorces"
   },
   "weorcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the shaft-of-slaughter4 strenuously",
+    "grammar": "Contextual translation",
     "lemma": "weorcum"
   },
   "weore": {
@@ -59933,13 +59933,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorod"
   },
   "weoroda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the chieftain of clansmen, children four:",
+    "grammar": "Contextual translation",
     "lemma": "weoroda"
   },
   "weorode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ne'er heard I of host in haughtier throng",
+    "grammar": "Contextual translation",
     "lemma": "weorode"
   },
   "weorp": {
@@ -60003,13 +60003,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorðan"
   },
   "weorðað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wells with war-hate, and wife-love now",
+    "grammar": "Contextual translation",
     "lemma": "weorðað"
   },
   "weorðdenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now eager for parting and armed at point",
+    "grammar": "Contextual translation",
     "lemma": "weorðdenum"
   },
   "weorðe": {
@@ -60018,8 +60018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorðan"
   },
   "weorðeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Frisian and Frank the fall of the king",
+    "grammar": "Contextual translation",
     "lemma": "weorðeð"
   },
   "weorðful(l)": {
@@ -60028,8 +60028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorð-ful(l)"
   },
   "weorðfullost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: memorial mighty. Of men was he",
+    "grammar": "Contextual translation",
     "lemma": "weorðfullost"
   },
   "weorði": {
@@ -60053,8 +60053,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorð-līċe"
   },
   "weorðlicost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the battle-brave's beacon. Round brands of the pyre",
+    "grammar": "Contextual translation",
     "lemma": "weorðlicost"
   },
   "weorðmynd": {
@@ -60063,43 +60063,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weorð-mynd"
   },
   "weorðmynda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: forgets he and spurns, with all God has sent him,",
+    "grammar": "Contextual translation",
     "lemma": "weorðmynda"
   },
   "weorðmyndum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for he waxed under welkin, in wealth he throve,",
+    "grammar": "Contextual translation",
     "lemma": "weorðmyndum"
   },
   "weorðode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet there, my prince, this people of thine",
+    "grammar": "Contextual translation",
     "lemma": "weorðode"
   },
   "weorþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Love of mine will I assure thee,",
+    "grammar": "Contextual translation",
     "lemma": "weorþa"
   },
   "weorþad": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 Go to the bench now! Be glad at banquet,",
+    "grammar": "Contextual translation",
     "lemma": "weorþad"
   },
   "weorþeð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the harbor of heaven is hidden away.",
+    "grammar": "Contextual translation",
     "lemma": "weorþeð"
   },
   "weorþode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: day by day the Danes should honor,",
+    "grammar": "Contextual translation",
     "lemma": "weorþode"
   },
   "weorþra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mounted with gold; on the mead-bench since",
+    "grammar": "Contextual translation",
     "lemma": "weorþra"
   },
   "weoten": {
@@ -60123,18 +60123,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "weotian(witian)"
   },
   "weotode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that lady full in the face to look,",
+    "grammar": "Contextual translation",
     "lemma": "weotode"
   },
   "weox": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for he waxed under welkin, in wealth he throve,",
+    "grammar": "Contextual translation",
     "lemma": "weox"
   },
   "weoxstanes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: can never be marred in a noble mind!",
+    "grammar": "Contextual translation",
     "lemma": "weoxstanes"
   },
   "wer": {
@@ -60153,13 +60153,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wer-þēod"
   },
   "wera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of human hardship. Unhallowed wight,",
+    "grammar": "Contextual translation",
     "lemma": "wera"
   },
   "weras": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on its willing way, the well-braced craft.",
+    "grammar": "Contextual translation",
     "lemma": "weras"
   },
   "were": {
@@ -60173,23 +60173,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wered"
   },
   "werede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mailed folk, that yon mighty vessel",
+    "grammar": "Contextual translation",
     "lemma": "werede"
   },
   "weredon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when warriors clashed and we warded our heads,",
+    "grammar": "Contextual translation",
     "lemma": "weredon"
   },
   "weres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in man's guise trod the misery-track",
+    "grammar": "Contextual translation",
     "lemma": "weres"
   },
   "wereð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: best of war-weeds, warding my breast,",
+    "grammar": "Contextual translation",
     "lemma": "wereð"
   },
   "werg": {
@@ -60203,8 +60203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "werġa(wērga?)"
   },
   "wergan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spirit accurst: too cruel that sorrow,",
+    "grammar": "Contextual translation",
     "lemma": "wergan"
   },
   "werge": {
@@ -60218,13 +60218,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "werġend"
   },
   "wergendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re less strongly",
+    "grammar": "Contextual translation",
     "lemma": "wergendra"
   },
   "wergum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghter sturdy, for sleeping yearned.",
+    "grammar": "Contextual translation",
     "lemma": "wergum"
   },
   "werhðo": {
@@ -60273,13 +60273,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "werod"
   },
   "werodes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the warriors' leader his word-hoard unlocked:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "werodes"
   },
   "werudes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she dreaded the doleful days to come,",
+    "grammar": "Contextual translation",
     "lemma": "werudes"
   },
   "werþeod": {
@@ -60288,8 +60288,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wer-þēod"
   },
   "werþeode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: among races of men, this refuge-of-warriors,",
+    "grammar": "Contextual translation",
     "lemma": "werþeode"
   },
   "wes": {
@@ -60313,8 +60313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēste"
   },
   "westdenum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Danes of the West, as I ween indeed,",
+    "grammar": "Contextual translation",
     "lemma": "westdenum"
   },
   "weste": {
@@ -60323,8 +60323,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēste"
   },
   "westen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warded the wilds. \u0015 There woke from him",
+    "grammar": "Contextual translation",
     "lemma": "westen"
   },
   "westen(n)": {
@@ -60333,13 +60333,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wēsten(n)"
   },
   "westenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all without; nor was any there,",
+    "grammar": "Contextual translation",
     "lemma": "westenne"
   },
   "westne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forlorn he looks on the lodge of his son,",
+    "grammar": "Contextual translation",
     "lemma": "westne"
   },
   "wi": {
@@ -60373,8 +60373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīċ-stede"
   },
   "wica": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: laden with slaughter, his lair to seek.",
+    "grammar": "Contextual translation",
     "lemma": "wica"
   },
   "wicg": {
@@ -60383,13 +60383,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wicg"
   },
   "wicga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er war-steeds and weapons: wished him joy of them.",
+    "grammar": "Contextual translation",
     "lemma": "wicga"
   },
   "wicge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Straight to the strand his steed he rode,",
+    "grammar": "Contextual translation",
     "lemma": "wicge"
   },
   "wicstede": {
@@ -60398,13 +60398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīċ-stede"
   },
   "wicum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor took from that dwelling the duke of the Geats",
+    "grammar": "Contextual translation",
     "lemma": "wicum"
   },
   "wicun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dole in the dwellings: 'twas dire exchange",
+    "grammar": "Contextual translation",
     "lemma": "wicun"
   },
   "wid": {
@@ -60483,13 +60483,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīd-wegas"
   },
   "widan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for woes that weighed on me waited help",
+    "grammar": "Contextual translation",
     "lemma": "widan"
   },
   "widcuðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: earl far-honored, this heirloom precious,",
+    "grammar": "Contextual translation",
     "lemma": "widcuðne"
   },
   "widcuþ": {
@@ -60498,13 +60498,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīd-cūþ"
   },
   "widcuþes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the crush of combat when corpses fell.",
+    "grammar": "Contextual translation",
     "lemma": "widcuþes"
   },
   "widcuþwerum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end,",
+    "grammar": "Contextual translation",
     "lemma": "widcuþwerum"
   },
   "wide": {
@@ -60528,8 +60528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīde-ferhð"
   },
   "wideferhþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thou art famed among folk both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "wideferhþ"
   },
   "widfloga": {
@@ -60538,8 +60538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīd-floga"
   },
   "widre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ing himself free, and far away",
+    "grammar": "Contextual translation",
     "lemma": "widre"
   },
   "widscofen": {
@@ -60568,18 +60568,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīf-lufu(-lufe)"
   },
   "wifa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of men and women the wine-hall to cleanse,",
+    "grammar": "Contextual translation",
     "lemma": "wifa"
   },
   "wife": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Well these words to the woman seemed,",
+    "grammar": "Contextual translation",
     "lemma": "wife"
   },
   "wifes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: might of maid, than of men in arms",
+    "grammar": "Contextual translation",
     "lemma": "wifes"
   },
   "wiflufu(lufe)": {
@@ -60853,8 +60853,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-bealu"
   },
   "wigbil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-blade, to wane: 'twas a wondrous thing",
+    "grammar": "Contextual translation",
     "lemma": "wigbil"
   },
   "wigbil(l)": {
@@ -60878,8 +60878,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-cræftiġ"
   },
   "wigcræftigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: quoth that he counted it keen in battle,",
+    "grammar": "Contextual translation",
     "lemma": "wigcræftigne"
   },
   "wige": {
@@ -60888,8 +60888,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīgan"
   },
   "wigena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Spent with struggle, stumbled the warrior,",
+    "grammar": "Contextual translation",
     "lemma": "wigena"
   },
   "wigend": {
@@ -60898,13 +60898,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġend"
   },
   "wigendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and, Friend-of-the-folk, refuse it not,",
+    "grammar": "Contextual translation",
     "lemma": "wigendra"
   },
   "wiges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such honor of combat, that all his kin",
+    "grammar": "Contextual translation",
     "lemma": "wiges"
   },
   "wigeð": {
@@ -60918,8 +60918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-freca"
   },
   "wigfrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weaker warriors won the spoil,",
+    "grammar": "Contextual translation",
     "lemma": "wigfrecan"
   },
   "wigfruma": {
@@ -60928,8 +60928,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-fruma"
   },
   "wigfruman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rust with their bearer. The ringed mail",
+    "grammar": "Contextual translation",
     "lemma": "wigfruman"
   },
   "wigg": {
@@ -60948,8 +60948,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-ġetawa"
   },
   "wiggetawum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In weeds of the warrior worthy they,",
+    "grammar": "Contextual translation",
     "lemma": "wiggetawum"
   },
   "wiggeweorþad": {
@@ -60968,8 +60968,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-heafola"
   },
   "wigheafolan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: breastplate and board, for us both shall serve!\"",
+    "grammar": "Contextual translation",
     "lemma": "wigheafolan"
   },
   "wigheap": {
@@ -60988,8 +60988,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-hryre"
   },
   "wiglaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: can never be marred in a noble mind!",
+    "grammar": "Contextual translation",
     "lemma": "wiglaf"
   },
   "wigsigor": {
@@ -61003,8 +61003,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-spēd"
   },
   "wigspeda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: war-weal weaving, to Weder folk",
+    "grammar": "Contextual translation",
     "lemma": "wigspeda"
   },
   "wigte": {
@@ -61018,8 +61018,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wiġtiġ"
   },
   "wigum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over the sea to the son of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "wigum"
   },
   "wigweorþung": {
@@ -61028,13 +61028,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīġ-weorþung"
   },
   "wigweorþunga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: altar-o\u001berings, asked with words5",
+    "grammar": "Contextual translation",
     "lemma": "wigweorþunga"
   },
   "wihstanes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my life and the lordship I long have held.\"",
+    "grammar": "Contextual translation",
     "lemma": "wihstanes"
   },
   "wiht": {
@@ -61043,13 +61043,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wiht"
   },
   "wihte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: awaits he ever. But well for him",
+    "grammar": "Contextual translation",
     "lemma": "wihte"
   },
   "wil": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs; his Weder kin",
+    "grammar": "Contextual translation",
     "lemma": "wil"
   },
   "wil cuma": {
@@ -61113,8 +61113,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wil-sīð"
   },
   "wilaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght, where the old man lay;",
+    "grammar": "Contextual translation",
     "lemma": "wilaf"
   },
   "wilcuma": {
@@ -61123,13 +61123,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wil-cuma"
   },
   "wilcuman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and add this word, \u0015 they are welcome guests",
+    "grammar": "Contextual translation",
     "lemma": "wilcuman"
   },
   "wildeor": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and sea-snakes and monsters. These started away,",
+    "grammar": "Contextual translation",
     "lemma": "wildeor"
   },
   "wildeor[wild deor]": {
@@ -61148,8 +61148,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wildēor[wild-dēor]"
   },
   "wile": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the doughty prince, if he deign at all",
+    "grammar": "Contextual translation",
     "lemma": "wile"
   },
   "wilgeofa": {
@@ -61163,8 +61163,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wil-ġesīþ"
   },
   "wilgesiþas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: come warriors willing, should war draw nigh,",
+    "grammar": "Contextual translation",
     "lemma": "wilgesiþas"
   },
   "will": {
@@ -61188,13 +61188,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "willa"
   },
   "willum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hygelac now. We here have found",
+    "grammar": "Contextual translation",
     "lemma": "willum"
   },
   "wilna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: watch for the foe! No wish shall fail thee",
+    "grammar": "Contextual translation",
     "lemma": "wilna"
   },
   "wilni": {
@@ -61293,8 +61293,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wind-ġeard"
   },
   "windagum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through days of warfare this world endures!",
+    "grammar": "Contextual translation",
     "lemma": "windagum"
   },
   "windan": {
@@ -61313,8 +61313,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "windiġ"
   },
   "windge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Forlorn he looks on the lodge of his son,",
+    "grammar": "Contextual translation",
     "lemma": "windge"
   },
   "windgeard": {
@@ -61328,8 +61328,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "windiġ"
   },
   "windige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: windy walls. For Wyrd oft saveth",
+    "grammar": "Contextual translation",
     "lemma": "windige"
   },
   "windæg": {
@@ -61408,13 +61408,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wine-drihten"
   },
   "winedrihtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wulfgar spake to his winsome lord:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "winedrihtne"
   },
   "winedryhten": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lave with water his winsome lord,",
+    "grammar": "Contextual translation",
     "lemma": "winedryhten"
   },
   "winegeomor": {
@@ -61428,13 +61428,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wine-lēas"
   },
   "wineleasum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who was slain by the sword-edge, son of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "wineleasum"
   },
   "winemagas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: such honor of combat, that all his kin",
+    "grammar": "Contextual translation",
     "lemma": "winemagas"
   },
   "winemæg": {
@@ -61443,8 +61443,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wine-mǣġ"
   },
   "wines": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: spake much in his sorrow, and sent you greetings",
+    "grammar": "Contextual translation",
     "lemma": "wines"
   },
   "wini": {
@@ -61463,8 +61463,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "winia"
   },
   "winigea": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the friendless wight! \u0015 and I fought with that brand,",
+    "grammar": "Contextual translation",
     "lemma": "winigea"
   },
   "winn": {
@@ -61498,23 +61498,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "winter"
   },
   "wintra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Twelve years' tide the trouble he bore,",
+    "grammar": "Contextual translation",
     "lemma": "wintra"
   },
   "wintrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of virtue advise thee! This verse I have said for thee,",
+    "grammar": "Contextual translation",
     "lemma": "wintrum"
   },
   "wintrys": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rolled the rough waves. In realm of sea",
+    "grammar": "Contextual translation",
     "lemma": "wintrys"
   },
   "winum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had sorrow of soul, and for Scyldings all,",
+    "grammar": "Contextual translation",
     "lemma": "winum"
   },
   "winærn": {
@@ -61523,8 +61523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīn-ærn"
   },
   "winærnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: let him wield the wine hall: a word he added:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "winærnes"
   },
   "wir": {
@@ -61533,13 +61533,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīr"
   },
   "wira": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood of ocean. Within 'twas full",
+    "grammar": "Contextual translation",
     "lemma": "wira"
   },
   "wirum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wound with wires, kept ward o'er the head,",
+    "grammar": "Contextual translation",
     "lemma": "wirum"
   },
   "wis": {
@@ -61593,13 +61593,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīsa"
   },
   "wisade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the sea-wood1 he sought, and, sailor proved,",
+    "grammar": "Contextual translation",
     "lemma": "wisade"
   },
   "wisan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wishing to greet the wise old king,",
+    "grammar": "Contextual translation",
     "lemma": "wisan"
   },
   "wiscan(wуscan)": {
@@ -61613,8 +61613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīs-dōm"
   },
   "wisdome": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ghting and feeing by far-o\u001b men,",
+    "grammar": "Contextual translation",
     "lemma": "wisdome"
   },
   "wise": {
@@ -61648,18 +61648,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīsian"
   },
   "wisige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapons and weeds the way I show you.",
+    "grammar": "Contextual translation",
     "lemma": "wisige"
   },
   "wisode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: STONE-BRIGHT the street:1 it showed the way",
+    "grammar": "Contextual translation",
     "lemma": "wisode"
   },
   "wisra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the wiser men, the ways to scan,",
+    "grammar": "Contextual translation",
     "lemma": "wisra"
   },
   "wiss": {
@@ -61673,8 +61673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wisse"
   },
   "wisson": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clearly ye lack from clansmen here,",
+    "grammar": "Contextual translation",
     "lemma": "wisson"
   },
   "wist": {
@@ -61698,8 +61698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wīston"
   },
   "wistfylle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waited his will! But Wyrd forbade him",
+    "grammar": "Contextual translation",
     "lemma": "wistfylle"
   },
   "wistfyllo": {
@@ -61738,8 +61738,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wītiġ"
   },
   "witena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: still less did the wise men ween to get",
+    "grammar": "Contextual translation",
     "lemma": "witena"
   },
   "witig": {
@@ -61833,48 +61833,48 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wið-habban"
   },
   "wiðaglæcean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor meet for any but me alone",
+    "grammar": "Contextual translation",
     "lemma": "wiðaglæcean"
   },
   "wiðattorsceaðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and never so daring in deed of valor, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "wiðattorsceaðan"
   },
   "wiðblode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: locked in his mind, for that loved man",
+    "grammar": "Contextual translation",
     "lemma": "wiðblode"
   },
   "wiðbrecan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Art thou that Beowulf, Breca's rival,",
+    "grammar": "Contextual translation",
     "lemma": "wiðbrecan"
   },
   "wiðeallum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: one against all; until empty stood",
+    "grammar": "Contextual translation",
     "lemma": "wiðeallum"
   },
   "wiðearm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: prompt to answer, propped on his arm.",
+    "grammar": "Contextual translation",
     "lemma": "wiðearm"
   },
   "wiðecge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: withstanding entrance of edge or blade.",
+    "grammar": "Contextual translation",
     "lemma": "wiðecge"
   },
   "wiðeorðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dishes lay there, and dear-decked swords",
+    "grammar": "Contextual translation",
     "lemma": "wiðeorðan"
   },
   "wiðeotena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: should fall to them in Frisian land;",
+    "grammar": "Contextual translation",
     "lemma": "wiðeotena"
   },
   "wiðer ræhtes": {
@@ -61898,8 +61898,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wiðer-ræhtes"
   },
   "wiðergyld": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dearest of blades, when the Danish slew him",
+    "grammar": "Contextual translation",
     "lemma": "wiðergyld"
   },
   "wiðerræhtes": {
@@ -61908,23 +61908,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wiðer-ræhtes"
   },
   "wiðfeng": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngers cracked.",
+    "grammar": "Contextual translation",
     "lemma": "wiðfeng"
   },
   "wiðfeond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tokens of love. I trow my landfolk",
+    "grammar": "Contextual translation",
     "lemma": "wiðfeond"
   },
   "wiðfeonda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to guard for fear lest foemen come, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "wiðfeonda"
   },
   "wiðfeonde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght for life,",
+    "grammar": "Contextual translation",
     "lemma": "wiðfeonde"
   },
   "wiðfon": {
@@ -61933,43 +61933,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wið-fōn"
   },
   "wiðfreond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tokens of love. I trow my landfolk",
+    "grammar": "Contextual translation",
     "lemma": "wiðfreond"
   },
   "wiðfærgryrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against harassing terror to try their hand.",
+    "grammar": "Contextual translation",
     "lemma": "wiðfærgryrum"
   },
   "wiðgeatas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Be glad with thy Geats; of those gifts be mindful,",
+    "grammar": "Contextual translation",
     "lemma": "wiðgeatas"
   },
   "wiðgod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on many a man such murder wrought,",
+    "grammar": "Contextual translation",
     "lemma": "wiðgod"
   },
   "wiðgode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as well as the giants that warred with God",
+    "grammar": "Contextual translation",
     "lemma": "wiðgode"
   },
   "wiðgrendel": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: crushing the grim ones. Grendel now,",
+    "grammar": "Contextual translation",
     "lemma": "wiðgrendel"
   },
   "wiðgrendle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how, with such enemy, else my vows",
+    "grammar": "Contextual translation",
     "lemma": "wiðgrendle"
   },
   "wiðgrendles": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against horror of Grendel. I hope to give",
+    "grammar": "Contextual translation",
     "lemma": "wiðgrendles"
   },
   "wiðgripan": {
@@ -61983,83 +61983,83 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wið-habban"
   },
   "wiðhalse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that it gripped her neck and grasped her hard,",
+    "grammar": "Contextual translation",
     "lemma": "wiðhalse"
   },
   "wiðhettendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when once they learn that our warrior leader",
+    "grammar": "Contextual translation",
     "lemma": "wiðhettendum"
   },
   "wiðhis": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: soon as my purpose was plain to him,",
+    "grammar": "Contextual translation",
     "lemma": "wiðhis"
   },
   "wiðhrefnawudu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how Ongentheow reft at Ravenswood",
+    "grammar": "Contextual translation",
     "lemma": "wiðhrefnawudu"
   },
   "wiðhron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: we held in hand, with hope to guard us",
+    "grammar": "Contextual translation",
     "lemma": "wiðhron"
   },
   "wiðhroþgar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: harassed Hrothgar, what hate he bore him,",
+    "grammar": "Contextual translation",
     "lemma": "wiðhroþgar"
   },
   "wiðhugas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: is spread afar. \u0015 The strife began",
+    "grammar": "Contextual translation",
     "lemma": "wiðhugas"
   },
   "wiðhæfde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in the strain of their struggle stood, to earth",
+    "grammar": "Contextual translation",
     "lemma": "wiðhæfde"
   },
   "wiðhæleþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain of the fair life fate had sent her,",
+    "grammar": "Contextual translation",
     "lemma": "wiðhæleþa"
   },
   "wiðlaðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: yet me 'gainst the monsters my mailed coat,",
+    "grammar": "Contextual translation",
     "lemma": "wiðlaðum"
   },
   "wiðlice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: life from body, since lusty banquet",
+    "grammar": "Contextual translation",
     "lemma": "wiðlice"
   },
   "wiðlige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: re were worthless,",
+    "grammar": "Contextual translation",
     "lemma": "wiðlige"
   },
   "wiðmanna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to deal with any of Daneland's earls,",
+    "grammar": "Contextual translation",
     "lemma": "wiðmanna"
   },
   "wiðmæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: By his sovran he sat, come safe from battle,",
+    "grammar": "Contextual translation",
     "lemma": "wiðmæge"
   },
   "wiðniðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had purged it anew. His night-work pleased him,",
+    "grammar": "Contextual translation",
     "lemma": "wiðniðe"
   },
   "wiðord": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: withstanding entrance of edge or blade.",
+    "grammar": "Contextual translation",
     "lemma": "wiðord"
   },
   "wiðr": {
@@ -62073,98 +62073,98 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wiðre"
   },
   "wiðres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He had tested Hygelac's hardihood,",
+    "grammar": "Contextual translation",
     "lemma": "wiðres"
   },
   "wiðrihte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end outran! ll",
+    "grammar": "Contextual translation",
     "lemma": "wiðrihte"
   },
   "wiðrond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the hated men. In heat-waves burned",
+    "grammar": "Contextual translation",
     "lemma": "wiðrond"
   },
   "wiðsande": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sea with sand; the sailors bore",
+    "grammar": "Contextual translation",
     "lemma": "wiðsande"
   },
   "wiðsorgum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their lives to save. But the soul of one",
+    "grammar": "Contextual translation",
     "lemma": "wiðsorgum"
   },
   "wiðsteapne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: erce their mood.",
+    "grammar": "Contextual translation",
     "lemma": "wiðsteapne"
   },
   "wiðsylfne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: room for the rovers was readily made.",
+    "grammar": "Contextual translation",
     "lemma": "wiðsylfne"
   },
   "wiðwinde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lashed by the winds, or winter locked them",
+    "grammar": "Contextual translation",
     "lemma": "wiðwinde"
   },
   "wiðwraðwerod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'gainst hostile warriors hold my watch.\"",
+    "grammar": "Contextual translation",
     "lemma": "wiðwraðwerod"
   },
   "wiðwraþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: watch for the foe! No wish shall fail thee",
+    "grammar": "Contextual translation",
     "lemma": "wiðwraþum"
   },
   "wiðwulf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and boast to the eagle how bravely he ate",
+    "grammar": "Contextual translation",
     "lemma": "wiðwulf"
   },
   "wiðælfylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rings and royal-seat, reckoning naught",
+    "grammar": "Contextual translation",
     "lemma": "wiðælfylcum"
   },
   "wiððam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: no sword to the serpent, if sure I knew",
+    "grammar": "Contextual translation",
     "lemma": "wiððam"
   },
   "wiðþam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: monster cruel, be mine to quell",
+    "grammar": "Contextual translation",
     "lemma": "wiðþam"
   },
   "wiðþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that they, my master, may with thee",
+    "grammar": "Contextual translation",
     "lemma": "wiðþe"
   },
   "wiðþeodþreaum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the pain of their people. Their practice this,",
+    "grammar": "Contextual translation",
     "lemma": "wiðþeodþreaum"
   },
   "wiðþone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all mankind's master. My mood is bold",
+    "grammar": "Contextual translation",
     "lemma": "wiðþone"
   },
   "wiðþyrse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in single battle! So, from thee,",
+    "grammar": "Contextual translation",
     "lemma": "wiðþyrse"
   },
   "wiðþæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: they set their bucklers, their broad shields, down,",
+    "grammar": "Contextual translation",
     "lemma": "wiðþæs"
   },
   "wlanc": {
@@ -62173,8 +62173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wlanc"
   },
   "wlat": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heaven's candle. The hall he scanned.",
+    "grammar": "Contextual translation",
     "lemma": "wlat"
   },
   "wlati": {
@@ -62193,13 +62193,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wlātian"
   },
   "wlatode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who long already for loved companions",
+    "grammar": "Contextual translation",
     "lemma": "wlatode"
   },
   "wlence": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oods,",
+    "grammar": "Contextual translation",
     "lemma": "wlence"
   },
   "wlenco": {
@@ -62263,8 +62263,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wlite-beorht"
   },
   "wlitebeorhtne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: elds enfolded by water,",
+    "grammar": "Contextual translation",
     "lemma": "wlitebeorhtne"
   },
   "wliteseon": {
@@ -62278,8 +62278,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wlitiġ"
   },
   "wliton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood,",
+    "grammar": "Contextual translation",
     "lemma": "wliton"
   },
   "wlonc": {
@@ -62288,8 +62288,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wlonc"
   },
   "wlonces": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He had tested Hygelac's hardihood,",
+    "grammar": "Contextual translation",
     "lemma": "wlonces"
   },
   "woc": {
@@ -62298,13 +62298,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wōc"
   },
   "wocun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to the chieftain of clansmen, children four:",
+    "grammar": "Contextual translation",
     "lemma": "wocun"
   },
   "wod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Under welkin he walked, till the wine-palace there,",
+    "grammar": "Contextual translation",
     "lemma": "wod"
   },
   "woh": {
@@ -62358,8 +62358,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wolcen"
   },
   "wolcnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for he waxed under welkin, in wealth he throve,",
+    "grammar": "Contextual translation",
     "lemma": "wolcnum"
   },
   "wold": {
@@ -62373,8 +62373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wolde"
   },
   "woldon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that they would bide in the beer-hall here,",
+    "grammar": "Contextual translation",
     "lemma": "woldon"
   },
   "wollen tear": {
@@ -62393,8 +62393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wollen-tēar"
   },
   "wollenteare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sad, they climbed to the Cli\u001b-of-Eagles,",
+    "grammar": "Contextual translation",
     "lemma": "wollenteare"
   },
   "wom": {
@@ -62408,8 +62408,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wom(m)"
   },
   "wommum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hedged with horrors, in hell-bonds fast,",
+    "grammar": "Contextual translation",
     "lemma": "wommum"
   },
   "won": {
@@ -62478,13 +62478,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wong-stede"
   },
   "wongas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: alone for his lost. Too large all seems,",
+    "grammar": "Contextual translation",
     "lemma": "wongas"
   },
   "wonge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though brief his respite. The barrow, new-ready,",
+    "grammar": "Contextual translation",
     "lemma": "wonge"
   },
   "wongstede": {
@@ -62493,8 +62493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wong-stede"
   },
   "wonhydum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his wanton mood, of weapons recks not;",
+    "grammar": "Contextual translation",
     "lemma": "wonhydum"
   },
   "wonhуd(hygd)": {
@@ -62503,18 +62503,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "won-hӯd(-hyġd)"
   },
   "wonna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lifted aloft; nor shall lilt of harp",
+    "grammar": "Contextual translation",
     "lemma": "wonna"
   },
   "wonredes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and faced his foe with fell intent.",
+    "grammar": "Contextual translation",
     "lemma": "wonredes"
   },
   "wonreding": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Eofor's anger. In ire, at the king",
+    "grammar": "Contextual translation",
     "lemma": "wonreding"
   },
   "wonsceaft": {
@@ -62523,8 +62523,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "won-sceaft"
   },
   "wonsæli": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the hapless wight a while had kept",
+    "grammar": "Contextual translation",
     "lemma": "wonsæli"
   },
   "wonsæli(sælig)": {
@@ -62538,8 +62538,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wōp"
   },
   "wope": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: black over blaze, and blent was the roar",
+    "grammar": "Contextual translation",
     "lemma": "wope"
   },
   "worc": {
@@ -62548,13 +62548,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worc"
   },
   "worca": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: words and works, if he well intends.",
+    "grammar": "Contextual translation",
     "lemma": "worca"
   },
   "worcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by word or work should warp the treaty,8",
+    "grammar": "Contextual translation",
     "lemma": "worcum"
   },
   "word": {
@@ -62613,13 +62613,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "word-riht"
   },
   "worda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: words and works, if he well intends.",
+    "grammar": "Contextual translation",
     "lemma": "worda"
   },
   "wordcwida": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thou art strong of main and in mind art wary,",
+    "grammar": "Contextual translation",
     "lemma": "wordcwida"
   },
   "wordcwide": {
@@ -62628,28 +62628,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "word-cwide"
   },
   "wordcwydas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Him then answering, Hrothgar spake:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "wordcwydas"
   },
   "wordcwydum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I HAVE heard that swiftly the son of Weohstan",
+    "grammar": "Contextual translation",
     "lemma": "wordcwydum"
   },
   "worde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Me this war-gear the wise old prince,",
+    "grammar": "Contextual translation",
     "lemma": "worde"
   },
   "wordes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whose message had might in many a land.",
+    "grammar": "Contextual translation",
     "lemma": "wordes"
   },
   "wordgyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lament to make, to mourn their king,",
+    "grammar": "Contextual translation",
     "lemma": "wordgyd"
   },
   "wordgyd(d)": {
@@ -62668,13 +62668,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "word-riht"
   },
   "wordrihta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ght the foes had met!",
+    "grammar": "Contextual translation",
     "lemma": "wordrihta"
   },
   "wordum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: while wielded words the winsome Scyld,",
+    "grammar": "Contextual translation",
     "lemma": "wordum"
   },
   "worh": {
@@ -62693,8 +62693,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worhte"
   },
   "worlde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this conqueror's-hour of the king was last,",
+    "grammar": "Contextual translation",
     "lemma": "worlde"
   },
   "worn": {
@@ -62703,8 +62703,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worn"
   },
   "worna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: struggle grim between Grendel and me,",
+    "grammar": "Contextual translation",
     "lemma": "worna"
   },
   "worold": {
@@ -62748,8 +62748,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worold-ār"
   },
   "woroldare": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Wielder of Wonder, with world's renown.",
+    "grammar": "Contextual translation",
     "lemma": "woroldare"
   },
   "woroldcyning": {
@@ -62758,13 +62758,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worold-cyning"
   },
   "woroldcyninga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Now it passed into power of the people's king,",
+    "grammar": "Contextual translation",
     "lemma": "woroldcyninga"
   },
   "worolde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wealth of the world that I wield as mine!",
+    "grammar": "Contextual translation",
     "lemma": "worolde"
   },
   "woroldræden(n)": {
@@ -62773,8 +62773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worold-rǣden(n)"
   },
   "woroldrædenne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So he escaped not the common doom,",
+    "grammar": "Contextual translation",
     "lemma": "woroldrædenne"
   },
   "woruld candel": {
@@ -62813,8 +62813,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "woruld-candel"
   },
   "worulde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: eeting life,1",
+    "grammar": "Contextual translation",
     "lemma": "worulde"
   },
   "woruldende": {
@@ -62848,8 +62848,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "worð-mynd"
   },
   "worðmyndum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that for him we did in his helpless days",
+    "grammar": "Contextual translation",
     "lemma": "worðmyndum"
   },
   "wracu": {
@@ -62888,13 +62888,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrāð-līċe"
   },
   "wraðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood.",
+    "grammar": "Contextual translation",
     "lemma": "wraðra"
   },
   "wraþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wakeful, ready, with warrior's wrath,",
+    "grammar": "Contextual translation",
     "lemma": "wraþum"
   },
   "wrec": {
@@ -62923,8 +62923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wreċċa"
   },
   "wreccena": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He had of all heroes the highest renown",
+    "grammar": "Contextual translation",
     "lemma": "wreccena"
   },
   "wrece": {
@@ -62933,8 +62933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrecan"
   },
   "wrecen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and harping was heard with the hero-lay",
+    "grammar": "Contextual translation",
     "lemma": "wrecen"
   },
   "wrecend": {
@@ -62958,8 +62958,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wreoþen-hilt"
   },
   "wridað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till all within him obstinate pride",
+    "grammar": "Contextual translation",
     "lemma": "wridað"
   },
   "wridi": {
@@ -62993,8 +62993,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrītan"
   },
   "writen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: heirloom old, where was etched the rise",
+    "grammar": "Contextual translation",
     "lemma": "writen"
   },
   "wrixl": {
@@ -63013,8 +63013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrixlan"
   },
   "wriðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his folk's old herdsman, fatally hurt.",
+    "grammar": "Contextual translation",
     "lemma": "wriðon"
   },
   "wriþ": {
@@ -63083,8 +63083,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wræċċa"
   },
   "wræccan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who was slain by the sword-edge, son of Ohtere,",
+    "grammar": "Contextual translation",
     "lemma": "wræccan"
   },
   "wræcce": {
@@ -63103,8 +63103,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wræc-lāst"
   },
   "wræclastas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in man's guise trod the misery-track",
+    "grammar": "Contextual translation",
     "lemma": "wræclastas"
   },
   "wræcmæcg": {
@@ -63113,8 +63113,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wræc-mæcġ"
   },
   "wræcmæcgas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: aided in honor, till, older grown,",
+    "grammar": "Contextual translation",
     "lemma": "wræcmæcgas"
   },
   "wræcsið": {
@@ -63123,8 +63123,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wræc-sīð"
   },
   "wræcsiðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'Tis plain that for prowess, not plunged into exile,",
+    "grammar": "Contextual translation",
     "lemma": "wræcsiðum"
   },
   "wræt lic": {
@@ -63143,8 +63143,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrǣt-liċ"
   },
   "wræte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oor he easily saw",
+    "grammar": "Contextual translation",
     "lemma": "wræte"
   },
   "wrætlic": {
@@ -63153,18 +63153,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wrǣt-liċ"
   },
   "wrætlicne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that wondrous worm, \u0015 on the wall it struck,",
+    "grammar": "Contextual translation",
     "lemma": "wrætlicne"
   },
   "wrætta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood of ocean. Within 'twas full",
+    "grammar": "Contextual translation",
     "lemma": "wrætta"
   },
   "wrættum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ung away fretted sword, featly jewelled,",
+    "grammar": "Contextual translation",
     "lemma": "wrættum"
   },
   "wudu": {
@@ -63208,13 +63208,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wuldor-torht"
   },
   "wuldortorhtan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: duly await. Far o\u001b winter was driven;",
+    "grammar": "Contextual translation",
     "lemma": "wuldortorhtan"
   },
   "wuldres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Wielder of Wonder, with world's renown.",
+    "grammar": "Contextual translation",
     "lemma": "wuldres"
   },
   "wuldur cyning": {
@@ -63233,8 +63233,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wuldur-cyning"
   },
   "wuldurcyninge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"For the gold and treasure, to God my thanks,",
+    "grammar": "Contextual translation",
     "lemma": "wuldurcyninge"
   },
   "wulf": {
@@ -63253,18 +63253,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wulf-hliþ"
   },
   "wulfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrethel's o\u001bspring, when home he came,",
+    "grammar": "Contextual translation",
     "lemma": "wulfe"
   },
   "wulfgar": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wulfgar spake, the Wendles' chieftain,",
+    "grammar": "Contextual translation",
     "lemma": "wulfgar"
   },
   "wulfhleoþu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by wolf-cli\u001bs haunt they and windy headlands,",
+    "grammar": "Contextual translation",
     "lemma": "wulfhleoþu"
   },
   "wulfhliþ": {
@@ -63273,18 +63273,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wulf-hliþ"
   },
   "wunað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shall su\u001ber in sorrow while stands in place",
+    "grammar": "Contextual translation",
     "lemma": "wunað"
   },
   "wunaðhe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this wanter-of-wisdom weeneth none.",
+    "grammar": "Contextual translation",
     "lemma": "wunaðhe"
   },
   "wunaðwælreste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in death-bed lies; the Lord of Geats",
+    "grammar": "Contextual translation",
     "lemma": "wunaðwælreste"
   },
   "wund": {
@@ -63293,13 +63293,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wund"
   },
   "wunde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but at break of day, by my brand sore hurt,",
+    "grammar": "Contextual translation",
     "lemma": "wunde"
   },
   "wunden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and winsome words. Of wounden gold,",
+    "grammar": "Contextual translation",
     "lemma": "wunden"
   },
   "wunden feax": {
@@ -63373,8 +63373,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wunden-stefna"
   },
   "wunder": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wonder on wonder, the Warden-of-Glory.",
+    "grammar": "Contextual translation",
     "lemma": "wunder"
   },
   "wunder fæt": {
@@ -63388,8 +63388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wunder-fæt"
   },
   "wunderfatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from their \"wonder-vats\" wine. Comes Wealhtheow forth,",
+    "grammar": "Contextual translation",
     "lemma": "wunderfatum"
   },
   "wunderfæt": {
@@ -63398,13 +63398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wunder-fæt"
   },
   "wundnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with winding gold, if thou winnest back.\"",
+    "grammar": "Contextual translation",
     "lemma": "wundnum"
   },
   "wundon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors ready; waves were churning",
+    "grammar": "Contextual translation",
     "lemma": "wundon"
   },
   "wundor": {
@@ -63478,8 +63478,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wundor-bebod"
   },
   "wundorbebodum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by sharpest shafts; and no shelter avails",
+    "grammar": "Contextual translation",
     "lemma": "wundorbebodum"
   },
   "wundordeað": {
@@ -63488,13 +63488,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wundor-dēað"
   },
   "wundordeaðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had dawned on the doughty-one; death had seized",
+    "grammar": "Contextual translation",
     "lemma": "wundordeaðe"
   },
   "wundorlic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wave-roamer wondrous. Warriors viewed",
+    "grammar": "Contextual translation",
     "lemma": "wundorlic"
   },
   "wundorl√c": {
@@ -63508,8 +63508,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wundor-sīon"
   },
   "wundorsiona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that were wove on the wall, and wonders many",
+    "grammar": "Contextual translation",
     "lemma": "wundorsiona"
   },
   "wundorsmiþ": {
@@ -63518,33 +63518,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wundor-smiþ"
   },
   "wundorsmiþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wonder-smiths' work, since the world was rid",
+    "grammar": "Contextual translation",
     "lemma": "wundorsmiþa"
   },
   "wundra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weapon to wield against wondrous monsters",
+    "grammar": "Contextual translation",
     "lemma": "wundra"
   },
   "wundre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wonder on wonder, the Warden-of-Glory.",
+    "grammar": "Contextual translation",
     "lemma": "wundre"
   },
   "wundrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the weapon-smith worked it wondrously,",
+    "grammar": "Contextual translation",
     "lemma": "wundrum"
   },
   "wundum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slain by the sword: at the slaughter they fell.",
+    "grammar": "Contextual translation",
     "lemma": "wundum"
   },
   "wundur": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and glistening gold the ground along;",
+    "grammar": "Contextual translation",
     "lemma": "wundur"
   },
   "wundur maððum": {
@@ -63588,28 +63588,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wunian"
   },
   "wunne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Art thou that Beowulf, Breca's rival,",
+    "grammar": "Contextual translation",
     "lemma": "wunne"
   },
   "wunnon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as well as the giants that warred with God",
+    "grammar": "Contextual translation",
     "lemma": "wunnon"
   },
   "wunode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through the death-dyed winter dwelt with Finn,",
+    "grammar": "Contextual translation",
     "lemma": "wunode"
   },
   "wurde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though thou wast the bane1 of thy brethren dear,",
+    "grammar": "Contextual translation",
     "lemma": "wurde"
   },
   "wurdon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for passing in peace o'er the paths of the sea.",
+    "grammar": "Contextual translation",
     "lemma": "wurdon"
   },
   "wurð": {
@@ -63628,13 +63628,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wurð-"
   },
   "wurðan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: woful should be, and his wandering soul",
+    "grammar": "Contextual translation",
     "lemma": "wurðan"
   },
   "wurðaþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the boiling care-waves cooler grow;",
+    "grammar": "Contextual translation",
     "lemma": "wurðaþ"
   },
   "wutun": {
@@ -63643,8 +63643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wutun"
   },
   "wyl": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs sent, o'er watery ridges,",
+    "grammar": "Contextual translation",
     "lemma": "wyl"
   },
   "wyl(l)": {
@@ -63658,18 +63658,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyl(l)e"
   },
   "wyle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mournful he looked on those men unloved:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "wyle"
   },
   "wyllað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: BEOWULF spake, bairn of Ecgtheow:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "wyllað"
   },
   "wylle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of heroes best, I shall heartily love",
+    "grammar": "Contextual translation",
     "lemma": "wylle"
   },
   "wylm": {
@@ -63678,23 +63678,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wylm"
   },
   "wylmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fell, atheling brave. Not with blade was he slain,",
+    "grammar": "Contextual translation",
     "lemma": "wylmas"
   },
   "wylmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rolled the rough waves. In realm of sea",
+    "grammar": "Contextual translation",
     "lemma": "wylmum"
   },
   "wylt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at all to choose for their chief and king,",
+    "grammar": "Contextual translation",
     "lemma": "wylt"
   },
   "wyn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fares not far with famous chieftain,",
+    "grammar": "Contextual translation",
     "lemma": "wyn"
   },
   "wyn leas": {
@@ -63748,18 +63748,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyn-lēas"
   },
   "wynleasne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a woful wood: the waves below",
+    "grammar": "Contextual translation",
     "lemma": "wynleasne"
   },
   "wynne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the sweets of the world! By war were swept, too,",
+    "grammar": "Contextual translation",
     "lemma": "wynne"
   },
   "wynnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: chieftain haughty, from human cheer.",
+    "grammar": "Contextual translation",
     "lemma": "wynnum"
   },
   "wynsum": {
@@ -63768,13 +63768,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyn-sum"
   },
   "wynsuman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with anchor-bands, lest ocean-billows",
+    "grammar": "Contextual translation",
     "lemma": "wynsuman"
   },
   "wynsume": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with winsome words. Came Wealhtheow forth,",
+    "grammar": "Contextual translation",
     "lemma": "wynsume"
   },
   "wyrc": {
@@ -63798,8 +63798,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrdan"
   },
   "wyrda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and little4 he lied, the loyal man",
+    "grammar": "Contextual translation",
     "lemma": "wyrda"
   },
   "wyrdan": {
@@ -63848,8 +63848,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrm-hord"
   },
   "wyrmas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and sea-snakes and monsters. These started away,",
+    "grammar": "Contextual translation",
     "lemma": "wyrmas"
   },
   "wyrmcyn(n)": {
@@ -63858,18 +63858,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrm-cyn(n)"
   },
   "wyrmcynnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and watched on the water worm-like things,",
+    "grammar": "Contextual translation",
     "lemma": "wyrmcynnes"
   },
   "wyrme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ame the foe to pay ed",
+    "grammar": "Contextual translation",
     "lemma": "wyrme"
   },
   "wyrmes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all landsfolk frighting. No living thing ew.",
+    "grammar": "Contextual translation",
     "lemma": "wyrmes"
   },
   "wyrmfah": {
@@ -63888,8 +63888,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrp"
   },
   "wyrpe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: would turn this tale of trouble and woe.",
+    "grammar": "Contextual translation",
     "lemma": "wyrpe"
   },
   "wyrs": {
@@ -63903,8 +63903,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrsa"
   },
   "wyrsan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: So ween I for thee a worse adventure",
+    "grammar": "Contextual translation",
     "lemma": "wyrsan"
   },
   "wyrse": {
@@ -63918,8 +63918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrt"
   },
   "wyrtum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sturdily rooted, shadows the wave.",
+    "grammar": "Contextual translation",
     "lemma": "wyrtum"
   },
   "wyruld": {
@@ -63938,8 +63938,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyruld-"
   },
   "wyruldcyninga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for their hero's passing his hearth-companions:",
+    "grammar": "Contextual translation",
     "lemma": "wyruldcyninga"
   },
   "wyrð": {
@@ -63953,13 +63953,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wyrðe"
   },
   "wyrðne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and worthless by Geatish warriors held;",
+    "grammar": "Contextual translation",
     "lemma": "wyrðne"
   },
   "wyrðra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors none more worthy to rule!",
+    "grammar": "Contextual translation",
     "lemma": "wyrðra"
   },
   "wæ": {
@@ -63983,13 +63983,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæċċend(-)"
   },
   "wæccende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wakeful, ready, with warrior's wrath,",
+    "grammar": "Contextual translation",
     "lemma": "wæccende"
   },
   "wæccendne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a warrior watching and waiting the fray,",
+    "grammar": "Contextual translation",
     "lemma": "wæccendne"
   },
   "wæcn": {
@@ -64093,13 +64093,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣġ-holm"
   },
   "wægliðendum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the headland a barrow broad and high,",
+    "grammar": "Contextual translation",
     "lemma": "wægliðendum"
   },
   "wægmundinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He minded the prizes his prince had given him,",
+    "grammar": "Contextual translation",
     "lemma": "wægmundinga"
   },
   "wægsweord": {
@@ -64368,8 +64368,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-bed(d)"
   },
   "wælbedde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on his bed of death to bind him down,",
+    "grammar": "Contextual translation",
     "lemma": "wælbedde"
   },
   "wælbend": {
@@ -64378,8 +64378,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-bend"
   },
   "wælbende": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that lady full in the face to look,",
+    "grammar": "Contextual translation",
     "lemma": "wælbende"
   },
   "wælbleat": {
@@ -64388,8 +64388,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-blēat"
   },
   "wælbleate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf spake in spite of his hurt,",
+    "grammar": "Contextual translation",
     "lemma": "wælbleate"
   },
   "wældeað": {
@@ -64398,8 +64398,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-dēað"
   },
   "wældeaðfornam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: battle-death seized, in the banquet-hall,",
+    "grammar": "Contextual translation",
     "lemma": "wældeaðfornam"
   },
   "wældreor": {
@@ -64408,13 +64408,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-drēor"
   },
   "wældreore": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: water 'neath welkin, with war-blood stained.",
+    "grammar": "Contextual translation",
     "lemma": "wældreore"
   },
   "wæle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: slain by the sword: at the slaughter they fell.",
+    "grammar": "Contextual translation",
     "lemma": "wæle"
   },
   "wælfag": {
@@ -64423,8 +64423,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-fāg"
   },
   "wælfagne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through the death-dyed winter dwelt with Finn,",
+    "grammar": "Contextual translation",
     "lemma": "wælfagne"
   },
   "wælfeal(l)": {
@@ -64433,8 +64433,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-feal(l)"
   },
   "wælfealle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to o\u001bspring of Ecgwela, Honor-Scyldings,",
+    "grammar": "Contextual translation",
     "lemma": "wælfealle"
   },
   "wælfus": {
@@ -64448,13 +64448,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-fyl(l)"
   },
   "wælfylla": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: she dreaded the doleful days to come,",
+    "grammar": "Contextual translation",
     "lemma": "wælfylla"
   },
   "wælfylle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: laden with slaughter, his lair to seek.",
+    "grammar": "Contextual translation",
     "lemma": "wælfylle"
   },
   "wælfyllo": {
@@ -64463,13 +64463,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-fyllo"
   },
   "wælfyra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: res,",
+    "grammar": "Contextual translation",
     "lemma": "wælfyra"
   },
   "wælfyre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: waxed full wild for that weighty blow,",
+    "grammar": "Contextual translation",
     "lemma": "wælfyre"
   },
   "wælfæhð": {
@@ -64478,8 +64478,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-fǣhð"
   },
   "wælfæhða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: kingdom's-keeper: he counts it wise",
+    "grammar": "Contextual translation",
     "lemma": "wælfæhða"
   },
   "wælfуr": {
@@ -64493,8 +64493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-gǣst"
   },
   "wælhlem": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ng, but straightway repaid",
+    "grammar": "Contextual translation",
     "lemma": "wælhlem"
   },
   "wælhlem(m)": {
@@ -64518,8 +64518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæll-seax"
   },
   "wællseaxe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to lose and lessen. At last the king",
+    "grammar": "Contextual translation",
     "lemma": "wællseaxe"
   },
   "wælm": {
@@ -64528,8 +64528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wælm"
   },
   "wælmes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for glory of prowess: my guerdon he pledged.",
+    "grammar": "Contextual translation",
     "lemma": "wælmes"
   },
   "wælnið": {
@@ -64538,13 +64538,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-nīð"
   },
   "wælniðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for warfare and hatred that woke again.3",
+    "grammar": "Contextual translation",
     "lemma": "wælniðe"
   },
   "wælniðwera": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Such is the feud, the foeman's rage,",
+    "grammar": "Contextual translation",
     "lemma": "wælniðwera"
   },
   "wælrap": {
@@ -64578,8 +64578,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-rǣs"
   },
   "wælræse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by that bloody battle the boon had come.",
+    "grammar": "Contextual translation",
     "lemma": "wælræse"
   },
   "wælsceaft": {
@@ -64588,18 +64588,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-sceaft"
   },
   "wælsceaftas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and wooden war-shafts wait its end.\"",
+    "grammar": "Contextual translation",
     "lemma": "wælsceaftas"
   },
   "wælses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: son of Waels; the worm was consumed.",
+    "grammar": "Contextual translation",
     "lemma": "wælses"
   },
   "wælsinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the Waelsing's wanderings wide, his struggles,",
+    "grammar": "Contextual translation",
     "lemma": "wælsinges"
   },
   "wælsliht": {
@@ -64613,8 +64613,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-stenġ"
   },
   "wælstenge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the shaft-of-slaughter4 strenuously",
+    "grammar": "Contextual translation",
     "lemma": "wælstenge"
   },
   "wælstow": {
@@ -64623,13 +64623,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæl-stōw"
   },
   "wælstowe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dearest of blades, when the Danish slew him",
+    "grammar": "Contextual translation",
     "lemma": "wælstowe"
   },
   "wæn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and surges swallowed that shepherd of gems.",
+    "grammar": "Contextual translation",
     "lemma": "wæn"
   },
   "wæn(wægn)": {
@@ -64653,13 +64653,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣpen"
   },
   "wæpna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in his wanton mood, of weapons recks not;",
+    "grammar": "Contextual translation",
     "lemma": "wæpna"
   },
   "wæpne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the friendless wight! \u0015 and I fought with that brand,",
+    "grammar": "Contextual translation",
     "lemma": "wæpne"
   },
   "wæpned mon(n)": {
@@ -64673,8 +64673,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣpned-mon(n)"
   },
   "wæpnedmen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: might of maid, than of men in arms",
+    "grammar": "Contextual translation",
     "lemma": "wæpnedmen"
   },
   "wæpnedmon(n)": {
@@ -64683,13 +64683,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣpned-mon(n)"
   },
   "wæpnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: drunk with wine, now this weapon he lent",
+    "grammar": "Contextual translation",
     "lemma": "wæpnes"
   },
   "wæpnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: worthied by weapons, if witness his features,",
+    "grammar": "Contextual translation",
     "lemma": "wæpnum"
   },
   "wær": {
@@ -64698,8 +64698,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣr"
   },
   "wæran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hard battle-horror, when Hrethel died,",
+    "grammar": "Contextual translation",
     "lemma": "wæran"
   },
   "wære": {
@@ -64708,13 +64708,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wǣre"
   },
   "wæron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to know what manner of men they were.",
+    "grammar": "Contextual translation",
     "lemma": "wæron"
   },
   "wæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gave him gifts: a good king he!",
+    "grammar": "Contextual translation",
     "lemma": "wæs"
   },
   "wæstm": {
@@ -64723,8 +64723,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæstm"
   },
   "wæstmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in man's guise trod the misery-track",
+    "grammar": "Contextual translation",
     "lemma": "wæstmum"
   },
   "wæter": {
@@ -64763,8 +64763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæter-ӯð"
   },
   "wætere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and watched on the water worm-like things,",
+    "grammar": "Contextual translation",
     "lemma": "wætere"
   },
   "wæteregesa": {
@@ -64773,18 +64773,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæter-eġesa"
   },
   "wæteregesan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: She was doomed to dwell in the dreary waters,",
+    "grammar": "Contextual translation",
     "lemma": "wæteregesan"
   },
   "wæteres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngum",
+    "grammar": "Contextual translation",
     "lemma": "wæteres"
   },
   "wæteryðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though brief his respite. The barrow, new-ready,",
+    "grammar": "Contextual translation",
     "lemma": "wæteryðum"
   },
   "wæterуð": {
@@ -64793,38 +64793,38 @@ const OLD_ENGLISH_DICT = {
     "lemma": "wæter-ӯð"
   },
   "wætre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at his sovran's shoulder, shieldsman good,",
+    "grammar": "Contextual translation",
     "lemma": "wætre"
   },
   "xii": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Twelve years' tide the trouble he bore,",
+    "grammar": "Contextual translation",
     "lemma": "xii"
   },
   "xiia": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that doomed him now with the dragon to strive.",
+    "grammar": "Contextual translation",
     "lemma": "xiia"
   },
   "xvna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ndan mihte;",
+    "grammar": "Contextual translation",
     "lemma": "xvna"
   },
   "xxx": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through strength of himself and his swimming power,",
+    "grammar": "Contextual translation",
     "lemma": "xxx"
   },
   "xxxtiges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thither for thanks, \u0015 he has thirty men's",
+    "grammar": "Contextual translation",
     "lemma": "xxxtiges"
   },
   "y": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: 'Twere long to relate how that land-destroyer",
+    "grammar": "Contextual translation",
     "lemma": "y"
   },
   "yfel": {
@@ -64848,8 +64848,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ylca"
   },
   "ylcan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: left to live, the last of the clan,",
+    "grammar": "Contextual translation",
     "lemma": "ylcan"
   },
   "ylce": {
@@ -64863,8 +64863,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yldan"
   },
   "ylda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: tidings true to the tribes of men,",
+    "grammar": "Contextual translation",
     "lemma": "ylda"
   },
   "yldan": {
@@ -64888,8 +64888,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yldesta"
   },
   "yldestan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the stateliest there by his sturdy band",
+    "grammar": "Contextual translation",
     "lemma": "yldestan"
   },
   "yldeste": {
@@ -64918,8 +64918,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yldra"
   },
   "yldum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in rapid achievement that ready it stood there,",
+    "grammar": "Contextual translation",
     "lemma": "yldum"
   },
   "ylf": {
@@ -65013,8 +65013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymb-sittan"
   },
   "ymbbearh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: his body hale; the breastplate hindered,",
+    "grammar": "Contextual translation",
     "lemma": "ymbbearh"
   },
   "ymbbeorgan": {
@@ -65023,8 +65023,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymb-beorgan"
   },
   "ymbe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and pact of peace. \u0015 But I pass from that,",
+    "grammar": "Contextual translation",
     "lemma": "ymbe"
   },
   "ymbe fon": {
@@ -65068,8 +65068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymbe-hweorfan"
   },
   "ymbefeng": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and rushed on the hero, where room allowed,",
+    "grammar": "Contextual translation",
     "lemma": "ymbefeng"
   },
   "ymbefon": {
@@ -65078,8 +65078,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymbe-fōn"
   },
   "ymbehwearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the man who wrought him such wrong in sleep.",
+    "grammar": "Contextual translation",
     "lemma": "ymbehwearf"
   },
   "ymbehweorfan": {
@@ -65093,8 +65093,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymb-ēode"
   },
   "ymbesittendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fty winters. No folk-king was there,",
+    "grammar": "Contextual translation",
     "lemma": "ymbesittendra"
   },
   "ymbsittan": {
@@ -65103,18 +65103,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ymb-sittan"
   },
   "ymbsittend": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: If it come to me ever across the seas",
+    "grammar": "Contextual translation",
     "lemma": "ymbsittend"
   },
   "ymbsittendra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: till before him the folk, both far and near,",
+    "grammar": "Contextual translation",
     "lemma": "ymbsittendra"
   },
   "ymbsæton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: seated to banquet at bottom of sea;",
+    "grammar": "Contextual translation",
     "lemma": "ymbsæton"
   },
   "ypp": {
@@ -65123,8 +65123,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yppe"
   },
   "yppan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors waited, while went to his host",
+    "grammar": "Contextual translation",
     "lemma": "yppan"
   },
   "yppe": {
@@ -65173,8 +65173,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yrfe-lāf"
   },
   "yrfelafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: precious gift; and the price1 bade pay",
+    "grammar": "Contextual translation",
     "lemma": "yrfelafe"
   },
   "yrfeweard": {
@@ -65183,18 +65183,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yrfe-weard"
   },
   "yrfeweardas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he will bide to see his burg within",
+    "grammar": "Contextual translation",
     "lemma": "yrfeweardas"
   },
   "yrmenlafes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of Yrmenlaf the elder brother,",
+    "grammar": "Contextual translation",
     "lemma": "yrmenlafes"
   },
   "yrmðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sorrows he wrought for the Scylding-Victors,",
+    "grammar": "Contextual translation",
     "lemma": "yrmðe"
   },
   "yrmþ(u)": {
@@ -65203,8 +65203,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "yrmþ(u)"
   },
   "yrmþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: monster of women, mourned her woe.",
+    "grammar": "Contextual translation",
     "lemma": "yrmþe"
   },
   "yrr": {
@@ -65253,88 +65253,88 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ys"
   },
   "ywde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: at midnight, making its merriment seen,",
+    "grammar": "Contextual translation",
     "lemma": "ywde"
   },
   "yða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over surge of ocean the Honor-Scyldings,",
+    "grammar": "Contextual translation",
     "lemma": "yða"
   },
   "yðde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and that wild brood worsted. I' the waves I slew",
+    "grammar": "Contextual translation",
     "lemma": "yðde"
   },
   "yðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sole on the seas, a suckling child.",
+    "grammar": "Contextual translation",
     "lemma": "yðe"
   },
   "yðelice": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and easily rose the earl erect.",
+    "grammar": "Contextual translation",
     "lemma": "yðelice"
   },
   "yðgebland": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The clashing waters were cleansed now, end",
+    "grammar": "Contextual translation",
     "lemma": "yðgebland"
   },
   "yðgeblond": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Thence the welter of waters washes up",
+    "grammar": "Contextual translation",
     "lemma": "yðgeblond"
   },
   "yðgewinne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the barrow delved near billowy surges,",
+    "grammar": "Contextual translation",
     "lemma": "yðgewinne"
   },
   "yðgewinnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of wave-work, one monster, amid its heart",
+    "grammar": "Contextual translation",
     "lemma": "yðgewinnes"
   },
   "yðlafe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: on the edge of ocean up they lay,",
+    "grammar": "Contextual translation",
     "lemma": "yðlafe"
   },
   "yðlidan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stalwart and stately. A stout wave-walker",
+    "grammar": "Contextual translation",
     "lemma": "yðlidan"
   },
   "yðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: oat was the ship,",
+    "grammar": "Contextual translation",
     "lemma": "yðum"
   },
   "yþa": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ruthless rushed on us: rough was the surge.",
+    "grammar": "Contextual translation",
     "lemma": "yþa"
   },
   "yþe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lashed by the winds, or winter locked them",
+    "grammar": "Contextual translation",
     "lemma": "yþe"
   },
   "yþgesene": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over each atheling, easy to see,",
+    "grammar": "Contextual translation",
     "lemma": "yþgesene"
   },
   "yþlade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for passing in peace o'er the paths of the sea.",
+    "grammar": "Contextual translation",
     "lemma": "yþlade"
   },
   "yþum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: swam o'er the waters. Winter's storm",
+    "grammar": "Contextual translation",
     "lemma": "yþum"
   },
   "æ": {
@@ -65363,8 +65363,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣdre"
   },
   "ædrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Wulf Wonreding with weapon struck;",
+    "grammar": "Contextual translation",
     "lemma": "ædrum"
   },
   "æf": {
@@ -65393,8 +65393,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æf-þunca"
   },
   "æfen": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by many an earl when eve should come,",
+    "grammar": "Contextual translation",
     "lemma": "æfen"
   },
   "æfen grom": {
@@ -65458,8 +65458,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣfen-ræst"
   },
   "æfenræste": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rest for the night; he knew there waited",
+    "grammar": "Contextual translation",
     "lemma": "æfenræste"
   },
   "æfenspræc": {
@@ -65468,8 +65468,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣfen-sprǣċ"
   },
   "æfenspræce": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of his boast at evening: up he bounded,",
+    "grammar": "Contextual translation",
     "lemma": "æfenspræce"
   },
   "æfn": {
@@ -65483,8 +65483,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æfnan"
   },
   "æfnde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: evil wrought, till his end drew nigh,",
+    "grammar": "Contextual translation",
     "lemma": "æfnde"
   },
   "æfne": {
@@ -65603,13 +65603,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣġ-hwylċ"
   },
   "æghwylcne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to younger and older everywhere",
+    "grammar": "Contextual translation",
     "lemma": "æghwylcne"
   },
   "æghwylcum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: AND the lord of earls, to each that came",
+    "grammar": "Contextual translation",
     "lemma": "æghwylcum"
   },
   "æghwær": {
@@ -65618,8 +65618,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣġ-hwǣr"
   },
   "æghwæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rmly joined,",
+    "grammar": "Contextual translation",
     "lemma": "æghwæs"
   },
   "æghwæðer": {
@@ -65628,18 +65628,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣġ-hwæðer"
   },
   "æghwæðrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: had drawn his sword, not dull of edge,",
+    "grammar": "Contextual translation",
     "lemma": "æghwæðrum"
   },
   "æghwæþres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: clansman unquailing: \"The keen-souled thane",
+    "grammar": "Contextual translation",
     "lemma": "æghwæþres"
   },
   "æghwæþrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: an arduous task for all the band,",
+    "grammar": "Contextual translation",
     "lemma": "æghwæþrum"
   },
   "æglæca": {
@@ -65653,8 +65653,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣġ-weard"
   },
   "ægwearde": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sentinel set o'er the sea-march here,",
+    "grammar": "Contextual translation",
     "lemma": "ægwearde"
   },
   "æht": {
@@ -65663,8 +65663,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣht"
   },
   "æhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Now hold thou, earth, since heroes may not,",
+    "grammar": "Contextual translation",
     "lemma": "æhte"
   },
   "æhti": {
@@ -65753,13 +65753,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣled-lēoma"
   },
   "æledleoman": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: under hostile roof. In hand one bore",
+    "grammar": "Contextual translation",
     "lemma": "æledleoman"
   },
   "ælfheres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ngs,",
+    "grammar": "Contextual translation",
     "lemma": "ælfheres"
   },
   "ælfylce": {
@@ -65773,8 +65773,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æl-mihtiġ"
   },
   "ælmihtiga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: how the Almighty made the earth,",
+    "grammar": "Contextual translation",
     "lemma": "ælmihtiga"
   },
   "ælwiht": {
@@ -65783,8 +65783,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æl-wiht"
   },
   "ælwihta": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: some man, was raiding her monster-realm.",
+    "grammar": "Contextual translation",
     "lemma": "ælwihta"
   },
   "æn": {
@@ -65808,13 +65808,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣne"
   },
   "ænegum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Never to any man erst I trusted,",
+    "grammar": "Contextual translation",
     "lemma": "ænegum"
   },
   "ængum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of the race of man what ruth for me",
+    "grammar": "Contextual translation",
     "lemma": "ængum"
   },
   "ænig": {
@@ -65823,23 +65823,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣniġ"
   },
   "ænige": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: NOT in any wise would the earls'-defence1",
+    "grammar": "Contextual translation",
     "lemma": "ænige"
   },
   "ænigne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that at last on a hero her hope could lean",
+    "grammar": "Contextual translation",
     "lemma": "ænigne"
   },
   "ænigra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: It was but now that I never more",
+    "grammar": "Contextual translation",
     "lemma": "ænigra"
   },
   "ænigum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: useless deeming his days and years",
+    "grammar": "Contextual translation",
     "lemma": "ænigum"
   },
   "ænlic": {
@@ -65848,8 +65848,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣn-liċ"
   },
   "ænlicu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proclaimed and closed. No queenly way",
+    "grammar": "Contextual translation",
     "lemma": "ænlicu"
   },
   "ænn": {
@@ -65878,8 +65878,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æppel-fealu"
   },
   "æppelfealuwe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: all apple-fallow, four good steeds,",
+    "grammar": "Contextual translation",
     "lemma": "æppelfealuwe"
   },
   "ær": {
@@ -65973,8 +65973,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣr-dæġ"
   },
   "ærdæge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then at the dawning, as day was breaking,",
+    "grammar": "Contextual translation",
     "lemma": "ærdæge"
   },
   "æren": {
@@ -66008,8 +66008,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣr-ġestrēon"
   },
   "ærgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Of such besides there was store enough,",
+    "grammar": "Contextual translation",
     "lemma": "ærgestreona"
   },
   "ærgeweorc": {
@@ -66028,8 +66028,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ærn"
   },
   "ærnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ed in fear the fatal scourge,",
+    "grammar": "Contextual translation",
     "lemma": "ærnes"
   },
   "æror": {
@@ -66048,8 +66048,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣrra"
   },
   "ærran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft indeed, in earlier days,",
+    "grammar": "Contextual translation",
     "lemma": "ærran"
   },
   "ærre": {
@@ -66063,13 +66063,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣr-wela"
   },
   "ærwelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sleeps, heart-sore, of his spoil bereaved.",
+    "grammar": "Contextual translation",
     "lemma": "ærwelan"
   },
   "ærþon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the monster was minded, ere morn should dawn,",
+    "grammar": "Contextual translation",
     "lemma": "ærþon"
   },
   "æs": {
@@ -66113,13 +66113,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æsc-wiga"
   },
   "æschere": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to Danish folk. Dead is Aeschere,",
+    "grammar": "Contextual translation",
     "lemma": "æschere"
   },
   "æscheres": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ill for earls, when Aeschere's head",
+    "grammar": "Contextual translation",
     "lemma": "æscheres"
   },
   "æscholt": {
@@ -66128,8 +66128,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æsc-holt"
   },
   "æscum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from mighty-ones many o'er middle-earth,",
+    "grammar": "Contextual translation",
     "lemma": "æscum"
   },
   "æscwiga": {
@@ -66138,8 +66138,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æsc-wiga"
   },
   "æse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: proud of the prey, her path she took,",
+    "grammar": "Contextual translation",
     "lemma": "æse"
   },
   "æt": {
@@ -66468,23 +66468,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-beran"
   },
   "ætbær": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: billows bore to the Battling Reamas,",
+    "grammar": "Contextual translation",
     "lemma": "ætbær"
   },
   "ætbæron": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Then they bore him over to ocean's billow,",
+    "grammar": "Contextual translation",
     "lemma": "ætbæron"
   },
   "æte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: fain o'er the fallen, his feast shall praise",
+    "grammar": "Contextual translation",
     "lemma": "æte"
   },
   "ætfealh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: rm enough hold",
+    "grammar": "Contextual translation",
     "lemma": "ætfealh"
   },
   "ætfeolan": {
@@ -66493,8 +66493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-fēolan"
   },
   "ætferede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endish deeds",
+    "grammar": "Contextual translation",
     "lemma": "ætferede"
   },
   "ætferian": {
@@ -66518,8 +66518,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-gædere"
   },
   "æthran": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sts had struck it,",
+    "grammar": "Contextual translation",
     "lemma": "æthran"
   },
   "æthrinan": {
@@ -66528,8 +66528,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-hrīnan"
   },
   "æthwearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: none in the waste.... Yet war he desired,",
+    "grammar": "Contextual translation",
     "lemma": "æthwearf"
   },
   "æthweorfan": {
@@ -66548,8 +66548,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-somne"
   },
   "ætspranc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gashes burst, and blood gushed out",
+    "grammar": "Contextual translation",
     "lemma": "ætspranc"
   },
   "ætspringan": {
@@ -66568,18 +66568,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-steppan"
   },
   "ætstod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: that wondrous worm, \u0015 on the wall it struck,",
+    "grammar": "Contextual translation",
     "lemma": "ætstod"
   },
   "ætstop": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: e'en feet and hands. Then farther he hied;",
+    "grammar": "Contextual translation",
     "lemma": "ætstop"
   },
   "ættren": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so poisoned the hell-sprite who perished within there.",
+    "grammar": "Contextual translation",
     "lemma": "ættren"
   },
   "ættren(ætren)": {
@@ -66588,8 +66588,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣttren(ǣtren)"
   },
   "ætwand": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end outran! ll",
+    "grammar": "Contextual translation",
     "lemma": "ætwand"
   },
   "ætwegan": {
@@ -66608,43 +66608,43 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æt-wītan"
   },
   "ætwiton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: mourning their woes.1 Finn's wavering spirit",
+    "grammar": "Contextual translation",
     "lemma": "ætwiton"
   },
   "ætwæg": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a hoard-gem of heroes, since Hama bore",
+    "grammar": "Contextual translation",
     "lemma": "ætwæg"
   },
   "æðeling": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Slack and shiftless the strong men deemed him,",
+    "grammar": "Contextual translation",
     "lemma": "æðeling"
   },
   "æðelinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nor yet about him his band of comrades,",
+    "grammar": "Contextual translation",
     "lemma": "æðelinga"
   },
   "æðelingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: every clansman within your kin",
+    "grammar": "Contextual translation",
     "lemma": "æðelingas"
   },
   "æðelinge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No sooner for this could the stricken ones",
+    "grammar": "Contextual translation",
     "lemma": "æðelinge"
   },
   "æðelinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the warrior would not, they weened, again,",
+    "grammar": "Contextual translation",
     "lemma": "æðelinges"
   },
   "æðelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gold-decked bride, to the brave young prince,",
+    "grammar": "Contextual translation",
     "lemma": "æðelum"
   },
   "æðm": {
@@ -66653,8 +66653,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ǣðm"
   },
   "æðme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ere those champions grimly closed again.",
+    "grammar": "Contextual translation",
     "lemma": "æðme"
   },
   "æþel": {
@@ -66663,8 +66663,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æþele"
   },
   "æþelan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which some earl forgotten, in ancient years,",
+    "grammar": "Contextual translation",
     "lemma": "æþelan"
   },
   "æþele": {
@@ -66678,28 +66678,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æþeling"
   },
   "æþelinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Found within it the atheling band",
+    "grammar": "Contextual translation",
     "lemma": "æþelinga"
   },
   "æþelingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: we have heard, and what honor the athelings won!",
+    "grammar": "Contextual translation",
     "lemma": "æþelingas"
   },
   "æþelinge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over each atheling, easy to see,",
+    "grammar": "Contextual translation",
     "lemma": "æþelinge"
   },
   "æþelinges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ecked, outbound, atheling's barge:",
+    "grammar": "Contextual translation",
     "lemma": "æþelinges"
   },
   "æþellingum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to earls and athelings all he proved.",
+    "grammar": "Contextual translation",
     "lemma": "æþellingum"
   },
   "æþelu": {
@@ -66708,13 +66708,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "æþelu"
   },
   "æþelum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: asked of the heroes their home and kin.",
+    "grammar": "Contextual translation",
     "lemma": "æþelum"
   },
   "ða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: we have heard, and what honor the athelings won!",
+    "grammar": "Contextual translation",
     "lemma": "ða"
   },
   "ðafi": {
@@ -66733,78 +66733,78 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðafian"
   },
   "ðah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by the handiwork of the hero-king.",
+    "grammar": "Contextual translation",
     "lemma": "ðah"
   },
   "ðam": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Well these words to the woman seemed,",
+    "grammar": "Contextual translation",
     "lemma": "ðam"
   },
   "ðanc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sage and sad, as he stared at the gold. \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ðanc"
   },
   "ðara": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who had no hope to hinder ever",
+    "grammar": "Contextual translation",
     "lemma": "ðara"
   },
   "ðas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: what promise we made to this prince of ours",
+    "grammar": "Contextual translation",
     "lemma": "ðas"
   },
   "ðe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of mortal beings that breathe and move.",
+    "grammar": "Contextual translation",
     "lemma": "ðe"
   },
   "ðeah": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \u0015 though in bu\u001bet of battle thou brave hast been,",
+    "grammar": "Contextual translation",
     "lemma": "ðeah"
   },
   "ðearf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though fatally wounded, fain am I!",
+    "grammar": "Contextual translation",
     "lemma": "ðearf"
   },
   "ðearfe": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which Hrothgar's orator o\u001bered at need:",
+    "grammar": "Contextual translation",
     "lemma": "ðearfe"
   },
   "ðec": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wax dull and darken: Death even thee",
+    "grammar": "Contextual translation",
     "lemma": "ðec"
   },
   "ðegn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: high by its hilts the Hygelac-thane,",
+    "grammar": "Contextual translation",
     "lemma": "ðegn"
   },
   "ðegna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: from the prince's thane. A pact he o\u001bered:",
+    "grammar": "Contextual translation",
     "lemma": "ðegna"
   },
   "ðegne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for many a hero, 'twas hard to bear,",
+    "grammar": "Contextual translation",
     "lemma": "ðegne"
   },
   "ðeh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and the chieftain's blood, for that blow, in streams",
+    "grammar": "Contextual translation",
     "lemma": "ðeh"
   },
   "ðeod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors' wassail and words of power,",
+    "grammar": "Contextual translation",
     "lemma": "ðeod"
   },
   "ðeod kyning": {
@@ -66818,13 +66818,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðēod-kyning"
   },
   "ðeodcyning": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in better bargain that bitter stroke",
+    "grammar": "Contextual translation",
     "lemma": "ðeodcyning"
   },
   "ðeoden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of all that had laden the lord of his folk.",
+    "grammar": "Contextual translation",
     "lemma": "ðeoden"
   },
   "ðeoden leas": {
@@ -66853,8 +66853,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðēoden-lēas"
   },
   "ðeodenlease": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: lordless men, as their lot ordained.",
+    "grammar": "Contextual translation",
     "lemma": "ðeodenlease"
   },
   "ðeodkyning": {
@@ -66863,68 +66863,68 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðēod-kyning"
   },
   "ðeodne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the noble at need, yet had known of old",
+    "grammar": "Contextual translation",
     "lemma": "ðeodne"
   },
   "ðeodnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and had thought their sovran's son would thrive,",
+    "grammar": "Contextual translation",
     "lemma": "ðeodnes"
   },
   "ðeodsceaða": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to watch, many-wintered: nor wins he thereby!",
+    "grammar": "Contextual translation",
     "lemma": "ðeodsceaða"
   },
   "ðeon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who war would wage me with 'warriors'-friends'1",
+    "grammar": "Contextual translation",
     "lemma": "ðeon"
   },
   "ðes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a land-warden old,1 that this earl belongs",
+    "grammar": "Contextual translation",
     "lemma": "ðes"
   },
   "ðicgean": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after that evening. Eagerly watched",
+    "grammar": "Contextual translation",
     "lemma": "ðicgean"
   },
   "ðin": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far and wide o'er folksteads many. Firmly thou",
+    "grammar": "Contextual translation",
     "lemma": "ðin"
   },
   "ðine": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of all that had laden the lord of his folk.",
+    "grammar": "Contextual translation",
     "lemma": "ðine"
   },
   "ðing": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in single battle! So, from thee,",
+    "grammar": "Contextual translation",
     "lemma": "ðing"
   },
   "ðinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: No sooner for this could the stricken ones",
+    "grammar": "Contextual translation",
     "lemma": "ðinga"
   },
   "ðinne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: by spear be seized, by sword-grim battle,",
+    "grammar": "Contextual translation",
     "lemma": "ðinne"
   },
   "ðinra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to give them hearing, gracious Hrothgar!",
+    "grammar": "Contextual translation",
     "lemma": "ðinra"
   },
   "ðiod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stole with it away, while the watcher slept,",
+    "grammar": "Contextual translation",
     "lemma": "ðiod"
   },
   "ðiod( )": {
@@ -66943,58 +66943,58 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðīod(-)"
   },
   "ðiodcyning": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brown blade, on the bone, and bit more feebly",
+    "grammar": "Contextual translation",
     "lemma": "ðiodcyning"
   },
   "ðis": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the splendid sword; then spake in form:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "ðis"
   },
   "ðisse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"For the sight I see to the Sovran Ruler",
+    "grammar": "Contextual translation",
     "lemma": "ðisse"
   },
   "ðisses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"This jewel enjoy in thy jocund youth,",
+    "grammar": "Contextual translation",
     "lemma": "ðisses"
   },
   "ðolode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the noble at need, yet had known of old",
+    "grammar": "Contextual translation",
     "lemma": "ðolode"
   },
   "ðon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: elsewhere far, as must all men, leaving",
+    "grammar": "Contextual translation",
     "lemma": "ðon"
   },
   "ðonan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: but there staid behind him his stronger hand",
+    "grammar": "Contextual translation",
     "lemma": "ðonan"
   },
   "ðone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The prince's journey by prudent folk",
+    "grammar": "Contextual translation",
     "lemma": "ðone"
   },
   "ðonne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of warriors in world than is one of you, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ðonne"
   },
   "ðonon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whence he hied to his home so dear",
+    "grammar": "Contextual translation",
     "lemma": "ðonon"
   },
   "ðorfte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he su\u001bered no shame in that soldier throng.",
+    "grammar": "Contextual translation",
     "lemma": "ðorfte"
   },
   "ðreat": {
@@ -67003,18 +67003,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðrēat"
   },
   "ðreate": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nder.",
+    "grammar": "Contextual translation",
     "lemma": "ðreate"
   },
   "ðrowode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The hoard-guard was heartened; high heaved his breast",
+    "grammar": "Contextual translation",
     "lemma": "ðrowode"
   },
   "ðrym": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: He bound to the beach the broad-bosomed ship",
+    "grammar": "Contextual translation",
     "lemma": "ðrym"
   },
   "ðrym(m)": {
@@ -67038,18 +67038,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðrysman"
   },
   "ðryðlic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the thane-band choice of their chieftain blithe,",
+    "grammar": "Contextual translation",
     "lemma": "ðryðlic"
   },
   "ðryðswyð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: labored in woe for the loss of his thanes,",
+    "grammar": "Contextual translation",
     "lemma": "ðryðswyð"
   },
   "ðryþærn": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this noble Dane-Hall, till now to thee.",
+    "grammar": "Contextual translation",
     "lemma": "ðryþærn"
   },
   "ðrуð swуð( swið)": {
@@ -67068,78 +67068,78 @@ const OLD_ENGLISH_DICT = {
     "lemma": "ðrӯð-swӯð(-swīð)"
   },
   "ðu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: have speech at will: nor spurn their prayer",
+    "grammar": "Contextual translation",
     "lemma": "ðu"
   },
   "ðuhte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Helper of Heroes, the hoard to open, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "ðuhte"
   },
   "ðurh": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: over their enemy all prevailed,",
+    "grammar": "Contextual translation",
     "lemma": "ðurh"
   },
   "ðurhfon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as she strove to shatter the sark of war,",
+    "grammar": "Contextual translation",
     "lemma": "ðurhfon"
   },
   "ðurhwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: her bone-rings breaking: the blade pierced through",
+    "grammar": "Contextual translation",
     "lemma": "ðurhwod"
   },
   "ðy": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for comfort and help: so he conquered the foe,",
+    "grammar": "Contextual translation",
     "lemma": "ðy"
   },
   "ðyle": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: which Hrothgar's orator o\u001bered at need:",
+    "grammar": "Contextual translation",
     "lemma": "ðyle"
   },
   "ðys": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: But thou this day endure in patience,",
+    "grammar": "Contextual translation",
     "lemma": "ðys"
   },
   "ðyssum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: through days of warfare this world endures!",
+    "grammar": "Contextual translation",
     "lemma": "ðyssum"
   },
   "ðæm": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To him an heir was afterward born,",
+    "grammar": "Contextual translation",
     "lemma": "ðæm"
   },
   "ðær": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Found within it the atheling band",
+    "grammar": "Contextual translation",
     "lemma": "ðær"
   },
   "ðæra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wandering spirits: one of them seemed,",
+    "grammar": "Contextual translation",
     "lemma": "ðæra"
   },
   "ðære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Nowise had they bliss from their booty then",
+    "grammar": "Contextual translation",
     "lemma": "ðære"
   },
   "ðæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: weary while: but their wage was paid them!",
+    "grammar": "Contextual translation",
     "lemma": "ðæs"
   },
   "ðæt": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet so it befell, his falchion pierced",
+    "grammar": "Contextual translation",
     "lemma": "ðæt"
   },
   "ð‰rel": {
@@ -67203,13 +67203,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þanc-hycgende"
   },
   "þance": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thither for thanks, \u0015 he has thirty men's",
+    "grammar": "Contextual translation",
     "lemma": "þance"
   },
   "þancedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and gear of battle: God they thanked",
+    "grammar": "Contextual translation",
     "lemma": "þancedon"
   },
   "þanchycgende": {
@@ -67233,13 +67233,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þancian"
   },
   "þancode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: She greeted the Geats' lord, God she thanked,",
+    "grammar": "Contextual translation",
     "lemma": "þancode"
   },
   "þancodon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Went then to greet him, and God they thanked,",
+    "grammar": "Contextual translation",
     "lemma": "þancodon"
   },
   "þane": {
@@ -67268,8 +67268,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þāra"
   },
   "þas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: et lifdagas",
+    "grammar": "Contextual translation",
     "lemma": "þas"
   },
   "þe": {
@@ -67298,8 +67298,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þearfa"
   },
   "þearft": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: my noblest thanes. Nor need'st thou then",
+    "grammar": "Contextual translation",
     "lemma": "þearft"
   },
   "þearl": {
@@ -67318,8 +67318,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēaw"
   },
   "þeawum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: gave me in guerdon great gifts of price.",
+    "grammar": "Contextual translation",
     "lemma": "þeawum"
   },
   "þec": {
@@ -67373,23 +67373,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þeġn-sorg"
   },
   "þegna": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thirty of the thanes, and thence he rushed",
+    "grammar": "Contextual translation",
     "lemma": "þegna"
   },
   "þegnas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Finn's own liegemen, and few were left;",
+    "grammar": "Contextual translation",
     "lemma": "þegnas"
   },
   "þegne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: so that many a thane shall think, who e'er",
+    "grammar": "Contextual translation",
     "lemma": "þegne"
   },
   "þegnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: who by custom courtly cared for all",
+    "grammar": "Contextual translation",
     "lemma": "þegnes"
   },
   "þegnsorg": {
@@ -67398,13 +67398,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þeġn-sorg"
   },
   "þegnsorge": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: labored in woe for the loss of his thanes,",
+    "grammar": "Contextual translation",
     "lemma": "þegnsorge"
   },
   "þegnum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bestowed on hall-folk helm and breastplate,",
+    "grammar": "Contextual translation",
     "lemma": "þegnum"
   },
   "þegon": {
@@ -67413,8 +67413,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēgon"
   },
   "þegun": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: sad in spirit, he said to his comrades:\u0015",
+    "grammar": "Contextual translation",
     "lemma": "þegun"
   },
   "þeh": {
@@ -67453,8 +67453,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þenċan"
   },
   "þenceð": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: words and works, if he well intends.",
+    "grammar": "Contextual translation",
     "lemma": "þenceð"
   },
   "þend": {
@@ -67493,8 +67493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēnian"
   },
   "þenode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thronging threatened. With thrust of my sword,",
+    "grammar": "Contextual translation",
     "lemma": "þenode"
   },
   "þeo": {
@@ -67578,8 +67578,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēod-þrēa"
   },
   "þeoda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: far and wide o'er folksteads many. Firmly thou",
+    "grammar": "Contextual translation",
     "lemma": "þeoda"
   },
   "þeodcyning": {
@@ -67588,13 +67588,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēod-cyning"
   },
   "þeodcyninga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of spear-armed Danes, in days long sped,",
+    "grammar": "Contextual translation",
     "lemma": "þeodcyninga"
   },
   "þeodcyninges": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: with waves of blood from his breast that welled.",
+    "grammar": "Contextual translation",
     "lemma": "þeodcyninges"
   },
   "þeode": {
@@ -67613,28 +67613,28 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēod-ġestrēon"
   },
   "þeodgestreona": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a royal treasure, and richly thrive!",
+    "grammar": "Contextual translation",
     "lemma": "þeodgestreona"
   },
   "þeodgestreonum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thanes' huge treasure, than those had done",
+    "grammar": "Contextual translation",
     "lemma": "þeodgestreonum"
   },
   "þeodnas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: For3 princes potent, who placed the gold,",
+    "grammar": "Contextual translation",
     "lemma": "þeodnas"
   },
   "þeodne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this mission of mine, to thy master-lord,",
+    "grammar": "Contextual translation",
     "lemma": "þeodne"
   },
   "þeodnes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: their praised prince, if power were theirs;",
+    "grammar": "Contextual translation",
     "lemma": "þeodnes"
   },
   "þeodsceaða": {
@@ -67643,8 +67643,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēod-sceaða"
   },
   "þeodscyldingas": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ne'er yet had tried the traitor's deed.",
+    "grammar": "Contextual translation",
     "lemma": "þeodscyldingas"
   },
   "þeodþrea": {
@@ -67658,8 +67658,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēof"
   },
   "þeofes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: stole with it away, while the watcher slept,",
+    "grammar": "Contextual translation",
     "lemma": "þeofes"
   },
   "þeon": {
@@ -67688,18 +67688,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þēostre"
   },
   "þeostrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and embittered the Lord. His breast within",
+    "grammar": "Contextual translation",
     "lemma": "þeostrum"
   },
   "þeow": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in danger of life, to the dragon's hoard,",
+    "grammar": "Contextual translation",
     "lemma": "þeow"
   },
   "þes": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: this hardy band, may Heorot purge!",
+    "grammar": "Contextual translation",
     "lemma": "þes"
   },
   "þicg": {
@@ -67733,8 +67733,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þinċean"
   },
   "þinceað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: In weeds of the warrior worthy they,",
+    "grammar": "Contextual translation",
     "lemma": "þinceað"
   },
   "þincee": {
@@ -67743,18 +67743,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þinċean"
   },
   "þinceðhim": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: end.1",
+    "grammar": "Contextual translation",
     "lemma": "þinceðhim"
   },
   "þine": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: I paid in kind for his cruel deeds;",
+    "grammar": "Contextual translation",
     "lemma": "þine"
   },
   "þines": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: t eternal; and temper thy pride,",
+    "grammar": "Contextual translation",
     "lemma": "þines"
   },
   "þing": {
@@ -67763,8 +67763,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þinġ"
   },
   "þinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: NOT in any wise would the earls'-defence1",
+    "grammar": "Contextual translation",
     "lemma": "þinga"
   },
   "þingi": {
@@ -67783,33 +67783,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þingian"
   },
   "þingode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Straightway the feud with fee2 I settled,",
+    "grammar": "Contextual translation",
     "lemma": "þingode"
   },
   "þinne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: To thy lord and liege in loyal mood",
+    "grammar": "Contextual translation",
     "lemma": "þinne"
   },
   "þinra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: safe thou canst sleep with thy soldier band,",
+    "grammar": "Contextual translation",
     "lemma": "þinra"
   },
   "þinre": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: if in thy cause it came that I",
+    "grammar": "Contextual translation",
     "lemma": "þinre"
   },
   "þinum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: the doughty prince, if he deign at all",
+    "grammar": "Contextual translation",
     "lemma": "þinum"
   },
   "þioden": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: washed by waves; but the warlike king,",
+    "grammar": "Contextual translation",
     "lemma": "þioden"
   },
   "þis": {
@@ -67818,23 +67818,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þis"
   },
   "þisne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for many a tribe this mid-earth round,",
+    "grammar": "Contextual translation",
     "lemma": "þisne"
   },
   "þisse": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of this life of mine in the mead-hall here.\"",
+    "grammar": "Contextual translation",
     "lemma": "þisse"
   },
   "þisses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Beowulf lov'd, these battle-weeds wear,",
+    "grammar": "Contextual translation",
     "lemma": "þisses"
   },
   "þissum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: \"Qua\u001b of this cup, my king and lord,",
+    "grammar": "Contextual translation",
     "lemma": "þissum"
   },
   "þo": {
@@ -67843,18 +67843,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þone"
   },
   "þohte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: None of them thought that thence their steps",
+    "grammar": "Contextual translation",
     "lemma": "þohte"
   },
   "þohton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: against the whales. Not a whit from me",
+    "grammar": "Contextual translation",
     "lemma": "þohton"
   },
   "þolað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shall su\u001ber in sorrow while stands in place",
+    "grammar": "Contextual translation",
     "lemma": "þolað"
   },
   "þoli": {
@@ -67873,8 +67873,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þolian"
   },
   "þolode": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: labored in woe for the loss of his thanes,",
+    "grammar": "Contextual translation",
     "lemma": "þolode"
   },
   "þon": {
@@ -67893,8 +67893,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þone"
   },
   "þonne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: come warriors willing, should war draw nigh,",
+    "grammar": "Contextual translation",
     "lemma": "þonne"
   },
   "þonne(ðonnejust15×)": {
@@ -67923,8 +67923,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þorfte"
   },
   "þorfton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: coats of mail, when he came to the sea!",
+    "grammar": "Contextual translation",
     "lemma": "þorfton"
   },
   "þrag": {
@@ -67933,8 +67933,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrāg"
   },
   "þrage": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: leader beloved, and long he ruled",
+    "grammar": "Contextual translation",
     "lemma": "þrage"
   },
   "þrea nedla": {
@@ -67973,18 +67973,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrēa-nēdla"
   },
   "þreanedlan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in danger of life, to the dragon's hoard,",
+    "grammar": "Contextual translation",
     "lemma": "þreanedlan"
   },
   "þreanyd": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: he shall su\u001ber in sorrow while stands in place",
+    "grammar": "Contextual translation",
     "lemma": "þreanyd"
   },
   "þreanydum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and all the dole they erst endured",
+    "grammar": "Contextual translation",
     "lemma": "þreanydum"
   },
   "þreanуd": {
@@ -67993,8 +67993,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrēa-nӯd"
   },
   "þreatedon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thronging threatened. With thrust of my sword,",
+    "grammar": "Contextual translation",
     "lemma": "þreatedon"
   },
   "þreati": {
@@ -68013,8 +68013,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrēatian"
   },
   "þreatum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Oft Scyld the Scefing from squadroned foes,",
+    "grammar": "Contextual translation",
     "lemma": "þreatum"
   },
   "þrec wudu": {
@@ -68033,8 +68033,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrec-wudu"
   },
   "þreo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: to watch, many-wintered: nor wins he thereby!",
+    "grammar": "Contextual translation",
     "lemma": "þreo"
   },
   "þreohund": {
@@ -68068,8 +68068,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þridda"
   },
   "þriddan": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: though sturdy their steel: they steaded him nought.",
+    "grammar": "Contextual translation",
     "lemma": "þriddan"
   },
   "þridde": {
@@ -68113,8 +68113,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrīst-hӯdiġ"
   },
   "þristhydig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: From his neck he unclasped the collar of gold,",
+    "grammar": "Contextual translation",
     "lemma": "þristhydig"
   },
   "þristhуdig": {
@@ -68133,13 +68133,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrītiġ"
   },
   "þrong": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: owed from its head. \u0015 Too few the heroes",
+    "grammar": "Contextual translation",
     "lemma": "þrong"
   },
   "þrowade": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: when after death it endured the blow,",
+    "grammar": "Contextual translation",
     "lemma": "þrowade"
   },
   "þrowi": {
@@ -68158,18 +68158,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrōwian"
   },
   "þrungon": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: o'er peaceful plains in pride advancing,",
+    "grammar": "Contextual translation",
     "lemma": "þrungon"
   },
   "þrydlicost": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: bestowed on hall-folk helm and breastplate,",
+    "grammar": "Contextual translation",
     "lemma": "þrydlicost"
   },
   "þrym": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: of spear-armed Danes, in days long sped,",
+    "grammar": "Contextual translation",
     "lemma": "þrym"
   },
   "þrym lic": {
@@ -68188,33 +68188,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þrym-liċ"
   },
   "þrymmum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Hrothgar's henchman; with hand of might",
+    "grammar": "Contextual translation",
     "lemma": "þrymmum"
   },
   "þryðlic": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: brave band of thanes: some bode without,",
+    "grammar": "Contextual translation",
     "lemma": "þryðlic"
   },
   "þryðo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: nor grudged she gifts to the Geatish men,",
+    "grammar": "Contextual translation",
     "lemma": "þryðo"
   },
   "þryðswyðbeheold": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: after that evening. Eagerly watched",
+    "grammar": "Contextual translation",
     "lemma": "þryðswyðbeheold"
   },
   "þryðum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: hardy-hearted. A henchman attended,",
+    "grammar": "Contextual translation",
     "lemma": "þryðum"
   },
   "þryðword": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: warriors' wassail and words of power,",
+    "grammar": "Contextual translation",
     "lemma": "þryðword"
   },
   "þrуd lic": {
@@ -68303,13 +68303,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þūhte"
   },
   "þuhton": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: and ran a race when the road seemed fair.",
+    "grammar": "Contextual translation",
     "lemma": "þuhton"
   },
   "þunede": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: A sea-cloth was set, a sail with ropes,",
+    "grammar": "Contextual translation",
     "lemma": "þunede"
   },
   "þuni": {
@@ -68473,13 +68473,13 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þurh-brecan"
   },
   "þurhbræc": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: plashed him with water, till point of word",
+    "grammar": "Contextual translation",
     "lemma": "þurhbræc"
   },
   "þurhdeaf": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: ood.",
+    "grammar": "Contextual translation",
     "lemma": "þurhdeaf"
   },
   "þurhdufan": {
@@ -68493,8 +68493,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þurh-etan"
   },
   "þurhetone": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: dishes lay there, and dear-decked swords",
+    "grammar": "Contextual translation",
     "lemma": "þurhetone"
   },
   "þurhfon": {
@@ -68513,8 +68513,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þurh-wadan"
   },
   "þurhwod": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Yet so it befell, his falchion pierced",
+    "grammar": "Contextual translation",
     "lemma": "þurhwod"
   },
   "þus": {
@@ -68528,23 +68528,23 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þūsend"
   },
   "þusenda": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: as they that hate thee erewhile have used, \u0015",
+    "grammar": "Contextual translation",
     "lemma": "þusenda"
   },
   "þusendo": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: The brand he laid in Beowulf's lap;",
+    "grammar": "Contextual translation",
     "lemma": "þusendo"
   },
   "þy": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for the slaughter's sake, from sight of men.",
+    "grammar": "Contextual translation",
     "lemma": "þy"
   },
   "þyder": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: thither for thanks, \u0015 he has thirty men's",
+    "grammar": "Contextual translation",
     "lemma": "þyder"
   },
   "þyder(þider)": {
@@ -68553,8 +68553,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þyder(þider)"
   },
   "þyhtig": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: old-sword of Eotens, with edge of proof,",
+    "grammar": "Contextual translation",
     "lemma": "þyhtig"
   },
   "þyl": {
@@ -68583,8 +68583,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þynċan"
   },
   "þynceðme": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: along with my lord these limbs of mine!3",
+    "grammar": "Contextual translation",
     "lemma": "þynceðme"
   },
   "þyrs": {
@@ -68608,33 +68608,33 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þys-liċ"
   },
   "þyslicu": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for gear of combat to give him requital,",
+    "grammar": "Contextual translation",
     "lemma": "þyslicu"
   },
   "þysne": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: wielded 'neath welkin, and warded them bravely",
+    "grammar": "Contextual translation",
     "lemma": "þysne"
   },
   "þysses": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in that same day of this our life,",
+    "grammar": "Contextual translation",
     "lemma": "þysses"
   },
   "þyssum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Preserve thy strength, and these striplings here",
+    "grammar": "Contextual translation",
     "lemma": "þyssum"
   },
   "þystrum": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: endured the dole in his dark abode,",
+    "grammar": "Contextual translation",
     "lemma": "þystrum"
   },
   "þywað": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: If it come to me ever across the seas",
+    "grammar": "Contextual translation",
     "lemma": "þywað"
   },
   "þ¬(speltðe5×)": {
@@ -68658,18 +68658,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þǣr"
   },
   "þæra": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: for hands to bedeck it, and dense was the throng",
+    "grammar": "Contextual translation",
     "lemma": "þæra"
   },
   "þære": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: Ill fared his feud,6 and far was he driven,",
+    "grammar": "Contextual translation",
     "lemma": "þære"
   },
   "þæs": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: friendless, a foundling, fate repaid him:",
+    "grammar": "Contextual translation",
     "lemma": "þæs"
   },
   "þæt": {
@@ -68683,8 +68683,8 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þæt(usuallyspelt³)"
   },
   "þætte": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: in sorrowful songs, how ceaselessly Grendel",
+    "grammar": "Contextual translation",
     "lemma": "þætte"
   },
   "þætte(=þætðe:1846": {
@@ -68693,18 +68693,18 @@ const OLD_ENGLISH_DICT = {
     "lemma": "þætte(=þætðe:1846"
   },
   "þþoeþþ": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: whence he hied to his home so dear",
+    "grammar": "Contextual translation",
     "lemma": "þþoeþþ"
   },
   "þþoeþþscyldinga": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: home of Scyldings. \u0015 But here, thanes said,",
+    "grammar": "Contextual translation",
     "lemma": "þþoeþþscyldinga"
   },
   "þþoeþþweard": {
-    "def": "",
-    "grammar": "TOE",
+    "def": "Contextual translation: a land-warden old,1 that this earl belongs",
+    "grammar": "Contextual translation",
     "lemma": "þþoeþþweard"
   },
   "þу": {

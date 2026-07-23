@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = Path("/Users/alexandermacmillan/Downloads/doi-10.34894-totfgz.zip")
 OUTPUT = ROOT / "generated" / "imported-old-english-dictionary.js"
 BEOWULF_TEXT = ROOT / "imports" / "beowulf" / "old_english.txt"
+BEOWULF_ENGLISH = ROOT / "imports" / "beowulf" / "english.txt"
 SEARCH_URL = "https://oldenglishthesaurus.arts.gla.ac.uk/category-selection"
 
 
@@ -182,11 +183,20 @@ def main() -> int:
     # to use its existing live Old English Thesaurus fallback for forms that
     # have no local lexical entry.
     if BEOWULF_TEXT.exists():
-        for line in BEOWULF_TEXT.read_text(encoding="utf-8").splitlines():
+        old_lines = BEOWULF_TEXT.read_text(encoding="utf-8").splitlines()
+        en_lines = BEOWULF_ENGLISH.read_text(encoding="utf-8").splitlines() if BEOWULF_ENGLISH.exists() else []
+        for index, line in enumerate(old_lines):
+            context = " ".join(en_lines[index].split()) if index < len(en_lines) else ""
+            if len(context) > 220:
+                context = context[:217] + "…"
             for word in re.findall(r"[\wþðæƿȝ]+", line.lower(), flags=re.UNICODE):
                 key = normalise_key(word)
                 if key and key not in entries:
-                    entries[key] = {"def": "", "grammar": "TOE", "lemma": word}
+                    entries[key] = {
+                        "def": f"Contextual translation: {context}" if context else "Old English surface form; context stored offline",
+                        "grammar": "Contextual translation",
+                        "lemma": word,
+                    }
 
     payload = json.dumps(entries, ensure_ascii=False, indent=2, sort_keys=True)
     OUTPUT.write_text(
