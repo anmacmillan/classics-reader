@@ -496,6 +496,30 @@ body.reader-mode .reader-pane {
   touch-action: manipulation;
 }
 
+/* Dependency syntax: deliberately subtle dotted underlines, so morphology
+   remains primary and the colour is a second reading cue. */
+.dict-word[data-syntax-role] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.dict-word[data-syntax-role="nsubj"],
+.dict-word[data-syntax-role="nsubj:pass"] { text-decoration-color: #60a5fa; }
+.dict-word[data-syntax-role="obj"],
+.dict-word[data-syntax-role="iobj"] { text-decoration-color: #f87171; }
+.dict-word[data-syntax-role="obl"],
+.dict-word[data-syntax-role="obl:arg"],
+.dict-word[data-syntax-role="nmod"] { text-decoration-color: #34d399; }
+.dict-word[data-syntax-role="acl"],
+.dict-word[data-syntax-role="advcl"],
+.dict-word[data-syntax-role="ccomp"],
+.dict-word[data-syntax-role="xcomp"] { text-decoration-color: #c084fc; }
+.dict-word[data-syntax-role="root"] { text-decoration-color: #fbbf24; }
+.dict-word[data-syntax-role="det"],
+.dict-word[data-syntax-role="amod"],
+.dict-word[data-syntax-role="advmod"] { text-decoration-color: #a3a3a3; }
+
 .dict-word:hover, .dict-word.selected-word {
   color: var(--accent);
   border-bottom-color: var(--accent);
