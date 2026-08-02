@@ -1652,7 +1652,7 @@ function restoreBookProgress(savedBooks) {
   });
 }
 
-async function syncProgressToGist() {
+async function performProgressSync() {
   const gistId =
     localStorage.getItem("slovo_gist_id") ||
     localStorage.getItem(SHARED_GIST_ID_KEY);
@@ -1705,6 +1705,36 @@ async function syncProgressToGist() {
   } catch (e) {
     console.error("Gist sync failed:", e);
   }
+}
+
+let progressSyncRunning = false;
+let progressSyncPending = false;
+let progressSyncWaiters = [];
+
+async function drainProgressSyncQueue() {
+  while (progressSyncPending) {
+    progressSyncPending = false;
+    try {
+      await performProgressSync();
+    } catch (e) {
+      console.error("Gist sync failed:", e);
+    }
+  }
+
+  progressSyncRunning = false;
+  const waiters = progressSyncWaiters;
+  progressSyncWaiters = [];
+  waiters.forEach((resolve) => resolve());
+}
+
+function syncProgressToGist() {
+  progressSyncPending = true;
+  const completion = new Promise((resolve) => progressSyncWaiters.push(resolve));
+  if (!progressSyncRunning) {
+    progressSyncRunning = true;
+    void drainProgressSyncQueue();
+  }
+  return completion;
 }
 
 async function loadProgressFromGist() {

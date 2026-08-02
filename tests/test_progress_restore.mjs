@@ -74,6 +74,85 @@ function createRuntime(classics, { deferTimers = false } = {}) {
   return { context, patches, runTimers };
 }
 
+function deferred() {
+  let resolve;
+  let reject;
+  const promise = new Promise((resolvePromise, rejectPromise) => {
+    resolve = resolvePromise;
+    reject = rejectPromise;
+  });
+  return { promise, resolve, reject };
+}
+
+function createDeferredSyncRuntime() {
+  const values = new Map([
+    ["slovo_gist_id", "gist-1"],
+    ["slovo_github_pat", "test-token"]
+  ]);
+  const requests = [];
+  const logs = { warnings: [], errors: [] };
+  const localStorage = {
+    getItem(key) { return values.has(key) ? values.get(key) : null; },
+    setItem(key, value) { values.set(key, String(value)); },
+    removeItem(key) { values.delete(key); }
+  };
+  const document = {
+    addEventListener() {},
+    getElementById() { return null; },
+    querySelector() { return null; },
+    querySelectorAll() { return []; },
+    createElement() { return { classList: { add() {}, remove() {}, toggle() {} }, appendChild() {} }; },
+    body: { classList: { add() {}, remove() {}, contains() { return false; } } }
+  };
+  const context = {
+    Blob,
+    URL,
+    console: {
+      ...console,
+      warn(...args) { logs.warnings.push(args); },
+      error(...args) { logs.errors.push(args); }
+    },
+    document,
+    fetch: (_url, options = {}) => {
+      const response = deferred();
+      requests.push({ method: options.method || "GET", options, response });
+      return response.promise;
+    },
+    localStorage,
+    setTimeout(callback) { callback(); return 1; },
+    clearTimeout() {},
+    window: { matchMedia() { return { matches: false }; } }
+  };
+  context.globalThis = context;
+  vm.createContext(context);
+  vm.runInContext(appSource, context, { filename: "app.js" });
+  return { context, logs, requests };
+}
+
+function gistReadResponse(classics = {}) {
+  return {
+    ok: true,
+    json: async () => ({
+      files: { "slovo_progress.json": { content: JSON.stringify({ classics }) } }
+    })
+  };
+}
+
+function gistPatchResponse() {
+  return { ok: true, status: 200, text: async () => "" };
+}
+
+function syncedClassics(request) {
+  return JSON.parse(JSON.parse(request.options.body).files["slovo_progress.json"].content).classics;
+}
+
+async function waitForRequestCount(requests, count) {
+  for (let attempt = 0; attempt < 20 && requests.length < count; attempt += 1) {
+    await new Promise((resolve) => setImmediate(resolve));
+  }
+  assert.equal(requests.length, count);
+}
+
 function setBooks(context, books, currentBookIndex = 0) {
   vm.runInContext(
     `state.books = ${JSON.stringify(books)}; state.currentBookIndex = ${currentBookIndex}; state.currentChapterIndex = 0; state.currentPageIndex = 0; state.currentLineIndex = 0; state.vocabulary = []; state.completed = {};`,
@@ -167,6 +246,85 @@ test("sync writes semantic line progress beside legacy page progress without syn
   assert.equal(saved.currentPageIndex, 4);
   assert.equal(saved.currentLineIndex, 17);
   assert.equal(Object.hasOwn(saved, "readingMode"), false);
+});
+
+test("concurrent syncs serialize writes and coalesce trailing requests to the latest progress", async () => {
+  const { context, requests } = createDeferredSyncRuntime();
+  setBooks(context, [book("caesar", "Caesar")]);
+  vm.runInContext("state.currentPageIndex = 4; state.currentLineIndex = 11", context);
+
+  const firstSync = vm.runInContext("syncProgressToGist()", context);
+  assert.deepEqual(requests.map((request) => request.method), ["GET"]);
+  requests[0].response.resolve(gistReadResponse());
+  await waitForRequestCount(requests, 2);
+  assert.deepEqual(requests.map((request) => request.method), ["GET", "PATCH"]);
+  assert.equal(syncedClassics(requests[1]).currentLineIndex, 11);
+
+  vm.runInContext("state.currentPageIndex = 5; state.currentLineIndex = 17", context);
+  const secondSync = vm.runInContext("syncProgressToGist()", context);
+  vm.runInContext("state.currentPageIndex = 6; state.currentLineIndex = 23", context);
+  const thirdSync = vm.runInContext("syncProgressToGist()", context);
+  vm.runInContext("state.currentPageIndex = 9; state.currentLineIndex = 41", context);
+  const fourthSync = vm.runInContext("syncProgressToGist()", context);
+
+  assert.deepEqual(
+    requests.map((request) => request.method),
+    ["GET", "PATCH"],
+    "the trailing GET must not start before the older PATCH finishes"
+  );
+
+  requests[1].response.resolve(gistPatchResponse());
+  await waitForRequestCount(requests, 3);
+  assert.deepEqual(requests.map((request) => request.method), ["GET", "PATCH", "GET"]);
+  requests[2].response.resolve(gistReadResponse());
+  await waitForRequestCount(requests, 4);
+  assert.deepEqual(requests.map((request) => request.method), ["GET", "PATCH", "GET", "PATCH"]);
+  assert.equal(syncedClassics(requests[3]).currentPageIndex, 9);
+  assert.equal(syncedClassics(requests[3]).currentLineIndex, 41);
+
+  requests[3].response.resolve(gistPatchResponse());
+  await Promise.all([firstSync, secondSync, thirdSync, fourthSync]);
+  assert.equal(requests.filter((request) => request.method === "PATCH").length, 2);
+});
+
+test("a failed sync does not poison later serialized progress writes", async () => {
+  const { context, logs, requests } = createDeferredSyncRuntime();
+  setBooks(context, [book("caesar", "Caesar")]);
+
+  const failedSync = vm.runInContext("syncProgressToGist()", context);
+  let failedSyncSettled = false;
+  failedSync.then(() => { failedSyncSettled = true; });
+  requests[0].response.reject(new Error("read failed"));
+  await waitForRequestCount(requests, 2);
+  assert.equal(requests[1].method, "PATCH");
+
+  vm.runInContext("state.currentPageIndex = 12; state.currentLineIndex = 77", context);
+  const laterSync = vm.runInContext("syncProgressToGist()", context);
+  assert.equal(requests.length, 2);
+  requests[1].response.reject(new Error("write failed"));
+  await waitForRequestCount(requests, 3);
+  assert.equal(failedSyncSettled, false);
+  assert.equal(requests[2].method, "GET");
+  requests[2].response.resolve(gistReadResponse());
+  await waitForRequestCount(requests, 4);
+  assert.equal(requests[3].method, "PATCH");
+  assert.equal(syncedClassics(requests[3]).currentLineIndex, 77);
+  requests[3].response.resolve(gistPatchResponse());
+  await Promise.all([failedSync, laterSync]);
+  assert.equal(logs.warnings.length, 1);
+  assert.equal(logs.errors.length, 1);
+});
+
+test("sync resolves safely without Gist credentials and makes no network request", async () => {
+  const { context, requests } = createDeferredSyncRuntime();
+  setBooks(context, [book("caesar", "Caesar")]);
+
+  vm.runInContext('localStorage.removeItem("slovo_gist_id")', context);
+  await vm.runInContext("syncProgressToGist()", context);
+  vm.runInContext('localStorage.setItem("slovo_gist_id", "gist-1"); localStorage.removeItem("slovo_github_pat")', context);
+  await vm.runInContext("syncProgressToGist()", context);
+
+  assert.equal(requests.length, 0);
 });
 
 test("restore prefers a valid semantic line while retaining legacy page progress", async () => {
