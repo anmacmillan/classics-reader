@@ -1,6 +1,6 @@
-const CACHE = "classics-reader-v26";
+const CACHE = "classics-reader-v27";
 const CORE = [
-  "./", "index.html", "styles.css", "app.js", "data.js", "dictionary.js",
+  "./", "index.html", "styles.css", "pagination.js", "app.js", "data.js", "dictionary.js",
   "generated/imported-books.js", "generated/imported-latin-dictionary.js",
   "generated/imported-greek-dictionary.js",
   "generated/imported-old-english-dictionary.js", "icon.png", "manifest.json"

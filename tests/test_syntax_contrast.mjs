@@ -74,8 +74,9 @@ test("light theme syntax pastels use light hex tints", () => {
 });
 
 test("deployment versions refresh the changed assets", () => {
-  assert.match(indexHtml, /styles\.css\?v=20260802-1/);
-  assert.match(indexHtml, /app\.js\?v=20260802-1/);
-  assert.match(indexHtml, /generated\/imported-books\.js\?v=20260802-1/);
-  assert.match(serviceWorker, /const CACHE = "classics-reader-v26"/);
+  assert.match(indexHtml, /styles\.css\?v=20260802-2/);
+  assert.match(indexHtml, /pagination\.js\?v=20260802-2/);
+  assert.match(indexHtml, /app\.js\?v=20260802-2/);
+  assert.match(serviceWorker, /const CACHE = "classics-reader-v27"/);
+  assert.match(serviceWorker, /"pagination\.js"/);
 });
