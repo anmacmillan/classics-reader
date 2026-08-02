@@ -5,6 +5,15 @@ import vm from "node:vm";
 
 const appSource = fs.readFileSync(new URL("../app.js", import.meta.url), "utf8");
 const stylesSource = fs.readFileSync(new URL("../styles.css", import.meta.url), "utf8");
+const darkPastels = [
+  "rgba(96, 165, 250, 0.20)",
+  "rgba(74, 222, 128, 0.20)",
+  "rgba(250, 204, 21, 0.20)",
+  "rgba(244, 114, 182, 0.20)",
+  "rgba(167, 139, 250, 0.20)",
+  "rgba(34, 211, 238, 0.20)"
+];
+const lightPastels = ["#dbeafe", "#dcfce7", "#fef3c7", "#fce7f3", "#ede9fe", "#cffafe"];
 
 function createRuntime() {
   const document = {
@@ -32,6 +41,12 @@ function createRuntime() {
   return context;
 }
 
+function syntaxPastels(root) {
+  return [...root.matchAll(/--syntax-pastel-(\d):\s*([^;]+);/g)]
+    .sort(([, left], [, right]) => Number(left) - Number(right))
+    .map(([, , value]) => value);
+}
+
 test("syntaxPastel assigns agreement groups through a theme variable", () => {
   const value = vm.runInContext('syntaxPastel("odyssey-group")', createRuntime());
 
@@ -44,9 +59,7 @@ test("dark theme syntax pastels use translucent tints", () => {
     stylesSource.indexOf(':root[data-theme="light"]')
   );
 
-  for (let index = 0; index < 6; index++) {
-    assert.match(darkRoot, new RegExp(`--syntax-pastel-${index}:\\s*rgba\\(`));
-  }
+  assert.deepEqual(syntaxPastels(darkRoot), darkPastels);
 });
 
 test("light theme syntax pastels use light hex tints", () => {
@@ -55,7 +68,5 @@ test("light theme syntax pastels use light hex tints", () => {
     stylesSource.indexOf("* {")
   );
 
-  for (let index = 0; index < 6; index++) {
-    assert.match(lightRoot, new RegExp(`--syntax-pastel-${index}:\\s*#[0-9a-fA-F]{6}`));
-  }
+  assert.deepEqual(syntaxPastels(lightRoot), lightPastels);
 });
