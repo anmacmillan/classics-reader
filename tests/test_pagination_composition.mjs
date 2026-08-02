@@ -41,7 +41,9 @@ class FakeNode {
     this.classList = new FakeClassList();
     this.dataset = {};
     this.style = {};
-    this.hidden = false;
+    this._hidden = false;
+    this.hiddenWrites = 0;
+    this.attributes = {};
     this.id = '';
     this.scrollTop = 0;
     this.clientHeight = 0;
@@ -52,6 +54,8 @@ class FakeNode {
   }
   get className() { return this.classList.toString(); }
   set className(value) { this.classList.set(value); }
+  get hidden() { return this._hidden; }
+  set hidden(value) { this.hiddenWrites += 1; this._hidden = Boolean(value); }
   get firstChild() { return this.children[0] || null; }
   appendChild(child) {
     if (child.isFragment) {
@@ -85,6 +89,7 @@ class FakeNode {
     return descendants(this).filter((node) => selectorMatches(node, selector.split(/\s+/).at(-1)));
   }
   querySelector(selector) { return this.querySelectorAll(selector)[0] || null; }
+  setAttribute(name, value) { this.attributes[name] = String(value); }
   getBoundingClientRect() { this.rectCalls += 1; return this.rect; }
 }
 
@@ -94,6 +99,7 @@ class FakeFragment extends FakeNode {
 
 function createHarness({ readerPagination } = {}) {
   const body = new FakeNode('body');
+  const warnings = [];
   const document = {
     body,
     createElement: (tagName) => new FakeNode(tagName),
@@ -104,7 +110,7 @@ function createHarness({ readerPagination } = {}) {
     getElementById(id) { return descendants(body).find((node) => node.id === id) || null; },
   };
   const context = vm.createContext({
-    console: { warn() {}, log() {} },
+    console: { warn(...args) { warnings.push(args); }, log() {} },
     document,
     window: { getComputedStyle: (node) => node.computedStyle, addEventListener() {}, matchMedia() { return null; } },
     localStorage: { getItem() { return null; }, setItem() {} },
@@ -113,8 +119,8 @@ function createHarness({ readerPagination } = {}) {
     ...(readerPagination ? { ReaderPagination: readerPagination } : {}),
   });
   if (!readerPagination) vm.runInContext(read('pagination.js'), context);
-  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; } };`, context);
-  return { ...context.__paginationApi, context, document, body };
+  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; }, setTabletTouchMedia: (value) => { tabletTouchMedia = value; } };`, context);
+  return { ...context.__paginationApi, context, document, body, warnings };
 }
 
 function reader(harness, { paneHeight = 100, contentHeight = 800 } = {}) {
@@ -153,12 +159,13 @@ test('unwrapReaderPages restores block order and is idempotent', () => {
   const first = new FakeNode('section'); first.className = 'reader-page';
   const second = new FakeNode('section'); second.className = 'reader-page';
   const a = block('a'); const b = block('b'); const c = block('c');
-  first.append(a, b); second.appendChild(c); wrapper.append(first, second);
+  const interleaved = block('interleaved');
+  first.append(a, b); second.appendChild(c); wrapper.append(first, interleaved, second);
 
   unwrapReaderPages(wrapper);
-  assert.deepEqual(wrapper.children.map((node) => node.id), ['a', 'b', 'c']);
+  assert.deepEqual(wrapper.children.map((node) => node.id), ['a', 'b', 'interleaved', 'c']);
   unwrapReaderPages(wrapper);
-  assert.deepEqual(wrapper.children.map((node) => node.id), ['a', 'b', 'c']);
+  assert.deepEqual(wrapper.children.map((node) => node.id), ['a', 'b', 'interleaved', 'c']);
 });
 
 test('measures outer block margins and usable pane padding', () => {
@@ -233,6 +240,29 @@ test('composeReaderPages preserves block identity/order, measures once, and hono
   assert.equal(harness.getPendingPageEdge(), null);
 });
 
+test('composeReaderPages uses real line lookup and creates indexed fixed-height sections', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100 });
+  pane.computedStyle.paddingTop = '10px';
+  pane.computedStyle.paddingBottom = '10px';
+  const a = block('a', { height: 30, lineIndex: 0 });
+  const b = block('b', { height: 50, lineIndex: 1 });
+  const c = block('c', { height: 100, lineIndex: 2 });
+  wrapper.append(a, b, c);
+  harness.state.readingMode = 'paged';
+  harness.setPendingPageEdge(null);
+
+  harness.composeReaderPages(2);
+
+  assert.equal(harness.context.ReaderPagination.pageIndexForLine(wrapper.children.map((page) => page.children), 2), 1);
+  assert.equal(harness.state.currentPageIndex, 1);
+  assert.equal(harness.state.totalPages, 2);
+  assert.deepEqual(wrapper.children.map((page) => page.tagName), ['section', 'section']);
+  assert.deepEqual(wrapper.children.map((page) => page.dataset.pageIndex), ['0', '1']);
+  assert.deepEqual(wrapper.children.map((page) => page.style.height), ['80px', '80px']);
+  assert.equal(wrapper.children[1].hidden, false);
+});
+
 test('continuous recalc restores a valid anchor and derives page state from scroll position', () => {
   const harness = createHarness();
   const { pane, wrapper, indicator } = reader(harness, { paneHeight: 100, contentHeight: 800 });
@@ -265,6 +295,23 @@ test('continuous recalc preserves safe state for invalid or nonexistent anchors'
   assert.equal(harness.state.currentLineIndex, 4);
 });
 
+test('continuous recalc replaces invalid line state with a visible row or zero', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  wrapper.rect = { top: 0, bottom: 300, height: 300 };
+  wrapper.appendChild(block('visible-line', { lineIndex: 6, top: 20, height: 30 }));
+  harness.state.readingMode = 'continuous';
+  harness.state.currentLineIndex = -5;
+
+  harness.recalcPages({ anchorLineIndex: -1 });
+  assert.equal(harness.state.currentLineIndex, 6);
+
+  wrapper.replaceChildren();
+  harness.state.currentLineIndex = -9;
+  harness.recalcPages({ anchorLineIndex: 99 });
+  assert.equal(harness.state.currentLineIndex, 0);
+});
+
 test('paged composition failure only changes runtime layout state', () => {
   let persisted = false;
   const harness = createHarness({
@@ -276,12 +323,22 @@ test('paged composition failure only changes runtime layout state', () => {
   });
   const { wrapper } = reader(harness);
   wrapper.appendChild(block('line', { lineIndex: 0 }));
+  const modeButton = new FakeNode('button');
+  modeButton.id = 'reading-mode-btn';
+  harness.body.appendChild(modeButton);
   harness.state.readingMode = 'paged';
   harness.body.classList.add('paged-reader');
+  harness.setTabletTouchMedia({ matches: true });
   harness.recalcPages({ anchorLineIndex: 0 });
   assert.equal(harness.state.readingMode, 'continuous');
   assert.equal(harness.body.classList.contains('paged-reader'), false);
   assert.equal(persisted, false);
+  assert.deepEqual(harness.warnings[0]?.slice(0, 1), ['Paged reader unavailable; using continuous layout:']);
+  assert.equal(harness.warnings.length, 1);
+  assert.equal(modeButton.hiddenWrites, 1);
+  assert.equal(modeButton.hidden, false);
+  assert.equal(modeButton.textContent, 'Continuous');
+  assert.equal(modeButton.attributes['aria-pressed'], 'false');
 });
 
 test('recalcPages safely ignores absent and zero-height reader panes', () => {
