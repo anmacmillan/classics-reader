@@ -15,10 +15,11 @@ test('loads pagination policy before the versioned application and provides a hi
   assert.ok(index.includes(paginationScript), 'pagination policy script is loaded');
   assert.ok(index.includes(appScript), 'versioned app script remains unchanged');
   assert.ok(index.indexOf(paginationScript) < index.indexOf(appScript), 'pagination policy precedes app script');
-  assert.match(
-    index,
-    /<div\s+class="header-layout-controls">[\s\S]*<button\s+id="theme-btn"[\s\S]*<button\s+id="reading-mode-btn"[\s\S]*<\/div>/,
-  );
+  const controls = index.match(/<div\s+class="header-layout-controls">([\s\S]*?)<\/div>/)?.[1];
+  assert.ok(controls, 'header layout controls wrapper is present');
+  assert.match(controls, /<button\s+id="theme-btn"/);
+  assert.match(controls, /<button\s+id="reading-mode-btn"/);
+  assert.match(controls, /<button\s+id="vocabulary-btn"/);
   assert.match(
     index,
     /<button\s+id="reading-mode-btn"\s+class="btn header-reading-mode"\s+aria-label="Reading layout"\s+aria-pressed="true"\s+hidden>\s*Paged\s*<\/button>/,
@@ -55,11 +56,13 @@ test('renders chapter metadata as an intro block and gives each row a semantic l
 });
 
 test('styles the header reading control and paged chapter metadata without leaving hidden tooltips interactive', () => {
-  assert.match(styles, /\.header-layout-controls\s*\{[^}]*position:\s*absolute;[^}]*right:\s*96px;[^}]*display:\s*flex;[^}]*align-items:\s*center;[^}]*gap:\s*8px;/);
+  assert.match(styles, /\.header-layout-controls\s*\{[^}]*position:\s*absolute;[^}]*right:\s*16px;[^}]*display:\s*flex;[^}]*align-items:\s*center;[^}]*gap:\s*8px;/);
   assert.match(styles, /\.header-theme\s*\{[^}]*position:\s*static;/);
   assert.match(styles, /\.header-reading-mode\s*\{[^}]*position:\s*static;/);
+  assert.match(styles, /\.header-vocabulary\s*\{[^}]*position:\s*static;/);
   assert.doesNotMatch(styles, /\.header-theme\s*\{[^}]*position:\s*absolute;/);
   assert.doesNotMatch(styles, /\.header-reading-mode\s*\{[^}]*position:\s*absolute;/);
+  assert.doesNotMatch(styles, /\.header-vocabulary\s*\{[^}]*position:\s*absolute;/);
   assert.match(styles, /\.chapter-kicker[\s\S]*display:\s*none;/);
   assert.match(styles, /\.chapter-progress[\s\S]*display:\s*none;/);
   assert.match(styles, /body\.paged-reader[\s\S]*\.chapter-kicker[\s\S]*display:\s*(?:block|inline|flex)/);

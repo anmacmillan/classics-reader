@@ -108,8 +108,7 @@ body.reader-mode .reader-pane {
   padding-top: 96px;
 }
 
-.header-back,
-.header-vocabulary {
+.header-back {
   position: absolute;
 }
 
@@ -117,13 +116,9 @@ body.reader-mode .reader-pane {
   left: 16px;
 }
 
-.header-vocabulary {
-  right: 16px;
-}
-
 .header-layout-controls {
   position: absolute;
-  right: 96px;
+  right: 16px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -134,6 +129,10 @@ body.reader-mode .reader-pane {
 }
 
 .header-reading-mode {
+  position: static;
+}
+
+.header-vocabulary {
   position: static;
 }
 
