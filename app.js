@@ -6,7 +6,7 @@ const state = {
   currentChapterIndex: 0,
   currentPageIndex: 0,
   totalPages: 1,
-  libraryAuthor: null,
+  libraryGroupKey: null,
   overviewBookIndex: null,
   completed: {},
 };
@@ -54,21 +54,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     backBtn.addEventListener("click", () => {
       const inLibrary = document.getElementById("app-workspace").hasAttribute("hidden");
       if (inLibrary && state.overviewBookIndex !== null) {
-        // unit overview -> author's book list
+        // unit overview -> group's book list
         state.overviewBookIndex = null;
         renderLibrary();
-      } else if (inLibrary && state.libraryAuthor) {
-        state.libraryAuthor = null;
+      } else if (inLibrary && state.libraryGroupKey) {
+        state.libraryGroupKey = null;
         renderLibrary();
       } else {
-        // reader -> unit overview for multi-chapter books, else author's list
+        // reader -> unit overview for multi-chapter books, else group's list
         const book = state.books[state.currentBookIndex];
         if (book && book.chapters.length > 1) {
           state.overviewBookIndex = state.currentBookIndex;
         } else {
           state.overviewBookIndex = null;
         }
-        showLibrary(book?.author);
+        showLibrary(book ? libraryGroupKey(book) : null);
       }
     });
   }
@@ -147,8 +147,9 @@ function updateHeaderContext() {
   if (!primary || !secondary) return;
 
   if (!document.body.classList.contains("reader-mode")) {
-    primary.textContent = state.libraryAuthor || "Library";
-    secondary.textContent = state.libraryAuthor ? authorSummary(state.libraryAuthor) : "Latin · Greek";
+    const group = selectedLibraryGroup();
+    primary.textContent = group?.label || "Library";
+    secondary.textContent = group ? libraryGroupSummary(group) : "Latin · Greek";
     return;
   }
 
@@ -250,8 +251,36 @@ function firstUncompletedChapter(book) {
 
 /* ─── Library / Splash ───────────────────────────────────────────────────── */
 
-function showLibrary(author = null) {
-  state.libraryAuthor = author;
+function libraryGroupKey(book) {
+  return book.collection ? `collection:${book.collection}` : `author:${book.author}`;
+}
+
+function libraryGroups(books) {
+  const groups = new Map();
+  books.forEach((book) => {
+    const key = libraryGroupKey(book);
+    if (!groups.has(key)) {
+      groups.set(key, { key, label: book.collection || book.author, books: [] });
+    }
+    groups.get(key).books.push(book);
+  });
+  return [...groups.values()];
+}
+
+function libraryGroupSummary(group) {
+  const languages = [...new Set(group.books.map((book) =>
+    book.lang === "latin" ? "Latin" : book.lang === "greek" ? "Greek" : "Old English"
+  ))];
+  const sections = group.books.reduce((total, book) => total + book.chapters.length, 0);
+  return `${group.books.length} ${group.books.length === 1 ? "text" : "texts"} · ${languages.join(" · ")} · ${sections} ${sections === 1 ? "section" : "sections"}`;
+}
+
+function selectedLibraryGroup() {
+  return libraryGroups(state.books).find((group) => group.key === state.libraryGroupKey) || null;
+}
+
+function showLibrary(groupKey = null) {
+  state.libraryGroupKey = groupKey;
   const splash = document.getElementById("splash-screen");
   const workspace = document.getElementById("app-workspace");
   if (splash) splash.removeAttribute("hidden");
@@ -279,23 +308,24 @@ function renderLibrary() {
 
   const backBtn = document.getElementById("back-btn");
   if (backBtn) {
-    backBtn.style.display = state.libraryAuthor ? "block" : "none";
-    backBtn.textContent = "← Authors";
+    backBtn.style.display = state.libraryGroupKey ? "block" : "none";
+    backBtn.textContent = "← Library";
   }
   updateHeaderContext();
 
-  if (!state.libraryAuthor) {
-    renderAuthorLibrary(grid);
+  const group = selectedLibraryGroup();
+  if (!group) {
+    renderGroupLibrary(grid);
     return;
   }
 
   const heading = document.createElement("div");
   heading.className = "catalogue-heading";
-  heading.innerHTML = `<h1>${state.libraryAuthor}</h1><p>${authorSummary(state.libraryAuthor)}</p>`;
+  heading.innerHTML = `<h1>${group.label}</h1><p>${libraryGroupSummary(group)}</p>`;
   grid.appendChild(heading);
 
-  state.books.forEach((book, idx) => {
-    if (book.author !== state.libraryAuthor) return;
+  group.books.forEach((book) => {
+    const idx = state.books.indexOf(book);
     const card = document.createElement("div");
     card.className = "book-card";
 
@@ -309,6 +339,7 @@ function renderLibrary() {
 
     const displayTitle = workDisplayTitle(book);
     const shortTitle = book.shortTitle ? `<p class="book-short-title">${book.shortTitle}</p>` : "";
+    const collectionAuthor = book.collection ? `<span>${book.author}</span>` : "";
 
     if (isDone) card.classList.add("book-done");
     card.innerHTML = `
@@ -316,6 +347,7 @@ function renderLibrary() {
       <h3>${displayTitle}</h3>
       ${shortTitle}
       <div class="book-meta">
+        ${collectionAuthor}
         <span>${book.year < 0 ? Math.abs(book.year) + " v.Chr." : book.year}</span>
         <span>· ${completedCh}/${totalCh} ${totalCh !== 1 ? "delen" : "deel"}</span>
       </div>
@@ -361,7 +393,8 @@ function renderBookOverview(grid, idx) {
   const backBtn = document.getElementById("back-btn");
   if (backBtn) {
     backBtn.style.display = "block";
-    backBtn.textContent = `← ${book.author}`;
+    const group = libraryGroups(state.books).find((item) => item.key === libraryGroupKey(book));
+    backBtn.textContent = `← ${group?.label || book.author}`;
   }
   updateHeaderContext();
 
@@ -399,23 +432,21 @@ function renderBookOverview(grid, idx) {
   grid.appendChild(units);
 }
 
-function renderAuthorLibrary(grid) {
-  const authors = [...new Set(state.books.map((book) => book.author))];
-  authors.forEach((author) => {
-    const works = state.books.filter((book) => book.author === author);
+function renderGroupLibrary(grid) {
+  libraryGroups(state.books).forEach((group) => {
     const card = document.createElement("div");
     card.className = "book-card author-card";
-    const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels"))];
-    const sections = works.reduce((total, book) => total + book.chapters.length, 0);
+    const languages = [...new Set(group.books.map((book) => book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels"))];
+    const sections = group.books.reduce((total, book) => total + book.chapters.length, 0);
 
     card.innerHTML = `
-      <div class="book-icon">${works[0].lang === "latin" ? "\u{1F4DC}" : works[0].lang === "greek" ? "\u{1F525}" : "\u{1F4D6}"}</div>
-      <h3>${author}</h3>
-      <p class="author-work-count">${works.length} ${works.length === 1 ? "text" : "texts"}</p>
-      <div class="book-meta"><span>${languages.join(" · ")}</span><span>· ${sections} sections</span></div>
+      <div class="book-icon">${group.books[0].lang === "latin" ? "\u{1F4DC}" : group.books[0].lang === "greek" ? "\u{1F525}" : "\u{1F4D6}"}</div>
+      <h3>${group.label}</h3>
+      <p class="author-work-count">${group.books.length} ${group.books.length === 1 ? "text" : "texts"}</p>
+      <div class="book-meta"><span>${languages.join(" · ")}</span><span>· ${sections} ${sections === 1 ? "section" : "sections"}</span></div>
     `;
     card.addEventListener("click", () => {
-      state.libraryAuthor = author;
+      state.libraryGroupKey = group.key;
       renderLibrary();
     });
     grid.appendChild(card);
@@ -428,12 +459,6 @@ function workDisplayTitle(book) {
     if (book.title.includes(separator)) return book.title.split(separator).slice(1).join(separator);
   }
   return book.title;
-}
-
-function authorSummary(author) {
-  const works = state.books.filter((book) => book.author === author);
-  const languages = [...new Set(works.map((book) => book.lang === "latin" ? "Latin" : book.lang === "greek" ? "Greek" : "Old English"))];
-  return `${works.length} ${works.length === 1 ? "text" : "texts"} · ${languages.join(" · ")}`;
 }
 
 function selectBook(idx, chapterIndex) {
@@ -457,7 +482,8 @@ function selectBook(idx, chapterIndex) {
   const backBtn = document.getElementById("back-btn");
   if (backBtn) {
     backBtn.style.display = "block";
-    backBtn.textContent = book.chapters.length > 1 ? "← Overzicht" : `← ${book.author}`;
+    const group = libraryGroups(state.books).find((item) => item.key === libraryGroupKey(book));
+    backBtn.textContent = book.chapters.length > 1 ? "← Overzicht" : `← ${group?.label || book.author}`;
   }
 
   // Populate chapter selector
