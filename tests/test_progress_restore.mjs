@@ -15,12 +15,13 @@ function book(id, title) {
   };
 }
 
-function createRuntime(classics) {
+function createRuntime(classics, { deferTimers = false } = {}) {
   const values = new Map([
     ["slovo_gist_id", "gist-1"],
     ["slovo_github_pat", "test-token"]
   ]);
   const patches = [];
+  const timers = [];
   const localStorage = {
     getItem(key) { return values.has(key) ? values.get(key) : null; },
     setItem(key, value) { values.set(key, String(value)); },
@@ -52,14 +53,25 @@ function createRuntime(classics) {
       };
     },
     localStorage,
-    setTimeout(callback) { callback(); return 1; },
-    clearTimeout() {},
+    setTimeout(callback) {
+      if (!deferTimers) {
+        callback();
+        return 1;
+      }
+      const timer = { callback, cancelled: false };
+      timers.push(timer);
+      return timer;
+    },
+    clearTimeout(timer) { if (timer) timer.cancelled = true; },
     window: { matchMedia() { return { matches: false }; } }
   };
   context.globalThis = context;
   vm.createContext(context);
   vm.runInContext(appSource, context, { filename: "app.js" });
-  return { context, patches };
+  const runTimers = () => timers.splice(0).forEach((timer) => {
+    if (!timer.cancelled) timer.callback();
+  });
+  return { context, patches, runTimers };
 }
 
 function setBooks(context, books, currentBookIndex = 0) {
@@ -175,9 +187,27 @@ test("restore prefers a valid semantic line while retaining legacy page progress
   assert.equal(state.currentChapterIndex, 1);
   assert.equal(state.currentPageIndex, 1);
   assert.equal(state.currentLineIndex, 17);
-  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 17]);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 17, { syncAfterPlacement: false }]);
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 17 });
   assert.equal(vm.runInContext("globalThis.__restoreTranslateCount || 0", context), 0);
+});
+
+test("Gist restore remains read-only before and after semantic placement", async () => {
+  const { context, patches, runTimers } = createRuntime({
+    currentBookId: "caesar",
+    currentBookIndex: 0,
+    currentChapterIndex: 1,
+    currentPageIndex: 4,
+    currentLineIndex: 17,
+    books: [{ id: "caesar", title: "Caesar", chaptersRead: 1 }]
+  }, { deferTimers: true });
+  setBooks(context, [book("caesar", "Caesar")]);
+
+  await restore(context);
+
+  assert.equal(patches.length, 0);
+  runTimers();
+  assert.equal(patches.length, 0);
 });
 
 test("restore safely defaults absent semantic line progress and preserves legacy-only payloads", async () => {
@@ -195,7 +225,7 @@ test("restore safely defaults absent semantic line progress and preserves legacy
   const state = currentState(context);
   assert.equal(state.currentPageIndex, 3);
   assert.equal(state.currentLineIndex, 0);
-  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 0]);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 0, { syncAfterPlacement: false }]);
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 0 });
   assert.equal(vm.runInContext("__restoreTranslateCount", context), 1);
   assert.equal(vm.runInContext("__restoreTranslatedPage", context), 3);

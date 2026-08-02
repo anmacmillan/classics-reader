@@ -23,6 +23,8 @@ let activeVocabularyCandidate;
 let tabletTouchMedia;
 let pendingPageEdge = null;
 let resizeTimer;
+let readerRenderGeneration = 0;
+let readerPointerStart = null;
 let oldEnglishLookupCache = {};
 try {
   oldEnglishLookupCache = JSON.parse(localStorage.getItem(STORAGE_KEYS.OLD_ENGLISH_CACHE) || "{}") || {};
@@ -87,7 +89,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       state.currentPageIndex = 0;
       state.currentLineIndex = 0;
       pendingPageEdge = "first";
-      renderChapter();
+      renderChapter({ syncAfterPlacement: true });
     });
   }
 
@@ -97,7 +99,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const readerPane = document.querySelector(".reader-pane");
   if (readerPane) {
     readerPane.addEventListener("scroll", syncPageFromScroll, { passive: true });
+    readerPane.addEventListener("pointerdown", handleReaderPointerDown);
     readerPane.addEventListener("pointerup", handleReaderPointerUp);
+    readerPane.addEventListener("pointercancel", handleReaderPointerCancel);
   }
   document.addEventListener("keydown", handleReaderKeydown);
 
@@ -108,8 +112,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   window.addEventListener("resize", () => {
     if (!isReaderOpen()) return;
     const anchorLineIndex = captureReadingAnchor();
+    const renderGeneration = readerRenderGeneration;
+    const bookIndex = state.currentBookIndex;
+    const chapterIndex = state.currentChapterIndex;
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => recalcPages({ anchorLineIndex }), 120);
+    resizeTimer = setTimeout(() => {
+      if (renderGeneration !== readerRenderGeneration ||
+          bookIndex !== state.currentBookIndex ||
+          chapterIndex !== state.currentChapterIndex) return;
+      recalcPages({ anchorLineIndex });
+    }, 120);
   });
 });
 
@@ -573,7 +585,7 @@ function workDisplayTitle(book) {
   return book.title;
 }
 
-function selectBook(idx, chapterIndex, lineIndex = 0) {
+function selectBook(idx, chapterIndex, lineIndex = 0, { syncAfterPlacement = true } = {}) {
   const book = state.books[idx];
   const defaultChapterIndex = Number.isInteger(book.defaultChapterIndex)
     ? book.defaultChapterIndex
@@ -613,19 +625,20 @@ function selectBook(idx, chapterIndex, lineIndex = 0) {
     chSelect.value = state.currentChapterIndex;
   }
 
-  renderChapter();
+  renderChapter({ syncAfterPlacement });
   updateHeaderContext();
   showFocusHeader();
-
-  // Sync to Gist
-  syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
 }
 
 /* ─── Chapter Renderer ──────────────────────────────────────────────────── */
 
-function renderChapter() {
+function renderChapter({ syncAfterPlacement = false } = {}) {
+  const renderGeneration = ++readerRenderGeneration;
+  clearTimeout(resizeTimer);
   const book = state.books[state.currentBookIndex];
   const ch = book.chapters[state.currentChapterIndex];
+  const bookIndex = state.currentBookIndex;
+  const chapterIndex = state.currentChapterIndex;
   const content = document.getElementById("reader-content");
   if (!content) return;
   updateHeaderContext();
@@ -756,8 +769,17 @@ function renderChapter() {
 
   wrapper.appendChild(buildCompletionFooter(book));
 
-  // Recalc page dimensions
-  setTimeout(recalcPages, 50);
+  // Recalc page dimensions only for the chapter this render produced.
+  setTimeout(() => {
+    if (renderGeneration !== readerRenderGeneration ||
+        bookIndex !== state.currentBookIndex ||
+        chapterIndex !== state.currentChapterIndex) return;
+    recalcPages();
+    if (syncAfterPlacement && renderGeneration === readerRenderGeneration &&
+        bookIndex === state.currentBookIndex && chapterIndex === state.currentChapterIndex) {
+      syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
+    }
+  }, 50);
 }
 
 /* ─── Chapter Completion Footer ─────────────────────────────────────────── */
@@ -804,7 +826,7 @@ function buildCompletionFooter(book) {
         pendingPageEdge = "first";
         const chSelect = document.getElementById("chapter-select");
         if (chSelect) chSelect.value = nextIdx;
-        renderChapter();
+        renderChapter({ syncAfterPlacement: true });
         document.querySelector(".reader-pane")?.scrollTo({ top: 0 });
       });
       footer.appendChild(next);
@@ -1045,6 +1067,7 @@ function navigatePaged(direction) {
 
   if (decision.type === "page") {
     showPagedPage(decision.pageIndex);
+    syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
   } else {
     state.currentChapterIndex = decision.chapterIndex;
     state.currentPageIndex = 0;
@@ -1052,9 +1075,8 @@ function navigatePaged(direction) {
     pendingPageEdge = decision.edge;
     const chSelect = document.getElementById("chapter-select");
     if (chSelect) chSelect.value = decision.chapterIndex;
-    renderChapter();
+    renderChapter({ syncAfterPlacement: true });
   }
-  syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
 }
 
 function translatePane() {
@@ -1095,8 +1117,31 @@ function syncPageFromScroll() {
   }, 500);
 }
 
+function handleReaderPointerDown(event) {
+  if (event.pointerType !== "touch") return;
+  if (event.isPrimary === false) {
+    readerPointerStart = null;
+    return;
+  }
+  readerPointerStart = {
+    pointerId: event.pointerId,
+    clientX: event.clientX,
+    clientY: event.clientY,
+  };
+}
+
+function handleReaderPointerCancel() {
+  readerPointerStart = null;
+}
+
 function handleReaderPointerUp(event) {
-  if (state.readingMode !== "paged" || event.pointerType !== "touch") return;
+  const pointerStart = readerPointerStart;
+  readerPointerStart = null;
+  if (event.pointerType !== "touch" || event.isPrimary === false || !pointerStart ||
+      event.pointerId !== pointerStart.pointerId) return;
+  const distance = Math.hypot(event.clientX - pointerStart.clientX, event.clientY - pointerStart.clientY);
+  if (distance > 14) return;
+  if (state.readingMode !== "paged") return;
   if (ReaderPagination.isInteractiveTarget(event.target)) return;
   if (window.getSelection?.()?.toString()) return;
   const rect = event.currentTarget.getBoundingClientRect();
@@ -1107,7 +1152,7 @@ function handleReaderPointerUp(event) {
 
 function handleReaderKeydown(event) {
   if (state.readingMode !== "paged") return;
-  if (event.altKey || event.ctrlKey || event.metaKey) return;
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
   if (ReaderPagination.isInteractiveTarget(event.target) || ReaderPagination.isInteractiveTarget(document.activeElement)) return;
   if (event.key === "ArrowLeft") {
     event.preventDefault();
@@ -1702,7 +1747,7 @@ async function loadProgressFromGist() {
       const savedChapterIndex = cl.currentChapterIndex > 0
         ? cl.currentChapterIndex
         : undefined;
-      selectBook(resolvedBookIndex, savedChapterIndex, state.currentLineIndex);
+      selectBook(resolvedBookIndex, savedChapterIndex, state.currentLineIndex, { syncAfterPlacement: false });
 
       // Recompose from a stable semantic anchor. Older continuous sessions retain
       // their viewport-page behavior because they have no line anchor.

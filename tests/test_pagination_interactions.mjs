@@ -8,7 +8,17 @@ const appSource = fs.readFileSync(new URL("app.js", root), "utf8");
 const policySource = fs.readFileSync(new URL("pagination.js", root), "utf8");
 
 function classList() {
-  return { add() {}, remove() {}, toggle() {}, contains() { return false; } };
+  const values = new Set();
+  return {
+    add(...classes) { classes.forEach((name) => values.add(name)); },
+    remove(...classes) { classes.forEach((name) => values.delete(name)); },
+    toggle(name, force) {
+      const enabled = force === undefined ? !values.has(name) : Boolean(force);
+      if (enabled) values.add(name); else values.delete(name);
+      return enabled;
+    },
+    contains(name) { return values.has(name); },
+  };
 }
 
 function element({ lineIndex = null } = {}) {
@@ -90,7 +100,7 @@ function createRuntime() {
   context.globalThis = context;
   vm.createContext(context);
   vm.runInContext(policySource, context, { filename: "pagination.js" });
-  vm.runInContext(`${appSource}\nglobalThis.__readerApi = { state, navigatePaged, handleReaderPointerUp, handleReaderKeydown, syncPageFromScroll, prevPage, nextPage, translatePane, getPendingPageEdge: () => pendingPageEdge };`, context, { filename: "app.js" });
+  vm.runInContext(`${appSource}\nglobalThis.__readerApi = { state, renderChapter, navigatePaged, handleReaderPointerDown, handleReaderPointerUp, handleReaderPointerCancel, handleReaderKeydown, syncPageFromScroll, prevPage, nextPage, translatePane, getPendingPageEdge: () => pendingPageEdge, getPointerStart: () => readerPointerStart };`, context, { filename: "app.js" });
   vm.runInContext(`state.books = [{ id: "book", author: "Author", title: "Book", lang: "latin", chapters: [{ title: "One", lines: ["a"] }, { title: "Two", lines: ["b"] }] }]; state.currentBookIndex = 0; state.currentChapterIndex = 0; state.currentPageIndex = 1; state.currentLineIndex = 10; state.totalPages = 3; state.readingMode = "paged"; state.vocabulary = []; state.completed = {};`, context);
   const runTimers = () => timers.splice(0).forEach((timer) => {
     if (!timer.cancelled) timer.callback();
@@ -101,9 +111,12 @@ function createRuntime() {
 function event(overrides = {}) {
   return {
     pointerType: "touch",
+    pointerId: 1,
+    isPrimary: true,
     target: { closest() { return null; } },
     currentTarget: { getBoundingClientRect() { return { left: 100, width: 200 }; } },
     clientX: 290,
+    clientY: 50,
     key: "",
     altKey: false,
     ctrlKey: false,
@@ -114,8 +127,16 @@ function event(overrides = {}) {
   };
 }
 
-async function createChapterControlRuntime() {
+function tap(api, overrides = {}) {
+  const start = event(overrides);
+  api.handleReaderPointerDown(start);
+  api.handleReaderPointerUp(event(overrides));
+}
+
+async function createChapterControlRuntime({ renderStub = true } = {}) {
   const listeners = new Map();
+  const windowListeners = new Map();
+  const timers = [];
   const pane = element();
   pane.clientHeight = 100;
   pane.scrollTop = 400;
@@ -158,14 +179,18 @@ async function createChapterControlRuntime() {
     OLD_ENGLISH_DICT: {},
     document,
     localStorage: { getItem() { return null; }, setItem() {} },
-    setTimeout() { return 1; },
-    clearTimeout() {},
-    window: { addEventListener() {}, getComputedStyle() { return {}; }, matchMedia() { return { matches: false }; } },
+    setTimeout(callback) {
+      const timer = { callback, cancelled: false };
+      timers.push(timer);
+      return timer;
+    },
+    clearTimeout(timer) { if (timer) timer.cancelled = true; },
+    window: { addEventListener(type, listener) { windowListeners.set(type, listener); }, getComputedStyle() { return {}; }, matchMedia() { return { matches: false }; } },
   };
   context.globalThis = context;
   vm.createContext(context);
   vm.runInContext(policySource, context, { filename: "pagination.js" });
-  vm.runInContext(`${appSource}\nglobalThis.__chapterApi = { state, recalcPages, buildCompletionFooter, getPendingPageEdge: () => pendingPageEdge };`, context, { filename: "app.js" });
+  vm.runInContext(`${appSource}\nglobalThis.__chapterApi = { state, renderChapter, recalcPages, buildCompletionFooter, getPendingPageEdge: () => pendingPageEdge };`, context, { filename: "app.js" });
   vm.runInContext(`
     loadProgressFromStorage = () => {};
     loadCompletedFromStorage = () => {};
@@ -176,10 +201,10 @@ async function createChapterControlRuntime() {
     setupFocusHeader = () => {};
     setupVocabulary = () => {};
     loadProgressFromGist = async () => {};
-    renderChapter = () => recalcPages({ anchorLineIndex: state.currentLineIndex });
+    ${renderStub ? "renderChapter = () => recalcPages({ anchorLineIndex: state.currentLineIndex });" : ""}
   `, context);
   await listeners.get("DOMContentLoaded")();
-  return { api: context.__chapterApi, chapterSelect, pane };
+  return { api: context.__chapterApi, chapterSelect, pane, document, context, timers, windowListeners };
 }
 
 test("production paged navigation chooses pages, chapters, and no-op boundaries", () => {
@@ -212,24 +237,49 @@ test("production paged navigation chooses pages, chapters, and no-op boundaries"
 
 test("production touch handling turns only edge taps and suppresses interactive, selected, and centre taps", () => {
   const { api, context } = createRuntime();
-  api.handleReaderPointerUp(event());
+  tap(api);
   assert.equal(api.state.currentPageIndex, 2);
-  api.handleReaderPointerUp(event({ clientX: 200 }));
+  tap(api, { clientX: 200 });
   assert.equal(api.state.currentPageIndex, 2);
-  api.handleReaderPointerUp(event({ clientX: 110 }));
+  tap(api, { clientX: 110 });
   assert.equal(api.state.currentPageIndex, 1);
-  api.handleReaderPointerUp(event({ pointerType: "mouse", clientX: 110 }));
+  tap(api, { pointerType: "mouse", clientX: 110 });
   assert.equal(api.state.currentPageIndex, 1);
-  api.handleReaderPointerUp(event({ pointerType: "pen", clientX: 290 }));
+  tap(api, { pointerType: "pen", clientX: 290 });
   assert.equal(api.state.currentPageIndex, 1);
-  api.handleReaderPointerUp(event({ target: { closest() { return {}; } }, clientX: 110 }));
+  tap(api, { target: { closest() { return {}; } }, clientX: 110 });
   assert.equal(api.state.currentPageIndex, 1);
   context.window.getSelection = () => ({ toString() { return "word"; } });
-  api.handleReaderPointerUp(event({ clientX: 110 }));
+  tap(api, { clientX: 110 });
   assert.equal(api.state.currentPageIndex, 1);
   api.state.readingMode = "continuous";
+  tap(api, { clientX: 290 });
+  assert.equal(api.state.currentPageIndex, 1);
+});
+
+test("production pointer gesture tracking accepts only primary edge taps", () => {
+  const { api } = createRuntime();
+  api.handleReaderPointerDown(event({ clientX: 290, clientY: 40 }));
+  api.handleReaderPointerUp(event({ clientX: 290, clientY: 65 }));
+  assert.equal(api.state.currentPageIndex, 1);
+  api.handleReaderPointerDown(event({ clientX: 290, clientY: 40 }));
+  api.handleReaderPointerUp(event({ clientX: 260, clientY: 40 }));
+  assert.equal(api.state.currentPageIndex, 1);
+  api.handleReaderPointerDown(event({ clientX: 290 }));
+  api.handleReaderPointerCancel(event({ clientX: 290 }));
+  assert.equal(api.getPointerStart(), null);
   api.handleReaderPointerUp(event({ clientX: 290 }));
   assert.equal(api.state.currentPageIndex, 1);
+  api.handleReaderPointerDown(event({ clientX: 290 }));
+  api.handleReaderPointerUp(event({ clientX: 290, pointerId: 2 }));
+  assert.equal(api.state.currentPageIndex, 1);
+  api.handleReaderPointerDown(event({ clientX: 290 }));
+  api.handleReaderPointerDown(event({ clientX: 290, pointerId: 2, isPrimary: false }));
+  assert.equal(api.getPointerStart(), null);
+  api.handleReaderPointerUp(event({ clientX: 290 }));
+  assert.equal(api.state.currentPageIndex, 1);
+  tap(api, { clientX: 290 });
+  assert.equal(api.state.currentPageIndex, 2);
 });
 
 test("production keyboard handling ignores editable, modified, continuous, and unrelated events", () => {
@@ -248,6 +298,9 @@ test("production keyboard handling ignores editable, modified, continuous, and u
   const meta = event({ key: "ArrowLeft", metaKey: true });
   api.handleReaderKeydown(meta);
   assert.equal(meta.prevented, false);
+  const shift = event({ key: "ArrowLeft", shiftKey: true });
+  api.handleReaderKeydown(shift);
+  assert.equal(shift.prevented, false);
   const editable = event({ key: "ArrowLeft", target: { closest() { return {}; } } });
   api.handleReaderKeydown(editable);
   assert.equal(editable.prevented, false);
@@ -337,8 +390,8 @@ test("production continuous prev and next page navigation translates, syncs, and
   assert.equal(vm.runInContext("__continuousSyncCalls", context), 3);
 });
 
-test("production paged navigation syncs once after movement and never at a boundary no-op", () => {
-  const { api, context } = createRuntime();
+test("production paged navigation syncs once after settled chapter movement and never at a boundary no-op", () => {
+  const { api, context, runTimers } = createRuntime();
   vm.runInContext(`syncProgressToGist = () => {
     globalThis.__syncCalls = (globalThis.__syncCalls || 0) + 1;
     return Promise.resolve();
@@ -347,11 +400,58 @@ test("production paged navigation syncs once after movement and never at a bound
   api.navigatePaged(1);
   assert.equal(vm.runInContext("__syncCalls", context), 1);
   api.navigatePaged(1);
+  assert.equal(vm.runInContext("__syncCalls", context), 1);
+  runTimers();
   assert.equal(vm.runInContext("__syncCalls", context), 2);
   api.state.currentChapterIndex = 0;
   api.state.currentPageIndex = 0;
   api.navigatePaged(-1);
   assert.equal(vm.runInContext("__syncCalls", context), 2);
+});
+
+test("production chapter placement settles state before its single requested sync", () => {
+  const { api, context, runTimers } = createRuntime();
+  vm.runInContext(`
+    recalcPages = () => { state.currentPageIndex = 2; state.currentLineIndex = 20; };
+    syncProgressToGist = () => {
+      globalThis.__settledSync = [state.currentPageIndex, state.currentLineIndex];
+      return Promise.resolve();
+    };
+  `, context);
+  api.renderChapter({ syncAfterPlacement: true });
+  assert.equal(vm.runInContext("globalThis.__settledSync", context), undefined);
+  runTimers();
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__settledSync)", context)), [2, 20]);
+});
+
+test("production cross-chapter navigation syncs only after the destination edge has settled", () => {
+  const { api, context, runTimers } = createRuntime();
+  vm.runInContext(`
+    renderChapter = ({ syncAfterPlacement } = {}) => setTimeout(() => {
+      const backwards = pendingPageEdge === "last";
+      state.currentPageIndex = backwards ? 9 : 0;
+      state.currentLineIndex = backwards ? 90 : 0;
+      pendingPageEdge = null;
+      if (syncAfterPlacement) syncProgressToGist().catch(() => {});
+    }, 1);
+    syncProgressToGist = () => {
+      globalThis.__chapterSyncs = [...(globalThis.__chapterSyncs || []), [state.currentPageIndex, state.currentLineIndex]];
+      return Promise.resolve();
+    };
+  `, context);
+  api.state.currentChapterIndex = 1;
+  api.state.currentPageIndex = 0;
+  api.state.totalPages = 1;
+  api.navigatePaged(-1);
+  assert.equal(vm.runInContext("globalThis.__chapterSyncs", context), undefined);
+  runTimers();
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__chapterSyncs)", context)), [[9, 90]]);
+
+  api.state.currentChapterIndex = 0;
+  api.state.currentPageIndex = 0;
+  api.navigatePaged(1);
+  runTimers();
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__chapterSyncs)", context)), [[9, 90], [0, 0]]);
 });
 
 test("production chapter selector and completion footer reset continuous reading to the chapter top", async () => {
@@ -379,4 +479,21 @@ test("production chapter selector and completion footer reset continuous reading
   assert.equal(api.state.currentLineIndex, 0);
   assert.equal(api.getPendingPageEdge(), null);
   assert.equal(pane.scrollTop, 0);
+});
+
+test("production resize callback ignores an anchor from a superseded chapter render", async () => {
+  const { api, context, document, timers, windowListeners } = await createChapterControlRuntime({ renderStub: false });
+  document.body.classList.add("reader-mode");
+  vm.runInContext(`
+    captureReadingAnchor = () => 17;
+    recalcPages = () => { globalThis.__staleResizeReflows = (globalThis.__staleResizeReflows || 0) + 1; };
+  `, context);
+
+  windowListeners.get("resize")();
+  const staleResize = timers.at(-1);
+  api.state.currentChapterIndex = 1;
+  api.renderChapter();
+  staleResize.callback();
+
+  assert.equal(vm.runInContext("globalThis.__staleResizeReflows || 0", context), 0);
 });
