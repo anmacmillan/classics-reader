@@ -181,8 +181,9 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
         "lang": manifest["lang"],
         "chapters": chapters,
     }
-    if manifest.get("shortTitle"):
-        book["shortTitle"] = manifest["shortTitle"]
+    for key in ("shortTitle", "collection"):
+        if manifest.get(key):
+            book[key] = manifest[key]
     return book, originals
 
 
