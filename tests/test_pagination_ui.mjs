@@ -56,6 +56,8 @@ test('styles the header reading control and paged chapter metadata without leavi
   assert.match(styles, /\.chapter-progress[\s\S]*display:\s*none;/);
   assert.match(styles, /body\.paged-reader[\s\S]*\.chapter-kicker[\s\S]*display:\s*(?:block|inline|flex)/);
   assert.match(styles, /body\.paged-reader[\s\S]*\.chapter-progress[\s\S]*display:\s*(?:block|inline|flex)/);
+  assert.match(styles, /body\.tablet-touch-reader\s+\.app-header\s*\{[\s\S]*padding:\s*12px\s+280px\s+12px\s+120px;/);
   assert.match(styles, /body\.tablet-touch-reader[\s\S]*\.header-context[\s\S]*max-width:\s*[^;]*38vw/);
+  assert.match(styles, /body\.tablet-touch-reader\s+#offline-status\s*\{[\s\S]*display:\s*none;/);
   assert.match(styles, /\.word-tooltip\.hidden\s*\{[\s\S]*pointer-events:\s*none;/);
 });

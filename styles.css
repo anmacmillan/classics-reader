@@ -141,6 +141,14 @@ body.tablet-touch-reader .header-context {
   max-width: min(38vw, 540px);
 }
 
+body.tablet-touch-reader .app-header {
+  padding: 12px 280px 12px 120px;
+}
+
+body.tablet-touch-reader #offline-status {
+  display: none;
+}
+
 .header-context strong,
 .header-context span {
   display: block;
