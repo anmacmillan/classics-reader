@@ -21,6 +21,8 @@ let focusHeaderTimer;
 let tooltipHideTimer;
 let activeVocabularyCandidate;
 let tabletTouchMedia;
+let pendingPageEdge = null;
+let resizeTimer;
 let oldEnglishLookupCache = {};
 try {
   oldEnglishLookupCache = JSON.parse(localStorage.getItem(STORAGE_KEYS.OLD_ENGLISH_CACHE) || "{}") || {};
@@ -100,10 +102,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Resize handler
   window.addEventListener("resize", () => {
-    if (document.querySelector(".reader-pane") && document.getElementById("splash-screen").hasAttribute("hidden")) {
-      // Only recalc if reader is visible
-      recalcPages();
-    }
+    if (!isReaderOpen()) return;
+    const anchorLineIndex = captureReadingAnchor();
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => recalcPages({ anchorLineIndex }), 120);
   });
 });
 
@@ -172,8 +174,57 @@ function applyReadingMode(tabletTouch, anchorLineIndex = state.currentLineIndex)
   if (isReaderOpen()) recalcPages({ anchorLineIndex });
 }
 
+function unwrapReaderPages(wrapper) {
+  if (!wrapper || !Array.from(wrapper.children).some((child) => child.classList?.contains("reader-page"))) {
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+  Array.from(wrapper.children).forEach((child) => {
+    if (child.classList?.contains("reader-page")) {
+      while (child.firstChild) fragment.appendChild(child.firstChild);
+    } else {
+      fragment.appendChild(child);
+    }
+  });
+  wrapper.replaceChildren(fragment);
+}
+
+function outerBlockHeight(block) {
+  const style = window.getComputedStyle(block);
+  return block.getBoundingClientRect().height +
+    (parseFloat(style.marginTop) || 0) +
+    (parseFloat(style.marginBottom) || 0);
+}
+
+function usablePageHeight(pane) {
+  const style = window.getComputedStyle(pane);
+  return pane.clientHeight -
+    (parseFloat(style.paddingTop) || 0) -
+    (parseFloat(style.paddingBottom) || 0);
+}
+
+function firstLineOnPage(page) {
+  const row = page?.querySelector(".chunk-row[data-line-index]");
+  const lineIndex = Number(row?.dataset.lineIndex);
+  return Number.isFinite(lineIndex) ? lineIndex : null;
+}
+
 function captureReadingAnchor() {
-  return state.currentLineIndex;
+  const pane = document.querySelector(".reader-pane");
+  if (!pane) return state.currentLineIndex;
+
+  if (state.readingMode === "paged") {
+    const visiblePage = Array.from(document.querySelectorAll("#chunks-inner > .reader-page"))
+      .find((page) => !page.hidden);
+    return firstLineOnPage(visiblePage) ?? state.currentLineIndex;
+  }
+
+  const paneTop = pane.getBoundingClientRect().top;
+  const row = Array.from(document.querySelectorAll("#chunks-inner .chunk-row[data-line-index]"))
+    .find((candidate) => candidate.getBoundingClientRect().bottom > paneTop);
+  const lineIndex = Number(row?.dataset.lineIndex);
+  return Number.isFinite(lineIndex) ? lineIndex : state.currentLineIndex;
 }
 
 function setupReadingMode() {
@@ -821,17 +872,94 @@ function confettiLoop() {
 
 /* ─── Page Navigation ──────────────────────────────────────────────────────── */
 
-function recalcPages() {
-  const pane = document.querySelector(".reader-pane");
-  const content = document.querySelector(".reader-content");
-  if (!pane || !content || pane.clientHeight === 0) return;
+function updatePageIndicator() {
+  const indicator = document.getElementById("page-indicator");
+  if (indicator) indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
+}
 
-  state.totalPages = Math.max(1, Math.ceil(content.scrollHeight / pane.clientHeight));
-  if (state.currentPageIndex >= state.totalPages) {
-    state.currentPageIndex = state.totalPages - 1;
+function showPagedPage(index) {
+  const pane = document.querySelector(".reader-pane");
+  const pages = Array.from(document.querySelectorAll("#chunks-inner > .reader-page"));
+  if (!pane || !pages.length) return;
+
+  const targetIndex = Math.min(pages.length - 1, Math.max(0, Number(index) || 0));
+  pages.forEach((page, pageIndex) => {
+    page.hidden = pageIndex !== targetIndex;
+  });
+
+  state.currentPageIndex = targetIndex;
+  const lineIndex = firstLineOnPage(pages[targetIndex]);
+  if (lineIndex !== null) state.currentLineIndex = lineIndex;
+  pane.scrollTop = 0;
+  updatePageIndicator();
+}
+
+function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
+  const pane = document.querySelector(".reader-pane");
+  const wrapper = document.getElementById("chunks-inner");
+  if (!pane || !wrapper) return;
+
+  unwrapReaderPages(wrapper);
+  const pageHeight = usablePageHeight(pane);
+  if (!Number.isFinite(pageHeight) || pageHeight <= 0) {
+    throw new RangeError("usable page height must be positive");
   }
 
-  translatePane();
+  const blocks = Array.from(wrapper.children);
+  const heights = new Map(blocks.map((block) => [block, outerBlockHeight(block)]));
+  const measure = (block) => heights.get(block);
+  const groups = ReaderPagination.packBlocks(blocks, pageHeight, measure);
+  const fragment = document.createDocumentFragment();
+
+  groups.forEach((group, pageIndex) => {
+    const page = document.createElement("section");
+    page.className = "reader-page";
+    page.dataset.pageIndex = String(pageIndex);
+    page.style.height = `${pageHeight}px`;
+    page.classList.toggle("reader-page-oversized", group.some((block) => measure(block) > pageHeight));
+    group.forEach((block) => page.appendChild(block));
+    fragment.appendChild(page);
+  });
+  wrapper.replaceChildren(fragment);
+
+  state.totalPages = groups.length;
+  const targetIndex = pendingPageEdge === "last"
+    ? groups.length - 1
+    : pendingPageEdge === "first"
+      ? 0
+      : ReaderPagination.pageIndexForLine(groups, anchorLineIndex);
+  pendingPageEdge = null;
+  showPagedPage(targetIndex);
+}
+
+function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
+  const pane = document.querySelector(".reader-pane");
+  const content = document.querySelector(".reader-content");
+  const wrapper = document.getElementById("chunks-inner");
+  if (!pane || !content || !wrapper || pane.clientHeight === 0) return;
+
+  if (state.readingMode === "paged") {
+    try {
+      composeReaderPages(anchorLineIndex);
+      return;
+    } catch (error) {
+      console.warn("Paged reader unavailable; using continuous layout:", error);
+      state.readingMode = "continuous";
+      document.body.classList.remove("paged-reader");
+      updateReadingModeControl(Boolean(tabletTouchMedia?.matches));
+    }
+  }
+
+  unwrapReaderPages(wrapper);
+  state.totalPages = Math.max(1, Math.ceil(content.scrollHeight / pane.clientHeight));
+  state.currentPageIndex = Math.min(state.totalPages - 1, Math.max(0, state.currentPageIndex));
+
+  const row = wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`);
+  if (row) {
+    pane.scrollTop = row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top;
+  }
+  if (Number.isInteger(anchorLineIndex)) state.currentLineIndex = anchorLineIndex;
+  updatePageIndicator();
 }
 
 function prevPage() {
@@ -854,15 +982,16 @@ function translatePane() {
   const pane = document.querySelector(".reader-pane");
   if (!pane) return;
 
+  if (state.readingMode === "paged") {
+    showPagedPage(state.currentPageIndex);
+    return;
+  }
+
   pane.scrollTo({
     top: state.currentPageIndex * pane.clientHeight,
     behavior: "smooth"
   });
-
-  const indicator = document.getElementById("page-indicator");
-  if (indicator) {
-    indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
-  }
+  updatePageIndicator();
 }
 
 function syncPageFromScroll() {
@@ -876,11 +1005,7 @@ function syncPageFromScroll() {
 
   if (pageIndex === state.currentPageIndex) return;
   state.currentPageIndex = pageIndex;
-
-  const indicator = document.getElementById("page-indicator");
-  if (indicator) {
-    indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
-  }
+  updatePageIndicator();
 
   clearTimeout(scrollSyncTimer);
   scrollSyncTimer = setTimeout(() => {

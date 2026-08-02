@@ -38,7 +38,7 @@ test('initializes the tablet reading-mode controller after theme setup', () => {
   assert.match(app, /ReaderPagination\.persistMode\(localStorage,/);
   assert.match(app, /classList\.toggle\("tablet-touch-reader"/);
   assert.match(app, /classList\.toggle\("paged-reader"/);
-  assert.match(app, /function\s+captureReadingAnchor\s*\(\)\s*\{\s*return\s+state\.currentLineIndex;/);
+  assert.doesNotMatch(app, /function\s+captureReadingAnchor\s*\(\)\s*\{\s*return\s+state\.currentLineIndex;/);
 });
 
 test('renders chapter metadata as an intro block and gives each row a semantic line index', () => {
@@ -72,4 +72,37 @@ test('styles the header reading control and paged chapter metadata without leavi
   assert.match(styles, /body\.tablet-touch-reader[\s\S]*\.header-context[\s\S]*max-width:\s*[^;]*38vw/);
   assert.match(styles, /body\.tablet-touch-reader\s+#offline-status\s*\{[\s\S]*display:\s*none;/);
   assert.match(styles, /\.word-tooltip\.hidden\s*\{[\s\S]*pointer-events:\s*none;/);
+});
+
+test('composes reader blocks with semantic anchors and pagination policy helpers', () => {
+  assert.match(app, /let\s+pendingPageEdge\s*=\s*null\s*;/);
+  assert.match(app, /let\s+resizeTimer\s*;/);
+  assert.match(app, /function\s+unwrapReaderPages\s*\(\s*wrapper\s*\)/);
+  assert.match(app, /function\s+composeReaderPages\s*\(\s*anchorLineIndex\s*=\s*state\.currentLineIndex\s*\)/);
+  assert.match(app, /ReaderPagination\.packBlocks\s*\(\s*blocks\s*,\s*pageHeight\s*,\s*measure\s*\)/);
+  assert.match(app, /ReaderPagination\.pageIndexForLine\s*\(\s*groups\s*,\s*anchorLineIndex\s*\)/);
+  assert.match(app, /function\s+captureReadingAnchor\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?firstLineOnPage[\s\S]*?\.chunk-row[\s\S]*?getBoundingClientRect\(\)[\s\S]*?state\.currentLineIndex/);
+  assert.match(app, /function\s+showPagedPage\s*\(\s*index\s*\)[\s\S]*?\.hidden\s*=[\s\S]*?state\.currentPageIndex[\s\S]*?pane\.scrollTop\s*=\s*0/);
+});
+
+test('uses paged overflow rules while allowing only oversized reader pages to scroll', () => {
+  assert.match(styles, /body\.paged-reader\s+\.reader-pane\s*\{[^}]*overflow:\s*hidden;/);
+  assert.match(styles, /body\.paged-reader\s+\.reader-content\s*\{[^}]*height:\s*100%;/);
+  assert.match(styles, /body\.paged-reader\s+#chunks-inner\s*\{[^}]*height:\s*100%;/);
+  assert.match(styles, /\.reader-page\s*\{[^}]*width:\s*100%;[^}]*overflow:\s*hidden;/);
+  assert.match(styles, /\.reader-page\[hidden\]\s*\{[^}]*display:\s*none;/);
+  assert.match(styles, /\.reader-page-oversized\s*\{[^}]*overflow-y:\s*auto;[^}]*-webkit-overflow-scrolling:\s*touch;/);
+});
+
+test('falls back from failed paged composition without overwriting the reading preference', () => {
+  assert.match(app, /function\s+recalcPages\s*\(\s*\{\s*anchorLineIndex\s*=\s*captureReadingAnchor\(\)\s*\}\s*=\s*\{\}\s*\)/);
+  assert.match(app, /try\s*\{\s*composeReaderPages\(anchorLineIndex\);\s*return;\s*\}\s*catch\s*\([^)]*\)\s*\{[\s\S]*?console\.warn\(\s*["']Paged reader unavailable; using continuous layout:/);
+  const recalc = app.match(/function\s+recalcPages[\s\S]*?\n\}/)?.[0] || '';
+  assert.match(recalc, /state\.readingMode\s*=\s*["']continuous["']/);
+  assert.match(recalc, /classList\.remove\(\s*["']paged-reader["']\s*\)/);
+  assert.doesNotMatch(recalc, /ReaderPagination\.persistMode/);
+});
+
+test('debounces resize composition and retains the semantic anchor captured before reflow', () => {
+  assert.match(app, /window\.addEventListener\(\s*["']resize["']\s*,\s*\(\)\s*=>\s*\{[\s\S]*?if\s*\(\s*!isReaderOpen\(\)\s*\)\s*return;[\s\S]*?const\s+anchorLineIndex\s*=\s*captureReadingAnchor\(\);[\s\S]*?clearTimeout\(resizeTimer\);[\s\S]*?resizeTimer\s*=\s*setTimeout\(\s*\(\)\s*=>\s*recalcPages\(\{\s*anchorLineIndex\s*\}\)\s*,\s*120\s*\)/);
 });

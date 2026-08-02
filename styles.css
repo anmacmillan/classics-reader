@@ -366,6 +366,32 @@ body.tablet-touch-reader #offline-status {
   height: auto;
 }
 
+body.paged-reader .reader-pane {
+  overflow: hidden;
+}
+
+body.paged-reader .reader-content {
+  height: 100%;
+}
+
+body.paged-reader #chunks-inner {
+  height: 100%;
+}
+
+.reader-page {
+  width: 100%;
+  overflow: hidden;
+}
+
+.reader-page[hidden] {
+  display: none;
+}
+
+.reader-page-oversized {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .chapter-bar {
   display: flex;
   align-items: center;
