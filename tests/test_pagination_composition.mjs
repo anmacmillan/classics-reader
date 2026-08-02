@@ -502,13 +502,60 @@ test('paged assembly failure restores every canonical block before continuous fa
   assert.equal(persisted, false);
 });
 
-test('recalcPages safely ignores absent and zero-height reader panes', () => {
+test('recalcPages safely ignores absent reader DOM', () => {
   const absent = createHarness();
   assert.doesNotThrow(() => absent.recalcPages({ anchorLineIndex: 0 }));
+  assert.equal(absent.warnings.length, 0);
+});
+
+test('continuous recalc safely ignores a zero-height reader pane', () => {
   const zero = createHarness();
   const { pane } = reader(zero, { paneHeight: 0 });
+  zero.state.readingMode = 'continuous';
   zero.state.currentLineIndex = 3;
+  zero.state.totalPages = 4;
   zero.recalcPages({ anchorLineIndex: 0 });
   assert.equal(pane.scrollTop, 0);
   assert.equal(zero.state.currentLineIndex, 3);
+  assert.equal(zero.state.totalPages, 4);
+  assert.equal(zero.warnings.length, 0);
+});
+
+test('paged zero-height pane falls back continuously with canonical content and safe page state', () => {
+  let persisted = false;
+  const harness = createHarness({
+    readerPagination: {
+      TABLET_TOUCH_QUERY: '',
+      persistMode() { persisted = true; },
+    },
+  });
+  const { wrapper, indicator } = reader(harness, { paneHeight: 0 });
+  const firstPage = new FakeNode('section'); firstPage.className = 'reader-page';
+  const secondPage = new FakeNode('section'); secondPage.className = 'reader-page';
+  const a = block('a', { lineIndex: 0 });
+  const b = block('b', { lineIndex: 1 });
+  const c = block('c', { lineIndex: 2 });
+  firstPage.append(a, b); secondPage.appendChild(c); wrapper.append(firstPage, secondPage);
+  const modeButton = new FakeNode('button'); modeButton.id = 'reading-mode-btn';
+  harness.body.appendChild(modeButton);
+  harness.state.readingMode = 'paged';
+  harness.state.currentPageIndex = 4;
+  harness.state.totalPages = 5;
+  harness.body.classList.add('paged-reader');
+  harness.setTabletTouchMedia({ matches: true });
+
+  harness.recalcPages({ anchorLineIndex: 1 });
+
+  assert.equal(harness.warnings.length, 1);
+  assert.equal(harness.warnings[0][0], 'Paged reader unavailable; using continuous layout:');
+  assert.equal(harness.state.readingMode, 'continuous');
+  assert.equal(harness.body.classList.contains('paged-reader'), false);
+  assert.deepEqual(wrapper.children, [a, b, c]);
+  assert.equal(wrapper.querySelector('.reader-page'), null);
+  assert.equal(modeButton.hiddenWrites, 1);
+  assert.equal(modeButton.textContent, 'Continuous');
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(harness.state.totalPages, 1);
+  assert.equal(indicator.textContent, '1 / 1');
+  assert.equal(persisted, false);
 });

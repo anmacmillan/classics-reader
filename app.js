@@ -1001,7 +1001,8 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
   const pane = document.querySelector(".reader-pane");
   const content = document.querySelector(".reader-content");
   const wrapper = document.getElementById("chunks-inner");
-  if (!pane || !content || !wrapper || pane.clientHeight === 0) return;
+  if (!pane || !content || !wrapper) return;
+  if (pane.clientHeight === 0 && state.readingMode !== "paged") return;
 
   if (state.readingMode === "paged") {
     try {
@@ -1016,6 +1017,12 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
   }
 
   unwrapReaderPages(wrapper);
+  if (pane.clientHeight === 0) {
+    state.totalPages = 1;
+    state.currentPageIndex = 0;
+    updatePageIndicator();
+    return;
+  }
   state.totalPages = Math.max(1, Math.ceil(content.scrollHeight / pane.clientHeight));
   const maxScrollTop = Math.max(0, content.scrollHeight - pane.clientHeight);
   const clampScrollTop = (value) => Math.min(maxScrollTop, Math.max(0, Number(value) || 0));
