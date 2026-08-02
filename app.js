@@ -5,6 +5,8 @@ const state = {
   currentBookIndex: 0,
   currentChapterIndex: 0,
   currentPageIndex: 0,
+  currentLineIndex: 0,
+  readingMode: "continuous",
   totalPages: 1,
   libraryGroupKey: null,
   overviewBookIndex: null,
@@ -18,6 +20,7 @@ let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
 let activeVocabularyCandidate;
+let tabletTouchMedia;
 let oldEnglishLookupCache = {};
 try {
   oldEnglishLookupCache = JSON.parse(localStorage.getItem(STORAGE_KEYS.OLD_ENGLISH_CACHE) || "{}") || {};
@@ -44,6 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadCompletedFromStorage();
   loadVocabularyFromStorage();
   setupTheme();
+  setupReadingMode();
   renderLibrary();
   setupFocusHeader();
   setupVocabulary();
@@ -136,6 +140,59 @@ function setupTheme() {
     const next = ({ dark: "light", light: "auto", auto: "dark" })[getThemeSetting()] || "dark";
     localStorage.setItem(STORAGE_KEYS.THEME, next);
     applyTheme(next);
+  });
+}
+
+/* ─── Tablet Reading Mode ───────────────────────────────────────────────── */
+
+function isReaderOpen() {
+  return document.body.classList.contains("reader-mode") &&
+    !document.getElementById("app-workspace")?.hasAttribute("hidden");
+}
+
+function updateReadingModeControl(tabletTouch) {
+  const button = document.getElementById("reading-mode-btn");
+  if (!button) return;
+
+  const paged = tabletTouch && state.readingMode === "paged";
+  button.hidden = !tabletTouch;
+  button.textContent = paged ? "Paged" : "Continuous";
+  button.setAttribute("aria-pressed", String(paged));
+}
+
+function applyReadingMode(tabletTouch, anchorLineIndex = state.currentLineIndex) {
+  const savedMode = ReaderPagination.savedMode(localStorage);
+  const effectiveMode = ReaderPagination.effectiveMode({ tabletTouch, savedMode });
+  state.readingMode = effectiveMode;
+
+  document.body.classList.toggle("tablet-touch-reader", tabletTouch);
+  document.body.classList.toggle("paged-reader", effectiveMode === "paged");
+  updateReadingModeControl(tabletTouch);
+
+  if (isReaderOpen()) recalcPages({ anchorLineIndex });
+}
+
+function captureReadingAnchor() {
+  return state.currentLineIndex;
+}
+
+function setupReadingMode() {
+  tabletTouchMedia = window.matchMedia?.(ReaderPagination.TABLET_TOUCH_QUERY);
+  applyReadingMode(Boolean(tabletTouchMedia?.matches));
+
+  tabletTouchMedia?.addEventListener?.("change", (event) => {
+    applyReadingMode(event.matches, captureReadingAnchor());
+  });
+
+  document.getElementById("reading-mode-btn")?.addEventListener("click", () => {
+    if (!tabletTouchMedia?.matches) return;
+    const nextMode = state.readingMode === "paged" ? "continuous" : "paged";
+    ReaderPagination.persistMode(localStorage, nextMode);
+    applyReadingMode(tabletTouchMedia.matches, captureReadingAnchor());
+  });
+
+  document.fonts?.ready?.then(() => {
+    if (isReaderOpen()) applyReadingMode(Boolean(tabletTouchMedia?.matches), captureReadingAnchor());
   });
 }
 
@@ -541,13 +598,27 @@ function renderChapter() {
   wrapper.id = "chunks-inner";
   content.appendChild(wrapper);
 
+  const intro = document.createElement("section");
+  intro.className = "chapter-intro";
+
   // Title row
   const titleRow = document.createElement("div");
-  titleRow.className = "chapter-row-title";
-  titleRow.innerHTML = `
-    <h2 style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 24px;">${ch.title || "Tekst"}</h2>
-  `;
-  wrapper.appendChild(titleRow);
+  titleRow.className = "chapter-row-title chapter-banner";
+
+  const kicker = document.createElement("p");
+  kicker.className = "chapter-kicker";
+  kicker.textContent = workDisplayTitle(book);
+  titleRow.appendChild(kicker);
+
+  const heading = document.createElement("h2");
+  heading.textContent = ch.title || "Tekst";
+  titleRow.appendChild(heading);
+
+  const progress = document.createElement("p");
+  progress.className = "chapter-progress";
+  progress.textContent = `Chapter ${state.currentChapterIndex + 1} of ${book.chapters.length}`;
+  titleRow.appendChild(progress);
+  intro.appendChild(titleRow);
 
   if (ch.translationCredit) {
     const credit = document.createElement("p");
@@ -565,8 +636,10 @@ function renderChapter() {
       credit.append(ch.translationCredit);
     }
 
-    wrapper.appendChild(credit);
+    intro.appendChild(credit);
   }
+
+  wrapper.appendChild(intro);
 
   if (!usableTranslationTracks.length) {
     const notice = document.createElement("p");
@@ -579,6 +652,7 @@ function renderChapter() {
   ch.lines.forEach((line, lineIdx) => {
     const row = document.createElement("div");
     row.className = "chunk-row";
+    row.dataset.lineIndex = String(lineIdx);
     const currentLineNumber = startLine + lineIdx;
     const speaker = ch.speakers?.find(({ start, end }) =>
       currentLineNumber >= start && currentLineNumber <= end

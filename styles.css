@@ -126,10 +126,19 @@ body.reader-mode .reader-pane {
   right: 96px;
 }
 
+.header-reading-mode {
+  position: absolute;
+  right: 164px;
+}
+
 .header-context {
   min-width: 0;
   max-width: min(58vw, 760px);
   text-align: center;
+}
+
+body.tablet-touch-reader .header-context {
+  max-width: min(38vw, 540px);
 }
 
 .header-context strong,
@@ -416,6 +425,53 @@ body.reader-mode .reader-pane {
   border-bottom: none;
 }
 
+.chapter-intro {
+  margin-bottom: 24px;
+}
+
+.chapter-banner h2 {
+  margin-bottom: 24px;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+}
+
+.chapter-kicker,
+.chapter-progress {
+  display: none;
+}
+
+body.paged-reader .chapter-intro {
+  margin-bottom: 32px;
+  padding: 16px 18px;
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  background: var(--bg-card);
+}
+
+body.paged-reader .chapter-banner h2 {
+  margin-bottom: 8px;
+}
+
+body.paged-reader .chapter-kicker,
+body.paged-reader .chapter-progress {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body.paged-reader .chapter-kicker {
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
+body.paged-reader .chapter-progress {
+  color: var(--text-muted);
+}
+
 .line-number {
   position: absolute;
   top: 0.55rem;
@@ -584,6 +640,7 @@ body.reader-mode .reader-pane {
 .word-tooltip.hidden {
   opacity: 0;
   transform: translateY(8px);
+  pointer-events: none;
 }
 
 .tooltip-arrow {

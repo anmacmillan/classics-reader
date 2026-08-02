@@ -20,6 +20,7 @@
       <span id="header-secondary">Latin · Greek</span>
     </div>
     <button id="theme-btn" class="btn header-theme" aria-label="Toggle theme">Dark</button>
+    <button id="reading-mode-btn" class="btn header-reading-mode" aria-label="Reading layout" aria-pressed="true" hidden>Paged</button>
     <span id="offline-status" title="Offline availability">Preparing offline…</span>
     <button id="vocabulary-btn" class="btn header-vocabulary" aria-controls="vocabulary-panel">
       Words <span id="vocabulary-count">0</span>
@@ -80,6 +81,7 @@
   <script src="generated/imported-latin-dictionary.js?v=20260722-5"></script>
   <script src="generated/imported-greek-dictionary.js?v=20260723-4"></script>
   <script src="generated/imported-old-english-dictionary.js?v=20260723-3"></script>
+  <script src="pagination.js?v=20260802-2"></script>
   <script src="app.js?v=20260802-1"></script>
   <script>
     const offlineStatus = document.getElementById("offline-status");
