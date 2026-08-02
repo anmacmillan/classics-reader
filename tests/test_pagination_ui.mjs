@@ -106,3 +106,17 @@ test('falls back from failed paged composition without overwriting the reading p
 test('debounces resize composition and retains the semantic anchor captured before reflow', () => {
   assert.match(app, /window\.addEventListener\(\s*["']resize["']\s*,\s*\(\)\s*=>\s*\{[\s\S]*?if\s*\(\s*!isReaderOpen\(\)\s*\)\s*return;[\s\S]*?const\s+anchorLineIndex\s*=\s*captureReadingAnchor\(\);[\s\S]*?clearTimeout\(resizeTimer\);[\s\S]*?resizeTimer\s*=\s*setTimeout\(\s*\(\)\s*=>\s*recalcPages\(\{\s*anchorLineIndex\s*\}\)\s*,\s*120\s*\)/);
 });
+
+test('wires touch and keyboard page turns through the pagination policy without overlay zones', () => {
+  assert.match(app, /readerPane\.addEventListener\(\s*["']pointerup["']\s*,\s*handleReaderPointerUp\s*\)/);
+  assert.match(app, /document\.addEventListener\(\s*["']keydown["']\s*,\s*handleReaderKeydown\s*\)/);
+  assert.match(app, /function\s+handleReaderPointerUp\s*\(\s*event\s*\)[\s\S]*?event\.pointerType\s*!==\s*["']touch["'][\s\S]*?ReaderPagination\.isInteractiveTarget\(event\.target\)[\s\S]*?window\.getSelection\?\.\(\)\?\.toString\(\)[\s\S]*?ReaderPagination\.pageTurnDirection\(event\.clientX,\s*rect\.left,\s*rect\.width\)/);
+  assert.match(app, /function\s+handleReaderKeydown\s*\(\s*event\s*\)[\s\S]*?event\.altKey\s*\|\|\s*event\.ctrlKey\s*\|\|\s*event\.metaKey[\s\S]*?ReaderPagination\.isInteractiveTarget\(event\.target\)[\s\S]*?event\.key\s*===\s*["']ArrowLeft["'][\s\S]*?event\.preventDefault\(\)/);
+  assert.match(app, /function\s+navigatePaged\s*\(\s*direction\s*\)[\s\S]*?ReaderPagination\.navigationDecision\([\s\S]*?pendingPageEdge\s*=\s*decision\.edge[\s\S]*?renderChapter\(\)/);
+  assert.match(app, /function\s+prevPage\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?navigatePaged\(-1\)/);
+  assert.match(app, /function\s+nextPage\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?navigatePaged\(1\)/);
+  assert.match(app, /function\s+translatePane\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?showPagedPage\(state\.currentPageIndex\)/);
+  assert.match(app, /function\s+syncPageFromScroll\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["']\)\s*return;[\s\S]*?const\s+lineIndex\s*=\s*captureReadingAnchor\(\)[\s\S]*?pageIndex\s*===\s*state\.currentPageIndex\s*&&\s*lineIndex\s*===\s*state\.currentLineIndex/);
+  assert.match(app, /function\s+selectBook\s*\(\s*idx\s*,\s*chapterIndex\s*,\s*lineIndex\s*=\s*0\s*\)[\s\S]*?state\.currentLineIndex\s*=\s*Number\.isInteger\(lineIndex\)/);
+  assert.doesNotMatch(index, /page-turn-zone|page-turn-overlay|reader-page-turn/);
+});

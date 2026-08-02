@@ -64,7 +64,7 @@ function createRuntime(classics) {
 
 function setBooks(context, books, currentBookIndex = 0) {
   vm.runInContext(
-    `state.books = ${JSON.stringify(books)}; state.currentBookIndex = ${currentBookIndex}; state.currentChapterIndex = 0; state.currentPageIndex = 0; state.vocabulary = []; state.completed = {};`,
+    `state.books = ${JSON.stringify(books)}; state.currentBookIndex = ${currentBookIndex}; state.currentChapterIndex = 0; state.currentPageIndex = 0; state.currentLineIndex = 0; state.vocabulary = []; state.completed = {};`,
     context
   );
 }
@@ -75,6 +75,18 @@ function currentState(context) {
 
 async function restore(context) {
   await vm.runInContext("loadProgressFromGist()", context);
+}
+
+function observeRestorePlacement(context) {
+  vm.runInContext(`
+    const originalSelectBook = selectBook;
+    selectBook = (...args) => {
+      globalThis.__restoreSelectArgs = args;
+      return originalSelectBook(...args);
+    };
+    recalcPages = (options) => { globalThis.__restoreRecalcArgs = options; };
+    translatePane = () => { globalThis.__restoreTranslateCount = (globalThis.__restoreTranslateCount || 0) + 1; };
+  `, context);
 }
 
 test("legacy Gist resolves selection and chaptersRead by saved title after an insertion", async () => {
@@ -124,6 +136,77 @@ test("sync retains legacy fields while writing stable IDs", async () => {
   assert.equal(saved.currentBookIndex, 1);
   assert.deepEqual(saved.books.map((entry) => entry.id), ["caesar", "cicero"]);
   assert.deepEqual(saved.books.map((entry) => entry.title), ["Caesar", "Cicero"]);
+});
+
+test("sync writes semantic line progress beside legacy page progress without syncing device-local mode", async () => {
+  const { context, patches } = createRuntime({});
+  setBooks(context, [book("caesar", "Caesar")]);
+  vm.runInContext('state.currentPageIndex = 4; state.currentLineIndex = 17; state.readingMode = "paged"', context);
+
+  await vm.runInContext("syncProgressToGist()", context);
+
+  const saved = JSON.parse(patches.at(-1).files["slovo_progress.json"].content).classics;
+  assert.equal(saved.currentPageIndex, 4);
+  assert.equal(saved.currentLineIndex, 17);
+  assert.equal(Object.hasOwn(saved, "readingMode"), false);
+});
+
+test("restore prefers a valid semantic line while retaining legacy page progress", async () => {
+  const { context } = createRuntime({
+    currentBookId: "caesar",
+    currentBookIndex: 0,
+    currentChapterIndex: 1,
+    currentPageIndex: 4,
+    currentLineIndex: 17,
+    books: [{ id: "caesar", title: "Caesar", chaptersRead: 1 }]
+  });
+  setBooks(context, [book("caesar", "Caesar")]);
+  observeRestorePlacement(context);
+
+  await restore(context);
+
+  const state = currentState(context);
+  assert.equal(state.currentChapterIndex, 1);
+  assert.equal(state.currentPageIndex, 4);
+  assert.equal(state.currentLineIndex, 17);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 17]);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 17 });
+  assert.equal(vm.runInContext("globalThis.__restoreTranslateCount || 0", context), 0);
+});
+
+test("restore safely defaults absent semantic line progress and preserves legacy-only payloads", async () => {
+  const { context } = createRuntime({
+    currentBookIndex: 0,
+    currentChapterIndex: 1,
+    currentPageIndex: 3,
+    books: [{ id: "caesar", title: "Caesar", chaptersRead: 1 }]
+  });
+  setBooks(context, [book("caesar", "Caesar")]);
+  observeRestorePlacement(context);
+
+  await restore(context);
+
+  const state = currentState(context);
+  assert.equal(state.currentPageIndex, 3);
+  assert.equal(state.currentLineIndex, 0);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 0]);
+  assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 0 });
+  assert.equal(vm.runInContext("__restoreTranslateCount", context), 1);
+});
+
+test("restore safely defaults invalid semantic line progress", async () => {
+  const { context } = createRuntime({
+    currentBookIndex: 0,
+    currentChapterIndex: 1,
+    currentPageIndex: 3,
+    currentLineIndex: -1,
+    books: [{ id: "caesar", title: "Caesar", chaptersRead: 1 }]
+  });
+  setBooks(context, [book("caesar", "Caesar")]);
+
+  await restore(context);
+
+  assert.equal(currentState(context).currentLineIndex, 0);
 });
 
 test("malformed legacy indexes fall back safely without selecting an undefined book", async () => {

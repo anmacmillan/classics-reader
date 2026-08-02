@@ -85,6 +85,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     chSelect.addEventListener("change", (e) => {
       state.currentChapterIndex = parseInt(e.target.value);
       state.currentPageIndex = 0;
+      state.currentLineIndex = 0;
+      pendingPageEdge = "first";
       renderChapter();
     });
   }
@@ -95,7 +97,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   const readerPane = document.querySelector(".reader-pane");
   if (readerPane) {
     readerPane.addEventListener("scroll", syncPageFromScroll, { passive: true });
+    readerPane.addEventListener("pointerup", handleReaderPointerUp);
   }
+  document.addEventListener("keydown", handleReaderKeydown);
 
   // Load from Gist
   await loadProgressFromGist();
@@ -569,7 +573,7 @@ function workDisplayTitle(book) {
   return book.title;
 }
 
-function selectBook(idx, chapterIndex) {
+function selectBook(idx, chapterIndex, lineIndex = 0) {
   const book = state.books[idx];
   const defaultChapterIndex = Number.isInteger(book.defaultChapterIndex)
     ? book.defaultChapterIndex
@@ -580,6 +584,8 @@ function selectBook(idx, chapterIndex) {
     ? chapterIndex
     : defaultChapterIndex;
   state.currentPageIndex = 0;
+  state.currentLineIndex = Number.isInteger(lineIndex) && lineIndex >= 0 ? lineIndex : 0;
+  pendingPageEdge = null;
 
   const splash = document.getElementById("splash-screen");
   const workspace = document.getElementById("app-workspace");
@@ -794,6 +800,8 @@ function buildCompletionFooter(book) {
       next.addEventListener("click", () => {
         state.currentChapterIndex = nextIdx;
         state.currentPageIndex = 0;
+        state.currentLineIndex = 0;
+        pendingPageEdge = "first";
         const chSelect = document.getElementById("chapter-select");
         if (chSelect) chSelect.value = nextIdx;
         renderChapter();
@@ -993,6 +1001,10 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
 }
 
 function prevPage() {
+  if (state.readingMode === "paged") {
+    navigatePaged(-1);
+    return;
+  }
   if (state.currentPageIndex > 0) {
     state.currentPageIndex--;
     translatePane();
@@ -1001,11 +1013,40 @@ function prevPage() {
 }
 
 function nextPage() {
+  if (state.readingMode === "paged") {
+    navigatePaged(1);
+    return;
+  }
   if (state.currentPageIndex < state.totalPages - 1) {
     state.currentPageIndex++;
     translatePane();
     syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
   }
+}
+
+function navigatePaged(direction) {
+  const book = state.books[state.currentBookIndex];
+  const decision = ReaderPagination.navigationDecision({
+    direction,
+    pageIndex: state.currentPageIndex,
+    totalPages: state.totalPages,
+    chapterIndex: state.currentChapterIndex,
+    chapterCount: book?.chapters.length,
+  });
+  if (decision.type === "none") return;
+
+  if (decision.type === "page") {
+    showPagedPage(decision.pageIndex);
+  } else {
+    state.currentChapterIndex = decision.chapterIndex;
+    state.currentPageIndex = 0;
+    state.currentLineIndex = 0;
+    pendingPageEdge = decision.edge;
+    const chSelect = document.getElementById("chapter-select");
+    if (chSelect) chSelect.value = decision.chapterIndex;
+    renderChapter();
+  }
+  syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
 }
 
 function translatePane() {
@@ -1025,6 +1066,7 @@ function translatePane() {
 }
 
 function syncPageFromScroll() {
+  if (state.readingMode === "paged") return;
   const pane = document.querySelector(".reader-pane");
   if (!pane || pane.clientHeight === 0) return;
 
@@ -1032,15 +1074,40 @@ function syncPageFromScroll() {
     state.totalPages - 1,
     Math.max(0, Math.round(pane.scrollTop / pane.clientHeight))
   );
+  const lineIndex = captureReadingAnchor();
 
-  if (pageIndex === state.currentPageIndex) return;
+  if (pageIndex === state.currentPageIndex && lineIndex === state.currentLineIndex) return;
   state.currentPageIndex = pageIndex;
+  state.currentLineIndex = lineIndex;
   updatePageIndicator();
 
   clearTimeout(scrollSyncTimer);
   scrollSyncTimer = setTimeout(() => {
     syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
   }, 500);
+}
+
+function handleReaderPointerUp(event) {
+  if (state.readingMode !== "paged" || event.pointerType !== "touch") return;
+  if (ReaderPagination.isInteractiveTarget(event.target)) return;
+  if (window.getSelection?.()?.toString()) return;
+  const rect = event.currentTarget.getBoundingClientRect();
+  const direction = ReaderPagination.pageTurnDirection(event.clientX, rect.left, rect.width);
+  if (direction < 0) prevPage();
+  if (direction > 0) nextPage();
+}
+
+function handleReaderKeydown(event) {
+  if (state.readingMode !== "paged") return;
+  if (event.altKey || event.ctrlKey || event.metaKey) return;
+  if (ReaderPagination.isInteractiveTarget(event.target) || ReaderPagination.isInteractiveTarget(document.activeElement)) return;
+  if (event.key === "ArrowLeft") {
+    event.preventDefault();
+    prevPage();
+  } else if (event.key === "ArrowRight") {
+    event.preventDefault();
+    nextPage();
+  }
 }
 
 /* ─── Word Lookup Helpers ───────────────────────────────────────────────── */
@@ -1524,6 +1591,7 @@ async function syncProgressToGist() {
     currentBookIndex: state.currentBookIndex,
     currentChapterIndex: state.currentChapterIndex,
     currentPageIndex: state.currentPageIndex,
+    currentLineIndex: state.currentLineIndex,
     lastUpdated: new Date().toISOString(),
     vocabulary: state.vocabulary,
     completed: state.completed,
@@ -1603,9 +1671,15 @@ async function loadProgressFromGist() {
     }
     if (cl.currentBookId !== undefined || cl.currentBookIndex !== undefined) {
       const resolvedBookIndex = resolveCurrentBookIndex(cl);
+      const savedPageIndex = Number.isInteger(cl.currentPageIndex) && cl.currentPageIndex >= 0
+        ? cl.currentPageIndex
+        : 0;
+      const hasSemanticLineIndex = Number.isInteger(cl.currentLineIndex) && cl.currentLineIndex >= 0;
+      const savedLineIndex = hasSemanticLineIndex ? cl.currentLineIndex : 0;
       state.currentBookIndex = resolvedBookIndex;
       state.currentChapterIndex = cl.currentChapterIndex || 0;
-      state.currentPageIndex = cl.currentPageIndex || 0;
+      state.currentPageIndex = savedPageIndex;
+      state.currentLineIndex = savedLineIndex;
 
       // Restore progress to storage (per-book chaptersRead)
       restoreBookProgress(cl.books);
@@ -1620,12 +1694,14 @@ async function loadProgressFromGist() {
       const savedChapterIndex = cl.currentChapterIndex > 0
         ? cl.currentChapterIndex
         : undefined;
-      selectBook(resolvedBookIndex, savedChapterIndex);
+      selectBook(resolvedBookIndex, savedChapterIndex, state.currentLineIndex);
 
-      // Restore page after render
+      // Recompose from a stable semantic anchor. Older continuous sessions retain
+      // their viewport-page behavior because they have no line anchor.
       setTimeout(() => {
-        state.currentPageIndex = cl.currentPageIndex || 0;
-        translatePane();
+        state.currentPageIndex = savedPageIndex;
+        recalcPages({ anchorLineIndex: state.currentLineIndex });
+        if (!hasSemanticLineIndex && state.readingMode === "continuous") translatePane();
       }, 200);
     }
   }
