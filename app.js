@@ -909,18 +909,27 @@ function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
   const heights = new Map(blocks.map((block) => [block, outerBlockHeight(block)]));
   const measure = (block) => heights.get(block);
   const groups = ReaderPagination.packBlocks(blocks, pageHeight, measure);
-  const fragment = document.createDocumentFragment();
+  try {
+    const fragment = document.createDocumentFragment();
 
-  groups.forEach((group, pageIndex) => {
-    const page = document.createElement("section");
-    page.className = "reader-page";
-    page.dataset.pageIndex = String(pageIndex);
-    page.style.height = `${pageHeight}px`;
-    page.classList.toggle("reader-page-oversized", group.some((block) => measure(block) > pageHeight));
-    group.forEach((block) => page.appendChild(block));
-    fragment.appendChild(page);
-  });
-  wrapper.replaceChildren(fragment);
+    groups.forEach((group, pageIndex) => {
+      const page = document.createElement("section");
+      page.className = "reader-page";
+      page.dataset.pageIndex = String(pageIndex);
+      page.style.height = `${pageHeight}px`;
+      page.classList.toggle("reader-page-oversized", group.some((block) => measure(block) > pageHeight));
+      group.forEach((block) => page.appendChild(block));
+      fragment.appendChild(page);
+    });
+    wrapper.replaceChildren(fragment);
+  } catch (error) {
+    try {
+      wrapper.replaceChildren(...blocks);
+    } catch (_restoreError) {
+      // Preserve the composition error for recalcPages to handle.
+    }
+    throw error;
+  }
 
   state.totalPages = groups.length;
   const targetIndex = pendingPageEdge === "last"

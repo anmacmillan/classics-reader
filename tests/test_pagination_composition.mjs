@@ -65,6 +65,10 @@ class FakeNode {
     if (child.parentNode) child.parentNode.removeChild(child);
     this.children.push(child);
     child.parentNode = this;
+    if (this.throwAfterBlockMove && !this.didThrowAfterBlockMove && !child.isFragment) {
+      this.didThrowAfterBlockMove = true;
+      throw new Error('page assembly failed after block move');
+    }
     return child;
   }
   append(...children) { children.forEach((child) => this.appendChild(child)); }
@@ -97,12 +101,16 @@ class FakeFragment extends FakeNode {
   constructor() { super('#fragment'); this.isFragment = true; }
 }
 
-function createHarness({ readerPagination } = {}) {
+function createHarness({ readerPagination, throwAfterBlockMove = false } = {}) {
   const body = new FakeNode('body');
   const warnings = [];
   const document = {
     body,
-    createElement: (tagName) => new FakeNode(tagName),
+    createElement: (tagName) => {
+      const node = new FakeNode(tagName);
+      if (throwAfterBlockMove && tagName === 'section') node.throwAfterBlockMove = true;
+      return node;
+    },
     createDocumentFragment: () => new FakeFragment(),
     addEventListener() {},
     querySelector(selector) { return body.querySelector(selector); },
@@ -339,6 +347,36 @@ test('paged composition failure only changes runtime layout state', () => {
   assert.equal(modeButton.hidden, false);
   assert.equal(modeButton.textContent, 'Continuous');
   assert.equal(modeButton.attributes['aria-pressed'], 'false');
+});
+
+test('paged assembly failure restores every canonical block before continuous fallback', () => {
+  let persisted = false;
+  const harness = createHarness({
+    throwAfterBlockMove: true,
+    readerPagination: {
+      TABLET_TOUCH_QUERY: '',
+      packBlocks(blocks) { return [blocks]; },
+      pageIndexForLine() { return 0; },
+      persistMode() { persisted = true; },
+    },
+  });
+  const { wrapper } = reader(harness);
+  const a = block('a', { lineIndex: 0 });
+  const b = block('b', { lineIndex: 1 });
+  const c = block('c', { lineIndex: 2 });
+  wrapper.append(a, b, c);
+  harness.state.readingMode = 'paged';
+  harness.body.classList.add('paged-reader');
+
+  harness.recalcPages({ anchorLineIndex: 1 });
+
+  assert.deepEqual(wrapper.children, [a, b, c]);
+  assert.deepEqual(wrapper.children.map((node) => node.id), ['a', 'b', 'c']);
+  assert.equal(new Set(wrapper.children).size, 3);
+  assert.equal(wrapper.querySelector('.reader-page'), null);
+  assert.equal(harness.state.readingMode, 'continuous');
+  assert.equal(harness.body.classList.contains('paged-reader'), false);
+  assert.equal(persisted, false);
 });
 
 test('recalcPages safely ignores absent and zero-height reader panes', () => {
