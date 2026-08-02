@@ -17,6 +17,46 @@ function plain(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
+function fakeElement({ tag = 'span', classes = [], attributes = {}, parent = null } = {}) {
+  const classSet = new Set(classes);
+  const attributeMap = new Map(Object.entries(attributes));
+  const element = {
+    tagName: tag.toUpperCase(),
+    parentElement: parent,
+    classList: {
+      contains(name) {
+        return classSet.has(name);
+      },
+    },
+    getAttribute(name) {
+      return attributeMap.has(name) ? attributeMap.get(name) : null;
+    },
+  };
+
+  element.closest = (selector) => {
+    const selectors = selector.split(',').map((part) => part.trim());
+    for (let current = element; current; current = current.parentElement) {
+      if (selectors.some((part) => matchesSimpleSelector(current, part))) return current;
+    }
+    return null;
+  };
+
+  return element;
+}
+
+function matchesSimpleSelector(element, selector) {
+  if (selector.startsWith('.')) return element.classList.contains(selector.slice(1));
+
+  const attribute = selector.match(/^\[([^=\]]+)(?:=['"]?([^'"\]]+)['"]?)?\]$/);
+  if (attribute) {
+    const [, name, value] = attribute;
+    const actual = element.getAttribute(name);
+    return actual !== null && (value === undefined || actual === value);
+  }
+
+  return element.tagName.toLowerCase() === selector;
+}
+
 test('exposes the exact tablet query and persistence key', () => {
   const policy = loadPagination();
 
@@ -76,21 +116,32 @@ test('uses 28 percent edge zones for taps', () => {
   assert.equal(policy.tapDirection(10, 0), 0);
 });
 
-test('suppresses tap navigation for interactive targets and reader annotations', () => {
+test('suppresses tap navigation for interactive targets and their descendants', () => {
   const policy = loadPagination();
-  const selectorCalls = [];
-  const interactive = {
-    closest(selector) {
-      selectorCalls.push(selector);
-      return selector.includes('.reader-word') ? {} : null;
-    },
-  };
+  for (const tag of ['a', 'button', 'input', 'select', 'textarea', 'summary']) {
+    assert.equal(policy.isInteractiveTarget(fakeElement({ tag })), true, `direct ${tag}`);
+    assert.equal(
+      policy.isInteractiveTarget(fakeElement({ parent: fakeElement({ tag }) })),
+      true,
+      `descendant of ${tag}`,
+    );
+  }
 
-  assert.equal(policy.isInteractiveTarget(interactive), true);
-  assert.match(selectorCalls[0], /a/);
-  assert.match(selectorCalls[0], /\[contenteditable\]/);
-  assert.match(selectorCalls[0], /\.reader-word/);
-  assert.equal(policy.isInteractiveTarget({ closest: () => null }), false);
+  assert.equal(
+    policy.isInteractiveTarget(fakeElement({ parent: fakeElement({ attributes: { contenteditable: 'true' } }) })),
+    true,
+  );
+  assert.equal(policy.isInteractiveTarget(fakeElement({ classes: ['dict-word'] })), true);
+  assert.equal(
+    policy.isInteractiveTarget(fakeElement({ parent: fakeElement({ classes: ['reader-word'] }) })),
+    true,
+  );
+  assert.equal(policy.isInteractiveTarget(fakeElement({ attributes: { 'data-reader-word': '' } })), true);
+  assert.equal(
+    policy.isInteractiveTarget(fakeElement({ parent: fakeElement({ classes: ['word-tooltip'], attributes: { id: 'word-tooltip' } }) })),
+    true,
+  );
+  assert.equal(policy.isInteractiveTarget(fakeElement()), false);
   assert.equal(policy.isInteractiveTarget({}), false);
 });
 
