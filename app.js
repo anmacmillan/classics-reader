@@ -906,10 +906,9 @@ function syntaxRoleLabel(role) {
 }
 
 function syntaxPastel(group) {
-  const palette = ["#dbeafe", "#dcfce7", "#fef3c7", "#fce7f3", "#ede9fe", "#cffafe"];
   let hash = 0;
   for (const char of String(group || "")) hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
-  return palette[hash % palette.length];
+  return `var(--syntax-pastel-${hash % 6})`;
 }
 
 function renderInteractiveLine(line, lang, syntaxTokens = null) {
