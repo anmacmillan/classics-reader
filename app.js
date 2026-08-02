@@ -952,13 +952,34 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
 
   unwrapReaderPages(wrapper);
   state.totalPages = Math.max(1, Math.ceil(content.scrollHeight / pane.clientHeight));
-  state.currentPageIndex = Math.min(state.totalPages - 1, Math.max(0, state.currentPageIndex));
+  const maxScrollTop = Math.max(0, content.scrollHeight - pane.clientHeight);
+  const clampScrollTop = (value) => Math.min(maxScrollTop, Math.max(0, Number(value) || 0));
+  const validAnchor = Number.isInteger(anchorLineIndex) && anchorLineIndex >= 0;
+  const row = validAnchor
+    ? wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`)
+    : null;
 
-  const row = wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`);
+  pane.scrollTop = clampScrollTop(row
+    ? row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top
+    : pane.scrollTop);
+
   if (row) {
-    pane.scrollTop = row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top;
+    state.currentLineIndex = anchorLineIndex;
+  } else {
+    const currentLineIsValid = Number.isInteger(state.currentLineIndex) && state.currentLineIndex >= 0 &&
+      wrapper.querySelector(`.chunk-row[data-line-index="${state.currentLineIndex}"]`);
+    if (!currentLineIsValid) {
+      const paneTop = pane.getBoundingClientRect().top;
+      const visibleRow = Array.from(wrapper.querySelectorAll(".chunk-row[data-line-index]"))
+        .find((candidate) => candidate.getBoundingClientRect().bottom > paneTop);
+      const visibleLineIndex = Number(visibleRow?.dataset.lineIndex);
+      state.currentLineIndex = Number.isInteger(visibleLineIndex) && visibleLineIndex >= 0 ? visibleLineIndex : 0;
+    }
   }
-  if (Number.isInteger(anchorLineIndex)) state.currentLineIndex = anchorLineIndex;
+  state.currentPageIndex = Math.min(
+    state.totalPages - 1,
+    Math.max(0, Math.round(pane.scrollTop / pane.clientHeight))
+  );
   updatePageIndicator();
 }
 
