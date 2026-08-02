@@ -976,9 +976,17 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
     ? wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`)
     : null;
 
-  pane.scrollTop = clampScrollTop(row
-    ? row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top
-    : pane.scrollTop);
+  if (pendingPageEdge === "first") {
+    pane.scrollTop = 0;
+    pendingPageEdge = null;
+  } else if (pendingPageEdge === "last") {
+    pane.scrollTop = maxScrollTop;
+    pendingPageEdge = null;
+  } else {
+    pane.scrollTop = clampScrollTop(row
+      ? row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top
+      : pane.scrollTop);
+  }
 
   if (row) {
     state.currentLineIndex = anchorLineIndex;
@@ -1701,7 +1709,10 @@ async function loadProgressFromGist() {
       setTimeout(() => {
         state.currentPageIndex = savedPageIndex;
         recalcPages({ anchorLineIndex: state.currentLineIndex });
-        if (!hasSemanticLineIndex && state.readingMode === "continuous") translatePane();
+        if (!hasSemanticLineIndex && state.readingMode === "continuous") {
+          state.currentPageIndex = savedPageIndex;
+          translatePane();
+        }
       }, 200);
     }
   }

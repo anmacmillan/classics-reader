@@ -286,6 +286,26 @@ test('continuous recalc restores a valid anchor and derives page state from scro
   assert.equal(indicator.textContent, '3 / 8');
 });
 
+test('continuous recalc consumes a pending chapter edge before a line anchor can displace it', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 800 });
+  wrapper.rect = { top: 0, bottom: 800, height: 800 };
+  wrapper.appendChild(block('line-zero', { lineIndex: 0, top: 230, height: 30 }));
+  harness.state.readingMode = 'continuous';
+
+  harness.setPendingPageEdge('first');
+  harness.recalcPages({ anchorLineIndex: 0 });
+  assert.equal(pane.scrollTop, 0);
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(harness.getPendingPageEdge(), null);
+
+  harness.setPendingPageEdge('last');
+  harness.recalcPages({ anchorLineIndex: 0 });
+  assert.equal(pane.scrollTop, 700);
+  assert.equal(harness.state.currentPageIndex, 7);
+  assert.equal(harness.getPendingPageEdge(), null);
+});
+
 test('continuous recalc preserves safe state for invalid or nonexistent anchors', () => {
   const harness = createHarness();
   const { pane, wrapper, indicator } = reader(harness, { paneHeight: 100, contentHeight: 800 });

@@ -84,8 +84,14 @@ function observeRestorePlacement(context) {
       globalThis.__restoreSelectArgs = args;
       return originalSelectBook(...args);
     };
-    recalcPages = (options) => { globalThis.__restoreRecalcArgs = options; };
-    translatePane = () => { globalThis.__restoreTranslateCount = (globalThis.__restoreTranslateCount || 0) + 1; };
+    recalcPages = (options) => {
+      globalThis.__restoreRecalcArgs = options;
+      state.currentPageIndex = 1;
+    };
+    translatePane = () => {
+      globalThis.__restoreTranslateCount = (globalThis.__restoreTranslateCount || 0) + 1;
+      globalThis.__restoreTranslatedPage = state.currentPageIndex;
+    };
   `, context);
 }
 
@@ -167,7 +173,7 @@ test("restore prefers a valid semantic line while retaining legacy page progress
 
   const state = currentState(context);
   assert.equal(state.currentChapterIndex, 1);
-  assert.equal(state.currentPageIndex, 4);
+  assert.equal(state.currentPageIndex, 1);
   assert.equal(state.currentLineIndex, 17);
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 17]);
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 17 });
@@ -192,6 +198,8 @@ test("restore safely defaults absent semantic line progress and preserves legacy
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreSelectArgs)", context)), [0, 1, 0]);
   assert.deepEqual(JSON.parse(vm.runInContext("JSON.stringify(__restoreRecalcArgs)", context)), { anchorLineIndex: 0 });
   assert.equal(vm.runInContext("__restoreTranslateCount", context), 1);
+  assert.equal(vm.runInContext("__restoreTranslatedPage", context), 3);
+  assert.equal(state.currentPageIndex, 3);
 });
 
 test("restore safely defaults invalid semantic line progress", async () => {
