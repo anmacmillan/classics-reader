@@ -4,6 +4,8 @@ import test from "node:test";
 import vm from "node:vm";
 
 const appSource = fs.readFileSync(new URL("../app.js", import.meta.url), "utf8");
+const indexHtml = fs.readFileSync(new URL("../index.html", import.meta.url), "utf8");
+const serviceWorker = fs.readFileSync(new URL("../sw.js", import.meta.url), "utf8");
 const stylesSource = fs.readFileSync(new URL("../styles.css", import.meta.url), "utf8");
 const darkPastels = [
   "rgba(96, 165, 250, 0.20)",
@@ -69,4 +71,11 @@ test("light theme syntax pastels use light hex tints", () => {
   );
 
   assert.deepEqual(syntaxPastels(lightRoot), lightPastels);
+});
+
+test("deployment versions refresh the changed assets", () => {
+  assert.match(indexHtml, /styles\.css\?v=20260802-1/);
+  assert.match(indexHtml, /app\.js\?v=20260802-1/);
+  assert.match(indexHtml, /generated\/imported-books\.js\?v=20260802-1/);
+  assert.match(serviceWorker, /const CACHE = "classics-reader-v26"/);
 });
