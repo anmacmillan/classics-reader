@@ -1,8 +1,8 @@
-(function (root) {
+const ReaderPagination = (() => {
   "use strict";
 
-  const TABLET_QUERY = "(any-pointer: coarse) and (min-width: 768px) and (max-width: 1366px)";
   const MODE_KEY = "classics_reader_mode_v1";
+  const TABLET_TOUCH_QUERY = "(any-pointer: coarse) and (min-width: 768px) and (max-width: 1366px)";
   const INTERACTIVE_SELECTOR = [
     "a",
     "button",
@@ -19,103 +19,87 @@
     ".vocabulary-panel",
     "[data-reader-word]",
     "[data-reader-tooltip]",
+    "#word-tooltip",
   ].join(", ");
 
   function isMode(value) {
     return value === "paged" || value === "continuous";
   }
 
-  function getPersistedMode(storage) {
+  function savedMode(storage) {
     try {
-      const value = storage && storage.getItem(MODE_KEY);
+      const value = storage && typeof storage.getItem === "function" ? storage.getItem(MODE_KEY) : null;
       return isMode(value) ? value : null;
     } catch (_error) {
       return null;
     }
   }
 
-  function getEffectiveMode({ persistedMode, tabletCapable } = {}) {
-    if (isMode(persistedMode)) return persistedMode;
-    return tabletCapable ? "paged" : "continuous";
+  function effectiveMode({ tabletTouch, savedMode: preference } = {}) {
+    if (!tabletTouch) return "continuous";
+    return isMode(preference) ? preference : "paged";
   }
 
-  function validBlockIndexes(blockHeights) {
-    if (!Array.isArray(blockHeights)) return [];
-    return blockHeights.reduce((indexes, height, index) => {
-      if (Number.isFinite(height) && height >= 0) indexes.push(index);
-      return indexes;
-    }, []);
+  function persistMode(storage, mode) {
+    if (!isMode(mode)) throw new RangeError(`unknown reader mode: ${mode}`);
+    try {
+      if (!storage || typeof storage.setItem !== "function") return false;
+      storage.setItem(MODE_KEY, mode);
+      return true;
+    } catch (_error) {
+      return false;
+    }
   }
 
-  function packBlocks(blockHeights, pageHeight) {
-    const indexes = validBlockIndexes(blockHeights);
-    if (indexes.length === 0) return [];
-    if (!Number.isFinite(pageHeight) || pageHeight <= 0) return [indexes];
+  function packBlocks(blocks, pageHeight, measure) {
+    if (!Array.isArray(blocks)) throw new RangeError("blocks must be an array");
+    if (!Number.isFinite(pageHeight) || pageHeight <= 0) throw new RangeError("page height must be positive");
+    if (typeof measure !== "function") throw new RangeError("measure must be a function");
 
     const pages = [];
     let page = [];
     let usedHeight = 0;
 
-    for (const index of indexes) {
-      const height = blockHeights[index];
+    for (const block of blocks) {
+      const height = Number(measure(block));
+      if (!Number.isFinite(height) || height < 0) {
+        throw new RangeError("block height must be non-negative");
+      }
 
-      if (height > pageHeight) {
-        if (page.length > 0) pages.push(page);
-        pages.push([index]);
+      if (page.length > 0 && usedHeight + height > pageHeight) {
+        pages.push(page);
         page = [];
         usedHeight = 0;
-      } else if (page.length > 0 && usedHeight + height > pageHeight) {
+      }
+
+      page.push(block);
+      usedHeight += height;
+
+      if (height > pageHeight) {
         pages.push(page);
-        page = [index];
-        usedHeight = height;
-      } else {
-        page.push(index);
-        usedHeight += height;
+        page = [];
+        usedHeight = 0;
       }
     }
 
-    if (page.length > 0) pages.push(page);
+    if (page.length > 0 || pages.length === 0) pages.push(page);
     return pages;
   }
 
-  function pageForLineIndex(pages, lineIndex) {
-    if (!Array.isArray(pages) || !Number.isFinite(lineIndex)) return 0;
+  function pageIndexForLine(pages, lineIndex) {
+    if (!Array.isArray(pages) || !Number.isInteger(lineIndex) || lineIndex < 0) return 0;
 
-    let first = null;
-    let last = null;
-    let nearestPage = 0;
-    let nearestDistance = Infinity;
-
-    pages.forEach((page, pageIndex) => {
-      if (!Array.isArray(page)) return;
-      page.forEach((value) => {
-        if (!Number.isFinite(value)) return;
-        if (value === lineIndex) {
-          nearestPage = pageIndex;
-          nearestDistance = 0;
-        }
-        if (first === null || value < first) first = value;
-        if (last === null || value > last) last = value;
-        const distance = Math.abs(value - lineIndex);
-        if (distance < nearestDistance) {
-          nearestDistance = distance;
-          nearestPage = pageIndex;
-        }
-      });
-    });
-
-    if (first === null || last === null) return 0;
-    if (lineIndex < first) return 0;
-    if (lineIndex > last) return pages.length - 1;
-    return nearestPage;
+    const pageIndex = pages.findIndex((page) => Array.isArray(page) && page.some((block) => (
+      Number(block && block.dataset && block.dataset.lineIndex) === lineIndex
+    )));
+    return pageIndex >= 0 ? pageIndex : 0;
   }
 
-  function tapDirection(clientX, viewportWidth, edgeRatio = 0.28) {
-    if (!Number.isFinite(clientX) || !Number.isFinite(viewportWidth) || viewportWidth <= 0) return 0;
-    const ratio = Number.isFinite(edgeRatio) ? Math.min(Math.max(edgeRatio, 0), 0.5) : 0.28;
-    const position = clientX / viewportWidth;
-    if (position < ratio) return -1;
-    if (position > 1 - ratio) return 1;
+  function pageTurnDirection(clientX, left, width) {
+    if (!Number.isFinite(clientX) || !Number.isFinite(left) || !Number.isFinite(width) || width <= 0) return 0;
+    const position = (clientX - left) / width;
+    if (position < 0.28) return -1;
+    if (position > 0.72) return 1;
     return 0;
   }
 
@@ -128,29 +112,39 @@
     }
   }
 
-  function navigationDecision({ direction, pageIndex, totalPages, chapterIndex, totalChapters } = {}) {
-    if (direction !== -1 && direction !== 1) return "none";
-    if (!Number.isInteger(pageIndex) || !Number.isInteger(totalPages) || totalPages <= 0) return "none";
-    if (!Number.isInteger(chapterIndex) || !Number.isInteger(totalChapters) || totalChapters <= 0) return "none";
+  function navigationDecision({ direction, pageIndex, totalPages, chapterIndex, chapterCount } = {}) {
+    if (direction !== -1 && direction !== 1) return { type: "none" };
+    if (!Number.isInteger(totalPages) || totalPages <= 0) return { type: "none" };
+    if (!Number.isInteger(pageIndex) || pageIndex < 0 || pageIndex >= totalPages) return { type: "none" };
+    if (!Number.isInteger(chapterCount) || chapterCount <= 0) return { type: "none" };
+    if (!Number.isInteger(chapterIndex) || chapterIndex < 0 || chapterIndex >= chapterCount) return { type: "none" };
 
-    if (direction === -1) {
-      if (pageIndex > 0) return "previous-page";
-      return chapterIndex > 0 ? "previous-chapter" : "none";
+    const targetPage = pageIndex + direction;
+    if (targetPage >= 0 && targetPage < totalPages) {
+      return { type: "page", pageIndex: targetPage };
     }
 
-    if (pageIndex < totalPages - 1) return "next-page";
-    return chapterIndex < totalChapters - 1 ? "next-chapter" : "none";
+    const targetChapter = chapterIndex + direction;
+    if (targetChapter < 0 || targetChapter >= chapterCount) return { type: "none" };
+    return {
+      type: "chapter",
+      chapterIndex: targetChapter,
+      edge: direction > 0 ? "first" : "last",
+    };
   }
 
-  root.ClassicsPagination = {
-    TABLET_QUERY,
+  return Object.freeze({
     MODE_KEY,
-    getPersistedMode,
-    getEffectiveMode,
+    TABLET_TOUCH_QUERY,
+    savedMode,
+    effectiveMode,
+    persistMode,
     packBlocks,
-    pageForLineIndex,
-    tapDirection,
+    pageIndexForLine,
+    pageTurnDirection,
     isInteractiveTarget,
     navigationDecision,
-  };
-})(globalThis);
+  });
+})();
+
+globalThis.ReaderPagination = ReaderPagination;
