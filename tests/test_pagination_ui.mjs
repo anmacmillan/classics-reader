@@ -17,6 +17,10 @@ test('loads pagination policy before the versioned application and provides a hi
   assert.ok(index.indexOf(paginationScript) < index.indexOf(appScript), 'pagination policy precedes app script');
   assert.match(
     index,
+    /<div\s+class="header-layout-controls">[\s\S]*<button\s+id="theme-btn"[\s\S]*<button\s+id="reading-mode-btn"[\s\S]*<\/div>/,
+  );
+  assert.match(
+    index,
     /<button\s+id="reading-mode-btn"\s+class="btn header-reading-mode"\s+aria-label="Reading layout"\s+aria-pressed="true"\s+hidden>\s*Paged\s*<\/button>/,
   );
 });
@@ -51,12 +55,17 @@ test('renders chapter metadata as an intro block and gives each row a semantic l
 });
 
 test('styles the header reading control and paged chapter metadata without leaving hidden tooltips interactive', () => {
-  assert.match(styles, /\.header-reading-mode\s*\{[\s\S]*position:\s*absolute;[\s\S]*right:\s*164px;/);
+  assert.match(styles, /\.header-layout-controls\s*\{[^}]*position:\s*absolute;[^}]*right:\s*96px;[^}]*display:\s*flex;[^}]*align-items:\s*center;[^}]*gap:\s*8px;/);
+  assert.match(styles, /\.header-theme\s*\{[^}]*position:\s*static;/);
+  assert.match(styles, /\.header-reading-mode\s*\{[^}]*position:\s*static;/);
+  assert.doesNotMatch(styles, /\.header-theme\s*\{[^}]*position:\s*absolute;/);
+  assert.doesNotMatch(styles, /\.header-reading-mode\s*\{[^}]*position:\s*absolute;/);
   assert.match(styles, /\.chapter-kicker[\s\S]*display:\s*none;/);
   assert.match(styles, /\.chapter-progress[\s\S]*display:\s*none;/);
   assert.match(styles, /body\.paged-reader[\s\S]*\.chapter-kicker[\s\S]*display:\s*(?:block|inline|flex)/);
   assert.match(styles, /body\.paged-reader[\s\S]*\.chapter-progress[\s\S]*display:\s*(?:block|inline|flex)/);
-  assert.match(styles, /body\.tablet-touch-reader\s+\.app-header\s*\{[\s\S]*padding:\s*12px\s+280px\s+12px\s+120px;/);
+  assert.match(styles, /body\.paged-reader\s+\.chapter-intro\s+\.translation-credit\s*\{[^}]*margin:\s*12px\s+0\s+0;/);
+  assert.match(styles, /body\.tablet-touch-reader\s+\.app-header\s*\{[\s\S]*padding:\s*12px\s+320px\s+12px\s+120px;/);
   assert.match(styles, /body\.tablet-touch-reader[\s\S]*\.header-context[\s\S]*max-width:\s*[^;]*38vw/);
   assert.match(styles, /body\.tablet-touch-reader\s+#offline-status\s*\{[\s\S]*display:\s*none;/);
   assert.match(styles, /\.word-tooltip\.hidden\s*\{[\s\S]*pointer-events:\s*none;/);

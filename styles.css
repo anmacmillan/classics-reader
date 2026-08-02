@@ -121,14 +121,20 @@ body.reader-mode .reader-pane {
   right: 16px;
 }
 
-.header-theme {
+.header-layout-controls {
   position: absolute;
   right: 96px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-theme {
+  position: static;
 }
 
 .header-reading-mode {
-  position: absolute;
-  right: 164px;
+  position: static;
 }
 
 .header-context {
@@ -142,7 +148,7 @@ body.tablet-touch-reader .header-context {
 }
 
 body.tablet-touch-reader .app-header {
-  padding: 12px 280px 12px 120px;
+  padding: 12px 320px 12px 120px;
 }
 
 body.tablet-touch-reader #offline-status {
@@ -478,6 +484,10 @@ body.paged-reader .chapter-kicker {
 
 body.paged-reader .chapter-progress {
   color: var(--text-muted);
+}
+
+body.paged-reader .chapter-intro .translation-credit {
+  margin: 12px 0 0;
 }
 
 .line-number {
