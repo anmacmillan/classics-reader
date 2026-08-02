@@ -206,6 +206,19 @@ test('captures semantic anchors from visible paged and continuous content', () =
   assert.equal(pane.scrollTop, 0);
 });
 
+test('continuous anchor ignores rows occluded by reader pane top padding', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness);
+  pane.computedStyle.paddingTop = '96px';
+  wrapper.append(
+    block('occluded-line', { lineIndex: 40, top: -48, height: 116 }),
+    block('first-visible-line', { lineIndex: 41, top: 96, height: 116 }),
+  );
+  harness.state.readingMode = 'continuous';
+
+  assert.equal(harness.captureReadingAnchor(), 41);
+});
+
 test('showPagedPage clamps page selection, hides siblings, and resets pane scroll', () => {
   const harness = createHarness();
   const { pane, wrapper, indicator } = reader(harness);
@@ -269,6 +282,96 @@ test('composeReaderPages uses real line lookup and creates indexed fixed-height 
   assert.deepEqual(wrapper.children.map((page) => page.dataset.pageIndex), ['0', '1']);
   assert.deepEqual(wrapper.children.map((page) => page.style.height), ['80px', '80px']);
   assert.equal(wrapper.children[1].hidden, false);
+});
+
+function appendAnchoredPageFixture(wrapper) {
+  const intro = block('intro', { height: 100 });
+  const line8 = block('line-8', { height: 30, lineIndex: 8 });
+  const line9 = block('line-9', { height: 30, lineIndex: 9 });
+  const line10 = block('line-10', { height: 30, lineIndex: 10 });
+  const line11 = block('line-11', { height: 30, lineIndex: 11 });
+  const blocks = [intro, line8, line9, line10, line11];
+  wrapper.append(...blocks);
+  return blocks;
+}
+
+test('later anchor starts its visible page while every block remains ordered and navigable', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  const blocks = appendAnchoredPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+
+  harness.composeReaderPages(9);
+
+  const pages = wrapper.children;
+  const visiblePage = pages.find((page) => !page.hidden);
+  const composedBlocks = pages.flatMap((page) => page.children);
+  assert.equal(harness.firstLineOnPage(visiblePage), 9);
+  assert.deepEqual(composedBlocks, blocks);
+  assert.equal(new Set(composedBlocks).size, blocks.length);
+  assert.equal(harness.state.totalPages, 4);
+  assert.equal(harness.state.currentPageIndex, 2);
+  assert.deepEqual(pages[1].children, [blocks[1]]);
+
+  harness.showPagedPage(1);
+  assert.equal(harness.state.currentLineIndex, 8);
+  assert.equal(pages[1].hidden, false);
+});
+
+test('anchor zero keeps the chapter intro on the first composed page', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  const intro = block('intro', { height: 30 });
+  const line0 = block('line-0', { height: 30, lineIndex: 0 });
+  const line1 = block('line-1', { height: 30, lineIndex: 1 });
+  wrapper.append(intro, line0, line1);
+  harness.state.readingMode = 'paged';
+
+  harness.composeReaderPages(0);
+
+  assert.equal(harness.state.totalPages, 1);
+  assert.deepEqual(wrapper.children[0].children, [intro, line0, line1]);
+  assert.equal(wrapper.children[0].hidden, false);
+  assert.equal(harness.firstLineOnPage(wrapper.children[0]), 0);
+});
+
+test('pending chapter edges bypass anchor splitting for first and last landings', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  appendAnchoredPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+
+  harness.setPendingPageEdge('first');
+  harness.composeReaderPages(9);
+  assert.equal(harness.state.totalPages, 3);
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.deepEqual(wrapper.children[1].children.map((node) => node.dataset.lineIndex), ['8', '9', '10']);
+
+  harness.setPendingPageEdge('last');
+  harness.composeReaderPages(9);
+  assert.equal(harness.state.totalPages, 3);
+  assert.equal(harness.state.currentPageIndex, 2);
+  assert.deepEqual(wrapper.children[1].children.map((node) => node.dataset.lineIndex), ['8', '9', '10']);
+});
+
+test('repeated composition at the same semantic anchor is stable', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  appendAnchoredPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+
+  harness.composeReaderPages(9);
+  const firstGroups = wrapper.children.map((page) => page.children.map((node) => node.id));
+  const firstPageIndex = harness.state.currentPageIndex;
+  const firstTotal = harness.state.totalPages;
+
+  harness.composeReaderPages(9);
+  const secondGroups = wrapper.children.map((page) => page.children.map((node) => node.id));
+  const visiblePage = wrapper.children.find((page) => !page.hidden);
+  assert.deepEqual(secondGroups, firstGroups);
+  assert.equal(harness.state.currentPageIndex, firstPageIndex);
+  assert.equal(harness.state.totalPages, firstTotal);
+  assert.equal(harness.firstLineOnPage(visiblePage), 9);
 });
 
 test('continuous recalc restores a valid anchor and derives page state from scroll position', () => {

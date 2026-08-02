@@ -236,7 +236,8 @@ function captureReadingAnchor() {
     return firstLineOnPage(visiblePage) ?? state.currentLineIndex;
   }
 
-  const paneTop = pane.getBoundingClientRect().top;
+  const paneStyle = window.getComputedStyle(pane);
+  const paneTop = pane.getBoundingClientRect().top + (parseFloat(paneStyle.paddingTop) || 0);
   const row = Array.from(document.querySelectorAll("#chunks-inner .chunk-row[data-line-index]"))
     .find((candidate) => candidate.getBoundingClientRect().bottom > paneTop);
   const lineIndex = Number(row?.dataset.lineIndex);
@@ -924,6 +925,30 @@ function showPagedPage(index) {
   updatePageIndicator();
 }
 
+function pageGroupsStartingAtAnchor(groups, anchorLineIndex, pageEdge = pendingPageEdge) {
+  if (!Number.isInteger(anchorLineIndex) || anchorLineIndex <= 0 || pageEdge === "first" || pageEdge === "last") {
+    return groups;
+  }
+
+  const groupIndex = groups.findIndex((group) => group.some((block) => (
+    block.classList?.contains("chunk-row") && Number(block.dataset?.lineIndex) === anchorLineIndex
+  )));
+  if (groupIndex < 0) return groups;
+
+  const group = groups[groupIndex];
+  const blockIndex = group.findIndex((block) => (
+    block.classList?.contains("chunk-row") && Number(block.dataset?.lineIndex) === anchorLineIndex
+  ));
+  if (blockIndex <= 0) return groups;
+
+  return [
+    ...groups.slice(0, groupIndex),
+    group.slice(0, blockIndex),
+    group.slice(blockIndex),
+    ...groups.slice(groupIndex + 1),
+  ];
+}
+
 function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
   const pane = document.querySelector(".reader-pane");
   const wrapper = document.getElementById("chunks-inner");
@@ -938,7 +963,8 @@ function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
   const blocks = Array.from(wrapper.children);
   const heights = new Map(blocks.map((block) => [block, outerBlockHeight(block)]));
   const measure = (block) => heights.get(block);
-  const groups = ReaderPagination.packBlocks(blocks, pageHeight, measure);
+  const packedGroups = ReaderPagination.packBlocks(blocks, pageHeight, measure);
+  const groups = pageGroupsStartingAtAnchor(packedGroups, anchorLineIndex);
   try {
     const fragment = document.createDocumentFragment();
 
