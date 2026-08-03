@@ -118,7 +118,7 @@ test('wires touch and keyboard page turns through the pagination policy without 
   assert.match(app, /function\s+prevPage\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?navigatePaged\(-1\)/);
   assert.match(app, /function\s+nextPage\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?navigatePaged\(1\)/);
   assert.match(app, /function\s+translatePane\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["'][\s\S]*?showPagedPage\(state\.currentPageIndex\)/);
-  assert.match(app, /function\s+syncPageFromScroll\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["']\)\s*return;[\s\S]*?const\s+lineIndex\s*=\s*captureReadingAnchor\(\)[\s\S]*?pageIndex\s*===\s*state\.currentPageIndex\s*&&\s*lineIndex\s*===\s*state\.currentLineIndex/);
+  assert.match(app, /function\s+syncPageFromScroll\s*\(\)[\s\S]*?state\.readingMode\s*===\s*["']paged["']\)\s*return;[\s\S]*?const\s+capturedAnchor\s*=\s*captureReadingAnchor\(\)[\s\S]*?Number\.isInteger\(capturedAnchor\)[\s\S]*?pageIndex\s*===\s*state\.currentPageIndex\s*&&\s*lineIndex\s*===\s*state\.currentLineIndex/);
   assert.match(app, /function\s+selectBook\s*\(\s*idx\s*,\s*chapterIndex\s*,\s*lineIndex\s*=\s*0\s*,\s*\{\s*syncAfterPlacement\s*=\s*true\s*\}\s*=\s*\{\}\s*\)[\s\S]*?state\.currentLineIndex\s*=\s*Number\.isInteger\(lineIndex\)/);
   assert.doesNotMatch(index, /page-turn-zone|page-turn-overlay|reader-page-turn/);
 });

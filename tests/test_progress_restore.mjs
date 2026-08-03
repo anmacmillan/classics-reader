@@ -245,6 +245,8 @@ test("sync writes semantic line progress beside legacy page progress without syn
   const saved = JSON.parse(patches.at(-1).files["slovo_progress.json"].content).classics;
   assert.equal(saved.currentPageIndex, 4);
   assert.equal(saved.currentLineIndex, 17);
+  assert.equal(typeof saved.currentLineIndex, "number");
+  assert.equal(Number.isInteger(saved.currentLineIndex) && saved.currentLineIndex >= 0, true);
   assert.equal(Object.hasOwn(saved, "readingMode"), false);
 });
 

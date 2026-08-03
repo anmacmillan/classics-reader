@@ -16,6 +16,7 @@ const state = {
 const GIST_FILE = "slovo_progress.json";
 const SHARED_GIST_ID_KEY = "anmac_shared_gist_id_v1";
 const SHARED_GITHUB_PAT_KEY = "anmac_shared_github_pat_v1";
+const CHAPTER_INTRO_ANCHOR = "chapter-intro";
 let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
@@ -233,15 +234,36 @@ function captureReadingAnchor() {
   if (state.readingMode === "paged") {
     const visiblePage = Array.from(document.querySelectorAll("#chunks-inner > .reader-page"))
       .find((page) => !page.hidden);
-    return firstLineOnPage(visiblePage) ?? state.currentLineIndex;
+    const lineIndex = firstLineOnPage(visiblePage);
+    if (lineIndex !== null) return lineIndex;
+    if (visiblePage?.querySelector(".chapter-intro")) return CHAPTER_INTRO_ANCHOR;
+    return state.currentLineIndex;
   }
 
   const paneStyle = window.getComputedStyle(pane);
-  const paneTop = pane.getBoundingClientRect().top + (parseFloat(paneStyle.paddingTop) || 0);
+  const paneRect = pane.getBoundingClientRect();
+  const paddingTop = parseFloat(paneStyle.paddingTop) || 0;
+  const paddingBottom = parseFloat(paneStyle.paddingBottom) || 0;
+  const paneTop = paneRect.top + paddingTop;
+  const paneBottom = Number.isFinite(paneRect.bottom)
+    ? paneRect.bottom - paddingBottom
+    : paneTop + Math.max(0, pane.clientHeight - paddingTop - paddingBottom);
   const row = Array.from(document.querySelectorAll("#chunks-inner .chunk-row[data-line-index]"))
-    .find((candidate) => candidate.getBoundingClientRect().bottom > paneTop);
+    .find((candidate) => {
+      const rect = candidate.getBoundingClientRect();
+      const rectTop = Number.isFinite(rect.top) ? rect.top : -Infinity;
+      return rect.bottom > paneTop && rectTop < paneBottom;
+    });
   const lineIndex = Number(row?.dataset.lineIndex);
-  return Number.isFinite(lineIndex) ? lineIndex : state.currentLineIndex;
+  if (Number.isFinite(lineIndex)) return lineIndex;
+
+  const intro = document.querySelector("#chunks-inner .chapter-intro");
+  const introRect = intro?.getBoundingClientRect();
+  const introTop = Number.isFinite(introRect?.top) ? introRect.top : -Infinity;
+  if (introRect && introRect.bottom > paneTop && introTop < paneBottom) {
+    return CHAPTER_INTRO_ANCHOR;
+  }
+  return state.currentLineIndex;
 }
 
 function setupReadingMode() {
@@ -926,7 +948,8 @@ function showPagedPage(index) {
 }
 
 function pageGroupsStartingAtAnchor(groups, anchorLineIndex, pageEdge = pendingPageEdge) {
-  if (!Number.isInteger(anchorLineIndex) || anchorLineIndex <= 0 || pageEdge === "first" || pageEdge === "last") {
+  if (anchorLineIndex === CHAPTER_INTRO_ANCHOR || !Number.isInteger(anchorLineIndex) || anchorLineIndex <= 0 ||
+      pageEdge === "first" || pageEdge === "last") {
     return groups;
   }
 
@@ -992,7 +1015,10 @@ function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
     ? groups.length - 1
     : pendingPageEdge === "first"
       ? 0
-      : ReaderPagination.pageIndexForLine(groups, anchorLineIndex);
+      : anchorLineIndex === CHAPTER_INTRO_ANCHOR
+        ? 0
+        : ReaderPagination.pageIndexForLine(groups, anchorLineIndex);
+  if (anchorLineIndex === CHAPTER_INTRO_ANCHOR) state.currentLineIndex = 0;
   pendingPageEdge = null;
   showPagedPage(targetIndex);
 }
@@ -1026,6 +1052,7 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
   state.totalPages = Math.max(1, Math.ceil(content.scrollHeight / pane.clientHeight));
   const maxScrollTop = Math.max(0, content.scrollHeight - pane.clientHeight);
   const clampScrollTop = (value) => Math.min(maxScrollTop, Math.max(0, Number(value) || 0));
+  const introAnchor = anchorLineIndex === CHAPTER_INTRO_ANCHOR;
   const validAnchor = Number.isInteger(anchorLineIndex) && anchorLineIndex >= 0;
   const row = validAnchor
     ? wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`)
@@ -1037,13 +1064,17 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
   } else if (pendingPageEdge === "last") {
     pane.scrollTop = maxScrollTop;
     pendingPageEdge = null;
+  } else if (introAnchor) {
+    pane.scrollTop = 0;
   } else {
     pane.scrollTop = clampScrollTop(row
       ? row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top
       : pane.scrollTop);
   }
 
-  if (row) {
+  if (introAnchor) {
+    state.currentLineIndex = 0;
+  } else if (row) {
     state.currentLineIndex = anchorLineIndex;
   } else {
     const currentLineIsValid = Number.isInteger(state.currentLineIndex) && state.currentLineIndex >= 0 &&
@@ -1137,7 +1168,10 @@ function syncPageFromScroll() {
     state.totalPages - 1,
     Math.max(0, Math.round(pane.scrollTop / pane.clientHeight))
   );
-  const lineIndex = captureReadingAnchor();
+  const capturedAnchor = captureReadingAnchor();
+  const lineIndex = Number.isInteger(capturedAnchor) && capturedAnchor >= 0
+    ? capturedAnchor
+    : state.currentLineIndex;
 
   if (pageIndex === state.currentPageIndex && lineIndex === state.currentLineIndex) return;
   state.currentPageIndex = pageIndex;

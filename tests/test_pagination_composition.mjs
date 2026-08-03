@@ -127,7 +127,7 @@ function createHarness({ readerPagination, throwAfterBlockMove = false } = {}) {
     ...(readerPagination ? { ReaderPagination: readerPagination } : {}),
   });
   if (!readerPagination) vm.runInContext(read('pagination.js'), context);
-  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; }, setTabletTouchMedia: (value) => { tabletTouchMedia = value; } };`, context);
+  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, syncPageFromScroll, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; }, setTabletTouchMedia: (value) => { tabletTouchMedia = value; } };`, context);
   return { ...context.__paginationApi, context, document, body, warnings };
 }
 
@@ -219,6 +219,47 @@ test('continuous anchor ignores rows occluded by reader pane top padding', () =>
   assert.equal(harness.captureReadingAnchor(), 41);
 });
 
+test('intro-only paged page captures an internal chapter intro anchor', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness);
+  const introPage = new FakeNode('section'); introPage.className = 'reader-page';
+  const linePage = new FakeNode('section'); linePage.className = 'reader-page'; linePage.hidden = true;
+  const intro = block('intro'); intro.className = 'chapter-intro';
+  introPage.appendChild(intro);
+  linePage.appendChild(block('line-zero', { lineIndex: 0 }));
+  wrapper.append(introPage, linePage);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+
+  assert.equal(harness.captureReadingAnchor(), 'chapter-intro');
+  assert.equal(harness.state.currentLineIndex, 0);
+});
+
+test('continuous capture returns intro only when it is unobscured and no row is visible', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness);
+  pane.rect = { top: 0, bottom: 100, height: 100 };
+  pane.computedStyle.paddingTop = '10px';
+  const intro = block('intro', { top: 10, height: 60 }); intro.className = 'chapter-intro';
+  const row = block('line-zero', { lineIndex: 0, top: 120, height: 30 });
+  wrapper.append(intro, row);
+  harness.state.readingMode = 'continuous';
+
+  assert.equal(harness.captureReadingAnchor(), 'chapter-intro');
+});
+
+test('footer-only paged page does not masquerade as the chapter intro', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness);
+  const footerPage = new FakeNode('section'); footerPage.className = 'reader-page';
+  const footer = block('footer'); footer.className = 'chapter-complete-footer';
+  footerPage.appendChild(footer); wrapper.appendChild(footerPage);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 7;
+
+  assert.equal(harness.captureReadingAnchor(), 7);
+});
+
 test('showPagedPage clamps page selection, hides siblings, and resets pane scroll', () => {
   const harness = createHarness();
   const { pane, wrapper, indicator } = reader(harness);
@@ -294,6 +335,85 @@ function appendAnchoredPageFixture(wrapper) {
   wrapper.append(...blocks);
   return blocks;
 }
+
+function appendIntroOnlyPageFixture(wrapper) {
+  const intro = block('intro', { height: 80 }); intro.className = 'chapter-intro';
+  const line0 = block('line-0', { height: 30, lineIndex: 0 });
+  const line1 = block('line-1', { height: 30, lineIndex: 1 });
+  wrapper.append(intro, line0, line1);
+  return { intro, line0, line1 };
+}
+
+test('intro anchor keeps an intro-only page visible across recomposition', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  const { intro } = appendIntroOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('first');
+  harness.composeReaderPages(0);
+  const anchor = harness.captureReadingAnchor();
+
+  harness.composeReaderPages(anchor);
+
+  const visiblePage = wrapper.children.find((page) => !page.hidden);
+  assert.equal(anchor, 'chapter-intro');
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(visiblePage.children[0], intro);
+  assert.equal(visiblePage.querySelector('.chapter-intro'), intro);
+  assert.equal(harness.state.currentLineIndex, 0);
+});
+
+test('intro anchor maps paged to continuous top and back without entering line state', () => {
+  const harness = createHarness();
+  const { pane, wrapper, indicator } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  const { intro, line0, line1 } = appendIntroOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('first');
+  harness.composeReaderPages(0);
+  const pagedAnchor = harness.captureReadingAnchor();
+  pane.scrollTop = 80;
+
+  harness.state.readingMode = 'continuous';
+  harness.recalcPages({ anchorLineIndex: pagedAnchor });
+  intro.rect = { top: 0, bottom: 80, height: 80 };
+  line0.rect = { top: 120, bottom: 150, height: 30 };
+  line1.rect = { top: 150, bottom: 180, height: 30 };
+  const continuousAnchor = harness.captureReadingAnchor();
+  harness.syncPageFromScroll();
+
+  assert.equal(pane.scrollTop, 0);
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(indicator.textContent, '1 / 3');
+  assert.equal(continuousAnchor, 'chapter-intro');
+  assert.equal(Number.isInteger(harness.state.currentLineIndex), true);
+  assert.equal(harness.state.currentLineIndex, 0);
+
+  harness.state.readingMode = 'paged';
+  harness.composeReaderPages(continuousAnchor);
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(wrapper.children[0].querySelector('.chapter-intro'), intro);
+  assert.equal(harness.state.currentLineIndex, 0);
+});
+
+test('pending page edges take precedence over the internal intro anchor', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  appendIntroOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'continuous';
+
+  harness.setPendingPageEdge('last');
+  harness.recalcPages({ anchorLineIndex: 'chapter-intro' });
+  assert.equal(pane.scrollTop, 200);
+  assert.equal(harness.state.currentPageIndex, 2);
+
+  harness.setPendingPageEdge('first');
+  harness.recalcPages({ anchorLineIndex: 'chapter-intro' });
+  assert.equal(pane.scrollTop, 0);
+  assert.equal(harness.state.currentPageIndex, 0);
+  assert.equal(harness.state.currentLineIndex, 0);
+});
 
 test('later anchor starts its visible page while every block remains ordered and navigable', () => {
   const harness = createHarness();
