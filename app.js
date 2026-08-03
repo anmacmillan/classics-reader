@@ -17,6 +17,7 @@ const GIST_FILE = "slovo_progress.json";
 const SHARED_GIST_ID_KEY = "anmac_shared_gist_id_v1";
 const SHARED_GITHUB_PAT_KEY = "anmac_shared_github_pat_v1";
 const CHAPTER_INTRO_ANCHOR = "chapter-intro";
+const CHAPTER_FOOTER_ANCHOR = "chapter-footer";
 let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
@@ -237,6 +238,7 @@ function captureReadingAnchor() {
     const lineIndex = firstLineOnPage(visiblePage);
     if (lineIndex !== null) return lineIndex;
     if (visiblePage?.querySelector(".chapter-intro")) return CHAPTER_INTRO_ANCHOR;
+    if (visiblePage?.querySelector(".chapter-complete-footer")) return CHAPTER_FOOTER_ANCHOR;
     return state.currentLineIndex;
   }
 
@@ -262,6 +264,13 @@ function captureReadingAnchor() {
   const introTop = Number.isFinite(introRect?.top) ? introRect.top : -Infinity;
   if (introRect && introRect.bottom > paneTop && introTop < paneBottom) {
     return CHAPTER_INTRO_ANCHOR;
+  }
+
+  const footer = document.querySelector("#chunks-inner .chapter-complete-footer");
+  const footerRect = footer?.getBoundingClientRect();
+  const footerTop = Number.isFinite(footerRect?.top) ? footerRect.top : -Infinity;
+  if (footerRect && footerRect.bottom > paneTop && footerTop < paneBottom) {
+    return CHAPTER_FOOTER_ANCHOR;
   }
   return state.currentLineIndex;
 }
@@ -930,6 +939,17 @@ function updatePageIndicator() {
   if (indicator) indicator.textContent = `${state.currentPageIndex + 1} / ${state.totalPages}`;
 }
 
+function lastLineInNodes(nodes) {
+  for (let nodeIndex = nodes.length - 1; nodeIndex >= 0; nodeIndex -= 1) {
+    const rows = Array.from(nodes[nodeIndex].querySelectorAll(".chunk-row[data-line-index]"));
+    for (let rowIndex = rows.length - 1; rowIndex >= 0; rowIndex -= 1) {
+      const lineIndex = Number(rows[rowIndex].dataset.lineIndex);
+      if (Number.isInteger(lineIndex) && lineIndex >= 0) return lineIndex;
+    }
+  }
+  return null;
+}
+
 function showPagedPage(index) {
   const pane = document.querySelector(".reader-pane");
   const pages = Array.from(document.querySelectorAll("#chunks-inner > .reader-page"));
@@ -941,14 +961,19 @@ function showPagedPage(index) {
   });
 
   state.currentPageIndex = targetIndex;
-  const lineIndex = firstLineOnPage(pages[targetIndex]);
+  const targetPage = pages[targetIndex];
+  const lineIndex = firstLineOnPage(targetPage);
   if (lineIndex !== null) state.currentLineIndex = lineIndex;
+  else if (targetPage.querySelector(".chapter-complete-footer") && !targetPage.querySelector(".chapter-intro")) {
+    state.currentLineIndex = lastLineInNodes(pages.slice(0, targetIndex)) ?? 0;
+  }
   pane.scrollTop = 0;
   updatePageIndicator();
 }
 
 function pageGroupsStartingAtAnchor(groups, anchorLineIndex, pageEdge = pendingPageEdge) {
-  if (anchorLineIndex === CHAPTER_INTRO_ANCHOR || !Number.isInteger(anchorLineIndex) || anchorLineIndex <= 0 ||
+  if (anchorLineIndex === CHAPTER_INTRO_ANCHOR || anchorLineIndex === CHAPTER_FOOTER_ANCHOR ||
+      !Number.isInteger(anchorLineIndex) || anchorLineIndex <= 0 ||
       pageEdge === "first" || pageEdge === "last") {
     return groups;
   }
@@ -1017,7 +1042,9 @@ function composeReaderPages(anchorLineIndex = state.currentLineIndex) {
       ? 0
       : anchorLineIndex === CHAPTER_INTRO_ANCHOR
         ? 0
-        : ReaderPagination.pageIndexForLine(groups, anchorLineIndex);
+        : anchorLineIndex === CHAPTER_FOOTER_ANCHOR
+          ? groups.length - 1
+          : ReaderPagination.pageIndexForLine(groups, anchorLineIndex);
   if (anchorLineIndex === CHAPTER_INTRO_ANCHOR) state.currentLineIndex = 0;
   pendingPageEdge = null;
   showPagedPage(targetIndex);
@@ -1053,6 +1080,7 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
   const maxScrollTop = Math.max(0, content.scrollHeight - pane.clientHeight);
   const clampScrollTop = (value) => Math.min(maxScrollTop, Math.max(0, Number(value) || 0));
   const introAnchor = anchorLineIndex === CHAPTER_INTRO_ANCHOR;
+  const footerAnchor = anchorLineIndex === CHAPTER_FOOTER_ANCHOR;
   const validAnchor = Number.isInteger(anchorLineIndex) && anchorLineIndex >= 0;
   const row = validAnchor
     ? wrapper.querySelector(`.chunk-row[data-line-index="${anchorLineIndex}"]`)
@@ -1066,6 +1094,8 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
     pendingPageEdge = null;
   } else if (introAnchor) {
     pane.scrollTop = 0;
+  } else if (footerAnchor) {
+    pane.scrollTop = maxScrollTop;
   } else {
     pane.scrollTop = clampScrollTop(row
       ? row.getBoundingClientRect().top - wrapper.getBoundingClientRect().top
@@ -1074,6 +1104,8 @@ function recalcPages({ anchorLineIndex = captureReadingAnchor() } = {}) {
 
   if (introAnchor) {
     state.currentLineIndex = 0;
+  } else if (footerAnchor) {
+    state.currentLineIndex = lastLineInNodes([wrapper]) ?? 0;
   } else if (row) {
     state.currentLineIndex = anchorLineIndex;
   } else {

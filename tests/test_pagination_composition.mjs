@@ -101,9 +101,10 @@ class FakeFragment extends FakeNode {
   constructor() { super('#fragment'); this.isFragment = true; }
 }
 
-function createHarness({ readerPagination, throwAfterBlockMove = false } = {}) {
+function createHarness({ readerPagination, throwAfterBlockMove = false, gistSync = false } = {}) {
   const body = new FakeNode('body');
   const warnings = [];
+  const gistPatches = [];
   const document = {
     body,
     createElement: (tagName) => {
@@ -117,18 +118,32 @@ function createHarness({ readerPagination, throwAfterBlockMove = false } = {}) {
     querySelectorAll(selector) { return body.querySelectorAll(selector); },
     getElementById(id) { return descendants(body).find((node) => node.id === id) || null; },
   };
+  const storageValues = new Map(gistSync ? [
+    ['slovo_gist_id', 'gist-1'],
+    ['slovo_github_pat', 'test-token'],
+  ] : []);
   const context = vm.createContext({
     console: { warn(...args) { warnings.push(args); }, log() {} },
     document,
     window: { getComputedStyle: (node) => node.computedStyle, addEventListener() {}, matchMedia() { return null; } },
-    localStorage: { getItem() { return null; }, setItem() {} },
+    localStorage: {
+      getItem(key) { return storageValues.get(key) ?? null; },
+      setItem(key, value) { storageValues.set(key, String(value)); },
+    },
+    fetch: async (_url, options = {}) => {
+      if (options.method === 'PATCH') {
+        gistPatches.push(JSON.parse(options.body));
+        return { ok: true, status: 200, text: async () => '' };
+      }
+      return { ok: true, json: async () => ({ files: {} }) };
+    },
     setTimeout,
     clearTimeout,
     ...(readerPagination ? { ReaderPagination: readerPagination } : {}),
   });
   if (!readerPagination) vm.runInContext(read('pagination.js'), context);
-  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, syncPageFromScroll, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; }, setTabletTouchMedia: (value) => { tabletTouchMedia = value; } };`, context);
-  return { ...context.__paginationApi, context, document, body, warnings };
+  vm.runInContext(`${read('app.js')}\nglobalThis.__paginationApi = { state, unwrapReaderPages, outerBlockHeight, usablePageHeight, firstLineOnPage, captureReadingAnchor, showPagedPage, composeReaderPages, recalcPages, syncPageFromScroll, syncProgressToGist, getPendingPageEdge: () => pendingPageEdge, setPendingPageEdge: (value) => { pendingPageEdge = value; }, setTabletTouchMedia: (value) => { tabletTouchMedia = value; } };`, context);
+  return { ...context.__paginationApi, context, document, body, warnings, gistPatches };
 }
 
 function reader(harness, { paneHeight = 100, contentHeight = 800 } = {}) {
@@ -248,7 +263,7 @@ test('continuous capture returns intro only when it is unobscured and no row is 
   assert.equal(harness.captureReadingAnchor(), 'chapter-intro');
 });
 
-test('footer-only paged page does not masquerade as the chapter intro', () => {
+test('footer-only paged page has a distinct internal footer anchor', () => {
   const harness = createHarness();
   const { wrapper } = reader(harness);
   const footerPage = new FakeNode('section'); footerPage.className = 'reader-page';
@@ -257,7 +272,8 @@ test('footer-only paged page does not masquerade as the chapter intro', () => {
   harness.state.readingMode = 'paged';
   harness.state.currentLineIndex = 7;
 
-  assert.equal(harness.captureReadingAnchor(), 7);
+  assert.equal(harness.captureReadingAnchor(), 'chapter-footer');
+  assert.notEqual(harness.captureReadingAnchor(), 'chapter-intro');
 });
 
 test('showPagedPage clamps page selection, hides siblings, and resets pane scroll', () => {
@@ -343,6 +359,138 @@ function appendIntroOnlyPageFixture(wrapper) {
   wrapper.append(intro, line0, line1);
   return { intro, line0, line1 };
 }
+
+function appendFooterOnlyPageFixture(wrapper, { rows = true } = {}) {
+  const intro = block('intro', { height: rows ? 20 : 80 }); intro.className = 'chapter-intro';
+  const footer = block('footer', { height: 30 }); footer.className = 'chapter-complete-footer';
+  const line0 = rows ? block('line-0', { height: 30, lineIndex: 0 }) : null;
+  const line1 = rows ? block('line-1', { height: 30, lineIndex: 1 }) : null;
+  wrapper.append(...[intro, line0, line1, footer].filter(Boolean));
+  return { intro, line0, line1, footer };
+}
+
+test('pending last selects a footer-only final page and retains its preceding source line', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  const { footer } = appendFooterOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('last');
+
+  harness.composeReaderPages(0);
+
+  assert.equal(harness.state.totalPages, 2);
+  assert.equal(harness.state.currentPageIndex, 1);
+  assert.equal(wrapper.children[1].querySelector('.chapter-complete-footer'), footer);
+  assert.equal(harness.state.currentLineIndex, 1);
+});
+
+test('footer anchor recomposes to the footer-only final page', () => {
+  const harness = createHarness();
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  const { footer } = appendFooterOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('last');
+  harness.composeReaderPages(0);
+  const anchor = harness.captureReadingAnchor();
+
+  harness.composeReaderPages(anchor);
+
+  const visiblePage = wrapper.children.find((page) => !page.hidden);
+  assert.equal(anchor, 'chapter-footer');
+  assert.equal(harness.state.currentPageIndex, harness.state.totalPages - 1);
+  assert.equal(visiblePage.querySelector('.chapter-complete-footer'), footer);
+  assert.equal(harness.state.currentLineIndex, 1);
+});
+
+test('footer anchor maps paged to continuous bottom and back to the final paged page', () => {
+  const harness = createHarness();
+  const { pane, wrapper, indicator } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  const { intro, line0, line1, footer } = appendFooterOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('last');
+  harness.composeReaderPages(0);
+  const pagedAnchor = harness.captureReadingAnchor();
+
+  harness.state.readingMode = 'continuous';
+  harness.recalcPages({ anchorLineIndex: pagedAnchor });
+  intro.rect = { top: -100, bottom: -80, height: 20 };
+  line0.rect = { top: -80, bottom: -50, height: 30 };
+  line1.rect = { top: -50, bottom: -20, height: 30 };
+  footer.rect = { top: 70, bottom: 100, height: 30 };
+  const continuousAnchor = harness.captureReadingAnchor();
+
+  assert.equal(pane.scrollTop, 200);
+  assert.equal(harness.state.currentPageIndex, 2);
+  assert.equal(indicator.textContent, '3 / 3');
+  assert.equal(continuousAnchor, 'chapter-footer');
+  assert.equal(harness.state.currentLineIndex, 1);
+
+  harness.state.readingMode = 'paged';
+  harness.composeReaderPages(continuousAnchor);
+  assert.equal(harness.state.currentPageIndex, harness.state.totalPages - 1);
+  assert.equal(wrapper.children.at(-1).querySelector('.chapter-complete-footer'), footer);
+  assert.equal(harness.state.currentLineIndex, 1);
+});
+
+test('footer fallback progress sync persists the numeric last source line', async () => {
+  const harness = createHarness({ gistSync: true });
+  const { wrapper } = reader(harness, { paneHeight: 100 });
+  appendFooterOnlyPageFixture(wrapper);
+  harness.state.books = [{ id: 'book', title: 'Book', chapters: [{ title: 'One', lines: ['a', 'b'] }] }];
+  harness.state.vocabulary = [];
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('last');
+  harness.composeReaderPages(0);
+
+  await harness.syncProgressToGist();
+
+  const saved = JSON.parse(harness.gistPatches.at(-1).files['slovo_progress.json'].content).classics;
+  assert.equal(saved.currentLineIndex, 1);
+  assert.equal(typeof saved.currentLineIndex, 'number');
+  assert.notEqual(saved.currentLineIndex, 'chapter-footer');
+});
+
+test('pending edges take precedence over footer and intro anchors', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  appendFooterOnlyPageFixture(wrapper);
+  harness.state.readingMode = 'continuous';
+
+  harness.setPendingPageEdge('first');
+  harness.recalcPages({ anchorLineIndex: 'chapter-footer' });
+  assert.equal(pane.scrollTop, 0);
+  assert.equal(harness.state.currentPageIndex, 0);
+
+  harness.setPendingPageEdge('last');
+  harness.recalcPages({ anchorLineIndex: 'chapter-intro' });
+  assert.equal(pane.scrollTop, 200);
+  assert.equal(harness.state.currentPageIndex, 2);
+});
+
+test('footer-only positioning is safe for a chapter with no source rows', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 200 });
+  const { footer } = appendFooterOnlyPageFixture(wrapper, { rows: false });
+  harness.state.readingMode = 'paged';
+  harness.state.currentLineIndex = 0;
+  harness.setPendingPageEdge('last');
+
+  harness.composeReaderPages(0);
+  const anchor = harness.captureReadingAnchor();
+  harness.composeReaderPages(anchor);
+
+  assert.equal(anchor, 'chapter-footer');
+  assert.equal(wrapper.children.at(-1).querySelector('.chapter-complete-footer'), footer);
+  assert.equal(harness.state.currentLineIndex, 0);
+  harness.state.readingMode = 'continuous';
+  harness.recalcPages({ anchorLineIndex: anchor });
+  assert.equal(pane.scrollTop, 100);
+  assert.equal(harness.state.currentLineIndex, 0);
+});
 
 test('intro anchor keeps an intro-only page visible across recomposition', () => {
   const harness = createHarness();
