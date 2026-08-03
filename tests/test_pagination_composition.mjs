@@ -416,11 +416,13 @@ test('footer anchor maps paged to continuous bottom and back to the final paged 
 
   harness.state.readingMode = 'continuous';
   harness.recalcPages({ anchorLineIndex: pagedAnchor });
+  pane.scrollHeight = 300;
   intro.rect = { top: -100, bottom: -80, height: 20 };
   line0.rect = { top: -80, bottom: -50, height: 30 };
-  line1.rect = { top: -50, bottom: -20, height: 30 };
+  line1.rect = { top: 40, bottom: 70, height: 30 };
   footer.rect = { top: 70, bottom: 100, height: 30 };
   const continuousAnchor = harness.captureReadingAnchor();
+  harness.syncPageFromScroll();
 
   assert.equal(pane.scrollTop, 200);
   assert.equal(harness.state.currentPageIndex, 2);
@@ -433,6 +435,50 @@ test('footer anchor maps paged to continuous bottom and back to the final paged 
   assert.equal(harness.state.currentPageIndex, harness.state.totalPages - 1);
   assert.equal(wrapper.children.at(-1).querySelector('.chapter-complete-footer'), footer);
   assert.equal(harness.state.currentLineIndex, 1);
+});
+
+test('short continuous chapter at the top keeps intro precedence when all content is visible', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 100 });
+  const { intro, line0, line1, footer } = appendFooterOnlyPageFixture(wrapper);
+  pane.scrollHeight = 100;
+  pane.scrollTop = 0;
+  intro.rect = { top: 0, bottom: 20, height: 20 };
+  line0.rect = { top: 20, bottom: 50, height: 30 };
+  line1.rect = { top: 50, bottom: 80, height: 30 };
+  footer.rect = { top: 80, bottom: 100, height: 20 };
+  harness.state.readingMode = 'continuous';
+
+  assert.equal(harness.captureReadingAnchor(), 'chapter-intro');
+  assert.equal(harness.state.currentLineIndex, 0);
+});
+
+test('visible footer near but not at continuous bottom keeps the first visible row anchor', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  const { line0, line1, footer } = appendFooterOnlyPageFixture(wrapper);
+  pane.scrollHeight = 300;
+  pane.scrollTop = 190;
+  line0.rect = { top: -10, bottom: 20, height: 30 };
+  line1.rect = { top: 20, bottom: 50, height: 30 };
+  footer.rect = { top: 70, bottom: 100, height: 30 };
+  harness.state.readingMode = 'continuous';
+
+  assert.equal(harness.captureReadingAnchor(), 0);
+});
+
+test('footer outside the viewport never overrides a visible row at continuous bottom', () => {
+  const harness = createHarness();
+  const { pane, wrapper } = reader(harness, { paneHeight: 100, contentHeight: 300 });
+  const { line0, line1, footer } = appendFooterOnlyPageFixture(wrapper);
+  pane.scrollHeight = 300;
+  pane.scrollTop = 200;
+  line0.rect = { top: -10, bottom: 20, height: 30 };
+  line1.rect = { top: 20, bottom: 50, height: 30 };
+  footer.rect = { top: 120, bottom: 150, height: 30 };
+  harness.state.readingMode = 'continuous';
+
+  assert.equal(harness.captureReadingAnchor(), 0);
 });
 
 test('footer fallback progress sync persists the numeric last source line', async () => {

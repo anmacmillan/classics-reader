@@ -18,6 +18,7 @@ const SHARED_GIST_ID_KEY = "anmac_shared_gist_id_v1";
 const SHARED_GITHUB_PAT_KEY = "anmac_shared_github_pat_v1";
 const CHAPTER_INTRO_ANCHOR = "chapter-intro";
 const CHAPTER_FOOTER_ANCHOR = "chapter-footer";
+const READER_SCROLL_EDGE_EPSILON = 2;
 let scrollSyncTimer;
 let focusHeaderTimer;
 let tooltipHideTimer;
@@ -250,28 +251,31 @@ function captureReadingAnchor() {
   const paneBottom = Number.isFinite(paneRect.bottom)
     ? paneRect.bottom - paddingBottom
     : paneTop + Math.max(0, pane.clientHeight - paddingTop - paddingBottom);
+  const visibleInPane = (element) => {
+    const rect = element?.getBoundingClientRect();
+    const rectTop = Number.isFinite(rect?.top) ? rect.top : -Infinity;
+    return Boolean(rect && rect.bottom > paneTop && rectTop < paneBottom);
+  };
+  const intro = document.querySelector("#chunks-inner .chapter-intro");
+  const footer = document.querySelector("#chunks-inner .chapter-complete-footer");
+  const introVisible = visibleInPane(intro);
+  const footerVisible = visibleInPane(footer);
+  const scrollHeight = Number.isFinite(pane.scrollHeight) && pane.scrollHeight > 0
+    ? pane.scrollHeight
+    : pane.clientHeight;
+  const atTop = pane.scrollTop <= READER_SCROLL_EDGE_EPSILON;
+  const atBottom = pane.scrollTop + pane.clientHeight >= scrollHeight - READER_SCROLL_EDGE_EPSILON;
+
+  if (introVisible && atTop) return CHAPTER_INTRO_ANCHOR;
+  if (footerVisible && atBottom) return CHAPTER_FOOTER_ANCHOR;
+
   const row = Array.from(document.querySelectorAll("#chunks-inner .chunk-row[data-line-index]"))
-    .find((candidate) => {
-      const rect = candidate.getBoundingClientRect();
-      const rectTop = Number.isFinite(rect.top) ? rect.top : -Infinity;
-      return rect.bottom > paneTop && rectTop < paneBottom;
-    });
+    .find((candidate) => visibleInPane(candidate));
   const lineIndex = Number(row?.dataset.lineIndex);
   if (Number.isFinite(lineIndex)) return lineIndex;
 
-  const intro = document.querySelector("#chunks-inner .chapter-intro");
-  const introRect = intro?.getBoundingClientRect();
-  const introTop = Number.isFinite(introRect?.top) ? introRect.top : -Infinity;
-  if (introRect && introRect.bottom > paneTop && introTop < paneBottom) {
-    return CHAPTER_INTRO_ANCHOR;
-  }
-
-  const footer = document.querySelector("#chunks-inner .chapter-complete-footer");
-  const footerRect = footer?.getBoundingClientRect();
-  const footerTop = Number.isFinite(footerRect?.top) ? footerRect.top : -Infinity;
-  if (footerRect && footerRect.bottom > paneTop && footerTop < paneBottom) {
-    return CHAPTER_FOOTER_ANCHOR;
-  }
+  if (introVisible) return CHAPTER_INTRO_ANCHOR;
+  if (footerVisible) return CHAPTER_FOOTER_ANCHOR;
   return state.currentLineIndex;
 }
 
