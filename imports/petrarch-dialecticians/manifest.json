@@ -1,0 +1,21 @@
+{
+  "id": "petrarch-dialecticians",
+  "title": "Petrarch - Against the Old Logicians",
+  "shortTitle": "Against the Old Logicians",
+  "author": "Francesco Petrarch",
+  "year": 1335,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "chapters": [
+    {
+      "title": "Epistolae familiares I.7 - Contra senes dyaleticos",
+      "startLine": 1,
+      "original": "latin.txt",
+      "english": "english.txt",
+      "translationCredit": "Latin: Rossi ed., via Interbooks; EN: James Harvey Robinson, public domain, via Petrarch Petersadlon",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://petrarch.petersadlon.com/letters/pet08.html"
+    }
+  ]
+}
