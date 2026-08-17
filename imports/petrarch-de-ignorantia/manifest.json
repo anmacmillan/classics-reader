@@ -1,0 +1,219 @@
+{
+  "id": "petrarch-de-ignorantia",
+  "title": "Petrarch - On His Own Ignorance",
+  "shortTitle": "On His Own Ignorance",
+  "author": "Francesco Petrarch",
+  "year": 1370,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "chapters": [
+    {
+      "title": "Dedicatory letter to Donato Albanzani (§§1-2)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Latin: Rossi/Fracassetti text via Latin Wikisource; EN: original line-by-line study translation (no public-domain version exists)",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://la.wikisource.org/wiki/De_sui_ipsius_et_multorum_ignorantia"
+    },
+    {
+      "title": "Book I (§§1-5)",
+      "startLine": 14,
+      "original": "latin-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Book II (§§1-2)",
+      "startLine": 32,
+      "original": "latin-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Book II (§3)",
+      "startLine": 38,
+      "original": "latin-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Book II (§§4-10)",
+      "startLine": 63,
+      "original": "latin-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Book II (§§11-14)",
+      "startLine": 90,
+      "original": "latin-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Book II (§§15-17)",
+      "startLine": 107,
+      "original": "latin-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Book III (§§1-3)",
+      "startLine": 134,
+      "original": "latin-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Book III (§§4-5)",
+      "startLine": 157,
+      "original": "latin-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Book III (§6)",
+      "startLine": 175,
+      "original": "latin-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Book IV (§§1-3)",
+      "startLine": 190,
+      "original": "latin-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Book IV (§4)",
+      "startLine": 209,
+      "original": "latin-12.txt",
+      "english": "english-12.txt"
+    },
+    {
+      "title": "Book IV (§§5-7)",
+      "startLine": 231,
+      "original": "latin-13.txt",
+      "english": "english-13.txt"
+    },
+    {
+      "title": "Book IV (§8)",
+      "startLine": 256,
+      "original": "latin-14.txt",
+      "english": "english-14.txt"
+    },
+    {
+      "title": "Book IV (§§9-11)",
+      "startLine": 285,
+      "original": "latin-15.txt",
+      "english": "english-15.txt"
+    },
+    {
+      "title": "Book IV (§§12-13)",
+      "startLine": 313,
+      "original": "latin-16.txt",
+      "english": "english-16.txt"
+    },
+    {
+      "title": "Book IV (§§14-16)",
+      "startLine": 327,
+      "original": "latin-17.txt",
+      "english": "english-17.txt"
+    },
+    {
+      "title": "Book IV (§§17-19)",
+      "startLine": 347,
+      "original": "latin-18.txt",
+      "english": "english-18.txt"
+    },
+    {
+      "title": "Book IV (§§20-22)",
+      "startLine": 372,
+      "original": "latin-19.txt",
+      "english": "english-19.txt"
+    },
+    {
+      "title": "Book IV (§§23-25)",
+      "startLine": 392,
+      "original": "latin-20.txt",
+      "english": "english-20.txt"
+    },
+    {
+      "title": "Book IV (§§26-29)",
+      "startLine": 415,
+      "original": "latin-21.txt",
+      "english": "english-21.txt"
+    },
+    {
+      "title": "Book IV (§§30-31)",
+      "startLine": 437,
+      "original": "latin-22.txt",
+      "english": "english-22.txt"
+    },
+    {
+      "title": "Book IV (§§32-33)",
+      "startLine": 454,
+      "original": "latin-23.txt",
+      "english": "english-23.txt"
+    },
+    {
+      "title": "Book IV (§§34-37)",
+      "startLine": 480,
+      "original": "latin-24.txt",
+      "english": "english-24.txt"
+    },
+    {
+      "title": "Book IV (§§38-41)",
+      "startLine": 498,
+      "original": "latin-25.txt",
+      "english": "english-25.txt"
+    },
+    {
+      "title": "Book IV (§§42-44)",
+      "startLine": 524,
+      "original": "latin-26.txt",
+      "english": "english-26.txt"
+    },
+    {
+      "title": "Book IV (§§45-49)",
+      "startLine": 551,
+      "original": "latin-27.txt",
+      "english": "english-27.txt"
+    },
+    {
+      "title": "Book IV (§§50-52)",
+      "startLine": 572,
+      "original": "latin-28.txt",
+      "english": "english-28.txt"
+    },
+    {
+      "title": "Book V (§1)",
+      "startLine": 597,
+      "original": "latin-29.txt",
+      "english": "english-29.txt"
+    },
+    {
+      "title": "Book V (§§2-4)",
+      "startLine": 618,
+      "original": "latin-30.txt",
+      "english": "english-30.txt"
+    },
+    {
+      "title": "Book V (§§5-7)",
+      "startLine": 644,
+      "original": "latin-31.txt",
+      "english": "english-31.txt"
+    },
+    {
+      "title": "Book V (§§8-10)",
+      "startLine": 668,
+      "original": "latin-32.txt",
+      "english": "english-32.txt"
+    },
+    {
+      "title": "Book V (§§11-12)",
+      "startLine": 694,
+      "original": "latin-33.txt",
+      "english": "english-33.txt"
+    },
+    {
+      "title": "Postscript",
+      "startLine": 704,
+      "original": "latin-34.txt",
+      "english": "english-34.txt"
+    }
+  ]
+}

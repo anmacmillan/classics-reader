@@ -769,7 +769,224 @@ const OVERRIDES = {
   sillogismos: { lemma: "syllogismus, syllogismi", en: "syllogisms", grammar: "N ACC P M (Greek loanword; medieval spelling)" },
   taurominitanii: { lemma: "Tauromenitanus, -a, -um", en: "of Tauromenium, of Taormina", grammar: "ADJ GEN S N (proper adjective; medieval spelling)" },
   trinacriam: { lemma: "Trinacria, Trinacriae", en: "Sicily (the 'three-cornered' island)", grammar: "N ACC S F (proper name)" },
-  varronis: { lemma: "Varro, Varronis", en: "of Varro (M. Terentius Varro, the Roman polymath)", grammar: "N GEN S M (proper name)" }
+  varronis: { lemma: "Varro, Varronis", en: "of Varro (M. Terentius Varro, the Roman polymath)", grammar: "N GEN S M (proper name)" },
+  // Petrarch, De sui ipsius et multorum ignorantia. First: forms the medieval
+  // spelling fallback resolves to the WRONG classical word — these must be
+  // pinned here, since OVERRIDES is consulted before any rewriting.
+  cherilus: { lemma: "Choerilus, Choerili", en: "Choerilus (byword for a wretched poet)", grammar: "N NOM S M (proper name)" },
+  chimere: { lemma: "chimaera, chimaerae", en: "of the Chimera (here the device blazoned on a helmet)", grammar: "N GEN S F" },
+  dyanas: { lemma: "Diana, Dianae", en: "Dianas", grammar: "N ACC P F (proper name)" },
+  eneys: { lemma: "Aeneis, Aeneidos", en: "the Aeneid", grammar: "N NOM S F (proper name; medieval spelling)" },
+  eschinis: { lemma: "Aeschines, Aeschinis", en: "of Aeschines (the Athenian orator, rival of Demosthenes)", grammar: "N GEN S M (proper name)" },
+  epycuree: { lemma: "Epicureus, -a, -um", en: "Epicurean", grammar: "ADJ GEN S F (medieval spelling)" },
+  quecunque: { lemma: "quicumque, quaecumque, quodcumque", en: "whatever, all that", grammar: "PRON ACC P N (medieval spelling)" },
+  quelibet: { lemma: "quilibet, quaelibet, quodlibet", en: "any you please, any whatever", grammar: "PRON NOM S F (medieval spelling)" },
+  quenam: { lemma: "quisnam, quaenam, quodnam", en: "what then?, which?", grammar: "PRON NOM S F (medieval spelling)" },
+  rethor: { lemma: "rhetor, rhetoris", en: "rhetorician, teacher of rhetoric", grammar: "N NOM S M (medieval spelling)" },
+  scithiam: { lemma: "Scythia, Scythiae", en: "Scythia", grammar: "N ACC S F (proper name; medieval spelling)" },
+  thersiten: { lemma: "Thersites, Thersitae", en: "Thersites (the ugly railer of the Iliad)", grammar: "N ACC S M (proper name)" },
+  thersites: { lemma: "Thersites, Thersitae", en: "Thersites (the ugly railer of the Iliad)", grammar: "N NOM S M (proper name)" },
+  thimeo: { lemma: "Timaeus, Timaei", en: "in the Timaeus (Plato's dialogue)", grammar: "N ABL S M (proper name; medieval spelling)" },
+  thimeum: { lemma: "Timaeus, Timaei", en: "the Timaeus (Plato's dialogue)", grammar: "N ACC S M (proper name; medieval spelling)" },
+  ticinum: { lemma: "Ticinum, Ticini", en: "Pavia", grammar: "N ACC S N (proper name)" },
+  ydoneos: { lemma: "idoneus, idonea, idoneum", en: "suitable, competent", grammar: "ADJ ACC P M (medieval spelling)" },
+  ylen: { lemma: "hyle, hyles", en: "matter, formless matter (Greek hyle)", grammar: "N ACC S F (Greek loanword; medieval spelling)" },
+  ylias: { lemma: "Ilias, Iliados", en: "the Iliad", grammar: "N NOM S F (proper name; medieval spelling)" },
+  // Then the residue the fallback cannot reach: proper names, Greek technical
+  // vocabulary, and words the scribe ran together.
+  acutissmum: { lemma: "acutus, acuta, acutum", en: "most acute, sharpest", grammar: "ADJ SUPER ACC S M (scribal slip for acutissimum)" },
+  agamenoni: { lemma: "Agamemnon, Agamemnonis", en: "to Agamemnon", grammar: "N DAT S M (proper name; medieval spelling)" },
+  amenissimum: { lemma: "amoenus, amoena, amoenum", en: "most delightful", grammar: "ADJ SUPER ACC S M (medieval spelling)" },
+  anaxagoram: { lemma: "Anaxagoras, Anaxagorae", en: "Anaxagoras", grammar: "N ACC S M (proper name)" },
+  appelare: { lemma: "appello, appellare, appellavi, appellatus", en: "to call, to name", grammar: "V PRES ACTIVE INF (medieval spelling)" },
+  archesilas: { lemma: "Arcesilas, Arcesilae", en: "Arcesilaus (head of the Middle Academy)", grammar: "N NOM S M (proper name; medieval spelling)" },
+  archimedem: { lemma: "Archimedes, Archimedis", en: "Archimedes", grammar: "N ACC S M (proper name)" },
+  argonaute: { lemma: "Argonauta, Argonautae", en: "the Argonauts", grammar: "N NOM P M (proper name; medieval spelling)" },
+  arimaspus: { lemma: "Arimaspus, Arimaspi", en: "the Arimaspian (of the one-eyed northern people)", grammar: "N NOM S M (proper name)" },
+  aristarcum: { lemma: "Aristarchus, Aristarchi", en: "Aristarchus (the Homeric critic)", grammar: "N ACC S M (proper name; medieval spelling)" },
+  aristotelica: { lemma: "Aristotelicus, -a, -um", en: "Aristotelian", grammar: "ADJ ABL S F (proper adjective)" },
+  aristotelice: { lemma: "Aristotelice", en: "in Aristotle's manner", grammar: "ADV (proper adjective)" },
+  aristotelicum: { lemma: "Aristotelicus, -a, -um", en: "Aristotelian", grammar: "ADJ ACC S M (proper adjective)" },
+  aristotelicus: { lemma: "Aristotelicus, -a, -um", en: "Aristotelian", grammar: "ADJ NOM S M (proper adjective)" },
+  aristotile: { lemma: "Aristoteles, Aristotelis", en: "Aristotle", grammar: "N ABL S M (proper name; medieval spelling)" },
+  aristotili: { lemma: "Aristoteles, Aristotelis", en: "to Aristotle", grammar: "N DAT S M (proper name; medieval spelling)" },
+  aristotilis: { lemma: "Aristoteles, Aristotelis", en: "of Aristotle", grammar: "N GEN S M (proper name; medieval spelling)" },
+  arquade: { lemma: "Arquada, Arquadae", en: "at Arquà (Petrarch's last home in the Euganean hills)", grammar: "N ABL S F (proper name)" },
+  atridem: { lemma: "Atrides, Atridae", en: "the son of Atreus, Agamemnon", grammar: "N ACC S M (patronymic)" },
+  autoritas: { lemma: "auctoritas, auctoritatis", en: "authority", grammar: "N NOM S F (medieval spelling of auctoritas)" },
+  autoritate: { lemma: "auctoritas, auctoritatis", en: "by authority", grammar: "N ABL S F (medieval spelling)" },
+  autoritatis: { lemma: "auctoritas, auctoritatis", en: "of authority", grammar: "N GEN S F (medieval spelling)" },
+  averrois: { lemma: "Averrois, Averrois", en: "Averroes (Ibn Rushd, the commentator on Aristotle)", grammar: "N NOM S M (proper name)" },
+  babilonios: { lemma: "Babylonius, Babylonii", en: "the Babylonians", grammar: "N ACC P M (proper name; medieval spelling)" },
+  barlaam: { lemma: "Barlaam", en: "Barlaam the Calabrian (Petrarch's teacher of Greek)", grammar: "N ACC S M (indeclinable proper name)" },
+  calabrum: { lemma: "Calaber, Calabra, Calabrum", en: "Calabrian", grammar: "ADJ ACC S M (proper adjective)" },
+  calcidio: { lemma: "Calcidius, Calcidii", en: "Chalcidius (translator of and commentator on the Timaeus)", grammar: "N ABL S M (proper name)" },
+  calvastrum: { lemma: "calvaster, calvastra, calvastrum", en: "half-bald", grammar: "ADJ ACC S M" },
+  carneadem: { lemma: "Carneades, Carneadis", en: "Carneades (head of the New Academy)", grammar: "N ACC S M (proper name)" },
+  censoresque: { lemma: "censor, censoris", en: "and censors", grammar: "N ACC P M + TACKON (-que = and)" },
+  cirographo: { lemma: "chirographum, chirographi", en: "in his own handwriting", grammar: "N ABL S N (Greek loanword; medieval spelling)" },
+  coetaneos: { lemma: "coaetaneus, coaetanei", en: "contemporaries", grammar: "N ACC P M (medieval spelling)" },
+  conscientieque: { lemma: "conscientia, conscientiae", en: "and to conscience", grammar: "N DAT S F + TACKON (medieval spelling)" },
+  contradictores: { lemma: "contradictor, contradictoris", en: "contradictors, opponents", grammar: "N ACC P M" },
+  cordubensis: { lemma: "Cordubensis, Cordubense", en: "the man of Cordoba (Seneca)", grammar: "ADJ GEN S M (substantive)" },
+  crisippam: { lemma: "Chrysippa, Chrysippae", en: "Chrysippa (Zeno's mocking feminine of Chrysippus)", grammar: "N ACC S F (proper name; medieval spelling)" },
+  crisippum: { lemma: "Chrysippus, Chrysippi", en: "Chrysippus (the Stoic)", grammar: "N ACC S M (proper name; medieval spelling)" },
+  crisippus: { lemma: "Chrysippus, Chrysippi", en: "Chrysippus (the Stoic)", grammar: "N NOM S M (proper name; medieval spelling)" },
+  cristianissimum: { lemma: "Christianus, -a, -um", en: "most Christian", grammar: "ADJ SUPER ACC S M (medieval spelling)" },
+  cuiuspiam: { lemma: "quispiam, quaepiam, quodpiam", en: "of someone, of some", grammar: "PRON GEN S" },
+  cuiusquam: { lemma: "quisquam, quaequam, quicquam", en: "of anyone", grammar: "PRON GEN S" },
+  cuntaque: { lemma: "cunctus, cuncta, cunctum", en: "and all things", grammar: "ADJ ACC P N + TACKON (medieval spelling)" },
+  democriti: { lemma: "Democritus, Democriti", en: "of Democritus", grammar: "N GEN S M (proper name)" },
+  demonicolis: { lemma: "daemonicola, daemonicolae", en: "demon-worshippers", grammar: "N ABL P M (medieval spelling)" },
+  demonum: { lemma: "daemon, daemonis", en: "of the demons", grammar: "N GEN P M (medieval spelling)" },
+  discipulorum: { lemma: "discipulus, discipuli", en: "of the pupils", grammar: "N GEN P M" },
+  dormierunt: { lemma: "dormio, dormire, dormivi, dormitus", en: "they slept", grammar: "V PERF ACTIVE IND 3 P" },
+  dyogenem: { lemma: "Diogenes, Diogenis", en: "Diogenes", grammar: "N ACC S M (proper name; medieval spelling)" },
+  dyonisios: { lemma: "Dionysius, Dionysii", en: "Dionysuses", grammar: "N ACC P M (proper name; medieval spelling)" },
+  egiptiorum: { lemma: "Aegyptius, Aegyptii", en: "of the Egyptians", grammar: "N GEN P M (medieval spelling)" },
+  egipto: { lemma: "Aegyptus, Aegypti", en: "from Egypt", grammar: "N ABL S F (medieval spelling)" },
+  elicone: { lemma: "Helicon, Heliconis", en: "Helicon (the poets' mountain; here Petrarch's Vaucluse)", grammar: "N ABL S M (medieval spelling)" },
+  empedocli: { lemma: "Empedocles, Empedoclis", en: "to Empedocles", grammar: "N DAT S M (proper name)" },
+  epycuri: { lemma: "Epicurus, Epicuri", en: "of Epicurus", grammar: "N GEN S M (proper name; medieval spelling)" },
+  epycuro: { lemma: "Epicurus, Epicuri", en: "about Epicurus", grammar: "N ABL S M (proper name; medieval spelling)" },
+  epycurum: { lemma: "Epicurus, Epicuri", en: "Epicurus", grammar: "N ACC S M (proper name; medieval spelling)" },
+  epycurus: { lemma: "Epicurus, Epicuri", en: "Epicurus", grammar: "N NOM S M (proper name; medieval spelling)" },
+  esculapios: { lemma: "Aesculapius, Aesculapii", en: "Aesculapiuses", grammar: "N ACC P M (medieval spelling)" },
+  ethneorum: { lemma: "Aetnaeus, -a, -um", en: "of Etna", grammar: "ADJ GEN P M (medieval spelling)" },
+  euganeos: { lemma: "Euganeus, -a, -um", en: "Euganean (the hills near Padua)", grammar: "ADJ ACC P M (proper adjective)" },
+  euphorbium: { lemma: "Euphorbus, Euphorbi", en: "Euphorbus (the Trojan Pythagoras claimed to have been)", grammar: "N ACC S M (proper name)" },
+  evangelum: { lemma: "Evangelus, Evangeli", en: "Evangelus (a detractor of Virgil)", grammar: "N ACC S M (proper name)" },
+  expositores: { lemma: "expositor, expositoris", en: "expositors, commentators", grammar: "N NOM P M" },
+  fedas: { lemma: "foedus, foeda, foedum", en: "foul, ugly", grammar: "ADJ ACC P F (medieval spelling)" },
+  flamare: { lemma: "flammo, flammare, flammavi, flammatus", en: "to set alight, to inflame", grammar: "V PRES ACTIVE INF (medieval spelling)" },
+  fugitans: { lemma: "fugito, fugitare, fugitavi, fugitatus", en: "shunning, avoiding", grammar: "VPAR PRES ACTIVE NOM S M" },
+  galathas: { lemma: "Galatae, Galatarum", en: "the Galatians", grammar: "N ACC P M (medieval spelling)" },
+  gophiro: { lemma: "Gobryas, Gobryae", en: "Gobryas (one of the seven Persian conspirators)", grammar: "N ABL S M (proper name; medieval spelling)" },
+  gophirus: { lemma: "Gobryas, Gobryae", en: "Gobryas (one of the seven Persian conspirators)", grammar: "N NOM S M (proper name; medieval spelling)" },
+  gorgias: { lemma: "Gorgias, Gorgiae", en: "Gorgias (of Leontini, the sophist)", grammar: "N NOM S M (proper name)" },
+  hauddubie: { lemma: "haud dubie", en: "beyond doubt", grammar: "ADV (two words written as one)" },
+  hermagoras: { lemma: "Hermagoras, Hermagorae", en: "Hermagoras (the rhetorician)", grammar: "N NOM S M (proper name)" },
+  hesiodum: { lemma: "Hesiodus, Hesiodi", en: "Hesiod", grammar: "N ACC S M (proper name)" },
+  hippias: { lemma: "Hippias, Hippiae", en: "Hippias (the sophist who claimed to know everything)", grammar: "N NOM S M (proper name)" },
+  homeri: { lemma: "Homerus, Homeri", en: "of Homer", grammar: "N GEN S M (proper name)" },
+  homerica: { lemma: "Homericus, -a, -um", en: "Homeric", grammar: "ADJ NOM S F (proper adjective)" },
+  homericos: { lemma: "Homericus, -a, -um", en: "Homeric critics", grammar: "ADJ ACC P M (substantive)" },
+  homero: { lemma: "Homerus, Homeri", en: "about Homer", grammar: "N ABL S M (proper name)" },
+  homerum: { lemma: "Homerus, Homeri", en: "Homer", grammar: "N ACC S M (proper name)" },
+  homerus: { lemma: "Homerus, Homeri", en: "Homer", grammar: "N NOM S M (proper name)" },
+  hore: { lemma: "hora, horae", en: "of the hour", grammar: "N GEN S F (medieval spelling)" },
+  huiuscemodi: { lemma: "huiuscemodi", en: "of this kind", grammar: "ADJ INDECL" },
+  iantandem: { lemma: "iam tandem", en: "now at last", grammar: "ADV (two words written as one)" },
+  ieronimum: { lemma: "Hieronymus, Hieronymi", en: "Jerome", grammar: "N ACC S M (proper name; medieval spelling)" },
+  ieronimus: { lemma: "Hieronymus, Hieronymi", en: "Jerome", grammar: "N NOM S M (proper name; medieval spelling)" },
+  illeso: { lemma: "illaesus, illaesa, illaesum", en: "unhurt, unharmed", grammar: "ADJ ABL S M (medieval spelling)" },
+  incuntanter: { lemma: "incunctanter", en: "without hesitation", grammar: "ADV (medieval spelling)" },
+  inelaborateque: { lemma: "inelaboratus, -a, -um", en: "and unpolished", grammar: "ADJ NOM P F + TACKON (medieval spelling)" },
+  interpretum: { lemma: "interpres, interpretis", en: "of the translators", grammar: "N GEN P M" },
+  iosephus: { lemma: "Iosephus, Iosephi", en: "Josephus (the Jewish historian)", grammar: "N NOM S M (proper name)" },
+  laberii: { lemma: "Laberius, Laberii", en: "of Laberius (the Roman knight Caesar forced onto the stage)", grammar: "N GEN S M (proper name)" },
+  laberio: { lemma: "Laberius, Laberii", en: "to Laberius", grammar: "N DAT S M (proper name)" },
+  langoribus: { lemma: "languor, languoris", en: "with sicknesses, with weaknesses", grammar: "N ABL P M (medieval spelling)" },
+  ledi: { lemma: "laedo, laedere, laesi, laesus", en: "to be wounded, to be hurt", grammar: "V PRES PASSIVE INF (medieval spelling)" },
+  ledoria: { lemma: "ledoria, ledoriae", en: "abuse, insult (Greek loidoria)", grammar: "N NOM S F (Greek loanword)" },
+  lelii: { lemma: "Laelius, Laelii", en: "of Laelius (the friend of Scipio)", grammar: "N GEN S M (proper name; medieval spelling)" },
+  leontinus: { lemma: "Leontinus, -a, -um", en: "of Leontini", grammar: "ADJ NOM S M (proper adjective)" },
+  letiorque: { lemma: "laetus, laeta, laetum", en: "and gladder", grammar: "ADJ COMP NOM S M + TACKON (medieval spelling)" },
+  leuntium: { lemma: "Leontium, Leontii", en: "Leontion (the Epicurean woman who wrote against Theophrastus)", grammar: "N ACC S N (proper name; medieval spelling)" },
+  levam: { lemma: "laevus, laeva, laevum", en: "left, on the left", grammar: "ADJ ACC S F (medieval spelling)" },
+  linx: { lemma: "lynx, lyncis", en: "a lynx", grammar: "N NOM S M (medieval spelling)" },
+  luneque: { lemma: "luna, lunae", en: "and of the moon", grammar: "N GEN S F + TACKON" },
+  macrobius: { lemma: "Macrobius, Macrobii", en: "Macrobius (commentator on the Dream of Scipio)", grammar: "N NOM S M (proper name)" },
+  magnifacio: { lemma: "magnifacio, magnifacere, magnifeci, magnifactus", en: "I set great store by", grammar: "V PRES ACTIVE IND 1 S" },
+  maleo: { lemma: "malleus, mallei", en: "with a hammer", grammar: "N ABL S M (medieval spelling)" },
+  mediolanum: { lemma: "Mediolanum, Mediolani", en: "Milan", grammar: "N ACC S N (proper name)" },
+  mediusfidius: { lemma: "medius fidius", en: "so help me God", grammar: "INTERJ (words written as one)" },
+  mellifluum: { lemma: "mellifluus, -a, -um", en: "flowing with honey", grammar: "ADJ ACC S N" },
+  memorieque: { lemma: "memoria, memoriae", en: "and to memory", grammar: "N DAT S F + TACKON (medieval spelling)" },
+  mestiorque: { lemma: "maestus, maesta, maestum", en: "and more grievous", grammar: "ADJ COMP NOM S M + TACKON (medieval spelling)" },
+  methaphisice: { lemma: "Metaphysica, Metaphysicae", en: "of the Metaphysics", grammar: "N GEN S F (medieval spelling)" },
+  methapontinos: { lemma: "Metapontinus, Metapontini", en: "the people of Metapontum", grammar: "N ACC P M (medieval spelling)" },
+  metrodorus: { lemma: "Metrodorus, Metrodori", en: "Metrodorus (disciple of Epicurus)", grammar: "N NOM S M (proper name)" },
+  minervas: { lemma: "Minerva, Minervae", en: "Minervas", grammar: "N ACC P F (proper name)" },
+  montempessulanum: { lemma: "Mons Pessulanus", en: "Montpellier", grammar: "N ACC S M (place name written as one word)" },
+  mosaica: { lemma: "Mosaicus, -a, -um", en: "Mosaic, of Moses", grammar: "ADJ NOM S F (proper adjective)" },
+  mosaicam: { lemma: "Mosaicus, -a, -um", en: "Mosaic, of Moses", grammar: "ADJ ACC S F (proper adjective)" },
+  nasonis: { lemma: "Naso, Nasonis", en: "of Naso (Ovid)", grammar: "N GEN S M (proper name)" },
+  neapolim: { lemma: "Neapolis, Neapolis", en: "Naples", grammar: "N ACC S F (proper name)" },
+  nostreque: { lemma: "noster, nostra, nostrum", en: "and our", grammar: "ADJ GEN S F + TACKON (medieval spelling)" },
+  obierat: { lemma: "obeo, obire, obivi, obitus", en: "he had died", grammar: "V PLUP ACTIVE IND 3 S" },
+  occeanum: { lemma: "Oceanus, Oceani", en: "the Ocean", grammar: "N ACC S M (medieval spelling)" },
+  parisius: { lemma: "Parisius", en: "Paris", grammar: "N NOM S (indeclinable medieval place name)" },
+  pataviumque: { lemma: "Patavium, Patavii", en: "and Padua", grammar: "N ACC S N + TACKON" },
+  patrocli: { lemma: "Patroclus, Patrocli", en: "of Patroclus", grammar: "N GEN S M (proper name)" },
+  pegaseo: { lemma: "Pegaseus, -a, -um", en: "of Pegasus", grammar: "ADJ ABL S M (proper adjective)" },
+  perquamminima: { lemma: "perquam + minimus, -a, -um", en: "very small indeed", grammar: "ADV + ADJ NOM S F (two words written as one)" },
+  pescennius: { lemma: "Pescennius, Pescennii", en: "Pescennius (Niger, the Roman commander)", grammar: "N NOM S M (proper name)" },
+  pessimumque: { lemma: "pessimus, pessima, pessimum", en: "and the worst", grammar: "ADJ ACC S N + TACKON" },
+  phariseis: { lemma: "Pharisaeus, Pharisaei", en: "to the Pharisees", grammar: "N DAT P M (medieval spelling)" },
+  phenix: { lemma: "phoenix, phoenicis", en: "the phoenix", grammar: "N NOM S M (medieval spelling)" },
+  philotete: { lemma: "Philoctetes, Philoctetae", en: "of Philoctetes", grammar: "N GEN S M (proper name; medieval spelling)" },
+  pirothoi: { lemma: "Pirithous, Pirithoi", en: "of Pirithous", grammar: "N GEN S M (proper name)" },
+  pithagoram: { lemma: "Pythagoras, Pythagorae", en: "Pythagoras", grammar: "N ACC S M (proper name; medieval spelling)" },
+  pithagoras: { lemma: "Pythagoras, Pythagorae", en: "Pythagoras", grammar: "N NOM S M (proper name; medieval spelling)" },
+  pithagore: { lemma: "Pythagoras, Pythagorae", en: "to Pythagoras", grammar: "N DAT S M (proper name; medieval spelling)" },
+  pithagorica: { lemma: "Pythagoricus, -a, -um", en: "Pythagorean", grammar: "ADJ ACC P N (medieval spelling)" },
+  pithagorici: { lemma: "Pythagoricus, -a, -um", en: "Pythagoreans", grammar: "ADJ NOM P M (substantive; medieval spelling)" },
+  plotinus: { lemma: "Plotinus, Plotini", en: "Plotinus", grammar: "N NOM S M (proper name)" },
+  plurinomium: { lemma: "plurinomius, -a, -um", en: "of many names", grammar: "ADJ ACC S M" },
+  polipus: { lemma: "polypus, polypi", en: "the octopus", grammar: "N NOM S M (medieval spelling)" },
+  porphirius: { lemma: "Porphyrius, Porphyrii", en: "Porphyry", grammar: "N NOM S M (proper name; medieval spelling)" },
+  possidonius: { lemma: "Posidonius, Posidonii", en: "Posidonius (the Stoic who built the planetary globe)", grammar: "N NOM S M (proper name; medieval spelling)" },
+  predonibus: { lemma: "praedo, praedonis", en: "to the plunderers", grammar: "N DAT P M (medieval spelling)" },
+  proceresque: { lemma: "procer, proceris", en: "and the nobles", grammar: "N ACC P M + TACKON" },
+  proculdubio: { lemma: "procul dubio", en: "beyond doubt", grammar: "ADV (two words written as one)" },
+  promulgarint: { lemma: "promulgo, promulgare, promulgavi, promulgatus", en: "they may have published", grammar: "V PERF ACTIVE SUB 3 P (syncopated)" },
+  psalmographo: { lemma: "psalmographus, psalmographi", en: "the psalmist", grammar: "N ABL S M" },
+  ptholomeum: { lemma: "Ptolemaeus, Ptolemaei", en: "Ptolemy", grammar: "N ACC S M (proper name; medieval spelling)" },
+  quesieris: { lemma: "quaero, quaerere, quaesivi, quaesitus", en: "you should seek", grammar: "V PERF ACTIVE SUB 2 S (syncopated; medieval spelling)" },
+  quinetiam: { lemma: "quin etiam", en: "moreover, what is more", grammar: "ADV (two words written as one)" },
+  repetiit: { lemma: "repeto, repetere, repetivi, repetitus", en: "he sought again, he made for again", grammar: "V PERF ACTIVE IND 3 S" },
+  rethoricam: { lemma: "rhetorica, rhetoricae", en: "rhetoric", grammar: "N ACC S F (medieval spelling)" },
+  rethorice: { lemma: "rhetorica, rhetoricae", en: "of rhetoric", grammar: "N GEN S F (medieval spelling)" },
+  rethorici: { lemma: "rhetoricus, -a, -um", en: "of the rhetorician", grammar: "ADJ GEN S M (medieval spelling)" },
+  roberti: { lemma: "Robertus, Roberti", en: "of Robert (king of Naples, Petrarch's examiner)", grammar: "N GEN S M (proper name)" },
+  robertus: { lemma: "Robertus, Roberti", en: "Robert (king of Naples)", grammar: "N NOM S M (proper name)" },
+  rodani: { lemma: "Rhodanus, Rhodani", en: "of the Rhône", grammar: "N GEN S M (medieval spelling)" },
+  ruphini: { lemma: "Rufinus, Rufini", en: "of Rufinus (Jerome's antagonist)", grammar: "N GEN S M (proper name; medieval spelling)" },
+  salustii: { lemma: "Sallustius, Sallustii", en: "of Sallust", grammar: "N GEN S M (proper name; medieval spelling)" },
+  salustio: { lemma: "Sallustius, Sallustii", en: "about Sallust", grammar: "N ABL S M (proper name; medieval spelling)" },
+  scomma: { lemma: "scomma, scommatis", en: "a gibe, a taunt", grammar: "N NOM S N (Greek loanword)" },
+  solertius: { lemma: "sollerter", en: "more skilfully", grammar: "ADV COMP (medieval spelling)" },
+  solonem: { lemma: "Solon, Solonis", en: "Solon", grammar: "N ACC S M (proper name)" },
+  sonantiora: { lemma: "sonans, sonantis", en: "more resounding", grammar: "ADJ COMP ACC P N" },
+  sorgia: { lemma: "Sorgia, Sorgiae", en: "the Sorgue (the spring at Vaucluse)", grammar: "N NOM S F (proper name)" },
+  speram: { lemma: "sphaera, sphaerae", en: "a sphere, a globe", grammar: "N ACC S F (medieval spelling)" },
+  spere: { lemma: "sphaera, sphaerae", en: "of the sphere", grammar: "N GEN S F (medieval spelling)" },
+  speris: { lemma: "sphaera, sphaerae", en: "with the spheres", grammar: "N ABL P F (medieval spelling)" },
+  stomacetur: { lemma: "stomachor, stomachari, stomachatus sum", en: "would be sickened, would take offence", grammar: "V PRES DEP SUB 3 S (medieval spelling)" },
+  stomaco: { lemma: "stomachus, stomachi", en: "with disgust", grammar: "N ABL S M (medieval spelling)" },
+  strepidulus: { lemma: "strepidulus, -a, -um", en: "noisy, clattering", grammar: "ADJ NOM S M" },
+  suetonium: { lemma: "Suetonius, Suetonii", en: "Suetonius", grammar: "N ACC S M (proper name)" },
+  tedium: { lemma: "taedium, taedii", en: "weariness, tedium", grammar: "N ACC S N (medieval spelling)" },
+  tertiumdecimum: { lemma: "tertius decimus", en: "thirteenth", grammar: "NUM ACC S M (two words written as one)" },
+  theofrastum: { lemma: "Theophrastus, Theophrasti", en: "Theophrastus", grammar: "N ACC S M (proper name; medieval spelling)" },
+  timocrati: { lemma: "Timocrates, Timocratis", en: "to Timocrates", grammar: "N DAT S M (proper name)" },
+  tuchidide: { lemma: "Thucydides, Thucydidis", en: "Thucydides", grammar: "N ABL S M (proper name; medieval spelling)" },
+  unaqueque: { lemma: "unusquisque, unaquaeque, unumquodque", en: "each single one", grammar: "PRON NOM S F (medieval spelling)" },
+  usqueadeo: { lemma: "usque adeo", en: "to such a degree", grammar: "ADV (two words written as one)" },
+  usquedum: { lemma: "usque dum", en: "until", grammar: "CONJ (two words written as one)" },
+  varro: { lemma: "Varro, Varronis", en: "Varro", grammar: "N NOM S M (proper name)" },
+  virgiliana: { lemma: "Vergilianus, -a, -um", en: "Virgilian, of Virgil", grammar: "ADJ NOM S F (proper adjective)" },
+  virgilianos: { lemma: "Vergilianus, -a, -um", en: "critics of Virgil", grammar: "ADJ ACC P M (substantive)" },
+  virgilii: { lemma: "Vergilius, Vergilii", en: "of Virgil", grammar: "N GEN S M (proper name)" },
+  virgilio: { lemma: "Vergilius, Vergilii", en: "about Virgil", grammar: "N ABL S M (proper name)" },
+  virtuosum: { lemma: "virtuosus, -a, -um", en: "virtuous", grammar: "ADJ ACC S M (medieval Latin)" },
+  xenophon: { lemma: "Xenophon, Xenophontis", en: "Xenophon", grammar: "N NOM S M (proper name)" },
+  xenophonte: { lemma: "Xenophon, Xenophontis", en: "Xenophon", grammar: "N ABL S M (proper name)" },
+  "xiª": { lemma: "undecimus, undecima, undecimum", en: "eleventh (Roman numeral XI with the ordinal suffix)", grammar: "NUM ABL S F" },
+  ysocratis: { lemma: "Isocrates, Isocratis", en: "of Isocrates (the Athenian orator)", grammar: "N GEN S M (medieval spelling)" },
+  zoilum: { lemma: "Zoilus, Zoili", en: "Zoilus (the carping critic of Homer)", grammar: "N ACC S M (proper name)" },
+  "μετεμψικοσις": { lemma: "μετεμψύχωσις (metempsychosis)", en: "metempsychosis, the transmigration of souls", grammar: "N NOM S F (Greek, as written by Petrarch)" }
 };
 
 // Catullus contains many unattested proper names and deliberately archaic
@@ -868,12 +1085,83 @@ function entryFromResult(result) {
   };
 }
 
+// Trecento and medieval scribal orthography differs from the classical spelling
+// Whitaker's Words indexes. These rewrites are tried, in combination, only after
+// a direct lookup has failed; a candidate is accepted solely when Whitaker
+// resolves it, and the resulting entry records the classical form it came from.
+// Proper names and genuine ambiguities are NOT handled here — they stay in
+// OVERRIDES, which is consulted first and therefore always wins.
+const MEDIEVAL_RESOLVED = new Map();
+const MEDIEVAL_SPELLINGS = [
+  [/^pre/, "prae"],           // precipue -> praecipue
+  [/^y/, "hy"],               // yperbole -> hyperbole
+  [/^e/, "ae"],               // eternitas -> aeternitas
+  [/^ce/, "cae"],             // cecus -> caecus
+  [/^he/, "hae"],             // hecne -> haecne
+  [/^que/, "quae"],           // querunt -> quaerunt
+  [/^exti/, "aesti"],         // extimare -> aestimare
+  [/^liter/, "litter"],       // literatus -> litteratus
+  [/^comun/, "commun"],       // comunicabilis -> communicabilis
+  [/^soli(c)/, "solli$1"],    // solicitus -> sollicitus
+  [/nque/, "mque"],           // utranque -> utramque
+  [/cunque/, "cumque"],       // ubicunque -> ubicumque
+  [/^nanque/, "namque"],
+  [/ti/, "ci"],               // suspitio -> suspicio
+  [/ci/, "ti"],               // inverse
+  [/ch/, "c"],                // archana -> arcana
+  [/th/, "t"],                // athomus -> atomus
+  [/y/, "i"],                 // ydiota -> idiota
+  [/^i/, "y"],                // inverse, for hellenisms
+  [/asse$/, "avisse"],        // aberrasse -> aberravisse
+  [/asset$/, "avisset"],
+  [/assent$/, "avissent"],
+  [/arunt$/, "averunt"],      // dictarunt -> dictaverunt
+  [/isti$/, "ivisti"],        // audisti -> audivisti
+  [/ierim$/, "iverim"],
+  [/ierint$/, "iverint"],
+  [/ierit$/, "iverit"],
+  [/osses$/, "ovisses"],      // nosses -> novisses
+  [/osset$/, "ovisset"],
+];
+
+function spellingCandidates(word, depth = 3) {
+  const seen = new Set([word]);
+  let frontier = [word];
+  const out = [];
+  for (let step = 0; step < depth; step += 1) {
+    const next = [];
+    for (const form of frontier) {
+      for (const [pattern, replacement] of MEDIEVAL_SPELLINGS) {
+        if (!pattern.test(form)) continue;
+        const candidate = form.replace(pattern, replacement);
+        if (seen.has(candidate)) continue;
+        seen.add(candidate);
+        next.push(candidate);
+        out.push(candidate);
+      }
+    }
+    frontier = next;
+    if (!frontier.length) break;
+  }
+  return out;
+}
+
 function entryFor(engine, word) {
   if (OVERRIDES[word]) return OVERRIDES[word];
   if (OVERRIDES[normalise(word)]) return OVERRIDES[normalise(word)];
   let analysis = engine.parseWord(word);
   if (!analysis.results.length && !analysis.uniqueResults.length && !analysis.addonResults.length && normalise(word) !== word) {
     analysis = engine.parseWord(normalise(word));
+  }
+  if (!analysis.results.length && !analysis.uniqueResults.length && !analysis.addonResults.length) {
+    for (const candidate of spellingCandidates(normalise(word))) {
+      const retry = engine.parseWord(candidate);
+      if (retry.results.length || retry.uniqueResults.length || retry.addonResults.length) {
+        MEDIEVAL_RESOLVED.set(word, candidate);
+        analysis = retry;
+        break;
+      }
+    }
   }
   if (analysis.results.length) return entryFromResult(analysis.results[0]);
   if (analysis.uniqueResults.length) {
@@ -903,9 +1191,17 @@ const unresolved = [];
 for (const word of missing) {
   try {
     entries[word] = entryFor(engine, word);
+    const classical = MEDIEVAL_RESOLVED.get(word);
+    if (classical) {
+      entries[word] = { ...entries[word], grammar: `${entries[word].grammar} (medieval spelling of ${classical})` };
+    }
   } catch {
     unresolved.push(word);
   }
+}
+if (process.env.REPORT_MEDIEVAL && MEDIEVAL_RESOLVED.size) {
+  const rows = [...MEDIEVAL_RESOLVED].map(([from, to]) => `${from} -> ${to} = ${entries[from].lemma}`);
+  console.log(`Medieval spellings resolved (${rows.length}), review before committing:\n${rows.join("\n")}`);
 }
 if (unresolved.length) {
   throw new Error(
