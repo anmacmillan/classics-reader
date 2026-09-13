@@ -1,5 +1,28 @@
 /* ─── App ──────────────────────────────────────────────────────────────── */
 
+// Every book.lang value the app actually supports, with display name/icon.
+// Was three separate `lang === "latin" ? X : lang === "greek" ? Y : Z`
+// ternaries, each silently defaulting anything-not-latin-not-greek to
+// "Oudengels" — correct back when Old English was the only third language,
+// wrong the moment Middle Dutch and Dutch were added (they fell into the
+// same default bucket). One source of truth instead.
+const LANG_META = {
+  latin: { label: "Latijn", labelEn: "Latin", icon: "\u{1F4DC}" },
+  greek: { label: "Grieks", labelEn: "Greek", icon: "\u{1F525}" },
+  old_english: { label: "Oudengels", labelEn: "Old English", icon: "\u{1F4D6}" },
+  middle_dutch: { label: "Middelnederlands", labelEn: "Middle Dutch", icon: "\u{1F98A}" },
+  dutch: { label: "Nederlands", labelEn: "Dutch", icon: "\u{1F4D6}" },
+};
+function langLabel(lang) {
+  return LANG_META[lang]?.label || lang;
+}
+function langLabelEn(lang) {
+  return LANG_META[lang]?.labelEn || lang;
+}
+function langIcon(lang) {
+  return LANG_META[lang]?.icon || "\u{1F4D6}";
+}
+
 const state = {
   books: [],
   currentBookIndex: 0,
@@ -309,7 +332,7 @@ function updateHeaderContext() {
   if (!document.body.classList.contains("reader-mode")) {
     const group = selectedLibraryGroup();
     primary.textContent = group?.label || "Library";
-    secondary.textContent = group ? libraryGroupSummary(group) : "Latin · Greek";
+    secondary.textContent = group ? libraryGroupSummary(group) : "Latin · Greek · Dutch";
     return;
   }
 
@@ -428,9 +451,7 @@ function libraryGroups(books) {
 }
 
 function libraryGroupSummary(group) {
-  const languages = [...new Set(group.books.map((book) =>
-    book.lang === "latin" ? "Latin" : book.lang === "greek" ? "Greek" : "Old English"
-  ))];
+  const languages = [...new Set(group.books.map((book) => langLabelEn(book.lang)))];
   const sections = group.books.reduce((total, book) => total + book.chapters.length, 0);
   return `${group.books.length} ${group.books.length === 1 ? "text" : "texts"} · ${languages.join(" · ")} · ${sections} ${sections === 1 ? "section" : "sections"}`;
 }
@@ -494,8 +515,8 @@ function renderLibrary() {
     const pct = Math.round((completedCh / totalCh) * 100);
     const isDone = completedCh === totalCh;
 
-    const langIcon = book.lang === "latin" ? "\u{1F4DC}" : book.lang === "greek" ? "\u{1F525}" : "\u{1F4D6}";
-    const langLabel = book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels";
+    const bookLangIcon = langIcon(book.lang);
+    const bookLangLabel = langLabel(book.lang);
 
     const displayTitle = workDisplayTitle(book);
     const shortTitle = book.shortTitle ? `<p class="book-short-title">${book.shortTitle}</p>` : "";
@@ -503,7 +524,7 @@ function renderLibrary() {
 
     if (isDone) card.classList.add("book-done");
     card.innerHTML = `
-      <div class="book-icon">${isDone ? "\u{1F3C6}" : langIcon}</div>
+      <div class="book-icon">${isDone ? "\u{1F3C6}" : bookLangIcon}</div>
       <h3>${displayTitle}</h3>
       ${shortTitle}
       <div class="book-meta">
@@ -518,7 +539,7 @@ function renderLibrary() {
         <span class="progress-text">${isDone ? "✓" : pct + "%"}</span>
       </div>
       <div style="font-size: 0.7rem; color: var(--text-muted); margin-top: 4px;">
-        ${langLabel}
+        ${bookLangLabel}
       </div>
     `;
 
@@ -562,7 +583,7 @@ function renderBookOverview(grid, idx) {
   heading.className = "catalogue-heading overview-heading";
   heading.innerHTML = `
     <h1>${workDisplayTitle(book)}</h1>
-    <p>${book.author} · ${totalCh} delen · ${book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels"}</p>
+    <p>${book.author} · ${totalCh} delen · ${langLabel(book.lang)}</p>
     <div class="overview-progress ${allDone ? "overview-progress-done" : ""}">
       <div class="progress-track"><div class="progress-bar" style="width: ${pct}%"></div></div>
       <span class="progress-text">${allDone ? "\u{1F3C6} Voltooid!" : `${set.size}/${totalCh} gelezen`}</span>
@@ -596,7 +617,7 @@ function renderGroupLibrary(grid) {
   libraryGroups(state.books).forEach((group) => {
     const card = document.createElement("div");
     card.className = "book-card author-card";
-    const languages = [...new Set(group.books.map((book) => book.lang === "latin" ? "Latijn" : book.lang === "greek" ? "Grieks" : "Oudengels"))];
+    const languages = [...new Set(group.books.map((book) => langLabel(book.lang)))];
     const sections = group.books.reduce((total, book) => total + book.chapters.length, 0);
 
     card.innerHTML = `
@@ -1287,12 +1308,16 @@ function getDictionaryEntry(rawWord, lang) {
     .toLowerCase()
     .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
   const normalised = normaliseLookupKey(rawWord);
-  if (lang !== "greek" && lang !== "latin" && lang !== "old_english") return null;
+  if (lang !== "greek" && lang !== "latin" && lang !== "old_english" && lang !== "middle_dutch" && lang !== "dutch") return null;
   const dict = lang === "greek"
     ? GREEK_DICT
     : lang === "latin"
       ? LATIN_DICT
-      : OLD_ENGLISH_DICT;
+      : lang === "old_english"
+        ? OLD_ENGLISH_DICT
+        : lang === "middle_dutch"
+          ? MIDDLE_DUTCH_DICT
+          : DUTCH_DICT;
   return dict[original] || dict[normalised] || null;
 }
 

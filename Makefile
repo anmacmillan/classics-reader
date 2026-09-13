@@ -1,10 +1,13 @@
-.PHONY: import dictionary check
+.PHONY: import dictionary dutch-dictionary check
 
 import:
 	python3 scripts/import_texts.py
 
 dictionary:
 	npm run latin-dictionary
+
+dutch-dictionary:
+	python3 scripts/build_dutch_dictionaries.py
 
 check:
 	python3 scripts/import_texts.py --check
@@ -17,3 +20,6 @@ check:
 	node --check generated/imported-books.js
 	node --check generated/imported-latin-dictionary.js
 	node --check generated/imported-greek-dictionary.js
+	node --check generated/imported-old-english-dictionary.js
+	node --check generated/imported-middle-dutch-dictionary.js
+	node --check generated/imported-dutch-dictionary.js

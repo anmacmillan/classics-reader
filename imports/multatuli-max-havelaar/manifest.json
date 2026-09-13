@@ -1,0 +1,19 @@
+{
+  "id": "multatuli-max-havelaar",
+  "title": "Max Havelaar",
+  "shortTitle": "Opening chapter",
+  "author": "Multatuli (Eduard Douwes Dekker)",
+  "year": 1860,
+  "lang": "dutch",
+  "chapters": [
+    {
+      "title": "Eerste hoofdstuk — the opening",
+      "startLine": 1,
+      "original": "dutch.txt",
+      "english": "english.txt",
+      "translationCredit": "Dutch: Project Gutenberg #11024 (original 1860 spelling, unmodernised) · EN: original translation",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://www.gutenberg.org/ebooks/11024"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ DICTIONARY_PATH = ROOT / "dictionary.js"
 IMPORTED_LATIN_DICTIONARY_PATH = ROOT / "generated" / "imported-latin-dictionary.js"
 IMPORTED_GREEK_DICTIONARY_PATH = ROOT / "generated" / "imported-greek-dictionary.js"
 IMPORTED_OLD_ENGLISH_DICTIONARY_PATH = ROOT / "generated" / "imported-old-english-dictionary.js"
+IMPORTED_MIDDLE_DUTCH_DICTIONARY_PATH = ROOT / "generated" / "imported-middle-dutch-dictionary.js"
+IMPORTED_DUTCH_DICTIONARY_PATH = ROOT / "generated" / "imported-dutch-dictionary.js"
 
 
 def read_lines(path: Path) -> list[str]:
@@ -36,10 +38,16 @@ def load_existing_ids() -> set[str]:
 
 
 def load_dictionary_keys(dictionary_name: str) -> set[str]:
-    if dictionary_name == "OLD_ENGLISH_DICT":
-        if not IMPORTED_OLD_ENGLISH_DICTIONARY_PATH.exists():
+    standalone_paths = {
+        "OLD_ENGLISH_DICT": IMPORTED_OLD_ENGLISH_DICTIONARY_PATH,
+        "MIDDLE_DUTCH_DICT": IMPORTED_MIDDLE_DUTCH_DICTIONARY_PATH,
+        "DUTCH_DICT": IMPORTED_DUTCH_DICTIONARY_PATH,
+    }
+    if dictionary_name in standalone_paths:
+        path = standalone_paths[dictionary_name]
+        if not path.exists():
             return set()
-        supplement = IMPORTED_OLD_ENGLISH_DICTIONARY_PATH.read_text(encoding="utf-8")
+        supplement = path.read_text(encoding="utf-8")
         return set(re.findall(r'^\s*"([^"]+)":', supplement, flags=re.MULTILINE))
     text = DICTIONARY_PATH.read_text(encoding="utf-8")
     start = text.index(f"const {dictionary_name} = {{")
@@ -146,8 +154,8 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
     missing = required - manifest.keys()
     if missing:
         raise ValueError(f"{import_dir.name}: manifest missing {', '.join(sorted(missing))}")
-    if manifest["lang"] not in {"greek", "latin", "old_english"}:
-        raise ValueError(f"{import_dir.name}: lang must be greek, latin, or old_english")
+    if manifest["lang"] not in {"greek", "latin", "old_english", "middle_dutch", "dutch"}:
+        raise ValueError(f"{import_dir.name}: lang must be greek, latin, old_english, middle_dutch, or dutch")
     if not manifest["chapters"]:
         raise ValueError(f"{import_dir.name}: manifest requires at least one chapter")
 
@@ -206,6 +214,8 @@ def main() -> int:
         "greek": load_dictionary_keys("GREEK_DICT"),
         "latin": load_dictionary_keys("LATIN_DICT"),
         "old_english": load_dictionary_keys("OLD_ENGLISH_DICT"),
+        "middle_dutch": load_dictionary_keys("MIDDLE_DUTCH_DICT"),
+        "dutch": load_dictionary_keys("DUTCH_DICT"),
     }
     books = []
     seen_ids = set()

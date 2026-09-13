@@ -1,0 +1,19 @@
+{
+  "id": "reynaerde",
+  "title": "Van den vos Reynaerde",
+  "shortTitle": "Middle Dutch beast epic",
+  "author": "Willem (die vele bouke maecte)",
+  "year": 1260,
+  "lang": "middle_dutch",
+  "chapters": [
+    {
+      "title": "Prologue",
+      "startLine": 1,
+      "original": "middle_dutch.txt",
+      "english": "english.txt",
+      "translationCredit": "Middle Dutch: Comburg manuscript text, Reynaertgenootschap · EN: original translation, cross-checked against standard scholarly readings. Line 19 (\"malsch\") is a recognised textual crux with no settled scholarly consensus — rendered here as \"foolish\", the most common modern reading, but genuinely disputed.",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://www.reynaertgenootschap.be/teksten/van-den-vos-reynaerde-naar-het-comburgse-handschrift/"
+    }
+  ]
+}
