@@ -1,0 +1,525 @@
+rank	headword	en	pos	group	nl
+1	ὁ ἡ τό	the	definite article	Pronouns/Interrogatives	de, het (lidwoord)
+2	αὐτός αὐτή αὐτό	him- her- itself etc. (for emphasis); the same (with article); (pron.) him, her, it etc. (in oblique cases)	adjective: 1st and 2nd declension	Pronouns/Interrogatives	zelf; (met lidw.) dezelfde; hem, haar, het
+3	καί	and, also, even; καί...καί both...and	conjunction: coordinating	Conjunctions/Adverbs	en, ook, zelfs; καί ... καί: zowel ... als
+4	δέ	and; but	conjunction: coordinating	Particles	en; maar
+5	τίς τί	who? what? which? (interrog. pron./adj.)	pronoun	Pronouns/Interrogatives	wie? wat? welk?
+6	εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι	be, exist	verb: irregular	Humanity and Being	zijn, bestaan
+7	οὗτος αὕτη τοῦτο	this, these; μετὰ ταῦτα after this	pronoun	Pronouns/Interrogatives	deze, dit; μετὰ ταῦτα: daarna
+8	ἤ	or; than (after a comparative); ἤ...ἤ either...or	conjunction: coordinating	Conjunctions/Adverbs	of; (na comparatief) dan; ἤ ... ἤ: ofwel ... ofwel
+9	ἐν	in, among (+dat.)	preposition	Direction	in, onder (+ dat.)
+10	μέν...δέ	on the one hand...on the other hand (often untranslated); μέν (by itself) indeed	conjunction: coordinating	Particles	enerzijds ... anderzijds (vaak onvertaald)
+11	τις τι	someone, something, anyone, anything, some, any (enclitic indef. pron./adj.)	pronoun	Pronouns/Interrogatives	iemand, iets; een of ander
+12	ὅς ἥ ὅ	who, which, that	pronoun	Pronouns/Interrogatives	die, dat, welke
+13	γάρ	for (explanatory), indeed, in fact (confirming)	conjunction: coordinating	Conjunctions/Adverbs	want, immers; inderdaad
+14	οὐ, οὐκ, οὐχ	not (with indicative verbs)	adverb	Conjunctions/Adverbs	niet
+15	λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην and ἐρρήθην	say, speak (of), recount; pick up, collect, count	verb: irregular	Writing and Talking	zeggen, spreken; vertellen
+16	ὡς	as, since; (introducing purpose clause) so that (+subj./opt.); (introducing indir. statement) that	conjunction: subordinating	Conjunctions/Adverbs	zoals, omdat; opdat (+ conj./opt.); dat
+17	τε	and; τε…τε both…and	conjunction: coordinating	Conjunctions/Adverbs	en; τε ... τε: zowel ... als
+18	εἰς	into, to, towards (+acc.)	preposition	Direction	in, naar, tot (+ acc.)
+19	ἐπί	at (+gen.); on (+dat.); on to, against (+acc.)	preposition	Direction	op, bij (+ gen.); op, bij (+ dat.); naar, tegen (+ acc.)
+20	κατά	down, down (from or along), throughout, according to; κατὰ γῆν by land; κατὰ φύσιν in accordance with nature; κατ’ ἔθνη by nations; καθ᾿ἕνα one by one.	preposition	Direction	langs, neer; volgens, over (+ acc.); neer van (+ gen.)
+21	ἐγώ ἐμοῦ, (pl.) ἡμεῖς, ἡμῶν	I, we	pronoun	Pronouns/Interrogatives	ik; wij
+22	πρός	from the side of, in the presence of (+gen.); near, at, in addition to (+dat.); to, towards, in relation to (+acc.)	preposition	Direction	van de kant van (+ gen.); bij (+ dat.); naar, tegen (+ acc.)
+23	γίγνομαι, γενήσομαι, 2 aor. ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην	become; be born; happen, be	verb: deponent	Humanity and Being	worden; geboren worden; gebeuren, zijn
+24	ἐάν (εἰ-ἄν)	if (+subj.)	conjunction: subordinating	Conjunctions/Adverbs	als, indien (+ conj.)
+25	διά	through, during, because of (+gen., acc.)	preposition	Prepositions without Direction	door (+ gen.); wegens (+ acc.)
+26	ἀλλά	but	conjunction: coordinating	Conjunctions/Adverbs	maar
+27	πᾶς πᾶσα πᾶν	every, all; whole (with article)	noun: 3rd declension irregular	Measurements and Numerals	elk, al, alle; geheel
+28	ἔχω, ἕξω or σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον	have, hold, keep	verb: irregular	Taking and Giving	hebben, houden
+29	ἐκ, ἐξ	from, out of (+gen.)	preposition	Direction	uit, van (+ gen.)
+30	πολύς πολλή πολύ	much, many; ὡς ἐπὶ τὸ πολύ for the most part	noun: 3rd declension irregular	Measurements and Numerals	veel; ὡς ἐπὶ τὸ πολύ: meestal
+31	περί	around, about; concerning (+gen.)	preposition	Direction	over, betreffende (+ gen.); rond, om (+ acc.)
+32	μή	not (marks the negative as subjective or conditional); εἰ μή if not, except	conjunction: subordinating	Conjunctions/Adverbs	niet (bij wens, bevel, voorwaarde); εἰ μή: behalve
+33	ὅστις ἥτις ὅ τι	anyone who, anything which; (in indir. quest.) who, which, what	pronoun	Pronouns/Interrogatives	al wie, al wat; wie, wat (in indirecte vraag)
+34	ἄν	[marks verbs as potential (with optative), or generalizing (with subjunctive)]	adverb	Particles	partikel van mogelijkheid of herhaling (onvertaald)
+35	σύ, σοῦ, (pl.) ὑμεῖς, ὑμῶν	you	pronoun	Pronouns/Interrogatives	jij; jullie
+36	ἀνά	up, on; throughout	preposition	Direction	op, omhoog langs; doorheen (+ acc.)
+37	ὅτι	because, that; (with superl.) as...as possible	conjunction: subordinating	Conjunctions/Adverbs	dat; omdat; (+ superl.) zo ... mogelijk
+38	εἰ	if (+indic. or opt.); εἴπερ if indeed	conjunction: subordinating	Conjunctions/Adverbs	als, indien; of
+39	ἄλλος ἄλλη ἄλλο	other, another	adjective: 1st and 2nd declension	Pronouns/Interrogatives	ander
+40	ἀπό	from (+gen.)	preposition	Direction	van, vanaf (+ gen.)
+41	φημί, φήσω, impf. ἔφην	say, assert, declare; οὐ φημί deny, refuse, say that...not	verb: -μι	Writing and Talking	zeggen, beweren; οὔ φημι: ontkennen
+42	ὑπό	under (+gen., dat.); by (+gen. of personal agent); down under (+acc.)	preposition	Direction	onder (+ gen./dat.); door (+ gen., persoon); onder (+ acc.)
+43	ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην	make, produce, cause, do; (mid.) consider, reckon	verb: contracted	Work and Leisure	maken, doen; (med.) achten
+44	οὖν	therefore, accordingly; at any rate	adverb	Particles	dus, daarom
+45	λόγος λόγου, ὁ	word, speech, discourse; thought, reason, account	noun: 2nd declension	Writing and Talking	woord, rede, verhaal; verstand, redenering
+46	παρά	from (+gen.); beside (+dat.); to, to the side of, contrary to (+acc.)	preposition	Direction	van (+ gen.); bij (+ dat.); naar, tegen (+ acc.)
+47	οὕτως	in this way	adverb	Conjunctions/Adverbs	zo, op deze manier
+48	πρότερος προτέρα πρότερον	before, earlier; τὸ πρότερον previously, before	adjective: 1st and 2nd declension	Time	vroeger, eerder
+49	θεός θεοῦ, ὁ/ἡ	god, goddess	noun: 2nd declension	Religion	god, godin
+50	μετά	with (+gen.); after (+acc.)	preposition	Prepositions without Direction	met (+ gen.); na (+ acc.)
+51	ἑαυτοῦ ἑαυτῆς ἑαυτοῦ	him- her- itself (reflexive pron.)	pronoun	Pronouns/Interrogatives	zich(zelf)
+52	μέγας μεγάλη μέγα	big, great, powerful	adjective: 1st and 2nd declension	Measurements and Numerals	groot, machtig
+53	οὐδέ	and not, but not, nor; οὐδέ...οὐδέ not even...nor yet	conjunction: coordinating	Conjunctions/Adverbs	en niet, ook niet; zelfs niet
+54	ἐκεῖνος ἐκείνη ἐκεῖνο	that person or thing; ἐκεῖνος…οὗτος the former…the latter	pronoun	Pronouns/Interrogatives	die, dat, gene
+55	τοιοῦτος τοιαύτη τοιοῦτο	such, of such a sort	adjective: 1st and 2nd declension	Pronouns/Interrogatives	zulk(e), zodanig
+56	οὐδείς οὐδεμία οὐδέν	no one, nothing	pronoun	Pronouns/Interrogatives	niemand, niets
+57	εἶπον	I said, I spoke, 2 aor. → λέγω, φημί	verb: irregular	Writing and Talking	ik zei, ik sprak
+58	ἀγαθός ἀγαθή ἀγαθόν	good, virtuous, brave, noble	adjective: 1st and 2nd declension	Ethics and Morals	goed, dapper, edel
+59	γε	(enclitic) indeed; at least, at any rate	adverb	Particles	toch, tenminste, zeker
+60	δή	surely, really, now, in fact, indeed (gives greater exactness)	adverb	Particles	nu, dus, werkelijk, immers
+61	πόλις πόλεως, ἡ	city, city-state	noun: 3rd declension ι-stem	Government and Society	stad, stadstaat
+62	εἷς μία ἕν	one	adjective: numeral	Measurements and Numerals	één
+63	ἵημι, ἥσω, ἧκα, -εἷκα, εἷμαι, -εἵθην	put in motion, let go, shoot; (mid.) hasten, rush	verb: -μι	Work and Leisure	zenden, werpen, laten gaan; (med.) zich haasten
+64	δέω, δεήσω, ἐδέησα, δεδέηκα, δεδέημαι, ἐδεήθην	lack, miss, stand in need of (+gen.)	verb: contracted	Taking and Giving	nodig hebben, missen (+ gen.)
+65	ἄνθρωπος –ου, ὁ/ἡ	human being	noun: 2nd declension	Humanity and Being	mens
+66	ὁράω, ὄψομαι, 2 aor. εἶδον, ἑόρακα and ἑώρακα, ὤφθην, impf. ἑώρων	see, look (to)	verb: irregular	The Senses and Feelings	zien, kijken
+67	μόνος μόνη μόνον	alone, single	adjective: 1st and 2nd declension	Measurements and Numerals	alleen, enig
+68	οὔτε...οὔτε	neither...nor	conjunction: coordinating	Conjunctions/Adverbs	noch ... noch
+69	οἷος οἵα οἷον	such as, of what sort, like, (exclam.) what a!, how! ; οἷός τε (+infin.) fit or able to; οἷόν τε (+infin.) it is possible to	adjective: 1st and 2nd declension	Pronouns/Interrogatives	zoals, van welke aard; οἷός τε: in staat om
+70	λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην	take, grasp, seize; receive, get	verb: -ω labial stem	Taking and Giving	nemen, grijpen; ontvangen, krijgen
+71	δοκέω, δόξω, ἔδοξα	think, suppose, imagine (+acc. and infin.); seem, seem good; (impers.) δοκεῖ μοι it seems to me	verb: contracted	The Mind, Perceiving and Learning	menen, denken; lijken; δοκεῖ μοι: het lijkt me goed
+72	ἕτερος ἑτέρα ἕτερον	the other (of two); other, another	adjective: 1st and 2nd declension	Pronouns/Interrogatives	de andere (van twee), ander
+73	κακός –ή –όν	bad, wicked, cowardly	adjective: 1st and 2nd declension	Characteristics	slecht, laf
+74	ἀνήρ ἀνδρός, ὁ	man, husband	noun: 3rd declension irregular	Humanity and Being	man, echtgenoot
+75	ἐπεί	after, since, when	conjunction: subordinating	Time	nadat, toen; aangezien
+76	ὅσος ὅση ὅσον	however much; as great as; (in pl.) as many as; ὅσον (adv.) as much as	adjective: 1st and 2nd declension	Pronouns/Interrogatives	zo groot als, hoeveel; zoveel als
+77	καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην	call, summon	verb: contracted	Writing and Talking	roepen, noemen
+78	σῶμα σώματος, τό	body	noun: 3rd declension consonant stem	Body Parts	lichaam
+79	δεῖ, δεήσει, impf. ἔδει	it is necessary, one must, one ought (+acc. and infin.)	verb: impersonal	Ethics and Morals	het is nodig, men moet (+ acc. + inf.)
+80	ὥσπερ	just as, as if	conjunction: subordinating	Conjunctions/Adverbs	zoals, als het ware
+81	δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην	give, grant, offer	verb: -μι	Taking and Giving	geven, schenken
+82	ἔτι	still, yet	adverb	Time	nog, nog steeds
+83	φύσις φύσεως, ἡ	nature; (of the mind) one’s nature or disposition; regular order of nature	noun: 3rd declension ι-stem	World Order	natuur, aard
+84	μικρός –ά –όν	small, little, short	adjective: 1st and 2nd declension	Measurements and Numerals	klein, kort
+85	δύναμαι, δυνήσομαι, ἐδυνήθην, δεδύνημαι	(+infin.) to be able (to), be strong enough (to)	verb: deponent	Work and Leisure	kunnen, in staat zijn
+86	ὥστε	(introducing natural or actual result clause) so as, so that, (with the result) that	conjunction: subordinating	Conjunctions/Adverbs	zodat, zo dat
+87	ἀρχή ἀρχῆς, ἡ	beginning, origin; rule, empire, realm; magistracy	noun: 1st declension	Time	begin, oorsprong; heerschappij, gezag; ambt
+88	ἕκαστος ἑκάστη ἕκαστον	each (of several)	pronoun	Pronouns/Interrogatives	ieder, elk
+89	ἡμέρα ἡμέρας, ἡ	day	noun: 1st declension	World Order	dag
+90	φύω, φύσω, ἔφυσα	bring forth, produce, beget; 2 aor. ἔφυν grew, pf. πέφυκα be by nature	verb: -ω vowel stem	World Order	voortbrengen; ἔφυν: ontstaan; πέφυκα: van nature zijn
+91	ἅπας ἅπασα ἅπαν	all together	noun: 3rd declension irregular	Measurements and Numerals	allen samen, geheel
+92	ὅμοιος ὁμοία ὅμοιον	like, resembling (+dat.)	adjective: 1st and 2nd declension	Characteristics	gelijk, gelijkend op (+ dat.)
+93	νῦν, νυνί	now	adverb	Time	nu
+94	γῆ γῆς, ἡ	earth	noun: 1st declension	Earth	aarde, land
+95	δύναμις δυνάμεως, ἡ	power, strength, ability	noun: 3rd declension ι-stem	War and Peace	kracht, macht, vermogen
+96	καλός –ή –όν	beautiful, noble, honorable	adjective: 1st and 2nd declension	Characteristics	mooi, edel, eervol
+97	κύριος κυρίου, ὁ	lord, master	noun: 2nd declension	Government and Society	heer, meester
+98	μᾶλλον	more, rather; μᾶλλον...ἤ rather than	adverb	Conjunctions/Adverbs	meer, eerder; μᾶλλον ... ἤ: eerder ... dan
+99	ὅδε ἥδε τόδε	this	pronoun	Pronouns/Interrogatives	deze, dit (hier)
+100	ὅλος ὅλη ὅλον	whole, entire, complete	adjective: 1st and 2nd declension	Measurements and Numerals	geheel, volledig
+101	μέρος μέρους, τό	part, share	noun: 3rd declension σ-stem	Measurements and Numerals	deel, aandeel
+102	ἄρα	therefore, then (drawing an inference)	adverb	Particles	dus, dan
+103	ἐμός ἐμή ἐμόν	my, mine	adjective: 1st and 2nd declension	Pronouns/Interrogatives	mijn
+104	χράομαι, χρήσομαι, ἐχρησάμην, κέχρημαι, ἐχρήσθην	use, experience, suffer (+dat.); treat someone in a certain way (+dat. and adv.)	verb: deponent	Government and Society	gebruiken, omgaan met (+ dat.)
+105	δύο	two	adjective: numeral	Measurements and Numerals	twee
+106	χρόνος χρόνου, ὁ	time	noun: 2nd declension	Time	tijd
+107	ἴσος ἴση ἴσον	equal, the same as (+dat.)	adjective: 1st and 2nd declension	Measurements and Numerals	gelijk (aan) (+ dat.)
+108	ὅταν (ὅτε-ἄν)	whenever (+subj.)	conjunction: subordinating	Conjunctions/Adverbs	telkens wanneer (+ conj.)
+109	μόνον	only	adverb	Conjunctions/Adverbs	alleen, slechts
+110	οἶδα, infin. εἰδέναι, imper. ἴσθι, plupf. used as impf. ᾔδειν	to know (pf. in pres. sense); to know how to (+infin.)	verb: irregular	The Mind, Perceiving and Learning	weten; kunnen (+ inf.)
+111	βασιλεύς βασιλέως, ὁ	king	noun: 3rd declension -εύς, -έως	Government and Society	koning
+112	ὦ	oh! (unemphatic when with the vocative)	interjection	Particles	o! (bij vocatief)
+113	βούλομαι, βουλήσομαι, βεβούλημαι, ἐβουλήθην	(+infin.) will, wish (to); be willing (to); ὁ βουλόμενος anyone who likes	verb: deponent	The Senses and Feelings	willen, wensen
+114	φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην	bring to light, make appear, make clear; (pass.) come to light, be seen, appear, appear to be (+ptc. or infin.)	verb: -ω liquid stem	Showing and Finding	tonen, doen verschijnen; (pass.) verschijnen, blijken
+115	γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην	write	verb: -ω labial stem	Writing and Talking	schrijven
+116	φέρω, οἴσω, 1 aor. ἤνεγκα, 2 aor. ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην	carry, bring, fetch; carry off or away; φέρε come now, well	verb: irregular	Work and Leisure	dragen, brengen; wegvoeren; φέρε: kom!
+117	ψυχή ψυχῆς, ἡ	breath, life, soul	noun: 1st declension	Humanity and Being	ziel, leven, adem
+118	μηδείς μηδεμία μηδέν	no one, nothing	pronoun	Pronouns/Interrogatives	niemand, niets
+119	αἴτιος αἰτία αἴτιον	responsible, guilty	adjective: 1st and 2nd declension	Law and Judgment	verantwoordelijk, schuldig
+120	πάλιν	back, backwards; again	adverb	Direction	terug; opnieuw
+121	μάλιστα	most, most of all; (in replies) certainly	adverb	Conjunctions/Adverbs	het meest, vooral; zeker
+122	ὑπάρχω, ὑπάρξω, ὑπῆρξα, ὑπῆργμαι, ὑπήρχθην	exist, be, belong to; τὰ ὑπάρχοντα existing circumstances	verb: -ω palatal stem	Humanity and Being	bestaan, er zijn, toebehoren
+123	ἄρχω, ἄρξω, ἦρξα, ἦργμαι, ἤρχθην	begin (+gen.); lead, rule, govern (+gen.)	verb: -ω palatal stem	Time	beginnen; heersen over, leiden (+ gen.)
+124	γυνή γυναικός, ἡ	woman, wife	noun: 3rd declension irregular	Humanity and Being	vrouw, echtgenote
+125	ποτε (enclitic)	at some time, ever, in the world	adverb	Time	ooit, eens
+126	ἵνα	in order that (conj. +subj. or opt.); where (rel. adv. +indic.)	conjunction: subordinating	Conjunctions/Adverbs	opdat (+ conj./opt.); waar
+127	ὄνομα ὀνόματος, τό	name; fame	noun: 3rd declension consonant stem	Writing and Talking	naam; roem
+128	ὑπέρ	for (+gen), beyond (+acc.)	preposition	Prepositions without Direction	voor, ten behoeve van (+ gen.); boven, voorbij (+ acc.)
+129	ἤδη	already, now (of the immediate past); presently (of the immediate future)	adverb	Time	al, reeds, nu; weldra
+130	πατήρ πατρός, ὁ	father	noun: 3rd declension irregular	Family and Friendship and the Home	vader
+131	ἀκούω, ἀκούσομαι, ἤκουσα, ἀκήκοα, plup. ἠκηκόη or ἀκηκόη, ἠκούσθην	listen (to), hear (of)	verb: -ω vowel stem	The Senses and Feelings	horen, luisteren (naar)
+132	γένος γένους, τό	race, family; kind, class	noun: 3rd declension σ-stem	Family and Friendship and the Home	geslacht, familie; soort
+133	τόπος τόπου, ὁ	place; topic	noun: 2nd declension	Earth	plaats; onderwerp
+134	πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην	do, achieve, accomplish; do or fare in a certain way (+adv.)	verb: -ω dental stem	Work and Leisure	doen, uitvoeren; het ... stellen (+ adv.)
+135	πρῶτος πρώτη πρῶτον	first, foremost, earliest; (adv.) τὸ πρῶτον in the first place	adjective: 1st and 2nd declension	Measurements and Numerals	eerste; τὸ πρῶτον: eerst
+136	εὑρίσκω, εὑρήσω, 2 aor. ηὗρον or εὗρον, ηὕρηκα or εὕρηκα, εὕρημαι, εὑρέθην	find (out), discover, devise	verb: -ω palatal stem	Showing and Finding	vinden, ontdekken, uitvinden
+137	παῖς παιδός, ὁ/ἡ	son, daughter, child; slave	noun: 3rd declension consonant stem	Family and Friendship and the Home	kind, zoon, dochter; slaaf
+138	ἔρχομαι, fut. εἶμι or ἐλεύσομαι, 2 aor. ἦλθον, ἐλήλυθα	come, go	verb: deponent	Movement	komen, gaan
+139	υἱός υἱοῦ, ὁ	son	noun: 2nd declension	Family and Friendship and the Home	zoon
+140	ὕδωρ ὕδατος, τό	water	noun: 3rd declension consonant stem	World Order	water
+141	ἴδιος ἰδία ἴδιον	one’s own; peculiar, separate, distinct	adjective: 1st and 2nd declension	Pronouns/Interrogatives	eigen; afzonderlijk, bijzonder
+142	σός σή σόν	your, yours (sg.; ὑμέτερος = pl.)	adjective: 1st and 2nd declension	Pronouns/Interrogatives	jouw
+143	γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην	come to know, learn; judge, think, or determine that (+acc. and infin.)	verb: irregular	The Mind, Perceiving and Learning	leren kennen, inzien; oordelen
+144	τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα, τέτυγμαι, ἐτύχθην	hit, light upon, meet by chance (+gen.); reach, gain, obtain; happen to be (+ptc.)	verb: -ω palatal stem	Humanity and Being	treffen, verkrijgen (+ gen.); toevallig zijn (+ ptc.)
+145	ἵστημι στήσω will set, ἔστησα set, caused to stand, 2 aor. ἔστην stood, ἕστηκα stand, plup. εἱστήκη stood, ἐστάθην stood	make to stand, set	verb: -μι	Work and Leisure	doen staan, plaatsen; ἔστην: ging staan; ἕστηκα: sta
+146	ἅμα	at the same time; (prep.) together with (+dat.)	adverb	Time	tegelijk; samen met (+ dat.)
+147	ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην	lead, carry, bring; pass (time)	verb: -ω palatal stem	Movement	leiden, voeren, brengen; doorbrengen (tijd)
+148	τρόπος τρόπου, ὁ	way, manner, fashion; way of life, habit, custom	noun: 2nd declension	Characteristics	manier, wijze; levenswijze, karakter
+149	μήτε...μήτε	neither...nor	conjunction: coordinating	Conjunctions/Adverbs	noch ... noch
+150	μέσος μέση μέσον	middle, in the middle, moderate; τὸ μέσον midst	adjective: 1st and 2nd declension	Measurements and Numerals	middelste, midden; gematigd
+151	ἀλλήλων –οις	(oblique cases plural only) one another, each other	pronoun	Pronouns/Interrogatives	elkaar
+152	ἀεί	always	adverb	Time	altijd
+153	φίλος φίλη φίλον	beloved, dear; friendly	adjective: 1st and 2nd declension	Family and Friendship and the Home	dierbaar, bevriend; vriend
+154	συμβαίνω, συμβήσομαι, 2 aor. συνέβην, συμβέβηκα	meet, come to an agreement, correspond; happen, occur, come to pass; turn out in a certain way (+adv.), result	verb: -ω liquid stem	Family and Friendship and the Home	gebeuren, voorvallen; overeenkomen; uitvallen
+155	ἔργον ἔργου, τό	work, achievement, exploit	noun: 2nd declension	Work and Leisure	werk, daad
+156	πλέω, πλεύσομαι, ἔπλευσα, πέπλευκα, πέπλευσμαι, ἐπλεύσθην	sail	verb: contracted	Government and Society	varen
+157	τότε	then, at that time; οἱ τότε the men of that time (opp. οἱ νῦν)	adverb	Time	toen, destijds
+158	μήν	[emphasizes preceding particle]	adverb	Particles	zeker, waarlijk (versterkt voorgaand partikel)
+159	χρή, impf. χρῆν or ἐχρῆν, infin. χρῆναι	it is necessary, it is fated, one ought (+infin. or +acc. and infin.)	verb: impersonal	Ethics and Morals	het is nodig, men moet
+160	δείκνυμι, δείξω, ἔδειξα, δέδειχα, δέδειγμαι, ἐδείχθην	show, point out	verb: -μι	Showing and Finding	tonen, aanwijzen
+161	ζῷον ζῴου, τό	living being, animal	noun: 2nd declension	Animals and Plants	levend wezen, dier
+162	πρᾶγμα πράγματος, τό	thing; (pl.) circumstances, affairs, business	noun: 3rd declension consonant stem	Work and Leisure	zaak, ding; πράγματα: omstandigheden, zaken
+163	ἐναντίος ἐναντία ἐναντίον	opposite, facing; opposing	adjective: 1st and 2nd declension	Direction	tegenovergesteld, tegenover; vijandig
+164	τίθημι, θήσω, ἔθηκα, τέθηκα, τέθειμαι (but usu. κεῖμαι instead), ἐτέθην	to put, place; establish, ordain, institute; put in a certain state	verb: -μι	Work and Leisure	plaatsen, zetten; instellen, vaststellen
+165	εἶδον, 2 aor. of ὁράω, act. infin. ἰδεῖν, mid.infin. ἰδέσθαι	I saw	verb: irregular	The Senses and Feelings	ik zag
+166	χείρ χειρός, ἡ	hand	noun: 3rd declension consonant stem	Body Parts	hand
+167	μηδέ	and not	conjunction: coordinating	Conjunctions/Adverbs	en niet, ook niet
+168	ὀλίγος ὀλίγη ὀλίγον	little, small, few	adjective: 1st and 2nd declension	Measurements and Numerals	weinig, klein; ὀλίγοι: weinigen
+169	νόμος νόμου, ὁ	custom, tradition, law	noun: 2nd declension	Law and Judgment	gewoonte, wet
+170	κοινός –ή –όν	common, shared, mutual	adjective: 1st and 2nd declension	Government and Society	gemeenschappelijk, gemeen
+171	οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην	think, suppose, imagine (+acc. and infin.)	verb: deponent	The Mind, Perceiving and Learning	menen, denken
+172	κινέω, κινήσω, ἐκίνησα, κεκίνηκα, κεκίνημαι, ἐκινήθην	set in motion, move, rouse	verb: contracted	Movement	bewegen, in beweging brengen
+173	πάσχω, πείσομαι, ἔπαθον, πέπονθα	suffer, experience, be affected in a certain way (+adv.)	verb: -ω dental stem	Life and Death	lijden, ondergaan, ervaren
+174	πῶς	how?	adverb	Pronouns/Interrogatives	hoe?
+175	ὅσπερ ἥπερ ὅπερ	the very one who, the very thing which	pronoun	Pronouns/Interrogatives	juist die, juist wat
+176	τοσοῦτος –αύτη –οῦτο(ν)	so large, so much	adjective: 1st and 2nd declension	Measurements and Numerals	zo groot, zoveel
+177	σύν	with (+ dat. of accompaniment or means)	preposition	Prepositions without Direction	met (+ dat.)
+178	εἶτα	then, next	adverb	Conjunctions/Adverbs	daarna, vervolgens
+179	ἀληθής –ές	true	adjective: 3rd declension -ης, -ες	Ethics and Morals	waar
+180	δίκαιος δικαία δίκαιον	right, just	adjective: 1st and 2nd declension	Law and Judgment	rechtvaardig, juist
+181	μέλλω, μελλήσω, ἐμέλλησα	(+infin.) think of doing, intend to, be about to	verb: -ω liquid stem	The Senses and Feelings	van plan zijn, op het punt staan (+ inf.)
+182	ἐθέλω, ἐθελήσω, ἠθέλησα, ἠθέληκα	(+infin.) wish (to); be willing (to)	verb: -ω liquid stem	The Senses and Feelings	willen, bereid zijn
+183	λοιπός –ή –όν	rest, remaining, rest-of-the	adjective: 1st and 2nd declension	Measurements and Numerals	overig, overblijvend
+184	ἀνάγκη ἀνάγκης, ἡ	necessity	noun: 1st declension	World Order	noodzaak, dwang
+185	ὅτε	when, whenever (+indic. or opt.)	conjunction: subordinating	Time	toen, wanneer
+186	δεύτερος –α –ον	second	adjective: numeral	Measurements and Numerals	tweede
+187	πόλεμος πολέμου ὁ	war	noun: 2nd declension	War and Peace	oorlog
+188	χώρα χώρας, ἡ	land; place	noun: 1st declension	Earth	land, gebied; plaats
+189	ζάω, ζήσω, ἔζησα, ἔζηκα	live	verb: contracted	Life and Death	leven
+190	πλῆθος πλήθους, τό	mass, throng, crowd; number	noun: 3rd declension σ-stem	Government and Society	menigte, massa; aantal
+191	ἥλιος ἡλίου, ὁ	sun	noun: 2nd declension	World Order	zon
+192	αἰτία αἰτίας, ἡ	cause, origin; charge, accusation	noun: 1st declension	Law and Judgment	oorzaak, reden; beschuldiging
+193	πείθω, πείσω, ἔπεισα, πέποιθα, πέπεισμαι, ἐπείσθην	persuade, win over; (mid. and pass.) obey, believe in, trust in (+dat.)	verb: -ω dental stem	Writing and Talking	overtuigen; (med./pass.) gehoorzamen, geloven (+ dat.)
+194	πάρειμι	be present, be ready or at hand; (impers.) πάρεστί μοι it depends on me, it is in my power; τὰ παρόντα the present circumstances; τὸ παρόν just now	verb: irregular	Humanity and Being	aanwezig zijn; τὰ παρόντα: de huidige omstandigheden
+195	πλεῖστος πλείστη πλεῖστον	most, greatest, largest (superl. of πολύς)	adjective: 1st and 2nd declension	Measurements and Numerals	meest, grootst
+196	εἶδος εἴδους, τό	form, shape, figure; class, kind, sort	noun: 3rd declension σ-stem	Measurements and Numerals	vorm, gedaante; soort
+197	ὅπως	how, as; so that, in order that (+subj. or opt.)	conjunction: subordinating	Conjunctions/Adverbs	hoe; opdat (+ conj./opt.)
+198	τρεῖς τρία	three	adjective: numeral	Measurements and Numerals	drie
+199	βίος βίου, ὁ	life	noun: 2nd declension	Life and Death	leven, levenswijze
+200	νομίζω, νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην	think, believe that (+acc. and infin.); hold as a custom, be accustomed to (+infin.)	verb: -ω dental stem	The Mind, Perceiving and Learning	menen, geloven; gewoon zijn
+201	κύκλος κύκλου, ὁ	circle, ring, orb, disc, circular motion	noun: 2nd declension	Measurements and Numerals	cirkel, kring
+202	πάθος πάθους, τό	incident, accident, misfortune, experience; passion, emotion; state, condition	noun: 3rd declension σ-stem	The Senses and Feelings	ervaring, lijden, ongeluk; gevoel, hartstocht
+203	πρό	before, in front of (+gen.)	preposition	Time	voor (+ gen.)
+204	ὀνομάζω, ὀνομάσω, ὠνόμασα, ὠνόμακα, ὠνόμασμαι, ὠνομάσθην	call by name	verb: -ω dental stem	Writing and Talking	noemen, bij naam noemen
+205	μέντοι	however; of course	adverb	Particles	echter, evenwel; natuurlijk
+206	ἀρετή ἀρετῆς, ἡ	goodness, excellence; virtue; valor, bravery	noun: 1st declension	Ethics and Morals	deugd, voortreffelijkheid; dapperheid
+207	ὑμέτερος ὑμετέρα ὑμέτερον	your, yours (pl.; σός = sg.)	adjective: 1st and 2nd declension	Pronouns/Interrogatives	jullie (bezittelijk)
+208	ἔτος ἔτους, τό	year	noun: 3rd declension σ-stem	Time	jaar
+209	ἀντί	opposite (+gen.)	preposition	Direction	in plaats van, tegenover (+ gen.)
+210	ναῦς νεώς, ἡ	ship	noun: 3rd declension irregular	Work and Leisure	schip
+211	τρίτος –η –ον	third	adjective: numeral	Measurements and Numerals	derde
+212	πνεῦμα πνεύματος, τό	wind, breath, spirit	noun: 3rd declension consonant stem	Earth	adem, wind, geest
+213	ὀρθός –ή –όν	upright, straight, true, regular	adjective: 1st and 2nd declension	Measurements and Numerals	recht, rechtop; juist, correct
+214	θάλασσα θαλάσσης, ἡ	the sea	noun: 1st declension	Earth	zee
+215	διαφέρω, διοίσω, 1 aor. διήνεγκα, 2 aor. διήνεγκον, διενήνοχα, διενήνεγμαι	carry in different ways, spread; differ; (impers.) διαφέρει it makes a difference to (+dat.)	verb: -ω liquid stem	Work and Leisure	verschillen; διαφέρει: het maakt verschil
+216	μέχρι	until (conj.); as far as, up to (prep. +gen.)	preposition	Time	tot (+ gen.); totdat
+217	δόξα δόξης, ἡ	opinion, judgment; reputation, honor, glory	noun: 1st declension	Ethics and Morals	mening; roem, faam, eer
+218	κεφαλή –ῆς, ἡ	head	noun: 1st declension	Body Parts	hoofd
+219	πῦρ πυρός, τό	fire	noun: 3rd declension consonant stem	World Order	vuur
+220	ἐλάσσων ἔλασσον	smaller, less, fewer (comp. of μικρός)	adjective: 3rd declension -ων, -ον	Measurements and Numerals	kleiner, minder
+221	πούς ποδός, ὁ	foot	noun: 3rd declension consonant stem	Body Parts	voet
+222	ἱερός –ά –όν	holy, venerated, divine	adjective: 1st and 2nd declension	Religion	heilig
+223	εὐθύς εὐθεῖα εὐθύ	straight, direct; (adv.) immediately	adjective: -ύς, -εῖα, -ύ	Measurements and Numerals	recht, direct; meteen
+224	εἶμι, infin. ἰέναι, ptc. ἰών, ἰοῦσα, ἰόν	I will go (fut. of ἔρχομαι)	verb: -μι	Movement	ik zal gaan
+225	ταχύς ταχεῖα ταχύ	quick, fast; (adv.) τάχα quickly; perhaps	adjective: -ύς, -εῖα, -ύ	Characteristics	snel; τάχα: snel, misschien
+226	ποταμός –οῦ, ὁ	river, stream	noun: 2nd declension	Earth	rivier
+227	οὐσία οὐσίας, ἡ	substance, property; essence	noun: 1st declension	Family and Friendship and the Home	wezen, bestaan; bezit
+228	ἀριθμός –οῦ, ὁ	number	noun: 2nd declension	Measurements and Numerals	getal, aantal
+229	ὕστερος ὑστέρα ὕστερον	coming after, following (+gen.); next, later; (adv.) ὕστερον afterwards	adjective: 1st and 2nd declension	Direction	later, volgend; ὕστερον: later
+230	φυλάσσω, φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐφυλάχθην	watch, guard, defend; (mid.) be on one’s guard against (+acc.)	verb: -ω palatal stem	War and Peace	bewaken, beschermen; (med.) oppassen voor
+231	καιρός καιροῦ, ὁ	the right time	noun: 2nd declension	Time	juiste moment, gelegenheid
+232	οἰκέω, οἰκήσω, ᾤκησα, ᾤκηκα, ᾠκήθην	inhabit, occupy	verb: contracted	Family and Friendship and the Home	bewonen, wonen
+233	ἀμφότερος ἀμφοτέρα ἀμφότερον	both	adjective: 1st and 2nd declension	Measurements and Numerals	beide
+234	σημεῖον σημείου, τό	sign, signal, mark	noun: 2nd declension	Showing and Finding	teken, kenmerk
+235	παρέχω, παρέξω, παρέσχον, παρέσχηκα, impf. παρεῖχον	provide, present, offer; allow, grant	verb: -ω palatal stem	Taking and Giving	verschaffen, aanbieden; toestaan
+236	ἑκάτερος ἑκατέρα ἑκάτερον	each (of two)	pronoun	Pronouns/Interrogatives	elk van beide
+237	δηλόω, δηλώσω, ἐδήλωσα, δεδήλωκα, ἐδηλώθην	show, declare, explain	verb: contracted	Showing and Finding	tonen, duidelijk maken
+238	οἰκεῖος οἰκεία οἰκεῖον	domestic, of the house; one’s own; fitting, suitable	adjective: 1st and 2nd declension	Family and Friendship and the Home	huiselijk, eigen; verwant; passend
+239	κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην	order, bid, command (+acc. and infin.)	verb: -ω vowel stem	Law and Judgment	bevelen
+240	τέλος τέλους, τό	end, fulfillment, achievement	noun: 3rd declension σ-stem	Life and Death	einde, doel, voltooiing
+241	ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι	lead, be the leader; regard, believe, think	verb: deponent	The Mind, Perceiving and Learning	leiden, aanvoeren; menen, achten
+242	ἄξιος ἀξία ἄξιον	worthy, deserving	adjective: 1st and 2nd declension	Ethics and Morals	waardig, waard
+243	ἦ	truly (emphasizes what follows)	adverb	Particles	waarlijk, echt
+244	δῆλος δήλη δῆλον	visible, clear, manifest	adjective: 1st and 2nd declension	Showing and Finding	duidelijk, zichtbaar
+245	τοίνυν (τοί-νυν)	therefore, accordingly (inferential); further, moreover (transitional)	adverb	Particles	dus, bijgevolg; verder
+246	πολέμιος πολεμία πολέμιον	hostile; οἱ πολέμιοι the enemy	adjective: 1st and 2nd declension	War and Peace	vijandig; οἱ πολέμιοι: de vijanden
+247	ἔρομαι, ἐρήσομαι, 2 aor. ἠρόμην	ask, ask one about (+double acc.)	verb: deponent	Writing and Talking	vragen
+248	ἀδελφός –οῦ, ὁ	brother	noun: 2nd declension	Family and Friendship and the Home	broer
+249	μέγεθος μεγέθους, τό	greatness, size, magnitude	noun: 3rd declension σ-stem	Measurements and Numerals	grootte, omvang
+250	εἴτε…εἴτε	whether…or	conjunction: coordinating	Conjunctions/Adverbs	hetzij ... hetzij, of ... of
+251	κεῖμαι, κείσομαι	to lie, be situated, be laid up in store, be set up, be established or ordained (used as pf. pass. of τίθημι)	verb: deponent	Work and Leisure	liggen, gelegen zijn; vastgesteld zijn
+252	πολλάκις	often	adverb	Time	vaak, dikwijls
+253	πίνω, πίομαι, 2 aor. ἔπιον, πέπωκα, -πέπομαι, -επόθην	drink	verb: -ω liquid stem	The Senses and Feelings	drinken
+254	χάρις χάριτος, ἡ	splendor, honor, glory; favor, goodwill, gratitude, thanks	noun: 3rd declension consonant stem	Ethics and Morals	gunst, dank; bevalligheid
+255	ἔπειτα	then, next	adverb	Time	daarna, vervolgens
+256	ζητέω, ζητήσω, ἐζήτησα, ἐζήτηκα	seek	verb: contracted	Showing and Finding	zoeken
+257	σχῆμα σχήματος, τό	form, figure, appearance, character	noun: 3rd declension consonant stem	Measurements and Numerals	vorm, gestalte, houding
+258	τροφή τροφῆς, ἡ	nourishment, food	noun: 1st declension	Life and Death	voedsel, voeding
+259	μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα	learn, ascertain	verb: -ω liquid stem	The Mind, Perceiving and Learning	leren, vernemen
+260	ἐνταῦθα	here, there	adverb	Direction	hier, daar; toen
+261	φεύγω, φεύξομαι, ἔφυγον, πέφευγα	flee, run away, avoid, shun	verb: -ω palatal stem	Movement	vluchten, ontvluchten, vermijden
+262	ἵππος ἵππου, ὁ	horse	noun: 2nd declension	Animals and Plants	paard
+263	κόσμος κόσμου, ὁ	order; ornament, decoration, adornment; world, universe	noun: 2nd declension	World Order	orde; sieraad; wereld, kosmos
+264	αἷμα αἵματος, τό	blood	noun: 3rd declension consonant stem	Body Parts	bloed
+265	αἱρέω, αἱρήσω, 2 aor. εἷλον, ᾕρηκα, ᾕρημαι, ᾑρέθην	take, grasp, take by force; (mid.) choose	verb: contracted	Taking and Giving	nemen, grijpen, innemen; (med.) kiezen
+266	προστίθημι, προσθήσω, προσέθηκα, προστέθηκα, προστέθειμαι (but commonly προσκεῖμαι instead), προσετέθην	add; (med.) join	verb: -μι	Taking and Giving	toevoegen; (med.) zich aansluiten
+267	ἀξιόω, ἀξιώσω, ἠξίωσα, ἠξίωκα, ἠξίωμαι, ἠξιώθην	consider worthy; require, demand, ask, claim	verb: contracted	Ethics and Morals	waardig achten; eisen, vragen
+268	ἕως	until; while, so long as	conjunction: subordinating	Time	totdat; zolang als
+269	νέος νέα νέον	young, new, fresh	adjective: 1st and 2nd declension	Characteristics	jong, nieuw
+270	ἔοικα, ptc. εἰκώς	be like, look like (+dat.); seem; befit	verb: irregular	Characteristics	lijken op (+ dat.); schijnen; passen
+271	κἄν (καὶ-ἄν)	even if (+subj.)	conjunction: subordinating	Conjunctions/Adverbs	ook al, zelfs als (+ conj.)
+272	καθίστημι, καταστήσω, κατέστησα, κατέστην, καθέστηκα, plupf. καθειστήκη, κατεστάθην	set down, establish; bring into a certain state, render	verb: -μι	Work and Leisure	plaatsen, aanstellen, instellen; in een toestand brengen
+273	τέχνη τέχνης, ἡ	art, skill, craft	noun: 1st declension	Government and Society	kunst, vaardigheid, ambacht
+274	χρῆμα χρήματος, τό	thing, matter; (more commonly in pl.) goods or property, esp. money	noun: 3rd declension consonant stem	Government and Society	zaak, ding; χρήματα: geld, bezit
+275	σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην	save	verb: -ω dental stem	Help and Safety	redden, bewaren
+276	πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην	send	verb: -ω labial stem	Movement	zenden, sturen
+277	φωνή φωνῆς, ἡ	sound, voice	noun: 1st declension	The Senses and Feelings	stem, klank, geluid
+278	ἕνεκα	on account of, for the sake of (+gen.)	preposition	Prepositions without Direction	wegens, omwille van (+ gen.)
+279	ἀπόλλυμι, ἀπολῶ, ἀπώλεσα, 2 aor. mid. ἀπωλόμην, pf. ἀπολώλεκα (“I have utterly destroyed”) or ἀπόλωλα (“I am undone”)	kill, destroy; (mid.) perish, die	verb: -μι	Life and Death	doden, vernietigen, verliezen; (med.) omkomen
+280	θάνατος θανάτου, ὁ	death	noun: 2nd declension	Life and Death	dood
+281	νύξ νυκτός, ἡ	night	noun: 3rd declension consonant stem	World Order	nacht
+282	ὁδός ὁδοῦ, ἡ	road, way, path	noun: 2nd declension	Government and Society	weg
+283	ἔθνος ἔθνους, τό	nation	noun: 3rd declension σ-stem	Government and Society	volk, stam
+284	ἀποδίδωμι, ἀποδώσω, ἀπέδωκα, ἀποδέδωκα, ἀποδέδομαι, ἀπεδόθην	give back; render; allow; (mid.) sell	verb: -μι	Taking and Giving	teruggeven; (med.) verkopen
+285	νοῦς, νοῦ, ὁ (other dialects: νόος, νόου, ὁ)	mind, perception, sense	noun: 2nd declension	The Mind, Perceiving and Learning	verstand, geest
+286	μένω, μενῶ, ἔμεινα, μεμένηκα	stay, remain, endure, await	verb: -ω liquid stem	Movement	blijven; afwachten
+287	ἀποθνῄσκω, ἀποθανοῦμαι, 2 aor. ἀπέθανον, ἀποτέθνηκα	die	verb: -ω palatal stem	Life and Death	sterven
+288	πάνυ	altogether, entirely	adverb	Conjunctions/Adverbs	helemaal, zeer
+289	εὖ	well (opp. κακῶς); thoroughly, competently; happily, fortunately	adverb	Conjunctions/Adverbs	goed, wel
+290	κρίνω, κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίθην	judge, decide, determine	verb: -ω liquid stem	Law and Judgment	oordelen, beslissen
+291	ἀναιρέω, ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρημαι, ἀνῃρέθην	raise, take up; kill, destroy	verb: contracted	War and Peace	opnemen; doden, vernietigen
+292	μακρός –ά –όν	long, tall, large, long-lasting	adjective: 1st and 2nd declension	Measurements and Numerals	lang, groot
+293	ἥκω, ἥξω, pf. ἧκα	I have come, I am present	verb: -ω palatal stem	Movement	gekomen zijn, er zijn
+294	ἡδονή –ῆς, ἡ	pleasure, enjoyment	noun: 1st declension	Work and Leisure	genot, vreugde
+295	μήτηρ μητρός, ἡ	mother	noun: 3rd declension irregular	Family and Friendship and the Home	moeder
+296	δεινός –ή –όν	awesome, terrible; clever, clever at (+infin.)	adjective: 1st and 2nd declension	Characteristics	vreselijk, ontzagwekkend; bekwaam, knap
+297	διαφορά –ᾶς, ἡ	difference, disagreement	noun: 1st declension	Law and Judgment	verschil, onenigheid
+298	κρατέω, κρατήσω, ἐκράτησα, κεκράτηκα, κεκράτημαι, ἐκρατήθην	be victorious, conquer, rule, surpass, excel (+gen.)	verb: contracted	Government and Society	overwinnen, heersen over (+ gen.)
+299	δῆμος δήμου, ὁ	the (common) people; country district (opp. πόλις)	noun: 2nd declension	Humanity and Being	volk; gemeente, dorp
+300	οὐρανός –οῦ, ὁ	sky, heaven	noun: 2nd declension	World Order	hemel
+301	ἕπομαι ἕψομαι, 2 aor. ἑσπόμην	follow	verb: deponent	Movement	volgen (+ dat.)
+302	ἥσσων ἧσσον	less, weaker (comp. of κακός or μικρός)	adjective: 3rd declension -ων, -ον	Characteristics	minder, zwakker
+303	ὄρος ὄρους, τό	mountain, hill	noun: 3rd declension σ-stem	Earth	berg
+304	πλήν	(prep.) except (+gen.); (conj.) except that, unless, but	preposition	Prepositions without Direction	behalve (+ gen.); maar
+305	τέσσαρες τέσσαρα	four	adjective: numeral	Measurements and Numerals	vier
+306	δυνατός –ή –όν	strong, powerful, able	adjective: 1st and 2nd declension	Characteristics	machtig, sterk, bekwaam; mogelijk
+307	οἶκος οἴκου, ὁ	house, home, family	noun: 2nd declension	Family and Friendship and the Home	huis, huishouden, familie
+308	ἄριστος ἀρίστη ἄριστον	best, noblest (superl. of ἀγαθός)	adjective: 1st and 2nd declension	Ethics and Morals	best, voortreffelijkst
+309	ῥᾴδιος ῥᾳδία ῥᾴδιον	easy	adjective: 1st and 2nd declension	Characteristics	gemakkelijk
+310	ἀφαιρέω, ἀφαιρήσω, ἀφεῖλον, ἀφῄρηκα, ἀφῄρημαι, ἀφῃρέθην	take from, take away	verb: contracted	Taking and Giving	wegnemen, afnemen
+311	τύχη τύχης, ἡ	luck, fortune (good or bad), fate, chance	noun: 1st declension	Life and Death	lot, toeval, geluk
+312	φανερός –ά –όν	clear, evident	adjective: 1st and 2nd declension	The Senses and Feelings	duidelijk, zichtbaar
+313	πρόσωπον προσώπου, τό	face, mask, person	noun: 2nd declension	Body Parts	gezicht; masker; persoon
+314	πιστεύω, πιστεύσω, ἐπίστευσα, πεπίστευκα, πεπίστευμαι, ἐπιστεύθην	trust, rely on, believe in (+dat.)	verb: -ω vowel stem	The Senses and Feelings	vertrouwen, geloven (+ dat.)
+315	διδάσκω, διδάξω, ἐδίδαξα, δεδίδαχα, δεδίδαγμαι, ἐδιδάχθην	teach	verb: -ω palatal stem	The Mind, Perceiving and Learning	onderwijzen, leren
+316	ἄνω	up, upwards	adverb	Direction	omhoog, boven
+317	τάσσω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην	arrange, put in order	verb: -ω palatal stem	Government and Society	opstellen, ordenen; bevelen
+318	ὀφθαλμός –οῦ, ὁ	eye	noun: 2nd declension	Body Parts	oog
+319	δέχομαι, δέξομαι, ἐδεξάμην, δέδεγμαι, -εδέχθην	take, accept; welcome, entertain	verb: deponent	Family and Friendship and the Home	ontvangen, aannemen
+320	ἀφικνέομαι, ἀφίξομαι, 2 aor. ἀφικόμην, ἀφῖγμαι	come to, arrive at	verb: deponent	Movement	aankomen, bereiken
+321	ἱκανός –ή –όν	sufficient, enough; competent, able to (+infin.)	adjective: 1st and 2nd declension	Help and Safety	voldoende; bekwaam
+322	ἐργάζομαι, ἐργάσομαι, εἰργασάμην, εἴργασμαι	work, labor	verb: deponent	Work and Leisure	werken
+323	μάχη μάχης, ἡ	battle	noun: 1st declension	War and Peace	gevecht, veldslag
+324	τρέφω, θρέψω, ἔθρεψα, τέθραμμαι, ἐτράφην	nourish, feed, support, maintain; rear, educate	verb: -ω labial stem	Life and Death	voeden, onderhouden; opvoeden
+325	ἀδύνατος –ον	impossible; powerless	adjective: 1st and 2nd declension	Government and Society	onmogelijk; machteloos
+326	ἀκριβής –ές	exact, accurate, precise	adjective: 3rd declension -ης, -ες	Measurements and Numerals	nauwkeurig, precies
+327	που	(enclitic) somewhere; I suppose, perhaps (to qualify an assertion)	adverb	Particles	ergens; wellicht, misschien
+328	ὅθεν	from where, whence	adverb	Direction	vanwaar
+329	στόμα στόματος, τό	mouth, face, opening	noun: 3rd declension consonant stem	Body Parts	mond; opening
+330	χωρίς	separately, apart; (+gen.) without, separate from	adverb	Direction	apart; zonder (+ gen.)
+331	κρείσσων κρεῖσσον	stronger, mightier; better, more excellent (comp. of ἀγαθός)	adjective: 3rd declension -ων, -ον	Characteristics	sterker, beter
+332	βραχύς βραχεῖα βραχύ	brief, short	adjective: -ύς, -εῖα, -ύ	Characteristics	kort
+333	ἰσχυρός –ά –όν	strong	adjective: 1st and 2nd declension	Characteristics	sterk
+334	ἀλήθεια ἀληθείας, ἡ	truth	noun: 1st declension	Ethics and Morals	waarheid
+335	δίκη δίκης, ἡ	justice, lawsuit, trial, penalty	noun: 1st declension	Law and Judgment	recht, gerechtigheid; proces; straf
+336	χωρίον χωρίου, τό	place, spot, district	noun: 2nd declension	Earth	plaats, gebied
+337	ἡδύς ἡδεῖα ἡδύ	sweet, pleasant	adjective: -ύς, -εῖα, -ύ	Characteristics	zoet, aangenaam
+338	νόσος νόσου, ἡ	disease, sickness	noun: 2nd declension	Life and Death	ziekte
+339	λίθος λίθου, ὁ	stone	noun: 2nd declension	Earth	steen
+340	παλαιός –ά –όν	old, ancient	adjective: 1st and 2nd declension	Characteristics	oud
+341	ἀφίημι, ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφεῖμαι, ἀφείθην	send away, let go; let alone, neglect	verb: -μι	Taking and Giving	wegzenden, loslaten; laten varen
+342	ἄλλως	otherwise	adverb	Pronouns/Interrogatives	anders
+343	πρᾶξις πράξεως, ἡ	action, transaction, business	noun: 3rd declension ι-stem	Work and Leisure	handeling, daad
+344	σαφής σαφές	clear, distinct, plain	adjective: 3rd declension -ης, -ες	Showing and Finding	duidelijk
+345	σοφός –ή –όν	wise, clever, skilled	adjective: 1st and 2nd declension	Characteristics	wijs, knap, bekwaam
+346	νικάω, νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην	conquer, win	verb: contracted	War and Peace	overwinnen
+347	ὁμολογέω, ὁμολογήσω, ὡμολόγησα, ὡμολόγηκα, ὡμολόγημαι, ὡμολογήθην	agree with, say the same thing as (+dat.)	verb: contracted	Law and Judgment	instemmen met, akkoord gaan (+ dat.); toegeven
+348	ναός (νεώς) ναοῦ (νεώ), ὁ	temple	noun: 2nd declension	Religion	tempel
+349	αὖ, αὖθις	moreover; on the other hand; back (again)	adverb	Particles	opnieuw, weer; anderzijds
+350	πατρίς πατρίδος, ἡ	fatherland	noun: 3rd declension consonant stem	Government and Society	vaderland
+351	ὀξύς ὀξεῖα ὀξύ	sharp, keen, shrill, pungent	adjective: -ύς, -εῖα, -ύ	Characteristics	scherp, snel, schel
+352	καίτοι (καί-τοι)	and indeed, and yet	adverb	Particles	en toch, nochtans
+353	πλέον	more, rather	adverb	Measurements and Numerals	meer
+354	πλέων πλέον	more, larger (comp. of πολύς)	adjective: 3rd declension -ων, -ον	Measurements and Numerals	meer, groter
+355	γνώμη γνώμης, ἡ	thought, intelligence, opinion, purpose	noun: 1st declension	The Mind, Perceiving and Learning	mening, inzicht, plan
+356	τιμή τιμῆς, ἡ	honor, esteem; price, value; office, magistracy	noun: 1st declension	Ethics and Morals	eer, aanzien; prijs, waarde; ambt
+357	μεταξύ	between (prep. + gen.); in the midst of (adv.)	preposition	Direction	tussen (+ gen.); intussen
+358	προσήκω προσήξω	belong to, have to do with; be fitting for (+dat.); arrive at; οἱ προσήκοντες relatives; τὰ προσήκoντα duties	verb: -ω palatal stem	Ethics and Morals	toebehoren; passen (+ dat.); οἱ προσήκοντες: verwanten
+359	πρίν	before, until	conjunction: subordinating	Time	voordat, totdat
+360	ἀδικέω, ἀδικήσω, ἠδίκησα, ἠδίκηκα, ἠδίκημαι, ἠδικήθην	do wrong; injure	verb: contracted	Ethics and Morals	onrecht doen, onrecht aandoen
+361	στρατηγός –οῦ, ὁ	leader of an army, commander, general	noun: 2nd declension	War and Peace	legeraanvoerder, generaal, strateeg
+362	οὐκέτι	no longer, no more	adverb	Time	niet meer
+363	πρέσβυς πρέσβεως, ὁ	old man; (pl.) ambassadors	noun: 3rd declension -εύς, -έως	Government and Society	oude man; (mv.) gezanten
+364	παύω, παύσω, ἔπαυσα, πέπαυκα, πέπαυμαι, ἐπαύθην	stop, put an end to; (mid.) cease	verb: -ω vowel stem	Movement	doen ophouden, beëindigen; (med.) ophouden
+365	τελευτάω, τελευτήσω, ἐτελεύτησα, τετελεύτηκα, τετελεύτημαι, ἐτελευτήθην	finish; die	verb: contracted	Life and Death	beëindigen; sterven
+366	μίγνυμι, μίξω, ἔμιξα, μέμιχα,μέμιγμαι, ἐμίχθην	mix, mingle	verb: -μι	Work and Leisure	mengen
+367	λαός λαοῦ, ὁ	the people, folk	noun: 2nd declension	Humanity and Being	volk
+368	θυγάτηρ θυγατρός, ἡ	daughter	noun: 3rd declension irregular	Family and Friendship and the Home	dochter
+369	οἰκία οἰκίας, ἡ	building, house, dwelling	noun: 1st declension	Family and Friendship and the Home	huis, woning
+370	παραδίδωμι, παραδώσω, παρέδωκα, παραδέδωκα, παραδέδομαι, παρεδόθην	transmit, hand over, surrender	verb: -μι	Taking and Giving	overgeven, overleveren
+371	ἔξω	outside; except	adverb	Direction	buiten; behalve
+372	νῆσος νήσου, ἡ	island	noun: 2nd declension	Earth	eiland
+373	ἐκεῖ	there	adverb	Direction	daar
+374	ἐπιστήμη –ης, ἡ	knowledge, understanding, skill	noun: 1st declension	The Mind, Perceiving and Learning	kennis, wetenschap, vaardigheid
+375	ἐάω, ἐάσω, εἴασα	allow, permit (+acc. and infin.); let be, let alone	verb: contracted	Law and Judgment	toelaten, laten
+376	θαυμάζω, θαυμάσομαι, ἐθαύμασα, τεθαύμακα, τεθαύμασμαι, ἐθαυμάσθην	to be in awe (of), be astonished (at)	verb: -ω dental stem	The Senses and Feelings	zich verwonderen (over), bewonderen
+377	αἰσθάνομαι, αἰσθήσομαι, 2 aor. ᾐσθόμην, ᾔσθημαι	perceive, understand, hear, learn	verb: deponent	The Mind, Perceiving and Learning	waarnemen, merken, bemerken
+378	χαίρω, χαιρήσω, κεχάρηκα, κεχάρημαι, ἐχάρην	to be happy, rejoice at (+dat.), take joy in (+ptc.); χαῖρε, (pl.) χαίρετε hello, goodbye	verb: -ω liquid stem	The Senses and Feelings	zich verheugen (over) (+ dat.); χαῖρε: gegroet, vaarwel
+379	χαλεπός –ή –όν	difficult, troublesome	adjective: 1st and 2nd declension	Characteristics	moeilijk, lastig
+380	τέκνον τέκνου, τό	child	noun: 2nd declension	Family and Friendship and the Home	kind
+381	καταλαμβάνω, καταλήψομαι, κατέλαβον, κατείληφα, κατείλημμαι, κατελήφθην	seize, catch up with, arrest, compel	verb: -ω labial stem	War and Peace	grijpen, innemen, inhalen, betrappen
+382	μάχομαι, μαχοῦμαι, ἐμαχεσάμην, μεμάχημαι	fight (against) (+dat.)	verb: deponent	War and Peace	vechten (tegen) (+ dat.)
+383	μιμνήσκω, -μνήσω, -έμνησα, pf. μέμνημαι, ἐμνήσθην	remind; (in pf. mid.) remember	verb: -ω palatal stem	The Mind, Perceiving and Learning	herinneren aan; (pf. med.) zich herinneren
+384	θνῄσκω, 2 aor. -έθανον, τέθνηκα, θανοῦμαι	to die, be dying	verb: -ω palatal stem	Life and Death	sterven; τέθνηκα: dood zijn
+384	λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην	loosen, unbind, set free; undo, destroy	verb: -ω vowel stem	War and Peace	losmaken, bevrijden; ontbinden, vernietigen
+386	τιμάω, τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην	to honor	verb: contracted	Ethics and Morals	eren
+387	τεῖχος τείχους, τό	wall	noun: 3rd declension σ-stem	Government and Society	muur, stadsmuur
+388	ἴσως	equally, probably, perhaps	adverb	Conjunctions/Adverbs	misschien, waarschijnlijk; evenzeer
+389	αἴρω, ἀρῶ, ἦρα, ἦρκα, ἦρμαι, ἤρθην	take up, lift up; remove	verb: -ω palatal stem	Movement	opheffen, optillen; wegnemen
+390	ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα, ἀπέκτονα	kill	verb: -ω liquid stem	War and Peace	doden
+391	στρατιώτης –ου, ὁ	soldier	noun: 2nd declension	War and Peace	soldaat
+392	ἄνευ	without (+gen.)	preposition	Prepositions without Direction	zonder (+ gen.)
+393	πότερος ποτέρα πότερον	which of the two? πότερον whether	adjective: 1st and 2nd declension	Pronouns/Interrogatives	welke van beide?; πότερον: of
+394	ἁπλῶς	simply, singly, in one way	adverb	Measurements and Numerals	eenvoudigweg, zonder meer
+395	πίπτω, πεσοῦμαι, ἔπεσον, πέπτωκα	fall, fall down	verb: -ω dental stem	War and Peace	vallen
+396	τέταρτος –η –ον	fourth	adjective: numeral	Measurements and Numerals	vierde
+397	κατασκευάζω, κατασκευάσω, κατεσκεύασα	equip, furnish, make ready	verb: -ω dental stem	Work and Leisure	uitrusten, klaarmaken, bouwen
+398	ἐχθρός –ά –όν	hated, hateful; hostile to (+dat.)	adjective: 1st and 2nd declension	Characteristics	gehaat; vijandig (+ dat.); ἐχθρός: vijand
+399	ἀγών ἀγῶνος, ὁ	contest; struggle	noun: 3rd declension consonant stem	Government and Society	wedstrijd, strijd
+400	κωλύω, κωλύσω, ἐκώλυσα, κεκώλυκα, κεκώλυμαι, ἐκωλύθην	hinder, check, prevent (+acc. and infin.)	verb: -ω vowel stem	War and Peace	verhinderen, beletten
+401	ἁμαρτάνω, ἁμαρτήσομαι, ἡμάρτησα, 2 aor. ἥμαρτον, ἡμάρτηκα, ἡμάρτημαι, ἡμαρτήθην	miss the mark (+gen.); fail, be wrong, make a mistake	verb: -ω dental stem	Ethics and Morals	missen (+ gen.); zich vergissen, fout doen
+402	διαφθείρω, διαφθερῶ, διέφθειρα, διέφθαρκα, διέφθαρμαι, διεφθάρην	destroy; corrupt	verb: -ω liquid stem	War and Peace	vernietigen; bederven, omkopen
+403	πως	(enclitic) somehow, in some way, in any way	adverb	Particles	op een of andere manier
+404	πόνος πόνου, ὁ	work, labor; stress, trouble, pain	noun: 2nd declension	Work and Leisure	arbeid, moeite, pijn
+405	ἔνθα	there	adverb	Direction	daar; toen
+406	τάξις τάξεως, ἡ	arrangement, order; military unit	noun: 3rd declension ι-stem	War and Peace	opstelling, orde; slagorde, afdeling
+407	πειράω (usually mid. πειράομαι), πειράσομαι, ἐπείρασα, πεπείραμαι, ἐπειράθην	attempt, try, make a trial of (+gen.)	verb: contracted	Work and Leisure	proberen, op de proef stellen (+ gen.)
+408	φοβέω, φοβήσω, ἐφόβησα, πεφόβημαι, ἐφοβήθην	put to flight; (mid. and pass.) flee, fear	verb: contracted	The Senses and Feelings	op de vlucht jagen; (med./pass.) vrezen
+409	βάλλω, βαλῶ, 2 aor. ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην	throw, hurl; throw at, hit (acc.) with (dat.)	verb: -ω liquid stem	Movement	werpen, gooien; treffen
+410	πονηρός –ά –όν	worthless, bad, wicked	adjective: 1st and 2nd declension	Characteristics	slecht, ellendig
+411	ξένος ξένου, ὁ	guest-friend; foreigner, stranger	noun: 2nd declension	Government and Society	vreemdeling; gastvriend
+412	βάρβαρος –ον	non-Greek, foreign; barbarous	adjective: 1st and 2nd declension	Government and Society	niet-Grieks, vreemd; barbaars
+413	ὅπου	where, wherever	conjunction: subordinating	Conjunctions/Adverbs	waar, waar ook
+414	συμφέρω, συνοίσω, 1 aor. συνήνεγκα	benefit, be useful or profitable to (+dat.); (impers.) συμφέρει it is of use, expedient (+infin.); τὸ συμφέρον use, profit, advantage	verb: irregular	Help and Safety	nuttig zijn (+ dat.); τὸ συμφέρον: het voordeel
+415	πυνθάνομαι, πεύσομαι, 2 aor. ἐπυθόμην, πέπυσμαι	learn, hear, inquire concerning (+gen.)	verb: deponent	The Mind, Perceiving and Learning	vernemen, horen, informeren
+416	δοῦλος δούλου, ὁ	slave	noun: 2nd declension	Government and Society	slaaf
+417	τέμνω, τεμῶ, 2 aor. ἔτεμον, -τέτμηκα, τέτμημαι, ἐτμήθην	cut, cut down, cut to pieces	verb: -ω liquid stem	War and Peace	snijden, afsnijden; verwoesten
+418	χρήσιμος χρησίμη χρήσιμον	useful, serviceable	adjective: 1st and 2nd declension	Characteristics	nuttig, bruikbaar
+419	ποῖος ποία ποῖον	what sort of?	adjective: 1st and 2nd declension	Pronouns/Interrogatives	wat voor?, welk soort?
+420	ὅπλον ὅπλου, τό	weapon, tool, implement (mostly pl.)	noun: 2nd declension	War and Peace	wapen, werktuig; ὅπλα: wapens
+421	πίστις πίστεως, ἡ	trust in others, faith; that which gives confidence, assurance, pledge, guarantee	noun: 3rd declension ι-stem	The Senses and Feelings	vertrouwen, geloof; waarborg
+422	ὑπολαμβάνω, ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην	take up, seize; answer, reply; assume, suppose	verb: -ω labial stem	The Mind, Perceiving and Learning	opnemen; antwoorden; veronderstellen
+423	ποιητής –οῦ, ὁ	creator, poet	noun: 2nd declension	Writing and Talking	dichter; maker
+424	λανθάνω, λήσω, ἔλαθον, λέληθα	escape the notice of (+acc. and nom. participle), be unknown; (mid. and pass.) forget	verb: -ω liquid stem	Government and Society	verborgen blijven voor (+ acc.); (med.) vergeten
+425	βελτίων βέλτιον	better (comp. of ἀγαθός)	adjective: 3rd declension -ων, -ον	Ethics and Morals	beter
+426	πάντως	altogether, in all ways; at any rate	adverb	Conjunctions/Adverbs	helemaal; in elk geval
+427	πορεύω, πορεύσω, ἐπόρευσα, πεπόρευμαι, ἐπορεύθην	carry; (mid. and pass) go, walk, march	verb: -ω vowel stem	Work and Leisure	vervoeren; (med./pass.) gaan, marcheren, reizen
+428	ἀποκρίνω, ἀποκρινῶ, ἀπεκρινάμην, ἀπεκρίθη	separate, set apart, choοse; (mid.) answer, reply	verb: -ω liquid stem	Writing and Talking	scheiden; (med.) antwoorden
+429	πέντε	five	adjective: numeral	Measurements and Numerals	vijf
+430	κίνδυνος κινδύνου, ὁ	danger	noun: 2nd declension	War and Peace	gevaar
+431	κατηγορέω, κατηγορήσω, κατηγόρησα, κατηγόρηκα, κατηγόρημαι, κατηγορήθην	to speak against, to accuse (+gen.)	verb: contracted	Law and Judgment	beschuldigen, aanklagen (+ gen.)
+432	τρέπω, τρέψω, ἔτρεψα, τέτροφα, ἐτράπην	turn, direct towards a thing; put to flight, defeat; (pass.) turn one’s steps in a certain direction, go	verb: -ω labial stem	Movement	draaien, wenden; op de vlucht jagen
+433	ὅμως	nevertheless, all the same, notwithstanding	adverb	Conjunctions/Adverbs	toch, nochtans
+434	θεῖος θεία θεῖον	divine	adjective: 1st and 2nd declension	Religion	goddelijk
+435	ἱππεύς ἱππέως, ὁ	horseman, rider, charioteer	noun: 3rd declension -εύς, -έως	War and Peace	ruiter
+436	κτάομαι, κτήσομαι, ἐκτησάμην, κέκτημαι	get, gain, acquire	verb: deponent	Taking and Giving	verwerven, verkrijgen; κέκτημαι: bezitten
+437	λείπω, λείψω, ἔλιπον, λέλοιπα, λέλειμμαι, ἐλείφθην	leave, abandon	verb: -ω labial stem	Movement	achterlaten, verlaten
+438	βουλή βουλῆς, ἡ	will, determination; counsel, piece of advice; council of elders	noun: 1st declension	Government and Society	raad, besluit; raad (vergadering)
+439	ἐλπίς ἐλπίδος, ἡ	hope; expectation	noun: 3rd declension consonant stem	The Senses and Feelings	hoop; verwachting
+440	γραφή γραφῆς, ἡ	a drawing, painting, writing; indictment	noun: 1st declension	Writing and Talking	tekening, geschrift; aanklacht
+441	τίκτω, τέξω or τέξομαι, ἔτεκον, τέτοκα, τέτεγμαι, ἐτέχθην	beget, give birth to, produce	verb: -ω palatal stem	Family and Friendship and the Home	baren, voortbrengen
+442	κομίζω, κομιῶ, ἐκόμισα, κεκόμικα, κεκόμισμαι, ἐκομίσθην	take care of, provide for	verb: -ω dental stem	Help and Safety	brengen, vervoeren; zorgen voor
+443	θυμός θυμοῦ, ὁ	life, spirit; soul, heart, mind	noun: 2nd declension	Religion	gemoed, hart, moed; woede
+444	βλέπω, βλέψομαι, ἔβλεψα	see, look (at)	verb: -ω labial stem	The Senses and Feelings	zien, kijken (naar)
+445	φόβος φόβου, ὁ	panic, fear, flight	noun: 2nd declension	The Senses and Feelings	angst, vrees; vlucht
+446	πολιτεία –ας, ἡ	constitution, citizenship, republic	noun: 1st declension	Government and Society	staatsvorm, burgerschap
+447	στάδιον σταδίου, τό (pl. στάδια and στάδιοι)	stadion or stade, the longest Greek unit of linear measure, about 185 meters	noun: 2nd declension	Measurements and Numerals	stadion (ca. 185 m)
+448	φρονέω, φρονήσω, ἐφρόνησα	think, intend to (+infin.); be minded towards (+adv. and dat.)	verb: contracted	The Mind, Perceiving and Learning	denken, gezind zijn
+449	τοιόσδε τοιάδε τοιόνδε	such (as this), of such a sort (as this)	adjective: 1st and 2nd declension	Pronouns/Interrogatives	zulk(e), zodanig
+450	ὁρμάω, ὁρμήσω, ὥρμησα, ὥρμηκα, ὥρμημαι, ὡρμήθην	set in motion, urge on; (intrans.) start, hasten on	verb: contracted	Movement	in beweging zetten, aansporen; zich haasten, vertrekken
+451	παρασκευάζω, παρασκευάσω, παρεσκεύασα	get ready, prepare, provide	verb: -ω dental stem	Work and Leisure	voorbereiden, klaarmaken
+452	λαλέω, λαλήσω, ἐλάλησα, λελάληκα, ἐλαλήθην	talk, chatter, babble	verb: contracted	Writing and Talking	praten, babbelen
+453	δράω, δράσω, ἔδρασα, δέδρακα, δέδραμαι, ἐδράσθην	do, accomplish	verb: contracted	Work and Leisure	doen, handelen
+454	σκοπέω, σκοπήσω, ἐσκόπησα	look at, watch; look into, consider, examine	verb: contracted	The Senses and Feelings	bekijken, onderzoeken, overwegen
+455	βοῦς βοός, ὁ/ἡ	bull, ox, cow	noun: 3rd declension irregular	Animals and Plants	rund, os, koe
+456	ἡμέτερος ἡμετέρα ἡμέτρον	our	adjective: 1st and 2nd declension	Pronouns/Interrogatives	ons, onze
+457	γράμμα γράμματος, τό	letter, written character; (pl.) piece of writing, document(s)	noun: 3rd declension consonant stem	Writing and Talking	letter; γράμματα: geschrift, brief
+458	ἐρωτάω, ἐρήσομαι, 2 aor. ἠρόμην	ask someone (acc.) something (acc.); question, beg	verb: contracted	Writing and Talking	vragen, ondervragen
+459	πολεμέω, πολεμήσω, ἐπολέμησα, πεπολέμηκα	make war	verb: contracted	War and Peace	oorlog voeren
+460	θύω, θύσω, ἔθυσα, τέθυκα, τέθυμαι, ἐτύθην	sacrifice	verb: -ω vowel stem	Religion	offeren
+461	ἐλαύνω, ἐλῶ, ἤλασα, -ελήλακα, ἐλήλαμαι, ἠλάθην	drive, set in motion	verb: -ω liquid stem	Movement	drijven, rijden, marcheren
+462	δέδοικα, δείσομαι, ἔδεισα	fear	verb: -ω dental stem	The Senses and Feelings	vrezen
+463	σύμμαχος –ον	allied with (+dat.); οἱ σύμμαχοι allies	adjective: 1st and 2nd declension	War and Peace	verbonden; οἱ σύμμαχοι: de bondgenoten
+464	ἡγεμών ἡγεμόνος, ὁ	guide, leader, commander	noun: 3rd declension consonant stem	Government and Society	leider, gids, aanvoerder
+465	βαρύς βαρεῖα βαρύ	heavy, grievous, tiresome	adjective: -ύς, -εῖα, -ύ	Characteristics	zwaar, lastig
+466	ὧδε	thus, in this way; hither, here	adverb	Direction	zo; hier(heen)
+467	αἰσχρός –ά –όν	ugly, shameful, disgraceful	adjective: 1st and 2nd declension	Characteristics	lelijk, schandelijk
+468	εἰρήνη εἰρήνης, ἡ	peace	noun: 1st declension	War and Peace	vrede
+469	ἁλίσκομαι, ἁλώσομαι, 2 aor. ἑάλων, ἑάλωκα	to be taken, conquered (act. supplied by αἱρέω)	verb: deponent	War and Peace	gevangen genomen worden, ingenomen worden
+470	δέκα	ten	adjective: numeral	Measurements and Numerals	tien
+471	ἀμείνων ἄμεινον	better, abler, stronger, braver (comp. of ἀγαθός)	adjective: 3rd declension -ων, -ον	Ethics and Morals	beter
+472	χείρων χεῖρον	worse, inferior (comp. of κακός)	adjective: 3rd declension -ων, -ον	Ethics and Morals	slechter
+473	βοηθέω, βοηθήσω, ἐβοήθησα, βεβοήθηκα	help, assist (+dat.)	verb: contracted	Help and Safety	helpen (+ dat.)
+474	λαμπρός –ά –όν	bright, brilliant; well-known, illustrious	adjective: 1st and 2nd declension	Characteristics	schitterend, helder; beroemd
+475	ἀπαλλάσσω, ἀπαλλάξω, ἀπήλλαξα, ἀπήλλαχα, ἀπήλλαγμαι, ἀπηλλάχθην or ἀπηλλάγην	set free, release, deliver	verb: -ω palatal stem	Help and Safety	bevrijden, verlossen; (pass.) vertrekken
+476	βουλεύω βουλεύσω, ἐβούλευσα, βεβούλευκα, βεβούλευμαι, ἐβουλεύθην	plan (to), decide (to); (mid.) deliberate	verb: -ω vowel stem	War and Peace	beraadslagen, besluiten; (med.) overleggen
+477	μάλα	very, very much	adverb	Conjunctions/Adverbs	zeer
+478	αἰτέω, αἰτήσω, ᾔτησα, ᾔτηκα, ᾔτημαι, ᾐτήθην	ask (for), beg	verb: contracted	Writing and Talking	vragen, verzoeken
+479	σωτηρία σωτηρίας, ἡ	safety, deliverance	noun: 1st declension	Help and Safety	redding, veiligheid
+480	ἆρα	[introduces a question]	adverb	Particles	vraagpartikel (onvertaald)
+481	διώκω, διώξομαι, ἐδίωξα, δεδίωχα, ἐδιώχθην	pursue	verb: -ω palatal stem	Movement	achtervolgen, vervolgen
+482	δαίμων δαίμονος, ὁ/ἡ	spirit, god, demon	noun: 3rd declension consonant stem	Religion	godheid, geest, daimon
+483	οὐκοῦν	surely then (inviting assent to an inference)	adverb	Particles	dus toch, welnu
+484	γλῶσσα γλώσσης, ἡ	tongue; language	noun: 1st declension	Body Parts	tong; taal
+485	ἑπτά	seven	adjective: numeral	Measurements and Numerals	zeven
+486	τολμάω, τολμήσω, ἐτόλμησα, τετόλμηκα, τετόλμημαι, ἐτολμήθην	have the courage, dare; undertake, undergo	verb: contracted	The Senses and Feelings	durven, wagen
+487	δεσπότης –ου, ὁ	master (of the household); absolute ruler	noun: 1st declension	Government and Society	meester, heer; alleenheerser
+488	εἰκός εἰκότος, τό	likelihood, probability; εἰκός (ἐστι) it is likely (+infin.) →ἔοικα	noun: 3rd declension consonant stem	The Mind, Perceiving and Learning	waarschijnlijkheid; εἰκός ἐστι: het is waarschijnlijk
+489	ἄδικος ἄδικον	unjust	adjective: 1st and 2nd declension	Ethics and Morals	onrechtvaardig
+490	εἴκοσι(ν)	twenty	adjective: numeral	Measurements and Numerals	twintig
+491	μυρίος μυρία μυρίον	countless; μύριοι 10,000; μυριάς -άδος ἡ 10,000, a countless amount	adjective: 1st and 2nd declension	Measurements and Numerals	talloos; μύριοι: tienduizend
+492	αὐτίκα	at once, immediately	adverb	Time	meteen, onmiddellijk
+493	δέκατος –η –ον	tenth	adjective: numeral	Measurements and Numerals	tiende
+494	βαίνω, βήσομαι, 2 aor. ἔβην, βέβηκα	walk, come, go	verb: -ω liquid stem	Movement	gaan, stappen
+495	περ	[enclitic added to pronouns and other particles for emphasis]	adverb	Particles	juist, wel (versterkend partikel)
+496	ἐλεύθερος ἐλευθέρα ἐλεύθερον	free, independent	adjective: 1st and 2nd declension	Government and Society	vrij
+497	στρατιά –ᾶς, ἡ	army	noun: 1st declension	War and Peace	leger
+498	ἀμφί	about, around	preposition	Direction	rond, om, omtrent
+499	συμφορά –ᾶς, ἡ	event, circumstance, misfortune	noun: 1st declension	Life and Death	ongeluk, ramp; gebeurtenis
+500	ἑκατόν	hundred	adjective: numeral	Measurements and Numerals	honderd
+501	νίκη νίκης, ἡ	victory	noun: 1st declension	War and Peace	overwinning
+502	ἔπος ἔπους, τό	word, speech, tale; prophecy	noun: 3rd declension σ-stem	Writing and Talking	woord, verhaal; ἔπη: epos
+503	στρατός –οῦ, ὁ	army	noun: 2nd declension	War and Peace	leger
+504	φράζω, φράσω, ἔφρασα, πέφρακα, πέφρασμαι, ἐφράσθην	tell, declare; (mid. and pass.) think (about)	verb: -ω dental stem	Writing and Talking	vertellen, zeggen; (med.) overwegen
+505	ἀργύριον ἀργυρίου, τό	money	noun: 2nd declension	Government and Society	zilver, geld
+506	τριάκοντα	thirty	adjective: numeral	Measurements and Numerals	dertig
+507	ἕξ	six	adjective: numeral	Measurements and Numerals	zes
+508	πεμπτός –ή –όν	fifth	adjective: numeral	Measurements and Numerals	vijfde
+509	μάρτυς μάρτυρος, ὁ/ἡ	witness	noun: 3rd declension consonant stem	Law and Judgment	getuige
+510	χαλκοῦς –ῆ –οῦν	of copper or bronze	adjective: 1st and 2nd declension	Earth	koperen, bronzen
+511	ἕβδομος –η –ον	seventh	adjective: numeral	Measurements and Numerals	zevende
+512	ποῦ	where	pronoun	Pronouns/Interrogatives	waar?
+513	ναί	indeed, yes (used in strong affirmation)	adverb	Particles	ja, zeker
+514	φῶς φωτός, τό	light, daylight	noun: 3rd declension consonant stem	World Order	licht
+515	ὀκτώ	eight	adjective: numeral	Measurements and Numerals	acht
+516	ἕκτος –η –ον	sixth	adjective: numeral	Measurements and Numerals	zesde
+517	τριακοστός –ή –όν	thirtieth	adjective: numeral	Measurements and Numerals	dertigste
+518	ἐννέα	nine	adjective: numeral	Measurements and Numerals	negen
+519	πότε	when?	adverb	Time	wanneer?
+520	ὄγδοος –η –ον	eighth	adjective: numeral	Measurements and Numerals	achtste
+521	ἔνατος –α –ον	ninth	adjective: numeral	Measurements and Numerals	negende
+522	εἰκοστός –ή –όν	twentieth	adjective: numeral	Measurements and Numerals	twintigste
+523	ἀγγέλλω, ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην	report, tell	verb: -ω liquid stem	Writing and Talking	berichten, melden
+524	ἑκατοστός –ή –όν	hundredth	adjective: numeral	Measurements and Numerals	honderdste

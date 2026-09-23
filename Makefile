@@ -1,4 +1,4 @@
-.PHONY: import dictionary dutch-dictionary danish-dictionary check
+.PHONY: import dictionary dutch-dictionary danish-dictionary core-vocabulary check
 
 import:
 	python3 scripts/import_texts.py
@@ -11,6 +11,9 @@ dutch-dictionary:
 
 danish-dictionary:
 	python3 scripts/build_danish_dictionary.py
+
+core-vocabulary:
+	node scripts/build_core_vocabulary.mjs
 
 check:
 	python3 scripts/import_texts.py --check
@@ -27,3 +30,4 @@ check:
 	node --check generated/imported-middle-dutch-dictionary.js
 	node --check generated/imported-dutch-dictionary.js
 	node --check generated/imported-danish-dictionary.js
+	node --check generated/core-vocabulary.js

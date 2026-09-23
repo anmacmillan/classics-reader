@@ -725,6 +725,13 @@ body.paged-reader .chapter-intro .translation-credit {
   border: 1px solid rgba(245, 158, 11, 0.15);
 }
 
+.tooltip-core {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #16a34a;
+  margin: -2px 0 6px;
+}
+
 .tooltip-definition {
   font-size: 0.88rem;
   line-height: 1.4;
@@ -1101,4 +1108,41 @@ body.paged-reader .chapter-intro .translation-credit {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
+}
+
+/* Core vocabulary progress, at the top of the saved-words panel */
+.core-progress {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.core-progress h3 {
+  font-size: 0.9rem;
+  margin: 0 0 6px;
+}
+
+.core-progress-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.core-progress-bar span {
+  display: block;
+  height: 100%;
+  background: #16a34a;
+}
+
+.core-progress-next {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+
+.core-progress-next em {
+  color: var(--text-muted);
 }

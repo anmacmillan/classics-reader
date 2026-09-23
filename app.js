@@ -1322,6 +1322,27 @@ function getDictionaryEntry(rawWord, lang) {
   return dict[original] || dict[normalised] || null;
 }
 
+/* ─── Core vocabulary ─────────────────────────────────────────────────────
+   Dickinson College Commentaries core lists (generated/core-vocabulary.js):
+   the 1,000 most frequent Latin words and 500 Greek. The first-degree
+   curricula ask for about 800 Latin and 250 Greek words; `target` holds those. */
+
+function coreVocabulary(lang) {
+  return typeof CORE_VOCAB === "undefined" ? null : CORE_VOCAB[lang] || null;
+}
+
+function coreRankFor(rawWord, lang) {
+  const core = coreVocabulary(lang);
+  if (!core) return null;
+  const original = String(rawWord || "").toLowerCase().replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
+  return core.forms[original] || core.forms[normaliseLookupKey(rawWord)] || null;
+}
+
+function coreWord(lang, rank) {
+  const found = coreVocabulary(lang)?.words.find(([wordRank]) => wordRank === rank);
+  return found ? { rank: found[0], headword: found[1], en: found[2], nl: found[3] } : null;
+}
+
 function saveOldEnglishLookupCache() {
   localStorage.setItem(STORAGE_KEYS.OLD_ENGLISH_CACHE, JSON.stringify(oldEnglishLookupCache));
 }
@@ -1369,18 +1390,178 @@ function htmlEscape(value) {
     .replace(/"/g, "&quot;");
 }
 
-function syntaxRoleLabel(role) {
-  const labels = {
-    root: "main verb / root", nsubj: "subject", "nsubj:pass": "passive subject",
-    obj: "direct object", "iobj": "indirect object", obl: "oblique complement",
-    "obl:arg": "argument complement", amod: "adjectival modifier", det: "determiner",
-    advmod: "adverbial modifier", nmod: "nominal modifier", acl: "relative/participial modifier",
-    ccomp: "complement clause", xcomp: "complementary infinitive", advcl: "adverbial clause",
-    conj: "co-ordinate word", cc: "co-ordinating conjunction", mark: "subordinator",
-    case: "preposition", cop: "copula", "aux:pass": "passive auxiliary", aux: "auxiliary",
-    appos: "apposition", vocative: "vocative"
-  };
-  return labels[role] || role || "syntactic role";
+/* ─── Dutch grammar terms ───────────────────────────────────────────────────
+   The Flemish classics curricula (KOV and GO!) teach the valentiegrammatica
+   in Dutch: onderwerp, lijdend voorwerp, bijwoordelijke bepaling, and so on.
+   Parser relations, UD features, Whitaker's Words codes and treebank tags are
+   rendered in those terms so the popup speaks the language of the classroom. */
+
+const UD_FEATURES_NL = {
+  Case: { Nom: "nominatief", Gen: "genitief", Dat: "datief", Acc: "accusatief", Abl: "ablatief", Voc: "vocatief", Loc: "locatief" },
+  Number: { Sing: "enkelvoud", Plur: "meervoud", Dual: "dualis" },
+  Gender: { Masc: "mannelijk", Fem: "vrouwelijk", Neut: "onzijdig", Com: "gemeenslachtig" },
+  Mood: { Ind: "indicatief", Sub: "coniunctivus", Imp: "imperatief", Opt: "optativus" },
+  Voice: { Act: "actief", Pass: "passief", Mid: "medium" },
+  Degree: { Pos: "stellende trap", Cmp: "vergrotende trap", Sup: "overtreffende trap", Abs: "overtreffende trap" },
+  Definite: { Def: "bepaald", Ind: "onbepaald" },
+  PronType: { Prs: "persoonlijk", Dem: "aanwijzend", Rel: "betrekkelijk", Int: "vragend", Ind: "onbepaald", Rcp: "wederkerig" },
+  Person: { 1: "1e persoon", 2: "2e persoon", 3: "3e persoon" }
+};
+
+function parseUdFeatures(morph) {
+  return Object.fromEntries(String(morph || "").split("|").filter(Boolean).map((pair) => pair.split("=")));
+}
+
+function udTenseNl(features, lang) {
+  const { Tense: tense, Aspect: aspect } = features;
+  if (lang === "latin") {
+    if (tense === "Pqp") return "plusquamperfectum";
+    if (tense === "Fut") return aspect === "Perf" ? "futurum exactum" : "futurum";
+    if (tense === "Past") return aspect === "Perf" ? "perfectum" : "imperfectum";
+    if (tense === "Pres") return "praesens";
+  }
+  // Greek parses mark the aorist and the imperfect alike as Past; the
+  // dictionary line above the syntax box names the exact tense.
+  return { Pres: "praesens", Past: "verleden tijd", Fut: "futurum", Pqp: "plusquamperfectum" }[tense] || "";
+}
+
+function udVerbFormNl(features, lang) {
+  const form = features.VerbForm;
+  if (form === "Part") {
+    if (lang === "latin" && features.Aspect === "Prosp") return "participium futurum / gerundivum";
+    if (lang === "latin" && features.Aspect === "Perf") return "participium perfectum";
+    if (lang === "latin" && features.Aspect === "Imp") return "participium praesens";
+    return "participium";
+  }
+  return { Inf: "infinitief", Ger: "gerundium", Gdv: "gerundivum", Sup: "supinum" }[form] || "";
+}
+
+function syntaxMorphNl(morph, lang) {
+  const features = parseUdFeatures(morph);
+  const parts = [
+    udVerbFormNl(features, lang),
+    features.VerbForm === "Fin" || features.VerbForm === "Inf" || features.VerbForm === "Part" ? udTenseNl(features, lang) : "",
+    ...["Voice", "Mood", "Person", "Case", "Number", "Gender", "Degree", "Definite", "PronType"]
+      .map((name) => UD_FEATURES_NL[name][features[name]] || "")
+  ];
+  return parts.filter(Boolean).join(" · ");
+}
+
+const SYNTAX_ROLES_NL = {
+  nsubj: "onderwerp", "nsubj:pass": "onderwerp (passieve zin)", csubj: "onderwerpszin",
+  obj: "lijdend voorwerp", iobj: "meewerkend voorwerp", obl: "bijwoordelijke bepaling",
+  "obl:agent": "bijwoordelijke bepaling met rol handelende persoon", "obl:arg": "voorwerp",
+  advmod: "bijwoordelijke bepaling", advcl: "bijwoordelijke bijzin",
+  amod: "bijvoeglijke bepaling", det: "bijvoeglijke bepaling (lidwoord of voornaamwoord)",
+  nmod: "bijvoeglijke bepaling", acl: "bijvoeglijke bepaling (participium of bijzin)",
+  "acl:relcl": "betrekkelijke bijzin", appos: "bijstelling", vocative: "aanspreking",
+  ccomp: "voorwerpszin", xcomp: "aanvulling bij het werkwoord (infinitief)",
+  cop: "koppelwerkwoord", aux: "hulpwerkwoord", "aux:pass": "hulpwerkwoord van het passief",
+  conj: "nevengeschikt aan", cc: "nevenschikkend voegwoord", mark: "onderschikkend voegwoord",
+  case: "voorzetsel", nummod: "telwoord", flat: "deel van een naam", "flat:name": "deel van een naam",
+  parataxis: "nevengeschikte zin", discourse: "partikel", fixed: "vaste uitdrukking",
+  compound: "deel van een samenstelling", expl: "formeel onderwerp", punct: "leesteken"
+};
+
+function syntaxRoleNl(role, morph) {
+  const features = parseUdFeatures(morph);
+  if (role === "root") {
+    if (features.VerbForm === "Fin") return "gezegde (persoonsvorm)";
+    if (features.Case) return "naamwoordelijk gezegde";
+    return "kern van de zin";
+  }
+  // Accusativus cum infinitivo: the parser makes the accusative the subject of the infinitive.
+  if ((role === "nsubj" || role === "nsubj:pass") && features.Case === "Acc") return "onderwerp van de infinitiefzin (a.c.i.)";
+  if (role === "ccomp" && features.VerbForm === "Inf") return "infinitiefzin (a.c.i.)";
+  const base = SYNTAX_ROLES_NL[role] || SYNTAX_ROLES_NL[String(role).split(":")[0]] || role || "zinsdeel";
+  const caseName = UD_FEATURES_NL.Case[features.Case];
+  if ((role === "obl" || role === "nmod" || role === "obl:arg") && caseName) return `${base} (${caseName})`;
+  return base;
+}
+
+// Whitaker's Words codes (Latin) and treebank tags (Greek) in the dictionary's grammar line.
+const LATIN_CODES_NL = {
+  N: "zn.", ADJ: "bn.", V: "ww.", VPAR: "participium", PRON: "vnw.", ADV: "bw.", PREP: "vz.",
+  CONJ: "vw.", INTERJ: "tw.", NUM: "telw.", SUPINE: "supinum", GERUND: "gerundium",
+  TACKON: "aanhangsel", ENCLITIC: "aanhangsel", SUFFIX: "achtervoegsel", PREFIX: "voorvoegsel",
+  NOM: "nominatief", GEN: "genitief", DAT: "datief", ACC: "accusatief", ABL: "ablatief", VOC: "vocatief", LOC: "locatief",
+  S: "enkelvoud", P: "meervoud", M: "mannelijk", F: "vrouwelijk", C: "mannelijk/vrouwelijk",
+  PRES: "praesens", IMPF: "imperfectum", FUT: "futurum", PERF: "perfectum", PLUP: "plusquamperfectum", FUTP: "futurum exactum",
+  ACTIVE: "actief", PASSIVE: "passief", IND: "indicatief", SUB: "coniunctivus", IMP: "imperatief", INF: "infinitief",
+  POS: "stellende trap", COMP: "vergrotende trap", SUPER: "overtreffende trap",
+  CARD: "hoofdtelwoord", ORD: "rangtelwoord", DIST: "verdeelgetal", DEP: "deponens", INDECL: "onverbuigbaar",
+  PPL: "", X: ""
+};
+
+const GREEK_TAGS_NL = {
+  noun: "zn.", verb: "ww.", adj: "bn.", pron: "vnw.", adv: "bw.", prep: "vz.", conj: "vw.", article: "lidwoord",
+  partic: "partikel", interj: "tw.", num: "telw.", sg: "enkelvoud", pl: "meervoud", dual: "dualis",
+  masc: "mannelijk", fem: "vrouwelijk", neut: "onzijdig", common: "mannelijk/vrouwelijk",
+  nom: "nominatief", gen: "genitief", dat: "datief", acc: "accusatief", voc: "vocatief",
+  pres: "praesens", imperf: "imperfectum", aor: "aoristus", perf: "perfectum", plup: "plusquamperfectum", fut: "futurum",
+  act: "actief", mid: "medium", pass: "passief", mp: "medium-passief",
+  ind: "indicatief", subj: "coniunctivus", opt: "optativus", imperat: "imperatief", inf: "infinitief", part: "participium",
+  "1st": "1e persoon", "2nd": "2e persoon", "3rd": "3e persoon", comp: "vergrotende trap", superl: "overtreffende trap",
+  irreg: "onregelmatig"
+};
+
+const LATIN_CODE_SLOTS = {
+  case: ["NOM", "GEN", "DAT", "ACC", "ABL", "VOC", "LOC"], number: ["S", "P"], gender: ["M", "F", "C"],
+  tense: ["PRES", "IMPF", "FUT", "PERF", "PLUP", "FUTP"], voice: ["ACTIVE", "PASSIVE"],
+  mood: ["IND", "SUB", "IMP", "INF"], degree: ["POS", "COMP", "SUPER"]
+};
+
+function latinSegmentNl(segment) {
+  const tokens = segment.trim().split(/\s+/);
+  const pos = tokens[0];
+  if (!pos || !(pos in LATIN_CODES_NL)) return segment.trim();  // a free-text note
+  const slot = { other: [] };
+  // Codes come first; from the first word that is not a code, the rest is a note.
+  const noteStart = tokens.findIndex((token, index) => index > 0 && !/^\d$/.test(token) && !(token in LATIN_CODES_NL) && token !== "N");
+  const codes = noteStart > 0 ? tokens.slice(1, noteStart) : tokens.slice(1);
+  if (noteStart > 0) slot.note = tokens.slice(noteStart).join(" ");
+  codes.forEach((token, index) => {
+    if (/^\d$/.test(token)) {
+      // Whitaker gives declension and variant first; for verbs, the person follows the mood.
+      if (pos === "N" && index === 0 && token >= "1" && token <= "5") slot.decl = `${token}e declinatie`;
+      else if (pos === "V" && index >= 2 && token >= "1" && token <= "3") slot.person = `${token}e persoon`;
+      return;
+    }
+    if (token === "N" && pos !== "V") { slot.gender = "onzijdig"; return; }
+    const name = Object.keys(LATIN_CODE_SLOTS).find((key) => LATIN_CODE_SLOTS[key].includes(token));
+    if (name) slot[name] = LATIN_CODES_NL[token];
+    else if (token in LATIN_CODES_NL) slot.other.push(LATIN_CODES_NL[token]);
+    else slot.other.push(token);
+  });
+  const join = (...parts) => parts.filter(Boolean).join(" ");
+  let groups;
+  if (pos === "V") {
+    groups = [LATIN_CODES_NL.V, join(slot.mood, slot.tense, slot.voice), join(slot.person, slot.number)];
+  } else if (pos === "VPAR") {
+    const name = slot.tense === "futurum" && slot.voice === "passief" ? "gerundivum" : join("participium", slot.tense, slot.voice);
+    groups = [name, join(slot.case, slot.number, slot.gender)];
+  } else if (pos === "PREP") {
+    groups = [join(LATIN_CODES_NL.PREP, slot.case ? `+ ${slot.case}` : "")];
+  } else {
+    groups = [LATIN_CODES_NL[pos], slot.decl, join(slot.case, slot.number, slot.gender), slot.degree];
+  }
+  return [...groups, ...slot.other, slot.note].filter(Boolean).join(" · ");
+}
+
+function latinGrammarNl(code) {
+  // "+" joins a word and its enclitic (quae + ne); ";" separates alternative analyses.
+  return String(code).replace(/\bproper name\b/g, "eigennaam").split(/\s*;\s*/)
+    .map((analysis) => analysis.split(/\s*\+\s*/).map(latinSegmentNl).filter(Boolean).join(" + "))
+    .filter(Boolean).join(" of ");
+}
+
+function dutchGrammar(grammar, lang) {
+  if (!grammar) return "";
+  if (lang === "latin") return latinGrammarNl(grammar);
+  if (lang === "greek") {
+    return String(grammar).split(/\s+/).map((tag) => (tag in GREEK_TAGS_NL ? GREEK_TAGS_NL[tag] : tag)).join(" ");
+  }
+  return grammar;
 }
 
 function syntaxPastel(group) {
@@ -1417,10 +1598,13 @@ function renderInteractiveLine(line, lang, syntaxTokens = null) {
     if (!entry) return `${before}${safeWord}${after}`;
     const safeLemma = htmlEscape(entry.lemma || entry.def);
     const safeEn = htmlEscape(entry.en || entry.def);
-    const safeNl = htmlEscape(entry.nl || "");
-    const safeGrammar = htmlEscape(entry.grammar);
+    const coreRank = coreRankFor(word, lang);
+    const safeNl = htmlEscape(entry.nl || (coreRank && coreWord(lang, coreRank)?.nl) || "");
+    const coreAttr = coreRank ? ` data-core-rank="${coreRank}"` : "";
+    const safeGrammar = htmlEscape(dutchGrammar(entry.grammar, lang));
+    const grammarCodeAttr = entry.grammar && dutchGrammar(entry.grammar, lang) !== entry.grammar ? ` data-grammar-code="${htmlEscape(entry.grammar)}"` : "";
     const syntaxAttrs = syntax ? ` data-syntax-role="${htmlEscape(syntax.role)}" data-syntax-head="${htmlEscape(syntax.head)}" data-syntax-morph="${htmlEscape(syntax.morph)}"${syntax.agreement ? ` data-syntax-agreement="${htmlEscape(syntax.agreement)}" style="--syntax-pastel:${syntaxPastel(syntax.agreement)}"` : ""}` : "";
-    return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}"${syntaxAttrs}>${safeWord}</span>${after}`;
+    return `${before}<span class="dict-word" data-word="${safeWord}" data-lang="${lang}" data-lemma="${safeLemma}" data-en="${safeEn}" data-nl="${safeNl}" data-grammar="${safeGrammar}"${grammarCodeAttr}${coreAttr}${syntaxAttrs}>${safeWord}</span>${after}`;
   }).join("");
 }
 
@@ -1441,7 +1625,8 @@ function setupWordHover() {
     const syntax = wordSpan.getAttribute("data-syntax-role") ? {
       role: wordSpan.getAttribute("data-syntax-role"),
       head: wordSpan.getAttribute("data-syntax-head"),
-      morph: wordSpan.getAttribute("data-syntax-morph")
+      morph: wordSpan.getAttribute("data-syntax-morph"),
+      lang: wordSpan.getAttribute("data-lang")
     } : null;
     const lang = wordSpan.getAttribute("data-lang");
     activeVocabularyCandidate = vocabularyEntryFor(rawWord, lemma || rawWord, en, nl, grammar, lang);
@@ -1520,6 +1705,22 @@ function setupWordHover() {
   document.getElementById("word-tooltip")?.addEventListener("mouseleave", hideTooltip);
 }
 
+function coreBadgeHtml(anchorEl) {
+  const rank = Number(anchorEl.getAttribute("data-core-rank"));
+  const core = coreVocabulary(anchorEl.getAttribute("data-lang"));
+  if (!rank || !core) return "";
+  const basic = rank <= core.target ? " · basiswoordenschat" : "";
+  return `<div class="tooltip-core" title="Kernwoordenlijst Dickinson College Commentaries">Kernwoord #${rank}${basic}</div>`;
+}
+
+function syntaxBoxHtml(syntax) {
+  const role = syntax.role ? `Zinsdeel: ${htmlEscape(syntaxRoleNl(syntax.role, syntax.morph))} <span class="syntax-code">(${htmlEscape(syntax.role)})</span>` : "";
+  const head = syntax.head ? ` · hoort bij: ${htmlEscape(syntax.head)}` : "";
+  const form = syntaxMorphNl(syntax.morph, syntax.lang);
+  const morph = form ? `<br>Vorm: ${htmlEscape(form)}` : "";
+  return `<div class="tooltip-syntax"${syntax.morph ? ` title="${htmlEscape(syntax.morph)}"` : ""}><strong>Zinsbouw</strong><br>${role}${head}${morph}</div>`;
+}
+
 function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax = null) {
   const tooltip = document.getElementById("word-tooltip");
   const content = document.getElementById("tooltip-content");
@@ -1531,8 +1732,9 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
       <h4>${word}</h4>
     </div>
     <div class="tooltip-lemma">${lemma}</div>
-    <div class="tooltip-grammar">${grammar}</div>
-    ${syntax ? `<div class="tooltip-syntax"><strong>Syntax</strong><br>Role: ${htmlEscape(syntaxRoleLabel(syntax.role))}${syntax.role && syntax.role !== syntaxRoleLabel(syntax.role) ? ` <span class="syntax-code">(${htmlEscape(syntax.role)})</span>` : ""}${syntax.head ? ` · head: ${htmlEscape(syntax.head)}` : ""}${syntax.morph ? `<br>Morphology: ${htmlEscape(syntax.morph)}` : ""}</div>` : ""}
+    ${coreBadgeHtml(anchorEl)}
+    <div class="tooltip-grammar"${anchorEl.getAttribute("data-grammar-code") ? ` title="${htmlEscape(anchorEl.getAttribute("data-grammar-code"))}"` : ""}>${htmlEscape(grammar)}</div>
+    ${syntax ? syntaxBoxHtml(syntax) : ""}
     <div class="tooltip-definition">
       <div><strong>EN</strong> ${en || "Translation not found"}</div>
       <div><strong>NL</strong> ${nl || "Vertaling niet gevonden"}</div>
@@ -1605,6 +1807,7 @@ function vocabularyEntryFor(word, lemma, en, nl, grammar, lang) {
     nl: nl || "",
     grammar: grammar || "",
     lang,
+    coreRank: coreRankFor(word, lang) || undefined,
     author: book?.author || "",
     work: book ? workDisplayTitle(book) : "",
     chapter: chapter?.title || "",
@@ -1637,12 +1840,13 @@ function updateVocabularyUI() {
   if (summary) summary.textContent = `${count} saved word${count === 1 ? "" : "s"}`;
   if (!list) return;
 
+  const progress = coreProgressHtml();
   if (!count) {
-    list.innerHTML = '<p class="vocabulary-empty">Select a word in any text and choose “Save word”.</p>';
+    list.innerHTML = `${progress}<p class="vocabulary-empty">Select a word in any text and choose “Save word”.</p>`;
     return;
   }
 
-  list.innerHTML = state.vocabulary.map((entry) => `
+  list.innerHTML = progress + state.vocabulary.map((entry) => `
     <article class="vocabulary-entry">
       <h3>${htmlEscape(entry.lemma || entry.word)} <span>${htmlEscape(entry.lang)}</span></h3>
       <p class="vocabulary-meaning">${htmlEscape(entry.en || entry.nl || "No translation")}</p>
@@ -1650,6 +1854,33 @@ function updateVocabularyUI() {
       <button class="btn vocabulary-remove" data-vocabulary-id="${htmlEscape(entry.id)}" aria-label="Remove ${htmlEscape(entry.lemma || entry.word)}">×</button>
     </article>
   `).join("");
+}
+
+const CORE_LANG_LABELS = { latin: "Latijn", greek: "Grieks" };
+const CORE_NEXT_WORDS = 8;
+
+// Saved words that belong to the core list, per language, with the next
+// unsaved core words in frequency order: what to learn next.
+function coreProgressHtml() {
+  return Object.keys(CORE_LANG_LABELS).map((lang) => {
+    const core = coreVocabulary(lang);
+    if (!core) return "";
+    const saved = new Set(state.vocabulary
+      .filter((entry) => entry.lang === lang)
+      .map((entry) => entry.coreRank || coreRankFor(entry.word, lang))
+      .filter(Boolean));
+    if (!saved.size && lang !== "latin") return "";
+    const basic = [...saved].filter((rank) => rank <= core.target).length;
+    const next = core.words.filter(([rank]) => !saved.has(rank)).slice(0, CORE_NEXT_WORDS);
+    const percent = Math.round((100 * basic) / core.target);
+    return `
+      <section class="core-progress">
+        <h3>Basiswoordenschat ${CORE_LANG_LABELS[lang]}: ${basic} / ${core.target}</h3>
+        <div class="core-progress-bar"><span style="width:${percent}%"></span></div>
+        <p class="core-progress-next">Volgende kernwoorden: ${next.map(([rank, headword, en, nl]) =>
+          `<span title="${htmlEscape(en)}">${htmlEscape(headword.split(/[\s,]/)[0])} <em>${htmlEscape(nl || en)}</em></span>`).join(" · ")}</p>
+      </section>`;
+  }).join("");
 }
 
 function setVocabularyPanel(open) {

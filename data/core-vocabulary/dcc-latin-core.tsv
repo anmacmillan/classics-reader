@@ -1,0 +1,998 @@
+rank	headword	en	pos	group	nl
+1	et	and	Conjunction	Conjunctions/Adverbs	en
+2	sum esse fuī futūrum	be, exist; fut. infin. often = fore, impf. subj. often = forem for essem	Verb: Irregular	Life and Being	zijn, bestaan
+3	quī quae quod	who, which, what	Pronoun	Pronouns/Interrogatives	die, dat, welke, wat
+4	que	and (postpositive enclitic)	Conjunction	Conjunctions/Adverbs	en
+5	in	in, on (+ abl.); into, onto (+ acc)	Preposition	Place	in, op (+ abl.); naar, in, op (+ acc.)
+6	nōn	not	Adverb	Conjunctions/Adverbs	niet
+7	hic haec hoc	this, these	Pronoun	Pronouns/Interrogatives	deze, dit
+8	ille illa illud	that	Pronoun	Pronouns/Interrogatives	die, dat, gene
+9	tū tuī tibi tē	you (sing.)	Pronoun	Pronouns/Interrogatives	jij, jou
+10	cum	with (prep. + abl.); when, since, although (conjunction + subj.)	Preposition	Conjunctions/Adverbs	met (+ abl.); toen, omdat, hoewel (+ conj.)
+11	ego meī mihi mē	I, me	Pronoun	Pronouns/Interrogatives	ik, mij
+13	is ea id	he, she, it	Pronoun	Pronouns/Interrogatives	hij, zij, het; die, dat
+14	ad	to, up to, towards (+acc.)	Preposition	Place	naar, tot, bij (+ acc.)
+15	ut, utī	as (+ indic.); so that, with the result that (+ subj.); (in questions) in what manner, how; (exclam.) to what an extent! how!	Adverb	Conjunctions/Adverbs	zoals (+ ind.); opdat, zodat (+ conj.); hoe
+16	sī	if	Conjunction	Conjunctions/Adverbs	als, indien
+17	sui sibi sē/sēsē	him- her- itself, themselves	Pronoun	Pronouns/Interrogatives	zich(zelf)
+18	omnis -e	all, every, as a whole	Adjective: 3rd Declension	Measurement	al, elk, ieder, geheel
+19	nec	and not, nor; nec ... nec, neither ... nor; → neque	Conjunction	Conjunctions/Adverbs	en niet, noch; nec ... nec: noch ... noch
+20	sed	but	Conjunction	Conjunctions/Adverbs	maar
+21	ā ab abs	from, by (+abl.)	Preposition	Place	van, vanaf, door (+ abl.)
+22	ipse ipsa ipsum	him- her- itself	Pronoun	Pronouns/Interrogatives	zelf
+23	possum posse potuī	be able	Verb: Irregular	Making/Doing	kunnen
+24	aut	or	Conjunction	Conjunctions/Adverbs	of
+25	māgnus -a -um	great	Adjective: 1st and 2nd Declension	Measurement	groot
+26	ex, ē	out of, from (+ abl.)	Preposition	Place	uit, vanuit (+ abl.)
+27	suus -a -um	his own, her own, its own	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	zijn, haar, hun (eigen)
+28	dō dare dedī datum	give	Verb: 1st Conjugation	Social Life	geven
+29	quam	how?; (after comparative) than	Adverb	Pronouns/Interrogatives	hoe; (na comparatief) dan
+30	per	through (+acc.)	Preposition	Place	door, doorheen (+ acc.)
+31	videō vidēre vīdī vīsum	see	Verb: 2nd Conjugation	Vision	zien
+32	faciō facere fēcī factum	do, make	Verb: 3rd Conjugation -iō	Making/Doing	doen, maken
+33	dīcō dīcere dīxī dictum	say; causam dīcere, plead a case; diem dīcere, appoint a day	Verb: 3rd Conjugation -ō	Speech/Oratory	zeggen, spreken
+34	iam	now; already	Adverb	Time	nu, al, reeds
+35	atque	and in addition, and also, and; (after comparatives) than; simul atque, as soon as; → ac	Conjunction	Conjunctions/Adverbs	en (ook); (na comparatief) dan
+36	ac	and in addition, and also, and; (after comparatives) than; simul ac, as soon as; → atque	Conjunction	Conjunctions/Adverbs	en (ook); (na comparatief) dan
+37	alius -a -ud	other, another; ālias: at another time	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	ander
+38	rēs reī f.	thing (rēs pūblica, commonwealth; rēs familiāris, family property, estate; rēs mīlitāris, art of war; rēs novae, revolution)	Noun: 5th Declension	Life and Being	zaak, ding; res publica: staat
+39	habeō habēre habuī habitum	have, hold	Verb: 2nd Conjugation	Other Senses	hebben, houden
+40	animus -ī m.	spirit, mind	Noun: 2nd Declension	Life and Being	geest, gemoed, moed
+41	meus -a -um	my	Pronoun	Pronouns/Interrogatives	mijn
+42	deus -ī m.; dea -ae f.	god; goddess	Noun: 2nd Declension	Religion	god; godin
+43	multus -a -um	much, many; multō, by far	Adjective: 1st and 2nd Declension	Measurement	veel; multo: veruit
+44	tuus -a -um	your	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	jouw
+45	ferō ferre tulī lātum	bear, carry, endure	Verb: Irregular	Verbs of Transport	dragen, brengen, verdragen
+46	dē	down from, about, concerning (+ abl.)	Preposition	Place	van ... af, over (+ abl.)
+47	nē	lest, that not	Conjunction	Conjunctions/Adverbs	opdat niet, dat (na vrezen)
+48	manus -ūs f.	hand; band of men	Noun: 4th Declension	The Body	hand; groep, bende
+49	nūllus -a -um	not any, no one	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	geen, niemand
+50	nunc	now	Adverb	Time	nu
+51	nōs nostrum/nostrī nōbīs nōs	we	Pronoun	Pronouns/Interrogatives	wij, ons
+52	noster nostra nostrum	our	Pronoun	Pronouns/Interrogatives	ons, onze
+53	ūnus -a -um	one	Adjective: 1st and 2nd Declension	Measurement	één
+54	diēs diēī m./f.	day	Noun: 5th Declension	Lengths of Time	dag
+55	nihil, nīl	nothing; not at all	Noun: Indeclinable	Measurement	niets; helemaal niet
+56	tum or tunc	then	Adverb	Time	dan, toen
+57	enim	for, indeed	Conjunction	Pronouns/Interrogatives	want, immers
+58	tamen	nevertheless, still	Conjunction	Conjunctions/Adverbs	toch, nochtans
+59	īdem eadem idem	the same	Pronoun	Pronouns/Interrogatives	dezelfde, hetzelfde
+60	rēx rēgis m.	king	Noun: 3rd Declension	The City	koning
+61	nam or namque	for, indeed, really	Conjunction	Conjunctions/Adverbs	want, immers
+62	locus -ī m.	place; loca (n. pl.) region	Noun: 2nd Declension	Geography	plaats; loca: streek
+63	veniō venīre vēnī ventum	come	Verb: 4th Conjugation	Motion	komen
+64	inter	between, among; during (+ acc.)	Preposition	Place	tussen, onder; tijdens (+ acc.)
+65	pars partis f.	part	Noun: 3rd Declension	Measurement	deel, kant
+66	volō velle voluī	wish, be willing	Verb: Irregular	Emotions	willen
+67	etiam	also, even	Adverb	Conjunctions/Adverbs	ook, zelfs
+68	bonus -a -um	good	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	goed
+69	agō agere ēgī āctum	drive, do, act	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	drijven, doen, handelen
+70	terra -ae f.	land	Noun: 1st Declension	Earth and Water	aarde, land
+71	pater patris m.	father, ancestor	Noun: 3rd Declension	The Household	vader; voorvader
+72	neque	and not, nor; neque ... neque, neither ... nor; → nec	Conjunction	Conjunctions/Adverbs	en niet, noch; neque ... neque: noch ... noch
+73	domus -ūs f.	house, home	Noun: 4th Declension	The House	huis, thuis
+74	at	but, but yet	Conjunction	Conjunctions/Adverbs	maar
+75	corpus corporis n.	body	Noun: 3rd Declension	The Body	lichaam
+76	quoque	also, too	Conjunction	Conjunctions/Adverbs	ook
+77	aliquis -quae -quod	some, any; si quis, si quid: anyone who, anything that	Pronoun	Pronouns/Interrogatives	iemand, iets; een of ander
+78	tōtus -a -um	whole, entire	Adjective: 1st and 2nd Declension	Measurement	geheel, heel
+79	sīc	in this manner, thus; sīc ... ut: in the same way as	Adverb	Conjunctions/Adverbs	zo, op deze manier
+80	hīc	here; hinc: from here	Adverb	Place	hier
+81	iste ista istud	that, that of yours; adv. istīc or istūc: over there; istinc: from over there	Pronoun	Pronouns/Interrogatives	die (van jou), dat
+82	urbs urbis f.	city	Noun: 3rd Declension	The City	stad
+83	petō petere petīvī petītum	seek, aim at	Verb: 3rd Conjugation -ō	Motion	zoeken, trachten te bereiken, vragen
+84	iubeō iubēre iussī iussum	bid, order	Verb: 2nd Conjugation	Justice	bevelen
+85	vir virī m.	man	Noun: 2nd Declension	People	man
+86	bellum -ī n.	war	Noun: 2nd Declension	War and Peace	oorlog
+87	vīta -ae f.	life	Noun: 1st Declension	Life and Being	leven
+88	homō hominis m.	human being	Noun: 3rd Declension	People	mens
+89	tempus -oris n.	time	Noun: 3rd Declension	Time	tijd
+90	magis	more	Adverb	Conjunctions/Adverbs	meer
+91	prīmus -a -um	first	Adjective: 1st and 2nd Declension	Time	eerste
+92	ubi	where, when	Adverb	Place	waar, wanneer, toen
+93	hostis -is m./f.	stranger, enemy	Noun: 3rd Declension	War and Peace	vijand; vreemdeling
+94	an	or (in questions); utrum ... an: whether ... or	Conjunction	Conjunctions/Adverbs	of (in vragen); utrum ... an: of ... of
+95	mors mortis f.	death	Noun: 3rd Declension	Life and Being	dood
+96	tam	so, so much	Adverb	Conjunctions/Adverbs	zo, zozeer
+97	eō īre iī/īvī itum	go	Verb: Irregular	Motion	gaan
+98	arma -ōrum n. pl.	arms, weapons	Noun: 2nd Declension	War and Peace	wapens
+99	superus -a -um	situated above, upper	Adjective: 1st and 2nd Declension	Religion	boven gelegen, hoger; superi: de goden
+100	nisi, nī	if not, unless	Conjunction	Conjunctions/Adverbs	als niet, tenzij
+101	vincō vincere vīcī victum	conquer	Verb: 3rd Conjugation -ō	War and Peace	overwinnen
+102	pōnō pōnere posuī positum	put, place; put aside	Verb: 3rd Conjugation -ō	Verbs of Transport	plaatsen, zetten, leggen; neerleggen
+103	dum	while (+ indic.); until (+ subj.); provided that (+ subj.)	Conjunction	Time	terwijl (+ ind.); totdat, zolang als (+ conj.)
+104	sine	without (+ abl.)	Preposition	Non-Directional Prepositions	zonder (+ abl.)
+105	tantus -a -um	so great, so much; (as pronoun) such a quantity, so much; tantī, at such a price, of such worth	Adjective: 1st and 2nd Declension	Measurement	zo groot, zoveel
+106	teneō -ēre -uī tentum	hold, keep	Verb: 2nd Conjugation	Other Senses	houden, vasthouden
+107	causa -ae f.	cause, reason; causā + preceding genitive, for the sake of	Noun: 1st Declension	Speech/Oratory	oorzaak, reden; zaak; causa (+ gen.): omwille van
+108	sequor sequī secūtus sum	follow	Verb: Deponent	Motion	volgen
+109	crēdō crēdere crēdidī crēditum	believe	Verb: 3rd Conjugation -ō	Education/Knowledge	geloven, toevertrouwen
+110	accipiō -cipere -cēpī -ceptum	receive	Verb: 3rd Conjugation -iō	Social Life	ontvangen, aannemen
+111	virtūs -ūtis f.	valor, manliness, virtue	Noun: 3rd Declension	Personality Traits/Characteristics	moed, dapperheid, deugd
+112	ante	before, in front of (adv. and prep. + acc.)	Preposition	Time	voor (+ acc.); vroeger, tevoren
+113	quaerō -rere -sīvī -sītum	seek, inquire	Verb: 3rd Conjugation -ō	Education/Knowledge	zoeken, vragen
+114	mittō mittere mīsī missum	send, let go	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	zenden, sturen, laten gaan
+115	vīs f.	force; (acc.) vim, (abl.) vī; (pl.) vīrēs, strength	Noun: 3rd Declension	War and Peace	kracht, geweld; vires: krachten
+116	amor -ōris m.	love	Noun: 3rd Declension	Love	liefde
+117	caelum -ī n.	sky, heavens	Noun: 2nd Declension	Air and Fire	hemel
+118	sub	under, close to (+acc. or abl.)	Preposition	Place	onder, vlak bij (+ acc. of abl.)
+119	nox noctis f.	night	Noun: 3rd Declension	Lengths of Time	nacht
+120	ita	thus, so	Adverb	Conjunctions/Adverbs	zo, aldus
+121	rēgnum -ī n.	kingship, kingdom	Noun: 2nd Declension	Geography	koningschap, koninkrijk
+122	populus -ī m.	people	Noun: 2nd Declension	The City	volk
+123	autem	moreover, but, however	Conjunction	Conjunctions/Adverbs	echter, maar
+124	caput capitis n.	head	Noun: 3rd Declension	The Body	hoofd
+125	mare -is n.	sea	Noun: 3rd Declension	Earth and Water	zee
+126	quīdam quaedam quoddam	a certain one, someone	Pronoun	Pronouns/Interrogatives	een zeker(e), iemand
+127	māter mātris f.	mother	Noun: 3rd Declension	The Household	moeder
+128	prō	for, on behalf of, in proportion to (+abl.)	Preposition	Non-Directional Prepositions	voor, ten gunste van, in plaats van (+ abl.)
+129	quisquis quidquid	whoever, whichever	Pronoun	Pronouns/Interrogatives	al wie, al wat, wie ook
+130	vōs	you (pl.); (gen.) vestrum/vestrī, (dat./abl.) vōbīs, (acc.) vōs	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	jullie
+131	capiō capere cēpī captum	seize	Verb: 3rd Conjugation -iō	War and Peace	nemen, grijpen, veroveren
+132	quia	because	Conjunction	Conjunctions/Adverbs	omdat
+133	dūcō dūcere dūxī ductum	lead; uxōrem dūcere, marry	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	leiden; uxorem ducere: trouwen
+134	ergō	therefore	Conjunction	Conjunctions/Adverbs	dus, daarom
+135	nōmen -inis n.	name	Noun: 3rd Declension	Social Life	naam
+136	quidem	certainly, at least	Adverb	Conjunctions/Adverbs	wel, zeker, tenminste
+137	miser misera miserum	wretched, pitiable	Adjective: 1st and 2nd Declension	Emotions	ongelukkig, rampzalig
+138	fortūna -ae f.	fortune	Noun: 1st Declension	Religion	lot, fortuin, geluk
+139	novus -a -um	new	Adjective: 1st and 2nd Declension	Time	nieuw
+140	gravis -e	heavy, serious	Adjective: 3rd Declension	Measurement	zwaar, ernstig
+141	vel	or else, or; even; vel ... vel: either … or	Conjunction	Conjunctions/Adverbs	of; zelfs; vel ... vel: ofwel ... ofwel
+142	longus -a -um	long, far	Adjective: 1st and 2nd Declension	Measurement	lang
+143	parvus -a -um	small	Adjective: 1st and 2nd Declension	Measurement	klein
+144	relinquō -linquere -līquī -lictum	abandon	Verb: 3rd Conjugation -ō	Motion	achterlaten, verlaten
+145	saepe	often	Adverb	Time	dikwijls, vaak
+146	fīō fierī factus sum	become, happen, be done	Verb: Irregular	Life and Being	worden, gebeuren, gemaakt worden
+147	ōs ōris n.	mouth, face	Noun: 3rd Declension	The Body	mond, gezicht
+148	alter altera alterum	other of two	Adjective: 1st and 2nd Declension	Measurement	de ene, de andere (van twee)
+149	semper	always, ever	Adverb	Time	altijd
+150	deinde/dein	then, next	Adverb	Time	daarna, vervolgens
+151	ignis -is m.	fire	Noun: 3rd Declension	Air and Fire	vuur
+152	modo	just, just now; modo ... modo: now ... now, at one moment ... at another, sometimes ... sometimes	Adverb	Time	slechts, pas, net; modo ... modo: nu eens ... dan weer
+153	timeō -ēre -uī	to fear, to dread	Verb: 2nd Conjugation	Emotions	vrezen
+154	scelus -eris n.	crime, sin	Noun: 3rd Declension	Justice	misdaad
+155	dēbeō dēbēre dēbuī dēbitum	owe, be obliged	Verb: 2nd Conjugation	Business/Money	moeten; schuldig zijn
+156	vīvō vīvere vīxī vīctum	live	Verb: 3rd Conjugation -ō	Life and Being	leven
+157	fātum -ī n.	fate; death	Noun: 2nd Declension	Religion	lot, noodlot; dood
+158	vocō -āre	call	Verb: 1st Conjugation	Speech/Oratory	roepen, noemen
+159	altus -a -um	high, lofty; deep	Adjective: 1st and 2nd Declension	Geography	hoog; diep
+160	parō -āre	prepare, acquire; parātus -a -um, ready	Verb: 1st Conjugation	Making/Doing	voorbereiden, klaarmaken; paratus: bereid
+161	mīles -itis m.	soldier	Noun: 3rd Declension	War and Peace	soldaat
+162	medius -a -um	middle, central	Adjective: 1st and 2nd Declension	Place	middelste, midden
+163	inquam, inquis, inquit, inquiunt:	say (used with direct speech)	Verb: Irregular	Speech/Oratory	zeggen (bij directe rede)
+164	post	after (adv. and prep. +acc.)	Preposition	Time	na (+ acc.); later, daarna
+165	audiō -īre -īvī/-iī -ītum	hear, listen to	Verb: 4th Conjugation	Other Senses	horen, luisteren
+166	putō -āre	think, suppose	Verb: 1st Conjugation	Education/Knowledge	denken, menen
+167	annus -ī m.	year	Noun: 2nd Declension	Lengths of Time	jaar
+168	stō stāre stetī statum	stand	Verb: 1st Conjugation	Life and Being	staan
+169	vōx vōcis f.	voice, utterance	Noun: 3rd Declension	Speech/Oratory	stem; woord
+170	genus generis n.	origin, lineage, kind	Noun: 3rd Declension	The Household	geslacht, afkomst, soort
+171	referō referre rettulī relātum	bring back; report	Verb: Irregular	Verbs of Transport	terugbrengen; berichten, melden
+172	sciō -īre -īvī/-iī -ītum	know	Verb: 4th Conjugation	Education/Knowledge	weten
+173	mēns mentis f.	mind	Noun: 3rd Declension	The Body	geest, verstand
+174	reddō -dere -didī -ditum	return, give back	Verb: 3rd Conjugation -ō	Verbs of Transport	teruggeven
+175	licet licēre licuit licitum est	it is permitted (+ dat. + infin.)	Verb: Impersonal	Justice	het is toegestaan, men mag
+176	sōlus -a -um	only, alone	Adjective: 1st and 2nd Declension	Measurement	alleen, enig
+177	fugiō fugere fūgī fugitum	flee, escape	Verb: 3rd Conjugation -iō	Travel	vluchten, ontvluchten
+178	ūllus -a -um	any, anyone	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	enig, (wel) een
+179	nēmō	no one (gen. nūllīus, dat. nūllī, abl. nūllō or nūllā → nūllus -a -um)	Pronoun	Pronouns/Interrogatives	niemand
+180	nātūra -ae f.	nature	Noun: 1st Declension	Life and Being	natuur
+181	mōs mōris m.	custom, habit; (pl.) character	Noun: 3rd Declension	Social Life	gewoonte, zede; mores: karakter
+182	beneficium -ī n.	service, kindness	Noun: 2nd Declension	Social Life	weldaad, gunst
+183	pectus -oris n.	chest, breast	Noun: 3rd Declension	The Body	borst, hart
+184	fidēs -eī f.	trust, faith	Noun: 5th Declension	Personality Traits/Characteristics	trouw, vertrouwen, geloof
+185	patior patī passus sum	permit, endure	Verb: Deponent	Verbs of Compelling/Directing	verdragen, ondergaan, toelaten
+186	cūra -ae f.	care, concern	Noun: 1st Declension	Love	zorg, bezorgdheid
+187	īra irae f.	wrath, anger	Noun: 1st Declension	Emotions	woede, toorn
+188	verbum -ī n.	word	Noun: 2nd Declension	Writing/Poetry	woord
+189	prope	near, next; (comp.) propior, (superl.) proximus; (adv.) prope, nearly, almost	Preposition	Place	dichtbij, nabij (+ acc.); bijna
+190	parēns -ntis m./f.	parent	Noun: 3rd Declension	The Household	ouder
+191	puer puerī m.	boy; slave	Noun: 2nd Declension	People	jongen, kind; slaaf
+192	moveō -ēre mōvī mōtum	move	Verb: 2nd Conjugation	Motion	bewegen
+193	dolor -ōris m.	pain, grief	Noun: 3rd Declension	Emotions	pijn, verdriet
+194	gēns gentis f.	family, clan	Noun: 3rd Declension	The Household	geslacht, stam, volk
+195	modus -ī m.	measure, manner, kind	Noun: 2nd Declension	Measurement	maat, wijze, manier
+196	via -ae f.	way, street	Noun: 1st Declension	Travel	weg, straat
+197	quisque quaeque quidque	each one, everyone	Pronoun	Pronouns/Interrogatives	ieder, elk
+198	amīcus -a -um	friendly; (as subst.) friend	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	bevriend; vriend
+199	pēs pedis m.	foot	Noun: 3rd Declension	The Body	voet
+200	imperium -ī n.	command, power	Noun: 2nd Declension	War and Peace	bevel, macht, gezag; rijk
+201	labor -ōris m.	toil, exertion	Noun: 3rd Declension	Business/Money	arbeid, inspanning
+202	ingēns ingentis	huge, enormous	Adjective: 3rd Declension	Measurement	zeer groot, enorm
+203	tālis tāle	such	Adjective: 3rd Declension	Measurement	zulk(e), zo'n
+204	parum	too little	Adverb	Measurement	te weinig
+205	apud	near, in the presence of (+acc.)	Preposition	Place	bij, in het bijzijn van (+ acc.)
+206	oculus -ī m.	eye	Noun: 2nd Declension	The Body	oog
+207	unda -ae f.	wave, flowing water, water	Noun: 1st Declension	Earth and Water	golf, water
+208	itaque	and so, therefore	Conjunction	Conjunctions/Adverbs	daarom, dus
+209	vultus -ūs m.	look, expression, face	Noun: 4th Declension	The Body	gelaat, gezicht, blik
+210	cadō cadere cecidī cāsum	fall, be killed	Verb: 3rd Conjugation -ō	Violence	vallen, sneuvelen
+211	nātus -ī m.	son	Noun: 2nd Declension	The Household	zoon
+212	quis quid	who? what? which?	Pronoun	Pronouns/Interrogatives	wie? wat? welke?
+213	trahō trahere trāxī trāctum	drag, draw	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	slepen, trekken
+214	sanguis -inis m.	blood	Noun: 3rd Declension	The Body	bloed
+215	metus -ūs m.	fear, dread	Noun: 4th Declension	Emotions	vrees, angst
+216	tantum, tantummodo	only	Adverb	Measurement	alleen, slechts
+217	cōnsilium -ī n.	plan; council, group of advisors	Noun: 2nd Declension	The City	plan, raad; raad (vergadering)
+218	coniunx coniugis m./f.	spouse, husband, wife	Noun: 3rd Declension	The Household	echtgenoot, echtgenote
+219	amō -āre	to love; amāns -ntis m./f.: lover	Verb: 1st Conjugation	Love	liefhebben, beminnen; amans: minnaar
+220	levis -e	light, trivial	Adjective: 3rd Declension	Measurement	licht, onbelangrijk
+221	duo duae duo	two	Adjective: Numeral	Measurement	twee
+222	ferus -a -um	wild, fierce; fera -ae f.: wild animal	Adjective: 1st and 2nd Declension	Animals/Plants	wild, woest; fera: wild dier
+223	poena -ae f.	penalty, punishment	Noun: 1st Declension	Justice	straf
+224	castrum -ī n.	fortress, (regularly plural, castra camp)	Noun: 2nd Declension	War and Peace	fort; castra: legerkamp
+225	frāter frātris m.	brother	Noun: 3rd Declension	The Household	broer
+226	haud	not	Adverb	Conjunctions/Adverbs	niet
+227	malus -a -um	bad, evil	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	slecht, kwaad
+228	iaceō iacēre iacuī	lie	Verb: 2nd Conjugation	The House	liggen
+229	līber lībera līberum	free; līberī (m. pl.): freeborn children	Adjective: 1st and 2nd Declension	Justice	vrij; liberi: kinderen
+230	iter itineris n.	journey, route	Noun: 3rd Declension	Travel	reis, tocht, weg
+231	ferrum -ī n.	iron, iron weapon or implement	Noun: 2nd Declension	Violence	ijzer, zwaard, wapen
+232	spēs speī f.	hope	Noun: 5th Declension	Emotions	hoop
+233	puella -ae f.	girl; girl-friend	Noun: 1st Declension	People	meisje; vriendin
+234	silva -ae f.	forest, grove	Noun: 1st Declension	Animals/Plants	bos, woud
+235	bene	well	Adverb	Personality Traits/Characteristics	goed
+236	fīnis -is m.	end, boundary	Noun: 3rd Declension	Geography	einde, grens; fines: gebied
+237	gerō gerere gessī gestum	bear, manage; bellum gerere, wage war	Verb: 3rd Conjugation -ō	War and Peace	dragen, voeren, beheren; bellum gerere: oorlog voeren
+238	ne (enclitic)	interrogative particle attached to the emphatic word in a question	Adverb	Pronouns/Interrogatives	vraagpartikel (niet vertaald)
+239	dux ducis m./f.	leader, general	Noun: 3rd Declension	War and Peace	leider, aanvoerder, generaal
+240	premō premere pressī pressum	press, pursue, overwhelm	Verb: 3rd Conjugation -ō	War and Peace	drukken, achtervolgen, in het nauw brengen
+241	dominus -ī m.; domina -ae f.	household master, lord; mistress	Noun: 2nd Declension	The Household	heer, meester; meesteres
+242	mōns montis m.	mountain	Noun: 3rd Declension	Geography	berg
+243	uterque utraque utrumque	each of two	Conjunction	Measurement	elk van beide, beide
+244	saevus -a -um	fierce, raging, wrathful	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	woest, wreed, hevig
+245	lītus -oris n.	shore	Noun: 3rd Declension	Geography	kust, strand
+246	soleō -ēre -uī -itum	be accustomed	Verb: 2nd Conjugation	Personality Traits/Characteristics	gewoon zijn, plegen
+247	mīlle (pl.) mīlia	thousand	Adjective: Numeral	Measurement	duizend
+248	equus -ī m.	horse	Noun: 2nd Declension	Animals/Plants	paard
+249	dūrus -a -um	hard, tough, harsh	Adjective: 1st and 2nd Declension	Other Senses	hard, streng, ruw
+250	cōgō cōgere coēgī coāctum	drive together; compel	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	samendrijven; dwingen
+251	numquam	never	Adverb	Time	nooit
+252	prīmum	at first, firstly	Adverb	Time	eerst, ten eerste
+253	morior morī mortuus sum	die	Verb: Deponent	Life and Being	sterven
+254	carmen -inis n.	song	Noun: 3rd Declension	Writing/Poetry	lied, gedicht
+255	tēlum -ī n.	missile, weapon, spear	Noun: 2nd Declension	War and Peace	werptuig, wapen, speer
+256	ratiō -ōnis f.	method, plan, reason	Noun: 3rd Declension	Education/Knowledge	verstand, rede, methode, berekening
+257	umbra -ae f.	shade, shadow	Noun: 1st Declension	Vision	schaduw, schim
+258	ars artis f.	skill	Noun: 3rd Declension	Education/Knowledge	kunst, vaardigheid
+259	tot	so many	Adverb	Measurement	zoveel
+260	dexter -tra -trum	right; dextera -ae f.: right hand	Adjective: 1st and 2nd Declension	Place	rechts; dextera: rechterhand
+261	sīgnum -ī n.	sign, standard, mark	Noun: 2nd Declension	War and Peace	teken, veldteken, kenmerk
+262	laetus -a -um	glad, joyful	Adjective: 1st and 2nd Declension	Emotions	blij, vrolijk
+263	quālis -e	of what kind? what?	Pronoun	Pronouns/Interrogatives	hoedanig? welk soort?; zoals
+264	lēx lēgis f.	law	Noun: 3rd Declension	Justice	wet
+265	perīculum -ī n.	danger	Noun: 2nd Declension	Violence	gevaar
+266	nāscor nāscī nātus sum	be born	Verb: Deponent	Life and Being	geboren worden
+267	exercitus -ūs m.	army	Noun: 4th Declension	War and Peace	leger
+268	pereō -īre -iī -itum	perish, be lost	Verb: Irregular	Violence	omkomen, verloren gaan
+269	ventus -ī m.	wind	Noun: 2nd Declension	Air and Fire	wind
+270	audeō audēre ausus sum	dare, be eager	Verb: 2nd Conjugation	Personality Traits/Characteristics	durven, wagen
+271	contrā	against, opposite (adv. and prep. +acc.)	Preposition	Place	tegen, tegenover (+ acc.); daarentegen
+272	aqua -ae f.	water	Noun: 1st Declension	Earth and Water	water
+273	rapiō rapere rapuī raptum	seize, tear away	Verb: 3rd Conjugation -iō	Violence	roven, wegrukken, grijpen
+274	simul	at the same time	Adverb	Time	tegelijk
+275	trīstis -e	sad, solemn, grim	Adjective: 3rd Declension	Emotions	droevig, somber, streng
+276	mūnus mūneris n.	gift, offering; duty, obligation; (pl.) gladiatorial show	Noun: 3rd Declension	Social Life	geschenk; taak, plicht; munera: gladiatorenspelen
+277	iuvenis -is m.	youth	Noun: 3rd Declension	People	jongeman
+278	fāma -ae f.	rumor, fame	Noun: 1st Declension	Speech/Oratory	gerucht, faam, roem
+279	adsum adesse affuī	be present	Verb: Irregular	Place	aanwezig zijn
+280	quisquam quicquam/quidquam	any (single) person, anyone at all	Pronoun	Pronouns/Interrogatives	iemand, iets
+280	vērō	in fact, certainly, without doubt	Adverb	Conjunctions/Adverbs	werkelijk, zeker; maar
+281	pār paris	equal	Adjective: 3rd Declension	Measurement	gelijk
+282	vester vestra vestrum	your	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	jullie
+283	flūmen -inis n.	stream, river	Noun: 3rd Declension	Earth and Water	stroom, rivier
+284	quīcumque quaecumque quodcumque	who-, whatever	Pronoun	Pronouns/Interrogatives	wie ook, wat ook, al wie
+285	certus -a -um	sure, fixed	Adjective: 1st and 2nd Declension	Measurement	zeker, vast
+286	fortis -e	brave	Adjective: 3rd Declension	Personality Traits/Characteristics	dapper, sterk
+287	placeō placēre placuī placitum	please	Verb: 2nd Conjugation	Social Life	behagen, bevallen
+288	vertō vertere vertī versum	turn	Verb: 3rd Conjugation -ō	Motion	draaien, keren, wenden
+289	servō -āre	save, watch over	Verb: 1st Conjugation	The Household	redden, bewaren, beschermen
+290	honor -ōris m.	honor, glory; office, post	Noun: 3rd Declension	The City	eer, aanzien; ambt
+291	dīgnus -a -um	worthy	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	waardig
+292	cūnctus -a -um	entire all together	Adjective: 1st and 2nd Declension	Measurement	geheel; allen samen
+293	tollō tollere sustulī sublātum	raise up, destroy	Verb: Irregular	Violence	opheffen; wegnemen, vernietigen
+294	negō -āre	deny, refuse	Verb: 1st Conjugation	Speech/Oratory	ontkennen, weigeren
+295	vetus veteris	old	Adjective: 3rd Declension	Time	oud
+296	eques equitis m.	horseman, knight	Noun: 3rd Declension	War and Peace	ruiter; ridder
+297	trādō -dere -didī -ditum	hand over, yield	Verb: 3rd Conjugation -ō	Business/Money	overleveren, overhandigen
+298	flamma -ae f.	flame, fire	Noun: 1st Declension	Air and Fire	vlam, vuur
+299	lūx lūcis f.	light of day	Noun: 3rd Declension	Air and Fire	licht, daglicht
+300	unde	from where	Adverb	Place	vanwaar, waarvandaan
+301	redeō -īre -iī -itum	go back, return	Verb: Irregular	Motion	teruggaan, terugkeren
+302	sentiō sentīre sēnsī sēnsum	perceive, feel, hear, see	Verb: 4th Conjugation	Other Senses	voelen, merken, waarnemen
+303	aurum -ī n.	gold	Noun: 2nd Declension	Business/Money	goud
+304	cēdō cēdere cessī cessum	go, move; yield	Verb: 3rd Conjugation -ō	War and Peace	gaan; wijken, toegeven
+305	quō	for which reason; to or in what place; to what end, for what purpose?	Adverb	Pronouns/Interrogatives	waarheen; waardoor; waartoe
+306	saxum -ī n.	rock, cliff, crag	Noun: 2nd Declension	Earth and Water	rots, steen
+307	ve	or (postpositive enclitic)	Conjunction	Conjunctions/Adverbs	of
+308	aetās -tātis f.	age, time of life	Noun: 3rd Declension	Lengths of Time	leeftijd, tijd
+309	fēlīx -īcis	lucky	Adjective: 3rd Declension	Personality Traits/Characteristics	gelukkig
+310	loquor loquī locūtus sum	speak, talk	Verb: Deponent	Speech/Oratory	spreken, praten
+311	quantus -a -um	(interr.) how great? (rel.) of what size, amount, etc. (as subst.) what amount? (rel.) which amount; quantī, at what price? (rel.) at which price	Pronoun	Pronouns/Interrogatives	hoe groot?, hoeveel?; zo groot als
+312	coepī coepisse coeptus	begin	Verb: Irregular	Time	beginnen, begonnen zijn
+313	igitur	therefore	Conjunction	Conjunctions/Adverbs	dus, daarom
+314	iūs iūris n.	right, justice, law	Noun: 3rd Declension	Justice	recht
+315	mūtō -āre	change	Verb: 1st Conjugation	Making/Doing	veranderen
+316	inveniō -venīre -vēnī -ventum	find; discover	Verb: 4th Conjugation	Travel	vinden, ontdekken
+317	prīnceps -cipis	first, chief; (as subst.) leader, person in charge	Adjective: 3rd Declension	The City	eerste, voornaamste; leider, vorst
+318	ops opis f.	assistance, resources	Noun: 3rd Declension	Business/Money	hulp; opes: middelen, rijkdom, macht
+319	recipiō -cipere -cēpī -ceptum	take back, receive; sē recipere, betake oneself, go	Verb: 3rd Conjugation -iō	Verbs of Transport	terugnemen, ontvangen; se recipere: zich terugtrekken
+320	sōl sōlis m.	sun	Noun: 3rd Declension	Air and Fire	zon
+321	cōnsul -ulis m.	consul	Noun: 3rd Declension	The City	consul
+322	orbis -is m.	circle; orbis terrārum: world	Noun: 3rd Declension	Geography	kring, cirkel; orbis terrarum: wereld
+323	turba -ae f.	crowd, uproar	Noun: 1st Declension	The City	menigte, verwarring
+324	ager agrī m.	field	Noun: 2nd Declension	Animals/Plants	akker, veld; grondgebied
+325	solvō solvere solvī solūtum	release, set sail	Verb: 3rd Conjugation -ō	Travel	losmaken, betalen; uitvaren
+326	vitium -ī n.	flaw, fault, crime	Noun: 2nd Declension	Justice	gebrek, fout, ondeugd
+327	vulnus -eris n.	wound	Noun: 3rd Declension	Violence	wonde
+328	inde	from there, from then	Adverb	Place	vandaar, daarna
+329	senātus -ūs m.	senate	Noun: 4th Declension	The City	senaat
+330	ūtor ūtī ūsus sum	use, consume, employ (+ abl.)	Verb: Deponent	Making/Doing	gebruiken (+ abl.)
+331	cōpia -ae f.	abundance; (pl.) troops	Noun: 1st Declension	War and Peace	overvloed, voorraad; copiae: troepen
+332	opus operis n.	work	Noun: 3rd Declension	Business/Money	werk
+333	colō colere coluī cultum	inhabit, cultivate	Verb: 3rd Conjugation -ō	Animals/Plants	bewonen, bebouwen; vereren
+334	vōtum -ī n.	solemn promise, vow; hope	Noun: 2nd Declension	Religion	gelofte; wens
+335	iugum -ī n.	yoke; ridge, chain of hills	Noun: 2nd Declension	Animals/Plants	juk; bergrug
+336	quā	where, how	Pronoun	Pronouns/Interrogatives	waar(langs), hoe
+337	tellus tellūris f.	earth	Noun: 3rd Declension	Earth and Water	aarde, land
+338	numerus -ī m.	number, amount	Noun: 2nd Declension	Measurement	aantal, getal
+339	cōgnōscō -gnōscere -gnōvī -gnitum	learn, understand	Verb: 3rd Conjugation -ō	Education/Knowledge	leren kennen; cognovisse: weten
+340	victor -ōris m.	conqueror	Noun: 3rd Declension	War and Peace	overwinnaar
+341	satis, sat	enough, sufficient, sufficiently	Adverb	Measurement	genoeg, voldoende
+342	patria -ae f.	fatherland, country	Noun: 1st Declension	Geography	vaderland
+343	seu	whether; seu ... seu: whether ... or → sīve	Conjunction	Conjunctions/Adverbs	of; seu ... seu: hetzij ... hetzij
+344	cāsus -ūs m.	a fall; chance, accident	Noun: 4th Declension	Violence	val; toeval, ongeluk
+345	frangō frangere frēgī frāctum	break, shatter	Verb: 3rd Conjugation -ō	Violence	breken, verbrijzelen
+346	cīvitās -ātis f.	citizenship, state	Noun: 3rd Declension	The City	staat; burgerrecht
+347	nōscō nōscere nōvī nōtum	learn, know	Verb: 3rd Conjugation -ō	Education/Knowledge	leren kennen; novisse: kennen, weten
+348	proelium -ī n.	battle	Noun: 2nd Declension	War and Peace	gevecht, veldslag
+349	ēripiō -ripere -ripuī -reptum	snatch away, rescue, save	Verb: 3rd Conjugation -iō	Verbs of Transport	ontrukken, redden
+350	mundus -ī m.	world, universe, heavens	Noun: 2nd Declension	Earth and Water	wereld, heelal
+351	cursus -ūs m.	course, advance	Noun: 4th Declension	Athletics	loop, koers
+352	vix	scarcely	Adverb	Conjunctions/Adverbs	nauwelijks
+353	nāvis -is f.	ship	Noun: 3rd Declension	Travel	schip
+354	lacrima -ae f.	tear	Noun: 1st Declension	Emotions	traan
+355	hūmānus -a -um	human	Adjective: 1st and 2nd Declension	People	menselijk
+356	mollis -e	soft, yielding, gentle	Adjective: 3rd Declension	Other Senses	zacht, week, teder
+357	maneō manēre mānsī mānsum	remain	Verb: 2nd Conjugation	Travel	blijven
+358	āgmen -minis n.	line of march	Noun: 3rd Declension	War and Peace	leger (in marsorde), colonne
+359	sīdus -eris n.	star, constellation	Noun: 3rd Declension	Air and Fire	ster, sterrenbeeld
+360	glōria -ae f.	glory, fame	Noun: 1st Declension	Social Life	roem, glorie
+361	diū:	for a long time	Adverb	Time	lang, lange tijd
+362	sīve	whether; sīve ... sīve: whether ... or → seu	Conjunction	Conjunctions/Adverbs	of; sive ... sive: hetzij ... hetzij
+363	tamquam	so as, just as	Adverb	Conjunctions/Adverbs	zoals, als het ware, alsof
+364	fuga -ae f.	flight, route	Noun: 1st Declension	Travel	vlucht
+365	tūtus -a -um	safe, protected	Adjective: 1st and 2nd Declension	War and Peace	veilig
+366	auris -is f.	ear	Noun: 3rd Declension	The Body	oor
+367	aliēnus -a -um	foreign, strange	Adjective: 1st and 2nd Declension	Geography	van een ander, vreemd
+368	hūc	to this place	Adverb	Place	hierheen
+369	taceō -ēre -uī -itum	be silent; tacitus -a -um, silent	Verb: 2nd Conjugation	Other Senses	zwijgen; tacitus: zwijgend
+370	legiō -ōnis f.	legion	Noun: 3rd Declension	War and Peace	legioen
+371	ostendō ostendere ostendī ostentum	show, hold out	Verb: 3rd Conjugation -ō	Other Senses	tonen, laten zien
+372	socius -a -um	friendly, allied; socius -ī m.: partner, comrade	Adjective: 1st and 2nd Declension	Social Life	bevriend, verbonden; socius: bondgenoot, makker
+373	prōsum prodesse profuī	be of use, do good, help (+ dat.)	Verb: Irregular	Social Life	nuttig zijn, helpen (+ dat.)
+374	āra -ae f.	altar	Noun: 1st Declension	Religion	altaar
+375	lūmen luminis n.	light	Noun: 3rd Declension	Vision	licht
+376	tegō tegere tēxī tēctum	cover, conceal	Verb: 3rd Conjugation -ō	Deception	bedekken, verbergen
+377	turpis -e	ugly, unsightly; disgraceful	Adjective: 3rd Declension	Other Senses	lelijk; schandelijk
+378	voluptās -ātis f.	pleasure, enjoyment	Noun: 3rd Declension	Social Life	genot, plezier
+379	adhūc	thus far, to this point	Adverb	Place	tot nu toe, nog
+380	grātia -ae f.	favor, influence, gratitude	Noun: 1st Declension	Social Life	dank, gunst, invloed; gratias agere: danken
+381	iniūria -ae f.:	injustice, wrong, affront	Noun: 1st Declension	Justice	onrecht, belediging
+382	latus -eris n.	side, flank	Noun: 3rd Declension	The Body	zijde, flank
+383	dulcis -e	sweet	Adjective: 3rd Declension	Other Senses	zoet, lieflijk
+384	postquam	after	Conjunction	Time	nadat
+385	extrēmus -a -um	farthest, situated at the end or tip, extreme	Adjective: 1st and 2nd Declension	Geography	uiterste, laatste
+386	tēctum -ī n.	roof; building, house	Noun: 2nd Declension	The House	dak; huis
+387	ingenium -ī n.	disposition, ability, talent	Noun: 2nd Declension	Education/Knowledge	aanleg, talent, karakter
+388	pāx pācis f.	peace	Noun: 3rd Declension	War and Peace	vrede
+389	canō canere cecinī cantum	sing	Verb: 3rd Conjugation -ō	Writing/Poetry	zingen, bezingen
+390	iuvō iuvāre iūvī iūtum	help, assist; please, delight	Verb: 1st Conjugation	Social Life	helpen; behagen, verheugen
+391	campus -ī m.	plain, field	Noun: 2nd Declension	Earth and Water	vlakte, veld
+392	claudō claudere clausī clausum	close, shut	Verb: 3rd Conjugation -ō	The House	sluiten, afsluiten
+393	doceō -ēre -uī doctum	teach	Verb: 2nd Conjugation	Education/Knowledge	onderwijzen, leren
+394	excipiō -cipere -cēpī -ceptum	take out	Verb: 3rd Conjugation -iō	Verbs of Transport	opvangen, ontvangen; uitzonderen
+395	clārus -a -um	clear, distinguished	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	helder, beroemd
+396	illīc	at that place, there; illinc: from that place	Adverb	Place	daar; illinc: vandaar
+397	procul	at a distance	Adverb	Place	ver weg, in de verte
+398	sacer sacra sacrum	holy, sacred	Adjective: 1st and 2nd Declension	Religion	heilig
+399	mora -ae f.	delay, hindrance	Noun: 1st Declension	Time	vertraging, oponthoud
+400	longē	far, far off	Adverb	Measurement	ver, veruit
+401	super	over (adv. and prep. +acc.)	Adverb	Place	boven, over (+ acc.); bovendien
+402	errō -āre	go astray, wander	Verb: 1st Conjugation	Travel	dwalen, zwerven; zich vergissen
+403	sēdēs -is f.	seat, abode, habitation	Noun: 3rd Declension	The House	zetel, woonplaats, verblijf
+404	cūr	why?	Adverb	Pronouns/Interrogatives	waarom?
+405	coma -ae f.	hair, tresses	Noun: 1st Declension	The Body	haar, lokken
+406	aiō	say, affirm, say yes; ut āiunt: as they say	Verb: Irregular	Speech/Oratory	zeggen, beweren; ja zeggen
+407	gaudeō gaudēre gāvīsus sum	rejoice	Verb: 2nd Conjugation	Emotions	zich verheugen, blij zijn
+408	beātus -a -um	happy, blessed, prosperous, fortunate	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	gelukkig, gezegend, rijk
+409	perveniō -venīre -vēnī -ventum	arrive, reach	Verb: 4th Conjugation	Travel	aankomen, bereiken
+410	vērus -a -um	true	Adjective: 1st and 2nd Declension	Speech/Oratory	waar, echt
+411	incipiō -cipere -cēpī -ceptum	begin	Verb: 3rd Conjugation -iō	Time	beginnen
+412	parcō parcere pepercī parsum	spare, be sparing of (+ dat.)	Verb: 3rd Conjugation -ō	War and Peace	sparen, ontzien (+ dat.)
+413	vestis -is f.	garment, robe, clothing	Noun: 3rd Declension	Life and Being	kleed, gewaad, kleding
+414	similis -e	like, similar	Adjective: 3rd Declension	Personality Traits/Characteristics	gelijkend, gelijk
+415	caedēs -is f.	killing, slaughter	Noun: 3rd Declension	Violence	moord, bloedbad
+416	ōrdō -īnis m.	order, rank	Noun: 3rd Declension	War and Peace	rij, orde, rang
+417	optō -āre	choose, select	Verb: 1st Conjugation	Personality Traits/Characteristics	wensen; kiezen
+418	virgō -inis f.	maiden, virgin, girl	Noun: 3rd Declension	People	meisje, maagd
+419	legō legere lēgī lēctum	gather, choose, read	Verb: 3rd Conjugation -ō	Writing/Poetry	lezen; verzamelen, kiezen
+420	aura -ae f.	breeze	Noun: 1st Declension	Air and Fire	bries, lucht
+421	impetus -ūs m.	attack	Noun: 4th Declension	Violence	aanval, vaart
+422	fōrma -ae f.	shape; beauty	Noun: 1st Declension	Other Senses	vorm, gestalte; schoonheid
+423	praestō -stāre -stitī -stitum	excel, exhibit	Verb: 1st Conjugation	Other Senses	uitblinken; tonen, verschaffen
+424	aequor aequoris n.	level surface, sea, plain	Noun: 3rd Declension	Earth and Water	(zee)vlakte, zee
+425	misceō miscēre miscuī mixtum	mix	Verb: 2nd Conjugation	Earth and Water	mengen
+426	spatium -ī n.	space	Noun: 2nd Declension	Air and Fire	ruimte; tijdspanne
+427	tandem	finally	Adverb	Conjunctions/Adverbs	eindelijk, ten slotte
+428	īnferus -a -um	low; īnferior: lower; īnfimus or īmus: lowest	Adjective: 1st and 2nd Declension	Geography	lager, onder; inferi: de onderwereld
+429	metuō metuere metuī	to fear, to dread	Verb: 3rd Conjugation -ō	Emotions	vrezen
+430	temptō -āre	try, test	Verb: 1st Conjugation	Making/Doing	proberen, op de proef stellen
+431	trānseō -īre -iī -itum	go across	Verb: Irregular	Travel	oversteken, overgaan
+432	ultimus -a -um	farthest, final, last, ultimate	Adjective: 1st and 2nd Declension	Geography	verste, laatste, uiterste
+433	addō -dere -didī -ditum	give to	Verb: 3rd Conjugation -ō	Social Life	toevoegen
+434	grātus -a -um	pleasant; grateful	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	aangenaam; dankbaar
+435	laudō -āre	praise	Verb: 1st Conjugation	Social Life	prijzen, loven
+436	nōndum	not yet	Adverb	Conjunctions/Adverbs	nog niet
+437	impōnō -ere -posuī -positum	put in, put on, impose, levy upon	Verb: 3rd Conjugation -ō	Measurement	opleggen, plaatsen op
+438	somnus -ī m.	sleep, slumber; (pl.) dreams	Noun: 2nd Declension	Life and Being	slaap
+439	aciēs -ēī f.	edge; line of battle	Noun: 5th Declension	War and Peace	scherpe kant; slagorde
+440	rūrsus	back, again	Adverb	Place	terug, opnieuw
+441	cupiō -ere -īvī -ītum	desire	Verb: 3rd Conjugation -iō	Love	verlangen, begeren
+442	exspectō -āre	watch, wait, expect	Verb: 1st Conjugation	Vision	verwachten, wachten op
+443	compōnō -pōnere posuī positum	build, construct, arrange	Verb: 3rd Conjugation -ō	Making/Doing	samenstellen, ordenen, bouwen
+444	laus laudis f.	praise, glory	Noun: 3rd Declension	Social Life	lof, roem
+445	absum abesse āfuī	be away, absent	Verb: Irregular	Travel	afwezig zijn, ver zijn
+446	ūsus -ūs m.	use, experience	Noun: 4th Declension	Education/Knowledge	gebruik, ervaring
+447	velut	even as, just as	Adverb	Conjunctions/Adverbs	zoals, als het ware
+448	comes comitis m./f.	companion, comrade; attendant, follower	Noun: 3rd Declension	Social Life	metgezel, makker, begeleider
+449	ob	against, on account of (+acc)	Preposition	Place	wegens, vanwege (+ acc.)
+450	studium -ī n.	eagerness, zeal	Noun: 2nd Declension	Emotions	ijver, toewijding, studie
+451	facilis -e	easy	Adjective: 3rd Declension	Personality Traits/Characteristics	gemakkelijk
+452	nūmen -inis n.	divine will, deity	Noun: 3rd Declension	Religion	goddelijke macht, godheid
+453	sapiēns -ntis	wise; (as subst.) wise man, sage, philosopher	Adjective: 3rd Declension	Education/Knowledge	wijs; wijze, filosoof
+454	sūmō sūmere sūmpsī sūmptum	take up	Verb: 3rd Conjugation -ō	Motion	nemen, opnemen
+455	nōbilis -e	distinguished, noble; (as subst.) a nobleman or woman	Adjective: 3rd Declension	Personality Traits/Characteristics	bekend, adellijk, edel; edelman
+456	quīn	(adv.) indeed, in fact; (conjunction) so that ... not (+ subj.)	Adverb	Conjunctions/Adverbs	ja zelfs; zonder dat, of niet (+ conj.)
+457	fleō flēre flēvī flētum	weep	Verb: 2nd Conjugation	Emotions	wenen, huilen
+458	nōlō nōlle nōluī	be unwilling	Verb: Irregular	Emotions	niet willen
+459	plēnus -a -um	full	Adjective: 1st and 2nd Declension	Measurement	vol
+460	adversus (-um)	(adv. and prep.) facing, opposite, against, opposed (to)	Adverb	War and Peace	tegenover, tegen (+ acc.); vijandig
+461	nemus nemoris n.	grove, forest	Noun: 3rd Declension	Animals/Plants	bos, woud
+462	cārus -a -um	dear	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	dierbaar, lief; duur
+463	dēsum -esse -fuī	be lacking	Verb: Irregular	Business/Money	ontbreken
+464	lēgātus -ī m.	lieutenant, envoy	Noun: 2nd Declension	War and Peace	gezant; onderbevelhebber
+465	discō -ere didicī	learn	Verb: 3rd Conjugation -ō	Education/Knowledge	leren
+466	furor -ōris m.	rage, fury	Noun: 3rd Declension	Emotions	woede, razernij
+467	amnis -is m.	river, torrent	Noun: 3rd Declension	Earth and Water	rivier, stroom
+468	arbor arboris f.	tree	Noun: 3rd Declension	Animals/Plants	boom
+469	mox	soon	Adverb	Time	weldra, spoedig
+470	eō	(adv.) there, to that place	Adverb	Place	daarheen
+471	cīvis -is m./f.	citizen	Noun: 3rd Declension	The City	burger
+472	occupō -āre	seize, occupy; anticipate, do a thing first (+ infin.)	Verb: 1st Conjugation	War and Peace	bezetten, innemen; iets eerst doen
+473	spectō -āre	look at, consider	Verb: 1st Conjugation	Vision	bekijken, beschouwen
+474	tergum -ī n.	back, rear; ā tergō: from the rear	Noun: 2nd Declension	The Body	rug, achterkant; a tergo: van achteren
+475	crīmen -inis n.	verdict, accusation	Noun: 3rd Declension	Justice	beschuldiging, misdaad
+476	dōnum -ī n.	gift, present	Noun: 2nd Declension	Social Life	geschenk
+477	nōtus -a -um	well-known	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	bekend
+478	sinus -ūs m.	fold of a garment; lap, bay, gulf	Noun: 4th Declension	Earth and Water	plooi, boezem, schoot; golf, baai
+479	faciēs -ēī f.	form, appearance	Noun: 5th Declension	Vision	uiterlijk, gedaante, gezicht
+480	rumpō rumpere rūpī ruptum	break, rupture	Verb: 3rd Conjugation -ō	Violence	breken, verscheuren
+481	membrum -ī n.	limb, member of the body	Noun: 2nd Declension	The Body	lid, lichaamsdeel
+482	umquam	ever	Adverb	Time	ooit
+483	aspiciō -ere -spēxī -spectum	look to or at, behold	Verb: 3rd Conjugation -iō	Vision	aankijken, aanschouwen
+484	prius or priusquam	before	Adverb	Time	vroeger; priusquam: voordat
+485	templum -ī n.	consecrated ground; temple	Noun: 2nd Declension	Religion	tempel
+486	āmittō -mittere -mīsī -missum	let go, send away	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	verliezen, laten gaan
+487	pōscō pōscere popōscī	demand, claim; inquire into	Verb: 3rd Conjugation -ō	Speech/Oratory	eisen, vragen
+488	perdō -dere -didī -ditum	destroy	Verb: 3rd Conjugation -ō	Violence	verliezen, te gronde richten
+489	quamvīs	however you like; although	Adverb	Conjunctions/Adverbs	hoezeer ook, hoewel
+490	tener -era -erum	tender	Adjective: 1st and 2nd Declension	Other Senses	teer, zacht, jong
+491	currus -ūs m.	chariot	Noun: 4th Declension	Athletics	wagen, strijdwagen
+492	precor -ārī	pray, invoke	Verb: Deponent	Religion	bidden, smeken
+493	anima -ae f.	breath, spirit	Noun: 1st Declension	Life and Being	adem, ziel, leven
+494	contingō -tingere -tigī -tactum	touch, be contiguous to	Verb: 3rd Conjugation -ō	Place	aanraken; te beurt vallen
+495	lībertās -ātis f.	freedom	Noun: 3rd Declension	The City	vrijheid
+496	servus -ī m.	slave	Noun: 2nd Declension	The Household	slaaf
+497	soror -ōris f.	sister	Noun: 3rd Declension	The Household	zus, zuster
+498	fluctus -ūs m	flood, billow, surf	Noun: 4th Declension	Earth and Water	golf, stroom
+499	quīppe	(adv.) indeed, surely	Adverb	Conjunctions/Adverbs	immers, natuurlijk
+500	exigō -igere -ēgī -āctum	drive out; collect	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	verdrijven; innen, eisen; volbrengen
+501	fēmina -ae f.	woman	Noun: 1st Declension	People	vrouw
+502	nimius -a -um	too much, excessive	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	te groot, overdreven
+503	fallō fallere fefellī falsum	deceive	Verb: 3rd Conjugation -ō	Deception	bedriegen, misleiden
+504	mīror mīrārī mīrātus sum	wonder at, marvel at (+ acc.)	Verb: Deponent	Emotions	zich verwonderen over, bewonderen
+505	classis -is f.	class, division, fleet	Noun: 3rd Declension	War and Peace	vloot; klasse, afdeling
+506	sedeō sedēre sēdī sessum	sit	Verb: 2nd Conjugation	The House	zitten
+507	singulī -ae -a	one each	Adjective: 1st and 2nd Declension	Measurement	telkens één, elk afzonderlijk
+508	mūrus -ī m.	wall	Noun: 2nd Declension	The House	muur
+509	noceō nocēre nocuī	harm	Verb: 2nd Conjugation	Violence	schaden (+ dat.)
+510	quoniam	since, seeing that	Conjunction	Conjunctions/Adverbs	omdat, aangezien
+511	fax facis f.	torch	Noun: 3rd Declension	Air and Fire	fakkel
+512	intellegō -legere -lēxī -lēctum:	understand	Verb: 3rd Conjugation -ō	Education/Knowledge	begrijpen, inzien
+513	iungō iungere iūnxī iūnctum	join	Verb: 3rd Conjugation -ō	Making/Doing	verbinden, verenigen
+514	afferō afferre attulī allātum	bring to	Verb: Irregular	Verbs of Transport	aanbrengen, brengen
+515	cōgitō -āre	think, reflect	Verb: 1st Conjugation	Education/Knowledge	denken, overwegen
+516	līmen līminis n.	threshold	Noun: 3rd Declension	The House	drempel
+517	pūblicus -a -um	public, belonging to the state	Adjective: 1st and 2nd Declension	The City	openbaar, van de staat
+518	queror querī questus sum	complain of, lament	Verb: Deponent	Emotions	klagen (over), jammeren
+519	exemplum -ī n.	example, sample, copy	Noun: 2nd Declension	Speech/Oratory	voorbeeld
+520	prex precis f.	prayers, entreaties	Noun: 3rd Declension	Religion	gebed, smeekbede
+521	dubitō -āre	hesitate, doubt	Verb: 1st Conjugation	Education/Knowledge	twijfelen, aarzelen
+522	odium -ī n.	hatred	Noun: 2nd Declension	Emotions	haat
+523	fundō fundere fūdī fūsum	pour, scatter	Verb: 3rd Conjugation -ō	Earth and Water	gieten, uitstorten; verstrooien
+524	fūnus fūneris n.	funeral; death; dead body	Noun: 3rd Declension	Religion	begrafenis; dood; lijk
+525	nesciō -scīre	not know, be ignorant	Verb: 4th Conjugation	Education/Knowledge	niet weten
+526	prior prius	earlier, preceding	Adjective: 3rd Declension	Time	vroeger, eerste (van twee)
+527	ūsque	up to; continuously	Adverb	Time	tot, helemaal; voortdurend
+528	dubius -a -um	doubtful; (as subst.) a doubt; sine dubiō, without a doubt, certainly	Adjective: 1st and 2nd Declension	Deception	twijfelachtig; sine dubio: zonder twijfel
+529	tendō tendere tetendī tentum	stretch, extend, direct (one’s steps or course)	Verb: 3rd Conjugation -ō	Travel	spannen, uitstrekken; zich richten
+530	pecūnia -ae f.	money	Noun: 1st Declension	Business/Money	geld
+531	quemadmodum	in what manner, how	Adverb	Pronouns/Interrogatives	hoe, zoals
+532	spargō spargere sparsī sparsum	scatter	Verb: 3rd Conjugation -ō	Earth and Water	strooien, verspreiden
+533	trēs tria	three	Adjective: Numeral	Measurement	drie
+534	tangō tangere tetigī tāctum	touch	Verb: 3rd Conjugation -ō	Other Senses	aanraken
+535	respondeō -spondēre -spondī -spōnsum	answer	Verb: 2nd Conjugation	Speech/Oratory	antwoorden
+536	timor -ōris m.	fear	Noun: 3rd Declension	Emotions	vrees, angst
+537	properō -āre	hasten, speed	Verb: 1st Conjugation	Motion	zich haasten
+538	subeō -īre -iī -itum	go under; endure	Verb: Irregular	Motion	ondergaan, gaan onder; doorstaan
+539	valeō valēre valuī	be strong, excel, be valid, prevail; valē: farewell!	Verb: 2nd Conjugation	Social Life	sterk zijn, gezond zijn, gelden; vale: vaarwel
+540	condō -dere -didī -ditum	build, found; store up; hide, conceal	Verb: 3rd Conjugation -ō	The City	stichten; opbergen; verbergen
+541	nefās n. indecl.	impiety, wickedness	Noun: Indeclinable	Justice	goddeloosheid, misdaad
+542	quondam	formerly, once	Adverb	Time	eens, vroeger
+543	auxilium -ī n.	support, assistance; (pl.) auxiliary forces	Noun: 2nd Declension	War and Peace	hulp; auxilia: hulptroepen
+544	dēserō -ere dēseruī dēsertum	leave, desert, abandon	Verb: 3rd Conjugation -ō	Motion	verlaten, in de steek laten
+545	nūdus -a -um	naked, bare	Adjective: 1st and 2nd Declension	The Body	naakt, bloot
+546	auctor -ōris m.	originator, founder	Noun: 3rd Declension	Writing/Poetry	stichter, bewerker; auteur
+547	animal -ālis n.	a living being, an animal	Noun: 3rd Declension	Animals/Plants	levend wezen, dier
+548	decus decoris n.	beauty, grace; ornament, glory, honor	Noun: 3rd Declension	Personality Traits/Characteristics	sieraad, schoonheid, eer
+549	salūs -ūtis f.	health, safety	Noun: 3rd Declension	Life and Being	gezondheid, redding, heil
+550	pateō patēre patuī	lie open, extend; be evident or obvious	Verb: 2nd Conjugation	Geography	openstaan, zich uitstrekken; duidelijk zijn
+551	rogō -āre	ask	Verb: 1st Conjugation	Speech/Oratory	vragen
+552	uxor uxōris f.	wife	Noun: 3rd Declension	The Household	echtgenote, vrouw
+553	abeō -īre -iī -itum	go away	Verb: Irregular	Motion	weggaan
+554	regō regere rēxī rēctum	guide, rule	Verb: 3rd Conjugation -ō	The City	leiden, besturen, regeren
+555	adeō	(adv.) to such a degree, so	Adverb	Conjunctions/Adverbs	zozeer, zo
+556	auferō auferre abstulī ablātum	take away	Verb: Irregular	Verbs of Transport	wegnemen, wegdragen
+557	quantum	(adv.) how much? how greatly? how much! how greatly! as much as	Adverb	Pronouns/Interrogatives	hoeveel, hoezeer; zoveel als
+558	senex -is m.	old man, elder; senior, older	Noun: 3rd Declension	People	oude man, grijsaard
+559	frōns frontis f.	forehead, brow; front	Noun: 3rd Declension	The Body	voorhoofd; voorkant
+560	propter	because of (+ acc.)	Preposition	Non-Directional Prepositions	wegens, vanwege (+ acc.)
+561	rēgius -a -um	kingly, royal	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	koninklijk
+562	currō currere cucurrī cursum	run	Verb: 3rd Conjugation -ō	Athletics	lopen, snellen
+563	pellō pellere pepulī pulsum	strike, beat, push, drive	Verb: 3rd Conjugation -ō	Violence	slaan, stoten, verdrijven
+564	dīves dīvitis	rich (poet. dīs, dītis)	Adjective: 3rd Declension	Business/Money	rijk
+565	iūdicō -āre	judge, decide	Verb: 1st Conjugation	Justice	oordelen, beslissen
+566	pecus -oris n.	cattle, sheep	Noun: 3rd Declension	Animals/Plants	vee
+567	potēns potentis	able, powerful	Adjective: 3rd Declension	Personality Traits/Characteristics	machtig, krachtig
+568	scrībō scrībere scrīpsī scrīptum	write	Verb: 3rd Conjugation -ō	Writing/Poetry	schrijven
+569	pulcher -chra -chrum	beautiful	Adjective: 1st and 2nd Declension	Vision	mooi
+570	surgō surgere surrēxī surrēctum	rise	Verb: 3rd Conjugation -ō	Earth and Water	opstaan, rijzen
+571	cēterum	for the rest, in addition, however that may be	Adverb	Pronouns/Interrogatives	overigens, trouwens, maar
+572	careō -ēre -uī	lack (+ abl.)	Verb: 2nd Conjugation	Business/Money	missen, niet hebben (+ abl.)
+573	efficiō -ficere -fēcī -fectum	bring about, complete; render (+ ut + subj.)	Verb: 3rd Conjugation -iō	Making/Doing	bewerken, tot stand brengen; maken dat (+ ut)
+574	ōlim	formerly, at that time	Adverb	Time	eens, vroeger; ooit
+575	sermō -ōnis m.	conversation, discourse	Noun: 3rd Declension	Speech/Oratory	gesprek, taal
+576	exerceō -ercēre -ercuī -ercitum	train, exercise, carry on	Verb: 2nd Conjugation	Athletics	oefenen, uitoefenen
+577	gradus -ūs m.	step, pace; grade, rank	Noun: 4th Declension	War and Peace	stap, trede; rang
+578	agitō -āre	drive	Verb: 1st Conjugation	Verbs of Compelling/Directing	drijven, voortjagen; overwegen
+579	forte	by chance	Adverb	Religion	toevallig
+580	honestus -a -um	honorable	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	eervol, eerbaar
+581	moror morārī morātus sum	delay	Verb: Deponent	Time	dralen, talmen; ophouden
+582	praesidium -ī n.	garrison, protection	Noun: 2nd Declension	War and Peace	bescherming, bezetting, garnizoen
+583	sonō sonāre sonuī sonitum	sound, resound	Verb: 1st Conjugation	Other Senses	klinken, weerklinken
+584	praebeō -ēre -uī -itum	furnish, supply, render	Verb: 2nd Conjugation	Verbs of Transport	verschaffen, aanbieden
+585	regiō -ōnis f.	boundary, region	Noun: 3rd Declension	Geography	streek, gebied
+586	sententia -ae f.	opinion, judgment	Noun: 1st Declension	Education/Knowledge	mening, gedachte, oordeel
+587	ācer ācris ācre	sharp, piercing	Adjective: 3rd Declension	Other Senses	scherp, fel, hevig
+588	suprā	above, beyond (adv. and prep. +acc.)	Preposition	Place	boven (+ acc.); bovenaan, hierboven
+589	brevis -e	short, shallow, brief	Adjective: 3rd Declension	Measurement	kort
+590	citus -a -um	swift; citō swiftly	Adjective: 1st and 2nd Declension	Time	snel; cito: snel
+591	cornu -ūs n.	horn	Noun: 4th Declension	Animals/Plants	hoorn; vleugel (van leger)
+592	ingrātus -a -um:	unpleasant, disagreeable	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	ondankbaar; onaangenaam
+593	moenia -ium n. pl.	walls, fortifications	Noun: 3rd Declension	The City	stadsmuren
+594	vinculum -ī n.	bond, fetter, tie	Noun: 2nd Declension	War and Peace	band, boei, keten
+595	adeō -īre -iī -itum	go to	Verb: Irregular	Motion	gaan naar, naderen
+596	cēterus -a -um	the other, the others, the rest	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	de overige, de rest
+597	exeō -īre -iī -itum	go forth	Verb: Irregular	Motion	naar buiten gaan, uitgaan
+598	mālō mālle māluī	prefer	Verb: Irregular	Emotions	liever willen, verkiezen
+599	speciēs -ēī f.	aspect, appearance	Noun: 5th Declension	Vision	uiterlijk, schijn, aanblik
+600	ultrā	beyond, further (adv. and prep. + acc.)	Preposition	Place	voorbij, verder dan (+ acc.)
+601	certē	certainly, surely	Adverb	Measurement	zeker, stellig
+602	imperō -āre	command, control	Verb: 1st Conjugation	War and Peace	bevelen, heersen over (+ dat.)
+603	male	(adv.) badly	Adverb	Personality Traits/Characteristics	slecht
+604	prohibeō -ēre -uī -itum	restrain, keep away	Verb: 2nd Conjugation	Verbs of Compelling/Directing	tegenhouden, verhinderen, weren
+605	clāmor -ōris m.	outcry, shout	Noun: 3rd Declension	Speech/Oratory	geroep, geschreeuw
+606	dōnō -āre	present with a gift (+ acc. of person and abl. of thing)	Verb: 1st Conjugation	Social Life	schenken, begiftigen
+607	officium -ī n.	service, duty	Noun: 2nd Declension	The City	plicht, dienst
+608	committō -mittere -mīsī -missum	join, entrust to (+ dat.); perform, do	Verb: 3rd Conjugation -ō	Social Life	toevertrouwen (+ dat.); verbinden; begaan
+609	crēscō crēscere crēvī crētum	grow, increase	Verb: 3rd Conjugation -ō	Animals/Plants	groeien, toenemen
+610	aequus -a -um	equal	Adjective: 1st and 2nd Declension	Justice	gelijk, vlak; billijk
+611	factum -ī n.	deed, accomplishment	Noun: 2nd Declension	Making/Doing	daad, feit
+612	caedō caedere cecīdī caesum	strike, kill, cut down	Verb: 3rd Conjugation -ō	Violence	neerslaan, doden, (om)hakken
+613	exīstimō -āre	think, believe	Verb: 1st Conjugation	Education/Knowledge	menen, denken, achten
+614	accēdō -cēdere -cessī -cessum	approach	Verb: 3rd Conjugation -ō	Motion	naderen, toetreden
+615	contemnō -temnere -tempsī -temptum	despise, scorn, disdain	Verb: 3rd Conjugation -ō	Emotions	minachten, verachten
+616	pudor pudōris m.	sense of shame, modesty, propriety	Noun: 3rd Declension	Personality Traits/Characteristics	schaamte(gevoel), eerbaarheid
+617	antīquus -a -um	ancient, old-time, former	Adjective: 1st and 2nd Declension	Lengths of Time	oud, van vroeger
+618	ārdeō ārdēre ārsī ārsum	blaze, glow; be eager	Verb: 2nd Conjugation	Air and Fire	branden, gloeien; vurig verlangen
+619	ibi	there	Adverb	Place	daar
+620	prōvincia -ae f.	province; official duty	Noun: 1st Declension	The City	provincie; taak
+621	quandō	when?; since; sī quandō: if ever	Adverb	Pronouns/Interrogatives	wanneer?; aangezien; si quando: als ooit
+622	custōs custōdis m.	guardian	Noun: 3rd Declension	The Household	bewaker, wachter
+623	supersum -esse -fuī	remain, survive; be superfluous (to)	Verb: Irregular	Place	overblijven, overleven
+624	dēsinō -sinere -siī -situm	leave off, cease	Verb: 3rd Conjugation -ō	Motion	ophouden, stoppen
+625	fessus -a -um	weary, tired	Adjective: 1st and 2nd Declension	Life and Being	vermoeid, moe
+626	praeda -ae f.	booty, prey	Noun: 1st Declension	War and Peace	buit, prooi
+627	memoria -ae f.	recollection, memory	Noun: 1st Declension	Education/Knowledge	herinnering, geheugen
+628	dīvidō -ere dīvīsī dīvīsum	divide, separate	Verb: 3rd Conjugation -ō	Making/Doing	verdelen, scheiden
+629	pretium -ī n.	price, worth, reward; pretium operae: a reward for trouble	Noun: 2nd Declension	Business/Money	prijs, waarde, beloning
+630	pontus -ī m.	the open sea, the deep	Noun: 2nd Declension	Earth and Water	zee, open zee
+631	varius -a -um	changing, varied, various	Adjective: 1st and 2nd Declension	Other Senses	afwisselend, verschillend, bont
+632	vehō vehere vēxī vectum	carry; vehor vehī vectus sum: travel, ride	Verb: 3rd Conjugation -ō	Travel	voeren, dragen; vehi: rijden, varen
+633	falsus -a -um	deceptive, false	Adjective: 1st and 2nd Declension	Deception	vals, onwaar, bedrieglijk
+634	niger nigra nigrum	black	Adjective: 1st and 2nd Declension	Vision	zwart
+635	oppidum -ī n.	town	Noun: 2nd Declension	The City	stad(je), vesting
+636	pondus ponderis n.	weight	Noun: 3rd Declension	Measurement	gewicht
+637	arvum -ī n.	ploughed land, field	Noun: 2nd Declension	Animals/Plants	akker, veld
+638	arx arcis f.	citadel, castle; summit	Noun: 3rd Declension	The City	burcht, citadel
+639	sors sortis f.	lot, fate, destiny; oracle	Noun: 3rd Declension	Religion	lot, lotsbestemming; orakel
+640	vīnum -ī n.	vine, wine	Noun: 2nd Declension	Animals/Plants	wijn
+641	dīversus -a -um	different, diverse	Adjective: 1st and 2nd Declension	Other Senses	verschillend, tegengesteld
+642	orior orīrī ortus sum	arise, begin	Verb: Deponent	Time	ontstaan, opkomen, beginnen
+643	ecce	behold!	Adverb	Vision	zie!, kijk!
+644	quamquam	however, although	Conjunction	Conjunctions/Adverbs	hoewel; nochtans
+645	cōnferō cōnferre contulī collātum	collect, bring to	Verb: Irregular	Verbs of Transport	bijeenbrengen; vergelijken; se conferre: zich begeven
+646	facinus facinoris n.	deed, crime	Noun: 3rd Declension	Justice	daad; misdaad
+647	retineō -tinēre -tinuī -tentum	hold back, keep	Verb: 2nd Conjugation	Verbs of Compelling/Directing	tegenhouden, behouden
+648	spērō -āre	to hope	Verb: 1st Conjugation	Emotions	hopen
+649	plēbs plēbis f.	the common people	Noun: 3rd Declension	The City	gewone volk, plebs
+650	pūgna -ae f.	fist-fight; battle	Noun: 1st Declension	Violence	gevecht, strijd
+651	repetō -petere -petīvī -petītum	demand, exact; revisit; call to mind, recollect; repeat	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	terugvragen; herhalen; opnieuw opzoeken
+652	cōnstituō -stituere -stituī -stitūtum	establish, put together	Verb: 3rd Conjugation -ō	Making/Doing	vaststellen, besluiten, oprichten
+653	dēfendō -fendere -fendī -fēnsum	defend, ward off	Verb: 3rd Conjugation -ō	War and Peace	verdedigen, afweren
+654	marītus -ī m.	husband	Noun: 2nd Declension	The Household	echtgenoot
+655	cernō cernere crēvī crētum	discern, separate	Verb: 3rd Conjugation -ō	Education/Knowledge	onderscheiden, waarnemen
+656	superbus -a -um	overbearing, proud, haughty	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	trots, hoogmoedig
+657	adversus -a -um	facing, opposed; unfavorable	Adjective: 1st and 2nd Declension	War and Peace	tegenovergesteld, vijandig, ongunstig
+658	morbus -ī m.	sickness, disease	Noun: 2nd Declension	The Body	ziekte
+659	sānctus -a -um	sacred, inviolable	Adjective: 1st and 2nd Declension	Religion	heilig, onschendbaar
+660	commūnis -e	common, general	Adjective: 3rd Declension	The City	gemeenschappelijk, algemeen
+661	dēdūcō -dūcere -dūxī -ductum	launch, lead away	Verb: 3rd Conjugation -ō	Travel	wegleiden; te water laten; stichten (kolonie)
+662	rīpa -ae f.	bank of a river	Noun: 1st Declension	Earth and Water	oever
+663	concēdō -cēdere -cessī -cessum	yield, withdraw	Verb: 3rd Conjugation -ō	War and Peace	wijken, toegeven, toestaan
+664	hōra -ae f.	hour	Noun: 1st Declension	Lengths of Time	uur
+665	vetō -āre vetuī vetītum	forbid	Verb: 1st Conjugation	Verbs of Compelling/Directing	verbieden
+666	cohors cohortis f.	cohort, band, troop	Noun: 3rd Declension	War and Peace	cohorte, schare
+667	gīgnō gīgnere genuī genitum	beget, bear, bring forth	Verb: 3rd Conjugation -ō	Life and Being	verwekken, baren, voortbrengen
+668	superō -āre	overcome, surpass, defeat	Verb: 1st Conjugation	War and Peace	overtreffen, overwinnen
+669	maestus -a -um	sad, sorrowful; depressing	Adjective: 1st and 2nd Declension	Emotions	bedroefd, treurig
+670	meminī meminisse	remember, recollect	Verb: Irregular	Education/Knowledge	zich herinneren
+671	impleō -ēre -plēvī -plētum	fill in, fill up	Verb: 2nd Conjugation	Earth and Water	vullen, vervullen
+672	māgnitūdō -inis f.	greatness, size	Noun: 3rd Declension	Measurement	grootte, grootheid
+673	vacuus -a -um	empty	Adjective: 1st and 2nd Declension	Measurement	leeg
+674	vagus -a -um	wandering, shifting	Adjective: 1st and 2nd Declension	Travel	zwervend, ronddolend
+675	vulgus -ī n. and m.	the common people	Noun: 2nd Declension	The City	volk, massa
+676	deficiō -ficere -fēcī -fectum	fail, give out; revolt from	Verb: 3rd Conjugation -iō	War and Peace	ontbreken, bezwijken; afvallig worden
+677	occurrō -currere -cucurrī -cursum	run to meet; come into one’s mind	Verb: 3rd Conjugation -ō	Education/Knowledge	tegemoet lopen; te binnen schieten
+678	statuō -ere -uī -ūtum	set up, determine	Verb: 3rd Conjugation -ō	Justice	plaatsen, vaststellen, besluiten
+679	ideō	for this reason	Adverb	Conjunctions/Adverbs	daarom
+680	praemium -ī n.	bounty, reward	Noun: 2nd Declension	Business/Money	beloning, prijs
+681	praetereā	besides, moreover	Adverb	Conjunctions/Adverbs	bovendien
+682	tertius -a -um	third	Adjective: 1st and 2nd Declension	Measurement	derde
+683	supplicium -ī n.	punishment, penalty	Noun: 2nd Declension	Justice	straf, doodstraf
+684	vātēs -is m.	poet, bard	Noun: 3rd Declension	Writing/Poetry	ziener, profeet; dichter
+685	astrum -ī n.	star; constellation	Noun: 2nd Declension	Air and Fire	ster, gesternte
+686	undique	from all sides, on all sides	Adverb	Place	van alle kanten, overal
+687	canis -is m./f.	dog	Noun: 3rd Declension	Animals/Plants	hond
+688	ēdō ēdere ēdidī ēditum	put forth, state, explain	Verb: 3rd Conjugation -ō	Speech/Oratory	uitgeven, voortbrengen; bekendmaken
+689	fateor fatērī fassus sum	admit, confess; profess, declare; assent, say yes	Verb: Deponent	Justice	bekennen, toegeven
+690	amīcitia -ae f.	friendship	Noun: 1st Declension	Social Life	vriendschap
+691	aureus -a -um	golden; splendid	Adjective: 1st and 2nd Declension	Business/Money	gouden
+692	candidus -a -um	white, fair	Adjective: 1st and 2nd Declension	Vision	wit, blank, stralend
+693	interim	meanwhile	Adverb	Time	intussen
+694	frūstrā	in vain	Adverb	Conjunctions/Adverbs	tevergeefs
+695	lateō latēre latuī	lie hidden, be hidden	Verb: 2nd Conjugation	Deception	verborgen zijn, schuilen
+696	os ossis n.	bone	Noun: 3rd Declension	The Body	bot, been
+697	sēcūrus -a -um	free from care, tranquil; careless	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	onbezorgd, zorgeloos; veilig
+698	conveniō -venīre -vēnī -ventum	assemble, meet; agree	Verb: 4th Conjugation	Social Life	samenkomen; overeenkomen
+699	interficiō -ficere -fēcī -fectum	kill	Verb: 3rd Conjugation -iō	Violence	doden
+700	appellō -pellāre	call, address, name	Verb: 1st Conjugation	Social Life	noemen, aanspreken
+701	dolus -ī m.	artifice, device, trick	Noun: 2nd Declension	Deception	list, bedrog
+702	permittō -mittere -mīsī -missum	yield, allow, permit	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	toestaan, toelaten; overlaten
+703	spīritus -ūs m.	breath, life, spirit	Noun: 4th Declension	Life and Being	adem, geest, leven
+704	intrā	within (+ acc.)	Preposition	Place	binnen (+ acc.)
+705	terreō terrēre terruī territum	terrify, frighten	Verb: 2nd Conjugation	Emotions	schrik aanjagen, afschrikken
+706	fōns fontis m.	spring, fountain	Noun: 3rd Declension	Earth and Water	bron
+707	invidia -ae f.	envy, jealousy, hatred	Noun: 1st Declension	Emotions	afgunst, jaloersheid, haat
+708	pugnō -āre	fight	Verb: 1st Conjugation	Violence	vechten, strijden
+709	augeō augēre auxī auctum	increase	Verb: 2nd Conjugation	Making/Doing	vergroten, vermeerderen
+710	littera -ae f.	letter, (pl.) literature	Noun: 1st Declension	Writing/Poetry	letter; litterae: brief, literatuur
+711	moneō monēre monuī monitum	warn, advise	Verb: 2nd Conjugation	Speech/Oratory	waarschuwen, aanmanen
+712	dīvitiae -ārum f. pl.	riches, wealth	Noun: 1st Declension	Business/Money	rijkdom
+713	experior -perīrī -pertus sum	try thoroughly, test, experience	Verb: Deponent	Education/Knowledge	ondervinden, proberen, beproeven
+714	superī -ōrum m. pl.	those above, i.e. the gods	Noun: 2nd Declension	Religion	de goden (in de hemel)
+715	ōtium -ī n.	leisure	Noun: 2nd Declension	Social Life	vrije tijd, rust
+716	vestīgium -ī n.	footstep, footprint, track	Noun: 2nd Declension	Travel	voetspoor, spoor
+717	sinō sinere sīvī situm	allow, let go	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	toelaten, laten
+718	decet decēre decuīt	it is right, proper, fitting (+ acc. + infin.)	Verb: Impersonal	Personality Traits/Characteristics	het past, het betaamt (+ acc. + inf.)
+719	effundō -fundere -fūdī -fūsum	pour out	Verb: 3rd Conjugation -ō	Earth and Water	uitgieten, uitstorten
+720	prōmittō -mittere -mīsī -missum	send forth, offer	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	beloven
+721	fingō fingere fīnxī fīctum	shape; invent	Verb: 3rd Conjugation -ō	Making/Doing	vormen; verzinnen
+722	respicio -ere -spēxī -spectum	look back, regard, consider	Verb: 3rd Conjugation -iō	Vision	omkijken; rekening houden met
+723	imperātor -ōris m.	commander	Noun: 3rd Declension	War and Peace	bevelhebber, veldheer; keizer
+724	vacō vacāre	be empty, open, unoccupied	Verb: 1st Conjugation	Measurement	leeg zijn, vrij zijn
+725	color -ōris m.	color	Noun: 3rd Declension	Vision	kleur
+726	discēdō -ere -cessī -cessum	go away, depart	Verb: 3rd Conjugation -ō	Travel	weggaan, vertrekken
+727	gaudium -ī n.	delight, joy, pleasure	Noun: 2nd Declension	Emotions	vreugde, blijdschap
+728	caecus -a -um	blind, unseeing; dark, obscure	Adjective: 1st and 2nd Declension	Vision	blind; donker
+729	libet libēre libuit or libitum est	it is pleasing (+ dat. + infin.)	Verb: Impersonal	Social Life	het behaagt (+ dat. + inf.)
+730	centum	one hundred	Adjective: Numeral	Measurement	honderd
+731	cōnstō -stāre -stitī	agree; constat, it is established that (+ acc. and infin.)	Verb: 1st Conjugation	Speech/Oratory	kosten; blijven staan; constat: het staat vast dat
+732	lingua -ae f.	tongue; language	Noun: 1st Declension	The Body	tong; taal
+733	multitūdō -inis f.	multitude, number	Noun: 3rd Declension	Measurement	menigte, groot aantal
+734	aeternus -a -um	everlasting, eternal	Adjective: 1st and 2nd Declension	Lengths of Time	eeuwig
+735	circā	around (adv. and prep. +acc.)	Preposition	Place	rondom, rond (+ acc.); ongeveer
+736	ōrātiō -ōnis f.	speech, address	Noun: 3rd Declension	Speech/Oratory	redevoering, rede
+737	potestās -ātis f.	power	Noun: 3rd Declension	The City	macht, bevoegdheid
+738	tardus -a -um	slow, sluggish, lingering	Adjective: 1st and 2nd Declension	Time	traag, langzaam
+739	for fārī fātus sum	report, say	Verb: Deponent	Speech/Oratory	spreken, zeggen
+740	humus -ī f.	ground; humī: on the ground	Noun: 2nd Declension	Earth and Water	grond, aarde; humi: op de grond
+741	testis -is m.	witness	Noun: 3rd Declension	Justice	getuige
+742	īnferō īnferre intulī illātum	bring upon, against; bellum īnferre: make war on	Verb: Irregular	War and Peace	brengen naar/tegen; bellum inferre: de oorlog aandoen
+743	cūrō -āre	watch over, look after, care for (+ acc.)	Verb: 1st Conjugation	Love	zorgen voor, verzorgen
+744	aes aeris n.	copper, bronze	Noun: 3rd Declension	Business/Money	brons, koper; geld
+745	celer -is -e	swift	Adjective: 3rd Declension	Time	snel
+746	prōcēdō -cēdere -cessī -cessum	go forth, advance	Verb: 3rd Conjugation -ō	Motion	voortgaan, vooruitgaan
+747	mēnsa -ae f.	table	Noun: 1st Declension	The House	tafel
+748	pius -a -um	dutiful, devoted, just, pious	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	plichtsgetrouw, vroom
+749	iūdicium -ī n.	judgment, decision, trial	Noun: 2nd Declension	Justice	oordeel, vonnis, proces
+750	victōria -ae f.	victory	Noun: 1st Declension	War and Peace	overwinning
+751	damnō -āre	condemn	Verb: 1st Conjugation	Justice	veroordelen
+752	rārus -a -um	wide apart, loose, thin; rare, seldom	Adjective: 1st and 2nd Declension	Measurement	zeldzaam; dun, verspreid
+753	tempestas -tātis f.	period of time, season; bad weather, storm	Noun: 3rd Declension	Lengths of Time	storm, onweer; tijd
+754	imāgō -inis f.	image, form, figure	Noun: 3rd Declension	Vision	beeld, afbeelding
+755	ōrō -āre	pray	Verb: 1st Conjugation	Religion	bidden, smeken; spreken
+756	praeter	by, along, past; besides, except (+ acc.)	Preposition	Place	langs, voorbij; behalve (+ acc.)
+757	cōnsulō -sulere -suluī -sultum	consult, plan (+ acc.); consider the interests of (+dat)	Verb: 3rd Conjugation -ō	The City	raadplegen (+ acc.); zorgen voor (+ dat.)
+758	iterum	again	Adverb	Time	opnieuw, weer
+759	porta -ae f.	gate	Noun: 1st Declension	The City	poort
+760	intersum -esse -fuī	to be between; take part in, attend (+dat.); interest, it is in the interest of (+ gen.)	Verb: Irregular	Place	deelnemen aan (+ dat.); interest: het is van belang
+761	libīdō -inis f.	passion, lust	Noun: 3rd Declension	Love	lust, begeerte
+762	sustineō sustinēre sustinuī sustentum	hold up, sustain	Verb: 2nd Conjugation	Social Life	ophouden, dragen, doorstaan
+763	aliquandō	at some time, at length	Adverb	Time	ooit, eens; eindelijk
+764	māiōrēs māiōrum m.	ancestors	Noun: 3rd Declension	The Household	voorouders
+765	reperiō -perīre -pperī -pertum	find, find out	Verb: 4th Conjugation	Education/Knowledge	vinden, ontdekken
+766	intrō -āre	enter	Verb: 1st Conjugation	Motion	binnengaan
+767	pietās -tātis f.	sense of duty, devotion, esp. between parents and children	Noun: 3rd Declension	The Household	plichtsgevoel, vroomheid
+768	barbarus -ī m.	foreigner, barbarian	Noun: 2nd Declension	War and Peace	barbaar, vreemdeling
+769	culpa -ae f.	guilt, fault, blame	Noun: 1st Declension	Justice	schuld
+770	iūstus -a -um	right, just, fair	Adjective: 1st and 2nd Declension	Justice	rechtvaardig
+771	dōnec	until	Conjunction	Time	totdat, zolang als
+772	fluō fluere fluxī fluxum	flow	Verb: 3rd Conjugation -ō	Earth and Water	stromen, vloeien
+773	necesse (indecl. adj.)	necessary	Adjective: Indeclinable	Business/Money	noodzakelijk
+774	reor rērī rātus sum	think, imagine, suppose, deem	Verb: Deponent	Education/Knowledge	menen, denken
+775	tenebrae -brārum f. pl.	darkness, the shadows	Noun: 1st Declension	Vision	duisternis
+776	saeculum -ī n.	generation, age, century	Noun: 2nd Declension	Lengths of Time	generatie, tijdperk, eeuw
+777	dīmittō -mittere -mīsī -missum	send away	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	wegsturen, laten gaan
+778	licet	even though	Conjunction	Justice	hoewel, ook al
+779	cinis cineris m./f.	ashes, embers	Noun: 3rd Declension	Air and Fire	as
+780	cōnsistō -sistere -stitī	take position; consist in, be composed of	Verb: 3rd Conjugation -ō	Speech/Oratory	halt houden, zich opstellen; bestaan uit
+781	recēns -ntis	fresh, new	Adjective: 3rd Declension	Time	vers, nieuw, recent
+782	aliter	otherwise, differently	Adverb	Conjunctions/Adverbs	anders
+783	laedō laedere laesī laesum	injure by striking, hurt	Verb: 3rd Conjugation -ō	Violence	kwetsen, beschadigen
+784	probō -āre	approve, prove; convince one (dat.) of a thing (acc.)	Verb: 1st Conjugation	Verbs of Compelling/Directing	goedkeuren; bewijzen
+785	doleō -ēre doluī	feel pain or grief, grieve	Verb: 2nd Conjugation	Emotions	pijn hebben, verdriet hebben
+786	quārē	how? why?	Adverb	Pronouns/Interrogatives	waarom?, waardoor?; daarom
+787	antequam	before	Conjunction	Time	voordat
+788	reliquus -a -um	remaining, rest	Adjective: 1st and 2nd Declension	Measurement	overig, overblijvend
+789	semel	once	Adverb	Time	eenmaal, eens
+790	ōdī ōdisse	hate	Verb: Irregular	Emotions	haten
+791	sīcut	just as	Adverb	Conjunctions/Adverbs	zoals
+792	peccō -āre	commit a wrong, injure	Verb: 1st Conjugation	Justice	fout doen, zondigen
+793	sēnsus -ūs m.	feeling, emotion, sense	Noun: 4th Declension	Emotions	gevoel, zin, zintuig
+794	exsilium -ī n.	exile, banishment	Noun: 2nd Declension	Travel	ballingschap
+795	cor cordis n.	heart; cordī est, it is pleasing to (+ dat.)	Noun: 3rd Declension	The Body	hart
+796	dēnique	finally	Adverb	Time	ten slotte, eindelijk
+797	sapientia -ae f.	wisdom	Noun: 1st Declension	Education/Knowledge	wijsheid
+798	statim	immediately	Adverb	Time	onmiddellijk
+799	accidō -cidere -cidī	fall; happen	Verb: 3rd Conjugation -ō	Motion	gebeuren; neervallen
+800	dēcernō -cernere -crēvī -crētum	determine, decide	Verb: 3rd Conjugation -ō	Education/Knowledge	beslissen, besluiten
+801	occīdō -cīdere -cīdī -cīsum	kill, cut down	Verb: 3rd Conjugation -ō	Violence	doden, neerslaan
+802	dēscendō -scendere -scendī -scēnsum	climb down, descend	Verb: 3rd Conjugation -ō	Travel	afdalen, naar beneden gaan
+803	hiems hiemis f.	winter	Noun: 3rd Declension	Lengths of Time	winter
+804	contineō -tinēre -tinuī -tentum	contain, restrain	Verb: 2nd Conjugation	Verbs of Compelling/Directing	bijeenhouden, bevatten, tegenhouden
+805	dēferō -ferre -tulī -lātum	carry away, report	Verb: Irregular	Verbs of Transport	wegbrengen; melden, overbrengen
+806	oportet -ēre -uit	it is proper, right (+ acc. + infin.)	Verb: Impersonal	Social Life	het is nodig, men moet (+ acc. + inf.)
+807	tribūnus -ī m.	tribune, title of various Roman officials, as mīlitum, plēbis, aerāriī	Noun: 2nd Declension	The City	tribuun
+808	bōs bovis m.	ox; gen. pl. boum	Noun: 3rd Declension	Animals/Plants	rund, os, koe
+809	īrāscor īrāscī īrātus sum	grow angry; īrātus -a -um: angry	Verb: Deponent	Emotions	boos worden; iratus: boos
+810	aeger aegra aegrum	sick	Adjective: 1st and 2nd Declension	Life and Being	ziek
+811	forum -ī n.	market-place, forum	Noun: 2nd Declension	The City	forum, marktplein
+812	offerō offerre obtulī oblātum	present, offer, expose	Verb: Irregular	Verbs of Transport	aanbieden; blootstellen
+813	revocō -āre	call back, recall	Verb: 1st Conjugation	Social Life	terugroepen
+814	cingō cingere cīnxī cīnctum	encircle, surround, gird	Verb: 3rd Conjugation -ō	War and Peace	omgorden, omringen
+815	integer -gra -grum:	untouched, fresh, complete, whole	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	ongeschonden, fris, geheel
+816	validus -a -um	strong	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	sterk, krachtig
+817	alō alere aluī alitum	nourish	Verb: 3rd Conjugation -ō	Life and Being	voeden, grootbrengen
+818	flōs flōris m.	flower, bloom	Noun: 3rd Declension	Animals/Plants	bloem, bloei
+819	īctus -ūs m.	blow, stroke	Noun: 4th Declension	Violence	slag, stoot
+820	colligō -ere -lēgī -lēctum	gather together, collect	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	verzamelen
+821	pergō pergere perrēxī perrēctum	continue, proceed; awaken	Verb: 3rd Conjugation -ō	Motion	verder gaan, voortgaan
+822	praesēns -ntis	present, in person, ready	Adjective: 3rd Declension	Place	aanwezig, tegenwoordig
+823	rēctus -a -um	straight, direct	Adjective: 1st and 2nd Declension	Measurement	recht, juist
+824	lātus -a -um	broad, wide	Adjective: 1st and 2nd Declension	Measurement	breed, wijd
+825	praeceptum -ī n.	rule, precept; command	Noun: 2nd Declension	Justice	voorschrift, regel; bevel
+826	recēdō -cēdere -cessī -cessum	step back, recoil, recede, withdraw	Verb: 3rd Conjugation -ō	Motion	teruggaan, zich terugtrekken
+827	utrum	whether; utrum ... an: whether ... or	Conjunction	Conjunctions/Adverbs	of (in vragen); utrum ... an: of ... of
+828	famēs -is f.	hunger, famine	Noun: 3rd Declension	Life and Being	honger, hongersnood
+829	pariō parere peperī partum	bring forth, give birth to; accomplish	Verb: 3rd Conjugation -iō	Life and Being	baren, voortbrengen; verwerven
+830	appāreō -ēre -uī	appear, become visible	Verb: 2nd Conjugation	Vision	verschijnen, zichtbaar worden
+831	quōmodo	in what way, how?	Conjunction	Pronouns/Interrogatives	hoe?, op welke manier?
+832	error -ōris m.	wandering; error, mistake	Noun: 3rd Declension	Travel	dwaling, fout, vergissing
+833	forsitan, fortasse	perhaps, perchance	Adverb	Conjunctions/Adverbs	misschien
+834	convertō -vertere -vertī -versum	turn about, turn, change	Verb: 3rd Conjugation -ō	Motion	omkeren, wenden, veranderen
+835	proficīscor -ficīscī -fectus sum	set forth, go	Verb: Deponent	Travel	vertrekken, op weg gaan
+836	secundus -a -um	following; favorable; (as numeral) second	Adjective: 1st and 2nd Declension	Measurement	volgend; gunstig; tweede
+837	aperiō aperīre aperuī apertum	open	Verb: 4th Conjugation	The House	openen
+838	castus -a -um	pure, spotless, chaste	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	rein, kuis
+839	iūdex iūdicis m.	judge, juror	Noun: 3rd Declension	Justice	rechter
+840	lapis lapidis m.	stone	Noun: 3rd Declension	Earth and Water	steen
+841	nimis or nimium	excessively	Adverb	Personality Traits/Characteristics	te zeer, te veel
+842	onus oneris n.	load, burden	Noun: 3rd Declension	Measurement	last, vracht
+843	opera -ae f.	labor, activity, work	Noun: 1st Declension	Business/Money	moeite, werk, inspanning
+844	pauper -eris	poor, lowly	Adjective: 3rd Declension	Business/Money	arm
+845	āēr āeris m.	air	Noun: 3rd Declension	Air and Fire	lucht
+846	negōtium -ī n.	business	Noun: 2nd Declension	Business/Money	bezigheid, zaak
+847	pāreō pārēre pāruī	obey	Verb: 2nd Conjugation	Verbs of Compelling/Directing	gehoorzamen (+ dat.)
+848	subitō	suddenly, unexpectedly	Adverb	Time	plotseling
+849	argentum -ī n.	silver, money	Noun: 2nd Declension	Business/Money	zilver; geld
+850	ūtilis -e	useful	Adjective: 3rd Declension	Making/Doing	nuttig
+851	aethēr aetheris n.	pure upper air, ether, heaven, sky	Noun: 3rd Declension	Air and Fire	hemel, lucht, ether
+852	mereō merēre meruī meritum	deserve, merit; serve as a soldier	Verb: 2nd Conjugation	Business/Money	verdienen; soldaat zijn
+853	portō -āre	carry a load	Verb: 1st Conjugation	Measurement	dragen
+854	proprius -a -um	one’s own, peculiar	Adjective: 1st and 2nd Declension	Pronouns/Interrogatives	eigen, kenmerkend
+855	avis -is f.	bird	Noun: 3rd Declension	Animals/Plants	vogel
+856	vanus -a -um	empty; false, deceitful	Adjective: 1st and 2nd Declension	Deception	leeg, ijdel; vals
+857	māteria -ae f.	material, subject matter; timber, lumber	Noun: 1st Declension	Speech/Oratory	materiaal, stof, onderwerp; hout
+858	paucī -ae -a	few, a few	Adjective: 1st and 2nd Declension	Measurement	weinig(en), enkele
+859	voluntās -ātis f.	wish, desire	Noun: 3rd Declension	Emotions	wil, wens
+860	ēgregius -a -um	distinguished, uncommon	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	uitstekend, voortreffelijk
+861	difficilis -e	not easy, hard, difficult	Adjective: 3rd Declension	Personality Traits/Characteristics	moeilijk
+862	gladius -ī m.	sword	Noun: 2nd Declension	War and Peace	zwaard
+863	cibus -ī m.	food	Noun: 2nd Declension	Life and Being	voedsel, eten
+864	certō -āre	decide by contest; fight, compete, vie	Verb: 1st Conjugation	Athletics	strijden, wedijveren
+865	initium -ī n.:	beginning	Noun: 2nd Declension	Time	begin
+866	pertineō -tinēre -tinuī	extend over, reach; refer to, pertain to, be the business of	Verb: 2nd Conjugation	Education/Knowledge	zich uitstrekken; betrekking hebben op
+867	quattuor	four	Adjective: Numeral	Measurement	vier
+868	turbō -āre	disturb, confuse	Verb: 1st Conjugation	Speech/Oratory	in verwarring brengen, verstoren
+869	cōnsūmō -sūmere -sūmpsī -sūmptum	to use up, consume	Verb: 3rd Conjugation -ō	Life and Being	verbruiken, opgebruiken
+870	corrumpō -rumpere -rūpī -ruptum	break up, destroy, ruin	Verb: 3rd Conjugation -ō	Violence	bederven, vernietigen, omkopen
+871	incidō incidere incidī	fall upon, fall into; happen	Verb: 3rd Conjugation -ō	Motion	vallen in, terechtkomen in; gebeuren
+872	paulō, paulum	to only a small extent, slightly, a little	Adverb	Measurement	een beetje, iets
+873	hospes hospitis m.	guest, guest-friend; stranger; host	Noun: 3rd Declension	Social Life	gast, gastvriend; vreemdeling; gastheer
+874	rīdeō -ēre rīsī rīsum	laugh, laugh at	Verb: 2nd Conjugation	Emotions	lachen, uitlachen
+875	aevum -ī n.	eternity; lifetime, age	Noun: 2nd Declension	Lengths of Time	tijd, leeftijd, eeuwigheid
+876	audāx audācis	bold, daring; reckless	Adjective: 3rd Declension	Personality Traits/Characteristics	stoutmoedig, vermetel, driest
+877	posterus -a -um	next, later	Adjective: 1st and 2nd Declension	Time	volgend, later; posteri: nakomelingen
+878	praetor -ōris m.	praetor, one of the chief Roman magistrates	Noun: 3rd Declension	The City	praetor
+879	rūs rūris n.	country	Noun: 3rd Declension	Geography	platteland
+880	differō differre distulī dīlātum	scatter; publish, divulge; differ; defer, postpone	Verb: Irregular	Making/Doing	verschillen; uitstellen; verspreiden
+881	vītō -āre	avoid, shun	Verb: 1st Conjugation	Social Life	vermijden, ontwijken
+882	prīvātus -a -um	personal, private	Adjective: 1st and 2nd Declension	Social Life	persoonlijk, particulier; privatus: burger
+883	serviō -īre	be a slave, serve (+ dat.)	Verb: 4th Conjugation	The Household	dienen, slaaf zijn (+ dat.)
+884	vereor verērī veritus sum	fear, stand in awe of	Verb: Deponent	Emotions	vrezen, ontzag hebben voor
+885	ingredior -gredī -gressus sum:	step in, enter	Verb: Deponent	Motion	binnengaan, betreden; beginnen
+886	addūcō -ere -dūxī -ductum	lead to, induce	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	brengen naar, ertoe brengen
+887	hortor hortārī hortātus sum	urge strongly, advise, exhort	Verb: Deponent	Speech/Oratory	aansporen, aanmoedigen
+888	reus -ī m.	defendant	Noun: 2nd Declension	Justice	beschuldigde, aangeklaagde
+889	scīlicet	certainly, of course	Adverb	Conjunctions/Adverbs	natuurlijk, uiteraard
+890	comparō -āre	get ready, provide; compare	Verb: 1st Conjugation	Business/Money	voorbereiden, verwerven; vergelijken
+891	perpetuus -a -um	unbroken, perpetual	Adjective: 1st and 2nd Declension	Lengths of Time	voortdurend, onafgebroken, eeuwig
+892	dēsīderō -āre	long for, desire greatly	Verb: 1st Conjugation	Love	verlangen naar, missen
+893	celebrō -āre	frequent, throng, crowd	Verb: 1st Conjugation	The City	druk bezoeken; vieren, prijzen
+894	cōnficiō -ficere -fēcī -fectum	complete, accomplish; destroy, kill, consume	Verb: 3rd Conjugation -iō	Violence	voltooien, afwerken; uitputten, doden
+895	intendō -tendere -tendī -tentum:	stretch out, strain	Verb: 3rd Conjugation -ō	Motion	spannen, richten
+896	iūrō -āre	take an oath, swear; iūs iūrandum, oath	Verb: 1st Conjugation	Justice	zweren; ius iurandum: eed
+897	sōlum	only, merely	Adverb	Measurement	alleen, slechts
+898	auctōritās -ātis f.	influence, clout, authority	Noun: 3rd Declension	Social Life	gezag, invloed, aanzien
+899	iaciō iacere iēcī iactum	throw, hurl	Verb: 3rd Conjugation -iō	Athletics	werpen, gooien
+900	labōrō -āre	toil, work; be in trouble or distress	Verb: 1st Conjugation	Business/Money	werken, zwoegen; in nood zijn
+901	liber librī m.	book	Noun: 2nd Declension	Writing/Poetry	boek
+902	lūna -ae f.	moon	Noun: 1st Declension	Air and Fire	maan
+903	prōtinus	at once, forthwith	Adverb	Time	onmiddellijk, meteen
+904	aequē	equally	Adverb	Justice	evenzeer, even
+905	cōnor cōnārī cōnātus sum	try, attempt	Verb: Deponent	Making/Doing	proberen, pogen
+906	cupīdō -inis f.	desire, eagerness, craving	Noun: 3rd Declension	Love	verlangen, begeerte
+907	ferē	almost	Adverb	Conjunctions/Adverbs	bijna, ongeveer
+908	īnsula -ae f.:	island	Noun: 1st Declension	Geography	eiland
+909	fīlia -ae f.; fīlius -ī m.	daughter; son	Noun: 1st Declension	The Household	dochter; zoon
+910	narrō -āre	relate, recount	Verb: 1st Conjugation	Speech/Oratory	vertellen
+911	necessitās -tātis f.	necessity, need	Noun: 3rd Declension	Business/Money	noodzaak, nood
+912	ēgredior ēgredī ēgressus sum	stride out, depart, disembark from (+ abl.)	Verb: Deponent	Travel	naar buiten gaan, uitgaan; ontschepen
+913	poēta -ae m.	poet	Noun: 1st Declension	Writing/Poetry	dichter
+914	decem	ten	Adjective: Numeral	Measurement	tien
+915	amplus -a -um	large, spacious	Adjective: 1st and 2nd Declension	Measurement	ruim, groot; aanzienlijk
+916	aptus -a -um	fit, suitable	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	geschikt, passend
+917	cōnsequor -sequī -secūtus sum	follow up, overtake, attain	Verb: Deponent	Motion	volgen, inhalen, bereiken
+918	frequēns -ntis	in large numbers, often	Adjective: 3rd Declension	Measurement	talrijk, druk bezocht; vaak
+919	nūntius -ī m.	messenger; news	Noun: 2nd Declension	Travel	bode, boodschapper; bericht
+920	condīciō -ōnis f.	agreement, condition	Noun: 3rd Declension	Business/Money	voorwaarde, overeenkomst; toestand
+921	convīvium -iī n.	banquet, feast	Noun: 2nd Declension	Social Life	feestmaal, banket
+922	foedus -a -um	foul	Adjective: 1st and 2nd Declension	Other Senses	lelijk, afschuwelijk, schandelijk
+923	fruor fruī frūctus sum	enjoy the produce of, profit by, use (+ abl.)	Verb: Deponent	Emotions	genieten van (+ abl.)
+924	num	interrogative particle implying negative answer	Adverb	Pronouns/Interrogatives	toch niet? (vraagpartikel, antwoord 'nee')
+925	albus -a -um	white	Adjective: 1st and 2nd Declension	Vision	wit
+926	damnum -ī n.	damage, injury	Noun: 2nd Declension	Violence	schade, verlies
+927	frūctus -ūs m.	fruit, crops; enjoyment, delight	Noun: 4th Declension	Animals/Plants	vrucht, opbrengst; genot
+928	cēnseō cēnsēre cēnsuī cēnsum	assess, rate; think, decide	Verb: 2nd Conjugation	Education/Knowledge	schatten; menen, van oordeel zijn
+929	prōdō prōdere prōdidī prōditum	publish, hand down; give over, betray	Verb: 3rd Conjugation -ō	Verbs of Transport	verraden; overleveren; bekendmaken
+930	prōpōnō -pōnere -posuī -positum	put forth, propose, present	Verb: 3rd Conjugation -ō	Speech/Oratory	voorstellen, voorleggen
+931	īnstituō -stituere -stituī -stitūtum:	undertake; equip	Verb: 3rd Conjugation -ō	Making/Doing	oprichten, instellen; beginnen; onderwijzen
+932	item	likewise	Adverb	Conjunctions/Adverbs	eveneens, evenzo
+933	magister magistrī m.	master, chief	Noun: 2nd Declension	Education/Knowledge	meester, leraar; leider
+934	stella -ae f.	star	Noun: 1st Declension	Air and Fire	ster
+935	ēdūcō -dūcere -dūxī -ductum	lead forth	Verb: 3rd Conjugation -ō	Verbs of Compelling/Directing	naar buiten leiden
+936	frūmentum -ī n.	grain	Noun: 2nd Declension	Animals/Plants	graan, koren
+937	suscipiō -cipere -cēpī ceptum	take up	Verb: 3rd Conjugation -iō	Verbs of Transport	op zich nemen, ondernemen
+938	quasi	as if	Adverb	Conjunctions/Adverbs	alsof, als het ware
+939	sacerdōs -dōtis m./f.	priest, priestess	Noun: 3rd Declension	Religion	priester, priesteres
+940	vīcīnus -a -um	neighboring, near	Adjective: 1st and 2nd Declension	Geography	naburig; buurman
+941	caveō cavēre cāvī cautum	be on guard, beware	Verb: 2nd Conjugation	Violence	oppassen, zich hoeden voor
+942	ēligō ēligere ēlēgī ēlēctum	pick out, select	Verb: 3rd Conjugation -ō	The City	uitkiezen
+943	familia -ae f.	household, family	Noun: 1st Declension	The Household	huisgezin, familie
+944	paene	almost	Adverb	Conjunctions/Adverbs	bijna
+945	praecipiō -cipere -cēpī -ceptum	anticipate, advise, warn	Verb: 3rd Conjugation -iō	Speech/Oratory	voorschrijven, aanraden; vooraf nemen
+946	sānus -a -um	sound, sane	Adjective: 1st and 2nd Declension	Life and Being	gezond
+947	potis -e	powerful, able	Adjective: 3rd Declension	Personality Traits/Characteristics	machtig, in staat
+948	prīncipium -ī n.	beginning	Noun: 2nd Declension	Time	begin
+949	sepulcrum -ī n.	place of burial, tomb, grave	Noun: 2nd Declension	Life and Being	graf
+950	mortālis -e	liable to death, mortal; (as subst.) a mortal	Adjective: 3rd Declension	Life and Being	sterfelijk; sterveling
+951	epistula -ae f.	letter	Noun: 1st Declension	Writing/Poetry	brief
+952	inimīcus -a -um:	unfriendly; (as subst.) enemy	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	vijandig; vijand
+953	interrogō -āre	put a question to, ask (+ acc.)	Verb: 1st Conjugation	Speech/Oratory	vragen, ondervragen
+954	cōnsuētūdo -inis f.	custom, habit	Noun: 3rd Declension	Personality Traits/Characteristics	gewoonte
+955	illūc	to that place	Adverb	Place	daarheen
+956	dīgnitās -ātis f.	worth, reputation, honor	Noun: 3rd Declension	Personality Traits/Characteristics	waardigheid, aanzien
+957	fugō -āre	put to flight	Verb: 1st Conjugation	Travel	op de vlucht jagen
+958	afficiō -ficere -fēcī -fectum	affect, visit with (+ abl.)	Verb: 3rd Conjugation -iō	Social Life	treffen, vervullen met (+ abl.)
+959	adhibeō -hibēre -hibuī -hibitum	apply	Verb: 2nd Conjugation	Making/Doing	aanwenden, gebruiken
+960	caelestis -e	from or of heaven; caelestēs, the gods	Adjective: 3rd Declension	Air and Fire	hemels; caelestes: de goden
+961	mulier -eris f.	woman	Noun: 3rd Declension	People	vrouw
+962	dīvus -a -um	divine, godlike; (as subst.) a god	Adjective: 1st and 2nd Declension	Religion	goddelijk; god
+963	arbitror arbitrārī arbitrātus sum	consider, think	Verb: Deponent	Education/Knowledge	menen, oordelen
+964	posteā	afterwards	Adverb	Time	later, daarna
+965	aedēs -is f.	building; (pl.) house	Noun: 3rd Declension	The House	tempel; aedes: huis
+966	fābula -ae f.	account, tale, story	Noun: 1st Declension	Writing/Poetry	verhaal, fabel
+967	celeriter	quickly	Adverb	Time	snel
+968	plērus- plēra- plērumque	the greater part, very many, most, the majority	Adjective: 1st and 2nd Declension	Measurement	de meeste, het merendeel
+969	quiēscō quiēscere quiēvī quiētum	keep quiet; sleep	Verb: 3rd Conjugation -ō	Life and Being	rusten, slapen
+970	quotiēns	interr. how many times? how often? rel. as often as, whenever	Adverb	Pronouns/Interrogatives	hoe vaak?; zo vaak als
+971	scientia -ae f.	knowledge	Noun: 1st Declension	Education/Knowledge	kennis, wetenschap
+972	cōnfiteor cōnfitērī cōnfessus sum	admit (a fact), confess (a crime); reveal, disclose	Verb: Deponent	Justice	bekennen, toegeven
+973	dīligō -ligere -lēxī -lēctum	choose, cherish, love	Verb: 3rd Conjugation -ō	Love	beminnen, hoogachten
+974	plērumque	generally	Adverb	Measurement	meestal
+975	dormiō -īre	sleep	Verb: 4th Conjugation	Life and Being	slapen
+976	volucris -is f./m.	bird	Noun: 3rd Declension	Animals/Plants	vogel
+977	volucer -cris -cre	flying	Adjective: 3rd Declension	Animals/Plants	gevleugeld, vliegend
+978	creō -āre	produce, create; elect, choose	Verb: 1st Conjugation	Making/Doing	scheppen, voortbrengen; verkiezen
+979	fidēlis -e	faithful	Adjective: 3rd Declension	Personality Traits/Characteristics	trouw
+980	indicō -āre	point out, show, make known	Verb: 1st Conjugation	Speech/Oratory	aanwijzen, bekendmaken
+981	hodiē	today	Adverb	Lengths of Time	vandaag
+982	disciplīna -ae f.	training, instruction; learning, discipline	Noun: 1st Declension	Education/Knowledge	onderwijs, opleiding; tucht
+983	vērē	truly	Adverb	Speech/Oratory	echt, waarlijk
+984	aegrē	with difficulty	Adverb	Life and Being	met moeite, nauwelijks
+985	fore		Verb: Irregular	Life and Being	zullen zijn (= futurum esse)
+986	advertō -vertere -vertī -versum	turn towards	Verb: 3rd Conjugation -ō	Motion	toewenden; animum advertere: opmerken
+987	adveniō -īre -vēnī -ventum	come to, arrive at	Verb: 4th Conjugation	Travel	aankomen, komen naar
+988	pendō pendere pependī pēnsum	weigh, hang, suspend; pay	Verb: 3rd Conjugation -ō	Business/Money	wegen; betalen; ophangen
+989	studeō -ēre -uī	be eager, be zealous, care for (+ dat.)	Verb: 2nd Conjugation	Emotions	ijverig zijn, streven naar (+ dat.); studeren
+990	ascendō -ere -scendī -scēnsum	climb up, ascend	Verb: 3rd Conjugation -ō	Travel	opklimmen, beklimmen
+991	vulgō	commonly	Adverb	The City	algemeen, overal
+992	breviter	briefly	Adverb	Measurement	kort, in het kort
+993	fors fortis f.	chance	Noun: 3rd Declension	Religion	toeval, lot
+994	fēlīciter	luckily	Adverb	Personality Traits/Characteristics	gelukkig, met succes
+995	revertō -vertere -vertī	turn back	Verb: 3rd Conjugation -ō	Motion	terugkeren, omkeren
+996	ēdīcō -dīcere -dīxī -dictum	declare	Verb: 3rd Conjugation -ō	Speech/Oratory	bekendmaken, afkondigen
+997	mundus -a -um	clean, neat, elegant	Adjective: 1st and 2nd Declension	Personality Traits/Characteristics	net, proper, elegant
