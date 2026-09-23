@@ -10,7 +10,7 @@ const styles = read('styles.css');
 
 test('loads pagination policy before the versioned application and provides a hidden reading-mode button', () => {
   const paginationScript = '<script src="pagination.js?v=20260802-2"></script>';
-  const appScript = '<script src="app.js?v=20260923-3"></script>';
+  const appScript = '<script src="app.js?v=20260923-4"></script>';
 
   assert.ok(index.includes(paginationScript), 'pagination policy script is loaded');
   assert.ok(index.includes(appScript), 'versioned app script is refreshed');

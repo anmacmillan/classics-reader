@@ -35,6 +35,8 @@ const state = {
   libraryGroupKey: null,
   overviewBookIndex: null,
   completed: {},
+  ownTextFormOpen: false,
+  tryFirst: false,
 };
 
 const GIST_FILE = "slovo_progress.json";
@@ -66,7 +68,10 @@ const STORAGE_KEYS = {
   VOCABULARY: "classics_personal_vocabulary",
   THEME: "classics_theme",
   OLD_ENGLISH_CACHE: "classics_old_english_toe_cache",
-  COMPLETED: "classics_completed_v1"
+  COMPLETED: "classics_completed_v1",
+  OWN_TEXTS: "classics_own_texts_v1",
+  OWN_LATIN_CACHE: "classics_own_latin_cache_v1",
+  TRY_FIRST: "classics_try_first"
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -74,6 +79,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     ...book,
     chapters: book.chapters.filter((chapter) => !chapter.isPreview),
   }));
+  // Own texts go last, so the indices of the shared library never move.
+  state.books.push(...loadOwnTexts().map(ownTextToBook));
+  restoreOwnLatinCache();
+  setupTryFirst();
   loadProgressFromStorage();
   loadCompletedFromStorage();
   loadVocabularyFromStorage();
@@ -483,6 +492,11 @@ function renderLibrary() {
   if (!grid) return;
   grid.innerHTML = "";
 
+  if (state.ownTextFormOpen) {
+    renderOwnTextForm(grid);
+    return;
+  }
+
   if (state.overviewBookIndex !== null) {
     renderBookOverview(grid, state.overviewBookIndex);
     return;
@@ -553,8 +567,25 @@ function renderLibrary() {
       }
     });
 
+    if (isOwnBook(book)) {
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "btn own-text-delete";
+      remove.textContent = "Verwijderen";
+      remove.addEventListener("click", (event) => {
+        event.stopPropagation();
+        if (!window.confirm(`“${book.title}” verwijderen van dit toestel?`)) return;
+        deleteOwnText(book.id);
+        if (!state.books.some(isOwnBook)) state.libraryGroupKey = null;
+        renderLibrary();
+      });
+      card.appendChild(remove);
+    }
+
     grid.appendChild(card);
   });
+
+  if (group.label === OWN_COLLECTION) grid.appendChild(ownTextAddCard());
 }
 
 /* ─── Book Overview: unit grid with completion states ────────────────────── */
@@ -615,6 +646,7 @@ function renderBookOverview(grid, idx) {
 }
 
 function renderGroupLibrary(grid) {
+  if (!state.books.some(isOwnBook)) grid.appendChild(ownTextAddCard());
   libraryGroups(state.books).forEach((group) => {
     const card = document.createElement("div");
     card.className = "book-card author-card";
@@ -633,6 +665,211 @@ function renderGroupLibrary(grid) {
     });
     grid.appendChild(card);
   });
+}
+
+/* ─── Own texts ─────────────────────────────────────────────────────────────
+   A pupil pastes the passage from her own schoolbook (on an iPad, Live Text
+   copies it straight from a photo). It is kept in this browser only: never
+   in the shared progress Gist, never published. Latin words the dictionary
+   lacks are analysed on the device by Whitaker's Words (own-text-latin.js);
+   Greek relies on the forms the library already knows. */
+
+const OWN_COLLECTION = "Eigen teksten";
+const OWN_ID_PREFIX = "own-";
+
+function loadOwnTexts() {
+  try {
+    const texts = JSON.parse(localStorage.getItem(STORAGE_KEYS.OWN_TEXTS) || "[]");
+    return Array.isArray(texts) ? texts : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveOwnTexts(texts) {
+  localStorage.setItem(STORAGE_KEYS.OWN_TEXTS, JSON.stringify(texts));
+}
+
+const isOwnBook = (book) => Boolean(book?.own);
+
+// Pasted text breaks lines where the page did, not where sentences end:
+// rejoin it (mending hyphenated breaks), then cut at sentence ends. Verse
+// keeps its lines. Greek also ends sentences with ; (question) and · .
+function splitOwnText(text, lang, keepLines) {
+  const clean = String(text || "").replace(/\r/g, "").trim();
+  if (keepLines) return clean.split("\n").map((line) => line.trim()).filter(Boolean);
+  const flowing = clean.replace(/-\n(?=\p{Ll})/gu, "").replace(/\s*\n\s*/g, " ");
+  // A closing quote or bracket may follow the stop: clamat: "Porta saccos!" Sed …
+  const ends = lang === "greek" ? /(?<=[.!?;·;]["”’»)]?)\s+/u : /(?<=[.!?]["”’»)]?)\s+/u;
+  return flowing.split(ends).map((sentence) => sentence.trim()).filter(Boolean);
+}
+
+function ownTextToBook(text) {
+  return {
+    id: text.id,
+    title: text.title,
+    author: OWN_COLLECTION,
+    collection: OWN_COLLECTION,
+    lang: text.lang,
+    year: new Date(text.createdAt).getFullYear(),
+    shortTitle: "Alleen op dit toestel",
+    own: true,
+    chapters: [{
+      title: text.title,
+      startLine: 1,
+      lines: splitOwnText(text.text, text.lang, text.keepLines),
+      translationCreditLanguage: "Eigen tekst",
+      translationCredit: "Alleen op dit toestel bewaard."
+    }]
+  };
+}
+
+function addOwnText({ title, lang, text, keepLines }) {
+  const record = {
+    id: `${OWN_ID_PREFIX}${Date.now().toString(36)}`,
+    title: title.trim() || "Mijn tekst",
+    lang,
+    text,
+    keepLines: Boolean(keepLines),
+    createdAt: new Date().toISOString()
+  };
+  saveOwnTexts([...loadOwnTexts(), record]);
+  state.books.push(ownTextToBook(record));
+  return state.books.length - 1;
+}
+
+function deleteOwnText(id) {
+  saveOwnTexts(loadOwnTexts().filter((text) => text.id !== id));
+  const index = state.books.findIndex((book) => book.id === id);
+  if (index < 0) return;
+  state.books.splice(index, 1);
+  delete state.completed[id];
+  saveCompletedToStorage();
+  if (state.currentBookIndex >= state.books.length) state.currentBookIndex = 0;
+}
+
+function restoreOwnLatinCache() {
+  try {
+    const cached = JSON.parse(localStorage.getItem(STORAGE_KEYS.OWN_LATIN_CACHE) || "{}");
+    if (typeof LATIN_DICT !== "undefined") {
+      for (const [key, entry] of Object.entries(cached)) if (!LATIN_DICT[key]) LATIN_DICT[key] = entry;
+    }
+  } catch {
+    // A damaged cache only costs a re-analysis.
+  }
+}
+
+function unknownWords(book) {
+  const words = new Set();
+  for (const line of book.chapters.flatMap((chapter) => chapter.lines)) {
+    for (const part of line.split(/\s+/)) {
+      const { word } = splitIntoWordAndPunctuation(part);
+      if (/\p{L}/u.test(word) && !getDictionaryEntry(word, book.lang)) words.add(normaliseLookupKey(word));
+    }
+  }
+  return [...words];
+}
+
+function wordCoverage(book) {
+  let known = 0;
+  let total = 0;
+  for (const line of book.chapters.flatMap((chapter) => chapter.lines)) {
+    for (const part of line.split(/\s+/)) {
+      const { word } = splitIntoWordAndPunctuation(part);
+      if (!/\p{L}/u.test(word)) continue;
+      total += 1;
+      if (getDictionaryEntry(word, book.lang)) known += 1;
+    }
+  }
+  return { known, total };
+}
+
+function setOwnTextStatus(book, status) {
+  const { known, total } = wordCoverage(book);
+  book.chapters[0].translationCredit = `${status ? `${status} ` : ""}${known} van ${total} woorden aanklikbaar. Alleen op dit toestel bewaard.`;
+}
+
+// Analyse the Latin words the dictionaries lack, then redraw if still open.
+async function completeOwnLatinText(bookIndex) {
+  const book = state.books[bookIndex];
+  if (!isOwnBook(book) || book.lang !== "latin") return;
+  const missing = unknownWords(book);
+  if (!missing.length) return;
+  setOwnTextStatus(book, "Woorden worden geanalyseerd…");
+  let analysed = {};
+  try {
+    const { analyseLatinWords } = await import("./own-text-latin.js");
+    analysed = await analyseLatinWords(missing);
+  } catch (error) {
+    console.warn("Latin analysis unavailable:", error);
+    setOwnTextStatus(book, "Analyse niet beschikbaar (offline?).");
+  }
+  Object.assign(LATIN_DICT, analysed);
+  try {
+    const cached = JSON.parse(localStorage.getItem(STORAGE_KEYS.OWN_LATIN_CACHE) || "{}");
+    localStorage.setItem(STORAGE_KEYS.OWN_LATIN_CACHE, JSON.stringify({ ...cached, ...analysed }));
+  } catch {
+    // Storage full: the analysis still applies for this session.
+  }
+  setOwnTextStatus(book, "");
+  if (state.currentBookIndex === bookIndex && isReaderOpen()) renderChapter();
+}
+
+function renderOwnTextForm(grid) {
+  const form = document.createElement("form");
+  form.className = "own-text-form";
+  form.innerHTML = `
+    <h2>Eigen tekst toevoegen</h2>
+    <p class="own-text-hint">Plak de tekst uit je handboek. Op een iPad: houd je vinger op de tekst in een foto
+      (Live Text), kies <em>Kopieer</em> en plak hier. De tekst blijft alleen op dit toestel.</p>
+    <label>Titel <input name="title" maxlength="80" placeholder="bv. Les 7 — De Gallische oorlog"></label>
+    <label>Taal
+      <select name="lang">
+        <option value="latin">Latijn — elk woord wordt geanalyseerd</option>
+        <option value="greek">Grieks — alleen woorden die al in de bibliotheek staan</option>
+      </select>
+    </label>
+    <label>Tekst <textarea name="text" rows="10" required placeholder="Gallia est omnis divisa in partes tres…"></textarea></label>
+    <label class="own-text-check"><input type="checkbox" name="keepLines"> Poëzie: regels behouden</label>
+    <div class="own-text-actions">
+      <button type="submit" class="btn">Opslaan en lezen</button>
+      <button type="button" class="btn own-text-cancel">Annuleren</button>
+    </div>
+  `;
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    if (!String(data.get("text") || "").trim()) return;
+    const index = addOwnText({
+      title: String(data.get("title") || ""),
+      lang: String(data.get("lang")),
+      text: String(data.get("text")),
+      keepLines: data.get("keepLines") === "on"
+    });
+    state.ownTextFormOpen = false;
+    selectBook(index, 0);
+  });
+  form.querySelector(".own-text-cancel").addEventListener("click", () => {
+    state.ownTextFormOpen = false;
+    renderLibrary();
+  });
+  grid.appendChild(form);
+  form.querySelector("textarea").focus();
+}
+
+function ownTextAddCard() {
+  const card = document.createElement("div");
+  card.className = "book-card author-card own-text-add";
+  card.innerHTML = `
+    <div class="book-icon">\u{270F}\u{FE0F}</div>
+    <h3>Eigen tekst toevoegen</h3>
+    <p class="author-work-count">Plak een tekst uit je handboek</p>
+  `;
+  card.addEventListener("click", () => {
+    state.ownTextFormOpen = true;
+    renderLibrary();
+  });
+  return card;
 }
 
 function workDisplayTitle(book) {
@@ -686,6 +923,10 @@ function selectBook(idx, chapterIndex, lineIndex = 0, { syncAfterPlacement = tru
   renderChapter({ syncAfterPlacement });
   updateHeaderContext();
   showFocusHeader();
+  if (isOwnBook(book)) {
+    setOwnTextStatus(book, "");
+    completeOwnLatinText(idx);
+  }
 }
 
 /* ─── Chapter Renderer ──────────────────────────────────────────────────── */
@@ -1611,11 +1852,18 @@ function renderInteractiveLine(line, lang, syntaxTokens = null) {
 /* ─── Word Hover & Tooltip ───────────────────────────────────────────────── */
 
 function setupWordHover() {
-  const activateWord = (wordSpan) => {
+  const activateWord = (wordSpan, prefixHtml = "") => {
     document.querySelectorAll(".dict-word.selected-word").forEach((selected) => {
       if (selected !== wordSpan) selected.classList.remove("selected-word");
     });
     wordSpan.classList.add("selected-word");
+    if (state.tryFirst && wordSpan.dataset.checked !== "1") {
+      showGuessPanel(wordSpan, (resultHtml) => {
+        wordSpan.dataset.checked = "1";
+        activateWord(wordSpan, resultHtml);
+      });
+      return;
+    }
 
     const rawWord = wordSpan.getAttribute("data-word");
     const lemma = wordSpan.getAttribute("data-lemma");
@@ -1638,7 +1886,8 @@ function setupWordHover() {
       nl,
       grammar || "Grammatica onbekend",
       activeVocabularyCandidate,
-      syntax
+      syntax,
+      prefixHtml
     );
 
     if (!en && lang === "old_english") {
@@ -1673,12 +1922,14 @@ function setupWordHover() {
   };
 
   document.addEventListener("mouseover", (e) => {
+    if (state.tryFirst) return;  // in try-first mode only a deliberate tap opens a word
     const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
     activateWord(wordSpan);
   });
 
   document.addEventListener("mouseout", (e) => {
+    if (state.tryFirst) return;
     const wordSpan = e.target.closest(".dict-word");
     if (!wordSpan) return;
     if (e.relatedTarget?.closest?.("#word-tooltip")) return;
@@ -1693,6 +1944,11 @@ function setupWordHover() {
       activateWord(wordSpan);
       return;
     }
+    const hiddenTranslation = state.tryFirst && e.target.closest(".translation-line");
+    if (hiddenTranslation) {
+      hiddenTranslation.classList.toggle("revealed");
+      return;
+    }
     if (e.target.closest("#word-tooltip")) return;
 
     document.querySelectorAll(".dict-word.selected-word").forEach((selected) => {
@@ -1702,7 +1958,135 @@ function setupWordHover() {
   });
 
   document.getElementById("word-tooltip")?.addEventListener("mouseenter", () => clearTimeout(tooltipHideTimer));
-  document.getElementById("word-tooltip")?.addEventListener("mouseleave", hideTooltip);
+  document.getElementById("word-tooltip")?.addEventListener("mouseleave", () => {
+    if (!state.tryFirst) hideTooltip();  // a half-filled guess must survive a stray pointer
+  });
+}
+
+/* ─── Try first ─────────────────────────────────────────────────────────────
+   The curricula teach a reading method: predict, analyse the form yourself,
+   then check. In try-first mode a tapped word asks for the pupil's own
+   reading before it shows anything, then marks it against the dictionary and
+   the parse; translations stay blurred until she taps them. */
+
+const GUESS_FORMS = ["nominatief", "genitief", "datief", "accusatief", "ablatief", "vocatief",
+  "persoonsvorm", "infinitief", "participium", "onverbuigbaar"];
+const GUESS_NUMBERS = ["enkelvoud", "meervoud"];
+const GUESS_ROLES = ["onderwerp", "lijdend voorwerp", "meewerkend voorwerp", "bijwoordelijke bepaling",
+  "bijvoeglijke bepaling", "gezegde", "voorwerp"];
+const INDECLINABLE = ["bw.", "vz.", "vw.", "tw.", "partikel"];
+
+function guessFormMatches(form, analysis) {
+  if (form === "persoonsvorm") return analysis.startsWith("ww.") && /indicatief|coniunctivus|imperatief|optativus/.test(analysis);
+  if (form === "participium") return /participium|gerundivum/.test(analysis);
+  if (form === "onverbuigbaar") return INDECLINABLE.some((pos) => analysis.startsWith(pos));
+  return analysis.includes(form);
+}
+
+// grammarNl: the popup's Dutch grammar line, alternatives joined by " of ".
+// Returns one row per answered question: ok true/false, and whether the form
+// was ambiguous (several analyses, the guess fits one of them).
+function checkGuess(guess, grammarNl, syntax = null) {
+  const analyses = String(grammarNl || "").split(" of ").filter(Boolean);
+  const rows = [];
+  const judge = (label, value, matches, answer) => {
+    if (!value) return;
+    if (!analyses.length && label !== "Zinsdeel") return;
+    const fits = label === "Zinsdeel" ? [matches(null)] : analyses.map(matches);
+    rows.push({ label, value, ok: fits.some(Boolean), ambiguous: fits.length > 1 && fits.some(Boolean) && !fits.every(Boolean), answer });
+  };
+  judge("Vorm", guess.form, (analysis) => guessFormMatches(guess.form, analysis), grammarNl);
+  judge("Getal", guess.number, (analysis) => analysis.includes(guess.number), grammarNl);
+  if (syntax?.role) {
+    const role = syntaxRoleNl(syntax.role, syntax.morph);
+    judge("Zinsdeel", guess.role, () => role.includes(guess.role), role);
+  }
+  return rows;
+}
+
+function guessResultHtml(guess, rows) {
+  const lines = rows.map(({ label, value, ok, ambiguous, answer }) => `
+    <div class="guess-row ${ok ? "guess-ok" : "guess-wrong"}">
+      ${ok ? "✓" : "✗"} ${label}: ${htmlEscape(value)}${ambiguous ? " (een van de mogelijkheden)" : ""}
+      ${ok ? "" : `<span class="guess-answer">→ ${htmlEscape(answer)}</span>`}
+    </div>`).join("");
+  const meaning = guess.meaning ? `<div class="guess-row">Jouw betekenis: <em>${htmlEscape(guess.meaning)}</em> — vergelijk hieronder.</div>` : "";
+  return lines || meaning ? `<div class="guess-result">${lines}${meaning}</div>` : "";
+}
+
+function guessOptions(values) {
+  return `<option value="">—</option>${values.map((value) => `<option>${value}</option>`).join("")}`;
+}
+
+function showGuessPanel(wordSpan, reveal) {
+  const tooltip = document.getElementById("word-tooltip");
+  const content = document.getElementById("tooltip-content");
+  if (!tooltip || !content) return;
+  const syntax = wordSpan.getAttribute("data-syntax-role")
+    ? { role: wordSpan.getAttribute("data-syntax-role"), morph: wordSpan.getAttribute("data-syntax-morph") }
+    : null;
+  content.innerHTML = `
+    <form class="guess-panel">
+      <div class="tooltip-header"><h4>${htmlEscape(wordSpan.getAttribute("data-word"))}</h4></div>
+      <p class="guess-intro">Eerst zelf: wat denk je?</p>
+      <label>Betekenis <input name="meaning" autocomplete="off"></label>
+      <label>Vorm <select name="form">${guessOptions(GUESS_FORMS)}</select></label>
+      <label>Getal <select name="number">${guessOptions(GUESS_NUMBERS)}</select></label>
+      ${syntax ? `<label>Zinsdeel <select name="role">${guessOptions(GUESS_ROLES)}</select></label>` : ""}
+      <div class="guess-actions">
+        <button type="submit" class="btn">Controleer</button>
+        <button type="button" class="btn guess-skip">Toon meteen</button>
+      </div>
+    </form>
+  `;
+  const form = content.querySelector("form");
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    const guess = {
+      meaning: String(data.get("meaning") || "").trim(),
+      form: String(data.get("form") || ""),
+      number: String(data.get("number") || ""),
+      role: String(data.get("role") || "")
+    };
+    reveal(guessResultHtml(guess, checkGuess(guess, wordSpan.getAttribute("data-grammar"), syntax)));
+  });
+  form.querySelector(".guess-skip").addEventListener("click", () => reveal(""));
+  tooltip.classList.remove("hidden");
+  const rect = wordSpan.getBoundingClientRect();
+  const box = tooltip.getBoundingClientRect();
+  tooltip.style.left = `${Math.max(10, Math.min(rect.left + rect.width / 2 - box.width / 2, window.innerWidth - box.width - 10))}px`;
+  tooltip.style.top = `${rect.top - box.height - 10 < 10 ? rect.bottom + 10 : rect.top - box.height - 10}px`;
+}
+
+function applyTryFirst(on) {
+  state.tryFirst = on;
+  document.body.classList.toggle("try-first", on);
+  const button = document.getElementById("try-first-btn");
+  if (button) {
+    button.setAttribute("aria-pressed", String(on));
+    button.textContent = on ? "Eerst zelf: aan" : "Eerst zelf";
+  }
+  document.querySelectorAll(".dict-word[data-checked]").forEach((word) => delete word.dataset.checked);
+  hideTooltip();
+}
+
+function setupTryFirst() {
+  let saved = false;
+  try {
+    saved = localStorage.getItem(STORAGE_KEYS.TRY_FIRST) === "1";
+  } catch {
+    // Private browsing: the mode simply starts off.
+  }
+  applyTryFirst(saved);
+  document.getElementById("try-first-btn")?.addEventListener("click", () => {
+    applyTryFirst(!state.tryFirst);
+    try {
+      localStorage.setItem(STORAGE_KEYS.TRY_FIRST, state.tryFirst ? "1" : "0");
+    } catch {
+      // Not remembered, still applied.
+    }
+  });
 }
 
 function coreBadgeHtml(anchorEl) {
@@ -1721,13 +2105,14 @@ function syntaxBoxHtml(syntax) {
   return `<div class="tooltip-syntax"${syntax.morph ? ` title="${htmlEscape(syntax.morph)}"` : ""}><strong>Zinsbouw</strong><br>${role}${head}${morph}</div>`;
 }
 
-function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax = null) {
+function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax = null, prefixHtml = "") {
   const tooltip = document.getElementById("word-tooltip");
   const content = document.getElementById("tooltip-content");
   if (!tooltip || !content) return;
   const saved = isVocabularyEntrySaved(vocabularyEntry);
 
   content.innerHTML = `
+    ${prefixHtml}
     <div class="tooltip-header">
       <h4>${word}</h4>
     </div>
@@ -1746,7 +2131,7 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
   content.querySelector(".tooltip-save")?.addEventListener("click", (event) => {
     event.stopPropagation();
     toggleVocabularyEntry(vocabularyEntry);
-    showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax);
+    showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, syntax, prefixHtml);
   });
 
   tooltip.classList.remove("hidden");
@@ -1808,9 +2193,10 @@ function vocabularyEntryFor(word, lemma, en, nl, grammar, lang) {
     grammar: grammar || "",
     lang,
     coreRank: coreRankFor(word, lang) || undefined,
-    author: book?.author || "",
-    work: book ? workDisplayTitle(book) : "",
-    chapter: chapter?.title || "",
+    // Saved words sync to the shared Gist; an own text's title must not.
+    author: isOwnBook(book) ? OWN_COLLECTION : book?.author || "",
+    work: book && !isOwnBook(book) ? workDisplayTitle(book) : "",
+    chapter: isOwnBook(book) ? "" : chapter?.title || "",
     addedAt: new Date().toISOString()
   };
 }
@@ -2015,20 +2401,32 @@ async function performProgressSync() {
     console.warn("Could not read Gist contents:", e);
   }
 
-  // Update classics progress
-  progressData.classics = {
+  // Update classics progress. Own texts stay on this device: while one is
+  // open, the shared position is left as it was.
+  const previous = progressData.classics || {};
+  const currentIsOwn = isOwnBook(state.books[state.currentBookIndex]);
+  const position = currentIsOwn ? {
+    currentBookId: previous.currentBookId,
+    currentBookIndex: previous.currentBookIndex,
+    currentChapterIndex: previous.currentChapterIndex,
+    currentPageIndex: previous.currentPageIndex,
+    currentLineIndex: previous.currentLineIndex
+  } : {
     currentBookId: state.books[state.currentBookIndex]?.id,
     currentBookIndex: state.currentBookIndex,
     currentChapterIndex: state.currentChapterIndex,
     currentPageIndex: state.currentPageIndex,
-    currentLineIndex: state.currentLineIndex,
+    currentLineIndex: state.currentLineIndex
+  };
+  progressData.classics = {
+    ...position,
     lastUpdated: new Date().toISOString(),
     vocabulary: state.vocabulary,
-    completed: state.completed,
-    books: state.books.map((book, idx) => ({
+    completed: Object.fromEntries(Object.entries(state.completed).filter(([id]) => !id.startsWith(OWN_ID_PREFIX))),
+    books: state.books.filter((book) => !isOwnBook(book)).map((book) => ({
       id: book.id,
       title: book.title,
-      chaptersRead: idx === state.currentBookIndex ? state.currentChapterIndex : (book.chaptersRead || 0),
+      chaptersRead: book === state.books[state.currentBookIndex] ? state.currentChapterIndex : (book.chaptersRead || 0),
       chapters: book.chapters.length
     }))
   };

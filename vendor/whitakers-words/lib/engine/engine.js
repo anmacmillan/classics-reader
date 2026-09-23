@@ -1,0 +1,315 @@
+import { formatWordAnalysis } from "../formatter/text-output.js";
+import { parseAddonsFile } from "../parsers/addons.js";
+import { parseDictFile } from "../parsers/dictline.js";
+import { parseInflectsFile } from "../parsers/inflects.js";
+import { parseUniquesFile } from "../parsers/uniques.js";
+import { tryPrefixes, trySuffixes, tryTackons } from "./addons-engine.js";
+import { tryCompound } from "./compounds.js";
+import { buildDictionaryIndex } from "./dictionary-index.js";
+import { buildEnglishIndex, searchEnglish, } from "./english-search.js";
+import { buildInflectionIndex } from "./inflection-index.js";
+import { listSweep } from "./list-sweep.js";
+import { parseRomanNumeral } from "./roman-numerals.js";
+import { trySlury } from "./slury.js";
+import { buildSuffixTrie } from "./suffix-trie.js";
+import { trySyncope } from "./syncope.js";
+import { applyTricks, trickAnnotation } from "./tricks.js";
+import { tryTwoWords } from "./two-words.js";
+import { analyzeWord } from "./word-analysis.js";
+export class WordsEngine {
+    #dictEntries;
+    #inflRecords;
+    #dictIndex;
+    #inflIndex;
+    #addons;
+    #uniques;
+    #uniquesByFirstChar;
+    #englishIndex;
+    // Pre-computed combined addon arrays (avoid re-spreading on every parseWord call)
+    #allTackons;
+    #allPackons;
+    #allPrefixes;
+    #suffixTrie;
+    constructor(dictEntries, inflRecords, dictIndex, inflIndex, addons, uniques, englishIndex) {
+        this.#dictEntries = dictEntries;
+        this.#inflRecords = inflRecords;
+        this.#dictIndex = dictIndex;
+        this.#inflIndex = inflIndex;
+        this.#addons = addons;
+        this.#uniques = uniques;
+        this.#uniquesByFirstChar = buildUniquesIndex(uniques);
+        this.#englishIndex = englishIndex;
+        this.#allTackons = addons.tackons;
+        this.#allPackons = addons.packons;
+        this.#allPrefixes = [...addons.prefixes, ...addons.tickons];
+        this.#suffixTrie = buildSuffixTrie(addons.suffixes);
+    }
+    /**
+     * Create a new WordsEngine from raw data file contents.
+     * The consumer provides the file contents (loaded via fs, fetch, etc.).
+     */
+    static create(data) {
+        const dictEntries = parseDictFile(data.dictline);
+        const inflRecords = parseInflectsFile(data.inflects);
+        const addons = parseAddonsFile(data.addons);
+        const uniques = parseUniquesFile(data.uniques);
+        // Synthesize a base "sum/esse" entry if not already present.
+        // DICTLINE.GEN has compound V 5 1 entries (absum, adsum, possum) but no
+        // standalone "sum". Ada generates this at compile time via its STEMFILE.
+        addSumEntry(dictEntries);
+        const dictIndex = buildDictionaryIndex(dictEntries);
+        const inflIndex = buildInflectionIndex(inflRecords);
+        const englishIndex = buildEnglishIndex(dictEntries);
+        return new WordsEngine(dictEntries, inflRecords, dictIndex, inflIndex, addons, uniques, englishIndex);
+    }
+    /** Analyze a single Latin word, returning all possible parses.
+     *  If nextWord is provided, also checks for compound verb forms (PPL + sum/esse).
+     */
+    parseWord(word, nextWord = "") {
+        const lowerWord = word.toLowerCase();
+        // 1. Check uniques first
+        const uniqueResults = this.#lookupUniques(lowerWord);
+        // 2. Standard dictionary + inflection analysis
+        let results = analyzeWord(lowerWord, this.#inflIndex, this.#dictIndex);
+        // 3. Deduplicate and rank
+        results = listSweep(results);
+        // 3a. Filter PRON 4 2 DEMONS (idem) from standalone results.
+        // This entry shares stems with PRON 4 1 (is/ea/id) and should only appear
+        // via the -dem tackon, not as a standalone parse of "i", "is", "eius", etc.
+        results = results.filter((r) => !(r.ir.qual.pofs === "PRON" &&
+            r.de.part.pofs === "PRON" &&
+            r.de.part.pron.decl.which === 4 &&
+            r.de.part.pron.decl.var === 2 &&
+            r.de.part.pron.kind === "DEMONS"));
+        // 4. If no results, try tricks (spelling variations)
+        let trickAnnotations = [];
+        let trickResults = [];
+        if (results.length === 0 && uniqueResults.length === 0) {
+            const trickWords = applyTricks(lowerWord);
+            for (const tw of trickWords) {
+                const trickParses = analyzeWord(tw.word, this.#inflIndex, this.#dictIndex);
+                if (trickParses.length > 0) {
+                    trickAnnotations = trickAnnotation(tw.trick);
+                    trickResults = listSweep(trickParses);
+                    break; // take first successful trick
+                }
+            }
+        }
+        // 4b. Always try slury (prefix assimilation detection) and syncope.
+        // Ada runs these alongside standard results (shown as additional info).
+        const sluryResult = trySlury(lowerWord, this.#inflIndex, this.#dictIndex);
+        const syncopeResult = trySyncope(lowerWord, this.#inflIndex, this.#dictIndex);
+        // 5. Try tackons (enclitics like -que, -ne, -ve) when no direct results found.
+        const addonResults = [];
+        const noResults = () => results.length === 0 &&
+            uniqueResults.length === 0 &&
+            trickResults.length === 0 &&
+            addonResults.length === 0;
+        if (noResults()) {
+            addonResults.push(...tryTackons(lowerWord, this.#allTackons, this.#allPackons, this.#inflIndex, this.#dictIndex));
+        }
+        // 6. Try prefixes — Ada tries prefix stripping before suffixes.
+        if (noResults()) {
+            addonResults.push(...tryPrefixes(lowerWord, this.#allPrefixes, this.#inflIndex, this.#dictIndex));
+        }
+        // 7. Try suffixes.
+        if (noResults()) {
+            addonResults.push(...trySuffixes(lowerWord, this.#suffixTrie, this.#inflIndex, this.#dictIndex));
+        }
+        // Sort addon results so more common words appear first.
+        // Each addon's baseResults are already sorted by listSweep; this sorts
+        // the addon blocks themselves by their best-frequency word.
+        if (addonResults.length > 1) {
+            const freqOf = (r) => {
+                const first = r.baseResults[0];
+                return first ? (FREQ_ORDER[first.de.tran.freq] ?? 10) : 99;
+            };
+            addonResults.sort((a, b) => freqOf(a) - freqOf(b));
+        }
+        // 8. Two-word splitting — last resort fallback.
+        let twoWordResult = null;
+        if (noResults() && !syncopeResult) {
+            twoWordResult = tryTwoWords(lowerWord, this.#inflIndex, this.#dictIndex);
+        }
+        // 9. Roman numeral detection — runs alongside other results (not fallback).
+        let romanNumeralResult = null;
+        const romanValue = parseRomanNumeral(word.toUpperCase());
+        if (romanValue !== null) {
+            romanNumeralResult = { value: romanValue };
+        }
+        // 10. Compound perfect passive — PPL + sum/esse/fuisse
+        const compoundResults = nextWord.length > 0 ? tryCompound(results, nextWord) : [];
+        // When a compound is detected, filter results to only matching NOM VPAR entries
+        // (Ada's Do_Clear_Pas_Nom_Ppl removes non-VPAR and non-NOM VPAR results)
+        if (compoundResults.length > 0) {
+            const compoundEntryIndices = new Set(compoundResults.map((c) => c.entryIndex));
+            results = results.filter((r) => r.ir.qual.pofs === "VPAR" &&
+                r.ir.qual.vpar.tenseVoiceMood.tense === "PERF" &&
+                r.ir.qual.vpar.tenseVoiceMood.voice === "PASSIVE" &&
+                r.ir.qual.vpar.tenseVoiceMood.mood === "PPL" &&
+                r.ir.qual.vpar.cs === "NOM" &&
+                compoundEntryIndices.has(r.entryIndex));
+        }
+        return {
+            word,
+            results,
+            uniqueResults,
+            addonResults,
+            trickAnnotations,
+            trickResults,
+            sluryResult,
+            syncopeResult,
+            twoWordResult,
+            romanNumeralResult,
+            compoundResults,
+        };
+    }
+    /**
+     * Parse a line of Latin text, handling compound verb detection (PPL + sum/esse).
+     * Returns an analysis per word. When a compound is detected, the next word
+     * (the sum/esse form) is consumed and not returned as a separate analysis.
+     */
+    parseLine(line) {
+        const cleaned = line.replace(/[^a-zA-Z]/g, " ");
+        const words = cleaned.split(/\s+/).filter((w) => w.length > 0);
+        const analyses = [];
+        let skipNext = false;
+        for (let i = 0; i < words.length; i++) {
+            if (skipNext) {
+                skipNext = false;
+                continue;
+            }
+            const word = words[i] ?? "";
+            if (word.length === 0)
+                continue;
+            const nextWord = words[i + 1] ?? "";
+            const analysis = this.parseWord(word, nextWord);
+            if (analysis.compoundResults.length > 0) {
+                skipNext = true;
+            }
+            analyses.push(analysis);
+        }
+        return analyses;
+    }
+    /** Format a line of Latin text with compound verb detection. */
+    formatLine(line) {
+        const analyses = this.parseLine(line);
+        const parts = [];
+        for (const a of analyses) {
+            const output = formatWordAnalysis(a);
+            if (output.length > 0)
+                parts.push(output);
+        }
+        return parts.join("\n");
+    }
+    /** Search English-to-Latin. */
+    searchEnglish(word, maxResults = 6) {
+        return searchEnglish(this.#englishIndex, word, maxResults);
+    }
+    /** Format a word analysis as human-readable text. */
+    formatWord(word) {
+        const analysis = this.parseWord(word);
+        return formatWordAnalysis(analysis);
+    }
+    /** Get the addons data. */
+    get addons() {
+        return this.#addons;
+    }
+    /** Get the number of dictionary entries. */
+    get dictionarySize() {
+        return this.#dictEntries.length;
+    }
+    /** Get the number of inflection records. */
+    get inflectionCount() {
+        return this.#inflRecords.length;
+    }
+    /** Get the number of unique entries. */
+    get uniqueCount() {
+        return this.#uniques.length;
+    }
+    #lookupUniques(word) {
+        let firstChar = word.charAt(0);
+        if (firstChar === "v")
+            firstChar = "u";
+        if (firstChar === "j")
+            firstChar = "i";
+        const bucket = this.#uniquesByFirstChar.get(firstChar);
+        if (!bucket)
+            return [];
+        const results = [];
+        for (const entry of bucket) {
+            if (equLatin(entry.word.toLowerCase(), word)) {
+                results.push(entry);
+            }
+        }
+        return results;
+    }
+}
+function equLatin(a, b) {
+    if (a.length !== b.length)
+        return false;
+    for (let i = 0; i < a.length; i++) {
+        const ca = normalizeLatinChar(a.charAt(i));
+        const cb = normalizeLatinChar(b.charAt(i));
+        if (ca !== cb)
+            return false;
+    }
+    return true;
+}
+const FREQ_ORDER = {
+    A: 0,
+    B: 1,
+    C: 2,
+    D: 3,
+    E: 4,
+    F: 5,
+    I: 6,
+    M: 7,
+    N: 8,
+    X: 9,
+};
+function normalizeLatinChar(c) {
+    if (c === "v")
+        return "u";
+    if (c === "j")
+        return "i";
+    return c;
+}
+function buildUniquesIndex(uniques) {
+    const index = new Map();
+    for (const entry of uniques) {
+        let firstChar = entry.word.charAt(0).toLowerCase();
+        if (firstChar === "v")
+            firstChar = "u";
+        if (firstChar === "j")
+            firstChar = "i";
+        let bucket = index.get(firstChar);
+        if (!bucket) {
+            bucket = [];
+            index.set(firstChar, bucket);
+        }
+        bucket.push(entry);
+    }
+    return index;
+}
+/**
+ * Synthesize a standalone "sum/esse/fui/futurus" entry if not present in DICTLINE.
+ * Ada generates this at compile time in its STEMFILE. DICTLINE.GEN only has compound
+ * V 5 1 entries (absum, adsum, possum) but the base "sum" verb needs its own entry
+ * so that forms like "est", "esse", "erat" can be found via blank-stem lookup.
+ */
+function addSumEntry(entries) {
+    // Check if a standalone sum entry already exists
+    const hasSum = entries.some((e) => e.part.pofs === "V" && e.part.v.con.which === 5 && e.stems[0] === "s" && e.stems[1] === "");
+    if (hasSum)
+        return;
+    // Stems: s (present 1sg "sum"), blank (key=2 endings like "est"/"esse" are full forms),
+    // fu (perfect "fui"), fut (future participle "futurus")
+    const sumEntry = {
+        stems: ["s", "", "fu", "fut"],
+        part: { pofs: "V", v: { con: { which: 5, var: 1 }, kind: "TO_BE" } },
+        tran: { age: "X", area: "X", geo: "X", freq: "A", source: "X" },
+        mean: "be; exist; (also used to form verb perfect passive tenses) with NOM PERF PPL",
+    };
+    entries.push(sumEntry);
+}

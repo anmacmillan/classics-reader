@@ -31,3 +31,4 @@ check:
 	node --check generated/imported-dutch-dictionary.js
 	node --check generated/imported-danish-dictionary.js
 	node --check generated/core-vocabulary.js
+	node --check own-text-latin.js

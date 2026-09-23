@@ -1146,3 +1146,133 @@ body.paged-reader .chapter-intro .translation-credit {
 .core-progress-next em {
   color: var(--text-muted);
 }
+
+/* Own texts: the add form and the delete button on an own-text card */
+.own-text-form {
+  grid-column: 1 / -1;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.own-text-form h2 {
+  margin: 0;
+}
+
+.own-text-hint {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.own-text-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.own-text-form input,
+.own-text-form select,
+.own-text-form textarea,
+.guess-panel input,
+.guess-panel select {
+  font: inherit;
+  font-size: 16px; /* below 16px iOS Safari zooms the page on focus */
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.own-text-form textarea {
+  font-family: var(--font-reading);
+  min-height: 12em;
+}
+
+.own-text-form .own-text-check {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.own-text-actions,
+.guess-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.own-text-delete {
+  margin-top: 8px;
+  font-size: 0.72rem;
+}
+
+/* Try first: translations blurred until tapped, agreement colours off */
+.header-try-first[aria-pressed="true"] {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+
+body.try-first .translation-line:not(.revealed) {
+  filter: blur(6px);
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Role colours and agreement washes would give the answer away. */
+body.try-first .dict-word[data-syntax-agreement] {
+  background-color: transparent;
+}
+
+body.try-first .dict-word[data-syntax-role] {
+  text-decoration-color: var(--text-muted);
+}
+
+.guess-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 220px;
+}
+
+.guess-panel label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.guess-intro {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.guess-result {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+}
+
+.guess-row + .guess-row {
+  margin-top: 3px;
+}
+
+.guess-ok {
+  color: #16a34a;
+}
+
+.guess-wrong {
+  color: #dc2626;
+}
+
+.guess-answer {
+  display: block;
+  color: var(--text-dim);
+  margin-left: 14px;
+}
