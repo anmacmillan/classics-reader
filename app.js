@@ -1389,13 +1389,30 @@ function syntaxPastel(group) {
   return `var(--syntax-pastel-${hash % 6})`;
 }
 
+// The parser splits punctuation (and sometimes clitics) into tokens of their
+// own, so parses are matched to words by text, not by position.
+const SYNTAX_LOOKAHEAD = 6;
+
+function takeSyntaxToken(syntaxTokens, cursor, word) {
+  if (!syntaxTokens) return null;
+  const key = word.toLowerCase();
+  const limit = Math.min(syntaxTokens.length, cursor.index + SYNTAX_LOOKAHEAD);
+  for (let i = cursor.index; i < limit; i++) {
+    if (String(syntaxTokens[i].word).toLowerCase() === key) {
+      cursor.index = i + 1;
+      return syntaxTokens[i];
+    }
+  }
+  return null;
+}
+
 function renderInteractiveLine(line, lang, syntaxTokens = null) {
-  let syntaxIndex = 0;
+  const syntaxCursor = { index: 0 };
   return String(line).split(/(\s+)/).map((part) => {
     if (/^\s+$/.test(part)) return part;
     const { before, word, after } = splitIntoWordAndPunctuation(part);
     const entry = getDictionaryEntry(word, lang);
-    const syntax = syntaxTokens?.[syntaxIndex++];
+    const syntax = takeSyntaxToken(syntaxTokens, syntaxCursor, word);
     const safeWord = htmlEscape(word);
     if (!entry) return `${before}${safeWord}${after}`;
     const safeLemma = htmlEscape(entry.lemma || entry.def);

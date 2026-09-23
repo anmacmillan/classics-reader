@@ -1,0 +1,108 @@
+{
+  "id": "kierkegaard-diapsalmata",
+  "title": "Kierkegaard — Diapsalmata",
+  "shortTitle": "Enten – Eller I (the aesthete A), and the journal: life understood backwards",
+  "author": "Søren Kierkegaard",
+  "year": 1843,
+  "lang": "danish",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatic Stanza Danish dependency parse (modern Danish model on 1843 spelling); check doubtful cases",
+  "chapters": [
+    {
+      "title": "Hvad er en Digter? — What is a poet?",
+      "startLine": 1,
+      "original": "danish-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Danish: Søren Kierkegaards Skrifter, vol. 2 (Enten – Eller I) and vol. 18 (Journal JJ:167), Søren Kierkegaard Research Centre, CC0, 1843 spelling · EN: sentence-by-sentence study translation, checked against L. M. Hollander (1923) where his selection overlaps · ❧ marks the start of each aphorism",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://tekster.kb.dk/text/sks-ee1-txt-root"
+    },
+    {
+      "title": "Hvad om Latteren egentlig var Graad! — laughter and weeping",
+      "startLine": 1,
+      "original": "danish-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "Mod har jeg til at tvivle — courage to doubt",
+      "startLine": 1,
+      "original": "danish-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Min Betragtning af Livet er aldeles meningsløs — my view of life",
+      "startLine": 1,
+      "original": "danish-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Naar jeg staaer op om Morgenen — straight back to bed",
+      "startLine": 1,
+      "original": "danish-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Min Tid deler jeg saaledes — how I divide my time",
+      "startLine": 1,
+      "original": "danish-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "Ild i Coulisserne — the clown and the fire",
+      "startLine": 1,
+      "original": "danish-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "En Traad med — one thread more in the calico",
+      "startLine": 1,
+      "original": "danish-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Jeg har kun een Ven, det er Eccho — my only friend",
+      "startLine": 1,
+      "original": "danish-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Mit Liv er som en evig Nat — my life as eternal night",
+      "startLine": 1,
+      "original": "danish-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Tautologien — the highest principle",
+      "startLine": 1,
+      "original": "danish-11.txt",
+      "english": "english-11.txt"
+    },
+    {
+      "title": "Enten – Eller: Et exstatisk Foredrag — marry, and you will regret it",
+      "startLine": 1,
+      "original": "danish-12.txt",
+      "english": "english-12.txt"
+    },
+    {
+      "title": "Hvorfor blev jeg ikke født i Nyboder? — the destroying angel",
+      "startLine": 1,
+      "original": "danish-13.txt",
+      "english": "english-13.txt"
+    },
+    {
+      "title": "Min Sorg det er min Ridderborg — my sorrow is my castle",
+      "startLine": 1,
+      "original": "danish-14.txt",
+      "english": "english-14.txt"
+    },
+    {
+      "title": "Journalen JJ:167 — life understood backwards, lived forwards",
+      "startLine": 1,
+      "original": "danish-15.txt",
+      "english": "english-15.txt",
+      "translationCredit": "Danish: Søren Kierkegaards Skrifter, vol. 18, Journal JJ:167 (1843), CC0 · EN: study translation",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://tekster.kb.dk/text/sks-jj-txt-root"
+    }
+  ]
+}

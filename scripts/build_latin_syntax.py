@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Attach Stanza dependency parses to imported Latin or Ancient Greek texts.
+"""Attach Stanza dependency parses to imported Latin, Ancient Greek, Old English or Danish texts.
 
 The generated JSON is deliberately small and presentation-oriented: each
 source line contains the word, lemma, Universal Dependencies relation, and
@@ -51,7 +51,7 @@ def parse_book(import_id: str, pipeline) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("imports", nargs="*", help="Import IDs (default: every import in --lang)")
-    parser.add_argument("--lang", choices=("latin", "greek", "old_english"), default="latin", help="Corpus language to parse")
+    parser.add_argument("--lang", choices=("latin", "greek", "old_english", "danish"), default="latin", help="Corpus language to parse")
     args = parser.parse_args()
     import_ids = args.imports
     if not import_ids:
@@ -60,7 +60,7 @@ if __name__ == "__main__":
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             if manifest.get("lang") == args.lang and not manifest_path.parent.name.startswith("_"):
                 import_ids.append(manifest_path.parent.name)
-    pipeline = stanza.Pipeline({"latin": "la", "greek": "grc", "old_english": "ang"}[args.lang], processors="tokenize,pos,lemma,depparse", tokenize_no_ssplit=False, verbose=False)
+    pipeline = stanza.Pipeline({"latin": "la", "greek": "grc", "old_english": "ang", "danish": "da"}[args.lang], processors="tokenize,pos,lemma,depparse", tokenize_no_ssplit=False, verbose=False)
     for import_id in import_ids:
         print(f"Parsing {import_id}...", flush=True)
         parse_book(import_id, pipeline)

@@ -80,12 +80,33 @@ test("deployment versions refresh the changed assets", () => {
   assert.match(indexHtml, /<link rel="icon" href="icon\.png">/);
   assert.match(indexHtml, /styles\.css\?v=20260802-2/);
   assert.match(indexHtml, /pagination\.js\?v=20260802-2/);
-  assert.match(indexHtml, /app\.js\?v=20260923-1/);
-  assert.match(serviceWorker, /const CACHE = "classics-reader-v30"/);
+  assert.match(indexHtml, /app\.js\?v=20260923-2/);
+  assert.match(serviceWorker, /const CACHE = "classics-reader-v31"/);
   assert.match(coreAssets, /"styles\.css"/);
   assert.match(coreAssets, /"pagination\.js"/);
   assert.match(coreAssets, /"app\.js"/);
   assert.match(coreAssets, /"icon\.png"/);
   assert.match(coreAssets, /"generated\/imported-danish-dictionary\.js"/);
   assert.match(makefileSource, /\n\tnode --check pagination\.js\n\tnode --check app\.js(?:\n|$)/);
+});
+
+test("syntax parses stay on their own word when the parser splits off punctuation", () => {
+  const runtime = createRuntime();
+  const entry = { def: "x", grammar: "x" };
+  runtime.LATIN_DICT = { ita: entry, fac: entry, mi: entry, lucili: entry };
+  const tokens = [
+    { word: "Ita", role: "advmod", head: "fac", morph: "" },
+    { word: "fac", role: "root", head: "", morph: "" },
+    { word: ",", role: "punct", head: "mi", morph: "" },
+    { word: "mi", role: "conj", head: "fac", morph: "" },
+    { word: "Lucili", role: "nsubj", head: "mi", morph: "" },
+    { word: ":", role: "punct", head: "mi", morph: "" }
+  ];
+  runtime.line = "Ita fac, mi Lucili:";
+  runtime.tokens = tokens;
+  const html = vm.runInContext('renderInteractiveLine(line, "latin", tokens)', runtime);
+  const roles = [...html.matchAll(/data-word="([^"]+)"[^>]*data-syntax-role="([^"]+)"/g)]
+    .map(([, word, role]) => `${word}:${role}`);
+
+  assert.deepEqual(roles, ["Ita:advmod", "fac:root", "mi:conj", "Lucili:nsubj"]);
 });
