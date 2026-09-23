@@ -1,0 +1,28 @@
+{
+  "id": "kierkegaard-frygt-og-baeven",
+  "title": "Kierkegaard — Frygt og Bæven",
+  "shortTitle": "Forord, Stemning, Lovtale over Abraham",
+  "author": "Søren Kierkegaard (Johannes de silentio)",
+  "year": 1843,
+  "lang": "danish",
+  "chapters": [
+    {
+      "title": "Forord — Preface: the clearance sale of ideas",
+      "startLine": 1,
+      "original": "danish-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Danish: Søren Kierkegaards Skrifter, vol. 4 (Søren Kierkegaard Research Centre, CC0), 1843 spelling · EN: sentence-by-sentence study translation, checked against L. M. Hollander (1923)",
+      "translationCreditLanguage": "Sources",
+      "translationUrl": "https://tekster.kb.dk/text/sks-fb-txt-root"
+    },
+    { "title": "Stemning — Attunement: the man who longed to see Abraham", "startLine": 1, "original": "danish-02.txt", "english": "english-02.txt" },
+    { "title": "Stemning I — Abraham feigns the idolater", "startLine": 1, "original": "danish-03.txt", "english": "english-03.txt" },
+    { "title": "Stemning II — Abraham sacrifices the ram and loses joy", "startLine": 1, "original": "danish-04.txt", "english": "english-04.txt" },
+    { "title": "Stemning III — Abraham asks forgiveness", "startLine": 1, "original": "danish-05.txt", "english": "english-05.txt" },
+    { "title": "Stemning IV — Isaac sees the clenched hand", "startLine": 1, "original": "danish-06.txt", "english": "english-06.txt" },
+    { "title": "Lovtale over Abraham 1 — the hero and the poet", "startLine": 1, "original": "danish-07.txt", "english": "english-07.txt" },
+    { "title": "Lovtale over Abraham 2 — by faith Abraham went out", "startLine": 1, "original": "danish-08.txt", "english": "english-08.txt" },
+    { "title": "Lovtale over Abraham 3 — but Abraham believed", "startLine": 1, "original": "danish-09.txt", "english": "english-09.txt" },
+    { "title": "Lovtale over Abraham 4 — Mount Moriah; venerable Father Abraham", "startLine": 1, "original": "danish-10.txt", "english": "english-10.txt" }
+  ]
+}

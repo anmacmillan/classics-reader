@@ -1,9 +1,11 @@
-const CACHE = "classics-reader-v29";
+const CACHE = "classics-reader-v30";
 const CORE = [
   "./", "index.html", "styles.css", "pagination.js", "app.js", "data.js", "dictionary.js",
   "generated/imported-books.js", "generated/imported-latin-dictionary.js",
   "generated/imported-greek-dictionary.js",
-  "generated/imported-old-english-dictionary.js", "icon.png", "manifest.json"
+  "generated/imported-old-english-dictionary.js",
+  "generated/imported-middle-dutch-dictionary.js", "generated/imported-dutch-dictionary.js",
+  "generated/imported-danish-dictionary.js", "icon.png", "manifest.json"
 ];
 
 self.addEventListener("install", event => {

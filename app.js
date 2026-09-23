@@ -12,6 +12,7 @@ const LANG_META = {
   old_english: { label: "Oudengels", labelEn: "Old English", icon: "\u{1F4D6}" },
   middle_dutch: { label: "Middelnederlands", labelEn: "Middle Dutch", icon: "\u{1F98A}" },
   dutch: { label: "Nederlands", labelEn: "Dutch", icon: "\u{1F4D6}" },
+  danish: { label: "Deens", labelEn: "Danish", icon: "\u{1F4D6}" },
 };
 function langLabel(lang) {
   return LANG_META[lang]?.label || lang;
@@ -332,7 +333,7 @@ function updateHeaderContext() {
   if (!document.body.classList.contains("reader-mode")) {
     const group = selectedLibraryGroup();
     primary.textContent = group?.label || "Library";
-    secondary.textContent = group ? libraryGroupSummary(group) : "Latin · Greek · Dutch";
+    secondary.textContent = group ? libraryGroupSummary(group) : "Latin · Greek · Dutch · Danish";
     return;
   }
 
@@ -1308,16 +1309,16 @@ function getDictionaryEntry(rawWord, lang) {
     .toLowerCase()
     .replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
   const normalised = normaliseLookupKey(rawWord);
-  if (lang !== "greek" && lang !== "latin" && lang !== "old_english" && lang !== "middle_dutch" && lang !== "dutch") return null;
-  const dict = lang === "greek"
-    ? GREEK_DICT
-    : lang === "latin"
-      ? LATIN_DICT
-      : lang === "old_english"
-        ? OLD_ENGLISH_DICT
-        : lang === "middle_dutch"
-          ? MIDDLE_DUTCH_DICT
-          : DUTCH_DICT;
+  // Lazy: each dictionary is a global from its own script tag.
+  const dict = {
+    greek: () => GREEK_DICT,
+    latin: () => LATIN_DICT,
+    old_english: () => OLD_ENGLISH_DICT,
+    middle_dutch: () => MIDDLE_DUTCH_DICT,
+    dutch: () => DUTCH_DICT,
+    danish: () => DANISH_DICT,
+  }[lang]?.();
+  if (!dict) return null;
   return dict[original] || dict[normalised] || null;
 }
 
