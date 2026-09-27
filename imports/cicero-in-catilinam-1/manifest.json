@@ -1,0 +1,86 @@
+{
+  "id": "cicero-in-catilinam-1",
+  "title": "Cicero — In Catilinam I",
+  "shortTitle": "De eerste rede tegen Catilina",
+  "author": "Cicero",
+  "year": -63,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [{"network": "kov", "stage": "third-degree", "status": "required-genre-example", "genres": ["rhetoric"]}, {"network": "go", "stage": "third-degree", "status": "supporting-text", "genres": ["rhetoric"]}],
+  "chapters": [
+    {
+      "title": "Hoe lang nog, Catilina? (§ 1–2)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestand: CC BY-SA 4.0 · Latijn: A. C. Clark, Oxford Classical Text (1908), zonder kritische noten; één regel per zin of korte zinsgroep, § in de hoofdstuktitels · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/cc843833e101992ba54549005273cfe61a33504b/data/phi0474/phi013"
+    },
+    {
+      "title": "Voorbeelden uit het verleden (§ 3–6)",
+      "startLine": 10,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Ik weet alles wat je doet (§ 6–10)",
+      "startLine": 26,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Vertrek uit de stad! (§ 10–12)",
+      "startLine": 45,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Een leven vol schande (§ 13–16)",
+      "startLine": 58,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Het vaderland spreekt (§ 16–19)",
+      "startLine": 75,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Het zwijgen van de senaat (§ 20–21)",
+      "startLine": 92,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Naar Manlius en de oorlog (§ 22–27)",
+      "startLine": 101,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Het verwijt van het vaderland (§ 27–29)",
+      "startLine": 119,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Slotwoord en gebed tot Jupiter (§ 30–33)",
+      "startLine": 134,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    }
+  ]
+}

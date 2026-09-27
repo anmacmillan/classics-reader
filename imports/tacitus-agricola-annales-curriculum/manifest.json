@@ -1,0 +1,152 @@
+{
+  "id": "tacitus-agricola-annales-curriculum",
+  "title": "Tacitus — Agricola en Annalen: schoolselecties",
+  "shortTitle": "Calgacus, Tiberius en Agrippina",
+  "author": "Tacitus",
+  "year": 117,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [{"network": "kov", "stage": "third-degree", "status": "required-author", "genres": ["historiography"]}, {"network": "go", "stage": "third-degree", "status": "supporting-text", "genres": ["historiography"]}],
+  "chapters": [
+    {
+      "title": "Calgacus: de laatste vrije volken (Agricola 30)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestand: CC BY-SA 4.0 · Latijn Agricola: H. Furneaux (Oxford, 1900) · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/cc843833e101992ba54549005273cfe61a33504b/data/phi1351/phi001"
+    },
+    {
+      "title": "Calgacus: wat Rome ons afneemt (Agricola 31)",
+      "startLine": 7,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Calgacus: de zwakte van Rome (Agricola 32)",
+      "startLine": 14,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Van koningen tot principaat (Annalen I.1–2)",
+      "startLine": 24,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt",
+      "translationCredit": "Perseus-bestand: CC BY-SA 4.0 · Latijn Annalen: C. D. Fisher, Oxford Classical Text (1906); crux in I.10 weergegeven als ‘Q. Tedii et Vedii’ · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/cc843833e101992ba54549005273cfe61a33504b/data/phi1351/phi005"
+    },
+    {
+      "title": "Wie volgt Augustus op? (Annalen I.3–4)",
+      "startLine": 32,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "De dood van Augustus en de eerste moord (Annalen I.5–6)",
+      "startLine": 44,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Rome stort zich in slavernij (Annalen I.7)",
+      "startLine": 55,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Testament en begrafenis (Annalen I.8)",
+      "startLine": 65,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Het oordeel over Augustus (Annalen I.9–10)",
+      "startLine": 73,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Tiberius aarzelt (Annalen I.11–12)",
+      "startLine": 88,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "Gevaarlijke woorden in de senaat (Annalen I.13)",
+      "startLine": 101,
+      "original": "latin-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    },
+    {
+      "title": "Eerbewijzen en verkiezingen (Annalen I.14–15)",
+      "startLine": 110,
+      "original": "latin-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Poppaea en Agrippina (Annalen XIV.1–2)",
+      "startLine": 120,
+      "original": "latin-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Een schip dat uit elkaar valt (Annalen XIV.3–4)",
+      "startLine": 128,
+      "original": "latin-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Schipbreuk in de baai (Annalen XIV.5–6)",
+      "startLine": 144,
+      "original": "latin-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    },
+    {
+      "title": "Nero in paniek (Annalen XIV.7)",
+      "startLine": 151,
+      "original": "latin-16.txt",
+      "english": "english-16.txt",
+      "dutch": "dutch-16.txt"
+    },
+    {
+      "title": "De moord op Agrippina (Annalen XIV.8–9)",
+      "startLine": 159,
+      "original": "latin-17.txt",
+      "english": "english-17.txt",
+      "dutch": "dutch-17.txt"
+    },
+    {
+      "title": "Nero na de moord (Annalen XIV.10–11)",
+      "startLine": 172,
+      "original": "latin-18.txt",
+      "english": "english-18.txt",
+      "dutch": "dutch-18.txt"
+    },
+    {
+      "title": "Rome juicht de moedermoordenaar toe (Annalen XIV.12–13)",
+      "startLine": 183,
+      "original": "latin-19.txt",
+      "english": "english-19.txt",
+      "dutch": "dutch-19.txt"
+    }
+  ]
+}

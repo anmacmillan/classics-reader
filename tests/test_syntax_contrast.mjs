@@ -81,7 +81,7 @@ test("deployment versions refresh the changed assets", () => {
   assert.match(indexHtml, /styles\.css\?v=20260927-1/);
   assert.match(indexHtml, /pagination\.js\?v=20260802-2/);
   assert.match(indexHtml, /app\.js\?v=20260927-3/);
-  assert.match(serviceWorker, /const CACHE = "classics-reader-v38"/);
+  assert.match(serviceWorker, /const CACHE = "classics-reader-v39"/);
   assert.match(coreAssets, /"styles\.css"/);
   assert.match(coreAssets, /"pagination\.js"/);
   assert.match(coreAssets, /"app\.js"/);
