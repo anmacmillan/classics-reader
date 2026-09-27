@@ -1962,7 +1962,9 @@ function latinSegmentNl(segment) {
   if (!pos || !(pos in LATIN_CODES_NL)) return segment.trim();  // a free-text note
   const slot = { other: [] };
   // Codes come first; from the first word that is not a code, the rest is a note.
-  const noteStart = tokens.findIndex((token, index) => index > 0 && !/^\d$/.test(token) && !(token in LATIN_CODES_NL) && token !== "N");
+  // "DAT/ABL", "M/F": alternatives within one slot, when a form is ambiguous.
+  const isCode = (token) => token.split("/").every((part) => part in LATIN_CODES_NL || part === "N");
+  const noteStart = tokens.findIndex((token, index) => index > 0 && !/^\d$/.test(token) && !isCode(token));
   const codes = noteStart > 0 ? tokens.slice(1, noteStart) : tokens.slice(1);
   if (noteStart > 0) slot.note = tokens.slice(noteStart).join(" ");
   codes.forEach((token, index) => {
@@ -1973,6 +1975,14 @@ function latinSegmentNl(segment) {
       return;
     }
     if (token === "N" && pos !== "V") { slot.gender = "onzijdig"; return; }
+    if (token.includes("/")) {
+      const parts = token.split("/");
+      const name = Object.keys(LATIN_CODE_SLOTS).find((key) => LATIN_CODE_SLOTS[key].includes(parts[0])) ||
+        (parts.includes("N") && pos !== "V" ? "gender" : null);
+      const dutch = parts.map((part) => (part === "N" && pos !== "V" ? "onzijdig" : LATIN_CODES_NL[part])).filter(Boolean).join("/");
+      if (name) slot[name] = dutch; else slot.other.push(dutch);
+      return;
+    }
     const name = Object.keys(LATIN_CODE_SLOTS).find((key) => LATIN_CODE_SLOTS[key].includes(token));
     if (name) slot[name] = LATIN_CODES_NL[token];
     else if (token in LATIN_CODES_NL) slot.other.push(LATIN_CODES_NL[token]);

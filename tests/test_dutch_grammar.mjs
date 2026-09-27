@@ -111,3 +111,11 @@ test("core vocabulary ranks forms and falls back to its Dutch gloss", () => {
   assert.match(html, /data-core-rank="269"/);
   assert.match(html, /data-nl="wind"/);
 });
+
+test("slashed Latin alternatives render within their slot", () => {
+  const runtime = createRuntime();
+  assert.equal(run(runtime, 'latinGrammarNl("N 2 2 DAT/ABL P N")'), "zn. · 2e declinatie · datief/ablatief meervoud onzijdig");
+  assert.equal(run(runtime, 'latinGrammarNl("ADJ 3 1 NOM S M/F/N POS")'), "bn. · nominatief enkelvoud mannelijk/vrouwelijk/onzijdig · stellende trap");
+  assert.equal(run(runtime, 'latinGrammarNl("V 1 1 PRES ACTIVE INF; V 1 1 PRES PASSIVE IND 2 S")'),
+    "ww. · infinitief praesens actief of ww. · indicatief praesens passief · 2e persoon enkelvoud");
+});

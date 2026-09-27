@@ -1837,6 +1837,52 @@ function cleanMeaning(value) {
   return value.replace(/\s+/g, " ").replace(/;+$/, "");
 }
 
+// Whitaker returns every analysis of a form; taking only the first one made
+// verbis "dative" wherever it is ablative, and every -re infinitive a
+// "present passive 2nd singular". Keep the first analysis's word, merge all of
+// that word's analyses into one grammar string: parses differing only in case
+// become "DAT/ABL"; other alternatives are joined with "; " (the popup reads
+// them as "… of …"). Infinitives come first, and the locative is dropped when
+// another case is possible (Whitaker offers it for nearly every noun).
+const MAX_ALTERNATIVES = 3;
+const CASE_ORDER = ["NOM", "GEN", "DAT", "ACC", "ABL", "VOC", "LOC"];
+
+const DETAIL_KEYS = ["verb", "noun", "pron", "adj", "vpar", "pack"];
+
+function detailKey(qual) {
+  const own = qual.pofs.toLowerCase();
+  return own in qual ? own : DETAIL_KEYS.find((key) => key in qual);
+}
+
+function mergedGrammar(results) {
+  const groups = new Map();
+  for (const result of results) {
+    const qual = result.ir.qual;
+    const detail = detailKey(qual);
+    const cs = detail ? qual[detail].cs : undefined;
+    const key = (cs ? grammarFor({ ...qual, [detail]: { ...qual[detail], cs: "\u0000" } }) : grammarFor(qual))
+      .replace(/ 0 X$/, "");  // infinitives carry no person or number
+    if (!groups.has(key)) groups.set(key, new Set());
+    if (cs) groups.get(key).add(cs);
+  }
+  let parses = [...groups].map(([key, cases]) => {
+    let list = CASE_ORDER.filter((cs) => cases.has(cs));
+    if (list.length > 1) list = list.filter((cs) => cs !== "LOC");
+    return list.length ? key.replace("\u0000", list.join("/")) : key;
+  });
+  parses = [...new Set(parses)];
+  parses.sort((a, b) => Number(/\bINF\b/.test(b)) - Number(/\bINF\b/.test(a)));
+  return parses.slice(0, MAX_ALTERNATIVES).join("; ");
+}
+
+function entryFromResults(results) {
+  const first = results[0];
+  const lemma = dictionaryForm(first.de).replace(/\s+/g, " ").trim();
+  const same = results.filter((result) =>
+    result.ir.qual.pofs === first.ir.qual.pofs && dictionaryForm(result.de).replace(/\s+/g, " ").trim() === lemma);
+  return { lemma, en: cleanMeaning(first.de.mean), grammar: mergedGrammar(same) };
+}
+
 function entryFromResult(result) {
   return {
     lemma: dictionaryForm(result.de).replace(/\s+/g, " ").trim(),
@@ -1923,7 +1969,7 @@ function entryFor(engine, word) {
       }
     }
   }
-  if (analysis.results.length) return entryFromResult(analysis.results[0]);
+  if (analysis.results.length) return entryFromResults(analysis.results);
   if (analysis.uniqueResults.length) {
     const result = analysis.uniqueResults[0];
     return {
@@ -1934,7 +1980,7 @@ function entryFor(engine, word) {
   }
   if (analysis.addonResults.length && analysis.addonResults[0].baseResults.length) {
     const addon = analysis.addonResults[0];
-    const entry = entryFromResult(addon.baseResults[0]);
+    const entry = entryFromResults(addon.baseResults);
     const addonMeaning = cleanMeaning(addon.addon.mean);
     entry.en = addon.type === "tackon" ? addonMeaning : `${entry.en}; ${addonMeaning}`;
     entry.grammar = `${entry.grammar} + ${addon.type.toUpperCase()}`;
