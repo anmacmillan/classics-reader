@@ -1,4 +1,4 @@
-const CACHE = "classics-reader-v40";
+const CACHE = "classics-reader-v41";
 const CORE = [
   "./", "index.html", "styles.css", "pagination.js", "app.js", "data.js", "dictionary.js",
   "generated/imported-books.js", "generated/imported-latin-dictionary.js",

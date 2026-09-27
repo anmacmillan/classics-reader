@@ -1,0 +1,175 @@
+{
+  "id": "more-utopia",
+  "title": "Thomas More — Utopia: selecties",
+  "shortTitle": "Een ideaal eiland, verteld in Antwerpen",
+  "author": "Thomas More",
+  "year": 1516,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "go",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "post-classical",
+        "philosophy"
+      ]
+    },
+    {
+      "network": "kov",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "post-classical",
+        "philosophy"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Gezant in Vlaanderen: Brugge en Brussel (Boek I)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Latijn: The Latin Library, tekst van de Bazelse uitgave van 1518 (spelling genormaliseerd, u voor v), nagekeken tegen de transcriptie van 1518 op la.wikisource; drie evidente fouten verbeterd (inquit Cardinalis, omnia, Amaurotum. nam) · selecties uit Boek I en II, één regel per zin of korte zinsgroep · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://www.thelatinlibrary.com/more.html"
+    },
+    {
+      "title": "Antwerpen en Pieter Gillis (Boek I)",
+      "startLine": 6,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Na de mis in de Onze-Lieve-Vrouwekerk (Boek I)",
+      "startLine": 10,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Raphaël Hythlodaeus, een reiziger als Plato (Boek I)",
+      "startLine": 19,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Aan tafel bij kardinaal Morton (Boek I)",
+      "startLine": 28,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Waarom de galg niet helpt (Boek I)",
+      "startLine": 38,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Schapen die mensen verslinden (Boek I)",
+      "startLine": 56,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Dure wol en de hebzucht van enkelen (Boek I)",
+      "startLine": 69,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Een eiland als een wassende maan (Boek II, het eiland)",
+      "startLine": 82,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Utopus maakt er een eiland van (Boek II, het eiland)",
+      "startLine": 92,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "Amaurotum en de rivier Anydrus (Boek II, de steden)",
+      "startLine": 100,
+      "original": "latin-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    },
+    {
+      "title": "Straten, huizen en tuinen (Boek II, de steden)",
+      "startLine": 110,
+      "original": "latin-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Een werkdag van zes uur (Boek II, de ambachten)",
+      "startLine": 123,
+      "original": "latin-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Waarom zes uur genoeg is (Boek II, de ambachten)",
+      "startLine": 133,
+      "original": "latin-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Goud, minder waard dan ijzer (Boek II, de verdeling van de overvloed)",
+      "startLine": 141,
+      "original": "latin-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    },
+    {
+      "title": "Nachtpotten en gouden ketenen (Boek II, de verdeling van de overvloed)",
+      "startLine": 148,
+      "original": "latin-16.txt",
+      "english": "english-16.txt",
+      "dutch": "dutch-16.txt"
+    },
+    {
+      "title": "De gezanten van de Anemoliërs (Boek II, de verdeling van de overvloed)",
+      "startLine": 157,
+      "original": "latin-17.txt",
+      "english": "english-17.txt",
+      "dutch": "dutch-17.txt"
+    },
+    {
+      "title": "‘Een van de narren van de gezanten’ (Boek II, de verdeling van de overvloed)",
+      "startLine": 161,
+      "original": "latin-18.txt",
+      "english": "english-18.txt",
+      "dutch": "dutch-18.txt"
+    },
+    {
+      "title": "Koning Utopus en de godsdienstvrijheid (Boek II, de godsdiensten)",
+      "startLine": 170,
+      "original": "latin-19.txt",
+      "english": "english-19.txt",
+      "dutch": "dutch-19.txt"
+    },
+    {
+      "title": "Meer te wensen dan te verwachten (Boek II, slot)",
+      "startLine": 182,
+      "original": "latin-20.txt",
+      "english": "english-20.txt",
+      "dutch": "dutch-20.txt"
+    }
+  ]
+}
