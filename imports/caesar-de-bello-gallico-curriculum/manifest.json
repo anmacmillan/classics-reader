@@ -7,6 +7,7 @@
   "lang": "latin",
   "syntax": "syntax.json",
   "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [{"network": "kov", "stage": "second-degree", "status": "required-author", "genres": ["historiography"]}, {"network": "go", "stage": "second-degree", "status": "required-genre-example", "genres": ["historiography"]}],
   "chapters": [
     {
       "title": "Gallië en de Belgen (I.1)",

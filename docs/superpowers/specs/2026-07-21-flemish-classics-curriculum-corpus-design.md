@@ -168,7 +168,7 @@ Allowed values are:
 - `network`: `kov` or `go`;
 - `stage`: `second-degree` or `third-degree`;
 - `status`: `required-author`, `required-genre-example` or `supporting-text`; and
-- `genres`: one or more controlled labels from `historiography`, `epic`, `tragedy`, `rhetoric`, `philosophy`, `myth`, `letter`, `didactic` and `post-classical`.
+- `genres`: one or more controlled labels from `historiography`, `epic`, `tragedy`, `rhetoric`, `philosophy`, `myth`, `letter`, `didactic`, `lyric` and `post-classical` (`lyric` added September 2026 for Catullus).
 
 The metadata describes the curricular relevance of the author or genre. It does not assert that the selected passage is prescribed by a school. The UI must render the distinction in Dutch:
 

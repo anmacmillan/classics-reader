@@ -12,7 +12,7 @@
 const BOOKS = [
   // ─── LATIN ──────────────────────────────────────────────────────────────
   // BOOK 1: Vergilius — Aeneis I (Year 5, mandatory)
-  { id: "vergil-aeneis-1", title: "Vergilius — Aeneis I", author: "Vergilius", year: -19, lang: "latin",
+  { id: "vergil-aeneis-1", curriculum: [{"network": "kov", "stage": "third-degree", "status": "required-author", "genres": ["epic"]}, {"network": "go", "stage": "third-degree", "status": "required-genre-example", "genres": ["epic"]}], title: "Vergilius — Aeneis I", author: "Vergilius", year: -19, lang: "latin",
     chapters: [
             // Chapter 1 — Full Aeneid I (Curriculum) ~ lines 1-756
       // Full text from the Latin Library (thelatinlibrary.com)
@@ -2303,7 +2303,7 @@ const BOOKS = [
     ]
   },
   // BOOK 2: Ovidius — Metamorphoses I
-  { id: "ovid-met-1", title: "Ovidius — Metamorphoses I", author: "Ovidius", year: 8, lang: "latin",
+  { id: "ovid-met-1", curriculum: [{"network": "kov", "stage": "second-degree", "status": "required-author", "genres": ["myth", "epic"]}, {"network": "go", "stage": "second-degree", "status": "supporting-text", "genres": ["myth"]}], title: "Ovidius — Metamorphoses I", author: "Ovidius", year: 8, lang: "latin",
     chapters: [
       {
         title: "Liber I — Prooemium (Curriculum)",
@@ -2798,7 +2798,7 @@ const BOOKS = [
   },
   // ─── GREEK ────────────────────────────────────────────────────────────
   // BOOK 3: Homerus — Ilias I
-  { id: "homer-iliad-1", title: "Homerus — Ilias I", author: "Homerus", year: -800, lang: "greek",
+  { id: "homer-iliad-1", curriculum: [{"network": "kov", "stage": "third-degree", "status": "required-author", "genres": ["epic"]}, {"network": "go", "stage": "third-degree", "status": "required-genre-example", "genres": ["epic"]}], title: "Homerus — Ilias I", author: "Homerus", year: -800, lang: "greek",
     chapters: [
       {
         title: "Rhapsodia I — De toorn van Achilleus (Curriculum)",
@@ -3145,7 +3145,7 @@ const BOOKS = [
     ]
   },
   // BOOK 4: Sophocles — Oedipus Rex
-  { id: "sophocles-oedipus", title: "Sophocles — Oedipus Rex", author: "Sophocles", year: -429, lang: "greek",
+  { id: "sophocles-oedipus", curriculum: [{"network": "kov", "stage": "third-degree", "status": "required-author", "genres": ["tragedy"]}, {"network": "go", "stage": "third-degree", "status": "required-genre-example", "genres": ["tragedy"]}], title: "Sophocles — Oedipus Rex", author: "Sophocles", year: -429, lang: "greek",
     chapters: [
       {
         title: "Oedipus Tyrannus (Curriculum)",

@@ -7,6 +7,7 @@
   "lang": "greek",
   "syntax": "syntax.json",
   "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
+  "curriculum": [{"network": "kov", "stage": "third-degree", "status": "supporting-text", "genres": ["philosophy"]}, {"network": "go", "stage": "third-degree", "status": "supporting-text", "genres": ["philosophy"]}],
   "chapters": [
     {
       "title": "Deugd door gewoonte (1103a)",

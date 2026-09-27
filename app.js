@@ -71,7 +71,8 @@ const STORAGE_KEYS = {
   COMPLETED: "classics_completed_v1",
   OWN_TEXTS: "classics_own_texts_v1",
   OWN_LATIN_CACHE: "classics_own_latin_cache_v1",
-  TRY_FIRST: "classics_try_first"
+  TRY_FIRST: "classics_try_first",
+  SCHOOL_ROUTE: "classics_school_route"
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -112,7 +113,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         } else {
           state.overviewBookIndex = null;
         }
-        showLibrary(book ? libraryGroupKey(book) : null);
+        const returnKey = state.libraryGroupKey === SCHOOL_ROUTE_KEY ? SCHOOL_ROUTE_KEY : null;
+        showLibrary(returnKey || (book ? libraryGroupKey(book) : null));
       }
     });
   }
@@ -509,6 +511,11 @@ function renderLibrary() {
   }
   updateHeaderContext();
 
+  if (state.libraryGroupKey === SCHOOL_ROUTE_KEY) {
+    renderSchoolRoute(grid);
+    return;
+  }
+
   const group = selectedLibraryGroup();
   if (!group) {
     renderGroupLibrary(grid);
@@ -646,6 +653,7 @@ function renderBookOverview(grid, idx) {
 }
 
 function renderGroupLibrary(grid) {
+  grid.appendChild(schoolRouteCard());
   if (!state.books.some(isOwnBook)) grid.appendChild(ownTextAddCard());
   libraryGroups(state.books).forEach((group) => {
     const card = document.createElement("div");
@@ -662,6 +670,175 @@ function renderGroupLibrary(grid) {
     card.addEventListener("click", () => {
       state.libraryGroupKey = group.key;
       renderLibrary();
+    });
+    grid.appendChild(card);
+  });
+}
+
+/* ─── Schoolroute ───────────────────────────────────────────────────────────
+   A second view of the same books, filtered by curriculum metadata: which
+   works matter for the Katholiek Onderwijs Vlaanderen (Sint-Lievens) or GO!
+   (KLA) Latin and Greek courses, by stage. It describes an author's or
+   genre's relevance, never a passage a teacher has assigned. The chosen
+   filters stay on this device; completion data is untouched. */
+
+const SCHOOL_ROUTE_KEY = "schoolroute";
+const SCHOOL_PROFILES = [
+  { value: "both", label: "Beide", networks: ["kov", "go"] },
+  { value: "kov", label: "Sint-Lievens · Katholiek", networks: ["kov"] },
+  { value: "go", label: "KLA · GO!", networks: ["go"] },
+];
+const SCHOOL_STAGES = [
+  { value: "second-degree", label: "2de graad" },
+  { value: "third-degree", label: "3de graad" },
+];
+const SCHOOL_LANGS = [
+  { value: "latin", label: "Latijn" },
+  { value: "greek", label: "Grieks" },
+];
+const SCHOOL_STATUS = {
+  "required-author": "Verplichte auteur",
+  "required-genre-example": "Voorbeeld voor verplicht genre",
+  "supporting-text": "Aanvullende tekst",
+};
+const SCHOOL_STATUS_ORDER = ["required-author", "required-genre-example", "supporting-text"];
+const SCHOOL_GENRES = {
+  historiography: "geschiedschrijving",
+  epic: "epiek",
+  tragedy: "tragedie",
+  rhetoric: "retorica",
+  philosophy: "filosofie",
+  myth: "mythologie",
+  letter: "brief",
+  didactic: "didactiek",
+  lyric: "lyriek",
+  "post-classical": "na-klassiek",
+};
+
+function loadSchoolRouteFilters() {
+  const defaults = { profile: "both", stage: "second-degree", lang: "latin" };
+  try {
+    return { ...defaults, ...JSON.parse(localStorage.getItem(STORAGE_KEYS.SCHOOL_ROUTE) || "{}") };
+  } catch {
+    return defaults;
+  }
+}
+
+function saveSchoolRouteFilters(filters) {
+  try {
+    localStorage.setItem(STORAGE_KEYS.SCHOOL_ROUTE, JSON.stringify(filters));
+  } catch {
+    /* filters are a convenience; losing them is harmless */
+  }
+}
+
+// Books relevant to the filters, each with its strongest matching status and
+// the union of matching genres, ordered required author → genre → supporting.
+function schoolRouteBooks(books, { profile, stage, lang }) {
+  const networks = (SCHOOL_PROFILES.find((item) => item.value === profile) || SCHOOL_PROFILES[0]).networks;
+  return books
+    .filter((book) => book.lang === lang && Array.isArray(book.curriculum))
+    .map((book) => {
+      const entries = book.curriculum.filter((entry) => networks.includes(entry.network) && entry.stage === stage);
+      if (!entries.length) return null;
+      const rank = Math.min(...entries.map((entry) => SCHOOL_STATUS_ORDER.indexOf(entry.status)));
+      const genres = [...new Set(entries.flatMap((entry) => entry.genres || []))];
+      const networksHit = [...new Set(entries.map((entry) => entry.network))];
+      return { book, status: SCHOOL_STATUS_ORDER[rank], genres, networks: networksHit };
+    })
+    .filter(Boolean)
+    .sort((a, b) => SCHOOL_STATUS_ORDER.indexOf(a.status) - SCHOOL_STATUS_ORDER.indexOf(b.status) || a.book.year - b.book.year);
+}
+
+function schoolRouteCard() {
+  const card = document.createElement("div");
+  card.className = "book-card author-card school-route-card";
+  const tagged = state.books.filter((book) => Array.isArray(book.curriculum)).length;
+  card.innerHTML = `
+    <div class="book-icon">\u{1F393}</div>
+    <h3>Schoolroute</h3>
+    <p class="author-work-count">${tagged} teksten voor Latijn en Grieks op school</p>
+  `;
+  card.addEventListener("click", () => {
+    state.libraryGroupKey = SCHOOL_ROUTE_KEY;
+    renderLibrary();
+  });
+  return card;
+}
+
+function schoolRouteSelect(name, options, value, onChange) {
+  const label = document.createElement("label");
+  label.className = "school-route-filter";
+  const select = document.createElement("select");
+  select.name = name;
+  options.forEach((option) => {
+    const el = document.createElement("option");
+    el.value = option.value;
+    el.textContent = option.label;
+    select.appendChild(el);
+  });
+  select.value = value;
+  select.addEventListener("change", () => onChange(select.value));
+  label.appendChild(select);
+  return label;
+}
+
+function renderSchoolRoute(grid) {
+  const filters = loadSchoolRouteFilters();
+  const update = (key) => (value) => {
+    saveSchoolRouteFilters({ ...filters, [key]: value });
+    renderLibrary();
+  };
+
+  const heading = document.createElement("div");
+  heading.className = "catalogue-heading school-route-heading";
+  heading.innerHTML = `<h1>Schoolroute</h1><p>Welke auteurs en genres het leerplan vraagt. Een tekst hier is geen opgelegde passage: de leerkracht kiest.</p>`;
+  const controls = document.createElement("div");
+  controls.className = "school-route-controls";
+  controls.append(
+    schoolRouteSelect("profile", SCHOOL_PROFILES, filters.profile, update("profile")),
+    schoolRouteSelect("stage", SCHOOL_STAGES, filters.stage, update("stage")),
+    schoolRouteSelect("lang", SCHOOL_LANGS, filters.lang, update("lang")),
+  );
+  heading.appendChild(controls);
+  grid.appendChild(heading);
+
+  const matches = schoolRouteBooks(state.books, filters);
+  if (!matches.length) {
+    const empty = document.createElement("p");
+    empty.className = "school-route-empty";
+    empty.textContent = "Nog geen teksten voor deze keuze.";
+    grid.appendChild(empty);
+    return;
+  }
+
+  matches.forEach(({ book, status, genres, networks }) => {
+    const idx = state.books.indexOf(book);
+    const total = book.chapters.length;
+    const done = completedChapterSet(book).size;
+    const pct = Math.round((done / total) * 100);
+    const card = document.createElement("div");
+    card.className = `book-card school-route-book school-status-${status}`;
+    if (done === total) card.classList.add("book-done");
+    const genreLabels = genres.map((genre) => SCHOOL_GENRES[genre] || genre).join(" · ");
+    const networkLabel = filters.profile === "both" ? networks.map((n) => (n === "kov" ? "KOV" : "GO!")).join(" + ") : "";
+    card.innerHTML = `
+      <span class="school-status">${SCHOOL_STATUS[status]}</span>
+      <h3>${workDisplayTitle(book)}</h3>
+      <p class="book-short-title">${book.author}${networkLabel ? ` · ${networkLabel}` : ""}</p>
+      <div class="book-meta"><span>${genreLabels}</span><span>· ${done}/${total} ${total !== 1 ? "delen" : "deel"}</span></div>
+      <div class="book-progress">
+        <div class="progress-track"><div class="progress-bar" style="width: ${pct}%"></div></div>
+        <span class="progress-text">${done === total ? "✓" : pct + "%"}</span>
+      </div>
+    `;
+    card.addEventListener("click", () => {
+      if (book.chapters.length > 1) {
+        state.overviewBookIndex = idx;
+        renderLibrary();
+      } else {
+        selectBook(idx, 0);
+      }
     });
     grid.appendChild(card);
   });

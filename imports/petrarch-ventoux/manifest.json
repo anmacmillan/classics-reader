@@ -7,6 +7,7 @@
   "lang": "latin",
   "syntax": "syntax.json",
   "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [{"network": "go", "stage": "third-degree", "status": "supporting-text", "genres": ["post-classical", "letter"]}],
   "chapters": [
     {
       "title": "Epistolae familiares IV.1",

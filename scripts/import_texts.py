@@ -196,7 +196,42 @@ def load_import(import_dir: Path) -> tuple[dict, list[list[str]]]:
     for key in ("shortTitle", "collection"):
         if manifest.get(key):
             book[key] = manifest[key]
+    if "curriculum" in manifest:
+        book["curriculum"] = validate_curriculum(import_dir.name, manifest["curriculum"])
     return book, originals
+
+
+CURRICULUM_VALUES = {
+    "network": {"kov", "go"},
+    "stage": {"second-degree", "third-degree"},
+    "status": {"required-author", "required-genre-example", "supporting-text"},
+}
+CURRICULUM_GENRES = {
+    "historiography", "epic", "tragedy", "rhetoric", "philosophy",
+    "myth", "letter", "didactic", "lyric", "post-classical",
+}
+
+
+def validate_curriculum(name: str, curriculum) -> list[dict]:
+    """Check the optional school-curriculum tags against the controlled values."""
+    if not isinstance(curriculum, list) or not curriculum:
+        raise ValueError(f"{name}: curriculum must be a non-empty list")
+    for entry in curriculum:
+        if not isinstance(entry, dict):
+            raise ValueError(f"{name}: curriculum entries must be objects")
+        for key, allowed in CURRICULUM_VALUES.items():
+            if entry.get(key) not in allowed:
+                raise ValueError(f"{name}: curriculum {key} must be one of {', '.join(sorted(allowed))}")
+        genres = entry.get("genres")
+        if not isinstance(genres, list) or not genres:
+            raise ValueError(f"{name}: curriculum genres must be a non-empty list")
+        unknown = sorted(set(genres) - CURRICULUM_GENRES)
+        if unknown:
+            raise ValueError(f"{name}: unknown curriculum genre(s): {', '.join(unknown)}")
+        extra = set(entry) - {*CURRICULUM_VALUES, "genres"}
+        if extra:
+            raise ValueError(f"{name}: unknown curriculum field(s): {', '.join(sorted(extra))}")
+    return curriculum
 
 
 def split_syntax(books: list[dict]) -> dict[str, str]:

@@ -1276,3 +1276,50 @@ body.try-first .dict-word[data-syntax-role] {
   color: var(--text-dim);
   margin-left: 14px;
 }
+
+/* ─── Schoolroute ─────────────────────────────────────────────────────────── */
+
+.school-route-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.school-route-filter select {
+  background: var(--bg-control);
+  border: 1px solid var(--border-color);
+  color: var(--text);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.school-route-empty {
+  grid-column: 1 / -1;
+  color: var(--text-muted);
+}
+
+.school-status {
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.school-status-required-author .school-status {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.school-status-required-genre-example .school-status {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
