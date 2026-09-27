@@ -1274,7 +1274,10 @@ function renderChapter({ syncAfterPlacement = false } = {}) {
     if (renderGeneration !== readerRenderGeneration ||
         bookIndex !== state.currentBookIndex ||
         chapterIndex !== state.currentChapterIndex) return;
-    recalcPages();
+    // A fresh render starts scrolled to the top, so measuring the visible row
+    // would always report the chapter start. Anchor on the requested line
+    // (restored progress, an example jump) and measure only when there is none.
+    recalcPages({ anchorLineIndex: state.currentLineIndex > 0 ? state.currentLineIndex : captureReadingAnchor() });
     if (syncAfterPlacement && renderGeneration === readerRenderGeneration &&
         bookIndex === state.currentBookIndex && chapterIndex === state.currentChapterIndex) {
       syncProgressToGist().catch(err => console.log("Gist sync skipped:", err.message));
@@ -2325,6 +2328,7 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
       <div><strong>EN</strong> ${en || "Translation not found"}</div>
       <div><strong>NL</strong> ${nl || "Vertaling niet gevonden"}</div>
     </div>
+    <div class="tooltip-examples" hidden></div>
     <div class="tooltip-actions">
       <button class="btn tooltip-save${saved ? " saved" : ""}" type="button">${saved ? "Saved" : "Save word"}</button>
     </div>
@@ -2336,8 +2340,11 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
   });
 
   tooltip.classList.remove("hidden");
+  positionTooltip(tooltip, anchorEl);
+  fillTooltipExamples(tooltip, anchorEl, ++tooltipGeneration);
+}
 
-  // Position
+function positionTooltip(tooltip, anchorEl) {
   const rect = anchorEl.getBoundingClientRect();
   const tooltipRect = tooltip.getBoundingClientRect();
 
@@ -2347,6 +2354,11 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
   if (top < 10) {
     top = rect.bottom + 10;
   }
+  // An expanded examples list can make the popup taller than the space on
+  // either side of the word: keep it on screen rather than beside the word.
+  if (top + tooltipRect.height > window.innerHeight - 10) {
+    top = Math.max(10, window.innerHeight - tooltipRect.height - 10);
+  }
 
   if (left < 10) left = 10;
   if (left + tooltipRect.width > window.innerWidth - 10) {
@@ -2355,6 +2367,119 @@ function showTooltip(anchorEl, word, lemma, en, nl, grammar, vocabularyEntry, sy
 
   tooltip.style.left = `${left}px`;
   tooltip.style.top = `${top}px`;
+}
+
+/* ─── Examples from the literature ────────────────────────────────────────
+   The popup offers a few other places where the same lemma occurs, with the
+   aligned translation when the line is short enough to match, and a jump to
+   the passage. The index (scripts/build_examples.mjs) is fetched per language
+   on first use; other works come first, and lines already read are marked,
+   so a pupil meets the word again where she has seen it before. */
+
+let tooltipGeneration = 0;
+const exampleIndexes = {};
+const EXAMPLE_LIMIT = 3;
+const EXAMPLE_CONTEXT = 5;
+const EXAMPLE_TRANSLATION_MAX_WORDS = 25;
+
+function loadExampleIndex(lang) {
+  const url = typeof EXAMPLE_FILES !== "undefined" ? EXAMPLE_FILES[lang] : null;
+  if (!url) return Promise.resolve(null);
+  exampleIndexes[lang] ||= fetch(url)
+    .then((response) => (response.ok ? response.json() : null))
+    .catch(() => null);
+  return exampleIndexes[lang];
+}
+
+// here: { bookId, chapterIndex, lineIndex } of the word being read, or null.
+function pickExamples(index, lemma, here, limit = EXAMPLE_LIMIT) {
+  const refs = index?.lemmas?.[lemma] || [];
+  return refs
+    .map(([b, chapterIndex, lineIndex, wordIndex], order) => {
+      const bookIdx = bookIndexById(index.books[b]);
+      const book = state.books[bookIdx];
+      const chapter = book?.chapters[chapterIndex];
+      if (!chapter?.lines?.[lineIndex]) return null;
+      const sameLine = here && book.id === here.bookId && chapterIndex === here.chapterIndex && lineIndex === here.lineIndex;
+      if (sameLine) return null;
+      const read = isChapterCompleted(book, chapterIndex);
+      const otherWork = !here || book.id !== here.bookId;
+      return { bookIdx, book, chapter, chapterIndex, lineIndex, wordIndex, read, score: (otherWork ? 2 : 0) + (read ? 1 : 0), order };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score || a.order - b.order)
+    .slice(0, limit);
+}
+
+function exampleSnippetHtml(line, wordIndex) {
+  const tokens = String(line).split(/\s+/).filter(Boolean);
+  const start = Math.max(0, wordIndex - EXAMPLE_CONTEXT);
+  const end = Math.min(tokens.length, wordIndex + EXAMPLE_CONTEXT + 1);
+  const body = tokens.slice(start, end).map((token, i) => {
+    if (start + i !== wordIndex) return htmlEscape(token);
+    const { before, word, after } = splitIntoWordAndPunctuation(token);
+    return `${htmlEscape(before)}<mark>${htmlEscape(word)}</mark>${htmlEscape(after)}`;
+  }).join(" ");
+  return `${start > 0 ? "… " : ""}${body}${end < tokens.length ? " …" : ""}`;
+}
+
+function exampleTranslation(chapter, lineIndex) {
+  const words = String(chapter.lines[lineIndex]).split(/\s+/).filter(Boolean).length;
+  if (words > EXAMPLE_TRANSLATION_MAX_WORDS) return "";
+  return chapter.translationNl?.[lineIndex] || chapter.translationEn?.[lineIndex] || chapter.translation?.[lineIndex] || "";
+}
+
+function currentReadingPlace(anchorEl) {
+  const row = anchorEl.closest?.(".chunk-row");
+  const book = state.books[state.currentBookIndex];
+  if (!row || !book || !isReaderOpen()) return null;
+  return { bookId: book.id, chapterIndex: state.currentChapterIndex, lineIndex: Number(row.dataset.lineIndex) };
+}
+
+function fillTooltipExamples(tooltip, anchorEl, generation) {
+  const box = tooltip.querySelector(".tooltip-examples");
+  const lemma = anchorEl.getAttribute("data-lemma");
+  const lang = anchorEl.getAttribute("data-lang");
+  if (!box || !lemma || !lang) return;
+  const here = currentReadingPlace(anchorEl);
+  loadExampleIndex(lang).then((index) => {
+    if (generation !== tooltipGeneration) return;
+    const examples = pickExamples(index, lemma, here);
+    if (!examples.length) return;
+    box.innerHTML = `
+      <button class="tooltip-examples-toggle" type="button" aria-expanded="false">Voorbeelden uit de teksten (${examples.length}) ▸</button>
+      <ol class="tooltip-examples-list" hidden>
+        ${examples.map((example, i) => {
+          const translation = exampleTranslation(example.chapter, example.lineIndex);
+          return `<li><button class="tooltip-example" type="button" data-example="${i}">
+            <span class="example-source">${htmlEscape(example.book.author)} · ${htmlEscape(workDisplayTitle(example.book))}${example.read ? ' <span class="example-read">gelezen</span>' : ""}</span>
+            <span class="example-place">${htmlEscape(example.chapter.title || "")}</span>
+            <span class="example-text">${exampleSnippetHtml(example.chapter.lines[example.lineIndex], example.wordIndex)}</span>
+            ${translation ? `<span class="example-translation">${htmlEscape(translation)}</span>` : ""}
+          </button></li>`;
+        }).join("")}
+      </ol>`;
+    box.hidden = false;
+    positionTooltip(tooltip, anchorEl);
+    const toggle = box.querySelector(".tooltip-examples-toggle");
+    const list = box.querySelector(".tooltip-examples-list");
+    toggle.addEventListener("click", (event) => {
+      event.stopPropagation();
+      list.hidden = !list.hidden;
+      toggle.setAttribute("aria-expanded", String(!list.hidden));
+      toggle.textContent = `Voorbeelden uit de teksten (${examples.length}) ${list.hidden ? "▸" : "▾"}`;
+      positionTooltip(tooltip, anchorEl);
+    });
+    box.querySelectorAll(".tooltip-example").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const example = examples[Number(button.dataset.example)];
+        hideTooltip();
+        state.overviewBookIndex = null;
+        selectBook(example.bookIdx, example.chapterIndex, example.lineIndex);
+      });
+    });
+  });
 }
 
 function hideTooltip() {

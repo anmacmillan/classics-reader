@@ -1,7 +1,11 @@
-.PHONY: import dictionary dutch-dictionary danish-dictionary core-vocabulary check
+.PHONY: import examples dictionary dutch-dictionary danish-dictionary core-vocabulary check
 
 import:
 	python3 scripts/import_texts.py
+	node scripts/build_examples.mjs
+
+examples:
+	node scripts/build_examples.mjs
 
 dictionary:
 	npm run latin-dictionary
@@ -17,6 +21,7 @@ core-vocabulary:
 
 check:
 	python3 scripts/import_texts.py --check
+	node scripts/build_examples.mjs --check
 	PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -v
 	node --test tests/*.mjs
 	node --check pagination.js
@@ -31,4 +36,5 @@ check:
 	node --check generated/imported-dutch-dictionary.js
 	node --check generated/imported-danish-dictionary.js
 	node --check generated/core-vocabulary.js
+	node --check generated/examples/manifest.js
 	node --check own-text-latin.js

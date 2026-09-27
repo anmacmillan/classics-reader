@@ -1323,3 +1323,80 @@ body.try-first .dict-word[data-syntax-role] {
   border-color: var(--accent-primary);
   color: var(--accent-primary);
 }
+
+/* ─── Examples from the literature (word popup) ───────────────────────────── */
+
+.tooltip-examples {
+  border-top: 1px solid var(--border);
+  margin-top: 8px;
+  padding-top: 6px;
+}
+
+.tooltip-examples-toggle {
+  background: none;
+  border: 0;
+  padding: 2px 0;
+  color: var(--accent);
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.tooltip-examples-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  max-height: 34vh;
+  overflow-y: auto;
+}
+
+.tooltip-examples-list li + li {
+  margin-top: 6px;
+}
+
+.tooltip-example {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-control);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 8px;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.example-source {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+.example-read {
+  color: var(--accent);
+}
+
+.example-place {
+  font-size: 0.66rem;
+  color: var(--text-muted);
+}
+
+.example-text {
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.example-text mark {
+  background: var(--accent-glow);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.example-translation {
+  font-size: 0.74rem;
+  font-style: italic;
+  color: var(--text-muted);
+}

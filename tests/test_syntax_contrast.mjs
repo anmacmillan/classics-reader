@@ -78,10 +78,10 @@ test("deployment versions refresh the changed assets", () => {
   const coreAssets = serviceWorker.match(/const CORE = \[([\s\S]*?)\];/)?.[1] || "";
 
   assert.match(indexHtml, /<link rel="icon" href="icon\.png">/);
-  assert.match(indexHtml, /styles\.css\?v=20260927-1/);
+  assert.match(indexHtml, /styles\.css\?v=20260927-2/);
   assert.match(indexHtml, /pagination\.js\?v=20260802-2/);
-  assert.match(indexHtml, /app\.js\?v=20260927-3/);
-  assert.match(serviceWorker, /const CACHE = "classics-reader-v41"/);
+  assert.match(indexHtml, /app\.js\?v=20260927-4/);
+  assert.match(serviceWorker, /const CACHE = "classics-reader-v42"/);
   assert.match(coreAssets, /"styles\.css"/);
   assert.match(coreAssets, /"pagination\.js"/);
   assert.match(coreAssets, /"app\.js"/);
