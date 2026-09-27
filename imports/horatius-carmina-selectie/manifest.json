@@ -1,0 +1,68 @@
+{
+  "id": "horatius-carmina-selectie",
+  "title": "Horatius — Oden: een keuze",
+  "shortTitle": "Soracte, carpe diem, Cleopatra, de gulden middenweg, exegi monumentum",
+  "author": "Horatius",
+  "year": -23,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "lyric"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "third-degree",
+      "status": "required-genre-example",
+      "genres": [
+        "lyric"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Soracte onder de sneeuw (Oden I.9)",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Perseus-bestand: CC BY-SA 4.0 · Latijn: P. Shorey & G. J. Laing, Horace: Odes and Epodes (Chicago, 1919) · EN/NL: regel-voor-regel studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://github.com/PerseusDL/canonical-latinLit/tree/cc843833e101992ba54549005273cfe61a33504b/data/phi0893/phi001"
+    },
+    {
+      "title": "Pluk de dag (Oden I.11)",
+      "startLine": 1,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Nu moet er gedronken worden: Cleopatra (Oden I.37)",
+      "startLine": 1,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "De gulden middenweg (Oden II.10)",
+      "startLine": 1,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Een monument duurzamer dan brons (Oden III.30)",
+      "startLine": 1,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    }
+  ]
+}

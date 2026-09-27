@@ -1,0 +1,1124 @@
+{
+  "id": "erasmus-selectie",
+  "title": "Erasmus — een keuze",
+  "shortTitle": "De schipbreuk, de herbergen en de Lof der zotheid",
+  "author": "Erasmus",
+  "year": 1523,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "post-classical"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "post-classical"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Schipbreuk 1: vuur in de mast, bergen van water",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Latijn: Erasmi Colloquia familiaria et Encomium Moriae (Leipzig: Otto Holtze, 1892), getranscribeerd en gecontroleerd op la.wikisource (CC BY-SA); tikfouten van de transcriptie verbeterd naar de scan (o.a. ‘mira’, ‘argento’, ‘orant’); Lof der zotheid §1–4 volledig tegen de scan hernomen · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://la.wikisource.org/wiki/Colloquia_familiaria/Naufragium",
+      "speakers": [
+        {
+          "start": 1,
+          "end": 1,
+          "name": "Antonius"
+        },
+        {
+          "start": 2,
+          "end": 2,
+          "name": "Adolphus"
+        },
+        {
+          "start": 3,
+          "end": 3,
+          "name": "Antonius"
+        },
+        {
+          "start": 4,
+          "end": 4,
+          "name": "Adolphus"
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "name": "Antonius"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "name": "Adolphus"
+        },
+        {
+          "start": 8,
+          "end": 8,
+          "name": "Antonius"
+        },
+        {
+          "start": 9,
+          "end": 9,
+          "name": "Adolphus"
+        },
+        {
+          "start": 10,
+          "end": 10,
+          "name": "Antonius"
+        },
+        {
+          "start": 11,
+          "end": 11,
+          "name": "Adolphus"
+        },
+        {
+          "start": 12,
+          "end": 12,
+          "name": "Antonius"
+        },
+        {
+          "start": 13,
+          "end": 13,
+          "name": "Adolphus"
+        },
+        {
+          "start": 14,
+          "end": 14,
+          "name": "Antonius"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 2: alles overboord",
+      "startLine": 15,
+      "original": "latin-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt",
+      "speakers": [
+        {
+          "start": 15,
+          "end": 15,
+          "name": "Adolphus"
+        },
+        {
+          "start": 16,
+          "end": 16,
+          "name": "Antonius"
+        },
+        {
+          "start": 17,
+          "end": 17,
+          "name": "Adolphus"
+        },
+        {
+          "start": 18,
+          "end": 18,
+          "name": "Antonius"
+        },
+        {
+          "start": 19,
+          "end": 19,
+          "name": "Adolphus"
+        },
+        {
+          "start": 20,
+          "end": 20,
+          "name": "Antonius"
+        },
+        {
+          "start": 21,
+          "end": 21,
+          "name": "Adolphus"
+        },
+        {
+          "start": 22,
+          "end": 22,
+          "name": "Antonius"
+        },
+        {
+          "start": 23,
+          "end": 23,
+          "name": "Adolphus"
+        },
+        {
+          "start": 24,
+          "end": 24,
+          "name": "Antonius"
+        },
+        {
+          "start": 25,
+          "end": 25,
+          "name": "Adolphus"
+        },
+        {
+          "start": 26,
+          "end": 26,
+          "name": "Antonius"
+        },
+        {
+          "start": 27,
+          "end": 27,
+          "name": "Adolphus"
+        },
+        {
+          "start": 28,
+          "end": 28,
+          "name": "Antonius"
+        },
+        {
+          "start": 29,
+          "end": 29,
+          "name": "Adolphus"
+        },
+        {
+          "start": 30,
+          "end": 30,
+          "name": "Antonius"
+        },
+        {
+          "start": 31,
+          "end": 31,
+          "name": "Adolphus"
+        },
+        {
+          "start": 32,
+          "end": 32,
+          "name": "Antonius"
+        },
+        {
+          "start": 33,
+          "end": 33,
+          "name": "Adolphus"
+        },
+        {
+          "start": 34,
+          "end": 34,
+          "name": "Antonius"
+        },
+        {
+          "start": 35,
+          "end": 35,
+          "name": "Adolphus"
+        },
+        {
+          "start": 36,
+          "end": 36,
+          "name": "Antonius"
+        },
+        {
+          "start": 37,
+          "end": 37,
+          "name": "Adolphus"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 3: geloften aan de heiligen",
+      "startLine": 38,
+      "original": "latin-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt",
+      "speakers": [
+        {
+          "start": 38,
+          "end": 38,
+          "name": "Antonius"
+        },
+        {
+          "start": 39,
+          "end": 39,
+          "name": "Adolphus"
+        },
+        {
+          "start": 40,
+          "end": 40,
+          "name": "Antonius"
+        },
+        {
+          "start": 41,
+          "end": 41,
+          "name": "Adolphus"
+        },
+        {
+          "start": 42,
+          "end": 42,
+          "name": "Antonius"
+        },
+        {
+          "start": 43,
+          "end": 43,
+          "name": "Adolphus"
+        },
+        {
+          "start": 44,
+          "end": 44,
+          "name": "Antonius"
+        },
+        {
+          "start": 45,
+          "end": 45,
+          "name": "Adolphus"
+        },
+        {
+          "start": 46,
+          "end": 46,
+          "name": "Antonius"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "name": "Adolphus"
+        },
+        {
+          "start": 49,
+          "end": 49,
+          "name": "Antonius"
+        },
+        {
+          "start": 50,
+          "end": 50,
+          "name": "Adolphus"
+        },
+        {
+          "start": 51,
+          "end": 51,
+          "name": "Antonius"
+        },
+        {
+          "start": 52,
+          "end": 54,
+          "name": "Adolphus"
+        },
+        {
+          "start": 55,
+          "end": 55,
+          "name": "Antonius"
+        },
+        {
+          "start": 56,
+          "end": 56,
+          "name": "Adolphus"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 4: rechtstreeks tot God; de moeder met haar kind",
+      "startLine": 57,
+      "original": "latin-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt",
+      "speakers": [
+        {
+          "start": 57,
+          "end": 57,
+          "name": "Antonius"
+        },
+        {
+          "start": 58,
+          "end": 58,
+          "name": "Adolphus"
+        },
+        {
+          "start": 59,
+          "end": 59,
+          "name": "Antonius"
+        },
+        {
+          "start": 60,
+          "end": 60,
+          "name": "Adolphus"
+        },
+        {
+          "start": 61,
+          "end": 61,
+          "name": "Antonius"
+        },
+        {
+          "start": 62,
+          "end": 62,
+          "name": "Adolphus"
+        },
+        {
+          "start": 63,
+          "end": 63,
+          "name": "Antonius"
+        },
+        {
+          "start": 64,
+          "end": 64,
+          "name": "Adolphus"
+        },
+        {
+          "start": 65,
+          "end": 65,
+          "name": "Antonius"
+        },
+        {
+          "start": 66,
+          "end": 66,
+          "name": "Adolphus"
+        },
+        {
+          "start": 67,
+          "end": 67,
+          "name": "Antonius"
+        },
+        {
+          "start": 68,
+          "end": 68,
+          "name": "Adolphus"
+        },
+        {
+          "start": 69,
+          "end": 69,
+          "name": "Antonius"
+        },
+        {
+          "start": 70,
+          "end": 70,
+          "name": "Adolphus"
+        },
+        {
+          "start": 71,
+          "end": 71,
+          "name": "Antonius"
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "name": "Adolphus"
+        },
+        {
+          "start": 74,
+          "end": 74,
+          "name": "Antonius"
+        },
+        {
+          "start": 75,
+          "end": 75,
+          "name": "Adolphus"
+        },
+        {
+          "start": 76,
+          "end": 76,
+          "name": "Antonius"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 5: de biecht, een onbekende kerktoren, de sloep",
+      "startLine": 77,
+      "original": "latin-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt",
+      "speakers": [
+        {
+          "start": 77,
+          "end": 78,
+          "name": "Adolphus"
+        },
+        {
+          "start": 79,
+          "end": 79,
+          "name": "Antonius"
+        },
+        {
+          "start": 80,
+          "end": 80,
+          "name": "Adolphus"
+        },
+        {
+          "start": 81,
+          "end": 81,
+          "name": "Antonius"
+        },
+        {
+          "start": 82,
+          "end": 84,
+          "name": "Adolphus"
+        },
+        {
+          "start": 85,
+          "end": 85,
+          "name": "Antonius"
+        },
+        {
+          "start": 86,
+          "end": 86,
+          "name": "Adolphus"
+        },
+        {
+          "start": 87,
+          "end": 87,
+          "name": "Antonius"
+        },
+        {
+          "start": 88,
+          "end": 88,
+          "name": "Adolphus"
+        },
+        {
+          "start": 89,
+          "end": 89,
+          "name": "Antonius"
+        },
+        {
+          "start": 90,
+          "end": 90,
+          "name": "Adolphus"
+        },
+        {
+          "start": 91,
+          "end": 91,
+          "name": "Antonius"
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "name": "Adolphus"
+        },
+        {
+          "start": 94,
+          "end": 94,
+          "name": "Antonius"
+        },
+        {
+          "start": 95,
+          "end": 95,
+          "name": "Adolphus"
+        },
+        {
+          "start": 96,
+          "end": 96,
+          "name": "Antonius"
+        },
+        {
+          "start": 97,
+          "end": 97,
+          "name": "Adolphus"
+        },
+        {
+          "start": 98,
+          "end": 98,
+          "name": "Antonius"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 6: de sloep slaat om; de priester en de dominicaan",
+      "startLine": 99,
+      "original": "latin-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt",
+      "speakers": [
+        {
+          "start": 99,
+          "end": 99,
+          "name": "Adolphus"
+        },
+        {
+          "start": 100,
+          "end": 100,
+          "name": "Antonius"
+        },
+        {
+          "start": 101,
+          "end": 101,
+          "name": "Adolphus"
+        },
+        {
+          "start": 102,
+          "end": 102,
+          "name": "Antonius"
+        },
+        {
+          "start": 103,
+          "end": 103,
+          "name": "Adolphus"
+        },
+        {
+          "start": 104,
+          "end": 104,
+          "name": "Antonius"
+        },
+        {
+          "start": 105,
+          "end": 105,
+          "name": "Adolphus"
+        },
+        {
+          "start": 106,
+          "end": 106,
+          "name": "Antonius"
+        },
+        {
+          "start": 107,
+          "end": 107,
+          "name": "Adolphus"
+        },
+        {
+          "start": 108,
+          "end": 108,
+          "name": "Antonius"
+        },
+        {
+          "start": 109,
+          "end": 111,
+          "name": "Adolphus"
+        },
+        {
+          "start": 112,
+          "end": 112,
+          "name": "Antonius"
+        },
+        {
+          "start": 113,
+          "end": 113,
+          "name": "Adolphus"
+        },
+        {
+          "start": 114,
+          "end": 114,
+          "name": "Antonius"
+        },
+        {
+          "start": 115,
+          "end": 115,
+          "name": "Adolphus"
+        },
+        {
+          "start": 116,
+          "end": 116,
+          "name": "Antonius"
+        },
+        {
+          "start": 117,
+          "end": 117,
+          "name": "Adolphus"
+        },
+        {
+          "start": 118,
+          "end": 118,
+          "name": "Antonius"
+        },
+        {
+          "start": 119,
+          "end": 119,
+          "name": "Adolphus"
+        },
+        {
+          "start": 120,
+          "end": 120,
+          "name": "Antonius"
+        }
+      ]
+    },
+    {
+      "title": "Schipbreuk 7: grond onder de voeten; de gastvrije Hollanders",
+      "startLine": 121,
+      "original": "latin-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt",
+      "speakers": [
+        {
+          "start": 121,
+          "end": 123,
+          "name": "Adolphus"
+        },
+        {
+          "start": 124,
+          "end": 124,
+          "name": "Antonius"
+        },
+        {
+          "start": 125,
+          "end": 125,
+          "name": "Adolphus"
+        },
+        {
+          "start": 126,
+          "end": 126,
+          "name": "Antonius"
+        },
+        {
+          "start": 127,
+          "end": 132,
+          "name": "Adolphus"
+        },
+        {
+          "start": 133,
+          "end": 133,
+          "name": "Antonius"
+        },
+        {
+          "start": 134,
+          "end": 134,
+          "name": "Adolphus"
+        },
+        {
+          "start": 135,
+          "end": 135,
+          "name": "Antonius"
+        },
+        {
+          "start": 136,
+          "end": 136,
+          "name": "Adolphus"
+        },
+        {
+          "start": 137,
+          "end": 137,
+          "name": "Antonius"
+        },
+        {
+          "start": 138,
+          "end": 138,
+          "name": "Adolphus"
+        },
+        {
+          "start": 139,
+          "end": 139,
+          "name": "Antonius"
+        },
+        {
+          "start": 140,
+          "end": 140,
+          "name": "Adolphus"
+        },
+        {
+          "start": 141,
+          "end": 141,
+          "name": "Antonius"
+        },
+        {
+          "start": 142,
+          "end": 142,
+          "name": "Adolphus"
+        },
+        {
+          "start": 143,
+          "end": 143,
+          "name": "Antonius"
+        }
+      ]
+    },
+    {
+      "title": "Herbergen 1: in Lyon wordt een gast verwend",
+      "startLine": 144,
+      "original": "latin-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt",
+      "speakers": [
+        {
+          "start": 144,
+          "end": 144,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 145,
+          "end": 145,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 146,
+          "end": 146,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 147,
+          "end": 147,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 148,
+          "end": 148,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 149,
+          "end": 150,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 151,
+          "end": 151,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 152,
+          "end": 152,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 153,
+          "end": 153,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 154,
+          "end": 154,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 155,
+          "end": 155,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 156,
+          "end": 157,
+          "name": "Gulielmus"
+        }
+      ],
+      "translationCredit": "Latijn: Colloquia familiaria, ‘Diversoria’, uitgave Leipzig: Otto Holtze (1892), via la.wikisource (CC BY-SA) · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://la.wikisource.org/wiki/Colloquia_familiaria/Diversoria"
+    },
+    {
+      "title": "Herbergen 2: aankomst in een Duitse herberg",
+      "startLine": 158,
+      "original": "latin-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt",
+      "speakers": [
+        {
+          "start": 158,
+          "end": 158,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 159,
+          "end": 159,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 160,
+          "end": 164,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 165,
+          "end": 165,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 166,
+          "end": 167,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 168,
+          "end": 168,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 169,
+          "end": 169,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 170,
+          "end": 170,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 171,
+          "end": 171,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 172,
+          "end": 172,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 173,
+          "end": 173,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 174,
+          "end": 174,
+          "name": "Gulielmus"
+        }
+      ]
+    },
+    {
+      "title": "Herbergen 3: zweet, stank en besmetting (ook in Brabant)",
+      "startLine": 175,
+      "original": "latin-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt",
+      "speakers": [
+        {
+          "start": 175,
+          "end": 176,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 177,
+          "end": 177,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 178,
+          "end": 178,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 179,
+          "end": 179,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 180,
+          "end": 181,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 182,
+          "end": 184,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 185,
+          "end": 185,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 186,
+          "end": 186,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 187,
+          "end": 187,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 188,
+          "end": 188,
+          "name": "Gulielmus"
+        }
+      ]
+    },
+    {
+      "title": "Herbergen 4: het diner",
+      "startLine": 189,
+      "original": "latin-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt",
+      "speakers": [
+        {
+          "start": 189,
+          "end": 190,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 191,
+          "end": 191,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 192,
+          "end": 192,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 193,
+          "end": 193,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 194,
+          "end": 199,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 200,
+          "end": 200,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 201,
+          "end": 203,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 204,
+          "end": 204,
+          "name": "Gulielmus"
+        }
+      ]
+    },
+    {
+      "title": "Herbergen 5: lawaai, de rekening en naar bed",
+      "startLine": 205,
+      "original": "latin-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt",
+      "speakers": [
+        {
+          "start": 205,
+          "end": 207,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 208,
+          "end": 208,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 209,
+          "end": 211,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 212,
+          "end": 212,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 213,
+          "end": 213,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 214,
+          "end": 214,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 215,
+          "end": 215,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 216,
+          "end": 216,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 217,
+          "end": 217,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 218,
+          "end": 218,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 219,
+          "end": 219,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 220,
+          "end": 220,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 221,
+          "end": 221,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 222,
+          "end": 222,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 223,
+          "end": 223,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 224,
+          "end": 224,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 225,
+          "end": 225,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 226,
+          "end": 226,
+          "name": "Gulielmus"
+        },
+        {
+          "start": 227,
+          "end": 227,
+          "name": "Bertulphus"
+        },
+        {
+          "start": 228,
+          "end": 228,
+          "name": "Gulielmus"
+        }
+      ]
+    },
+    {
+      "title": "Lof der zotheid 1: de Zotheid verschijnt (§1–2)",
+      "startLine": 229,
+      "original": "latin-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt",
+      "speakers": [
+        {
+          "start": 229,
+          "end": 235,
+          "name": "Stultitia"
+        }
+      ],
+      "translationCredit": "Latijn: Moriae Encomium, uitgave Leipzig: Otto Holtze (1892), rechtstreeks tegen de scan gecontroleerd (Wikimedia Commons, digitalisering Google/Archive.org) · EN/NL: zin-voor-zin studievertalingen, Classics Reader",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://la.wikisource.org/wiki/Colloquia_familiaria/Encomium_Moriae/Stultitia_laus"
+    },
+    {
+      "title": "Lof der zotheid 2: wie prijst mij beter dan ikzelf? (§3)",
+      "startLine": 236,
+      "original": "latin-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt",
+      "speakers": [
+        {
+          "start": 236,
+          "end": 245,
+          "name": "Stultitia"
+        }
+      ]
+    },
+    {
+      "title": "Lof der zotheid 3: geen definitie nodig (§4)",
+      "startLine": 246,
+      "original": "latin-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt",
+      "speakers": [
+        {
+          "start": 246,
+          "end": 252,
+          "name": "Stultitia"
+        }
+      ]
+    }
+  ]
+}
