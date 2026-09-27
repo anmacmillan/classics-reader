@@ -1,0 +1,146 @@
+{
+  "id": "lysias-eratosthenes",
+  "title": "Lysias — Over de moord op Eratosthenes (Lysias I)",
+  "shortTitle": "Over de moord op Eratosthenes",
+  "author": "Lysias",
+  "year": -400,
+  "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "second-degree",
+      "status": "supporting-text",
+      "genres": [
+        "rhetoric"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "second-degree",
+      "status": "required-genre-example",
+      "genres": [
+        "rhetoric"
+      ]
+    },
+    {
+      "network": "kov",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "rhetoric"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Prooimion · Een misdaad die iedereen veroordeelt (§1–5)",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Grieks: Perseus (tlg0540.tlg001, ed. Lamb) via de Ancient Greek Dependency Treebank · Parsing: AGDT 2.1 (handmatig geverifieerd, V. Gorman, CC BY-SA) · EN/NL: zin-voor-zin studievertaling",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0540.tlg001.perseus-grc2:1"
+    },
+    {
+      "title": "Diëgesis · Huwelijk, vertrouwen en een begrafenis (§6–8)",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Diëgesis · Een huis met twee verdiepingen (§9–10)",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Diëgesis · De buitengesloten echtgenoot (§11–13)",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Diëgesis · Krakende deuren en een opgemaakt gezicht (§14)",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Diëgesis · De boodschap van de oude vrouw (§15–17)",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Diëgesis · Het verhoor van de slavin (§18–21)",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Diëgesis · Een avondmaal met Sostratos (§22–23)",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Diëgesis · Op heterdaad betrapt (§23–26)",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Bewijsvoering · Niet van de straat gesleurd: de eerste wet (§27–29)",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "Bewijsvoering · De wet van de Areopagus en de wet op verkrachting (§30–33)",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    },
+    {
+      "title": "Bewijsvoering · Wat de wetten bevelen (§34–36)",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Bewijsvoering · Geen hinderlaag: het bewijs van het avondmaal (§37–42)",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Bewijsvoering · Geen vijandschap, geen motief (§43–46)",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Epiloog · Een straf in het belang van de hele stad (§47–50)",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    }
+  ]
+}

@@ -19888,8 +19888,8 @@
   "nl": "commissaris"
  },
  "ἐπαίρω": {
-  "en": "I take",
-  "nl": "Ik neem"
+  "en": "lift up, raise; incite, urge on; pass. be elated",
+  "nl": "optillen, verheffen; aanzetten, ophitsen; pass. zich verheffen"
  },
  "ἐπιβαίνω": {
   "en": "board",
@@ -29214,5 +29214,257 @@
  "ῥοπή": {
   "en": "turn of the scale, slight tilt, decisive moment",
   "nl": "doorslag van de weegschaal, klein zetje"
+ },
+ "δημοκρατία": {
+  "en": "democracy, rule of the people",
+  "nl": "democratie, volksheerschappij"
+ },
+ "βέλτιστος": {
+  "en": "best (superl. of ἀγαθός); most excellent",
+  "nl": "best, voortreffelijkst (overtr. trap van ἀγαθός)"
+ },
+ "Ἐρατοσθένης": {
+  "en": "Eratosthenes (of Oe), the seducer killed by Euphiletos",
+  "nl": "Eratosthenes (uit Oë), de verleider die Euphiletos doodde"
+ },
+ "εἴσειμι": {
+  "en": "go in, enter; (of thoughts) come into one's mind",
+  "nl": "binnengaan; (van gedachten) opkomen"
+ },
+ "φειδωλός": {
+  "en": "thrifty, sparing",
+  "nl": "zuinig, spaarzaam"
+ },
+ "ἀποθνήσκω": {
+  "en": "die, be killed; (in court) be put to death",
+  "nl": "sterven, gedood worden; ter dood gebracht worden"
+ },
+ "ἐκφορά": {
+  "en": "funeral procession, carrying-out of the dead",
+  "nl": "begrafenisstoet, uitdraging van de dode"
+ },
+ "ἐπιτηρέω": {
+  "en": "watch for, keep an eye on, lie in wait for",
+  "nl": "in de gaten houden, loeren op"
+ },
+ "θεράπαινα": {
+  "en": "maidservant, slave girl",
+  "nl": "dienstmeid, slavin"
+ },
+ "οἰκίδιον": {
+  "en": "small house, cottage",
+  "nl": "huisje, klein huis"
+ },
+ "γυναικωνῖτις": {
+  "en": "women's quarters of a house",
+  "nl": "vrouwenvertrekken (van een huis)"
+ },
+ "ἀνδρωνῖτις": {
+  "en": "men's quarters of a house",
+  "nl": "mannenvertrekken (van een huis)"
+ },
+ "διαιτάω": {
+  "en": "(mid./pass.) live, spend one's life, lodge",
+  "nl": "(med./pass.) leven, wonen, verblijven"
+ },
+ "συνεθίζω": {
+  "en": "accustom; (pf. pass.) be customary, be habitual",
+  "nl": "gewennen; (pf. pass.) gewoonte zijn"
+ },
+ "τιτθός": {
+  "en": "breast, nipple",
+  "nl": "borst, tepel"
+ },
+ "ὑποπτεύω": {
+  "en": "suspect, have suspicions",
+  "nl": "vermoeden, argwaan koesteren"
+ },
+ "ἠλίθιος": {
+  "en": "foolish, naive; adv. ἠλιθίως foolishly",
+  "nl": "dwaas, naïef; bijw. ἠλιθίως dwaas"
+ },
+ "πρόειμι": {
+  "en": "go forward, advance; (of time) pass on",
+  "nl": "vooruitgaan; (van de tijd) verstrijken"
+ },
+ "δυσκολαίνω": {
+  "en": "be peevish, fret, be fussy",
+  "nl": "dwarsliggen, jengelen, lastig zijn"
+ },
+ "ἐπίτηδες": {
+  "en": "on purpose, deliberately",
+  "nl": "met opzet, expres"
+ },
+ "ἄσμενος": {
+  "en": "glad, pleased, well content",
+  "nl": "blij, verheugd, tevreden"
+ },
+ "ἐφέλκω": {
+  "en": "drag after; (mid.) draw to oneself, pull after",
+  "nl": "naslepen; (med.) naar zich toe trekken"
+ },
+ "ὑπονοέω": {
+  "en": "suspect, guess",
+  "nl": "vermoeden, raden"
+ },
+ "νύκτωρ": {
+  "en": "by night, at night",
+  "nl": "'s nachts"
+ },
+ "ψοφέω": {
+  "en": "make a noise, creak, rattle",
+  "nl": "geluid maken, kraken, rammelen"
+ },
+ "ἐνάπτω": {
+  "en": "kindle; (mid.) light (a lamp) from",
+  "nl": "aansteken; (med.) (een lamp) aansteken bij"
+ },
+ "ψιμυθιόω": {
+  "en": "paint with white lead, apply make-up",
+  "nl": "met loodwit beschilderen, zich opmaken"
+ },
+ "πρεσβῦτις": {
+  "en": "old woman",
+  "nl": "oude vrouw"
+ },
+ "ὑποπέμπω": {
+  "en": "send secretly, send as an agent",
+  "nl": "heimelijk sturen, als tussenpersoon zenden"
+ },
+ "Εὐφίλητος": {
+  "en": "Euphiletos, the speaker, who killed Eratosthenes",
+  "nl": "Euphiletos, de spreker, die Eratosthenes doodde"
+ },
+ "πολυπραγμοσύνη": {
+  "en": "meddlesomeness, being a busybody",
+  "nl": "bemoeizucht"
+ },
+ "Ὀῆθεν": {
+  "en": "from Oe (an Attic deme)",
+  "nl": "uit Oë (een Attische deme)"
+ },
+ "ὑποψία": {
+  "en": "suspicion",
+  "nl": "argwaan, verdenking"
+ },
+ "δωμάτιον": {
+  "en": "bedroom, small room",
+  "nl": "slaapkamer, kamertje"
+ },
+ "μέταυλος": {
+  "en": "(of a door) inner, between courtyard and house",
+  "nl": "(van een deur) binnen-, tussen binnenplaats en huis"
+ },
+ "μυλών": {
+  "en": "mill-house (where slaves were put to grinding as punishment)",
+  "nl": "molenhuis (waar slaven als straf moesten malen)"
+ },
+ "μηδέποτε": {
+  "en": "never",
+  "nl": "nooit"
+ },
+ "κατεῖπον": {
+  "en": "aor. of κατηγορέω: denounce, tell everything, disclose",
+  "nl": "aor. bij κατηγορέω: aangeven, alles vertellen, onthullen"
+ },
+ "ἔξαρνος": {
+  "en": "denying; ἔξαρνος εἶναι to deny",
+  "nl": "ontkennend; ἔξαρνος εἶναι ontkennen"
+ },
+ "εἰσαγγέλλω": {
+  "en": "announce, bring a message in; carry a message",
+  "nl": "een boodschap overbrengen, aankondigen"
+ },
+ "προσίημι": {
+  "en": "let come to; (mid.) admit, let in",
+  "nl": "toelaten; (med.) binnenlaten, toelaten"
+ },
+ "Θεσμοφόρια": {
+  "en": "Thesmophoria, women's festival of Demeter",
+  "nl": "Thesmophoria, vrouwenfeest voor Demeter"
+ },
+ "δέομαι": {
+  "en": "need, want; ask, beg",
+  "nl": "nodig hebben; vragen, smeken"
+ },
+ "Σώστρατος": {
+  "en": "Sostratos, Euphiletos' friend",
+  "nl": "Sostratos, vriend van Euphiletos"
+ },
+ "ἐπεγείρω": {
+  "en": "awaken, rouse",
+  "nl": "wekken, wakker maken"
+ },
+ "δᾴς": {
+  "en": "torch, pine-brand",
+  "nl": "fakkel, toorts"
+ },
+ "καπηλεῖον": {
+  "en": "shop, tavern",
+  "nl": "winkel, kroeg"
+ },
+ "ὁ + ὄπισθεν": {
+  "en": "crasis τοὔπισθεν: to the back, behind (εἰς τοὔπισθεν)",
+  "nl": "crasis τοὔπισθεν: naar achteren, op de rug"
+ },
+ "ἀντιβολέω": {
+  "en": "entreat, beg earnestly",
+  "nl": "smeken, dringend verzoeken"
+ },
+ "εἰσαρπάζω": {
+  "en": "drag in by force, snatch into",
+  "nl": "met geweld naar binnen sleuren"
+ },
+ "περιστρέφω": {
+  "en": "twist round, twist behind (the arms)",
+  "nl": "omdraaien, (de armen) op de rug draaien"
+ },
+ "Ἄρειος πάγος": {
+  "en": "Areopagus, hill of Ares; the homicide court sitting there",
+  "nl": "Areopagus, heuvel van Ares; het moordtribunaal dat daar zetelt"
+ },
+ "διαρρήδην": {
+  "en": "expressly, explicitly",
+  "nl": "uitdrukkelijk"
+ },
+ "γαμετή": {
+  "en": "wedded wife",
+  "nl": "wettige echtgenote"
+ },
+ "παλλακή": {
+  "en": "concubine",
+  "nl": "bijvrouw, concubine"
+ },
+ "ἀπογιγνώσκω": {
+  "en": "give up; (legal) acquit, decide against (a charge)",
+  "nl": "opgeven; (juridisch) vrijspreken"
+ },
+ "ποιητέος": {
+  "en": "to be done; ποιητέον (ἐστί) one must do",
+  "nl": "te doen; ποιητέον (ἐστί) men moet doen"
+ },
+ "ἄδεια": {
+  "en": "freedom from fear, impunity, licence",
+  "nl": "straffeloosheid, vrijbrief"
+ },
+ "ἑτέρωθι": {
+  "en": "elsewhere, somewhere else",
+  "nl": "elders, ergens anders"
+ },
+ "σιδήριον": {
+  "en": "iron tool, blade, weapon",
+  "nl": "ijzeren werktuig, mes, wapen"
+ },
+ "λοιδορία": {
+  "en": "abuse, insult, railing",
+  "nl": "scheldpartij, belediging"
+ },
+ "παροινία": {
+  "en": "drunken insult, drunken brawl",
+  "nl": "dronkemansruzie, belediging onder invloed"
+ },
+ "ἆθλον": {
+  "en": "prize; (pl.) rewards, wages (ironic: penalties)",
+  "nl": "prijs; (mv.) beloning, loon (ironisch: straffen)"
  }
 }

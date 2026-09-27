@@ -2,7 +2,7 @@
 const EXAMPLE_FILES = {
   "danish": "generated/examples/danish.json?v=7206211e34",
   "dutch": "generated/examples/dutch.json?v=a0edf5cd48",
-  "greek": "generated/examples/greek.json?v=fa940a5ba8",
+  "greek": "generated/examples/greek.json?v=e634d256d2",
   "latin": "generated/examples/latin.json?v=a5ed1f8964",
   "middle_dutch": "generated/examples/middle_dutch.json?v=24c954a7d8",
   "old_english": "generated/examples/old_english.json?v=cbbb00b5eb"
