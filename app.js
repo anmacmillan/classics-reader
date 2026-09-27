@@ -931,6 +931,23 @@ function selectBook(idx, chapterIndex, lineIndex = 0, { syncAfterPlacement = tru
 
 /* ─── Chapter Renderer ──────────────────────────────────────────────────── */
 
+// Imported books ship their dependency parses as a separate file; fetch it on
+// first open and re-render once the parses arrive. Reading never waits on it.
+function loadBookSyntax(book) {
+  return fetch(book.syntaxUrl)
+    .then((response) => (response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`))))
+    .then((parses) => {
+      parses.forEach((parse, index) => {
+        if (parse && book.chapters[index]) book.chapters[index].syntax = parse;
+      });
+      return true;
+    })
+    .catch((error) => {
+      console.warn(`Syntax for ${book.id} unavailable`, error);
+      return false;
+    });
+}
+
 function renderChapter({ syncAfterPlacement = false } = {}) {
   const renderGeneration = ++readerRenderGeneration;
   clearTimeout(resizeTimer);
@@ -940,6 +957,11 @@ function renderChapter({ syncAfterPlacement = false } = {}) {
   const chapterIndex = state.currentChapterIndex;
   const content = document.getElementById("reader-content");
   if (!content) return;
+  if (book.syntaxUrl && !book.syntaxLoad) {
+    book.syntaxLoad = loadBookSyntax(book).then((loaded) => {
+      if (loaded && state.books[state.currentBookIndex] === book && isReaderOpen()) renderChapter();
+    });
+  }
   updateHeaderContext();
   showFocusHeader();
   const startLine = Number.isInteger(ch.startLine) ? ch.startLine : 1;
