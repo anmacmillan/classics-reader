@@ -13128,8 +13128,8 @@
   "nl": "Διότιμος, Diotimus"
  },
  "Δωριεύς": {
-  "en": "Δωριεύς, a Dorian, descendant of Dorus",
-  "nl": "Δωριεύς, een Dorian, afstammeling van Dorus"
+  "en": "Dorieus (Spartan prince, brother of Cleomenes); a Dorian",
+  "nl": "Dorieus (Spartaanse prins, broer van Kleomenes); Doriër"
  },
  "Δωρόθεος": {
   "en": "proper name: Δωρόθεος",
@@ -13140,8 +13140,8 @@
   "nl": "als, indien; of; εἰ μή behalve, tenzij"
  },
  "Εἵλως": {
-  "en": "Εἵλως, a Helot",
-  "nl": "Εἵλως, een helot"
+  "en": "helot, Spartan serf",
+  "nl": "heloot, Spartaanse lijfeigene"
  },
  "Εὐάρχιππος": {
   "en": "Εὐάρχιππος, Euarchippus",
@@ -13180,8 +13180,8 @@
   "nl": "Θεογένης, Theogenes"
  },
  "Θηβαῖος": {
-  "en": "Θηβαῖος, Theban",
-  "nl": "Θηβαῖος, Thebaans"
+  "en": "Theban, of Thebes",
+  "nl": "Thebaans; Thebaan"
  },
  "Θηραμένης": {
   "en": "Θηραμένης, Theramenes",
@@ -13220,8 +13220,8 @@
   "nl": "Κίος, Cios, Cius (v. stad, later Prousias; m. stichter, rivier)"
  },
  "Καλλίας": {
-  "en": "Καλλίας, Callias",
-  "nl": "Καλλίας, Callias"
+  "en": "Callias (rich Athenian, son of Hipponicus)",
+  "nl": "Kallias (rijke Athener, zoon van Hipponikos)"
  },
  "Καλλίξενος": {
   "en": "Καλλίξενος, Callixenus",
@@ -13348,8 +13348,8 @@
   "nl": "eigennaam: Λαβώτης"
  },
  "Λακωνικός": {
-  "en": "Λακωνικός, Laconian",
-  "nl": "Λακωνικός, Laconisch"
+  "en": "Laconian, Spartan",
+  "nl": "Laconisch, Spartaans"
  },
  "Λακωνιστής": {
   "en": "Λακωνιστής, one who imitates the Lacedaemonians",
@@ -13384,8 +13384,8 @@
   "nl": "Μάδυτος, Madytus"
  },
  "Μέγαρα": {
-  "en": "Μέγαρα, town of Megara",
-  "nl": "Μέγαρα, stad Megara"
+  "en": "halls, palace (pl. of μέγαρον); also Megara (town)",
+  "nl": "zalen, paleis (mv. van μέγαρον); ook Megara (stad)"
  },
  "Μένανδρος": {
   "en": "Μένανδρος, Menander",
@@ -13460,8 +13460,8 @@
   "nl": "Μύσκων, Myscon"
  },
  "Μῆδος": {
-  "en": "Μῆδος, a Mede, Median",
-  "nl": "Μῆδος, een mede, mediaan"
+  "en": "Mede, Median; (loosely) Persian",
+  "nl": "Meder, Medisch; (ruim) Pers"
  },
  "Νότιον": {
   "en": "Notium, port of Colophon near Ephesus",
@@ -13472,12 +13472,12 @@
   "nl": "Οἰνόη, Oenoe"
  },
  "Οἰταῖος": {
-  "en": "Οἰταῖος, of Oeta",
-  "nl": "Οἰταῖος, van Oeta"
+  "en": "of Mount Oeta, Oetaean",
+  "nl": "van de Oeta (gebergte)"
  },
  "Πάριος": {
-  "en": "Πάριος, from the island of Paros",
-  "nl": "Πάριος, van het eiland Paros"
+  "en": "Parian, from Paros",
+  "nl": "van Paros, Pariër"
  },
  "Πάρος": {
   "en": "Πάρος, Paros",
@@ -13592,8 +13592,8 @@
   "nl": "Σηστός, Sestos"
  },
  "Σικελία": {
-  "en": "Σικελία, Sicily",
-  "nl": "Σικελία, Sicilië"
+  "en": "Sicily",
+  "nl": "Sicilië"
  },
  "Στάγης": {
   "en": "proper name: Στάγης",
@@ -13620,8 +13620,8 @@
   "nl": "Tissaphernes: Perzisch satraap, vijand van Kyros"
  },
  "Τραχίς": {
-  "en": "Τραχίς, Trachis",
-  "nl": "Τραχίς, Trachis"
+  "en": "Trachis (town near Thermopylae)",
+  "nl": "Trachis (stad bij Thermopylae)"
  },
  "Φανοσθένης": {
   "en": "Φανοσθένης, Phanosthenes",
@@ -13672,8 +13672,8 @@
   "nl": "Χῖος, Chian (inwoner van Chios)"
  },
  "αἰθρία": {
-  "en": "αἰθρία, in clear weather",
-  "nl": "αἰθρία, bij helder weer"
+  "en": "clear sky, fair weather",
+  "nl": "heldere hemel, helder weer"
  },
  "αἰτέω": {
   "en": "ask, ask for, request (+ acc. of person and thing)",
@@ -13752,12 +13752,12 @@
   "nl": "δημεύω, openbaar eigendom verklaren, in beslag nemen"
  },
  "δημοσιεύω": {
-  "en": "δημοσιεύω, to confiscate",
-  "nl": "δημοσιεύω, in beslag nemen"
+  "en": "take part in public life; be a public servant",
+  "nl": "aan het openbare leven deelnemen; een openbaar ambt bekleden"
  },
  "δημόσιος": {
-  "en": "δημόσιος, belonging to the people",
-  "nl": "δημόσιος, behorend tot het volk"
+  "en": "public, of the state; (as noun) public slave",
+  "nl": "openbaar, van de staat; (als znw.) openbare slaaf"
  },
  "δηϊόω": {
   "en": "δηϊόω, cut down, slay",
@@ -13792,8 +13792,8 @@
   "nl": "plunderen, leegroven"
  },
  "διασκεδάννυμι": {
-  "en": "διασκεδάννυμι, διασκεδάννυμι, -σκεδάω, -εσκέδασα, ---, ἐσκέδασμαι, ἐσκεδάσθην, scatter, disperse",
-  "nl": "διασκεδάννυμι, διασκεδάννυμι, -σκεδάω, -εσκέδασα, ---, ἐσκέδασμαι, ἐσκεδάσθην, verstrooien, verspreiden"
+  "en": "scatter, disperse",
+  "nl": "verstrooien, uiteenjagen"
  },
  "διασπείρω": {
   "en": "scatter, disperse",
@@ -13828,8 +13828,8 @@
   "nl": "διαψηφίζω, in stemming brengen"
  },
  "δικαστήριον": {
-  "en": "δικαστήριον, δικαστήριον, τό, law-court (noun)",
-  "nl": "δικαστήριον, δικαστήριον, τό, rechtbank (zelfstandig naamwoord)"
+  "en": "law-court; the jury",
+  "nl": "rechtbank; de jury"
  },
  "διορύσσω": {
   "en": "dig through, break in (of thieves)",
@@ -13864,20 +13864,20 @@
   "nl": "inval, invasie; toegang (van een pas of rivier)"
  },
  "εἰσδέχομαι": {
-  "en": "εἰσδέχομαι, to take into, admit",
-  "nl": "εἰσδέχομαι, in aanmerking nemen, toegeven"
+  "en": "admit, take in, receive",
+  "nl": "binnenlaten, opnemen, ontvangen"
  },
  "εἰσπλέω": {
-  "en": "εἰσπλέω, to sail into, enter",
-  "nl": "εἰσπλέω, binnenvaren, binnenvaren"
+  "en": "sail into, enter by sea",
+  "nl": "binnenvaren, binnenzeilen"
  },
  "εἰστίθημι": {
   "en": "εἰστίθημι, to put into, place in",
   "nl": "εἰστίθημι, inbrengen, erin plaatsen"
  },
  "εἴλω": {
-  "en": "εἴλω, to roll up, pack",
-  "nl": "εἴλω, oprollen, inpakken"
+  "en": "hem in, pen in; (εἱλόμην: from αἱρέομαι, choose)",
+  "nl": "insluiten, opeendrijven; (εἱλόμην: van αἱρέομαι, kiezen)"
  },
  "εὐαγγέλιον": {
   "en": "good news, gospel; (classical) reward for good news",
@@ -13888,16 +13888,16 @@
   "nl": "εὐδοξέω, een goede reputatie hebben, geëerd worden, beroemd zijn"
  },
  "εὐεργεσία": {
-  "en": "εὐεργεσία, well-doing",
-  "nl": "Goed, het gaat goed"
+  "en": "good deed, service, benefaction",
+  "nl": "weldaad, goede dienst"
  },
  "εὐορκέω": {
   "en": "εὐορκέω, to be faithful to one’s oath",
   "nl": "trouw zijn aan iemands eed"
  },
  "εὐτυχία": {
-  "en": "εὐτυχία, εὐτυχία, good luck, success",
-  "nl": "εὐτυχία, εὐτυχία, veel geluk, succes"
+  "en": "good fortune, prosperity, success",
+  "nl": "voorspoed, geluk, succes"
  },
  "εὐώνυμος": {
   "en": "left (ἐξ εὐωνύμων on the left); lit. of good name",
@@ -13916,8 +13916,8 @@
   "nl": "εὔριπος, een zeestraat met sterke stroming; een kanaal, sloot"
  },
  "ζημία": {
-  "en": "ζημία, ζημία, ἡ, fine (noun)",
-  "nl": "ζημία, ζημία, ἡ, fijn (zelfstandig naamwoord)"
+  "en": "penalty, fine; loss, damage",
+  "nl": "straf, boete; verlies, schade"
  },
  "ζημιόω": {
   "en": "pass. suffer loss, forfeit; act. fine, punish",
@@ -13968,8 +13968,8 @@
   "nl": "en die persoon"
  },
  "καθάπτω": {
-  "en": "καθάπτω, to fasten, fix",
-  "nl": "καθάπτω, vastmaken, vastmaken"
+  "en": "fasten on; (mid.) address, rebuke (with words)",
+  "nl": "vastmaken; (med.) aanspreken, berispen"
  },
  "καθέλκω": {
   "en": "καθέλκω, drag down to the sea: launch ships; drag down the scale, outweigh",
@@ -13988,8 +13988,8 @@
   "nl": "κατάστρωμα, dat waarover verspreid is"
  },
  "καταγιγνώσκω": {
-  "en": "καταγιγνώσκω, to remark, discover",
-  "nl": "καταγιγνώσκω, opmerken, ontdekken"
+  "en": "condemn, give judgement against; think ill of",
+  "nl": "veroordelen, schuldig verklaren; kwaad denken van"
  },
  "καταδιώκω": {
   "en": "search for, hunt for; pursue closely",
@@ -14052,8 +14052,8 @@
   "nl": "omverwerpen, omgooien; onderwerpen"
  },
  "καταψηφίζομαι": {
-  "en": "καταψηφίζομαι, to vote against, condemn; to determine by vote",
-  "nl": "καταψηφίζομαι, tegen stemmen, veroordelen; bij stemming vast te stellen"
+  "en": "vote against, condemn (by vote)",
+  "nl": "tegenstemmen, (bij stemming) veroordelen"
  },
  "κατηγορέω": {
   "en": "accuse, bring charges against (+ gen. of person)",
@@ -14072,8 +14072,8 @@
   "nl": "κοινότης, een gemeenschappelijk delen, gemeenschap, partnerschap"
  },
  "κολάζω": {
-  "en": "κολάζω, κολάζω, punish (verb)",
-  "nl": "κολάζω, κολάζω, straffen (werkwoord)"
+  "en": "punish, chastise; restrain",
+  "nl": "straffen, tuchtigen; in toom houden"
  },
  "κολακεύω": {
   "en": "κολακεύω, to flatter",
@@ -14108,8 +14108,8 @@
   "nl": "compagnie (soldaten); hinderlaag"
  },
  "μέγεθος": {
-  "en": "μέγεθος, greatness, magnitude, size, height, stature",
-  "nl": "μέγεθος, grootheid, omvang, omvang, hoogte, gestalte"
+  "en": "size, magnitude, greatness",
+  "nl": "grootte, omvang, grootsheid"
  },
  "μαχέομαι": {
   "en": "to fight; wage war",
@@ -14152,8 +14152,8 @@
   "nl": "overspel plegen"
  },
  "μοχθηρός": {
-  "en": "μοχθηρός, suffering hardship, in sore distress, miserable, wretched",
-  "nl": "μοχθηρός, ontberingen lijden, in grote nood verkeren, ellendig, ellendig"
+  "en": "wretched, miserable; bad, worthless",
+  "nl": "ellendig, rampzalig; slecht, waardeloos"
  },
  "μυριάς": {
   "en": "ten thousand, myriad; countless number",
@@ -14188,8 +14188,8 @@
   "nl": "ναυμαχέω, vechten in een schip"
  },
  "ναυμαχία": {
-  "en": "ναυμαχία, ναυμαχία, ἡ, naval battle (noun)",
-  "nl": "ναυμαχία, ναυμαχία, ἡ, zeeslag (zelfstandig naamwoord)"
+  "en": "sea battle, naval battle",
+  "nl": "zeeslag"
  },
  "ναυπηγέω": {
   "en": "ναυπηγέω, to build ships",
@@ -14256,12 +14256,12 @@
   "nl": "geloof, vertrouwen; trouw; waarborg, belofte"
  },
  "πανδημεί": {
-  "en": "πανδημεί, with the whole people, in a mass",
-  "nl": "πανδημεί, met het hele volk, in een mis"
+  "en": "with the whole people, in full force, en masse",
+  "nl": "met het hele volk, voltallig, in massa"
  },
  "παράνομος": {
-  "en": "παράνομος, acting contrary to law, lawless",
-  "nl": "παράνομος, handelend in strijd met de wet, wetteloos"
+  "en": "unlawful, illegal; lawless",
+  "nl": "onwettig, wederrechtelijk; wetteloos"
  },
  "παράρυμα": {
   "en": "towline; rope for hauling",
@@ -14384,8 +14384,8 @@
   "nl": "πολιτεύω, πολῑτεύω, πολῑτεύσω, ἐπολίτευσα, πεπολίτευκα, πεπολίτευμαι, ἐπολῑτεύθην, leef als een burger,…"
  },
  "πολυπραγμονέω": {
-  "en": "πολυπραγμονέω, to be busy with many things, meddlesome",
-  "nl": "πολυπραγμονέω, met veel dingen bezig zijn, bemoeizuchtig"
+  "en": "be busy, meddle, be a busybody",
+  "nl": "zich overal mee bemoeien, bedrijvig zijn"
  },
  "πορθέω": {
   "en": "πορθέω, to destroy, ravage, waste, plunder",
@@ -14440,8 +14440,8 @@
   "nl": "προπίνω, om eerder te drinken"
  },
  "προσβάλλω": {
-  "en": "προσβάλλω, to strike",
-  "nl": "προσβάλλω, slaan"
+  "en": "attack, assault; strike against",
+  "nl": "aanvallen, bestormen; stoten tegen"
  },
  "προσβολή": {
   "en": "προσβολή, a putting to, application",
@@ -14472,24 +14472,24 @@
   "nl": "προσπληρόω, om te vullen"
  },
  "προσχωρέω": {
-  "en": "προσχωρέω, to go to, approach",
-  "nl": "προσχωρέω, naar toe gaan, naderen"
+  "en": "come over to, side with, submit to",
+  "nl": "overlopen naar, zich aansluiten bij, zich onderwerpen"
  },
  "προτίθημι": {
-  "en": "προτίθημι, to place before, to propose, to prefer",
-  "nl": "προτίθημι, vóór plaatsen, voorstellen, verkiezen"
+  "en": "set before, set out; fix (a limit); propose",
+  "nl": "voorzetten, vaststellen (een grens); voorstellen"
  },
  "πρωΐ": {
   "en": "early, early in the morning",
   "nl": "vroeg, 's morgens vroeg"
  },
  "πρόξενος": {
-  "en": "πρόξενος, a public ξένος, guest or friend of the state",
-  "nl": "πρόξενος, een openbare ξένος, gast of vriend van de staat"
+  "en": "Proxenus (Boeotian general); public guest-friend",
+  "nl": "Proxenos (Boeotisch generaal); gastvriend van de staat"
  },
  "πρύτανις": {
-  "en": "πρύτανις, πρύτανις, ὁ, prytanis (noun)",
-  "nl": "πρύτανις, πρύτανις, ὁ, prytanis (zelfstandig naamwoord)"
+  "en": "prytanis, member of the presiding council committee",
+  "nl": "prytaan, lid van het dagelijks bestuur van de Raad"
  },
  "πρῷρα": {
   "en": "πρῷρα, the forepart of a ship, a ship’s head, prow, bow",
@@ -14668,8 +14668,8 @@
   "nl": "τεῦχος, een hulpmiddel, implementeren"
  },
  "τιμωρία": {
-  "en": "τιμωρία, τιμωρία, ἡ, revenge, vengeance (noun)",
-  "nl": "τιμωρία, τιμωρία, ἡ, wraak, wraak (zelfstandig naamwoord)"
+  "en": "vengeance, punishment, retribution",
+  "nl": "wraak, straf, vergelding"
  },
  "τοι + ἀνήρ": {
   "en": "men! / you men!",
@@ -14728,12 +14728,12 @@
   "nl": "schatting, belasting (aan een heerser)"
  },
  "χειμάζω": {
-  "en": "χειμάζω, to pass the winter",
-  "nl": "χειμάζω, om de winter door te brengen"
+  "en": "toss as in a storm, distress; pass the winter",
+  "nl": "teisteren als een storm; overwinteren"
  },
  "χράομαι": {
-  "en": "χράομαι, χράομαι, use, employ (+ dat.); experience (a condition) (+ dat.)",
-  "nl": "χράομαι, χράομαι, gebruik, gebruik (+ dat.); ervaring (een toestand) (+ dat.)"
+  "en": "use, employ (+ dat.); experience, have",
+  "nl": "gebruiken, zich bedienen van (+ dat.); ondervinden"
  },
  "χρώς": {
   "en": "χρώς, χρώς, ὁ, flesh, skin (noun)",
@@ -14748,8 +14748,8 @@
   "nl": "ψήφισμα, ψήφισμα, τό, decreet (zelfstandig naamwoord)"
  },
  "ψῆφος": {
-  "en": "ψῆφος, ψῆφος, small stone, pebble (used in reckoning, in games, in voting); vote",
-  "nl": "ψῆφος, ψῆφος, kleine steen, kiezelsteen (gebruikt bij afrekening, bij spelletjes, bij stemmen); stemmen"
+  "en": "vote, ballot; pebble",
+  "nl": "stem, stemsteentje; kiezelsteen"
  },
  "ἀήσσητος": {
   "en": "ἀήσσητος, unconquered",
@@ -14760,20 +14760,20 @@
   "nl": "ἀγνωμονέω, handelen zonder juist gevoel, oneerlijk handelen"
  },
  "ἀγνώς": {
-  "en": "ἀγνώς, unknown, ignorant",
-  "nl": "ἀγνώς, onbekend, onwetend"
+  "en": "unknown, obscure; ignorant (of)",
+  "nl": "onbekend, duister; onwetend"
  },
  "ἀθροίζω": {
   "en": "gather together, assemble",
   "nl": "verzamelen, bijeenbrengen"
  },
  "ἀθυμέω": {
-  "en": "ἀθυμέω, ἀθυμέω, be downhearted, gloomy (verb)",
-  "nl": "ἀθυμέω, ἀθυμέω, neerslachtig zijn, somber (werkwoord)"
+  "en": "be downhearted, lose heart",
+  "nl": "moedeloos zijn, de moed verliezen"
  },
  "ἀκμάζω": {
-  "en": "ἀκμάζω, to be in full bloom, be at one’s prime",
-  "nl": "Dus, om in volle bloei te zijn, op zijn best te zijn"
+  "en": "flourish, be at the height, be in one's prime",
+  "nl": "bloeien, op het hoogtepunt zijn"
  },
  "ἀκράτεια": {
   "en": "ἀκράτεια, incontinence, want of self-control",
@@ -14784,16 +14784,16 @@
   "nl": "ἀκροβόλισις, een schermutseling"
  },
  "ἀμέλεια": {
-  "en": "ἀμέλεια, indifference, negligence",
-  "nl": "ἀμέλεια, onverschilligheid, nalatigheid"
+  "en": "neglect, negligence, indifference",
+  "nl": "verwaarlozing, nalatigheid, onverschilligheid"
  },
  "ἀμηχανία": {
   "en": "ἀμηχανία, want of means, helplessness, impotence",
   "nl": "ἀμηχανία, gebrek aan middelen, hulpeloosheid, impotentie"
  },
  "ἀνάγω": {
-  "en": "ἀνάγω, to lead up; mid. set sail",
-  "nl": "ἀνάγω, leiden; midden. uitvaren"
+  "en": "lead up, bring up; (mid./pass.) put out to sea",
+  "nl": "naar boven leiden; (med./pass.) uitvaren"
  },
  "ἀνέλκω": {
   "en": "ἀνέλκω, to draw up",
@@ -14916,8 +14916,8 @@
   "nl": "uitzenden, wegsturen; zenden (als bode of apostel)"
  },
  "ἀποσῴζω": {
-  "en": "ἀποσῴζω, to preserve from, heal from",
-  "nl": "ἀποσῴζω, beschermen tegen, genezen van"
+  "en": "bring safely home; (pass.) get home safely",
+  "nl": "veilig thuisbrengen; (pass.) veilig thuiskomen"
  },
  "ἀποτείχισμα": {
   "en": "ἀποτείχισμα, a wall built to blockade, lines of blockade",
@@ -14932,8 +14932,8 @@
   "nl": "ontsnappen, wegvluchten; (juridisch) vrijgesproken worden"
  },
  "ἀπρόθυμος": {
-  "en": "ἀπρόθυμος, not eager",
-  "nl": "ἀπρόθυμος, niet enthousiast"
+  "en": "unwilling, reluctant, not eager",
+  "nl": "onwillig, weinig bereidwillig"
  },
  "ἀρέσκω": {
   "en": "please, be pleasing to (+ dat.)",
@@ -14956,12 +14956,12 @@
   "nl": "ἀριστοποιέω, bereid voor ontbijt"
  },
  "ἀσεβέω": {
-  "en": "ἀσεβέω, ἀσεβέω, live or act impiously; sin against",
-  "nl": "ἀσεβέω, ἀσεβέω, goddeloos leven of handelen; zonde tegen"
+  "en": "act impiously, commit sacrilege (against)",
+  "nl": "goddeloos handelen, heiligschennis plegen"
  },
  "ἀστυγείτων": {
-  "en": "ἀστυγείτων, near or bordering on a city",
-  "nl": "ἀστυγείτων, dichtbij of grenzend aan een stad"
+  "en": "neighbouring (of a city); neighbour",
+  "nl": "naburig (van een stad); buurman"
  },
  "ἀτέλεια": {
   "en": "immunity from taxes; exemption",
@@ -14996,8 +14996,8 @@
   "nl": "eigennaam: Ἀγησανδρίδας"
  },
  "Ἀδείμαντος": {
-  "en": "Ἀδείμαντος, Adimantus",
-  "nl": "Ἀδείμαντος, Adimantus"
+  "en": "Adimantus (Plato's brother)",
+  "nl": "Adeimantos (broer van Plato)"
  },
  "Ἀθήνησι": {
   "en": "Ἀθῆναι, Ἀθῆναι, αἱ, Athens (noun)",
@@ -15116,12 +15116,12 @@
   "nl": "Artemis: godin van de jacht, zuster van Apollo"
  },
  "ἐγγυάω": {
-  "en": "ἐγγυάω, ἐγγυάω, engage, promise (verb)",
-  "nl": "ἐγγυάω, ἐγγυάω, engageren, beloven (werkwoord)"
+  "en": "pledge; (mid.) stand surety, guarantee",
+  "nl": "verpanden; (med.) borg staan, garanderen"
  },
  "ἐγγυητής": {
-  "en": "ἐγγυητής, one who gives security, a surety",
-  "nl": "ἐγγυητής, iemand die zekerheid geeft, een borg"
+  "en": "guarantor, surety",
+  "nl": "borg, garant"
  },
  "ἐκβιβάζω": {
   "en": "ἐκβιβάζω, to make to step out",
@@ -15136,16 +15136,16 @@
   "nl": "vergadering, volksvergadering; (NT) gemeente, kerk"
  },
  "ἐκπέμπω": {
-  "en": "ἐκπέμπω, ἐκπέμπω, send out, divorce (verb)",
-  "nl": "ἐκπέμπω, ἐκπέμπω, uitzenden, scheiden (werkwoord)"
+  "en": "send out, send away; banish",
+  "nl": "uitzenden, wegsturen; verbannen"
  },
  "ἐκπίπτω": {
   "en": "fall out; be driven out, be exiled",
   "nl": "eruit vallen; verdreven worden, verbannen worden"
  },
  "ἐκπλέω": {
-  "en": "ἐκπλέω, to sail out, sail away, weigh anchor",
-  "nl": "ἐκπλέω, uitvaren, wegzeilen, anker lichten"
+  "en": "sail out, sail away",
+  "nl": "uitvaren, wegvaren"
  },
  "ἐλασσόω": {
   "en": "make less; pass. decrease, grow less (Jn 3:30)",
@@ -15180,8 +15180,8 @@
   "nl": "berichten, bekendmaken, het nieuws verspreiden"
  },
  "ἐξαμαρτάνω": {
-  "en": "ἐξαμαρτάνω, to err from the mark, fail",
-  "nl": "ἐξαμαρτάνω, dwalen van het doel, falen"
+  "en": "do wrong, err, go astray",
+  "nl": "fout doen, zich vergissen, misstappen"
  },
  "ἐξαπίναιος": {
   "en": "ἐξαπίναιος, sudden, unexpected",
@@ -15208,8 +15208,8 @@
   "nl": "ἐπαγγέλλω, ἐπαγγέλλω, bestellen (werkwoord)"
  },
  "ἐπαιτιάομαι": {
-  "en": "ἐπαιτιάομαι, to bring a charge against, accuse",
-  "nl": "ἐπαιτιάομαι, een aanklacht indienen tegen, beschuldigen"
+  "en": "accuse, blame, bring a charge against",
+  "nl": "beschuldigen, de schuld geven, aanklagen"
  },
  "ἐπακτρίς": {
   "en": "ἐπακτρίς, a light vessel, skiff",
@@ -15252,24 +15252,24 @@
   "nl": "noemen, een bijnaam geven; med. aanroepen; pass. bijgenaamd worden"
  },
  "ἐπικηρύσσω": {
-  "en": "ἐπικηρύσσω, to announce by proclamation",
-  "nl": "ἐπικηρύσσω, aankondigen bij proclamatie"
+  "en": "proclaim publicly; set a price on (by proclamation)",
+  "nl": "openbaar afkondigen; een prijs uitloven op"
  },
  "ἐπιλείπω": {
   "en": "fail, run short (of supplies); leave behind",
   "nl": "opraken, ontbreken (van voorraad); achterlaten"
  },
  "ἐπιπλέω": {
-  "en": "ἐπιπλέω, to sail upon",
-  "nl": "ἐπιπλέω, om op te varen"
+  "en": "sail over, sail upon (the sea)",
+  "nl": "bevaren, varen over (de zee)"
  },
  "ἐπισκευάζω": {
   "en": "ἐπισκευάζω, to get ready, to equip, fit out",
   "nl": "ἐπισκευάζω, klaarmaken, uitrusten, uitrusten"
  },
  "ἐπιστέλλω": {
-  "en": "ἐπιστέλλω, ἐπιστέλλω, send a message; order, command (+ dat. or acc. + inf.)",
-  "nl": "ἐπιστέλλω, ἐπιστέλλω, stuur een bericht; order, commando (+ dat. of acc. + inf.)"
+  "en": "send word, instruct, order (+ dat.)",
+  "nl": "berichten, opdragen, bevelen (+ dat.)"
  },
  "ἐπιστολή": {
   "en": "letter; message, order sent by messenger",
@@ -15316,8 +15316,8 @@
   "nl": "zevenhonderd"
  },
  "ἔαρ": {
-  "en": "ἔαρ, spring",
-  "nl": "ἔαρ, lente"
+  "en": "spring (season)",
+  "nl": "lente"
  },
  "ἔκπλοος": {
   "en": "ἔκπλοος, a sailing out, leaving port",
@@ -15336,8 +15336,8 @@
   "nl": "ἔποικος, iemand die zich onder vreemden heeft gevestigd, een kolonist, buitenaards wezen"
  },
  "ἔρρω": {
-  "en": "ἔρρω, be gone",
-  "nl": "wees weg"
+  "en": "go to ruin, be gone, perish; (imper.) away with you!",
+  "nl": "ten onder gaan, verdwijnen; (imper.) weg ermee!"
  },
  "ἔφορος": {
   "en": "ἔφορος, an overseer, guardian, ruler",
@@ -15408,8 +15408,8 @@
   "nl": "oever; strand"
  },
  "Ἠλεῖος": {
-  "en": "Ἠλεῖος, from Elis (adj), pr. n. Eleios",
-  "nl": "Ἠλεῖος, van Elis (adj), pr. N. Eleios"
+  "en": "Elean, from Elis (Hippias' city)",
+  "nl": "uit Elis, Eleïsch (stad van Hippias)"
  },
  "Ἡράκλεια": {
   "en": "Ἡράκλειος, of Hercules",
@@ -15420,8 +15420,8 @@
   "nl": "Ἡράκλειος, van Hercules"
  },
  "Ἡρακλείδης": {
-  "en": "Ἡρακλείδης, son of Heracles",
-  "nl": "Ἡρακλείδης, zoon van Heracles"
+  "en": "descendant of Heracles, Heraclid",
+  "nl": "afstammeling van Herakles, Heraclide"
  },
  "ἰδίᾳ": {
   "en": "privately, by oneself, apart; (κατ' ἰδίαν) in private",
@@ -15472,8 +15472,8 @@
   "nl": "tachtig"
  },
  "ὀλίγωρος": {
-  "en": "ὀλίγωρος, ὀλίγωρος ον, contemptuous (adjective)",
-  "nl": "ὀλίγωρος, ὀλίγωρος ον, minachtend (bijvoeglijk naamwoord)"
+  "en": "careless, neglectful; contemptuous",
+  "nl": "achteloos, nalatig; minachtend"
  },
  "ὁ + ἄλλος": {
   "en": "the other",
@@ -15492,12 +15492,12 @@
   "nl": "ὁρμίζω, naar een veilige ankerplaats brengen, in de haven brengen, aanmeren, voor anker gaan"
  },
  "ὅσιος": {
-  "en": "ὅσιος, ὅσιος, hallowed, pious, pure",
-  "nl": "ὅσιος, ὅσιος, heilig, vroom, zuiver"
+  "en": "holy, pious; sanctioned by divine law",
+  "nl": "heilig, vroom; door goddelijke wet geoorloofd"
  },
  "Ὀλυμπιάς": {
-  "en": "Ὀλυμπιάς, Olympic (Muse)/games/victory; Olympiad (four years)",
-  "nl": "Ὀλυμπιάς, Olympisch (Muse)/spelen/overwinning; Olympiade (vier jaar)"
+  "en": "Olympic festival, the Olympic games; Olympiad",
+  "nl": "Olympisch feest, Olympische Spelen; Olympiade"
  },
  "Ὅσα": {
   "en": "ὅσος, ὅσος, ὅση, ὅσον, as much/many as, as large as; how much/many!, how large!",
@@ -15508,8 +15508,8 @@
   "nl": "waterkruik, watervat"
  },
  "ὑπέχω": {
-  "en": "ὑπέχω, to hold under, uphold; undergo, suffer, be accountable",
-  "nl": "ὑπέχω, vasthouden, hooghouden; ondergaan, lijden, aansprakelijk zijn"
+  "en": "undergo, submit to; bear (blame, penalty)",
+  "nl": "ondergaan, zich onderwerpen aan; dragen (schuld, straf)"
  },
  "ὑπεραπολογέομαι": {
   "en": "ὑπεραπολογέομαι, to speak in behalf of, defend",
@@ -15536,8 +15536,8 @@
   "nl": "ὑπόσπονδος, onder een verdrag, gebonden"
  },
  "ὕω": {
-  "en": "ὕω, to send rain, to rain",
-  "nl": "ὕω, regen sturen, regenen"
+  "en": "rain, send rain",
+  "nl": "regenen, regen zenden"
  },
  "ὡσεί": {
   "en": "as if, like; (with numbers) about, approximately",
