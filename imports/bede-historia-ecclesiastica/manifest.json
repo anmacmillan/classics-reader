@@ -1,0 +1,81 @@
+{
+  "id": "bede-historia-ecclesiastica",
+  "title": "Beda — Historia ecclesiastica gentis Anglorum",
+  "shortTitle": "Hoogtepunten: van Brittannië tot Cædmon",
+  "author": "Beda Venerabilis",
+  "year": 731,
+  "lang": "latin",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Latin dependency parse; controleer twijfelgevallen",
+  "chapters": [
+    {
+      "title": "Voorwoord aan koning Ceolwulf",
+      "startLine": 1,
+      "original": "latin-01.txt",
+      "english": "english-01.txt",
+      "translationCredit": "Latijn: The Latin Library (tekst naar Plummer/Colgrave-Mynors) · EN: A. M. Sellar (1907), public domain, per regel uitgelijnd",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://www.thelatinlibrary.com/bede.html"
+    },
+    {
+      "title": "Brittannië beschreven (I.1)",
+      "startLine": 1,
+      "original": "latin-02.txt",
+      "english": "english-02.txt"
+    },
+    {
+      "title": "De komst van de Angelen, Saksen en Jutten (I.15)",
+      "startLine": 1,
+      "original": "latin-03.txt",
+      "english": "english-03.txt"
+    },
+    {
+      "title": "Gregorius de Grote: leven en werk (II.1, deel 1)",
+      "startLine": 1,
+      "original": "latin-04.txt",
+      "english": "english-04.txt"
+    },
+    {
+      "title": "Gregorius: liefdadigheid, dood en grafschrift (II.1, deel 2)",
+      "startLine": 1,
+      "original": "latin-05.txt",
+      "english": "english-05.txt"
+    },
+    {
+      "title": "Non Angli sed angeli (II.1, deel 3)",
+      "startLine": 1,
+      "original": "latin-06.txt",
+      "english": "english-06.txt"
+    },
+    {
+      "title": "De mus in de zaal (II.13)",
+      "startLine": 1,
+      "original": "latin-07.txt",
+      "english": "english-07.txt"
+    },
+    {
+      "title": "Aidan, bisschop van Lindisfarne (III.5)",
+      "startLine": 1,
+      "original": "latin-08.txt",
+      "english": "english-08.txt"
+    },
+    {
+      "title": "Oswald en de zilveren schotel (III.6)",
+      "startLine": 1,
+      "original": "latin-09.txt",
+      "english": "english-09.txt"
+    },
+    {
+      "title": "Cædmon, de dichter van Whitby (IV.24)",
+      "startLine": 1,
+      "original": "latin-10.txt",
+      "english": "english-10.txt"
+    },
+    {
+      "title": "Beda over zichzelf (V.24)",
+      "startLine": 1,
+      "original": "latin-11.txt",
+      "english": "english-11.txt"
+    }
+  ]
+}
