@@ -1,88 +1,222 @@
 {
   "id": "xenophon-anabasis-1",
   "title": "Xenophon — Anabasis I",
-  "shortTitle": "De expeditie van Cyrus en de crisis van het leger",
+  "shortTitle": "De tocht van Kyros naar Cunaxa",
   "author": "Xenophon",
   "year": -401,
   "lang": "greek",
   "syntax": "syntax.json",
   "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
-  "curriculum": [{"network": "kov", "stage": "second-degree", "status": "supporting-text", "genres": ["historiography"]}, {"network": "go", "stage": "second-degree", "status": "supporting-text", "genres": ["historiography"]}],
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "second-degree",
+      "status": "supporting-text",
+      "genres": [
+        "historiography"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "second-degree",
+      "status": "supporting-text",
+      "genres": [
+        "historiography"
+      ]
+    }
+  ],
   "chapters": [
     {
-      "title": "De opstand van Cyrus: begin van de expeditie (1.1.1–1.1.18)",
+      "title": "Twee broers: Kyros valt in ongenade (1.1.1–1.1.5)",
       "startLine": 1,
       "original": "greek-01.txt",
       "english": "english-01.txt",
-      "translationCredit": "Grieks: Perseus Digital Library (tlg0032.tlg001.perseus-grc2) · EN: Perseus English reference · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY)",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Grieks: Xenophon, Anabasis (TLG 0032.006) via de GLAUx-treebank; 1.8.16 Ξενοφῶν naar de standaardtekst · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY) · EN/NL: zin-voor-zin studievertaling",
       "translationCreditLanguage": "Bronnen",
-      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg001.perseus-grc2:1.1.1"
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0032.tlg006.perseus-grc2:1.1.1"
     },
     {
-      "title": "Cyrus’ plannen en de mars naar Sardis (1.1.19–1.1.37)",
+      "title": "Een leger in het geheim (1.1.6–1.1.11)",
       "startLine": 1,
       "original": "greek-02.txt",
-      "english": "english-02.txt"
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
     },
     {
-      "title": "De Tigris over: de mars oostwaarts (1.2.1–1.2.19)",
+      "title": "Vertrek uit Sardes (1.2.1–1.2.6)",
       "startLine": 1,
       "original": "greek-03.txt",
-      "english": "english-03.txt"
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
     },
     {
-      "title": "De Grieken zien de ware bedoeling (1.3.1–1.3.22)",
+      "title": "Kelainai, Marsyas en achterstallige soldij (1.2.7–1.2.13)",
       "startLine": 1,
       "original": "greek-04.txt",
-      "english": "english-04.txt"
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
     },
     {
-      "title": "De opmars en de rivier de Eufraat (1.4.1–1.4.23)",
+      "title": "Een parade voor de Kilikische koningin (1.2.14–1.2.20)",
       "startLine": 1,
       "original": "greek-05.txt",
-      "english": "english-05.txt"
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
     },
     {
-      "title": "Cyrus zet de Grieken onder druk (1.5.1–1.5.21)",
+      "title": "Over de pas naar Tarsos (1.2.21–1.2.27)",
       "startLine": 1,
       "original": "greek-06.txt",
-      "english": "english-06.txt"
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
     },
     {
-      "title": "De vooravond van de slag bij Cunaxa (1.6.1–1.6.12)",
+      "title": "Muiterij in Tarsos: de tranen van Klearchos (1.3.1–1.3.8)",
       "startLine": 1,
       "original": "greek-07.txt",
-      "english": "english-07.txt"
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
     },
     {
-      "title": "De slagorde van Cyrus (1.6.13–1.6.25)",
+      "title": "Klearchos' dilemma en de voorstellen van de soldaten (1.3.9–1.3.14)",
       "startLine": 1,
       "original": "greek-08.txt",
-      "english": "english-08.txt"
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
     },
     {
-      "title": "De dood van Cyrus (1.6.26–1.6.38)",
+      "title": "Het gezantschap naar Kyros en een hogere soldij (1.3.15–1.3.21)",
       "startLine": 1,
       "original": "greek-09.txt",
-      "english": "english-09.txt"
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
     },
     {
-      "title": "De nasleep van de slag (1.7.1–1.7.12)",
+      "title": "Issos en de Syrische Poorten (1.4.1–1.4.6)",
       "startLine": 1,
       "original": "greek-10.txt",
-      "english": "english-10.txt"
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
     },
     {
-      "title": "Tissaphernes en de Griekse bevelhebbers (1.7.13–1.7.24)",
+      "title": "Xenias en Pasion deserteren (1.4.7–1.4.10)",
       "startLine": 1,
       "original": "greek-11.txt",
-      "english": "english-11.txt"
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
     },
     {
-      "title": "De crisis van het leger (1.7.25–1.7.35)",
+      "title": "Het doel onthuld: door de Eufraat (1.4.11–1.4.19)",
       "startLine": 1,
       "original": "greek-12.txt",
-      "english": "english-12.txt"
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Door de Arabische woestijn (1.5.1–1.5.4)",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Honger en wagens in de modder (1.5.5–1.5.9)",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Charmande en de ruzie tussen Klearchos en Menon (1.5.10–1.5.17)",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    },
+    {
+      "title": "Het verraad van Orontas (1.6.1–1.6.5)",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt",
+      "dutch": "dutch-16.txt"
+    },
+    {
+      "title": "Het proces tegen Orontas (1.6.6–1.6.11)",
+      "startLine": 1,
+      "original": "greek-17.txt",
+      "english": "english-17.txt",
+      "dutch": "dutch-17.txt"
+    },
+    {
+      "title": "Kyros spreekt de Grieken toe (1.7.1–1.7.9)",
+      "startLine": 1,
+      "original": "greek-18.txt",
+      "english": "english-18.txt",
+      "dutch": "dutch-18.txt"
+    },
+    {
+      "title": "Troepensterkte, de gracht en de voorspelling van Silanos (1.7.10–1.7.20)",
+      "startLine": 1,
+      "original": "greek-19.txt",
+      "english": "english-19.txt",
+      "dutch": "dutch-19.txt"
+    },
+    {
+      "title": "De koning rukt op: slagorde bij Cunaxa (1.8.1–1.8.13)",
+      "startLine": 1,
+      "original": "greek-20.txt",
+      "english": "english-20.txt",
+      "dutch": "dutch-20.txt"
+    },
+    {
+      "title": "Het wachtwoord en de Griekse aanval (1.8.14–1.8.20)",
+      "startLine": 1,
+      "original": "greek-21.txt",
+      "english": "english-21.txt",
+      "dutch": "dutch-21.txt"
+    },
+    {
+      "title": "De dood van Kyros (1.8.21–1.8.29)",
+      "startLine": 1,
+      "original": "greek-22.txt",
+      "english": "english-22.txt",
+      "dutch": "dutch-22.txt"
+    },
+    {
+      "title": "Portret van Kyros: jeugd, trouw en strengheid (1.9.1–1.9.13)",
+      "startLine": 1,
+      "original": "greek-23.txt",
+      "english": "english-23.txt",
+      "dutch": "dutch-23.txt"
+    },
+    {
+      "title": "Portret van Kyros: beloning van dapperheid en rechtvaardigheid (1.9.14–1.9.22)",
+      "startLine": 1,
+      "original": "greek-24.txt",
+      "english": "english-24.txt",
+      "dutch": "dutch-24.txt"
+    },
+    {
+      "title": "Portret van Kyros: vriendschap tot in de dood (1.9.23–1.9.31)",
+      "startLine": 1,
+      "original": "greek-25.txt",
+      "english": "english-25.txt",
+      "dutch": "dutch-25.txt"
+    },
+    {
+      "title": "De plundering van het kamp (1.10.1–1.10.9)",
+      "startLine": 1,
+      "original": "greek-26.txt",
+      "english": "english-26.txt",
+      "dutch": "dutch-26.txt"
+    },
+    {
+      "title": "Een tweede treffen en een nacht zonder eten (1.10.10–1.10.19)",
+      "startLine": 1,
+      "original": "greek-27.txt",
+      "english": "english-27.txt",
+      "dutch": "dutch-27.txt"
     }
   ]
 }
