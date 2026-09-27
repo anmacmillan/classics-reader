@@ -1,0 +1,181 @@
+{
+  "id": "herodotus-curriculum",
+  "title": "Herodotus — Historiën: schoolselecties",
+  "shortTitle": "Solon en Kroisos, Kroisos op de brandstapel, Thermopylae",
+  "author": "Herodotus",
+  "year": -430,
+  "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "second-degree",
+      "status": "required-author",
+      "genres": [
+        "historiography"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "second-degree",
+      "status": "supporting-text",
+      "genres": [
+        "historiography"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "historiography"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Solon in Sardes: de gelukkigste mens (I.29–30)",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Grieks: GLAUx / Perseus (tlg0016.tlg001) · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY) · EN/NL: zin-voor-zin studievertaling",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:1.29"
+    },
+    {
+      "title": "Kleobis en Biton (I.31)",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "Zeventig jaar: de mens is louter toeval (I.32.1–4)",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "Rijk of gelukkig? Kijk naar het einde (I.32.5–33)",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Kroisos op de brandstapel (I.86)",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Apollo redt Kroisos; Kyros plundert Sardes (I.87–88)",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Kroisos als raadgever van Kyros (I.89–90)",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Het antwoord van de Pythia (I.91)",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "De Grieken in de pas van Thermopylae (VII.201–204)",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt"
+    },
+    {
+      "title": "Leonidas en zijn driehonderd (VII.205–207)",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt"
+    },
+    {
+      "title": "De Perzische verkenner en Demaratos (VII.208–209)",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt"
+    },
+    {
+      "title": "Twee dagen strijd in de pas (VII.210–212)",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt"
+    },
+    {
+      "title": "Het verraad van Ephialtes (VII.213–215)",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt"
+    },
+    {
+      "title": "Het bergpad en de Phokiërs (VII.216–218)",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Leonidas stuurt de bondgenoten weg (VII.219–222)",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    },
+    {
+      "title": "Het laatste gevecht; Leonidas valt (VII.223–225)",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt",
+      "dutch": "dutch-16.txt"
+    },
+    {
+      "title": "Dienekes en de grafschriften (VII.226–228)",
+      "startLine": 1,
+      "original": "greek-17.txt",
+      "english": "english-17.txt",
+      "dutch": "dutch-17.txt"
+    },
+    {
+      "title": "Aristodemos, Pantites en de Thebanen (VII.229–233)",
+      "startLine": 1,
+      "original": "greek-18.txt",
+      "english": "english-18.txt",
+      "dutch": "dutch-18.txt"
+    },
+    {
+      "title": "Xerxes vraagt Demaratos om raad (VII.234–235)",
+      "startLine": 1,
+      "original": "greek-19.txt",
+      "english": "english-19.txt",
+      "dutch": "dutch-19.txt"
+    },
+    {
+      "title": "Achaimenes; het lijk van Leonidas (VII.236–238)",
+      "startLine": 1,
+      "original": "greek-20.txt",
+      "english": "english-20.txt",
+      "dutch": "dutch-20.txt"
+    }
+  ]
+}

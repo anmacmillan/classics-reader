@@ -1,0 +1,432 @@
+{
+  "id": "plato-apology",
+  "title": "Plato — Apologie van Sokrates",
+  "shortTitle": "De verdediging van Sokrates",
+  "author": "Plato",
+  "year": -399,
+  "lang": "greek",
+  "syntax": "syntax.json",
+  "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
+  "curriculum": [
+    {
+      "network": "kov",
+      "stage": "third-degree",
+      "status": "required-author",
+      "genres": [
+        "philosophy",
+        "rhetoric"
+      ]
+    },
+    {
+      "network": "go",
+      "stage": "third-degree",
+      "status": "supporting-text",
+      "genres": [
+        "philosophy",
+        "rhetoric"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Inleiding · Geen sierlijke woorden, alleen de waarheid (17a–18a)",
+      "startLine": 1,
+      "original": "greek-01.txt",
+      "english": "english-01.txt",
+      "dutch": "dutch-01.txt",
+      "translationCredit": "Grieks: GLAUx / Perseus (tlg0059.tlg002) · Parsing: GLAUx-treebank (automatisch geparseerd, CC BY) · EN/NL: zin-voor-zin studievertaling",
+      "translationCreditLanguage": "Bronnen",
+      "translationUrl": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg002.perseus-grc2:17a"
+    },
+    {
+      "title": "Inleiding · De oude en de nieuwe aanklagers (18a–e)",
+      "startLine": 1,
+      "original": "greek-02.txt",
+      "english": "english-02.txt",
+      "dutch": "dutch-02.txt"
+    },
+    {
+      "title": "De oude aanklagers · Geen natuurkundige, geen betaalde leraar (18e–19e)",
+      "startLine": 1,
+      "original": "greek-03.txt",
+      "english": "english-03.txt",
+      "dutch": "dutch-03.txt"
+    },
+    {
+      "title": "De oude aanklagers · Kallias, Euenos en de vraag naar Sokrates’ bezigheid (19e–20c)",
+      "startLine": 1,
+      "original": "greek-04.txt",
+      "english": "english-04.txt",
+      "dutch": "dutch-04.txt"
+    },
+    {
+      "title": "Het orakel · Menselijke wijsheid en de uitspraak van Delphi (20c–21b)",
+      "startLine": 1,
+      "original": "greek-05.txt",
+      "english": "english-05.txt",
+      "dutch": "dutch-05.txt"
+    },
+    {
+      "title": "Het orakel · Het onderzoek bij de politici (21b–22a)",
+      "startLine": 1,
+      "original": "greek-06.txt",
+      "english": "english-06.txt",
+      "dutch": "dutch-06.txt"
+    },
+    {
+      "title": "Het orakel · De dichters en de ambachtslieden (22a–e)",
+      "startLine": 1,
+      "original": "greek-07.txt",
+      "english": "english-07.txt",
+      "dutch": "dutch-07.txt"
+    },
+    {
+      "title": "Het orakel · Haat, laster en de jongeren die hem nadoen (22e–24b)",
+      "startLine": 1,
+      "original": "greek-08.txt",
+      "english": "english-08.txt",
+      "dutch": "dutch-08.txt"
+    },
+    {
+      "title": "Meletos ondervraagd · Wie maakt de jongeren beter? (24b–e)",
+      "startLine": 1,
+      "original": "greek-09.txt",
+      "english": "english-09.txt",
+      "dutch": "dutch-09.txt",
+      "speakers": [
+        {
+          "start": 11,
+          "end": 12,
+          "name": "Sokrates"
+        },
+        {
+          "start": 13,
+          "end": 13,
+          "name": "Meletos"
+        },
+        {
+          "start": 14,
+          "end": 20,
+          "name": "Sokrates"
+        },
+        {
+          "start": 21,
+          "end": 21,
+          "name": "Meletos"
+        },
+        {
+          "start": 22,
+          "end": 22,
+          "name": "Sokrates"
+        },
+        {
+          "start": 23,
+          "end": 23,
+          "name": "Meletos"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "name": "Sokrates"
+        },
+        {
+          "start": 26,
+          "end": 26,
+          "name": "Meletos"
+        },
+        {
+          "start": 27,
+          "end": 27,
+          "name": "Sokrates"
+        },
+        {
+          "start": 28,
+          "end": 28,
+          "name": "Meletos"
+        },
+        {
+          "start": 29,
+          "end": 29,
+          "name": "Sokrates"
+        }
+      ]
+    },
+    {
+      "title": "Meletos ondervraagd · Paarden en de vele verbeteraars (25a–c)",
+      "startLine": 1,
+      "original": "greek-10.txt",
+      "english": "english-10.txt",
+      "dutch": "dutch-10.txt",
+      "speakers": [
+        {
+          "start": 1,
+          "end": 2,
+          "name": "Sokrates"
+        },
+        {
+          "start": 3,
+          "end": 3,
+          "name": "Meletos"
+        },
+        {
+          "start": 4,
+          "end": 4,
+          "name": "Sokrates"
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "name": "Meletos"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "name": "Sokrates"
+        },
+        {
+          "start": 8,
+          "end": 8,
+          "name": "Meletos"
+        },
+        {
+          "start": 9,
+          "end": 10,
+          "name": "Sokrates"
+        },
+        {
+          "start": 11,
+          "end": 11,
+          "name": "Meletos"
+        },
+        {
+          "start": 12,
+          "end": 20,
+          "name": "Sokrates"
+        }
+      ]
+    },
+    {
+      "title": "Meletos ondervraagd · Bewust of onbewust bederven? (25c–26a)",
+      "startLine": 1,
+      "original": "greek-11.txt",
+      "english": "english-11.txt",
+      "dutch": "dutch-11.txt",
+      "speakers": [
+        {
+          "start": 1,
+          "end": 4,
+          "name": "Sokrates"
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "name": "Meletos"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "name": "Sokrates"
+        },
+        {
+          "start": 10,
+          "end": 10,
+          "name": "Meletos"
+        },
+        {
+          "start": 11,
+          "end": 11,
+          "name": "Sokrates"
+        },
+        {
+          "start": 12,
+          "end": 12,
+          "name": "Meletos"
+        },
+        {
+          "start": 13,
+          "end": 20,
+          "name": "Sokrates"
+        }
+      ]
+    },
+    {
+      "title": "Meletos ondervraagd · Gelooft Sokrates in geen enkele god? (26a–e)",
+      "startLine": 1,
+      "original": "greek-12.txt",
+      "english": "english-12.txt",
+      "dutch": "dutch-12.txt",
+      "speakers": [
+        {
+          "start": 1,
+          "end": 3,
+          "name": "Sokrates"
+        },
+        {
+          "start": 4,
+          "end": 4,
+          "name": "Meletos"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "name": "Sokrates"
+        },
+        {
+          "start": 7,
+          "end": 7,
+          "name": "Meletos"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "name": "Sokrates"
+        },
+        {
+          "start": 10,
+          "end": 10,
+          "name": "Meletos"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "name": "Sokrates"
+        },
+        {
+          "start": 16,
+          "end": 16,
+          "name": "Meletos"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "name": "Sokrates"
+        }
+      ]
+    },
+    {
+      "title": "Meletos ondervraagd · Het raadsel: daimonische zaken zonder daimones (26e–28a)",
+      "startLine": 1,
+      "original": "greek-13.txt",
+      "english": "english-13.txt",
+      "dutch": "dutch-13.txt",
+      "speakers": [
+        {
+          "start": 1,
+          "end": 15,
+          "name": "Sokrates"
+        },
+        {
+          "start": 16,
+          "end": 16,
+          "name": "Meletos"
+        },
+        {
+          "start": 17,
+          "end": 24,
+          "name": "Sokrates"
+        },
+        {
+          "start": 25,
+          "end": 25,
+          "name": "Meletos"
+        },
+        {
+          "start": 26,
+          "end": 30,
+          "name": "Sokrates"
+        }
+      ]
+    },
+    {
+      "title": "Sokrates’ opdracht · Achilleus en de post die men niet verlaat (28a–29a)",
+      "startLine": 1,
+      "original": "greek-14.txt",
+      "english": "english-14.txt",
+      "dutch": "dutch-14.txt"
+    },
+    {
+      "title": "Sokrates’ opdracht · Doodsangst en gehoorzaamheid aan de god (29a–30b)",
+      "startLine": 1,
+      "original": "greek-15.txt",
+      "english": "english-15.txt",
+      "dutch": "dutch-15.txt"
+    },
+    {
+      "title": "Sokrates’ opdracht · De horzel van Athene (30b–31a)",
+      "startLine": 1,
+      "original": "greek-16.txt",
+      "english": "english-16.txt",
+      "dutch": "dutch-16.txt"
+    },
+    {
+      "title": "Sokrates’ opdracht · Armoede als getuige en het goddelijke teken (31a–32a)",
+      "startLine": 1,
+      "original": "greek-17.txt",
+      "english": "english-17.txt",
+      "dutch": "dutch-17.txt"
+    },
+    {
+      "title": "Sokrates’ opdracht · De tien strategen en Leon van Salamis (32a–e)",
+      "startLine": 1,
+      "original": "greek-18.txt",
+      "english": "english-18.txt",
+      "dutch": "dutch-18.txt"
+    },
+    {
+      "title": "Sokrates’ opdracht · Geen leraar: de getuigen in de zaal (32e–34b)",
+      "startLine": 1,
+      "original": "greek-19.txt",
+      "english": "english-19.txt",
+      "dutch": "dutch-19.txt"
+    },
+    {
+      "title": "Slotwoord · Geen tranen, geen kinderen (34b–35d)",
+      "startLine": 1,
+      "original": "greek-20.txt",
+      "english": "english-20.txt",
+      "dutch": "dutch-20.txt"
+    },
+    {
+      "title": "De tegenstraf · Na het vonnis: maaltijden in het prytaneion (35e–37a)",
+      "startLine": 1,
+      "original": "greek-21.txt",
+      "english": "english-21.txt",
+      "dutch": "dutch-21.txt"
+    },
+    {
+      "title": "De tegenstraf · Gevangenis, boete of ballingschap? (37a–e)",
+      "startLine": 1,
+      "original": "greek-22.txt",
+      "english": "english-22.txt",
+      "dutch": "dutch-22.txt"
+    },
+    {
+      "title": "De tegenstraf · Het ononderzochte leven en dertig minen (37e–38b)",
+      "startLine": 1,
+      "original": "greek-23.txt",
+      "english": "english-23.txt",
+      "dutch": "dutch-23.txt"
+    },
+    {
+      "title": "Na het doodvonnis · Een voorspelling voor wie hem veroordeelden (38c–39e)",
+      "startLine": 1,
+      "original": "greek-24.txt",
+      "english": "english-24.txt",
+      "dutch": "dutch-24.txt"
+    },
+    {
+      "title": "Na het doodvonnis · Het zwijgende teken en de dood als slaap (39e–40e)",
+      "startLine": 1,
+      "original": "greek-25.txt",
+      "english": "english-25.txt",
+      "dutch": "dutch-25.txt"
+    },
+    {
+      "title": "Na het doodvonnis · De reis naar de Hades en het afscheid (40e–42a)",
+      "startLine": 1,
+      "original": "greek-26.txt",
+      "english": "english-26.txt",
+      "dutch": "dutch-26.txt"
+    }
+  ]
+}
