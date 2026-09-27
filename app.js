@@ -1238,7 +1238,9 @@ function renderChapter({ syncAfterPlacement = false } = {}) {
 
     const lineNumber = document.createElement("span");
     lineNumber.className = "line-number";
-    lineNumber.textContent = currentLineNumber;
+    // Verse whose source prints lyric passages as fewer, longer rows carries
+    // its true line numbers; speaker ranges still count rows from startLine.
+    lineNumber.textContent = ch.lineNumbers?.[lineIdx] ?? currentLineNumber;
     lineNumber.setAttribute("aria-hidden", "true");
     row.appendChild(lineNumber);
 
