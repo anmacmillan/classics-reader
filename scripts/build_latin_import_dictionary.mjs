@@ -10,6 +10,9 @@ const IMPORTS_DIR = path.join(ROOT, "imports");
 const BASE_DICTIONARY = path.join(ROOT, "dictionary.js");
 const OUTPUT = path.join(ROOT, "generated", "imported-latin-dictionary.js");
 const CATULLUS_OVERRIDES = path.join(ROOT, "imports", "catullus", "latin-overrides.json");
+// Wrong-word corrections from the September 2026 line-by-line audit of the
+// curriculum texts (Whitaker's first candidate word checked against usage).
+const AUDIT_OVERRIDES = path.join(ROOT, "scripts", "latin-audit-overrides.json");
 
 const OVERRIDES = {
   abire: { lemma: "abeo, abire, abii, abitus", en: "to go away; to depart", grammar: "V PRES ACTIVE INF" },
@@ -990,6 +993,20 @@ const OVERRIDES = {
   ysocratis: { lemma: "Isocrates, Isocratis", en: "of Isocrates (the Athenian orator)", grammar: "N GEN S M (medieval spelling)" },
   zoilum: { lemma: "Zoilus, Zoili", en: "Zoilus (the carping critic of Homer)", grammar: "N ACC S M (proper name)" },
   "μετεμψικοσις": { lemma: "μετεμψύχωσις (metempsychosis)", en: "metempsychosis, the transmigration of souls", grammar: "N NOM S F (Greek, as written by Petrarch)" },
+  // Cicero, De Officiis I: Greek terms Cicero quotes (formerly Perseus beta
+  // code in the text) and the Ennius fragment's Salmacida.
+  "εἴρωνα": { lemma: "εἴρων, εἴρωνος (eirōn)", en: "dissembler, one who feigns ignorance (Greek; Socratic irony)", grammar: "N ACC S M (Greek)" },
+  "εὐκαιρία": { lemma: "εὐκαιρία (eukairia)", en: "good timing, the right moment (Greek; Latin occasio)", grammar: "N NOM S F (Greek)" },
+  "εὐταξία": { lemma: "εὐταξία (eutaxia)", en: "good order, orderliness (Greek; Latin modestia)", grammar: "N NOM S F (Greek)" },
+  "εὐταξίαν": { lemma: "εὐταξία (eutaxia)", en: "good order, orderliness (Greek; Latin modestia)", grammar: "N ACC S F (Greek)" },
+  "καθῆκον": { lemma: "καθῆκον (kathēkon)", en: "appropriate action, duty (Greek Stoic term; Latin officium)", grammar: "N NOM S N (Greek)" },
+  "κατόρθωμα": { lemma: "κατόρθωμα (katorthōma)", en: "perfect duty, right action (Greek Stoic term; Latin rectum)", grammar: "N NOM S N (Greek)" },
+  "πρέπον": { lemma: "πρέπον (prepon)", en: "the fitting, propriety (Greek; Latin decorum)", grammar: "N NOM S N (Greek)" },
+  "σοφίαν": { lemma: "σοφία (sophia)", en: "wisdom (Greek; Latin sapientia)", grammar: "N ACC S F (Greek)" },
+  "φρόνησιν": { lemma: "φρόνησις (phronēsis)", en: "practical wisdom, prudence (Greek; Latin prudentia)", grammar: "N ACC S F (Greek)" },
+  "ἀποφθέγματα": { lemma: "ἀπόφθεγμα (apophthegma)", en: "pithy sayings, apophthegms (Greek)", grammar: "N ACC P N (Greek)" },
+  "ὁρμή": { lemma: "ὁρμή (hormē)", en: "impulse, appetite (Greek Stoic term; Latin appetitus)", grammar: "N NOM S F (Greek)" },
+  salmacida: { lemma: "Salmacis, Salmacidis", en: "offspring of Salmacis (the enervating spring; Ennius: 'Salmacida, spolia sine sudore et sanguine')", grammar: "N VOC S M (proper name)" },
   // Bede, Historia ecclesiastica (highlights): Anglo-Saxon names and places,
   // medieval spellings (inp-, -mt-, e for ae) and Roman numerals.
   acha: { lemma: "Acha", en: "Acha (sister of King Edwin, mother of Oswald)", grammar: "N ABL S F (proper name)" },
@@ -1756,6 +1773,13 @@ if (fs.existsSync(CATULLUS_OVERRIDES)) {
   Object.assign(OVERRIDES, JSON.parse(fs.readFileSync(CATULLUS_OVERRIDES, "utf8")));
 }
 
+// Audit corrections never replace a hand-reviewed entry above.
+if (fs.existsSync(AUDIT_OVERRIDES)) {
+  for (const [form, entry] of Object.entries(JSON.parse(fs.readFileSync(AUDIT_OVERRIDES, "utf8")))) {
+    if (!(form in OVERRIDES)) OVERRIDES[form] = entry;
+  }
+}
+
 function normalise(value) {
   return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 }
@@ -1982,7 +2006,10 @@ function entryFor(engine, word) {
     const addon = analysis.addonResults[0];
     const entry = entryFromResults(addon.baseResults);
     const addonMeaning = cleanMeaning(addon.addon.mean);
-    entry.en = addon.type === "tackon" ? addonMeaning : `${entry.en}; ${addonMeaning}`;
+    // A tackon (-que, -ve, -ne) adds its sense to the host word's; replacing the
+    // host's meaning left animamque glossed only as "and".
+    const short = addonMeaning.match(/=\s*([^;(]+)/)?.[1].trim() || addonMeaning;
+    entry.en = addon.type === "tackon" ? `(${short}) ${entry.en}` : `${entry.en}; ${addonMeaning}`;
     entry.grammar = `${entry.grammar} + ${addon.type.toUpperCase()}`;
     return entry;
   }
