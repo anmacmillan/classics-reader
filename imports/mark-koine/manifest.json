@@ -10,7 +10,7 @@
   "syntaxCredit": "Automatische Stanza Ancient Greek dependency parse; controleer twijfelgevallen",
   "chapters": [
     {
-      "title": "Markus 1:1–45 — Η αρχή και η διακονία",
+      "title": "Markus 1:1–45 — Het begin en het optreden in Galilea",
       "startLine": 1,
       "original": "greek-01.txt",
       "english": "english-01.txt",
@@ -19,91 +19,91 @@
       "translationUrl": "https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0031.tlg002"
     },
     {
-      "title": "Markus 2:1–28 — Συγκρούσεις και θεραπείες",
+      "title": "Markus 2:1–28 — Conflicten en genezingen",
       "startLine": 1,
       "original": "greek-02.txt",
       "english": "english-02.txt"
     },
     {
-      "title": "Markus 3:1–35 — Οι δώδεκα μαθητές",
+      "title": "Markus 3:1–35 — De twaalf leerlingen",
       "startLine": 1,
       "original": "greek-03.txt",
       "english": "english-03.txt"
     },
     {
-      "title": "Markus 4:1–41 — Οι παραβολές και η θύελλα",
+      "title": "Markus 4:1–41 — De gelijkenissen en de storm",
       "startLine": 1,
       "original": "greek-04.txt",
       "english": "english-04.txt"
     },
     {
-      "title": "Markus 5:1–43 — Ο Γερασηνός και η θυγάτηρ του Ιαείρου",
+      "title": "Markus 5:1–43 — De bezetene van Gerasa en het dochtertje van Jaïrus",
       "startLine": 1,
       "original": "greek-05.txt",
       "english": "english-05.txt"
     },
     {
-      "title": "Markus 6:1–56 — Απόρριψη και πολλαπλασιασμός",
+      "title": "Markus 6:1–56 — Afwijzing en de broodvermenigvuldiging",
       "startLine": 1,
       "original": "greek-06.txt",
       "english": "english-06.txt"
     },
     {
-      "title": "Markus 7:1–37 — Καθαρότητα και πίστη",
+      "title": "Markus 7:1–37 — Rein en onrein; geloof",
       "startLine": 1,
       "original": "greek-07.txt",
       "english": "english-07.txt"
     },
     {
-      "title": "Markus 8:1–38 — Ο άρτος και η ομολογία",
+      "title": "Markus 8:1–38 — Het brood en de belijdenis van Petrus",
       "startLine": 1,
       "original": "greek-08.txt",
       "english": "english-08.txt"
     },
     {
-      "title": "Markus 9:1–50 — Η μεταμόρφωση και η μαθητεία",
+      "title": "Markus 9:1–50 — De gedaanteverandering en het leerlingschap",
       "startLine": 1,
       "original": "greek-09.txt",
       "english": "english-09.txt"
     },
     {
-      "title": "Markus 10:1–52 — Ο γάμος, τα παιδία και ο πλούτος",
+      "title": "Markus 10:1–52 — Huwelijk, kinderen en rijkdom",
       "startLine": 1,
       "original": "greek-10.txt",
       "english": "english-10.txt"
     },
     {
-      "title": "Markus 11:1–33 — Η είσοδος και ο ναός",
+      "title": "Markus 11:1–33 — De intocht en de tempel",
       "startLine": 1,
       "original": "greek-11.txt",
       "english": "english-11.txt"
     },
     {
-      "title": "Markus 12:1–44 — Παραβολές και εντολές",
+      "title": "Markus 12:1–44 — Gelijkenissen en geboden",
       "startLine": 1,
       "original": "greek-12.txt",
       "english": "english-12.txt"
     },
     {
-      "title": "Markus 13:1–37 — Ο λόγος στο Όρος των Ελαιών",
+      "title": "Markus 13:1–37 — De rede op de Olijfberg",
       "startLine": 1,
       "original": "greek-13.txt",
       "english": "english-13.txt"
     },
     {
-      "title": "Markus 14:1–72 — Το δείπνο και η σύλληψη",
+      "title": "Markus 14:1–72 — Het avondmaal en de arrestatie",
       "startLine": 1,
       "original": "greek-14.txt",
       "english": "english-14.txt"
     },
     {
-      "title": "Markus 15:1–47 — Η δίκη και η σταύρωση",
+      "title": "Markus 15:1–47 — Het proces en de kruisiging",
       "startLine": 1,
       "original": "greek-15.txt",
       "english": "english-15.txt"
     },
     {
-      "title": "Markus 16:1–20 — Ο κενός τάφος και η ανάσταση",
+      "title": "Markus 16:1–20 — Het lege graf en de opstanding",
       "startLine": 1,
       "original": "greek-16.txt",
       "english": "english-16.txt"
