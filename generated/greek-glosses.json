@@ -1048,8 +1048,8 @@
   "nl": "meisje, jonkvrouw; dochter"
  },
  "κόρος": {
-  "en": "kor (Hebrew dry measure, c. 400 l); (Homer κοῦρος) youth",
-  "nl": "kor (Hebreeuwse inhoudsmaat, ca. 400 l); (Homerus κοῦρος) jongeman"
+  "en": "kor, Hebrew dry measure (c. 400 litres)",
+  "nl": "kor, Hebreeuwse inhoudsmaat (ca. 400 liter)"
  },
  "κύπελλον": {
   "en": "cup, goblet",
@@ -11680,8 +11680,8 @@
   "nl": "van de stuurmanskunst; (fem.) navigatiekunst"
  },
  "κυκλόω": {
-  "en": "surround, encircle (κύκλου in Aristotle = gen. of κύκλος)",
-  "nl": "omsingelen, omringen (κύκλου bij Aristoteles: gen. van κύκλος)"
+  "en": "surround, encircle",
+  "nl": "omsingelen, omringen"
  },
  "κόλαξ": {
   "en": "flatterer",
@@ -12048,8 +12048,8 @@
   "nl": "zachtmoedig, mild; tam (van dieren); goedgehumeurd"
  },
  "πόα": {
-  "en": "ποῖος: of what kind? which? what? (ποία mis-lemmatised; πόα = grass)",
-  "nl": "ποῖος: wat voor? welk? (ποία verkeerd gelemmatiseerd; πόα = gras)"
+  "en": "grass, herbage",
+  "nl": "gras, groen"
  },
  "πῇ": {
   "en": "in some way, in a certain respect; how",
@@ -25768,8 +25768,8 @@
   "nl": "kroost, nakomelingen; geslacht"
  },
  "γένειον": {
-  "en": "chin, beard; (Mk 7:26 γένει = γένος: by birth, by race)",
-  "nl": "kin, baard; (Mc 7:26 γένει = γένος: van afkomst)"
+  "en": "chin, beard",
+  "nl": "kin, baard"
  },
  "γαίω": {
   "en": "to exult, rejoice (κύδεϊ γαίων: exulting in glory)",
@@ -30910,5 +30910,9 @@
  "ὁ + ἔμπαλιν": {
   "en": "crasis τοὔμπαλιν: back, the opposite way",
   "nl": "crasis τοὔμπαλιν: terug, de andere kant op"
+ },
+ "κοῦρος": {
+  "en": "youth, young man; (pl.) young men, warriors (Homeric)",
+  "nl": "jongeman; (mv.) jonge mannen, krijgers (Homerus)"
  }
 }

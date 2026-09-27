@@ -6785,7 +6785,7 @@
  ],
  "κοῦροι": [
   {
-   "lemma": "κόρος",
+   "lemma": "κοῦρος",
    "grammar": "noun pl masc nom",
    "count": 3
   }
@@ -35417,11 +35417,6 @@
    "lemma": "γένος",
    "grammar": "noun sg neut dat",
    "count": 8
-  },
-  {
-   "lemma": "γένειον",
-   "grammar": "noun pl neut acc",
-   "count": 1
   }
  ],
  "διδάσκαλοι": [
@@ -38525,7 +38520,7 @@
  ],
  "ἐδεήθην": [
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "verb 1st sg aor ind pass",
    "count": 2
   },
@@ -60361,11 +60356,6 @@
    "count": 5
   },
   {
-   "lemma": "πόα",
-   "grammar": "noun sg fem nom",
-   "count": 1
-  },
-  {
    "lemma": "ποῖος",
    "grammar": "adj sg fem nom",
    "count": 1
@@ -62744,8 +62734,8 @@
  ],
  "κύκλου": [
   {
-   "lemma": "κυκλόω",
-   "grammar": "verb 3rd sg imperf ind act",
+   "lemma": "κύκλος",
+   "grammar": "noun sg masc gen",
    "count": 1
   }
  ],
@@ -69895,7 +69885,7 @@
    "count": 2
   },
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "verb 3rd sg aor ind pass",
    "count": 1
   }
@@ -98460,7 +98450,7 @@
  ],
  "δεήθητε": [
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "verb 2nd pl aor imperat pass",
    "count": 2
   }
@@ -103035,11 +103025,6 @@
   {
    "lemma": "ποῖος",
    "grammar": "pron sg fem gen",
-   "count": 1
-  },
-  {
-   "lemma": "πόα",
-   "grammar": "noun sg fem gen",
    "count": 1
   }
  ],
@@ -113559,7 +113544,7 @@
  ],
  "δέομαί": [
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "verb 1st sg pres ind mid",
    "count": 2
   }
@@ -113714,7 +113699,7 @@
  ],
  "ἐδέετο": [
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "verb 3rd sg imperf ind mid",
    "count": 1
   }
@@ -120841,7 +120826,7 @@
  ],
  "δεόμενοι": [
   {
-   "lemma": "δέω#2",
+   "lemma": "δέομαι",
    "grammar": "part pl pres mid masc nom",
    "count": 1
   }
