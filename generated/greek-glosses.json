@@ -20,8 +20,8 @@
   "nl": "Eurykleia, de oude voedster van Odysseus, dochter van Ops"
  },
  "Εὐρύμαχος": {
-  "en": "Eurymachus, son of Polybus, a leading suitor of Penelope",
-  "nl": "Eurymachos, zoon van Polybos, een vooraanstaande vrijer van Penelope"
+  "en": "Eurymachus: suitor of Penelope (Od.); Theban, father of Leontiades (Hdt.)",
+  "nl": "Eurymachos: vrijer van Penelope (Od.); Thebaan, vader van Leontiades (Hdt.)"
  },
  "Ζάκυνθος": {
   "en": "Zacynthus, wooded island near Ithaca",
@@ -104,8 +104,8 @@
   "nl": "Poseidon, god van de zee, aardschudder"
  },
  "Πόλυβος": {
-  "en": "Polybus, father of the suitor Eurymachus",
-  "nl": "Polybos, vader van de vrijer Eurymachos"
+  "en": "Polybus: Corinthian king, Oedipus' foster-father (OT); Eurymachus' father (Od.)",
+  "nl": "Polybos: koning van Korinthe, pleegvader van Oidipous (OT); vader van Eurymachos (Od.)"
  },
  "Πύλος": {
   "en": "Pylos, Nestor's realm in the western Peloponnese",
@@ -536,8 +536,8 @@
   "nl": "menen, denken; schijnen, toeschijnen"
  },
  "δολομήτης": {
-  "en": "crafty-minded, wily one (of Aegisthus)",
-  "nl": "listigaard, sluwe intrigant (van Aegisthus)"
+  "en": "crafty-minded, wily (of Zeus; of Aigisthos)",
+  "nl": "listig, sluw (van Zeus; van Aigisthos)"
  },
  "δουροδόκη": {
   "en": "spear-stand, spear-holder",
@@ -808,8 +808,8 @@
   "nl": "deur"
  },
  "κάκη": {
-  "en": "evil, wickedness, harm",
-  "nl": "kwaad, slechtheid, onheil"
+  "en": "wickedness, cowardice; in Il. 1: κάκ’ = κακά, evils (κακός)",
+  "nl": "slechtheid, lafheid; in Il. 1: κάκ’ = κακά, onheil (κακός)"
  },
  "κάματος": {
   "en": "toil, weariness",
@@ -1100,8 +1100,8 @@
   "nl": "onopgemerkt blijven; (med.) vergeten"
  },
  "λεύκη": {
-  "en": "white poplar; in Od. 1.161 = λευκός, white (of bones)",
-  "nl": "witte populier; in Od. 1.161 = λευκός, wit (van botten)"
+  "en": "white poplar; in Od. 1 λεύκ’ = λευκά: white (λευκός), of bones",
+  "nl": "witte populier; in Od. 1 λεύκ’ = λευκά: wit (λευκός), van botten"
  },
  "ληίζομαι": {
   "en": "carry off as booty, plunder",
@@ -1580,8 +1580,8 @@
   "nl": "juist, zelfs, althans (nadrukspartikel); ook al"
  },
  "πέρθω": {
-  "en": "sack, lay waste, destroy (a city)",
-  "nl": "verwoesten, plunderen (een stad)"
+  "en": "sack, lay waste, destroy (a city); in Hdt.: Πέρσαι = Persians",
+  "nl": "verwoesten, plunderen (een stad); bij Herodotos: Πέρσαι = Perzen"
  },
  "πήληξ": {
   "en": "helmet",
@@ -1804,8 +1804,8 @@
   "nl": "voordat, eer; vroeger"
  },
  "προθέω": {
-  "en": "set out, place before (tables); also run ahead",
-  "nl": "voorzetten, neerzetten; ook vooruitsnellen"
+  "en": "run ahead, run forward; in Od. 1 πρότιθεν: set out, served (προτίθημι)",
+  "nl": "vooruitlopen; in Od. 1 πρότιθεν: voorzetten, opdienen (προτίθημι)"
  },
  "προπάροιθε": {
   "en": "before, in front of (w. gen.)",
@@ -1980,8 +1980,8 @@
   "nl": "rij, gelid (van krijgers)"
  },
  "σταθμός": {
-  "en": "stage, day's march; halting-place; doorpost; weight",
-  "nl": "dagmars, etappe; pleisterplaats; deurpost; gewicht"
+  "en": "stage, day's march; doorpost; stall, fold; weight",
+  "nl": "dagmars, etappe; deurpost; stal, kooi; gewicht"
  },
  "στεναχίζω": {
   "en": "to groan, moan, lament",
@@ -2168,8 +2168,8 @@
   "nl": "verdragen, doorstaan; het over zijn hart verkrijgen, durven"
  },
  "τοι": {
-  "en": "surely, mark you, I tell you (enclitic particle)",
-  "nl": "voorwaar, let wel, weet dat (enclitisch partikel)"
+  "en": "(enclitic particle) surely, mark you; Hom. also = σοι, to you",
+  "nl": "(enclitisch partikel) voorwaar, let wel; Hom. ook = σοι, aan jou"
  },
  "τοιγάρ": {
   "en": "therefore, so then, well then",
@@ -2340,8 +2340,8 @@
   "nl": "in brons gehuld, met bronzen pantser (van de Achaeërs)"
  },
  "χαλκοῦς": {
-  "en": "bronze; bronze point (of a spear)",
-  "nl": "brons; bronzen punt (van een speer)"
+  "en": "of bronze, brazen; in Od. 1 χαλκῷ: bronze, bronze point (χαλκός)",
+  "nl": "van brons, bronzen; in Od. 1 χαλκῷ: brons, bronzen punt (χαλκός)"
  },
  "χαλκός": {
   "en": "copper, bronze; copper coins, money (Mk 12:41)",
@@ -2372,8 +2372,8 @@
   "nl": "vertoornen; (med./pass.) toornig zijn, boos zijn"
  },
  "χράω": {
-  "en": "mid. χράομαι: use, make use of, treat; pf. part. κεχρημένος longing for",
-  "nl": "med. χράομαι: gebruiken, omgaan met; pf. part. κεχρημένος verlangend naar"
+  "en": "use, make use of, treat (χράομαι); give an oracle (χράω)",
+  "nl": "gebruiken, omgaan met (χράομαι); een orakel geven (χράω)"
  },
  "χρέος": {
   "en": "debt; matter, business, affair",
@@ -2584,8 +2584,8 @@
   "nl": "noodzaak, dwang"
  },
  "ἀνάθημα": {
-  "en": "delight, ornament (of a feast)",
-  "nl": "sieraad, luister (van een feestmaal)"
+  "en": "votive offering, dedication; (Hom.) delight, ornament of a feast",
+  "nl": "wijgeschenk; (Hom.) sieraad, luister van een feestmaal"
  },
  "ἀνάσσω": {
   "en": "be lord, rule over, reign (+ dat./gen.)",
@@ -2608,8 +2608,8 @@
   "nl": "opspringen, omhoogschieten"
  },
  "ἀναβάλλω": {
-  "en": "mid. strike up (a song), begin a prelude",
-  "nl": "(med.) een lied inzetten, aanheffen"
+  "en": "(mid.) strike up (a song); put off, postpone",
+  "nl": "(medium) een lied aanheffen; uitstellen"
  },
  "ἀναβαίνω": {
   "en": "go up, mount; go on board",
@@ -2640,8 +2640,8 @@
   "nl": "kwellen, hinderen, verdriet aandoen"
  },
  "ἀνοπαῖα": {
-  "en": "upward like a bird (obscure; ? through the smoke-hole)",
-  "nl": "omhoog als een vogel (duister woord; ? door het rookgat)"
+  "en": "(Od. 1) upward, like a bird (obscure); (Hdt.) Anopaea, the mountain path",
+  "nl": "(Od. 1) omhoog, als een vogel (duister); (Hdt.) Anopaia, het bergpad"
  },
  "ἀντίθεος": {
   "en": "godlike",
@@ -2748,8 +2748,8 @@
   "nl": "begin, oorsprong; heerschappij, bevel; gebied (satrapie)"
  },
  "ἀσκέω": {
-  "en": "work with skill, fashion curiously, dress",
-  "nl": "kunstig bewerken, vervaardigen"
+  "en": "practise, exercise, train; (Hom.) fashion skilfully",
+  "nl": "beoefenen, oefenen; (Hom.) kunstig bewerken"
  },
  "ἀσκελής": {
   "en": "unceasing, stubborn; (neut. as adv.) unremittingly",
@@ -2952,12 +2952,12 @@
   "nl": "Anchialus, vader van Mentes, heer der Tafiërs"
  },
  "Ἀθήνη": {
-  "en": "Athene, goddess of wisdom, protector of Odysseus",
-  "nl": "Athene, godin van de wijsheid, beschermster van Odysseus"
+  "en": "Athene, daughter of Zeus, goddess of wisdom and war",
+  "nl": "Athene, dochter van Zeus, godin van wijsheid en oorlog"
  },
  "Ἀθῆναι": {
-  "en": "Athens, city of Attica (forms here refer to the goddess Athene)",
-  "nl": "Athene, stad in Attica (vormen hier: de godin Athene)"
+  "en": "Athens, city of Attica; in Hom. lines: Athene, the goddess (Ἀθήνη)",
+  "nl": "Athene (Athenai), stad in Attica; in Hom.: de godin Athene (Ἀθήνη)"
  },
  "Ἀντίνοος": {
   "en": "Antinous, ringleader of Penelope's suitors",
@@ -3088,8 +3088,8 @@
   "nl": "uitvragen, nauwkeurig ondervragen"
  },
  "ἐξίημι": {
-  "en": "send forth, let go out; (1.374) go out of, quit",
-  "nl": "uitzenden, naar buiten laten; (1.374) verlaten"
+  "en": "send out, let go; in these lines: go out, depart (ἔξειμι)",
+  "nl": "uitzenden, loslaten; in deze regels: weggaan, verlaten (ἔξειμι)"
  },
  "ἐπέρχομαι": {
   "en": "advance, attack; come upon, approach, visit",
@@ -3492,8 +3492,8 @@
   "nl": "godgelijk, aan de goden gelijk"
  },
  "ἰός": {
-  "en": "arrow",
-  "nl": "pijl"
+  "en": "arrow; in OT: ἰόν = going (participle of εἶμι)",
+  "nl": "pijl; in OT: ἰόν = gaand (deelwoord van εἶμι)"
  },
  "ἱερός": {
   "en": "holy, sacred; τὸ ἱερόν the temple",
@@ -3588,8 +3588,8 @@
   "nl": "kwaadaardig van zin, listig"
  },
  "ὀμφαλός": {
-  "en": "navel; central point (of the sea)",
-  "nl": "navel; middelpunt (van de zee)"
+  "en": "navel; centre (of the earth or the sea)",
+  "nl": "navel; middelpunt (van de aarde of de zee)"
  },
  "ὀξύς": {
   "en": "sharp, keen, piercing",
@@ -3628,8 +3628,8 @@
   "nl": "oog"
  },
  "ὀχέω": {
-  "en": "bear, endure; carry",
-  "nl": "dragen, verduren"
+  "en": "bear, endure; carry; (pass.) ride, be carried",
+  "nl": "dragen, verduren; (pass.) rijden, gevoerd worden"
  },
  "ὀψίγονος": {
   "en": "late-born, of a later generation, posterity",
@@ -3808,8 +3808,8 @@
   "nl": "herinneren aan, in gedachten brengen"
  },
  "ὑποτίθημι": {
-  "en": "mid.: suggest, counsel, advise",
-  "nl": "med.: aanraden, ingeven, raad geven"
+  "en": "place under; (mid.) suggest, advise, counsel",
+  "nl": "eronder plaatsen; (med.) aanraden, raad geven"
  },
  "ὑπό": {
   "en": "under, beneath; by (agency), at the hands of",
@@ -3876,8 +3876,8 @@
   "nl": "doen, verrichten; (offers) brengen"
  },
  "ῥεῖα": {
-  "en": "easily, lightly, without effort",
-  "nl": "gemakkelijk, moeiteloos"
+  "en": "easily, lightly; in Marcus ῥεῖ: flows (ῥέω)",
+  "nl": "gemakkelijk, moeiteloos; bij Marcus ῥεῖ: stroomt (ῥέω)"
  },
  "ῥινός": {
   "en": "hide, skin, ox-hide",
@@ -4004,8 +4004,8 @@
   "nl": "nog diezelfde dag"
  },
  "αὐχήν": {
-  "en": "neck, throat",
-  "nl": "nek, hals"
+  "en": "neck, throat; narrow pass, isthmus",
+  "nl": "nek, hals; engte, bergpas"
  },
  "βέλος": {
   "en": "missile, shaft, arrow",
@@ -4148,8 +4148,8 @@
   "nl": "demon, boze geest (NT); god, goddelijke macht (klassiek)"
  },
  "δασμός": {
-  "en": "tribute, exaction (paid to the Sphinx)",
-  "nl": "schatting, tribuut (aan de Sfinx betaald)"
+  "en": "tribute, levy; (Hom.) division of the spoils",
+  "nl": "schatting, tribuut; (Hom.) verdeling van de buit"
  },
  "δείδω": {
   "en": "fear, be afraid",
@@ -4189,7 +4189,7 @@
  },
  "διαρθρόω": {
   "en": "articulate, shape into distinct parts",
-  "nl": "geleden, tot afzonderlijke delen vormen"
+  "nl": "in leden verdelen, in afzonderlijke delen vormen"
  },
  "διασχίζω": {
   "en": "split apart, cleave in two",
@@ -4417,7 +4417,7 @@
  },
  "καταγραφή": {
   "en": "profile, outline (figure carved in profile)",
-  "nl": "profiel, omtrektekening (reliëf en profil)"
+  "nl": "profiel, omtrek (figuur in profiel uitgebeeld)"
  },
  "καταζάω": {
   "en": "live out one's life, pass one's days",
@@ -4764,8 +4764,8 @@
   "nl": "rug"
  },
  "οἰδίπους": {
-  "en": "Oedipus, king of Thebes, son of Laius",
-  "nl": "Oedipus, koning van Thebe, zoon van Laius"
+  "en": "Oidipous (Oedipus), king of Thebes, son of Laios",
+  "nl": "Oidipous, koning van Thebe, zoon van Laios"
  },
  "οἰκειότης": {
   "en": "intimacy, kinship, affinity",
@@ -4992,8 +4992,8 @@
   "nl": "voortslingeren, (zielen naar Hades) zenden"
  },
  "προσένειμι": {
-  "en": "(προσενεχθῆναι) be treated, be dealt with; behave toward",
-  "nl": "(προσενεχθῆναι) behandeld worden; zich gedragen jegens"
+  "en": "be applied, administered (προσενεχθῆναι: aor. pass. of προσφέρω)",
+  "nl": "toegepast worden (προσενεχθῆναι: aor. pass. van προσφέρω)"
  },
  "προσέρχομαι": {
   "en": "come to, approach",
@@ -5056,8 +5056,8 @@
   "nl": "vuurdragend (van de pestgod)"
  },
  "πως": {
-  "en": "enclitic adv.: somehow, in some way, I suppose",
-  "nl": "enclitisch: op de een of andere manier, wellicht"
+  "en": "(enclitic) somehow, in some way; perhaps",
+  "nl": "(enclitisch) op een of andere manier; wellicht"
  },
  "πόρω": {
   "en": "to give, grant, bestow (aor. πόρε)",
@@ -5140,8 +5140,8 @@
   "nl": "liefhebben; berusten, tevreden zijn"
  },
  "στήλη": {
-  "en": "stone slab, stele, gravestone (with relief figures)",
-  "nl": "steen, stèle, grafzuil (met reliëf)"
+  "en": "stone slab, stele, gravestone",
+  "nl": "steen, stèle, grafzuil"
  },
  "στεναγμός": {
   "en": "groaning, lamentation",
@@ -5228,8 +5228,8 @@
   "nl": "redder, verlosser"
  },
  "σύμβολον": {
-  "en": "tally-half, matching token (of a person)",
-  "nl": "herkenningsteken, tegenhelft"
+  "en": "token, sign, clue; tally, matching half",
+  "nl": "teken, aanwijzing; herkenningsteken, tegenhelft"
  },
  "σύμπας": {
   "en": "all together, the whole of",
@@ -5240,8 +5240,8 @@
   "nl": "samenzijn met, omgaan met"
  },
  "σύνοιδα": {
-  "en": "to know well, be conscious that",
-  "nl": "goed weten, zich bewust zijn dat"
+  "en": "share knowledge of, be privy to; (ἐμαυτῷ) be conscious that",
+  "nl": "medeweten, op de hoogte zijn van; (ἐμαυτῷ) zich bewust zijn dat"
  },
  "σύσπαστος": {
   "en": "drawn together, closed with a drawstring (purse)",
@@ -5284,8 +5284,8 @@
   "nl": "een tijdlang; tot dan, intussen"
  },
  "τίνω": {
-  "en": "to pay a penalty, atone for",
-  "nl": "boeten, een straf betalen voor"
+  "en": "pay, pay for, atone for; Il. 1 ἔτισας: honour (τίω)",
+  "nl": "betalen, boeten voor; Il. 1 ἔτισας: eren (τίω)"
  },
  "τίς": {
   "en": "who? which? what? (interrogative)",
@@ -5352,8 +5352,8 @@
   "nl": "wijze, manier"
  },
  "τυγχάνω": {
-  "en": "to hit upon, obtain; happen to be",
-  "nl": "treffen, verkrijgen; toevallig zijn"
+  "en": "hit upon, obtain; happen to be; OT ἐν τύχῃ: fortune (τύχη)",
+  "nl": "treffen, verkrijgen; toevallig zijn; OT ἐν τύχῃ: geluk (τύχη)"
  },
  "τόκος": {
   "en": "interest (on money); (class.) offspring, childbirth",
@@ -5397,7 +5397,7 @@
  },
  "φιλεραστής": {
   "en": "devoted to one's lover, affectionate to lovers",
-  "nl": "zijn minnaar toegedaan, beminnaarslievend"
+  "nl": "zijn minnaar toegedaan, dol op minnaars"
  },
  "φιλογύνης": {
   "en": "fond of women, woman-loving",
@@ -5428,16 +5428,16 @@
   "nl": "vrees, angst"
  },
  "φύζω": {
-  "en": "be by nature, be naturally so (pf. part. of φύω)",
-  "nl": "van nature zijn, geaard zijn (perf. part. van φύω)"
+  "en": "flee (rare); here πεφυκώς: being so by nature (pf. of φύω)",
+  "nl": "vluchten (zelden); hier πεφυκώς: van nature zo zijnd (perf. van φύω)"
  },
  "φύλαξ": {
   "en": "guard, watcher, guardian",
   "nl": "wachter, bewaker, beschermer"
  },
  "φύσις": {
-  "en": "nature; the (original human) nature",
-  "nl": "natuur, aard; de (oorspronkelijke menselijke) natuur"
+  "en": "nature, natural character; in Il. 1: φύσει = will grow (fut. of φύω)",
+  "nl": "natuur, aard; in Il. 1: φύσει = zal groeien (toek. van φύω)"
  },
  "φῦλον": {
   "en": "race, tribe; class of people",
@@ -5484,8 +5484,8 @@
   "nl": "bedriegen; (med.) liegen"
  },
  "ψόφος": {
-  "en": "noise, sound (of the body)",
-  "nl": "geluid, gerucht (van het lichaam)"
+  "en": "noise, sound",
+  "nl": "geluid, gerucht"
  },
  "ψῆττα": {
   "en": "flatfish, sole (simile for the halved humans)",
@@ -5636,8 +5636,8 @@
   "nl": "verwelkomen, (graag) ontvangen; aanvaarden"
  },
  "ἀποδέω": {
-  "en": "fall short of, be lacking",
-  "nl": "tekortschieten, ontbreken"
+  "en": "tie up, tie off (like a drawstring purse)",
+  "nl": "afbinden, dichtbinden (als een beurs met trekkoord)"
  },
  "ἀποθνῄσκω": {
   "en": "die, perish",
@@ -5776,7 +5776,7 @@
   "nl": "afwezig zijn, weg zijn"
  },
  "ἄποινα": {
-  "en": "ransom (plural noun)",
+  "en": "ransom",
   "nl": "losgeld"
  },
  "ἄριστον": {
@@ -5812,8 +5812,8 @@
   "nl": "Agamemnon, aanvoerder van de Grieken voor Troje"
  },
  "Ἀπόλλων": {
-  "en": "Apollo, archer god who sends the plague on the Achaeans",
-  "nl": "Apollo, boogschuttergod die de pest over de Achaeërs zendt"
+  "en": "Apollo, god of prophecy, archery, healing and music; son of Zeus and Leto",
+  "nl": "Apollo, god van voorspelling, boogschieten, genezing en muziek; zoon van Zeus en Leto"
  },
  "Ἀριστοφάνης": {
   "en": "Aristophanes, the comic poet, a speaker in the Symposium",
@@ -5844,8 +5844,8 @@
   "nl": "nabij, dichtbij; superl. ἐγγυτάτω het dichtst bij"
  },
  "ἐκδέχομαι": {
-  "en": "take up in turn, take over (the discourse) from another",
-  "nl": "op zijn beurt overnemen, (het woord) van een ander overnemen"
+  "en": "take over, succeed (someone); take up in turn",
+  "nl": "overnemen, aflossen; op zijn beurt opnemen"
  },
  "ἐκδιδάσκω": {
   "en": "teach thoroughly; pass. be fully instructed",
@@ -5992,8 +5992,8 @@
   "nl": "van een dak voorzien, (een tempel) overdekken"
  },
  "ἐρέω": {
-  "en": "ask, inquire of (a seer); Hom. subj. ἐρείομεν let us ask",
-  "nl": "vragen, (een ziener) raadplegen; Hom. ἐρείομεν laten wij vragen"
+  "en": "ask, inquire of (Homeric); fut. ἐρῶ: will say, speak (Attic)",
+  "nl": "vragen, raadplegen (Homerisch); toek. ἐρῶ: zal zeggen (Attisch)"
  },
  "ἐρίζω": {
   "en": "quarrel, contend, strive",
@@ -6064,16 +6064,16 @@
   "nl": "vruchtdragend (van de verdorde gewassen van het land)"
  },
  "ἔκγονος": {
-  "en": "offspring, descendant (children of sun, earth and moon)",
-  "nl": "nakomeling, afstammeling (kinderen van zon, aarde en maan)"
+  "en": "offspring, descendant; (pl.) produce, fruits (of the earth)",
+  "nl": "nakomeling, afstammeling; (mv.) vruchten (van de aarde)"
  },
  "ἔλδωρ": {
-  "en": "wish, desire (Homeric: fulfil this wish for me)",
-  "nl": "wens, verlangen (Homerisch: vervul mij deze wens)"
+  "en": "wish, desire",
+  "nl": "wens, verlangen"
  },
  "ἔμπειρος": {
-  "en": "experienced, practised; the counsels of experienced men",
-  "nl": "ervaren, bedreven; de raad van ervaren mannen"
+  "en": "experienced, practised, skilled",
+  "nl": "ervaren, bedreven"
  },
  "ἔμφυτος": {
   "en": "inborn, innate (of the love implanted in human beings)",
@@ -6420,8 +6420,8 @@
   "nl": "bacchische vervoering; de filosofische roes die Socrates wekt"
  },
  "Βοιωτός": {
-  "en": "Boeotian, inhabitant of Boeotia (lax pederasty customs)",
-  "nl": "Boeotiër, bewoner van Boeotië (losse zeden inzake knapenliefde)"
+  "en": "Boeotian, inhabitant of Boeotia",
+  "nl": "Boeotiër, bewoner van Boeotië"
  },
  "Βρασίδας": {
   "en": "Brasidas, brilliant Spartan general (compared to Achilles)",
@@ -6444,12 +6444,12 @@
   "nl": "aarde, land, grond; (hoofdl.) de Aarde, godin Gè"
  },
  "Δήλιος": {
-  "en": "Delium, Boeotian sanctuary; Athenian rout of 424 BC",
-  "nl": "Delium, heiligdom in Boeotië; Atheense nederlaag van 424 v.Chr."
+  "en": "Delian, of Delos (epithet of Apollo); Delium, battle of 424 BC",
+  "nl": "Delisch, van Delos (bijnaam van Apollo); Delion, slag van 424 v.Chr."
  },
  "Διανοέω": {
-  "en": "= διανοέομαι: think, suppose, have in mind (capitalised form)",
-  "nl": "= διανοέομαι: denken, menen, van plan zijn (vorm met hoofdletter)"
+  "en": "think, intend, have in mind (= διανοέομαι)",
+  "nl": "denken, van plan zijn, bedoelen (= διανοέομαι)"
  },
  "Διοκλῆς": {
   "en": "Diocles, Athenian, father of the beautiful Euthydemus",
@@ -6512,8 +6512,8 @@
   "nl": "Laches, Atheens veldheer; vluchtte naast Socrates bij Delium"
  },
  "Λακεδαίμων": {
-  "en": "Lacedaemon, Sparta (its customs and Lycurgus's laws)",
-  "nl": "Lacedaemon, Sparta (zijn zeden en de wetten van Lycurgus)"
+  "en": "Lacedaemon, Sparta",
+  "nl": "Lacedaemon, Sparta"
  },
  "Λυκοῦργος": {
   "en": "Lycurgus, Spartan lawgiver, spiritual 'father' of laws",
@@ -6544,8 +6544,8 @@
   "nl": "Metis, de gepersonifieerde Sluwheid, moeder van Poros (Vernuft)"
  },
  "Νήφω": {
-  "en": "= νήφω: be sober, drink no wine (capitalised form)",
-  "nl": "= νήφω: nuchter zijn, geen wijn drinken (vorm met hoofdletter)"
+  "en": "be sober, drink no wine (= νήφω)",
+  "nl": "nuchter zijn, geen wijn drinken (= νήφω)"
  },
  "Οἴαγρος": {
   "en": "Oeagrus, Thracian king, father of Orpheus",
@@ -6556,8 +6556,8 @@
   "nl": "Hemels (Uranios), epitheton van de oudere Eros/Aphrodite"
  },
  "Οὐρανία": {
-  "en": "Urania, the Heavenly Aphrodite, daughter of Uranus",
-  "nl": "Urania, de Hemelse Aphrodite, dochter van Uranus"
+  "en": "Urania, Heavenly (Aphrodite); in OT: heavenly (οὐράνιος)",
+  "nl": "Urania, de Hemelse (Aphrodite); in OT: hemels (οὐράνιος)"
  },
  "Οὐρανός": {
   "en": "heaven, sky; (cap.) Uranus, Heaven personified",
@@ -6572,16 +6572,16 @@
   "nl": "Patroclus, geliefde strijdmakker die Achilles wreekte"
  },
  "Πέλιος": {
-  "en": "mis-lemma for Πελίας: Pelias, father of Alcestis",
-  "nl": "foutief lemma voor Πελίας: Pelias, vader van Alcestis"
+  "en": "Pelias, king of Iolcus, father of Alcestis",
+  "nl": "Pelias, koning van Iolkos, vader van Alkestis"
  },
  "Παρμενίδης": {
   "en": "Parmenides, Eleatic philosopher-poet (on the birth of Eros)",
   "nl": "Parmenides, Eleatisch filosoof-dichter (over de geboorte van Eros)"
  },
  "Πενία": {
-  "en": "Penia, Poverty personified, mother of Eros in Diotima's myth",
-  "nl": "Penia, de gepersonifieerde Armoede, moeder van Eros in Diotima's mythe"
+  "en": "Penia, Poverty personified; in Marcus: poverty (πενία)",
+  "nl": "Penia, de gepersonifieerde Armoede; bij Marcus: armoede (πενία)"
  },
  "Περικλῆς": {
   "en": "Pericles, great Athenian statesman and orator",
@@ -6613,15 +6613,15 @@
  },
  "Σατυρικός": {
   "en": "satyric, of a satyr-play (Alcibiades' satyr-drama of praise)",
-  "nl": "satirisch, van een saterspel (Alcibiades' saterdrama van lof)"
+  "nl": "sater-, van een saterspel (Alcibiades' saterdrama van lof)"
  },
  "Σειρήν": {
   "en": "Siren, singer whose voice no one can resist",
   "nl": "Sirene, zangeres wier stem niemand kan weerstaan"
  },
  "Σόλων": {
-  "en": "Solon, Athenian lawgiver, 'begetter' of the laws",
-  "nl": "Solon, Atheense wetgever, 'verwekker' van de wetten"
+  "en": "Solon, Athenian lawgiver and sage",
+  "nl": "Solon, Atheense wetgever en wijze"
  },
  "Φίλιππος": {
   "en": "Philip: the apostle; also Philip the tetrarch, son of Herod",
@@ -6636,8 +6636,8 @@
   "nl": "vanuit Phalerum (Apollodorus onderweg naar de stad)"
  },
  "Φαῖδρας": {
-  "en": "mis-lemma for Φαῖδρος: Phaedrus (see next entry)",
-  "nl": "foutief lemma voor Φαῖδρος: Phaedrus (zie volgend lemma)"
+  "en": "Phaedrus, first speaker in the Symposium",
+  "nl": "Phaidros, eerste spreker in het Symposium"
  },
  "Φαῖδρος": {
   "en": "Phaedrus of Myrrhinus, 'father of the theme'; first speaker",
@@ -6724,8 +6724,8 @@
   "nl": "ambachtelijk-plat, banaal, van een simpele handwerker"
  },
  "βάρβαρος": {
-  "en": "non-Greek, barbarian; under barbarian rule",
-  "nl": "niet-Grieks, barbaars; onder barbaarse heerschappij"
+  "en": "non-Greek, foreign; barbarian",
+  "nl": "niet-Grieks, vreemd; barbaar"
  },
  "βέβαιος": {
   "en": "firm, steadfast, reliable, lasting",
@@ -6784,8 +6784,8 @@
   "nl": "schreeuwen, luid roepen"
  },
  "βοηθέω": {
-  "en": "come to the rescue, help, aid (as lovers do in battle)",
-  "nl": "te hulp komen, bijstaan, helpen (zoals geliefden in de strijd)"
+  "en": "come to the rescue, help, aid",
+  "nl": "te hulp komen, bijstaan, helpen"
  },
  "βούλησις": {
   "en": "will, wish, intention",
@@ -6812,8 +6812,8 @@
   "nl": "verwekking, voortplanting (in het schone, volgens Diotima)"
  },
  "γέρας": {
-  "en": "prize of honour, privilege (gods honoured Achilles with one)",
-  "nl": "ereprijs, eergeschenk (door de goden aan Achilles verleend)"
+  "en": "prize of honour, privilege, gift of honour",
+  "nl": "ereprijs, eregeschenk, voorrecht"
  },
  "γαλήνη": {
   "en": "calm, stillness (of the sea)",
@@ -6829,7 +6829,7 @@
  },
  "γενειάσκω": {
   "en": "begin to grow a beard (age when boys are rightly loved)",
-  "nl": "baard in de keel krijgen, beginnen te baarden (leeftijd voor de juiste liefde)"
+  "nl": "de eerste baard krijgen (leeftijd voor de juiste liefde)"
  },
  "γεννήτωρ": {
   "en": "begetter, parent",
@@ -6848,8 +6848,8 @@
   "nl": "bejaard, oud"
  },
  "γλυκύς": {
-  "en": "sweet (one of the opposites blended by medicine)",
-  "nl": "zoet (een van de tegenstellingen die de geneeskunde verenigt)"
+  "en": "sweet",
+  "nl": "zoet"
  },
  "γλύφω": {
   "en": "carve, engrave (Silenus statues carved to open up)",
@@ -6868,12 +6868,12 @@
   "nl": "toverij, betovering (kunsten van Eros)"
  },
  "γονή": {
-  "en": "begetting, parentage, offspring (Eros' parents named by no one)",
-  "nl": "verwekking, afkomst, kroost (niemand noemt Eros' ouders)"
+  "en": "birth, parentage, offspring; (pl.) begetting, children",
+  "nl": "geboorte, afkomst, kroost; (mv.) verwekking, kinderen"
  },
  "γυμναστικός": {
-  "en": "of physical training; ἡ γυμναστική, gymnastics",
-  "nl": "van de lichaamsoefening; hē gymnastikē: de gymnastiek"
+  "en": "of physical training; ἡ γυμναστική: gymnastics",
+  "nl": "van de lichaamsoefening; ἡ γυμναστική: de gymnastiek"
  },
  "γόης": {
   "en": "sorcerer, enchanter, wizard (Eros as sorcerer and sophist)",
@@ -6904,8 +6904,8 @@
   "nl": "levenswijze, leefpatroon"
  },
  "δίκη": {
-  "en": "justice, penalty; lawsuit; δίκην + gen., in the manner of",
-  "nl": "recht, straf; proces; dikēn + gen.: op de wijze van"
+  "en": "justice, penalty; lawsuit; δίκην + gen.: in the manner of",
+  "nl": "recht, straf; proces; δίκην + gen.: op de wijze van"
  },
  "δίς": {
   "en": "twice",
@@ -6948,8 +6948,8 @@
   "nl": "vakmanschap, ambachtelijk scheppen"
  },
  "δημιουργός": {
-  "en": "craftsman, practitioner of an art (the doctor as craftsman)",
-  "nl": "vakman, beoefenaar van een kunst (de arts als vakman)"
+  "en": "craftsman, artisan, practitioner of an art",
+  "nl": "vakman, ambachtsman, beoefenaar van een kunst"
  },
  "διάκειμαι": {
   "en": "be disposed, be in a certain state or condition",
@@ -7000,8 +7000,8 @@
   "nl": "med. dialegomai: een gesprek voeren, discussiëren"
  },
  "διαλέξω": {
-  "en": "GLAUx mis-lemma: fut. of διαλέγομαι, will converse with",
-  "nl": "GLAUx-mislemma: futurum van dialegomai, zal spreken met"
+  "en": "converse, talk with (διαλέξεσθαι: fut. of διαλέγομαι)",
+  "nl": "zich onderhouden met, spreken met (fut. van διαλέγομαι)"
  },
  "διαλαμβάνω": {
   "en": "separate, keep apart (Socrates parting Agathon from Alcibiades)",
@@ -7028,8 +7028,8 @@
   "nl": "zich nauwkeurig herinneren, in detail onthouden"
  },
  "διανοέω": {
-  "en": "mid. διανοέομαι: intend, have in mind, think",
-  "nl": "med. dianoeomai: van plan zijn, in gedachten hebben, denken"
+  "en": "(mid.) intend, have in mind, think",
+  "nl": "(med.) van plan zijn, in gedachten hebben, denken"
  },
  "διανόημα": {
   "en": "thought, notion",
@@ -7064,8 +7064,8 @@
   "nl": "tijdverdrijf, bezigheid; gesprek"
  },
  "διαφέρω": {
-  "en": "differ; mid.-pass. be at variance (Heraclitus' one at odds with itself)",
-  "nl": "verschillen; med.-pass.: in onenigheid zijn (Heraclitus' ene in strijd met zichzelf)"
+  "en": "differ, excel; bear through, endure (fut. διοίσω); mid. be at variance",
+  "nl": "verschillen, uitblinken; doorstaan, dragen; (med.) het oneens zijn"
  },
  "διαφερόντως": {
   "en": "especially, exceptionally, above others",
@@ -7084,20 +7084,20 @@
   "nl": "pass.: smelten, zich ontspannen, overvloeien van vreugde (bij het schone)"
  },
  "διηγέομαι": {
-  "en": "narrate, relate in full (the frame-narrative of the dialogue)",
-  "nl": "vertellen, uitvoerig verhalen (het raamverhaal van de dialoog)"
+  "en": "narrate, relate in full",
+  "nl": "vertellen, uitvoerig verhalen"
  },
  "δικαιοσύνη": {
   "en": "righteousness, justice",
   "nl": "gerechtigheid, rechtvaardigheid"
  },
  "δικαστής": {
-  "en": "judge, juror (Dionysus as judge of wisdom)",
-  "nl": "rechter, jurylid (Dionysus als rechter over wijsheid)"
+  "en": "judge, juror",
+  "nl": "rechter, jurylid"
  },
  "διοίγνυμι": {
-  "en": "open up (the Silenus figures, and Socrates' arguments, opened)",
-  "nl": "openen, openmaken (de Silenus-beeldjes en Socrates' woorden geopend)"
+  "en": "open, open up (doors; the Silenus figures)",
+  "nl": "openen, openmaken (deuren; de Silenusbeeldjes)"
  },
  "διχάδε": {
   "en": "in two, asunder",
@@ -7112,7 +7112,7 @@
   "nl": "daarom, om die reden"
  },
  "δολερός": {
-  "en": "wily, deceitful, treacherous (love of gain as crafty)",
+  "en": "wily, deceitful, treacherous",
   "nl": "listig, bedrieglijk, arglistig"
  },
  "δοξάζω": {
@@ -7168,8 +7168,8 @@
   "nl": "inderdaad, zeker; in vragen: dan, toch"
  },
  "εντ?̓γώ": {
-  "en": "garbled lemma: μεντ- is crasis μεντἄν = μέντοι ἄν, 'indeed would'",
-  "nl": "corrupt lemma: μεντ- is crasis μεντἄν = μέντοι ἄν, 'zou stellig'"
+  "en": "indeed would (μεντἄν = μέντοι ἄν, crasis)",
+  "nl": "zou stellig (μεντἄν = μέντοι ἄν, crasis)"
  },
  "εἰκών": {
   "en": "image, likeness (e.g. on a coin)",
@@ -7208,8 +7208,8 @@
   "nl": "gewoon zijn, plegen (perfectum met presensbetekenis)"
  },
  "εἶεν": {
-  "en": "very well! well then! (transition particle)",
-  "nl": "goed dan! welnu! (overgangspartikel)"
+  "en": "well then! very well! (particle); in Hdt.: 'they would be' (εἰμί)",
+  "nl": "goed dan! welnu!; bij Hdt.: 'zij zouden zijn' (εἰμί)"
  },
  "εἶτα": {
   "en": "then, next; and then (often indignant)",
@@ -7400,8 +7400,8 @@
   "nl": "zitten, gezeten zijn"
  },
  "κάλλος": {
-  "en": "beauty (the central object of eros)",
-  "nl": "schoonheid (het centrale object van eros)"
+  "en": "beauty",
+  "nl": "schoonheid"
  },
  "κάτω": {
   "en": "down, downwards; below",
@@ -7464,8 +7464,8 @@
   "nl": "pakezel (in Socrates' alledaagse voorbeelden)"
  },
  "καρπέω": {
-  "en": "mis-lemma for καρπόω: mid. reap the fruit of, enjoy",
-  "nl": "foutief lemma voor καρπόω: med. de vruchten plukken van, genieten"
+  "en": "reap the fruit of, enjoy (mid.)",
+  "nl": "de vruchten plukken van, genieten (med.)"
  },
  "καρπόω": {
   "en": "mid. reap the fruits of, enjoy the benefit of",
@@ -7516,12 +7516,12 @@
   "nl": "in slaap vallen"
  },
  "καταδεδαρθίσκω": {
-  "en": "artificial lemma for καταδαρθάνω: perf. part. having fallen asleep",
-  "nl": "kunstmatig lemma voor καταδαρθάνω: perf. part. ingeslapen"
+  "en": "fall asleep, sleep (καταδεδαρθηκώς: perf. ptc. of καταδαρθάνω)",
+  "nl": "inslapen, in slaap vallen (perf. deelw. van καταδαρθάνω)"
  },
  "καταδουλόω": {
-  "en": "enslave, reduce to slavery (of Socrates' hold over Alcibiades)",
-  "nl": "tot slaaf maken, knechten (van Socrates' greep op Alcibiades)"
+  "en": "enslave, reduce to slavery",
+  "nl": "tot slaaf maken, knechten"
  },
  "καταισχύνω": {
   "en": "disgrace, bring shame upon, dishonour",
@@ -7660,8 +7660,8 @@
   "nl": "schedel; (Κρανίου Τόπος) Schedelplaats, Golgotha"
  },
  "κρατύς": {
-  "en": "GLAUx lemma for κρείττων, stronger, mightier, better",
-  "nl": "GLAUx-lemma voor κρείττων: sterker, machtiger, beter"
+  "en": "strong, mighty; comp. κρείττων stronger, better; sup. κράτιστος",
+  "nl": "sterk, machtig; comp. κρείττων sterker, beter; sup. κράτιστος"
  },
  "κρούω": {
   "en": "strike, knock; play (a stringed instrument)",
@@ -7708,8 +7708,8 @@
   "nl": "feestvierder, deelnemer aan een dronken optocht (komos)"
  },
  "κωμῳδία": {
-  "en": "comedy (which the same poet should master as tragedy)",
-  "nl": "komedie (die dezelfde dichter zou moeten beheersen als tragedie)"
+  "en": "comedy",
+  "nl": "komedie, blijspel"
  },
  "κωμῳδοποιός": {
   "en": "comic poet, writer of comedies",
@@ -7792,16 +7792,16 @@
   "nl": "lamp, olielamp"
  },
  "μάθημα": {
-  "en": "lesson, branch of knowledge, science (on the ascent to Beauty)",
-  "nl": "leerstof, kennisgebied, wetenschap (op de opgang naar het Schone)"
+  "en": "lesson, learning, branch of knowledge",
+  "nl": "leerstof, het geleerde, kennisgebied"
  },
  "μάρτυς": {
   "en": "witness",
   "nl": "getuige"
  },
  "μάχη": {
-  "en": "battle, fight (at Potidaea and Delium)",
-  "nl": "slag, gevecht (bij Potidaea en Delium)"
+  "en": "battle, fight",
+  "nl": "slag, gevecht"
  },
  "μέθη": {
   "en": "drunkenness, heavy drinking",
@@ -7828,8 +7828,8 @@
   "nl": "tot, tot aan, zover als (met gen.)"
  },
  "μήπω": {
-  "en": "not yet (with subjunctive or infinitive contexts)",
-  "nl": "nog niet (in conjunctief- of infinitiefcontexten)"
+  "en": "not yet",
+  "nl": "nog niet"
  },
  "μαίνομαι": {
   "en": "be mad, rage, be frenzied",
@@ -7856,8 +7856,8 @@
   "nl": "zacht, mild; verwijfd, weekhartig"
  },
  "μανία": {
-  "en": "madness, frenzy (of Alcibiades' Bacchic passion)",
-  "nl": "waanzin, razernij (van Alcibiades' bacchische hartstocht)"
+  "en": "madness, frenzy",
+  "nl": "waanzin, razernij"
  },
  "μαντεία": {
   "en": "divination, prophecy, oracular power",
@@ -7908,12 +7908,12 @@
   "nl": "het componeren van liederen, liedkunst"
  },
  "μεντοι": {
-  "en": "particle (= μέντοι): however, yet; in replies, certainly, indeed",
-  "nl": "partikel (= μέντοι): echter, toch; in antwoorden: zeker, jazeker"
+  "en": "(= μέντοι) however, yet; in replies: certainly, indeed",
+  "nl": "(= μέντοι) echter, toch; in antwoorden: zeker, jazeker"
  },
  "μεσημβρία": {
-  "en": "midday, noon",
-  "nl": "middag, middaguur"
+  "en": "midday, noon; the south",
+  "nl": "middag, middaguur; het zuiden"
  },
  "μεστός": {
   "en": "full of, filled with (+ gen.)",
@@ -7996,24 +7996,24 @@
   "nl": "muzikaal, de muziek betreffend; bedreven in muziek"
  },
  "μοῖρα": {
-  "en": "portion, lot, fate; Moira, birth-goddess (with Eileithyia, 206d)",
-  "nl": "deel, lot; Moira, geboortegodin (naast Eileithyia, 206d)"
+  "en": "portion, share; lot, fate, destiny; Moira (goddess of fate)",
+  "nl": "deel; lot, noodlot; Moira (schikgodin)"
  },
  "μυάω": {
-  "en": "mis-lemma for μυέω: to initiate into the mysteries (of love, 210a)",
-  "nl": "foutief lemma voor μυέω: inwijden in de mysteriën (van de liefde)"
+  "en": "initiate into the mysteries; pass. be initiated (form of μυέω)",
+  "nl": "inwijden in de mysteriën; pass. ingewijd worden (vorm van μυέω)"
  },
  "μόνιμος": {
-  "en": "lasting, stable, constant",
-  "nl": "duurzaam, bestendig, standvastig"
+  "en": "lasting, constant, steadfast; in Marcus: Monimus, a Cynic (name)",
+  "nl": "blijvend, standvastig; bij Marcus: Monimos, een cynisch filosoof"
  },
  "μόνον": {
   "en": "adv. only, merely, alone",
   "nl": "slechts, alleen maar"
  },
  "μόριον": {
-  "en": "part, portion (eros as one part of desire, 205)",
-  "nl": "deel, onderdeel (eros als deel van het verlangen, 205)"
+  "en": "part, portion",
+  "nl": "deel, onderdeel"
  },
  "νέκταρ": {
   "en": "nectar, drink of the gods",
@@ -8036,12 +8036,12 @@
   "nl": "onlangs, pas geleden"
  },
  "νηνεμία": {
-  "en": "stillness of wind, calm (in Agathon's praise of Eros, 197)",
-  "nl": "windstilte, kalmte (in Agathons lofrede op Eros, 197)"
+  "en": "stillness, windless calm",
+  "nl": "windstilte, kalmte"
  },
  "νικάω": {
-  "en": "to conquer, prevail, win (Agathon's victory with his tragedy, 173a)",
-  "nl": "overwinnen, zegevieren, winnen (Agathons tragedie-overwinning)"
+  "en": "conquer, prevail, win",
+  "nl": "overwinnen, zegevieren, winnen"
  },
  "νομοθετέω": {
   "en": "to make laws, ordain by law; pass. be enacted, laid down",
@@ -8084,8 +8084,8 @@
   "nl": "droog; verdord; (als zn.) het droge"
  },
  "οἰάω": {
-  "en": "mis-lemma for οἴομαι: to think, suppose, believe",
-  "nl": "foutief lemma voor οἴομαι: menen, denken, veronderstellen"
+  "en": "think, suppose, believe (form of οἴομαι)",
+  "nl": "menen, denken, veronderstellen (vorm van οἴομαι)"
  },
  "οἰκέτης": {
   "en": "household slave, servant",
@@ -8104,8 +8104,8 @@
   "nl": "stichten, koloniseren; (pass.) zich vestigen (Eros in zachte zielen)"
  },
  "οἰκείω": {
-  "en": "mis-lemma for οἰκεῖος: one's own, akin, belonging to oneself (206)",
-  "nl": "foutief lemma voor οἰκεῖος: eigen, verwant, bij zichzelf horend"
+  "en": "one's own, akin, belonging to oneself (= οἰκεῖος)",
+  "nl": "eigen, verwant, bij zichzelf horend (= οἰκεῖος)"
  },
  "οἴκημα": {
   "en": "room, chamber",
@@ -8120,12 +8120,12 @@
   "nl": "van huis"
  },
  "οἴμη": {
-  "en": "mis-lemma: οἶμαι is from οἴομαι, I think, suppose (parenthetic)",
-  "nl": "foutief lemma: οἶμαι hoort bij οἴομαι, ik meen, denk (tussenzin)"
+  "en": "song, lay; in these texts οἶμαι = think, suppose (οἴομαι)",
+  "nl": "lied, zang; in deze teksten οἶμαι = menen, denken (οἴομαι)"
  },
  "οἷ": {
-  "en": "rel. adv.: whither, to the place where",
-  "nl": "betrekkelijk bijwoord: waarheen"
+  "en": "whither, to where; OT οἷ’ = οἷα: such things as, what (οἷος)",
+  "nl": "waarheen; OT οἷ’ = οἷα: zulke dingen als, wat (οἷος)"
  },
  "οὐδέποτε": {
   "en": "never, at no time",
@@ -8176,8 +8176,8 @@
   "nl": "door en door mooi, voortreffelijk"
  },
  "πάγος": {
-  "en": "frost, ice (the winter at Potidaea, 220)",
-  "nl": "vorst, ijs (de winter bij Potidaea, 220)"
+  "en": "rocky hill (Ἄρειος πάγος: Areopagus); also frost",
+  "nl": "rotsheuvel (Ἄρειος πάγος: Areopagus); ook vorst"
  },
  "πάνδημος": {
   "en": "common, vulgar, of all the people; Πάνδημος, the Common Aphrodite",
@@ -8196,8 +8196,8 @@
   "nl": "open zee; diepte (van de zee)"
  },
  "πένης": {
-  "en": "poor, needy; a poor man (Eros son of Penia is poor, 203)",
-  "nl": "arm, behoeftig; arme (Eros, zoon van Penia, is arm, 203)"
+  "en": "poor, needy; a poor man",
+  "nl": "arm, behoeftig; arme"
  },
  "παίδευσις": {
   "en": "education, training, instruction",
@@ -8304,8 +8304,8 @@
   "nl": "wie naast je staat: strijdmakker, helper, beschermer"
  },
  "παρατείνω": {
-  "en": "stretch out; pass. be racked, worn down (by hunger)",
-  "nl": "uitrekken; pass. gekweld, uitgeput worden (door honger)"
+  "en": "stretch out, extend along; pass. be racked, worn down (by hunger)",
+  "nl": "uitstrekken, zich uitstrekken langs; pass. gekweld, uitgeput worden (door honger)"
  },
  "παραχρῆμα": {
   "en": "on the spot, immediately, forthwith",
@@ -8328,8 +8328,8 @@
   "nl": "vrijmoedigheid, openhartigheid, vrijheid van spreken"
  },
  "πειρατέον": {
-  "en": "verbal adj.: one must try, an attempt must be made",
-  "nl": "verbaaladjectief: men moet (het) proberen"
+  "en": "one must try, an attempt must be made",
+  "nl": "men moet (het) proberen"
  },
  "πελάζω": {
   "en": "draw near, approach, come close to",
@@ -8348,8 +8348,8 @@
   "nl": "omhullen, bekleden; med.-pass. gehuld zijn in (van woorden om ideeën)"
  },
  "περιανέω": {
-  "en": "mis-lemma: περανῶν is fut. of περαίνω, accomplish, carry through",
-  "nl": "foutief lemma: περανῶν is fut. van περαίνω, volbrengen, tot een einde brengen"
+  "en": "accomplish, carry through (περανῶν: fut. ptc. of περαίνω)",
+  "nl": "volbrengen, tot een einde brengen (fut. deelw. van περαίνω)"
  },
  "περιγίγνομαι": {
   "en": "get the better of, prevail over; survive, result",
@@ -8556,8 +8556,8 @@
   "nl": "toebehoren, passen; προσήκει het past; οἱ προσήκοντες verwanten"
  },
  "προσίστημι": {
-  "en": "stand by, take up a position beside (a doorway)",
-  "nl": "erbij gaan staan, post vatten bij (een portiek)"
+  "en": "stand near; (of a thought) occur to, come to mind",
+  "nl": "erbij gaan staan; (van een gedachte) opkomen bij"
  },
  "προσαγορεύω": {
   "en": "address, call by name, designate",
@@ -8584,8 +8584,8 @@
   "nl": "verwachting"
  },
  "προσεράω": {
-  "en": "mis-lemma: ποτέρων is from πότερος, which of the two?",
-  "nl": "foutief lemma: ποτέρων hoort bij πότερος, wie van beiden?"
+  "en": "love besides; in Symp. 184: which of the two (ποτέρων, from πότερος)",
+  "nl": "daarnaast beminnen; in Symp. 184: wie van beiden (ποτέρων, van πότερος)"
  },
  "προσεύχομαι": {
   "en": "pray",
@@ -8664,8 +8664,8 @@
   "nl": "ineenduiken, wegkruipen van angst, terugdeinzen"
  },
  "πταίρω": {
-  "en": "sneeze (πτάρε; Aristophanes' hiccup cure, 185e); lemma = πταίρω",
-  "nl": "niezen (πτάρε; Aristophanes' middel tegen de hik, 185e); lemma = πταίρω"
+  "en": "sneeze (Aristophanes' hiccup cure, 185e)",
+  "nl": "niezen (Aristophanes' middel tegen de hik, 185e)"
  },
  "πτηνός": {
   "en": "winged, flying; τὰ πτηνά winged creatures, birds",
@@ -8764,24 +8764,24 @@
   "nl": "nors, somber, met een donkere blik"
  },
  "σκώπτης": {
-  "en": "mocker, jester; σκῶπτ᾽ (173) is really imper. of σκώπτω, mock, jest",
-  "nl": "spotter, grappenmaker; σκῶπτ᾽ (173) is eig. imperatief van σκώπτω, spotten"
+  "en": "mocker, jester; in Symp. 173: mock, jest (σκῶπτ᾽, from σκώπτω)",
+  "nl": "spotter, grappenmaker; in Symp. 173: spotten (σκῶπτ᾽, van σκώπτω)"
  },
  "σοφία": {
   "en": "wisdom, skill, cleverness; poetic or craft mastery",
   "nl": "wijsheid, kundigheid, knapheid; meesterschap in kunst of vak"
  },
  "σοφιστής": {
-  "en": "master of a craft, expert; sophist (Eros as clever sophist, 203)",
-  "nl": "meester in een vak, expert; sofist (Eros als slimme sofist, 203)"
+  "en": "wise man, expert; sophist, paid teacher of wisdom",
+  "nl": "wijze, expert; sofist, betaalde leraar van wijsheid"
  },
  "σοφός": {
   "en": "wise, skilled, clever",
   "nl": "wijs, kundig, knap"
  },
  "σοφόω": {
-  "en": "make wise; but σοφοῖς (197) is really dat. pl. of adj. σοφός, wise",
-  "nl": "wijs maken; maar σοφοῖς (197) is eig. dat. mv. van het adj. σοφός, wijs"
+  "en": "make wise; in Apol./Symp.: wise (σοφοῖς, dat. pl. of σοφός)",
+  "nl": "wijs maken; in Apol./Symp.: wijs (σοφοῖς, dat. mv. van σοφός)"
  },
  "σπαργάω": {
   "en": "be full to bursting, swell with desire (of pregnant nature, 206)",
@@ -8900,8 +8900,8 @@
   "nl": "samenklank, muzikale harmonie, overeenstemming"
  },
  "συνέννυμι": {
-  "en": "clothe; but συνεσόμενοι (181) is fut. part. of σύνειμι, be with, consort",
-  "nl": "kleden; maar συνεσόμενοι (181) is eig. fut. part. van σύνειμι, samenzijn met"
+  "en": "clothe; in Symp. 181: be with, live with (συνεσόμενοι, from σύνειμι)",
+  "nl": "kleden; in Symp. 181: samenzijn met (συνεσόμενοι, van σύνειμι)"
  },
  "συνίστημι": {
   "en": "bring together, combine, establish, compose",
@@ -8912,8 +8912,8 @@
   "nl": "beide samen, als één geheel genomen"
  },
  "συνδέω": {
-  "en": "bind together, tie fast (the universe bound together, 202)",
-  "nl": "samenbinden, vastbinden (het heelal aaneengebonden, 202)"
+  "en": "bind together, tie fast",
+  "nl": "samenbinden, vastbinden"
  },
  "συνδειπνέω": {
   "en": "dine with, share dinner with",
@@ -8968,8 +8968,8 @@
   "nl": "bijna, nagenoeg, zo ongeveer"
  },
  "σχῆμα": {
-  "en": "form, figure, outward appearance, bearing",
-  "nl": "vorm, gestalte, uiterlijk, houding"
+  "en": "form, figure, outward appearance, bearing; formation (of troops)",
+  "nl": "vorm, gestalte, uiterlijk, houding; slagorde, formatie"
  },
  "σωφρονέω": {
   "en": "be temperate, be of sound mind, show self-control",
@@ -8984,8 +8984,8 @@
   "nl": "slimme vondst, listigheid, kunstgreep"
  },
  "σύμμετρος": {
-  "en": "well-proportioned, symmetrical; supple (of Eros' form, 196)",
-  "nl": "goedgeproportioneerd, evenwichtig; soepel (van Eros' gestalte, 196)"
+  "en": "commensurate, well-proportioned; within range (OT: in earshot)",
+  "nl": "evenredig, goed geproportioneerd; binnen bereik (OT: binnen gehoorsafstand)"
  },
  "σύμφημι": {
   "en": "assent, agree, say yes to",
@@ -8996,12 +8996,12 @@
   "nl": "diner, feestmaal (het diner bij Agathon, 172)"
  },
  "σύνοδος": {
-  "en": "coming together, meeting, gathering, assembly",
-  "nl": "samenkomst, bijeenkomst, vergadering"
+  "en": "coming together, meeting, assembly; in battle: encounter, clash",
+  "nl": "samenkomst, bijeenkomst, vergadering; in de strijd: treffen, botsing"
  },
  "σύνοικος": {
-  "en": "dwelling with, housemate, constant companion (Eros, 203)",
-  "nl": "samenwonend met, huisgenoot, vaste metgezel (Eros, 203)"
+  "en": "dwelling with; housemate, companion",
+  "nl": "samenwonend met; huisgenoot, metgezel"
  },
  "σύντασις": {
   "en": "tension, straining, intense effort (of desire, 206)",
@@ -9020,7 +9020,7 @@
   "nl": "bezonnen, beheerst, verstandig"
  },
  "σῦριγξ": {
-  "en": "panpipe, shepherd's pipe (instrument of Marsyas' school)",
+  "en": "panpipe, shepherd's pipe",
   "nl": "panfluit, herdersfluit"
  },
  "σῴζω": {
@@ -9052,8 +9052,8 @@
   "nl": "op deze wijze, in dit opzicht, hier"
  },
  "τείνω": {
-  "en": "stretch; intrans. tend towards, relate to, aim at",
-  "nl": "spannen, strekken; gericht zijn op, betrekking hebben op"
+  "en": "stretch; (intr.) extend, run along; tend towards, relate to",
+  "nl": "spannen, strekken; zich uitstrekken, lopen; gericht zijn op"
  },
  "τεκμαίρομαι": {
   "en": "judge from signs, infer, conjecture",
@@ -9080,7 +9080,7 @@
   "nl": "wreken; (med.) zich wreken op, straffen"
  },
  "τιτρώσκω": {
-  "en": "wound, injure (Alcibiades 'wounded' by philosophy)",
+  "en": "wound, injure",
   "nl": "verwonden, kwetsen"
  },
  "τοίνυν": {
@@ -9172,16 +9172,16 @@
   "nl": "tovenaar, gifmenger"
  },
  "φαῦλος": {
-  "en": "slight, ordinary, trivial, of no account",
-  "nl": "gering, onbeduidend, alledaags"
+  "en": "bad, poor, base; slight, trivial, ordinary",
+  "nl": "slecht, minderwaardig; gering, onbeduidend"
  },
  "φθάνω": {
   "en": "come before, anticipate; (NT) arrive, reach, come upon",
   "nl": "voorkomen, eerder zijn; (NT) aankomen, bereiken, komen over"
  },
  "φθιπ́ω": {
-  "en": "= φθίνω (mis-lemma): waste away, wane, decay (Beauty neither waxes nor wanes)",
-  "nl": "= φθίνω: wegkwijnen, afnemen, vergaan"
+  "en": "waste away, wane, decay (form of φθίνω)",
+  "nl": "wegkwijnen, afnemen, vergaan (vorm van φθίνω)"
  },
  "φιάλη": {
   "en": "broad shallow bowl, drinking-bowl",
@@ -9208,7 +9208,7 @@
   "nl": "eerzuchtig zijn, naar eer streven"
  },
  "φιλοτιμία": {
-  "en": "love of honour, ambition (a driver of the desire for immortality)",
+  "en": "love of honour, ambition",
   "nl": "eerzucht, ambitie"
  },
  "φιλόδωρος": {
@@ -9216,15 +9216,15 @@
   "nl": "gul, vrijgevig"
  },
  "φιλόσοφος": {
-  "en": "lover of wisdom, philosopher; philosophical (Eros between wise and ignorant)",
+  "en": "lover of wisdom, philosopher; philosophical",
   "nl": "wijsheidsminnaar, filosoof; filosofisch"
  },
  "φλυαρέω": {
-  "en": "talk nonsense, babble (Phaedrus: 'Aeschylus talks nonsense')",
+  "en": "talk nonsense, babble",
   "nl": "onzin praten, kletsen"
  },
  "φλυαρία": {
-  "en": "nonsense, rubbish (the 'trash' of mortal flesh at 211e)",
+  "en": "nonsense, rubbish",
   "nl": "onzin, beuzelarij"
  },
  "φοβερός": {
@@ -9272,7 +9272,7 @@
   "nl": "stem, geluid"
  },
  "χάλαζα": {
-  "en": "hail, hailstorm (from the disorderly Eros in nature)",
+  "en": "hail, hailstorm",
   "nl": "hagel, hagelbui"
  },
  "χάλκειος": {
@@ -9308,8 +9308,8 @@
   "nl": "grondbed, slaapmat"
  },
  "χαρίζω": {
-  "en": "mid. gratify, grant one's favours (esp. beloved to lover; Pausanias' key term)",
-  "nl": "(med.) ter wille zijn, gunsten verlenen (aan een minnaar)"
+  "en": "(mid.) please, gratify, do a favour; (of a beloved) grant favours",
+  "nl": "(med.) een plezier doen, behagen; gunsten verlenen"
  },
  "χειμών": {
   "en": "winter; storm, bad weather",
@@ -9324,7 +9324,7 @@
   "nl": "gisteren"
  },
  "χλιδή": {
-  "en": "luxury, delicacy, soft living (in Agathon's list)",
+  "en": "luxury, delicacy, soft living",
   "nl": "weelde, verfijning, luxe"
  },
  "χορευτής": {
@@ -9356,8 +9356,8 @@
   "nl": "huid, teint; kleur"
  },
  "χρυσίον": {
-  "en": "gold, piece of gold (gold set beside true beauty)",
-  "nl": "goud, goudstuk"
+  "en": "gold, gold coin; money",
+  "nl": "goud, goudstuk; geld"
  },
  "χρῆμα": {
   "en": "thing; pl. money, property, goods",
@@ -9404,8 +9404,8 @@
   "nl": "domheid, onnozelheid"
  },
  "ἀγάζω": {
-  "en": "admire, marvel at (ἀγασθέντες really from ἄγαμαι; mis-lemma)",
-  "nl": "bewonderen, zich verwonderen over (vorm hoort bij ἄγαμαι)"
+  "en": "admire, marvel at (ἀγασθέντες: from ἄγαμαι)",
+  "nl": "bewonderen, zich verwonderen over (ἀγασθέντες: van ἄγαμαι)"
  },
  "ἀγένειος": {
   "en": "beardless, without a beard",
@@ -9416,8 +9416,8 @@
   "nl": "verontwaardigd zijn, zich ergeren"
  },
  "ἀγαπάζω": {
-  "en": "love, be content with (ἀγαπῶντες really from ἀγαπάω; mis-lemma)",
-  "nl": "liefhebben, tevreden zijn met (vorm hoort bij ἀγαπάω)"
+  "en": "love, be content with (ἀγαπῶντες: from ἀγαπάω)",
+  "nl": "liefhebben, tevreden zijn met (ἀγαπῶντες: van ἀγαπάω)"
  },
  "ἀγαπάω": {
   "en": "love, cherish; be content with",
@@ -9452,8 +9452,8 @@
   "nl": "als kamprechter een wedstrijd leiden"
  },
  "ἀδεής": {
-  "en": "fearless; τὸ ἀδεές fearlessness",
-  "nl": "onbevreesd; τὸ ἀδεές onbevreesdheid"
+  "en": "fearless, without fear; of fear: groundless",
+  "nl": "onbevreesd, zonder angst; van angst: ongegrond"
  },
  "ἀδελφή": {
   "en": "sister",
@@ -9532,8 +9532,8 @@
   "nl": "vervreemding"
  },
  "ἀλογία": {
-  "en": "irrationality, unreason, absence of reasoning",
-  "nl": "redeloosheid, onberedeneerdheid"
+  "en": "disregard, neglect; unreason, irrationality",
+  "nl": "geringschatting, veronachtzaming; redeloosheid"
  },
  "ἀμήτωρ": {
   "en": "motherless (of Heavenly Aphrodite, daughter of Uranus alone)",
@@ -9548,8 +9548,8 @@
   "nl": "onwetend, ongeletterd, dom"
  },
  "ἀμαθία": {
-  "en": "ignorance (in Diotima: between wisdom and it lies right opinion)",
-  "nl": "onwetendheid (bij Diotima tegenover wijsheid gesteld)"
+  "en": "ignorance, stupidity",
+  "nl": "onwetendheid, domheid"
  },
  "ἀμελέτητος": {
   "en": "unpractised, unrehearsed; adv. without preparation",
@@ -9592,8 +9592,8 @@
   "nl": "med. verdragen, dulden; act. omhooghouden"
  },
  "ἀνίζω": {
-  "en": "send up, release (ἀνεῖσαν really aor. of ἀνίημι; mis-lemma)",
-  "nl": "omhoogzenden, loslaten (vorm hoort bij ἀνίημι)"
+  "en": "send up, let go back (ἀνεῖσαν: aor. of ἀνίημι)",
+  "nl": "laten opgaan, laten terugkeren (ἀνεῖσαν: aor. van ἀνίημι)"
  },
  "ἀνίημι": {
   "en": "send up, let go, release; slacken",
@@ -9640,8 +9640,8 @@
   "nl": "onmannelijkheid, lafheid"
  },
  "ἀνανθέω": {
-  "en": "be without bloom, faded (ἀνανθεῖ is dat. of adj. ἀνανθής; mis-lemma)",
-  "nl": "zonder bloei, uitgebloeid (vorm is van het adjectief ἀνανθής)"
+  "en": "without bloom, faded (ἀνανθεῖ: dat. of adj. ἀνανθής)",
+  "nl": "zonder bloei, uitgebloeid (ἀνανθεῖ: dat. van adj. ἀνανθής)"
  },
  "ἀναπαύω": {
   "en": "give rest; mid. rest, lie down to sleep",
@@ -9676,8 +9676,8 @@
   "nl": "oprollen; pass. ineenkrimpen"
  },
  "ἀνελευθερία": {
-  "en": "servility, meanness, illiberality",
-  "nl": "onvrije gezindheid, kleingeestigheid"
+  "en": "stinginess, illiberality; servility",
+  "nl": "gierigheid, kleingeestigheid; slaafsheid"
  },
  "ἀνεμέσητος": {
   "en": "giving no offence, blameless; permissible",
@@ -9708,8 +9708,8 @@
   "nl": "evenveel waard als, gelijkwaardig aan"
  },
  "ἀντιβόλησις": {
-  "en": "entreaty, supplication (a lover's pleas)",
-  "nl": "smeekbede (van een minnaar)"
+  "en": "entreaty, supplication",
+  "nl": "smeekbede, het smeken"
  },
  "ἀντιλέγω": {
   "en": "speak against, contradict, argue in reply",
@@ -9788,8 +9788,8 @@
   "nl": "aanstellen, benoemen; aantonen, bewijzen"
  },
  "ἀποδιδράσκω": {
-  "en": "run away, escape by stealth (198a: flee like Odysseus from Gorgias)",
-  "nl": "weglopen, heimelijk ontsnappen (198a: vluchten als Odysseus)"
+  "en": "run away, escape secretly",
+  "nl": "weglopen, heimelijk ontsnappen"
  },
  "ἀποκρίνω": {
   "en": "mid./pass. (ἀποκρίνομαι): answer, reply",
@@ -9808,8 +9808,8 @@
   "nl": "genieten van, profiteren van (met gen.)"
  },
  "ἀπολείβω": {
-  "en": "drip off; but ἀπολείψω (221b) is fut. of ἀπολείπω: leave, abandon",
-  "nl": "afdruipen; maar ἀπολείψω (221b) is fut. van ἀπολείπω: verlaten, achterlaten"
+  "en": "pour out, drip; in Symp.: leave, fall short (ἀπολείψω, from ἀπολείπω)",
+  "nl": "afdruppelen; in Symp.: achterlaten, tekortschieten (ἀπολείψω, van ἀπολείπω)"
  },
  "ἀπολογέομαι": {
   "en": "defend oneself, make one's defence (174c: plead for Aristodemus)",
@@ -9820,8 +9820,8 @@
   "nl": "afwassen; med. zich (de handen, voeten) wassen"
  },
  "ἀποπέμπω": {
-  "en": "send away, dismiss (179d: Orpheus sent back from Hades empty-handed)",
-  "nl": "wegsturen (179d: Orpheus onverrichter zake uit de Hades weggestuurd)"
+  "en": "send away, dismiss; (mid.) send off from oneself",
+  "nl": "wegsturen, wegzenden; (med.) van zich afzetten"
  },
  "ἀποπέτομαι": {
   "en": "fly away, flit off (183e: when the beloved's bloom fades)",
@@ -9832,16 +9832,16 @@
   "nl": "radeloosheid, verlegenheid; gebrek"
  },
  "ἀποσβέννυμι": {
-  "en": "quench, put out; plpf. intr.: had gone out (218b: the lamp)",
-  "nl": "doven, blussen; plqpf. intr.: was uitgegaan (218b: de lamp)"
+  "en": "quench, put out; (pass./plpf.) go out, be extinguished",
+  "nl": "doven, blussen; (pass./plqpf.) uitgaan, gedoofd zijn"
  },
  "ἀποστερέω": {
   "en": "defraud, rob, deprive of",
   "nl": "beroven, ontnemen, bedriegen"
  },
  "ἀποτέμνω": {
-  "en": "cut off; mid.: have amputated (205e: one's own diseased limbs)",
-  "nl": "afsnijden; med.: laten afzetten (205e: eigen zieke ledematen)"
+  "en": "cut off; (mid.) have cut off, amputate",
+  "nl": "afsnijden; (medium) laten afzetten, amputeren"
  },
  "ἀποτελέω": {
   "en": "complete, bring to perfection, accomplish",
@@ -9868,8 +9868,8 @@
   "nl": "nee zeggen, ontkennen, weigeren (177c: ik zou niet kunnen weigeren)"
  },
  "ἀρετή": {
-  "en": "excellence, virtue, valour (the goal of love's ascent)",
-  "nl": "voortreffelijkheid, deugd, moed (het doel van de opgang van eros)"
+  "en": "excellence, virtue; valour",
+  "nl": "voortreffelijkheid, deugd; dapperheid"
  },
  "ἀριστεῖα": {
   "en": "prize for valour (220d: at Potidaea, which Socrates ceded to Alcibiades)",
@@ -9940,8 +9940,8 @@
   "nl": "verfijning, tederheid, weelde (197d: onder de gaven van Eros)"
  },
  "ἁλίσκομαι": {
-  "en": "be caught, be won (184a: the beloved caught by a lover)",
-  "nl": "gevangen worden, veroverd worden (184a: de beminde door een minnaar)"
+  "en": "be caught, be taken; be convicted",
+  "nl": "gevangen worden, ingenomen worden; veroordeeld worden"
  },
  "ἁπαλός": {
   "en": "soft, tender, delicate (195c-e: Love is tender, like Ate)",
@@ -9964,8 +9964,8 @@
   "nl": "samenvoegen, stemmen (muziek); onpers. ἁρμόττει: het past"
  },
  "ἄγαλμα": {
-  "en": "statue, image (215b, 217a: figures of gods inside the Silenus)",
-  "nl": "beeld, godenbeeld (215b, 217a: godenbeeldjes binnen in de Silenus)"
+  "en": "statue, image (of a god); ornament, delight",
+  "nl": "beeld, godenbeeld; sieraad, pronkstuk"
  },
  "ἄγαμαι": {
   "en": "admire, wonder at, be delighted with",
@@ -9988,28 +9988,28 @@
   "nl": "zonder gaven; onomkoopbaar (197d, woordspel)"
  },
  "ἄθλιος": {
-  "en": "wretched, miserable, pitiable (173d: Apollodorus on everyone else)",
-  "nl": "ellendig, beklagenswaardig (173d: Apollodorus over alle anderen)"
+  "en": "wretched, miserable, pitiable",
+  "nl": "ellendig, beklagenswaardig"
  },
  "ἄκλητος": {
   "en": "unbidden, uninvited (174b-c: the good man goes uninvited to dinner)",
   "nl": "ongenood, ongevraagd (174b-c: de goede gaat ongenood naar het maal)"
  },
  "ἄλλοθεν": {
-  "en": "from elsewhere, from another place (215e)",
-  "nl": "van elders, ergens anders vandaan (215e)"
+  "en": "from elsewhere, from another place",
+  "nl": "van elders, ergens anders vandaan"
  },
  "ἄλλοθι": {
-  "en": "elsewhere, in another place (of other cities' customs, 182b)",
-  "nl": "elders, op een andere plaats (over gebruiken in andere steden, 182b)"
+  "en": "elsewhere, in another place",
+  "nl": "elders, op een andere plaats"
  },
  "ἄλλοτε": {
-  "en": "at another time, at other times (223d)",
-  "nl": "op een ander moment, andere keren (223d)"
+  "en": "at another time, at other times",
+  "nl": "op een ander moment, andere keren"
  },
  "ἄλογος": {
-  "en": "without reason, irrational, unaccountable (202a: right opinion)",
-  "nl": "zonder redelijke grond, irrationeel (202a: juiste mening)"
+  "en": "without reason, irrational, unaccountable",
+  "nl": "zonder redelijke grond, irrationeel"
  },
  "ἄμικτος": {
   "en": "unmixed, pure (211e: Beauty itself, unalloyed with flesh)",
@@ -10036,20 +10036,20 @@
   "nl": "onverstand, dwaasheid; (Lk 6:11) blinde woede"
  },
  "ἄντικρυς": {
-  "en": "straight on, outright, openly (223b: drink without any order)",
-  "nl": "rechtstreeks, ronduit, zonder omhaal (223b: drinken zonder regels)"
+  "en": "straight on, right in; outright, openly",
+  "nl": "recht vooruit, rechtstreeks naar binnen; ronduit"
  },
  "ἄοικος": {
   "en": "homeless, houseless (203d: Love, sleeping in doorways)",
   "nl": "dakloos, zonder huis (203d: Eros, slapend in portieken)"
  },
  "ἄπειρος": {
-  "en": "inexperienced, unacquainted with (222b: learn at cost, like a child)",
-  "nl": "onervaren, onbekend met (222b: door schade en schande wijs worden)"
+  "en": "boundless, infinite; inexperienced, ignorant of",
+  "nl": "grenzeloos, oneindig; onervaren, onbekend met"
  },
  "ἄπορος": {
-  "en": "resourceless, without means; hard to deal with (204b: Love's lot)",
-  "nl": "zonder middelen, radeloos; lastig (204b: het lot van Eros)"
+  "en": "without resources, at a loss, helpless; hard to deal with",
+  "nl": "zonder middelen, radeloos, hulpeloos; lastig"
  },
  "ἄρτι": {
   "en": "just now, just, recently",
@@ -10072,8 +10072,8 @@
   "nl": "ongepast, verkeerd; vreemd, ongerijmd"
  },
  "ἄτρωτος": {
-  "en": "unwounded, invulnerable (219e: Alcibiades' beauty left Socrates unhurt)",
-  "nl": "ongewond, onkwetsbaar (219e: Alcibiades' schoonheid raakte Socrates niet)"
+  "en": "unwounded, invulnerable",
+  "nl": "ongewond, onkwetsbaar"
  },
  "ἄφθονος": {
   "en": "ungrudging, abundant, plentiful (210d: unstinting love of wisdom)",
@@ -10088,8 +10088,8 @@
   "nl": "zich ergeren, verdriet hebben, het vervelend vinden"
  },
  "ἅπαξ": {
-  "en": "once, a single time (185d: hold breath once for a long while)",
-  "nl": "eenmaal, één keer (185d: één keer lang de adem inhouden)"
+  "en": "once, a single time",
+  "nl": "eenmaal, één keer"
  },
  "ἅπτω": {
   "en": "kindle, light (a lamp); mid. touch, take hold of",
@@ -10100,8 +10100,8 @@
   "nl": "Atheens, van Athene; Athener"
  },
  "Ἀθηνᾶ": {
-  "en": "Athena, goddess of wisdom and crafts (197b: weaving her province)",
-  "nl": "Athena, godin van wijsheid en ambachten (197b: het weven haar domein)"
+  "en": "Athena, goddess of wisdom and crafts (weaving her province)",
+  "nl": "Athene, godin van wijsheid en ambachten (het weven haar domein)"
  },
  "Ἀκουμενός": {
   "en": "Acumenus, Athenian physician, father of Eryximachus",
@@ -10116,8 +10116,8 @@
   "nl": "Alcibiades, briljant Atheens staatsman, bewonderaar van Socrates; laatste spreker"
  },
  "Ἀνάγπη": {
-  "en": "mis-lemma for Ἀνάγκη: Necessity personified (195c: ruled the old gods)",
-  "nl": "foutief lemma voor Ἀνάγκη: Noodzaak, gepersonifieerd (195c: heerste over de oude goden)"
+  "en": "necessity, compulsion; Necessity personified",
+  "nl": "noodzaak, dwang; Noodzaak (gepersonifieerd)"
  },
  "Ἀντήνωρ": {
   "en": "Antenor, wise Trojan elder in Homer, paired with Nestor (221c)",
@@ -10132,8 +10132,8 @@
   "nl": "Aristogeiton, Atheense tirannendoder, minnaar van Harmodius"
  },
  "Ἀριστόδημος": {
-  "en": "Aristodemus, Socrates' companion; eyewitness source of the dinner tale",
-  "nl": "Aristodemus, metgezel van Socrates; ooggetuige en bron van het verhaal"
+  "en": "Aristodemus: Spartan at Thermopylae (Hdt.); Socrates' companion (Symp.)",
+  "nl": "Aristodemos: Spartaan bij Thermopylae (Hdt.); metgezel van Sokrates (Symp.)"
  },
  "Ἀσκληπιός": {
   "en": "Asclepius, god of healing, ancestor of physicians",
@@ -10156,16 +10156,16 @@
   "nl": "Alcestis, die als enige in de plaats van haar man Admetus wilde sterven"
  },
  "Ἄρης": {
-  "en": "Ares, god of war, himself captured by Love for Aphrodite",
-  "nl": "Ares, de oorlogsgod, zelf door de liefde tot Aphrodite gevangen"
+  "en": "Ares, god of war",
+  "nl": "Ares, god van de oorlog"
  },
  "Ἄτη": {
   "en": "Ate, goddess of blind folly; in Homer soft-footed, treading on men's heads",
   "nl": "Ate, godin van de verblinding; bij Homerus zachtvoetig over mensenhoofden"
  },
  "ἐάντε": {
-  "en": "ἐάντε … ἐάντε: whether … or (with subjunctive), in either case",
-  "nl": "ἐάντε … ἐάντε: hetzij … hetzij (met conjunctief), in beide gevallen"
+  "en": "whether … or (+ subjunctive)",
+  "nl": "hetzij … hetzij (+ conjunctief)"
  },
  "ἐγγίγνομαι": {
   "en": "arise in, be engendered in, come to be within",
@@ -10180,8 +10180,8 @@
   "nl": "achterlaten, in de steek laten"
  },
  "ἐγκαταλιπάω": {
-  "en": "mis-lemma for ἐγκαταλείπω (aor. ἐγκαταλιπεῖν): abandon, desert",
-  "nl": "foutief lemma voor ἐγκαταλείπω (aor. ἐγκαταλιπεῖν): in de steek laten"
+  "en": "abandon, desert, leave in the lurch",
+  "nl": "in de steek laten, achterlaten"
  },
  "ἐγκρατής": {
   "en": "in control, master (of); self-controlled; comp. having the upper hand",
@@ -10208,8 +10208,8 @@
   "nl": "de hand slaan aan, ondernemen, pogen (Alcibiades' opzet met Socrates)"
  },
  "ἐγχύνω": {
-  "en": "mis-lemma for ἐγχέω (aor. ptc. ἐγχέαντος): pour in",
-  "nl": "foutief lemma voor ἐγχέω (aor. ptc. ἐγχέαντος): inschenken"
+  "en": "pour in, pour out (wine) (ἐγχέαντος: aor. ptc. of ἐγχέω)",
+  "nl": "inschenken (ἐγχέαντος: aor. deelw. van ἐγχέω)"
  },
  "ἐθελοδουλεία": {
   "en": "voluntary servitude (of lover to beloved, alone counted no disgrace)",
@@ -10284,8 +10284,8 @@
   "nl": "vullen, verzadigen; pass. verzadigd worden"
  },
  "ἐμπνέω": {
-  "en": "breathe into, inspire (courage, as the god inspires lovers)",
-  "nl": "inblazen, bezielen (moed, zoals de god minnaars bezielt)"
+  "en": "breathe, be alive; breathe into, inspire",
+  "nl": "ademen, in leven zijn; inblazen, bezielen"
  },
  "ἐμποδίζω": {
   "en": "hinder, impede, stand in the way of",
@@ -10308,8 +10308,8 @@
   "nl": "zich verzetten tegen, tegenspreken"
  },
  "ἐνδεής": {
-  "en": "in need of, lacking, deficient (desire is of what one lacks)",
-  "nl": "behoeftig aan, ontberend (begeerte richt zich op wat men mist)"
+  "en": "lacking, in need of, deficient",
+  "nl": "behoeftig, gebrek hebbend aan, ontoereikend"
  },
  "ἐνελίσσω": {
   "en": "wrap up in (feet wrapped in felt against the Thracian frost)",
@@ -10336,8 +10336,8 @@
   "nl": "binnen, binnenin; aan de binnenkant"
  },
  "ἐξέγρω": {
-  "en": "mis-lemma for ἐξεγείρομαι (aor. ἐξεγρόμενος): wake up, awaken",
-  "nl": "foutief lemma voor ἐξεγείρομαι (aor. ἐξεγρόμενος): ontwaken"
+  "en": "wake up, awaken (ἐξεγρέσθαι: aor. of ἐξεγείρομαι)",
+  "nl": "ontwaken, wakker worden (aor. van ἐξεγείρομαι)"
  },
  "ἐξέρχομαι": {
   "en": "go out, come out; pass away, expire (forms of ἔξειμι here too)",
@@ -10392,16 +10392,16 @@
   "nl": "weten, verstaan, kunnen"
  },
  "ἐπίσχω": {
-  "en": "hold out toward; mid. put (the cup) to one's lips and drink off",
-  "nl": "toereiken; med. (de beker) aan de lippen zetten en leegdrinken"
+  "en": "hold back, stop; mid. stop up (one's ears)",
+  "nl": "tegenhouden, stoppen; med. (de oren) dichtstoppen"
  },
  "ἐπίταξις": {
   "en": "command, injunction (of the gods, conveyed through spirits)",
   "nl": "bevel, opdracht (van de goden, via daimonen overgebracht)"
  },
  "ἐπαινέω": {
-  "en": "praise, commend (the evening's task: praising Eros)",
-  "nl": "prijzen, loven (de opdracht van de avond: Eros prijzen)"
+  "en": "praise, commend",
+  "nl": "prijzen, loven"
  },
  "ἐπαμύνω": {
   "en": "come to the defence of, help, stand by",
@@ -10432,8 +10432,8 @@
   "nl": "aangezien immers, daar toch"
  },
  "ἐπιβάτης": {
-  "en": "marine, fighting man aboard ship; comrade in the fight (of Eros)",
-  "nl": "scheepssoldaat, strijder aan boord; strijdmakker (van Eros gezegd)"
+  "en": "rider (of a horse); marine, fighter aboard ship",
+  "nl": "ruiter; scheepssoldaat, strijder aan boord"
  },
  "ἐπιβουλεύω": {
   "en": "plot against, scheme, lay designs on",
@@ -10448,8 +10448,8 @@
   "nl": "tonen, laten zien; med. in het openbaar optreden, pronken met zijn kunst"
  },
  "ἐπιδημέω": {
-  "en": "be in town, be back in residence (Socrates back in Athens)",
-  "nl": "in de stad verblijven, weer thuis zijn (Socrates terug in Athene)"
+  "en": "be at home, be in town",
+  "nl": "thuis zijn, in de stad verblijven"
  },
  "ἐπιεικής": {
   "en": "decent, reasonable, worthy; adv. fairly, tolerably, pretty well",
@@ -10492,16 +10492,16 @@
   "nl": "toezien op, waarnemen, onderzoeken"
  },
  "ἐπιστήμη": {
-  "en": "knowledge, science, expert skill (medicine as ἐπιστήμη of desires)",
-  "nl": "kennis, wetenschap, vakkennis (geneeskunde als kennis van begeerten)"
+  "en": "knowledge, understanding, science, expert skill",
+  "nl": "kennis, inzicht, wetenschap, vakkennis"
  },
  "ἐπιστατέω": {
   "en": "preside over, be in charge of, supervise",
   "nl": "de leiding hebben over, toezicht houden op"
  },
  "ἐπιστημόω": {
-  "en": "mis-lemma: ἐπιστημῶν is gen. pl. of ἐπιστήμη, knowledge, science",
-  "nl": "foutief lemma: gen. mv. van ἐπιστήμη, kennis, wetenschap"
+  "en": "knowledge, science (ἐπιστημῶν: gen. pl. of ἐπιστήμη)",
+  "nl": "kennis, wetenschap (ἐπιστημῶν: gen. mv. van ἐπιστήμη)"
  },
  "ἐπιτάσσω": {
   "en": "order, command, give orders to",
@@ -10512,8 +10512,8 @@
   "nl": "geschikt, passend; τὰ ἐπιτήδεια proviand; οἱ ἐπιτήδειοι goede vrienden"
  },
  "ἐπιτήδευμα": {
-  "en": "pursuit, practice, way of life (the fair pursuits in Diotima's ascent)",
-  "nl": "bezigheid, levenswijze (de schone praktijken in Diotima's opgang)"
+  "en": "pursuit, practice, way of life",
+  "nl": "bezigheid, praktijk, levenswijze"
  },
  "ἐπιτηδεύω": {
   "en": "practise, pursue, make one's business",
@@ -10676,8 +10676,8 @@
   "nl": "onlangs, kortgeleden"
  },
  "ἔνδεια": {
-  "en": "want, need, lack (desire presupposes lack, 200)",
-  "nl": "gebrek, behoefte, tekort (begeerte veronderstelt gemis, 200)"
+  "en": "want, need, lack, deficiency",
+  "nl": "gebrek, behoefte, tekort"
  },
  "ἔνδοθεν": {
   "en": "from within, inside",
@@ -10716,8 +10716,8 @@
   "nl": "lof, lofrede (de redes ter ere van Eros)"
  },
  "ἔπιπνος": {
-  "en": "adj. ἐπίπνους: inspired, breathed upon (by the god)",
-  "nl": "adj. ἐπίπνους: bezield, door de god aangeblazen"
+  "en": "inspired, breathed upon (by the god)",
+  "nl": "bezield, door de god aangeblazen"
  },
  "ἔραμαι": {
   "en": "love passionately, be in love with; ἠράσθην: fell in love",
@@ -10736,8 +10736,8 @@
   "nl": "adder, gifslang"
  },
  "ἕδος": {
-  "en": "seat, abode, foundation (Hesiod: Earth the sure seat of all)",
-  "nl": "zetel, woonplaats, grondslag (Hesiodus: de Aarde als vaste zetel)"
+  "en": "seat, abode; foundation",
+  "nl": "zetel, woonplaats; grondslag"
  },
  "ἕρμαιον": {
   "en": "godsend, windfall, lucky find",
@@ -10812,8 +10812,8 @@
   "nl": "Herakles; Ἡράκλεις! als uitroep: goeie hemel!"
  },
  "Ἡρακλῆς": {
-  "en": "Heracles, hero son of Zeus (subject of Prodicus' encomium)",
-  "nl": "Herakles, held en zoon van Zeus (onderwerp van Prodikos' lofrede)"
+  "en": "Heracles, hero, son of Zeus",
+  "nl": "Herakles, held, zoon van Zeus"
  },
  "Ἡσίοδος": {
   "en": "Hesiod, early epic poet, cited on the origin of Eros",
@@ -10828,8 +10828,8 @@
   "nl": "geneeskundig behandelen, genezen"
  },
  "ἰατρικός": {
-  "en": "medical; ἡ ἰατρική: the art of medicine (Eryximachus' craft)",
-  "nl": "geneeskundig; ἡ ἰατρική: de geneeskunst (het vak van Eryximachos)"
+  "en": "medical; ἡ ἰατρική the art of medicine",
+  "nl": "geneeskundig; ἡ ἰατρική de geneeskunst"
  },
  "ἰδέα": {
   "en": "form, appearance, character, kind",
@@ -10852,8 +10852,8 @@
   "nl": "voldoende, waardig, bekwaam; talrijk, aanzienlijk"
  },
  "ἱκετεία": {
-  "en": "supplication, entreaty (the lover's entreaties)",
-  "nl": "smeekbede (de smeekbeden van de minnaar)"
+  "en": "supplication, entreaty",
+  "nl": "smeekbede, het smeken"
  },
  "ἱμάτιον": {
   "en": "cloak, outer garment",
@@ -10944,8 +10944,8 @@
   "nl": "van de kookkunst, culinair (187e)"
  },
  "ὁμιλία": {
-  "en": "intercourse, converse, association (gods with men, 203a)",
-  "nl": "omgang, verkeer, gezelschap (van goden met mensen, 203a)"
+  "en": "company, association, social intercourse",
+  "nl": "omgang, verkeer, gezelschap"
  },
  "ὁμολογέω": {
   "en": "agree; confess, acknowledge, admit; promise",
@@ -11032,8 +11032,8 @@
   "nl": "Orpheus, mythische zanger die om zijn vrouw de Hades inging (179d)"
  },
  "ὑβριστής": {
-  "en": "insolent, outrageous man; mocker (of Socrates, 175e, 215b)",
-  "nl": "onbeschaamde spotter, driest heerschap (over Socrates)"
+  "en": "insolent, violent person; outrageous",
+  "nl": "overmoedig, gewelddadig mens; onbeschaamd"
  },
  "ὑγίεια": {
   "en": "health",
@@ -11076,8 +11076,8 @@
   "nl": "hoogmoedig, minachtend; (van daden) groots"
  },
  "ὑπεραγάζω": {
-  "en": "admire exceedingly (really ὑπεράγαμαι; gods and Alcestis, 179)",
-  "nl": "buitengewoon bewonderen (eig. ὑπεράγαμαι; 179)"
+  "en": "admire exceedingly (ὑπεραγασθέντες: from ὑπεράγαμαι)",
+  "nl": "buitengewoon bewonderen (ὑπεραγασθέντες: van ὑπεράγαμαι)"
  },
  "ὑπεραποθνῄσκω": {
   "en": "to die for another, die on someone's behalf (Alcestis, 179)",
@@ -11100,8 +11100,8 @@
   "nl": "dienaar, bediende; gerechtsdienaar, tempelwacht"
  },
  "ὑπηρετέω": {
-  "en": "to serve, do service, gratify (a lover, 184c)",
-  "nl": "dienen, ter wille zijn (een minnaar, 184c)"
+  "en": "serve, do service; comply with, gratify",
+  "nl": "dienen, ten dienste staan; ter wille zijn"
  },
  "ὑπισχνέομαι": {
   "en": "to promise, undertake",
@@ -11144,8 +11144,8 @@
   "nl": "van de volgende dag; (τῇ ὑστεραίᾳ) daags daarna"
  },
  "ὕβριστος": {
-  "en": "insolent, wanton — form of ὑβριστής (mis-lemmatised; 221e)",
-  "nl": "brutaal, overmoedig — eigenlijk ὑβριστής (fout gelemmatiseerd)"
+  "en": "insolent, wanton; here ὑβριστοῦ, from ὑβριστής, insolent one",
+  "nl": "brutaal, overmoedig; hier ὑβριστοῦ, van ὑβριστής, overmoedeling"
  },
  "ὕμνος": {
   "en": "hymn, song of praise to the gods",
@@ -11156,8 +11156,8 @@
   "nl": "later, daarna"
  },
  "ὗς": {
-  "en": "pig; here ὑός = υἱός 'son' (Poros son of Metis, 203b) — mis-lemma",
-  "nl": "varken; hier ὑός = υἱός 'zoon' (Poros, zoon van Metis, 203b)"
+  "en": "pig, swine; in Symp.: ὑός = υἱός, son (Poros son of Metis)",
+  "nl": "varken; in Symp.: ὑός = υἱός, zoon (Poros, zoon van Metis)"
  },
  "Ὑπολύω": {
   "en": "to take off (someone's) sandals, unshoe (order to slaves, 213b)",
@@ -11196,8 +11196,8 @@
   "nl": "redenaar"
  },
  "ῥητός": {
-  "en": "stated, specified; ἐπὶ ῥητοῖς on set terms (213a)",
-  "nl": "uitdrukkelijk bepaald; (ἐπὶ ῥητοῖς) op vaste voorwaarden"
+  "en": "stated, that may be spoken; ἐπὶ ῥητοῖς on set terms",
+  "nl": "uitgesproken, zegbaar; ἐπὶ ῥητοῖς op vaste voorwaarden"
  },
  "ῥυθμός": {
   "en": "rhythm, measured motion (in music, 187)",
@@ -11224,8 +11224,8 @@
   "nl": "Theophrastus, filosoof, opvolger van Aristoteles"
  },
  "Καρνοῦντος": {
-  "en": "Carnuntum, Roman camp on the Danube (mis-lemma; place name Καρνοῦς/Carnuntum)",
-  "nl": "Carnuntum, Romeins legerkamp aan de Donau (mislemma; plaatsnaam)"
+  "en": "Carnuntum, Roman camp on the Danube",
+  "nl": "Carnuntum, Romeins legerkamp aan de Donau"
  },
  "Κυνικός": {
   "en": "Cynic, of the Cynic school (Monimus the Cynic)",
@@ -11236,8 +11236,8 @@
   "nl": "Milo van Croton, beroemde worstelaar-atleet"
  },
  "Μόνιμος": {
-  "en": "Monimus, Cynic philosopher",
-  "nl": "Monimus, cynisch filosoof"
+  "en": "Monimus, Cynic philosopher; in Symposium: lasting, stable (μόνιμος)",
+  "nl": "Monimos, cynisch filosoof; in Symposium: blijvend, bestendig (μόνιμος)"
  },
  "Πλάτων": {
   "en": "Plato, the philosopher",
@@ -11288,8 +11288,8 @@
   "nl": "smakeloze protserigheid (overmaat van grootsheid)"
  },
  "βλάψω": {
-  "en": "harm, injure (mis-lemma; fut. part. of βλάπτω)",
-  "nl": "schaden, benadelen (mislemma; fut. part. van βλάπτω)"
+  "en": "harm, injure (βλάπτω)",
+  "nl": "schaden, benadelen (βλάπτω)"
  },
  "βλαβερός": {
   "en": "harmful, hurtful",
@@ -11372,8 +11372,8 @@
   "nl": "ontbinding, uiteenvallen (in elementen)"
  },
  "διαβεβοέω": {
-  "en": "noised abroad, celebrated (mis-lemma; perf. of διαβοάω)",
-  "nl": "alom rondgebazuind, befaamd (mislemma; perf. van διαβοάω)"
+  "en": "noised abroad, celebrated (perfect of διαβοάω)",
+  "nl": "alom rondgebazuind, befaamd (perfectum van διαβοάω)"
  },
  "διαγραφή": {
   "en": "outline, diagram, table (of virtues and vices)",
@@ -11384,8 +11384,8 @@
   "nl": "deelbaar"
  },
  "διακέω": {
-  "en": "be disposed, be in a state (mis-lemma; from διάκειμαι)",
-  "nl": "gesteld zijn, in een toestand verkeren (mislemma; van διάκειμαι)"
+  "en": "be disposed, be in a state (διάκειμαι)",
+  "nl": "gesteld zijn, in een toestand verkeren (διάκειμαι)"
  },
  "διακρίνω": {
   "en": "distinguish, discern, judge; pass. doubt, waver",
@@ -11428,16 +11428,16 @@
   "nl": "onafgebroken; adv. voortdurend, onophoudelijk"
  },
  "διηνύζω": {
-  "en": "complete, accomplish (mis-lemma; perf. of διανύω)",
-  "nl": "voltooien, volbrengen (mislemma; perf. van διανύω)"
+  "en": "complete, accomplish (perfect of διανύω)",
+  "nl": "voltooien, volbrengen (perfectum van διανύω)"
  },
  "δικαιότης": {
   "en": "justice, righteousness (= δικαιοσύνη)",
   "nl": "rechtvaardigheid (= δικαιοσύνη)"
  },
  "διοικέω": {
-  "en": "govern, administer, order (of cosmic governance)",
-  "nl": "besturen, ordenen (van het wereldbestuur)"
+  "en": "manage, administer; govern (the universe)",
+  "nl": "beheren, besturen; (het heelal) besturen"
  },
  "διορίζω": {
   "en": "define, determine, mark off",
@@ -11496,12 +11496,12 @@
   "nl": "zelfkleinerende ironie, geveinsde bescheidenheid"
  },
  "εἱμίαρω": {
-  "en": "fated, destined (mis-lemma; εἱμαρμένον from εἵμαρται, fate)",
-  "nl": "door het lot beschikt (mislemma; εἱμαρμένον van εἵμαρται, het lot)"
+  "en": "what is fated, destiny (εἱμαρμένη)",
+  "nl": "wat door het lot beschikt is, het lot"
  },
  "εἴρων": {
   "en": "self-deprecator, ironical understater",
-  "nl": "zelfkleinereerder, ironische onderdrijver"
+  "nl": "iemand die zichzelf kleineert, ironische onderdrijver"
  },
  "εὐδοξία": {
   "en": "good repute, fame",
@@ -11600,8 +11600,8 @@
   "nl": "ziek zijn (de zieken); zich afmatten"
  },
  "κέμνω": {
-  "en": "be weary, worn out (mis-lemma for κάμνω; perf. part. κεκμηκότες)",
-  "nl": "moe zijn, uitgeput zijn (foutief lemma voor κάμνω)"
+  "en": "be weary, worn out (κάμνω)",
+  "nl": "moe zijn, uitgeput zijn (κάμνω)"
  },
  "κίνημα": {
   "en": "movement, motion (of the soul)",
@@ -11624,8 +11624,8 @@
   "nl": "tijd, seizoen, bestemde tijd; juiste moment"
  },
  "κακοδαιμονάω": {
-  "en": "be unhappy, ill-fated (variant lemma of κακοδαιμονέω)",
-  "nl": "ongelukkig zijn, rampzalig zijn (variant van κακοδαιμονέω)"
+  "en": "be unhappy, wretched",
+  "nl": "ongelukkig zijn, rampzalig zijn"
  },
  "κακοδαιμονέω": {
   "en": "be unhappy, wretched",
@@ -11672,8 +11672,8 @@
   "nl": "oordeel, beslissing"
  },
  "κροκύφω": {
-  "en": "woven web, network (mis-lemma for noun κροκύφαντος, Med. 2.2)",
-  "nl": "weefsel, netwerk (foutief lemma voor κροκύφαντος)"
+  "en": "woven web, network",
+  "nl": "weefsel, netwerk"
  },
  "κυβερνητικός": {
   "en": "of steersmanship; (fem. as noun) art of navigation",
@@ -11692,8 +11692,8 @@
   "nl": "straf, tuchtiging"
  },
  "λελ́ηθα": {
-  "en": "escape notice, be hidden (perf. of λανθάνω; mis-lemma)",
-  "nl": "onopgemerkt blijven (perfectum van λανθάνω; foutief lemma)"
+  "en": "escape notice, be hidden (perfect of λανθάνω)",
+  "nl": "onopgemerkt blijven (perfectum van λανθάνω)"
  },
  "λευκός": {
   "en": "white",
@@ -11716,16 +11716,16 @@
   "nl": "geronnen bloed, bloederig vuil"
  },
  "λύσις": {
-  "en": "release, dissolution (death as loosing of the elements)",
-  "nl": "ontbinding, losmaking (de dood als ontbinding)"
+  "en": "release, deliverance; dissolution (death)",
+  "nl": "verlossing, bevrijding; ontbinding (de dood)"
  },
  "λῆψις": {
   "en": "taking, getting (of money, opp. giving)",
   "nl": "het nemen, ontvangen (van geld, tgov. geven)"
  },
  "μέση": {
-  "en": "middle, intermediate (forms of adj. μέσος; mean amount)",
-  "nl": "midden-, tussenliggend (vormen van μέσος)"
+  "en": "middle, intermediate; the mean",
+  "nl": "midden-, tussenliggend; het midden"
  },
  "μέτοχος": {
   "en": "partner, companion; sharing in (+ gen.)",
@@ -11832,8 +11832,8 @@
   "nl": "bouwer, bouwmeester"
  },
  "πάλα": {
-  "en": "wrestling (mis-lemma for πάλη)",
-  "nl": "het worstelen (foutief lemma voor πάλη)"
+  "en": "wrestling",
+  "nl": "het worstelen"
  },
  "πέλας": {
   "en": "near; ὁ πέλας: one's neighbour, fellow man",
@@ -11904,7 +11904,7 @@
   "nl": "omgeven, omvatten; (van verbazing) aangrijpen"
  },
  "περιβαλέω": {
-  "en": "involve in, wrap in (fut. of περιβάλλω; mis-lemma)",
+  "en": "involve in, wrap in (future of περιβάλλω)",
   "nl": "verwikkelen in, omhullen met (futurum van περιβάλλω)"
  },
  "περιπίπτω": {
@@ -11948,8 +11948,8 @@
   "nl": "behalve, alleen dat; maar"
  },
  "πνευμάτιος": {
-  "en": "little breath, feeble life-breath (mis-lemma for dim. noun πνευμάτιον)",
-  "nl": "ademtochtje, zwakke levensadem (foutief lemma voor πνευμάτιον)"
+  "en": "little breath, feeble life-breath",
+  "nl": "ademtochtje, zwakke levensadem"
  },
  "πνεῦμα": {
   "en": "spirit, Spirit (Holy Spirit); breath, wind; (unclean) spirit",
@@ -11996,8 +11996,8 @@
   "nl": "oud, eerbiedwaardig; superl. oudste, eerbiedwaardigste"
  },
  "προέδω": {
-  "en": "foresee, make provision for (mis-lemma of προοράω; aor. mid. προείδοντο)",
-  "nl": "voorzien, vooraf zorgen voor (mislemma van προοράω)"
+  "en": "foresee, provide against (προοράω)",
+  "nl": "voorzien, vooraf zorgen voor (προοράω)"
  },
  "προαίρεσις": {
   "en": "choice, deliberate choice (Aristotelian technical term)",
@@ -12040,8 +12040,8 @@
   "nl": "weggeven, uitgeven (van geld), tgov. nemen"
  },
  "πρόνοια": {
-  "en": "providence (Stoic: divine forethought)",
-  "nl": "voorzienigheid (Stoïsch: goddelijke voorzorg)"
+  "en": "foresight, forethought; (Stoic) providence",
+  "nl": "voorzorg, vooruitziendheid; (Stoïsch) voorzienigheid"
  },
  "πρᾶος": {
   "en": "gentle, mild; tame (of animals); good-tempered (mean concerning anger)",
@@ -12060,8 +12060,8 @@
   "nl": "vuur"
  },
  "ριγεγραμ́ω": {
-  "en": "garbled lemma of περιγράφω: circumscribe, set bounds to (pf. part.)",
-  "nl": "verminkt lemma van περιγράφω: begrenzen, afbakenen"
+  "en": "circumscribe, set bounds to (περιγράφω)",
+  "nl": "begrenzen, afbakenen (περιγράφω)"
  },
  "σάρκιον": {
   "en": "poor bit of flesh (contemptuous dim. of σάρξ)",
@@ -12108,8 +12108,8 @@
   "nl": "beroven van; pass. beroofd worden van, verliezen"
  },
  "στερείκνυμι": {
-  "en": "mis-lemma of στερίσκω: deprive; pass. be deprived of",
-  "nl": "mislemma van στερίσκω: beroven; pass. beroofd worden"
+  "en": "deprive; (pass.) be deprived of (στερίσκω)",
+  "nl": "beroven; (pass.) beroofd worden (στερίσκω)"
  },
  "στιγμή": {
   "en": "point; a moment, an instant (of time)",
@@ -12140,8 +12140,8 @@
   "nl": "grijpen, gevangennemen; zwanger worden; med. helpen"
  },
  "συμμεμοιράω": {
-  "en": "mis-lemma of συμμοιράομαι: be blended, apportioned together with",
-  "nl": "mislemma van συμμοιράομαι: mee toebedeeld, vermengd zijn"
+  "en": "be allotted together, assigned as one's share (συμμοιράομαι)",
+  "nl": "mee toebedeeld worden, als deel toegewezen (συμμοιράομαι)"
  },
  "συμφωνέω": {
   "en": "agree, be in harmony with",
@@ -12172,8 +12172,8 @@
   "nl": "ontmoeten, tegenkomen (fut. van συντυγχάνω)"
  },
  "συντρέφω": {
-  "en": "pf. pass. be bred up with, grow up together with",
-  "nl": "pf. pass. mee opgroeien, van jongs af vertrouwd zijn met"
+  "en": "rear together; (pass.) grow up with, be bred into",
+  "nl": "samen opvoeden; (pass.) mee opgroeien met"
  },
  "συστολή": {
   "en": "contraction, shrinking (Stoic: the affect of pain)",
@@ -12184,8 +12184,8 @@
   "nl": "hevig; adv. σφοδρῶς heftig, intens"
  },
  "σχολή": {
-  "en": "leisure, free time; ease",
-  "nl": "vrije tijd, rust"
+  "en": "leisure, free time, ease; σχολῇ: hardly, scarcely",
+  "nl": "vrije tijd, rust; σχολῇ: nauwelijks, allerminst"
  },
  "σωματικός": {
   "en": "bodily, of the body, in bodily form",
@@ -12212,12 +12212,12 @@
   "nl": "vierde"
  },
  "τεθνήξω": {
-  "en": "fut. pf. of θνῄσκω: be about to be dead (τεθνηξόμενος)",
-  "nl": "fut. pf. van θνῄσκω: weldra dood zijn"
+  "en": "be dead (future perfect of θνῄσκω)",
+  "nl": "dood zijn (futurum exactum van θνῄσκω)"
  },
  "τεκμαρσις": {
-  "en": "= τέκμαρσις: inference from signs, conjecture",
-  "nl": "= τέκμαρσις: gevolgtrekking uit tekens, gissing"
+  "en": "inference from signs, conjecture",
+  "nl": "gevolgtrekking uit tekens, gissing"
  },
  "τεχνίτης": {
   "en": "craftsman, skilled expert",
@@ -12396,8 +12396,8 @@
   "nl": "vaag, zwak, onduidelijk"
  },
  "ἀνάληθος": {
-  "en": "(adv.) untruthfully, insincerely — lemma for ἀναληθής 'untrue'",
-  "nl": "onwaarachtig, onoprecht (lemma voor ἀναληθής)"
+  "en": "untruthfully, insincerely",
+  "nl": "onwaarachtig, onoprecht"
  },
  "ἀνάλογος": {
   "en": "proportional, analogous; τὸ ἀνάλογον proportion",
@@ -12416,8 +12416,8 @@
   "nl": "ongevoelig (voor genot), afgestompt"
  },
  "ἀναγκάζομῳ": {
-  "en": "compel, force — mis-lemma for ἀναγκάζω (pf. part. ἠναγκασμένῳ)",
-  "nl": "dwingen; gedwongen (lemma voor ἀναγκάζω)"
+  "en": "compel, force (ἀναγκάζω)",
+  "nl": "dwingen (ἀναγκάζω)"
  },
  "ἀναισθησία": {
   "en": "insensibility (deficiency regarding pleasures)",
@@ -12440,8 +12440,8 @@
   "nl": "betrekking, gerichtheid op een doel"
  },
  "ἀνδρεῖα": {
-  "en": "courage; τὰ ἀνδρεῖα brave acts (lemma for ἀνδρεία)",
-  "nl": "moed; dappere daden (lemma voor ἀνδρεία)"
+  "en": "courage; in NE II: τὰ ἀνδρεῖα = brave acts (ἀνδρεῖος)",
+  "nl": "moed, dapperheid; in NE II: τὰ ἀνδρεῖα = dappere daden (ἀνδρεῖος)"
  },
  "ἀνδροφονία": {
   "en": "homicide, murder",
@@ -12508,8 +12508,8 @@
   "nl": "vrijheid van hartstocht, onaangedaanheid"
  },
  "ἀπέχθομαι": {
-  "en": "hate, feel aversion — lemma for ἀπεχθάνομαι",
-  "nl": "haten, afkeer voelen (lemma voor ἀπεχθάνομαι)"
+  "en": "hate, feel aversion to",
+  "nl": "haten, afkeer voelen van"
  },
  "ἀπαιθριάζω": {
   "en": "clear the sky, dispel clouds (fig. clear the mind)",
@@ -12572,8 +12572,8 @@
   "nl": "zich terugtrekken, weggaan van"
  },
  "ἀπροαίρετος": {
-  "en": "(adv.) without deliberate choice",
-  "nl": "(bijw.) zonder bewuste keuze"
+  "en": "without deliberate choice, unpremeditated",
+  "nl": "zonder bewuste keuze, onopzettelijk"
  },
  "ἀπόρροια": {
   "en": "effluence, emanation (of the divine)",
@@ -12624,12 +12624,12 @@
   "nl": "wegtrekken, wegslepen"
  },
  "ἀφέλλυμι": {
-  "en": "take away, deprive — mis-lemma for ἀφαιρέω (aor. opt. ἀφέλοιτο)",
-  "nl": "afnemen, ontnemen (lemma voor ἀφαιρέω)"
+  "en": "take away, deprive (ἀφαιρέω)",
+  "nl": "afnemen, ontnemen (ἀφαιρέω)"
  },
  "ἀφίζομαι": {
-  "en": "let go, give up, abandon — mis-lemma for ἀφίημι (subj. ἀφιῇ)",
-  "nl": "loslaten, opgeven (lemma voor ἀφίημι)"
+  "en": "let go, direct (an impulse) (ἀφίημι)",
+  "nl": "loslaten, (een impuls) richten (ἀφίημι)"
  },
  "ἀφανής": {
   "en": "unseen, invisible, obscure",
@@ -12708,8 +12708,8 @@
   "nl": "vleierig, overdreven inschikkelijk"
  },
  "ἄσθομαι": {
-  "en": "perceive, notice — mis-lemma for αἰσθάνομαι (part. αἰσθομένου)",
-  "nl": "waarnemen, bemerken (lemma voor αἰσθάνομαι)"
+  "en": "perceive, notice (αἰσθάνομαι)",
+  "nl": "waarnemen, bemerken (αἰσθάνομαι)"
  },
  "ἄσωτος": {
   "en": "prodigal, wasteful; a spendthrift",
@@ -12720,8 +12720,8 @@
   "nl": "dichterbij, nader"
  },
  "ἐγχρώζομαι": {
-  "en": "be ingrained, dyed in — for ἐγχρῴζω (pf. part. ἐγκεχρωσμένον)",
-  "nl": "ingeworteld, doordrongen zijn (voor ἐγχρῴζω)"
+  "en": "be ingrained, dyed in (pf. part. ἐγκεχρωσμένον)",
+  "nl": "ingeworteld, doordrongen zijn"
  },
  "ἐθίζω": {
   "en": "accustom, habituate; (pass.) become habituated",
@@ -12740,7 +12740,7 @@
   "nl": "vrijgevig, gul"
  },
  "ἐλευθερία": {
-  "en": "freedom, independence (of the good man's spirit)",
+  "en": "freedom, independence",
   "nl": "vrijheid, onafhankelijkheid"
  },
  "ἐλευθεριότης": {
@@ -12796,8 +12796,8 @@
   "nl": "prijzenswaardig, lofwaardig"
  },
  "ἐπιγίγνομαι": {
-  "en": "supervene, arise in addition (of pleasure on activity)",
-  "nl": "erbij ontstaan, erop volgen"
+  "en": "follow, come after, supervene; come upon (of death)",
+  "nl": "erop volgen, erbij ontstaan; overkomen (van de dood)"
  },
  "ἐπιδέχομαι": {
   "en": "admit of, be susceptible to (a mean)",
@@ -12872,8 +12872,8 @@
   "nl": "zich aan de verbeelding voordoen, verschijnen"
  },
  "ἔνερθε": {
-  "en": "beneath, from below (νέρθεν, in poetic quotation)",
-  "nl": "beneden, van onderen (in dichtcitaat)"
+  "en": "beneath, below; in the underworld",
+  "nl": "beneden, onder; in de onderwereld"
  },
  "ἔννοια": {
   "en": "notion, conception, thought",
@@ -12984,8 +12984,8 @@
   "nl": "nut, baat, voordeel"
  },
  "ὅρος": {
-  "en": "limit, boundary; fixed term (of time set for you)",
-  "nl": "grens, vastgestelde termijn"
+  "en": "limit, boundary, term; in Il. 1 οὖρον: fair wind (οὖρος)",
+  "nl": "grens, termijn; in Il. 1 οὖρον: gunstige wind (οὖρος)"
  },
  "ὑπειδόμην": {
   "en": "look askance at, view with suspicion (aor. of ὑφοράομαι)",
@@ -13000,8 +13000,8 @@
   "nl": "overtocht (over het gebergte), pas; overmaat, exces"
  },
  "ὑπιδίημι": {
-  "en": "be wary of, suspect (mis-lemma: ὑπίδηται, aor. subj. of ὑφοράομαι)",
-  "nl": "wantrouwen, argwanend bezien (foutieve lemmatisering van ὑφοράομαι)"
+  "en": "be wary of, view with suspicion (ὑφοράομαι)",
+  "nl": "wantrouwen, argwanend bezien (ὑφοράομαι)"
  },
  "ὑποκρίνω": {
   "en": "(mid.) play a part, act a role, feign",
@@ -13340,8 +13340,8 @@
   "nl": "Λέσβος, Lesbos"
  },
  "Λέων": {
-  "en": "λέων, λέων, lion",
-  "nl": "λέων, λέων, leeuw"
+  "en": "Leon: Spartan king (Hdt.); Leon of Salamis (Apol.); λέων: lion",
+  "nl": "Leon: Spartaanse koning (Hdt.); Leon van Salamis (Apol.); λέων: leeuw"
  },
  "Λαβώτης": {
   "en": "proper name: Λαβώτης",
@@ -13372,8 +13372,8 @@
   "nl": "Λυσίας, Lysias"
  },
  "Λύκειος": {
-  "en": "λύκειος, of or belonging to a wolf; epithet of Apollo, Artemis",
-  "nl": "λύκειος, van of behorend tot een wolf; bijnaam van Apollo, Artemis"
+  "en": "Lycean, of Apollo Lykeios; in Symp.: the Lyceum (Λύκειον), Athenian gymnasium",
+  "nl": "Lykeïsch, van Apollo Lykeios; in Symp.: het Lyceum (Λύκειον), gymnasium in Athene"
  },
  "Λύσανδρος": {
   "en": "Λύσανδρος, Lysander",
@@ -13488,8 +13488,8 @@
   "nl": "Πέρινθος, Perinthus"
  },
  "Πέρσης": {
-  "en": "a Persian; Perses (pers. name)",
-  "nl": "Pers; Perses (eigennaam)"
+  "en": "a Persian; Perses (name); in OT: πέρσαι = sack (πέρθω)",
+  "nl": "Pers; Perses (naam); in OT: πέρσαι = verwoesten (πέρθω)"
  },
  "Παντακλῆς": {
   "en": "proper name: Παντακλῆς",
@@ -14032,8 +14032,8 @@
   "nl": "stenigen, doodstenigen"
  },
  "καταπέμπω": {
-  "en": "send down (from the interior to the coast); send down",
-  "nl": "(van het binnenland naar de kust) zenden; neerzenden"
+  "en": "send down (from the interior to the coast), dispatch",
+  "nl": "(van het binnenland naar de kust) zenden, neerzenden"
  },
  "καταπλέω": {
   "en": "sail down, sail to land, put in",
@@ -14112,7 +14112,7 @@
   "nl": "grootte, omvang, grootsheid"
  },
  "μαχέομαι": {
-  "en": "to fight; wage war",
+  "en": "fight; wage war",
   "nl": "vechten; oorlog voeren"
  },
  "μείς": {
@@ -14852,8 +14852,8 @@
   "nl": "ἀνεψιός, een neef, neef (m.)"
  },
  "ἀντίον": {
-  "en": "(ἐκ τοῦ ἀντίου) from the opposite side, from the front",
-  "nl": "(ἐκ τοῦ ἀντίου) van de overkant, van voren"
+  "en": "opposite, facing, against (+ gen.); in reply",
+  "nl": "tegenover, tegen (+ gen.); als antwoord"
  },
  "ἀντανάγω": {
   "en": "ἀντανάγω, to lead up against",
@@ -15044,8 +15044,8 @@
   "nl": "Ἀρίσταρχος, Aristarchus"
  },
  "Ἀρίστων": {
-  "en": "ἄριστος, ἄριστος, best, bravest, excellent",
-  "nl": "ἄριστος, ἄριστος, beste, dapperste, uitstekend"
+  "en": "Ariston, father of Demaratus (Hdt.) and of Plato (Apol.)",
+  "nl": "Ariston, vader van Demaratos (Hdt.) en van Plato (Apol.)"
  },
  "Ἀργινοῦσαι": {
   "en": "Ἀργινοῦσαι, Arginusae",
@@ -15096,8 +15096,8 @@
   "nl": "Abydos: stad aan de Aziatische kust van de Hellespont"
  },
  "Ἄγις": {
-  "en": "Ἆγις, Agis",
-  "nl": "Ἆγις, Agis"
+  "en": "Agis, early Spartan king, ancestor of Leonidas",
+  "nl": "Agis, vroege Spartaanse koning, voorvader van Leonidas"
  },
  "Ἄνδριος": {
   "en": "Ἄνδριος, of Andros",
@@ -15436,8 +15436,8 @@
   "nl": "ruiter, cavalerist; mv. ruiterij"
  },
  "ἱστίον": {
-  "en": "sail; web (on the loom)",
-  "nl": "zeil; weefsel (op het weefgetouw)"
+  "en": "sail",
+  "nl": "zeil"
  },
  "Ἱμέρα": {
   "en": "Ἱμέρας, Himera",
@@ -23360,8 +23360,8 @@
   "nl": "het prytaneion, waar geëerde burgers op staatskosten aten"
  },
  "πρόσκειμαι": {
-  "en": "be attached to, be set upon",
-  "nl": "bevestigd zijn aan, vastzitten aan"
+  "en": "be attached to, be set upon; be added (as reward)",
+  "nl": "bevestigd zijn aan, gehecht zijn aan; erbij komen (als beloning)"
  },
  "πρόσοιδα": {
   "en": "owe (thanks) besides; χάριν προσειδέναι be grateful as well",
@@ -23424,8 +23424,8 @@
   "nl": "durf, stoutmoedigheid, brutaliteit"
  },
  "τᾶν": {
-  "en": "my good friend (ὦ τᾶν, familiar address)",
-  "nl": "beste vriend (ὦ τᾶν, familiaire aanspreking)"
+  "en": "(ὦ τᾶν) my good friend; in OT: Doric article (= τῶν, τήν)",
+  "nl": "(ὦ τᾶν) beste vriend; in OT: Dorisch lidwoord (= τῶν, τήν)"
  },
  "φείδομαι": {
   "en": "spare (+ gen.)",
@@ -23468,8 +23468,8 @@
   "nl": "orakelzanger, waarzegger"
  },
  "ἀγών": {
-  "en": "contest, struggle; great concern",
-  "nl": "wedstrijd, strijd; grote zorg"
+  "en": "contest, struggle; lawsuit, trial",
+  "nl": "wedstrijd, strijd; proces, rechtszaak"
  },
  "ἀδίκημα": {
   "en": "wrong, offence, crime",
@@ -23552,8 +23552,8 @@
   "nl": "goddeloos, onheilig"
  },
  "ἀξία": {
-  "en": "worth, desert; κατὰ τὴν ἀξίαν as deserved",
-  "nl": "waarde, verdienste; κατὰ τὴν ἀξίαν naar verdienste"
+  "en": "worth, desert; κατὰ τὴν ἀξίαν as deserved; in OT: worthy (ἄξιος)",
+  "nl": "waarde, verdienste; naar verdienste; in OT: waardig (ἄξιος)"
  },
  "ἀξιόχρεως": {
   "en": "reliable, trustworthy, sufficient",
@@ -23997,15 +23997,15 @@
  },
  "Μελάμπυγος": {
   "en": "Black-Bottom, nickname of Heracles (rock at Thermopylae)",
-  "nl": "Zwartgat, bijnaam van Herakles (rots bij Thermopylae)"
+  "nl": "Zwartbil, bijnaam van Herakles (rots bij Thermopylae)"
  },
  "Μηδίζω": {
   "en": "side with the Medes/Persians, collaborate",
   "nl": "de kant van de Meden/Perzen kiezen, collaboreren"
  },
  "Μηδίς": {
-  "en": "Median, Persian (fem.)",
-  "nl": "Medisch, Perzisch (vrouwelijk)"
+  "en": "Median (fem.); a Median woman",
+  "nl": "Medisch (vr.); Medische vrouw"
  },
  "Μηδικός": {
   "en": "Median, Persian",
@@ -24025,7 +24025,7 @@
  },
  "Ξέρξης": {
   "en": "Xerxes, king of Persia, invader of Greece",
-  "nl": "Xerxes, koning van Perzië, veroveraar van Griekenland"
+  "nl": "Xerxes, koning van Perzië, die Griekenland binnenviel"
  },
  "Παντίτης": {
   "en": "Pantites, Spartan survivor who hanged himself in shame",
@@ -24052,8 +24052,8 @@
   "nl": "Plataeër, uit Plataiai"
  },
  "Πολύδωρος": {
-  "en": "Polydorus, Spartan king, ancestor of Leonidas",
-  "nl": "Polydoros, Spartaanse koning, voorvader van Leonidas"
+  "en": "Polydorus: son of Cadmus (OT); Spartan king, forebear of Leonidas (Hdt.)",
+  "nl": "Polydoros: zoon van Kadmos (OT); Spartaanse koning, voorvader van Leonidas (Hdt.)"
  },
  "Πυλαία": {
   "en": "Pylaea, Amphictyonic assembly at Thermopylae",
@@ -24160,8 +24160,8 @@
   "nl": "een tiende afnemen, een tiende wijden (aan een god)"
  },
  "δευτεραῖος": {
-  "en": "on the second day",
-  "nl": "op de tweede dag"
+  "en": "on the second day; in Hdt.: second prize, second place (δευτερεῖα)",
+  "nl": "op de tweede dag; bij Hdt.: tweede prijs, tweede plaats"
  },
  "διέξειμι": {
   "en": "go through; relate in full",
@@ -24296,16 +24296,16 @@
   "nl": "neerwerpen, neervellen"
  },
  "καταγοράομαι": {
-  "en": "mis-lemma for κατηγορέω: accuse (κατηγόρητο, \"had been accused\")",
-  "nl": "fout lemma voor κατηγορέω: beschuldigen (\"was beschuldigd\")"
+  "en": "accuse, charge (κατηγόρητο: had been accused)",
+  "nl": "beschuldigen (κατηγόρητο: was beschuldigd)"
  },
  "καταδέχομαι": {
-  "en": "(of the path) be discovered; receive, admit",
-  "nl": "(van het pad) ontdekt worden; ontvangen, toelaten"
+  "en": "receive, admit; in Hdt. κατεδέδεκτο: had been shown, revealed (καταδείκνυμι)",
+  "nl": "ontvangen, toelaten; in Hdt. κατεδέδεκτο: was getoond, onthuld (καταδείκνυμι)"
  },
  "κατακοιμάω": {
-  "en": "(pass.) fall asleep, go to sleep",
-  "nl": "(passief) inslapen, gaan slapen"
+  "en": "lull to sleep, put to rest; (pass.) fall asleep",
+  "nl": "in slaap brengen, sussen; (pass.) inslapen"
  },
  "καταμένω": {
   "en": "stay behind, remain",
@@ -24376,8 +24376,8 @@
   "nl": "kammen (het haar)"
  },
  "κυρέω": {
-  "en": "obtain, happen upon, have (+ gen.)",
-  "nl": "verkrijgen, treffen, hebben (+ gen.)"
+  "en": "happen upon, obtain, have (+ gen.); happen to be (+ part.)",
+  "nl": "treffen, verkrijgen, hebben (+ gen.); toevallig zijn (+ deelw.)"
  },
  "κόμη": {
   "en": "hair (of the head)",
@@ -24428,8 +24428,8 @@
   "nl": "Ionisch voor μόνος: alleen, enig"
  },
  "νέμω": {
-  "en": "assign, award (Solon awards 2nd place)",
-  "nl": "toekennen, toewijzen (Solon kent de 2de plaats toe)"
+  "en": "deal out, assign; hold, wield (power); graze (flocks)",
+  "nl": "toedelen, toekennen; bezitten, uitoefenen (macht); weiden"
  },
  "νέφος": {
   "en": "cloud",
@@ -24476,8 +24476,8 @@
   "nl": "gekletter, lawaai"
  },
  "παλιλλογέω": {
-  "en": "repeat, recapitulate (Ionic παλιλλογίη)",
-  "nl": "herhalen, samenvatten"
+  "en": "repeat, recount again, recapitulate",
+  "nl": "herhalen, opnieuw vertellen"
  },
  "πανήγυρις": {
   "en": "festival, festal assembly",
@@ -24516,8 +24516,8 @@
   "nl": "laten voorbijgaan (dagen)"
  },
  "περ": {
-  "en": "enclitic: very, just, even; though (τῇ περ = just where)",
-  "nl": "enclitisch: juist, precies; hoewel (τῇ περ = juist waar)"
+  "en": "(enclitic) very, just, even; though (τῇ περ = just where)",
+  "nl": "(enclitisch) juist, zelfs; hoewel (τῇ περ = juist waar)"
  },
  "περίοδος": {
   "en": "way round, circuit; detour",
@@ -24532,8 +24532,8 @@
   "nl": "(τὰ) de buitenste randen"
  },
  "περιίστημι": {
-  "en": "(intr.) come round, turn out; stand around",
-  "nl": "(onovergankelijk) uitdraaien op; rondom staan"
+  "en": "stand around; (intr.) come round, turn out",
+  "nl": "rondom staan; uitdraaien op"
  },
  "περιηγέομαι": {
   "en": "lead round, guide round",
@@ -24576,8 +24576,8 @@
   "nl": "in de steek laten, verlaten"
  },
  "προμήθεια": {
-  "en": "foresight, forethought",
-  "nl": "vooruitziendheid, voorzorg"
+  "en": "forethought; consideration, respect (ἐν προμηθίῃ ἔχειν)",
+  "nl": "voorzorg; zorg, achting"
  },
  "προσδόκιμος": {
   "en": "expected, looked for",
@@ -24612,8 +24612,8 @@
   "nl": "met wortel en tak"
  },
  "πρόσοδος": {
-  "en": "revenue, income; approach, advance",
-  "nl": "inkomsten, opbrengst; nadering, opmars"
+  "en": "approach, onset, attack; revenue, income",
+  "nl": "nadering, aanval; inkomsten, opbrengst"
  },
  "σιγή": {
   "en": "silence",
@@ -24648,8 +24648,8 @@
   "nl": "haten, verafschuwen"
  },
  "στόλος": {
-  "en": "expedition, armament",
-  "nl": "expeditie, legermacht"
+  "en": "expedition, armament; company, host of people",
+  "nl": "expeditie, legermacht; gezelschap, volk"
  },
  "συγχώννυμι": {
   "en": "heap together; bury, overwhelm",
@@ -24752,8 +24752,8 @@
   "nl": "orakel; orakelspreuk"
  },
  "χρηστήριος": {
-  "en": "oracular, prophetic",
-  "nl": "orakel-, profetisch"
+  "en": "oracular; (τὸ χρηστήριον) oracle, oracular response",
+  "nl": "orakel-; (τὸ χρηστήριον) orakel, orakelspreuk"
  },
  "χρηστηριάζω": {
   "en": "consult an oracle",
@@ -24888,8 +24888,8 @@
   "nl": "zonder moeite, moeiteloos"
  },
  "ἀπόπεμψις": {
-  "en": "mis-lemma: ἀποπέμψεις is fut. of ἀποπέμπω, \"you will send off\"",
-  "nl": "fout lemma: ἀποπέμψεις is toek. van ἀποπέμπω, \"je zult wegsturen\""
+  "en": "sending away, dismissal; in Hdt. ἀποπέμψεις: you will send off (ἀποπέμπω)",
+  "nl": "wegzending, ontslag; in Hdt. ἀποπέμψεις: je zult wegsturen (ἀποπέμπω)"
  },
  "ἀριστεύω": {
   "en": "be the bravest, win the prize of valour",
@@ -25384,8 +25384,8 @@
   "nl": "Aigaion, zeereus (bij de goden Briareos)"
  },
  "Αἰγείδην": {
-  "en": "son of Aegeus (Theseus); garbled lemma for Αἰγεΐδης",
-  "nl": "zoon van Aigeus (Theseus)"
+  "en": "son of Aegeus, i.e. Theseus",
+  "nl": "zoon van Aigeus, d.w.z. Theseus"
  },
  "Βάκχειος": {
   "en": "Bacchic, of Bacchus (epithet of Dionysus)",
@@ -25432,8 +25432,8 @@
   "nl": "Eurybates, heraut van Agamemnon"
  },
  "Θήβη": {
-  "en": "Thebe, i.e. Thebes, city of Oedipus",
-  "nl": "Thebe, stad van Oidipous"
+  "en": "Thebes, city of Oidipous; in Il. 1: Thebe, Eetion's town near Troy",
+  "nl": "Thebe, stad van Oidipous; in Il. 1: Thebe, stad van Eëtion bij Troje"
  },
  "Θησεύς": {
   "en": "Theseus, Athenian hero, son of Aegeus",
@@ -25512,8 +25512,8 @@
   "nl": "Lemnos, eiland in de noordelijke Egeïsche Zee"
  },
  "Μάγος": {
-  "en": "(common noun μάγος) sorcerer, charlatan, quack",
-  "nl": "(gewoon zn. μάγος) tovenaar, kwakzalver, bedrieger"
+  "en": "sorcerer, charlatan, quack; (Μάγος) Magian, Persian priest",
+  "nl": "tovenaar, kwakzalver, bedrieger; (Μάγος) magiër, Perzisch priester"
  },
  "Μενοιτιάδης": {
   "en": "son of Menoetius, Patroclus",
@@ -25640,8 +25640,8 @@
   "nl": "strop, hangend touw; schommel"
  },
  "αἱματόω": {
-  "en": "to make bloody; (here really adj. αἱματοῦς, bloody)",
-  "nl": "bebloeden; (hier eigenlijk bn. αἱματοῦς, bloedig)"
+  "en": "make bloody; in OT: bloody (αἱματοῦς)",
+  "nl": "bebloeden; in OT: bloedig (αἱματοῦς)"
  },
  "αἴγλη": {
   "en": "gleam, radiance; (pl.) torches, flashing lights",
@@ -25840,8 +25840,8 @@
   "nl": "dubbelgevouwen, in twee lagen"
  },
  "δαίτης": {
-  "en": "feast, meal (δαὶς ἐΐση: equal share of the feast); lemma for δαίς",
-  "nl": "maal, feestmaal (δαὶς ἐΐση: gelijk deel van het maal)"
+  "en": "banqueter; in Il. 1 δαιτός: feast, meal (δαίς)",
+  "nl": "disgenoot; in Il. 1 δαιτός: feestmaal, maaltijd (δαίς)"
  },
  "δακρυρροέω": {
   "en": "to shed tears, weep",
@@ -25932,7 +25932,7 @@
   "nl": "door Zeus geboren, van goddelijke afkomst"
  },
  "διπλός": {
-  "en": "double, twofold; (here) two flocks",
+  "en": "double, twofold",
   "nl": "dubbel, tweevoudig"
  },
  "διόλλυμι": {
@@ -26160,8 +26160,8 @@
   "nl": "door de goden gezonden"
  },
  "θείνω": {
-  "en": "(ἔπεφνε, aor. of *φεν-) slay, kill",
-  "nl": "doden, vellen"
+  "en": "strike, beat; in OT ἔπεφνε: slew (aor. of *φεν-)",
+  "nl": "slaan, treffen; in OT ἔπεφνε: doodde (aor. van *φεν-)"
  },
  "θεοείκελος": {
   "en": "godlike, equal to the gods",
@@ -26236,8 +26236,8 @@
   "nl": "tijdig, gelegen; dodelijk"
  },
  "καθέζετο": {
-  "en": "καθέζομαι (lemma as aor. form): sat down, took a seat",
-  "nl": "καθέζομαι: ging zitten, nam plaats"
+  "en": "sit down, take a seat (aor. of καθέζομαι)",
+  "nl": "gaan zitten, plaatsnemen (vorm van καθέζομαι)"
  },
  "καθαρμός": {
   "en": "purification, cleansing (of pollution)",
@@ -26297,7 +26297,7 @@
  },
  "κελαινεφής": {
   "en": "dark-clouded, of the black clouds (epithet of Zeus)",
-  "nl": "met donkere wolken, wolkenverzamelaar (Zeus)"
+  "nl": "met donkere wolken (bijnaam van Zeus)"
  },
  "κελαινός": {
   "en": "black, dark (of blood)",
@@ -26372,8 +26372,8 @@
   "nl": "wettig, echtelijk, getrouwd"
  },
  "κρήγυος": {
-  "en": "good, useful, agreeable (to kregyon: what is good)",
-  "nl": "goed, gunstig, aangenaam"
+  "en": "good, useful, welcome; τὸ κρήγυον: what is good",
+  "nl": "goed, gunstig, aangenaam; τὸ κρήγυον: het goede"
  },
  "κρεμαστός": {
   "en": "hanging, suspended",
@@ -26408,8 +26408,8 @@
   "nl": "gevest, handvat (van een zwaard)"
  },
  "κἀν": {
-  "en": "κἄν (καὶ ἄν/ἐάν): even if, and if",
-  "nl": "zelfs als, en als"
+  "en": "(crasis of καὶ ἄν/ἐάν) even if, and if",
+  "nl": "(crasis van καὶ ἄν/ἐάν) zelfs als, en als"
  },
  "κῦδος": {
   "en": "glory, renown, triumph (esp. given by a god)",
@@ -26424,8 +26424,8 @@
   "nl": "schillen, ontschorsen, afstropen"
  },
  "λήιον": {
-  "en": "mis-lemmatised: Λάϊος, Laius, king of Thebes, father of Oedipus",
-  "nl": "Laios, koning van Thebe, vader van Oidipous"
+  "en": "standing crop, cornfield; in OT: Laius (Λάιος), king of Thebes",
+  "nl": "gewas, graanveld; in OT: Laios (Λάιος), koning van Thebe"
  },
  "λαμπετάω": {
   "en": "blaze, shine, flash",
@@ -26672,8 +26672,8 @@
   "nl": "huwelijk; (mv.) huwelijksbed"
  },
  "ξυνήιος": {
-  "en": "common, shared; ta xyneia: common store",
-  "nl": "gemeenschappelijk; ta xyneia: gezamenlijke voorraad"
+  "en": "common, shared; τὰ ξυνήια: common store",
+  "nl": "gemeenschappelijk; τὰ ξυνήια: gezamenlijke voorraad"
  },
  "οἰκεύς": {
   "en": "house slave, household servant",
@@ -26740,8 +26740,8 @@
   "nl": "zeker niet, voorwaar niet"
  },
  "οὖρος": {
-  "en": "fair wind, favourable breeze",
-  "nl": "gunstige wind, bries"
+  "en": "fair wind; in Herodotus (Ionic = ὅρος): boundary, limit",
+  "nl": "gunstige wind; bij Herodotos (Ionisch = ὅρος): grens"
  },
  "πάγκαρπος": {
   "en": "bearing all fruits; fruitful (of the laurel)",
@@ -26920,16 +26920,16 @@
   "nl": "ellende, leed, onheil"
  },
  "πηρός": {
-  "en": "(= πάρειμι here: παρών 'being present') maimed, disabled",
-  "nl": "(hier = πάρειμι: παρών 'aanwezig') verminkt, invalide"
+  "en": "maimed, disabled; in OT παρών: being present (πάρειμι)",
+  "nl": "verminkt, invalide; in OT παρών: aanwezig (πάρειμι)"
  },
  "πλάνημα": {
   "en": "wandering, straying; error",
   "nl": "dwaling, het afdwalen; vergissing"
  },
  "πλάνης": {
-  "en": "wanderer, roamer; vagrant",
-  "nl": "zwerver, rondtrekker"
+  "en": "wanderer, roamer; in Hdt.: wandering, travels (πλάνη)",
+  "nl": "zwerver; bij Herodotos: omzwerving, reis (πλάνη)"
  },
  "πλάξ": {
   "en": "flat land, plain; upland pasture; tablet, slab",
@@ -27036,8 +27036,8 @@
   "nl": "wegzenden, loslaten; teruggeven, afstaan"
  },
  "προβέβουλα": {
-  "en": "prefer (perfect only): 'I have preferred'",
-  "nl": "verkiezen, de voorkeur geven (alleen perfectum)"
+  "en": "have preferred, prefer (perfect)",
+  "nl": "verkiezen, de voorkeur geven (perfectum)"
  },
  "προδείδω": {
   "en": "fear beforehand, be afraid in advance",
@@ -27220,8 +27220,8 @@
   "nl": "scepterdrager (Perzisch hofdignitaris); scepterdragend (van koningen)"
  },
  "σοί": {
-  "en": "to you, for you (dat. of σύ; elided σ')",
-  "nl": "jou, aan jou (dat. van σύ; geëlideerd σ')"
+  "en": "you (σύ): dat. σοί, to you; elided σ’ = σε, acc. you",
+  "nl": "jij (σύ): dat. σοί, aan jou; geëlideerd σ’ = σε, acc. jou"
  },
  "σπάνις": {
   "en": "scarcity, lack, want",
@@ -27236,8 +27236,8 @@
   "nl": "bedekken, geheimhouden, verzwijgen; afweren"
  },
  "στέλλω": {
-  "en": "mid. send for, summon; act. send, dispatch; equip",
-  "nl": "med. laten halen, ontbieden; act. zenden; uitrusten"
+  "en": "set in order, equip, send; mid. furl (sails), send for",
+  "nl": "in orde brengen, uitrusten, zenden; med. (zeilen) strijken, laten halen"
  },
  "στέφος": {
   "en": "wreath, garland (of suppliants)",
@@ -27284,8 +27284,8 @@
   "nl": "wegstoten, verdrijven; mishandelen"
  },
  "συμμαχέω": {
-  "en": "fight (the form here is simple μάχομαι: fight, do battle)",
-  "nl": "vechten (hier eigenlijk μάχομαι: strijden)"
+  "en": "fight as an ally; in Il. 1 μαχέοιτο: fight (μάχομαι)",
+  "nl": "als bondgenoot meevechten; in Il. 1 μαχέοιτο: strijden (μάχομαι)"
  },
  "συμμιγής": {
   "en": "mingled, mixed together, shared",
@@ -27544,8 +27544,8 @@
   "nl": "gestalte, lichaamsbouw, groei"
  },
  "φυσάω": {
-  "en": "(treebank error: φύσει is from φύω) grow, put forth (leaves)",
-  "nl": "(lemmafout: eigenlijk φύω) groeien, (blad) voortbrengen"
+  "en": "blow, puff; φύσει here: will grow (φύω) or by nature (φύσις)",
+  "nl": "blazen; φύσει hier: zal groeien (φύω) of van nature (φύσις)"
  },
  "φυτουργός": {
   "en": "planting; (as noun) begetter, father",
@@ -27584,8 +27584,8 @@
   "nl": "de handen wassen (voor het offer)"
  },
  "χηρεύω": {
-  "en": "be bereft (of), be widowed; (lacking) wanting",
-  "nl": "beroofd zijn (van), verweduwd zijn"
+  "en": "be bereft, be widowed; be desolate, forlorn",
+  "nl": "beroofd zijn, verweduwd zijn; eenzaam, verlaten zijn"
  },
  "χθιζός": {
   "en": "of yesterday; (adverbially) yesterday",
@@ -27700,16 +27700,16 @@
   "nl": "hoorbaar"
  },
  "ἀκτή": {
-  "en": "shore, strand; (mis-read ἀχάν = ἀχή) sound, cry",
-  "nl": "kust, oever; (ἀχάν = ἀχή) geluid, klacht"
+  "en": "shore, strand; in OT ἀχάν: sound, cry (ἀχή)",
+  "nl": "kust, oever; in OT ἀχάν: geluid, klacht (ἀχή)"
  },
  "ἀλάομαι": {
   "en": "wander, roam, stray",
   "nl": "dolen, zwerven, ronddwalen"
  },
  "ἀλγίων": {
-  "en": "most painful (ἄλγιστος, superl. of ἀλγεινός)",
-  "nl": "pijnlijkst, smartelijkst (overtr.)"
+  "en": "more painful; superl. ἄλγιστος: most painful",
+  "nl": "pijnlijker; overtr. ἄλγιστος: pijnlijkst"
  },
  "ἀλγύνω": {
   "en": "pain, grieve, distress",
@@ -27768,8 +27768,8 @@
   "nl": "ongeneeslijk, onherstelbaar"
  },
  "ἀναγελάω": {
-  "en": "(mis-lemmatised) = ἀγγέλλω: announce, report",
-  "nl": "(foutief lemma) = ἀγγέλλω: melden, berichten"
+  "en": "laugh aloud; in OT: announce (ἀγγέλλω, fut. ἀγγελῶν)",
+  "nl": "hardop lachen; in OT: melden, berichten (ἀγγέλλω)"
  },
  "ἀναδύνω": {
   "en": "rise up, emerge (from the sea)",
@@ -27892,8 +27892,8 @@
   "nl": "ver weg wonen, elders wonen"
  },
  "ἀποκλάω": {
-  "en": "(mis-lemmatised) = ἀποκλαίω: weep aloud, bewail",
-  "nl": "(foutief lemma) = ἀποκλαίω: uitwenen, bewenen"
+  "en": "break off; in OT: weep aloud, bewail (ἀποκλαίω)",
+  "nl": "afbreken; in OT: luid bewenen (ἀποκλαίω)"
  },
  "ἀπολυμαίνομαι": {
   "en": "cleanse oneself, purify oneself (by washing)",
@@ -28068,8 +28068,8 @@
   "nl": "berijdbaar; (zn.) rijweg, wagenweg"
  },
  "ἁμός": {
-  "en": "my, our (poetic, = ἡμέτερος/ἐμός)",
-  "nl": "mijn, ons (dichterlijk)"
+  "en": "my, our (poetic); in OT ἁμοί: crasis of ἃ ἐμοί, 'what to me'",
+  "nl": "mijn, ons (dichterlijk); in OT ἁμοί: crasis van ἃ ἐμοί, 'wat mij'"
  },
  "ἄαπτος": {
   "en": "irresistible, invincible (of hands)",
@@ -28344,8 +28344,8 @@
   "nl": "de strijdkreet aanheffen; doen beven, doen schudden (de Olympos)"
  },
  "ἐμέω": {
-  "en": "mis-lemmatised: = ἐμός, my, mine (ἐμέω: vomit)",
-  "nl": "foutief lemma: = ἐμός, mijn (ἐμέω: braken)"
+  "en": "vomit; in OT: my, mine (ἐμός)",
+  "nl": "braken; in OT: mijn (ἐμός)"
  },
  "ἐμβατεύω": {
   "en": "set foot on, enter upon (one's homeland)",
@@ -28661,7 +28661,7 @@
  },
  "ἑκατηβόλος": {
   "en": "far-shooting, far-darter (epithet of Apollo)",
-  "nl": "verrezienschietend, ver-treffer (epithet van Apollo)"
+  "nl": "verschietend, ver-treffer (bijnaam van Apollo)"
  },
  "ἑκατόγχειρος": {
   "en": "hundred-handed (of Briareus)",
@@ -28676,8 +28676,8 @@
   "nl": "wentelen, draaien; (med.) kronkelen, opkrullen"
  },
  "ἑστία": {
-  "en": "hearth; household; (here) the Pythian seat of prophecy",
-  "nl": "haard; huis; (hier) de Pythische orakelzetel"
+  "en": "hearth, house-altar; home; (Delphi) seat of the oracle",
+  "nl": "haard, huisaltaar; huis; (Delphi) orakelzetel"
  },
  "ἑτέρωθεν": {
   "en": "from the other side, on the other side",
@@ -28736,8 +28736,8 @@
   "nl": "gunstig waaiend; (hier) voortdrijvend (pest)"
  },
  "ἔργνυμι": {
-  "en": "mis-lemmatised: = ἔργον, deed, work (τοὔργον)",
-  "nl": "foutief lemma: = ἔργον, daad, werk (τοὔργον)"
+  "en": "shut in, confine; in OT τοὔργον: the deed (ἔργον)",
+  "nl": "insluiten, opsluiten; in OT τοὔργον: de daad (ἔργον)"
  },
  "ἔρευνα": {
   "en": "search, inquiry, investigation",
@@ -28764,8 +28764,8 @@
   "nl": "Exadios, een Lapithenheld"
  },
  "Ἑκάεργος": {
-  "en": "Hekaergos, the Far-worker (epithet/name of Apollo)",
-  "nl": "Hekaergos, de Verwerker (bijnaam van Apollo)"
+  "en": "Hekaergos, the Far-worker (epithet of Apollo)",
+  "nl": "Hekaergos, de Verre-treffer (bijnaam van Apollo)"
  },
  "Ἑλικωνιάδες": {
   "en": "Heliconian Nymphs, nymphs of Mount Helicon",
@@ -28784,8 +28784,8 @@
   "nl": "zeer heilig, goddelijk (van plaatsen)"
  },
  "ἠμί": {
-  "en": "here mis-lemmatised: ἦ, interrog. particle (surely? can it be?); ἠμί: say",
-  "nl": "hier fout gelemmatiseerd: ἦ, vraagpartikel; ἠμί: zeggen"
+  "en": "say (ἦ δ’ ὅς, said he); in Il. 1 lines: ἦ, truly, surely (particle)",
+  "nl": "zeggen (ἦ δ’ ὅς, zei hij); in Il. 1: ἦ, waarlijk, voorwaar (partikel)"
  },
  "ἠριγένεια": {
   "en": "early-born, child of morning (epithet of Dawn)",
@@ -28812,8 +28812,8 @@
   "nl": "ons, mijn (= ἡμέτερος, Dorisch ἁμός)"
  },
  "ἤιος": {
-  "en": "mis-lemmatised: εὔιος, Euios, Bacchic cry-name of Dionysus",
-  "nl": "foutief lemma: εὔιος, Euios, jubelnaam van Dionysos"
+  "en": "epithet of Apollo (ἤιε); in OT εὔιον: Euios, cult name of Dionysos",
+  "nl": "bijnaam van Apollo (ἤιε); in OT εὔιον: Euios, cultusnaam van Dionysos"
  },
  "ἤρ": {
   "en": "favour, service (ἐπὶ ἦρα φέρειν: do a kindness to)",
@@ -28848,8 +28848,8 @@
   "nl": "schreeuwen; weerklinken, bruisen (van golven)"
  },
  "ἰήιος": {
-  "en": "invoked with 'ie', healing (epithet of Paian/Apollo)",
-  "nl": "aangeroepen met 'ie', helend (bijnaam van Paian/Apollo)"
+  "en": "invoked with 'ie', healing (of Paian/Apollo); woeful, lamentable",
+  "nl": "aangeroepen met 'ie', helend (van Paian/Apollo); jammerlijk, smartelijk"
  },
  "ἰού": {
   "en": "ah! oh! (cry of grief, or of surprise)",
@@ -28956,7 +28956,7 @@
   "nl": "uitstrekken (de handen)"
  },
  "ὀργαίνω": {
-  "en": "to make angry, enrage (ὀργαίνω; form ὀργάνειας)",
+  "en": "make angry, enrage",
   "nl": "boos maken, tot woede brengen"
  },
  "ὀρεσκῷος": {
@@ -29132,8 +29132,8 @@
   "nl": "ongemerkt voortkruipen, heimelijk rondgaan"
  },
  "ὑφίημι": {
-  "en": "to put up secretly, suborn; let down, submit",
-  "nl": "heimelijk inzetten, omkopen; toegeven"
+  "en": "let down, lower; put up secretly, suborn",
+  "nl": "neerlaten, strijken; heimelijk aanstellen, omkopen"
  },
  "ὑφηγητής": {
   "en": "guide, leader; interpreter (of omens)",
@@ -29225,7 +29225,7 @@
  },
  "Ἐρατοσθένης": {
   "en": "Eratosthenes (of Oe), the seducer killed by Euphiletos",
-  "nl": "Eratosthenes (uit Oë), de verleider die Euphiletos doodde"
+  "nl": "Eratosthenes (uit Oë), de verleider, gedood door Euphiletos"
  },
  "εἴσειμι": {
   "en": "go in, enter; (of thoughts) come into one's mind",
@@ -29376,8 +29376,8 @@
   "nl": "een boodschap overbrengen, aankondigen"
  },
  "προσίημι": {
-  "en": "let come to; (mid.) admit, let in",
-  "nl": "toelaten; (med.) binnenlaten, toelaten"
+  "en": "let come to, admit; in Lysias 1: approach, visit (πρόσειμι)",
+  "nl": "toelaten; in Lysias 1: naderen, benaderen (πρόσειμι)"
  },
  "Θεσμοφόρια": {
   "en": "Thesmophoria, women's festival of Demeter",
@@ -29596,8 +29596,8 @@
   "nl": "Maskas: rivier in Arabië (Mesopotamië), zijrivier van de Eufraat"
  },
  "Μένων": {
-  "en": "Menon: Thessalian general in Cyrus' army",
-  "nl": "Menon: Thessalische generaal in het leger van Kyros"
+  "en": "Menon, Thessalian general of Cyrus; Il. 1 μένων: staying (μένω)",
+  "nl": "Menon, Thessalische generaal van Kyros; Il. 1 μένων: blijvend (μένω)"
  },
  "Μίδας": {
   "en": "Midas: legendary king of Phrygia",
@@ -29737,7 +29737,7 @@
  },
  "Φωκαΐς": {
   "en": "Phocaean woman; Cyrus' concubine from Phocaea",
-  "nl": "Phokaeïsche vrouw; bijzit van Kyros uit Phokaia"
+  "nl": "vrouw uit Phokaia; bijzit van Kyros uit Phokaia"
  },
  "Χάλος": {
   "en": "Chalus: river in Syria, full of sacred fish",
@@ -30145,7 +30145,7 @@
  },
  "πλήθω": {
   "en": "be full; ἀγορὰ πλήθουσα the time of full market, mid-morning",
-  "nl": "vol zijn; ἀγορὰ πλήθουσα de drukke marktijd, halverwege de ochtend"
+  "nl": "vol zijn; ἀγορὰ πλήθουσα de drukke markttijd, halverwege de ochtend"
  },
  "πλαίσιον": {
   "en": "square, oblong formation; (in battle) hollow square",
@@ -30300,8 +30300,8 @@
   "nl": "bijeenbrengen, verzamelen; med. voor zichzelf verzamelen"
  },
  "συνεισπειράω": {
-  "en": "mid./pass. close ranks, draw together into a compact body",
-  "nl": "med./pass. de gelederen sluiten, zich aaneensluiten"
+  "en": "(mid./pass.) close ranks, draw together into a compact body",
+  "nl": "(med./pass.) de gelederen sluiten, zich aaneensluiten"
  },
  "συνεκβιβάζω": {
   "en": "help to get out, help to extricate",
